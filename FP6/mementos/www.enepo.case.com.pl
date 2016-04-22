@@ -1,0 +1,50 @@
+{"original_uri":"http://www.enepo.case.com.pl/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.enepo.case.com.pl/",
+"mementos": {
+"list": [
+{"datetime":"2006-08-31T15:12:09Z",
+"uri":"http://web.archive.org/web/20060831151209/http://enepo.case.com.pl/"
+},
+{"datetime":"2006-12-18T20:37:58Z",
+"uri":"http://web.archive.org/web/20061218203758/http://enepo.case.com.pl/"
+},
+{"datetime":"2007-02-05T02:13:11Z",
+"uri":"http://web.archive.org/web/20070205021311/http://enepo.case.com.pl/"
+},
+{"datetime":"2007-05-01T16:58:52Z",
+"uri":"http://web.archive.org/web/20070501165852/http://enepo.case.com.pl/"
+},
+{"datetime":"2007-06-12T06:41:11Z",
+"uri":"http://web.archive.org/web/20070612064111/http://enepo.case.com.pl/"
+},
+{"datetime":"2007-06-12T06:41:11Z",
+"uri":"http://web.archive.bibalex.org:80/web/20070612064111/http://enepo.case.com.pl/"
+},
+{"datetime":"2007-06-23T22:24:18Z",
+"uri":"http://web.archive.org/web/20070623222418/http://enepo.case.com.pl/"
+},
+{"datetime":"2007-08-03T18:24:38Z",
+"uri":"http://web.archive.org/web/20070803182438/http://enepo.case.com.pl/"
+},
+{"datetime":"2007-11-17T09:44:26Z",
+"uri":"http://web.archive.org/web/20071117094426/http://enepo.case.com.pl/"
+},
+{"datetime":"2008-02-12T22:45:01Z",
+"uri":"http://web.archive.org/web/20080212224501/http://enepo.case.com.pl/"
+},
+{"datetime":"2008-04-13T13:32:24Z",
+"uri":"http://web.archive.org/web/20080413133224/http://enepo.case.com.pl/"
+},
+{"datetime":"2008-09-08T04:29:25Z",
+"uri":"http://web.archive.org/web/20080908042925/http://enepo.case.com.pl/"
+},
+{"datetime":"2010-01-22T04:31:45Z",
+"uri":"http://web.archive.org/web/20100122043145/http://www.enepo.case.com.pl/"
+},
+{"datetime":"2010-11-17T19:39:39Z",
+"uri":"http://web.archive.org/web/20101117193939/http://enepo.case.com.pl/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.enepo.case.com.pl/"}
+ }

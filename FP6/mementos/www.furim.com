@@ -1,0 +1,62 @@
+{"original_uri":"http://www.furim.com/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.furim.com/",
+"mementos": {
+"list": [
+{"datetime":"2004-12-06T06:28:03Z",
+"uri":"http://web.archive.org/web/20041206062803/http://www.furim.com/"
+},
+{"datetime":"2004-12-06T06:28:03Z",
+"uri":"http://web.archive.bibalex.org:80/web/20041206062803/http://www.furim.com/"
+},
+{"datetime":"2005-01-31T23:34:44Z",
+"uri":"http://web.archive.org/web/20050131233444/http://furim.com/"
+},
+{"datetime":"2005-01-31T23:34:44Z",
+"uri":"http://web.archive.bibalex.org:80/web/20050131233444/http://furim.com/"
+},
+{"datetime":"2005-02-09T17:18:27Z",
+"uri":"http://web.archive.org/web/20050209171827/http://www.furim.com/"
+},
+{"datetime":"2005-02-09T17:18:27Z",
+"uri":"http://web.archive.bibalex.org:80/web/20050209171827/http://www.furim.com/"
+},
+{"datetime":"2005-03-22T08:25:33Z",
+"uri":"http://web.archive.org/web/20050322082533/http://www.furim.com/"
+},
+{"datetime":"2005-03-22T08:25:33Z",
+"uri":"http://web.archive.bibalex.org:80/web/20050322082533/http://www.furim.com/"
+},
+{"datetime":"2006-06-14T16:36:54Z",
+"uri":"http://web.archive.org/web/20060614163654/http://www.furim.com/"
+},
+{"datetime":"2007-10-21T05:11:20Z",
+"uri":"http://web.archive.org/web/20071021051120/http://furim.com/"
+},
+{"datetime":"2007-10-21T05:11:20Z",
+"uri":"http://web.archive.bibalex.org:80/web/20071021051120/http://furim.com/"
+},
+{"datetime":"2008-10-16T16:50:29Z",
+"uri":"http://web.archive.org/web/20081016165029/http://www.furim.com/"
+},
+{"datetime":"2013-06-10T14:28:30Z",
+"uri":"http://web.archive.org/web/20130610142830/http://furim.com/"
+},
+{"datetime":"2014-05-17T11:50:10Z",
+"uri":"http://web.archive.org/web/20140517115010/http://furim.com/"
+},
+{"datetime":"2014-12-17T08:12:38Z",
+"uri":"http://web.archive.org/web/20141217081238/http://furim.com/"
+},
+{"datetime":"2015-08-01T16:32:54Z",
+"uri":"http://web.archive.org/web/20150801163254/http://furim.com/"
+},
+{"datetime":"2016-01-10T01:32:57Z",
+"uri":"http://web.archive.org/web/20160110013257/http://furim.com/"
+},
+{"datetime":"2016-03-08T13:42:08Z",
+"uri":"http://web.archive.org/web/20160308134208/http://furim.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.furim.com/"}
+ }

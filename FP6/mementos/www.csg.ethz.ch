@@ -1,0 +1,56 @@
+{"original_uri":"http://www.csg.ethz.ch/people/dimitroc",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.csg.ethz.ch/people/dimitroc",
+"mementos": {
+"list": [
+{"datetime":"2009-02-02T09:39:06Z",
+"uri":"http://web.archive.org/web/20090202093906/http://csg.ethz.ch/people/dimitroc"
+},
+{"datetime":"2009-02-02T09:39:06Z",
+"uri":"http://web.archive.org/web/20090202093906/http://www.csg.ethz.ch/people/dimitroc"
+},
+{"datetime":"2012-03-09T00:38:46Z",
+"uri":"http://web.archive.org/web/20120309003846/http://www.csg.ethz.ch/people/dimitroc"
+},
+{"datetime":"2012-04-02T04:38:30Z",
+"uri":"http://web.archive.org/web/20120402043830/http://www.csg.ethz.ch/people/dimitroc"
+},
+{"datetime":"2012-04-19T12:30:45Z",
+"uri":"http://web.archive.org/web/20120419123045/http://www.csg.ethz.ch/people/dimitroc"
+},
+{"datetime":"2012-06-26T18:34:22Z",
+"uri":"http://web.archive.org/web/20120626183422/http://www.csg.ethz.ch/people/dimitroc"
+},
+{"datetime":"2013-09-21T18:59:27Z",
+"uri":"http://web.archive.org/web/20130921185927/http://www.csg.ethz.ch/people/dimitroc"
+},
+{"datetime":"2014-02-08T06:58:04Z",
+"uri":"http://web.archive.org/web/20140208065804/http://www.csg.ethz.ch/people/dimitroc"
+},
+{"datetime":"2014-07-20T16:17:32Z",
+"uri":"http://web.archive.org/web/20140720161732/http://www.csg.ethz.ch/people/dimitroc"
+},
+{"datetime":"2014-10-01T15:27:51Z",
+"uri":"http://web.archive.org/web/20141001152751/http://www.csg.ethz.ch/people/dimitroc"
+},
+{"datetime":"2014-12-19T22:01:35Z",
+"uri":"http://web.archive.org/web/20141219220135/http://www.csg.ethz.ch/people/dimitroc"
+},
+{"datetime":"2015-03-29T10:48:54Z",
+"uri":"http://web.archive.org/web/20150329104854/http://www.csg.ethz.ch/people/dimitroc"
+},
+{"datetime":"2015-06-11T10:23:19Z",
+"uri":"http://web.archive.org/web/20150611102319/http://www.csg.ethz.ch/people/dimitroc"
+},
+{"datetime":"2015-09-13T03:21:48Z",
+"uri":"http://web.archive.org/web/20150913032148/http://www.csg.ethz.ch/people/dimitroc"
+},
+{"datetime":"2015-10-09T01:07:32Z",
+"uri":"http://web.archive.org/web/20151009010732/http://www.csg.ethz.ch/people/dimitroc"
+},
+{"datetime":"2016-03-11T15:34:08Z",
+"uri":"http://web.archive.org/web/20160311153408/http://www.csg.ethz.ch/people/dimitroc"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.csg.ethz.ch/people/dimitroc"}
+ }

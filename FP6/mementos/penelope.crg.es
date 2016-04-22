@@ -1,0 +1,62 @@
+{"original_uri":"http://penelope.crg.es",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://penelope.crg.es",
+"mementos": {
+"list": [
+{"datetime":"2007-12-29T11:36:38Z",
+"uri":"http://web.archive.bibalex.org:80/web/20071229113638/http://penelope.crg.es/"
+},
+{"datetime":"2007-12-29T11:36:38Z",
+"uri":"http://web.archive.org/web/20071229113638/http://penelope.crg.es/"
+},
+{"datetime":"2008-01-29T11:27:59Z",
+"uri":"http://web.archive.org/web/20080129112759/http://penelope.crg.es/"
+},
+{"datetime":"2008-03-04T08:47:38Z",
+"uri":"http://web.archive.org/web/20080304084738/http://penelope.crg.es/"
+},
+{"datetime":"2008-04-10T22:45:23Z",
+"uri":"http://web.archive.org/web/20080410224523/http://penelope.crg.es/"
+},
+{"datetime":"2008-10-08T11:22:46Z",
+"uri":"http://web.archive.org/web/20081008112246/http://penelope.crg.es/"
+},
+{"datetime":"2009-12-22T12:54:42Z",
+"uri":"http://web.archive.org/web/20091222125442/http://penelope.crg.es/"
+},
+{"datetime":"2011-07-04T12:58:18Z",
+"uri":"http://web.archive.org/web/20110704125818/http://penelope.crg.es/"
+},
+{"datetime":"2011-07-24T08:23:08Z",
+"uri":"http://web.archive.org/web/20110724082308/http://penelope.crg.es/"
+},
+{"datetime":"2011-09-02T00:42:43Z",
+"uri":"http://web.archive.org/web/20110902004243/http://penelope.crg.es/"
+},
+{"datetime":"2011-09-15T04:02:19Z",
+"uri":"http://web.archive.org/web/20110915040219/http://penelope.crg.es/"
+},
+{"datetime":"2011-09-21T22:13:47Z",
+"uri":"http://web.archive.org/web/20110921221347/http://penelope.crg.es/"
+},
+{"datetime":"2012-02-07T05:14:57Z",
+"uri":"http://web.archive.org/web/20120207051457/http://penelope.crg.es/"
+},
+{"datetime":"2012-06-16T16:13:26Z",
+"uri":"http://web.archive.org/web/20120616161326/http://penelope.crg.es/"
+},
+{"datetime":"2013-06-07T12:50:41Z",
+"uri":"http://web.archive.org/web/20130607125041/http://penelope.crg.es/"
+},
+{"datetime":"2013-06-14T03:02:51Z",
+"uri":"http://web.archive.org/web/20130614030251/http://penelope.crg.es/"
+},
+{"datetime":"2014-05-24T18:56:01Z",
+"uri":"https://archive.is/20140524185601/http://penelope.crg.es/"
+},
+{"datetime":"2016-03-10T03:52:36Z",
+"uri":"http://web.archive.org/web/20160310035236/http://penelope.crg.es/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://penelope.crg.es"}
+ }

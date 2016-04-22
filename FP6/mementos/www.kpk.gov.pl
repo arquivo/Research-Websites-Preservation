@@ -1,0 +1,59 @@
+{"original_uri":"http://www.kpk.gov.pl/fet-eeu/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.kpk.gov.pl/fet-eeu/",
+"mementos": {
+"list": [
+{"datetime":"2005-10-23T19:47:28Z",
+"uri":"http://web.archive.org/web/20051023194728/http://www.kpk.gov.pl/fet-eeu/"
+},
+{"datetime":"2005-10-23T19:47:28Z",
+"uri":"http://web.archive.bibalex.org:80/web/20051023194728/http://www.kpk.gov.pl/fet-eeu/"
+},
+{"datetime":"2005-10-26T05:58:29Z",
+"uri":"http://web.archive.org/web/20051026055829/http://www.kpk.gov.pl/fet-eeu/"
+},
+{"datetime":"2005-10-26T05:58:29Z",
+"uri":"http://web.archive.bibalex.org:80/web/20051026055829/http://www.kpk.gov.pl/fet-eeu/"
+},
+{"datetime":"2006-06-20T02:32:43Z",
+"uri":"http://web.archive.org/web/20060620023243/http://www.kpk.gov.pl/fet-eeu/"
+},
+{"datetime":"2006-07-15T20:26:13Z",
+"uri":"http://web.archive.org/web/20060715202613/http://www.kpk.gov.pl/fet-eeu/"
+},
+{"datetime":"2006-08-15T01:29:57Z",
+"uri":"http://web.archive.org/web/20060815012957/http://www.kpk.gov.pl/fet-eeu/"
+},
+{"datetime":"2006-08-22T22:07:03Z",
+"uri":"http://web.archive.org/web/20060822220703/http://www.kpk.gov.pl/fet-eeu/"
+},
+{"datetime":"2006-08-31T22:25:46Z",
+"uri":"http://web.archive.org/web/20060831222546/http://www.kpk.gov.pl/fet-eeu/"
+},
+{"datetime":"2006-09-02T09:16:02Z",
+"uri":"http://web.archive.org/web/20060902091602/http://www.kpk.gov.pl/fet-eeu/"
+},
+{"datetime":"2006-09-05T12:20:21Z",
+"uri":"http://web.archive.org/web/20060905122021/http://www.kpk.gov.pl/fet-eeu/"
+},
+{"datetime":"2006-09-10T00:16:25Z",
+"uri":"http://web.archive.org/web/20060910001625/http://www.kpk.gov.pl/fet-eeu/"
+},
+{"datetime":"2006-10-03T18:19:54Z",
+"uri":"http://web.archive.org/web/20061003181954/http://www.kpk.gov.pl/fet-eeu/"
+},
+{"datetime":"2006-10-20T10:33:29Z",
+"uri":"http://web.archive.org/web/20061020103329/http://www.kpk.gov.pl/fet-eeu/"
+},
+{"datetime":"2007-02-08T07:26:50Z",
+"uri":"http://web.archive.org/web/20070208072650/http://www.kpk.gov.pl/fet-eeu/"
+},
+{"datetime":"2008-08-27T21:39:52Z",
+"uri":"http://web.archive.org/web/20080827213952/http://www.kpk.gov.pl/fet-eeu/"
+},
+{"datetime":"2010-12-30T05:00:39Z",
+"uri":"http://web.archive.org/web/20101230050039/http://www.kpk.gov.pl/fet-eeu/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.kpk.gov.pl/fet-eeu/"}
+ }

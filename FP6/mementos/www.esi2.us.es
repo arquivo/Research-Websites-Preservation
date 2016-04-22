@@ -1,0 +1,59 @@
+{"original_uri":"http://www.esi2.us.es/~eduardo/TOK/tok3092.htm",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.esi2.us.es/~eduardo/TOK/tok3092.htm",
+"mementos": {
+"list": [
+{"datetime":"2004-12-08T18:49:00Z",
+"uri":"http://web.archive.org/web/20041208184900/http://www.esi2.us.es/~eduardo/TOK/tok3092.htm"
+},
+{"datetime":"2005-02-09T02:51:18Z",
+"uri":"http://web.archive.org/web/20050209025118/http://www.esi2.us.es/~eduardo/TOK/tok3092.htm"
+},
+{"datetime":"2005-02-14T15:00:44Z",
+"uri":"http://web.archive.org/web/20050214150044/http://www.esi2.us.es/~eduardo/TOK/tok3092.htm"
+},
+{"datetime":"2005-03-13T04:48:55Z",
+"uri":"http://web.archive.org/web/20050313044855/http://www.esi2.us.es/~eduardo/TOK/tok3092.htm"
+},
+{"datetime":"2005-04-07T17:47:31Z",
+"uri":"http://web.archive.org/web/20050407174731/http://www.esi2.us.es/~eduardo/TOK/tok3092.htm"
+},
+{"datetime":"2006-05-18T19:29:49Z",
+"uri":"http://web.archive.org/web/20060518192949/http://www.esi2.us.es/%7Eeduardo/TOK/tok3092.htm"
+},
+{"datetime":"2006-12-22T07:42:26Z",
+"uri":"http://web.archive.org/web/20061222074226/http://www.esi2.us.es/%7Eeduardo/TOK/tok3092.htm"
+},
+{"datetime":"2008-05-05T21:58:33Z",
+"uri":"http://web.archive.org/web/20080505215833/http://www.esi2.us.es/%7Eeduardo/TOK/tok3092.htm"
+},
+{"datetime":"2009-01-05T23:32:45Z",
+"uri":"http://web.archive.org/web/20090105233245/http://www.esi2.us.es/%7Eeduardo/TOK/tok3092.htm"
+},
+{"datetime":"2009-03-31T09:40:54Z",
+"uri":"http://web.archive.org/web/20090331094054/http://www.esi2.us.es/%7Eeduardo/TOK/tok3092.htm"
+},
+{"datetime":"2009-12-21T08:53:37Z",
+"uri":"http://web.archive.org/web/20091221085337/http://www.esi2.us.es/%7Eeduardo/TOK/tok3092.htm"
+},
+{"datetime":"2010-04-02T15:29:33Z",
+"uri":"http://web.archive.org/web/20100402152933/http://www.esi2.us.es/%7Eeduardo/TOK/tok3092.htm"
+},
+{"datetime":"2010-04-06T12:37:56Z",
+"uri":"http://web.archive.org/web/20100406123756/http://www.esi2.us.es/%7Eeduardo/TOK/tok3092.htm"
+},
+{"datetime":"2010-06-23T22:49:00Z",
+"uri":"http://web.archive.org/web/20100623224900/http://www.esi2.us.es/%7Eeduardo/TOK/tok3092.htm"
+},
+{"datetime":"2010-09-22T12:58:55Z",
+"uri":"http://web.archive.org/web/20100922125855/http://www.esi2.us.es/%7Eeduardo/TOK/tok3092.htm"
+},
+{"datetime":"2012-06-27T09:44:17Z",
+"uri":"http://web.archive.org/web/20120627094417/http://www.esi2.us.es/%7Eeduardo/TOK/tok3092.htm"
+},
+{"datetime":"2012-06-29T20:15:25Z",
+"uri":"http://web.archive.org/web/20120629201525/http://www.esi2.us.es/%7Eeduardo/TOK/tok3092.htm"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.esi2.us.es/~eduardo/TOK/tok3092.htm"}
+ }

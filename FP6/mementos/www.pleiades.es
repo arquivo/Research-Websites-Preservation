@@ -1,0 +1,62 @@
+{"original_uri":"http://www.pleiades.es",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.pleiades.es",
+"mementos": {
+"list": [
+{"datetime":"2008-09-23T23:15:26Z",
+"uri":"http://web.archive.org/web/20080923231526/http://www.pleiades.es/"
+},
+{"datetime":"2009-02-09T22:24:03Z",
+"uri":"http://web.archive.org/web/20090209222403/http://www.pleiades.es/"
+},
+{"datetime":"2009-12-23T16:06:24Z",
+"uri":"http://web.archive.org/web/20091223160624/http://www.pleiades.es/"
+},
+{"datetime":"2010-06-19T09:17:41Z",
+"uri":"http://web.archive.org/web/20100619091741/http://www.pleiades.es/"
+},
+{"datetime":"2010-09-19T04:55:46Z",
+"uri":"http://web.archive.org/web/20100919045546/http://www.pleiades.es/"
+},
+{"datetime":"2011-04-08T21:14:48Z",
+"uri":"http://web.archive.org/web/20110408211448/http://www.pleiades.es/"
+},
+{"datetime":"2011-07-24T07:43:57Z",
+"uri":"http://web.archive.org/web/20110724074357/http://www.pleiades.es/"
+},
+{"datetime":"2011-07-24T16:39:01Z",
+"uri":"http://web.archive.org/web/20110724163901/http://www.pleiades.es/"
+},
+{"datetime":"2011-07-24T16:53:05Z",
+"uri":"http://web.archive.org/web/20110724165305/http://www.pleiades.es/"
+},
+{"datetime":"2011-09-02T12:08:31Z",
+"uri":"http://web.archive.org/web/20110902120831/http://www.pleiades.es/"
+},
+{"datetime":"2012-04-22T07:33:28Z",
+"uri":"http://web.archive.org/web/20120422073328/http://www.pleiades.es/"
+},
+{"datetime":"2012-06-20T11:41:31Z",
+"uri":"http://web.archive.org/web/20120620114131/http://www.pleiades.es/"
+},
+{"datetime":"2012-06-26T18:31:25Z",
+"uri":"http://web.archive.org/web/20120626183125/http://www.pleiades.es/"
+},
+{"datetime":"2013-01-23T00:58:37Z",
+"uri":"http://www.webcitation.org/6DsF9Qb0c"
+},
+{"datetime":"2013-01-23T00:58:37Z",
+"uri":"http://www.webcitation.org/6DsF8lauz"
+},
+{"datetime":"2014-04-12T21:40:31Z",
+"uri":"https://archive.is/20140412214031/http://www.pleiades.es/"
+},
+{"datetime":"2015-01-17T21:41:11Z",
+"uri":"http://web.archive.org/web/20150117214111/http://www.pleiades.es/"
+},
+{"datetime":"2016-03-03T21:16:34Z",
+"uri":"http://web.archive.org/web/20160303211634/http://www.pleiades.es/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.pleiades.es"}
+ }

@@ -1,0 +1,53 @@
+{"original_uri":"http://www.mib.wur.nl",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.mib.wur.nl",
+"mementos": {
+"list": [
+{"datetime":"2007-01-24T22:56:34Z",
+"uri":"http://web.archive.org/web/20070124225634/http://www.mib.wur.nl/"
+},
+{"datetime":"2007-03-25T20:07:18Z",
+"uri":"http://web.archive.org/web/20070325200718/http://www.mib.wur.nl/"
+},
+{"datetime":"2007-03-26T22:58:25Z",
+"uri":"http://web.archive.org/web/20070326225825/http://www.mib.wur.nl/"
+},
+{"datetime":"2007-08-24T10:22:31Z",
+"uri":"http://web.archive.org/web/20070824102231/http://www.mib.wur.nl/"
+},
+{"datetime":"2007-12-01T13:41:36Z",
+"uri":"http://web.archive.org/web/20071201134136/http://www.mib.wur.nl/"
+},
+{"datetime":"2007-12-01T13:41:36Z",
+"uri":"http://web.archive.bibalex.org:80/web/20071201134136/http://www.mib.wur.nl/"
+},
+{"datetime":"2008-01-10T14:25:16Z",
+"uri":"http://web.archive.org/web/20080110142516/http://www.mib.wur.nl/"
+},
+{"datetime":"2008-03-11T06:18:59Z",
+"uri":"http://web.archive.org/web/20080311061859/http://www.mib.wur.nl/"
+},
+{"datetime":"2008-05-11T20:09:23Z",
+"uri":"http://web.archive.org/web/20080511200923/http://www.mib.wur.nl/"
+},
+{"datetime":"2009-11-30T00:11:18Z",
+"uri":"http://web.archive.org/web/20091130001118/http://www.mib.wur.nl/"
+},
+{"datetime":"2010-08-18T21:13:05Z",
+"uri":"http://web.archive.org/web/20100818211305/http://www.mib.wur.nl/"
+},
+{"datetime":"2010-09-14T21:08:10Z",
+"uri":"http://web.archive.org/web/20100914210810/http://www.mib.wur.nl/"
+},
+{"datetime":"2011-10-31T13:41:50Z",
+"uri":"http://web.archive.org/web/20111031134150/http://www.mib.wur.nl/"
+},
+{"datetime":"2012-01-04T01:53:36Z",
+"uri":"http://web.archive.org/web/20120104015336/http://www.mib.wur.nl/"
+},
+{"datetime":"2014-02-23T23:07:35Z",
+"uri":"http://web.archive.org/web/20140223230735/http://www.mib.wur.nl/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.mib.wur.nl"}
+ }

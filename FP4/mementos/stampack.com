@@ -1,0 +1,62 @@
+{"original_uri":"http://stampack.com/quantech/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://stampack.com/quantech/",
+"mementos": {
+"list": [
+{"datetime":"2016-03-04T17:41:02Z",
+"uri":"http://web.archive.org/web/20160304174102/http://stampack.com/quantech"
+},
+{"datetime":"2016-03-04T17:41:05Z",
+"uri":"http://web.archive.org/web/20160304174105/http://stampack.com/quantech/"
+},
+{"datetime":"2016-03-05T07:01:05Z",
+"uri":"http://web.archive.org/web/20160305070105/http://stampack.com/quantech"
+},
+{"datetime":"2016-03-05T07:01:09Z",
+"uri":"http://web.archive.org/web/20160305070109/http://stampack.com/quantech/"
+},
+{"datetime":"2016-03-06T08:52:40Z",
+"uri":"http://web.archive.org/web/20160306085240/http://stampack.com/quantech"
+},
+{"datetime":"2016-03-06T08:52:43Z",
+"uri":"http://web.archive.org/web/20160306085243/http://stampack.com/quantech/"
+},
+{"datetime":"2016-03-14T01:33:34Z",
+"uri":"http://web.archive.org/web/20160314013334/http://stampack.com/quantech"
+},
+{"datetime":"2016-03-14T13:47:49Z",
+"uri":"http://web.archive.org/web/20160314134749/http://stampack.com/quantech/"
+},
+{"datetime":"2016-03-15T02:56:21Z",
+"uri":"http://web.archive.org/web/20160315025621/http://stampack.com/quantech"
+},
+{"datetime":"2016-03-15T02:56:27Z",
+"uri":"http://web.archive.org/web/20160315025627/http://stampack.com/quantech/"
+},
+{"datetime":"2016-03-15T03:00:06Z",
+"uri":"http://web.archive.org/web/20160315030006/http://stampack.com/quantech"
+},
+{"datetime":"2016-03-15T09:05:08Z",
+"uri":"http://web.archive.org/web/20160315090508/http://stampack.com/quantech"
+},
+{"datetime":"2016-03-15T09:05:17Z",
+"uri":"http://web.archive.org/web/20160315090517/http://stampack.com/quantech/"
+},
+{"datetime":"2016-03-15T10:42:05Z",
+"uri":"http://web.archive.org/web/20160315104205/http://stampack.com/quantech/"
+},
+{"datetime":"2016-03-17T00:00:17Z",
+"uri":"http://web.archive.org/web/20160317000017/http://stampack.com/quantech"
+},
+{"datetime":"2016-03-17T00:00:20Z",
+"uri":"http://web.archive.org/web/20160317000020/http://stampack.com/quantech/"
+},
+{"datetime":"2016-03-25T10:59:56Z",
+"uri":"http://web.archive.org/web/20160325105956/http://stampack.com/quantech"
+},
+{"datetime":"2016-03-25T11:00:01Z",
+"uri":"http://web.archive.org/web/20160325110001/http://stampack.com/quantech/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://stampack.com/quantech/"}
+ }

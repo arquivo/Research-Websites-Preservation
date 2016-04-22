@@ -1,0 +1,59 @@
+{"original_uri":"http://www.inscapers.com/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.inscapers.com/",
+"mementos": {
+"list": [
+{"datetime":"2004-11-09T01:40:17Z",
+"uri":"https://archive.is/20041109014017/http://www.inscapers.com/"
+},
+{"datetime":"2009-07-10T01:38:35Z",
+"uri":"http://wayback.archive-it.org/all/20090710013835/http://www.inscapers.com/"
+},
+{"datetime":"2011-01-10T03:08:51Z",
+"uri":"http://wayback.archive-it.org/all/20110110030851/http://www.inscapers.com/"
+},
+{"datetime":"2011-04-10T02:55:21Z",
+"uri":"http://wayback.archive-it.org/all/20110410025521/http://www.inscapers.com/"
+},
+{"datetime":"2011-07-10T05:44:09Z",
+"uri":"http://wayback.archive-it.org/all/20110710054409/http://www.inscapers.com/"
+},
+{"datetime":"2011-10-10T03:41:24Z",
+"uri":"http://wayback.archive-it.org/all/20111010034124/http://www.inscapers.com/"
+},
+{"datetime":"2012-01-10T04:35:19Z",
+"uri":"http://wayback.archive-it.org/all/20120110043519/http://www.inscapers.com/"
+},
+{"datetime":"2012-08-10T22:49:38Z",
+"uri":"http://wayback.archive-it.org/all/20120810224938/http://www.inscapers.com/"
+},
+{"datetime":"2013-02-11T02:22:44Z",
+"uri":"http://wayback.archive-it.org/all/20130211022244/http://www.inscapers.com/"
+},
+{"datetime":"2013-05-11T01:02:08Z",
+"uri":"http://wayback.archive-it.org/all/20130511010208/http://www.inscapers.com/"
+},
+{"datetime":"2013-07-04T16:19:57Z",
+"uri":"http://wayback.archive-it.org/all/20130704161957/http://www.inscapers.com/"
+},
+{"datetime":"2013-07-04T16:46:27Z",
+"uri":"http://wayback.archive-it.org/all/20130704164627/http://www.inscapers.com/"
+},
+{"datetime":"2013-08-04T20:03:06Z",
+"uri":"http://wayback.archive-it.org/all/20130804200306/http://www.inscapers.com/"
+},
+{"datetime":"2013-09-04T20:28:42Z",
+"uri":"http://wayback.archive-it.org/all/20130904202842/http://www.inscapers.com/"
+},
+{"datetime":"2013-10-04T23:55:19Z",
+"uri":"http://wayback.archive-it.org/all/20131004235519/http://www.inscapers.com/"
+},
+{"datetime":"2013-10-05T04:58:43Z",
+"uri":"http://wayback.archive-it.org/all/20131005045843/http://www.inscapers.com/"
+},
+{"datetime":"2014-04-19T09:31:30Z",
+"uri":"https://archive.is/20140419093130/http://www.inscapers.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.inscapers.com/"}
+ }

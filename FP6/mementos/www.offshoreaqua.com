@@ -1,0 +1,59 @@
+{"original_uri":"http://www.offshoreaqua.com/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.offshoreaqua.com/",
+"mementos": {
+"list": [
+{"datetime":"2010-03-13T13:20:03Z",
+"uri":"http://web.archive.org/web/20100313132003/http://www.offshoreaqua.com/"
+},
+{"datetime":"2010-04-13T21:28:43Z",
+"uri":"http://web.archive.org/web/20100413212843/http://www.offshoreaqua.com/"
+},
+{"datetime":"2010-08-03T07:18:27Z",
+"uri":"http://web.archive.org/web/20100803071827/http://www.offshoreaqua.com/"
+},
+{"datetime":"2010-09-03T22:47:06Z",
+"uri":"http://web.archive.org/web/20100903224706/http://www.offshoreaqua.com/"
+},
+{"datetime":"2011-02-01T12:27:02Z",
+"uri":"http://web.archive.org/web/20110201122702/http://offshoreaqua.com/"
+},
+{"datetime":"2011-07-18T23:50:32Z",
+"uri":"http://web.archive.org/web/20110718235032/http://www.offshoreaqua.com/"
+},
+{"datetime":"2013-06-14T08:00:41Z",
+"uri":"http://web.archive.org/web/20130614080041/http://offshoreaqua.com/"
+},
+{"datetime":"2013-12-06T23:43:58Z",
+"uri":"http://web.archive.org/web/20131206234358/http://www.offshoreaqua.com/"
+},
+{"datetime":"2014-01-05T18:33:23Z",
+"uri":"http://web.archive.org/web/20140105183323/http://offshoreaqua.com/"
+},
+{"datetime":"2014-02-10T03:48:01Z",
+"uri":"http://web.archive.org/web/20140210034801/http://www.offshoreaqua.com/"
+},
+{"datetime":"2014-05-17T20:10:46Z",
+"uri":"http://web.archive.org/web/20140517201046/http://offshoreaqua.com/"
+},
+{"datetime":"2014-12-17T23:20:42Z",
+"uri":"http://web.archive.org/web/20141217232042/http://offshoreaqua.com/"
+},
+{"datetime":"2014-12-21T10:09:46Z",
+"uri":"http://web.archive.org/web/20141221100946/http://www.offshoreaqua.com/"
+},
+{"datetime":"2015-08-01T18:12:52Z",
+"uri":"http://web.archive.org/web/20150801181252/http://offshoreaqua.com/"
+},
+{"datetime":"2016-01-10T12:56:09Z",
+"uri":"http://web.archive.org/web/20160110125609/http://offshoreaqua.com/"
+},
+{"datetime":"2016-02-01T00:13:59Z",
+"uri":"http://web.archive.org/web/20160201001359/http://www.offshoreaqua.com/"
+},
+{"datetime":"2016-03-04T17:06:35Z",
+"uri":"http://web.archive.org/web/20160304170635/http://offshoreaqua.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.offshoreaqua.com/"}
+ }
