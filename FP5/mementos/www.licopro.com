@@ -1,0 +1,65 @@
+{"original_uri":"http://www.licopro.com",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.licopro.com",
+"mementos": {
+"list": [
+{"datetime":"2004-01-27T01:22:50Z",
+"uri":"http://web.archive.org/web/20040127012250/http://www.licopro.com/"
+},
+{"datetime":"2004-01-27T01:22:50Z",
+"uri":"http://web.archive.bibalex.org:80/web/20040127012250/http://www.licopro.com/"
+},
+{"datetime":"2004-03-20T14:30:14Z",
+"uri":"http://web.archive.org/web/20040320143014/http://licopro.com/"
+},
+{"datetime":"2004-03-20T14:30:14Z",
+"uri":"http://web.archive.bibalex.org:80/web/20040320143014/http://licopro.com/"
+},
+{"datetime":"2004-05-18T16:47:07Z",
+"uri":"http://web.archive.org/web/20040518164707/http://licopro.com/"
+},
+{"datetime":"2004-05-18T16:47:07Z",
+"uri":"http://web.archive.bibalex.org:80/web/20040518164707/http://licopro.com/"
+},
+{"datetime":"2004-08-28T16:58:32Z",
+"uri":"http://web.archive.org/web/20040828165832/http://licopro.com/"
+},
+{"datetime":"2004-08-28T16:58:32Z",
+"uri":"http://web.archive.bibalex.org:80/web/20040828165832/http://licopro.com/"
+},
+{"datetime":"2004-09-25T08:17:37Z",
+"uri":"http://web.archive.org/web/20040925081737/http://licopro.com/"
+},
+{"datetime":"2004-09-25T08:17:37Z",
+"uri":"http://web.archive.bibalex.org:80/web/20040925081737/http://licopro.com/"
+},
+{"datetime":"2005-02-05T17:20:59Z",
+"uri":"http://web.archive.org/web/20050205172059/http://licopro.com/"
+},
+{"datetime":"2005-02-05T17:20:59Z",
+"uri":"http://web.archive.bibalex.org:80/web/20050205172059/http://licopro.com/"
+},
+{"datetime":"2005-04-08T04:38:42Z",
+"uri":"http://web.archive.org/web/20050408043842/http://www.licopro.com/"
+},
+{"datetime":"2005-04-08T04:38:42Z",
+"uri":"http://web.archive.bibalex.org:80/web/20050408043842/http://www.licopro.com/"
+},
+{"datetime":"2005-04-28T16:17:46Z",
+"uri":"http://web.archive.org/web/20050428161746/http://www.licopro.com/"
+},
+{"datetime":"2005-04-28T16:17:46Z",
+"uri":"http://web.archive.bibalex.org:80/web/20050428161746/http://www.licopro.com/"
+},
+{"datetime":"2005-08-17T02:44:28Z",
+"uri":"http://web.archive.org/web/20050817024428/http://www.licopro.com/"
+},
+{"datetime":"2005-08-17T02:44:28Z",
+"uri":"http://web.archive.bibalex.org:80/web/20050817024428/http://www.licopro.com/"
+},
+{"datetime":"2016-03-10T00:29:36Z",
+"uri":"http://web.archive.org/web/20160310002936/http://licopro.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.licopro.com"}
+ }

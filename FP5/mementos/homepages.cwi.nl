@@ -1,0 +1,56 @@
+{"original_uri":"http://homepages.cwi.nl/~foundit/homepage.html",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://homepages.cwi.nl/~foundit/homepage.html",
+"mementos": {
+"list": [
+{"datetime":"2003-07-06T23:24:32Z",
+"uri":"http://web.archive.org/web/20030706232432/http://homepages.cwi.nl/~foundit/homepage.html"
+},
+{"datetime":"2003-08-06T23:55:14Z",
+"uri":"http://web.archive.org/web/20030806235514/http://homepages.cwi.nl/~foundit/homepage.html"
+},
+{"datetime":"2003-10-30T03:50:45Z",
+"uri":"http://web.archive.org/web/20031030035045/http://homepages.cwi.nl/~foundit/homepage.html"
+},
+{"datetime":"2003-12-13T08:23:44Z",
+"uri":"http://web.archive.org/web/20031213082344/http://homepages.cwi.nl/~foundit/homepage.html"
+},
+{"datetime":"2004-03-19T23:07:34Z",
+"uri":"http://web.archive.org/web/20040319230734/http://homepages.cwi.nl/~foundit/homepage.html"
+},
+{"datetime":"2004-05-28T01:21:17Z",
+"uri":"http://web.archive.org/web/20040528012117/http://homepages.cwi.nl/~foundit/homepage.html"
+},
+{"datetime":"2004-06-19T17:47:20Z",
+"uri":"http://web.archive.org/web/20040619174720/http://homepages.cwi.nl/~foundit/homepage.html"
+},
+{"datetime":"2004-08-03T03:33:52Z",
+"uri":"http://web.archive.org/web/20040803033352/http://homepages.cwi.nl/~foundit/homepage.html"
+},
+{"datetime":"2004-10-09T16:11:52Z",
+"uri":"http://web.archive.org/web/20041009161152/http://homepages.cwi.nl/~foundit/homepage.html"
+},
+{"datetime":"2004-12-04T07:32:20Z",
+"uri":"http://web.archive.org/web/20041204073220/http://homepages.cwi.nl/~foundit/homepage.html"
+},
+{"datetime":"2005-02-08T10:18:45Z",
+"uri":"http://web.archive.org/web/20050208101845/http://homepages.cwi.nl/~foundit/homepage.html"
+},
+{"datetime":"2005-02-16T01:56:30Z",
+"uri":"http://web.archive.org/web/20050216015630/http://homepages.cwi.nl/~foundit/homepage.html"
+},
+{"datetime":"2006-02-22T05:34:48Z",
+"uri":"http://web.archive.org/web/20060222053448/http://homepages.cwi.nl/%7Efoundit/homepage.html"
+},
+{"datetime":"2006-08-29T00:39:07Z",
+"uri":"http://web.archive.org/web/20060829003907/http://homepages.cwi.nl/~foundit/homepage.html"
+},
+{"datetime":"2006-09-04T10:26:16Z",
+"uri":"http://web.archive.org/web/20060904102616/http://homepages.cwi.nl/~foundit/homepage.html"
+},
+{"datetime":"2006-12-05T23:01:57Z",
+"uri":"http://web.archive.org/web/20061205230157/http://homepages.cwi.nl/~foundit/homepage.html"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://homepages.cwi.nl/~foundit/homepage.html"}
+ }
