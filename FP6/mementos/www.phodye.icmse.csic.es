@@ -3,10 +3,10 @@
 "mementos": {
 "list": [
 {"datetime":"2007-10-21T05:53:48Z",
-"uri":"http://web.archive.bibalex.org:80/web/20071021055348/http://phodye.icmse.csic.es/"
+"uri":"http://web.archive.org/web/20071021055348/http://phodye.icmse.csic.es/"
 },
 {"datetime":"2007-10-21T05:53:48Z",
-"uri":"http://web.archive.org/web/20071021055348/http://phodye.icmse.csic.es/"
+"uri":"http://web.archive.bibalex.org:80/web/20071021055348/http://phodye.icmse.csic.es/"
 },
 {"datetime":"2008-03-12T05:47:18Z",
 "uri":"http://web.archive.org/web/20080312054718/http://www.phodye.icmse.csic.es/"

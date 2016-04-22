@@ -428,6 +428,9 @@
 {"datetime":"2012-06-18T11:55:12Z",
 "uri":"http://web.archive.org/web/20120618115512/http://www.ced.uab.es/"
 },
+{"datetime":"2012-06-29T06:24:28Z",
+"uri":"https://archive.is/20120629062428/http://www.ced.uab.es/"
+},
 {"datetime":"2012-10-30T21:46:22Z",
 "uri":"http://web.archive.org/web/20121030214622/http://www.ced.uab.es/"
 },

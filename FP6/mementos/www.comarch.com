@@ -31,9 +31,6 @@
 },
 {"datetime":"2013-11-22T18:20:06Z",
 "uri":"http://web.archive.org/web/20131122182006/http://www.comarch.com/en/MDS"
-},
-{"datetime":"2013-11-22T18:20:06Z",
-"uri":"http://web.archive.org/web/20131122182006/http://www.comarch.com/en/mds/"
 }
 ]
  },"timemap_uri": {

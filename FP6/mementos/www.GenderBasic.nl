@@ -83,6 +83,9 @@
 {"datetime":"2015-08-01T14:01:11Z",
 "uri":"http://web.archive.org/web/20150801140111/http://genderbasic.nl/"
 },
+{"datetime":"2015-09-05T02:00:12Z",
+"uri":"https://archive.is/20150905020012/http://www.genderbasic.nl/"
+},
 {"datetime":"2015-10-17T00:47:26Z",
 "uri":"http://web.archive.org/web/20151017004726/http://genderbasic.nl/"
 },
@@ -91,6 +94,9 @@
 },
 {"datetime":"2016-01-16T00:24:32Z",
 "uri":"http://web.archive.org/web/20160116002432/http://www.genderbasic.nl/"
+},
+{"datetime":"2016-03-07T18:28:38Z",
+"uri":"http://web.archive.org/web/20160307182838/http://genderbasic.nl/"
 },
 {"datetime":"2016-03-26T15:35:06Z",
 "uri":"http://web.archive.org/web/20160326153506/http://www.genderbasic.nl/"

@@ -3,10 +3,10 @@
 "mementos": {
 "list": [
 {"datetime":"2007-12-29T11:36:38Z",
-"uri":"http://web.archive.bibalex.org:80/web/20071229113638/http://penelope.crg.es/"
+"uri":"http://web.archive.org/web/20071229113638/http://penelope.crg.es/"
 },
 {"datetime":"2007-12-29T11:36:38Z",
-"uri":"http://web.archive.org/web/20071229113638/http://penelope.crg.es/"
+"uri":"http://web.archive.bibalex.org:80/web/20071229113638/http://penelope.crg.es/"
 },
 {"datetime":"2008-01-29T11:27:59Z",
 "uri":"http://web.archive.org/web/20080129112759/http://penelope.crg.es/"

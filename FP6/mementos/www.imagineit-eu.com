@@ -107,17 +107,11 @@
 {"datetime":"2015-10-02T12:51:25Z",
 "uri":"http://web.archive.org/web/20151002125125/http://imagineit-eu.com/"
 },
-{"datetime":"2015-10-02T12:51:25Z",
-"uri":"http://web.archive.org/web/20151002125125/http://www.imagineit-eu.com/"
-},
 {"datetime":"2015-10-02T12:51:30Z",
 "uri":"http://web.archive.org/web/20151002125130/http://www.imagineit-eu.com/"
 },
 {"datetime":"2016-01-10T06:38:28Z",
 "uri":"http://web.archive.org/web/20160110063828/http://imagineit-eu.com/"
-},
-{"datetime":"2016-01-10T06:38:28Z",
-"uri":"http://web.archive.org/web/20160110063828/http://www.imagineit-eu.com/"
 },
 {"datetime":"2016-01-10T06:38:43Z",
 "uri":"http://web.archive.org/web/20160110063843/http://www.imagineit-eu.com/"
@@ -127,9 +121,6 @@
 },
 {"datetime":"2016-03-09T20:00:08Z",
 "uri":"http://web.archive.org/web/20160309200008/http://imagineit-eu.com/"
-},
-{"datetime":"2016-03-09T20:00:08Z",
-"uri":"http://web.archive.org/web/20160309200008/http://www.imagineit-eu.com/"
 },
 {"datetime":"2016-03-09T20:00:13Z",
 "uri":"http://web.archive.org/web/20160309200013/http://www.imagineit-eu.com/"

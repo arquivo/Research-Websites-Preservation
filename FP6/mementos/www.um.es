@@ -23,9 +23,6 @@
 {"datetime":"2007-05-28T04:36:39Z",
 "uri":"http://web.archive.org/web/20070528043639/http://www.um.es/empafish"
 },
-{"datetime":"2007-05-28T04:36:39Z",
-"uri":"http://web.archive.org/web/20070528043639/http://www.um.es/empafish/"
-},
 {"datetime":"2007-09-25T14:38:37Z",
 "uri":"http://web.archive.org/web/20070925143837/http://www.um.es/empafish/"
 },
@@ -34,9 +31,6 @@
 },
 {"datetime":"2007-10-25T01:49:16Z",
 "uri":"http://web.archive.org/web/20071025014916/http://www.um.es/empafish"
-},
-{"datetime":"2007-10-25T01:49:16Z",
-"uri":"http://web.archive.org/web/20071025014916/http://www.um.es/empafish/"
 },
 {"datetime":"2007-10-25T01:49:16Z",
 "uri":"http://web.archive.bibalex.org:80/web/20071025014916/http://www.um.es/empafish/"
@@ -56,17 +50,11 @@
 {"datetime":"2009-03-08T03:20:29Z",
 "uri":"http://web.archive.org/web/20090308032029/http://www.um.es/empafish"
 },
-{"datetime":"2009-03-08T03:20:29Z",
-"uri":"http://web.archive.org/web/20090308032029/http://www.um.es/empafish/"
-},
 {"datetime":"2009-05-07T12:32:39Z",
 "uri":"http://web.archive.org/web/20090507123239/http://www.um.es/empafish/"
 },
 {"datetime":"2009-06-30T00:48:10Z",
 "uri":"http://web.archive.org/web/20090630004810/http://www.um.es/empafish/"
-},
-{"datetime":"2009-06-30T00:48:10Z",
-"uri":"http://arquivo.pt/wayback/wayback/20090630004810/http://www.um.es/empafish/"
 },
 {"datetime":"2009-06-30T00:48:10Z",
 "uri":"http://arquivo.pt/wayback/wayback/20090630004810/http://www.um.es/empafish/"

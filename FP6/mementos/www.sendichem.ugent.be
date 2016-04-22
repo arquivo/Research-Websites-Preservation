@@ -3,16 +3,13 @@
 "mementos": {
 "list": [
 {"datetime":"2007-06-23T16:18:51Z",
-"uri":"http://web.archive.bibalex.org:80/web/20070623161851/http://www.sendichem.ugent.be/index.html"
+"uri":"http://web.archive.org/web/20070623161851/http://www.sendichem.ugent.be/index.html"
 },
 {"datetime":"2007-06-23T16:18:51Z",
-"uri":"http://web.archive.org/web/20070623161851/http://www.sendichem.ugent.be/index.html"
+"uri":"http://web.archive.bibalex.org:80/web/20070623161851/http://www.sendichem.ugent.be/index.html"
 },
 {"datetime":"2009-03-19T10:05:42Z",
 "uri":"http://wayback.archive-it.org/all/20090319100542/http://www.sendichem.ugent.be/index.html"
-},
-{"datetime":"2009-03-19T10:05:42Z",
-"uri":"http://web.archive.org/web/20090319100542/http://www.sendichem.ugent.be/index.html"
 },
 {"datetime":"2009-03-19T10:05:42Z",
 "uri":"http://web.archive.org/web/20090319100542/http://www.sendichem.ugent.be/index.html"

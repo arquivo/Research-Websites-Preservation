@@ -35,14 +35,8 @@
 {"datetime":"2014-07-29T19:32:35Z",
 "uri":"http://web.archive.org/web/20140729193235/http://www.biorefinery.nl/biopol"
 },
-{"datetime":"2014-07-29T19:32:35Z",
-"uri":"http://web.archive.org/web/20140729193235/http://www.biorefinery.nl/biopol/"
-},
 {"datetime":"2014-08-23T09:22:17Z",
 "uri":"http://web.archive.org/web/20140823092217/http://www.biorefinery.nl/biopol"
-},
-{"datetime":"2014-08-23T09:22:17Z",
-"uri":"http://web.archive.org/web/20140823092217/http://www.biorefinery.nl/biopol/"
 },
 {"datetime":"2015-04-16T07:19:21Z",
 "uri":"http://web.archive.org/web/20150416071921/http://www.biorefinery.nl/biopol/"

@@ -44,9 +44,6 @@
 {"datetime":"2013-01-23T00:58:37Z",
 "uri":"http://www.webcitation.org/6DsF9Qb0c"
 },
-{"datetime":"2013-01-23T00:58:37Z",
-"uri":"http://www.webcitation.org/6DsF8lauz"
-},
 {"datetime":"2014-04-12T21:40:31Z",
 "uri":"https://archive.is/20140412214031/http://www.pleiades.es/"
 },

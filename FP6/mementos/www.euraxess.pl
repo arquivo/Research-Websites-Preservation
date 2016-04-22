@@ -92,6 +92,9 @@
 {"datetime":"2013-01-19T12:08:52Z",
 "uri":"http://web.archive.org/web/20130119120852/http://www.euraxess.pl/"
 },
+{"datetime":"2013-03-18T03:16:13Z",
+"uri":"http://wayback.vefsafn.is/wayback/20130318031613/http://www.euraxess.pl/"
+},
 {"datetime":"2013-03-23T03:15:23Z",
 "uri":"http://web.archive.org/web/20130323031523/http://www.euraxess.pl/"
 },
@@ -121,9 +124,6 @@
 },
 {"datetime":"2013-12-30T19:08:32Z",
 "uri":"http://web.archive.org/web/20131230190832/http://euraxess.pl/"
-},
-{"datetime":"2013-12-30T19:08:32Z",
-"uri":"http://web.archive.org/web/20131230190832/http://www.euraxess.pl/"
 },
 {"datetime":"2014-02-07T11:12:58Z",
 "uri":"http://web.archive.org/web/20140207111258/http://www.euraxess.pl/"

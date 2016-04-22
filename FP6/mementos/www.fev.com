@@ -992,14 +992,8 @@
 {"datetime":"2015-02-05T23:06:01Z",
 "uri":"http://web.archive.org/web/20150205230601/http://fev.com/"
 },
-{"datetime":"2015-02-05T23:06:01Z",
-"uri":"http://web.archive.org/web/20150205230601/http://www.fev.com/"
-},
 {"datetime":"2015-02-06T23:48:07Z",
 "uri":"http://web.archive.org/web/20150206234807/http://fev.com/"
-},
-{"datetime":"2015-02-06T23:48:07Z",
-"uri":"http://web.archive.org/web/20150206234807/http://www.fev.com/"
 },
 {"datetime":"2015-02-23T15:56:35Z",
 "uri":"http://web.archive.org/web/20150223155635/http://www.fev.com/"
@@ -1045,6 +1039,9 @@
 },
 {"datetime":"2015-09-24T00:29:43Z",
 "uri":"http://web.archive.org/web/20150924002943/http://www.fev.com/"
+},
+{"datetime":"2015-10-02T17:11:04Z",
+"uri":"http://web.archive.org/web/20151002171104/http://www.fev.com/"
 },
 {"datetime":"2015-11-03T10:40:51Z",
 "uri":"http://web.archive.org/web/20151103104051/http://www.fev.com/"

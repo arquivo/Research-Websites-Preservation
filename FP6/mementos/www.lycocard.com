@@ -205,6 +205,9 @@
 },
 {"datetime":"2016-03-26T13:17:21Z",
 "uri":"http://web.archive.org/web/20160326131721/http://www.lycocard.com/"
+},
+{"datetime":"2016-04-07T17:59:59Z",
+"uri":"http://web.archive.org/web/20160407175959/http://www.lycocard.com/"
 }
 ]
  },"timemap_uri": {

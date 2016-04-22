@@ -23,9 +23,6 @@
 {"datetime":"2008-02-22T21:43:01Z",
 "uri":"http://web.archive.org/web/20080222214301/http://www.cs.uu.nl/profi"
 },
-{"datetime":"2008-02-22T21:43:01Z",
-"uri":"http://web.archive.org/web/20080222214301/http://www.cs.uu.nl/profi/"
-},
 {"datetime":"2008-03-30T00:12:34Z",
 "uri":"http://web.archive.org/web/20080330001234/http://www.cs.uu.nl/profi/"
 },

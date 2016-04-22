@@ -53,14 +53,8 @@
 {"datetime":"2013-02-03T22:12:26Z",
 "uri":"http://web.archive.org/web/20130203221226/http://www.unil.ch/face-it"
 },
-{"datetime":"2013-02-03T22:12:26Z",
-"uri":"http://web.archive.org/web/20130203221226/http://www.unil.ch/face-it"
-},
 {"datetime":"2013-04-05T15:03:15Z",
 "uri":"http://web.archive.org/web/20130405150315/http://www.unil.ch/face-it"
-},
-{"datetime":"2013-05-05T06:02:27Z",
-"uri":"http://web.archive.org/web/20130505060227/http://www.unil.ch/face-it"
 },
 {"datetime":"2013-05-05T06:02:27Z",
 "uri":"http://web.archive.org/web/20130505060227/http://www.unil.ch/face-it"
@@ -70,12 +64,6 @@
 },
 {"datetime":"2013-07-04T14:40:37Z",
 "uri":"http://web.archive.org/web/20130704144037/http://www.unil.ch/face-it"
-},
-{"datetime":"2013-07-04T14:40:37Z",
-"uri":"http://web.archive.org/web/20130704144037/http://www.unil.ch/face-it"
-},
-{"datetime":"2013-08-03T22:25:34Z",
-"uri":"http://web.archive.org/web/20130803222534/http://www.unil.ch/face-it"
 },
 {"datetime":"2013-08-03T22:25:34Z",
 "uri":"http://web.archive.org/web/20130803222534/http://www.unil.ch/face-it"

@@ -39,10 +39,10 @@
 "uri":"http://web.archive.org/web/20070517034111/http://www.bacs.ethz.ch/"
 },
 {"datetime":"2007-06-28T21:49:08Z",
-"uri":"http://web.archive.bibalex.org:80/web/20070628214908/http://www.bacs.ethz.ch/"
+"uri":"http://web.archive.org/web/20070628214908/http://www.bacs.ethz.ch/"
 },
 {"datetime":"2007-06-28T21:49:08Z",
-"uri":"http://web.archive.org/web/20070628214908/http://www.bacs.ethz.ch/"
+"uri":"http://web.archive.bibalex.org:80/web/20070628214908/http://www.bacs.ethz.ch/"
 },
 {"datetime":"2007-06-29T10:02:32Z",
 "uri":"http://web.archive.org/web/20070629100232/http://www.bacs.ethz.ch/"
@@ -54,10 +54,10 @@
 "uri":"http://web.archive.org/web/20070826225059/http://www.bacs.ethz.ch/"
 },
 {"datetime":"2007-10-18T03:19:45Z",
-"uri":"http://web.archive.bibalex.org:80/web/20071018031945/http://www.bacs.ethz.ch/"
+"uri":"http://web.archive.org/web/20071018031945/http://www.bacs.ethz.ch/"
 },
 {"datetime":"2007-10-18T03:19:45Z",
-"uri":"http://web.archive.org/web/20071018031945/http://www.bacs.ethz.ch/"
+"uri":"http://web.archive.bibalex.org:80/web/20071018031945/http://www.bacs.ethz.ch/"
 },
 {"datetime":"2008-03-22T05:36:00Z",
 "uri":"http://web.archive.org/web/20080322053600/http://www.bacs.ethz.ch/"

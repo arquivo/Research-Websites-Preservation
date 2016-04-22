@@ -39,9 +39,6 @@
 "uri":"http://web.archive.org/web/20070914014039/http://www.mpi.nl/dam-lr"
 },
 {"datetime":"2007-09-14T01:40:39Z",
-"uri":"http://web.archive.org/web/20070914014039/http://www.mpi.nl/dam-lr/"
-},
-{"datetime":"2007-09-14T01:40:39Z",
 "uri":"http://web.archive.bibalex.org:80/web/20070914014039/http://www.mpi.nl/dam-lr/"
 },
 {"datetime":"2007-09-27T03:33:26Z",

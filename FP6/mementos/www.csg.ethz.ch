@@ -5,9 +5,6 @@
 {"datetime":"2009-02-02T09:39:06Z",
 "uri":"http://web.archive.org/web/20090202093906/http://csg.ethz.ch/people/dimitroc"
 },
-{"datetime":"2009-02-02T09:39:06Z",
-"uri":"http://web.archive.org/web/20090202093906/http://www.csg.ethz.ch/people/dimitroc"
-},
 {"datetime":"2012-03-09T00:38:46Z",
 "uri":"http://web.archive.org/web/20120309003846/http://www.csg.ethz.ch/people/dimitroc"
 },

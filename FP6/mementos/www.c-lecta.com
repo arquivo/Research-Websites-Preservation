@@ -275,6 +275,12 @@
 {"datetime":"2015-09-09T09:21:17Z",
 "uri":"http://web.archive.org/web/20150909092117/http://www.c-lecta.com/"
 },
+{"datetime":"2015-10-08T08:21:52Z",
+"uri":"http://web.archive.org/web/20151008082152/http://www.c-lecta.com/?"
+},
+{"datetime":"2015-10-12T05:47:23Z",
+"uri":"http://web.archive.org/web/20151012054723/http://www.c-lecta.com/"
+},
 {"datetime":"2015-12-24T05:26:00Z",
 "uri":"http://web.archive.org/web/20151224052600/http://www.c-lecta.com/"
 },
