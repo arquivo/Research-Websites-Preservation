@@ -1,0 +1,494 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Eurobroadmap</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.eurobroadmap.eu/blogapi/rsd" />
+<link rel="alternate" type="application/rss+xml" title="Eurobroadmap RSS" href="http://www.eurobroadmap.eu/rss.xml" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/libraries/shadowbox/shadowbox.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/shadowbox/shadowbox.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/forum/forum.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/biblio/biblio.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/quicksilver/style.css?j" />
+    <script type="text/javascript" src="/misc/jquery.js?j"></script>
+<script type="text/javascript" src="/misc/drupal.js?j"></script>
+<script type="text/javascript" src="/sites/all/libraries/shadowbox/shadowbox.js?j"></script>
+<script type="text/javascript" src="/sites/all/modules/shadowbox/shadowbox_auto.js?j"></script>
+<script type="text/javascript" src="/sites/all/modules/wysiwyg_asciimath/tinymce/asciimath/js/ASCIIMathMLwFallback.js?j"></script>
+<script type="text/javascript" src="/sites/all/modules/wysiwyg_asciimath/tinymce/asciisvg/js/ASCIIsvgPI.js?j"></script>
+<script type="text/javascript" src="/sites/all/themes/quicksilver/script.js?j"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "shadowbox": { "animate": 1, "animateFade": 1, "animSequence": "wh", "auto_enable_all_images": 1, "auto_gallery": 1, "autoplayMovies": true, "continuous": 0, "counterLimit": "10", "counterType": "default", "displayCounter": 1, "displayNav": 1, "enableKeys": 1, "fadeDuration": "0.35", "handleOversize": "resize", "handleUnsupported": "link", "initialHeight": 160, "initialWidth": 320, "language": "en", "modal": false, "overlayColor": "#000", "overlayOpacity": "0.85", "players": null, "resizeDuration": "0.35", "showMovieControls": 1, "slideshowDelay": "0", "viewportPadding": 20, "useSizzle": 0 } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var AMTcgiloc = "/sites/all/modules/wysiwyg_asciimath/mimetex/mimetex.cgi";
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var AScgiloc = "/sites/all/modules/wysiwyg_asciimath/svgimg/svgimg.php";
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var ASdloc = "/sites/all/modules/wysiwyg_asciimath/tinymce/asciisvg/js/d.svg";
+//--><!]]>
+</script>
+    <!--[if IE 6]><link rel="stylesheet" href="/sites/all/themes/quicksilver/style.ie6.css" type="text/css" /><![endif]-->  
+    <!--[if IE 7]><link rel="stylesheet" href="/sites/all/themes/quicksilver/style.ie7.css" type="text/css" media="screen" /><![endif]-->
+    <script type="text/javascript"> </script>
+  </head>
+
+  <body>
+    <div class="PageBackgroundGradient"></div>
+    <div class="PageBackgroundGlare">
+      <div class="PageBackgroundGlareImage"></div>
+    </div>
+    <div class="Main">
+      <div class="Sheet">
+        <div class="Sheet-tl"></div>
+        <div class="Sheet-tr"></div>
+        <div class="Sheet-bl"></div>
+        <div class="Sheet-br"></div>
+        <div class="Sheet-tc"></div>
+        <div class="Sheet-bc"></div>
+        <div class="Sheet-cl"></div>
+        <div class="Sheet-cr"></div>
+        <div class="Sheet-cc"></div>
+        <div class="Sheet-body">
+                    <div class="Header">
+            <div class="Header-jpeg"></div>
+           <!-- <div class="logo">
+                              <a href="/" title="Home"><img src="/sites/all/themes/quicksilver/logo.png" alt="Home" /></a>
+                          </div>-->
+          </div>
+          <div class="contentLayout">
+            <div class="sidebar1"><div class="Block">
+  <div class="Block-body">
+          <div class="BlockHeader">
+        <div class="l"></div>
+        <div class="r"></div>
+        <div class="header-tag-icon">
+          <div class="t">
+            Topics          </div>
+        </div>
+      </div>
+        <div class="BlockContent">
+      <div class="BlockContent-body">
+        <ul class="menu"><li class="leaf first"><a href="/node/4" title="The Project - Presentation">About the Project</a></li>
+<li class="leaf"><a href="/node/17" title="The Eurobroadmap teams">Teams and Tasks</a></li>
+<li class="leaf"><a href="/content/mental-maps-main-results" title="Mental maps - Main results">Mental  maps - Survey</a></li>
+<li class="leaf"><a href="/content/migrants-and-borders-wp3-research-group" title="Migrants and Borders (WP3 research group)">Migrants and Borders</a></li>
+<li class="leaf"><a href="/content/work-package-4-politics-and-ideology" title="Work Package 4 - Politics and Ideology">Politics and Ideology</a></li>
+<li class="leaf"><a href="/Flows_and_Networks" title="Work Package 5 - Flows and Networks">Flows and Networks</a></li>
+<li class="leaf"><a href="/content/publications" title="Publications">List of Publications</a></li>
+<li class="leaf last"><a href="/content/eurobroadmap-conference-30th-nov2nd-dec" title="Eurobroadmap Conference (30th Nov./2nd Dec.)">Conference</a></li>
+</ul>      </div>
+    </div>
+  </div>
+</div><div class="Block">
+  <div class="Block-body">
+          <div class="BlockHeader">
+        <div class="l"></div>
+        <div class="r"></div>
+        <div class="header-tag-icon">
+          <div class="t">
+            Gender Group          </div>
+        </div>
+      </div>
+        <div class="BlockContent">
+      <div class="BlockContent-body">
+        <ul>
+<li><a href="http://www.eurobroadmap.eu/content/gender-working-group">Why a Gender group?</a></li>
+<li><a href="http://www.eurobroadmap.eu/content/gender-working-group-activities">Documents</a></li>
+</ul>      </div>
+    </div>
+  </div>
+</div><div class="Block">
+  <div class="Block-body">
+          <div class="BlockHeader">
+        <div class="l"></div>
+        <div class="r"></div>
+        <div class="header-tag-icon">
+          <div class="t">
+            Newsletter          </div>
+        </div>
+      </div>
+        <div class="BlockContent">
+      <div class="BlockContent-body">
+        <ul>
+<li><a href="/system/files/documents/WP1/Newsletter10.pdf" target="_blank">10th issue</a> - October 11</li>
+<li><a href="/system/files/documents/WP1/Newsletter_9.pdf" target="_blank">9th issue</a> -&nbsp;May 11</li>
+<li><a href="/system/files/documents/WP1/Newsletter_8.pdf" target="_blank">8th issue</a> - January 11</li>
+<li><a href="/system/files/documents/WP1/newsletter7.pdf" target="_blank">7th issue</a> - October 10 </li>
+<li>
+<div><a href="/system/files/documents/WP1/Newsletter6.pdf" target="_blank">6th issue</a> - June 10</div>
+</li>
+<li>
+<div><a href="/system/files/documents/WP1/Newsletter5.pdf" target="_blank">5th issue</a> - March 10</div>
+</li>
+<li>
+<div><a href="/system/files/documents/WP1/newsletter4.pdf" target="_blank">4th issue</a> - December 09</div>
+</li>
+<li>
+<div><a href="/system/files/documents/WP1/newsletter3.pdf" target="_blank">3rd issue</a> - September 09</div>
+</li>
+<li>
+<div><a href="/system/files/documents/WP1/newsletter2.pdf" target="_blank">2nd issue</a> - June 09</div>
+</li>
+<li>
+<div><a href="/system/files/documents/WP1/newsletter1.pdf" target="_blank">1st issue</a> - March 09</div>
+</li>
+</ul>
+<div><a href="http://www.ums-riate.fr/lists/?p=subscribe&amp;id=2" target="_blank"><img src="http://www.eurobroadmap.eu/%7Eeuro_drupal/sites/all/libraries/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-tongue-out.gif" alt="Tongue out" title="Tongue out" border="0" />&nbsp;Subscribe here!</a></div>      </div>
+    </div>
+  </div>
+</div></div>            <div class="content">
+              <div class="Post">
+                <div class="Post-body">
+                  <div class="Post-inner">
+                    <div class="PostContent">
+                                                                                                                                                                                                      <div id="node-110" class="node Post">
+  <div class="Post-body">
+    <div class="Post-inner">
+              <h2 class="PostHeaderIcon-wrapper"><span class="PostHeader"><a href="/content/new-paper-published-cybergeo-journal" title="New Paper published in &#039;Cybergeo&#039; Journal ">New Paper published in &#039;Cybergeo&#039; Journal </a></span></h2>
+            <div class="PostMetadataHeader">
+        <div class="PostHeaderIcons metadata-icons">
+                  </div>
+      </div>
+      <div class="PostContent">
+        <div class="article">
+          <div id="abstract-25684-en" class="tabContent" lang="en">
+<p class="resume" style="text-align: justify;">Title:<strong><span style="color: #800000;"><em><span class="text"> Dire l’Europe à travers le monde - </span>Les mots des étudiants dans l’enquête EuroBroadMap</em></span></strong></p>
+<p class="resume" style="text-align: justify;">Authors: <strong>Arnaud <span class="familyName">Brennetot</span>, Karine <span class="familyName">Emsellem</span>, France <span class="familyName">Guérin-Pace</span> et Bénédicte <span class="familyName">Garnier</span></strong></p></div>          <div class="read_more"><a href="/content/new-paper-published-cybergeo-journal" title="Read the rest of New Paper published in &#039;Cybergeo&#039; Journal .">Read more</a></div>        </div>
+      </div>
+      <div class="cleared"></div>
+                    <div class="PostMetadataFooter">
+                <div class="PostFooterIcons metadata-icons">
+                &nbsp;&nbsp;|&nbsp;<img class="metadata-icon" src="/sites/all/themes/quicksilver/images/PostTagIcon.png" width="18" height="18" alt="PostTagIcon"/>Tags: <a href="/category/eurobroadmap/europe">europe</a>, <a href="/category/eurobroadmap/identity">identity</a>, <a href="/category/eurobroadmap/representations">representations</a>, <a href="/category/eurobroadmap/students">students</a>, <a href="/category/eurobroadmap/words">words</a>      </div>
+              </div>
+          </div>
+  </div>
+</div>
+<div id="node-109" class="node Post">
+  <div class="Post-body">
+    <div class="Post-inner">
+              <h2 class="PostHeaderIcon-wrapper"><span class="PostHeader"><a href="/content/eurobroadmap-final-report" title="Eurobroadmap Final Report ">Eurobroadmap Final Report </a></span></h2>
+            <div class="PostMetadataHeader">
+        <div class="PostHeaderIcons metadata-icons">
+                  </div>
+      </div>
+      <div class="PostContent">
+        <div class="article">
+          <p><span style="font-size: medium;"><strong><span style="font-family: comic sans ms,sans-serif;">H</span></strong></span>ow Europe exists in the mind? <span style="font-family: comic sans ms,sans-serif; font-size: medium;"><strong>H</strong></span>ow Europe exists in relation to political discourse? <span style="font-size: medium; font-family: comic sans ms,sans-serif;"><strong>W</strong></span>hat is the position of Europe in regionalization of the World, according to functional flows and networks?&nbsp;</p>          <div class="read_more"><a href="/content/eurobroadmap-final-report" title="Read the rest of Eurobroadmap Final Report .">Read more</a></div>        </div>
+      </div>
+      <div class="cleared"></div>
+                    <div class="PostMetadataFooter">
+                <div class="PostFooterIcons metadata-icons">
+                &nbsp;&nbsp;|&nbsp;<img class="metadata-icon" src="/sites/all/themes/quicksilver/images/PostTagIcon.png" width="18" height="18" alt="PostTagIcon"/>Tags: <a href="/category/eurobroadmap/reports">reports</a>, <a href="/category/eurobroadmap/results">results</a>      </div>
+              </div>
+          </div>
+  </div>
+</div>
+<div id="node-108" class="node Post">
+  <div class="Post-body">
+    <div class="Post-inner">
+              <h2 class="PostHeaderIcon-wrapper"><span class="PostHeader"><a href="/content/mapping-european-union-world" title="Mapping European Union in the World ">Mapping European Union in the World </a></span></h2>
+            <div class="PostMetadataHeader">
+        <div class="PostHeaderIcons metadata-icons">
+                  </div>
+      </div>
+      <div class="PostContent">
+        <div class="article">
+          <p style="text-align: center;"><strong><span style="color: #330000;">Three round tables between stakeholders and researchers</span></strong></p>
+<p style="text-align: center;"><span style="font-size: medium;"><strong><span style="color: #0000ff;">Mapping European Union in the World </span></strong></span></p>
+<p style="text-align: center;">6<sup>th</sup> March 2012 - 09h/17h, Brussels</p>
+<ul>
+<li><strong>Strategic visions of Europe in the world</strong> (around 5 visions of Europe as normative power / world economic center / continent with borders / archipelago of attractive places / the EU).&nbsp;</li>
+<li><strong>National visions of Europe in the world </strong>(comparison between 12 national visions of Europe in the world: from Member States / Candidate and neighboring countries / Africa and Southern America / China and India). </li>
+<li><strong>Mental maps as pedagogic tools for dialogue </strong>(Pedagogical toolkit for better understanding between nations inside and outside EU).</li>
+</ul>
+<p></p>          <div class="read_more"><a href="/content/mapping-european-union-world" title="Read the rest of Mapping European Union in the World .">Read more</a></div>        </div>
+      </div>
+      <div class="cleared"></div>
+                    <div class="PostMetadataFooter">
+                <div class="PostFooterIcons metadata-icons">
+                &nbsp;&nbsp;|&nbsp;<img class="metadata-icon" src="/sites/all/themes/quicksilver/images/PostTagIcon.png" width="18" height="18" alt="PostTagIcon"/>Tags: <a href="/category/eurobroadmap/conference">conference</a>, <a href="/category/eurobroadmap/mental-maps">mental maps</a>, <a href="/category/eurobroadmap/representations">representations</a>, <a href="/category/eurobroadmap/stakeholders">stakeholders</a>      </div>
+              </div>
+          </div>
+  </div>
+</div>
+<div id="node-104" class="node Post">
+  <div class="Post-body">
+    <div class="Post-inner">
+              <h2 class="PostHeaderIcon-wrapper"><span class="PostHeader"><a href="/content/new-reports-maps-all-eurobroadmap-results-online" title="NEW: Reports, Maps: all the Eurobroadmap results online!">NEW: Reports, Maps: all the Eurobroadmap results online!</a></span></h2>
+            <div class="PostMetadataHeader">
+        <div class="PostHeaderIcons metadata-icons">
+                  </div>
+      </div>
+      <div class="PostContent">
+        <div class="article">
+          <p>&nbsp;<span style="font-size: x-large;">→ </span>Select a <span style="font-size: medium;"><strong>TOPIC</strong>:</span><br /><span style="font-size: large;"><a href="http://www.eurobroadmap.eu/content/mental-maps-main-results">Mental Maps</a> | <a href="http://www.eurobroadmap.eu/content/migrants-and-borders-wp3-research-group">Migrants - Borders</a> | <a href="http://www.eurobroadmap.eu/content/work-package-4-politics-and-ideology">Politics - Ideology</a> | <a href="http://www.eurobroadmap.eu/Flows_and_Networks">Flows - Networks</a>.</span></p>
+<p><span style="font-size: x-large;">→ </span>Then download the <span style="font-size: medium;"><strong>final reports</strong></span> produced by the researchers, in ADOBE Acrobat format. Files are gradually made available, few weeks after their validation.&nbsp;</p>
+<ul>
+</ul>
+<p>The last one, the synthesis report will be publish before the beginning of March 2012.</p>
+<p><span style="font-size: x-large;">→ <span style="font-size: small;">See all the maps made in the topic 'Mental maps' by visiting our <br /><a href="http://www.ums-riate.fr/mapper/" target="_blank"><strong><span style="font-size: large;">Subjective Mapper</span></strong></a> viewer. <img src="/system/files/documents/WP1/icono/free_b.png" alt="Subjective Mapper presentation" title="Economic position in the world / Votes at the UNGA" style="margin: 6px 1px; border: 0pt none;" onmouseover="this.src='/system/files/documents/WP1/icono/free_b2.png';" onmouseout="this.src='/system/files/documents/WP1/icono/free_b.png';" height="59" width="627" /></span></span></p>
+<p></p>          <div class="read_more"><a href="/content/new-reports-maps-all-eurobroadmap-results-online" title="Read the rest of NEW: Reports, Maps: all the Eurobroadmap results online!.">Read more</a></div>        </div>
+      </div>
+      <div class="cleared"></div>
+                    <div class="PostMetadataFooter">
+                <div class="PostFooterIcons metadata-icons">
+                &nbsp;&nbsp;|&nbsp;<img class="metadata-icon" src="/sites/all/themes/quicksilver/images/PostTagIcon.png" width="18" height="18" alt="PostTagIcon"/>Tags: <a href="/category/eurobroadmap/reports">reports</a>, <a href="/category/eurobroadmap/results">results</a>      </div>
+              </div>
+          </div>
+  </div>
+</div>
+<div id="node-40" class="node Post">
+  <div class="Post-body">
+    <div class="Post-inner">
+              <h2 class="PostHeaderIcon-wrapper"><span class="PostHeader"><a href="/node/40" title="Welcome in the Eurobroadmap Project...">Welcome in the Eurobroadmap Project...</a></span></h2>
+            <div class="PostMetadataHeader">
+        <div class="PostHeaderIcons metadata-icons">
+                  </div>
+      </div>
+      <div class="PostContent">
+        <div class="article">
+          <p><strong><span style="color: #003300; font-size: small;">... European Union and the world seen from abroad!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br /></span></strong></p>
+<p style="text-align: justify;">Geographers are the most critical social scientists when it comes to the delimitation of borders of the so-called European continent.</p>
+<p style="text-align: justify;"><img src="/%7Eeuro_drupal/system/files/documents/icono/countries_vision_bouton.png" style="margin: 2px; float: left;" height="88" width="160" />Continents as Huntington’s civilisation are ideological productions that are certainly not based on natural facts. But they are deeply enhanced in the mind of European citizens and policy-makers because they were historically produced by Europeans as a tool of world power.</p>
+<p style="text-align: justify;">It is therefore crucial to examine which divisions of the world are perceived by people located outside the European Union, in order to produce a non Eurocentric view.</p>          <div class="read_more"><a href="/node/40" title="Read the rest of Welcome in the Eurobroadmap Project....">Read more</a></div>        </div>
+      </div>
+      <div class="cleared"></div>
+                    <div class="PostMetadataFooter">
+                <div class="PostFooterIcons metadata-icons">
+                      </div>
+              </div>
+          </div>
+  </div>
+</div>
+<div id="node-42" class="node Post">
+  <div class="Post-body">
+    <div class="Post-inner">
+              <h2 class="PostHeaderIcon-wrapper"><span class="PostHeader"><a href="/content/methodological-papers-serie" title="The Methodological papers serie">The Methodological papers serie</a></span></h2>
+            <div class="PostMetadataHeader">
+        <div class="PostHeaderIcons metadata-icons">
+                  </div>
+      </div>
+      <div class="PostContent">
+        <div class="article">
+          <p style="text-align: justify;"><a href="http://www.eurobroadmap.eu/content/wp5-methodological-papers-serie/"><img src="/system/files/documents/methodo_logo.jpg" alt="Logo" style="margin: 2px; float: left;" height="129" width="168" /></a>Laurent Beauguitte, researcher involved in the Work Package 5 - <span style="color: #003300;">Flows and Networks</span> - offer a serie of worksheets on basic concepts of <span style="color: #003300;">social network analysis</span>.</p>
+<p style="text-align: justify;"><span class="medium_text">Periodically, sheets will be available to students and people looking to learn these tools of analysis.</span></p>
+<p style="text-align: justify;">&nbsp;This files could be upload in the WP5 results pages or by <a href="http://cnrs4.nfrance.com/%7Eeuro_drupal/node/26">click here.</a></p>
+<p style="text-align: justify;"><span style="color: #008000; font-family: arial black,avant garde;">NEW CONTENT</span> [22 Dec. 2010] <a href="/%7Eeuro_drupal/system/files/documents/WP5/documents/Eurobroadmap_Methodo5_WP5.pdf" target="_blank"><strong><span style="color: #008000;">Visualizing Networks</span></strong></a></p>
+<p></p>          <div class="read_more"><a href="/content/methodological-papers-serie" title="Read the rest of The Methodological papers serie.">Read more</a></div>        </div>
+      </div>
+      <div class="cleared"></div>
+                    <div class="PostMetadataFooter">
+                <div class="PostFooterIcons metadata-icons">
+                &nbsp;&nbsp;|&nbsp;<img class="metadata-icon" src="/sites/all/themes/quicksilver/images/PostTagIcon.png" width="18" height="18" alt="PostTagIcon"/>Tags: <a href="/category/eurobroadmap/flows">flows</a>, <a href="/category/eurobroadmap/networks">networks</a>      </div>
+              </div>
+          </div>
+  </div>
+</div>
+<div id="node-52" class="node Post">
+  <div class="Post-body">
+    <div class="Post-inner">
+              <h2 class="PostHeaderIcon-wrapper"><span class="PostHeader"><a href="/content/our-last-publications" title="Our last publications">Our last publications</a></span></h2>
+            <div class="PostMetadataHeader">
+        <div class="PostHeaderIcons metadata-icons">
+                  </div>
+      </div>
+      <div class="PostContent">
+        <div class="article">
+          <p><img src="/system/files/documents/icono/doigt.gif" alt="Logo " style="float: left;" height="23" width="33" />&nbsp;<strong><span style="color: #008000;">&nbsp;</span></strong></p>
+<ul>
+<li>DIDELON C., De RUFFRAY S., LAMBERT N., BOQUET M. (2011),<a href="http://halshs.archives-ouvertes.fr/halshs-00598477_v1/" target="_blank"> A World of Interstices: A Fuzzy Logic Approach to the Analysis of Interpretative Maps</a><em>,&nbsp; The Cartographic Journal</em>, vol. 48, pp. 100-107, May [and Open Access]. </li>
+<li>KINCSES A., KARÁCSONYI D. (2011), Ukrainian citizens in Hungary: national cohesion and economic constraint, <em>Journal of Urban and Regional Analysis, </em>vol.2, n°2. </li>
+<li></li></ul>          <div class="read_more"><a href="/content/our-last-publications" title="Read the rest of Our last publications.">Read more</a></div>        </div>
+      </div>
+      <div class="cleared"></div>
+                    <div class="PostMetadataFooter">
+                <div class="PostFooterIcons metadata-icons">
+                &nbsp;&nbsp;|&nbsp;<img class="metadata-icon" src="/sites/all/themes/quicksilver/images/PostTagIcon.png" width="18" height="18" alt="PostTagIcon"/>Tags: <a href="/category/eurobroadmap/limits">limits</a>, <a href="/category/eurobroadmap/mental-maps">mental maps</a>, <a href="/category/eurobroadmap/representations">representations</a>, <a href="/category/eurobroadmap/students">students</a>, <a href="/category/eurobroadmap/survey">survey</a>      </div>
+              </div>
+          </div>
+  </div>
+</div>
+                    </div>
+                    <div class="cleared"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar2"><div class="Block">
+  <div class="Block-body">
+          <div class="BlockHeader">
+        <div class="l"></div>
+        <div class="r"></div>
+        <div class="header-tag-icon">
+          <div class="t">
+            Key Facts          </div>
+        </div>
+      </div>
+        <div class="BlockContent">
+      <div class="BlockContent-body">
+        <div><span style="color: rgb(124, 128, 142);"><strong>Project Type:</strong> Collaborative research project </span><br /><span style="color: rgb(124, 128, 142);"> <strong>Funding Scheme:</strong> European Commission's Seventh Framework Programme (SSH-2007-4.3.1) </span><br /><span style="color: rgb(124, 128, 142);"> <strong>Project Start:</strong> 1/1/2009 </span><br /><span style="color: rgb(124, 128, 142);"> <strong>Project End:</strong> 31/12/2011 </span><br /><span style="color: rgb(124, 128, 142);"> <strong>Coordination:</strong> Prf Claude Grasland (CNRS), Paris </span><br /><span style="color: rgb(124, 128, 142);"> <strong>Grant Agreement:</strong> n° 225260 </span><br /><span style="color: rgb(124, 128, 142);"> <strong>EU Contribution:</strong> 2,01 M.€ </span><br /><span style="color: rgb(124, 128, 142);"> <strong>Cordis SSH:</strong> <a href="http://cordis.europa.eu/fetch?CALLER=FP7_PROJ_FR&amp;ACTION=D&amp;DOC=1&amp;CAT=PROJ&amp;QUERY=012e48a1621d:4c64:10181403&amp;RCN=89947" target="_blank">http://cordis.europa.eu/fp7/ssh</a></span></div>      </div>
+    </div>
+  </div>
+</div><div class="Block">
+  <div class="Block-body">
+          <div class="BlockHeader">
+        <div class="l"></div>
+        <div class="r"></div>
+        <div class="header-tag-icon">
+          <div class="t">
+            New_Content          </div>
+        </div>
+      </div>
+        <div class="BlockContent">
+      <div class="BlockContent-body">
+        <div class="view view-New-Content view-id-New_Content view-display-id-block_1 view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/content/new-paper-published-cybergeo-journal">New Paper published in &#039;Cybergeo&#039; Journal</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/content/publications">Publications</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/content/subjective-mapper">The Subjective Mapper</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/content/eurobroadmap-final-report">Eurobroadmap Final Report</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/Flows_and_Networks">Work Package 5 - Flows and Networks</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/content/mapping-european-union-world">Mapping European Union in the World</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/content/new-reports-maps-all-eurobroadmap-results-online">NEW: Reports, Maps: all the Eurobroadmap results online!</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/content/mental-maps-main-results">Mental maps - Main results</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-9 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/content/work-package-4-politics-and-ideology">Work Package 4 - Politics and Ideology</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-10 views-row-even views-row-last">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/content/eurobroadmap-conference-30th-nov2nd-dec">Eurobroadmap Conference (30th Nov./2nd Dec.)</a></span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>       </div>
+    </div>
+  </div>
+</div><div class="Block">
+  <div class="Block-body">
+          <div class="BlockHeader">
+        <div class="l"></div>
+        <div class="r"></div>
+        <div class="header-tag-icon">
+          <div class="t">
+            Selected Links          </div>
+        </div>
+      </div>
+        <div class="BlockContent">
+      <div class="BlockContent-body">
+        <ul>
+<li><a href="http://www.eurobroadmap.eu/content/others-programmes" target="_parent">Others FP Projects</a></li>
+<li><a href="/%7Eeuro_drupal/system/files/documents/WPGender/EuroBroadMap_Gender_weblinks.pdf" target="_blank">Gender Weblinks</a></li>
+<li><a href="media">Media Reports</a></li>
+</ul>      </div>
+    </div>
+  </div>
+</div></div>          </div>
+          <div class="cleared"></div>
+          <div class="Footer">
+            <div class="Footer-inner">
+              <a href="http://www.eurobroadmap.eu/rss.xml" class="rss-tag-icon" title="RSS"></a>
+              <div class="Footer-text">
+                <div class="Block">
+  <div class="Block-body">
+        <div class="BlockContent">
+      <div class="BlockContent-body">
+        <a href="http://drupal.org"><img src="/misc/powered-blue-80x15.png" alt="Powered by Drupal, an open source content management system" title="Powered by Drupal, an open source content management system" width="80" height="15" /></a>      </div>
+    </div>
+  </div>
+</div>              </div>
+            </div>
+            <div class="Footer-background"></div>
+          </div>
+        </div>
+      </div>
+      <div class="cleared"></div>
+      <p class="page-footer"></p>
+    </div>
+    <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      Shadowbox.path = "/sites/all/libraries/shadowbox/";
+      Shadowbox.init(Drupal.settings.shadowbox);
+    
+//--><!]]>
+</script>
+  </body>
+</html>

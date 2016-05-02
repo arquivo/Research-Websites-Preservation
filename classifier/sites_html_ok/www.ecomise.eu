@@ -1,0 +1,431 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<!-- InstanceBegin template="/Templates/index_en.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-7" />
+
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Ecomise - next Generation Composite Manufacturing</title>
+<!-- InstanceEndEditable -->
+<meta name="keywords" content=" Composites, manufacturing, automation, rtm, infusion, process monitoring, low-cost, real-time quality control " />
+<meta name="description" content="ecomise.eu offers information about Composite manufacturing and automation, low-cost Process monitoring and real-time quality control solutions" />
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>
+<style type="text/css">
+	body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+}
+	.xxtitle {font-family: 'Yanone Kaffeesatz', sans-serif;  font-weight: 700; font-size:45px; color: #666;}
+	.mtitle {font-family: 'Yanone Kaffeesatz', sans-serif;  font-weight: 700; font-size: 28px;color: #457F00;}
+	.mmtitle {font-family: 'Yanone Kaffeesatz', sans-serif;  font-weight: 700; font-size: 32px;color: #fff;}
+	.utitle {font-family: 'Yanone Kaffeesatz', sans-serif;  font-weight: 700; font-size: 28px;color: #666;}
+	.atitle {font-family: 'Yanone Kaffeesatz', sans-serif;  font-weight: 700; font-size: 20px;color: #666;}
+	h1 { line-height:inherit;}
+</style>
+
+<script src="javascript/jquery-1.2.6.pack.js" type="text/javascript"></script>
+<script src="javascript/jquery.pngFix.js" type="text/javascript"></script>
+<script src="javascript/jquery.flash.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="javascript/jquery.sifr.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script language="JavaScript1.2" type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+$(function() {
+	$.sifr({path:'fonts'});
+});
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+<link href="css/CSS.css" rel="stylesheet" type="text/css" />
+</head>
+<meta name="keywords" content="Composites, manufacturing, automation, rtm, infusion, process monitoring, low-cost, real-time quality control" />
+
+<body>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="478"><a href="index.php"><img src="image/logo.jpg" width="164" height="91" border="0" /></a></td>
+        <td width="482" align="right" valign="bottom"><!--<img src="../image/LANG.jpg" width="184" height="25" border="0" usemap="#Map2" />--></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="47" background="image/btn_back.jpg"><table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="89"><img src="image/btn_back.jpg" width="89" height="47" /></td>
+        <td width="871" align="right"><table width="500" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><a href="index.php"><img src="image/btn01en.png" width="70" height="47" border="0" /></a></td>
+            <td><a href="Objectives.php"><img src="image/btn02en.png" width="63" height="47" border="0" /></a></td>
+            <td><a href="Tech_Partners.php"><img src="image/btn03en.png" width="58" height="47" border="0" /></a></td>
+            <td><a href="News.php"><img src="image/btn04en.png" width="86" height="47" border="0" /></a></td>
+            <td><a href="Publications.php"><img src="image/btn08Aen.png" width="79" height="47" alt=""/></a></td>
+            <td><a href="Links.php"><img src="image/btn05en.png" width="42" height="47" border="0" /></a></td>
+            <td><a href="Contact.php"><img src="image/btn07en.png" width="67" height="47" border="0" /></a></td>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td bgcolor="#AFD57E"><table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="5"><img src="image/spacer.gif" width="1" height="1" /></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="65%" valign="top"><!-- InstanceBeginEditable name="EditRegion3" -->
+              <table width="100%" border="0" cellspacing="0" cellpadding="7">
+                <tr>
+                  <td rowspan="2" align="left" valign="top" >
+                  <p style="text-align: justify; "><font face="Arial, Helvetica, sans"><span><img src="../image/frontimg.jpg" alt="" /><br />
+<br />
+Within current composite part development and manufacturing processes a disproportional high effort is implied in order to find optimal process parameters and to meet required qualities and tolerances of high performance light weight structures.</span></font></p>
+<p style="text-align: justify; "><font face="Arial, Helvetica, sans"><span>The<b> ECOMISE</b> project proposes a breakthrough production system to enable next generation of thermoset composite manufacturing and post-processing. Within this new approach high precision process techniques for advanced dry fibre placement (AFP), infiltration (RTI/ RTM) and curing will be developed in order to maximize process efficiency at reduced costs and production time due to less material consumption, higher reproducibility, less energy, less waste and less rework.</span></font></p>
+<p style="text-align: justify; ">&nbsp;</p>
+<table width="100%" border="0" cellspacing="0" cellpadding="7">
+    <tbody>
+        <tr>
+            <td bgcolor="#EEEEEE">
+            <h2 class="mtitle" style="margin-top: 0px; margin-bottom: 10px;">Project details</h2>
+            <p><strong>Project reference:</strong> 608667<br />
+            <strong>Total cost:</strong> EUR 5 366 449 , <br />
+            <strong>EU contribution:</strong> EUR 3 549 744<br />
+            <strong>Programme acronym:</strong> FP7-NMP Subprogramme area: FoF.NMP.2013-10<br />
+            <strong>Starting date:</strong> 01/09/2013<br />
+            <strong>Ending date:</strong> 31/08/2016<br />
+            <strong>Duration:</strong> 36 months</p>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+    </tbody>
+</table>                 </td>
+                  <td width="3%" class="xxtitle">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+              </table>
+            <!-- InstanceEndEditable --></td>
+            <td width="307" valign="top" style="background-repeat:no-repeat;" background="image/news_back.png"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="bottom"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="52" height="58"><img src="image/info_big.jpg" width="38" height="40" /></td>
+                    <td width="172" align="left" style="border-top:#666 1px solid; border-bottom:#666 1px solid;" ><span class="mtitle">FP7<strong>&nbsp;</strong></span>
+                      <br/>
+                      <em>The&nbsp;<strong>Seventh Framework Programme (FP7)</strong>&nbsp;bundles all research-related EU initiatives together under a common roof playing a crucial role in reaching the goals of growth, competitiveness and employment.</em><br />                      
+                      <br /></td>
+                    </tr>
+                  <tr>
+                    <td height="8" colspan="2" valign="bottom"><img src="image/spacer.gif" width="200" height="8" /></td>
+                    </tr>
+                </table></td>
+                <td width="192"><a href="http://cordis.europa.eu/fp7/home_en.html"><img src="image/circle01.png" width="140" height="142" /></a></td>
+              </tr>
+              <tr>
+                <td colspan="2"><p>&nbsp;</p>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="12"  >
+                    <tr>
+                      <td width="5%">&nbsp;</td>
+                      <td valign="top">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                          <tr>
+                            <td width="5%">&nbsp;</td>
+                            <td  style="border-bottom:#666 solid 2px;"width="95%"><h1 class="mtitle">News</h1></td>
+                            </tr>
+                          </table>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                            <td width="5%" valign="top"></td>
+                            <td width="95%" style="border-bottom:#666 solid 1px;"><img src="image/spacer.gif" width="10" height="7" /><br /><table width="100%" border="0" cellspacing="0" cellpadding="1">
+                              <tr>
+                                <td><span class="news"><img src="image/more.png" width="15" height="16" border="0" /><a href="News_MORE.php?ID=11"> Presentation and paper copies available</a></span></td>
+                                </tr>
+                              <tr>
+                                <td><span class="TXT_11_12">Publications has been introduced to Ecomise website.</span>...</td>
+                                </tr>
+                              </table>
+                              <img src="image/spacer.gif" width="10" height="7" /><br /></td>
+                            </tr>
+                                                    <tr>
+                            <td width="5%" valign="top"></td>
+                            <td width="95%" style="border-bottom:#666 solid 1px;"><img src="image/spacer.gif" width="10" height="7" /><br /><table width="100%" border="0" cellspacing="0" cellpadding="1">
+                              <tr>
+                                <td><span class="news"><img src="image/more.png" width="15" height="16" border="0" /><a href="News_MORE.php?ID=9"> ECOMISE project to contribute with 6 presentations at ICMAC</a></span></td>
+                                </tr>
+                              <tr>
+                                <td><span class="TXT_11_12">ECOMISE project will participate with 6 papers in the forthcoming Intl Conference in Manufacturing of Advanced Composites (ICMAC).</span>...</td>
+                                </tr>
+                              </table>
+                              <img src="image/spacer.gif" width="10" height="7" /><br /></td>
+                            </tr>
+                                                    <tr>
+                            <td width="5%" valign="top"></td>
+                            <td width="95%" style="border-bottom:#666 solid 1px;"><img src="image/spacer.gif" width="10" height="7" /><br /><table width="100%" border="0" cellspacing="0" cellpadding="1">
+                              <tr>
+                                <td><span class="news"><img src="image/more.png" width="15" height="16" border="0" /><a href="News_MORE.php?ID=8"> ECOMISE partners to exhibite at the forthcoming JEC Europe in Paris between 10 and 12 of March ECOMISE progress</a></span></td>
+                                </tr>
+                              <tr>
+                                <td><span class="TXT_11_12">Several ECOMISE partners are exhibiting at the forthcoming JEC Europe in Paris between 10 and 12 of March ECOMISE progress.</span>...</td>
+                                </tr>
+                              </table>
+                              <img src="image/spacer.gif" width="10" height="7" /><br /></td>
+                            </tr>
+                                                    <tr>
+                            <td width="5%" valign="top"></td>
+                            <td width="95%" style="border-bottom:#666 solid 1px;"><img src="image/spacer.gif" width="10" height="7" /><br /><table width="100%" border="0" cellspacing="0" cellpadding="1">
+                              <tr>
+                                <td><span class="news"><img src="image/more.png" width="15" height="16" border="0" /><a href="News_MORE.php?ID=7"> ECOMISE partners, Synthesites and Polyworx, to present the work in progress at International Conference</a></span></td>
+                                </tr>
+                              <tr>
+                                <td><span class="TXT_11_12">Dr Nikos Pantelelis will present a joint paper at the 12th International Conference on Flow Processing in Composite Materials in July.</span>...</td>
+                                </tr>
+                              </table>
+                              <img src="image/spacer.gif" width="10" height="7" /><br /></td>
+                            </tr>
+                                                    </table>
+                        <p>
+                                                    </p>                        <p>&nbsp;</p></td>
+                      <td width="8%"><p>&nbsp;</p>
+                        <p>&nbsp;</p></td>
+                    </tr>
+                    </table>
+                  </td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td bgcolor="#EFF0F5"><table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td>&nbsp;</td>
+            <td align="right">&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td bgcolor="#366800"><table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><p>&nbsp;</p>
+          <p>&nbsp;</p></td>
+      </tr>
+      <tr>
+        <td><img src="image/menu_en.png" width="957" height="29" border="0" usemap="#Map" /></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td bgcolor="#3A6E00"><table width="960" border="0" align="center" cellpadding="8" cellspacing="0">
+      <tr>
+        <td width="435" valign="top"><table width="400" border="0" cellspacing="0" cellpadding="6">
+          <tr>
+            <td width="31"><img src="image/info_small.jpg" width="21" height="21" /></td>
+            <td width="345" class="mmtitle" style="font-size:18px;">Project partners</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td class="White">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                  <td width="84%" style="border-bottom:#666 solid 1px;"><table width="100%" border="0" cellspacing="0" cellpadding="1">
+                    <tr>
+                      <td>&#8226; <a class="footerlink" href="Tech_Partners_MORE.php?ID=14">DEUTSCHES ZENTRUM FUER LUFT-UND RAUMFAHRT E.V.</a></td>
+                      <td width="24">&nbsp;</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                                <tr>
+                  <td width="84%" style="border-bottom:#666 solid 1px;"><table width="100%" border="0" cellspacing="0" cellpadding="1">
+                    <tr>
+                      <td>&#8226; <a class="footerlink" href="Tech_Partners_MORE.php?ID=13">AIRBORNE TECHNOLOGY CENTER B.V.</a></td>
+                      <td width="24">&nbsp;</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                                <tr>
+                  <td width="84%" style="border-bottom:#666 solid 1px;"><table width="100%" border="0" cellspacing="0" cellpadding="1">
+                    <tr>
+                      <td>&#8226; <a class="footerlink" href="Tech_Partners_MORE.php?ID=12">BOMBARDIER AEROSPACE, BELFAST</a></td>
+                      <td width="24">&nbsp;</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                                <tr>
+                  <td width="84%" style="border-bottom:#666 solid 1px;"><table width="100%" border="0" cellspacing="0" cellpadding="1">
+                    <tr>
+                      <td>&#8226; <a class="footerlink" href="Tech_Partners_MORE.php?ID=11">DASSAULT SYSTEMES SA</a></td>
+                      <td width="24">&nbsp;</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                                <tr>
+                  <td width="84%" style="border-bottom:#666 solid 1px;"><table width="100%" border="0" cellspacing="0" cellpadding="1">
+                    <tr>
+                      <td>&#8226; <a class="footerlink" href="Tech_Partners_MORE.php?ID=10">FASERINSTITUT BREMEN EV</a></td>
+                      <td width="24">&nbsp;</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                                <tr>
+                  <td width="84%" style="border-bottom:#666 solid 1px;"><table width="100%" border="0" cellspacing="0" cellpadding="1">
+                    <tr>
+                      <td>&#8226; <a class="footerlink" href="Tech_Partners_MORE.php?ID=9">HUTCHINSON SA</a></td>
+                      <td width="24">&nbsp;</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                                <tr>
+                  <td width="84%" style="border-bottom:#666 solid 1px;"><table width="100%" border="0" cellspacing="0" cellpadding="1">
+                    <tr>
+                      <td>&#8226; <a class="footerlink" href="Tech_Partners_MORE.php?ID=8"> LOOP TECHNOLOGY LIMITED</a></td>
+                      <td width="24">&nbsp;</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                                <tr>
+                  <td width="84%" style="border-bottom:#666 solid 1px;"><table width="100%" border="0" cellspacing="0" cellpadding="1">
+                    <tr>
+                      <td>&#8226; <a class="footerlink" href="Tech_Partners_MORE.php?ID=7">STICHTING NATIONAAL LUCHT- EN RUIMTEVAARTLABORATORIUM</a></td>
+                      <td width="24">&nbsp;</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                                <tr>
+                  <td width="84%" style="border-bottom:#666 solid 1px;"><table width="100%" border="0" cellspacing="0" cellpadding="1">
+                    <tr>
+                      <td>&#8226; <a class="footerlink" href="Tech_Partners_MORE.php?ID=6">POLYWORX BV</a></td>
+                      <td width="24">&nbsp;</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                                <tr>
+                  <td width="84%" style="border-bottom:#666 solid 1px;"><table width="100%" border="0" cellspacing="0" cellpadding="1">
+                    <tr>
+                      <td>&#8226; <a class="footerlink" href="Tech_Partners_MORE.php?ID=5">SAMTECH SA</a></td>
+                      <td width="24">&nbsp;</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                                <tr>
+                  <td width="84%" style="border-bottom:#666 solid 1px;"><table width="100%" border="0" cellspacing="0" cellpadding="1">
+                    <tr>
+                      <td>&#8226; <a class="footerlink" href="Tech_Partners_MORE.php?ID=4">SYNTHESITES INNOVATIVE TECHNOLOGIES LTD</a></td>
+                      <td width="24">&nbsp;</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                                </table></td>
+          </tr>
+        </table>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p></td>
+        <td width="525" valign="top" class="footer"><table width="100%" border="0" cellspacing="0" cellpadding="12">
+          <tr>
+            <td><p><strong>Copyright</strong>
+                <strong>
+                <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"> Synthesites 2013</strong></p>
+<p>The present website and any work and material, which constitute part of the website or are contained therein, are protected by copyright laws. Users may download, temporarily store and print one or more of the pages of this website for use within his/her organisation. Any further use requires our prior approval. </p>
+              <p><strong>Information and Waiver of Liability </strong></p>
+              <p>The information contained on the website serves general information purposes only and does not constitute legal advice. Appropriate legal consultation must be sought before any action is taken. Users and visitors of this website are thus solely liable for reliance on any of the information contained therein.</p></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>      <p>&nbsp;</p></td>
+  </tr>
+</table>
+
+<blockquote>
+  <p id="Map" name="Map">
+    <map name="Map" id="Map">
+      <area shape="rect" coords="592,4,664,22" href="News.php" />
+      <area shape="rect" coords="666,6,734,22" href="Publications.php" />
+<area shape="rect" coords="778,5,856,23" href="Contact.php" />
+      <area shape="rect" coords="735,4,773,22" href="Links.php" />
+      <area shape="rect" coords="470,5,529,23" href="Objectives.php" />
+      <area shape="rect" coords="408,4,464,22" href="index.php" />
+      <area shape="rect" coords="531,5,586,21" href="Tech_Partners.php" />
+    </map>
+    <map name="Map2" id="Map2">
+      <area shape="rect" coords="15,0,68,24" href="index.php" />
+      <area shape="rect" coords="69,1,128,23" href="GR/index.php" />
+      <area shape="rect" coords="128,1,173,23" href="DE/index.php" />
+    </map>
+  </p>
+</blockquote>
+<script type="text/javascript">
+
+ 
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-46375689-1']);
+
+  _gaq.push(['_trackPageview']);
+
+ 
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+ 
+
+</script>
+</body>
+<!-- InstanceEnd --></html>

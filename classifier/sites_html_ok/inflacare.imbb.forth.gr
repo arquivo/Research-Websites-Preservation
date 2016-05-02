@@ -1,0 +1,679 @@
+<!--(START) HTML Page [header.php]-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Infla-Care </title>
+
+
+
+<!--(START)(includes/meta.php)-->
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<META HTTP-EQUIV="EXPIRES" CONTENT="0">
+<META NAME="RESOURCE-TYPE" CONTENT="DOCUMENT">
+<META NAME="DISTRIBUTION" CONTENT="GLOBAL">
+<META NAME="AUTHOR" CONTENT="Infla-Care">
+<META NAME="COPYRIGHT" CONTENT="Copyright (c) by Infla-Care">
+<META NAME="KEYWORDS" CONTENT="Inflacare, Infla-care, European Commission Program, FP7, Virtual Medical Lab, Faculty of Medicine, University of Crete">
+<META NAME="DESCRIPTION" CONTENT="Inflacare">
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+<META NAME="REVISIT-AFTER" CONTENT="1 DAYS">
+<META NAME="RATING" CONTENT="GENERAL">
+<LINK REL="StyleSheet" HREF="themes/VML/style/style.css" TYPE="text/css">
+<script language="javascript" src="themes/VML/javascript/transmenuC.js"></script>
+
+<!--(END)(includes/meta.php)-->
+
+
+<META NAME="GENERATOR" CONTENT="Apotherapy: Virtual Medical Lab, Faculty of Medicine, University of Crete">
+<!-- tinyMCE -->
+		<script language="javascript" type="text/javascript" src="includes/tiny_mce/tiny_mce.js"></script>
+		<script language="javascript" type="text/javascript">
+	   	tinyMCE.init({
+      		mode : "textareas",
+			theme : "default",
+			language : "",
+			editor_css : "themes/VML/style/editor.css",
+			force_p_newlines: "false",
+			force_br_newlines: "true"
+	   	});
+		</script>
+		<!-- /tinyMCE --><link rel="alternate" type="application/rss+xml" title="RSS" href="backend.php">
+<LINK REL="StyleSheet" HREF="themes/VML/style/style.css" TYPE="text/css">
+
+
+</head>
+
+
+
+
+<!--(START) BODY [themes/VML/theme.php]-->
+<body onload="start()">
+<div align="center">
+
+
+
+<!--(START) TRANSMENU (1) Javascript Code [themes/VML/theme.php]-->
+<script language="javascript">
+function start()
+{
+if (TransMenu.isSupported())
+{
+TransMenu.initialize();
+menu1.onactivate = function(){document.getElementById("menu_1").className = "hover";};
+menu1.ondeactivate = function() {document.getElementById("menu_1").className = "";};
+menu2.onactivate = function() {document.getElementById("menu_2").className = "hover";};
+menu2.ondeactivate = function() {document.getElementById("menu_2").className = "";};
+menu6.onactivate = function() { document.getElementById("menu_3").className = "hover";};
+menu6.ondeactivate = function() { document.getElementById("menu_3").className = ""; };
+}
+}
+</script>
+
+<!--(END) TRANSMENU (1) Javascript Code [themes/VML/theme.php]-->
+<!--(START) TABLE of ALL [themes/VML/theme.php]-->
+<table class="tableall" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<!---->
+<!--(START)[themes/VML/header.html]-->
+<!--(START) Header -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td align="center" valign="middle" bgcolor="#a59683">
+	<img src="../vml-mysite/images/header1v1.jpg" width="760" height="180">
+</td>
+</tr>
+</table>
+<!--(END) Header -->
+
+
+
+<!--(START) Top Menu -->
+<table class="topmenu" width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="7" height="26" align="left" valign="top"><img src="../vml-mysite/images/topmenu-bgr.jpg" width="7" height="26" align="absmiddle" /></td>
+<td width="150" align="left" valign="middle" class="datetime">
+<SCRIPT LANGUAGE="JavaScript1.2">
+<!-- Begin
+var months=new Array(13);
+months[1]="January";
+months[2]="February";
+months[3]="March";
+months[4]="April";
+months[5]="May";
+months[6]="June";
+months[7]="July";
+months[8]="August";
+months[9]="Sep";
+months[10]="October";
+months[11]="November";
+months[12]="December";
+var time=new Date();
+var lmonth=months[time.getMonth() + 1];
+var date=time.getDate();
+var year=time.getYear();
+if (year < 2000)
+year = year + 1900;
+document.write("<center>" + date + " - ");
+document.write(lmonth + " - " + year + "</center>");
+// End -->
+</SCRIPT>
+</CENTER>
+</td>
+<!--(START) TRANSMENU TopMenu [themes/VML/header.html]-->
+<!----------------------------------------------------------------------------------------------->
+<td class="top-menu" width="*" align="left" valign="middle">
+<div id="wrap">
+<div id="menu">
+| <a href="index.php">Home</a>
+| <a href="#" id="menu_1">About Us</a>
+| <a href="#" id="menu_2">Research Activities</a>
+| <a href="#" id="menu_3">News</a>
+
+ <a href="modules.php?name=News&file=article&sid=7" id="menu_4">For The Public <img src="../vml-mysite/images/untitled3.gif" height=\'13\' alt="Multilingual Content" border="0" align="absmiddle" usemap="#Map" /></a>
+<!-- <a href="modules.php?name=News&file=article&sid=7" id="menu_4">For The Public </a> -->
+
+| <a href="modules.php?name=Your_Account&stop=login">Members Area</a>
+|<a href="modules.php?name=News&file=article&sid=22">Contact</a> |</div>
+</div>
+</td>
+<!--(END) TRANSMENU TopMenu [themes/VML/header.html]-->
+</td>
+</tr>
+</table>
+
+<!--(START) TRANSMENU (2) Javascript Code [themes/VML/header.html]-->
+<script language="javascript">
+	if (TransMenu.isSupported())
+		{
+		var ms = new TransMenuSet(TransMenu.direction.down, 1, 0, TransMenu.reference.bottomLeft);
+
+					var menu1 = ms.addMenu(document.getElementById("menu_1"));
+							menu1.addItem("Contact us", "modules.php?name=News&file=article&sid=22");
+							menu1.addItem("Consortium Description", "modules.php?name=News&file=article&sid=21");
+							menu1.addItem("Management", "modules.php?name=News&file=article&sid=20");
+							menu1.addItem("Research Partners", "modules.php?name=News&file=article&sid=19");
+							menu1.addItem("Partner Institutions", "modules.php?name=News&file=article&sid=18");
+
+					var menu2 = ms.addMenu(document.getElementById("menu_2"));
+							menu2.addItem("Summary", "modules.php?name=News&file=article&sid=17");
+							menu2.addItem("Dissemination of Knowledge", "#");
+							
+					var menu3 = ms.addMenu(document.getElementById("menu_3"));
+							menu3.addItem("Contact", "modules.php?name=News&file=article&sid=16");
+							menu3.addItem("Press Releases", "modules.php?name=News&file=article&sid=15");
+							menu3.addItem("Events", "modules.php?name=News&file=article&sid=25");
+							menu3.addItem("FP7 Facts", "#");
+							
+          var menu4 = ms.addMenu(document.getElementById("menu_4"));
+							menu4.addItem("Project: For The Public", "modules.php?name=News&file=article&sid=7");
+									var submenu41 = menu4.addMenu(menu4.items[0]);
+											submenu41.addItem("For The Public (EN)", "modules.php?name=News&file=article&sid=7");
+											submenu41.addItem("For The Public (GR)", "modules.php?name=News&file=article&sid=13");
+											submenu41.addItem("For The Public (IT)", "modules.php?name=News&file=article&sid=12");
+											submenu41.addItem("For The Public (CZ)", "modules.php?name=News&file=article&sid=9");
+											submenu41.addItem("For The Public (DE)", "modules.php?name=News&file=article&sid=11");
+											submenu41.addItem("For The Public (AT)", "modules.php?name=News&file=article&sid=31");
+											submenu41.addItem("For The Public (IL)", "modules.php?name=News&file=article&sid=32");
+											submenu41.addItem("For The Public (FR)", "modules.php?name=News&file=article&sid=10");
+											submenu41.addItem("For The Public (ES)", "modules.php?name=News&file=article&sid=8");
+											submenu41.addItem("For The Public (HR)", "modules.php?name=News&file=article&sid=33");
+
+
+
+
+							menu4.addItem("News And Views", "modules.php?name=News&file=article&sid=14");
+							menu4.addItem("Related Publications", "modules.php?name=News&file=article&sid=28");
+
+		TransMenu.renderAll();
+		}
+</script>
+<!--(END) TRANSMENU (2) Javascript Code [themes/VML/header.html]-->
+<!----------------------------------------------------------------------------------------------->
+<!--(END) Top Menu -->
+
+
+
+
+
+<!--(start) CONTENT  TABLE -->
+<table cellpadding="0" cellspacing="0" width="100%" border="0">
+<tr>
+<td valign="top">
+<map name="Map" id="Map">
+<area shape="rect" coords="0,1,9,11" href="modules.php?name=News&file=article&sid=31" alt="For The Public (AT)">
+<area shape="rect" coords="11,1,20,11" href="modules.php?name=News&file=article&sid=10" alt="For The Public (FR)">
+<area shape="rect" coords="22,1,31,11" href="modules.php?name=News&file=article&sid=11" alt="For The Public (DE)">
+<area shape="rect" coords="33,1,42,11" href="modules.php?name=News&file=article&sid=12" alt="For The Public (IT)">
+<area shape="rect" coords="44,1,53,11" href="modules.php?name=News&file=article&sid=8" alt="For The Public (ES)">
+<area shape="rect" coords="55,1,64,11" href="modules.php?name=News&file=article&sid=9" alt="For The Public (CZ)">
+<area shape="rect" coords="66,1,75,11" href="modules.php?name=News&file=article&sid=32" alt="For The Public (IL)">
+<area shape="rect" coords="77,1,86,11" href="modules.php?name=News&file=article&sid=7" alt="For The Public (EN)">
+<area shape="rect" coords="88,1,97,11" href="modules.php?name=News&file=article&sid=33" alt="For The Public (HR)">
+<area shape="rect" coords="99,1,118,11" href="modules.php?name=News&file=article&sid=13" alt="For The Public (GR)">
+</map>
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+  <tr>
+    <td class="leftmenu"><strong><a href="index.php">Home</a></strong></td>
+  </tr>
+</table>
+<!--(END)[themes/VML/header.html]-->
+<!----><!---->
+<!--(START)(BLOCKS)[themes/VML/blocks.html]-->
+<table class="leftmenu" border="0" cellspacing="0" cellpadding="5" width="100%">
+<tr>
+<td class="leftmenu">
+<b class="leftmenutitle">About Us</b>
+<br>
+<table width="100%" cellspacing="0" cellpadding="2" border="0">
+  <tr>
+    <td><a href="modules.php?name=News&file=article&sid=22">Contact us</a></td>
+  </tr>
+  <tr>
+    <td><a href="modules.php?name=News&file=article&sid=21">Consortium Description</a></td>
+  </tr>
+  <tr>
+    <td><a href="modules.php?name=News&file=article&sid=20">Management</a></td>
+  </tr>
+  <tr>
+    <td><a href="modules.php?name=News&file=article&sid=19">Research Partners</a></td>
+  </tr>
+  <tr>
+    <td><a href="modules.php?name=News&file=article&sid=18">Partner Institutions</a></td>
+  </tr>
+</table></td>
+</tr>
+</table>
+<!--(END)(BLOCKS)[themes/VML/blocks.html]-->
+<!----><!---->
+<!--(START)(BLOCKS)[themes/VML/blocks.html]-->
+<table class="leftmenu" border="0" cellspacing="0" cellpadding="5" width="100%">
+<tr>
+<td class="leftmenu">
+<b class="leftmenutitle">Research Activities</b>
+<br>
+<table cellspacing="0" cellpadding="2" width="100%" border="0"><tr><td><a href="modules.php?name=News&file=article&sid=17">Summary</a></td></tr><tr><td><a href="modules.php?name=News&file=article&sid=26">Dissemination of Knowledge</a></td></tr></table></td>
+</tr>
+</table>
+<!--(END)(BLOCKS)[themes/VML/blocks.html]-->
+<!----><!---->
+<!--(START)(BLOCKS)[themes/VML/blocks.html]-->
+<table class="leftmenu" border="0" cellspacing="0" cellpadding="5" width="100%">
+<tr>
+<td class="leftmenu">
+<b class="leftmenutitle">News</b>
+<br>
+
+<table width="100%" cellspacing="0" cellpadding="2" border="0">
+<tr>
+<td><a href="modules.php?name=News&file=article&sid=16">Contact</a></td>
+</tr>
+<tr>
+<td><a href="modules.php?name=News&file=article&sid=15">Press Releases</a></td>
+</tr>
+<tr>
+<td><a href="modules.php?name=News&file=article&sid=25">Events</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--(END)(BLOCKS)[themes/VML/blocks.html]-->
+<!----><!---->
+<!--(START)(BLOCKS)[themes/VML/blocks.html]-->
+<table class="leftmenu" border="0" cellspacing="0" cellpadding="5" width="100%">
+<tr>
+<td class="leftmenu">
+<b class="leftmenutitle">For The Public</b>
+<br>
+<table width="100%" cellspacing="0" cellpadding="2" border="0">
+  <tr>
+    <td class="small">(Multilingual Content)</td>
+  </tr>
+  <tr>
+    <td><a href="modules.php?name=News&file=article&sid=7">Project</a></td>
+  </tr>
+  <tr>
+    <td><a href="modules.php?name=News&file=article&sid=14">News And Views</a></td>
+  </tr>
+</table></td>
+</tr>
+</table>
+<!--(END)(BLOCKS)[themes/VML/blocks.html]-->
+<!----><!---->
+<!--(START)(BLOCKS)[themes/VML/blocks.html]-->
+<table class="leftmenu" border="0" cellspacing="0" cellpadding="5" width="100%">
+<tr>
+<td class="leftmenu">
+<b class="leftmenutitle">Members Area</b>
+<br>
+<table width="100%" cellspacing="0" cellpadding="2" border="0">
+  <tr>
+    <td><a href="modules.php?name=Your_Account&stop=login">Login</a></td>
+  </tr>
+</table></td>
+</tr>
+</table>
+<!--(END)(BLOCKS)[themes/VML/blocks.html]-->
+<!----><!---->
+<!--(START)[themes/VML/left_center.html]-->
+<table width="100%" border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td><a href="http://cordis.europa.eu/fp7/" target="_blank"><img src="../vml-mysite/images/logo_fp7.jpg" alt="FP7" width="135" height="91" border="0" /></a></td>
+  </tr>
+</table>
+<br />
+</td>
+<td valign="top"><img src="images/pix.gif" width="10" height="1" border="0" alt=""></td>
+<td width="100%" valign="top">
+<!--(END)[themes/VML/left_center.html]-->
+<!---->
+<!--(START)(Table 1)(Welcome mssg)[themes/VML/tables.php]-->
+<br>
+<table class="table1welcome" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<!--(START)(Content for Table 1)-->
+<center><font class="option" color="#000000"><b>The Programme</b></font></center><br>
+<font class="content"><br />
+<img vspace="5" hspace="5" border="0" align="left" src="vml-mysite/photos/welcome.jpg" alt="InflaCare" />INFLA-CARE (<strong>Infla</strong>mmation and <strong>Ca</strong>ncer <strong>R</strong>esearch in <strong>E</strong>urope) is a four year collaborative research programme, funded by the European Commission,&nbsp; which aims to develop new diagnostic tools and therapeutic strategies for malignancies associated with chronic inflammation.&nbsp; This project will employ state-of-the-art pre-clinical models and cutting-edge technologies to characterize in detail the interactions between the tumour and its inflammatory microenvironment and to examine the role of inflammation-activated signal transduction in liver, lung and colorectal carcinogenesis.&nbsp; The acquisition of this type of knowledge should make a positive impact on the development of targeted therapeutic strategies and the definition of new disease biomarkers leading to improved prophylactic care.<br />
+<br />
+The 21 member consortium of INFLA-CARE comprises expert scientists and clinicians from Europe and Israel and is coordinated by the Institute of Molecular Biology &amp; Biotechnology in Heraklion, Greece.<br />
+<br />
+<br />
+
+<table width="380" border="0">
+<tr>
+   
+<td><strong>Project name:</strong></td>
+   
+<td><strong>INFLA-CARE</strong></td>
+</tr>
+
+<tr>
+   
+<td><strong>Duration:</strong></td>
+   
+<td><strong>4 years, commencing 1 January 2009</strong></td>
+</tr>
+
+<tr>
+   
+<td><strong>Contract no.:</strong></td>
+   
+<td><strong>223151</strong></td>
+</tr>
+
+<tr>
+   
+<td><strong>Total cost:</strong></td>
+   
+<td><strong>&euro; 16,190,756</strong></td>
+</tr>
+
+
+<tr>
+   
+<td><strong>Commission funding:</strong></td>
+   
+<td><strong>&euro; 11,999,889</strong></td>
+</tr>
+</table>
+</font>
+<!--(END)(Content for Table 2)-->
+</td>
+</tr>
+</td>
+</tr>
+</table>
+<br>
+<!--(END)(Table 1)(Welcome mssg)[themes/VML/tables.php]-->
+<br>
+<!--(START)(Table 1)(Welcome mssg)[themes/VML/tables.php]-->
+<br>
+<table class="table1welcome" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<!--(START)(Content for Table 1)-->
+<center><font class="option" color="#000000"><b>Research Highlights</b></font></center><br>
+<font class="content">
+<table border="0">
+<!-- highlight 1-->
+<tr>
+<td>
+<a href="http://www.nature.com/ng/journal/v43/n3/full/ng.767.html"><img width="90" height="130" border="0" align="left" src="vml-mysite/arxeia/homecover.gif" /></a>
+</td>
+
+<td>
+<strong>
+<a href="http://www.nature.com/ng/journal/v43/n3/full/ng.767.html">The stress kinase MKK7 couples oncogenic stress to p53 stability and tumor suppression</a>
+</strong>
+</td>
+</tr>
+
+<!-- highlight 2-->
+<tr>
+<td>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/22120177"><img width="90" height="130" border="0" align="left" src="vml-mysite/arxeia/highlights2.gif" /></a>
+</td>
+
+<td>
+<strong>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/22120177">Stimulating healthy tissue regeneration by targeting the 5-HT2B receptor in chronic liver disease.</a>
+</strong>
+</td>
+</tr>
+
+<!-- highlight 3-->
+<tr>
+<td>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed?term=welz%20vlantis"><img width="90" height="130" border="0" align="left" src="vml-mysite/arxeia/highlights3.jpg" /></a>
+</td>
+
+<td>
+<strong>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed?term=welz%20vlantis">FADD prevents RIP3-mediated epithelial cell necrosis and chronic intestinal inflammation</a>
+</strong>
+</td>
+</tr>
+
+<!-- highlight 4-->
+<tr>
+<td>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed?term=bonnet%20van%20loo"><img width="90" height="130" border="0" align="left" src="vml-mysite/arxeia/highlights4.gif" /></a>
+</td>
+
+<td>
+<strong>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed?term=bonnet%20van%20loo">The adaptor protein FADD protects epidermal keratinocytes from necroptosis in vivo and prevents skin inflammation </a>
+</strong>
+</td>
+</tr>
+
+<!-- highlight 5-->
+<tr>
+<td>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/22174255"><img width="90" height="130" border="0" align="left" src="vml-mysite/arxeia/highlights5.gif" /></a>
+</td>
+
+<td>
+<strong>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/22174255">Autophagy-dependent anticancer immune responses induced by chemotherapeutic agents in mice</a>
+</strong>
+</td>
+</tr>
+
+<!-- highlight 6-->
+<tr>
+<td>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/22201685"><img width="90" height="130" border="0" align="left" src="vml-mysite/arxeia/highlights6.gif" /></a>
+</td>
+
+<td>
+<strong>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/22201685">Myeloid cell expression of the RNA-binding protein HuR protects mice from pathologic inflammation and colorectal carcinogenesis</a>
+</strong>
+</td>
+</tr>
+
+<!-- highlight 6-->
+<tr>
+<td>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/23533274"><img width="90" height="130" border="0" align="left" src="vml-mysite/arxeia/highlights7.gif" /></a>
+</td>
+
+<td>
+<strong>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/23533274">TPL2 kinase is a suppressor of lung carcinogenesis. </a>
+</strong>
+</td>
+</tr>
+
+</table>
+ 
+</font>
+<!--(END)(Content for Table 2)-->
+</td>
+</tr>
+</td>
+</tr>
+</table>
+<br>
+<!--(END)(Table 1)(Welcome mssg)[themes/VML/tables.php]-->
+<br><!---->
+<!--(START)[themes/VML/story_home.html]-->
+<table class="arthro" width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="arthroleftcorner">
+<a href="modules.php?name=News&amp;new_topic=5"><img src="images/topics/pixel.gif" border="0" Alt="News" align="right" hspace="5" vspace="5"></a>
+<b><a href="modules.php?name=News&amp;file=categories&amp;op=newindex&amp;catid=5"><font class="storycat">News</font></a>: The INFLA-CARE project is cited in "The Oncologist"</b>
+<br>
+<font class="small">Posted by <a href="mailto:vml@med.uoc.gr">admin</a> on Monday, July 29 @ 19:13:37 EEST  (1968 reads)</font>
+<br>
+<br>
+The INFLA-CARE project is cited by an EC Health Directory publication in &quot;The Oncologist&quot; as an example of how collaborative programmes in fundamental research can provide added value.<br /><br /><a target="_blank" href="vml-mysite/arxeia/The Oncologist-2012-van de Loo-e26-32_010413.pdf"><strong><u>Emphasising the European Union's Commitment to Cancer Research: A Helicopter View of the Seventh Framework Programme for Research and Technological Development.</u></strong></a>
+</td>
+</tr>
+<tr>
+<td class="arthrorightcorner"><font class="content">
+<!--(START) [morelink] (modules/News/index.php)-->
+<a href="modules.php?name=News&amp;file=article&amp;sid=38"><b>Read More...</b></a>  | <a href="modules.php?name=News&amp;file=categories&amp;op=newindex&amp;catid=5">News</a>
+<!--(END) [morelink] (modules/News/index.php)-->
+</font></td>
+</tr>
+</table>
+<br>
+<!--(END)[themes/VML/story_home.html]-->
+<!----><!---->
+<!--(START)[themes/VML/story_home.html]-->
+<table class="arthro" width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="arthroleftcorner">
+<a href="modules.php?name=News&amp;new_topic=5"><img src="images/topics/pixel.gif" border="0" Alt="News" align="right" hspace="5" vspace="5"></a>
+<b><a href="modules.php?name=News&amp;file=categories&amp;op=newindex&amp;catid=5"><font class="storycat">News</font></a>: INFLA-CARE e-NewsLetter 3rd Issue;March 2013</b>
+<br>
+<font class="small">Posted by <a href="mailto:vml@med.uoc.gr">admin</a> on Thursday, April 18 @ 13:06:22 EEST  (2135 reads)</font>
+<br>
+<br>
+<a href="vml-mysite/arxeia/INFLA-CARE_Newsletter3.pdf" target="_blank"><strong><u>INFLA-CARE e-NewsLetter 3<sup>rd</sup> Issue;March 2013.</u></strong></a>
+
+</td>
+</tr>
+<tr>
+<td class="arthrorightcorner"><font class="content">
+<!--(START) [morelink] (modules/News/index.php)-->
+<a href="modules.php?name=News&amp;file=article&amp;sid=37"><b>Read More...</b></a>  | <a href="modules.php?name=News&amp;file=categories&amp;op=newindex&amp;catid=5">News</a>
+<!--(END) [morelink] (modules/News/index.php)-->
+</font></td>
+</tr>
+</table>
+<br>
+<!--(END)[themes/VML/story_home.html]-->
+<!----><!---->
+<!--(START)[themes/VML/story_home.html]-->
+<table class="arthro" width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="arthroleftcorner">
+<a href="modules.php?name=News&amp;new_topic=5"><img src="images/topics/pixel.gif" border="0" Alt="News" align="right" hspace="5" vspace="5"></a>
+<b><a href="modules.php?name=News&amp;file=categories&amp;op=newindex&amp;catid=5"><font class="storycat">News</font></a>: INFLA-CARE e-NewsLetter 2nd Issue;June 2012.</b>
+<br>
+<font class="small">Posted by <a href="mailto:vml@med.uoc.gr">admin</a> on Tuesday, April 02 @ 14:08:52 EEST  (2082 reads)</font>
+<br>
+<br>
+<a target="_blank" href="vml-mysite/arxeia/INFLA-CARE_Newsletter2.pdf"><strong><u>INFLA-CARE e-NewsLetter 2<sup>nd</sup> Issue;June 2012.</u></strong></a>
+
+</td>
+</tr>
+<tr>
+<td class="arthrorightcorner"><font class="content">
+<!--(START) [morelink] (modules/News/index.php)-->
+<a href="modules.php?name=News&amp;file=article&amp;sid=36"><b>Read More...</b></a>  | <a href="modules.php?name=News&amp;file=categories&amp;op=newindex&amp;catid=5">News</a>
+<!--(END) [morelink] (modules/News/index.php)-->
+</font></td>
+</tr>
+</table>
+<br>
+<!--(END)[themes/VML/story_home.html]-->
+<!----><!---->
+<!--(START)[themes/VML/story_home.html]-->
+<table class="arthro" width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="arthroleftcorner">
+<a href="modules.php?name=News&amp;new_topic=5"><img src="images/topics/pixel.gif" border="0" Alt="News" align="right" hspace="5" vspace="5"></a>
+<b><a href="modules.php?name=News&amp;file=categories&amp;op=newindex&amp;catid=5"><font class="storycat">News</font></a>: Poster</b>
+<br>
+<font class="small">Posted by <a href="mailto:vml@med.uoc.gr">admin</a> on Monday, April 18 @ 17:21:05 EEST  (2544 reads)</font>
+<br>
+<br>
+<a href="vml-mysite/arxeia/dna_poster.pdf" target="_blank">
+<strong>A poster for the high-impact journal Nature Reviews on Cancer on the theme of DNA damage signaling in early cancer and its relevance for therapy is published by INFLA-CARE scientist Jiri Bartek.</strong>
+</a>
+
+</td>
+</tr>
+<tr>
+<td class="arthrorightcorner"><font class="content">
+<!--(START) [morelink] (modules/News/index.php)-->
+<a href="modules.php?name=News&amp;file=article&amp;sid=35"><b>Read More...</b></a>  | <a href="modules.php?name=News&amp;file=categories&amp;op=newindex&amp;catid=5">News</a>
+<!--(END) [morelink] (modules/News/index.php)-->
+</font></td>
+</tr>
+</table>
+<br>
+<!--(END)[themes/VML/story_home.html]-->
+<!----><!---->
+<!--(START)[themes/VML/story_home.html]-->
+<table class="arthro" width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="arthroleftcorner">
+<a href="modules.php?name=News&amp;new_topic=5"><img src="images/topics/pixel.gif" border="0" Alt="News" align="right" hspace="5" vspace="5"></a>
+<b><a href="modules.php?name=News&amp;file=categories&amp;op=newindex&amp;catid=5"><font class="storycat">News</font></a>: INFLA-CARE e-NewsLetter 1st Issue; February 2011.</b>
+<br>
+<font class="small">Posted by <a href="mailto:vml@med.uoc.gr">admin</a> on Sunday, March 13 @ 15:16:35 EET  (2511 reads)</font>
+<br>
+<br>
+<p class="MsoNormal"><a target="_blank" href="vml-mysite/arxeia/INFLA-CARE_Newsletter1.pdf"><strong><u>INFLA-CARE e-NewsLetter 1<sup>st</sup> Issue; February 2011.</u></strong></a></p>
+
+</td>
+</tr>
+<tr>
+<td class="arthrorightcorner"><font class="content">
+<!--(START) [morelink] (modules/News/index.php)-->
+<a href="modules.php?name=News&amp;file=article&amp;sid=34"><b>Read More...</b></a>  | <a href="modules.php?name=News&amp;file=categories&amp;op=newindex&amp;catid=5">News</a>
+<!--(END) [morelink] (modules/News/index.php)-->
+</font></td>
+</tr>
+</table>
+<br>
+<!--(END)[themes/VML/story_home.html]-->
+<!----><!---->
+<!--(START)[themes/VML/center_right.html]-->
+</td>
+<td><img src="images/pix.gif" width="10" height="1" border="0" alt=""></td>
+<td valign="top">
+<!--(END)[themes/VML/center_right.html]-->
+<!----><!---->
+<!--(START)(FOOTER)[themes/VML/footer.html]-->
+</td>
+</tr>
+</table>
+<div align="left">
+<img src="../vml-mysite/images/pixel.gif" width="30" height="10">Visitors:
+<!-- (START) of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=2445508; 
+var sc_invisible=0; 
+var sc_partition=23; 
+var sc_security="4174bb91"; 
+var sc_text=1; 
+</script>
+<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript>
+<a href="http://www.statcounter.com/" target="_blank">
+<img  src="http://c24.statcounter.com/counter.php?sc_project=2445508&amp;java=0&amp;security=4174bb91&amp;invisible=0" alt="website stats" border="0" align="absmiddle"></a> 
+</noscript>
+<!-- (END) of StatCounter Code -->
+<br />
+<img src="../vml-mysite/images/pixel.gif" width="30" height="10">
+</div>
+<!-- (START) Google Analytics Code -->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1689118-1";
+urchinTracker();
+</script>
+<!-- (END) Google Analytics Code -->
+<!--(END)(FOOTER)[themes/VML/footer.html]-->
+<!---->
+</td>
+</tr>
+</table>
+<!--(end) TABLE of ALL [footer.php]-->
+<img src="vml-mysite/images/pixel.gif" width="10" height="14" valign="absmiddle"><font class="footersmall">Designed by: <a href="mailto:gsavakis@med.uoc.gr"><b>George Savakis</b></a> for <a href="http://vml.med.uoc.gr" target="_blank">Virtual Medical Lab</a> (Faculty of Medicine - Univercity of Crete)</font>
+<br /><br />
+</div>
+
+</body>
+</html>
+<!--(end) HTML Page [footer.php]-->

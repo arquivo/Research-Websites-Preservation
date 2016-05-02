@@ -1,0 +1,413 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://gmpg.org/xfn/11">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title> Arrows Project</title>
+
+<link rel="stylesheet" href="http://www.arrowsproject.eu/wp-content/themes/wp-clear/style.css" type="text/css" media="screen" />
+
+<link rel="stylesheet" href="http://www.arrowsproject.eu/wp-content/themes/wp-clear/style-font.css" type="text/css" media="screen" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<link rel="pingback" href="http://www.arrowsproject.eu/xmlrpc.php" />
+
+<!--[if lt IE 9]>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+
+
+<link rel="alternate" type="application/rss+xml" title="Arrows Project &raquo; Feed" href="http://www.arrowsproject.eu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Arrows Project &raquo; Comments Feed" href="http://www.arrowsproject.eu/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.arrowsproject.eu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wpfb-css'  href='//www.arrowsproject.eu/wp-content/plugins/wp-filebase/wp-filebase.css?t=1454521676&#038;ver=3.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='events-manager-css'  href='http://www.arrowsproject.eu/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.62' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var EM = {"ajaxurl":"http:\/\/www.arrowsproject.eu\/wp-admin\/admin-ajax.php","locationajaxurl":"http:\/\/www.arrowsproject.eu\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"dd\/mm\/yy","ui_css":"http:\/\/www.arrowsproject.eu\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"1","is_ssl":"","bookingInProgress":"Please wait while the booking is being submitted.","tickets_save":"Save Ticket","bookingajaxurl":"http:\/\/www.arrowsproject.eu\/wp-admin\/admin-ajax.php","bookings_export_save":"Export Bookings","bookings_settings_save":"Save Settings","booking_delete":"Are you sure you want to delete?","bb_full":"Sold Out","bb_book":"Prenota ora","bb_booking":"Prenotazione in corso ...","bb_booked":"Prenotazione Submitted","bb_error":"Prenotazione Error. Try again?","bb_cancel":"Annullare","bb_canceling":"Canceling...","bb_cancelled":"Cancellato","bb_cancel_error":"Cancellation Error. Try again?","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","event_reschedule_warning":"Are you sure you want to reschedule this recurring event? If you do this, you will lose all booking information and the old recurring events will be deleted.","event_detach_warning":"Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.","delete_recurrence_warning":"Are you sure you want to delete all recurrences of this event? All events will be moved to trash.","disable_bookings_warning":"Are you sure you want to disable bookings? If you do this and save, you will lose all previous bookings. If you wish to prevent further bookings, reduce the number of spaces available to the amount of bookings you currently have","booking_warning_cancel":"Sei sicuro di voler annullare la prenotazione?"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.62'></script>
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-content/themes/wp-clear/js/external.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-content/themes/wp-clear/js/suckerfish.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-content/themes/wp-clear/js/suckerfish-cat.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-content/themes/wp-clear/js/flexslider.js?ver=4.4.2'></script>
+<link rel='https://api.w.org/' href='http://www.arrowsproject.eu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.arrowsproject.eu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.arrowsproject.eu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<link rel="canonical" href="http://www.arrowsproject.eu/" />
+<link rel='shortlink' href='http://www.arrowsproject.eu/' />
+<link rel='stylesheet' href='http://www.arrowsproject.eu/wp-content/plugins/youtube-sidebar-widget/style.css' />
+<!-- Alternate Stylesheet -->
+<link href="http://www.arrowsproject.eu/wp-content/themes/wp-clear/styles/default.css" rel="stylesheet" type="text/css" />
+
+<!-- Custom Styles from Theme Setting Page -->
+<style type="text/css">
+#sitetitle .title,#sitetitle .description {float:none;text-indent:-999em;position:absolute;display:none;left:-999em;}
+</style>
+
+<!-- Styles from custom.css -->
+<link href="http://www.arrowsproject.eu/wp-content/themes/wp-clear/custom.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body class="home page page-id-2 page-template-default c-sw">
+
+<div class="outer-wrap">
+
+	<div id="topnav">
+		<div class="limit clearfix">
+							<ul class="clearfix">
+					<li class="search"><form id="searchform" method="get" action="http://www.arrowsproject.eu/" ><input type="text" value="Enter Search Terms" onfocus="if (this.value == 'Enter Search Terms') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter Search Terms';}" size="18" maxlength="50" name="s" id="searchfield" /><input type="submit" value="search" id="submitbutton" /></form>
+</li>
+										<li class="rss-comments"><a title="Comments RSS Feed" href="http://www.arrowsproject.eu/comments/feed/">Comments</a></li>
+					<li class="rss-content"><a title="Posts RSS Feed" href="http://www.arrowsproject.eu/feed/">Posts</a></li>
+				</ul>
+					</div>
+	</div>
+
+	<div id="wrap">
+
+		<div id="header">
+			<div id="head-content" class="clearfix">
+									<div id="logo">
+						<a href="http://www.arrowsproject.eu" title="Arrows Project"><img src="/wp-content/uploads/2013/01/logo.png" alt="Arrows Project" /></a>
+					</div>
+											</div>
+		</div>
+
+				<div id="catnav">
+			<div class="limit clearfix">
+									<ul class="clearfix">
+						<li class="page_item page-item-2 current_page_item"><a href="http://www.arrowsproject.eu/">Home</a></li>
+<li class="page_item page-item-4"><a href="http://www.arrowsproject.eu/overview/">Overview</a></li>
+<li class="page_item page-item-6 page_item_has_children"><a href="http://www.arrowsproject.eu/the-consortium/">The Consortium</a>
+<ul class='children'>
+	<li class="page_item page-item-66"><a href="http://www.arrowsproject.eu/the-consortium/partner-1-unifi-universita-di-firenze-italy/">Partner 1: UNIFI (Università di Firenze, Italy)</a></li>
+	<li class="page_item page-item-90"><a href="http://www.arrowsproject.eu/the-consortium/partner-2-cnr-isti-consiglio-nazionale-delle-ricerche-istituto-di-scienze-e-tecnologie-dellinformazione-italy/">Partner 2: CNR-ISTI (Consiglio Nazionale delle Ricerche, Istituto di Scienze e Tecnologie dell’Informazione, Italy)</a></li>
+	<li class="page_item page-item-96"><a href="http://www.arrowsproject.eu/the-consortium/partner-3-tut-tallinn-university-of-technology-estonia/">Partner 3: TUT (Tallinn University of Technology, Estonia)</a></li>
+	<li class="page_item page-item-99"><a href="http://www.arrowsproject.eu/the-consortium/partner-4-hwu-heriot-watt-university-edinburgh-scotland-uk/">Partner 4: HWU (Heriot Watt University, Edinburgh, Scotland, UK)</a></li>
+	<li class="page_item page-item-102"><a href="http://www.arrowsproject.eu/the-consortium/partner-5-el-edgelab-s-r-l-italy/">Partner 5: EL (EdgeLab s.r.l, Italy)</a></li>
+	<li class="page_item page-item-116"><a href="http://www.arrowsproject.eu/the-consortium/partner-6-amt-albatros-marine-technologies-s-l-spain/">Partner 6: AMT (Albatros Marine Technologies S.L., Spain)</a></li>
+	<li class="page_item page-item-120"><a href="http://www.arrowsproject.eu/the-consortium/partner-7-nesne-nesne-electronics-turkey/">Partner 7: NESNE (NESNE Electronics, Turkey)</a></li>
+	<li class="page_item page-item-124"><a href="http://www.arrowsproject.eu/the-consortium/partner-8-twi-twi-ltd-uk/">Partner 8: TWI (TWI Ltd, UK)</a></li>
+	<li class="page_item page-item-128"><a href="http://www.arrowsproject.eu/the-consortium/partner-9-dbcis-dipartimento-per-i-beni-culturali-e-lidentita-siciliana-italy/">Partner 9: DBCIS (Dipartimento per I Beni Culturali e l’Identità Siciliana, Italy)</a></li>
+	<li class="page_item page-item-138"><a href="http://www.arrowsproject.eu/the-consortium/partner-10-mmt-maritime-museum-tallinn-estonia/">Partner 10: EMM (Estonian Maritime Museum, Estonia)</a></li>
+</ul>
+</li>
+<li class="page_item page-item-8"><a href="http://www.arrowsproject.eu/the-rationale/">The Rationale</a></li>
+<li class="page_item page-item-10"><a href="http://www.arrowsproject.eu/workpage-structure/">Workpage Structure</a></li>
+<li class="page_item page-item-12"><a href="http://www.arrowsproject.eu/contacts/">Contacts</a></li>
+<li class="page_item page-item-14"><a href="http://www.arrowsproject.eu/photo-gallery/">Photo Gallery</a></li>
+<li class="page_item page-item-16"><a href="http://www.arrowsproject.eu/press-review/">Press Review</a></li>
+<li class="page_item page-item-26 page_item_has_children"><a href="http://www.arrowsproject.eu/media-center/">Media Center</a>
+<ul class='children'>
+	<li class="page_item page-item-488"><a href="http://www.arrowsproject.eu/media-center/arrows-human-machine-interface-video-tutorial/">ARROWS Human Machine Interface (video tutorial)</a></li>
+	<li class="page_item page-item-349 page_item_has_children"><a href="http://www.arrowsproject.eu/media-center/trials/">TRIALS</a>
+	<ul class='children'>
+		<li class="page_item page-item-356"><a href="http://www.arrowsproject.eu/media-center/trials/3d-reconstructions-levanzo-sicily-and-rummu-quarry-estonia/">3D reconstructions: Levanzo (Sicily) and Rummu quarry (Estonia)</a></li>
+		<li class="page_item page-item-463"><a href="http://www.arrowsproject.eu/media-center/trials/cleaning-tool-images/">Cleaning tool images</a></li>
+		<li class="page_item page-item-391"><a href="http://www.arrowsproject.eu/media-center/trials/cleaning-tool-videos/">Cleaning tool videos</a></li>
+		<li class="page_item page-item-352"><a href="http://www.arrowsproject.eu/media-center/trials/marta-videos/">MARTA videos</a></li>
+		<li class="page_item page-item-358"><a href="http://www.arrowsproject.eu/media-center/trials/more-images/">More images</a></li>
+		<li class="page_item page-item-360"><a href="http://www.arrowsproject.eu/media-center/trials/more-videos/">More videos</a></li>
+		<li class="page_item page-item-354"><a href="http://www.arrowsproject.eu/media-center/trials/sonar-images/">SONAR images</a></li>
+		<li class="page_item page-item-383"><a href="http://www.arrowsproject.eu/media-center/trials/typhoon-videos/">Typhoon videos</a></li>
+		<li class="page_item page-item-344"><a href="http://www.arrowsproject.eu/media-center/trials/u-cat-videos/">U-CAT videos</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="page_item page-item-30"><a href="http://www.arrowsproject.eu/archive/">Archive</a></li>
+<li class="page_item page-item-234"><a href="http://www.arrowsproject.eu/events/">Events</a></li>
+<li class="page_item page-item-270"><a href="http://www.arrowsproject.eu/links/">Links</a></li>
+																							</ul>
+							</div>
+		</div>
+				
+		<script type="text/javascript">
+//<![CDATA[
+	jQuery(window).load(function() {
+		jQuery('#home-gallery').flexslider({
+			slideshowSpeed: 6000,
+			controlNav: false
+		});
+	});
+//]]>
+</script>
+<div class="featured wide">
+	<div class="container">
+		<div id="home-gallery" class="flexslider">
+			<ul class="slides">
+				<li><img src="/wp-content/themes/wp-clear/images/headers/header01.jpg" alt="" width="958" height="300" /></li>
+				<li><img src="/wp-content/themes/wp-clear/images/headers/header02.jpg" alt="" width="958" height="300" /></li>
+				<li><img src="/wp-content/themes/wp-clear/images/headers/header03.jpg" alt="" width="958" height="300" /></li>
+				<li><img src="/wp-content/themes/wp-clear/images/headers/header04.jpg" alt="" width="958" height="300" /></li>
+				<li><img src="/wp-content/themes/wp-clear/images/headers/header05.jpg" alt="" width="958" height="300" /></li>
+				<li><img src="/wp-content/themes/wp-clear/images/headers/header06.jpg" alt="" width="958" height="300" /></li>
+				<li><img src="/wp-content/themes/wp-clear/images/headers/header07.jpg" alt="" width="958" height="300" /></li>
+				<li><img src="/wp-content/themes/wp-clear/images/headers/header08.jpg" alt="" width="958" height="300" /></li>
+				<li><img src="/wp-content/themes/wp-clear/images/headers/header09.jpg" alt="" width="958" height="300" /></li>
+			</ul>
+		</div>
+	</div>
+</div>		
+	
+	
+	<div id="page" class="clearfix">
+
+		<div id="contentleft">
+
+			
+			
+			
+			<div id="content" class="maincontent">
+
+				
+					
+
+
+				<div class="singlepage">
+
+					<div class="post clearfix" id="post-main-2">
+
+						<div class="entry">
+
+							<h1 class="page-title">Home</h1>
+
+							
+							<div>
+<div>
+<div>
+<h1 style="text-align: center;"><a href="http://www.arrowsproject.eu/wp-content/uploads/2012/11/FP7-gen-RGB.jpg"><img class="aligncenter  wp-image-44" title="FP7-gen-RGB" alt="" src="http://www.arrowsproject.eu/wp-content/uploads/2012/11/FP7-gen-RGB.jpg" width="218" height="178" /></a></h1>
+<h1 style="text-align: center;">ARROWS</h1>
+<h1 style="text-align: center;">ARchaeological RObot systems for the World&#8217;s Seas</h1>
+<p>&nbsp;</p>
+<p style="text-align: center;"><strong>Start: September the 1st, 2012<br />
+End: August the 31st, 2015</strong></p>
+<p style="text-align: center;"><strong>The project is supported by the European Commission under the Environment Theme of the 7th Framework Programme for Research and Technological Development.</strong></p>
+</div>
+</div>
+</div>
+<p>ARROWS proposes to adapt and develop low cost autonomous underwater vehicle technologies to significantly reduce the cost of archaeological operations, covering the full extent of archaeological campaign.</p>
+<p>Benefiting from the significant investments already made for military security and offshore oil and gas applications, the project aims to demonstrate an illustrative portfolio of mapping, diagnosis, excavation and security tasks.</p>
+<p>ARROWS approach is to identify the archaeologists’ requirements in all phases of the campaign, identify problems and propose technological solutions with the technological readiness levels that predict their maturation for exploitation within 3-5 years.</p>
+<p><a href="http://www.arrowsproject.eu/wp-content/uploads/2012/11/RostroEgadi1.jpg"><img class=" wp-image-55 alignleft" alt="RostroEgadi1" src="http://www.arrowsproject.eu/wp-content/uploads/2012/11/RostroEgadi1.jpg" width="464" height="262" srcset="http://www.arrowsproject.eu/wp-content/uploads/2012/11/RostroEgadi1-300x169.jpg 300w, http://www.arrowsproject.eu/wp-content/uploads/2012/11/RostroEgadi1.jpg 773w" sizes="(max-width: 464px) 100vw, 464px" /></a>The individual technologies are then developed during the course of the project using agile development method comprising rapid cycles of testing and comparison against the end user requirements.</p>
+<p>To ensure the wide exploitability of the results the requirements are defined and the solutions are tested in two historically significant but environmentally very different contexts, in The Mediterranean Sea and in The Baltic Sea.</p>
+<p>Both immediate, low risk and long term, high risk developments will be pursued. In particular:</p>
+<ul>
+<li>Fast a low cost horizontal surveys of large areas using customised AUVs with multimodal sensing.</li>
+<li>Fast and low cost semi-automated data analysing tools for site and object relocation</li>
+<li>High quality maps from better image reconstruction methods and better localization abilities of AUVs.</li>
+<li>Shipewreck penetration and internal mapping using small low cost vehicles localising using fixed pingers.</li>
+<li>Soft excavation tool for diagnosis and excavation of fragile objects</li>
+<li>Mixed reality environments for virtual exploration of archaeological sites.</li>
+<li>Active intrude detection methods</li>
+</ul>
+<p>The ARROWS consortium comprises expertise from underwater archaeology, underwater engineering, robotics, image processing and recognition from academia and industry.</p>
+<div style="clear:both;"></div>
+							<div style="clear:both;"></div>
+
+							
+						</div>
+
+					</div>
+
+
+				</div>
+
+				
+			</div>
+
+			
+		</div>
+
+
+		<div id="contentright">
+
+			<div id="sidebar" class="clearfix">
+				<div id="twitter-2" class="widget widget_twitter"><div class="widget-wrap"><div><h3 class="widgettitle"><span><span class='twitterwidget twitterwidget-title'>Twitter: ARROWSProject</span></span></h3><ul><li><span class='entry-content'>RT <a href="http://twitter.com/maritime_arch" class="twitter-user">@maritime_arch</a>: Robot <a href="http://twitter.com/search?q=%23archaeologists" class="twitter-hashtag">#archaeologists</a>: taking the risks out of <a href="http://twitter.com/search?q=%23underwater" class="twitter-hashtag">#underwater</a> fieldwork <a href="http://twitter.com/ARROWSproject" class="twitter-user">@ARROWSproject</a> <a href="http://twitter.com/search?q=%23shipwreck" class="twitter-hashtag">#shipwreck</a> <a href="http://twitter.com/search?q=%23maritime" class="twitter-hashtag">#maritime</a> <a href="http://t.co/tR5…">http://t.co/tR5…</a></span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/ARROWSProject/statuses/662993194053967872">03:01:09 PM November 07, 2015</a></span> <span class='from-meta'>from <a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a></span></span> <span class="intent-meta"><a href="http://twitter.com/intent/tweet?in_reply_to=662993194053967872" data-lang="en" class="in-reply-to" title="Reply">Reply</a><a href="http://twitter.com/intent/retweet?tweet_id=662993194053967872" data-lang="en" class="retweet" title="Retweet">Retweet</a><a href="http://twitter.com/intent/favorite?tweet_id=662993194053967872" data-lang="en" class="favorite" title="Favorite">Favorite</a></span></li><li><span class='entry-content'>RT <a href="http://twitter.com/ncchu" class="twitter-user">@ncchu</a>: <a href="http://twitter.com/search?q=%23Underwater" class="twitter-hashtag">#Underwater</a> <a href="http://twitter.com/search?q=%23cultureheritage" class="twitter-hashtag">#cultureheritage</a> <a href="http://twitter.com/search?q=%23EPRcardoSantos" class="twitter-hashtag">#EPRcardoSantos</a> briefing <a href="http://twitter.com/UNESCO" class="twitter-user">@UNESCO</a> <a href="http://twitter.com/EU_MARE" class="twitter-user">@EU_MARE</a> <a href="http://twitter.com/EU_ecoinno" class="twitter-user">@EU_ecoinno</a> <a href="http://twitter.com/ARROWSProject" class="twitter-user">@ARROWSProject</a> SPLASHCOS &amp; SASMAP <a href="http://t.co…">http://t.co…</a></span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/ARROWSProject/statuses/662993122985680896">03:00:52 PM November 07, 2015</a></span> <span class='from-meta'>from <a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a></span></span> <span class="intent-meta"><a href="http://twitter.com/intent/tweet?in_reply_to=662993122985680896" data-lang="en" class="in-reply-to" title="Reply">Reply</a><a href="http://twitter.com/intent/retweet?tweet_id=662993122985680896" data-lang="en" class="retweet" title="Retweet">Retweet</a><a href="http://twitter.com/intent/favorite?tweet_id=662993122985680896" data-lang="en" class="favorite" title="Favorite">Favorite</a></span></li><li><span class='entry-content'>RT <a href="http://twitter.com/wmrobots1" class="twitter-user">@wmrobots1</a>: .@ARROWSProject is working to develop robots that help humans in dangerous underwater environments.  <a href="http://t.co/yCOrBh5Ua2">http://t.co/yCOrBh5Ua2</a></span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/ARROWSProject/statuses/662993019210190849">03:00:28 PM November 07, 2015</a></span> <span class='from-meta'>from <a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a></span></span> <span class="intent-meta"><a href="http://twitter.com/intent/tweet?in_reply_to=662993019210190849" data-lang="en" class="in-reply-to" title="Reply">Reply</a><a href="http://twitter.com/intent/retweet?tweet_id=662993019210190849" data-lang="en" class="retweet" title="Retweet">Retweet</a><a href="http://twitter.com/intent/favorite?tweet_id=662993019210190849" data-lang="en" class="favorite" title="Favorite">Favorite</a></span></li><li><span class='entry-content'>RT <a href="http://twitter.com/BenAllotta" class="twitter-user">@BenAllotta</a>: <a href="http://twitter.com/ARROWSProject" class="twitter-user">@ARROWSProject</a> on <a href="http://twitter.com/search?q=%23H2020" class="twitter-hashtag">#H2020</a> magazine <a href="http://twitter.com/UNI_FIRENZE" class="twitter-user">@UNI_FIRENZE</a> <a href="https://t.co/3pYCW9vpSJ">https://t.co/3pYCW9vpSJ</a></span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/ARROWSProject/statuses/662992788464734208">02:59:33 PM November 07, 2015</a></span> <span class='from-meta'>from <a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a></span></span> <span class="intent-meta"><a href="http://twitter.com/intent/tweet?in_reply_to=662992788464734208" data-lang="en" class="in-reply-to" title="Reply">Reply</a><a href="http://twitter.com/intent/retweet?tweet_id=662992788464734208" data-lang="en" class="retweet" title="Retweet">Retweet</a><a href="http://twitter.com/intent/favorite?tweet_id=662992788464734208" data-lang="en" class="favorite" title="Favorite">Favorite</a></span></li><li><span class='entry-content'>RT <a href="http://twitter.com/MicheleCocco_" class="twitter-user">@MicheleCocco_</a>: Relitti profondi a LineaBlu con <a href="http://twitter.com/Sebastianotusa" class="twitter-user">@Sebastianotusa</a> e <a href="http://twitter.com/Donabianchi1" class="twitter-user">@Donabianchi1</a> <a href="http://twitter.com/arrowsproject" class="twitter-user">@arrowsproject</a> <a href="https://t.co/LOkChaPigA">https://t.co/LOkChaPigA</a></span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/ARROWSProject/statuses/662991246282108928">02:53:25 PM November 07, 2015</a></span> <span class='from-meta'>from <a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a></span></span> <span class="intent-meta"><a href="http://twitter.com/intent/tweet?in_reply_to=662991246282108928" data-lang="en" class="in-reply-to" title="Reply">Reply</a><a href="http://twitter.com/intent/retweet?tweet_id=662991246282108928" data-lang="en" class="retweet" title="Retweet">Retweet</a><a href="http://twitter.com/intent/favorite?tweet_id=662991246282108928" data-lang="en" class="favorite" title="Favorite">Favorite</a></span></li></ul><div class="follow-button"><a href="http://twitter.com/ARROWSProject" class="twitter-follow-button" title="Follow @ARROWSProject" data-lang="en">@ARROWSProject</a></div></div></div></div><div id="em_calendar-2" class="widget widget_em_calendar"><div class="widget-wrap"><h3 class="widgettitle"><span>Events</span></h3><div id="em-calendar-176" class="em-calendar-wrapper"><table class="em-calendar">
+	<thead>
+		<tr>
+			<td><a class="em-calnav em-calnav-prev" href="/?ajaxCalendar=1&#038;mo=1&#038;yr=2016" rel="nofollow">&lt;&lt;</a></td>
+			<td class="month_name" colspan="5">Feb 2016</td>
+			<td><a class="em-calnav em-calnav-next" href="/?ajaxCalendar=1&#038;mo=3&#038;yr=2016" rel="nofollow">&gt;&gt;</a></td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="days-names">
+			<td>M</td><td>T</td><td>W</td><td>T</td><td>F</td><td>S</td><td>S</td>
+		</tr>
+		<tr>
+							<td class="eventless">
+										1									</td>
+								<td class="eventless">
+										2									</td>
+								<td class="eventless">
+										3									</td>
+								<td class="eventless">
+										4									</td>
+								<td class="eventless">
+										5									</td>
+								<td class="eventless">
+										6									</td>
+								<td class="eventless">
+										7									</td>
+				</tr><tr>				<td class="eventless">
+										8									</td>
+								<td class="eventless">
+										9									</td>
+								<td class="eventless">
+										10									</td>
+								<td class="eventless">
+										11									</td>
+								<td class="eventless">
+										12									</td>
+								<td class="eventless">
+										13									</td>
+								<td class="eventless">
+										14									</td>
+				</tr><tr>				<td class="eventless">
+										15									</td>
+								<td class="eventless">
+										16									</td>
+								<td class="eventless">
+										17									</td>
+								<td class="eventless">
+										18									</td>
+								<td class="eventless">
+										19									</td>
+								<td class="eventless">
+										20									</td>
+								<td class="eventless">
+										21									</td>
+				</tr><tr>				<td class="eventless">
+										22									</td>
+								<td class="eventless">
+										23									</td>
+								<td class="eventless">
+										24									</td>
+								<td class="eventless-today">
+										25									</td>
+								<td class="eventless">
+										26									</td>
+								<td class="eventless">
+										27									</td>
+								<td class="eventless">
+										28									</td>
+				</tr><tr>				<td class="eventless">
+										29									</td>
+								<td class="eventless-post">
+										1									</td>
+								<td class="eventless-post">
+										2									</td>
+								<td class="eventless-post">
+										3									</td>
+								<td class="eventless-post">
+										4									</td>
+								<td class="eventless-post">
+										5									</td>
+								<td class="eventless-post">
+										6									</td>
+						</tr>
+	</tbody>
+</table></div></div></div>			</div>
+
+			<div id="sidebar-bottom" class="clearfix">
+
+				<div id="sidebar-bottom-left">
+														</div>
+
+				<div id="sidebar-bottom-right">
+														</div>
+
+			</div>
+
+		</div>
+
+
+	</div>
+
+	
+</div>
+
+
+<div id="footer-widgets" class="maincontent">
+	<div class="limit clearfix">
+		<div class="footer-widget1">
+					</div>
+		<div class="footer-widget2">
+			<div id="archives-2" class="widget widget_archive"><div class="widget-wrap"><h3 class="widgettitle"><span>Archives</span></h3>		<ul>
+				</ul>
+		</div></div>		</div>
+		<div class="footer-widget3">
+			<div id="categories-3" class="widget widget_categories"><div class="widget-wrap"><h3 class="widgettitle"><span>Topics</span></h3>		<ul>
+<li class="cat-item-none">No categories</li>		</ul>
+</div></div>		</div>
+		<div class="footer-widget4">
+			<div id="meta-2" class="widget widget_meta"><div class="widget-wrap"><h3 class="widgettitle"><span>Meta</span></h3>			<ul>
+						<li><a href="http://www.arrowsproject.eu/wp-login.php">Log in</a></li>
+			<li><a href="http://www.arrowsproject.eu/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://www.arrowsproject.eu/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>			</ul>
+			</div></div>		</div>
+	</div>
+</div>
+
+<div id="footer">
+	<div class="limit clearfix">
+
+		<p class="footurl"><a href="http://www.arrowsproject.eu">Arrows Project</a></p>
+
+		
+		&copy;  2016 Arrows Project. Sito web realizzato da <a href="http://www.infoelba.org">Infoelba srl</a>.
+
+	</div>
+</div>
+
+</div>
+
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-content/plugins/youtube-sidebar-widget/script.js'></script><script type='text/javascript' src='http://www.arrowsproject.eu/wp-includes/js/comment-reply.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.arrowsproject.eu/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://platform.twitter.com/widgets.js?ver=1.0.0'></script>
+
+</body>
+
+</html>

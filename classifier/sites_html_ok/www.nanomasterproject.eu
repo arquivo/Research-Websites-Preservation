@@ -1,0 +1,879 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head">
+<!--**********************************************************************************-->
+<!-- DotNetNuke - http://www.dotnetnuke.com                                          -->
+<!-- Copyright (c) 2002-2011                                                          -->
+<!-- by DotNetNuke Corporation                                                        -->
+<!--**********************************************************************************-->
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta content="text/javascript" http-equiv="Content-Script-Type" /><meta content="text/css" http-equiv="Content-Style-Type" /><meta id="MetaDescription" name="DESCRIPTION" content="NanoMaster" /><meta id="MetaKeywords" name="KEYWORDS" content="NanoMaster, Composite,DotNetNuke,DNN" /><meta id="MetaCopyright" name="COPYRIGHT" content="Copyright 2013 by NanoMaster Project" /><meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke " /><meta id="MetaAuthor" name="AUTHOR" content="NanoMaster Project" /><meta name="RESOURCE-TYPE" content="DOCUMENT" /><meta name="DISTRIBUTION" content="GLOBAL" /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><meta name="REVISIT-AFTER" content="1 DAYS" /><meta name="RATING" content="GENERAL" /><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" /><style id="StylePlaceholder" type="text/css"></style><link href="/Portals/_default/default.css?cdv=60" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/Alldnnskins-60067-darkblue/skin.css?cdv=60" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Containers/DarkKnight/container.css?cdv=60" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Containers/Alldnnskins-60067-darkblue/container.css?cdv=60" type="text/css" rel="stylesheet"/><link href="/Portals/0/portal.css?cdv=60" type="text/css" rel="stylesheet"/><link href="/admin/ControlPanel/module.css?cdv=60" type="text/css" rel="stylesheet"/><script src="/Resources/Shared/Scripts/jquery/jquery.min.js?cdv=60" type="text/javascript"></script><script src="/Resources/Shared/Scripts/jquery/jquery-ui.min.js?cdv=60" type="text/javascript"></script>
+
+<link type="text/css" rel="stylesheet" href='/Portals/0/AllDnnSettings.css'/>
+<link type="text/css" rel="stylesheet" href='/Portals/0/AllDnn.css'/><link type="text/css" rel="stylesheet" href='/DesktopModules/AnythingSlider/Skins/AnythingSlider_60067darkblue_slider_skin/Style.css'/><script type="text/javascript" src="/js/cookieconsent/sliding_popup.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		CreatePopup("/js/cookieconsent/popup.html", 200, 1500, "cookiepopup20120904", 365);
+	});
+</script>     
+        
+			    <script type="text/javascript">
+			      var _gaq = _gaq || [];
+			      _gaq.push(['_setAccount', 'UA-10294641-14']);
+			      _gaq.push(['_trackPageview']);
+			 
+			      (function() {
+				    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			      })();
+			    </script>
+        
+		  <title>
+	NanoMaster
+</title></head>
+<body id="Body">
+    
+    <form method="post" action="/" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="StylesheetManager_TSSM" id="StylesheetManager_TSSM" value="" />
+<input type="hidden" name="ScriptManager_TSM" id="ScriptManager_TSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ScriptManager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3ad28568d3-e53e-4706-928f-3765912b66ca%3aea597d4b%3ab25378d2" type="text/javascript"></script>
+<script src="/js/dnn.js" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="qeF4s1OtkWqcmkLd0qKTVBpKZ+6xl5DV3soc9r5WyH1tfgzRFcLPgWaHv7Z27T+W+84jMj0Ka8ga+OdaqHVDbuNBrUo0IYMzf+3znntHyJJOSlqL58JQvCayzVSk295+xMI3ibc/ltuTOUv53X5C3G0CxfIDNlXePmdLX9tZwSLxMos2ncFfyWUZmT4=" />
+</div><script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+//]]>
+</script>
+
+        <script src="/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=60" type="text/javascript"></script><script src="/js/dnn.jquery.js?cdv=60" type="text/javascript"></script><script src="/Resources/ControlPanel/ControlPanel.debug.js?cdv=60" type="text/javascript"></script><script src="/js/dnncore.js?cdv=60" type="text/javascript"></script><script src="/js/dnn.modalpopup.js?cdv=60" type="text/javascript"></script>
+        
+        
+
+<div id="skinall">
+    <div class="SkinAllWidth"> 
+        <div class="logo"><a id="dnn_dnnLOGO_hypLogo" title="NanoMaster Project" href="http://www.nanomasterproject.eu/Home.aspx"><img id="dnn_dnnLOGO_imgLogo" src="/Portals/0/NanoMaster%20Logo-small.png" alt="NanoMaster Project" style="border-width:0px;" /></a></div>
+        <div class="contactus"><div id="dnn_ContactUsPane" class="ContactUsPane DNNEmptyPane"></div></div>
+        <div class="clear"></div>
+        
+        <div class="zhong_tl"><div class="zhong_tr"><div class="zhong_tc"></div></div></div>
+        
+        <div class="zhong_cl">
+            <div class="zhong_cr">
+                <div class="zhong_cc">
+                    <div class="menu_l">
+                    	<div class="menu_r">
+                        	<div class="menu_c">
+                                <div class="orange_menu_c">
+<script type="text/javascript" src="http://www.nanomasterproject.eu/DesktopModules/JDMENU/JS/jquery.bgiframe.js"></script>
+<script type="text/javascript" src="http://www.nanomasterproject.eu/DesktopModules/JDMENU/JS/jquery.positionBy.js"></script>
+
+<div class="sd_content" ><ul class="jd_menu "><li class="activetab"><a href="http://www.nanomasterproject.eu/Home.aspx"><span>Home</span></a></li>
+<li><a href="http://www.nanomasterproject.eu/Background.aspx"><span>Background</span></a></li>
+<li><a href="http://www.nanomasterproject.eu/TheNanoMasterProject.aspx"><span>The NanoMaster Project</span></a></li>
+<li class="haschild"><a href="http://www.nanomasterproject.eu/PressRelease.aspx"><span>Press Release</span></a><ul><li class=" " ><a href="http://www.nanomasterproject.eu/PressRelease/NanoMasterPartnersSpeakatINC2015.aspx"><span>NanoMaster Partners Speak at INC 2015</span></a></li>
+</ul>
+</li>
+<li class="haschild"><a href="http://www.nanomasterproject.eu/Partners.aspx"><span>Partners</span></a><ul><li class=" " ><a href="http://www.nanomasterproject.eu/Partners/NetComposites.aspx"><span>NetComposites</span></a></li>
+<li class=" " ><a href="http://www.nanomasterproject.eu/Partners/LEGOSystemsAS.aspx"><span>LEGO Systems A/S</span></a></li>
+<li class=" " ><a href="http://www.nanomasterproject.eu/Partners/Philips.aspx"><span>Philips</span></a></li>
+<li class=" " ><a href="http://www.nanomasterproject.eu/Partners/ImerysGraphiteandCarbon.aspx"><span>Imerys Graphite and Carbon</span></a></li>
+<li class=" " ><a href="http://www.nanomasterproject.eu/Partners/RochlingAutomotiveGroup.aspx"><span>Rochling Automotive Group</span></a></li>
+<li class=" " ><a href="http://www.nanomasterproject.eu/Partners/Aimplas.aspx"><span>Aimplas</span></a></li>
+<li class=" " ><a href="http://www.nanomasterproject.eu/Partners/AeroEngineControls.aspx"><span>Aero Engine Controls</span></a></li>
+<li class=" " ><a href="http://www.nanomasterproject.eu/Partners/DTI.aspx"><span>DTI</span></a></li>
+<li class=" " ><a href="http://www.nanomasterproject.eu/Partners/Promolding.aspx"><span>Promolding</span></a></li>
+<li class=" " ><a href="http://www.nanomasterproject.eu/Partners/Avanzare.aspx"><span>Avanzare</span></a></li>
+<li class=" " ><a href="http://www.nanomasterproject.eu/Partners/MBProto.aspx"><span>MB Proto</span></a></li>
+<li class=" " ><a href="http://www.nanomasterproject.eu/Partners/IOM.aspx"><span>IOM</span></a></li>
+<li class=" " ><a href="http://www.nanomasterproject.eu/Partners/CreateitReal.aspx"><span>Create it Real</span></a></li>
+<li class=" " ><a href="http://www.nanomasterproject.eu/Partners/Lati.aspx"><span>Lati</span></a></li>
+</ul>
+</li>
+<li><a href="http://www.nanomasterproject.eu/Contact.aspx"><span>Contact</span></a></li>
+</ul>
+</div>
+
+
+
+<script language="javascript" type="text/javascript">
+<!--
+
+ jQuery(document).ready
+(function(){
+	function addEvents(ul) {
+		var settings = jQuery.data( jQuery(ul).parents().andSelf().filter('ul.jd_menu')[0], 'jd_menuSettings' );
+		jQuery('> li', ul)
+			.bind('mouseenter.jd_menu mouseleave.jd_menu', function(evt) {
+				jQuery(this).toggleClass('jdm_hover');
+				var ul = jQuery('> ul', this);
+				if ( ul.length == 1 ) {
+					clearTimeout( this.jQuerydTimer );
+					var enter = ( evt.type == 'mouseenter' );
+					var fn = ( enter ? showMenu : hideMenu );
+					this.jQuerydTimer = setTimeout(function() {
+						fn( ul[0], settings.onAnimate, settings.isVertical );
+					}, enter ? settings.showDelay : settings.hideDelay );
+				}
+			})
+			.bind('click.jd_menu', function(evt) {
+				var ul = jQuery('> ul', this);
+				if ( ul.length == 1 && 
+					( settings.disableLinks == true || jQuery(this).hasClass('accessible') ) ) {
+					showMenu( ul, settings.onAnimate, settings.isVertical );
+					return false;
+				}
+				
+				// The user clicked the li and we need to trigger a click for the a
+				if ( evt.target == this ) {
+					var link = jQuery('> a', evt.target).not('.accessible');
+					if ( link.length > 0 ) {
+						var a = link[0];
+						if ( !a.onclick ) {
+							window.open( a.href, a.target || '_self' );
+						} else {
+							jQuery(a).trigger('click');
+						}
+					}
+				}
+				if ( settings.disableLinks || 
+					( !settings.disableLinks && !jQuery(this).parent().hasClass('jd_menu') ) ) {
+					jQuery(this).parent().jd_menuHide();
+					evt.stopPropagation();
+				}
+			})
+			.find('> a')
+				.bind('focus.jd_menu blur.jd_menu', function(evt) {
+					var p = jQuery(this).parents('li:eq(0)');
+					if ( evt.type == 'focus' ) {
+						p.addClass('jdm_hover');
+					} else { 
+						p.removeClass('jdm_hover');
+					}
+				})
+				.filter('.accessible')
+					.bind('click.jd_menu', function(evt) {
+						evt.preventDefault();
+					});
+	}
+
+	function showMenu(ul, animate, vertical) {
+		var ul = jQuery(ul);
+		if ( ul.is(':visible') ) {
+			return;
+		}
+		ul.bgiframe();
+		var li = ul.parent();
+		ul	.trigger('jd_menuShow')
+			.positionBy({ 	target: 	li[0], 
+							targetPos: 	( vertical === true || !li.parent().hasClass('jd_menu') ? 1 : 3 ), 
+							elementPos: 0,
+							hideAfterPosition: true
+							});
+		if ( !ul.hasClass('jdm_events') ) {
+			ul.addClass('jdm_events');
+			addEvents(ul);
+		}
+		li	.addClass('jdm_active')
+			// Hide any adjacent menus
+			.siblings('li').find('> ul:eq(0):visible')
+				.each(function(){
+					hideMenu( this ); 
+				});
+		if ( animate === undefined ) {
+			ul.show();
+		} else {
+			animate.apply( ul[0], [true] );
+		}
+	}
+	
+	function hideMenu(ul, animate) {
+		var ul = jQuery(ul);
+		jQuery('.bgiframe', ul).remove();
+		ul	.filter(':not(.jd_menu)')
+			.find('> li > ul:eq(0):visible')
+				.each(function() {
+					hideMenu( this );
+				})
+			.end();
+		if ( animate === undefined ) {
+			ul.hide()
+		} else {
+			animate.apply( ul[0], [false] );
+		}
+
+		ul	.trigger('jd_menuHide')
+			.parents('li:eq(0)')
+				.removeClass('jdm_active jdm_hover')
+			.end()
+				.find('> li')
+				.removeClass('jdm_active jdm_hover');
+	}
+	
+	// Public methods
+	jQuery.fn.jd_menu = function(settings) {
+		// Future settings: activateDelay
+		var settings = jQuery.extend({	// Time in ms before menu shows
+									showDelay: 		50,
+									// Time in ms before menu hides
+									hideDelay: 		500,
+									// Should items that contain submenus not 
+									// respond to clicks
+									disableLinks:	false
+									// This callback allows for you to animate menus
+									//onAnimate:	null
+									}, settings);
+		if ( !jQuery.isFunction( settings.onAnimate ) ) {
+			settings.onAnimate = undefined;
+		}
+		return this.filter('ul.jd_menu').each(function() {
+			jQuery.data(	this, 
+					'jd_menuSettings', 
+					jQuery.extend({ isVertical: jQuery(this).hasClass('jd_menu_vertical') }, settings) 
+					);
+			addEvents(this);
+		});
+	};
+	
+	jQuery.fn.jd_menuUnbind = function() {
+		jQuery('ul.jdm_events', this)
+			.unbind('.jd_menu')
+			.find('> a').unbind('.jd_menu');
+	};
+	jQuery.fn.jd_menuHide = function() {
+		return this.filter('ul').each(function(){ 
+			hideMenu( this );
+		});
+	};
+
+	// Private methods and logic
+	jQuery(window)
+		// Bind a click event to hide all visible menus when the document is clicked
+		.bind('click.jd_menu', function(){
+			jQuery('ul.jd_menu ul:visible').jd_menuHide();
+		});
+});
+
+jQuery(function() {
+	jQuery('ul.jd_menu').jd_menu();
+});
+-->
+</script>
+
+</div>
+                                <div id="Search">
+                                        <span id="dnn_dnnSEARCH_ClassicSearch">
+  
+  
+  <input name="dnn$dnnSEARCH$txtSearch" type="text" maxlength="255" size="20" id="dnn_dnnSEARCH_txtSearch" class="NormalTextBox" onkeydown="return __dnn_KeyDown(&#39;13&#39;, &#39;javascript:__doPostBack(%27dnn$dnnSEARCH$cmdSearch%27,%27%27)&#39;, event);" />&nbsp;
+  <a id="dnn_dnnSEARCH_cmdSearch" class="searchcss" href="javascript:__doPostBack(&#39;dnn$dnnSEARCH$cmdSearch&#39;,&#39;&#39;)">Search</a>
+</span>
+
+
+
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div> 
+                   
+                    
+                    
+                    <div class="allpane">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                        
+                        <td class="lt">
+                        <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                        <td id="dnn_TopPane" colspan="3" class="toppane DNNEmptyPane"></td>
+
+                        </tr>
+                        <tr>
+                        <td colspan="3">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                        <td id="dnn_CenterPane_A" class="centerpane_a DNNEmptyPane"></td>
+
+                        <td id="dnn_CenterPane_B" class="centerpane_b DNNEmptyPane"></td>
+
+                        </tr>
+                        </table>
+                        </td>
+                        </tr>
+                        <tr>
+                        
+                        <td id="dnn_ContentPane" class="contentpane"><div class="DnnModule DnnModule-AllDnnAnythingSlider DnnModule-501"><a name="501"></a>
+<div class="conwrap con2-60067">
+	<div class="con2_tl"><div class="con2_tr"><div class="con2_tc"><div class="con2_tm"></div></div></div></div>
+    <div class="con2_cl">
+    	<div class="con2_cr">
+        	<div class="con2_cc">
+            	<div class="conhd">
+                    <div class="conaction"><div></div></div>
+                    <div class="contitle"><span id="dnn_ctr501_dnnTITLE_titleLabel" class="Head">&nbsp;</span>
+
+
+</div>
+                </div>
+                <div class="conbd">
+                    <div id="dnn_ctr501_ContentPane" class="conpane"><!-- Start_Module_501 --><div id="dnn_ctr501_ModuleContent" class="DNNModuleContent ModAllDnnAnythingSliderC">
+	
+<div id="dnn_ctr501_ViewAnythingSlider_plValidation">
+		
+    
+    
+    <div id="dnn_ctr501_ViewAnythingSlider_plAnythingSlider">
+			
+        
+<script type="text/javascript" src='/DesktopModules/AnythingSlider/JS/Anythingslider/jquery.anythingslider.js'></script>
+<script type="text/javascript" src='/DesktopModules/AnythingSlider/JS/Anythingslider/jquery.easing.1.2.js'></script>
+
+
+        <script type="text/javascript">
+
+            function formatText(index, panel) {
+                return index + "";
+            }
+            // var $a=jQuery.noConflict();    
+            jQuery().ready(function() {
+
+                jQuery('.AnythingSlider_60067darkblue_slider_skin').anythingSlider({
+                    easing: "easeInOutQuad",        // Anything other than "linear" or "swing" requires the easing plugin
+                    autoPlay: ConvertToBool("true"),                 // This turns off the entire FUNCTIONALY, not just if it starts running or not.
+                    delay: parseInt("5000"),                    // How long between slide transitions in AutoPlay mode
+                    startStopped: ConvertToBool("false"),            // If autoPlay is on, this can force it to start stopped
+                    animationTime: parseInt("2000"),             // How long the slide transition takes
+                    hashTags: false,                 // Should links change the hashtag in the URL?
+                    buildNavigation: ConvertToBool("true"),          // If true, builds and list of anchor links to link to each slide
+                    pauseOnHover: ConvertToBool("false"),             // If true, and autoPlay is enabled, the show will pause on hover
+                    startText: "Start",             // Start text
+                    stopText: "Stop",               // Stop text
+                    navigationFormatter: formatText       // Details at the top of the file on this use (advanced use)
+                });
+            });
+
+            function ConvertToBool(inputStr) {
+                if (inputStr == "true") {
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            }        
+        </script>
+
+        <script type="text/javascript" language="javascript">
+<!--
+            jQuery.anythingSlider = function(el, options) {
+                // To avoid scope issues, use 'base' instead of 'this'
+                // to reference this class from internal events and functions.
+                var base = this;
+                //alert(el.className);
+                // Access to jQuery and DOM versions of element
+                //alert(el.className);
+                base.jQueryel = jQuery(el);
+                base.el = el;
+
+                // Set up a few defaults
+                base.currentPage = 1;
+                base.timer = null;
+                base.playing = false;
+
+                // Add a reverse reference to the DOM object
+                base.jQueryel.data(base.el.className, base);
+
+                base.init = function() {
+                    base.options = jQuery.extend({}, jQuery.anythingSlider.defaults, options);
+
+                    // Cache existing DOM elements for later 
+                    base.jQuerywrapper = base.jQueryel.find('> div').css('overflow', 'hidden');
+                    base.jQueryslider = base.jQuerywrapper.find('> ul');
+                    base.jQueryitems = base.jQueryslider.find('> li');
+                    base.jQuerysingle = base.jQueryitems.filter(':first');
+
+                    // Build the navigation if needed
+                    if (base.options.buildNavigation) base.buildNavigation();
+
+                    // Get the details
+                    base.singleWidth = base.jQuerysingle.outerWidth();
+                    base.pages = base.jQueryitems.length;
+
+                    // Top and tail the list with 'visible' number of items, top has the last section, and tail has the first
+                    // This supports the "infinite" scrolling
+                    base.jQueryitems.filter(':first').before(base.jQueryitems.filter(':last').clone().addClass('cloned'));
+                    base.jQueryitems.filter(':last').after(base.jQueryitems.filter(':first').clone().addClass('cloned'));
+
+                    // We just added two items, time to re-cache the list
+                    base.jQueryitems = base.jQueryslider.find('> li'); // reselect
+
+                    // Setup our forward/backward navigation
+                    base.buildNextBackButtons();
+
+                    // If autoPlay functionality is included, then initialize the settings
+                    if (base.options.autoPlay) {
+                        base.playing = !base.options.startStopped; // Sets the playing variable to false if startStopped is true
+                        base.buildAutoPlay();
+                    };
+
+                    // If pauseOnHover then add hover effects
+                    if (base.options.pauseOnHover) {
+                        base.jQueryel.hover(function() {
+                            base.clearTimer();
+                        }, function() {
+                            base.startStop(base.playing);
+                        });
+                    }
+
+                    // If a hash can not be used to trigger the plugin, then go to page 1
+                    if ((base.options.hashTags == true && !base.gotoHash()) || base.options.hashTags == false) {
+                        base.setCurrentPage(1);
+                    };
+                };
+
+                base.gotoPage = function(page, autoplay) {
+                    // When autoplay isn't passed, we stop the timer
+                    if (autoplay !== true) autoplay = false;
+                    if (!autoplay) base.startStop(false);
+
+                    if (typeof (page) == "undefined" || page == null) {
+                        page = 1;
+                        base.setCurrentPage(1);
+                    };
+
+                    // Just check for bounds
+                    if (page > base.pages + 1) page = base.pages;
+                    if (page < 0) page = 1;
+
+                    var dir = page < base.currentPage ? -1 : 1,
+                n = Math.abs(base.currentPage - page),
+                left = base.singleWidth * dir * n;
+
+                    base.jQuerywrapper.filter(':not(:animated)').animate({
+                        scrollLeft: '+=' + left
+                    }, base.options.animationTime, base.options.easing, function() {
+                        if (page == 0) {
+                            base.jQuerywrapper.scrollLeft(base.singleWidth * base.pages);
+                            page = base.pages;
+                        } else if (page > base.pages) {
+                            base.jQuerywrapper.scrollLeft(base.singleWidth);
+                            // reset back to start position
+                            page = 1;
+                        };
+                        base.setCurrentPage(page);
+
+                    });
+                };
+
+                base.setCurrentPage = function(page, move) {
+                    // Set visual
+                    if (base.options.buildNavigation) {
+                        base.jQuerynav.find('.cur').removeClass('cur');
+                        jQuery(base.jQuerynavLinks[page - 1]).addClass('cur');
+                    };
+
+                    // Only change left if move does not equal false
+                    if (move !== false) base.jQuerywrapper.scrollLeft(base.singleWidth * page);
+
+                    // Update local variable
+                    base.currentPage = page;
+                };
+
+                base.goForward = function(autoplay) {
+                    if (autoplay !== true) autoplay = false;
+                    base.gotoPage(base.currentPage + 1, autoplay);
+                };
+
+                base.goBack = function() {
+                    base.gotoPage(base.currentPage - 1);
+                };
+
+                // This method tries to find a hash that matches panel-X
+                // If found, it tries to find a matching item
+                // If that is found as well, then that item starts visible
+                base.gotoHash = function() {
+                    if (/^#?panel-\d+jQuery/.test(window.location.hash)) {
+                        var index = parseInt(window.location.hash.substr(7));
+                        var jQueryitem = base.jQueryitems.filter(':eq(' + index + ')');
+                        if (jQueryitem.length != 0) {
+                            base.setCurrentPage(index);
+                            return true;
+                        };
+                    };
+                    return false; // A item wasn't found;
+                };
+
+                // Creates the numbered navigation links
+                base.buildNavigation = function() {
+
+                    base.jQuerynav = jQuery("<div class='" + base.el.className + "thumbNav'></div>").appendTo(base.jQueryel);
+                    base.jQueryitems.each(function(i, el) {
+                        var index = i + 1;
+                        var jQuerya = jQuery("<a href='#' ></a>");
+
+                        // If a formatter function is present, use it
+                        if (typeof (base.options.navigationFormatter) == "function") {
+                            jQuerya.html(base.options.navigationFormatter(index, jQuery(this)));
+                        } else {
+                            jQuerya.text(index);
+                        }
+                        jQuerya.click(function(e) {
+                            base.gotoPage(index);
+
+                            if (base.options.hashTags)
+                                base.setHash('panel-' + index);
+
+                            e.preventDefault();
+                        });
+                        base.jQuerynav.append(jQuerya);
+                    });
+                    base.jQuerynavLinks = base.jQuerynav.find('> a');
+                };
+
+
+                // Creates the Forward/Backward buttons
+                base.buildNextBackButtons = function() {
+                    var jQueryforward = jQuery('<a class="' + base.el.className + 'arrow ' + base.el.className + 'forward" href="#" >&gt;</a>'),
+				jQueryback = jQuery('<a class="' + base.el.className + 'arrow ' + base.el.className + 'back" href="#" >&lt;</a>');
+
+                    // Bind to the forward and back buttons
+                    jQueryback.click(function(e) {
+                        base.goBack();
+                        e.preventDefault();
+                    });
+
+                    jQueryforward.click(function(e) {
+                        base.goForward();
+                        e.preventDefault();
+                    });
+
+                    // Append elements to page
+                    base.jQuerywrapper.after(jQueryback).after(jQueryforward);
+                };
+
+                // Creates the Start/Stop button
+                base.buildAutoPlay = function() {
+
+                    base.jQuerystartStop = jQuery("<a href='#' class='" + base.el.className + "start-stop'></a>").html(base.playing ? base.options.stopText : base.options.startText);
+                    base.jQueryel.append(base.jQuerystartStop);
+                    base.jQuerystartStop.click(function(e) {
+                        base.startStop(!base.playing);
+                        e.preventDefault();
+                    });
+
+                    // Use the same setting, but trigger the start;
+                    base.startStop(base.playing);
+                };
+
+                // Handles stopping and playing the slideshow
+                // Pass startStop(false) to stop and startStop(true) to play
+                base.startStop = function(playing) {
+                    if (playing !== true) playing = false; // Default if not supplied is false
+
+                    // Update variable
+                    base.playing = playing;
+
+                    // Toggle playing and text
+                    if (base.options.autoPlay) base.jQuerystartStop.toggleClass(base.el.className + "playing", playing).html(playing ? base.options.stopText : base.options.startText);
+
+                    if (playing) {
+                        base.clearTimer(); // Just in case this was triggered twice in a row
+                        base.timer = window.setInterval(function() {
+                            base.goForward(true);
+                        }, base.options.delay);
+                    } else {
+                        base.clearTimer();
+                    };
+                };
+
+                base.clearTimer = function() {
+                    // Clear the timer only if it is set
+                    if (base.timer) window.clearInterval(base.timer);
+                };
+
+                // Taken from AJAXY jquery.history Plugin
+                base.setHash = function(hash) {
+                    // Write hash
+                    if (typeof window.location.hash !== 'undefined') {
+                        if (window.location.hash !== hash) {
+                            window.location.hash = hash;
+                        };
+                    } else if (location.hash !== hash) {
+                        location.hash = hash;
+                    };
+
+                    // Done
+                    return hash;
+                };
+
+
+
+                // Trigger the initialization
+                base.init();
+            };
+
+
+            jQuery.anythingSlider.defaults = {
+                easing: "swing",                // Anything other than "linear" or "swing" requires the easing plugin
+                autoPlay: true,                 // This turns off the entire FUNCTIONALY, not just if it starts running or not
+                startStopped: false,            // If autoPlay is on, this can force it to start stopped
+                delay: 3000,                    // How long between slide transitions in AutoPlay mode
+                animationTime: 600,             // How long the slide transition takes
+                hashTags: true,                 // Should links change the hashtag in the URL?
+                buildNavigation: true,          // If true, builds and list of anchor links to link to each slide
+                pauseOnHover: true,             // If true, and autoPlay is enabled, the show will pause on hover
+                startText: "Start",             // Start text
+                stopText: "Stop",               // Stop text
+                navigationFormatter: null       // Details at the top of the file on this use (advanced use)
+            };
+
+
+            jQuery.fn.anythingSlider = function(options) {
+                if (typeof (options) == "object") {
+                    return this.each(function(i) {
+                        (new jQuery.anythingSlider(this, options));
+
+                        // This plugin supports multiple instances, but only one can support hash-tag support
+                        // This disables hash-tags on all items but the first one
+                        options.hashTags = false;
+                    });
+                } else if (typeof (options) == "number") {
+
+                    return this.each(function(i) {
+                        var anySlide = jQuery(this).data(base.el.className);
+                        if (anySlide) {
+                            anySlide.gotoPage(options);
+                        }
+                    });
+                }
+            };
+    
+ //-->
+        </script>
+
+    
+		</div>
+
+	</div>
+<div style="width:905px;" class="top1_AnythingSlider_60067darkblue_slider_skin"><div class="top2_AnythingSlider_60067darkblue_slider_skin"><div class="top3_AnythingSlider_60067darkblue_slider_skin"></div></div></div><div class="content1_AnythingSlider_60067darkblue_slider_skin" style="width:905px;height:296px" ><div class="content2_AnythingSlider_60067darkblue_slider_skin" style="width:905px;height:296px"><div class="content3_AnythingSlider_60067darkblue_slider_skin" style="width:905px;height:296px"><div class="content4_AnythingSlider_60067darkblue_slider_skin" style="width:905px;height:296px"><div class="AnythingSlider_60067darkblue_slider_skin" style="width:905px;height:296px" ><div class="AnythingSlider_60067darkblue_slider_skinbannerwrapper" style="width:905px;height:296px" ><ul><li style="width:905px;height:296px" ><div class="AnythingSlider_60067darkblue_slider_skinitem AnythingSlider_60067darkblue_slider_skinIndex1"><img alt="" src="/Portals/0/Images/microscope%20web%20banner%202.jpg" /></div></li><li style="width:905px;height:296px" ><div class="AnythingSlider_60067darkblue_slider_skinitem AnythingSlider_60067darkblue_slider_skinIndex2"><img alt="" src="/Portals/0/Images/microscope%20web%20banner.jpg" /></div></li><li style="width:905px;height:296px" ><div class="AnythingSlider_60067darkblue_slider_skinitem AnythingSlider_60067darkblue_slider_skinIndex3"><img alt="" src="/Portals/0/Images/mixing%20web%20banner.jpg" /></div></li><li style="width:905px;height:296px" ><div class="AnythingSlider_60067darkblue_slider_skinitem AnythingSlider_60067darkblue_slider_skinIndex4"><img alt="" src="/Portals/0/Images/Nuevacompounding%20web%20banner%201.jpg" /></div></li></ul></div></div><div class="AnythingSlider_60067darkblue_slider_skinnewBottom" style="overflow: hidden;"></div></div></div></div></div><div style="width:905px;" class="bottom1_AnythingSlider_60067darkblue_slider_skin"><div class="bottom2_AnythingSlider_60067darkblue_slider_skin"><div class="bottom3_AnythingSlider_60067darkblue_slider_skin"></div></div></div>
+<asp:Panel ID="pnlTrial">
+    <div style="text-align: center; height:30px; line-height:30px;">
+        
+    </div>
+</asp:Panel>
+
+</div><!-- End_Module_501 --></div>
+                </div>
+                <div class="conft">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+    
+    <div class="con2_bl"><div class="con2_br"><div class="con2_bc"><div class="con2_bm"></div></div></div></div>
+</div>
+
+
+
+
+
+
+
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-423"><a name="423"></a>
+<div class="conwrap con2-60067">
+	<div class="con2_tl"><div class="con2_tr"><div class="con2_tc"><div class="con2_tm"></div></div></div></div>
+    <div class="con2_cl">
+    	<div class="con2_cr">
+        	<div class="con2_cc">
+            	<div class="conhd">
+                    <div class="conaction"><div></div></div>
+                    <div class="contitle"><span id="dnn_ctr423_dnnTITLE_titleLabel" class="Head">NanoMaster Project</span>
+
+
+</div>
+                </div>
+                <div class="conbd">
+                    <div id="dnn_ctr423_ContentPane" class="conpane"><!-- Start_Module_423 --><div id="dnn_ctr423_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr423_HtmlModule_lblContent" class="Normal">
+	<p>The aims of the NanoMaster project are to reduce the amount of plastic used to make a component by 50% and hence reduce component weight by 50%, at the same time as imparting electrical and thermal functionality. This will be achieved by developing the next generation of graphene-reinforced nano-intermediate that can be used in existing high-throughput plastic component production processes.</p>
+<p><span style="font-size: 10px;">*Above photos used with permission of Aimplas.</span></p>
+<p>Join in the on-line discussion at the <a href="https://www.linkedin.com/groups?&amp;gid=4216400">NanoMaster LinkedIn Group</a></p>
+<p><a href="https://www.linkedin.com/groups?&amp;gid=4216400"><img alt="" src="/portals/0/Images/LinkedIn-Logo.png" style="width: 150px; height: 42px;" /></a></p>
+</div>
+
+</div><!-- End_Module_423 --></div>
+                </div>
+                <div class="conft">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+    
+    <div class="con2_bl"><div class="con2_br"><div class="con2_bc"><div class="con2_bm"></div></div></div></div>
+</div>
+
+
+
+
+
+
+
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-540"><a name="540"></a>
+<div class="conwrap con2-60067">
+	<div class="con2_tl"><div class="con2_tr"><div class="con2_tc"><div class="con2_tm"></div></div></div></div>
+    <div class="con2_cl">
+    	<div class="con2_cr">
+        	<div class="con2_cc">
+            	<div class="conhd">
+                    <div class="conaction"><div></div></div>
+                    <div class="contitle"><span id="dnn_ctr540_dnnTITLE_titleLabel" class="Head">Nanomaster 3D Printed Electronics</span>
+
+
+</div>
+                </div>
+                <div class="conbd">
+                    <div id="dnn_ctr540_ContentPane" class="conpane"><!-- Start_Module_540 --><div id="dnn_ctr540_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr540_HtmlModule_lblContent" class="Normal">
+	<iframe width="560" height="315" src="//www.youtube.com/embed/2OMDT56CVXU?rel=0" frameborder="0"></iframe>
+</div>
+
+</div><!-- End_Module_540 --></div>
+                </div>
+                <div class="conft">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+    
+    <div class="con2_bl"><div class="con2_br"><div class="con2_bc"><div class="con2_bm"></div></div></div></div>
+</div>
+
+
+
+
+
+
+
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-495"><a name="495"></a>
+<div class="Invisible"><div id="dnn_ctr495_ContentPane"><!-- Start_Module_495 --><div id="dnn_ctr495_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr495_HtmlModule_lblContent" class="Normal">
+	<div style="padding-top: 50px; text-align: center;"><img title="European Union flag" alt="European Union flag" src="/portals/0/images/jaune.jpg" />
+<p>This project has received funding from the&nbsp;European Union&rsquo;s Seventh Framework&nbsp;Programme for research, technological&nbsp;development and demonstration under&nbsp;grant agreement no 285718.</p>
+</div>
+</div>
+
+</div><!-- End_Module_495 --></div></div></div></td>
+
+                        
+                        </tr>
+                        <tr>
+                        <td colspan="3">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                        <td id="dnn_CenterPane_C" class="centerpane_c DNNEmptyPane"></td>
+
+                        <td id="dnn_CenterPane_D" class="centerpane_d DNNEmptyPane"></td>
+
+                        </tr>
+                        </table>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td id="dnn_BottomPane" colspan="3" class="bottompane DNNEmptyPane"></td>
+
+                        </tr>
+                        </table>
+                        </td>
+                        
+                        </tr>
+                        </table>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="zhong_bl"><div class="zhong_br"><div class="zhong_bc"></div></div></div>
+        
+        <div id="skinfoot">
+            <div id="copyright" class="SkinAllWidth">
+                <div class="copytext"><span id="dnn_dnnCOPYRIGHT_lblCopyright" class="copyright">Copyright 2013 by NanoMaster Project</span>
+  |  <span>Website built by <a href="http://www.netcomposites.com">NetComposites</a></span>  |  <a id="dnn_dnnTERMS_hypTerms" class="terms" rel="nofollow" href="http://www.nanomasterproject.eu/terms.aspx">Terms Of Use</a>  |  <a id="dnn_dnnPRIVACY_hypPrivacy" class="privacy" rel="nofollow" href="http://www.nanomasterproject.eu/privacy.aspx">Privacy Statement</a></div>
+                <div class="logins"><a id="dnn_dnnLOGIN_loginLink" class="user" onclick="return dnnModal.show(&#39;http://www.nanomasterproject.eu/login.aspx?ReturnUrl=%2f&amp;popUp=true&#39;,/*showReturn*/true,300,650,true,&#39;&#39;)" href="http://www.nanomasterproject.eu/login.aspx?ReturnUrl=%2f">Login</a></div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+// <![CDATA[
+function TextPrompt(targetdiv,textvalue) {
+	if (!document.getElementById) return false;
+	if (!document.getElementsByTagName) return false;
+	if (!document.getElementById(targetdiv)) return false;
+	var search = document.getElementById(targetdiv);
+	var searchText = search.getElementsByTagName("input");
+	for (i=0; i<searchText.length; i++) {
+		if (searchText[i].getAttribute("type") == "text") {
+			searchText[i].value = textvalue;
+			searchText[i].onfocus = function() {
+				if (this.value == textvalue) {
+					this.value = "";
+				}
+			}
+			searchText[i].onblur = function() {
+				if (this.value == "") {
+					this.value = textvalue;
+				}
+			}
+		}
+	}
+}
+TextPrompt("Search","  Search");
+// ]]>
+</script>
+
+
+
+
+
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`__scdoff`:`1`}" />
+        
+    
+<script type="text/javascript" src="/Resources/Shared/scripts/initWidgets.js" ></script></form>
+    
+    
+    <script type="text/javascript">
+        //<![CDATA[
+        
+        //This code is to force a refresh of browser cache
+        //in case an old version of dnn.js is loaded
+        //It should be removed as soon as .js versioning is added
+        jQuery(document).ready(function () {
+            if (navigator.userAgent.indexOf(" Chrome/") == -1) {
+                if ((typeof dnnJscriptVersion === 'undefined' || dnnJscriptVersion !== "6.0.0") && typeof dnn !== 'undefined') {
+                    window.location.reload(true);
+                }
+            }
+        });
+         //]]>
+    </script>
+</body>
+</html>

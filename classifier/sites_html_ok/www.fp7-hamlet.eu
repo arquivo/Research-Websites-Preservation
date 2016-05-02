@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
+<head>
+	<link rel="shortcut icon" href="/templates/tu_hamlet25/images/favicon.ico" />
+
+  <base href="http://www.fp7-hamlet.eu/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="HAMLET FP7" />
+  <meta name="author" content="Administrator" />
+  <meta name="description" content="Hamlet Site EU FP7" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>HAMLET</title>
+  <link href="http://www.fp7-hamlet.eu/index.php/component/search/?format=opensearch" rel="search" title="Search Hamlet" type="application/opensearchdescription+xml" />
+  <link rel="stylesheet" href="/templates/tu_hamlet25/css/layout.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/tu_hamlet25/css/template.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/tu_hamlet25/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/tu_hamlet25/css/menu.css" type="text/css" />
+
+
+<!--[if lte IE 6]>
+
+<link href="/templates/tu_hamlet25/css/ie6only.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+	img, div#top, div.contentarea, div#fancy_outer { behavior: url(iepngfix.htc) }
+</style>
+<script type="text/javascript" language="javascript">
+/*<![CDATA[*/
+	sfHover = function() {
+		var sfEls = document.getElementById("top_menu").getElementsByTagName("LI");
+		for (var i=0; i<sfEls.length; i++) {
+			sfEls[i].onmouseover=function() {
+				this.className+=" sfhover";
+			}
+
+			sfEls[i].onmouseout=function() {
+				this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+			}
+		}
+	}
+	if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+/*]]>*/
+</script>
+<![endif]-->
+
+<!--[if lte IE 7]>
+<link href="/templates/tu_hamlet25/css/ie7only.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.contentarea {z-index: -1;}
+</style>
+<![endif]-->
+<!--[if IE]>
+<style type="text/css">
+.outer0,
+.outer1,
+.outer2,
+.outer3 {word-wrap: break-word; }
+
+</style>
+<![endif]-->
+
+<style type="text/css">
+#top {
+		height: 162px;
+}
+</style>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22145079-2']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body style="background: #456 url(/templates/tu_hamlet25/images/bgr.gif) repeat-x top left;">
+<div class="wrapper">
+
+<div id="top">
+
+	<!--title-->
+	<div style="position: absolute; left: 66px; top: 21px; width: 820px; height: 116px;"><img src="/templates/tu_hamlet25/images/hdr820x116@66x82.jpg" alt="Header" /></div>
+	<div style="position: absolute; left: 0px; top: 9px; width: 120px; height: 120px;"><a style="text-decoration: none;" href="http://www.fp7-hamlet.eu/"><img src="/templates/tu_hamlet25/images/hamlet-120x120@0x70.png" alt="Hamlet-Logo" /></a></div>
+	<div style="position: absolute; left: 807px; top: 7px; width: 153px; height: 120px;"><a style="text-decoration: none;" href="http://cordis.europa.eu/fp7/home_en.html" TARGET="_blank"><img src="/templates/tu_hamlet25/images/fp7-153x120@807x68.png" alt="FP7-Logo" /></a></div>
+	
+
+<!--		<div class="loginarea">					</div>-->
+
+</div> <!-- top -->
+
+<div class="contplane" style="width: 944px; margin: 0 auto;">
+	<div class="head">
+		<div class="start"></div>
+		<div class="end"></div>
+	</div>
+	<div class="main">
+		<div class="start"></div>
+		<div class="end"></div>
+<!-- Content Area -->
+<div class="contarea">
+<!-- Header Breadcrumbs/#box -->
+<div id="header">
+
+	<div id="pathway">
+		
+<div class="breadcrumbs">
+<span>Home</span></div>
+
+	</div>
+	
+		<form action="/index.php" method="post">
+	<div class="searchmodule">
+		<label for="mod-search-searchword"> </label><input name="searchword" id="mod-search-searchword" maxlength="20"  class="inputboxmodule" type="text" size="100" value="search..."  onblur="if (this.value=='') this.value='search...';" onfocus="if (this.value=='search...') this.value='';" />	<input type="hidden" name="task" value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="70" />
+	</div>
+</form>
+
+	
+	<!--[if lte IE 6]>
+
+	<style type="text/css">
+		#ie6msg{border:3px solid #090; margin:8px 0; background:#cfc;
+		color:#000; font-size: 12px; text-align: left;}
+		#ie6msg h4{margin:8px; padding:0;}
+		#ie6msg p{margin:8px; padding:0;}
+		#ie6msg p a.getie7{font-weight:bold; color:#006;}
+		#ie6msg p a.ie6expl{font-weight:normal; color:#006;}
+		</style>
+		<div id="ie6msg">
+			<h4>Do you know that your browser is out of date?</h4>
+			<p>To get the best possible experience using our website we recommend that you upgrade your browser to a newer version. The current version is <a
+			href="http://www.microsoft.com/india/windows/internet-explorer/">Internet Explorer 8</a> The upgrade is free. If you are using a PC at work you should contact your IT-administrator.</p>
+			<p>If you want to you may also try some other popular Internet browsers like <a href="http://www.opera.com">Opera</a>, <a href="http://mozilla.com">FireFox</a> or <a href="http://www.apple.com/safari/download/">Safari</a>
+		</div>
+	<![endif]-->
+</div> <!-- header -->
+
+<!-- Layout Wrapper -->
+<div class="outer0">
+		<div class="float-wrap0">
+		<div class="center0">
+			<div id="maincol-container">
+
+								
+<div id="system-message-container">
+</div>
+					
+				<div class="clr"></div>
+								
+				<!-- Insert Component -->				
+				<div class="item-page">
+
+
+
+
+
+
+
+
+
+<h1 style="text-align: center; font-size: 250%; font-weight: bold;">HAMLET</h1>
+<h2 style="text-align: center;">Human Model MATROSHKA for<br /> Radiation Exposure Determination of Astronauts</h2>
+<div style="width: 100%; position: relative;">
+<div style="width: 230px; position: absolute; right: 0pt;">
+<div style="border-top: 3px solid #c93002; background: none repeat scroll 0% 0% #fff5f5; margin-top: 5px; width: 100%; text-align: center;">
+<div style="padding: 5px; width: 100%;">
+<p style="font-size: 13px; font-weight: bold; color: #3377aa; margin-bottom: 0px; padding: 0px;">Passive Database Online</p>
+<p style="padding: 0px; font-size: 12px; margin-top: 2px; margin-bottom: 5px;">Date: Juli 2009</p>
+</div>
+</div>
+<div style="border-top: 2px solid #c93002; border-bottom: 0px solid #c93002; background: none repeat scroll 0% 0% #fff5f5; margin-top: 0px; width: 100%; text-align: center;">
+<div style="padding: 5px; width: 100%;">
+<p style="font-size: 13px; font-weight: bold; color: #3377aa; margin-bottom: 0px; padding: 0px;"><a href="/index.php/literature">Literature “Database” online</a></p>
+<p style="padding: 0px; font-size: 12px; margin-top: 2px; margin-bottom: 5px;">Date: May 2010</p>
+</div>
+</div>
+<div style="border-top: 2px solid #c93002; border-bottom: 1px solid #c93002; background: none repeat scroll 0% 0% #fff5f5; margin-top: 0px; width: 100%; text-align: center;">
+<div style="padding: 5px; width: 100%;">
+<p style="font-size: 13px; font-weight: bold; color: #3377aa; margin-bottom: 0px; padding: 0px;"><a href="/index.php/public-outreach-days/day-5">5th Public Outreach Day</a></p>
+<p style="padding: 0px; font-size: 12px; margin-top: 2px; margin-bottom: 5px;">Date: 15<small>th</small> September 2011<br /><a href="http://hamlet.ifj.edu.pl"></a></p>
+</div>
+</div>
+</div>
+<p style="text-align: center; margin-top: 10px;"><img src="/images/hamlet/hamlet_logo200x200.jpg" border="0" alt="Hamlet Logo" width="200" height="200" /></p>
+</div>
+	
+</div>
+
+				<br class="clr" />
+								<br class="clr" />
+			</div>
+		</div> <!-- end centered div -->
+
+		
+	</div> <!-- float-wrap -->
+
+	</div>
+
+
+
+	<!--<div class="clr"></div>-->
+	<div class="clr user2modul">
+		
+
+<div class="custom"  >
+	<h4 style="margin: 0pt auto; padding: 10px 0pt; background: none repeat scroll 0% 50% #eeeeee; width: 820px; text-align: center;">The HAMLET project is funded by the European Commission under the EU’s<br /><a href="http://cordis.europa.eu/fp7/" target="_blank"><em>Seventh Framework Programme (FP7)</em></a> and coordinated by the <br />German Aerospace Center (<a target="_blank" href="http://www.dlr.de">DLR</a>)</h4></div>
+
+	</div>
+
+	
+<!-- Content Area End -->
+<div class="clr"></div>
+</div><!-- contarea -->
+
+	</div><!--main-->
+	<div class="bottom">
+		<div class="start"></div>
+		<div class="end"></div>
+					<div class="lastmod">
+Site last modified: Friday 24 October 2014, 12:52 </div>
+
+			</div>
+</div> 
+
+<!-- Footer -->
+<!-- <div id="footer" class="clr"> -->
+<div id="footer">
+		
+
+<div class="custom"  >
+	<div style="margin-top: 5px; width: 100%;">
+<div style="margin: 0pt auto; width: 945px; font-size: 10px;">
+<div style="width: 135px; text-align: center; float: left;"><a href="http://www.fp7-hamlet.eu/"><img style="border-right: 1px solid #888; border-bottom: 1px solid #888;" src="/images/flags/flageu.png" alt="EU" width="64" height="40" /><br />www.fp7-hamlet.eu</a></div>
+<div style="width: 135px; text-align: center; float: left;"><a href="http://www.fp7-hamlet.de/"><img style="border-right: 1px solid #888; border-bottom: 1px solid #888;" src="/images/flags/flagde.png" alt="flagde" width="64" height="40" /><br />www.fp7-hamlet.de</a></div>
+<div style="width: 135px; text-align: center; float: left;"><a href="http://www.fp7-hamlet.eu/"><img style="border-right: 1px solid #888; border-bottom: 1px solid #888;" src="/images/flags/flagat.png" alt="flagat" width="64" height="40" /><br />www.fp7-hamlet.at</a></div>
+<div style="width: 135px; text-align: center; float: left;"><a href="http://www.fp7-hamlet.eu/"><img style="border-right: 1px solid #888; border-bottom: 1px solid #888;" src="/images/flags/flagpl.png" alt="flagpl" width="64" height="40" /><br />www.fp7-hamlet.pl</a></div>
+<div style="width: 135px; text-align: center; float: left;"><a href="http://www.fp7-hamlet.eu/"><img style="border-right: 1px solid #888; border-bottom: 1px solid #888;" src="/images/flags/flagse.png" alt="flagse" width="64" height="40" /><br />www.fp7-hamlet.se</a></div>
+<div style="width: 135px; text-align: center; float: left;"><a href="http://www.fp7-hamlet.eu/"><img style="border-right: 1px solid #888; border-bottom: 1px solid #888;" src="/images/flags/flaghu.png" alt="flaghu" width="64" height="40" /><br />www.fp7-hamlet.hu</a></div>
+<div style="width: 135px; text-align: center; float: left;"><a href="http://www.fp7-hamlet.eu/"><img style="border-right: 1px solid #888; border-bottom: 1px solid #888;" src="/images/flags/flaguk.png" alt="flaguk" width="64" height="40" /><br />www.fp7-hamlet.org.uk</a></div>
+<div style="padding-top: 10px; clear: both; height: 100%;">
+<ul style="height: 100%; font-size: 13px;">
+<li class="first"><a href="/index.php/imprint" target="_blank">Imprint</a></li>
+<li>Copyright ©2008-2011 <a href="http://www.dlr.de/" target="_blank">German Aerospace Center</a></li>
+<li><a href="/index.php/general-liability" target="_blank">General Liability</a></li>
+</ul>
+</div>
+</div>
+</div></div>
+
+	</div> <!-- Footer End -->
+<div id="top_menu">
+		<div style="float: left;">
+				<div class="moduletable_topmenu">
+					
+<ul class="menu">
+<li class="item-70 current active"><a href="/" >Home</a></li><li class="item-2 deeper parent"><a href="/index.php/hamlet/project-description" >HAMLET</a><ul><li class="item-18"><a href="/index.php/hamlet/project-description" >Project Description</a></li><li class="item-10"><a href="/index.php/hamlet/concobjectives" >Objectives</a></li><li class="item-11"><a href="/index.php/hamlet/progress" >Progress</a></li><li class="item-12"><a href="/index.php/hamlet/work-package" >Work Package</a></li><li class="item-13"><a href="/index.php/hamlet/public-outreach" >Public outreach</a></li><li class="item-14"><a href="/index.php/hamlet/impact" >Impact</a></li></ul></li><li class="item-3 deeper parent"><a href="/index.php/institutions/hamlet-consortium" >Institutions</a><ul><li class="item-38"><a href="/index.php/institutions/hamlet-consortium" >HAMLET Consortium</a></li><li class="item-39"><a href="/index.php/institutions/german-aerospace-center" >German Aerospace Center</a></li><li class="item-40"><a href="/index.php/institutions/vienna-university-of-technology" >Vienna University of Technology</a></li><li class="item-43"><a href="/index.php/institutions/institute-of-nuclear-physics" >Institute of Nuclear Physics</a></li><li class="item-41"><a href="/index.php/institutions/christian-albrechts-university-of-kiel" >Christian Albrechts University of Kiel</a></li><li class="item-42"><a href="/index.php/institutions/atomic-energy-research-institute" >Atomic Energy Research Institute</a></li><li class="item-45"><a href="/index.php/institutions/health-protection-agency" >Health Protection Agency</a></li><li class="item-44"><a href="/index.php/institutions/chalmers-university-of-technology" >Chalmers University of Technology</a></li></ul></li><li class="item-4 deeper parent"><a href="/index.php/science-background/introduction" >Science</a><ul><li class="item-32"><a href="/index.php/science-background/introduction" >Introduction</a></li><li class="item-19"><a href="/index.php/science-background/space-radiation" >Space Radiation</a></li><li class="item-20"><a href="/index.php/science-background/radiation-risk" >Radiation Risk</a></li><li class="item-21"><a href="/index.php/science-background/radiation-detection" >Radiation Detection</a></li><li class="item-22"><a href="/index.php/science-background/radiation-models" >Radiation Models</a></li></ul></li><li class="item-5 deeper parent"><a href="/index.php/matroshka/experiment-facility" >MATROSHKA</a><ul><li class="item-24"><a href="/index.php/matroshka/experiment-facility" >Experiment Facility</a></li><li class="item-54"><a href="/index.php/matroshka/instrumentation" >Instrumentation</a></li><li class="item-25"><a href="/index.php/matroshka/timeline" >Timeline</a></li><li class="item-26"><a href="/index.php/matroshka/international-partners" >International Partners</a></li></ul></li><li class="item-9 deeper parent"><a href="/index.php/image-galleries" >Galleries</a><ul><li class="item-35"><a href="/index.php/image-galleries/matroshka-buildup" >Matroshka Buildup</a></li><li class="item-34"><a href="/index.php/image-galleries/matroshka-in-space" >Matroshka in Space</a></li><li class="item-37"><a href="/index.php/image-galleries/astronaut-training" >Astronaut Training</a></li><li class="item-36"><a href="/index.php/image-galleries/matroshka-ct" >Matroshka CT</a></li><li class="item-69"><a href="/index.php/image-galleries/hamlet-picture-gallery" >Hamlet Picture Gallery</a></li><li class="item-56"><a href="/index.php/image-galleries/public-outreach-day-1-vienna" >Public Outreach Day 1 Vienna</a></li><li class="item-65"><a href="/index.php/image-galleries/public-outreach-day-1-oxford" >Public Outreach Day 2 Oxford</a></li><li class="item-66"><a href="/index.php/image-galleries/public-outreach-day-3-budapest" >Public Outreach Day 3 Budapest</a></li><li class="item-67"><a href="/index.php/image-galleries/public-outreach-day-4-krakow" >Public Outreach Day 4 Kraków</a></li><li class="item-68"><a href="/index.php/image-galleries/public-outreach-day-5-rheinbach" >Public Outreach Day 5 Rheinbach</a></li></ul></li><li class="item-17 deeper parent"><a href="/index.php/public-outreach-days/general-information" >Public Outreach</a><ul><li class="item-27"><a href="/index.php/public-outreach-days/general-information" >General Information</a></li><li class="item-29"><a href="/index.php/public-outreach-days/day-1" >Day 1 (Vienna)</a></li><li class="item-30"><a href="/index.php/public-outreach-days/day-2" >Day 2 (Oxford)</a></li><li class="item-51"><a href="/index.php/public-outreach-days/day-3" >Day 3 (Budapest)</a></li><li class="item-52"><a href="/index.php/public-outreach-days/day-4" >Day 4 (Kraków)</a></li><li class="item-53"><a href="/index.php/public-outreach-days/day-5" >Day 5 (Rheinbach)</a></li><li class="item-64"><a href="/index.php/public-outreach-days/media-coverage" >Media Coverage</a></li></ul></li><li class="item-55 deeper parent"><a href="/index.php/database" >Database</a><ul><li class="item-57"><a href="/index.php/database/active-data" >Active Data</a></li><li class="item-58"><a href="/index.php/database/passive-data" >Passive Data</a></li></ul></li><li class="item-59"><a href="/index.php/activities" >Activities</a></li><li class="item-7 deeper parent"><a href="/index.php/literature" >Literature</a><ul><li class="item-62"><a href="/index.php/literature/active-radiation-monitoring" >Active radiation monitoring</a></li><li class="item-61"><a href="/index.php/literature/passive-radiation-monitoring" >Passive radiation monitoring</a></li><li class="item-63"><a href="/index.php/literature/phantom-experiments" >Phantom experiments</a></li></ul></li><li class="item-31"><a href="/index.php/contacts" >Contacts</a></li></ul>
+		</div>
+	
+	</div>
+	
+		<div style="float:right;">
+				<div class="moduletable_topmenu">
+					
+<ul class="menu">
+<li class="item-8"><a href="https://extsites.dlr.de/me/HAMLET" target="_blank" >Internal</a></li></ul>
+		</div>
+	
+	</div>
+	
+</div> <!-- top_menu -->
+
+</div>
+</div> <!-- wrapper -->
+</body>
+</html>

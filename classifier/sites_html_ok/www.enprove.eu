@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<!--[if IE]><![endif]-->
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<title>EnPROVE Project | Energy consumption prediction with building usage measurements for software-based decision support</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" href="http://www.enprove.eu/wordpress/wp-content/themes/presswork/style.css" type="text/css" media="screen" />
+<!-- PressWork Theme Option CSS -->
+<style type="text/css">
+	body { font-family: Open Sans; font-size: 12px; }
+	h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-family: Quattrocento; }
+	#body-wrapper { color: #444444; width: 830px; padding: 0px; background-color: #FFFFFF; }
+	#headerbanner, #footer { width: 830px; }
+	#headerbanner li.mainl#header_image { background-size: 830px; }
+	#main-wrapper > li { margin: 0 15px; }
+	#main-wrapper .el3 { *margin-left: 30px; }
+	#firstsidebar { width: 300px; }
+	#secondsidebar { width: 300px; }
+	#maincontent { width: 500px; }
+	body.fullwidth #maincontent { width: 830px; }
+	.siteheader a { color: #2B904E; }
+	.siteheader a:hover { color: #444444; }
+	#description { color: #444444; }
+	a { color: #2b904e; }
+	a:hover { color: #4fb859; }
+	#nav nav ul { background: #FFFFFF; }
+	#nav nav a { color: #222222 }
+	#nav nav a:hover, #nav nav .sub-menu li, #nav nav li:hover { color: #444444; background: #EEEEEE; }
+	#subnav nav ul  { background: #FFFFFF; }
+	#subnav nav a { color: #222222 }
+	#subnav nav a:hover, #subnav nav .sub-menu li, #subnav nav li:hover { color: #222222; background: #EEEEEE; }
+	#footer nav ul  { background: #FFFFFF; }
+	#footer nav a { color: #222222 }
+	#footer nav a:hover, #footer nav .sub-menu li, #footer nav li:hover { color: #222222; background: #EEEEEE; }
+	h1.catheader { color: #222222; }
+	article .meta { color: #888888; }
+	article .posttitle, article .posttitle a { color: #222222; }
+	article .posttitle a:hover { color: #222222; }
+	article .content-col { padding-left: 165px; }
+	@media only screen and (max-device-width: 768px), only screen and (max-width: 768px) {
+		#body-wrapper { width: 720px !important; padding: 0 10px; }
+		body.fullwidth #maincontent, #headerbanner, #footer { width: 720px !important; }
+		#header_image { background-size: 720px !important; height: 138.795180723px !important; }
+		#maincontent { width: 423.734939759px !important; }
+		#firstsidebar { width: 260.240963855px !important; }
+		#secondsidebar { width: 245.240963855px !important; }
+	}
+	@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+		#body-wrapper { width: 420px !important; padding: 0 10px; }
+		body.fullwidth #maincontent, #headerbanner, #footer { width: 420px !important; }
+		#maincontent { width: 420px !important; }
+		#header_image { background-size: 420px !important; height: 80.9638554217px !important; }
+		.home article { width: 100%; }
+		#firstsidebar, #secondsidebar { float: none; width: 100% !important; }
+		#main-wrapper > li { margin: 0 !important; }
+		#extendedfooter .bottom-widget { width: 100%; margin: 0 0 20px; }
+	}	
+</style>
+<!-- eof PressWork Theme Option CSS -->
+	<link rel="pingback" href="http://www.enprove.eu/wordpress/xmlrpc.php" />
+<link rel="shortcut icon" type="image/x-icon" href="http://enprove.eu/images/enprove.ico" />
+<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width" />
+<link rel="alternate" type="application/rss+xml" title="EnPROVE Project &raquo; Feed" href="http://www.enprove.eu/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="EnPROVE Project &raquo; Comments Feed" href="http://www.enprove.eu/?feed=comments-rss2" />
+<link rel='stylesheet' id='recent-facebook-posts-css-css'  href='http://www.enprove.eu/wordpress/wp-content/plugins/recent-facebook-posts/assets/css/default.min.css?ver=2.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='pw_google_font-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%7CQuattrocento&#038;ver=4.1.10' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.enprove.eu/wordpress/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://www.enprove.eu/wordpress/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.enprove.eu/wordpress/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.enprove.eu/wordpress/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.1.10" />
+<link rel='canonical' href='http://www.enprove.eu/' />
+<link rel='shortlink' href='http://www.enprove.eu/' />
+</head>
+
+<!--[if lt IE 7 ]> <body class="home page page-id-5 page-template-default ie6"> <![endif]-->
+<!--[if IE 7 ]>    <body class="home page page-id-5 page-template-default ie7"> <![endif]-->
+<!--[if IE 8 ]>    <body class="home page page-id-5 page-template-default ie8"> <![endif]-->
+<!--[if IE 9 ]>    <body class="home page page-id-5 page-template-default ie9"> <![endif<]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <body class="home page page-id-5 page-template-default"> <!--<![endif]-->
+
+<div id="body-wrapper" class="clearfix">
+    <header id="header-main" role="banner"> <!-- begin header -->
+		    <ul id="headerbanner" class="clearfix">
+       		   	<li id="header_logo" class="mainl">
+                        <div id="site-logo" class="siteheader"><h1>EnPROVE Project</h1><a href="http://www.enprove.eu/"><img src="http://enprove.eu/images/banner_logo_top.jpg" alt="EnPROVE Project" /></a></div>
+        </li>
+		<li id="nav" class="mainl"><nav class="clear fl" role="navigation"><h3 class="assistive-text">Main menu</h3><ul id="menu-emenu" class="menu"><li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item menu-item-19"><a href="http://www.enprove.eu/">Home</a></li>
+<li id="menu-item-365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365"><a href="http://www.enprove.eu/?page_id=364">Press Room</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="http://www.enprove.eu/?page_id=8">Events</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-21"><a href="http://www.enprove.eu/?page_id=10">Project</a>
+<ul class="sub-menu">
+	<li id="menu-item-273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="http://www.enprove.eu/?page_id=268">EnPROVE Platform</a></li>
+	<li id="menu-item-282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-282"><a href="http://www.enprove.eu/?page_id=278">EnPROVE Results</a></li>
+	<li id="menu-item-289" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-289"><a href="http://www.enprove.eu/?page_id=285">EnPROVE Test Sites</a></li>
+</ul>
+</li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-22"><a href="http://www.enprove.eu/?page_id=14">Partners</a>
+<ul class="sub-menu">
+	<li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="http://www.enprove.eu/?page_id=28">UNINOVA</a></li>
+	<li id="menu-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a href="http://www.enprove.eu/?page_id=62">UCD-Clarity</a></li>
+	<li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a href="http://www.enprove.eu/?page_id=72">PHILIPS</a></li>
+	<li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="http://www.enprove.eu/?page_id=74">CSTB</a></li>
+	<li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="http://www.enprove.eu/?page_id=76">TECNALIA</a></li>
+	<li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href="http://www.enprove.eu/?page_id=79">GEM</a></li>
+	<li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="http://www.enprove.eu/?page_id=83">MOSTOSTAL</a></li>
+	<li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="http://www.enprove.eu/?page_id=85">Active3D</a></li>
+</ul>
+</li>
+<li id="menu-item-158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158"><a href="http://www.enprove.eu/?page_id=137">Downloads</a></li>
+<li id="menu-item-421" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-421"><a href="http://www.enprove.eu/?page_id=418">Private Area</a></li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://www.enprove.eu/?page_id=16">Contact</a></li>
+</ul></nav></li>    </ul> <!-- end headerbanner -->
+	<div id="social-icons" class=""><a href="http://facebook.com/pages/EnPROVE-Project/121730704595761" class="facebook-icon"></a><a href="http://www.linkedin.com/groups?gid=4825246" class="linkedin-icon"></a></div>    </header> <!-- end header -->
+    <ul id="main-wrapper">
+			    <li id="maincontent" role="main"> <!-- begin maincontent -->
+    	
+
+    <article id="post-5" class="post-5 page type-page status-publish hentry">
+			<header>
+		<hgroup>
+			<h1 class="posttitle"><a href="http://www.enprove.eu/" title="Permalink to Home" rel="bookmark">Home</a></h1>
+					</hgroup>
+	</header>
+	    <div class="storycontent">
+        <p><strong>Welcome to EnPROVE project!</strong></p>
+<p><a href="http://www.enprove.info"><img class="aligncenter size-full wp-image-431" alt="EnPROVE Landig Page" src="http://www.enprove.eu/wordpress/wp-content/uploads/2011/12/EnPROVE-LPage.jpg" width="500" height="334" /></a></p>
+<p><strong>The EnPROVE project is now coming to an end.</strong> During the last 39 months, nine partners from seven different countries in the European Union have worked together to assemble an innovative platform to support building renovation. A good mix of research institutions and market players kept the project between the research perspective and the real life applications. The focus of the project has been on developing a tool allowing the investor to compare potential benefits of different available technologies and decide on the ones that are cost effective, for a particular building. The supporting process is based on: real measurements from a detachable wireless sensor network in the building; scenario selection from a built-in expert system; consumption prediction from physical models; and multi-criteria decision methods. Furthermore, the EnPROVE plugs in to standard tools (e.g. CAD) in both ends of the process, by importing the existing models of the building and exporting the best recommendations.</p>
+<p>The EnPROVE consortium has learnt that this project was more ambitious that initially anticipated. There have been many challenges to overcome. Many have been solved. Many have been understood to need different formulations. Process steps that, initially, were taken as simple and direct, were hiding very stimulating research problems that push the results envelop beyond the initial contour.</p>
+<p>At the end, EnPROVE is not about promising a specific reduction of energy consumption for any next building. It is about a tool to convince more investors, building owners, facility managers to put money on energy efficient technologies, knowing, from a well supported analysis, that the capital will be returned in a timely manner, with rentability and risk under well defined margins. EnPROVE enables freeing more capital to re-invest in more renovation processes.</p>
+<p>With the amount of knowledge collected by the consortium during the project, the problem is now well understood and there are technical solutions for all identified steps. Two real test-case scenarios have been developed during the project proving: i) the technical viability of the software and hardware components; and ii) the economical relevance of the overall EnPROVE approach.</p>
+<p>It’s now the time to close the project and open a range of opportunities to take these results to a higher stage. <a title="EnPROVE Landing Page" href="http://www.enprove.info" target="_blank">Come and join us for the next venture bringing EnPROVE to the market.</a></p>
+    </div> 
+	     <footer class="clearfix fl">
+	    	</footer> 
+	    </article>
+    	</li> <!-- end #maincontent -->
+    	<li id="firstsidebar" role="complementary" class="el2"> <!-- begin firstsidebar -->
+<aside id="search-2" class="side-widget widget_search"><form role="search" method="get" id="searchform" action="http://www.enprove.eu/" >
+	    <label class="assistive-text" for="s">Search for:</label>
+	    <input type="search" placeholder="Search..." value="" name="s" id="s" />
+	    </form></aside><aside id="att_youtube-2" class="side-widget att_youtube">		<div class="attyoutube">
+									<div class="att_youtube_des">
+				<div class="att_youtube_des_title">
+					<header><h3></h3></header>				</div>
+				<div class="att_youtube_des_content">
+									</div>
+			</div>	
+						<iframe
+				width="300"
+				height="175" 
+				src="https://www.youtube-nocookie.com/embed/85OQnqplQHw?rel=0"				frameborder="0" 
+				allowfullscreen>
+			</iframe>
+						
+		</div>
+		</aside><aside id="att_youtube-3" class="side-widget att_youtube">		<div class="attyoutube">
+									<div class="att_youtube_des">
+				<div class="att_youtube_des_title">
+					<header><h3></h3></header>				</div>
+				<div class="att_youtube_des_content">
+									</div>
+			</div>	
+						<iframe
+				width="300"
+				height="175" 
+				src="https://www.youtube-nocookie.com/embed/2ROvHlixQsw?rel=0"				frameborder="0" 
+				allowfullscreen>
+			</iframe>
+						
+		</div>
+		</aside><aside id="rfb_widget-2" class="side-widget widget_rfb_widget"><header><h3>Recent Facebook posts</h3></header>		<!-- Recent Facebook Posts v2.0.5 - https://wordpress.org/plugins/recent-facebook-posts/ -->
+		<div class="recent-facebook-posts rfbp rfbp-container rfbp-widget">
+			
+					<div class="rfbp-post">
+					<div class="rfbp-text">
+
+						<p>See what EnPROVE can do for you!</p>
+
+					</div>
+
+					
+										<p class="rfbp-image-wrap">
+						<a class="rfbp-image-link" target="_blank" href="https://www.facebook.com/121730704595761/posts/374716839297145" rel="external nofollow">
+														<img class="rfbp-image" src="https://external.xx.fbcdn.net/safe_image.php?d=AQAlQ9YpN9DodKSw&amp;w=130&amp;h=130&amp;url=http%3A%2F%2Fi1.ytimg.com%2Fvi%2FPXl4CionVsQ%2Fmaxresdefault.jpg%3Ffeature%3Dog&amp;cfs=1?type=normal" style="max-width: 100%; max-height: none" alt="" />
+						</a>
+					</p>
+										<p class="rfbp-post-link-wrap">
+						<a target="_blank" class="rfbp-post-link" href="https://www.facebook.com/121730704595761/posts/374716839297145" rel="external nofolloW">
+																												<span class="rfbp-timestamp" title="Thursday, June 27, 2013 at 14:23">2 years ago</span>
+						</a>
+					</p>
+					</div>
+				
+					<div class="rfbp-post">
+					<div class="rfbp-text">
+
+						<p>EnPROVE spreading its results.</p>
+
+					</div>
+
+					
+										<p class="rfbp-post-link-wrap">
+						<a target="_blank" class="rfbp-post-link" href="https://www.facebook.com/121730704595761/posts/374716379297191" rel="external nofolloW">
+																												<span class="rfbp-timestamp" title="Thursday, June 27, 2013 at 14:22">2 years ago</span>
+						</a>
+					</p>
+					</div>
+				
+					<div class="rfbp-post">
+					<div class="rfbp-text">
+
+						<p>EnPROVE had its Final Review Meeting in Warsaw, on June 19. The two reviewers have underlined the excellent progress of the project in the last..</p>
+
+					</div>
+
+					
+										<p class="rfbp-post-link-wrap">
+						<a target="_blank" class="rfbp-post-link" href="https://www.facebook.com/121730704595761/posts/373182806117215" rel="external nofolloW">
+																												<span class="rfbp-timestamp" title="Saturday, June 22, 2013 at 10:28">2 years ago</span>
+						</a>
+					</p>
+					</div>
+				
+					<div class="rfbp-post">
+					<div class="rfbp-text">
+
+						<p>EnPROVE Project&#8217;s NEW Landing Page is up and running. Take a minute and drop by to visit us!</p>
+
+					</div>
+
+					
+										<p class="rfbp-post-link-wrap">
+						<a target="_blank" class="rfbp-post-link" href="https://www.facebook.com/121730704595761/posts/370654043036758" rel="external nofolloW">
+																												<span class="rfbp-timestamp" title="Friday, June 14, 2013 at 11:06">2 years ago</span>
+						</a>
+					</p>
+					</div>
+				
+					<div class="rfbp-post">
+					<div class="rfbp-text">
+
+						<p>EnPROVE project was presented at the IEA-SHC Task 50 “Advanced Lighting Solutions for Retrofitting Buildings” Workshop, March 20, 2013. The..</p>
+
+					</div>
+
+					
+										<p class="rfbp-image-wrap">
+						<a class="rfbp-image-link" target="_blank" href="https://www.facebook.com/121730704595761/posts/351823301586499" rel="external nofollow">
+														<img class="rfbp-image" src="//graph.facebook.com/351822918253204/picture?type=normal" style="max-width: 100%; max-height: none" alt="" />
+						</a>
+					</p>
+										<p class="rfbp-post-link-wrap">
+						<a target="_blank" class="rfbp-post-link" href="https://www.facebook.com/121730704595761/posts/351823301586499" rel="external nofolloW">
+																												<span class="rfbp-timestamp" title="Wednesday, March 20, 2013 at 19:00">2 years ago</span>
+						</a>
+					</p>
+					</div>
+				
+							<p class="rfbp-page-link-wrap"><a class="rfbp-page-link" href="https://www.facebook.com/121730704595761/" rel="external nofollow" target="_blank">Find us on Facebook</a></p>
+			
+			</div>
+			<!-- / Recent Facebook Posts -->
+			</aside>		<aside id="recent-posts-2" class="side-widget widget_recent_entries">		<header><h3>Recent Posts</h3></header>		<ul>
+					<li>
+				<a href="http://www.enprove.eu/?p=451">inknow solutions is on the market</a>
+						</li>
+					<li>
+				<a href="http://www.enprove.eu/?p=347">EnPROVE at IEA-SHC Task 50</a>
+						</li>
+					<li>
+				<a href="http://www.enprove.eu/?p=312">EnPROVE at SIMI&#8217;2012</a>
+						</li>
+					<li>
+				<a href="http://www.enprove.eu/?p=323">EnPROVE at IT4ENERGY 2012</a>
+						</li>
+					<li>
+				<a href="http://www.enprove.eu/?p=274">EnPROVE at Controlo&#8217;2012</a>
+						</li>
+				</ul>
+		</aside><aside id="text-2" class="side-widget widget_text"><header><h3>EU FP7 Funded Project</h3></header>			<div class="textwidget"><a href="http://cordis.europa.eu/fp7/home_en.html" target="_blank">
+<img src="http://www.enprove.eu/images/fp7_logo.jpg" width="200"/></a></div>
+		</aside></li> <!-- end firstsidebar -->
+   	</ul> <!-- end #main-wrapper ul -->
+	<footer id="footer-main" class="clearfix fl" role="contentinfo"> <!-- begin footer -->
+		    <ul id="footer" class="clearfix">
+       	<li id="extendedfooter" class="foot" role="complementary"><aside id="text-4" class="widget1 bottom-widget widget_text">			<div class="textwidget"><p>EnPROVE is financially supported by the European Commission under the Seventh Framework Programme (2007-2013)</p>
+</div>
+		</aside><aside id="text-5" class="widget2 bottom-widget widget_text">			<div class="textwidget"></div>
+		</aside><aside id="text-6" class="widget3 bottom-widget widget_text"><h3>Visitants:</h3>			<div class="textwidget"><a href="http://www.easycounter.com/">								<img src="http://www.easycounter.com/counter.php?enprove" border="0" alt="Hit Counter"></a></div>
+		</aside></li><li id="copyright" class="foot">&copy; 2016 <a href="http://www.enprove.eu">EnPROVE Project</a>. All Rights Reserved. Created using <a href="http://presswork.me">PressWork</a>.</li>    </ul> <!-- end #footer -->
+		</footer> <!-- end footer -->
+</div> <!-- end #body-wrapper -->
+
+<!-- PressWork Video Resizer Script -->
+<script type="text/javascript">
+/* <![CDATA[ */
+(function($) {
+	$("object, embed, .format-video iframe").each(function() {
+		var origVideo = $(this),
+			aspectRatio = origVideo.attr("height") / origVideo.attr("width"),
+			wrapWidth = origVideo.parents().find("p:last").width();
+		if(origVideo.attr("width") > wrapWidth) {
+			origVideo
+				.attr("width", wrapWidth)
+				.attr("height", (wrapWidth * aspectRatio));
+		}
+	});
+})(jQuery);
+/* ]]> */
+</script>
+<!-- eof PressWork Video Resizer Script -->	
+	<!-- PressWork framework created by c.bavota & Brendan Sera-Shriar - http://presswork.me -->
+</body>
+</html>

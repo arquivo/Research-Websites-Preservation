@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="author" content="Wolfgang Rauter, biolution GmbH" />
+<meta name="keywords" content="TOBI, project, EC, funded, 7th Framework Programme, obesity, overweight, diabetes mellitus, atherosklerose, obesity-related, inflammation, macrophage, adipokines, adipose tissue" />
+<title>TOBI - Home</title>
+<link rel="stylesheet" type="text/css" href="css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+<!--[if lte IE 6]>
+	<link rel="stylesheet" media="all" type="text/css" href="css/ie_fixes.css" />
+	<![endif]-->
+<!--[if lte IE 7]>
+	<link rel="stylesheet" media="all" type="text/css" href="css/ie7_fixes.css" />
+	<![endif]-->
+
+<link rel="shortcut ICON" href="favicon.ico" type="image/x-icon"/>
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.lightbox.min.js"></script>
+<script type="text/javascript" src="js/captify.tiny.js"></script>
+<script type="text/javascript" src="js/ezpz_tooltip.js"></script>
+<script type="text/javascript" src="js/ezpz_tooltip.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullscreenr.js"></script>
+
+
+<script type="text/javascript">
+	$(function(){
+		$('img.captify').captify({});
+	});
+
+</script>
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+  $(".tooltip-target").ezpz_tooltip();
+});
+
+</script>
+
+<script type="text/javascript">  
+			var FullscreenrOptions = {  width: 720, height: 576, bgID: '#bgimg' };
+			jQuery.fn.fullscreenr(FullscreenrOptions);
+</script>
+
+
+
+</head>
+<body>
+<img src="images/bg.jpg"  id="bgimg" alt=""/>
+<div id="realBody">
+<div id="no_support"><p>This site does not support Internet Explorer 6, making it probably inaccessable for users. Please <a href="http://www.microsoft.com/uk/windows/internet-explorer/worldwide-sites.aspx" target="_blank">update to the current version of IE</a> for free</p></div>
+<div id="wrap">
+	<div id="header">
+		<a href="index.html" id="logo"><img src="images/logo.png" alt="TOBI logo" /></a>
+		<a href="images/non_layout/index/funded_by.jpg" rel="lightbox-1" id="fp7" title="Supported through the EC's 7th Framework Program through Grant Agreement No. HEALTH-F2-2007-201608"><img src="images/fp7_logo.png" alt="FP7 logo" /></a>
+		<div id="select_lang">
+		<a href="index.html" id="en_active" title="View this site in English"><span class="invisible">English</span></a>
+		<a href="html_de/index.html" id="de" title="Diese Seite auf Deutsch anzeigen"><span class="invisible">Deutsch</span></a>
+        <a href="html_fr/index.html" id="fr" title="Voir ce site en français"> <span class="invisible">Française</span></a>
+        <a href="html_it/index.html" id="it" title="italiano"><span class="invisible">Italiano</span></a>
+		<div class="clear"></div>
+		</div>
+  </div>
+	
+	<div id="navigation">
+		<ul>
+			<li><a href="html_en/project.html" id="item1"><span class="invisible">Project</span></a></li>
+			<li><a href="html_en/partners.html" id="item2"><span class="invisible">Partners</span></a></li>
+			<li><a href="html_en/media.html" id="item3"><span class="invisible">Media</span></a></li>
+			<li><a href="html_en/obesity.html" id="item4"><span class="invisible">Obesitiy</span></a></li>
+			<li><a href="html_en/disclaimer.html" id="item5"><span class="invisible">Disclaimer</span></a></li>
+			<li><a href="html_en/contact.php" id="item6"><span class="invisible">Contact</span></a></li>
+		</ul>
+	</div>
+	
+	<div id="container1">
+		<div id="content">
+			<h2>Finding solutions for a modern epidemic</h2>
+			
+			<div class="tooltip-content" id="simple-content-1"><strong>Obesity</strong> is a medical condition in which excess body fat has accumulated to the extent that it may have an adverse effect on health. Body mass index (BMI) defines people as overweight (pre-obese) when their BMI is between 25 kg/m2 and 30 kg/m2, and obese when it is greater than 30 kg/m2.</div>
+			
+			<img src="images/non_layout/index/burger.jpg" alt="Serving size of fast food tripled since 1970"  class="captify"/>
+			<p class="haupttext">The number of obese individuals in Europe has increased dramatically over the last decades. <span class="tooltip-target" id="simple-target-1">Obesity</span> is invariably associated with complications such as</p>  
+
+<div class="tooltip-content" id="simple-content-2"><img src="images/non_layout/index/diabetes_visual.jpg" alt="" class="float"/><strong>Diabetes mellitus</strong> — often simply referred to as diabetes —is a condition in which a person has a high blood sugar (glucose) level, because the body doesn't produce enough insulin and/or because body cells don't properly respond to the insulin that is produced.<div class="clear"></div></div>
+<p class="haupttext"><span class="tooltip-target" id="simple-target-2">type 2 diabetes mellitus </span>(T2D) and </p>
+
+<div class="tooltip-content" id="simple-content-3"><img src="images/non_layout/index/atheros_visual.jpg" alt="" class="float"/><strong>Atherosclerosis</strong> is the condition in which an artery wall thickens as the result of a build-up of materials such as cholesterol and the stenosis of the artery, eventually leading to heart attacks, strokes and serious organ failure.<div class="clear"></div></div>
+<p class="haupttext"><span class="tooltip-target" id="simple-target-3">atherosclerosis</span>,</p>
+
+<div class="tooltip-content" id="simple-content-4"><strong>The Seventh Framework Programme</strong> for research and technological development (FP7) is the European Union´s chief instrument for funding research over the period 2007 to 2013. The Programme has a total budget of over € 50 billion.<div class="clear"></div></div>
+<p class="haupttext"> both provoking heart attacks, stroke and kidney failure.  In order to develop strategies aimed at reducing the occurrence and severity of obesity-associated disorders, TOBI &ndash; Targeting Obesity-driven Inflammation - has been launched in January 2008. It was one of the first projects being approved by the European Commission within the <span class="tooltip-target" id="simple-target-4">7th Framework Programme</span>. This project runs for 36 months with a maximal EU funding of EUR 2.98 million.</p>
+
+
+           
+
+
+
+
+
+
+			<div class="clear"></div>
+	  </div>
+		<div id="news">
+			<h3>News</h3>
+			<p class="newstext"><strong>January 21, 2014<br />
+&quot;TOBI is published on the Horizon 2020 Website&quot;</strong><em><br />
+<a href="https://ec.europa.eu/programmes/horizon2020/en/news/obesity-study-gets-heart-diabetic-health-risks" target="_blank" class="link">go to website</a></em></p>
+			<p class="newstext"><a href="https://ec.europa.eu/programmes/horizon2020/en/news/obesity-study-gets-heart-diabetic-health-risks" target="_blank"><img src="http://www.tobi-project.eu/images/non_layout/media/tobi_news_2014.png" alt="EU" /></a></p>
+            <img src="images/non_layout/index/news_trenner.png" alt="" />
+            <p class="newstext"></p>
+            <p class="newstext"><strong><br />
+            October 19, 2011<br />
+  "TOBI is published on the European Commission News Site"</strong><em><br /> <a href="http://ec.europa.eu/research/health/medical-research/diabetes-and-obesity/projects/tobi_en.html" target="_blank" class="link">go to website</a></em></p>
+<p class="newstext"><a href="http://ec.europa.eu/research/health/medical-research/diabetes-and-obesity/projects/tobi_en.html"><img src="images/non_layout/index/tobi_eusite_thumb.jpg" alt="EU" /></a></p>
+			<img src="images/non_layout/index/news_trenner.png" alt="" />
+			<p class="newstext">&nbsp;</p><p class="newstext"><strong>June 29, 2011<br />
+		    "Wissenschaft trifft Kochkunst" (Science meets culinary art)</strong><em> Video online<br />
+			</em></p><p class="newstext"><a href="html_en/media.html#kochshow"><img src="images/non_layout/index/WTK_thumb_index.jpg" alt="Wissenschaft trifft Kochkunst" /></a></p>
+			
+		  <div class="clear"></div>
+			
+			
+			
+			
+			<div class="clear"></div>
+		  <img src="images/non_layout/index/news_trenner.png" alt="" />
+			<p class="newstext">&nbsp;</p>
+
+    <p class="newstext">&nbsp;</p>
+			<div class="clear"></div>
+			<div class="clear"></div>
+		</div>
+	
+	</div>
+	<div class="clear"></div>
+	<div id="footer">
+	</div>
+
+</div>
+<div id="clear"></div>
+</div>
+  <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+  <script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15819337-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>

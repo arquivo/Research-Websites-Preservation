@@ -1,0 +1,357 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>DGTerrit&#243;rio - HELM - Harmonised European Land Monitoring</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/css/jquery.multiselect.css" />
+    <link rel="stylesheet" type="text/css" href="/css/site.css?630822816000000000" />
+
+    <link rel="stylesheet" type="text/css" href="/css/workgroup.css?630822816000000000&1" />
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" type="text/css" href="/css/ie.css" />
+    <![endif]-->
+    <link href="/css/themes/cupertino/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" />
+    
+    <link rel="stylesheet" type="text/css" href="/css/accordion.css" />
+    <link rel="stylesheet" type="text/css" href="/css/popup.css" />
+    <link rel="stylesheet" type="text/css" href="/js/themes/default/style.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="/css/progress-polyfill.css" /><![endif]-->
+
+    <script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-migrate-1.1.1.js"></script>
+    <script type="text/javascript" src="/js/modernizr-1.7.min.js"></script>
+    
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script type="text/javascript" src="/js/ui-selectmenu.js"></script>
+    <script type="text/javascript" src="/js/jquery.unobtrusive-ajax.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.validate.unobtrusive.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.ThreeDots.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.highlight-3.yui.js"></script>
+    <script type="text/javascript" src="/js/vt.html.js"></script>
+    <script type="text/javascript" src="/js/vt.site.js?630822816000000000"></script>
+    <script type="text/javascript" src="/js/Accordion.js"></script>
+    <script type="text/javascript" src="/js/popup.js"></script>
+    <script type="text/javascript" src="/js/jquery.multiselect.js"></script>
+    <script type="text/javascript" src="/js/jquery.fontscale.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/js/jquery.jstree.js"></script>
+    <!--[if lt IE 9]><script type="text/javascript" src="/js/flashcanvas.js"></script><![endif]-->
+    <!-- GOOGLE MAPS -->
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+
+    <script type="text/javascript">
+        vt.site.culture = 'pt-PT';
+    </script>
+    <!-- Google Analytics -->
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-16651687-11']);
+            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    <!--[if (gte IE 6)&(lte IE 8)]>
+        <script type="text/javascript" src="/js/selectivizr.js"></script>
+        <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+    <![endif]-->
+
+    <!-- Feeds DGTerritório! -->
+    
+</head>
+<body>
+    <div style="display: table; margin: 0 auto;">
+            <map id="logoMap" name="logoMap">
+                <area alt="Direção-Geral do Território" title="Página Inicial" shape="poly" coords="51,17,37,21,25,32,18,49,23,68,39,84,60,84,72,77,84,65,203,65,205,34,76,30,65,25," href="/" />
+            </map>
+
+<div class="headerTop"></div>
+<div class="header">
+    <a href="/">
+        <div class="logo"></div>
+    </a>
+    <div class="right">
+        <div class="aaa">
+            <a id="downFont" title="Reduzir fonte"></a>
+            <a id="resetFont" title="Fonte original"></a>
+            <a id="upFont" title="Aumentar fonte"></a>
+        </div>
+        <div class="print" title="Imprimir"></div>
+        <a class="email" href="/contatos/" title="Contacte-nos"></a>
+
+        <div class="menuTop" data-url="/topMenu"></div>
+
+        <div class="search">
+<form action="/pesquisa" class="fleft" id="pesquisa" method="get">                <input name="q" id="pesquisatopo" type="text" class="input_search" placeholder="Pesquisa" />
+</form>            <div class="submitText">ok</div>
+            <div class="btnSubmit"></div>
+        </div>
+        <div class="shoppingBasket">
+            <div class="title">Cesto de Compras</div>
+            <a href="/cesto" class="shoppingCart noContent">Tem 0 artigos.<div class="icon"></div></a>
+            <a href="/cesto" class="shoppingCart singular">Tem <span class="cartSize"></span> artigo<div class="icon"></div></a>
+            <a href="/cesto" class="shoppingCart plural">Tem <span class="cartSize"></span> artigos<div class="icon"></div></a>
+        </div>
+    </div>
+</div>
+<div class="mainMenu">
+    <ul><li><a href="/a_dgt/" data-channel-id="e9ba46e2-3282-4b78-ac40-702c37147cf6" data-level="0" target="_self">A DGT</a><ul><li><a href="/a_dgt/natureza_e_missao/" data-channel-id="dc86f461-3e70-404a-9199-1c94647ee193" data-level="1" target="_self">Natureza e Missão</a><div class='submenuSeparator'></div></li><li><a href="/a_dgt/atribuicoes/" data-channel-id="f744d8ee-abb8-4581-8020-25891972367a" data-level="1" target="_self">Atribuições</a><div class='submenuSeparator'></div></li><li><a href="/a_dgt/estrutura_funcional/" data-channel-id="b6826601-9812-438b-ab49-5fd5ccc111b7" data-level="1" target="_self">Estrutura funcional</a><div class='submenuSeparator'></div></li><li><a href="/a_dgt/outras_estruturas/" data-channel-id="2a61530b-0580-40a7-9489-05777d70c334" data-level="1" target="_self">Outras Estruturas</a><div class='submenuSeparator'></div></li><li><a href="/a_dgt/contratacao_publica/" data-channel-id="32f34da1-c4ce-4db5-8c43-b1f9c20a554d" data-level="1" target="_self">Contratação Pública</a><div class='submenuSeparator'></div></li><li><a href="/a_dgt/recursos_humanos/" data-channel-id="75dbc24c-6ff6-44e4-8fa4-43dc38a660fe" data-level="1" target="_self">Recursos humanos</a><div class='submenuSeparator'></div></li><li><a href="/a_dgt/instrumentos_de_gestao/" data-channel-id="610ca00c-d246-4376-b018-04c74c6eca40" data-level="1" target="_self">Instrumentos de Gestão</a><div class='submenuSeparator'></div></li><li><a href="/a_dgt/cooperacao_institucional/" data-channel-id="1be3ff1a-015c-4543-b835-bc2e6bf1ccbf" data-level="1" target="_self">Cooperação Institucional</a><div class='submenuSeparator'></div></li><li><a href="/a_dgt/investigacao/" data-channel-id="95c935d7-ab8c-4e32-a9b9-9800b05ec0aa" data-level="1" target="_self">Investigação</a><div class='submenuLastDiv'></div><div class='submenuCorner'></div></li></ul></li><li><a href="/ordenamento_e_cidades/" data-channel-id="2a6ca93c-dd9a-44a4-8b2e-cf46a8547bd5" data-level="0" target="_self">Ordenamento e Cidades</a><ul><li><a href="/ordenamento_e_cidades/ordenamento_do_territorio/" data-channel-id="e90fd361-4177-442d-990c-85bb10eca3be" data-level="1" target="_self">Ordenamento do Território</a><div class='submenuSeparator'></div></li><li><a href="/ordenamento_e_cidades/cidades/" data-channel-id="a1f0c8f1-878d-4a77-a799-7cf0343b133a" data-level="1" target="_self">Cidades</a><div class='submenuSeparator'></div></li><li><a href="/ordenamento_e_cidades/projetos_em_curso/" data-channel-id="9d2dd550-58ef-4e9b-bd43-841b121a7262" data-level="1" target="_self">Projetos em curso</a><div class='submenuLastDiv'></div><div class='submenuCorner'></div></li></ul></li><li><a href="/cartografia_e_geodesia/" data-channel-id="07048294-8805-4e73-83f8-5c99fa4d793a" data-level="0" target="_self">Cartografia e Geodesia</a><ul><li><a href="/cartografia_e_geodesia/cartografia/" data-channel-id="c3c57087-64d8-431b-be18-cb19fc6db082" data-level="1" target="_self">Cartografia</a><div class='submenuSeparator'></div></li><li><a href="/cartografia_e_geodesia/geodesia/" data-channel-id="bb7f9baf-eddf-453d-9843-a2b0225dfab8" data-level="1" target="_self">Geodesia</a><div class='submenuSeparator'></div></li><li><a href="/cartografia_e_geodesia/regulacao/" data-channel-id="b2bb9963-5156-4f71-9179-a779fa55655c" data-level="1" target="_self">Regulação</a><div class='submenuSeparator'></div></li><li><a href="/cartografia_e_geodesia/mapas_on_line/" data-channel-id="30a10514-05c7-478f-8b35-696e84953adf" data-level="1" target="_self">Mapas on-line</a><div class='submenuSeparator'></div></li><li><a href="/cartografia_e_geodesia/projetos_em_curso/" data-channel-id="9ca9cb98-128f-4f47-a4c4-4f93997ba5bd" data-level="1" target="_self">Projetos em curso</a><div class='submenuLastDiv'></div><div class='submenuCorner'></div></li></ul></li><li><a href="/cadastro/" data-channel-id="62e53a1e-2d4b-4da8-a6a8-8ea3b284f94d" data-level="0" target="_self">Cadastro</a><ul><li><a href="/cadastro/cadastro_geometrico_da_propriedade_rustica__cgpr_/" data-channel-id="926ec3f1-bbf8-407e-8ed1-f73a1beff2cb" data-level="1" target="_self">Cadastro Geométrico da Propriedade Rústica (CGPR)</a><div class='submenuSeparator'></div></li><li><a href="/cadastro/cadastro_predial/" data-channel-id="6c0634ee-009b-476c-b388-72d5127fe20d" data-level="1" target="_self">Cadastro Predial</a><div class='submenuSeparator'></div></li><li><a href="/cadastro/regulacao/" data-channel-id="3c8d162b-64db-4072-88e3-4b1ce3152246" data-level="1" target="_self">Regulação</a><div class='submenuSeparator'></div></li><li><a href="/cadastro/projetos_em_curso/" data-channel-id="624ffc56-2a92-4822-9457-e0f0abb6ea42" data-level="1" target="_self">Projetos em curso</a><div class='submenuLastDiv'></div><div class='submenuCorner'></div></li></ul></li><li><a href="/sistemas_de_informacao/" data-channel-id="79ef537f-33f5-47b5-b91d-4be74576c711" data-level="0" target="_self">Sistemas de Informação</a><ul><li><a href="/sistemas_de_informacao/snig/" data-channel-id="89640295-db9d-4ce5-b66b-11d902fc31ab" data-level="1" target="_self">SNIG</a><div class='submenuSeparator'></div></li><li><a href="/sistemas_de_informacao/snit/" data-channel-id="a1c72e8e-fa29-4baa-a67a-78fa11395475" data-level="1" target="_self">SNIT</a><div class='submenuSeparator'></div></li><li><a href="/sistemas_de_informacao/siarl/" data-channel-id="558b2d5c-d3b3-4503-bf74-7933f6e2b45b" data-level="1" target="_self">SIARL</a><div class='submenuSeparator'></div></li><li><a href="/sistemas_de_informacao/snic/" data-channel-id="25c9e512-fde5-4c10-a675-cdc8b342595c" data-level="1" target="_self">SNIC</a><div class='submenuSeparator'></div></li><li><a href="/sistemas_de_informacao/igeo/" data-channel-id="4d1c5207-84fe-46ee-8133-00c49df7b4d7" data-level="1" target="_self">IGEO</a><div class='submenuLastDiv'></div><div class='submenuCorner'></div></li></ul></li><li><a href="/produtos_e_servicos/" data-channel-id="959c4dbd-560d-4ddd-ab7b-82f808485140" data-level="0" target="_self">Produtos e Serviços</a><ul><li><a href="/produtos_e_servicos/servicos_web/" data-channel-id="b99f7841-ecde-4c2c-b5f3-67f783f85086" data-level="1" target="_self">Serviços Web</a><div class='submenuSeparator'></div></li><li><a href="/produtos_e_servicos/ordenamento_do_territorio_e_cidades/" data-channel-id="38c7f34a-8d86-4644-b700-72696ca6fb48" data-level="1" target="_self">Ordenamento do Território e Cidades</a><div class='submenuSeparator'></div></li><li><a href="/produtos_e_servicos/geodesia_e_cartografia/" data-channel-id="4bc00522-7da6-4dd3-b596-62ad52a9b0e3" data-level="1" target="_self">Geodesia e Cartografia</a><div class='submenuSeparator'></div></li><li><a href="/produtos_e_servicos/cadastro/" data-channel-id="71e808a2-6dff-4f93-99f7-1b1e805571a3" data-level="1" target="_self">Cadastro</a><div class='submenuSeparator'></div></li><li><a href="/produtos_e_servicos/sistemas_de_informacao/" data-channel-id="2535e6da-b425-477e-8d00-d85c4ca127c7" data-level="1" target="_self">Sistemas de Informação</a><div class='submenuSeparator'></div></li><li><a href="/produtos_e_servicos/publicacoes/" data-channel-id="50fddb23-c844-4404-94ff-b557d7660fb7" data-level="1" target="_self">Publicações</a><div class='submenuSeparator'></div></li><li><a href="/produtos_e_servicos/diversos/" data-channel-id="53aac5de-c72b-40f6-8a16-963f596536ff" data-level="1" target="_self">Diversos</a><div class='submenuLastDiv'></div><div class='submenuCorner'></div></li></ul></li></ul>
+</div>
+            <div class="content_head">
+            <div class="content_headimage">
+        <img src="http://www.dgterritorio.pt/static/repository/2013-06/2013-06-12125901_8087064b-e502-4c3b-99a1-d04358f3768a$$7DAA2E01-92E4-4BAF-91A7-8352416DB648$$F3FEAE91-CEBD-466B-B5DE-3AA5434274F0$$NarrowImage$$pt$$1.jpg" width="100%" height="100%" alt =""/>
+        <div class="content_headimage_text">
+            <label class="small"></label>
+            <label class="big"></label>
+        </div>
+    </div>
+
+
+    </div>
+<div class="body_content">
+    
+    <!-- LEFT COLUMN -->
+    <div class="content_leftcolumn">
+        <div id="content_left_menu_wrap"><ul><li><a href="/a_dgt/natureza_e_missao/" data-channel-id="dc86f461-3e70-404a-9199-1c94647ee193" data-level="0" target="_self">Natureza e Missão</a></li><li><a href="/a_dgt/atribuicoes/" data-channel-id="f744d8ee-abb8-4581-8020-25891972367a" data-level="0" target="_self">Atribuições</a></li><li><a href="/a_dgt/estrutura_funcional/" data-channel-id="b6826601-9812-438b-ab49-5fd5ccc111b7" data-level="0" target="_self">Estrutura funcional</a><ul><li><a href="/a_dgt/estrutura_funcional/direcao/" data-channel-id="ee59d8a2-15b1-485c-99f6-c69934175ec6" data-level="1" target="_self">Direção</a></li><li><a href="/a_dgt/estrutura_funcional/direcoes_de_servicos/" data-channel-id="60284bab-3056-4be1-8764-f02ed9c5518d" data-level="1" target="_self">Direções de Serviços</a><ul><li><a href="/a_dgt/estrutura_funcional/direcoes_de_servicos/de_ordenamento_do_territorio/" data-channel-id="276e7dfc-4092-4a76-b8ce-9c2a82d01f40" data-level="2" target="_self">de Ordenamento do Território</a></li><li><a href="/a_dgt/estrutura_funcional/direcoes_de_servicos/de_informacao_cadastral/" data-channel-id="54599d61-78bb-444e-add6-01ac10faaeb7" data-level="2" target="_self">de Informação Cadastral</a></li><li><a href="/a_dgt/estrutura_funcional/direcoes_de_servicos/de_geodesia_cartografia_e_informacao_geografica/" data-channel-id="4de020b5-986e-420f-99e7-10523c1a507a" data-level="2" target="_self">de Geodesia, Cartografia e Informação Geográfica</a></li><li><a href="/a_dgt/estrutura_funcional/direcoes_de_servicos/de_planeamento_relacoes_institucionais_comunicacao_e_apoio/" data-channel-id="88a6c709-9e90-4915-9603-f082244ed988" data-level="2" target="_self">de Planeamento, Relações Institucionais, Comunicação e Apoio</a></li></ul></li><li><a href="/a_dgt/estrutura_funcional/delegacoes_regionais/" data-channel-id="0ba5e68c-303f-4c4c-b695-d49c763ee6fa" data-level="1" target="_self">Delegações Regionais</a></li><li><a href="/a_dgt/estrutura_funcional/organograma/" data-channel-id="8cfa7209-f3f3-4a5c-b397-4b2ad5663970" data-level="1" target="_self">Organograma</a></li></ul></li><li><a href="/a_dgt/outras_estruturas/" data-channel-id="2a61530b-0580-40a7-9489-05777d70c334" data-level="0" target="_self">Outras Estruturas</a><ul><li><a href="/a_dgt/outras_estruturas/observatorio_ot/u/" data-channel-id="cdf21577-b0f9-4894-ae9f-e9a5d420c2e4" data-level="1" target="_self">Observatório OT/U</a></li><li><a href="/a_dgt/outras_estruturas/comissao_nacional_da_reserva_ecologica_nacional/" data-channel-id="db32d737-074a-48e2-bf13-9e9bc9e8f491" data-level="1" target="_self">Comissão Nacional da Reserva Ecológica Nacional</a></li><li><a href="/a_dgt/outras_estruturas/conselho_coordenador_de_cartografia/" data-channel-id="38c3f4b0-61f5-4784-bb58-33cdc4d176fb" data-level="1" target="_self">Conselho Coordenador de Cartografia</a><ul><li><a href="/a_dgt/outras_estruturas/conselho_coordenador_de_cartografia/reunioes/" data-channel-id="49e0cfb0-2adf-42c8-add9-2b2031a6455c" data-level="2" target="_self">Reuniões</a></li></ul></li><li><a href="/a_dgt/outras_estruturas/programa_polis/" data-channel-id="43c74855-4a6e-4028-a5d2-0d99a96370b6" data-level="1" target="_self">Programa POLIS</a></li><li><a href="/a_dgt/outras_estruturas/co_snig/" data-channel-id="90b6f5aa-46eb-4478-ba96-1719830b0feb" data-level="1" target="_self">CO-SNIG</a></li></ul></li><li><a href="/a_dgt/contratacao_publica/" data-channel-id="32f34da1-c4ce-4db5-8c43-b1f9c20a554d" data-level="0" target="_self">Contratação Pública</a><ul><li><a href="/a_dgt/contratacao_publica/historico/" data-channel-id="4c88677c-01c4-4303-9504-f8853605385a" data-level="1" target="_self">Histórico</a></li></ul></li><li><a href="/a_dgt/recursos_humanos/" data-channel-id="75dbc24c-6ff6-44e4-8fa4-43dc38a660fe" data-level="0" target="_self">Recursos humanos</a><ul><li><a href="/a_dgt/recursos_humanos/procedimentos_concursais/" data-channel-id="b75135ed-8a46-4229-800d-830f29fd1809" data-level="1" target="_self">Procedimentos concursais</a></li></ul></li><li><a href="/a_dgt/instrumentos_de_gestao/" data-channel-id="610ca00c-d246-4376-b018-04c74c6eca40" data-level="0" target="_self">Instrumentos de Gestão</a><ul><li><a href="/a_dgt/instrumentos_de_gestao/quar/" data-channel-id="0e8c98f4-9089-4d9c-a2f4-6ef485506018" data-level="1" target="_self">QUAR</a><ul><li><a href="/a_dgt/instrumentos_de_gestao/quar/historico/" data-channel-id="83aed508-5dde-4599-9e62-5b95d1262d30" data-level="2" target="_self">Histórico</a></li></ul></li><li><a href="/a_dgt/instrumentos_de_gestao/planos_e_relatorios_de_atividades/" data-channel-id="0f97d269-d9d0-4a21-a381-3e9a576fe99b" data-level="1" target="_self">Planos e Relatórios de Atividades</a><ul><li><a href="/a_dgt/instrumentos_de_gestao/planos_e_relatorios_de_atividades/historico/" data-channel-id="8a431f3c-8105-409e-b570-ce7d34505f70" data-level="2" target="_self">Histórico</a></li></ul></li><li><a href="/a_dgt/instrumentos_de_gestao/balancos_sociais/" data-channel-id="edb298e1-74e5-46f6-8031-75b4a1778857" data-level="1" target="_self">Balanços Sociais</a><ul><li><a href="/a_dgt/instrumentos_de_gestao/balancos_sociais/historico/" data-channel-id="b2ed6309-7dba-4259-8a5d-54023573284b" data-level="2" target="_self">Histórico</a></li></ul></li><li><a href="/a_dgt/instrumentos_de_gestao/mapa_de_pessoal/" data-channel-id="641a31c9-f593-411b-a41a-a2de83d5bed0" data-level="1" target="_self">Mapa de Pessoal</a><ul><li><a href="/a_dgt/instrumentos_de_gestao/mapa_de_pessoal/historico/" data-channel-id="2c50b342-71d9-474f-b75b-86835f07334a" data-level="2" target="_self">Histórico</a></li></ul></li><li><a href="/a_dgt/instrumentos_de_gestao/avaliacao_de_desempenho/" data-channel-id="7a7cc71b-5a04-43c6-b77f-7d6d48cc0aab" data-level="1" target="_self">Avaliação de Desempenho</a><ul><li><a href="/a_dgt/instrumentos_de_gestao/avaliacao_de_desempenho/historico/" data-channel-id="2cbf562b-e353-4f49-9db3-9ebf73f2caba" data-level="2" target="_self">Histórico</a></li></ul></li><li><a href="/a_dgt/instrumentos_de_gestao/informacao_financeira/" data-channel-id="10180680-73c5-4ab9-b3e1-69f431d58266" data-level="1" target="_self">Informação Financeira</a></li></ul></li><li><a href="/a_dgt/cooperacao_institucional/" data-channel-id="1be3ff1a-015c-4543-b835-bc2e6bf1ccbf" data-level="0" target="_self">Cooperação Institucional</a></li><li><a href="/a_dgt/investigacao/" data-channel-id="95c935d7-ab8c-4e32-a9b9-9800b05ec0aa" data-level="0" target="_self">Investigação</a><ul><li><a href="/a_dgt/investigacao/smartopendata/" data-channel-id="08a8244c-c88b-41a8-8269-5e5f48112d99" data-level="1" target="_self">SmartOpenData</a></li><li><a href="/a_dgt/investigacao/saglit/" data-channel-id="1f9b0fd5-12d2-4ca8-aa05-5514eb752de6" data-level="1" target="_self">SAGLIT</a></li><li><a href="/a_dgt/investigacao/fireland/" data-channel-id="5a9b43ac-f7d9-4da8-9250-e67434c8d8b7" data-level="1" target="_self">FIRELAND</a></li><li><a href="/a_dgt/investigacao/landyn/" data-channel-id="b489fd1c-187b-4a22-b6e2-72b96d209481" data-level="1" target="_self">LANDYN</a></li><li><a href="/a_dgt/investigacao/cvs/" data-channel-id="9dc65d7c-04c3-4d0b-8609-7997db213a18" data-level="1" target="_self">CVS</a></li><li><a href="/a_dgt/investigacao/energic/" data-channel-id="1d4bf6be-ece7-4f27-93a4-efec8ebc72eb" data-level="1" target="_self">ENERGIC</a></li><li><a href="/a_dgt/investigacao/helm/" data-channel-id="fd834bc0-3502-4625-b9a3-dd286f962f83" data-level="1" target="_self">HELM</a></li><li><a href="/a_dgt/investigacao/landau/" data-channel-id="2ec8844f-2012-437c-b268-3cf96d83cb5f" data-level="1" target="_self">LANDAU</a></li><li><a href="/a_dgt/investigacao/eenvplus/" data-channel-id="2555bd74-2aa2-4349-a53b-f0415f5f3602" data-level="1" target="_self">eENVplus</a></li><li><a href="/a_dgt/investigacao/geohealths/" data-channel-id="821799af-e7db-42d0-9532-f2c983f051e2" data-level="1" target="_self">GeoHealthS</a></li></ul></li></ul><div class="content_left_menu_bottom"></div><div class="content_left_menu_corner"></div></div>
+        <div class="body_spacer20"></div>
+    </div>
+    <!-- LEFT COLUMN END -->
+<!-- RIGHT CONTENT ****************************************************************************************** -->
+<div class="content_rightcontent initialW" 
+    style="" data-class="initialW">
+    
+<div class="breadcrumb">
+    <span class="initial">
+        Você está em:
+    </span>
+        <a href="/">Página inícial</a>
+        <span class="initial">&gt; </span>
+        <a data-channel-id="e9ba46e2-3282-4b78-ac40-702c37147cf6" 
+           href="/a_dgt/">
+            A DGT
+        </a>
+        <span class="initial">&gt; </span>
+        <a data-channel-id="95c935d7-ab8c-4e32-a9b9-9800b05ec0aa" 
+           href="/a_dgt/investigacao/">
+            Investiga&#231;&#227;o
+        </a>
+        <span class="initial">&gt; </span>
+        <a data-channel-id="fd834bc0-3502-4625-b9a3-dd286f962f83" 
+           href="/a_dgt/investigacao/helm/">
+            HELM
+        </a>
+</div>
+
+    <div class="caixatxt_12_650">
+        <div class="body_spacer20"></div>
+        <div class="blackTitle">HELM - Harmonised European Land Monitoring</div>
+        <div class="body_spacer20"></div>
+        <div class="">
+            <div style="text-align: justify; line-height: 18px; font-family: Arial, Helvetica, sans-serif; font-size: 13px"><b>Objectivos gerais: </b></div><div style="text-align: justify"><font face="Arial, Helvetica, sans-serif" size="2"><span style="line-height: 18px">Constituição de uma rede Europeia de autoridades relacionadas com a harmonização da ocupação/uso do solo que contribua para aprofundar a partilha de experiências e conhecimento no domínio da monitorização de ocupação/uso do solo a nível Europeu, nomeadamente através de ações conjuntas das autoridades dos diversos países, alinhamento dos sistemas nacionais de monitorização envolvendo adaptações mútuas de métodos de interpretação de dados, entre outras.</span></font></div><div style="text-align: justify; line-height: 18px; font-family: Arial, Helvetica, sans-serif; font-size: 13px"><div><b><br /></b></div><div><b>Resultados esperados:</b></div><div><div>Criação de uma Rede Europeia de autoridades relacionadas com a harmonização da ocupação/uso do solo.<br />Desenvolvimento de uma visão comum para a monitorização da ocupação/uso do solo na Europa.<br />Desenvolvimento de atividades conjuntas de suporte aos objetivos e estratégia definidos.<br />Desenvolvimento de um plano para o alinhamento das atividades de monitorização da ocupação/uso do solo<br />Promoção do desenvolvimento de um sistema integrado de monitorização da ocupação/uso do solo a nível Europeu.</div></div><div><br /></div></div><div style="text-align: justify; line-height: 18px; font-family: Arial, Helvetica, sans-serif; font-size: 13px"><strong>Prazo de execução:<br /></strong>Janeiro 2011 - dezembro 2013</div><div style="text-align: justify; line-height: 18px; font-family: Arial, Helvetica, sans-serif; font-size: 13px"></div><div style="text-align: justify; line-height: 18px; font-family: Arial, Helvetica, sans-serif; font-size: 13px"><strong>Link do projeto:</strong><br /><a target="_blank" href="http://www.fp7helm.eu/ms/fp7helm//fp7helm_home/">http://www.fp7helm.eu/ms/fp7helm//fp7helm_home/</a><br /><br /></div>
+        </div>
+    </div>
+    
+<div class="DateShareTop">
+    <div class="fleft">
+        <strong>Última atualização: </strong>
+
+        <i>ter&#231;a-feira, 18 de junho de 2013</i>
+    </div>
+    <div class="shareTop">
+     <a rel="share" href="#">Partilhar Informação</a>
+    |
+    <a href="#" onclick="window.scrollTo(0); return false;">Voltar ao topo</a>
+    </div>
+    <br />
+    <div class="body_spacer20"></div>
+</div>
+
+
+</div>
+
+
+    <!-- RIGHT CONTENT END ****************************************************************************************** -->
+</div>
+
+            <!-- FOOTER -->
+            <div class="body_spacer20 footerSep"></div>
+<div class="footerMenu">
+        <div class="menuEntry" style="margin-left:25px;">
+            <div class="title">
+                Sobre o portal
+            </div>
+                <div class="bullet"></div>
+                <div class="subItem">
+                        <a href="/condicoes_de_utilizacao" target="">
+                            Condi&#231;&#245;es de utiliza&#231;&#227;o
+                        </a>
+                </div>
+                <div class="bullet"></div>
+                <div class="subItem">
+                        <a href="/acessibilidade" target="">
+                            Acessibilidade
+                        </a>
+                </div>
+                <div class="bullet"></div>
+                <div class="subItem">
+                        <a href="/browsers_de_suporte" target="">
+                            Browsers de suporte
+                        </a>
+                </div>
+                <div class="bullet"></div>
+                <div class="subItem">
+                        <a href="/mapa_do_portal" target="">
+                            Mapa do Portal
+                        </a>
+                </div>
+                <div class="bullet"></div>
+                <div class="subItem">
+                        <a href="/ficha_tecnica" target="">
+                            Ficha t&#233;cnica
+                        </a>
+                </div>
+        </div>
+        <div class="menuEntry" style="">
+            <div class="title">
+                Informa&#231;&#227;o &#250;til
+            </div>
+                <div class="bullet"></div>
+                <div class="subItem">
+                        <a href="/glossario" target="">
+                            Gloss&#225;rio
+                        </a>
+                </div>
+                <div class="bullet"></div>
+                <div class="subItem">
+                        <a href="/legislacao" target="">
+                            Legisla&#231;&#227;o
+                        </a>
+                </div>
+                <div class="bullet"></div>
+                <div class="subItem">
+                        <a href="/faq" target="">
+                            Perguntas Frequentes
+                        </a>
+                </div>
+                <div class="bullet"></div>
+                <div class="subItem">
+                        <a href="/links_uteis" target="">
+                            Links &#218;teis
+                        </a>
+                </div>
+                <img clasS="footerImage" src="http://www.dgterritorio.pt/static/repository/2015-05/2015-05-21143322_c56e4bd7-1eeb-4fae-a807-bd45fdd3a998$$F8CF7759-14B0-4876-AEAC-CA11C1A6D0AF$$CB75FA1C-AAB8-4F47-9F3D-12E5D0F290C4$$pt_pt__Image$$pt$$1.png" />
+                <div class="subItem">
+                        <a href="http://www.epcg.pt" target="_blank">
+                            Escola Profissional de Ci&#234;ncias Geogr&#225;ficas
+                        </a>
+                </div>
+        </div>
+        <div class="menuEntry" style="">
+            <div class="title">
+                Subscri&#231;&#245;es
+            </div>
+                <img clasS="footerImage" src="http://www.dgterritorio.pt/static/repository/2013-05/2013-05-10165758_c56e4bd7-1eeb-4fae-a807-bd45fdd3a998$$68299262-0624-4073-9DA4-6ABE1E65E1AE$$79B1C834-E464-4556-A672-892FB4AD1963$$pt_pt__Image$$pt$$1.png" />
+                <div class="subItem">
+                        <a href="/rss" target="">
+                            RSS
+                        </a>
+                </div>
+                <img clasS="footerImage" src="http://www.dgterritorio.pt/static/repository/2013-05/2013-05-27123445_c56e4bd7-1eeb-4fae-a807-bd45fdd3a998$$68299262-0624-4073-9DA4-6ABE1E65E1AE$$F04511C3-BE5A-4591-B1F8-083D26387D20$$pt_pt__Image$$pt$$1.png" />
+                <div class="subItem">
+                        <a href="http://www.linkedin.com" target="_blank">
+                            Linkedin
+                        </a>
+                </div>
+                <img clasS="footerImage" src="http://www.dgterritorio.pt/static/repository/2013-04/2013-04-24110507_c56e4bd7-1eeb-4fae-a807-bd45fdd3a998$$68299262-0624-4073-9DA4-6ABE1E65E1AE$$28D0B039-A665-4FC7-A82B-C3409E1A3FED$$pt_pt__Image$$pt$$1.png" />
+                <div class="subItem">
+                        <a href="https://www.facebook.com" target="_blank">
+                            Facebook
+                        </a>
+                </div>
+        </div>
+        <div class="localization">
+            <div class="map">
+                <div id="map_canvas_04b391d5-3018-4616-a2eb-b39f24b39b8d" style="width:313px;height:220px;" 
+                    data-map-points="38.726186,-9.158281,15" 
+                    data-map-names="D.G.Territ&#243;rio"
+                    data-map-type="satellite">
+                </div>
+                    <div class="mapBalloonContent"></div>
+            </div>
+            <div class="legend">
+                    Latitude  38.726186<br />
+                    Longitude  -9.158281            </div>
+        </div>
+</div>
+<div class="footerMain">
+            <div class="imgLink">
+		<img src="http://www.dgterritorio.pt/static/repository/2016-02/2016-02-23141711_c56e4bd7-1eeb-4fae-a807-bd45fdd3a998$$FCFBA8DC-AAB7-4A6F-98FE-67760333D707$$49EFB369-72C9-4156-8ECF-87C371ACE047$$pt_pt__Image$$pt$$1.jpg" title="AMBIENTE" alt="AMBIENTE" />
+            </div>
+
+
+<div class="link">
+    <a href="http://www.portugal.gov.pt/pt/ministerios/mamb.aspx" target="_blank" title="AMBIENTE">AMBIENTE</a>
+</div>
+    <div class="logo">
+        <a href="/" target="_blank">
+            <img src="http://www.dgterritorio.pt/static/repository/2013-05/2013-05-21105802_77970955-27cd-4a7e-aa09-b28a4f592392$$12BC6081-23B2-45EF-87D0-E970BC91FA7A$$21B42361-FC04-4F6B-ABE7-366FAFEAE41A$$Logo$$pt$$1.jpg" title="DGT">
+        </a>
+    </div>
+
+<div class="contacts">
+    Dire&#231;&#227;o-Geral do Territ&#243;rio<br>  
+    Rua Artilharia 1, 107 ¤ 1099-052 Lisboa, Portugal <div>Telefone (+351) 21 381 96 00   |   Fax (+351) 21 381 96 99   |   <a href="http://www.dgterritorio.pt" target="_blank" style="color: black; text-decoration: none">www.dgterritorio.pt</a></div><br />
+</div>
+
+
+<div class="footerArticle">
+    <div align="right"><div style="width: 928px"><div align="right"><table border="0" width="100%"><tbody><tr><td width="50%" align="left"> <a href="http://www.pofc.qren.pt/" target="_blank"><img src="/imagedownload.aspx?schema=f7664ca7-3a1a-4b25-9f46-2056eef44c33&channel=9ec495f0-8291-46c5-bbc0-96611d6e1acb&content_id=95EBB4C8-2B41-40F1-89C3-446EFAD9A761&field=storage_image&lang=pt&ver=1&filetype=gif&dtestate=2014-05-26174006" border="0" title="Compete.gif" style="float: none" /></a><a href="http://www.qren.pt/np4/home" target="_blank"><img src="/imagedownload.aspx?schema=f7664ca7-3a1a-4b25-9f46-2056eef44c33&channel=9ec495f0-8291-46c5-bbc0-96611d6e1acb&content_id=CD89B701-BE6D-4224-891A-A47F9B516CA1&field=storage_image&lang=pt&ver=1&filetype=png&dtestate=2014-05-26174238" border="0" title="QREN.png" style="float: none" /></a><a href="http://europa.eu/index_pt.htm" target="_blank"><img src="/imagedownload.aspx?schema=f7664ca7-3a1a-4b25-9f46-2056eef44c33&channel=9ec495f0-8291-46c5-bbc0-96611d6e1acb&content_id=7240915D-1DDE-4E3E-A47A-DCD89BA72067&field=storage_image&lang=pt&ver=1&filetype=jpg&dtestate=2014-05-26174256" border="0" title="UE.jpg" style="float: none" /></a></td><td with="50%" align="right"><span style="font-size: 12px; text-align: -webkit-right">© 2015 DGT - Todos os Direitos Reservados</span></td></tr></tbody></table></div></div></div>
+</div></div>
+    </div>
+
+    
+<!--[if IE 8]>
+<style>
+    .lateralLinksWrapper{
+        right: -72px;
+    }
+    .lateralLinksWrapper > a {
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+        margin-left: 1px;
+    }
+</style>
+<![endif]-->
+
+    <div class="lateralLinksWrapper">
+    </div>
+      <div class="lateralLinksWrapper" style="top:50%">
+    </div>
+
+    
+    <!--[if lte IE 9]><script type="text/javascript" src="/js/progress-polyfill.min.js"></script><![endif]-->
+</body>
+</html>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        $("#login").live('mouseover', function () {
+            $(".menuheader.login").addClass("hover");
+            $(".loginPartial").animate({ height: 63 + 'px' }, 500);
+        });
+
+        $(".loginClose").live('click', function () {
+            $(".loginPartial").animate({ height: 0 + 'px' }, 500);
+            $(".menuheader.login").removeClass("hover");
+        });
+
+        $('#topMenu').load("/Home/MenuTop?home=False");
+
+    });
+</script>

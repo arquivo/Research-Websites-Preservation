@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//NL" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" lang="nl">
+<head>
+  <!-- 
+        Realisatie: YPOS (www.ypos.nl)
+   -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Welcome - Alcohol Abuse among Adolescents in Europe</title>
+  <link rel="stylesheet" type="text/css" href="/css/aaaprevent.css"/>
+  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/barchart.css"/>
+  <!--[if IE]>
+  <link rel="stylesheet" type="text/css" href="/css/aaaprevent_ie.css"/>
+  <![endif]--> 
+  <script language="javascript" src="/webetui_files4/jslib/jquery-1.4.2.min.js"></script>
+  <script language="javascript" src="/webetui_files4/jslib/jquery.webetui.pulldown.js"></script>
+  <script language="javascript" src="/webetui_files4/jslib/ba-debug.js"></script>
+  <script language="javascript" src="/js/aaaprevent.js"></script>
+  <script language="javascript" src="/js/barchart.js"></script>
+</head>
+
+<body class="index">
+  <div id="wrapper">
+    <div id="header">
+      <img class="site_title" src="/gfx/header_tekst.gif" width="777" height="69" alt="" />
+      
+      <div id="menu">
+        <ul class="menu"><li class="selected" id="index"><a class="selected" href="/index" id="index">Home</a><ul class=""><li class="" id="presentations"><a class="" href="/index/presentations" id="presentations"><br/></a></li>
+</ul></li>
+<li class="" id="reports"><a class="" href="/reports" id="reports">Reports</a><ul class=""><li class="" id="outcomes"><a class="" href="/reports/outcomes" id="outcomes">Outcomes</a></li>
+<li class="" id="family"><a class="" href="/reports/family" id="family">Family</a></li>
+<li class="" id="school"><a class="" href="/reports/school" id="school">School</a></li>
+<li class="" id="peers"><a class="" href="/reports/peers" id="peers">Peers</a></li>
+<li class="" id="individual"><a class="" href="/reports/individual" id="individual">Individual</a></li>
+<li class="" id="neighbourhood"><a class="" href="/reports/neighbourhood" id="neighbourhood">Neighbourhood</a></li>
+<li class="" id="national_profiles"><a class="" href="/reports/national_profiles" id="national_profiles">National profiles</a></li>
+<li class="" id="structural-variables"><a class="" href="/reports/structural-variables" id="structural-variables">Structural variables</a></li>
+</ul></li>
+<li class="" id="partners"><a class="" href="/partners" id="partners">Partners</a><ul class=""><li class="" id="consortium"><a class="" href="/partners/consortium" id="consortium">Consortium</a></li>
+<li class="" id="the_netherlands"><a class="" href="/partners/the_netherlands" id="the_netherlands">The Netherlands</a></li>
+<li class="" id="belgium"><a class="" href="/partners/belgium" id="belgium">Belgium</a></li>
+<li class="" id="estland"><a class="" href="/partners/estland" id="estland">Estland</a></li>
+<li class="" id="italy"><a class="" href="/partners/italy" id="italy">Italy</a></li>
+<li class="" id="czech_republic"><a class="" href="/partners/czech_republic" id="czech_republic">Czech Republic</a></li>
+<li class="" id="germany"><a class="" href="/partners/germany" id="germany">Germany</a></li>
+<li class="" id="subcontractors"><a class="" href="/partners/subcontractors" id="subcontractors">Subcontractors</a></li>
+</ul></li>
+<li class="" id="data"><a class="" href="/data" id="data">Data</a><ul class=""><li class="" id="netherlands"><a class="" href="/data/netherlands" id="netherlands">The Netherlands</a></li>
+<li class="" id="armenia"><a class="" href="/data/armenia" id="armenia">Armenia</a></li>
+<li class="" id="austria"><a class="" href="/data/austria" id="austria">Austria</a></li>
+<li class="" id="belgium"><a class="" href="/data/belgium" id="belgium">Belgium</a></li>
+<li class="" id="bosnia-herzegovina"><a class="" href="/data/bosnia-herzegovina" id="bosnia-herzegovina">Bosnia &amp; Herzegovina</a></li>
+<li class="" id="cyprus"><a class="" href="/data/cyprus" id="cyprus">Cyprus</a></li>
+<li class="" id="czech-republic"><a class="" href="/data/czech-republic" id="czech-republic">Czech Republic</a></li>
+<li class="" id="denmark"><a class="" href="/data/denmark" id="denmark">Denmark</a></li>
+<li class="" id="estonia"><a class="" href="/data/estonia" id="estonia">Estonia</a></li>
+<li class="" id="finland"><a class="" href="/data/finland" id="finland">Finland</a></li>
+<li class="" id="france"><a class="" href="/data/france" id="france">France</a></li>
+<li class="" id="germany"><a class="" href="/data/germany" id="germany">Germany</a></li>
+<li class="" id="hungary"><a class="" href="/data/hungary" id="hungary">Hungary</a></li>
+<li class="" id="iceland"><a class="" href="/data/iceland" id="iceland">Iceland</a></li>
+<li class="" id="ireland"><a class="" href="/data/ireland" id="ireland">Ireland</a></li>
+<li class="" id="italy"><a class="" href="/data/italy" id="italy">Italy</a></li>
+<li class="" id="lithunia"><a class="" href="/data/lithunia" id="lithunia">Lithunia</a></li>
+<li class="" id="norway"><a class="" href="/data/norway" id="norway">Norway</a></li>
+<li class="" id="poland"><a class="" href="/data/poland" id="poland">Poland</a></li>
+<li class="" id="portugal"><a class="" href="/data/portugal" id="portugal">Portugal</a></li>
+<li class="" id="russia"><a class="" href="/data/russia" id="russia">Russia</a></li>
+<li class="" id="slovenia"><a class="" href="/data/slovenia" id="slovenia">Slovenia</a></li>
+<li class="" id="spain"><a class="" href="/data/spain" id="spain">Spain</a></li>
+<li class="" id="sweden"><a class="" href="/data/sweden" id="sweden">Sweden</a></li>
+<li class="" id="switzerland"><a class="" href="/data/switzerland" id="switzerland">Switzerland</a></li>
+</ul></li>
+<li class="" id="strategies"><a class="" href="/strategies" id="strategies">Effective strategies</a><ul class=""><li class="" id="countries"><a class="" href="/strategies/countries" id="countries">Countries</a><ul class=""><li class="" id="netherlands"><a class="" href="/strategies/countries/netherlands" id="netherlands">The Netherlands</a></li>
+<li class="" id="armenia"><a class="" href="/strategies/countries/armenia" id="armenia">Armenia</a></li>
+<li class="" id="austria"><a class="" href="/strategies/countries/austria" id="austria">Austria</a></li>
+<li class="" id="belgium"><a class="" href="/strategies/countries/belgium" id="belgium">Belgium</a></li>
+<li class="" id="bosnia-herzegovina"><a class="" href="/strategies/countries/bosnia-herzegovina" id="bosnia-herzegovina">Bosnia &amp; Herzegovina</a></li>
+<li class="" id="cyprus"><a class="" href="/strategies/countries/cyprus" id="cyprus">Cyprus</a></li>
+<li class="" id="czech-republic"><a class="" href="/strategies/countries/czech-republic" id="czech-republic">Czech Republic</a></li>
+<li class="" id="denmark"><a class="" href="/strategies/countries/denmark" id="denmark">Denmark</a></li>
+<li class="" id="estonia"><a class="" href="/strategies/countries/estonia" id="estonia">Estonia</a></li>
+<li class="" id="finland"><a class="" href="/strategies/countries/finland" id="finland">Finland</a></li>
+<li class="" id="france"><a class="" href="/strategies/countries/france" id="france">France</a></li>
+<li class="" id="germany"><a class="" href="/strategies/countries/germany" id="germany">Germany</a></li>
+<li class="" id="hungary"><a class="" href="/strategies/countries/hungary" id="hungary">Hungary</a></li>
+<li class="" id="iceland"><a class="" href="/strategies/countries/iceland" id="iceland">Iceland</a></li>
+<li class="" id="ireland"><a class="" href="/strategies/countries/ireland" id="ireland">Ireland</a></li>
+<li class="" id="italy"><a class="" href="/strategies/countries/italy" id="italy">Italy</a></li>
+<li class="" id="lithunia"><a class="" href="/strategies/countries/lithunia" id="lithunia">Lithuania</a></li>
+<li class="" id="norway"><a class="" href="/strategies/countries/norway" id="norway">Norway</a></li>
+<li class="" id="poland"><a class="" href="/strategies/countries/poland" id="poland">Poland</a></li>
+<li class="" id="portugal"><a class="" href="/strategies/countries/portugal" id="portugal">Portugal</a></li>
+<li class="" id="russia"><a class="" href="/strategies/countries/russia" id="russia">Russia</a></li>
+<li class="" id="slovenia"><a class="" href="/strategies/countries/slovenia" id="slovenia">Slovenia</a></li>
+<li class="" id="spain"><a class="" href="/strategies/countries/spain" id="spain">Spain</a></li>
+<li class="" id="sweden"><a class="" href="/strategies/countries/sweden" id="sweden">Sweden</a></li>
+<li class="" id="switzerland"><a class="" href="/strategies/countries/switzerland" id="switzerland">Switzerland</a></li>
+</ul></li>
+<li class="" id="methodology"><a class="" href="/strategies/methodology" id="methodology">Methodology</a></li>
+</ul></li>
+<li class="" id="extranet"><a class="" href="/extranet" id="extranet">Extranet</a></li>
+</ul>
+      </div>
+      
+      <form id="search" method="GET" action="/zoek">
+        <input type="submit" class="submit" value=""/>
+        <input type="text" class="text" name="term" value=""/>
+      </form>
+      <img class="logo_7th" src="/gfx/logo_7th_framework_programme.png" width="89" height="70" alt="Logo Seventh Framework Programme"/>
+    
+    </div> <!-- end HEADER -->
+    
+    <div id="page">
+      <div class="editable" id="webetui_text" webetui_func="WebEtui::field" webetui_args="text"><div class="text" ><h1>Welcome</h1>
+<div class="intro" ><div class="intro2" ><p>The consumption of alcohol among young people in Europe has risen during the past years. Several studies indicate that one quarter to one third of all adolescents drink alcohol. Not only the number of young people drinking alcohol is growing; problematic drinking (e.g. drunkenness and binge drinking) is an issue of growing importance. Especially among 12 to 14 year olds the use of alcohol has increased.</p>
+<p>This project (AAA-Prevent) aimed to study the different possible effective strategies for the prevention of alcohol abuse among adolescents in different European countries. It has:</p>
+<ul>
+<li>analysed existing environmental strategies at different governance levels;</li>
+<li>confronted these with outcomes of a study which identified and analysed risk factors which influence the initiation of alcohol use among young people in Europe.</li>
+<li>largely disseminated outcomes of the proposed study through regional experts and stakeholders seminars in different European regions and through a web based prevention policy guideline which will be developed next year.</li>
+</ul>
+</div></div><h2>Presentations<br/></h2>
+<p>In the link <a href="/index/presentations">Presentations</a> you can find posters, powerpoints and other presentationmaterial.</p>
+<p>This project is financed by the <a href="http://ec.europa.eu/index_en.htm" target="_blank">European Commission</a></p>
+</div></div>
+      <div id="rechts">
+        <div class="editable" id="webetui_kolom" webetui_func="WebEtui::field" webetui_args="kolom"><div class="kolom" ><h1>Reports</h1>
+<p><a href="/doc/concepts-and-objectives.pdf" target="_blank">Concepts and objectives</a><br/><a href="/doc/conceptual-framework.pdf" target="_blank">Conceptual framework</a><br/><a href="/doc/the-project-in-further-detail.pdf" target="_blank">The project in further detail</a><br/><a href="/doc/workplan.pdf" target="_blank">Workplan</a><br/><a href="/doc/timeline.pdf" target="_blank">Timeline</a></p>
+<p><img src="/foto/2708_Alcohol-use_90.jpg"  alt="http://www.verwey-jonker.nl/jeugd/publicaties/beleid/alcohol_use_among_adolescents_in_europe" title="http://www.verwey-jonker.nl/jeugd/publicaties/beleid/alcohol_use_among_adolescents_in_europe"/><br/><a href="http://www.verwey-jonker.nl/jeugd/publicaties/beleid/alcohol_use_among_adolescents_in_europe" target="_blank">Final report: Alcohol use Among Adolescents in Europe. Environmental Research and Preventive Action</a></p>
+<p>1. <a href="/doc/summarysshort.doc" target="_blank">Summary short.doc</a></p>
+<p>2. <a href="/doc/summarymiddle.doc" target="_blank">Summary middle.doc</a> </p>
+<p>3. <a href="/doc/summarylong.doc" target="_blank">Summary long.doc</a></p>
+</div></div>
+      </div> <!-- end RECHTS -->
+    </div>
+    
+  </div> <!-- end WRAPPER -->
+  
+</body>
+</html>

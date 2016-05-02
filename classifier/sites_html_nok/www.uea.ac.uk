@@ -1,0 +1,6201 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!DOCTYPE html>
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+		
+		
+	
+	
+		
+	
+	
+	
+	
+	
+
+	
+	
+	
+
+	
+	
+	
+
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="aui ltr" dir="ltr" lang="en-GB">
+
+    <head>
+        <title>AQUAVALENS Consortium - Water Security</title>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+<link href="https://www.uea.ac.uk/uea-html5-theme/images/favicon.ico" rel="Shortcut Icon" />
+
+
+
+
+
+		<link href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;research&#x2f;current-projects&#x2f;aquavalens-consortium" rel="canonical" />
+
+	
+	
+	
+	
+
+
+
+
+
+<link class="lfr-css-file" href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;uea-html5-theme&#x2f;css&#x2f;aui&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;ueahtml5_WAR_ueahtml5theme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;en_GB&#x26;b&#x3d;6210&#x26;t&#x3d;1456847005000" rel="stylesheet" type="text/css" />
+
+<link href="&#x2f;html&#x2f;css&#x2f;main&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;ueahtml5_WAR_ueahtml5theme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;en_GB&#x26;b&#x3d;6210&#x26;t&#x3d;1383307538000" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+
+	
+
+				<link href="https://www.uea.ac.uk/html/portlet/journal_content/css/main.css?browserId=other&amp;themeId=ueahtml5_WAR_ueahtml5theme&amp;minifierType=css&amp;languageId=en_GB&amp;b=6210&amp;t=1456847053000" rel="stylesheet" type="text/css" />
+
+	
+
+				<link href="https://www.uea.ac.uk/notifications-portlet/notifications/css/main.css?browserId=other&amp;themeId=ueahtml5_WAR_ueahtml5theme&amp;minifierType=css&amp;languageId=en_GB&amp;b=6210&amp;t=1456847049000" rel="stylesheet" type="text/css" />
+
+	
+
+				<link href="https://www.uea.ac.uk/html/portlet/journal/css/main.css?browserId=other&amp;themeId=ueahtml5_WAR_ueahtml5theme&amp;minifierType=css&amp;languageId=en_GB&amp;b=6210&amp;t=1456847053000" rel="stylesheet" type="text/css" />
+
+	
+
+
+
+
+
+
+
+<script type="text/javascript">
+	// <![CDATA[
+		var Liferay = {
+			Browser: {
+				acceptsGzip: function() {
+					return false;
+				},
+				getMajorVersion: function() {
+					return 0.0;
+				},
+				getRevision: function() {
+					return "";
+				},
+				getVersion: function() {
+					return "";
+				},
+				isAir: function() {
+					return false;
+				},
+				isChrome: function() {
+					return false;
+				},
+				isFirefox: function() {
+					return false;
+				},
+				isGecko: function() {
+					return false;
+				},
+				isIe: function() {
+					return false;
+				},
+				isIphone: function() {
+					return false;
+				},
+				isLinux: function() {
+					return false;
+				},
+				isMac: function() {
+					return false;
+				},
+				isMobile: function() {
+					return false;
+				},
+				isMozilla: function() {
+					return false;
+				},
+				isOpera: function() {
+					return false;
+				},
+				isRtf: function() {
+					return false;
+				},
+				isSafari: function() {
+					return false;
+				},
+				isSun: function() {
+					return false;
+				},
+				isWap: function() {
+					return false;
+				},
+				isWapXhtml: function() {
+					return false;
+				},
+				isWebKit: function() {
+					return false;
+				},
+				isWindows: function() {
+					return false;
+				},
+				isWml: function() {
+					return false;
+				}
+			},
+
+			Data: {
+				NAV_SELECTOR: '#navigation',
+
+				isCustomizationView: function() {
+					return false;
+				},
+
+				notices: [
+					null
+
+					
+
+					
+				]
+			},
+
+			ThemeDisplay: {
+				
+					getLayoutId: function() {
+						return "44";
+					},
+					getLayoutURL: function() {
+						return "https://www.uea.ac.uk/watersecurity/research/current-projects/aquavalens-consortium";
+					},
+					getParentLayoutId: function() {
+						return "36";
+					},
+					isPrivateLayout: function() {
+						return "false";
+					},
+					isVirtualLayout: function() {
+						return false;
+					},
+				
+
+				getBCP47LanguageId: function() {
+					return "en-GB";
+				},
+				getCDNBaseURL: function() {
+					return "https://www.uea.ac.uk";
+				},
+				getCDNDynamicResourcesHost: function() {
+					return "";
+				},
+				getCDNHost: function() {
+					return "";
+				},
+				getCompanyId: function() {
+					return "10132";
+				},
+				getCompanyGroupId: function() {
+					return "10165";
+				},
+				getDefaultLanguageId: function() {
+					return "en_GB";
+				},
+				getDoAsUserIdEncoded: function() {
+					return "";
+				},
+				getLanguageId: function() {
+					return "en_GB";
+				},
+				getParentGroupId: function() {
+					return "9255683";
+				},
+				getPathContext: function() {
+					return "";
+				},
+				getPathImage: function() {
+					return "/image";
+				},
+				getPathJavaScript: function() {
+					return "/html/js";
+				},
+				getPathMain: function() {
+					return "/c";
+				},
+				getPathThemeImages: function() {
+					return "https://www.uea.ac.uk/uea-html5-theme/images";
+				},
+				getPathThemeRoot: function() {
+					return "/uea-html5-theme";
+				},
+				getPlid: function() {
+					return "10249683";
+				},
+				getPortalURL: function() {
+					return "https://www.uea.ac.uk";
+				},
+				getPortletSetupShowBordersDefault: function() {
+					return false;
+				},
+				getScopeGroupId: function() {
+					return "9255683";
+				},
+				getScopeGroupIdOrLiveGroupId: function() {
+					return "9255683";
+				},
+				getSessionId: function() {
+					
+						
+						
+							return "";
+						
+					
+				},
+				getSiteGroupId: function() {
+					return "9255683";
+				},
+				getURLControlPanel: function() {
+					return "/group/control_panel?refererPlid=10249683";
+				},
+				getURLHome: function() {
+					return "https\x3a\x2f\x2fwww\x2euea\x2eac\x2euk\x2fweb\x2fguest";
+				},
+				getUserId: function() {
+					return "10135";
+				},
+				getUserName: function() {
+					
+						
+						
+							return "";
+						
+					
+				},
+				isAddSessionIdToURL: function() {
+					return false;
+				},
+				isFreeformLayout: function() {
+					return false;
+				},
+				isImpersonated: function() {
+					return false;
+				},
+				isSignedIn: function() {
+					return false;
+				},
+				isStateExclusive: function() {
+					return false;
+				},
+				isStateMaximized: function() {
+					return false;
+				},
+				isStatePopUp: function() {
+					return false;
+				}
+			},
+
+			PropsValues: {
+				NTLM_AUTH_ENABLED: false
+			}
+		};
+
+		var themeDisplay = Liferay.ThemeDisplay;
+
+		
+
+		Liferay.AUI = {
+			getAvailableLangPath: function() {
+				return 'available_languages.jsp?browserId=other&themeId=ueahtml5_WAR_ueahtml5theme&colorSchemeId=01&minifierType=js&languageId=en_GB&b=6210&t=1456847011000';
+			},
+			getCombine: function() {
+				return true;
+			},
+			getComboPath: function() {
+				return '/combo/?browserId=other&minifierType=&languageId=en_GB&b=6210&t=1456847011000&';
+			},
+			getFilter: function() {
+				
+					
+						return 'min';
+					
+					
+					
+				
+			},
+			getJavaScriptRootPath: function() {
+				return '/html/js';
+			},
+			getLangPath: function() {
+				return 'aui_lang.jsp?browserId=other&themeId=ueahtml5_WAR_ueahtml5theme&colorSchemeId=01&minifierType=js&languageId=en_GB&b=6210&t=1456847011000';
+			},
+			getStaticResourceURLParams: function() {
+				return '?browserId=other&minifierType=&languageId=en_GB&b=6210&t=1456847011000';
+			}
+		};
+
+		Liferay.authToken = 'ftGJzN04';
+
+		
+
+		Liferay.currentURL = '\x2fweb\x2fwatersecurity\x2fresearch\x2fcurrent-projects\x2faquavalens-consortium';
+		Liferay.currentURLEncoded = '%2Fweb%2Fwatersecurity%2Fresearch%2Fcurrent-projects%2Faquavalens-consortium';
+	// ]]>
+</script>
+
+
+	
+		
+			
+				<script src="/html/js/barebone.jsp?browserId=other&amp;themeId=ueahtml5_WAR_ueahtml5theme&amp;colorSchemeId=01&amp;minifierType=js&amp;minifierBundleId=javascript.barebone.files&amp;languageId=en_GB&amp;b=6210&amp;t=1456847011000" type="text/javascript"></script>
+			
+			
+		
+	
+	
+
+
+<script type="text/javascript">
+	// <![CDATA[
+		
+
+			
+
+			
+				Liferay.Portlet.list = ['56_INSTANCE_3iS8zfh7jYiU', '71_INSTANCE_mVMkPZiMaKzY', '73_INSTANCE_N9AHtfUhNLI8', '56_INSTANCE_vJ4I1pU3AoEt', '56_INSTANCE_PHQ599q8rfFF', '56_INSTANCE_c6T9jxOakM82', '56_INSTANCE_G5unTFCvCFPi', '56_INSTANCE_PaafEfcTYbhH', '15'];
+			
+		
+
+		
+
+		
+	// ]]>
+</script>
+
+
+
+
+
+	
+		
+
+			
+
+			
+		
+		
+	
+
+
+
+	
+		
+		
+
+			
+
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+				<script src="https://www.uea.ac.uk/html/portlet/journal/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_GB&amp;b=6210&amp;t=1456847053000" type="text/javascript"></script>
+
+	
+
+				<script src="https://www.uea.ac.uk/html/portlet/journal/js/navigation.js?browserId=other&amp;minifierType=js&amp;languageId=en_GB&amp;b=6210&amp;t=1456847053000" type="text/javascript"></script>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<link class="lfr-css-file" href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;uea-html5-theme&#x2f;css&#x2f;main&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;ueahtml5_WAR_ueahtml5theme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;en_GB&#x26;b&#x3d;6210&#x26;t&#x3d;1456847005000" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+	<style type="text/css">
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+	</style>
+
+
+
+        <meta content="initial-scale=1.0, width=device-width" name="viewport" />
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script type="text/javascript" src="https://www.uea.ac.uk/uea-html5-theme/js/min.js"></script>
+                                <script type="text/javascript">var switchTo5x=false;</script>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        
+
+                        
+        
+                                                                             
+                        
+        
+                        
+                <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+        <script type="text/javascript">
+            stLight.options({
+                publisher: "384f58fe-3c20-4ab8-ae44-84cc97eb98b7", 
+                doNotHash: false, 
+                doNotCopy: false, 
+                hashAddressBar: false
+            });
+        </script>
+        
+                        
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".container").fitVids();
+            });
+        </script>
+
+                        
+               <script type="text/javascript" src="https://www.uea.ac.uk/uea-html5-theme/js/jquery.backstretch.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#masthead").backstretch("/documents/9255683/9257563/Top+banner+image/0a12e27d-72ce-41aa-9a36-3012f8ceac7e?t=1437667935234");
+            });
+        </script>
+       
+                        
+
+        <style type="text/css">
+
+        /*----------------------------------------
+        /* #00577c - colour1
+        /*---------------------------------------*/
+
+        .top-bar,
+        .bottom-bar,
+        .rt-nav .rt-button-selected, 
+        .rt-nav ul li:hover {
+            background: #00577c;
+        }
+
+        .top-bar ul li .sub-menu:before {
+            color: #00577c;
+        }
+
+        #masthead,
+        .aui h2,
+        .resources .resource-single,
+        .rt-nav  {
+            border-bottom-color: #00577c;
+        }
+
+        #footer {
+            border-top-color: #00577c;
+        }
+
+        .rt-nav ul li {
+            border-color: #00577c;
+        }
+
+        /*----------------------------------------
+        /* #0099B1 - colour1-70%-tint
+        /*---------------------------------------*/
+
+        .aui h2,
+        .top-bar ul li a,
+        .top-bar ul li.uea-logo .sub-menu,
+        .mean-container .mean-bar,
+        .mean-container .mean-nav ul li a:hover,
+        .mean-container .mean-nav ul li .mean-expand:hover,
+        #masthead .nav-menu ul li a:hover,
+        #masthead .nav-menu ul li.selected a,
+        #masthead .nav-menu ul li ul li a:hover,
+        #masthead .nav-menu ul li ul li.selected a, 
+        #masthead .nav-menu ul li.selected ul li a:hover,
+        #masthead .nav-menu ul li.selected ul li.selected a,
+        a.btn.uni-btn {
+            background: #0099B1;
+        }
+
+        .rt-subsection{
+            border-bottom: #0099B1;
+        }
+
+        /*----------------------------------------
+        /* #4CB7C8 - colour1-30%-tint
+        /*---------------------------------------*/
+        .top-bar ul li .sub-menu,
+        .mean-container .mean-nav ul li a,
+        #masthead .nav-menu ul li a,
+        #masthead .nav-menu ul li ul li a,
+        #masthead .nav-menu ul li ul li a, 
+        #masthead .nav-menu ul li.selected ul li a,
+        a.btn.uni-btn:hover, 
+        a.btn.uni-btn:focus{
+            background: #4CB7C8;
+        }
+
+        /*----------------------------------------
+        /* #e5eef1 - colour1-10%-tint
+        /*---------------------------------------*/
+
+        #footer,
+        .search input[type="text"]{
+            background: #e5eef1;
+        }
+
+        /*----------------------------------------
+        /* #0099B1 - colour2
+        /*---------------------------------------*/
+
+        .projects ul li h5,
+        .link-block h5,
+        .slider h2,
+        .bx-controls a,
+        .bx-controls a:hover,
+        .portlet-blogs .taglib-asset-tags-summary .tag,
+        .portlet-blogs .taglib-asset-tags-summary .tag:hover{
+            background: #0099B1;
+        }
+
+        .aui h3, .aui h1,
+        .portlet-blogs .entry-title h2 a,
+        .aui h2 a,
+        .aui h2 a:hover,
+        .aui a, 
+        .aui a:hover, 
+        .aui p a,
+        .contact-info ul li a,
+        .contact-info ul li a:hover
+        #masthead .social-wrap .social-media-links ul li a, 
+        .login-link,
+        .aui h3, 
+        #masthead .social-wrap .social-media-links ul li,
+        .aui h2.inline{
+            color: #0099B1;
+        }
+
+        /*----------------------------------------
+        /* #00577c - colour3
+        /*---------------------------------------*/
+
+        #masthead .search-wrap input[type=image] {
+            background: #00577c;
+        }
+
+        /*----------------------------------------
+        /* $c3_tint_30 - colour3-30%-tint
+        /*---------------------------------------*/
+
+        #masthead .search-wrap input[type=text] {
+            background: $c3_tint_30;
+        }
+
+        /*----------------------------------------
+        /* #000 - colour4
+        /*---------------------------------------*/
+        
+        .page-top,
+        #left-col .nav-menu ul {
+            border-bottom-color: #000;
+        }
+
+        #left-col .nav-menu ul li:first-child a {
+            border-left-color: #000;
+        }
+
+        #left-col .nav-menu ul li a {
+            border-color: #000;
+        }
+
+        /*----------------------------------------
+        /* #eee - colour5
+        /*---------------------------------------*/
+
+       .content-wrap {
+            background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eee), color-stop(100%, #fff));
+            background-image: -webkit-linear-gradient(#eee, #fff);
+            background-image: -moz-linear-gradient(#eee, #fff);
+            background-image: -o-linear-gradient(#eee, #fff);
+            background-image: linear-gradient(#eee, #fff);
+        }
+        
+        /* Text colour, some white elements and some grey borders are not defined by the user and colours are in custom.css */
+
+        /*--------------/
+        /* BlogEngine --/
+        /* ------------*/
+        .featured-article .blog-highlight {background: #4CB7C8;}
+        .featured-article p.blog-highlight {background: #0099B1;}
+        .blog-detail .author-highlight .author-name {color: #0099B1;}
+
+        .featured-article p.blog-highlight,
+        .blog-detail .author-highlight .author-name{ color: #fff;}
+        
+        </style>        
+    
+        	<link rel="stylesheet" type="text/css" href="/documents/9255683/9365401/water-security.css/4310226c-e61f-4504-ac38-3afd11ed08b5" />
+    
+    
+        
+    </head>
+
+            <body class="mst UEA Default  yui3-skin-sam controls-visible signed-out public-page site dockbar-split header-size-medium">
+    
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T9N7FP"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T9N7FP');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <a href="#main-content" id="skip-to-content">Skip to Content</a>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+            <div class="top-bar">
+                <div class="container">
+                <ul>
+                                            <li class="discover">
+                            <a href="#">Discover more world class research at UEA</a>
+                            <ul class="sub-menu">
+                                <li><a href="http://www.uea.ac.uk/research/our-research" target="_blank">Explore</a></li>
+                                <li><a href="http://www.uea.ac.uk/research/research-performance" target="_blank">Performance</a></li>
+                                <li><a href="http://www.uea.ac.uk/research/norwich-research-park" target="_blank">Norwich Research Park</a></li>
+                                <li><a href="http://www.uea.ac.uk/research/research-with-us" target="_blank">Research with us</a></li>
+                                <li><a href="http://www.uea.ac.uk/research/research-integrity" target="_blank">Our integrity</a></li>
+                                <li><a href="http://www.uea.ac.uk/research/news" target="_blank">Research News</a></li>
+                            </ul>
+                        </li>
+                                                                <li class="uea-logo">
+                            <a href="#">
+                                <img src="https://www.uea.ac.uk/uea-html5-theme/images/uea/uea_logo.png" alt="UEA" />
+                            </a>
+                            <ul class="sub-menu">
+                                <li><a href="http://www.uea.ac.uk" target="_blank">Main UEA site</a></li>
+                                <li><a href="http://www.uea.ac.uk/study" target="_blank">Study with us</a></li>
+                                <li><a href="http://www.uea.ac.uk/faculties" target="_blank">Faculties and Schools</a></li>
+                                <li><a href="http://www.uea.ac.uk/business" target="_blank">Business</a></li>
+                                <li><a href="https://netcommunity.uea.ac.uk/sslpage.aspx?pid=943" target="_blank">Alumni and Supporters</a></li>
+                            </ul>
+                        </li>   
+                                    </ul>
+            </div>
+        </div>
+    
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Embedded -->
+<div class="uea-wrap" id="main-content">
+	<header id="masthead">
+		<div class="container">
+			<div class="portlet-layout">
+				<div class="row-fluid">
+					<div class="span12 portlet-column">
+						<div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_56_  portlet-static portlet-static-end portlet-borderless portlet-journal-content " id="p_p_id_56_INSTANCE_3iS8zfh7jYiU_" >
+		<span id="p_56_INSTANCE_3iS8zfh7jYiU"></span>
+
+
+
+	
+	
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				
+					
+
+						
+
+						
+
+						<div class="journal-content-article">
+							    <div style="display:inline-block;" class="span3 portlet-column portlet-column-first padding-left yui3-dd-drop">
+        <div class="portlet-dropzone">
+    	    <img alt="" margin-bottom="20px;" src="/documents/9179110/9182627/UEA_Water_security_logo-White.png/5fce1221-d170-47ad-8e66-46396afd136e?t=1435850686924" style="height: 92px; width: 300px; margin-bottom:45px;" />
+    	</div>
+    </div>
+            <div style="display:inline-block;" class="span5 portlet-column portlet-column-first padding-left tagline-wrap yui3-dd-drop">
+            
+    </div>
+
+    <div class="social-wrap" style="display:inline-block; vertical-align:bottom;">
+        <div class="social-media-links" style="display:inline-block;">
+            <h6>Share</h6>
+            <ul>
+                                   <li>
+                        <a href="http://twitter.com/WSRCentre" target="_blank">
+                            <i class="icon-twitter"></i>
+                        </a>
+                    </li>
+                                            <li>
+                    <a href="https://www.youtube.com/watch?v=tlVAQtOhWxc" target="_blank">
+                        <i class="icon-youtube"></i>
+                    </a>    
+                </li>
+                                            <li>
+                    <a href="https://www.facebook.com/WSRCentre?ref=aymt_homepage_panel." target="_blank">
+                        <i class="icon-facebook"></i>
+                    </a>    
+                </li>
+                                                          <li>
+                    <span class='st_sharethis_large' displayText='ShareThis'>
+                        <i class="icon-share"></i>
+                    </span>
+                </li>
+                         </ul>
+        </div>
+    </div>
+
+    <div class="search-wrap" style="display:inline-block;">
+        <div class="search" style="display:inline-block;">
+            <form action="http://google.com/cse" method="get" id="searchSiteForm">
+        		<div id="siteSearch"> 
+        			<input type="hidden" name="cx" value="">
+        			<input type="hidden" name="ie" value="UTF-8">
+        			<input type="hidden" name="sa" value="Search">
+        			<input type="text" id="textInput" name="q" accesskey="4" title="Access Key: 4" onfocus="if(this.value == 'Site Search') {this.value=''}" onblur="if(this.value == ''){this.value ='Site Search'}" value="" /> 
+        			<input type="image" src="/uea-html5-theme/images/common/search.png" class="submitBtn" title="Search Site" alt="Search Site">
+        		</div>
+        	</form>
+        </div>
+    </div>
+
+
+						</div>
+
+						
+					
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+
+
+
+	
+		<div class="entry-links">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	
+
+	
+
+	
+
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_71_  portlet-static portlet-static-end portlet-borderless portlet-navigation " id="p_p_id_71_INSTANCE_mVMkPZiMaKzY_" >
+		<span id="p_71_INSTANCE_mVMkPZiMaKzY"></span>
+
+
+
+	
+	
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="nav-menu nav-menu-style-">
+		
+			
+			
+			
+			
+		
+
+		<ul class="layouts level-1"><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;home" > Home</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;about" > About</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;research" > Research</a><ul class="layouts level-2"><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;research&#x2f;current-projects" > Current projects</a><ul class="layouts level-3"><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;research&#x2f;dams-and-displacement" > Dams and Displacement</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;research&#x2f;agritech-water-cluster" > Agritech Water Cluster</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;research&#x2f;nexus-network" > Nexus Network</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;research&#x2f;current-projects&#x2f;women-informal-work-and-water" > Women, informal work and water</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;research&#x2f;current-projects&#x2f;fair-data-for-better-access-to-water" > Fair data for better access to water</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;research&#x2f;current-projects&#x2f;armed-conflict-and-urban-services" > Armed Conflict and Urban Services</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;research&#x2f;current-projects&#x2f;assar" > Adaptation at Scale in Semi-Arid Regions</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;research&#x2f;current-projects&#x2f;wensum-alliance" > Wensum Alliance</a></li><li class="open selected " ><a class="open selected " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;research&#x2f;current-projects&#x2f;aquavalens-consortium" > AQUAVALENS Consortium</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;research&#x2f;current-projects&#x2f;the-sesame-project" > The Sesame Project</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;research&#x2f;current-projects&#x2f;bluegreencities" > BlueGreenCities</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;research&#x2f;current-projects&#x2f;core" > Creative outreach for resource efficiency</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;research&#x2f;current-projects&#x2f;securing-water-megacities" > Securing water for megacities: São Paulo Metropolitan Region</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;research&#x2f;current-projects&#x2f;hydropower-development-eastern-himalayas" > Hydropower Development Eastern Himalayas</a></li></ul></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;research&#x2f;completed-projects" > Completed Projects</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;research&#x2f;consultancy-services" > Consultancy services</a></li></ul></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;publications" > Publications</a><ul class="layouts level-2"><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;publications&#x2f;journal-articles" > Journal articles 2010-15</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;publications&#x2f;journal-articles-pre-2010" > Journal articles pre-2010</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;publications&#x2f;books" > Books</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;publications&#x2f;policy-briefs" > Policy Briefs</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;publications&#x2f;opinion-pieces" > Opinion pieces</a></li></ul></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;study-with-us" > Study With Us</a><ul class="layouts level-2"><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;study-with-us&#x2f;msc-in-water-security-and-international-development" > MSc in Water Security and International Development</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;postgraduate-study&#x2f;phd" > PhD Study</a></li></ul></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;professional-training" > Professional Training</a></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;people" > People</a><ul class="layouts level-2"><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;people&#x2f;phd-researchers" > PhD researchers</a></li></ul></li><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;events" > Events</a><ul class="layouts level-2"><li class="open " ><a class="open " href="https&#x3a;&#x2f;&#x2f;www&#x2e;uea&#x2e;ac&#x2e;uk&#x2f;watersecurity&#x2f;events&#x2f;news-archive" > News archive</a></li></ul></li></ul>
+	</div>
+
+
+
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+</div>
+					</div><!-- span12 -->	
+				</div><!-- .row -->
+			</div><!-- .portlet-layout -->
+		</div><!-- .container -->
+	</header>
+
+	<div class="content-wrap">
+		<div class="container">
+			<div class="portlet-layout page-top">
+				<div class="row-fluid">
+					<div class="span12">
+						<div class="row-fluid">
+							<div class="span8 portlet-column portlet-column-first padding-left" id="breadcrumbs">
+								<div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-2">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_73_  portlet-static portlet-static-end portlet-borderless portlet-breadcrumb " id="p_p_id_73_INSTANCE_N9AHtfUhNLI8_" >
+		<span id="p_73_INSTANCE_N9AHtfUhNLI8"></span>
+
+
+
+	
+	
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul aria-label="Breadcrumb" class="breadcrumb breadcrumb-horizontal">
+	<li class="first breadcrumb-truncate"><a href="https://www.uea.ac.uk/watersecurity">Water Security</a><span class="divider">/</span></li><li><a href="https://www.uea.ac.uk/watersecurity/research" >Research</a><span class="divider">/</span></li><li class="current-parent breadcrumb-truncate"><a href="https://www.uea.ac.uk/watersecurity/research/current-projects" >Current projects</a><span class="divider">/</span></li><li class="active last breadcrumb-truncate"><a href="https://www.uea.ac.uk/watersecurity/research/current-projects/aquavalens-consortium" >AQUAVALENS Consortium</a><span class="divider">/</span></li>
+</ul>
+
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+</div>
+							</div><!-- #column-1 -->
+							<div class="span4 portlet-column portlet-column-last padding-right" id="login-box">
+								<div class="portlet-dropzone empty portlet-column-content portlet-column-content-last" id="layout-column_column-3"></div>
+							</div><!-- #column-2 -->
+						</div><!-- .row -->
+					</div><!-- span12 -->	
+				</div><!-- .row -->
+			</div><!-- .portlet-layout -->
+			<div class="portlet-layout">
+				<div class="row-fluid">
+					<div class="span12">
+						<div class="row-fluid">
+							<div class="span8 portlet-column portlet-column-first padding-left" id="left-col">
+								<div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-4">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_56_  portlet-static portlet-static-end portlet-borderless portlet-journal-content " id="p_p_id_56_INSTANCE_vJ4I1pU3AoEt_" >
+		<span id="p_56_INSTANCE_vJ4I1pU3AoEt"></span>
+
+
+
+	
+	
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				
+					
+
+						
+
+						
+
+						<div class="journal-content-article">
+							<img alt="" src="/documents/9255683/9509517/aquavalens.jpg/d5c91534-eab4-4325-9971-70654dc608aa?t=1444043882701" />
+						</div>
+
+						
+					
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+
+
+
+	
+		<div class="entry-links">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	
+
+	
+
+	
+
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_56_  portlet-static portlet-static-end portlet-borderless portlet-journal-content " id="p_p_id_56_INSTANCE_PHQ599q8rfFF_" >
+		<span id="p_56_INSTANCE_PHQ599q8rfFF"></span>
+
+
+
+	
+	
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				
+					
+
+						
+
+						
+
+						<div class="journal-content-article">
+							<h1>AQUAVALENS Consortium</h1>
+
+<p>The AQUAVALENS or ‘healthy water' consortium, coordinated by <a href="//www.uea.ac.uk/medicine/people/profile/paul-hunter">Professor Paul Hunter</a>, is a 9million Euro project protecting the health of Europeans by improving methods for the detection of pathogens in drinking water and water used in food preparation. It brings together 39 partners from small and medium size businesses, universities and research institutes, connecting a multidisciplinary team of scientists, engineers, public health practitioners and policy makers from 13 countries across Europe.</p>
+
+<p>AQUAVALENS is centred on the concept of developing suitable platforms that harness the advances in new molecular techniques to permit the routine detection of waterborne pathogens and improve the provision of hygienically safe water for drinking and food production that is appropriate for large and small systems throughout Europe. Whilst in recent years there has been considerable developments, especially in molecular technology, very few systems are available that meet the needs of water providers. Consequently, and unless it proves essential, rather than necessarily develop new technologies, the key focus will be to adopt and, where appropriate, adapt existing technologies to develop these detection systems.</p>
+
+<p>Link to the <a href="http://aquavalens.org/healthy-water">website and associated publications here</a>.</p>
+
+<p>&nbsp;</p>
+
+<h2>UEA Team</h2>
+
+<p><a href="//www.uea.ac.uk/medicine/people/profile/paul-hunter">Professor Paul Hunter, </a>Consortium Coordinator</p>
+
+<p>&nbsp;</p>
+
+<h2>Partners</h2>
+
+<p>The AQUAVALENS consortium brings together 39 partners from small and medium size businesses, universities and research institutes, connecting a multidisciplinary team from 13 countries across Europe. For full list of partners - see website <a href="http://aquavalens.org/partners">here</a>.</p>
+
+<h2>Funder</h2>
+
+<p><a href="https://ec.europa.eu/research/fp7/index_en.cfm">Seventh Framework Programme</a></p>
+
+<p><img alt="" src="/documents/2715705/2871575/FP7+Logo.jpg/6fe1d42b-aef5-47bc-b17e-076678a2fb16?t=1410345028856" style="width: 275px; border-width: 0px; border-style: solid; margin: 10px; height: 92px; float: left;" /></p>
+						</div>
+
+						
+					
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+
+
+
+	
+		<div class="entry-links">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	
+
+	
+
+	
+
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_56_  portlet-static portlet-static-end portlet-borderless portlet-journal-content " id="p_p_id_56_INSTANCE_c6T9jxOakM82_" >
+		<span id="p_56_INSTANCE_c6T9jxOakM82"></span>
+
+
+
+	
+	
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				
+					
+
+						
+
+						
+
+						<div class="journal-content-article">
+							<iframe allowfullscreen="" frameborder="0" height="338" src="https://www.youtube.com/embed/iLLJaKNVv4g?rel=0" width="600"></iframe>
+						</div>
+
+						
+					
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+
+
+
+	
+		<div class="entry-links">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	
+
+	
+
+	
+
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+</div>
+							</div><!-- #column-1 -->
+							<div class="span4 portlet-column portlet-column-last padding-right" id="sidebar">
+								<div class="portlet-dropzone portlet-column-content portlet-column-content-last" id="layout-column_column-5">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_56_  portlet-static portlet-static-end portlet-borderless portlet-journal-content " id="p_p_id_56_INSTANCE_G5unTFCvCFPi_" >
+		<span id="p_56_INSTANCE_G5unTFCvCFPi"></span>
+
+
+
+	
+	
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				
+					
+
+						
+
+						
+
+						<div class="journal-content-article">
+							<div class="contact-info">
+    <h2>Contact us</h2>
+    <div class="inner">
+        <ul>
+                                 </ul>
+    <p><strong>UEA Water Security Research Centre</strong></p>
+
+<p>School of International Development<br />
+University of East Anglia,<br />
+Norwich NR4 7TJ, UK</p>
+
+<p>Tel: +44 (0) 1603 592329<br />
+Fax: +44 (0) 1603 451999</p>
+    </div>
+</div>
+						</div>
+
+						
+					
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+
+
+
+	
+		<div class="entry-links">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	
+
+	
+
+	
+
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+</div>
+							</div><!-- #column-2 -->
+						</div><!-- .row -->
+					</div><!-- span12 -->	
+				</div><!-- .row -->
+			</div><!-- .portlet-layout -->
+		</div><!-- .container -->
+	</div><!-- #main-content -->
+	
+	<footer id="footer">
+		<div class="container">
+			<div class="portlet-layout">
+				<div class="row-fluid">
+					<div class="span12">
+						<div class="row-fluid">
+							<div class="span12 portlet-column portlet-column-first col" >
+								<div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-6">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_56_  portlet-static portlet-static-end portlet-borderless portlet-journal-content " id="p_p_id_56_INSTANCE_PaafEfcTYbhH_" >
+		<span id="p_56_INSTANCE_PaafEfcTYbhH"></span>
+
+
+
+	
+	
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				
+					
+
+						
+
+						
+
+						<div class="journal-content-article">
+							<div class="row footer-blocks">
+    <div class="span8">
+        <div class="span4">
+        <h4>Water security</h4>
+
+<ul>
+	<li><a href="//www.uea.ac.uk/watersecurity/home">Home</a></li>
+	<li><a href="//www.uea.ac.uk/watersecurity/about">About</a></li>
+	<li><a href="//www.uea.ac.uk/watersecurity/research">Research</a></li>
+	<li><a href="//www.uea.ac.uk/watersecurity/publications">Publications</a></li>
+	<li><a href="//www.uea.ac.uk/watersecurity/study-with-us">Study with Us</a></li>
+	<li><a href="//www.uea.ac.uk/watersecurity/professional-training">Professional Training</a></li>
+	<li><a href="/web/water-security/people">People</a></li>
+	<li><a href="//www.uea.ac.uk/watersecurity/events">Events</a></li>
+</ul>
+        </div>
+        <div class="span4">
+        <h4>Research at UEA</h4>
+
+<ul>
+	<li><a href="//www.uea.ac.uk/research/our-research">Explore</a></li>
+	<li><a href="//www.uea.ac.uk/research/research-performance">Performance</a></li>
+	<li><a href="//www.uea.ac.uk/research/norwich-research-park">Norwich Research Park</a></li>
+	<li><a href="//www.uea.ac.uk/research/research-with-us">Research with us</a></li>
+	<li><a href="//portal.uea.ac.uk/postgraduate-research/pgr-regulations-and-forms/research-conduct-and-ethics">Our integrity</a></li>
+</ul>
+        </div>
+        <div class="span4">
+        <h4>Connect</h4>
+
+<ul>
+	<li><a href="//www.uea.ac.uk/about">Contact Us</a></li>
+	<li><a href="https://twitter.com/WSRCentre">Twitter</a></li>
+	<li><a href="https://www.facebook.com/WSRCentre?ref=aymt_homepage_panel.">Facebook</a></li>
+	<li><a href="https://www.youtube.com/watch?v=tlVAQtOhWxc">YouTube</a></li>
+</ul>
+        </div>
+    </div>
+    <div class="span4">
+        <div>
+        <p>©&nbsp;UEA&nbsp;2014. All rights reserved.</p>
+
+<p>University of East Anglia,<br />
+Norwich Research Park,<br />
+Norwich,&nbsp;NR4&nbsp;7TJ, UK.<br />
+Telephone: +44 (0) 1603 456161</p>
+
+<p><a href="//www.uea.ac.uk/about/corporate-social-responsibility/equality-and-diversity/accessibility-statement">Accessibility</a>&nbsp;|&nbsp;<a href="//www.uea.ac.uk/about/legalstatements">Legal Statements</a>.</p>
+        </div>
+    </div>
+</div>
+
+<style>
+.aui footer p {
+    margin-left: 0;
+}
+
+@media (max-width: 767px) {
+    .footer-blocks [class*="span"] {
+        margin-top: 25px;
+    }
+}
+
+.aui .footer-blocks {
+    margin-left: 0;
+}
+</style>
+						</div>
+
+						
+					
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+
+
+
+	
+		<div class="entry-links">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	
+
+	
+
+	
+
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+</div>
+							</div><!-- #logo -->
+						</div><!-- .row -->
+					</div><!-- span12 -->	
+				</div><!-- .row -->
+			</div><!-- .portlet-layout -->
+		</div><!-- .container -->
+	</footer>
+</div>
+
+
+
+
+
+	
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_1_WAR_kaleodesignerportlet_  portlet-static portlet-static-end portlet-borderless kaleo-designer-portlet " id="p_p_id_1_WAR_kaleodesignerportlet_" >
+		<span id="p_1_WAR_kaleodesignerportlet"></span>
+
+
+
+	
+	
+	
+
+		
+
+			
+				
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+			
+
+		
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+
+
+	
+
+
+
+
+
+<form action="#" id="hrefFm" method="post" name="hrefFm">
+	<span></span>
+</form>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+				<script src="https://www.uea.ac.uk/notifications-portlet/notifications/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_GB&amp;b=6210&amp;t=1456847049000" type="text/javascript"></script>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+// <![CDATA[
+
+	Liferay.Util.addInputFocus();
+
+	
+
+	
+		
+		
+
+			
+
+			
+		
+	
+
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+		
+
+		
+	
+
+
+<script type="text/javascript">
+// <![CDATA[
+
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 0,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_56_INSTANCE_PaafEfcTYbhH_',
+					portletId: '56_INSTANCE_PaafEfcTYbhH',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10249683\x26p_p_id\x3d56_INSTANCE_PaafEfcTYbhH\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-6\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fwatersecurity\x252Fresearch\x252Fcurrent-projects\x252Faquavalens-consortium'
+				}
+			);
+		
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 1,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_71_INSTANCE_mVMkPZiMaKzY_',
+					portletId: '71_INSTANCE_mVMkPZiMaKzY',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10249683\x26p_p_id\x3d71_INSTANCE_mVMkPZiMaKzY\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d2\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fwatersecurity\x252Fresearch\x252Fcurrent-projects\x252Faquavalens-consortium'
+				}
+			);
+		
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 0,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_56_INSTANCE_G5unTFCvCFPi_',
+					portletId: '56_INSTANCE_G5unTFCvCFPi',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10249683\x26p_p_id\x3d56_INSTANCE_G5unTFCvCFPi\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-5\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fwatersecurity\x252Fresearch\x252Fcurrent-projects\x252Faquavalens-consortium'
+				}
+			);
+		
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 0,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_56_INSTANCE_vJ4I1pU3AoEt_',
+					portletId: '56_INSTANCE_vJ4I1pU3AoEt',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10249683\x26p_p_id\x3d56_INSTANCE_vJ4I1pU3AoEt\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-4\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fwatersecurity\x252Fresearch\x252Fcurrent-projects\x252Faquavalens-consortium'
+				}
+			);
+		
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 2,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_56_INSTANCE_c6T9jxOakM82_',
+					portletId: '56_INSTANCE_c6T9jxOakM82',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10249683\x26p_p_id\x3d56_INSTANCE_c6T9jxOakM82\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-4\x26p_p_col_pos\x3d2\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fwatersecurity\x252Fresearch\x252Fcurrent-projects\x252Faquavalens-consortium'
+				}
+			);
+		
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 0,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_73_INSTANCE_N9AHtfUhNLI8_',
+					portletId: '73_INSTANCE_N9AHtfUhNLI8',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10249683\x26p_p_id\x3d73_INSTANCE_N9AHtfUhNLI8\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-2\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fwatersecurity\x252Fresearch\x252Fcurrent-projects\x252Faquavalens-consortium'
+				}
+			);
+		
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 0,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_56_INSTANCE_3iS8zfh7jYiU_',
+					portletId: '56_INSTANCE_3iS8zfh7jYiU',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10249683\x26p_p_id\x3d56_INSTANCE_3iS8zfh7jYiU\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d2\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fwatersecurity\x252Fresearch\x252Fcurrent-projects\x252Faquavalens-consortium'
+				}
+			);
+		
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 1,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_56_INSTANCE_PHQ599q8rfFF_',
+					portletId: '56_INSTANCE_PHQ599q8rfFF',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10249683\x26p_p_id\x3d56_INSTANCE_PHQ599q8rfFF\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-4\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fwatersecurity\x252Fresearch\x252Fcurrent-projects\x252Faquavalens-consortium'
+				}
+			);
+		
+	Liferay.provide(
+		Liferay.Util,
+		'openKaleoDesignerPortlet',
+		function(config) {
+			var A = AUI();
+
+			var kaleoURL = Liferay.PortletURL.createURL('https://www.uea.ac.uk:443/watersecurity/research/current-projects/aquavalens-consortium?p_p_id=2_WAR_kaleodesignerportlet&p_p_lifecycle=0');
+
+			kaleoURL.setParameter('mvcPath', '/designer/edit_kaleo_draft_definition.jsp');
+			kaleoURL.setParameter('availableFields', config.availableFields);
+			kaleoURL.setParameter('availablePropertyModels', config.availablePropertyModels);
+			kaleoURL.setParameter('ddmStructureId', config.ddmStructureId);
+			kaleoURL.setParameter('draftVersion', config.draftVersion);
+			kaleoURL.setParameter('kaleoProcessId', config.kaleoProcessId);
+			kaleoURL.setParameter('name', config.name);
+			kaleoURL.setParameter('openerWindowName', config.openerWindowName);
+			kaleoURL.setParameter('portletResourceNamespace', config.portletResourceNamespace);
+			kaleoURL.setParameter('propertiesSaveCallback', config.propertiesSaveCallback);
+			kaleoURL.setParameter('refreshOpenerOnClose', config.refreshOpenerOnClose);
+			kaleoURL.setParameter('saveCallback', config.saveCallback);
+			kaleoURL.setParameter('version', config.version);
+			kaleoURL.setWindowState('pop_up');
+
+			config.uri = kaleoURL.toString();
+
+			var dialogConfig = config.dialog;
+
+			if (!dialogConfig) {
+				var region = A.one(Liferay.Util.getOpener()).get('region');
+
+				dialogConfig = {
+					destroyOnHide: true
+				};
+
+				config.dialog = dialogConfig;
+			}
+
+			if (!('align' in dialogConfig)) {
+				dialogConfig.align = Liferay.Util.Window.ALIGN_CENTER;
+			}
+
+			var dialogIframeConfig = config.dialogIframe;
+
+			if (!dialogIframeConfig) {
+				dialogIframeConfig = {
+					closeOnEscape: false
+				};
+
+				config.dialogIframe = dialogIframeConfig;
+			}
+
+			Liferay.Util.openWindow(config);
+		},
+		['liferay-portlet-url']
+	);
+
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 0,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_1_WAR_kaleodesignerportlet_',
+					portletId: '1_WAR_kaleodesignerportlet',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d10249683\x26p_p_id\x3d1_WAR_kaleodesignerportlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fwatersecurity\x252Fresearch\x252Fcurrent-projects\x252Faquavalens-consortium'
+				}
+			);
+		AUI().use('aui-base', 'liferay-menu', 'liferay-notice', 'liferay-poller', 'liferay-session', function(A) {(function() {
+	Liferay.Util.addInputType();
+
+	Liferay.Portlet.ready(
+		function(portletId, node) {
+			Liferay.Util.addInputType(node);
+		}
+	);
+
+	if (A.UA.mobile) {
+		Liferay.Util.addInputCancel();
+	}
+})();(function() {
+	new Liferay.Menu();
+
+	var liferayNotices = Liferay.Data.notices;
+
+	for (var i = 1; i < liferayNotices.length; i++) {
+		new Liferay.Notice(liferayNotices[i]);
+	}
+
+	
+})();(function() {
+			Liferay.Session = new Liferay.SessionBase(
+				{
+					autoExtend: true,
+					sessionLength: 30,
+					redirectOnExpire: false,
+					redirectUrl: 'https\x3a\x2f\x2fwww\x2euea\x2eac\x2euk\x2fweb\x2fguest',
+					warningLength: 1
+				}
+			);
+
+			
+		})();});
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+<script src="https://www.uea.ac.uk/uea-html5-theme/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_GB&amp;b=6210&amp;t=1456847005000" type="text/javascript"></script>
+
+
+
+	
+
+	
+
+	<script type="text/javascript">
+		// <![CDATA[
+			
+
+			
+		// ]]>
+	</script>
+
+
+
+
+
+
+
+    <div class="bottom-bar">
+        <div class="container">
+            &nbsp;
+        </div>
+    </div>
+
+    </body>
+
+</html>
+

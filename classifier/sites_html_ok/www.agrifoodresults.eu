@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="AgriFoodResults intends to answer the need for a better dissemination of results of food research." />
+<meta name="keywords" content="Dissemination, measures, food results, research, agri food results" />
+<meta name="robots" content="index,follow"/>
+<meta name="googlebot" content="follow,index"/>
+<meta content="all" name="robots" />
+<meta content="index, follow" name="robots" />
+<meta content="index, follow" name="googlebot" />
+<meta content="robots-terms" name="googlebot" />
+<meta content="index, follow" name="msnbot" />
+<meta content="robots-terms" name="msnbot" />
+<meta content="index, follow" name="slurp" />
+<meta content="2 days" name="revisit" />
+<meta content="2 Days" name="revisit-after" />
+<title>AgriFoodResults - answer the need for a better dissemination of results of food research</title>
+<link rel="stylesheet" type="text/css" href="css/css.css" />
+<link rel="stylesheet" type="text/css" href="css/superfish.css" />
+<link rel="stylesheet" type="text/css" href="css/smoothness/jquery-ui-1.8.custom.css" />
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/hoverIntent.js"></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+<script type="text/javascript">
+
+// initialise plugins
+		jQuery(function(){
+			jQuery('ul.sf-menu').superfish();
+		});
+
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32010127-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div id="container">
+<!-- TOP RIGHT MENU    -->
+<div id="ulmenu">
+<div style="text-align:left; float:left"><img src="images/fp7-eu-small.gif" width="92" height="38" alt=""/></div>
+<ul id="topMenu">
+    <li><a href="index.php">Home</a></li>
+    <li><a href="about.php">About</a></li>
+    <li><a href="contacts.php">Contacts</a></li>    
+  </ul>
+</div>
+<div id="scrollmenu">
+  <ul class="sf-menu">
+    <li> <a href="#">News</a>
+      <ul>
+        <li> <a href="news.php">News</a> </li>
+        <li> <a href="newsletter.php">Newsletter</a> </li>
+      </ul>
+    </li>
+    <li> <a href="#">Events</a>
+      <ul>
+        <li> <a href="events.php?sortby=date">Events</a> </li>
+        <li> <a href="training.php">Training</a> </li>
+        <li> <a href="dg-research-event.php">DG Research event</a> </li>
+        <li> <a href="comm-star-2011.php">Communication Star 2011</a> </li>
+      </ul>
+    </li>
+    <li> <a href="#">Library</a>
+      <ul>
+        <li> <a href="guideline.php">Guidelines</a> </li>
+        <li> <a href="reports.php">Reports</a></li>
+        <li> <a href="recommendations.php">Recommendations</a> </li>
+      </ul>
+    </li>
+    <li> <a href="#">Tools</a>
+      <ul>
+        <li> <a href="web-3d.php">Virtual supermarket</a> </li>
+        <li> <a href="member-newspaper-search.php?token=">Directory</a></li>
+        <li> <a href="wiki.php">Wiki</a> </li>
+      </ul>
+    </li>
+    <li> <a href="#">Members</a>
+      <ul>
+      	<li> <a href="list.php?token=">About</a></li>
+        <li> <a href="register-form.php">Register</a> </li>
+        <li> <a href="member-index.php?u=member-index.php">My account</a> </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<div id="white">&nbsp;</div>
+<div class="logo p10" id="logo-slider">
+</div>
+<script type="text/javascript" src="js/fadeSlideShow.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+		$('#slideshow').fadeSlideShow({
+		PlayPauseElement: false,
+		NextElement: false,
+		PrevElement: false,
+		ListElement: false,
+		width: 500, // default width of the slideshow
+		height: 200, // default height of the slideshow
+		speed: 'slow', // default animation transition speed
+		interval: 4000, // default interval between image change
+		//PlayPauseElement: 'fssPlayPause', // default css id for the play / pause element
+		//PlayText: 'Play', // default play text
+		//PauseText: 'Pause', // default pause text
+		//NextElement: 'fssNext', // default id for next button
+		//NextElementText: 'Next >', // default text for next button
+		//PrevElement: 'fssPrev', // default id for prev button
+		//PrevElementText: '< Prev', // default text for prev button
+		//ListElement: 'fssList', // default id for image / content controll list
+		//ListLi: 'fssLi', // default class for li's in the image / content controll 
+		//ListLiActive: 'fssActive', // default class for active state in the controll list
+		addListToId: false, // add the controll list to special id in your code - default false
+		allowKeyboardCtrl: true, // allow keyboard controlls left / right / space
+		autoplay: true // autoplay the slideshow
+	});
+});
+</script>
+<div id="centersection">
+  <div id="centercontent">
+    <h2> Final report: 8 ideas for FP8 </h2>
+    <div id="search">
+      <form name="form1" action="search.php" method="post">
+        <input type="text" name="textsearch" id="textsearch" placeholder="Search..." />
+        &nbsp;
+        <input type="submit" name="submit" class="textsearch" value=" "/>
+      </form>
+    </div>
+    <div class='dots'></div>
+    <p class="regulartext" style="float: left; margin-top:0px; text-align:left;">The final AgriFoodResults report provides recommendations that should be considered to achieve success in communicating results from research projects in the food sector. <br /><br />
+	Ideas to improve dissemination in  FP8 are available <a href="http://www.agrifoodresults.eu/docs/AgriFoodResults_8_ideas_for_FP8.pdf" target="_blank">here</a> and the final report  on <a href="recommendations.php" target="_self">this page</a><br />
+	<br />
+      <br />
+    
+    <h2>Tools for dissemination managers </h2>
+    
+      AgriFoodResults.eu provides useful tools for dissemination managers of food research projects:
+      <br /> 
+	  <br /> 
+    - <u>Guidelines</u>: tips and advice for communication managers  <br />
+    - <u>Virtual supermarket</u>: an innovative way to present research results. <br />
+    - <u>Wiki</u>: a colloborative platform with results of projects. <br />
+    - <u>Directory</u>: contact details of 200 information relays across Europe. <br />
+      <br />
+   Click on the images below to access these tools.
+      <br />
+      <br />       
+    <div style="position: relative; width: 495px;" class="div-home-images" >
+<div id="slideshow"> 
+<div>
+<a href="guideline.php"><img src="images/homepage/guidelines.jpg" alt="Guidelines" width="150" height="150" border="0" onMouseOver="$(this).attr('src', 'images/homepage/guidelines-hover.jpg');" onMouseOut="$(this).attr('src', 'images/homepage/guidelines.jpg');"/></a>    
+
+<a href="web-3d.php"><img src="images/homepage/virtual-supermarket.jpg" alt="Virtual supermarket" width="150" height="150" border="0" onMouseOver="$(this).attr('src','images/homepage/virtual-supermarket-hover.jpg');" onMouseOut="$(this).attr('src','images/homepage/virtual-supermarket.jpg');"/></a> 
+
+<a href="recommendations.php"><img src="images/homepage/recommendations.jpg" alt="Recommendations" width="150" height="150" border="0" onMouseOver="$(this).attr('src','images/homepage/recommendations-hover.jpg');" onMouseOut="$(this).attr('src','images/homepage/recommendations.jpg');" /></a>
+<br /></div>
+
+<div>
+<a href="member-newspaper-search.php?token="><img src="images/homepage/directory.jpg" alt="Directory" width="150" height="150" border="0" onMouseOver="$(this).attr('src','images/homepage/directory-hover.jpg');" onMouseOut="$(this).attr('src','images/homepage/directory.jpg');" /></a>    
+
+<a href="results.php"><img src="images/homepage/wiki.jpg" alt="Wiki" width="150" height="150" border="0" onMouseOver="$(this).attr('src','images/homepage/wiki-hover.jpg');" onMouseOut="$(this).attr('src','images/homepage/wiki.jpg');"/></a>
+
+<a href="comm-star-2011.php"><img src="images/homepage/comm-star.jpg" alt="Communication star" width="150" height="150" border="0" onMouseOver="$(this).attr('src','images/homepage/comm-star-hover.jpg');" onMouseOut="$(this).attr('src','images/homepage/comm-star.jpg');" /></a> 
+</div>
+</div>
+    </div>   
+  </div>
+    <div id="news" style="height: 205px">
+    <h2>News</h2>
+    <div class="dots"></div>
+    <p class='news'><strong>2012-11-21</strong> <br/>Communicating EU Research & Innovation : A guide for project participants<br/><br/><a href='news-detail.php?id=117'>More...</a></p><p class='news'><strong>2012-10-08</strong> <br/>MAITRE : Project news<br/><br/><a href='news-detail.php?id=116'>More...</a></p>  </div>
+  <div id="events" style="height: 235px">
+    <h2>Events</h2>
+    <div class="dots"></div>
+    <br />
+<br />
+<br />
+<br />
+
+  </div>
+</div>
+</div>
+</div>
+
+<!-- end of container -->
+<div id="footer">
+  <div id="copyrights">
+  <div class="footersentence"><img src="images/logo_bottom_trans.gif" width="350" height="73" alt="Agrifoodresults" /></div>
+    <!-- <div id="footerimage"><img src="images/fp7-eu.gif" width="150" height="73" alt="FP7" /></div> -->
+    <div id="actia">
+      <table border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td><img src="images/actia-logo.gif" width="108" height="73" alt="ACTIA" /></td>
+          <td>&nbsp;</td>
+          <td>&nbsp;ASSOCIATION  <br />
+            &nbsp;DE COORDINATION TECHNIQUE<br />
+            &nbsp;POUR L`INDUSTRIE <br />
+          &nbsp;AGRO-ALIMENTAIRE</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

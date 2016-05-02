@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>NMD CHIP - Home</title>
+<link href="/styles/main.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+	#splash {
+	 background-image: url(/images/splash/6.jpg);	/* THIS ROTATES JPGs in splash folder */
+	 background-color: #F7941D;
+	}
+	
+#splash h1 {
+	margin-left: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size:20px;
+	padding-top:50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: left;
+}
+	#navigation a {
+		background: url(/left.gif) left top no-repeat;
+	}
+	#navigation a span {
+		background: url(/right.gif) right top no-repeat;
+	}
+	#navigation a:hover {
+	background: #F7941D url(/left.gif) left top no-repeat;
+	}
+	#navigation a:hover span {
+		background: url(/right.gif) right top no-repeat;
+	}
+	#hist-nav {
+	 background-color: #FEE6CA;
+	}
+	.title {
+	 background-color: #FEE6CA;
+	}
+	.mainmenu a {
+	 color: #CE1142;
+	}
+	#right a {
+	 color: #CE1142;
+	}
+	#content h1 {
+	 color: #CE1142;
+	}
+	#content a {
+	 color: #CE1142;
+	}
+	#content h2 {
+	 color: #CE1142;
+	}
+	#content h3 {
+	 color: #CE1142;
+	}
+	#right li a {
+	 color: #CE1142;
+	}
+	.title h4{
+	 color: #CE1142;
+	}
+	.mainmenu {
+	 color: #CE1142;
+	}
+
+	.event_month {
+		background-color: #F7941D;
+	}
+
+#content .clear {
+border-bottom-color:#FEE6CA;
+}
+.mainmenu .selected {
+	list-style-image: url(/images/bullet.gif);
+}
+
+.titled {
+	background-color: #84C448;
+	color: #FFF;
+	background-image: url(/images/home/down.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.titled a {
+	color: #FFF;
+}
+
+.news_article a {
+	color: #84C448;
+}
+
+ 
+#homeleftmenu .clear {
+border-bottom-color:#CCDADE;
+}
+</style>
+<script type="text/javascript" src="/js/prototype.js"></script>
+<script type="text/javascript" src="/js/scriptaculous.js?load=effects"></script>
+<script type="text/javascript" src="/js/lightbox.php"></script>
+<link rel="stylesheet" href="/js/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/niftycube.js"></script>
+<script type="text/javascript" src="/niftyLayout.js"></script>
+<script type="text/javascript">
+
+function AddCss(){
+niftyCss=true;
+var l=CreateEl("link");
+l.setAttribute("type","text/css");
+l.setAttribute("rel","stylesheet");
+l.setAttribute("href","/niftyCorners.css");
+l.setAttribute("media","screen");
+document.getElementsByTagName("head")[0].appendChild(l);
+}
+window.onload=function(){
+Nifty("div.titled");
+Nifty("div.title");
+Nifty("div#hist-nav","bottom");
+Nifty("div.event_month");
+Nifty("div.curved","fixed-height");
+}
+function showevents(){
+document.getElementById("hidenews").style.display = "none";
+document.getElementById("hideevents").style.display = "block";
+}
+function shownews(){
+document.getElementById("hidenews").style.display = "block";
+document.getElementById("hideevents").style.display = "none";
+}
+
+
+</script>
+<link rel="stylesheet" href="/styles/sIFR-screen.css" type="text/css" media="screen">
+<link rel="stylesheet" href="/styles/sIFR-print.css" type="text/css" media="print">
+<script src="/js/sifr.js" type="text/javascript"></script>
+<script type="text/javascript">
+var corisande = {
+  src: '/corisande-new.swf'
+};
+
+sIFR.activate(corisande); // From revision 209 and onwards
+
+  sIFR.replace(corisande, {
+    selector: '#splash h1'
+    ,css: {
+      '.sIFR-root': { 'background-color': '#F7941D','color': '#FFFFFF' }
+    }
+  });
+    sIFR.replace(corisande, {
+    selector: '#content h1'
+    ,css: {
+      '.sIFR-root': { 'color': '#CE1142', 'leading': '-10' }
+    }
+  });
+	sIFR.replace(corisande, {
+    selector: '#homesplash h2'
+    ,css: {
+      '.sIFR-root': { 'color': '#FEE6CA','leading': '5' }
+    }
+  });
+
+</script>
+</head>
+<body>
+<div id="container">
+  <div id="header">
+ 
+    <div id="topnav"><form action="/search.php" name="search"><a href="/">HOME</a> <a href="https://intranet.treat-nmd.eu/portal">INTRANET</a> <a href="/contact/">CONTACT US</a> <a 
+href="?acc=on">TEXT ONLY</a>	 <input 
+type="text" name="search" id="search" class="searchbox" value="SEARCH" onfocus="document.getElementById('search').value=''" /> <a href="javascript:document.search.submit();">GO</a></form></div>
+  </div>
+  <div id="splash"> <a href="http://www.nmd-chip.eu"><img src="/images/logo.gif" width="136" height="131" /></a> 
+    <h1>
+      Welcome    </h1>
+  </div>
+  <div id="main">
+    <div id="menu">
+      <div class="mainmenu">
+        <a href='/about/' class='main'>ABOUT THE PROJECT</a><br />
+	<a href='/information-for-patients/' class='main'>INFORMATION FOR PATIENTS</a><br />
+	<a href='/NMDs/' class='main'>NEUROMUSCULAR DISEASES</a><br />
+	<a href='/science/' class='main'>THE SCIENCE</a><br />
+	<a href='/work-packages/' class='main'>WORK PACKAGES</a><br />
+	<a href='/participants/' class='main'>PROJECT PARTICIPANTS</a><br />
+	<a href='/meetings-and-events/' class='main'>MEETINGS AND EVENTS</a><br />
+	<a href='/ethics/' class='main'>ETHICS</a><br />
+	<a href='/news/' class='main'>NEWS </a><br />
+	<a href='/downloads/' class='main'>DOWNLOADS</a><br />
+	<a href='/cookies/' class='main'>COOKIES</a><br />
+	<a href='/contact/' class='main'>CONTACT</a><br />
+	      </div>
+    </div>
+        <div id="content">
+        <h1>Welcome</h1>
+       	<p>The EU-funded NMD-Chip project* formally finished in <b>September 2011</b>.</p>
+<p>The aim of the project was to design, develop and validate new  sensitive  high throughput DNA arrays to efficiently diagnose patients  affected by  NMDs. The tools originating from this project are designed  to assess  all known genes implied in a group of disease at one time, as  well as to  efficiently analyse chip data through optimised read-out  bioinformatics  tools, within 72hrs to one week. Besides the development  of these new  high-throughput molecular diagnostics tools, NMD-Chip  also fosters  knowledge of NMDs by accelerating the discovery of new  disease-causing  mutations using a candidate gene approach.</p>
+<p>The scientific strategy was to design 4 types of chips, 2 for known   NMD genes, and 2 for candidate genes. In each case, both CGH arrays to   detect CNV (insertions or deletions), as well as Sequence Capture arrays   for massive re-sequencing and point mutation detection, have been set   up.</p>
+<p>At the end of the project, the two first generations of CGH   NMD-chips including all the known genes have been validated, and it is   proposed that they become part of the diagnostics workflow to   progressively replace the current techniques. The capture chips have   been compared with the "in-solution" capture tools that have emerged as   an alternative solution during the past two years. Due to the rapid   advances of technology, this part of the work has not been completely   resolved and it is still unclear whether one approach is better than the   other. The CGH chips have been validated on previously characterised   DNA with several deletions or insertions in LAMA2, DYSF, CAPN, DMD,   PMP22, COL6A genes and others. Several uncharacterised patients have   been provided with a molecular diagnosis, thus making the project a   success.</p>
+<p><a href="http://www.nmd-chip.eu/userfiles/NMD-Chip_project_final_summary.pdf">Download the final project summary</a>&#160;</p>
+<p>*NMD-CHIP was supported through FP7 under contract number 223026</p>      
+    </div>
+    <div id="right">
+    <div id="homeleftmenu">
+    <div class="titled">
+     <a href="javascript:shownews()"><h2>News</h2></a>
+     </div>
+          <div id="hidenews">
+     <div class='news_box' >
+					<div class='news_article'><a href='/news/news/580/'><h3>Final report from the NMD-chip project</h3></a><p>The EU-funded NMD-Chip project* formally finished in September 2011.   The aim of the project was to design, develop... <a href='/news/news/580/' class='more'>MORE</a></p></div></div><div class='news_box' >
+					<div class='news_article'><a href='/news/news/579/'><h3>Project update from the Steering Committee meeting in Budapest</h3></a><p>NMD-chip is a scientific project funded by the European Union under its Seventh Framework Programme (FP7). Its aim is to... <a href='/news/news/579/' class='more'>MORE</a></p></div></div><div class='news_box' >
+					<div class='news_article'><a href='/news/news/549/'><h3>Update as the NMD-chip project reaches its half-way point</h3></a><p>NMD-chip is a scientific project funded by the European Union. Its aim is to design, develop and validate new sensitive... <a href='/news/news/549/' class='more'>MORE</a></p></div></div>   </div>
+         <div class="allnews"><a href="/news/">view news</a></div>
+
+       <div class="titled">
+     <a href="javascript:showevents()"><h2>Scheduled Events</h2></a>
+     </div>
+     <div id="hideevents" style="display:none">
+        </div>
+    <div class="allnews"><a href="/meetings-and-events/">view events</a></div>
+    </div>
+</div>
+    <div style="clear:both">&nbsp;</div>
+  </div>
+  <div id="footer"><br/><br/><iframe src="http://www.treat-nmd.eu/footer.php" frameborder="0" scrolling="no" width="100%" height="150" ></iframe><br/><br/><br/></div>   
+  
+<div id="FPstatement"><br/>
+    <table width="600" border="0" align="center" cellpadding="5" cellspacing="5">
+      <tr>
+        <td align="center"><img src="/images/fp7_logo.png" align="middle" width="69" height="60" alt="FP7 Logo" /></td>
+        <td align="center" valign="middle">NMD-CHIP Project<br/>Tel: +44 191 241 8605 Fax: +44 241 8770  <script language="javascript">
+<!--
+var part1 = "info";
+var part2 = "nmd-chip.eu";
+document.write('<a href="mai' + 'lto:' + part1 + '@' + part2 + '">');
+document.write(part1 + '@' + part2 + '</a>');
+// -->
+</script>  <br/>NMD-CHIP was supported through FP7<br/>under contract number 223026
+          </td>
+        <td><img src="/images/eu_flag.png" align="middle" width="69" height="60" alt="EU flag" /></td>
+      </tr>
+    </table></div>
+  <br/><br/>
+  <br />
+ 
+ 
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4631793-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4631793-4");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

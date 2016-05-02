@@ -1,0 +1,347 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr" >
+
+<head>
+
+	  <base href="http://www.hemolia.eu/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Home</title>
+  <link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/templates/upsilum1.6/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="http://www.hemolia.eu/component/search/?format=opensearch" rel="search" title="Search Hemolia" type="application/opensearchdescription+xml" />
+  <link rel="stylesheet" href="http://www.hemolia.eu/plugins/system/osolcaptcha/osolCaptcha/captchaStyle.css" type="text/css" />
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script type="text/javascript">
+
+		   
+		   				function reloadCapthcha(instanceNo)
+						{
+							var captchaSrc = "http://www.hemolia.eu/index.php?showCaptcha=True&instanceNo="+instanceNo+"&time="+ new Date().getTime();
+							//alert(captachaSrc);
+							//alert(document.getElementById('captchaCode'+instanceNo));
+							document.getElementById('captchaCode'+instanceNo).src = captchaSrc ;
+							//alert(document.getElementById('captchaCode'+instanceNo).src);
+						} 
+						window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});window.addEvent('domready', function() {
+			$$('.hasTip').each(function(el) {
+				var title = el.get('title');
+				if (title) {
+					var parts = title.split('::', 2);
+					el.store('tip:title', parts[0]);
+					el.store('tip:text', parts[1]);
+				}
+			});
+			var JTooltips = new Tips($$('.hasTip'), { maxTitleChars: 50, fixed: false});
+		});
+  </script>
+
+		
+		
+	
+<link rel="stylesheet" href="/templates/upsilum1.6/css/tdefaut.css" type="text/css" media="all" />
+
+<script type='text/javascript'>var tcurrent = 1456404407;</script><!--[if lt IE 9]>
+<script src="/templates/upsilum1.6/js/excanvas.js"></script>
+<![endif]-->
+
+
+<script type="text/javascript" src="/templates/upsilum1.6/js/diagram.js"></script>
+<script type="text/javascript" src="/templates/upsilum1.6/js/accordeon.js"></script>
+<script type="text/javascript" src="/templates/upsilum1.6/js/cufon-yui.js"></script>
+<script type="text/javascript" src="/templates/upsilum1.6/js/cufon-replace.js"></script>
+<script type="text/javascript" src="/templates/upsilum1.6/js/Segoe_UI_400.font.js"></script>
+<script type="text/javascript" src="/templates/upsilum1.6/js/scroll.js"></script>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+<link rel="shortcut icon" type="image/x-icon" href="/templates/upsilum1.6/favicon.ico">
+<script type="text/javascript"></script>
+</head>
+<body onload="load();">
+<!-- cookie info -->  
+   <div id="cookies" style="display:none;">
+    <div class="inerCookie">
+      <div class="lewa">
+              <div class="cookies-title">
+                  <span>Cookies</span>
+                  <a href="http://www.aboutcookies.org/">What are cookies ?</a>
+              </div>
+      
+              <p>This website uses cookies to allow us to see how the site is used. The cookies cannot identify you. If&nbsp;you continue to use this site we will assume that you are happy with this. 
+If you want to use the sites without cookies or would like to know more, you can <a href="http://www.aboutcookies.org/">do that here</a>.</p> 
+      </div>
+                
+                <div class="button_w"><button id="cookies-continue-button" type="button" title="Don't show this again">OK</button></div>
+    </div>
+</div>
+
+
+
+
+<script type="text/javascript">
+
+function SetCookie(cookieName,cookieValue,nDays) {
+ var today = new Date();
+ var expire = new Date();
+ if (nDays==null || nDays==0) nDays=1;
+ expire.setTime(today.getTime() + 3600000*24*nDays);
+ document.cookie = cookieName+"="+escape(cookieValue)
+                 + ";expires="+expire.toGMTString();
+}
+
+ 
+function ReadCookie(cookieName) {
+ var theCookie=" "+document.cookie;
+ var ind=theCookie.indexOf(" "+cookieName+"=");
+ if (ind==-1) ind=theCookie.indexOf(";"+cookieName+"=");
+ if (ind==-1 || cookieName=="") return "";
+ var ind1=theCookie.indexOf(";",ind+1);
+ if (ind1==-1) ind1=theCookie.length; 
+ return unescape(theCookie.substring(ind+cookieName.length+2,ind1));
+}
+
+ jQuery(document).ready(function()
+ {
+
+if(ReadCookie('ciasteczka')  != 1){
+    jQuery('#cookies').show();
+ document.getElementById('cookies').style.display = 'block';
+}
+
+jQuery('#cookies-continue-button').click(function() {
+       jQuery('#cookies').hide();
+        SetCookie('ciasteczka',1,365);
+      });
+
+}); 
+ </script>
+
+
+
+<!-- cookie info end -->
+
+   
+       <div id="topmenu">
+	      <div class="pagewidth">
+            <div id="navigation">
+		        <ul class="nav" id="horiznav">
+				     
+<ul class="menutmp2" id="tmp1">
+<li class="item-101 current active"><a href="/" >Home</a></li><li class="item-107 parent"><a href="/news" >News</a></li><li class="item-110 parent"><a href="/about-the-project" >About the project</a></li><li class="item-113"><a href="/partners" >Partners</a></li><li class="item-114"><a href="/deliverables" >Deliverables</a></li><li class="item-115 parent"><a href="/project-materials" >Project materials</a></li><li class="item-118 parent"><a href="/end-users" >End-users</a></li><li class="item-121"><a href="/links" >Links</a></li><li class="item-122"><a href="/contact" >Contact</a></li></ul>
+
+				</ul>
+			</div>
+		</div>
+		  <div class="pagewidth">
+		    <div id="header">
+                <div id="sitename">
+                    <a href="/index.php"><img src="/templates/upsilum1.6/images/logo.jpg"  alt="logotype" /></a>
+                </div>
+			
+				<div id="search-bg">
+				    <form action="/" method="post">
+	<div class="search">
+		<input name="searchword" id="mod_search_searchword" maxlength="20"  class="inputbox" type="text" size="20" value="Search..."  onblur="if (this.value=='') this.value='Search...';" onfocus="if (this.value=='Search...') this.value='';" />	<input type="hidden" name="task" value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="101" />
+	</div>
+</form>
+
+                </div>
+				
+               </div>
+                      <div id="mod-slide">
+					<div id="slide-container">
+						<ul id="accordion">
+							<li>
+								<div class="stretcher">
+									<img src="/templates/upsilum1.6/images/slide_show_act_it_1.jpg" alt="" class="tab" style="visibility:hidden" />
+									<img src="/templates/upsilum1.6/images/slide_show_it_1.jpg" alt="" class="tab"   />
+									    <div style="padding-left:41px;">
+											<img src="/templates/upsilum1.6/images/slide_im_1.jpg" alt="" class="img" />
+										</div>
+                                </div>
+							</li>
+									
+							<li>
+								<div class="stretcher">
+									<img src="/templates/upsilum1.6/images/slide_show_act_it_2.jpg" alt="" class="tab" style="visibility:hidde"  />
+									<img src="/templates/upsilum1.6/images/slide_show_it_2.jpg" alt="" class="tab"  />
+										<div style="padding-left:41px;">
+											<img src="/templates/upsilum1.6/images/slide_im_2.jpg" alt=" " class="img" />
+										</div>
+								</div>
+							</li>
+
+							<li>
+								<div class="stretcher" style="width:727px;">
+									<img src="/templates/upsilum1.6/images/slide_show_act_it_3.jpg" alt="" class="tab" style="visibility:hidden"  />
+									<img src="/templates/upsilum1.6/images/slide_show_it_3.jpg" alt="" class="tab"  />
+										<div style="padding-left:41px;">
+											<img src="/templates/upsilum1.6/images/slide_im_3.jpg" alt=" " class="img" />
+									    </div>
+								</div>
+							</li>
+									
+							<li>
+							    <div class="stretcher">
+									<img src="/templates/upsilum1.6/images/slide_show_act_it_4.jpg" alt="" class="tab" style="visibility:hidden"  />
+									<img src="/templates/upsilum1.6/images/slide_show_it_4.jpg" alt="" class="tab"  />
+										<div style="padding-left:41px;">
+											<img src="/templates/upsilum1.6/images/slide_im_4.jpg" alt=" " class="img" />
+										</div>
+								</div>
+							</li>
+										  
+						</ul>
+					</div>
+				</div>
+		</div>
+		      <div id="pathway">
+				        <div class="pagewidth">
+							
+<div class="breadcrumbs">
+<span class="showHere">You are here: </span><span>Home</span></div>
+
+			            </div>
+				    </div>
+		
+		
+             	<div id="wrapper">
+				   <div class="pagewidth">       
+				        			                <div id="left">
+				    	        		<div class="module_menu">
+			<div>
+				<div>
+					<div>
+													<h3>Menu</h3>
+											
+<ul class="menu">
+<li class="item-101 current active"><a href="/" >Home</a></li><li class="item-107 parent"><a href="/news" >News</a></li><li class="item-110 parent"><a href="/about-the-project" >About the project</a></li><li class="item-113"><a href="/partners" >Partners</a></li><li class="item-114"><a href="/deliverables" >Deliverables</a></li><li class="item-115 parent"><a href="/project-materials" >Project materials</a></li><li class="item-118 parent"><a href="/end-users" >End-users</a></li><li class="item-121"><a href="/links" >Links</a></li><li class="item-122"><a href="/contact" >Contact</a></li></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+				            </div>
+				                                     <div id="main-mid">
+				                <div class="blog-featured">
+	<h1>
+	Home	</h1>
+
+	
+	
+			<div class="items-row cols-1 row-0">
+				<div class="item column-1">
+			
+
+
+    
+	                					<div class="contentpaneopen">
+	                    	                        
+                              
+	                            <div class="contentheading">
+		                            			                            <a href="/2-uncategorised/1-main-page">
+			                                HEMOLIA</a>
+		                                           	                             </div>
+	                        
+                         						 
+			
+
+
+
+
+	
+
+<p><span style="font-size: 12pt; color: #ffcc00; font-family: tahoma, arial, helvetica, sans-serif;">HEMOLIA Conference and Demonstration Event and 3rd project Workshop with End-users</span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt;">The HEMOLIA Consortium is pleased to invite all the FIUs, banks and LEAs community representatives to participate in the 'HEMOLIA Conference and Demonstration Event' that will be held on February 10-11 2014 in Bucharest, Romania, at the Parliament Palace. <a href="/component/content/article/19-end-users/workshops/44-hemolia-conference-and-demonstration-event"><span style="font-size: 8pt;"><em><span style="color: #ffcc00;">more information</span></em></span></a></span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: 10pt;">HEMOLIA is a new generation Anti-Money Laundering (AML) intelligent multi-agent alert and investigation system which in addition to the traditional financial data makes extensive use of modern society’s huge telecom data source, thereby opening up a new dimension of capabilities to all Money Laundering fighters (FIUs, LEAs) and Financial Institutes (Banks, Insurance Companies, etc.). Adding the Telecom Plane to the existing Financial Plane may improve and dramatically change AML doctrines, since another dimension is added to the analysis and investigation processes.</span></p>
+<p><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: 10pt;">HEMOLIA, taking into account existing legal frameworks, will hybridize and correlate the Financial and Telecom Planes in order to create richer and more accurate alerts, intelligence and investigation tools, as well as information sharing, both nationally and internationally. A major part of HEMOLIA will be the legal research and provision of legal guidelines to all ML fighters. To respect privacy rights HEMOLIA will bring a new model of Push Privacy Preserving Alerts where all FIUs and FIs are pushed with alerts that mark a transaction or customer with a money laundering / fraud risk level or risk probability, yet without disclosing any private data. This model may have outstanding impact on AML because it means that FIs will be alerted based on data of all other FIs and based on Telecom service providers at the national and international level, opening up a new era of Money Laundering and financial crime reporting by FIs to FIUs.</span></p>
+<p><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: 10pt;">HEMOLIA will be tested in an environment which simulates live network and systems of 3 different countries which have implemented the HEMOLIA concept and which will cooperate together to share AML information.</span></p>
+<p><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: 10pt;">&nbsp;</span></p>
+<p><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: 10pt;">&nbsp;</span><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 13px;">Please check our&nbsp;</span><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 13px; color: #ffcc00;"><a href="/news"><span style="color: #ffcc00;">News</span></a></span><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 13px;">&nbsp;section for the latest information on HEMOLIA project.</span></p>
+<p><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: 10pt;">&nbsp;</span></p>
+						 
+
+</div>
+<div class="item-separator"></div>
+
+
+		</div>
+									<span class="row-separator"></span>
+				</div>
+
+				
+
+
+</div>
+
+				            </div>
+							
+												 </div>
+            </div>
+               	<div id="footer">
+			        <div class="pagewidth">
+					      <div id="users-box">
+				              <div class="box">
+						          
+					           </div>
+					           <div class="box">
+						           
+					            </div>
+					            <div class="box">
+						             
+					            </div>
+								<div class="box">
+						             
+					            </div>
+				           </div>
+				       </div>
+				</div>
+
+                        
+                      	<div id="footer_tm">
+						    <div class="pagewidth">
+                                    <div class="ftb">
+                                                                                <p id="sponsorzy"><img src="/templates/upsilum1.6/images/60_eu.gif"  alt="UE logotype" />The research leading to these results has received funding from <br /> the European Community's Seventh Framework Programme (FP7/2007-2013)<br /> under grant agreement no. 261710 
+</p>                                     <p id="copy">Copyright&copy; 2016 Hemolia</p>
+                                           
+                                    </div>
+                                                
+<div>
+ </div> 
+
+                                          <!--
+                                                    <div id="top">
+                                                        <div class="top-button">
+                                                            <a href="#" onclick="scrollToTop();return false;"><img src="/templates/upsilum1.6/images/top.png" width="22" height="22" alt="top" /></a>
+                                                        </div>
+				                                    </div>
+				                                    -->
+				                                    <div style="clear:both;"></div>
+										    </div>
+										    
+			                            </div>
+ <!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://stat.piap.pl/" : "http://stat.piap.pl/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 2);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://stat.piap.pl/piwik.php?idsite=2" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->                                 							
+</body>
+</html>

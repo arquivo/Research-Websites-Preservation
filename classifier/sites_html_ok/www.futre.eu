@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html  lang="en-US">
+<head id="Head">
+<!--**********************************************************************************-->
+<!-- DotNetNuke - http://www.dotnetnuke.com                                          -->
+<!-- Copyright (c) 2002-2013                                                          -->
+<!-- by DotNetNuke Corporation                                                        -->
+<!--**********************************************************************************-->
+<title>
+	FUTRE Project > Home
+</title><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta content="text/javascript" http-equiv="Content-Script-Type" /><meta content="text/css" http-equiv="Content-Style-Type" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta id="MetaDescription" name="DESCRIPTION" content="FUTRE Project" /><meta id="MetaKeywords" name="KEYWORDS" content=",DotNetNuke,DNN" /><meta id="MetaCopyright" name="COPYRIGHT" content="&amp;copy; 2013 by Team BB CERTH/HIT" /><meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke " /><meta id="MetaAuthor" name="AUTHOR" content="FUTRE Project" /><meta name="RESOURCE-TYPE" content="DOCUMENT" /><meta name="DISTRIBUTION" content="GLOBAL" /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><meta name="REVISIT-AFTER" content="1 DAYS" /><meta name="RATING" content="GENERAL" /><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" /><style id="StylePlaceholder" type="text/css"></style><link href="/Portals/_default/default.css?cdv=100" type="text/css" rel="stylesheet"/><link href="/Portals/_default/skins/ptzenosgravity/skin.css?cdv=100" type="text/css" rel="stylesheet"/><script src="/Resources/Shared/Scripts/jquery/jquery.min.js?cdv=100" type="text/javascript"></script><script src="/Resources/Shared/Scripts/jquery/jquery-ui.min.js?cdv=100" type="text/javascript"></script><link rel='SHORTCUT ICON' href='/Portals/0/Images/favicon.ico' type='image/x-icon' /></head>
+<body id="Body">
+    
+    <form name="Form" method="post" action="/" id="Form" enctype="multipart/form-data">
+<div>
+<input type="hidden" name="StylesheetManager_TSSM" id="StylesheetManager_TSSM" value="" />
+<input type="hidden" name="ScriptManager_TSM" id="ScriptManager_TSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="NvprfdmyxceDbEDnLjJrz79xzSBBtD3bkf8W3G1BJH9JY+nPB5cWz5tJa18k3u+8pjX9lZP3jmN4Mky1sj3B1KcZc5xaDvBtL3F1D76zZUz7TxLVf7ZCsH0x520QeytCGk4Yr1jGqkfaC9aT/CfCGobuOXVjQ24VPG8HLGS+rAXF1NQ9m9rI7kJRxITqZ7t7lYJgw0XnGIpvaqkBEGgxbHtNiwiKn8p63jzUUA/yIh+3TqxdZq6fVxXpmDnJ0PDR9qoLqM4FHnv1ybMaxcJlOx4o1LqwS0bYzttAWB4MQSPlN4Gy8qrGXUzGJ7X3fUi80pUcEFvbFe82gK9txon47iZde95wcVpQbKDmaR85c83vkXUCo/d42vmn0GsugkzEEl2pi0/OHTCqk0IKCWEFVTSKpEOM/8oaewdNPZAkAEkTohIr49XHae/XrareUAdWLe12Su6iaSkkf5S7Iv1gd19SYIH94e8uVunFEWK8WtHhXyrTddkxzZTDNYx0ltpv+5s+yVQ5ZL+quTVBpklJWJo8TdsM3TMg7Mvvjo97XrUdHj1d0QLETHv7+hHJkz8syG4vYelSjNn8z+4k5xOmBGcUzSL8b9EdYpXlvaUXLJVPyAuGE3V1psNaQN1aO6IhXTvycTybCrmIwhrxKRdV/1Bqf5wiDWVkEhkquQIQinOpTR7pixsbAQAerVLAkVCWto27WZ+Lt3pepZrXiYzFuH4PC/QB84O7oDmc5Un96z0wCi0FBTVlohKINLmtU8SbTWClOJtX0QwWCyf3ZWTS3CM180eXu807To8o+5OGDj0pBAZ/dC1LUJfBRgNAdJO+r8AMUpd5rNOvEVPD61itxZaRsbr+PtH3c8bAH0O3Bnk7KW9KAWAo0sPYDx66u3N+lP2wbCN7oWCEbl+uIvCFya2AynITk3YA2Vex0ib6XLv6yJUWIzagYjRqt4LxlR3nBha2DVInRwPYhKXB4+jnmeuyL8xDgIQ92IgA4gODcp70pNVlBJk8HmNjaNwOB9i5gWLpFse453h6Y5/yKO5s0fstkQ6peMew/vfFQuvfgy+bv/is1rGA9S+xZ7YjMaOIreR87eGJQjUZFvK6RfcnSMjEq/33kAN1njd0be+vaO5Pjns3hghKBk/pHRK21JjGOu99tumB6f6sX5BiG2gaRBVnoRnaOjcNjJmTfM030c6USvlPakQ4Ysk0DfKA1VyRfmeCy6RY8oLLs0gFzzA4KQcK6HGfSiufcFxnzJ6DRgUQtdEGif5moVvwetqLdpSez+DAIBrys7SO93tck7rPjN+8LPvcF7XAXJAPlWv6jZlEKgC58fnqhLdhVLRT4FMjW91RZBKxpU0iEGxigbDRRMDGpNvyPVvTcm4mKw0kD4YwCiX0ASQyfojAGtI/AkLGaL1JzoweV4IM1ODfkPMt2PHyrTJdxm09IMfDDqR3Pj5KRKM39K9LDn7fy6amMzMr4fsH6x2rc0rgp/EExuOm7lLv/iz1h2O/Q+UFHVNKD6MbDZxYBuHKqLH7htVOc50i/YthlQeOQBOkfJJCmWOOcMyLD/igyo0IMWDxn1OMa32jtnTSh+5+n7QmukZOAMwoiEwYpTBPaUu3J3UqjZwKXbPeUiSwaFe0uVjk6YBBLNLhBcuXWi0Q/qlDYVYGR/VurOLusBaFFsEUMOI8mhGJWQMI/7a6eN5ZM3ZTMUxqGLv0RIpWRY8UL6Z4b9SXjvd2Kx4/uruayDubcwsbWE6FQU+DZIVD1d62Ln9h2GkVsvNvSWRG3++btJB+dQ+tL/0FcwLqBq0plz5x0EuYPNzoTk/7LIwXur+B15vQUEN1h7vphOQvUwPgg+sVgoRAtHmkrZXAUW5FDytG1qmoo/JUjsUgaqtCl4jUOW+2Bw==" />
+</div>
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ScriptManager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3ad28568d3-e53e-4706-928f-3765912b66ca%3aea597d4b%3ab25378d2" type="text/javascript"></script>
+<script src="/js/dnn.js" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="m9GbzDIjVBPGzL38OZZ/Y/ekvbtQYBLCrmb95qQihaZGBTqY4Tv6WYAYowtUDCGM9gn79FQMNzNrWbq/hQ4qzN4HBiotpJfmfMy2VgnRpOmkaJ4cMwWC45woPBdQlNj00YF731NukFUpuSOTLCEtr2pycAeuth/OHfJedtgNI0NTtV8j0SWMwioHEN8=" />
+</div><script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+//]]>
+</script>
+
+        <script src="/js/dnn.modalpopup.js?cdv=100" type="text/javascript"></script><script src="/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=100" type="text/javascript"></script><script src="/Resources/Shared/Scripts/dnn.jquery.js?cdv=100" type="text/javascript"></script><script src="/js/dnncore.js?cdv=100" type="text/javascript"></script><script src="/Resources/Shared/Scripts/slides.min.jquery.js?cdv=100" type="text/javascript"></script>
+        
+        
+
+
+ 
+
+<script>
+    $(function () {
+        $('#slides').slides({
+            preload: true,
+            preloadImage: 'images/loading.gif',
+            play: 5000,
+            pause: 2500,
+            hoverPause: true
+        });
+    });
+</script>
+
+<div id="siteWrapper">
+    <div id="userControls" class="wrapper">
+         <div id="login">
+            
+<!--close registerGroup--> 
+            
+<div id="dnn_dnnLogin_loginGroup" class="loginGroup">
+    <a id="dnn_dnnLogin_enhancedLoginLink" title="Login" class="LoginLink" href="http://www.futre.eu/login.aspx?ReturnUrl=%2f">Login</a>
+</div><!--close loginGroup-->
+       	</div><!--/login-->
+          <div id="search">
+            <span id="dnn_dnnSearch_ClassicSearch">
+    
+    
+    <input name="dnn$dnnSearch$txtSearch" type="text" maxlength="255" size="20" id="dnn_dnnSearch_txtSearch" class="NormalTextBox" onkeydown="return __dnn_KeyDown(&#39;13&#39;, &#39;javascript:__doPostBack(%27dnn$dnnSearch$cmdSearch%27,%27%27)&#39;, event);" />
+	<a id="dnn_dnnSearch_cmdSearch" class="SearchButton" href="javascript:__doPostBack(&#39;dnn$dnnSearch$cmdSearch&#39;,&#39;&#39;)">Search</a>
+</span>
+
+
+
+        </div><!---/search-->
+        <div class="clear"></div>
+    </div><!--/userControls-->
+
+
+    <div id="siteHeadouter">
+        <div id="siteHeadinner" class="wrapper">
+            <div id="logo">
+                
+            </div><!--/Logo-->
+                <div>
+                    <table width="100%">
+                        <tr>
+                        <td align="left">
+                            <a id="dnn_dnnLOGO_hypLogo" title="FUTRE Project" href="http://www.futre.eu"><img id="dnn_dnnLOGO_imgLogo" src="/Portals/0/Images/Futre_Logo5.png" alt="FUTRE Project" style="border-width:0px;" /></a>        
+                        </td>
+                            <td align="right">
+                                The FUTRE project is co-financed by<br />European Commission Directorate<br />General for Research & Innovation<br />as part of the 7th Framework Programme<br />
+                            </td>
+                            <td style="border-left:1px dotted black">
+                                <a href="http://cordis.europa.eu/fp7/home_en.html" target="_blank"><img src="http://www.futre.eu/Portals/0/Images/7plogo.png" alt="7plogo" width="162" height="109" /></a>
+                            </td>
+                        </tr>                    
+                    </table>
+                </div>            
+            <div class="right">
+            
+			<div class="language">
+				<div class="language-object" >
+
+
+</div>
+					<div class="clear"></div>                    
+				</div>
+				
+			</div>
+            <div id="nav">
+                <table width="100%">
+                    <tr>
+                        <td width="88%">
+					        <!-- DDRmenu v02.00.01 - simple template --><ul id="dnn_pnav">
+
+	<li>
+	
+		<a href="http://www.futre.eu/Home.aspx">Home</a>
+	
+	</li>
+
+	<li>
+	
+		<span>Project</span>
+	
+	    <ul>
+	    
+	<li>
+	
+		<a href="http://www.futre.eu/Project/Overview.aspx">Overview</a>
+	
+	</li>
+
+	<li>
+	
+		<a href="http://www.futre.eu/Project/Description.aspx">Description</a>
+	
+	</li>
+
+	<li>
+	
+		<a href="http://www.futre.eu/Project/Output.aspx">Output</a>
+	
+	</li>
+
+	    </ul>
+	
+	</li>
+
+	<li>
+	
+		<a href="http://www.futre.eu/Consortium.aspx">Consortium</a>
+	
+	</li>
+
+	<li>
+	
+		<span>Events</span>
+	
+	    <ul>
+	    
+	<li>
+	
+		<a href="http://www.futre.eu/Events/Workshops.aspx">Workshops</a>
+	
+	</li>
+
+	<li>
+	
+		<a href="http://www.futre.eu/Events/RelevantEvents.aspx">Relevant Events</a>
+	
+	</li>
+
+	    </ul>
+	
+	</li>
+
+	<li>
+	
+		<span>Publications</span>
+	
+	    <ul>
+	    
+	<li>
+	
+		<a href="http://www.futre.eu/Publications/Deliverables.aspx">Deliverables</a>
+	
+	</li>
+
+	<li>
+	
+		<a href="http://www.futre.eu/Publications/FUTREe-book.aspx">FUTRE e-book</a>
+	
+	</li>
+
+	<li>
+	
+		<a href="http://www.futre.eu/Publications/EUR27805report.aspx">EUR 27805 report</a>
+	
+	</li>
+
+	<li>
+	
+		<a href="http://www.futre.eu/Publications/Newsletters.aspx">Newsletters</a>
+	
+	</li>
+
+	<li>
+	
+		<a href="http://www.futre.eu/Publications/OtherDocuments.aspx">Other Documents</a>
+	
+	</li>
+
+	    </ul>
+	
+	</li>
+
+	<li>
+	
+		<a href="http://www.futre.eu/Links.aspx">Links</a>
+	
+	</li>
+
+	<li>
+	
+		<a href="http://www.futre.eu/Contact.aspx">Contact</a>
+	
+	</li>
+
+	<li>
+	
+		<a href="http://www.futre.eu/Workspace.aspx">Workspace</a>
+	
+	</li>
+
+</ul>
+                       
+                        </td>
+                        <td align="left" >
+                            <div class="survey_box" >
+                                <a style="color: white !important; font-size: 16px !important; text-decoration: none !important;"
+                                        href="http://issuu.com/dbcpressoffice/docs/futre.teliko__9_" target="_blank">FUTRE e-book</a>
+                            </div> 
+                        </td>
+                    </tr>
+                </table>             
+            </div><!--/nav-->                   
+        <div class="clear"></div>
+        </div><!--/siteHeadinner-->    
+    </div><!--/siteHeadouter-->
+    <div id="contentWrapper" class="wrapper">
+		<div id="Breadcrumb"><span id="dnn_dnnBreadcrumb_lblBreadCrumb"><a href="http://www.futre.eu/Home.aspx" class="breadcrumbLink">Home</a></span>
+</div>    	
+        <div style="border: 1px solid gray; min-height: 100%; background: white; padding: 10px;">
+			<div id="dnn_leftPane" class="threeColLeftPane spacingRight DNNEmptyPane"></div>
+			<div id="dnn_centerPane" class="threeColCenterPane spacingRight DNNEmptyPane"></div>
+			<div id="dnn_rightPane" class="threeColRightPane DNNEmptyPane"></div>
+			<div class="clear"></div>
+		<div id="dnn_contentPane" class="contentPane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-443"><a name="443"></a><div id="dnn_ctr443_ContentPane"><!-- Start_Module_443 --><div id="dnn_ctr443_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr443_HtmlModule_lblContent" class="Normal">
+	<table width="100%" cellpadding="10">
+    <tbody>
+        <tr>
+            <td style="background-position: center center; background-image: url('http://www.futre.eu/Portals/0/Images/bg.jpg'); background-repeat: no-repeat;" colspan="2">
+            <p style="text-align: center;"><span style="font-size: 44px; color: #ffffff;"><strong></strong></span></p>
+            <p style="text-align: center;"><span style="text-transform: uppercase; font-size: 32px;"><span style="font-size: 44px; color: #ffffff;">FU</span><span style="color: #ffffff;">ture prospects on <span style="font-size: 44px;">TR</span>ansport evolution and innovation challenges for the competitiveness of <span style="font-size: 44px;">E</span>urope</span></span></p>
+            <p style="text-align: center;"><span style="text-transform: uppercase; font-size: 32px; color: #ffffff;"></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" style="width: 50%;">
+            <p style="text-align: justify;">Data produced in <strong>FUTRE Deliverable 2.1</strong>, regarding the <strong>private investment in transport research and development</strong> were used in the <strong>EU Transport Scoreboard</strong>. For more information, please click <a href="http://ec.europa.eu/transport/facts-fundings/scoreboard/compare/index_en.htm?indicators=innovation_transportRD%3Binnovation_innovativeCompanies&amp;modes=" target="_blank">here</a>.</p>
+            <p style="text-align: justify;"><strong>FUTRE project</strong> will highlight which future challenges and demand drivers can have a considerable impact on the global demand patterns in the passenger and the freight transport and how this might affect the competitiveness of related industries and service providers. In doing so, it aims <strong>at bridging the gap between the manifold studies on the future of the European transport system</strong> <strong>and</strong> its subsections on the one hand, and, on the other hand, <strong>the</strong> <strong>issue of competitiveness that needs to be supported by targeted research strategies</strong>.</p>
+            <p style="text-align: justify;"> The objective of FUTRE is to <strong>investigate the challenges for the European transport sector in the long term and to develop strategic options for European transport research policy</strong>. With these objectives, FUTRE fits very well in the EU transport policy and its goals.</p>
+            <a href="/Project/Description.aspx" title="Read More">&gt;&gt; Read More...</a>
+            </td>
+            <td valign="top" style="width: 50%;">
+            <p style="text-align: center;"><img alt="" width="461" height="330" src="/portals/0/Images/future_transport_all3.png" /></p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+            <br />
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+</div><!-- End_Module_443 --></div>
+</div></div>
+		</div>
+        <div id="footer">
+        	<div id="dnn_footerLeftOuterPane" class="footerPane spacingRight DNNEmptyPane"></div>
+            <div id="dnn_footerLeftPane" class="footerPane spacingRight DNNEmptyPane"></div>
+            <div id="dnn_footerCenterPane" class="footerPane spacingRight DNNEmptyPane"></div>
+            <div id="dnn_footerRightPane" class="footerPane spacingRight DNNEmptyPane"></div>
+            <div id="dnn_footerRightOuterPane" class="footerPaneRight DNNEmptyPane"></div>
+            <div class="clear"></div>
+            <hr/>
+            <div id="copyright">
+				<div class="right">
+					
+					<a id="dnn_dnnTerms_hypTerms" class="SkinObject" rel="nofollow" href="http://www.futre.eu/terms.aspx">Terms Of Use</a> |
+					<a id="dnn_dnnPrivacy_hypPrivacy" class="SkinObject" rel="nofollow" href="http://www.futre.eu/privacy.aspx">Privacy Statement</a>
+				</div>
+				<span id="dnn_dnnCopyright_lblCopyright" class="SkinObject">&copy; 2013 by Team BB CERTH/HIT</span>
+
+            </div><!--/copyright-->
+        </div><!--/footer-->
+	</div><!--/contentWrapper-->
+</div><!--/siteWrapper-->
+
+    	
+	
+	
+
+
+
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`__scdoff`:`1`}" />
+        
+    
+<script type="text/javascript" src="/Resources/Shared/scripts/initWidgets.js" ></script></form>
+    
+    
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36016231-3']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+</body>
+</html>

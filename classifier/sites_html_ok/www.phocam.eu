@@ -1,0 +1,179 @@
+<br />
+<b>Strict Standards</b>:  Declaration of action_plugin_bureaucracy::register() should be compatible with DokuWiki_Action_Plugin::register($controller) in <b>/homepages/15/d301880404/htdocs/phocam/lib/plugins/bureaucracy/action.php</b> on line <b>18</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /homepages/15/d301880404/htdocs/phocam/lib/plugins/bureaucracy/action.php:18) in <b>/homepages/15/d301880404/htdocs/phocam/inc/auth.php</b> on line <b>313</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /homepages/15/d301880404/htdocs/phocam/lib/plugins/bureaucracy/action.php:18) in <b>/homepages/15/d301880404/htdocs/phocam/inc/actions.php</b> on line <b>163</b><br />
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+ lang="en" dir="ltr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>
+    Overview    [PhoCam]
+  </title>
+
+  <meta name="generator" content="DokuWiki Release 2009-12-25c &quot;Lemming&quot;" />
+<meta name="robots" content="index,follow" />
+<meta name="date" content="2010-11-15T10:47:12+0100" />
+<meta name="keywords" content="start" />
+<link rel="search" type="application/opensearchdescription+xml" href="/lib/exe/opensearch.php" title="PhoCam" />
+<link rel="start" href="/" />
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="/feed.php" />
+<link rel="alternate" type="application/rss+xml" title="Current Namespace" href="/feed.php?mode=list&amp;ns=" />
+<link rel="alternate" type="text/html" title="Plain HTML" href="/doku.php?do=export_xhtml&amp;id=start" />
+<link rel="canonical" href="http://www.phocam.eu/doku.php?id=start" />
+<link rel="stylesheet" media="all" type="text/css" href="/lib/exe/css.php?s=all&amp;t=dokubook&amp;tseed=1292923535" />
+<link rel="stylesheet" media="screen" type="text/css" href="/lib/exe/css.php?t=dokubook&amp;tseed=1292923535" />
+<link rel="stylesheet" media="print" type="text/css" href="/lib/exe/css.php?s=print&amp;t=dokubook&amp;tseed=1292923535" />
+<script type="text/javascript" charset="utf-8" ><!--//--><![CDATA[//><!--
+var NS='';var JSINFO = {"id":"start","namespace":""};
+//--><!]]></script>
+<script type="text/javascript" charset="utf-8" src="/lib/exe/js.php?tseed=1292923535" ></script>
+
+  <link rel="shortcut icon" href="/lib/tpl/dokubook/images/favicon.ico" />
+
+  
+  <!-- change link borders dynamically -->
+  <style type="text/css">
+            div.dokuwiki ul#top__nav a.edit,
+        div.dokuwiki ul#top__nav a.show,
+        div.dokuwiki ul#top__nav a.source,
+        div.dokuwiki ul#top__nav a.restore
+        {
+      border-color: #fabd23;
+      border-bottom: 1px solid #fff;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+<div class="dokuwiki">
+  
+  <div id="sidebar_left" class="sidebar">
+    <a href="/" name="dokuwiki__top" id="dokuwiki__top" accesskey="h" title="[ALT+H]">  <img class="logo" src="lib/images/logo_phocam.png" alt="PhoCam" /></a>
+ 
+ 
+<!-- HX-2012-01-20-BEGIN-->
+  <img src="http://www.phocam.eu/lib/images/fp7-160x130.png" width="160"/>
+  <img src="http://www.phocam.eu/lib/images/eu-logo-160x87.png" width="160"/>
+<!-- HX-2012-01-20-END -->   <span class="sb_label">navigation</span>
+<div id="navigation" class="sidebar_box">
+<ul>
+<li class="level1"><div class="li"> <a href="/doku.php?id=start" class="wikilink1" title="start">Overview</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/doku.php?id=funding" class="wikilink1" title="funding">Funding</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/doku.php?id=consortium" class="wikilink1" title="consortium">Consortium</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/doku.php?id=publications" class="wikilink1" title="publications">Publications</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/doku.php?id=events" class="wikilink1" title="events">Events</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/doku.php?id=miscellaneous" class="wikilink1" title="miscellaneous">Miscellaneous</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/doku.php?id=links" class="wikilink1" title="links">Links</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/doku.php?id=internal:start" class="wikilink1" title="internal:start">Internal</a></div>
+</li>
+</ul>
+<hr />
+<ul>
+<li class="level1"><div class="li"> <a href="/doku.php?id=imprint" class="wikilink1" title="imprint">Imprint</a></div>
+</li>
+</ul>
+</div>
+<span class="sb_label">search</span>
+<div id="search">
+<form action="/doku.php" accept-charset="utf-8" class="search" id="dw__search"><div class="no"><input type="hidden" name="do" value="search" /><input type="text" id="qsearch__in" accesskey="f" name="id" class="edit" title="[F]" /><input type="submit" value="Search" class="button" title="Search" /><div id="qsearch__out" class="ajax_qsearch JSpopup"></div></div></form></div>
+<span class="sb_label">toolbox</span>
+<div id="toolbox" class="sidebar_box">
+<a href="/doku.php?id=start&amp;do=login&amp;sectok=d7fb649b9fbaed896aa3d96bdfc3de6f"  class="action login" rel="nofollow">Login</a></div>
+  </div>
+
+  <div id="dokubook_container_left">
+
+    <div class="stylehead">
+
+      <div class="header">
+                        <div class="logo">
+          <a href="/doku.php"  name="dokuwiki__top" accesskey="h" title="[ALT+H]">PhoCam</a>        </div>
+      </div>
+
+      <ul id="top__nav">
+              </ul>
+
+    </div>
+
+    
+    <div class="page">
+
+            <div class="breadcrumbs">
+        <span class="bchead">Trace:</span> <span class="bcsep">&raquo;</span> <span class="curid"><a href="/doku.php?id=start"  class="breadcrumbs" title="start">Overview</a></span>      </div>
+      
+      
+      <!-- wikipage start -->
+      
+
+
+<h1><a name="overview" id="overview">Overview</a></h1>
+<div class="level1">
+<div class="thumb2 tright" style="width:410px"><div class="thumbinner"><a href="/lib/exe/detail.php?id=start&amp;media=fig_dlp.png" class="media" title="fig_dlp.png"><img src="/lib/exe/fetch.php?w=400&amp;media=fig_dlp.png" class="mediabox2" alt="" width="400" /></a><div class="thumbcaption"><div class="magnify"><a class="internal" title="Enlarge" href="/lib/exe/detail.php?id=start&amp;media=fig_dlp.png"><img width="15" height="11" alt="" src="/lib/plugins/imagebox/magnify-clip.png"/></a></div><strong>Fig.1: Digital Light Processing</strong></div></div></div>
+<p>
+
+Lithography based additive manufacturing technologies (AMT) are capable of fabricating parts with excellent surface quality, good feature resolution and precision. With recent developments in the field of ultra-short-pulse lasers and light engines based on light emitting diodes, robust and economical light sources have become available. This project aims at developing integrated lithography-based additive manufacturing systems which will, for the first time, facilitate the processing of photopolymer-based materials for the factory of the future. The focus of the project is to unite industrial know-how in the field of supply chain and quality management, software development, photopolymers and ceramics, high-performance light-sources, system integration and end-users in order to provide a fully integrated process chain at the end of the project. The consortium will rely on two core-technologies for the processing of the evisaged radiation curable materials:
+</p>
+
+<p>
+(1) <strong>Digital light processing</strong> (DLP) based processes will be used to process ceramic-filled photopolymers, leading to fully dense ceramic parts at the end of the process chain.
+</p>
+
+<p>
+(2) <strong>Two photon polymerization</strong> (2PP) will be used to fabricate high-resolution structures with features in the range of 100-200nm.
+</p>
+
+<p>
+Both processes will be tuned to reduce system costs, and significantly increase throughput and reliability at the same time. Goal is to deliver “first-time-right” strategies for the involved end-users. This necessitates the development of supply chains with integrated quality sensors. Targeted applications include thread guides for textile machinery, ceramic moulds for the fabrication of high-performance turbine blades and microstructures for computer tomography equipment. 
+</p>
+<div class="thumb2 tcenter" style="width:601px"><div class="thumbinner"><a href="/lib/exe/detail.php?id=start&amp;media=fig_2pp.png" class="media" title="fig_2pp.png"><img src="/lib/exe/fetch.php?media=fig_2pp.png" class="mediabox2" alt="" /></a><div class="thumbcaption"><strong>
+Fig.2: A selection of biomechanical parts made by 2PP. (a) Microvalve designed to prohibit the reversal of blood flow in human veins. Only part of the valve cover was built, to enable visualization of the interior. (b)Scanning electron microscope image of high-porosity tissue engineering scaffold. (c ) Test micro-needle array for transdermal drug delivery</strong></div></div></div>
+</div>
+
+      <!-- wikipage stop -->
+
+      <div class="meta">
+        <div class="doc">
+          start.txt &middot; Last modified: 2010/11/15 10:47 (external edit)        </div>
+      </div>
+
+      <a href="#dokuwiki__top" class="action top" accesskey="x">Back to top</a>
+      <div class="clearer"></div>
+
+    </div>
+
+    
+    <div class="clearer"></div>
+
+    
+    <div class="stylefoot">
+          </div>
+
+    <div align="center" class="footerinc">
+  
+  <a target="_blank" href="http://wiki.splitbrain.org/wiki:dokuwiki" title="Driven by DokuWiki"><img src="/lib/tpl/dokubook/images/button-dw.png" width="80" height="15" alt="Driven by DokuWiki" border="0" /></a>
+
+  <a target="_blank" href="http://www.firefox-browser.de" title="do yourself a favour and use a real browser - get firefox"><img src="/lib/tpl/dokubook/images/button-firefox.png" width="80" height="15" alt="do yourself a favour and use a real browser - get firefox!!" border="0" /></a>
+  
+  <a target="_blank" href="/feed.php" title="Recent changes RSS feed"><img src="/lib/tpl/dokubook/images/button-rss.png" width="80" height="15" alt="Recent changes RSS feed" border="0" /></a>
+
+</div>
+
+
+  </div>
+
+</div>
+<div class="no"><img src="/lib/exe/indexer.php?id=start&amp;1456406017" width="1" height="1" alt=""  /></div>
+</body>
+</html>

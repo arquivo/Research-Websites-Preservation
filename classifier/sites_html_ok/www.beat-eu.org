@@ -1,0 +1,428 @@
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-as">
+
+    
+    
+    
+    
+    
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Forces IE8+ into newest rendering engine even if on an intranet. This has to be defined before any script/style tags. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+
+    
+        <base href="https://www.beat-eu.org/introduction" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    
+        <meta content="BEAT is a project funded by the European Commission, under the Seventh Framework Programme. " name="description" />
+<link rel="kss-base-url" href="https://www.beat-eu.org/introduction/" />
+
+  
+    <link rel="stylesheet" type="text/css" href="https://www.beat-eu.org/portal_css/Sunburst%20Theme/base-cachekey8743.css" />
+        <!--[if lt IE 8]>    
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.beat-eu.org/portal_css/Sunburst%20Theme/IEFixes-cachekey1876.css" />
+        <![endif]-->
+    
+    <style type="text/css" media="screen">@import url(https://www.beat-eu.org/portal_css/Sunburst%20Theme/resourcezettwerk.ui.ui-basejquery-ui.custom-cachekey6049.css);</style>
+    <style type="text/css" media="screen">@import url(https://www.beat-eu.org/portal_css/Sunburst%20Theme/portal_ui_tool/css);</style>
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.beat-eu.org/portal_css/Sunburst%20Theme/ploneCustom-cachekey9995.css" />
+
+  
+    <link rel="kinetic-stylesheet" type="text/css" href="https://www.beat-eu.org/portal_kss/Sunburst%20Theme/resourcetinymce.ksstinymce-cachekey5478.kss" />
+    <link rel="kinetic-stylesheet" type="text/css" href="https://www.beat-eu.org/portal_kss/Sunburst%20Theme/at-cachekey5597.kss" />
+  
+    <script type="text/javascript" src="https://www.beat-eu.org/portal_javascripts/Sunburst%20Theme/jquery-cachekey6993.js"></script>
+    <script type="text/javascript" src="https://www.beat-eu.org/portal_javascripts/Sunburst%20Theme/resourcejquery-ui.min-cachekey5304.js"></script>
+    <script type="text/javascript" src="https://www.beat-eu.org/portal_javascripts/Sunburst%20Theme/resourcezettwerk.ui.scriptsgui-cachekey3276.js"></script>
+    <script type="text/javascript" src="https://www.beat-eu.org/portal_javascripts/Sunburst%20Theme/portal_ui_tooljs-cachekey1707.js"></script>
+
+
+<title>Biometrics Evaluation and Testing (BEAT) &mdash; BEAT</title>
+        
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.beat-eu.org/favicon.ico" />
+    <link rel="apple-touch-icon" href="https://www.beat-eu.org/touch_icon.png" />
+
+
+<script type="text/javascript">
+        jQuery(function($){
+            $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional[''],
+                {dateFormat: 'mm/dd/yy'}));
+        });
+        </script>
+
+    <link rel="home" href="https://www.beat-eu.org" title="Front page" />
+
+    <link rel="contents" href="https://www.beat-eu.org/sitemap" title="Site Map" />
+
+
+
+
+
+
+    <link rel="search" href="https://www.beat-eu.org/search_form" title="Search this site" />
+
+
+
+        
+        
+        
+        
+        
+
+        <meta name="viewport" content="width=device-width; initial-scale=0.6666; maximum-scale=1.0; minimum-scale=0.6666" />
+        <meta name="generator" content="Plone - http://plone.org" />
+    
+</head>
+
+<body class="template-document_view portaltype-document section-introduction icons-on" dir="ltr">
+
+<div id="visual-portal-wrapper">
+
+        <div id="portal-top" class="row">
+<div class="cell width-full position-0"> <!-- TODO: Temporary, this one should be in the template that is inserted -->
+            <div id="portal-header">
+    <p class="hiddenStructure">
+  <a accesskey="2" href="https://www.beat-eu.org/#content">Skip to content.</a> |
+
+  <a accesskey="6" href="https://www.beat-eu.org/#portlet-navigation-tree">Skip to navigation</a>
+</p>
+
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Personal tools</h5>
+
+
+
+<dl class="actionMenu deactivated" id="portal-personaltools">
+  <dt id="anon-personalbar">
+    
+        <a href="https://www.beat-eu.org/login_form" id="personaltools-login">Log in</a>
+    
+  </dt>
+</dl>
+
+</div>
+
+
+
+<div id="portal-searchbox">
+    <form name="searchform" id="searchGadget_form" action="https://www.beat-eu.org/search">
+
+        <div class="LSBox">
+        <label class="hiddenStructure" for="searchGadget">Search Site</label>
+
+        <input name="SearchableText" type="text" size="18" title="Search Site" accesskey="4" class="searchField inputLabel" id="searchGadget" />
+
+        <input class="searchButton" type="submit" value="Search" />
+
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only" class="noborder" type="checkbox" name="path" value="/beat" />
+            <label for="searchbox_currentfolder_only" style="cursor: pointer">
+                only in current section
+            </label>
+        </div>
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="https://www.beat-eu.org/search_form" accesskey="5">
+            Advanced Search&hellip;
+        </a>
+    </div>
+
+</div>
+
+<a id="portal-logo" title="Home" accesskey="1" href="https://www.beat-eu.org">
+    <img src="https://www.beat-eu.org/logo.png" alt="" title="Logo BEAT" height="80" width="134" /></a>
+
+
+    <h5 class="hiddenStructure">Sections</h5>
+
+    <ul id="portal-globalnav"><li id="portaltab-index_html" class="selected"><a href="https://www.beat-eu.org" title="">Home</a></li><li id="portaltab-project" class="plain"><a href="https://www.beat-eu.org/project" title="">Project</a></li><li id="portaltab-partners" class="plain"><a href="https://www.beat-eu.org/partners" title="">Partners</a></li><li id="portaltab-news" class="plain"><a href="https://www.beat-eu.org/news" title="">News &amp; Press</a></li><li id="portaltab-publications" class="plain"><a href="https://www.beat-eu.org/publications" title="">Publications</a></li><li id="portaltab-evaluations" class="plain"><a href="https://www.beat-eu.org/evaluations" title="">Evaluations</a></li><li id="portaltab-events" class="plain"><a href="https://www.beat-eu.org/events" title="Site Events">Events</a></li><li id="portaltab-intranet" class="plain"><a href="https://www.beat-eu.org/intranet" title="">Intranet</a></li></ul>
+
+</div>
+
+</div>
+        </div>
+    <div id="portal-columns" class="row">
+
+        <div id="portal-column-content" class="cell width-3:4 position-0">
+
+            <div id="viewlet-above-content"><div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">You
+are here:</span>
+    <span id="breadcrumbs-home">
+        <a href="https://www.beat-eu.org">Home</a>
+        
+    </span>
+
+</div>
+</div>
+            
+            
+                <div class="">
+
+                    
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+
+                    
+                        <div id="content">
+
+                            
+
+                                                                                        
+
+                                                          
+                                                           
+                                 
+                                 
+            
+                <h1 id="parent-fieldname-title" class="documentFirstHeading">
+                    Biometrics Evaluation and Testing (BEAT)
+                </h1>
+            
+            
+                                                                                            
+                                                                                                            
+                             
+                             
+
+                                               
+                                 
+                                 
+            
+                <div id="parent-fieldname-description" class="documentDescription">
+                   BEAT is a project funded by the European Commission, under the Seventh Framework Programme. 
+                </div>
+            
+            
+                                                                                             
+                                                                                                      
+
+                             
+
+                              
+                             <div id="content-core">                                                                      
+                                 
+    
+        
+        <div class="" id="parent-fieldname-text">
+            <p>Evaluation of identification technologies, including Biometrics (SEC-2011.5.1-1)</p>
+<h2 style="text-align: center; "><a class="external-link" href="platform/" title="BEAT platform">BEAT platform</a></h2>
+<p><a class="external-link" href="platform/" title="BEAT platform"></a></p>
+<p style="text-align: center; "><a class="external-link" href="platform/"><img alt="BEAT platform" class="image-inline" src="images/beat-dashboard.png/image_preview" title="BEAT platform" /></a></p>
+<p style="text-align: center; "> </p>
+<p class="callout" style="text-align: center; ">The <a class="external-link" href="platform/" title="BEAT platform">BEAT platform</a> is an <a class="external-link" href="platform/" title="European computing e-infrastructure">European computing e-infrastructure</a> for <a href="https://en.wikipedia.org/wiki/Open_science" style="text-align: justify; ">Open Science</a> proposing a solution for open access, scientific information sharing    and re-use including data and source code while protecting privacy and    confidentiality. It allows easy online access to experimentation and    testing in computational science. You define what data and modules you    would like to use, we make sure the system runs and provides you with a    result. Data from different experiments can be easily compared and    searched. The platform also provides an attestation mechanism for your    reports (scientific papers, technical documents or certifications).</p>
+<p> </p>
+<p><img alt="European Flag" class="image-inline" src="images/european-flag/image_thumb" /> <span>“<i>This  project has received funding from the European Union’s  Seventh  Framework Programme for research, technological development and   demonstration under grant agreement no </i>284989”.</span></p>
+<p> </p>
+<p>Identity management using Biometrics is a reality because of the e-passport (Biometric passport). Similar biometric technology has also become more prevalent on personal computers with more biometric-enabled functions and soon applications to recognize nomadic users through biometrics will also emerge as mobile devices are equipped with more sensors. Unfortunately the reliability of these biometric technologies is not always known and therefore can’t be guaranteed. In particular the three criteria of (1) the performance of the underlying biometric system, (2) the robustness to vulnerabilities such as direct (spoofing) or indirect attacks, and (3) the strength of privacy preservation techniques, are often unknown or impossible to compare to competitors.<br /> <br /> The lack of standard operational evaluations is the reason that we cannot measure the reliability of these biometric technologies. Some initiatives exist in Europe, the United States of America, and Asia. However, these initiatives are: isolated (focusing only on one or two biometric modalities), disorganized (teams from the same institution can work on different biometrics without talking to each other), or limited in time (very few are organizing ongoing evaluations). This leads to discontinuous and non-integrated efforts which have a limited life span. Thus there is a need for establishing a framework to evaluate, in a systematic way, the performance of biometric technologies using several metrics and criteria (performance, vulnerability, privacy).<br /> <br /> The goal of BEAT is to propose a framework of standard operational evaluations for biometric technologies. This will be achieved by (1) developing an online and open platform to transparently and independently evaluate biometric systems against validated benchmarks, (2) designing protocols and tools for vulnerability analysis, and (3) developing standardization documents for Common Criteria evaluations. Additionally, legal aspects will be considered to address the issues of both privacy data protection and Intellectual Property and so ensure that the BEAT framework can be used by the research community and companies. There will be three outcomes of this project. The first is that the reliability of biometric systems will be measurable and thus should lead to a meaningful increase in performance. The second is that technology transfer from research to companies will be much easier as there will be an interoperable framework. Finally, decision-makers and authorities will be informed about the progress that is made in biometrics as the results will have an impact on standards. Given these outcomes we expect that BEAT will significantly contribute to the development of a European Identification Certification System.</p>
+            
+        </div>
+    
+    
+                                                                            
+                             </div>                                                                                       
+                             
+
+
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+
+        
+
+    </div>
+                              
+
+                            
+                        </div>
+                    
+
+                    
+                </div>
+            
+        
+            <div id="viewlet-below-content">
+
+
+
+
+
+    
+
+</div>
+        </div>
+
+        
+        
+
+        <div id="portal-column-two" class="cell width-1:4 position-3:4">
+            
+                
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f626561740a6e657773" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f626561740a6e657773">
+<dl class="portlet portletNews">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="https://www.beat-eu.org/news" class="tile">News</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    
+    <dd class="portletItem odd">
+
+        <a href="https://www.beat-eu.org/news/new-patent-on-vein-anti-spoofing-pad" class="tile" title="Idiap published on Feb 18 2016 a PCT patent on biometric vein anti-spoofing (also called presentation attack detection) under the reference WO/2016/023582.">
+            
+            New patent on vein anti-spoofing (PAD)
+         </a>
+            <span class="portletItemDetails">Feb 22, 2016</span>
+        
+    </dd>
+    
+    
+    <dd class="portletItem even">
+
+        <a href="https://www.beat-eu.org/news/your-complete-id-on-your-wrist-thanks-to-biowatch-idiap-and-csem" class="tile" title="CSEM at Neuchâtel and the Idiap Research Institute in Martigny are joining forces to propel the young and promising Swiss startup BIOWATCH to the top">
+            
+            Your complete ID on your wrist thanks to BIOWATCH, Idiap and CSEM
+         </a>
+            <span class="portletItemDetails">Feb 02, 2016</span>
+        
+    </dd>
+    
+    
+    <dd class="portletItem odd">
+
+        <a href="https://www.beat-eu.org/news/idiap-eu-signed-agreement" class="tile" title="The BEAT platform is an European computing e-infrastructure for Open Science proposing a solution for open access, scientific information sharing and re-use including data and source code while protecting privacy and confidentiality. It allows easy online access to experimentation and testing in computational science. The platform also provides an attestation mechanism for your reports (scientific papers, technical documents or certifications).">
+            
+            License agreement signed between Idiap &amp; EC’s Joint Research Center to experiment BEAT platform.
+         </a>
+            <span class="portletItemDetails">Jan 25, 2016</span>
+        
+    </dd>
+    
+    
+    <dd class="portletItem even">
+
+        <a href="https://www.beat-eu.org/news/jtc1-sc37-martigny2015-kick-off" class="tile" title="The Idiap Research Institute and the Swiss Center for Biometrics Research and Testing of Martigny welcome this week the ISO working groups in the field of biometrics.">
+            
+            The Who’s who of biometrical standards meets up at Idiap from January 11-19, 2016
+         </a>
+            <span class="portletItemDetails">Jan 11, 2016</span>
+        
+    </dd>
+    
+    
+    <dd class="portletItem odd">
+
+        <a href="https://www.beat-eu.org/news/the-idiap-research-institute-provides-an-european-computing-e-infrastructure-for-open-science" class="tile" title="The BEAT platform is an European computing e-infrastructure for Open Science proposing a solution for open access, scientific information sharing and re-use including data and source code while protecting privacy and confidentiality. ">
+            
+            The Idiap Research Institute provides an European computing e-infrastructure for Open Science
+         </a>
+            <span class="portletItemDetails">Nov 17, 2015</span>
+        
+    </dd>
+    
+
+    <dd class="portletFooter">
+        <span class="portletBottomLeft"></span>
+        <a href="https://www.beat-eu.org/news">
+          More news&hellip;
+        </a>
+        <span class="portletBottomRight"></span>
+    </dd>
+    
+</dl>
+
+</div>
+
+
+
+
+            
+        </div>
+        
+    </div>
+
+
+    
+        <div class="row">
+    <div class="cell width-full position-0">
+
+        <div id="portal-footer">
+            <p>
+                
+      
+                <acronym title="Copyright">&copy;</acronym> Idiap Research Institute
+                2011-2016
+                
+            </p>
+        </div>
+
+    </div>
+</div>
+<div id="portal-colophon">
+
+<div class="colophonWrapper">
+<ul>
+  <li>
+    <a href="http://plone.org" title="This site was built using the Plone Open Source CMS/WCM.">
+      Powered by Plone &amp; Python</a>
+  </li>
+</ul>
+</div>
+</div>
+
+<ul id="portal-siteactions">
+
+    <li id="siteaction-sitemap"><a href="https://www.beat-eu.org/sitemap" accesskey="3" title="Site Map">Site Map</a></li>
+    <li id="siteaction-contact"><a href="https://www.beat-eu.org/contact-info" accesskey="9" title="Contact">Contact</a></li>
+</ul>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-618198-21']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    
+
+</div>
+</body>
+</html>
+
+
+

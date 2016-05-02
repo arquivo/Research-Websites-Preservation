@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr" >
+	<head>
+  <base href="http://www.eurodish.eu/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Home</title>
+  <link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/templates/eurodish/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="http://www.eurodish.eu/component/search/?format=opensearch" rel="search" title="Search Eurodish" type="application/opensearchdescription+xml" />
+  <link rel="stylesheet" href="http://www.eurodish.eu/plugins/content/fastsocialshare/style/style.css" type="text/css" />
+  <link rel="stylesheet" href="/components/com_jevents/views/default/assets/css/modstyle.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_lofarticlesslideshow/assets/jstyle.css" type="text/css" />
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/modules/mod_lofarticlesslideshow/assets/jscript.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+  </script>
+
+<link href="http://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="/templates/eurodish/css/eurodish.css" type="text/css" />
+<!-- SOCIAL -->
+<meta name="description" content="EuroDISH aims to strengthen research and improve knowledge for public health nutrition strategies across Europe." />
+<meta name="title" content="EuroDISH / Studying the need for food and health research infrastructures in Europe">
+<meta property="og:title" content="EuroDISH / Studying the need for food and health research infrastructures in Europe" />
+<meta property="og:image" content="http://www.eurodish.eu/templates/eurodish/images/eurodish_sociallogo.gif"/>
+<meta property="og:site_name" content="EuroDISH"/>
+<meta property="og:description" content="EuroDISH aims to strengthen research and improve knowledge for public health nutrition strategies across Europe.">
+<meta property="og:locale" content="en_US"/> 
+
+
+<script type="text/javascript">
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39427013-1']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
+</script>
+<meta name="google-site-verification" content="DAwD8U7A0zhd5t2tdaZPIJODkl7dRlcsRg5wEYvn2E4" /></head>
+
+<body>
+<div class="home">
+	<!-- HEADER -->
+	<div class="header">
+    	<div class="header_content">
+    		<a href="/index.php"><img src="/templates/eurodish/images/eurodish_logo.png" alt="EuroDISH" align="left" class="logo_abso" /></a>
+        </div>
+	</div>
+    <div class="menu_box">
+        		<div class="moduletable_menu">
+					
+<ul class="menu">
+<li class="item-101 current active"><a href="/" >Home</a></li><li class="item-102 parent"><a href="/about/about-eurodish" >About</a></li><li class="item-107 parent"><a href="/outcomes" >Outcomes</a></li><li class="item-108"><a href="/news" >News</a></li><li class="item-158"><a href="/agenda/month.calendar/2016/02/25/-" >Agenda</a></li><li class="item-110"><a href="/partners" >Partners</a></li><li class="item-111"><a href="/contact" >Contact</a></li><li class="item-174"><a href="/newsletter" >Newsletter</a></li><li class="item-187"><a href="/links" >Links</a></li></ul>
+		</div>
+	 
+    </div>
+    <div id="global">
+        <div class="containers">
+            <div class="search_box">
+                		<div class="moduletable">
+					<form action="/" method="post">
+	<div class="search">
+		<label for="mod-search-searchword">Search...</label><input name="searchword" id="mod-search-searchword" maxlength="20"  class="inputbox" type="text" size="20" value="Search..."  onblur="if (this.value=='') this.value='Search...';" onfocus="if (this.value=='Search...') this.value='';" /><input type="submit" value="GO" class="button" onclick="this.form.searchword.focus();"/>	<input type="hidden" name="task" value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="101" />
+	</div>
+</form>
+		</div>
+	
+                		<div class="moduletable">
+					
+<ul class="menu">
+<li class="item-118"><a href="/intranet-access/forum-initial" >Forum/intranet access</a></li></ul>
+		</div>
+	
+            </div>
+            <div class="left_menu">
+                                                			<div class="moduletable">
+					<h3>Agenda</h3>
+						<script language="javascript"  type="text/javascript" ><!--
+	function navLoaded(elem, modid){
+		var myspan = document.getElementById("testspan"+modid);
+		var modbody = myspan.parentNode;
+		modbody.innerHTML=elem.innerHTML;
+	}
+	function callNavigation(link){
+		var body = document.getElementsByTagName('body')[0];
+		if (!document.getElementById('calnav')){
+			myiframe = document.createElement('iframe');
+			myiframe.setAttribute("name","calnav");
+			myiframe.setAttribute("id","calnav");
+			myiframe.style.display = "none";
+			body.appendChild(myiframe);
+		}
+		else {
+			myiframe = document.getElementById('calnav');
+		}
+		myiframe.setAttribute("src",link);
+	}
+	//--></script>
+	<div style="margin:0px;padding:0px;border-width:0px;"><span id='testspan95' style='display:none'></span>
+
+<table cellpadding="0" cellspacing="0" align="center" class="mod_events_monthyear" >
+<tr >
+<td><div class="mod_events_link" onmousedown="callNavigation('index.php?option=com_jevents&amp;task=modcal.ajax&amp;day=1&amp;month=02&amp;year=2015&amp;modid=95&amp;tmpl=component');">&laquo;</div>
+</td><td><div class="mod_events_link" onmousedown="callNavigation('index.php?option=com_jevents&amp;task=modcal.ajax&amp;day=1&amp;month=01&amp;year=2016&amp;modid=95&amp;tmpl=component');">&lt;</div>
+</td><td align="center"><a href="/agenda/month.calendar/2016/02/25/-" class = "mod_events_link" title = "Go to calendar - current month">February</a> <a href="/agenda/year.listevents/2016/02/25/-" class = "mod_events_link" title = "Go to calendar - current year">2016</a> </td><td><div class="mod_events_link" onmousedown="callNavigation('index.php?option=com_jevents&amp;task=modcal.ajax&amp;day=1&amp;month=03&amp;year=2016&amp;modid=95&amp;tmpl=component');">&gt;</div>
+</td><td><div class="mod_events_link" onmousedown="callNavigation('index.php?option=com_jevents&amp;task=modcal.ajax&amp;day=1&amp;month=02&amp;year=2017&amp;modid=95&amp;tmpl=component');">&raquo;</div>
+</td></tr>
+</table>
+<table align="center" class="mod_events_table" cellspacing="0" cellpadding="2" >
+<tr class="mod_events_dayname">
+<td class="mod_events_td_dayname">M</td>
+<td class="mod_events_td_dayname">T</td>
+<td class="mod_events_td_dayname">W</td>
+<td class="mod_events_td_dayname">T</td>
+<td class="mod_events_td_dayname">F</td>
+<td class="mod_events_td_dayname"><span class="saturday">S</span></td>
+<td class="mod_events_td_dayname"><span class="sunday">S</span></td>
+</tr>
+<tr>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/01/-" class = "mod_events_daylink" title = "Go to calendar - current day">1</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/02/-" class = "mod_events_daylink" title = "Go to calendar - current day">2</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/03/-" class = "mod_events_daylink" title = "Go to calendar - current day">3</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/04/-" class = "mod_events_daylink" title = "Go to calendar - current day">4</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/05/-" class = "mod_events_daylink" title = "Go to calendar - current day">5</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/06/-" class = "mod_events_daylink" title = "Go to calendar - current day">6</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/07/-" class = "mod_events_daylink" title = "Go to calendar - current day">7</a></td>
+</tr>
+<tr>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/08/-" class = "mod_events_daylink" title = "Go to calendar - current day">8</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/09/-" class = "mod_events_daylink" title = "Go to calendar - current day">9</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/10/-" class = "mod_events_daylink" title = "Go to calendar - current day">10</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/11/-" class = "mod_events_daylink" title = "Go to calendar - current day">11</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/12/-" class = "mod_events_daylink" title = "Go to calendar - current day">12</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/13/-" class = "mod_events_daylink" title = "Go to calendar - current day">13</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/14/-" class = "mod_events_daylink" title = "Go to calendar - current day">14</a></td>
+</tr>
+<tr>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/15/-" class = "mod_events_daylink" title = "Go to calendar - current day">15</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/16/-" class = "mod_events_daylink" title = "Go to calendar - current day">16</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/17/-" class = "mod_events_daylink" title = "Go to calendar - current day">17</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/18/-" class = "mod_events_daylink" title = "Go to calendar - current day">18</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/19/-" class = "mod_events_daylink" title = "Go to calendar - current day">19</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/20/-" class = "mod_events_daylink" title = "Go to calendar - current day">20</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/21/-" class = "mod_events_daylink" title = "Go to calendar - current day">21</a></td>
+</tr>
+<tr>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/22/-" class = "mod_events_daylink" title = "Go to calendar - current day">22</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/23/-" class = "mod_events_daylink" title = "Go to calendar - current day">23</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/24/-" class = "mod_events_daylink" title = "Go to calendar - current day">24</a></td>
+<td class='mod_events_td_todaynoevents'>
+<a href="/agenda/day.listevents/2016/02/25/-" class = "mod_events_daylink" title = "Go to calendar - current day">25</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/26/-" class = "mod_events_daylink" title = "Go to calendar - current day">26</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/27/-" class = "mod_events_daylink" title = "Go to calendar - current day">27</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/28/-" class = "mod_events_daylink" title = "Go to calendar - current day">28</a></td>
+</tr>
+<tr>
+<td class='mod_events_td_daynoevents'>
+<a href="/agenda/day.listevents/2016/02/29/-" class = "mod_events_daylink" title = "Go to calendar - current day">29</a></td>
+<td class="mod_events_td_dayoutofmonth">1</td>
+<td class="mod_events_td_dayoutofmonth">2</td>
+<td class="mod_events_td_dayoutofmonth">3</td>
+<td class="mod_events_td_dayoutofmonth">4</td>
+<td class="mod_events_td_dayoutofmonth">5</td>
+<td class="mod_events_td_dayoutofmonth">6</td>
+</tr>
+</table>
+</div>		</div>
+	
+                                                <div id="twitter">
+                <a class="twitter-timeline"  href="https://twitter.com/EuroDISH"  data-widget-id="350553020473425922" data-chrome="nofooter">Tweets by @EuroDISH</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </div>
+                <div id="joinlinkedinLeft_home">
+                  	<a href="https://www.linkedin.com/groups?home=&gid=7484314&trk=my_groups-tile-grp" target="_blank"><img src="/templates/eurodish/images/joinlinkedin_home.png" alt="Join our Linkedin group today" align="left" /></a>
+                </div>
+                                                                
+            </div>
+            <div class="contenu">
+            	                	<div class="blog-featured">
+
+<div class="items-leading">
+			<div class="leading-0">
+			
+
+
+
+
+
+
+
+<p><strong><span style="color: #c3c000; font-size: 28px;"><span style="color: #b6271d; font-size: 20px;">SAVE THE DATE!</span>  </span></strong></p>
+<p><span style="color: #c3c000; font-size: 28px;"><strong>WORKSHOP DISH-RI</strong><img src="/images/EuroDISH.png" border="0" alt="DISH-RI" title="DISH-RI" style="border: 0; float: right;" /></span></p>
+<p><strong><span style="color: #000000; font-size: 18px;">18 February 2016 – Brussels</span></strong></p>
+<p> </p>
+<p> </p>
+<p><span style="color: #b6271d; font-size: 16px;"><strong>Goal:</strong> </span></p>
+<p><em>To exchange and discuss in a comprehensive manner the interactions between the overarching DISH-RI and relevant RIs and Programmes.</em></p>
+<p>DISH‐RI is an overarching RI and aims to address the question of determinants of food choice, intake of food, status of the human body and mind as well as health problems during the life course.</p>
+<p>Further details will be available soon.</p>
+<p> </p><div class="fastsocialshare-share-fbl">    					<script>
+							var loadAsyncDeferredFacebook = function() {
+	                    		var d = document;
+	                    		var s = 'script';
+	                    		var id = 'facebook-jssdk';
+				
+								var js, fjs = d.getElementsByTagName(s)[0];
+								if (d.getElementById(id)) return;
+							  	js = d.createElement(s); js.id = id;
+							  	js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+							  	fjs.parentNode.insertBefore(js, fjs);
+						  	};
+					
+						  	if (window.addEventListener)
+								window.addEventListener("load", loadAsyncDeferredFacebook, false);
+							else if (window.attachEvent)
+								window.attachEvent("onload", loadAsyncDeferredFacebook);
+							else
+						  		window.onload = loadAsyncDeferredFacebook;
+                    	</script>
+				<div id="fb-root"></div>
+                <fb:like
+                href="http://www.eurodish.eu/news/58-dish-ri-workshop"
+                layout="button_count"
+                width="100"
+                colorscheme="light" action="like" ></fb:like></div>						<div class="fastsocialshare-share-tw">
+						<a href="https://twitter.com/share" class="twitter-share-button" data-text="DISH-RI workshop" data-count="horizontal" data-via="@EuroDISH" data-lang="en">Tweet</a>
+						</div>
+						<script>
+							var loadAsyncDeferredTwitter =  function() {
+	            						var d = document;
+	            						var s = 'script';
+	            						var id = 'twitter-wjs';
+					            		var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){
+						        		js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}
+					        		}
+						
+							if (window.addEventListener)
+								window.addEventListener("load", loadAsyncDeferredTwitter, false);
+							else if (window.attachEvent)
+								window.attachEvent("onload", loadAsyncDeferredTwitter);
+							else
+								window.onload = loadAsyncDeferredTwitter;
+						</script>						<div class="fastsocialshare-share-gone">
+						<script type="text/javascript">
+							 window.___gcfg = {
+						        lang: 'en'
+						      };
+							var loadAsyncDeferredGooglePlus =  function() {
+								var po = document.createElement('script'); 
+								po.type = 'text/javascript'; 
+								po.async = true;
+								po.src = 'https://apis.google.com/js/plusone.js';
+								po.innerHTML =  {lang: 'en'};
+								var s = document.getElementsByTagName('script')[0]; 
+								s.parentNode.insertBefore(po, s);
+							};
+			
+							 if (window.addEventListener)
+							  window.addEventListener("load", loadAsyncDeferredGooglePlus, false);
+							else if (window.attachEvent)
+							  window.attachEvent("onload", loadAsyncDeferredGooglePlus);
+							else
+							  window.onload = loadAsyncDeferredGooglePlus;
+						</script>
+						
+						
+						</div>						<div class="fastsocialshare-share-lin">
+						<script type="text/javascript">
+							var loadAsyncDeferredLinkedin =  function() {
+								var po = document.createElement('script');
+								po.type = 'text/javascript';
+								po.async = true;
+								po.src = 'https://platform.linkedin.com/in.js';
+								var s = document.getElementsByTagName('script')[0];
+								s.parentNode.insertBefore(po, s);
+							};
+		
+							 if (window.addEventListener)
+							  window.addEventListener("load", loadAsyncDeferredLinkedin, false);
+							else if (window.attachEvent)
+							  window.attachEvent("onload", loadAsyncDeferredLinkedin);
+							else
+							  window.onload = loadAsyncDeferredLinkedin;
+						</script>
+						<script type="in/share" data-url="http://www.eurodish.eu/news/58-dish-ri-workshop" data-counter="right"></script>
+						</div>
+
+
+<div class="item-separator"></div>
+		</div>
+			</div>
+
+
+
+</div>
+
+                	
+<div id="system-message-container">
+</div>
+                                <div class="clearboth"></div>
+                                    <div class="latest_news">
+                    <div class="haut"></div>
+                    <div class="contenu_news"> 
+                       		<div class="moduletable">
+					<!------------------------------------- THE CONTENT ------------------------------------------------->
+<div id="lofass88" class="lof-ass " style="height:120px; width:610px">
+<div class="lofass-container   ">
+    
+             
+     <!-- MAIN CONTENT --> 
+      <div class="lof-main-wapper" style="height:111px;width:610px;">
+      	
+                      <div class="lof-main-item ">
+                              
+                				
+                 
+                     
+                 <div class="lof-description">
+                    <h4><a target="_parent" title="Questionnaire by Bridge-Health (a DG-SANTÉ project)" href="/news/59-questionnaire-by-bridge-health-a-dg-sante-project">Questionnaire by Bridge-Health (a DG-SANTÉ project)</a></h4>
+                                        <p>Work on health in pregnancy and young people?
+Please fill in the RICHE project's short online questionnaire by 5 February: https://www.surveymonkey.com/r/BridgeHealth-WP7. The survey is aimed at people who work on the health and well-being of...</p>
+                                     </div>
+                                              </div> 
+                        <div class="lof-main-item">
+                              
+                <img src="http://www.eurodish.eu/cache/lofthumbs/610x111-EuroDISH.png" title="DISH-RI workshop" width="610" alt="DISH-RI workshop" >				
+                 
+                     
+                 <div class="lof-description">
+                    <h4><a target="_parent" title="DISH-RI workshop" href="/news/58-dish-ri-workshop">DISH-RI workshop</a></h4>
+                                        <p>SAVE THE DATE!  
+WORKSHOP DISH-RI
+18 February 2016 – Brussels
+ 
+ 
+Goal: 
+To exchange and discuss in a comprehensive manner the interactions between the overarching DISH-RI and relevant RIs and Programmes.
+DISH‐RI is an overarching RI and...</p>
+                                     </div>
+                                              </div> 
+                        <div class="lof-main-item">
+                              
+                <img src="/images/webinars%20eurodish%20screenshot.png" title="Webinars of the final conference" width="610" alt="Webinars of the final conference" >				
+                 
+                     
+                 <div class="lof-description">
+                    <h4><a target="_parent" title="Webinars of the final conference" href="/news/57-webinars-of-the-final-conference">Webinars of the final conference</a></h4>
+                                        <p>EuroDISH Final Conference Webinars:
+The project’s final conference ‘Proposal for a food &amp; health research infrastructure in Europe’ held in the EU pavilion of the Expo Milano, 15 May 2015, showcased the results of the 3-year EU-funded...</p>
+                                     </div>
+                                              </div> 
+                        <div class="lof-main-item">
+                              
+                				
+                 
+                     
+                 <div class="lof-description">
+                    <h4><a target="_parent" title="Europe needs a better infrastructure for food and health research" href="/news/53-europe-needs-a-better-infrastructure-for-food-and-health-research-3">Europe needs a better infrastructure for food and health research</a></h4>
+                                        <p>&nbsp;
+EuroDISH, a three-year EU-funded project (Sep 2012-Aug 2015), has mapped and defined the infrastructures in four areas of research related to food, nutrition and health. The project identified the gaps and needs of infrastructures required...</p>
+                                     </div>
+                                              </div> 
+                        <div class="lof-main-item">
+                              
+                <img src="http://www.eurodish.eu/cache/lofthumbs/610x111-EuroDISH storify.png" title="Snapshot of EuroDISH final conference" width="610" alt="Snapshot of EuroDISH final conference" >				
+                 
+                     
+                 <div class="lof-description">
+                    <h4><a target="_parent" title="Snapshot of EuroDISH final conference" href="/news/52-snapshot-of-eurodish-final-conference">Snapshot of EuroDISH final conference</a></h4>
+                                        <p>Get a glimpse of what happened at the EuroDISH final conference from our storify: http://bit.ly/1C59HU6 Look out for a webinar of the presentations - coming soon!</p>
+                                     </div>
+                                              </div> 
+                    
+      </div>
+      <!-- END MAIN CONTENT --> 
+        <!-- NAVIGATOR -->
+                      <div class="lof-buttons-control">
+                  <a href="/" onclick="return false;" class="lof-previous">Previous</a>
+                  <a href="/" class="lof-next"  onclick="return false;">Next</a>
+                </div>
+                           
+  </div>
+ </div> <script type="text/javascript">
+
+  var _lofmain =  $('lofass88'); 
+   var object = new LofArticleSlideshow( _lofmain,
+                  { 
+                    fxObject:{
+                    transition:Fx.Transitions.Quad.easeInOut,  
+                    duration:500                    },
+                    startItem:0,
+                    interval:5000,
+                    direction :'vrdown', 
+                    navItemHeight:100,
+                    navItemWidth:310,
+                    navItemsDisplay:3,
+                    navPos:'0',
+					autoStart:1,
+					descOpacity:1                  } );
+      object.registerButtonsControl( 'click', {next:_lofmain.getElement('.lof-next'),
+                         previous:_lofmain.getElement('.lof-previous')} );
+  
+</script>
+
+		</div>
+	
+                    </div>
+                    <div class="bas"></div>
+                  </div>
+					                        <div id="jointheforum">
+                        <a href="/register"><img src="/templates/eurodish/images/jointheforum-home.gif" alt="Join the Euro-DISH forum" align="left" />
+                        <p>Are you interested in food and health research infrastructures?<br />Are you are a researcher, supplier, a policy maker involved in funding decisions or simply interested in how we will investigate the relationship between food and health in the future?</p></a>
+                        <p><a href="/register">Join the discussion on the EuroDISH forum</a>!<br /><a href="/index.php/latest-questions-on-the-forum">Have a look at the latest posts on the forum</a></p>
+                      </div>
+                                                                                   <div class="sharethis_box">
+                    
+                </div>
+            </div>
+            <div class="clearboth"></div>
+      </div> <!-- end containers -->
+      <div class="footer">
+      <img src="/templates/eurodish/images/europe.gif" />
+        <p><strong>© Copyright 2012 EuroDISH</strong><br /> 
+          This project has received funding from the European Union’s Seventh Framework Programme for research, technological development and demonstration. (Contract n°311788)<br />
+  	</div> <!-- end footer -->
+  </div> <!-- end global -->
+  
+</div> 
+</body>
+</html>

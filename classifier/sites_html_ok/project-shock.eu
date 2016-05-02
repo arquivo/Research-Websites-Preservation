@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head"><title>
+	Project SHOCK - Home Page
+</title><meta name="description" content="Web portal providing actual events and information on the FP7 project SHOCK (Solar and Heliospheric Collisionless Kinetics)." /> 
+<meta charset="UTF-8" /> 
+<meta name="keywords" content="SHOCK, FP7, ESA, Solar System, Solar Wind, Space Plasma, Collisionless Kinetics" /> 
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ShockWeb" type="text/css" rel="stylesheet"/> 
+<meta name="robots" content="index, follow" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="author" content="© Copyright 2012 Sprinx Systems, LLC" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=ShockWebPrint" type="text/css" rel="stylesheet" media="print" />
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<![endif]-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29733771-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script> 
+<link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"/> 
+<link href="/favicon.ico" type="image/x-icon" rel="icon"/> 
+<link href="http://project-shock.eu/home/?rss=events" type="application/rss+xml" rel="alternate" title="Events"/> 
+<link href="http://project-shock.eu/home/?rss=blogPosts" type="application/rss+xml" rel="alternate" title="Blog posts"/> 
+</head>
+<body class="LTR ENUS ContentBody" >
+    <form method="post" action="/home.aspx" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTYwODg0MzQ2Ng9kFgICARBkZBYCAgMPZBYCZg9kFgJmD2QWBgIDD2QWAmYPZBYCAgIPZBYCZg9kFgJmD2QWAgIBD2QWBAICD2QWAgICD2QWFGYPZBYCZg9kFgJmDxUCJGh0dHA6Ly9jb3JkaXMuZXVyb3BhLmV1L2hvbWVfZW4uaHRtbHE8aW1nIHNyYz0iL2dldGF0dGFjaG1lbnQvNjMxNDU0NjAtNzNmYi00NTdhLTg3OGYtNmI5M2RhNzAzZGU4L2V1LnBuZy5hc3B4IiB3aWR0aD0iNzIiIGhlaWdodD0iNDUiIGFsdD0iQ09SRElTIiAvPmQCAQ9kFgJmD2QWAmYPFQKEAWh0dHA6Ly9jb3JkaXMuZXVyb3BhLmV1L3Byb2plY3RzL2luZGV4LmNmbT9mdXNlYWN0aW9uPWFwcC5kZXRhaWxzJlRYVD0xMDA5MjEmRlJNPTEmU1RQPTEwJlNJQz0mUEdBPSZDQ1k9JlBDWT0mU1JDPSZMTkc9ZW4mUkVGPTEwMDkyMXI8aW1nIHNyYz0iL2dldGF0dGFjaG1lbnQvZTE3ZGM2ODctNzFmMC00MjljLWFiNTMtOTIwNmU3ZjQ2MjcyL3BhcnRuZXIxLnBuZy5hc3B4IiB3aWR0aD0iNTAiIGhlaWdodD0iNDAiIGFsdD0iNyIgLz5kAgIPZBYCZg9kFgJmDxUCLWh0dHA6Ly9lYy5ldXJvcGEuZXUvcmVzZWFyY2gvZXJhL2luZGV4X2VuLmh0bXQ8aW1nIHNyYz0iL2dldGF0dGFjaG1lbnQvYzJiZWIyYjktZTU4NC00MTBmLWI5NjMtNTM0ZGFhYTQyNjg3L3BhcnRuZXIzLnBuZy5hc3B4IiB3aWR0aD0iNTMiIGhlaWdodD0iNDMiIGFsdD0iRVJBIiAvPmQCAw9kFgJmD2QWAmYPFQIjaHR0cDovL3d3dy5lc2EuaW50L2VzYUNQL2luZGV4Lmh0bWx0PGltZyBzcmM9Ii9nZXRhdHRhY2htZW50Lzg1ZWFiNjk5LTQ1NTEtNDk3NS05M2RmLTAwYjMyMDcxOGQ0OS9wYXJ0bmVyMi5wbmcuYXNweCIgd2lkdGg9Ijc0IiBoZWlnaHQ9IjI2IiBhbHQ9IkVTQSIgLz5kAgQPZBYCZg9kFgJmDxUCFmh0dHA6Ly93d3cucW11bC5hYy51ay99PGltZyBzcmM9Ii9nZXRhdHRhY2htZW50LzVmMjhkMTkyLTk2ZTgtNGEwNS1hNGU0LTFjM2EyYWZkMWI0NC9xdWVlbm1hcnkucG5nLmFzcHgiIHdpZHRoPSIxMjAiIGhlaWdodD0iMzIiIGFsdD0iUXVlZW4gTWFyeSIgLz5kAgUPZBYCZg9kFgJmDxUCE2h0dHA6Ly93d3cuY25ycy5mci9xPGltZyBzcmM9Ii9nZXRhdHRhY2htZW50LzFmMjAxMWQ3LTMzNGYtNDk4Ny1iNDEyLWM4NzY1NjBmZTg4MS9jbnJzLnBuZy5hc3B4IiB3aWR0aD0iNjQiIGhlaWdodD0iNTYiIGFsdD0iQ05SUyIgLz5kAgYPZBYCZg9kFgJmDxUCFmh0dHA6Ly93d3cuYXN1LmNhcy5jei9wPGltZyBzcmM9Ii9nZXRhdHRhY2htZW50L2VkNmY2YWY5LWU0ZDQtNGNlMy05MjM0LTYyNmE0MGU3NDI3Yy9hc3UucG5nLmFzcHgiIHdpZHRoPSIxMDAiIGhlaWdodD0iMzIiIGFsdD0iQVNVIiAvPmQCBw9kFgJmD2QWAmYPFQIRaHR0cDovL3NwcmlueC5jb22AATxpbWcgc3JjPSIvZ2V0YXR0YWNobWVudC8xNWRhZjVkYi1jZDRiLTRjYTItOTc2NS0zMTIzNmUxYTk3OTIvcGFydG5lcjcucG5nLmFzcHgiIHdpZHRoPSIxNDIiIGhlaWdodD0iNzQiIGFsdD0iU3ByaW54IHN5c3RlbXMiIC8+ZAIID2QWAmYPZBYCZg8VAhxodHRwOi8vd3d3LnN0LWFuZHJld3MuYWMudWsviwE8aW1nIHNyYz0iL2dldGF0dGFjaG1lbnQvM2I2MzE5NzYtNmI0YS00YzY4LWFlZTQtNDZiN2Y2NTAyYzEwL3BhcnRuZXI4LnBuZy5hc3B4IiB3aWR0aD0iMTI1IiBoZWlnaHQ9IjUzIiBhbHQ9IlVuaXZlcnNpdHkgb2YgU3QuIEFuZHJld3MiIC8+ZAIJD2QWAmYPZBYCZg8VAiFodHRwOi8vd3d3LnVuaWZpLml0L21kc3dpdGNoLmh0bWx2PGltZyBzcmM9Ii9nZXRhdHRhY2htZW50LzRkODMwMTk2LTVmY2EtNDYxZC1hYjQwLTczMTQ1NTFiY2YyMy9wYXJ0bmVyOS5wbmcuYXNweCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiBhbHQ9IlVOSUZJIiAvPmQCAw8PFgIeB1Zpc2libGVoZGQCBQ9kFgJmD2QWAgICD2QWAmYPZBYCZg9kFgICAQ9kFgICAQ9kFgJmD2QWAmYPFgIeC18hSXRlbUNvdW50AgUWCmYPZBYCZg9kFgJmDxUFZ2h0dHA6Ly93d3cuZXNhLmludC9PdXJfQWN0aXZpdGllcy9PYnNlcnZpbmdfdGhlX0VhcnRoL0NvcGVybmljdXMvU2VudGluZWwtMi9Xb3JsZF9zX2NvcmFsc191bmRlcl90aHJlYXQfV2VkLCAyNCBGZWIgMjAxNiAxNToxODowMCArMDEwMB1Xb3JsZOKAmXMgY29yYWxzIHVuZGVyIHRocmVhdB9XZWQsIDI0IEZlYiAyMDE2IDE1OjE4OjAwICswMTAwUQoJCQkJCQkJCQoJCQpUaGUgY3VycmVudCBFbCBOacOxbyB3ZWF0aGVyIHBoZW5vbWVub24gaXMgdGFraW5nIGl0cyB0b2xsIG9uIGNvci4uLmQCAQ9kFgJmD2QWAmYPFQVUaHR0cDovL3d3dy5lc2EuaW50L091cl9BY3Rpdml0aWVzL1NwYWNlX1NjaWVuY2UvRnJlZWZhbGxfYWNoaWV2ZWRfb25fTElTQV9QYXRoZmluZGVyH1dlZCwgMjQgRmViIDIwMTYgMTM6MDA6MDAgKzAxMDAlRnJlZWZhbGwgYWNoaWV2ZWQgb24gTElTQSBQYXRoZmluZGVyIB9XZWQsIDI0IEZlYiAyMDE2IDEzOjAwOjAwICswMTAwUgoJCQkJCQkJCQoJCQpPbiBNb25kYXksIHRoZSB0d28gY3ViZXMgaG91c2VkIGluIHRoZSBjb3JlIG9mIEVTQeKAmXMgTElTQSBQYXRoZmkuLi5kAgIPZBYCZg9kFgJmDxUFaGh0dHA6Ly93d3cuZXNhLmludC9PdXJfQWN0aXZpdGllcy9TcGFjZV9FbmdpbmVlcmluZ19UZWNobm9sb2d5L0VTQV9pbl9wYXJ0bmVyc2hpcF93aXRoX0V1cm9wZV9zX3JhaWx3YXlzH01vbiwgMjIgRmViIDIwMTYgMTA6Mjg6MDAgKzAxMDArRVNBIGluIHBhcnRuZXJzaGlwIHdpdGggRXVyb3Bl4oCZcyByYWlsd2F5cx9Nb24sIDIyIEZlYiAyMDE2IDEwOjI4OjAwICswMTAwUgoJCQkJCQkJCQoJCQpFdXJvcGXigJlzIHJhaWx3YXkgbmV0d29yayBwbGF5cyBhIHZpdGFsIHJvbGUgaW4ga2VlcGluZyBvdXIgY29udGkuLi5kAgMPZBYCZg9kFgJmDxUFWmh0dHA6Ly93d3cuZXNhLmludC9PdXJfQWN0aXZpdGllcy9TcGFjZV9TY2llbmNlL01hcnNfRXhwcmVzcy9Gb290cHJpbnRzX29mX2FfbWFydGlhbl9mbG9vZB9UaHUsIDE4IEZlYiAyMDE2IDExOjAwOjAwICswMTAwHUZvb3RwcmludHMgb2YgYSBtYXJ0aWFuIGZsb29kH1RodSwgMTggRmViIDIwMTYgMTE6MDA6MDAgKzAxMDBQCgkJCQkJCQkJCgkJCldhdGVyIGhhcyBsZWZ0IGl0cyBtYXJrIGluIGEgdmFyaWV0eSBvZiB3YXlzIGluIHRoaXMgbWFydGlhbiBzY2UuLi5kAgQPZBYCZg9kFgJmDxUFa2h0dHA6Ly93d3cuZXNhLmludC9PdXJfQWN0aXZpdGllcy9TcGFjZV9FbmdpbmVlcmluZ19UZWNobm9sb2d5L1RUUDIvRnVlbF9jZWxsc19wb3dlcmluZ19pbm5lci1jaXR5X3ZlaGljbGVzH1RodSwgMTggRmViIDIwMTYgMDg6MjU6MDAgKzAxMDArRnVlbCBjZWxscyBwb3dlcmluZyBpbm5lci1jaXR5IHZlaGljbGVzICAgIB9UaHUsIDE4IEZlYiAyMDE2IDA4OjI1OjAwICswMTAwUAoJCQkJCQkJCQoJCQpJbm5lci1jaXR5IGRlbGl2ZXJpZXMgaW4gQXVzdHJpYSBtYXkgc29vbiBiZSBwb3dlcmVkIGJ5IHBvbGx1dGlvLi4uZAIJD2QWBAIFD2QWAmYPZBYEAgEPZBYCZg9kFgICAQ9kFgICDw8QDxYCHgRUZXh0BQtSZW1lbWJlciBtZWRkZGQCAw8PFgQeCENzc0NsYXNzBRRQYXNzd29yZFBhbmVsIGhpZGRlbh4EXyFTQgICZGQCBg8PFgIfAGhkZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAgUicCRsdCR6b25lSGVhZGVyJHdTQiRidG5JbWFnZUJ1dHRvbgU/cCRsdCR6b25lSGVhZGVyJFNob2NrX01lbWJlcnNoaXBfTG9nb25Gb3JtJExvZ2luMSRjaGtSZW1lbWJlck1lCniwLUo4zoQbII0nR8r+yi08z6ybpOJJN18IJehPDUI=" />
+</div>
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script src="/ScriptResource.axd?d=1rrp2HpZy7S0we-7PDbAHSwxA6Y5pO090yqdTzA-uEk0hhMsYx0UPraXbBM6vpb1SIWEvpby1Yc3fnOYX2Ll5gCHm-u-mAHI9Q4WuMce2qqZ23SE_Wdj0q08pxwHUkfv0&amp;t=397b6a7" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A5343185" />
+</div>
+    <div id="CMSHeaderDiv">
+	<!-- -->
+</div>
+     
+<div class="wrapper">
+  <!-- Content -->
+  <div class="content">
+      <nav class="TopBreadCrumbs">
+          <div class="breadCrumbs">
+  <span class="image"></span><a href="/" title="project-shock.eu">project-shock.eu</a> |&nbsp; <span  class="CMSBreadCrumbsCurrentItem">Home</span>
+</div>
+      </nav>
+      <section>
+          
+
+ <div class="cntTopLeft">
+  <h1 class="absolute">
+	<a href="/home" title="project-shock.eu"><img alt="project-shock.eu" height="59" src="/App_Themes/ShockWeb/Images/logo.png" width="167" /></a></h1>
+<h2 class="line"><span>Latest Blog Posts</span></h2>
+<section id="Slider">
+  <ul>
+<li>
+<article>
+  <a href="/blog/research-reviews/the-universe-is-in-shock/">
+  <img width="715" height="330" src="/getattachment/a26ec3b7-ddfa-42c9-857f-207a33e75313/The-universe-is-in-shock" alt="The universe is in shock" />
+  </a>
+  <a class="SliderTitle" href="/blog/research-reviews/the-universe-is-in-shock/">The universe is in shock</a>
+</article>
+</li><li>
+<article>
+  <a href="/blog/plasma/electron-energetics-in-the-expanding-solar-wind/">
+  <img width="715" height="330" src="/getattachment/36c3f099-e98b-4d4f-a519-de0e17eb719d/Electron-energetics-in-the-expanding-solar-wind" alt="Electron energetics in the expanding solar wind" />
+  </a>
+  <a class="SliderTitle" href="/blog/plasma/electron-energetics-in-the-expanding-solar-wind/">Electron energetics in the expanding solar wind</a>
+</article>
+</li><li>
+<article>
+  <a href="/blog/research-reviews/data-integration/">
+  <img width="715" height="330" src="/getattachment/e6f10f7f-8ed1-43e6-9b17-4fcb6bcd8292/Data-Integration" alt="Data Integration" />
+  </a>
+  <a class="SliderTitle" href="/blog/research-reviews/data-integration/">Data Integration</a>
+</article>
+</li><li>
+<article>
+  <a href="/blog/simulations/turbulence-vs-kinetic-instabilities/">
+  <img width="715" height="330" src="/getattachment/1824638e-3c0c-456b-ad9a-0f913b517bc9/Turbulence-vs-kinetic-instabilities" alt="Turbulence vs kinetic instabilities" />
+  </a>
+  <a class="SliderTitle" href="/blog/simulations/turbulence-vs-kinetic-instabilities/">Turbulence vs kinetic instabilities</a>
+</article>
+</li><li>
+<article>
+  <a href="/blog/simulations/estimating-proton-heating-related-with-turbulence/">
+  <img width="715" height="330" src="/getattachment/ca67c8d8-a8bb-40a6-be99-e05725fc121c/Estimating-proton-heating-related-with-turbulence" alt="Estimating proton heating related with turbulence in the solar wind by means of high-resolution hybrid simulations" />
+  </a>
+  <a class="SliderTitle" href="/blog/simulations/estimating-proton-heating-related-with-turbulence/">Estimating proton heating related with turbulence in the solar wind by means of high-resolution hybrid simulations</a>
+</article>
+</li>
+  </ul>
+  <nav class="paging"></nav>
+</section><div class="cl"></div>
+<h2 class="line"><span>Partners</span></h2>
+<section id="PartnersSlider">
+  <ul>
+
+
+<li><a href="http://cordis.europa.eu/home_en.html" target="_blank"><img src="/getattachment/63145460-73fb-457a-878f-6b93da703de8/eu.png.aspx" width="72" height="45" alt="CORDIS" /></a></li>
+
+<li><a href="http://cordis.europa.eu/projects/index.cfm?fuseaction=app.details&TXT=100921&FRM=1&STP=10&SIC=&PGA=&CCY=&PCY=&SRC=&LNG=en&REF=100921" target="_blank"><img src="/getattachment/e17dc687-71f0-429c-ab53-9206e7f46272/partner1.png.aspx" width="50" height="40" alt="7" /></a></li>
+
+<li><a href="http://ec.europa.eu/research/era/index_en.htm" target="_blank"><img src="/getattachment/c2beb2b9-e584-410f-b963-534daaa42687/partner3.png.aspx" width="53" height="43" alt="ERA" /></a></li>
+
+<li><a href="http://www.esa.int/esaCP/index.html" target="_blank"><img src="/getattachment/85eab699-4551-4975-93df-00b320718d49/partner2.png.aspx" width="74" height="26" alt="ESA" /></a></li>
+
+<li><a href="http://www.qmul.ac.uk/" target="_blank"><img src="/getattachment/5f28d192-96e8-4a05-a4e4-1c3a2afd1b44/queenmary.png.aspx" width="120" height="32" alt="Queen Mary" /></a></li>
+
+<li><a href="http://www.cnrs.fr/" target="_blank"><img src="/getattachment/1f2011d7-334f-4987-b412-c876560fe881/cnrs.png.aspx" width="64" height="56" alt="CNRS" /></a></li>
+
+<li><a href="http://www.asu.cas.cz/" target="_blank"><img src="/getattachment/ed6f6af9-e4d4-4ce3-9234-626a40e7427c/asu.png.aspx" width="100" height="32" alt="ASU" /></a></li>
+
+<li><a href="http://sprinx.com" target="_blank"><img src="/getattachment/15daf5db-cd4b-4ca2-9765-31236e1a9792/partner7.png.aspx" width="142" height="74" alt="Sprinx systems" /></a></li>
+
+<li><a href="http://www.st-andrews.ac.uk/" target="_blank"><img src="/getattachment/3b631976-6b4a-4c68-aee4-46b7f6502c10/partner8.png.aspx" width="125" height="53" alt="University of St. Andrews" /></a></li>
+
+<li><a href="http://www.unifi.it/mdswitch.html" target="_blank"><img src="/getattachment/4d830196-5fca-461d-ab40-7314551bcf23/partner9.png.aspx" width="60" height="60" alt="UNIFI" /></a></li>
+  </ul>
+  <a href="#" title="Previous" class="PSPrev">&lt;</a>
+  <a href="#" title="Next" class="PSNext">&gt;</a>
+</section>
+  </div>
+ 
+
+      </section>
+      <aside class="rightBox">
+          
+
+<div class="cntTopRight news">
+  <span class="overlay topLeft"></span>
+  <h3><a href="http://www.esa.int" target="blank" title="European Search Agency">
+ESA News</a></h3>
+<div class="feed-data"><div class="TextContent">
+  <div class="NewsPreviewTitle">
+      <a href="http://www.esa.int/Our_Activities/Observing_the_Earth/Copernicus/Sentinel-2/World_s_corals_under_threat" target="blank"><!--Wed, 24 Feb 2016 15:18:00 +0100 - -->World’s corals under threat</a>
+  </div>
+  <div class="NewsPreviewSummary TextContent">
+  <span class="date">Wed, 24 Feb 2016 15:18:00 +0100</span>
+      
+								
+		
+The current El Niño weather phenomenon is taking its toll on cor...
+  </div>
+</div><div class="TextContent">
+  <div class="NewsPreviewTitle">
+      <a href="http://www.esa.int/Our_Activities/Space_Science/Freefall_achieved_on_LISA_Pathfinder" target="blank"><!--Wed, 24 Feb 2016 13:00:00 +0100 - -->Freefall achieved on LISA Pathfinder </a>
+  </div>
+  <div class="NewsPreviewSummary TextContent">
+  <span class="date">Wed, 24 Feb 2016 13:00:00 +0100</span>
+      
+								
+		
+On Monday, the two cubes housed in the core of ESA’s LISA Pathfi...
+  </div>
+</div><div class="TextContent">
+  <div class="NewsPreviewTitle">
+      <a href="http://www.esa.int/Our_Activities/Space_Engineering_Technology/ESA_in_partnership_with_Europe_s_railways" target="blank"><!--Mon, 22 Feb 2016 10:28:00 +0100 - -->ESA in partnership with Europe’s railways</a>
+  </div>
+  <div class="NewsPreviewSummary TextContent">
+  <span class="date">Mon, 22 Feb 2016 10:28:00 +0100</span>
+      
+								
+		
+Europe’s railway network plays a vital role in keeping our conti...
+  </div>
+</div><div class="TextContent">
+  <div class="NewsPreviewTitle">
+      <a href="http://www.esa.int/Our_Activities/Space_Science/Mars_Express/Footprints_of_a_martian_flood" target="blank"><!--Thu, 18 Feb 2016 11:00:00 +0100 - -->Footprints of a martian flood</a>
+  </div>
+  <div class="NewsPreviewSummary TextContent">
+  <span class="date">Thu, 18 Feb 2016 11:00:00 +0100</span>
+      
+								
+		
+Water has left its mark in a variety of ways in this martian sce...
+  </div>
+</div><div class="TextContent">
+  <div class="NewsPreviewTitle">
+      <a href="http://www.esa.int/Our_Activities/Space_Engineering_Technology/TTP2/Fuel_cells_powering_inner-city_vehicles" target="blank"><!--Thu, 18 Feb 2016 08:25:00 +0100 - -->Fuel cells powering inner-city vehicles    </a>
+  </div>
+  <div class="NewsPreviewSummary TextContent">
+  <span class="date">Thu, 18 Feb 2016 08:25:00 +0100</span>
+      
+								
+		
+Inner-city deliveries in Austria may soon be powered by pollutio...
+  </div>
+</div>
+</div>
+  </div> 
+
+
+      </aside>      
+   </div>
+   <div class="contentBottom">
+      
+ 
+
+
+  <div class="ContentBottomLeft">
+     <h2 class="line"><span>Latest Events</span></h2>
+<section id="LatestBlogposts">
+  <div class="slider">
+<article class="BlogPost">
+  <a href="/project-shock/events-meetings/2015-agu-fall-meeting/">
+  <div class="dateBlog">
+     <span class="day">14.12.</span>
+     <span class="year">2015</span>
+   </div>
+  <h3>2015 AGU Fall meeting </h3>
+  <p>
+	With nearly 24,000 attendees, the AGU Fall Meeting is the largest Earth an...</p>
+  <strong><span class="date">Date:</span> 14.12.2015 - 18.12.2015</strong><br />
+  <strong><span class="place">Venue: </span>Moscone Convention Center, 747 Howard Street, San Francisco, California</strong>
+  </a>
+</article><article class="BlogPost">
+  <a href="/project-shock/events-meetings/first-joint-solar-probe-plus-solar-orbiter-worksho/">
+  <div class="dateBlog">
+     <span class="day">02.09.</span>
+     <span class="year">2015</span>
+   </div>
+  <h3>First Joint Solar Probe Plus-Solar Orbiter Workshop 2015</h3>
+  <p>The first joint Solar Probe Plus - Solar Orbiter Workshop will take place in ...</p>
+  <strong><span class="date">Date:</span> 02.09.2015 - 04.09.2015</strong><br />
+  <strong><span class="place">Venue: </span>Villa "La Ferdinanda" in the village of Artimino</strong>
+  </a>
+</article><article class="BlogPost">
+  <a href="/project-shock/events-meetings/eps-conference-on-high-energy-physics-2015/">
+  <div class="dateBlog">
+     <span class="day">22.07.</span>
+     <span class="year">2015</span>
+   </div>
+  <h3>EPS Conference on High Energy Physics 2015</h3>
+  <p>
+	The European Physical Society Conference on High Energy Physics (EPS-HEP) ...</p>
+  <strong><span class="date">Date:</span> 22.07.2015 - 29.07.2015</strong><br />
+  <strong><span class="place">Venue: </span>University of Vienna, Austria</strong>
+  </a>
+</article><article class="BlogPost">
+  <a href="/project-shock/events-meetings/solar-wind-14/">
+  <div class="dateBlog">
+     <span class="day">22.06.</span>
+     <span class="year">2015</span>
+   </div>
+  <h3>Solar Wind 14</h3>
+  <p>The Fourteenth International Solar Wind Conference will be held for the first...</p>
+  <strong><span class="date">Date:</span> 22.06.2015 - 26.06.2015</strong><br />
+  <strong><span class="place">Venue: </span>Shandong University, 264209 Weihai, Shandong, China</strong>
+  </a>
+</article><article class="BlogPost">
+  <a href="/project-shock/events-meetings/joint-storm-shock-meeting/">
+  <div class="dateBlog">
+     <span class="day">24.03.</span>
+     <span class="year">2015</span>
+   </div>
+  <h3>Joint STORM - SHOCK Meeting</h3>
+  <p>A joint meeting of the FP7 projects STORM&nbsp;and SHOCK is organised in Brus...</p>
+  <strong><span class="date">Date:</span> 24.03.2015 - 25.03.2015</strong><br />
+  <strong><span class="place">Venue: </span>Belgian Institute for Space Aeronomy, Avenue Circulaire 3, 1180 Brussels, Belgium</strong>
+  </a>
+</article>
+  </div>  
+  <a href="#" class="ESPrev">&gl;</a>
+  <a href="#" class="ESNext">&gt;</a>
+</section>
+  </div>
+  <div class="ContentBottomRight">
+    <h2 class="line"><span>Event calendar</span></h2>
+<section id="Calendar"><div id="p_lt_zoneContentBottom_plcBottom_plcBottom_lt_zoneContentBottomRight_EventCalendar_pnlUpdate">
+	
+<div class="Calendar">
+    <table id="p_lt_zoneContentBottom_plcBottom_plcBottom_lt_zoneContentBottomRight_EventCalendar_calItems" class="EventCalendar" cellspacing="1" cellpadding="0" title="Calendar" style="border-width:0px;">
+		<tr><td colspan="7" style="background-color:Black;"><table class="EventCalendarHeader" cellspacing="0" style="width:100%;border-collapse:collapse;">
+			<tr><td class="EventCalendarNextPrev" style="width:15%;"><a href="javascript:__doPostBack('p$lt$zoneContentBottom$plcBottom$plcBottom$lt$zoneContentBottomRight$EventCalendar$calItems','V5844')" style="color:Black" title="Go to the previous month">&lt;</a></td><td align="center" style="width:70%;">February 2016</td><td class="EventCalendarNextPrev" align="right" style="width:15%;"><a href="javascript:__doPostBack('p$lt$zoneContentBottom$plcBottom$plcBottom$lt$zoneContentBottomRight$EventCalendar$calItems','V5904')" style="color:Black" title="Go to the next month">&gt;</a></td></tr>
+		</table></td></tr><tr><th align="center" abbr="Monday" scope="col">Mon</th><th align="center" abbr="Tuesday" scope="col">Tue</th><th align="center" abbr="Wednesday" scope="col">Wed</th><th align="center" abbr="Thursday" scope="col">Thu</th><th align="center" abbr="Friday" scope="col">Fri</th><th align="center" abbr="Saturday" scope="col">Sat</th><th align="center" abbr="Sunday" scope="col">Sun</th></tr><tr><td class="EventCalendarOtherMonthDayStyle" align="center" style="width:14%;">25<br /><span></span></td><td class="EventCalendarOtherMonthDayStyle" align="center" style="width:14%;">26<br /><span></span></td><td class="EventCalendarOtherMonthDayStyle" align="center" style="width:14%;">27<br /><span></span></td><td class="EventCalendarOtherMonthDayStyle" align="center" style="width:14%;">28<br /><span></span></td><td class="EventCalendarOtherMonthDayStyle" align="center" style="width:14%;">29<br /><span></span></td><td class="EventCalendarOtherMonthDayStyle" align="center" style="width:14%;">30<br /><span></span></td><td class="EventCalendarOtherMonthDayStyle" align="center" style="width:14%;">31<br /><span></span></td></tr><tr><td class="EventCalendarDayStyle" align="center" style="width:14%;">1<br /><span></span></td><td class="EventCalendarDayStyle" align="center" style="width:14%;">2<br /><span></span></td><td class="EventCalendarDayStyle" align="center" style="width:14%;">3<br /><span></span></td><td class="EventCalendarDayStyle" align="center" style="width:14%;">4<br /><span></span></td><td class="EventCalendarDayStyle" align="center" style="width:14%;">5<br /><span></span></td><td class="EventCalendarWeekendDayStyle" align="center" style="width:14%;">6<br /><span></span></td><td class="EventCalendarWeekendDayStyle" align="center" style="width:14%;">7<br /><span></span></td></tr><tr><td class="EventCalendarDayStyle" align="center" style="width:14%;">8<br /><span></span></td><td class="EventCalendarDayStyle" align="center" style="width:14%;">9<br /><span></span></td><td class="EventCalendarDayStyle" align="center" style="width:14%;">10<br /><span></span></td><td class="EventCalendarDayStyle" align="center" style="width:14%;">11<br /><span></span></td><td class="EventCalendarDayStyle" align="center" style="width:14%;">12<br /><span></span></td><td class="EventCalendarWeekendDayStyle" align="center" style="width:14%;">13<br /><span></span></td><td class="EventCalendarWeekendDayStyle" align="center" style="width:14%;">14<br /><span></span></td></tr><tr><td class="EventCalendarDayStyle" align="center" style="width:14%;">15<br /><span></span></td><td class="EventCalendarDayStyle" align="center" style="width:14%;">16<br /><span></span></td><td class="EventCalendarDayStyle" align="center" style="width:14%;">17<br /><span></span></td><td class="EventCalendarDayStyle" align="center" style="width:14%;">18<br /><span></span></td><td class="EventCalendarDayStyle" align="center" style="width:14%;">19<br /><span></span></td><td class="EventCalendarWeekendDayStyle" align="center" style="width:14%;">20<br /><span></span></td><td class="EventCalendarWeekendDayStyle" align="center" style="width:14%;">21<br /><span></span></td></tr><tr><td class="EventCalendarDayStyle" align="center" style="width:14%;">22<br /><span></span></td><td class="EventCalendarDayStyle" align="center" style="width:14%;">23<br /><span></span></td><td class="EventCalendarDayStyle" align="center" style="width:14%;">24<br /><span></span></td><td class="EventCalendarTodayDayStyle" align="center" style="width:14%;">25<br /><span></span></td><td class="EventCalendarDayStyle" align="center" style="width:14%;">26<br /><span></span></td><td class="EventCalendarWeekendDayStyle" align="center" style="width:14%;">27<br /><span></span></td><td class="EventCalendarWeekendDayStyle" align="center" style="width:14%;">28<br /><span></span></td></tr><tr><td class="EventCalendarDayStyle" align="center" style="width:14%;">29<br /><span></span></td><td class="EventCalendarOtherMonthDayStyle" align="center" style="width:14%;">1<br /><span></span></td><td class="EventCalendarOtherMonthDayStyle" align="center" style="width:14%;">2<br /><span></span></td><td class="EventCalendarOtherMonthDayStyle" align="center" style="width:14%;">3<br /><span></span></td><td class="EventCalendarOtherMonthDayStyle" align="center" style="width:14%;">4<br /><span></span></td><td class="EventCalendarOtherMonthDayStyle" align="center" style="width:14%;">5<br /><span></span></td><td class="EventCalendarOtherMonthDayStyle" align="center" style="width:14%;">6<br /><span></span></td></tr>
+	</table>
+</div>
+<div class="EventDetail">
+    
+</div>
+
+</div></section> 
+  </div>
+   
+   </div>
+   <!-- Header -->
+   <header>
+      <a href="/" title="Back to homepage" class="logo">project-shock.eu</a><div class="logoPrint">
+	<img alt="SHOCK" height="59" src="/App_Themes/ShockWeb/Images/shock_bw_rss.png" width="167" /></div>
+<div class="smartSearchBox"><div id="p_lt_zoneHeader_wSB_pnlSearch" class="searchBox">
+	
+    <label for="p_lt_zoneHeader_wSB_txtWord" id="p_lt_zoneHeader_wSB_lblSearch" style="display:none;">Search for:</label>
+    <input name="p$lt$zoneHeader$wSB$txtWord" type="text" maxlength="1000" id="p_lt_zoneHeader_wSB_txtWord" class="searchTextbox" />
+    
+    <input type="image" name="p$lt$zoneHeader$wSB$btnImageButton" id="p_lt_zoneHeader_wSB_btnImageButton" class="searchButton" src="/App_Themes/ShockWeb/Images/searchIcon.png" alt="Search" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;p$lt$zoneHeader$wSB$btnImageButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" />
+
+</div>
+</div><nav class="MainMenu">
+	<ul class="topMenuCMSListMenuUL" id="tm">
+		<li class="topMenuCMSListMenuHighlightedLI"><a href="/home/" class="topMenuCMSListMenuLinkHighlighted" >Home</a></li>
+		<li class="topMenuCMSListMenuLI"><a href="/project-shock/" class="topMenuCMSListMenuLink" >Project SHOCK</a><img border="0" alt="Project SHOCK" src="/App_Themes/ShockWeb/Images/submenuIndicator.png" />
+		<ul class="topMenuCMSListMenuUL">
+			<li class="topMenuCMSListMenuLI"><a href="/project-shock/project-summary/" class="topMenuCMSListMenuLink" >Project Summary</a></li>
+			<li class="topMenuCMSListMenuLI"><a href="/project-shock/project-glossary/" class="topMenuCMSListMenuLink" >Project Glossary</a></li>
+			<li class="topMenuCMSListMenuLI"><a href="/project-shock/project-plan/" class="topMenuCMSListMenuLink" >Project Plan</a></li>
+			<li class="topMenuCMSListMenuLI"><a href="/project-shock/project-team/" class="topMenuCMSListMenuLink" >Project Team</a></li>
+			<li class="topMenuCMSListMenuLI"><a href="/project-shock/events-meetings/" class="topMenuCMSListMenuLink" >Events &amp; Meetings</a></li>
+			<li class="topMenuCMSListMenuLI"><a href="/project-shock/relevant-publications/" class="topMenuCMSListMenuLink" >Relevant Publications</a></li>
+			<li class="topMenuCMSListMenuLI" style=""><a href="/project-shock/reports/" class="topMenuCMSListMenuLink" style="" >Reports</a></li>
+			<li class="topMenuCMSListMenuLI"><a href="/project-shock/download/" class="topMenuCMSListMenuLink" >Download</a></li>
+			<li class="topMenuCMSListMenuLI"><a href="/project-shock/faq/" class="topMenuCMSListMenuLink" >FAQ</a></li>
+		</ul>
+		</li>
+		<li class="topMenuCMSListMenuLI" style=""><a href="/http-/vml-sprinx-net/" class="topMenuCMSListMenuLink" style="" onclick="javascript:window.open('http://amalka.asu.cas.cz/esa/index.php', '_blank');return false;"  >VML Portal</a></li>
+		<li class="topMenuCMSListMenuLI" style=""><a href="/blog/" class="topMenuCMSListMenuLink" style="" >Blog</a></li>
+		<li class="topMenuCMSListMenuLI"><a href="/contact/" class="topMenuCMSListMenuLink" >Contact</a></li>
+	</ul>
+
+</nav><div class="LoginLink">
+      <span>
+   Login   </span>
+</div><div class="LoginForm"><div id="p_lt_zoneHeader_Shock_Membership_LogonForm_pnlBody" class="LogonPageBackground">
+	
+  
+      <div id="p_lt_zoneHeader_Shock_Membership_LogonForm_Login1_pnlLogin" class="LoginPanel">
+		
+        <div class="message"></div>
+        <div class="form-row">
+          <label for="p_lt_zoneHeader_Shock_Membership_LogonForm_Login1_UserName" id="p_lt_zoneHeader_Shock_Membership_LogonForm_Login1_lblUserName">User name:</label>
+          <input name="p$lt$zoneHeader$Shock_Membership_LogonForm$Login1$UserName" type="text" maxlength="100" id="p_lt_zoneHeader_Shock_Membership_LogonForm_Login1_UserName" class="LogonTextBox" />
+          <span class="CMSValidator"></span>
+        </div>
+        <div class="form-row">
+          <label for="p_lt_zoneHeader_Shock_Membership_LogonForm_Login1_Password" id="p_lt_zoneHeader_Shock_Membership_LogonForm_Login1_lblPassword">Password:</label>
+          <input name="p$lt$zoneHeader$Shock_Membership_LogonForm$Login1$Password" type="password" maxlength="110" id="p_lt_zoneHeader_Shock_Membership_LogonForm_Login1_Password" class="LogonTextBox" />
+          <span class="CMSValidator"></span>
+        </div>
+        <div class="form-row checkbox">
+          <input id="p_lt_zoneHeader_Shock_Membership_LogonForm_Login1_chkRememberMe" type="checkbox" name="p$lt$zoneHeader$Shock_Membership_LogonForm$Login1$chkRememberMe" /><label for="p_lt_zoneHeader_Shock_Membership_LogonForm_Login1_chkRememberMe">Remember me</label>
+        </div>
+        <div class="buttons">
+          <div><a id="p_lt_zoneHeader_Shock_Membership_LogonForm_Login1_lnkPasswdRetrieval" class="newPasswordLink" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;p$lt$zoneHeader$Shock_Membership_LogonForm$Login1$lnkPasswdRetrieval&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">I forgot my password</a></div>
+          <input type="submit" name="p$lt$zoneHeader$Shock_Membership_LogonForm$Login1$LoginButton" value="Log me" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;p$lt$zoneHeader$Shock_Membership_LogonForm$Login1$LoginButton&quot;, &quot;&quot;, true, &quot;p_lt_zoneHeader_Shock_Membership_LogonForm_Logon&quot;, &quot;&quot;, false, false))" id="p_lt_zoneHeader_Shock_Membership_LogonForm_Login1_LoginButton" class="button" />
+        </div>
+      
+	</div>
+    
+  
+  <div id="p_lt_zoneHeader_Shock_Membership_LogonForm_pnlPasswdRetrieval" class="PasswordPanel hidden">
+		
+    <div class="message"></div>
+    <div class="form-row">
+      <label for="p_lt_zoneHeader_Shock_Membership_LogonForm_txtPasswordRetrieval" id="p_lt_zoneHeader_Shock_Membership_LogonForm_lblPasswdRetrieval">Your user name or e-mail:</label>
+      <input name="p$lt$zoneHeader$Shock_Membership_LogonForm$txtPasswordRetrieval" type="text" id="p_lt_zoneHeader_Shock_Membership_LogonForm_txtPasswordRetrieval" class="LogonTextBox" />
+      <span class="CMSValidator"></span>
+    </div>
+    <div class="buttons">
+      <div><a id="p_lt_zoneHeader_Shock_Membership_LogonForm_lnkLogon" class="logonLink" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;p$lt$zoneHeader$Shock_Membership_LogonForm$lnkLogon&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Log on</a></div>
+      <input type="submit" name="p$lt$zoneHeader$Shock_Membership_LogonForm$btnPasswdRetrieval" value="Send password" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;p$lt$zoneHeader$Shock_Membership_LogonForm$btnPasswdRetrieval&quot;, &quot;&quot;, true, &quot;p_lt_zoneHeader_Shock_Membership_LogonForm_PasswordRetrieval&quot;, &quot;&quot;, false, false))" id="p_lt_zoneHeader_Shock_Membership_LogonForm_btnPasswdRetrieval" class="button" />
+    </div>          
+  
+	</div>
+
+</div>
+<input type="hidden" name="p$lt$zoneHeader$Shock_Membership_LogonForm$hdnPasswDisplayed" id="p_lt_zoneHeader_Shock_Membership_LogonForm_hdnPasswDisplayed" />
+</div>
+
+
+
+
+
+
+   </header>
+  <div class="cl"></div>
+  <!-- Footer -->
+  <footer>
+    The portal is created under the <strong><a href="/project-shock/project-summary.aspx/" >SHOCK Project</a></strong> of the <strong><a href="http://cordis.europa.eu/projects/index.cfm?fuseaction=app.details&amp;TXT=100921&amp;FRM=1&amp;STP=10&amp;SIC=&amp;PGA=&amp;CCY=&amp;PCY=&amp;SRC=&amp;LNG=en&amp;REF=100921" target="_blank">FP7</a></strong> (<strong><a href="http://cordis.europa.eu/home_en.html" target="_blank">EC</a></strong>)	<br />
+<span style="color:#474761">
+<a href="/other/site-map.aspx">Sitemap</a> | <a href="/contact">Contact</a> 
+</span><div class="lastModifed">Last modifed: <strong>12/10/2012 5:27:25 PM</strong><br />
+<a class="rssFooter" href="/SpecialPages/RSS-Feeds">RSS Feeds</a></div>
+  </footer>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="/CMSScripts/Shock/jquery.carouFredSel-5.5.0-packed.js"></script>
+<script src="/CMSScripts/Shock/jquery.tablesorter.min.js"></script>
+<script src="/CMSScripts/Shock/ui.js"></script>
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+</form>
+</body>
+</html>

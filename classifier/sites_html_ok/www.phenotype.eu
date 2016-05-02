@@ -1,0 +1,1149 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
+
+<head>
+  <base href="http://www.phenotype.eu/en" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Phenotype</title>
+  <link href="/en?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/en?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/templates/phoenicis/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/phoenicis/css/k2.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.phenotype.eu/modules/mod_mailchimpsignup/assets/css/default.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_jflanguageselection/tmpl/mod_jflanguageselection.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_qloginpopup/css/qloginpopup.css" type="text/css" />
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/modal.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script type="text/javascript" src="/components/com_k2/js/k2.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+  <script type="text/javascript" src="http://www.phenotype.eu/modules/mod_coinslider/js/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="http://www.phenotype.eu/modules/mod_coinslider/js/coin-slider.js"></script>
+  <script type="text/javascript">
+
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({});
+
+			$$('a.modal').each(function(el) {
+				el.addEvent('click', function(e) {
+					new Event(e).stop();
+					SqueezeBox.fromElement(el);
+				});
+			});
+		});var K2SitePath = '/';
+			window.addEvent('domready', function() {
+		    SqueezeBox.initialize({});
+		    $$('a.modal').each(function(el) {
+		      el.addEvent('click', function(e) {
+		        new Event(e).stop();
+		        SqueezeBox.fromElement(el);
+		      });
+		    });
+		  });
+  </script>
+  <script type="text/javascript"> jQuery.noConflict(); </script>
+  <style type="text/css">#coin-slider-wrapper {
+			margin-left: auto;
+			margin-right: auto;
+			width: 940px;
+        }.coin-slider { overflow: hidden; zoom: 1; position: relative; }
+.coin-slider a{ text-decoration: none; outline: none; border: none; }
+.cs-buttons { font-size: 0px; padding: 10px; float: left; }
+.cs-buttons a { margin-left: 5px; height: 10px; width: 10px; float: left; border: 1px solid #B8C4CF; color: #B8C4CF; text-indent: -1000px; }
+.cs-active { background-color: #B8C4CF; color: #FFFFFF; }.cs-title { width: 920px; padding: 10px; background-color: black; color: green; }
+.cs-prev, .cs-next { background-color: #000000; color: #FFFFFF; padding: 0px 10px; }
+</style>
+
+
+<link rel="stylesheet" href="http://www.phenotype.eu/templates/system/css/system.css" type="text/css" />
+<link rel="stylesheet" href="http://www.phenotype.eu/templates/system/css/general.css" type="text/css" />
+<link rel="stylesheet" href="http://www.phenotype.eu/templates/phoenicis/css/addons.css" type="text/css" />
+<link rel="stylesheet" href="http://www.phenotype.eu/templates/phoenicis/css/layout.css" type="text/css" />
+<link rel="stylesheet" href="http://www.phenotype.eu/templates/phoenicis/css/template.css" type="text/css" />
+<link rel="stylesheet" href="http://www.phenotype.eu/templates/phoenicis/css/typo.css" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic&subset=latin,greek-ext,greek,vietnamese,latin-ext,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
+<atom:link href="http://www.phenotype.eu/rss.xml" rel="self" type="application/rss+xml" />
+<!--[if IE]>
+<link rel="stylesheet" href="http://www.phenotype.eu/templates/phoenicis/css/ie.css" type="text/css" />
+<![endif]-->
+
+<!--[if lt IE 7.0]>
+<link rel="stylesheet" href="http://www.phenotype.eu/templates/phoenicis/css/ie7minus.css" type="text/css" />
+<style>
+.main { width: expression(document.body.clientWidth < 770? "770px" : document.body.clientWidth > 1200? "1200px" : "auto"); }
+</style>
+<![endif]-->
+
+<!--[if IE 7.0]>
+<style>
+.clearfix { display: inline-block; } /* IE7xhtml*/
+</style>
+<![endif]-->
+<meta name="keywords" content="green space, urban planning, health, environment, europe, spain, phenotype" />
+<meta name="description" content="PHENOTYPE. Health from outside in. Positive health effects on the natural outdoor environment in typical populations of differents regions in Europe." />
+  
+  
+<link rel="image_src" href="http://www.phenotype.eu/images/estructura/logo_phenotype.gif" />
+<link rel="image_src" href="http://www.phenotype.eu/images/estructura/http://www.phenotype.eu/images/phenotype_project.jpg" />
+<script type="text/javascript">
+var siteurl='http://www.phenotype.eu/';
+var tmplurl='http://www.phenotype.eu/templates/phoenicis';
+</script>
+
+<script language="javascript" type="text/javascript" src="http://www.phenotype.eu/templates/phoenicis/js/ja.script.js"></script>
+<script language="javascript" type="text/javascript" src="http://www.phenotype.eu/templates/phoenicis/js/ja.ddmod.js"></script>
+
+<!--<script language="javascript" type="text/javascript" src="http://www.phenotype.eu/templates/phoenicis/libs/cufon/js/cufon-yui.js"></script>
+<script language="javascript" type="text/javascript" src="http://www.phenotype.eu/templates/phoenicis/libs/cufon/fonts/Sansation_400-Sansation_700.font.js"></script>
+<script type="text/javascript">
+	Cufon.replace(
+		'h1, h2, h3, h4, h5, h6, .componentheading, .contentheading, .ja-zintitle a, .group-title .menu-title',
+		{ fontFamily: 'Sansation',
+		  fontWeight: '700'
+		}
+	);
+</script> -->
+
+<link href="http://www.phenotype.eu/templates/phoenicis/css/menu/mega.css" rel="stylesheet" type="text/css" /><script src="http://www.phenotype.eu/templates/phoenicis/js/menu/mega.js" language="javascript" type="text/javascript"></script>
+<link href="http://www.phenotype.eu/templates/phoenicis/css/colors/default.css" rel="stylesheet" type="text/css" />
+
+
+
+<!--Width of template -->
+<style type="text/css">
+.main {width: 960px;margin: 0px auto 0px auto;}
+#ja-wrapper {min-width: 961px;}
+#ja-header .main {height: 60px;}
+h1.logo, h1.logo a { height: 51px; width: 200px;}
+h1.logo, div.logo-text { margin-top: 15px; margin-left: 0px; }
+</style>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+
+ _gaq.push(['_setAccount', 'UA-12224711-7']);
+
+  _gaq.push(['_trackPageview']);
+
+ 
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+</script>
+
+<style type="text/css">
+                div#cookieMessageContainer{
+                    font: 12px/16px Helvetica,Arial,Verdana,sans-serif;
+					position:fixed;
+                    z-index:999999;
+                    top:0;
+					right:0;
+                    margin:0 auto;
+					padding: 5px;
+                }
+                #cookieMessageText p,.accept{font: 12px/16px Helvetica,Arial,Verdana,sans-serif;margin:0;padding:0 0 6px;text-align:left;vertical-align:middle}
+				.accept label{vertical-align:middle}
+				#cookieMessageContainer table,#cookieMessageContainer tr,#cookieMessageContainer td{margin:0;padding:0;vertical-align:middle;border:0;background:none}
+                #cookieMessageAgreementForm{margin:0 0 0 10px}
+                #cookieMessageInformationIcon{margin:0 10px 0 0;height:29px}
+                #continue_button{vertical-align:middle;cursor:pointer;margin:0 0 0 10px}
+                #info_icon{vertical-align:middle;margin:5px 0 0}
+                #buttonbarContainer{height:29px;margin:0 0 -10px}
+				input#AcceptCookies{margin:0 10px;vertical-align:middle}
+				#cookieMessageContainer .cookie_button{background: url(http://www.phenotype.eu/plugins/system/EUCookieDirectiveLite/images/continue_button.png);text-shadow: #fff 0.1em 0.1em 0.2em; color: #000; padding: 5px 12px;height: 14px;float: left;}
+				.accept {float: left;padding: 5px 6px 4px 15px;}
+            </style>
+</head>
+
+<body id="bd" class="fs3 Others">
+<div id="ja-wrapper">
+	<a name="Top" id="Top"></a>
+
+	<!-- HEADER -->
+	<div id="ja-header" class="wrap">
+<div class="main">
+<div class="inner clearfix">
+
+		<h1 class="logo">
+		<a href="/index.php" title="Phenotype"><span>Phenotype</span></a>
+	</h1>
+		
+		<div id="ja-topnav">
+		<div id="jflanguageselection"><ul class="jflanguageselection"><li id="active_language"><a href="http://www.phenotype.eu/en" ><span lang="en" xml:lang="en">En</span></a></li><li><a href="http://www.phenotype.eu/es" ><span lang="es" xml:lang="es">Es</span></a></li><li><a href="http://www.phenotype.eu/lt" ><span lang="lt" xml:lang="lt">Lt</span></a></li><li><a href="http://www.phenotype.eu/fr" ><span lang="fr" xml:lang="fr">Fr</span></a></li></ul></div><!--JoomFish V2.2.3 (Feng Huang)-->
+<!-- &copy; 2003-2012 Think Network, released under the GPL. -->
+<!-- More information: at http://www.joomfish.net -->
+<!--[if lte IE 6]>
+<style type="text/css">
+	#helpdiv FORM INPUT.bt{
+	background: url(modules/mod_qloginpopup/images/login1.jpg) no-repeat;
+}
+</style>
+<![endif]-->
+
+
+<div id="alg" align="center">
+	<div id="loginbt">
+		<div class="text-login">
+			<a href="#helpdiv" class="modal" style="cursor:pointer" title="Login" rel="{size: {x: 206, y: 333}, ajaxOptions: {method: &quot;get&quot;}}">
+				Login
+			</a>
+		</div>
+	</div>
+		
+</div>		
+<div style="display:none;">
+	<div id="helpdiv" >
+		<form action="/en" method="post" name="login" id="form-login" >
+								<div class="title"> Login</div>
+				<div class="ip">
+				<p class="form-login">
+					<label for="nq-mod_username"> User name</label><br />
+					<input id="nq-mod_username" type="text" name="username" class="ipbox" alt="username" size="18" />
+				</p>
+				<p class="form-password">
+					<label for="nq-mod_passwd"> Password</label><br />
+					<input id="nq-mod_passwd" type="password" name="passwd" class="ipbox" size="18" alt="password" />
+				</p>
+								<p id="form-remember">
+					<input id="nq-mod_remember" type="checkbox" name="Remember"  value="yes" alt="Remember Me" />
+					<label for="nq-mod_remember"> Remember me</label>
+				</p>
+								<p class="form-submit">
+				<input type="submit" name="Submit" class="bt" style="cursor:pointer;" value=" Login" />
+				</p>   
+				</div>
+				<ul class="fx">
+					<li>
+						<a href="/en/component/user/reset">
+							 > Forgot your password						</a>
+					</li>
+					<li>
+						<a href="/en/component/user/remind">
+							 > Forgot your username						</a>
+					</li>
+									</ul>
+							
+				<input type="hidden" name="option" value="com_user" />
+				<input type="hidden" name="task" value="login" />
+				<input type="hidden" name="return" value="L2VuL2hvbWU=" />
+				<input type="hidden" name="f8e5dc229a3079069d6b3f25401800de" value="1" />			</form>
+	</div>
+</div>	
+
+	</div>
+		
+	
+</div>
+
+</div>
+</div>
+<div id="mesnajes">
+
+</div>	<!-- //HEADER -->
+
+	<!-- MAIN NAVIGATION -->
+	<div id="ja-mainnav" class="wrap">
+<div class="main">
+<div class="inner clearfix">
+	<div class="ja-megamenu">
+<ul class="megamenu level0"><li class="mega active first"><a href="http://www.phenotype.eu/" class="mega active first" id="menu1" title="Home"><span class="menu-title">Home</span></a></li><li class="mega haschild"><a href="/en/about" class="mega haschild" id="menu3" title="About"><span class="menu-title">About</span></a><div class="childcontent cols2 ">
+<div class="childcontent-inner-wrap">
+<div class="childcontent-inner clearfix" style="width: 400px;"><div class="megacol column1 first" style="width: 200px;"><ul class="megamenu level1"><li class="mega first group"><div class="group"><div class="group-title"><a href="/en/about/about-phenotype" class="mega first group" id="menu22" title="About Phenotype"><span class="menu-title">About Phenotype</span></a></div><div class="group-content"><ul class="megamenu level1"><li class="mega first"><a href="/en/about/about-phenotype/phenotype-project" class="mega first" id="menu33" title="Phenotype Project"><span class="menu-title">Phenotype Project</span></a></li><li class="mega"><a href="/en/about/about-phenotype/what-we-do" class="mega" id="menu32" title="What we do"><span class="menu-title">What we do</span></a></li><li class="mega"><a href="/en/about/about-phenotype/project-management" class="mega" id="menu34" title="Project Management"><span class="menu-title">Project Management</span></a></li><li class="mega last"><a href="/en/about/about-phenotype/stakeholders" class="mega last" id="menu46" title="Stakeholders"><span class="menu-title">Stakeholders</span></a></li></ul></div></div></li></ul></div><div class="megacol column2 last" style="width: 200px;"><ul class="megamenu level1"><li class="mega first group"><div class="group"><div class="group-title"><a href="/en/about/beneficiaries" class="mega first group" id="menu13" title="Beneficiaries"><span class="menu-title">Beneficiaries</span></a></div><div class="group-content"><ul class="megamenu level1"><li class="mega first"><a href="/en/about/beneficiaries/creal" class="mega first" id="menu14" title="CREAL"><span class="menu-title">CREAL</span></a></li><li class="mega"><a href="/en/about/beneficiaries/rivm" class="mega" id="menu15" title="RIVM"><span class="menu-title">RIVM</span></a></li><li class="mega"><a href="/en/about/beneficiaries/staffordshire-university" class="mega" id="menu16" title="Staffordshire University"><span class="menu-title">Staffordshire University</span></a></li><li class="mega"><a href="/en/about/beneficiaries/vdu" class="mega" id="menu17" title="VDU"><span class="menu-title">VDU</span></a></li><li class="mega"><a href="/en/about/beneficiaries/unige" class="mega" id="menu18" title="UNIGE"><span class="menu-title">UNIGE</span></a></li><li class="mega"><a href="/en/about/beneficiaries/vua" class="mega" id="menu19" title="VUA"><span class="menu-title">VUA</span></a></li><li class="mega"><a href="/en/about/beneficiaries/vggm" class="mega" id="menu20" title="VGGM"><span class="menu-title">VGGM</span></a></li><li class="mega last"><a href="/en/about/beneficiaries/ucb" class="mega last" id="menu21" title="UCB"><span class="menu-title">UCB</span></a></li></ul></div></div></li></ul></div></div>
+</div></div></li><li class="mega haschild"><a href="/en/workpackages" class="mega haschild" id="menu4" title="Workpackages"><span class="menu-title">Workpackages</span></a><div class="childcontent cols1 ">
+<div class="childcontent-inner-wrap">
+<div class="childcontent-inner clearfix" style="width: 200px;"><div class="megacol column1 first" style="width: 200px;"><ul class="megamenu level1"><li class="mega first"><a href="/en/workpackages/project-management" class="mega first" id="menu5" title="Project Management"><span class="menu-title">Project Management</span></a></li><li class="mega"><a href="/en/workpackages/mechanism-assessment" class="mega" id="menu6" title="Mechanism Assessment"><span class="menu-title">Mechanism Assessment</span></a></li><li class="mega"><a href="/en/workpackages/epidemiological-studies" class="mega" id="menu7" title="Epidemiological Studies"><span class="menu-title">Epidemiological Studies</span></a></li><li class="mega"><a href="/en/workpackages/therapeutic-studies" class="mega" id="menu8" title="Therapeutic Studies"><span class="menu-title">Therapeutic Studies</span></a></li><li class="mega"><a href="/en/workpackages/implications-health-impact-assessment-and-planning" class="mega" id="menu9" title="Implications, Health Impact Assessment and Planning"><span class="menu-title">Implications, Health Impact Assessment and Planning</span></a></li><li class="mega last"><a href="/en/workpackages/policy-involvement-and-dissemination" class="mega last" id="menu10" title="Policy Involvement and Dissemination"><span class="menu-title">Policy Involvement and Dissemination</span></a></li></ul></div></div>
+</div></div></li><li class="mega"><a href="/en/news" class="mega" id="menu30" title="News"><span class="menu-title">News</span></a></li><li class="mega haschild"><a href="/en/publications" class="mega haschild" id="menu31" title="Publications"><span class="menu-title">Publications</span></a><div class="childcontent cols1 ">
+<div class="childcontent-inner-wrap">
+<div class="childcontent-inner clearfix" style="width: 200px;"><div class="megacol column1 first" style="width: 200px;"><ul class="megamenu level1"><li class="mega first haschild"><a href="/en/publications/scientific" class="mega first haschild" id="menu44" title="Scientific"><span class="menu-title">Scientific</span></a><div class="childcontent cols1 ">
+<div class="childcontent-inner-wrap">
+<div class="childcontent-inner clearfix" style="width: 200px;"><div class="megacol column1 first" style="width: 200px;"><ul class="megamenu level2"><li class="mega first"><a href="/en/publications/scientific/research-articles" class="mega first" id="menu61" title="Research Articles"><span class="menu-title">Research Articles</span></a></li><li class="mega last"><a href="/en/publications/scientific/presentations" class="mega last" id="menu68" title="Presentations"><span class="menu-title">Presentations</span></a></li></ul></div></div>
+</div></div></li><li class="mega"><a href="/en/publications/public-media" class="mega" id="menu45" title="Public Media"><span class="menu-title">Public Media</span></a></li><li class="mega last"><a href="/en/publications/deliverables2" class="mega last" id="menu56" title="Deliverables"><span class="menu-title">Deliverables</span></a></li></ul></div></div>
+</div></div></li><li class="mega haschild"><a href="/en/deliverables" class="mega haschild" id="menu47" title="Deliverables"><span class="menu-title">Deliverables</span></a><div class="childcontent cols1 ">
+<div class="childcontent-inner-wrap">
+<div class="childcontent-inner clearfix" style="width: 200px;"><div class="megacol column1 first" style="width: 200px;"><ul class="megamenu level1"><li class="mega first"><a href="/en/deliverables/milestone-reports" class="mega first" id="menu49" title="Milestone reports"><span class="menu-title">Milestone reports</span></a></li><li class="mega"><a href="/en/deliverables/periodic-reports" class="mega" id="menu50" title="Periodic reports"><span class="menu-title">Periodic reports</span></a></li><li class="mega last"><a href="/en/deliverables/interim-deliverables" class="mega last" id="menu53" title="Interim deliverables"><span class="menu-title">Interim deliverables</span></a></li></ul></div></div>
+</div></div></li><li class="mega"><a href="/en/contact" class="mega" id="menu29" title="Contact"><span class="menu-title">Contact</span></a></li><li class="mega last"><a href="/en/links" class="mega last" id="menu66" title="Links"><span class="menu-title">Links</span></a></li></ul>
+</div>			<script type="text/javascript">
+			var megamenu = new jaMegaMenuMoo ('ja-mainnav', {
+				'bgopacity': 0, 
+				'delayHide': 1000, 
+				'slide': 1, 
+				'fading': 1,
+				'direction':'down',
+				'action':'mouseover',
+				'tips': false,
+				'duration': 200,
+				'hidestyle': 'fastwhenshow'
+			});			
+			</script>
+				<div style="clear:both;"></div>
+</div>
+</div>
+</div>
+
+
+<ul class="no-display">
+    <li><a href="/?lang=en#ja-content" title="Skip to content">Skip to content</a></li>
+</ul>
+	<!-- //MAIN NAVIGATION -->
+	
+	<!-- MAIN CONTAINER -->
+	<div id="ja-container" class="wrap ">
+	
+	<!-- SLIDER -->
+<div id="ja-slider" class="wrap">
+	<div class="main">
+		<div class="inner clearfix">
+			<div class="bg">
+				<!-- coin-slider by Ivan Lazarevic (http://workshop.rs/projects/coin-slider)-->
+<div id='coin-slider-wrapper'>
+	<div id='coin-slider'>
+	  			<!--galleryEntry 1-->
+				<a href="/" target="_self">
+				  <img src="http://www.phenotype.eu/images/slider/slide_0.jpg" alt="" />
+				  <span></span>
+				</a>
+	  
+	  			<!--galleryEntry 2-->
+				<a href="/" target="_self">
+				  <img src="http://www.phenotype.eu/images/slider/slide_1.jpg" alt="" />
+				  <span></span>
+				</a>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	</div>
+</div>
+<script type="text/javascript">
+jQuery(document).ready(function($)
+{
+	$('#coin-slider').coinslider({ width: 940, height: 263, navigation: false, effect: 'rain' , links: true, delay: 10000 });
+});
+</script>
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //SLIDER -->
+	
+	<!-- TOP SPOTLIGHT -->
+<div id="ja-topsl" class="wrap">
+<div class="main clearfix">
+
+		<div class="ja-box column ja-box-left" style="width: 100%">
+			<div class="ja-moduletable moduletable_clean  clearfix" id="Mod21">
+						<div class="ja-box-ct clearfix">
+		<div class="mod-padding">
+		<div id="intro_home">
+<h1 id="intro">Positive health effects on the natural outdoor environment&nbsp;<br />in typical populations of different regions in Europe.</h1>
+</div>		</div>
+		</div>
+    </div>
+	
+	</div>
+	
+		<div class="ja-box column ja-box-center" style="width:33.33%">
+			<div class="ja-moduletable moduletable_clean  clearfix" id="Mod22">
+						<h3><span>Latest News</span></h3>
+				<div class="ja-box-ct clearfix">
+		<div class="mod-padding">
+		
+<div id="k2ModuleBox22" class="k2ItemsBlock _clean">
+
+	
+	  <ul>
+        <li class="even">
+
+      <!-- Plugins: BeforeDisplay -->
+      
+      <!-- K2 Plugins: K2BeforeDisplay -->
+      
+      
+            <a class="moduleItemTitle" href="/en/news/item/61-phenotype-at-making-cities-liveable-conference-uk">PHENOTYPE at Making Cities Liveable Conference (UK)</a>
+      
+      
+      <!-- Plugins: AfterDisplayTitle -->
+      
+      <!-- K2 Plugins: K2AfterDisplayTitle -->
+      
+      <!-- Plugins: BeforeDisplayContent -->
+      
+      <!-- K2 Plugins: K2BeforeDisplayContent -->
+      
+            <div class="moduleItemIntrotext">
+	      
+      	      	From 29 June until 3 July, PHENOTYPE will be present during the Making Cities Liveable Conference focussing on "Achieving Green,&#8230;      	      </div>
+      
+      
+      <div class="clr"></div>
+
+      
+      <div class="clr"></div>
+
+      <!-- Plugins: AfterDisplayContent -->
+      
+      <!-- K2 Plugins: K2AfterDisplayContent -->
+      
+      
+      
+      
+      
+			
+			
+			
+      <!-- Plugins: AfterDisplay -->
+      
+      <!-- K2 Plugins: K2AfterDisplay -->
+      
+      <div class="clr"></div>
+    </li>
+        <li class="odd">
+
+      <!-- Plugins: BeforeDisplay -->
+      
+      <!-- K2 Plugins: K2BeforeDisplay -->
+      
+      
+            <a class="moduleItemTitle" href="/en/news/item/60-actes-públics-en-barcelona">Actes públics en Barcelona</a>
+      
+      
+      <!-- Plugins: AfterDisplayTitle -->
+      
+      <!-- K2 Plugins: K2AfterDisplayTitle -->
+      
+      <!-- Plugins: BeforeDisplayContent -->
+      
+      <!-- K2 Plugins: K2BeforeDisplayContent -->
+      
+            <div class="moduleItemIntrotext">
+	      
+      	      	El 26 de Maig a les 13:00, parlarem de salut i espais verds a l'Agència de Salut de Barcelona. Vostè&#8230;      	      </div>
+      
+      
+      <div class="clr"></div>
+
+      
+      <div class="clr"></div>
+
+      <!-- Plugins: AfterDisplayContent -->
+      
+      <!-- K2 Plugins: K2AfterDisplayContent -->
+      
+      
+      
+      
+      
+			
+			
+			
+      <!-- Plugins: AfterDisplay -->
+      
+      <!-- K2 Plugins: K2AfterDisplay -->
+      
+      <div class="clr"></div>
+    </li>
+        <li class="even">
+
+      <!-- Plugins: BeforeDisplay -->
+      
+      <!-- K2 Plugins: K2BeforeDisplay -->
+      
+      
+            <a class="moduleItemTitle" href="/en/news/item/59-health-from-the-outside-in-urban-design-green-space-and-human-health-–-reflections">Health from the Outside In: Urban Design, Green Space and Human Health – reflections on a conference</a>
+      
+      
+      <!-- Plugins: AfterDisplayTitle -->
+      
+      <!-- K2 Plugins: K2AfterDisplayTitle -->
+      
+      <!-- Plugins: BeforeDisplayContent -->
+      
+      <!-- K2 Plugins: K2BeforeDisplayContent -->
+      
+            <div class="moduleItemIntrotext">
+	      
+      	      	On the 28th of April 2015 representatives of a range of disciplines, including researchers, council officials and action groups came&#8230;      	      </div>
+      
+      
+      <div class="clr"></div>
+
+      
+      <div class="clr"></div>
+
+      <!-- Plugins: AfterDisplayContent -->
+      
+      <!-- K2 Plugins: K2AfterDisplayContent -->
+      
+      
+      
+      
+      
+			
+			
+						<a class="moduleItemReadMore" href="/en/news/item/59-health-from-the-outside-in-urban-design-green-space-and-human-health-–-reflections">
+				Read more...			</a>
+			
+      <!-- Plugins: AfterDisplay -->
+      
+      <!-- K2 Plugins: K2AfterDisplay -->
+      
+      <div class="clr"></div>
+    </li>
+        <li class="odd">
+
+      <!-- Plugins: BeforeDisplay -->
+      
+      <!-- K2 Plugins: K2BeforeDisplay -->
+      
+      
+            <a class="moduleItemTitle" href="/en/news/item/58-can-you-control-stress?">Can you control stress? (video)</a>
+      
+      
+      <!-- Plugins: AfterDisplayTitle -->
+      
+      <!-- K2 Plugins: K2AfterDisplayTitle -->
+      
+      <!-- Plugins: BeforeDisplayContent -->
+      
+      <!-- K2 Plugins: K2BeforeDisplayContent -->
+      
+            <div class="moduleItemIntrotext">
+	      
+      	      	      	      </div>
+      
+      
+      <div class="clr"></div>
+
+      
+      <div class="clr"></div>
+
+      <!-- Plugins: AfterDisplayContent -->
+      
+      <!-- K2 Plugins: K2AfterDisplayContent -->
+      
+      
+      
+      
+      
+			
+			
+			
+      <!-- Plugins: AfterDisplay -->
+      
+      <!-- K2 Plugins: K2AfterDisplay -->
+      
+      <div class="clr"></div>
+    </li>
+        <li class="even lastItem">
+
+      <!-- Plugins: BeforeDisplay -->
+      
+      <!-- K2 Plugins: K2BeforeDisplay -->
+      
+      
+            <a class="moduleItemTitle" href="/en/news/item/57-making-the-natural-health-service-work-following-on-from-the-health-from-the-outside-in-urban-design-green-space-and-human-health-phenotype-conference-a-public-health-lecture-and-discussion-will-take-place-in-stoke-on-trent-uk-on-the-evening">Public Lecture "Making the Natural Health Service Work"  - 28 April, Stoke-on-Trent (UK)</a>
+      
+      
+      <!-- Plugins: AfterDisplayTitle -->
+      
+      <!-- K2 Plugins: K2AfterDisplayTitle -->
+      
+      <!-- Plugins: BeforeDisplayContent -->
+      
+      <!-- K2 Plugins: K2BeforeDisplayContent -->
+      
+            <div class="moduleItemIntrotext">
+	      
+      	      	Following on from the Health from the Outside in: Urban Design, Green Space and Human Health, (PHENOTYPE) Conference, a Public&#8230;      	      </div>
+      
+      
+      <div class="clr"></div>
+
+      
+      <div class="clr"></div>
+
+      <!-- Plugins: AfterDisplayContent -->
+      
+      <!-- K2 Plugins: K2AfterDisplayContent -->
+      
+      
+      
+      
+      
+			
+			
+						<a class="moduleItemReadMore" href="/en/news/item/57-making-the-natural-health-service-work-following-on-from-the-health-from-the-outside-in-urban-design-green-space-and-human-health-phenotype-conference-a-public-health-lecture-and-discussion-will-take-place-in-stoke-on-trent-uk-on-the-evening">
+				Read more...			</a>
+			
+      <!-- Plugins: AfterDisplay -->
+      
+      <!-- K2 Plugins: K2AfterDisplay -->
+      
+      <div class="clr"></div>
+    </li>
+        <li class="clearList"></li>
+  </ul>
+  
+	
+	
+</div>
+		</div>
+		</div>
+    </div>
+		<div class="ja-moduletable moduletable_clean  clearfix" id="Mod23">
+						<h3><span>Latest Publications</span></h3>
+				<div class="ja-box-ct clearfix">
+		<div class="mod-padding">
+		
+<div id="k2ModuleBox23" class="k2ItemsBlock _clean">
+
+	
+	  <ul>
+        <li class="even">
+
+      <!-- Plugins: BeforeDisplay -->
+      
+      <!-- K2 Plugins: K2BeforeDisplay -->
+      
+      
+            <a class="moduleItemTitle" href="/en/publications/scientific/presentations/item/62-urban-design-green-space-and-human-health-28-april-2015">Urban Design, Green Space and Human Health - 28 April 2015</a>
+      
+      
+      <!-- Plugins: AfterDisplayTitle -->
+      
+      <!-- K2 Plugins: K2AfterDisplayTitle -->
+      
+      <!-- Plugins: BeforeDisplayContent -->
+      
+      <!-- K2 Plugins: K2BeforeDisplayContent -->
+      
+            <div class="moduleItemIntrotext">
+	      
+      	      	Urban Design, Green Space and Human Health - 28 April 2015, Stoke-on-Trent On the 28th of April 2015, representatives of&#8230;      	      </div>
+      
+      
+      <div class="clr"></div>
+
+      
+      <div class="clr"></div>
+
+      <!-- Plugins: AfterDisplayContent -->
+      
+      <!-- K2 Plugins: K2AfterDisplayContent -->
+      
+      
+      
+      
+      
+			
+			
+			
+      <!-- Plugins: AfterDisplay -->
+      
+      <!-- K2 Plugins: K2AfterDisplay -->
+      
+      <div class="clr"></div>
+    </li>
+        <li class="odd">
+
+      <!-- Plugins: BeforeDisplay -->
+      
+      <!-- K2 Plugins: K2BeforeDisplay -->
+      
+      
+            <a class="moduleItemTitle" href="/en/publications/scientific/item/51-green-cities-healthy-people-discussion-report">Green Cities, Healthy People - Discussion Report</a>
+      
+      
+      <!-- Plugins: AfterDisplayTitle -->
+      
+      <!-- K2 Plugins: K2AfterDisplayTitle -->
+      
+      <!-- Plugins: BeforeDisplayContent -->
+      
+      <!-- K2 Plugins: K2BeforeDisplayContent -->
+      
+            <div class="moduleItemIntrotext">
+	      
+      	      	“Green Cities, Healthy People – Planning Healthy Urban Settings”, a two-day B-Debate held in Barcelona (30-31 October 2013), intended to&#8230;      	      </div>
+      
+      
+      <div class="clr"></div>
+
+      
+      <div class="clr"></div>
+
+      <!-- Plugins: AfterDisplayContent -->
+      
+      <!-- K2 Plugins: K2AfterDisplayContent -->
+      
+      
+      
+      
+      
+			
+			
+			
+      <!-- Plugins: AfterDisplay -->
+      
+      <!-- K2 Plugins: K2AfterDisplay -->
+      
+      <div class="clr"></div>
+    </li>
+        <li class="even lastItem">
+
+      <!-- Plugins: BeforeDisplay -->
+      
+      <!-- K2 Plugins: K2BeforeDisplay -->
+      
+      
+            <a class="moduleItemTitle" href="/en/publications/public-media/item/43-making-the-scientific-link-between-the-natural-environment-and-good-human-health">Making the scientific link between the natural environment and good human health </a>
+      
+      
+      <!-- Plugins: AfterDisplayTitle -->
+      
+      <!-- K2 Plugins: K2AfterDisplayTitle -->
+      
+      <!-- Plugins: BeforeDisplayContent -->
+      
+      <!-- K2 Plugins: K2BeforeDisplayContent -->
+      
+            <div class="moduleItemIntrotext">
+	      
+      	      	PHENOTYPE features as a headline of the EC Research and Innovation news section of 1st March 2013:&nbsp;Making the scientific link&#8230;      	      </div>
+      
+      
+      <div class="clr"></div>
+
+      
+      <div class="clr"></div>
+
+      <!-- Plugins: AfterDisplayContent -->
+      
+      <!-- K2 Plugins: K2AfterDisplayContent -->
+      
+      
+      
+      
+      
+			
+			
+			
+      <!-- Plugins: AfterDisplay -->
+      
+      <!-- K2 Plugins: K2AfterDisplay -->
+      
+      <div class="clr"></div>
+    </li>
+        <li class="clearList"></li>
+  </ul>
+  
+	
+	
+</div>
+		</div>
+		</div>
+    </div>
+	
+	</div>
+	
+		<div class="ja-box column ja-box-center" style="width:33.33%">
+			<div class="ja-moduletable moduletable_clean  clearfix" id="Mod52">
+						<h3><span>Beneficiaries</span></h3>
+				<div class="ja-box-ct clearfix">
+		<div class="mod-padding">
+		<table id="beneficiaries" border="0" cellspacing="0" cellpadding="5" style="width: 289px;">
+<tbody>
+<tr>
+<td class="logos" align="left" valign="middle"><a href="/en/about/beneficiaries/creal"><img src="/images/estructura/beneficiaries/creal.jpg" border="0" alt="Creal" width="105" height="49" /></a></td>
+<td class="Titulos" width="175"><strong>CREAL</strong> - Centre de Recerca en Epidemiologia Ambiental (ES)</td>
+</tr>
+<tr>
+<td class="logos" align="left" valign="middle"><a href="/en/about/beneficiaries/rivm"><img src="/images/estructura/beneficiaries/rivm.jpg" border="0" alt="RIVM" width="105" height="49" /></a></td>
+<td class="Titulos"><strong>RIVM</strong> - National Institute for Public Health and the Environment (NL)</td>
+</tr>
+<tr>
+<td class="logos" align="left" valign="middle"><a href="/en/about/beneficiaries/staffordshire-university"><img src="/images/estructura/beneficiaries/staffs.jpg" border="0" alt="STAFFS" width="105" height="49" /></a></td>
+<td class="Titulos"><strong>Staffordshire University</strong> (UK)</td>
+</tr>
+<tr>
+<td class="logos" align="left" valign="middle"><a href="/en/about/beneficiaries/vdu"><img src="/images/estructura/beneficiaries/vdu.jpg" border="0" alt="VDU" width="105" height="49" /></a></td>
+<td class="Titulos"><strong>VDU</strong> - Vytauto Didziojo Universitetas (LT)</td>
+</tr>
+<tr>
+<td class="logos" align="left" valign="middle"><a href="/en/about/beneficiaries/unige"><img src="/images/estructura/beneficiaries/unige.jpg" border="0" alt="UNIGE" width="105" height="49" /></a></td>
+<td class="Titulos"><strong>UNIGE</strong> - University of Geneva (CH)</td>
+</tr>
+<tr>
+<td class="logos" align="left" valign="middle"><a href="/en/about/beneficiaries/vua"><img src="/images/estructura/beneficiaries/vua.jpg" border="0" alt="VUA" width="105" height="49" /></a></td>
+<td class="Titulos"><strong>VUA</strong> - Vereniging voor Christelijk Hoger Onderwijs Wetenschappelijk Onderzoek en patientzorg (NL)</td>
+</tr>
+<tr>
+<td class="logos" align="left" valign="middle"><a href="/en/about/beneficiaries/vggm"><img src="/images/estructura/beneficiaries/hgm.jpg" border="0" alt="HGGM" width="105" height="49" /></a></td>
+<td class="Titulos"><strong>VGGM</strong> - Public Health Services Gelderland Midden (NL)</td>
+</tr>
+<tr>
+<td class="logos" align="left" valign="middle"><a href="/en/about/beneficiaries/ucb"><img src="/images/estructura/beneficiaries/UCB.jpg" border="0" alt="UCB" width="105" height="49" /></a></td>
+<td class="Titulos"><strong>UCB</strong> - University of California Berkeley (USA)</td>
+</tr>
+</tbody>
+</table>		</div>
+		</div>
+    </div>
+	
+	</div>
+	
+		<div class="ja-box column ja-box-right" style="width:33.33%">
+			<div class="ja-moduletable moduletable_blue  clearfix" id="Mod24">
+						<h3><span>About Phenotype</span></h3>
+				<div class="ja-box-ct clearfix">
+		<div class="mod-padding">
+		<p>Indications exist that close contact with nature brings benefits to human health and wellbeing, but the mechanisms are not well understood. Most of the research has been conducted in the Northwest of Europe and USA. This leaves a need for a more robust evidence base on links between exposure to natural outdoor environment and human health and well-being across Europe. Furthermore, inconsistency and variation in indicators for green or natural space have often made it difficult to compare results from different studies.</p>
+<p>PHENOTYPE is intended to provide a better understanding of the potential mechanisms, and better integration of human health needs into land use planning and green space management.</p>		</div>
+		</div>
+    </div>
+		<div class="ja-moduletable moduletable_clean  clearfix" id="Mod61">
+						<h3><span>Subscribe to mailing</span></h3>
+				<div class="ja-box-ct clearfix">
+		<div class="mod-padding">
+		  
+<script type="text/javascript">
+/* <![CDATA[ */
+window.addEvent('load', function() {
+    $('mcsignupSubmit9171').addEvent('click', function(){
+	var isMember = 0;
+	// Validate email address with regex
+	if ( !checkEmail( document.mcsignupForm9171.EMAIL.value ) )
+	{
+	    alert("Please enter a valid email address.");
+	    return;
+	}
+	rVal = true;
+	var doneElements = '';
+	$$('#mcsignup9171 .mcsignupRequired').each(function(el){
+			
+	    if(rVal){
+		var defVal = el.getProperty('title');
+		var thisName = el.getProperty('name');
+		if( (el.getProperty('type') == 'checkbox' || el.getProperty('type') == 'radio') && el.getProperty('checked') == false ){
+		    if( doneElements.indexOf( thisName )){
+			doneElements = doneElements + thisName;
+			rVal = false;
+			return false;
+		    } else {
+			valid = -1;
+			for (i = document.mcsignupForm9171.elements[thisName].length-1; i > -1; i--) {
+			    if ( document.mcsignupForm9171.elements[thisName].checked ) {
+				valid = i;
+				i = -1;
+			    }
+			}
+			if (valid == -1) {
+			    alert( defVal.replace(' \*','')+' is required.');
+			    rVal = false;
+			    return false;
+			}
+		    }
+		} else if(el.value == '' || ( el.value == defVal && ! isMember ) ){
+		    alert( defVal.replace(' \*','')+' is required.');
+		    rVal = false;
+		    return false;
+		}
+
+		return rVal;
+	    } else {
+		return;
+	    }
+	});
+		
+	// Submit the form
+	if(rVal){
+	    subscribe9171();
+	}
+    });
+	
+});
+
+function subscribe9171(){
+
+//  var introSlider9171 = new Fx.Slide('intro9171');
+//  var mcsignupFormSlider9171 = new Fx.Slide('mcsignupForm9171');
+//  introSlider9171.slideOut();
+//  mcsignupFormSlider9171.slideOut();
+	
+    document.getElementById('intro9171').style.display = 'none';
+    document.getElementById('mcsignupForm9171').style.display = 'none';
+    document.getElementById('ajaxLoader9171').style.display = 'block';
+
+    var url = baseUrl + 'modules/mod_mailchimpsignup/assets/scripts/ajax-subscribe.php';
+    var data = new Object();
+    data["listid"] = 'e574b369b0';
+    data["ip"] = '193.136.44.167';
+    data["thankyouMsg"] = 'Thank you! Please check your email and confirm the newsletter subscription.';
+    data["updateMsg"] = 'You were already subscribed to this list. Your settings have been updated. Thank you!';
+    data["userId"] = '0';
+
+    var merges = '';
+    var mergeVal = [];
+    $$('#mcsignup9171 .submitInt').each(function(el){
+	if(mergeVal[el.getProperty('name')] == undefined){
+	    mergeVal[el.getProperty('name')] = '';
+	}
+	if(el.getProperty('type') == 'radio' ){
+	    if(el.checked == true){
+		mergeVal[el.getProperty('name')] = el.value;
+	    }
+	} else if(el.getProperty('type') == 'checkbox' ){
+	    if(el.checked == true){
+		mergeVal[el.getProperty('name')] = mergeVal[el.getProperty('name')] + el.value + ',';
+	    }
+	} else {
+	    if(el.value != el.getProperty('title') && el.value+' *' != el.getProperty('title') ){
+		mergeVal[el.getProperty('name')] = el.value;
+	    }
+	}
+	data[el.getProperty('name')] = mergeVal[el.getProperty('name')];
+	merges = merges +'|'+ el.getProperty('name')
+    });
+    data["merges"] = merges;
+
+    var groups = '';
+    var groupVal = [];
+    $$('#mcsignup9171 .submitMerge').each(function(el){
+	if(groupVal[el.getProperty('name')] == undefined){
+	    groupVal[el.getProperty('name')] = '';
+	}
+	if(el.getProperty('type') == 'radio' ){
+	    if(el.checked == true){
+		groupVal[el.getProperty('name')] = el.value;
+	    }
+	} else if(el.getProperty('type') == 'checkbox' ){
+	    if(el.checked == true){
+		groupVal[el.getProperty('name')] = groupVal[el.getProperty('name')] + el.value + ',';
+	    }
+	} else {
+	    if(el.value != el.getProperty('title') && el.value+' *' != el.getProperty('title') ){
+		groupVal[el.getProperty('name')] = el.value;
+	    }
+	}
+
+	data[el.getProperty('name')] = groupVal[el.getProperty('name')];
+	groups = groups +'|'+ el.getProperty('name')
+    });
+    data['groups'] = groups;
+
+    doAjaxTask(url, data, function(postback){
+	document.getElementById('ajaxLoader9171').style.display = 'none';
+	document.getElementById('mcsignupResult9171').style.display = 'block';
+	if( MooTools.version >= '1.3' ){
+	    $('mcsignupResult9171').set('html', postback.html);
+	} else {
+	    $('mcsignupResult9171').setHTML(postback.html);
+	}
+	$('mcsignupResult9171').style.display='block';
+	if(postback.js){
+	    eval( postback.js );
+	}
+	if(postback.error){
+	    document.getElementById('tryAgain9171').style.display = 'block';
+	}
+    });
+
+}
+
+var baseUrl = 'http://www.phenotype.eu/';
+
+function tryAgain9171(){
+    document.getElementById('tryAgain9171').style.display = 'none';
+    document.getElementById('mcsignupResult9171').style.display = 'none';
+    document.getElementById('intro9171').style.display = 'block';
+    document.getElementById('mcsignupForm9171').style.display = 'block';
+}
+
+function checkEmail(email){
+    var pattern = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    return pattern.test(email);
+}
+
+function checkNumber(str){
+    var pattern = /^d.*/;
+    return pattern.test(str);
+}
+function doAjaxTask( url, data, callback ){
+	var a=new Ajax(url,{
+		method:"post",
+		data:{"elements":Json.toString(data)},
+		onComplete: function(response){
+			var resp=Json.evaluate(response);
+			callback(resp);
+		}
+	}).request();
+}
+/* ]]> */
+</script>
+<div id="mcsignup9171" class="mcsignup _clean">
+<div id="intro9171">
+    </div>
+<div id="mcsignupFormWrapper9171">
+
+<form action="http://www.phenotype.eu?lang=en" method="post" id="mcsignupForm9171" name="mcsignupForm9171" onsubmit="return false;">
+<div><input name="EMAIL" id="EMAIL" class="mcsignupRequired submitInt inputbox" type="text" value="Email Address" title="Email Address *" onfocus="if(this.value=='Email Address'){this.value='';}" onblur="if(this.value==''){this.value='Email Address';}" /></div><div><input name="FNAME" id="FNAME" class="submitInt inputbox" type="text" value="First Name" title="First Name" onfocus="if(this.value=='First Name'){this.value='';}" onblur="if(this.value==''){this.value='First Name';}" /></div><div><input name="LNAME" id="LNAME" class="submitInt inputbox" type="text" value="Last Name" title="Last Name" onfocus="if(this.value=='Last Name'){this.value='';}" onblur="if(this.value==''){this.value='Last Name';}" /></div><input type="hidden" name="f8e5dc229a3079069d6b3f25401800de" value="1" /><div>
+    <input type="button" class="button" value="Subscribe" id="mcsignupSubmit9171" />
+</div>
+<div id="outro2_9171" class="outro2">
+    <p class="outro"><br>You hereby agree to the saving of the entered details in the <a href="http://mailchimp.com/legal/privacy/" target="_blanck">Mailchimp directory</a>.</p>
+</div>
+</form>
+</div>
+<div id="ajaxLoader9171" style="text-align:center;display:none;"><img src="http://www.phenotype.eu/modules/mod_mailchimpsignup/assets/images/ajax-loader.gif" alt="Please wait"/></div>
+<div id="mcsignupResult9171" class="mcsignupResult" style="display:none;"></div>
+<div id="tryAgain9171" class="tryAgain" style="display:none;"><a href="javascript:void(0);" onclick="javascript:tryAgain9171();">Try again</a></div>
+</div>
+		</div>
+		</div>
+    </div>
+	
+	</div>
+	
+	
+</div>
+</div>
+<!-- //TOP SPOTLIGHT -->
+	
+	<div class="main clearfix">
+
+		<div id="ja-mainbody" style="width:68%">
+			<!-- CONTENT -->
+<div id="ja-main" style="width:100%">
+<div class="inner clearfix">
+	
+		
+	
+	
+	
+	<div id="ja-contentwrap" class="">
+				<div id="ja-content" class="column" style="width:100%">
+
+			<div id="ja-current-content" class="column" style="width:100%">
+								
+				
+							</div>
+
+			
+		</div>
+		
+			</div>
+
+	
+</div>
+</div>
+<!-- //CONTENT -->					</div>
+
+		
+	</div>
+	</div>
+	<!-- //MAIN CONTAINER -->
+
+	<!-- BOTTOM SPOTLIGHT -->
+<div id="ja-botsl" class="wrap">
+<div class="main clearfix">
+
+		<div class="ja-box column ja-box-left" style="width: 33.33%;">
+			<div class="ja-moduletable moduletable_menu  clearfix" id="Mod1">
+						<h3><span>Main Menu</span></h3>
+				<div class="ja-box-ct clearfix">
+		<div class="mod-padding">
+		<ul class="menu"><li id="current" class="active item1"><a href="http://www.phenotype.eu/"><span>Home</span></a></li><li class="parent item3"><a href="/en/about"><span>About</span></a></li><li class="parent item4"><a href="/en/workpackages"><span>Workpackages</span></a></li><li class="parent item30"><a href="/en/news"><span>News</span></a></li><li class="parent item31"><a href="/en/publications"><span>Publications</span></a></li><li class="parent item47"><a href="/en/deliverables"><span>Deliverables</span></a></li><li class="item29"><a href="/en/contact"><span>Contact</span></a></li><li class="item66"><a href="/en/links"><span>Links</span></a></li></ul>		</div>
+		</div>
+    </div>
+	
+	</div>
+	
+		<div class="ja-box column ja-box-center" style="width: 33.33%;">
+			<div class="ja-moduletable moduletable_social  clearfix" id="Mod35">
+						<h3><span>Social media</span></h3>
+				<div class="ja-box-ct clearfix">
+		<div class="mod-padding">
+		<ul id="social">
+<li id="facebook"><a href="https://www.facebook.com/pages/Phenotype/489825727726062?fref=ts">Facebook</a></li>
+<li id="twitter"><a href="https://twitter.com/greenhealth4eu">Twitter</a></li>
+<li id="linkedin"><a href="http://www.linkedin.com/groups/PHENOTYPE-4788231?gid=4788231&mostPopular=&trk=tyah">LinkedIn</a></li>
+<li id="rss"><a href="/en/news?format=feed&amp;type=rss">RSS/News</a></li>
+<li id="rss"><a href="/en/publications?format=feed&amp;type=rss">RSS/Publications</a></li>
+</ul>		</div>
+		</div>
+    </div>
+	
+	</div>
+	
+		<div class="ja-box column ja-box-right" style="width: 33.33%;">
+			<div class="ja-moduletable moduletable  clearfix" id="Mod36">
+						<h3><span>Contact</span></h3>
+				<div class="ja-box-ct clearfix">
+		<div class="mod-padding">
+		<p><strong>Contact:</strong> <br />Diana van Gent, PhD <br />Project Manager <br />Centre de Recerca en Epidemiologia Ambiental<br />Parc Recerca Biomèdica de Barcelona <br />Doctor Aiguader, 88<br />08003 Barcelona, Spain</p>
+<p><strong> Email:</strong> dvangent[at]creal.cat <br /><strong>Tel:</strong> +34 932 14 7354 <br /><strong>Fax:</strong> +34 932 14 7301</p>
+<p>&nbsp;</p>		</div>
+		</div>
+    </div>
+	
+	</div>
+	
+	
+	
+</div>
+</div>
+<!-- //BOTTOM SPOTLIGHT -->
+
+	<!-- FOOTER -->
+	
+<div id="ja-footer" class="wrap">
+<div class="main clearfix">
+
+<div class="ja-footnav">
+	
+</div>
+	
+<div class="inner">
+	<div class="ja-copyright">
+		<p style="text-align: center;">Copyright © PHENOTYPE. All Rights Reserved || <a href="/en/component/content/article/6-contact/43-privacy-policy">Privacy policy</a> || Graphic Design &amp; Web : <a href="http://daviddeboli.com/">David D'Eboli</a></p>
+<p>&nbsp;</p>
+	</div>
+</div>
+
+</div>
+</div>	<!-- //FOOTER -->
+
+</div>
+
+
+
+
+<div id="cookieMessageOuter" style="width:100%"><div id="cookieMessageContainer" style="width:100%;background-color:#1D1D1D;color:#fff"><table width="100%"><tr><td colspan="2"><div id="cookieMessageText" style="padding:6px 10px 0 15px;"><p style="color:#fff!important">We use cookies to improve our website and your experience when using it. Cookies used for the essential operation of the site have already been set. To find out more about the cookies we use and how to delete them, see our <a id="cookieMessageDetailsLink" style="color:#fff!important; text-decoration: underline;" title="View our privacy policy page" href="http://www.phenotype.eu/es/component/content/article/6-contact/43-privacy-policy">privacy policy</a>.</p></div></td></tr><tr><td><span class="accept"><span class="cookieMessageText" style="color:#fff;" !important;>I accept cookies from this site.</span></span></label> <div border="0" class="cookie_button" id="continue_button" onclick="SetCookie('cookieAcceptanceCookie','accepted',9999);">Agree</div></p></td><td align="right"><div id="cookieMessageInformationIcon" style="float:right"><a href="http://www.channeldigital.co.uk/developer-resources/eu-cookie-directive-module.html" target="_blank" title="Open EU Cookie Directive Module Information in a new tab or window"><img id="info_icon" src="http://www.phenotype.eu/plugins/system/EUCookieDirectiveLite/images/info_icon.png" alt="EU Cookie Directive Module Information" border="0" width="20" height="20" /></a></div></td></tr></table></div></div><script type="text/javascript" src="http://www.phenotype.eu/plugins/system/EUCookieDirectiveLite/EUCookieDirective.js"></script>
+</body>
+
+</html>

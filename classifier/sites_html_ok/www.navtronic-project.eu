@@ -1,0 +1,121 @@
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="nl">
+    <head>
+	    <title>Navtronic - Homepage</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+        <link rel="stylesheet" type="text/css" href="/inc/css.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/inc/filetree.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/inc/datepicker.css" media="screen" />
+		<script src="/inc/php_file_tree.js" type="text/javascript"></script>
+	    <script src="/inc/scripts.js" type="text/javascript"></script>
+	    <script src="/inc/betterfade.js" type="text/javascript"></script>
+	    <script src="/inc/swfobject.js" type="text/javascript"></script>
+		<script src="/inc/datepicker.js" type="text/javascript"></script>
+		<meta name="description" content="Navigational system for efficient maritime transport.">
+		<meta name="keywords" content="navtronic">
+		<!--[if lt IE 7.]>
+		<script defer src="/inc/pngfix.js" type="text/javascript"></script>
+		<![endif]-->
+    </head>
+    <body style="">
+		<div id="mainbody">
+			<div style="position:absolute;top:28px;margin-left:54px;"><a href="/"><img src="/images/blank.gif" alt="Home" style="width:235px;height:39px;border:0;"></a></div>
+			<div id="header">
+				<div style="float:right;color:#fff;padding:5px 50px 0 0;">
+					<form id="searchform" method="post" action="/index.php">
+						<input type="hidden" name="dosearch" value="true" />
+						<div style="float:left;"><a class="topmenulink" href="/sitemap/">Sitemap</a>
+&nbsp;|&nbsp;
+<a class="topmenulink" href="/articles/contact.html">Contact</a>
+&nbsp;|&nbsp;
+<a class="topmenulink" href="/articles/disclaimer.html">Disclaimer</a>
+&nbsp;|&nbsp;
+<a class="topmenulink" href="/articles/partners_only.html">Partners Only</a>
+</div>
+						<div style="float:left;"><input type="text" name="search" style="width:100px;border:1px solid #006c8a;height:16px;margin:0 5px 0 15px;"></div>
+						<div style="float:left;"><img src="/images/search.gif" onclick="return verifysearchform('_en')" /></div>
+					</form>
+				</div>
+				<div style="float:left;padding:13px 0 0 300px;"><img src="/images/headers/imA15.png?rv=683573" style="height:31px;" /></div>
+				<div class="clear">&nbsp;</div>
+				<div class="menuposition"><div class="menuitem" onmouseover="getElementById('b0').style.display='block';getElementById('mm0').style.color='#74c1d3';" onmouseout="getElementById('b0').style.display='none';getElementById('mm0').style.color='#fff';"><ul class="ul-menu"><li><a id="mm0" class="mainmenulink" href="/mainmenu/home.html">Home</a></li></ul><ul id="b0" class="ul-dropdownbox"></ul>
+</div>
+<div class="menuitem" onmouseover="getElementById('b1').style.display='block';getElementById('mm1').style.color='#74c1d3';" onmouseout="getElementById('b1').style.display='none';getElementById('mm1').style.color='#fff';"><ul class="ul-menu"><li><a id="mm1" class="mainmenulink" href="/mainmenu/about_navtronic.html">About Navtronic&nbsp;<img src="/images/pijltje.png" alt=""></a></li></ul><ul id="b1" class="ul-dropdownbox"><li class="li-dropdownitem"><a class="dropdownlink" href="/articles/background.html">Background</a>&nbsp;</li>
+<li class="li-dropdownitem"><a class="dropdownlink" href="/articles/objectives.html">Objectives</a>&nbsp;</li>
+<li class="li-dropdownitem"><a class="dropdownlink" href="/articles/work_packages_.html">Work packages </a>&nbsp;</li>
+<li class="li-dropdownitem"><a class="dropdownlink" href="/articles/organisation.html">Organisation</a>&nbsp;</li>
+<li class="li-dropdownitem"><a class="dropdownlink" href="/articles/main-results.html">Main results</a>&nbsp;</li>
+</ul>
+</div>
+<div class="menuitem" onmouseover="getElementById('b2').style.display='block';getElementById('mm2').style.color='#74c1d3';" onmouseout="getElementById('b2').style.display='none';getElementById('mm2').style.color='#fff';"><ul class="ul-menu"><li><a id="mm2" class="mainmenulink" href="/mainmenu/news.html">News&nbsp;<img src="/images/pijltje.png" alt=""></a></li></ul><ul id="b2" class="ul-dropdownbox"><li class="li-dropdownitem"><a class="dropdownlink" href="/newsarchive/">News archive</a>&nbsp;</li>
+</ul>
+</div>
+<div class="menuitem" onmouseover="getElementById('b3').style.display='block';getElementById('mm3').style.color='#74c1d3';" onmouseout="getElementById('b3').style.display='none';getElementById('mm3').style.color='#fff';"><ul class="ul-menu"><li><a id="mm3" class="mainmenulink" href="/mainmenu/events.html">Events&nbsp;<img src="/images/pijltje.png" alt=""></a></li></ul><ul id="b3" class="ul-dropdownbox"><li class="li-dropdownitem"><a class="dropdownlink" href="/pastevents/">Past events</a>&nbsp;</li>
+</ul>
+</div>
+<div class="menuitem" onmouseover="getElementById('b4').style.display='block';getElementById('mm4').style.color='#74c1d3';" onmouseout="getElementById('b4').style.display='none';getElementById('mm4').style.color='#fff';"><ul class="ul-menu"><li><a id="mm4" class="mainmenulink" href="/mainmenu/consortium.html">Consortium</a></li></ul><ul id="b4" class="ul-dropdownbox"></ul>
+</div>
+<div class="menuitem" onmouseover="getElementById('b5').style.display='block';getElementById('mm5').style.color='#74c1d3';" onmouseout="getElementById('b5').style.display='none';getElementById('mm5').style.color='#fff';"><ul class="ul-menu"><li><a id="mm5" class="mainmenulink" href="/mainmenu/downloads.html">Downloads</a></li></ul><ul id="b5" class="ul-dropdownbox"></ul>
+</div>
+<div class="menuitem" onmouseover="getElementById('b6').style.display='block';getElementById('mm6').style.color='#74c1d3';" onmouseout="getElementById('b6').style.display='none';getElementById('mm6').style.color='#fff';"><ul class="ul-menu"><li><a id="mm6" class="mainmenulink" href="/mainmenu/links.html">Links</a></li></ul><ul id="b6" class="ul-dropdownbox"></ul>
+</div>
+<div class="clear">&nbsp;</div>
+</div>			</div>
+			<div id="main">
+				 	<div id="leftmidcontent">
+		<img src="/images/blank.gif" style="float:right;width:0;height:650px;" />		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+        <tr>
+            <td width="570" valign="top" style="padding-right: 10px; border-right: black 1px solid">
+            <p id="gallery"><img width="570" height="393" src="/userdata/image/foto1.jpg" alt="" /> <img width="570" height="393" src="/userdata/image/foto2.jpg" alt="" /> <img width="570" height="393" src="/userdata/image/foto3.jpg" alt="" /> <img width="570" height="393" src="/userdata/image/foto4.jpg" alt="" /> <img width="570" height="393" src="/userdata/image/foto5.jpg" alt="" /></p>
+            <p>&nbsp;</p>
+            <p>There is a strong interest in the maritime community to optimise sailing time, reduce fuel consumption and greenhouse gas emissions and minimise maintenance costs. The objective of the NAVTRONIC project is to develop a sail planning system to help sea master optimise these criteria.</p>
+            <p>The proposed solution mimics the current human sail planning process. It will monitor actual ship performance and assimilate this information in the sail plan optimisation process.</p>
+            <p>The access and systematic exploitation of this ground truth information will provide the unique capability of building &ldquo;system experience&rdquo;, constantly improving the performance of different sub-models used in the sail plan optimiser. The system will automatically and continuously compute and communicate optimised sail plans to a vessel. All relevant information justifying the results will be sent simultaneously.</p>
+            <p>The NAVTRONIC project is highly end-user driven &ndash; the largest market players in the maritime community are partners and support the project with human resources, vessels and infrastructures for tests and evaluation.</p>
+            <p>&nbsp;</p>
+            </td>
+            <td width="184" valign="top" style="padding-left: 10px">
+            <h3 style="text-align: center"><strong>NAVTRONIC</strong></h3>
+            <hr />
+            <h4>&nbsp;Navtronic FactSheet<br />
+            <a href="/userdata/file/Newsletters and leaflets/NAVTRONIC-Fact Sheet-2013.01.01.pdf"><img width="175" height="262" src="/userdata/image/navtronic_factsheet_7.png" alt="" /></a></h4>
+            <hr />
+            <h4><u>Publication:</u> <a href="/userdata/file/Newsletters and leaflets/NAVTRONIC-Tech Note-Fuel Savings Metric-2013.04.12.pdf"><img width="175" height="288" src="/userdata/image/publication_fuel reduction measurments.png" alt="" /></a></h4>
+            <hr />
+            <h4><u>Publication:</u> Energy Sensitivity Metric<br />
+            <br />
+            <a href="/userdata/file/Newsletters and leaflets/NAVTRONIC-Tech note-METOC Sensitivity-2013.05.08.pdf"><img width="175" height="270" src="/userdata/image/publication_energy sensibility.png" alt="" /></a><hr />
+            </h4>
+            <h4><u>Publication:</u> Just in time Savings</h4>
+            <h4><a href="/userdata/file/Newsletters and leaflets/NAVTRONIC-Tech note-Just in Time Savings-2013.07.11.pdf"><img width="175" height="150" src="/userdata/image/news/technotejul13.jpg" alt="" /></a><br />
+            <br />
+            &nbsp;</h4>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>	</div>
+<div id="rightcontent">
+	<h3>News</h3>
+<hr />
+<p>
+</p>
+
+<h3>Events</h3>
+<hr />
+<p>
+</p>
+
+<div style="height:10px;">&nbsp;</div>			<p style="margin:20px 0 0 0;">
+	<p>This project is co-funded by the 7th Framework Programme of the EC.</p>
+<p><a target="_blank" href="http://cordis.europa.eu/fp7/cooperation/home_en.html"><img alt="" align="left" width="125" height="98" src="/userdata/image/seventh.gif" /></a><a target="_blank" href="http://ec.europe.eu"><img alt="" width="50" height="34" src="/userdata/image/ec.gif" /></a></p>
+<div style="clear:both;">&nbsp;</div></p>
+<p style="font-size:10px;margin:30px 0 0 0;">
+	&copy; website hosted by <a href="http://www.uniresearch.nl" target="_blank">Uniresearch</a>
+</p>
+</div>
+<div class="clear">&nbsp;</div>			</div>
+		</div>
+    </body>
+</html>

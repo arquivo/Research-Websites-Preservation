@@ -1,0 +1,570 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN"
+"http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<!--[if IE 8 ]><html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:fb="http://www.facebook.com/2008/fbml"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="no-js ie8"><![endif]-->
+<!--[if IE 9 ]><html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:fb="http://www.facebook.com/2008/fbml"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="no-js ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:fb="http://www.facebook.com/2008/fbml"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="no-js"><!--<![endif]-->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="http://www.enanomapper.net/sites/default/files/favicon_enm.png" type="image/png" />
+<meta name="google-site-verification" content="OPvRuQjXoBOIDpktNb2gRVOL7zpO5ioXkhUYE4vtEgM" />
+<meta name="msvalidate.01" content="38F2FC768EB4BF242609F7F21B917552" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://www.enanomapper.net/" />
+<link rel="shortlink" href="http://www.enanomapper.net/" />
+<meta itemprop="name" content="eNanoMapper" />
+<meta itemprop="description" content="Computational infrastructure for toxicological data management of engineered nanomaterials" />
+<meta name="dcterms.title" content="eNanoMapper" />
+<meta name="dcterms.description" content="Computational infrastructure for toxicological data management of engineered nanomaterials" />
+<meta name="dcterms.type" content="Text" />
+<meta name="dcterms.format" content="text/html" />
+<meta name="dcterms.identifier" content="http://www.enanomapper.net/" />
+  
+  <!--[if lte IE 7]> <div style=' text-align:center; clear: both; padding:0 0 0 15px; position: relative;'> <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div> <![endif]-->
+  
+  <title>eNanoMapper | Computational infrastructure for toxicological data management of engineered nanomaterials</title>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0"/>
+  
+  <!--[if LT IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  
+
+  <style type="text/css" media="all">
+@import url("http://www.enanomapper.net/modules/system/system.base.css?o2vxe3");
+@import url("http://www.enanomapper.net/modules/system/system.menus.css?o2vxe3");
+@import url("http://www.enanomapper.net/modules/system/system.messages.css?o2vxe3");
+@import url("http://www.enanomapper.net/modules/system/system.theme.css?o2vxe3");
+</style>
+<style type="text/css" media="all">
+@import url("http://www.enanomapper.net/sites/all/modules/jquery_update/replace/ui/1.8/themes/base/jquery.ui.core.css?o2vxe3");
+@import url("http://www.enanomapper.net/sites/all/modules/jquery_update/replace/ui/1.8/themes/base/jquery.ui.theme.css?o2vxe3");
+@import url("http://www.enanomapper.net/sites/all/modules/jquery_update/replace/ui/1.8/themes/base/jquery.ui.accordion.css?o2vxe3");
+</style>
+<style type="text/css" media="all">
+@import url("http://www.enanomapper.net/modules/aggregator/aggregator.css?o2vxe3");
+@import url("http://www.enanomapper.net/modules/book/book.css?o2vxe3");
+@import url("http://www.enanomapper.net/sites/all/modules/calendar/css/calendar_multiday.css?o2vxe3");
+@import url("http://www.enanomapper.net/modules/comment/comment.css?o2vxe3");
+@import url("http://www.enanomapper.net/sites/all/modules/date/date_api/date.css?o2vxe3");
+@import url("http://www.enanomapper.net/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?o2vxe3");
+@import url("http://www.enanomapper.net/sites/all/modules/date/date_repeat_field/date_repeat_field.css?o2vxe3");
+@import url("http://www.enanomapper.net/modules/field/theme/field.css?o2vxe3");
+@import url("http://www.enanomapper.net/modules/node/node.css?o2vxe3");
+@import url("http://www.enanomapper.net/modules/poll/poll.css?o2vxe3");
+@import url("http://www.enanomapper.net/modules/search/search.css?o2vxe3");
+@import url("http://www.enanomapper.net/modules/user/user.css?o2vxe3");
+@import url("http://www.enanomapper.net/sites/all/modules/webform_confirm_email/webform_confirm_email.css?o2vxe3");
+@import url("http://www.enanomapper.net/modules/forum/forum.css?o2vxe3");
+@import url("http://www.enanomapper.net/sites/all/modules/views/css/views.css?o2vxe3");
+</style>
+<style type="text/css" media="all">
+@import url("http://www.enanomapper.net/sites/all/libraries/colorbox/example1/colorbox.css?o2vxe3");
+@import url("http://www.enanomapper.net/sites/all/modules/ctools/css/ctools.css?o2vxe3");
+@import url("http://www.enanomapper.net/sites/all/modules/lightbox2/css/lightbox.css?o2vxe3");
+@import url("http://www.enanomapper.net/sites/all/modules/panels/css/panels.css?o2vxe3");
+@import url("http://www.enanomapper.net/sites/all/modules/flexslider/assets/css/flexslider_img.css?o2vxe3");
+@import url("http://www.enanomapper.net/sites/all/libraries/flexslider/flexslider.css?o2vxe3");
+@import url("http://www.enanomapper.net/sites/all/modules/views_accordion/views-accordion.css?o2vxe3");
+</style>
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+#sliding-popup.sliding-popup-bottom{background:#cf2323;}#sliding-popup .popup-content #popup-text h2,#sliding-popup .popup-content #popup-text p{color:#ffffff !important;}
+
+/*]]>*/-->
+</style>
+<style type="text/css" media="all">
+@import url("http://www.enanomapper.net/sites/all/modules/eu_cookie_compliance/css/eu_cookie_compliance.css?o2vxe3");
+@import url("http://www.enanomapper.net/sites/default/files/css/follow.css?o2vxe3");
+@import url("http://www.enanomapper.net/sites/all/libraries/superfish/css/superfish.css?o2vxe3");
+</style>
+<style type="text/css" media="screen">
+@import url("http://www.enanomapper.net/sites/all/themes/theme807/css/boilerplate.css?o2vxe3");
+@import url("http://www.enanomapper.net/sites/all/themes/theme807/css/style.css?o2vxe3");
+@import url("http://www.enanomapper.net/sites/all/themes/theme807/css/maintenance-page.css?o2vxe3");
+@import url("http://www.enanomapper.net/sites/all/themes/theme807/css/skeleton.css?o2vxe3");
+</style>
+  <script type="text/javascript" src="http://www.enanomapper.net/sites/all/modules/jquery_update/replace/jquery/1.7/jquery.js?v=1.7.2"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/misc/drupal.js?o2vxe3"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/modules/jquery_update/replace/ui/1.8/ui/jquery.ui.core.js?v=1.8.24"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/modules/jquery_update/replace/ui/1.8/ui/jquery.ui.widget.js?v=1.8.24"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/modules/jquery_update/replace/ui/1.8/ui/jquery.ui.accordion.js?v=1.8.24"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/modules/admin_menu/admin_devel/admin_devel.js?o2vxe3"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/modules/cookiecontrol/js/cookieControl-5.1.min.js?o2vxe3"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/libraries/colorbox/jquery.colorbox-min.js?o2vxe3"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/modules/colorbox/js/colorbox.js?o2vxe3"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/modules/lightbox2/js/lightbox.js?1456404883"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/libraries/flexslider/jquery.flexslider-min.js?o2vxe3"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/modules/views_accordion/views-accordion.js?o2vxe3"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/modules/google_analytics/googleanalytics.js?o2vxe3"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-56667963-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/libraries/superfish/jquery.hoverIntent.minified.js?o2vxe3"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/libraries/superfish/sftouchscreen.js?o2vxe3"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/libraries/superfish/superfish.js?o2vxe3"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/libraries/easing/jquery.easing.js?o2vxe3"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/libraries/superfish/supersubs.js?o2vxe3"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/modules/superfish/superfish.js?o2vxe3"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/themes/theme807/js/theme807.core.js?o2vxe3"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/themes/theme807/js/jquery.loader.js?o2vxe3"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/themes/theme807/js/jquery.debouncedresize.js?o2vxe3"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/themes/theme807/js/scripts.js?o2vxe3"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"theme807","theme_token":"BTSTKciqtSd06Dc-6HRnYBIle2CBkvNfduaPf25C8y8","js":{"0":1,"1":1,"2":1,"3":1,"sites\/all\/modules\/flexslider\/assets\/js\/flexslider.load.js":1,"sites\/all\/modules\/eu_cookie_compliance\/js\/eu_cookie_compliance.js":1,"sites\/all\/modules\/addthis\/addthis.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/1.8\/ui\/jquery.ui.core.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/1.8\/ui\/jquery.ui.widget.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/1.8\/ui\/jquery.ui.accordion.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/cookiecontrol\/js\/cookieControl-5.1.min.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/libraries\/flexslider\/jquery.flexslider-min.js":1,"sites\/all\/modules\/views_accordion\/views-accordion.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sftouchscreen.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/easing\/jquery.easing.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/theme807\/js\/theme807.core.js":1,"sites\/all\/themes\/theme807\/js\/jquery.loader.js":1,"sites\/all\/themes\/theme807\/js\/jquery.debouncedresize.js":1,"sites\/all\/themes\/theme807\/js\/scripts.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/webform_confirm_email\/webform_confirm_email.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/libraries\/colorbox\/example1\/colorbox.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/flexslider\/assets\/css\/flexslider_img.css":1,"sites\/all\/libraries\/flexslider\/flexslider.css":1,"sites\/all\/modules\/views_accordion\/views-accordion.css":1,"0":1,"sites\/all\/modules\/eu_cookie_compliance\/css\/eu_cookie_compliance.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/themes\/theme807\/css\/boilerplate.css":1,"sites\/all\/themes\/theme807\/css\/style.css":1,"sites\/all\/themes\/theme807\/css\/maintenance-page.css":1,"sites\/all\/themes\/theme807\/css\/skeleton.css":1,"sites\/all\/themes\/theme807\/css\/responsive.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":true,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":false,"disable_resize":false,"disable_zoom":false,"force_show_nav":false,"show_caption":true,"loop_items":false,"node_link_text":"View Image Details","node_link_target":false,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":false},"flexslider":{"optionsets":{"default":{"namespace":"flex-","selector":".slides \u003E li","easing":"easeInOutCubic","direction":"horizontal","reverse":false,"smoothHeight":false,"startAt":0,"animationSpeed":600,"initDelay":0,"useCSS":true,"touch":true,"video":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":0,"controlsContainer":".flex-control-nav-container","sync":"","asNavFor":"","itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"animation":"slide","slideshow":true,"slideshowSpeed":"7000","directionNav":true,"controlNav":false,"prevText":"Previous","nextText":"Next","pausePlay":false,"pauseText":"Pause","playText":"Play","randomize":false,"animationLoop":true,"pauseOnAction":true,"pauseOnHover":false,"manualControls":""}},"instances":{"flexslider-1":"default"}},"views_accordion":{"views-accordion-featured_solutions-block":{"collapsible":0,"rowstartopen":0,"animated":"slide","autoheight":1,"event":"click","fillspace":0,"navigation":0,"clearstyle":0,"grouping":0,"display":"block","viewname":"featured_solutions","usegroupheader":0,"header":".views-accordion-header","newoptions":false}},"eu_cookie_compliance":{"popup_enabled":1,"popup_agreed_enabled":1,"popup_hide_agreed":1,"popup_clicking_confirmation":0,"popup_html_info":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\n\u003Cp\u003EBy clicking any link on this page you are giving your consent for us to set cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button\u0022\u003EOK, I agree\u003C\/button\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button\u0022\u003ENo, give me more info\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","popup_html_agreed":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content agreed\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EThank you for accepting cookies\u003C\/h2\u003E\n\u003Cp\u003EYou can now hide this message or find out more about cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022hide-popup-button\u0022\u003EHide\u003C\/button\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button\u0022 \u003EMore info\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/privacy-policy","popup_link_new_window":1,"popup_position":null,"popup_language":"en","domain":""},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackCrossDomains":["www.enanomapper.net"]},"urlIsAjaxTrusted":{"\/":true},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show","height":["show","easeOutCubic"]},"speed":"\u0027fast\u0027","autoArrows":false,"dropShadows":false,"disableHI":false},"plugins":{"touchscreen":{"mode":"useragent_custom","useragent":"iphone|android|ipad"},"supposition":false,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}}});
+//--><!]]>
+</script>
+
+</head>
+<body id="body" class="html front not-logged-in no-sidebars page-node with-navigation with-subnav" >
+
+    
+<div id="page-wrapper">
+
+    <div id="page">
+
+        <header id="header" role="banner" class="clearfix">
+                
+            <div class="container-12">
+                <div class="grid-12">
+
+                    <div class="section-0 clearfix">
+                                                      <div class="region region-user-menu">
+    <div id="block-block-6" class="block block-block today-date block-odd">
+
+      
+  <div class="content">
+    <div>TODAY IS Thursday, 25. February, 2016, 1:54 PM </div>  </div><!-- /.content -->
+
+</div><!-- /.block --><div id="block-system-user-menu" class="block block-system block-menu block-even">
+
+      
+  <div class="content">
+    <ul class="menu clearfix"><li class="first last leaf sitemap mid-1057"><a href="http://www.enanomapper.net/sitemap.xml" title="">Sitemap</a></li>
+</ul>  </div><!-- /.content -->
+
+</div><!-- /.block -->  </div>
+                                            </div>
+
+                    <div class="section-1 clearfix">
+                        <div class="col1">
+                                                            <a href="/" title="Home" rel="home" id="logo">
+                                    <img src="http://www.enanomapper.net/sites/all/themes/theme807/logo.png" alt="Home" />
+                                </a>
+                                                    
+                                                    </div>
+                        
+                        <div class="col2">
+                                                              <div class="region region-search">
+    <div id="block-search-form" class="block block-search block-odd">
+
+      
+  <div class="content">
+    <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="search" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Xv5n95mCIUIJg6pMHNMybNAYm_M8qMEiXbqGqF1VS98" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div><!-- /.content -->
+
+</div><!-- /.block -->  </div>
+                                                    </div>
+                    </div>
+                        
+                                            <div class="section-3 clearfix">
+                              <div class="region region-menu">
+    <div id="block-superfish-1" class="block block-superfish block-even">
+
+      
+  <div class="content">
+    <ul id="superfish-1" class="menu sf-menu sf-main-menu sf-horizontal sf-style-none sf-total-items-6 sf-parent-items-2 sf-single-items-4"><li id="menu-201-1" class="active-trail first odd sf-item-1 sf-depth-1 sf-no-children"><a href="/" class="sf-depth-1 active">Home</a></li><li id="menu-8997-1" class="middle even sf-item-2 sf-depth-1 sf-no-children"><a href="/applications" class="sf-depth-1">Applications</a></li><li id="menu-9541-1" class="middle odd sf-item-3 sf-depth-1 sf-no-children"><a href="/enm-tutorials" class="sf-depth-1">Tutorials</a></li><li id="menu-4399-1" class="middle even sf-item-4 sf-depth-1 sf-no-children"><a href="/library" class="sf-depth-1">Library</a></li><li id="menu-4740-1" class="middle odd sf-item-5 sf-depth-1 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="/events" class="sf-depth-1 menuparent">Events</a><ul><li id="menu-9666-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/events/past-events" title="" class="sf-depth-2">Past Events</a></li><li id="menu-4736-1" class="last even sf-item-2 sf-depth-2 sf-no-children"><a href="/news" title="" class="sf-depth-2">News</a></li></ul></li><li id="menu-4076-1" class="last even sf-item-6 sf-depth-1 sf-total-children-4 sf-parent-children-2 sf-single-children-2 menuparent"><a href="/about" title="" class="sf-depth-1 menuparent">About Us</a><ul><li id="menu-4562-1" class="first odd sf-item-1 sf-depth-2 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent"><a href="/wp" title="" class="sf-depth-2 menuparent">Work Packages</a><ul><li id="menu-4564-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/wp/1-community-outreach" title="Maastricht University, eNanoMapper Work Package 1 leader – Community outreach" class="sf-depth-3">Community outreach</a></li><li id="menu-4565-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/wp/2-ontology-development" title="EMBL-EBI, eNanoMapper Work Package 2 leader – Ontology Development" class="sf-depth-3">Ontology Development</a></li><li id="menu-4566-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/wp/3-database-development" title="Idea Consult LTD, eNanoMapper Work Package 2 leader – Database development and implementation" class="sf-depth-3">Database development</a></li><li id="menu-4567-1" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/wp/4-analysis-modelling" title="National Technical University of Athens (NTUA), eNanoMapper Work Package 4 – WP 4. Analysis &amp; Modelling" class="sf-depth-3">Analysis &amp; Modelling</a></li><li id="menu-4568-1" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="/wp/5-application-development" title="Douglas Connect GmbH, Switzerland, eNanoMapper Work Package 5 – User Application Development, Integration and Testing" class="sf-depth-3">Application Development</a></li><li id="menu-4569-1" class="middle even sf-item-6 sf-depth-3 sf-no-children"><a href="/wp/6-dissemination-training" title="Karolinska Institutet, Sweden, eNanoMapper Work Package 6 leader - Dissemination &amp; Training" class="sf-depth-3">Dissemination &amp; Training</a></li><li id="menu-4570-1" class="last odd sf-item-7 sf-depth-3 sf-no-children"><a href="/wp/7-management" title="Douglas Connect GmbH, Switzerland, eNanoMapper Work Package 7 leader - Management" class="sf-depth-3">Management</a></li></ul></li><li id="menu-4560-1" class="middle even sf-item-2 sf-depth-2 sf-total-children-9 sf-parent-children-0 sf-single-children-9 menuparent"><a href="/partners" title="eNanomapper Consortium" class="sf-depth-2 menuparent">Partners</a><ul><li id="menu-4571-1" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/partners/douglas-connect" title="Douglas Connect GmbH, Switzerland" class="sf-depth-3">Douglas Connect</a></li><li id="menu-4572-1" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/partners/ntua" title="National Technical University of Athens, Greece" class="sf-depth-3">NTUA</a></li><li id="menu-4573-1" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/partners/insilico" title="In silico Toxicology" class="sf-depth-3">In Silico Toxicology</a></li><li id="menu-4574-1" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/partners/ideaconsult" class="sf-depth-3">IDEAconsult</a></li><li id="menu-4575-1" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="/partners/karolinska-institutet" title="Karolinska Institutet, Sweden, eNanoMapper project partner" class="sf-depth-3">Karolinska Institutet</a></li><li id="menu-4576-1" class="middle even sf-item-6 sf-depth-3 sf-no-children"><a href="/partners/misvik-biology" title="Misvik Biology of FInlanf" class="sf-depth-3">Misvik Biology</a></li><li id="menu-4577-1" class="middle odd sf-item-7 sf-depth-3 sf-no-children"><a href="/partners/embl-ebi" title="The European Bioinformatics Institute, eNanoMapper project partner" class="sf-depth-3">EMBL-EBI</a></li><li id="menu-4578-1" class="middle even sf-item-8 sf-depth-3 sf-no-children"><a href="/partners/maastricht-university" class="sf-depth-3">Maastricht University</a></li><li id="menu-8707-1" class="last odd sf-item-9 sf-depth-3 sf-no-children"><a href="http://www.enanomapper.net/tags/associate-partner" title="" class="sf-depth-3">Associates</a></li></ul></li><li id="menu-442-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/contacts" title="" class="sf-depth-2">Contacts</a></li><li id="menu-8213-1" class="last even sf-item-4 sf-depth-2 sf-no-children"><a href="/associate-partner-program" class="sf-depth-2">Associate Partner</a></li></ul></li></ul>  </div><!-- /.content -->
+
+</div><!-- /.block -->  </div>
+                        </div>
+                    
+                </div>
+            </div>
+            
+                
+        </header><!-- /#header -->
+
+        <div class="container-12">
+            <div class="grid-12">
+                <div class="main-bg">
+                    <div class="header-bottom">
+                                                    <div class="section-2 clearfix">
+                                  <div class="region region-header">
+    <div id="block-views-slider-block" class="block block-views block-odd">
+
+      
+  <div class="content">
+    <div class="view view-slider view-id-slider view-display-id-block view-dom-id-d7970ee0886bc034503515ebe41b9052">
+        
+  
+  
+      <div class="view-content">
+      <div  id="flexslider-1" class="flexslider">
+  <ul class="slides"><li>  
+  <div class="slider-caption">        <div><div>
+<div class="slide-text-1">Creating</div>
+<div class="slide-text-2">community framework</div>
+<div class="slide-text-3">to accelerate collaboration</div>
+</div>
+</div>  </div>  
+  <div class="views-field views-field-field-slide-image">        <div class="field-content"></div>  </div></li>
+<li>  
+  <div class="slider-caption">        <div><div>
+<div class="slide-text-1">Supporting</div>
+<div class="slide-text-2">“safe-by-design”</div>
+<div class="slide-text-3">ENM-s development</div>
+</div>
+</div>  </div>  
+  <div class="views-field views-field-field-slide-image">        <div class="field-content"></div>  </div></li>
+<li>  
+  <div class="slider-caption">        <div><div>
+<div class="slide-text-1">Accelerating </div>
+<div class="slide-text-2"> knowledge exchange </div>
+<div class="slide-text-3">through ontologies</div>
+</div>
+</div>  </div>  
+  <div class="views-field views-field-field-slide-image">        <div class="field-content"></div>  </div></li>
+</ul></div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div><!-- /.content -->
+
+</div><!-- /.block -->  </div>
+                            </div>
+                                                
+                                                    <div class="section-4 clearfix">
+                                  <div class="region region-header-bottom">
+    <div id="block-views-services-block" class="block block-views block-even">
+
+      
+  <div class="content">
+    <div class="view view-services view-id-services view-display-id-block view-dom-id-330bf302bffbfd47a4ba8c3344d326da">
+        
+  
+  
+      <div class="view-content">
+          <div class="grid-3 views-row alpha odd">
+        
+  <div class="views-field views-field-title service-title">        <span class="field-content">Work Package</span>  </div>  
+  <div class="views-field views-field-nothing service-body">        <span class="field-content"><div class="views-field-field-service-image"><a href="/workpackages"><img typeof="foaf:Image" src="http://www.enanomapper.net/sites/default/files/styles/coverpage220x118/public/chess.jpg?itok=__L37gxd" width="220" height="118" alt="eNanoMapper Project Work Packages" title="eNanoMapper Project Work Packages" /></a></div>
+<div class="views-field-body">We are introducing Work Packages for the eNanoMapper project. There are seven work packages, each one explained in detail.</div>
+<div class="button"><a href="/workpackages">More</a></div></span>  </div>    </div>
+      <div class="grid-3 views-row even">
+        
+  <div class="views-field views-field-title service-title">        <span class="field-content">Publications</span>  </div>  
+  <div class="views-field views-field-nothing service-body">        <span class="field-content"><div class="views-field-field-service-image"><a href="/publications-intro"><img typeof="foaf:Image" src="http://www.enanomapper.net/sites/default/files/styles/coverpage220x118/public/publications.jpg?itok=qmiGrwEc" width="220" height="118" alt="eNanoMapper publications" title="eNanoMapper publications" /></a></div>
+<div class="views-field-body">Publications published by our Consortium members on topics related to the eNanoMapper project.
+The eNanoMapper consortium</div>
+<div class="button"><a href="/publications-intro">More</a></div></span>  </div>    </div>
+      <div class="grid-3 views-row odd">
+        
+  <div class="views-field views-field-title service-title">        <span class="field-content">Consortium</span>  </div>  
+  <div class="views-field views-field-nothing service-body">        <span class="field-content"><div class="views-field-field-service-image"><a href="/partners/front"><img typeof="foaf:Image" src="http://www.enanomapper.net/sites/default/files/styles/coverpage220x118/public/group_2.jpg?itok=T90kOtlW" width="220" height="118" alt="eNanoMapper Project" /></a></div>
+<div class="views-field-body">eNanoMapper Consortium
+The development of a community agreed ontology and matching data warehouse is a daunting task: it</div>
+<div class="button"><a href="/partners/front">More</a></div></span>  </div>    </div>
+      <div class="grid-3 views-row omega even">
+        
+  <div class="views-field views-field-title service-title">        <span class="field-content">eNanoMapper</span>  </div>  
+  <div class="views-field views-field-nothing service-body">        <span class="field-content"><div class="views-field-field-service-image"><a href="/enm"><img typeof="foaf:Image" src="http://www.enanomapper.net/sites/default/files/styles/coverpage220x118/public/nanotube.jpg?itok=HPWcRqne" width="220" height="118" alt="eNanoMapper Project" /></a></div>
+<div class="views-field-body">About the project
+eNanoMapper (ENM) proposes a computational infrastructure for toxicological data management of engineered</div>
+<div class="button"><a href="/enm">More</a></div></span>  </div>    </div>
+      </div>
+  
+  
+  
+  
+  
+  
+</div>  </div><!-- /.content -->
+
+</div><!-- /.block -->  </div>
+                            </div>
+                                            </div>
+                    
+                    <div id="main-wrapper">
+                    
+                                                        
+                                
+                        <div id="main" class="clearfix">
+                            
+                                                                
+                                                                
+                                    
+                                    
+                                
+                                                                
+                                                            <aside id="sidebar-second-narrow" class="column column_right grid-4 omega" role="complementary">
+                                    <div class="section">
+                                          <div class="region region-sidebar-second-narrow">
+    <div id="block-views-featured-solutions-block" class="block block-views accordion-front block-odd">
+
+      
+  <div class="content">
+    <div class="view view-featured-solutions view-id-featured_solutions view-display-id-block view-dom-id-0066ff9a027cfe4031cbb7f181d8b999">
+            <div class="view-header">
+      <h2 class="h2-special">Featured <span>Library</span></h2>
+    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title views-accordion-header">        <span class="field-content"><a href="/library/poster-bbc-2015">POSTER: BBC 2015</a></span>  </div>  
+  <div class="views-field views-field-field-blog-image img-left">        <div class="field-content"><a href="/library/poster-bbc-2015"><img typeof="foaf:Image" src="http://www.enanomapper.net/sites/default/files/styles/129x129/public/bbc2015_poster1_0.jpg?itok=0qPK-zu3" width="129" height="129" alt="Poster presented at the Benelux Bioinformatics Conference 2015" /></a></div>  </div>  
+  <div class="views-field views-field-nothing extra">        <span class="field-content"><div class="accordion-title"><h3>ENM   <br /><span>Poster</span></h3>
+</div>
+<div>
+Ontology, database and tools for nanomaterial safety</div></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title views-accordion-header">        <span class="field-content"><a href="/library/enabling-nanosafety">Enabling nanosafety</a></span>  </div>  
+  <div class="views-field views-field-field-blog-image img-left">        <div class="field-content"><a href="/library/enabling-nanosafety"><img typeof="foaf:Image" src="http://www.enanomapper.net/sites/default/files/styles/129x129/public/nanosysbio_0.jpg?itok=RHnA-bXk" width="129" height="129" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-nothing extra">        <span class="field-content"><div class="accordion-title"><h3>Enabling   <br /><span>nanosafety</span></h3>
+</div>
+<div>eNanoMapper: enabling systems biology for nanosafety
+E.</div></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-title views-accordion-header">        <span class="field-content"><a href="/library/enriching-protein-corona">Enriching protein corona</a></span>  </div>  
+  <div class="views-field views-field-field-blog-image img-left">        <div class="field-content"><a href="/library/enriching-protein-corona"><img typeof="foaf:Image" src="http://www.enanomapper.net/sites/default/files/styles/129x129/public/webinar_tsiliki_1.jpg?itok=LH1HrYNF" width="129" height="129" alt="Enriching protein corona fingerprints using gene ontology information: an integration technique" /></a></div>  </div>  
+  <div class="views-field views-field-nothing extra">        <span class="field-content"><div class="accordion-title"><h3>Protein <br /><span>Corona</span></h3>
+</div>
+<div>Enriching protein corona fingerprints using gene ontology</div></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-title views-accordion-header">        <span class="field-content"><a href="/library/framework-nanomaterials">Nanomaterials Framework </a></span>  </div>  
+  <div class="views-field views-field-field-blog-image img-left">        <div class="field-content"><a href="/library/framework-nanomaterials"><img typeof="foaf:Image" src="http://www.enanomapper.net/sites/default/files/styles/129x129/public/database-ontology-framework-nanomaterials_1.jpg?itok=Mo80eQQn" width="129" height="129" alt="eNanoMapper - A Database and Ontology Framework for Nanomaterials Design and Safety Assessment" /></a></div>  </div>  
+  <div class="views-field views-field-nothing extra">        <span class="field-content"><div class="accordion-title"><h3>Database  <br /><span>Ontology </span></h3>
+</div>
+<div>eNanoMapper - A Database and Ontology Framework for</div></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title views-accordion-header">        <span class="field-content"><a href="/library/proteomics-analysis">Proteomics Analysis</a></span>  </div>  
+  <div class="views-field views-field-field-blog-image img-left">        <div class="field-content"><a href="/library/proteomics-analysis"><img typeof="foaf:Image" src="http://www.enanomapper.net/sites/default/files/styles/129x129/public/3_1.jpg?itok=m9qNMLmo" width="129" height="129" alt="Proteomics Analysis" /></a></div>  </div>  
+  <div class="views-field views-field-nothing extra">        <span class="field-content"><div class="accordion-title"><h3>Proteomics   <br /><span>Analysis</span></h3>
+</div>
+<div>Research Article
+Proteomics Analysis Reveals Distinct</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div><!-- /.content -->
+
+</div><!-- /.block -->  </div>
+                                    </div>
+                                </aside>
+                                                                
+                                    
+                                    
+                          
+                            <div id="content" class="column" role="main">
+                                <div class="section">
+                                
+                                                                        
+                                                                        
+                                                                        
+                                                                          <h1 class="title" id="page-title">Welcome to eNanoMapper</h1>
+                                                                        
+                                                                        
+                                                                          <div class="tabs"></div>
+                                                                        
+                                                                        
+                                                                        
+                                      <div class="region region-content">
+    <div id="block-system-main" class="block block-system block-even">
+
+      
+  <div class="content">
+    <div id="first-time"><p>No front page content has been created yet.</p></div>  </div><!-- /.content -->
+
+</div><!-- /.block --><div id="block-block-7" class="block block-block block-odd">
+
+      
+  <div class="content">
+    <div>
+<h2 class="h2-text">Scientific and<br /><span>technological excellence</span></h2>
+<div class="views-field-title title-indent">Components and Application Programming Interfaces</div>
+<div>
+<p>eNanoMapper concept builds on common components and Application Programming Interfaces (APIs) to address data and models interoperability challenges. It will use semantic technologies to characterize ENMs, link databases and ensure a flexible data model.</p>
+<p>Minimum information standards and existing formats and tools such as ISA-TAB will be employed to capture experimental metadata and protocols. The proposed distributed web services technology will allow flexible data sharing and industry strength security solution to guarantee data protection. <a href="/scientific-and-technological-challenges" title="Read more about eNanoMapper Project">read more</a></p>
+</div>
+<div class="clearfix list-marker indent-top-33">
+<div class="grid-2 alpha suffix-1">
+<ul class="content"><li><strong><a href="/events/workshop-basel-2016" title="Hands-on Workshop Basel 2016">WORKSHOP Basel</a></strong></li>
+<li><a href="/sumbissions/virtual-attendance" title="Register to follow the workshop virtually">Online Workshop</a></li>
+<li><a href="/partners" title="eNanoMapper Partners">Partners</a></li>
+</ul></div>
+<div class="grid-2 suffix-1">
+<ul class="content"><li><a href="/library/publications" title="eNanoMapper Publications">Publications</a></li>
+<li><a href="/library/presentations" title="eNanoMapper Presentations">Presentations</a></li>
+<li><a href="/library/reports" title="eNanoMapper Reports">Reports</a></li>
+</ul></div>
+<div class="grid-2 omega">
+<ul class="content"><li><a href="/ontology" title="eNanoMeppr Ontology">Ontology</a></li>
+<li><a href="/data" title="eNanoMeppr Data">Data</a></li>
+<li><a href="/modeling" title="eNanoMapper Modeling">Modeling</a></li>
+</ul></div>
+</div>
+<p> </p>
+</div>
+<table style="width: 750px;" border="0"><tbody><tr><td align="left">
+<p><a href="https://www.douglasconnect.com" target="_blank" title="Douglas Connect, Switzerland website"><img src="/sites/default/files/pictures/logo/dc.jpg" width="200" height="60" /></a></p>
+</td>
+<td align="left"><a href="http://www.toxbank.net/" target="_blank" title="ToxBank project website"><img src="/sites/default/files/pictures/logo/TB.jpg" width="150" height="45" /></a></td>
+<td align="left"><a href="http://www.opentox.com" target="_blank" title="OpenTox project website"><img src="/sites/default/files/pictures/logo/OT.jpg" width="150" height="45" /></a></td>
+<td align="left"><a href="http://scientistsagainstmalaria.net/" target="_blank" title="Scientists AGainst Malaria project website"><img src="/sites/default/files/pictures/logo/sam_logo.jpg" width="112" height="50" /></a></td>
+</tr></tbody></table>  </div><!-- /.content -->
+
+</div><!-- /.block -->  </div>
+                                
+                                </div>
+                            </div>
+                        </div><!-- /#main -->
+                                
+                                            
+                    </div>
+                    
+                    <footer id="footer" role="contentinfo">
+                        <div class="footer-wrapper clearfix">
+                              <div class="region region-footer">
+    <div id="block-block-19" class="block block-block block-even">
+
+      
+  <div class="content">
+    <p><img src="/sites/default/files/pictures/logo/euflag.jpg" alt="eNanoMapper is EU funded project" title="eNanoMapper is EU funded project" width="50" height="32" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+  </div><!-- /.content -->
+
+</div><!-- /.block --><div id="block-follow-site" class="block block-follow block-odd">
+
+      
+  <div class="content">
+    <div class='follow-links clearfix site'><div class='follow-link-wrapper follow-link-wrapper-facebook'><a href="https://www.facebook.com/DouglasConnect" class="follow-link follow-link-facebook follow-link-site" title="Follow eNanoMapper on Facebook">Facebook</a>
+</div><div class='follow-link-wrapper follow-link-wrapper-twitter'><a href="https://twitter.com/eNanoMapper" class="follow-link follow-link-twitter follow-link-site" title="Follow eNanoMapper on Twitter">Twitter</a>
+</div><div class='follow-link-wrapper follow-link-wrapper-googleplus'><a href="https://plus.google.com/u/0/b/113979232955364626857/113979232955364626857/posts" class="follow-link follow-link-googleplus follow-link-site" title="Follow eNanoMapper on Google+">Google+</a>
+</div><div class='follow-link-wrapper follow-link-wrapper-youtube'><a href="http://www.youtube.com/user/DouglasConnect" class="follow-link follow-link-youtube follow-link-site" title="Follow eNanoMapper on YouTube">YouTube</a>
+</div><div class='follow-link-wrapper follow-link-wrapper-linkedin'><a href="http://www.linkedin.com/company/3336050?trk=tyah&amp;trkInfo=tas%3Adouglas%20connect%2Cidx%3A1-1-1" class="follow-link follow-link-linkedin follow-link-site" title="Follow eNanoMapper on LinkedIn">LinkedIn</a>
+</div></div>  </div><!-- /.content -->
+
+</div><!-- /.block --><div id="block-block-5" class="block block-block block-even">
+
+      
+  <div class="content">
+    <span>eNanoMapper</span> &copy; 2016 | <a href="/privacy-policy">Privacy Policy</a>   </div><!-- /.content -->
+
+</div><!-- /.block -->  </div>
+                            <!--{%FOOTER_LINK} -->                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- /#page -->
+</div><!-- /#page-wrapper -->  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+    jQuery(document).ready(function($) {
+    cookieControl({
+        introText: '<p>This site uses cookies to store information on your computer.</p>',
+        fullText: '<p>Some cookies on this site are essential, and the site won\'t work as expected without them. These cookies are set when you submit a form, login or interact with the site by doing something that goes beyond clicking on simple links.</p><p>We also use some non-essential cookies to anonymously track visitors or enhance your experience of the site. If you\'re not happy with this, we won\'t set these cookies but some nice features of the site may be unavailable.</p><p>By using our site you accept the terms of our <a href="/privacy-policy">Privacy Policy</a>.',
+        theme: 'light',
+        html: '<div id="cccwr"><div id="ccc-state" class="ccc-pause"><div id="ccc-icon"><button><span>Cookie Control</span></button></div><div class="ccc-widget"><div class="ccc-outer"><div class="ccc-inner"><h2>Cookie Control</h2><div class="ccc-content"><p class="ccc-intro"></p><div class="ccc-expanded"></div><div id="ccc-cookies-switch" style="background-position-x: 0;"><a id="cctoggle" href="#" style="background-position-x: 0;" name="cctoggle"><span id="cctoggle-text">Cookies test</span></a></div><div id="ccc-implicit-warning">(One cookie will be set to store your preference)</div><div id="ccc-explicit-checkbox"><label><input id="cchide-popup" type="checkbox" name="ccc-hide-popup" value="Y" /> Do not ask me again<br /></label> (Ticking this sets a cookie to hide this popup if you then hit close. This will not store any personal information)</div><p class="ccc-about"><small><a href="http://www.cookielaw.org/the-cookie-law/" target="_blank">About The Cookie Law</a></small></p><a class="ccc-icon" href="http://www.civicuk.com/cookie-law" target="_blank"title="About Cookie Control">About Cookie Control</a><button class="ccc-close">Close</button></div></div></div><button class="ccc-expand">read more</button></div></div></div>',
+        position: 'left',
+        shape: 'diamond',
+        startOpen: false,
+        autoHide: 60000,
+        onAccept: function(cc){cookiecontrol_accepted(cc)},
+        onReady: function(){},
+        onCookiesAllowed: function(cc){cookiecontrol_cookiesallowed(cc)},
+        onCookiesNotAllowed: function(cc){cookiecontrol_cookiesnotallowed(cc)},
+        countries: '',
+        subdomains: true,
+        cookieName: 'enanomapper_cookiecontrol',
+        iconStatusCookieName: 'ccShowCookieIcon',
+        consentModel: 'explicit'
+        });
+      });
+    
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function cookiecontrol_accepted(cc) {
+cc.setCookie('ccShowCookieIcon', 'no');jQuery('#ccc-icon').hide();
+ccAddAnalytics();
+}
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function cookiecontrol_cookiesallowed(cc) {
+ccAddAnalytics();
+}
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function cookiecontrol_cookiesnotallowed(cc) {
+
+}
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/modules/flexslider/assets/js/flexslider.load.js?o2vxe3"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/modules/eu_cookie_compliance/js/eu_cookie_compliance.js?o2vxe3"></script>
+<script type="text/javascript" src="http://www.enanomapper.net/sites/all/modules/addthis/addthis.js?o2vxe3"></script>
+ 
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!--//eurocan.php-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	
+	<title>EurocanPlatform - Home</title>
+		<meta name="description" content="EurocanPlatform is an EC funded project that will bring together 28 European cancer Institutions and organisations to work together in a unique collaboration." />	
+	
+    	<script type="text/javascript" src="/site/vendor/jquery/jquery.js?v=e1be4332ee30e716cddb579a34664114"></script>
+    	<script type="text/javascript" src="/site/vendor/jquery-ui/ui/jquery-ui.js?v=487c9933ffafef5fb73ee614e6971fc1"></script>
+    	<link href="/site/vendor/jquery-ui/themes/dark-hive/jquery-ui.css" rel="stylesheet" type="text/css" />
+	
+	<script language="javascript" type="text/javascript">
+		var txtBaseURL = '/';
+		var jQuery = jQuery.noConflict();
+	</script>
+
+    	<link href="/css/eurocan.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" type="image/x-icon" href="/images/eurocan/favicon.8.delayed" />
+	
+			<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-22368832-1']);
+			_gaq.push(['_trackPageview']);
+			(function () {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+	</head>
+<body>
+	<div id="preHeader">
+		<p>Connect with us:</p>
+		<a href="http://www.facebook.com/pages/ecancermedicalscience/116765885008482" title="Facebook" target="_blank"><img src="/images/eurocan/facebookicon.jpg" alt="Facebook" /></a>
+		<a href="http://twitter.com/ecancer" title="Twitter" target="_blank"><img src="/images/eurocan/twittericon.jpg" alt="Twitter" /></a>
+		<a href="http://www.ecancermedicalscience.com/rss-feeds.asp" title="RSS" target="_blank"><img src="/images/eurocan/rssicon.jpg" alt="RSS" /></a>
+	</div>
+	<div id="wrapper">
+		<div id="header">
+			<div id="logo">
+				<a id="ctl00_LogoHyperLink" href="/index.php">
+					<img src="/images/eurocan/eurocanplatformlogo.jpg" alt="EurocanPlatform" />
+				</a>
+			</div>
+			<div id="navigation">
+				<ul>
+																						<li class="on"><a href="/index.php" title="Home"><span>Home</span></a></li>
+																	<li><a href="/about.php" title="About The Project"><span>About The Project</span></a></li>
+																	<li><a href="/members.php" title="Members"><span>Members</span></a></li>
+																	<li><a href="/news.php" title="News &amp; Updates"><span>News &amp; Updates</span></a></li>
+																	<li><a href="/video.php" title="Video"><span>Video</span></a></li>
+																	<li><a href="/resources.php" title="Resource Centre"><span>Resource Centre</span></a></li>
+																	<li><a href="/contact.php" title="Contact"><span>Contact</span></a></li>
+									</ul>
+			</div>
+		</div>
+		<div id="innerWrapper">
+			<div id="bodyContent">	<div id="homeContent">
+	<div id="leftColumn" class="home">
+		<div id="left">
+			<div class="tile">
+				<h2 class="grey"><a href="/about.php" title="About the project">About the project</a></h2>
+				<p>
+	EurocanPlatform is an EC funded project bringing together 28 European cancer Institutions and organisations to work together in a unique collaboration. The centres are sharing infrastructures and collaborating on projects to help advance cancer research and treatment.</p>				<div class="callToAction">
+					<p class="grey"><a href="/about.php" title="About Us">More<span>&gt;</span></a></p>
+				</div>
+			</div>
+			<div class="tile">
+				<h2 class="blue"><a href="/members.php" title="Members">Members</a></h2>
+				<a href="/members.php" title="Members"><img src="/images/eurocan/maptile.jpg" alt="map" /></a>
+				<p>
+	There are 23 interlinked European cancer centres and a further five cancer organisations involved in this ground breaking project. Read all about them here.</p>				<div class="callToAction">
+					<p class="blue"><a href="/members.php" title="Members">More<span>&gt;</span></a></p>
+				</div>
+			</div>
+		</div>
+		<div id="right">
+			<div class="tile">
+								<a href="/news.php" title="News &amp; Updates"><img src="/images/eurocan/newsupdatestile.jpg" alt="News &amp; Updates" /></a>
+				<div class="newsDate">23 Dec 2015</div>
+				<h2 class="newsTitle"><a href="/news.php" title="News &amp; Updates">News &amp; Updates</a></h2>
+				<h3>'Hematological Malignancies: from Mechanisms to Therapy' symposium - March 9/12, 2016 - Milan</h3>
+				<p>Exciting symposium to be held 9-12th March 2016 at the European Institute of Oncology in Milan, Italy:
+
+'HEMATOLOGICAL MALIGNANCIES: FROM MECHANISMS TO THERAPY'
+
+As the field of onco-hematology is constantly and often...</p>
+				<div class="callToAction">
+					<p class="pink"><a href="/news.php" title="News &amp; Updates">More<span>&gt;</span></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="rightColumn">
+		<div class="tile">
+			<h2 class="green"><a href="/resources.php" title="Resource Centre">Resource Centre</a></h2>
+			<p>
+	The Resource Centre contains links and downloads to presentations, publications, further partner information and event information related to the EurocanPlatform project, as well as other useful details.<br />
+	&nbsp;</p>			<div class="callToAction">
+				<p class="green"><a href="/resources.php" title="Resource Centre">more<span>&gt;</span></a></p>
+			</div>
+		</div>
+		<div class="tile">
+			<h2 class="orange"><a href="/video.php" title="Video">Video</a></h2>
+			<a href="/video.php" title="Video"><img src="/images/eurocan/videotile.jpg" alt="Video" /></a>
+			<p>
+	Watch interviews with key experts involved in the project.<br />
+	<br />
+	&nbsp;</p>			<div class="callToAction">
+				<p class="orange"><a href="/video.php" title="Video">Watch<span>&gt;</span></a></p>
+			</div>
+		</div>
+		<div id="partnerlink">
+			<div xclass="tile">
+				<div xclass="callToAction">
+					<p class="grey"><a href="http://ki.projectcoordinator.net/~eurocan" title="Project Workspace">Project Workspace</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>			</div>
+			<div id="footer">
+				<div id="footerNav">
+																						<a href="/privacy.php" title="Privacy Statement">Privacy Statement</a>
+																		&nbsp;|&nbsp;
+												<a href="/terms.php" title="Terms of Use">Terms of Use</a>
+										&nbsp; &copy; 2016 EurocanPlatform
+				</div>
+				<div id="seventhLogo">
+					<a href="http://cordis.europa.eu/fp7/home_en.html" title="" target="_blank">
+						<img src="/images/eurocan/seventhframeworklogo.jpg" alt="Seventh Framework Programme" title="Seventh Framework Programme" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="subFooter"></div>
+</body>
+</html>

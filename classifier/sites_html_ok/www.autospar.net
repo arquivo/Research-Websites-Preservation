@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+<meta name="Description" content="Asparagus, Spargel, Harvesting Asparagus, Automaticaly, EU project" />
+<meta name="Keywords" content="Asparagus, Spargel, Harvest Asparagus, automaticaly, EU project " />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="Distribution" content="Global" />
+
+<meta name="Robots" content="index,follow" />
+<script type="text/javascript" src="../quote.js"></script>
+
+
+<link rel="stylesheet" href="../css/dash_new.css" type="text/css" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="css/IE6.css" type="text/css" />
+
+
+
+<![endif]-->
+<title>AutoSpar: Home</title>
+
+<style type="text/css">
+<!--
+#apDiv1 {
+	position:absolute;
+	left:730px;
+	top:0px;
+	width:217px;
+	height:185px;
+	z-index:1;
+	background-color: #C7C7C7;
+}
+#apDiv2 {
+	position:absolute;
+	left:34px;
+	top:902px;
+	width:220px;
+	height:21px;
+	z-index:1;
+}
+body {
+	background-image: url(../images/SBG_dash.jpg);
+	background-repeat: repeat;
+}
+#apDiv3 {
+	position:absolute;
+	width:180px;
+	height:70px;
+	z-index:1;
+	color: #540000;
+	top: 0px;
+	left: 33px;
+}
+#apDiv4 {
+	position:absolute;
+	width:93px;
+	height:26px;
+	z-index:2;
+	left: 39px;
+	top: 157px;
+	font-size: 13px;
+	color: #17473A;
+}
+-->
+</style>
+</head>
+
+<body>
+<!-- wrap starts-->
+<div id="wrap">
+  
+  <!-- content-wrap starts--> 
+  <div id="header_logo">
+    <div id="apDiv3">
+    
+    <h2 id="fly">$ NEW! $$ AutoSpar questionnaire  market expectations </h2>
+
+<script type="text/javascript">
+
+//Flying Letters script- by Matthias (info@freejavascripts.f2s.com)
+// Modified by Twey for efficiency and compatibility
+//For this script and more, visit Dynamic Drive: http://www.dynamicdrive.com
+
+//Configure message to display. Use "$" for linebreak
+//By default, set to just grab the text from element with ID="fly"
+message = document.getElementById("fly").innerHTML; // $ = taking a new line
+distance = 60; // pixel(s)
+speed = 50; // milliseconds
+
+var txt="",
+	num=0,
+	num4=0,
+	flyofle="",
+	flyofwi="",
+	flyofto="",
+	fly=document.getElementById("fly");
+
+
+function stfly() {
+	for(i=0;i != message.length;i++) {
+		if(message.charAt(i) != "$")
+			txt += "<span style='position:relative;visibility:hidden;' id='n"+i+"'>"+message.charAt(i)+"<\/span>";
+		else
+			txt += "<br>";
+	}
+	fly.innerHTML = txt;
+	txt = "";
+	flyofle = fly.offsetLeft;
+	flyofwi = fly.offsetWidth;
+	flyofto = fly.offsetTop;
+	fly2b();
+}
+
+function fly2b() {
+	if(num4 != message.length) {
+		if(message.charAt(num4) != "$") {
+			var then = document.getElementById("n" + num4);
+			then.style.left = flyofle - then.offsetLeft + flyofwi / 2;
+			then.style.top = flyofto - then.offsetTop + distance;
+			fly3(then.id, parseInt(then.style.left), parseInt(then.style.left) / 5, parseInt(then.style.top), parseInt(then.style.top) / 5);
+		}
+		num4++;
+		setTimeout("fly2b()", speed);
+	}
+}
+
+function fly3(target,lef2,num2,top2,num3) {
+	if((Math.floor(top2) != 0 && Math.floor(top2) != -1) || (Math.floor(lef2) != 0 && Math.floor(lef2) != -1)) {
+		if(lef2 >= 0)
+			lef2 -= num2;
+		else
+			lef2 += num2 * -1;
+		if(Math.floor(lef2) != -1) {
+			document.getElementById(target).style.visibility = "visible";
+			document.getElementById(target).style.left = Math.floor(lef2);
+		} else {
+			document.getElementById(target).style.visibility = "visible";
+			document.getElementById(target).style.left = Math.floor(lef2 + 1);
+		}
+		if(lef2 >= 0)
+			top2 -= num3
+		else
+			top2 += num3 * -1;
+		if(Math.floor(top2) != -1)
+			document.getElementById(target).style.top = Math.floor(top2);
+		else
+			document.getElementById(target).style.top = Math.floor(top2 + 1);
+		setTimeout("fly3('"+target+"',"+lef2+","+num2+","+top2+","+num3+")",50)
+	}
+}
+
+stfly()
+
+</script>
+    
+    
+    
+    </div>
+  </div>
+  <div id="apDiv4">
+    <h3><a href="id=8.html">Click here!</a></h3>
+  </div>
+</div>
+      <!-- content-wrap starts-->  
+
+      <div id="news"> 
+     <tr>
+             
+              <script language="JavaScript1.2">
+
+/*
+Cross browser Marquee script- © Dynamic Drive (www.dynamicdrive.com)
+For full source code, 100's more DHTML scripts, and Terms Of Use, visit http://www.dynamicdrive.com
+Credit MUST stay intact
+*/
+
+//Specify the marquee's width (in pixels)
+var marqueewidth="910px"
+//Specify the marquee's height
+var marqueeheight="20px"
+//Specify the marquee's marquee speed (larger is faster 1-10)
+var marqueespeed=1.5
+//configure background color:
+var marqueebgcolor=""
+//Pause marquee onMousever (0=no. 1=yes)?
+var pauseit=1
+
+//Specify the marquee's content (don't delete <nobr> tag)
+//Keep all content on ONE line, and backslash any single quotations (ie: that\'s great):
+
+var marqueecontent='<nobr><font face="Arial"><font size="2 px">Latest news: »07.07.2015» The final project meeting was held on the 30th of June at the facilities of partner Biozoon. </font color="#5b1415" </font></nobr>'
+
+
+////NO NEED TO EDIT BELOW THIS LINE////////////
+marqueespeed=(document.all)? marqueespeed : Math.max(1, marqueespeed-1) //slow speed down by 1 for NS
+var copyspeed=marqueespeed
+var pausespeed=(pauseit==0)? copyspeed: 0
+var iedom=document.all||document.getElementById
+if (iedom)
+document.write('<span id="temp" style="visibility:hidden;position:absolute;top:-100px;left:-9000px">'+marqueecontent+'</span>')
+var actualwidth=''
+var cross_marquee, ns_marquee
+
+function populate(){
+if (iedom){
+cross_marquee=document.getElementById? document.getElementById("iemarquee") : document.all.iemarquee
+cross_marquee.style.left=parseInt(marqueewidth)+8+"px"
+cross_marquee.innerHTML=marqueecontent
+actualwidth=document.all? temp.offsetWidth : document.getElementById("temp").offsetWidth
+}
+else if (document.layers){
+ns_marquee=document.ns_marquee.document.ns_marquee2
+ns_marquee.left=parseInt(marqueewidth)+8
+ns_marquee.document.write(marqueecontent)
+ns_marquee.document.close()
+actualwidth=ns_marquee.document.width
+}
+lefttime=setInterval("scrollmarquee()",20)
+}
+window.onload=populate
+
+function scrollmarquee(){
+if (iedom){
+if (parseInt(cross_marquee.style.left)>(actualwidth*(-1)+8))
+cross_marquee.style.left=parseInt(cross_marquee.style.left)-copyspeed+"px"
+else
+cross_marquee.style.left=parseInt(marqueewidth)+8+"px"
+
+}
+else if (document.layers){
+if (ns_marquee.left>(actualwidth*(-1)+8))
+ns_marquee.left-=copyspeed
+else
+ns_marquee.left=parseInt(marqueewidth)+8
+}
+}
+
+if (iedom||document.layers){
+with (document){
+document.write('<table border="0" cellspacing="0" cellpadding="0"><td>')
+if (iedom){
+write('<div style="position:relative;width:'+marqueewidth+';height:'+marqueeheight+';overflow:hidden">')
+write('<div style="position:absolute;width:'+marqueewidth+';height:'+marqueeheight+';background-color:'+marqueebgcolor+'" onMouseover="copyspeed=pausespeed" onMouseout="copyspeed=marqueespeed">')
+write('<div id="iemarquee" style="position:absolute;left:0px;top:0px"></div>')
+write('</div></div>')
+}
+else if (document.layers){
+write('<ilayer width='+marqueewidth+' height='+marqueeheight+' name="ns_marquee" bgColor='+marqueebgcolor+'>')
+write('<layer name="ns_marquee2" left=0 top=0 onMouseover="copyspeed=pausespeed" onMouseout="copyspeed=marqueespeed"></layer>')
+write('</ilayer>')
+}
+document.write('</td></table>')
+}
+}
+</script></span></td>
+        </tr>
+      
+</div> 
+  <!-- content all starts-->   
+  <div id="content_all">
+	  	<div id="sidebar" > <span class="align-right">
+	  	  <img src="../images/menu_dash.png" width="210" height="341" vspace="6" usemap="#Map" class="imag" />
+	  	  <map name="Map" id="Map">
+   	 		<area shape="rect" coords="27,303,113,334" href="id=6.html" alt="Contact" />
+   	 		<area shape="rect" coords="27,244,135,275" href="id=5.html" alt="Exhibitions" />
+                <area shape="rect" coords="29,188,121,216" href="id=4.html" alt="Operation scenario" />
+        <area shape="rect" coords="31,67,140,96" href="id=2.html" alt="Performance" />
+            <area shape="rect" coords="29,125,148,158" href="id=3.html" alt="Machine data" />
+            <area shape="rect" coords="29,5,92,37" href="index.html" alt="DASH - Home" />
+                <area shape="poly" coords="168,61" href="#" alt="" />
+</map>
+                          </span>
+        <a href="../index.html"></a>	 
+        
+        
+        <div id="prjinf">
+          <p>Project ending: 
+            30/06/15<br />
+            Budget: 1,296,348.80 &euro;<br />
+            EC   contribution: 715,643.00 &euro; <br />
+            Contract number: 314171 </p>
+          <p>&nbsp;</p>
+        </div>
+<div id="EU"></div>
+        
+        
+</div>
+        
+        <div id="main">
+          <table width="705" class="table">
+            <tr>
+              <td><h1><strong>The future in automatic asparagus harvesting...</strong></h1></td>
+            </tr>
+          </table>
+          <p align="justify">&nbsp;</p>
+          <div id="par1">
+            <p align="justify"><span class="work"><strong>DISCOVER AutoSpar </strong></span>- Fully automatic and selective harvesting machine for white asparagus, incorporating a wide range of advantages as opposite to manual harvesting:</p>
+          </div>
+          <div id="par2">
+            <ul type="circle" style="margin-left:35px">
+              <li>Reduced dependency  to manual labour; </li>
+              <li>Independent of  day/night and weather conditions;</li>
+              <li>Able to cover a  big surface of land in a short time (2Ha/day);</li>
+              <li>Harvesting  efficiency of up to 5 asparagus stalks per minute; etc.</li>
+            </ul>
+            
+          </div>
+          <div id="par3">
+            <p align="center"><img src="../images/machine in the field.jpg" alt="" width="550" height="326" /></p>
+           </div>
+          <div id="par4">
+           <p align="justify">If you are interested in finding out more about the innovative AutoSpar machine you should register for an on-demand demonstration. <br />
+Starting with the 1st of July several half day training seminars with indoor demonstrations will take place at the facilities of partner STRAUSS. <br />
+For more details please send us an e-mail at <a href="mailto:info@strauss-pack.com">info</a><a href="mailto:info@strauss-pack.com">@strauss-pack.com</a></p>
+<p align="justify"><br />
+  
+</p>
+          </div>
+        
+         
+          
+    </div>
+        
+</div>
+
+<!-- footer starts-->	
+<div id="footer">
+  <div class="footer-left">
+	  <p align="center">This project has received funding from the European Union’s Seventh Framework Programme for research, technological development and demonstration<br />
+    </p>		
+  </div>
+	
+	<div class="footer-right">
+	  <p align="center">
+	   
+	  </strong> 
+	  <a href="http://autospar.net/dash/login/login.php"><b>Login (only for partners)</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; || &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="imprint.html"><b>Imprint</b></a></p>
+	</div>
+	
+</div>
+<!-- footer ends -->
+	
+<!-- wrap ends-->
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head>
+	<title>Hinamox</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.tooltip.css" />
+	<link rel="stylesheet" type="text/css" href="css/datepicker.css" />
+    <link rel="stylesheet" type="text/css" href="css/ui/ui.all.css" />
+    <link rel="stylesheet" type="text/css" href="css/ui/ui.base.css" />
+    <link rel="stylesheet" type="text/css" href="css/ui/ui.core.css" />
+    <link rel="stylesheet" type="text/css" href="css/ui/ui.datepicker.css" />
+    <link rel="stylesheet" type="text/css" href="css/ui/ui.progressbar.css" />
+    <link rel="stylesheet" type="text/css" href="css/ui/ui.resizable.css" />
+    <link rel="stylesheet" type="text/css" href="css/ui/ui.theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/ui/ui.dialog.css" />
+    <link rel="stylesheet" type="text/css" href="css/ui/ui.tabs.css" />
+    <link rel="stylesheet" type="text/css" href="css/ui/ui.slider.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    
+
+	<script type="text/javascript" src="scripts/jquery/jquery.js"></script>
+    <script type="text/javascript" src="scripts/jquery/ui.js"></script>
+	<script type="text/javascript" src="scripts/jquery/plugins/jquery.validate.js"></script>
+	<!--<script type="text/javascript" src="jquery/lib/jquery.bgiframe.js"></script>
+	<script type="text/javascript" src="scripts/jquery/lib/jquery.dimensions.js"></script> -->
+	<script type="text/javascript" src="scripts/jquery/plugins/jquery.tooltip.js"></script>
+	<!--<script type="text/javascript" src="scripts/jquery/plugins/jquery.corner.js"></script> -->
+	<!--[if lt IE 7]>
+        		<script type="text/javascript" src="scripts/jquery/plugins/unitpngfix.js"></script>
+	<![endif]-->
+	<script type="text/javascript" src="scripts/jquery/plugins/ui.datepicker.js"></script>
+    <script type="text/javascript" src="scripts/jquery/plugins/jquery.lightbox-0.5.js"></script>
+	<script type="text/javascript" src="scripts/comunes.js"></script>	<script type="text/javascript" src="scripts/index.js"></script>
+    
+</head>
+
+<body>
+
+<div id="container">
+		<div id="logosCabecera">
+		
+        <div id="menu">    	
+            <ul>
+                <li class='activo'><a href="index.php"><strong>Home</strong></a></li>
+                <li ><a href="project.php"><strong>Project</strong></a></li>
+                <li ><a href="institutions.php"><strong>Institutions</strong></a></li>
+                <li ><a href="activities.php"><strong>Activities</strong></a></li>
+                <li ><a href="news.php"><strong>News</strong></a></li>
+                <li ><a href="publications.php"><strong>Publications</strong></a></li>
+                <li ><a href="links.php"><strong>Links</strong></a></li>
+                <li ><a href="contact.php"><strong>Contact</strong></a></li>
+            </ul>
+        </div>
+        <img src="css/images/hinamox.gif" alt="www.hinamox.eu" />
+     </div>
+    
+   
+	<div id="content">
+    			
+		<div id="content_left">
+			
+            <div id="home_description">
+				
+                
+                <div id="intro_txt">
+            	<h2>HINAMOX - European project that tests the toxicity of metal oxide nanoparticles</h2>
+                
+                 <p>
+                Understanding the safety, environmental and human health implications of nanomaterials and nanotechnology based materials and products, is an issue of paramount importance for Europe and the rest of the world. 
+                </p>
+                <p>
+                This understanding is required both for future assessments of the safety of nano-based products, and to achieve greater public acceptance of nanotechnology and public awareness of the overall benefits that nanotechnology can bring. This is a strong prerequisite for the future successful development and benefit of nanotechnology products. 
+                
+                </p>
+                <a  class="fright" href="project.php"><img src="css/images/btn_read_more.gif" border="0"></a>
+            </div>
+            
+            <h2>Participating Institutions</h2>
+            
+            <div id="worldmap">
+            	<img src="images/worldmap.gif" alt="" border="0" usemap="#Map">
+                <map name="Map">
+                  <area class="tip" shape="rect" coords="122,103,132,113" href="http://www.ciqa.mx" target="_blank" alt="CIQA, Saltillo, Estado de Coahuila, Mexico" title="CIQA || Saltillo, Estado de Coahuila, Mexico">
+                  <area class="tip" shape="rect" coords="495,93,505,103" href="http://polymer.zju.edu.cn/english/redir.php?catalog_id=9836" target="_blank" alt="Zhejiang University, Hangzhou, Zhejiang province, China" title="Zhejiang University || Hangzhou, Zhejiang province, China">
+                  <area class="tip" shape="rect" coords="283,70,291,79" href="http://www.cicbiomagune.es" target="_blank" alt="CIC biomaGUNE, San Sebasti&aacute;n,Spain" title="CIC biomaGUNE || San Sebasti&aacute;n,Spain">
+                  <area class="tip" shape="rect" coords="331,40,341,50" href="http://www.ttl.fi/internet/english" target="_blank" alt="Finish Institute of Occupational Health, Helsinki, Finland" title="Finish Institute of Occupational Health || Helsinki, Finland">
+                  <area class="tip" shape="rect" coords="313,45,323,54" href="http://www.arbejdsmiljoforskning.dk" target="_blank" alt="National Research Centre for the Working Environment, Copenague, Denmark" title="National Research Centre for the Working Environment || Copenague, Denmark">
+                  <area class="tip" shape="rect" coords="316,55,325,63" href="http://www.plasmachem.com/" target="_blank" alt="PlasmaChem, Berl&iacute;n, Germany" title="PlasmaChem || Berl&iacute;n, Germany">
+                  
+                  <area class="tip" shape="rect" coords="310,59,317,67" href="http://www.uni-leipzig.de/~biophys" target="_blank" alt="University of Leipzig, Leipzig, Germany"  title="University of Leipzig || Leipzig, Germany" >
+                  
+                  
+                  <area class="tip" shape="poly" coords="273,70,281,69,281,72,276,73,276,77,270,70" href="www.uvigo.es" target="_blank" alt="Universidad de Vigo, Vigo, Spain"  title="Universidad de Vigo || Vigo, Spain">
+                </map>
+            </div>
+            
+            <table align="left">
+            	<tr>
+                	<td width="294"><p><strong>CIC biomaGUN</strong><strong>E</strong> (coordinator)</p>
+<p><em>San Sebastian, Gipuzkoa, Spain </em></p></td>
+                    <td width="294">
+                   	<p>&nbsp;</p>
+                   	<p><strong>National Research Centre for the Working Environment</strong></p>
+<p><em>Copenhage, Denmark </em></p></td>
+                </tr>
+                <tr>
+                	<td>
+               	  <p><strong>University of Leipzig</strong></p>
+               	  <p><em>Leipzig, Germany</em></p></td>
+                    <td>
+                   	<p><strong>CIQA</strong></p>
+                    <p><em>Saltillo, Estado de Coahuila, Mexico </em></p></td>
+                </tr>
+                <tr>
+                	<td>
+               	  <p><strong>Universidad de Vigo</strong></p>
+               	  <p><em>Vigo, Spain </em></p></td>
+                    <td>
+               	    <p><strong>Zhejiang University</strong></p>
+                    <p><em>Hangzhou, Zhejiang Province, China</em></p></td>
+                </tr>
+                 <tr>
+                	<td>
+                   	  <p><strong>PlasmaChem </strong></p>
+                    	<p><em>Berlin, Germany
+                   </em></p></td>
+                    <td>
+               	   <p><strong>Finnish Institute of Occupational Health</strong></p>
+                   <p> <em>Helsinki, Finland</em></p></td>
+                    <td><p>&nbsp;</p></td>
+                </tr>
+                 
+            </table>
+
+	    </div>
+			
+		</div>
+		<div id="content_right">			
+			
+			<img src="css/images/member_login.gif" border="0">
+<div id="acceso_intranet">
+	    <div id="form_login">
+    	<form name="datos_intranet" id="datos_intranet" method="post" action="comprobar_login.php">
+            <table cellpadding="2" cellspacing="2" border="0">
+                <tr>
+                    <td><label for="login">Login:</label></td>
+                    <td><input type="text" name="login" id="login" /></td>
+                </tr>
+                <tr>
+                    <td><label for="login">Password:</label></td>
+                    <td><input type="password" name="password" id="password" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="right"><a href="javascript: enviar_login();"><img src="css/images/btn_login.gif" class="rollover" border="0" /></a></td>
+                </tr>
+                <tr>
+                <td colspan="2" align="right">
+				                </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="right"><a href="javascript:recordar_clave();" class="forgot">forgot your password?</a></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+       
+</div>
+
+Error al conectar con la base de datos

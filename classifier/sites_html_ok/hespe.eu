@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2010 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.com/ and http://typo3.org/
+-->
+
+<base href="http://www.hespe.eu/" />
+<link rel="shortcut icon" href="http://www.hespe.eu/fileadmin/template/images/favicon_hespe.ico" type="image/x-ico; charset=binary" />
+<link rel="icon" href="http://www.hespe.eu/fileadmin/template/images/favicon_hespe.ico" type="image/x-ico; charset=binary" />
+<title>HESPE: Home</title>
+<meta name="generator" content="TYPO3 4.4 CMS" />
+<meta name="AUTHOR" content="David Betschart, Jonas Lauener" />
+<meta name="DESCRIPTION" content="Official Site of the HESPE Project" />
+<meta name="KEYWORDS" content="HESPE, high, energy, solar, physics, data, europe" />
+<meta name="robots" content="index, follow" />
+
+<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_655e2226ed.css?1295889579" media="all" />
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/base.css?1299250715" media="all" />
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/hespe.css?1299074721" media="all" />
+<link rel="stylesheet" type="text/css" href="fileadmin/template/search/css/search.css?1297851799" media="all" />
+
+
+
+<script src="fileadmin/template/googleanalytics.js?1404371408" type="text/javascript"></script>
+<script src="typo3temp/javascript_0b12553063.js?1295974643" type="text/javascript"></script>
+
+
+<script type="text/javascript" src="typo3/contrib/prototype/prototype.js"></script>
+	<script type="text/javascript" src="typo3/contrib/scriptaculous/scriptaculous.js"></script>
+	<script type="text/javascript" src="typo3/contrib/scriptaculous/effects.js"></script>
+	<script type="text/javascript" src="typo3/contrib/scriptaculous/controls.js"></script>
+	<script type="text/javascript" src="typo3conf/ext/wt_directory/js/wtdirectory_autocomplete.js"></script>
+
+
+</head>
+<body>
+
+
+		
+                <div id="header" class="header">
+	<a href="http://www.hespe.eu/">
+		<img src="fileadmin/template/images/header_hespe.png" alt="header" />
+	</a>
+</div>
+                
+		<div id="topnav" class="topnav">
+			<ul><li><a href="browser/" onfocus="blurLink(this);">Browser</a></li><li><a href="project/science/" onfocus="blurLink(this);">Project</a><ul><li><a href="project/science/" onfocus="blurLink(this);">Science </a></li><li><a href="project/instrument-and-data/" onfocus="blurLink(this);">Instruments and Data</a></li><li><a href="project/documents/" onfocus="blurLink(this);">Documents </a></li></ul></li><li><a href="resources/publications/" onfocus="blurLink(this);">Resources</a><ul><li><a href="resources/publications/" onfocus="blurLink(this);">Publications</a></li><li><a href="resources/flare-publications/" onfocus="blurLink(this);">Flare Publications</a></li><li><a href="resources/presentations-and-posters/" onfocus="blurLink(this);">Presentations and Posters</a></li></ul></li><li><a href="data/hespe-database/" onfocus="blurLink(this);">Data</a><ul><li><a href="data/hespe-database/" onfocus="blurLink(this);">HESPE database</a></li><li><a href="data/imaging-test/" onfocus="blurLink(this);">Imaging Algorithm Test</a></li><li><a href="data/synthetic-visibilities/" onfocus="blurLink(this);">Synthetic Visibilities</a></li></ul></li><li><a href="software/installation/" onfocus="blurLink(this);">Software</a><ul><li><a href="software/installation/" onfocus="blurLink(this);">HESPE Framework</a></li><li><a href="software/hespe-imaging-routines/" onfocus="blurLink(this);">HESPE Imaging Routines</a></li><li><a href="software/other-hespe-routines/" onfocus="blurLink(this);">Other HESPE routines</a></li></ul></li><li><a href="public-outreach/" onfocus="blurLink(this);">Public Outreach</a></li></ul>
+		</div>
+
+		<div id="center" class="center">
+			<div id="leftnav" class="leftnav">
+				<div class="inner">
+					<ul>
+						<li><a href="browser/" onfocus="blurLink(this);">Browser</a></li><li><a href="project/science/" onfocus="blurLink(this);">Project</a></li><li><a href="resources/publications/" onfocus="blurLink(this);">Resources</a></li><li><a href="data/hespe-database/" onfocus="blurLink(this);">Data</a></li><li><a href="software/installation/" onfocus="blurLink(this);">Software</a></li><li><a href="public-outreach/" onfocus="blurLink(this);">Public Outreach</a></li>
+					</ul>
+					
+
+
+	<!--
+
+		BEGIN: Content of extension "macina_searchbox", plugin "tx_macinasearchbox_pi1"
+
+	-->
+	<div class="tx-macinasearchbox-pi1">
+		
+
+<form action="search/?no_cache=1&amp;L=0" method="post" id="search">
+<fieldset id="search_fie">
+      <input name="tx_indexedsearch[sword]" type="text" id="srchField" title="HESPE Web Site Search" size="15" class="flt_left" value="Search..." onfocus="if(this.value=='Search...')this.value='';" onblur="if(this.value=='')this.value='Search...';"/>
+      <input name="tx_indexedsearch[submit_button]" type="submit" onclick="this.form.submit();" class="searchsubmit" alt="Search" value=""/>
+      <input type="hidden" name="tx_indexedsearch[_sections]" value="0" />
+      <input type="hidden" name="tx_indexedsearch[pointer]" value="0" />
+      <input type="hidden" name="tx_indexedsearch[ext]" value="0" />
+      <input type="hidden" name="tx_indexedsearch[lang]" value="0" />
+ </fieldset>
+</form>
+
+	</div>
+	
+	<!-- END: Content of extension "macina_searchbox", plugin "tx_macinasearchbox_pi1" -->
+
+		
+					<div class="login">
+					
+
+
+	<!--
+
+		BEGIN: Content of extension "felogin", plugin "tx_felogin_pi1"
+
+	-->
+	<div class="tx-felogin-pi1">
+		
+
+<div></div>
+
+<!-- ###LOGIN_FORM### -->
+
+<form id="login" action="/" method="post" onsubmit="tx_rsaauth_feencrypt(this);; return true;">
+
+	<fieldset>
+			<input type="text" class="input" id="user" name="user" value="username" onfocus="if (this.value == 'username') this.value = '';" onblur="if(this.value=='')this.value='username';"/>
+			<input type="password" class="input" id="pass" name="pass" value="password" onfocus="if (this.value == 'password') this.value = '';" onblur="if(this.value=='')this.value='password';"/>
+			<input type="submit" name="submit" value="" class="submit"/>
+
+		<div class="felogin-hidden">
+			<input type="hidden" name="logintype" value="login" />
+			<input type="hidden" name="pid" value="43" />
+			<input type="hidden" name="redirect_url" value="" />
+			<input type="hidden" name="tx_felogin_pi1[noredirect]" value="0" />
+			<script type="text/javascript" src="http://hespe.eu/typo3/sysext/rsaauth/resources/jsbn/jsbn.js"></script><script type="text/javascript" src="http://hespe.eu/typo3/sysext/rsaauth/resources/jsbn/prng4.js"></script><script type="text/javascript" src="http://hespe.eu/typo3/sysext/rsaauth/resources/jsbn/rng.js"></script><script type="text/javascript" src="http://hespe.eu/typo3/sysext/rsaauth/resources/jsbn/rsa.js"></script><script type="text/javascript" src="http://hespe.eu/typo3/sysext/rsaauth/resources/jsbn/base64.js"></script><script type="text/javascript" src="http://hespe.eu/typo3/sysext/rsaauth/resources/rsaauth_min.js"></script><input type="hidden" id="rsa_n" name="n" value="BA646C245D38D947C3575A3EB4D3E1A01AAAE25D7CBF2C24014302DE383C290ADA97D18A4CBE0BAD11017E81F258F1AFF040170849C7799247C22B5EC18F25FAAF07679E0095D3688799BCE48A9BB0ED6FBA0E12D0FD0A0F2153899FF7946F4439980D0BFC4858C2665B7561627D6D086D44A41CEC5FBE655DD4952DF802D5DB" /><input type="hidden" id="rsa_e" name="e" value="10001" />
+		</div>
+	</fieldset>
+</form>
+
+<!--###FORGOTP_VALID###-->
+<a href="/?tx_felogin_pi1%5Bforgot%5D=1" >Forgot your password?</a>
+<!--###FORGOTP_VALID###-->
+
+<!-- ###LOGIN_FORM### -->
+
+
+	</div>
+	
+	<!-- END: Content of extension "felogin", plugin "tx_felogin_pi1" -->
+
+	
+					</div>					
+				</div>
+			</div>
+
+			<div id="content" class="content">
+				<div class="inner">
+					<div id="newsbox" class="leftnav inner"><h2>News</h2><p>Read more ...</p></div>
+					
+					<!--TYPO3SEARCH_begin-->
+					
+					<h1>Home</h1>
+					
+					
+	<!--  CONTENT ELEMENT, uid:98/text [begin] -->
+		<div id="c98" class="csc-default" >
+		<!--  Text: [begin] -->
+			<h2 class="csc-frame-frame2"><b>Please visit the new HESPE Browser with the much extended flare database at:</b></h2>
+<h2 class="csc-frame-frame2"><b><a href="http://hespebrowser.cs.technik.fhnw.ch/browser" title="Opens external link in new window" class="external-link-new-window">http://hespebrowser.cs.technik.fhnw.ch/browser</a>.</b></h2>
+<p class="bodytext"><b>Project title:</b> High Energy Solar Physics Data in Europe</p>
+<p class="bodytext"><b>Project acronym:</b> HESPE</p>
+<p class="bodytext"><b>Project number:</b> 263086</p>
+<p class="bodytext"><b>Call identifier:</b> FP7-SPACE-2010-1</p>
+<p class="bodytext"><b>Starting date:</b> December, 1 2010</p>
+<p class="bodytext"><b>Duration (in months):</b> 36</p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext"><b>Beneficiaries:</b></p><ol><li>Universita di Genova - UNIGE (Coordinator)*</li><li>Fachhochschule Nordwestschweiz (FHNW)</li><li>University of Glasgow (UNIGLA)</li><li>Universitaet Graz (UNIGRAZ)</li><li>Centre Nationale de la Recherche Scientifique (CNRS)</li><li>University of California at Berkeley (UCB)</li></ol><p class="bodytext"> <span class="detail">* NASA Goddard Space Flight Center is Third Party in UNIGE</span></p>
+<p class="bodytext">* CNR SPIN Genova in Third Party in UNIGE</p>
+<p class="bodytext">&nbsp;</p>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:98/text [end] -->
+		
+					
+					<!--TYPO3SEARCH_end-->
+					
+					<a href="/?type=50">      <img src="fileadmin/template/images/printer_icon_gray.png" width="23px" height="20px" alt="Print" 
+      title="Print" style="margin: 10px 0; float: right;" onmouseover="this.src=('fileadmin/template/images/printer_icon.png');" 
+      onmouseout="this.src=('fileadmin/template/images/printer_icon_gray.png');" /></a>
+				</div>
+			</div>
+			
+		<div id="footer" class="footer">
+	<div class="inner">
+		Partners, Funding, Disclaimer, Copyright, Contact etc.
+		<div style="float:right">
+						
+			<a href="http://validator.w3.org/check?uri=referer"><img
+        		src="http://www.w3.org/Icons/valid-xhtml10"
+        		alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+        		
+			<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+    			<img style="border:0;width:88px;height:31px"
+        			src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        			alt="CSS ist valide!" />
+			</a>
+			
+
+  		</div>
+	</div>
+</div>
+		
+        	</div>
+
+
+
+
+</body>
+</html>

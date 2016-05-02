@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- #include file="../include/MySubroutines.Inc" -->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>ExPerl</title>
+	<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+	<style type="text/css">
+.newStyle1 {
+	position: absolute;
+}
+.style2 {
+	text-align: center;
+}
+.style4 {
+	font-family: Tahoma;
+	font-size: 10pt;
+		color: #000000;
+		line-height: 150%;
+	margin-top: 1.03751e-005;
+	margin-bottom: 1.03751e-005;
+}
+.style7 {
+	font-size: large;
+	font-family: Tahoma;
+	font-variant: small-caps;
+}
+.style8 {
+	color: #FFFFFF;
+	background-color: #5C5C5C;
+		text-align: center;
+	}
+.style9 {
+	letter-spacing: 2pt;
+	font-variant: small-caps;
+}
+.style11 {
+	font-family: Verdana;
+}
+.style12 {
+	margin: 8px;
+	text-align: left;
+}
+	</style>
+	<script type="text/javascript">
+<!--
+function FP_swapImgRestore() {//v1.0
+ var doc=document,i; if(doc.$imgSwaps) { for(i=0;i<doc.$imgSwaps.length;i++) {
+  var elm=doc.$imgSwaps[i]; if(elm) { elm.src=elm.$src; elm.$src=null; } } 
+  doc.$imgSwaps=null; }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = { "message": "This website uses cookies to ensure you get the best experience on our website", "dismiss": "Got it!", "learnMore": "More info", "link": null, "theme": "dark-top" };
+</script>
+
+<script type="text/javascript" src="//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'images/B2_A.jpg',/*url*/'images/B3_A.jpg',/*url*/'images/B4_A.jpg',/*url*/'images/B5_A.jpg',/*url*/'images/B6_A.jpg',/*url*/'images/BL_A.jpg',/*url*/'images/B1_A.jpg')">
+	<div id="wrapper">
+		<div id="header" style="left: 0px; top: 0px; height: 153px" >
+			<h1 style="left: 0px; top: -27px">
+			<img alt="H2 Susbuild Logo" height="81" src="images/Logo_03.jpg" width="186" /></h1>
+			<div id="nav" style=" height: 76px;">
+				<a href="index.html">
+				<img alt="" height="38" src="images/B1_I.jpg" width="73" id="img7" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img7',/*url*/'images/B1_A.jpg')" /></a>
+				<a href="html/objectives.html">
+				<img alt="" height="38" src="images/B3_I.jpg" width="87" id="img2" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img2',/*url*/'images/B3_A.jpg')" /></a>
+				<a href="html/consortium.html">
+				<img alt="" height="38" src="images/B4_I.jpg" width="87" id="img3" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img3',/*url*/'images/B4_A.jpg')" /></a>
+				<a href="html/Announcements.html">
+				<img alt="" height="38" src="images/B2_I.jpg" width="87" id="img1" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img1',/*url*/'images/B2_A.jpg')" /></a>
+				<a href="html/Events.html">
+				<img alt="" height="38" src="images/B5_I.jpg" width="87" id="img4" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img4',/*url*/'images/B5_A.jpg')" /></a>
+				<a href="html/Publications.html">
+				<img alt="" height="38" src="images/B6_I.jpg" width="87" id="img5" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img5',/*url*/'images/B6_A.jpg')" /></a>
+				<a href="Secure/">
+				<img alt="" height="38" src="images/BL_I.jpg" width="90" id="img6" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img6',/*url*/'images/BL_A.jpg')" /></a>
+
+			</div>
+			<div id="ProjectTitle" style="height: Auto; width: Auto; margin-top:0px;">
+			<p>
+			&nbsp;</p>
+			</div>
+		</div>
+		<div id="headline" style="left: 0px; top: 0px;">
+			<div id="photo" style="height: 343px; ">
+				<div class="style8">
+					<p class="style12" style=" text-align:justify">
+				<span lang="EN-GB" style="font-size:12.0pt;line-height:
+115%;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA" class="style11"><span class="style9">Efficient 
+					exploitation of EU perlite resources for the development of 
+					a new generation of </span>
+				<span style="mso-bidi-font-weight:
+bold" class="style9">innovative and high added value micro - perlite based 
+					materials for the </span><span class="style9">
+					Chemical, Construction and Manufacturing industry</span></span><span lang="EN-GB" style="font-size:12.0pt;line-height:
+115%;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA"><span style="mso-bidi-font-weight:bold">.</span></span></p>
+					<img alt="" height="227" src="images/experl2.jpg" width="590"/><br />
+&nbsp;</div>
+			</div>
+</div>
+			<div id="search-news">
+				<h2>Search this site</h2>
+				<form action="http://www.google.com/cse" id="cse-search-box">
+					<div>
+						<input type="hidden" name="cx" value="011694139933525036703:6bcttpehbay" />
+						<input type="hidden" name="ie" value="UTF-8" />
+						<input type="text" name="q" value="" id="q" />
+					</div>
+					
+					<div class="more">
+						<input type="image" name="sa" value="" src="images/btn_search.gif" width="51" height="19">
+					</div>
+				</form>
+				<h2 class="downcast">News &amp; Events</h2>
+				<div id="news-box">
+                	<h3>09.11.11</h3>
+					<p>30 Month Technical Meeting (GA/EB/WP/IPR) <br />
+					9 - 10 Nov 2011 <br />
+					S&B Industrial Minerals S.A. <br />
+					Athens, Greece </p>
+					<p>&nbsp;</p>
+
+                	<h3>08.11.11</h3>
+					<p>Exploitation Stategy Seminar (ESS) <br />
+					8 Nov 2011 <br />
+					S&B Industrial Minerals S.A. <br />
+					Athens, Greece </p>
+					<p>&nbsp;</p>
+
+
+					<h3>07.01.10</h3>
+					<p>&nbsp;</p>
+					<p>6 month technical meeting:<br />
+					22 January 2010 <br />
+					D’ APPOLONIA SPA <br />
+					Head Offices </p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p class="more">&nbsp;</p>
+					<h2 class="downcast">Newsletter</h2>
+					<p><strong>Subscribe to our newsletter </strong>and get 
+					information about ExPerl project</p>
+
+						<div class="style2">
+					<form action="html/confirmation.html" method="post">
+							<input type="text" name="test" value="" id="test" style="width: 117px" />
+							<br />
+							
+							<div class="more">
+								<a href="index.html">Submit</a>
+							</div>
+					</form>
+					
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="clear">
+		<div id="body" style="left: 0px;">
+			<div id="body-left" style="width: 617px">
+				<table style="width: 100%">
+					<tr>
+						<td><strong><span class="style7">FP7 RESEARCH PROJECT</span><a href="html/FP7_ExPerl.html"> 
+						[click here for more details]</a></strong><br />
+						Activity area: THEME NMP-2008-4.0-5 [Innovative concepts 
+						and processes for strategic mineral supply and for new 
+						high added value mineral-based products ]</td>
+					</tr>
+				</table>
+				<p class="style4">The objective of the project is the production 
+				of micro-sized closed structure perlite (CSP) and similar 
+				micronized perlite-based particles through the development of 
+				breakthrough perlite expansion technologies and the development 
+				of a new generation of high added value end-products based on 
+				the new CSP and the other micro-particles of perlitic origin, 
+				including preformed insulating products (panels, boards, bricks) 
+				and functional fillers with advanced physical, technical and 
+				environmental performance characteristics, tailored for the 
+				Construction, Manufacturing and Chemical industry. These new 
+				end-products aim to replace the currently used imported minerals 
+				(TiO<sub>2</sub>, diatomite, wollastonite) and polymeric 
+				materials (polystyrene based products). </p>
+				<p class="more"><a href="html/objectives.html">more</a></p>
+			
+			</div>
+			
+				
+			</div>
+		</div>
+		<div class="clear">
+		</div>			
+	</div>
+
+	<div id="footer" style="left: 0px;">
+		<p>&copy; 2008 all rights reserved.</p>
+	</div>
+	
+	<p>&nbsp;</p>
+</body>
+</html>

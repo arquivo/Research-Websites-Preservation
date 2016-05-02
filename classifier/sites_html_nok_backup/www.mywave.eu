@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr" >
+    <head>
+        <link rel='shortcut icon' type='image/vnd.microsoft.icon' href='/images/favicon/favicon.ico'/> <!-- IE -->
+        <link rel='apple-touch-icon' type='image/png' href='/images/favicon/icon_57.png'/> <!-- iPhone -->
+        <link rel='apple-touch-icon' type='image/png' sizes='72x72' href='/images/favicon/icon_72.png'/> <!-- iPad -->
+        <link rel='apple-touch-icon' type='image/png' sizes='114x114' href='/images/favicon/icon_114.png'/> <!-- iPhone4 -->
+        <link rel='icon' type='image/png' href='/images/favicon/icon_144.png'/> <!-- Opera Speed Dial, at least 144×114 px -->
+        <link rel="search" type="application/opensearchdescription+xml" title="GOLEM Search Domain" href="http://localhost/www_golem_sales/www/searchprovider.xml" />
+
+        <link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+        <title>DOMAIN FOR SALE - GOLEM ® Domain Aftermarket</title>
+        <meta name="description" content="all about domains - buy your domain, backorder your domain, register your domain"/>
+        <meta name="keywords" content="domain, buy, sell, hosting, register, catch, countrycode, topleveldomains"/>
+        <meta name="author" content="host.at Software GmbH"/>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+        <meta name="robots" content="index,follow"/>
+        <meta name="revisit-after" content="31 days"/>
+        <meta name="dcterms.rightsHolder" content="host.at Software GmbH"/>
+        <meta name="dcterms.publisher" content="host.at Software GmbH"/>
+        <meta name="dcterms.modified" content="2016-02-01" />
+        <meta name="dcterms.description" content="all about domains - buy your domain, backorder your domain, register your domain"/>
+        <meta name="dcterms.coverage" content="Vienna"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <!-- jQuery and Interface JS
+        ================================================== -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <!-- Bootstrap and jQuery core CSS
+                ================================================== -->
+        <link href="/libraries/core_html/bootstrap.min.css" rel="stylesheet"/>
+        <script src="/libraries/core_html/bootstrap.min.js"></script>
+
+        <!-- Overwritten by GOLEM
+                ================================================== -->
+        <link href="/templates/sell_112015/css/custom.min.css" rel="stylesheet"/>
+        <link href="/templates/sell_112015/css/mediaqueries.min.css" rel="stylesheet"/>
+
+        <script src="/libraries/js/jquery.countdown.min.js"></script>
+        <script src="/libraries/js/JsonData.min.js"></script>
+        <script src="/libraries/js/functions.min.js"></script>
+        <script src="/libraries/js/jquery.chart.min.js"></script>
+        <script src="/libraries/js/jquery.numbertowords.min.js"></script>
+
+        <script src="/libraries/js/mod_golem_currency/currencyInit.min.js"></script>
+        <script src="/libraries/js/mod_golem_fontsize/fontsize.min.js"></script>
+
+        <script src="/templates/sell_112015/js/language.min.js"></script>
+        <script src="/templates/sell_112015/js/currency.min.js"></script>
+        <script src="/templates/sell_112015/js/drawChart.min.js"></script>
+        <script src="/templates/sell_112015/js/interface.min.js"></script>
+
+
+        <script type="text/javascript">
+            var docWidth = document.documentElement.offsetWidth;
+            [].forEach.call(document.querySelectorAll("*"), function (a) {
+                a.offsetWidth > docWidth && console.log(a);
+            });
+            setPathToImageFolder("images/flags/");
+
+        </script>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+                <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+                <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <!-- Fonts
+   ================================================== -->
+        <link href="/templates/sell_112015/css/font-awesome.css" rel="stylesheet"/>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:300,400,500' rel='stylesheet' type='text/css'/>
+    </head>
+    <body>
+        <div id="currencyChoice" style="display: none;"></div>
+        <div id="languageChoice" style="display: none;"></div>
+        <header>
+            <div id="logo" class="container hidden-xs">
+                <a id="linkHome" href="/index.php"> <img src="/templates/sell_112015/images/logo.png" /></a>
+            </div>
+            <div class="row-fluid">
+                <div class="container">
+                    <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                        <nav class="mainnav navbar navbar-default navbar-static-top">
+                            <div class="navbar-header">
+                                <a id="logo-mobile" class="navbar-brand visible-xs-block menu-logo" href="/index.php"><img src="/templates/sell_112015/images/logo-mobile.png"/></a>
+                                <button type="button" class="navbar-toggle collapsed" >
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div id="navbar" class="navbar-collapse collapse">
+                                <div class="second visible-xs-block">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                
+
+<a href="#" class="btn btn-default btn-full" data-code="" id="currencyToggleMobile"></a>
+<div class="panel panel-default" id="currencyBoxMobile">
+    <table class="table table-bordered">
+        <tbody class="tbodyCurrencyModuleTable">     
+        </tbody>
+    </table>
+</div>
+
+
+<script type="text/javascript">
+    //<CDATA[
+    var objCurrency = null;
+    jQuery(document).ready(function ($) {
+
+        objCurrency = $.parseJSON('{"EUR":{"rate":1,"symbol":"\u20ac","code":"EUR","text":"Euro"},"USD":{"rate":1.153005,"symbol":"$","text":"US dollar"},"GBP":{"rate":0.828818,"symbol":"\u00a3","text":"GB Pound"},"CHF":{"rate":1.14597,"symbol":"CHF","text":"swiss francs"},"JPY":{"rate":129.003,"symbol":"\u00a5","text":"Japanese Yen"}}');
+        var selected = $.parseJSON('{"rate":1,"symbol":"\u20ac","code":"EUR","text":"Euro"}');
+        if (jQuery("#currencyToggleMobile").length > 0) {
+            jQuery("#currencyToggleMobile").attr("data-code", selected.code);
+            jQuery("#currencyToggleMobile").html(selected.symbol);
+        }
+        initCurrencyTable(objCurrency, selected.code);
+
+    });
+   //]>
+</script>
+                                                
+                                            </div>
+
+                                            <div class="col-xs-6 pull-bottom">
+                                                
+<a href="#"  id="languageToggleMobile"><img src="/images/flags/en.png" id="langIcon" />&nbsp;<span id="langName"> - EN</span></a>
+<div class="list-group custom" id="languageBoxMobile">
+            <a href="/de/" data-language="de" data-language-text="Deutsch" class="list-group-item language "><img src="/images/flags/de.png" />&nbsp; - de</a>
+                <a href="http://www.mywave.eu/en/" data-language="en" data-language-text="English" class="list-group-item language disabled"><img src="/images/flags/en.png" />&nbsp; - en</a>
+        </div>
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                		<div class="moduletable">
+						<ul class="nav menu navbar-nav">
+<li class="item-265"><a class="showaboutus" href="/en/about-us-en.html" >About us</a></li><li class="item-267"><a class="showhowitworks" href="/en/how-it-works-en.html" >How it works</a></li><li class="item-269"><a class="showdetailstats" href="/en/details-statistics-en.html" >Details Statistics</a></li></ul>
+		</div>
+	                                
+                                <ul class="navright nav navbar-nav navbar-right hidden-xs">                                    
+                                    <li>
+    <a href="#" onclick="font_change('reduce');">A-</a>
+</li>
+<li>
+    <a href="#" onclick="font_change('default');">A</a>
+</li>
+<li>
+    <a href="#" onclick="font_change('enlarge');" >A+</a>
+</li>
+                                    <li>
+                                        <a href="#" id="currencyToggle" data-code=""></a>
+<div class="panel panel-default" id="currencyBox">  
+    <table class="table table-bordered">
+        <tbody class="tbodyCurrencyModuleTable">     
+        </tbody>
+    </table>
+</div>
+
+<script type="text/javascript">
+    //<CDATA[
+    var objCurrency = null;
+    jQuery(document).ready(function ($) {
+        objCurrency = $.parseJSON('{"EUR":{"rate":1,"symbol":"\u20ac","code":"EUR","text":"Euro"},"USD":{"rate":1.153005,"symbol":"$","text":"US dollar"},"GBP":{"rate":0.828818,"symbol":"\u00a3","text":"GB Pound"},"CHF":{"rate":1.14597,"symbol":"CHF","text":"swiss francs"},"JPY":{"rate":129.003,"symbol":"\u00a5","text":"Japanese Yen"}}');
+        var selected = $.parseJSON('{"rate":1,"symbol":"\u20ac","code":"EUR","text":"Euro"}');
+        if ($("#currencyToggle").length > 0) {            
+            $("#currencyToggle").attr("data-code", selected.code);
+            $("#currencyToggle").html(selected.symbol);           
+        }
+        initCurrencyTable(objCurrency, selected.code);
+
+    });
+
+    
+
+    //]>
+</script>                                    
+                                    </li>
+                                    <li>
+                                        
+<a href="#"  id="languageToggle"><img src="/images/flags/en.png" id="langIcon" />&nbsp;<span id="langName"> - EN</span></a>
+<div class="list-group custom" id="languageBox">
+            <a href="/de/" data-language="de" data-language-text="Deutsch" class="list-group-item language "><img src="/images/flags/de.png" />&nbsp; - de</a>
+                <a href="http://www.mywave.eu/en/" data-language="en" data-language-text="English" class="list-group-item language disabled"><img src="/images/flags/en.png" />&nbsp; - en</a>
+        </div>
+                                   
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="clear">
+                    </div>
+                </div>
+            </div>
+            <div class="second row-fluid hidden-xs">
+                <div class="container">
+                    <nav class="navbar navbar-default">
+                        <ul class=" nav navbar-nav navbar-right secondline">
+                            <li>
+                                <a href="mailto:support@golem.eu"><span class="fa fa-envelope-o"></span>&nbsp;support@golem.eu</a>
+                            </li>
+                            <li>
+                                <a href="tel:+43720515729" ><span class="fa fa-phone"></span>&nbsp;+43(0)720/515729</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>        
+        <div class="jumbotron content">
+    <div class="container text-center">
+        <div class="col-lg-offset-3 col-lg-6">
+            <div class="row">
+                <h1><span id="domainName">DomainIsFor</span><span id="topLevelDomain" class="coloured">.SALE</span></h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 collapse only-one" id="headIsForSale">
+                    <h3><span class="fa fa-check fa-2x coloured"></span>&nbsp; is for <span class='coloured'>sale</span></h3>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 collapse only-one" id="headIsForRent">
+                    <h3><span class="fa fa-check fa-2x coloured"></span>&nbsp; is for <span class='coloured'>rent</span></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 collapse only-one" id="headSold">
+                    <h3><span class="fa fa-times fa-2x coloured"></span>&nbsp;has been <span class='coloured'>sold</span></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 collapse only-one" id="headNotFound">
+                    <h3><span class="fa fa-times fa-2x coloured"></span>&nbsp;Domain not found</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container content knockout-top-to-bottom">
+    <div class="row">
+        <div id="containerSections" class="col-lg-7 iconlist">
+            <div class="row collapse" id="containerSold">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h3>This domain has been sold.</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <p>After the domain has been paid, the buyer has to overtake his domain. The buyer needs to take over the domain within one month after purchase with the given Auth-Code or Transfer-Request. The take over has to be carried out via a provider. If you do not have a provider, we can offer you this service.                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row collapse" id="containerNotFound">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h3>Domain not found</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <p>This domain is pointing to our trading platform, but we found no information in our database.
+If you wish to purchase this domain, you can write to <b>broker@golem.eu</b>. Our broker will contact the seller and tries to negotiate the price.                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row collapse" id="containerFixedPrice">
+                <div class="icon col-lg-3 col-md-3 col-sm-4 col-xs-4"></div>
+                <div class="slogan col-lg-9 col-md-9 col-sm-8 col-xs-8">
+                    Buy Domain                </div>
+                <div class="collapsedcontent col-lg-9 col-md-9 col-sm-8 col-xs-8" style="display:none;">
+                    <div class="close" onclick="closeSection('containerFixedPrice');">
+                        <span class="fa fa-close"></span>
+                    </div>
+                    <div class="col-lg-12 col-xs-12">
+                        <h5 data-jtext-deposit="Deposit" data-jtext-fixedprice="Buy Domain" class="description"></h5>
+                        <h3 class="greencoloured" ><span class="amount">placeholder(amount)</span>
+                        </h3>
+                        <p class="priceinwords">
+                            placeholder(priceinwords)
+                        </p>
+                    </div>
+                    <a href="#" id="linkBuyNow" data-action="buy">
+                        <div class="ribbon-wrapper">
+                            <div class="ribbon-front">
+                                Buy Domain&nbsp;&nbsp;<i class="fa fa-arrow-circle-right"></i>
+                            </div>
+                            <div class="ribbon-edge-topright"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row collapse" id="containerInstalment">
+                <div class="icon  col-lg-3 col-md-3 col-sm-4 col-xs-4">
+                </div>
+                <div class="slogan col-lg-9 col-md-9 col-sm-8 col-xs-8">
+                    Instalment                </div>
+                <div class="collapsedcontent col-lg-9 col-md-9 col-sm-8 col-xs-8">
+                    <div class="close" id="instalmentClose" onclick="closeSection('containerInstalment');" >
+                        <span class="fa fa-close"></span>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h5> Instalment</h5>
+                        <div class="form-group row">
+                            <div class="col-lg-5">
+                                <div class="row">
+                                    <div class="col-lg-5 col-md-6 col-sm-6 col-xs-6"><label for="instalmonths" class="custom-label"> month</label></div>
+                                    <div class="col-lg-7 col-md-6 col-sm-6 col-xs-6"><select id="instalmonths" class="form-control"></select></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-padding"><label for="instalprice" class="custom-label"> price per month</label></div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="form-group input-group custom" id="instalmentInput">
+                                            <span class="input-group-addon custom currency inputCurrencyDisplay">&euro;</span>
+                                            <input id="instalprice" type="text" class="form-control" disabled="disabled"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row collapse" id="containerOffer">
+                <div id="makeanoffer" class="icon  col-lg-3 col-md-3 col-sm-4 col-xs-4"></div>
+                <div class="slogan col-lg-9 col-md-9 col-sm-8 col-xs-8">
+                    MAKE AN OFFER                </div>
+                <div class="collapsedcontent col-lg-9 col-md-9 col-sm-8 col-xs-8">
+                    <div class="close"  onclick="closeSection('containerOffer');">
+                        <span class="fa fa-close"></span>
+                    </div>
+                    <div class="col-lg-12 col-xs-12">
+                        <h5>MAKE AN OFFER</h5>
+                        <div class="form-group input-group custom" id="offerInput">
+                            <span class="input-group-addon custom currency"></span>
+                            <input class="form-control input-custom" id="priceoffer" onchange="checkValue(jQuery('#priceoffer'))" type="text" placeholder="" value="" />
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button" onclick="changeValue(jQuery('#priceoffer'), '-10%', checkValue);"><i class="fa fa-minus"></i></button>
+                                <button class="btn btn-default" type="button" onclick="changeValue(jQuery('#priceoffer'), '+10%', checkValue);"><i class="fa fa-plus"></i></button>
+                            </span>
+                        </div>
+                        <p id="minOfferInfo">
+                            minimum offer is: <span data-currency="" class="amountinfo"></span>
+                        </p>
+                    </div>
+                    <a href="#" data-action="bid" id="linkMakeAnOffer">
+                        <div class="ribbon-wrapper">
+                            <div class="ribbon-front">
+                                Place Bid&nbsp;&nbsp;<i class="fa fa-arrow-circle-right"></i>
+                            </div>
+                            <div class="ribbon-edge-topright"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row collapse" id="containerAskForPrice">
+                <div class="icon  col-lg-3 col-md-3 col-sm-4 col-xs-4"></div>
+                <div class="slogan col-lg-9 col-md-9 col-sm-8 col-xs-8">
+                    ASK FOR PRICE                </div>
+                <div class="collapsedcontent col-lg-9 col-md-9 col-sm-8 col-xs-8">
+                    <div class="close" onclick="closeSection('containerAskForPrice');">
+                        <span class="fa fa-close"></span>
+                    </div>
+                    <div class="col-lg-12 col-xs-12">
+                        <h5>ASK FOR PRICE</h5>
+                        <div class="form-group input-group custom-contact">
+                            <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                            <input id="askprice" class="form-control" type="text" placeholder="contact@someone.com" />
+                        </div>
+                        <p id="minOfferInfo">
+                            Enter your email to get a free quote.                            
+                        </p>
+                    </div>
+                    <a href="#" data-action="askforprice" id="linkAskForPrice">
+                        <div class="ribbon-wrapper">
+                            <div class="ribbon-front">
+                                GET A QUOTE&nbsp;&nbsp;<i class="fa fa-arrow-circle-right"></i>
+                            </div>
+                            <div class="ribbon-edge-topright"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row collapse" id="containerAuction">
+                <div class="icon  col-lg-3 col-md-3 col-sm-4 col-xs-4"></div>
+                <div class="slogan col-lg-9 col-md-9 col-sm-8 col-xs-8">
+                    AUCTION                </div>
+                <div class="collapsedcontent col-lg-9 col-md-9 col-sm-8 col-xs-8">
+                    <div class="close" onclick="closeSection('containerAuction');">
+                        <span class="fa fa-close"></span>
+                    </div>
+                    <div class="col-lg-7 col-xs-6">
+                        <h5> AUCTION</h5>
+                        <br />
+                        <div class="form-group input-group custom">
+                            <span class="input-group-addon custom currency inputCurrencyDisplay">&euro;</span>
+                            <input id="priceauction" class="form-control input-custom" type="text" placeholder="260.00" value="260" />
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button" onclick="changeValue(jQuery('#priceauction'), '-10%');"><i class="fa fa-minus"></i></button>
+                                <button class="btn btn-default" type="button" onclick="changeValue(jQuery('#priceauction'), '+10%');"><i class="fa fa-plus"></i></button>
+                            </span>
+                        </div>
+                        <p id="minAuctionInfo">
+                            minimum offer is: <span id="amountAuction" ></span> <span class="currency">EUR</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-5 col-xs-6 button">
+                        <div class="row countdown form-group no-padding-ch">
+                            <div class="text-center col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <input class="form-control cd_hours" type="text"  disabled="disabled"/>
+                            </div>
+
+                            <div class="text-center col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <input class="form-control cd_minutes" type="text" disabled="disabled"/>
+                            </div>
+                            <div class="text-center col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <input class="form-control cd_seconds" type="text" disabled="disabled"/>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" data-action="auction" id="linkAuction">
+                        <div class="ribbon-wrapper">
+                            <div class="ribbon-front">
+                                Join Auction&nbsp;&nbsp;<i class="fa fa-arrow-circle-right"></i>
+                            </div>
+                            <div class="ribbon-edge-topright"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row collapse" id="containerRent">
+                <div class="icon  col-lg-3 col-md-3 col-sm-4 col-xs-4">
+                    <!---->
+                </div>
+                <div class="slogan col-lg-9 col-md-9 col-sm-8 col-xs-8">
+                    Rent Domain                </div>
+                <div class="collapsedcontent col-lg-9 col-md-9 col-sm-8 col-xs-8">
+                    <div class="close">
+                        <span class="fa fa-close"></span>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-6">
+                            <h5>Rent Domain</h5>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="depositRent">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-lg-5 col-md-5 col-sm-5">
+                                        <label class="custom-label" for="rentdeposit">Deposit</label>
+                                    </div>
+                                    <div class="col-lg-7 col-md-7 col-sm-7">
+                                        <div class="form-group input-group custom" id="instalmentInput">
+                                            <span class="input-group-addon custom currency inputCurrencyDisplay">&euro;</span>
+                                            <input class="form-control" type="text" id="rentdeposit" placeholder="XXX"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-7 col-xs-6 rent-size">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="rentmonths">month</label>
+                                    <select id="rentmonths" class="form-control">
+                                        <option value="6">6</option>
+                                        <option value="12">12</option>
+                                        <option value="18">18</option>
+                                        <option value="24">24</option>
+                                        <option value="36">36</option>
+                                        <option value="48">48</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-8">
+                                    <label for="rentprice">price per month</label>
+                                    <div class="form-group input-group custom" id="instalmentInput">
+                                        <span class="input-group-addon custom currency inputCurrencyDisplay">&euro;</span>
+                                        <input id="rentprice" class="form-control" type="text" placeholder="126.00" disabled="disabled"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" data-action="rent" id="linkRentDomain">
+                        <div class="ribbon-wrapper">
+                            <div class="ribbon-front">
+                                Rent Domain&nbsp;&nbsp;<i class="fa fa-arrow-circle-right"></i>
+                            </div>
+                            <div class="ribbon-edge-topright"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-5" id="domainDetailsPanel">
+            <div class="borderedright">
+                <ul class="leaders">
+                    <li class="collapse" id="visitorsLastMonth">
+                        <span><i class="fa fa-hand-pointer-o coloured"></i>&nbsp;Visitors Last Month</span>
+                        <span class="coloured quantity"></span>
+                    </li>
+                    <li class="collapse" id="sellerRating">
+                        <span><i class="fa fa-headphones coloured"></i>&nbsp;Seller Rating</span>
+                        <span class="ratingBox"><i class="fa fa-star yellowcoloured"></i><i class="fa fa-star yellowcoloured"></i><i class="fa fa-star yellowcoloured"></i><i class="fa fa-star yellowcoloured"></i><i class="fa fa-star"></i></span>
+                    </li>
+                    <li class="collapse" id="interestedPersons">
+                        <span><i class="fa fa-users coloured"></i>&nbsp;Interested Persons</span>
+                        <span class="coloured quantity" ></span>
+                    </li>
+                    <li class="collapse" id="registeredSince">
+                        <span><i class="fa fa-calendar coloured"></i>&nbsp;Registered since</span>
+                        <span class="coloured" id="registeredSinceYear">2014</span>
+                    </li>
+                    <li class="collapse" id="whoislink">
+                        <span><i class="fa fa-calendar coloured"></i>&nbsp;Registry Information</span>
+                        <a id="whoislink_val" class="domain-action" href="#"><span class="coloured" >WHOIS</span></a>
+                    </li>
+                    <li class="collapse" id="googlePageRank">
+                        <span><i class="fa fa-trophy coloured"></i>&nbsp;Google Page Rank</span>
+                        <span class="coloured" id="googlePR">3</span>
+                    </li>
+                    <li class="collapse" id="punyCode">
+                        <span><i class="fa fa-code-fork coloured"></i>&nbsp;Puny Code</span>
+                        <span class="coloured" id="punyCodeNo">xn-23131</span>
+                    </li>
+                </ul>
+                <hr/>
+                <ul class="linklist">
+                    <li class="collapse" id="linkInstalmentAccepted">
+                        <span><i class="fa fa-book coloured"></i>&nbsp;&nbsp;<a href="#">Instalment Accepted</a></span>
+                    </li>
+                    <li class="showdetailstats">
+                        <span><i class="fa fa-area-chart coloured"></i>&nbsp;<a href="#" >Detailed Statistics</a></span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-cog coloured"></i>&nbsp;&nbsp;<a href="#containerHowItWorks" class="showhowitworks">How it Works</a></span>
+                    </li>
+                </ul>
+                <hr/>
+                <div class="row siegel">
+                    <div class="text-center col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <img src="/templates/sell_112015/images/SafePlace.png"/>
+                        <div class="caption arrow_box">
+                            <span class='greencoloured'>Secure financial transactions</span> through its headquarters in Vienna 
+                        </div>
+                    </div>
+                    <div class="text-center col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <img src="/templates/sell_112015/images/logo2.png">
+                        <div class="caption arrow_box">
+                            We help you <span class='greencoloured'>transferring</span> your domain <span class=greencoloured>safely</span>. 
+                        </div>
+                    </div>
+                    <div class="text-center col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <img src="/templates/sell_112015/images/MoneyBack.png" />
+                        <div class="caption arrow_box">
+                            <span class=greencoloured>100% Money Back Guarantee</span> - if the seller fails to deliver.                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<form id="formShoppingCart" method="POST" action="https://www.golem.eu">
+    <input type="hidden" id="formInputAction" />
+    <input type="hidden" id="formInputDomain" />
+    <input type="hidden" id="formInputParam"/>
+    <input type="hidden" id="formInputCurrency" name="currency"/>
+    <input type="hidden" name="token" id="formInputToken"/>
+</form>
+
+<script type="text/javascript">
+    //<![CDATA[
+    var objData = null;
+    jQuery(document).ready(function () {
+        jQuery(".showdetailstats").hide();
+        /** Hover for How it works section */
+        jQuery("div.item").hover(
+                function () {
+                    jQuery("div.item").addClass("inactive");
+                    jQuery(this).removeClass("inactive");
+                }
+        );
+        //test chart data
+        objData = new JsonData('{"objDomain":{"domainname":"mywave.eu","name":"mywave","topleveldomain":"eu","punycode":null,"whoislink":null,"registeredsince":null,"notfound":true},"token":"aTQrNDRJdngxV3NIU3h3UWRDRVJ3ZVBPK1Z1TElYNHk="}');
+        setDomainName(objData.get().objDomain.name, "." + objData.get().objDomain.topleveldomain);
+        showInformation(objData);
+        //checkState(objData);
+
+        //init
+        //showInterestedPersons(666);
+        jQuery("div.caption").hide();
+        jQuery(".siegel img").bind("mouseover", function (e) {
+            jQuery(this).siblings(".caption").fadeIn('slow');
+        });
+        jQuery(".siegel img").bind("mouseout", function (e) {
+            jQuery(this).siblings(".caption").fadeOut('slow');
+        });
+        jQuery("#containerFixedPrice .slogan, #containerFixedPrice .icon").bind("click", function (e) {
+            showSections(objData, checkState);
+            openSection("containerFixedPrice");
+        });
+        jQuery("#containerFixedPrice .close").bind("click", function (e) {
+            closeSection("containerFixedPrice");
+        });
+        jQuery("#containerInstalment .slogan").bind("click", function (e) {
+            showSections(objData, checkState);
+            openSection("containerInstalment");
+        });
+        jQuery("#containerInstalment .close").bind("click", function (e) {
+            closeSection("containerInstalment");
+        });
+        jQuery("#containerOffer .slogan, #containerOffer .icon").bind("click", function (e) {
+            openSection("containerOffer");
+            showSections(objData, checkState);
+        });
+        jQuery("#containerOffer .close").bind("click", function (e) {
+            closeSection("containerOffer");
+        });
+        jQuery("#containerAskForPrice .slogan").bind("click", function (e) {
+            openSection("containerAskForPrice");
+        });
+        jQuery("#containerAskForPrice .close").bind("click", function (e) {
+            closeSection("containerAskForPrice");
+        });
+        jQuery("#containerAuction .slogan").bind("click", function (e) {
+            showSections(objData, checkState);
+            openSection("containerAuction");
+        });
+        jQuery("#containerAuction .close").bind("click", function (e) {
+            closeSection("containerAuction");
+        });
+        jQuery("#containerRent .slogan").bind("click", function (e) {
+            showSections(objData, checkState);
+            openSection("containerRent");
+        });
+        jQuery("#containerRent .close").bind("click", function (e) {
+            closeSection("containerRent");
+        });
+        jQuery("#howitworks").bind("click", function (e) {
+            switchPage("howitworks");
+        });
+        jQuery("#statspage").bind("click", function (e) {
+            switchPage("statistics");
+        });
+        /** Open / close responsive menu */
+        jQuery('.navbar-toggle').click(function (event) {
+            jQuery("#navbar").slideToggle();
+            //jQuery("#navbar").slideDown();
+            jQuery('html').one('click', function () {
+                //close menu box
+                jQuery("#navbar").slideToggle();
+                //jQuery("#navbar").slideUp();
+            });
+            event.stopPropagation();
+        });
+        jQuery("#linkHome").click(function (event) {
+            event.preventDefault();
+            switchPage("main");
+        });
+        jQuery("#logo-mobile").click(function (event) {
+            event.preventDefault();
+            switchPage("main");
+        });
+        
+        jQuery(".showdetailstats").click(function (event) {
+            event.preventDefault();
+            var data = {format: "raw", token: objData.get().token};
+            jQuery.post("/en/?task=getChart", data, function (statistics) {
+                drawChart(statistics);
+                switchPage("statistics");
+                jQuery(this).blur();
+            });
+        });
+        jQuery(".showhowitworks").click(function (event) {
+            event.preventDefault();
+            switchPage("howitworks");
+            jQuery(this).blur();
+            jQuery(this).attr("href", "#containerHowItWorks");
+        });
+        jQuery(".showaboutus").click(function (event) {
+            event.preventDefault();
+            var data = {format: "raw"};
+            jQuery.post("/en/?task=getArticle_AboutUS", data, function (html) {
+                jQuery(this).blur();
+                jQuery("#containterAboutUs").html(html);
+                switchPage("aboutus");
+            });
+        });
+        jQuery("#backToDetailsHow, #backToDetailsStats, #backToMain").bind("click", function (e) {
+            switchPage("main");
+        });
+        jQuery("#linkBuyNow").click(function () {
+            submitRequest(this);
+        });
+        jQuery("#linkInstalmentAccepted a").click(function (e) {
+            e.preventDefault();
+            showSections(objData, checkState);
+            openSection("containerInstalment");
+        });
+        jQuery("#linkMakeAnOffer").click(function () {
+            submitRequest(this);
+        });
+        //change currency
+        jQuery(".currency").on("click", function () {
+            showSections(objData, checkState);
+        });
+        showSections(objData, checkState);
+    });
+    //]]>
+</script>
+  
+        <div class="container golemarticle collapse" id="containerAboutUs">
+            <div class="row">
+                <h3>About us</h3>
+                <h3 id="backToMain" class="hidden-xs"><span><i class="fa fa-arrow-left"></i></span>&nbsp;&nbsp;BACK TO DOMAIN INFORMATION</h3>
+                <hr/>
+            </div>
+            <div id="containterAboutUs" class="row"></div>
+        </div>
+        <div class="container golemprocess collapse" id="containerHowItWorks">
+            <div class="row">
+                <h3>How it Works</h3>
+                <h3 id="backToDetailsHow" class="hidden-xs"><span><i class="fa fa-arrow-left"></i></span>&nbsp;&nbsp;BACK TO DOMAIN INFORMATION</h3>
+                <hr/>
+            </div>
+            <div class="row item first" id="first">
+                <div class="col-lg-5 mobile_resize">
+                    <div class="col-lg-6 proc-img reverse">
+                        <img src="/templates/sell_112015/images/process1.png" />
+                    </div>
+                    <div class="col-lg-6 reverse-proc-title">
+                        <span class="heading">
+                            The <span class='greencoloured'>BUYER</span> transfers the money to <span class='redcoloured'>GOLEM</span>                            
+                        </span>
+                        <br/><br/>
+                        <span>After a price has been found (Fixed Price, Aucton, Bid-Offer) the <span class='greencoloured'>BUYER</span> has to transfer the money to our trustee account.</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 text-center bullet">
+                    <span class="fa fa-circle fa-3x coloured"></span>
+                </div>
+                <div class="col-lg-5">
+                    <div class="arrowbox_left arrow_up animated fadeIn">
+                        <ul class="fa-ul checklist elem-3">
+                            <li><i class='fa fa-check'></i>Several Payment Options</li>
+                            <li><i class='fa fa-check'></i>100% Money Back Guarantee</li>
+                            <li><i class='fa fa-check'></i>Instant Accounting</li>                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row item how-seller inactive" id="second">
+                <div class="col-lg-5 arrow_desktop">
+                    <div class="arrowbox_right arrow_up animated fadeIn">
+                        <ul class="fa-ul checklist elem-2">
+                            <li><i class='fa fa-check'></i>100% Secure Transaction</li>
+                            <li><i class='fa fa-check'></i>100% Anonymous</li>                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 text-center bullet">
+                    <span class="fa fa-circle fa-3x coloured"></span>
+                </div>
+                <div class="col-lg-5 mobile_resize">
+                    <div class="col-lg-6 proc-img">
+                        <img src="/templates/sell_112015/images/process2.png" />
+                    </div>
+                    <div class="col-lg-6">
+                        <span class="heading">
+                            The <span class='bluecoloured'>SELLER</span> transfers the domain to <span class='redcoloured'>GOLEM</span>                            
+                        </span>
+                        <br/><br/>
+                        <span>The <span class='bluecoloured'>SELLER</span> must transfer all domain rights to <span class='redcoloured'>GOLEM</span>. This is done via Auth-Code or Transfer-Request.</span>
+                    </div>
+                </div>
+                <div class="col-lg-5 arrow_mobile">
+                    <div class="arrowbox_right arrow_up">
+                        <ul class="fa-ul checklist elem-2">
+                            <li><i class='fa fa-check'></i>100% Secure Transaction</li>
+                            <li><i class='fa fa-check'></i>Help with any Transfer Problems</li>                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row item how-transfer inactive" id="third">
+                <div class="col-lg-5 mobile_resize">
+                    <div class="col-lg-6 proc-img reverse">
+                        <img src="/templates/sell_112015/images/process3.png" />
+                    </div>
+                    <div class="col-lg-6 reverse-proc-title">
+                        <span class="heading">
+                            <span class='redcoloured'>GOLEM</span> transfers the domain to the <span class='greencoloured'>BUYER</span>                            
+                        </span>
+                        <br/><br/>
+                        <span>With the Auth-Code or through Transfer-Request all rights of the domain will be transferred to the <span class = 'greencoloured'>BUYER</span>.</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 text-center bullet">
+                    <span class="fa fa-circle fa-3x coloured"></span>
+                </div>
+                <div class="col-lg-5">
+                    <div class="arrowbox_left arrow_up animated fadeIn">
+                        <ul class="fa-ul checklist elem-2">
+                            <li><i class='fa fa-check'></i>100% Secure Transaction</li>
+                            <li><i class='fa fa-check'></i>Help with any Transfer Problems</li>                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row item how-buyer inactive" id="fourth">
+                <div class="col-lg-5 arrow_desktop ">
+                    <div class="arrowbox_right arrow_up animated fadeIn">
+                        <ul class="fa-ul checklist elem-2">
+                            <li><i class='fa fa-check'></i>No Accounting</li>
+                            <li><i class='fa fa-check'></i>VAT ID checked by <span class='redcoloured'>GOLEM</span></li>                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 text-center bullet">
+                    <span class="fa fa-circle fa-3x coloured"></span>
+                </div>
+                <div class="col-lg-5 mobile_resize">
+                    <div class="col-lg-6 proc-img">
+                        <img src="/templates/sell_112015/images/process4.png" />
+                    </div>
+                    <div class="col-lg-6">
+                        <span class="heading">
+                            <span class='redcoloured'>GOLEM</span> transfers the money to the <span class='bluecoloured'>SELLER</span>                            
+                        </span>
+                        <br/><br/>
+                        <span>After a successful transaction the <span class='bluecoloured'>SELLER</span> gets the credit and an immediate transfer of the amount.</span>
+                    </div>
+                </div>
+                <div class="col-lg-5  arrow_mobile">
+                    <div class="arrowbox_right arrow_up">
+                        <ul class="fa-ul checklist elem-2">
+                            <li><i class='fa fa-check'></i>No Accounting</li>
+                            <li><i class='fa fa-check'></i>VAT ID checked by <span class='redcoloured'>GOLEM</span></li>                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="containerStats" class="container stats collapse">
+            <div class="row">
+                <h3>Detailed Statistics</h3>
+                <h3 id="backToDetailsStats" class="hidden-xs"><span><i class="fa fa-arrow-left"></i></span>&nbsp;&nbsp;BACK TO DOMAIN INFORMATION</h3>
+                <hr/>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <span>Detailed Statistics</span>
+                    <br/><br/>
+                    <hr/>
+                    <ul class="statleaders">
+                        <li id="statsVisitors" class="collapse">
+                            <span><i class="fa fa-hand-pointer-o coloured"></i>&nbsp;Visitors</span>
+                            <span class="quantity coloured">0</span>
+                        </li>
+                        <li id="statsInterestedPersons" class="collapse">
+                            <span><i class="fa fa-users orangecoloured"></i>&nbsp;Interested Persons</span>
+                            <span class="quantity orangecoloured">0</span>
+                        </li>
+                    </ul>
+                    <hr/><span><i class="fa fa-circle coloured"></i>&nbsp; Visitors</span>
+                    <br/>
+                    <span><i class="fa fa-circle orangecoloured"></i>&nbsp; Interested Persons</span>
+                    <br/>
+                </div>
+                <div class="col-lg-8">
+                    <!--- canvas -->
+                    <canvas id="canvas" height="200" width="600"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="row-fluid breakbadge">
+            <div class="container text-center">
+                <div class="col-lg-offset-3 col-lg-6">
+                    <h1>Are there any Questions?</h1>
+                    <div class="col-lg-6 col-md-6">
+                        <h3><span class="fa fa-envelope-o"></span><a href="mailto:support@golem.eu" class="anyquestionslink">&nbsp;support@golem.eu</a></h3>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <h3><span class="fa fa-phone"></span><a href="tel:0043720515729" class="anyquestionslink">&nbsp;+43(0)720/515729</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container footerlogo text-center">
+            <img src="/templates/sell_112015/images/golem_footer.png" />
+        </div>
+        <div class="row-fluid">
+            <div class="container text-center light">
+                <p class="golem-message">
+                    GOLEM Domain Aftermarket provides the trading platform for domain names.
+To find the domain owner, please contact the relevant registry or call their WHOIS service.
+In the case of a trademark abuse, you have to contact the seller directly.
+GOLEM Domain Aftermarket is not the owner of the listed domains. Golem Domain Aftermarket guarantees a secure transfer of your domains.    
+                </p>
+            </div>
+            <div class="container paymentoptions">
+                <hr/><h4>Payment options:</h4>
+                <img src="/templates/sell_112015/images/payment_logos.jpg" /><hr/>
+            </div>
+        </div>
+        <footer>
+            <div class="container text-center">
+                <small>
+                    Copyright GOLEM | Domain Aftermarket 2015 | All rights reserved
+                </small>
+            </div>
+        </footer>
+    </body>
+</html>

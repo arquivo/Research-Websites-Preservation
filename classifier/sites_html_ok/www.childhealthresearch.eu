@@ -1,0 +1,1177 @@
+
+
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en">
+
+    <!--
+    <script src="https://www.google.com/jsapi?key=ABQIAAAAobzcX53OWeGqaItYV50HoRT2yXp_ZAY8_ufC3CFXhHIE1NvwkxSyavXBnR5gPrYQ-BL_RiwadHcJWA" type="text/javascript"></script>
+
+http://ajax.googleapis.com/ajax/services/language/translate?v=1.0&format=html&langpair=en|pl&q=welcome
+https://www.googleapis.com/language/translate/v2?key='ABQIAAAAobzcX53OWeGqaItYV50HoRT2yXp_ZAY8_ufC3CFXhHIE1NvwkxSyavXBnR5gPrYQ-BL_RiwadHcJWA'&format=html&q=welcome&target=pl
+https://www.googleapis.com/language/translate/v2?key='ABQIAAAAobzcX53OWeGqaItYV50HoRT2yXp_ZAY8_ufC3CFXhHIE1NvwkxSyavXBnR5gPrYQ-BL_RiwadHcJWA'&q=hello&source=en&target=hi
+http://localhost:9781/riche/megamenu/research-menu/1/1/find-research/@@getTranslation?string=Find+research&source=en&dest=pt&id=0
+
+-->
+
+<script src="https://www.google.com/jsapi?key=ABQIAAAAobzcX53OWeGqaItYV50HoRQ6JWyfRTQIjXNdBOgfLyow1B1l8hT40hDix2hN5REF_he25J58AvN5qw" type="text/javascript"></script>
+
+  
+    
+    
+    
+    
+    
+
+  
+
+  <head>
+
+    <meta http-equiv="Content-Type"
+          content="text/html;charset=utf-8" />
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    <!-- Internet Explorer fix, forces IE8 into newest possible rendering
+         engine even if it's on an intranet. This has to be defined before any
+         script/style tags. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+
+    
+      <base href="http://www.childhealthresearch.eu/public-front/" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    <title>public-front &mdash; Child Health Research</title>
+
+
+  
+  
+    
+    
+    
+      <style type="text/css" media="screen">@import url(http://www.childhealthresearch.eu/portal_css/Keep%20it%20Simple/base-cachekey6394.css);</style>
+    
+    
+    
+  
+
+  
+    
+    
+      <link rel="stylesheet" type="text/css" media="screen"
+            href="http://www.childhealthresearch.eu/portal_css/Keep%20it%20Simple/resourcecollective.collage.megamenumegamenu-cachekey3407.css" />
+    
+    
+    
+    
+  
+
+  
+    
+    
+    
+      <style type="text/css">@import url(http://www.childhealthresearch.eu/portal_css/Keep%20it%20Simple/columns-cachekey9680.css);</style>
+    
+    
+    
+  
+
+  
+    
+    
+    
+      <style type="text/css" media="all">@import url(http://www.childhealthresearch.eu/portal_css/Keep%20it%20Simple/collage-cachekey7346.css);</style>
+    
+    
+    
+  
+
+  
+    
+    
+    
+      <style type="text/css" media="all">@import url(http://www.childhealthresearch.eu/portal_css/Keep%20it%20Simple/resourcenested-collage-cachekey7348.css);</style>
+    
+    
+    
+  
+
+  
+    
+    
+    
+      <style type="text/css">@import url(http://www.childhealthresearch.eu/portal_css/Keep%20it%20Simple/resourceContentWellPortlets.stylesContentWellPortlets-cachekey5110.css);</style>
+    
+    
+    
+  
+
+  
+    
+    
+      <link rel="stylesheet" type="text/css" media="screen"
+            href="http://www.childhealthresearch.eu/portal_css/Keep%20it%20Simple/qcomments-cachekey6401.css"
+            title="PloneComments" />
+    
+    
+    
+    
+  
+
+  
+    
+    
+    
+      <style type="text/css" media="all">@import url(http://www.childhealthresearch.eu/portal_css/Keep%20it%20Simple/riche_upload-cachekey4721.css);</style>
+    
+    
+    
+  
+
+
+  
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.childhealthresearch.eu/portal_javascripts/Keep%20it%20Simple/resourcejquery-1.3.2.min-cachekey6278.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.childhealthresearch.eu/portal_javascripts/Keep%20it%20Simple/resourcebase2-dom-fp-cachekey8190.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.childhealthresearch.eu/portal_javascripts/Keep%20it%20Simple/resourcecollage-resourcescollage-cachekey3224.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.childhealthresearch.eu/portal_javascripts/Keep%20it%20Simple/atgooglemaps-cachekey9610.js">
+      </script>
+    
+    
+    
+  
+
+
+  
+  <link rel="kinetic-stylesheet" type="text/css"
+        href="http://www.childhealthresearch.eu/portal_kss/Keep%20it%20Simple/at-cachekey1063.kss" />
+
+  <link rel="kinetic-stylesheet" type="text/css"
+        href="http://www.childhealthresearch.eu/portal_kss/Keep%20it%20Simple/resourceplone.app-cachekey8658.z3cform" />
+
+
+
+<meta name="DC.creator" content="admin"/>
+<meta name="DC.format" content="text/plain"/>
+<meta name="DC.date.modified" content="2013-01-12 14:57:17"/>
+<meta name="DC.date.created" content="2012-03-06 14:58:34"/>
+<meta name="DC.type" content="Collage"/>
+<meta name="DC.distribution" content="Global"/>
+<meta name="robots" content="ALL"/>
+<meta name="distribution" content="Global"/>
+<link rel="canonical" href="http://www.childhealthresearch.eu/public-front" />
+<link rel="kss-base-url" href="http://www.childhealthresearch.eu/public-front" />
+
+    <!-- IE6 workaround CSS/JS  -->
+    <!--[if lte IE 7]>
+        <style type="text/css" media="all">@import url(http://www.childhealthresearch.eu/IEFixes.css);</style>
+        
+        <script type="text/javascript"
+                src="http://www.childhealthresearch.eu/iefixes.js">
+        </script>
+    <![endif]-->
+
+
+    
+
+    <link rel="shortcut icon" type="image/x-icon"
+          href="http://www.childhealthresearch.eu/favicon.ico" />
+
+
+
+    <link rel="home"
+          href="http://www.childhealthresearch.eu"
+          title="Front page" />
+
+    <link rel="contents"
+          href="http://www.childhealthresearch.eu/sitemap"
+          title="Site Map" />
+
+
+
+
+
+
+    <link rel="search"
+          href="http://www.childhealthresearch.eu/search_form"
+          title="Search this site" />
+
+
+
+    <!-- Disable IE6 image toolbar -->
+    <meta http-equiv="imagetoolbar" content="no" />
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+  </head>
+
+  <body class="section-public-front template-collage_view"
+        dir="ltr">
+    <div id="visual-portal-wrapper">
+
+      <div id="portal-top">
+        
+    <ul id="portal-languageselector">
+
+
+        <li>
+            <select style="font-size: 94%;"
+                    onchange="window.location='http://www.childhealthresearch.eu/public-front/switchLanguage?set_language=' + this.options[this.selectedIndex].value">
+                <option value="cs">Čeština</option>
+                <option value="nl">Nederlands</option>
+                <option selected="selected" value="en">English</option>
+                <option value="et">Eesti</option>
+                <option value="fi">Suomi</option>
+                <option value="de">Deutsch</option>
+                <option value="is">Íslenska</option>
+                <option value="it">Italiano</option>
+                <option value="no">Norsk</option>
+                <option value="pl">Polski</option>
+                <option value="pt">Português</option>
+                <option value="ro">Română</option>
+                <option value="es">Español</option>
+                <option value="sv">Svenska</option>
+            </select>
+        </li>
+
+    </ul>
+
+
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Personal tools</h5>
+
+<ul id="portal-personaltools" class="visualInline">
+   
+
+    
+        <li id="top_user_login">
+            <a href="http://www.childhealthresearch.eu/login_form">Log in</a>
+        </li>
+    
+    
+        <li id="top_user_join">
+            <a href="http://www.childhealthresearch.eu/join_form">Join</a>
+        </li>
+    
+    
+        <li id="top_user_site-help">
+            <a href="http://www.childhealthresearch.eu/site-help">Site Help</a>
+        </li>
+    
+    
+        <li id="top_user_contact_info">
+            <a href="http://www.childhealthresearch.eu/contact-info">Contact Us</a>
+        </li>
+    
+
+</ul>
+</div>
+
+<div id="portal-header">
+<p class="hiddenStructure">
+  <a accesskey="2"
+     href="http://www.childhealthresearch.eu/#documentContent">Skip to content.</a> |
+
+  <a accesskey="6"
+     href="http://www.childhealthresearch.eu/#portlet-navigation-tree">Skip to navigation</a>
+</p>
+
+<div id="portal-intro">
+
+</div>
+
+
+    
+
+
+<ul id="portal-megamenu" class="megamenu">
+
+    
+    <li class="top-level selected" id="mm-tl-home">
+        <a class="menu-item "
+           href="http://www.childhealthresearch.eu" title="">
+            <span>HOME</span>
+            
+            
+        </a>
+
+        
+    </li>
+    
+    
+    <li class="top-level " id="mm-tl-research-menu">
+        <a class="menu-item menu-dropdown"
+           href="http://www.childhealthresearch.eu/megamenu/research-menu"
+           title="Research">
+            <span>Research</span>
+            
+            <span class="arrowDownAlternative">
+                &#9660;
+            </span>
+        </a>
+
+        
+        
+
+        <div class="sub">
+            <a href="http://www.childhealthresearch.eu/megamenu/research-menu/@@menu-renderer"
+               rel="deferred">Loading data, please wait...</a>
+        </div>
+       
+        
+    </li>
+    
+    
+    <li class="top-level " id="mm-tl-indicators-menu">
+        <a class="menu-item menu-dropdown"
+           href="http://www.childhealthresearch.eu/megamenu/indicators-menu"
+           title="Research">
+            <span>Indicators</span>
+            
+            <span class="arrowDownAlternative">
+                &#9660;
+            </span>
+        </a>
+
+        
+        
+
+        <div class="sub">
+            <a href="http://www.childhealthresearch.eu/megamenu/indicators-menu/@@menu-renderer"
+               rel="deferred">Loading data, please wait...</a>
+        </div>
+       
+        
+    </li>
+    
+    
+    <li class="top-level " id="mm-tl-members">
+        <a class="menu-item menu-dropdown"
+           href="http://www.childhealthresearch.eu/megamenu/members"
+           title="">
+            <span>Members</span>
+            
+            <span class="arrowDownAlternative">
+                &#9660;
+            </span>
+        </a>
+
+        
+        
+
+        <div class="sub">
+            <a href="http://www.childhealthresearch.eu/megamenu/members/@@menu-renderer"
+               rel="deferred">Loading data, please wait...</a>
+        </div>
+       
+        
+    </li>
+    
+    
+    <li class="top-level " id="mm-tl-organisations">
+        <a class="menu-item menu-dropdown"
+           href="http://www.childhealthresearch.eu/megamenu/organisations"
+           title="">
+            <span>Organisations</span>
+            
+            <span class="arrowDownAlternative">
+                &#9660;
+            </span>
+        </a>
+
+        
+        
+
+        <div class="sub">
+            <a href="http://www.childhealthresearch.eu/megamenu/organisations/@@menu-renderer"
+               rel="deferred">Loading data, please wait...</a>
+        </div>
+       
+        
+    </li>
+    
+    
+    <li class="top-level " id="mm-tl-gaps-roadmaps">
+        <a class="menu-item menu-dropdown"
+           href="http://www.childhealthresearch.eu/megamenu/gaps-roadmaps"
+           title="">
+            <span>RICHE Reports</span>
+            
+            <span class="arrowDownAlternative">
+                &#9660;
+            </span>
+        </a>
+
+        
+        
+
+        <div class="sub">
+            <a href="http://www.childhealthresearch.eu/megamenu/gaps-roadmaps/@@menu-renderer"
+               rel="deferred">Loading data, please wait...</a>
+        </div>
+       
+        
+    </li>
+    
+</ul>
+
+
+
+
+</div>
+
+      </div>
+
+      <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+
+      <table id="portal-columns">
+        <tbody>
+          <tr>
+            
+            
+            
+
+            
+            <td id="portal-column-content">
+
+              
+                <div class="">
+
+                  <div id="portlets-above">
+		
+		
+		<div class="portletsAboveContentA">
+
+</div> 
+
+		<div class="portletsAboveContentB">
+
+</div> 
+
+		<div class="portletsAboveContentC">
+
+</div> 
+
+		<div class="portletsAboveContentD">
+
+</div>
+
+		<div class="portletsAboveContentE">
+
+</div>
+
+		<div class="portletsAboveContentF">
+
+</div>
+	
+	
+
+	
+</div>
+
+
+
+
+                  <div id="region-content" class="documentContent">
+
+                    <span id="contentTopLeft"></span>
+                    <span id="contentTopRight"></span>
+                    
+                    <a name="documentContent"></a>
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+                    
+                    <div id="viewlet-above-content">
+</div>
+
+                    <div id="content">
+    
+
+      <div id="collage">
+
+        
+
+        
+
+        
+
+
+        
+
+        <div class="relatedItems">
+    
+        
+            
+        
+    
+</div>
+
+        
+
+        <div class="collage-row">
+  <div class="row_1  collage-first-row">
+	
+
+
+
+
+
+
+
+  
+    <div class="one-column">
+
+      <div class="collage-column">
+  <div class="column-block block_1 collage-last-object collage-first-object">
+    
+
+
+
+
+
+
+
+  
+    <div class="collage-item collage_item_1 collage_type_document collage_view_standard">
+      
+
+<div class="standard-document">
+
+	<h2 id="title-d3cbde3a2d1a8bd5cefd64b32f1b71df"
+     class=" kssattr-atuid-d3cbde3a2d1a8bd5cefd64b32f1b71df">
+	  public-fronttop
+	</h2>
+	
+	
+	
+	<div class="plain kssattr-atuid-d3cbde3a2d1a8bd5cefd64b32f1b71df"
+      id="text-d3cbde3a2d1a8bd5cefd64b32f1b71df">
+	  
+<h2>
+<div id="welcome" style="text-align: center;">Welcome to RICHE - the</div>
+<div id="welcome_sub" style="text-align: center;">Research Inventory for Child Health in Europe</div>
+</h2>
+
+	</div>
+</div>
+
+    </div>
+  
+
+  
+
+
+
+  </div>
+</div>
+
+
+      <div class="visualClear"><!-- nothing here --></div>
+
+    </div>
+  
+
+
+  </div>
+</div><div class="collage-row">
+  <div class="row_2  ">
+	
+
+
+
+
+
+
+
+  
+    <div class="one-column">
+
+      <div class="collage-column">
+  <div class="column-block block_1 collage-last-object collage-first-object">
+    
+
+
+
+
+
+
+
+  
+    <div class="collage-item collage_item_1 collage_type_document collage_view_standard">
+      
+
+<div class="standard-document">
+
+	<h2 id="title-5de0be8de314add579d387c32b6a1461"
+     class=" kssattr-atuid-5de0be8de314add579d387c32b6a1461">
+	  public-front2
+	</h2>
+	
+	
+	
+	<div class="plain kssattr-atuid-5de0be8de314add579d387c32b6a1461"
+      id="text-5de0be8de314add579d387c32b6a1461">
+	  
+<div class="public-front2">
+<p>A resource created under a Framework 7 project and enriched by its members, to make accessible Knowledge on Child Health comprising recent Scientific Publications, Grey Literature, and Research Projects, and creating a virtual Research Community.</p>
+</div>
+
+	</div>
+</div>
+
+    </div>
+  
+
+  
+
+
+
+  </div>
+</div>
+
+
+      <div class="visualClear"><!-- nothing here --></div>
+
+    </div>
+  
+
+
+  </div>
+</div><div class="collage-row">
+  <div class="row_3 collage-last-row ">
+	
+
+
+
+
+
+
+
+  
+    <div class="two-columns-largeright">
+
+      <div class="collage-column">
+  <div class="column-block block_1  collage-first-object">
+    
+
+
+
+
+
+
+
+  
+    <div class="collage-item collage_item_1 collage_type_document collage_view_standard">
+      
+
+<div class="standard-document">
+
+	<h2 id="title-3d6e1b54893f1d7d32c7baf72e9360b6"
+     class=" kssattr-atuid-3d6e1b54893f1d7d32c7baf72e9360b6">
+	  Links
+	</h2>
+	
+	
+	
+	<div class="plain kssattr-atuid-3d6e1b54893f1d7d32c7baf72e9360b6"
+      id="text-3d6e1b54893f1d7d32c7baf72e9360b6">
+	  
+<div class="homepage_leftmenu">
+<p><a class="sexybutton sexysimple internal-link" href="/news">News</a></p>
+<p><a class="sexybutton sexysimple internal-link" href="/createMember">Join</a></p>
+
+<p><a class="sexybutton sexysimple gray" href="http://www.wikiprogress.org/index.php/Child_wellbeing">OECD Wikichild</a></p>
+
+<p><a class="sexybutton sexysimple gray" href="http://www.euro.who.int/en/what-we-do/health-topics/Life-stages/child-and-adolescent-health">WHO Europe - Child Health</a></p>
+
+<p><a class="sexybutton sexysimple gray" href="http://www.euro.who.int/en/what-we-do/data-and-evidence">WHO Europe - Databases</a></p>
+</div>
+
+	</div>
+</div>
+
+    </div>
+  
+
+  
+
+
+
+  </div>
+</div><div class="collage-column">
+  <div class="column-block block_2 collage-last-object ">
+    
+
+
+<h2 id="title-c26b9961cec2213374a90e0b9e57a09f"
+    class=" kssattr-atuid-c26b9961cec2213374a90e0b9e57a09f">
+  Latest News
+</h2>
+
+
+
+
+  
+    <div class="collage-item collage_item_1 collage_type_topic collage_view_summary">
+      
+
+
+
+
+  <div class="standard-topic">
+
+    <h1 id="title-5f8f85640a781ce405be00f4c81603fd"
+        class="documentFirstHeading  kssattr-atuid-5f8f85640a781ce405be00f4c81603fd">
+      News-Events-Homepage
+    </h1>
+
+    <p class="description-topic">
+      
+    </p>
+
+    
+      
+        
+        
+
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-plonearticle">
+
+                     
+
+                    <a href="http://www.childhealthresearch.eu/Members/jkilroe/major-international-meeting-on-child-health-research-to-be-held-in-dublin-ireland-on-may-30-31-2013">
+                       
+                    </a>
+
+                  
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.childhealthresearch.eu/Members/jkilroe/major-international-meeting-on-child-health-research-to-be-held-in-dublin-ireland-on-may-30-31-2013"
+                           class="summary url">Major international meeting on child health research held in Dublin, Ireland in May 2013</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.childhealthresearch.eu/Members/jkilroe/major-international-meeting-on-child-health-research-to-be-held-in-dublin-ireland-on-may-30-31-2013">
+                        Read More&hellip;
+                        </a>
+
+                    
+                    <!--
+                    <span tal:replace="structure item_object/@@viewlets/mfabrik.like" />
+                    -->
+                    </p>
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-plonearticle">
+
+                     
+
+                    <a href="http://www.childhealthresearch.eu/news/ireland-children2019s-rights-referendum-to-be-held-on-saturday-10-november-2012">
+                       
+                    </a>
+
+                  
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.childhealthresearch.eu/news/ireland-children2019s-rights-referendum-to-be-held-on-saturday-10-november-2012"
+                           class="summary url">Ireland: children’s rights referendum passed by 58% yes vote 10 November 2012.</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                        <span class="description">Click "more" to see the wording that will be inserted into the Irish Constitution</span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.childhealthresearch.eu/news/ireland-children2019s-rights-referendum-to-be-held-on-saturday-10-november-2012">
+                        Read More&hellip;
+                        </a>
+
+                    
+                    <!--
+                    <span tal:replace="structure item_object/@@viewlets/mfabrik.like" />
+                    -->
+                    </p>
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-plonearticle">
+
+                     
+
+                    <a href="http://www.childhealthresearch.eu/news/2nd-international-conference-on-nutrition-and-growth-january-30-february-1-2014-barcelona-spain-2">
+                       
+                    </a>
+
+                  
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.childhealthresearch.eu/news/2nd-international-conference-on-nutrition-and-growth-january-30-february-1-2014-barcelona-spain-2"
+                           class="summary url">2nd International Conference on Nutrition and Growth, January 30-February 1, 2014 Barcelona, Spain</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.childhealthresearch.eu/news/2nd-international-conference-on-nutrition-and-growth-january-30-february-1-2014-barcelona-spain-2">
+                        Read More&hellip;
+                        </a>
+
+                    
+                    <!--
+                    <span tal:replace="structure item_object/@@viewlets/mfabrik.like" />
+                    -->
+                    </p>
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-plonearticle">
+
+                     
+
+                    <a href="http://www.childhealthresearch.eu/news/gui-conference-2012">
+                       
+                    </a>
+
+                  
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.childhealthresearch.eu/news/gui-conference-2012"
+                           class="summary url">Growing Up in Ireland Conference 2012  </a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                        <span class="description">Growing Up in Ireland, the Irish national childhood longitudinal study, will hold its fourth annual research conference on Thursday 29th November 2012 at the Ballsbridge Hotel, Dublin. The conference will focus on the findings from Growing Up in Ireland (GUI) data.</span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.childhealthresearch.eu/news/gui-conference-2012">
+                        Read More&hellip;
+                        </a>
+
+                    
+                    <!--
+                    <span tal:replace="structure item_object/@@viewlets/mfabrik.like" />
+                    -->
+                    </p>
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+
+            <!-- Navigation -->
+            <div class="listingBar">
+
+     
+
+    <span class="next">
+        <a href="http://www.childhealthresearch.eu/news/News-Events-Homepage/?b_start:int=4&amp;-C=">
+           
+               Next
+               4
+               items
+           
+           &raquo;
+        </a>
+    </span>
+
+    <!-- Link to first -->
+    
+
+    <!-- Pagelist with quantum leap links to previous pages for quick navigation -->
+
+    <!-- Pagelist with links to previous pages for quick navigation -->
+
+    <!-- Current page -->
+    <span class="current">1</span>
+
+    <!-- Pagelist with links to next pages for quick navigation -->
+    
+        <a href="http://www.childhealthresearch.eu/news/News-Events-Homepage/?b_start:int=4&amp;-C=">2</a>
+    
+    
+        <a href="http://www.childhealthresearch.eu/news/News-Events-Homepage/?b_start:int=8&amp;-C=">3</a>
+    
+
+    <!-- Pagelist with quantum leap links to next pages for quick navigation -->
+
+    <!-- Link to last -->
+    
+
+</div>
+
+        
+        
+            
+        
+
+        
+        
+
+    
+
+    <a href="http://www.childhealthresearch.eu/news/News-Events-Homepage">More...</a>
+
+  </div>
+
+
+
+
+    </div>
+  
+
+  
+
+
+
+  </div>
+</div>
+
+
+      <div class="visualClear"><!-- nothing here --></div>
+
+    </div>
+  
+
+
+  </div>
+</div>
+
+
+
+
+
+        
+
+
+      </div>
+    
+  </div>
+
+                    
+                    
+                      
+    
+
+
+
+
+<div id="portlets-below">
+	
+		
+
+		<div class="portletsBelowContentA">
+
+</div> 
+
+		<div class="portletsBelowContentB">
+
+</div> 
+
+		<div class="portletsBelowContentC">
+
+</div> 
+
+		<div class="portletsBelowContentD">
+
+</div>
+
+		<div class="portletsBelowContentE">
+
+</div>
+
+		<div class="portletsBelowContentF">
+
+</div>
+	
+	
+
+	
+</div>
+
+                    
+                    
+
+                    <span id="contentBottomLeft"></span>
+                    <span id="contentBottomRight"></span>
+
+                  </div>
+
+                </div>
+
+              
+            </td>
+            
+
+            
+            
+            
+          </tr>
+        </tbody>
+      </table>
+      
+
+      <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+      
+      
+
+      
+
+        <div id="footer-portlets">
+	
+		
+
+		<div class="FooterPortletA">
+
+</div> 
+
+		<div class="FooterPortletB">
+
+</div> 
+
+		<div class="FooterPortletC">
+
+</div> 
+
+		<div class="FooterPortletD">
+
+
+<div id="portletwrapper-436f6e74656e7457656c6c506f72746c6574732e466f6f746572506f72746c65744d616e61676572340a636f6e746578740a2f72696368650a65752d666c6167"
+     class="portletWrapper kssattr-portlethash-436f6e74656e7457656c6c506f72746c6574732e466f6f746572506f72746c65744d616e61676572340a636f6e746578740a2f72696368650a65752d666c6167"><div class="portletStaticText portlet-static-eu-flag">
+<p align="center"><img class="image-inline" src="site-info/euflag.gif/image_tile" alt="eu flag" />&nbsp;&nbsp;&nbsp;<img class="image-inline" src="site-info/FP7genRGB.gif/image_tile" alt="fp7 logo gif" /></p>
+<p align="center">&nbsp;</p>
+</div>
+
+</div>
+
+</div>
+
+		<div class="FooterPortletE">
+
+</div>
+
+		<div class="FooterPortletF">
+
+
+<div id="portletwrapper-436f6e74656e7457656c6c506f72746c6574732e466f6f746572506f72746c65744d616e61676572360a636f6e746578740a2f72696368650a7465726d732d616e642d636f6e646974696f6e73"
+     class="portletWrapper kssattr-portlethash-436f6e74656e7457656c6c506f72746c6574732e466f6f746572506f72746c65744d616e61676572360a636f6e746578740a2f72696368650a7465726d732d616e642d636f6e646974696f6e73"><div class="portletStaticText portlet-static-terms-and-conditions">
+<p align="center"><font size="2"><a title="RICHE Terms of use/Disclaimer &amp; RICHE MEMBERS AGREEMENT" class="internal-link" href="about-us/riche-terms-of-use-disclaimer-riche-members-agreement">Terms of
+use Disclaimer / Members Agreement</a>
+&nbsp;&nbsp;<a title="Partner locations" class="partner-locations" href="people-and-network/riche-partner-locations">Partner locations</a>
+&nbsp;&nbsp;<a title="About Us" class="internal-link" href="about-us">About us</a>
+&nbsp;&nbsp;<a title="Project folders" class="project-folders" href="work-packages/">Project folders</a>
+</font></p>
+</div>
+
+</div>
+
+</div>
+	
+	
+
+	
+</div>
+
+
+
+      
+
+      <div class="visualClear"><!-- --></div>
+    </div>
+<div id="kss-spinner"><img alt=""
+                           src="http://www.childhealthresearch.eu/spinner.gif" /></div>
+</body>
+</html>
+

@@ -1,0 +1,918 @@
+
+
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+  
+    
+    
+    
+    
+
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+      <base href="http://www.remplanet.eu/web/remplanet-project" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    
+        <meta content="Resilient Multi-Plant Networks" name="description" />
+<link rel="kss-base-url" href="http://www.remplanet.eu/web/remplanet-project/" />
+
+  
+    <style type="text/css" media="all">@import url(http://www.remplanet.eu/web/portal_css/Plone%20Classic%20Theme/resourcejquery-cachekey6916.css);</style>
+    <style type="text/css" media="screen">@import url(http://www.remplanet.eu/web/portal_css/Plone%20Classic%20Theme/base-cachekey1126.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="http://www.remplanet.eu/web/portal_css/Plone%20Classic%20Theme/resourcetinymce.stylesheetstinymce-cachekey9215.css" />
+    <style type="text/css">@import url(http://www.remplanet.eu/web/portal_css/Plone%20Classic%20Theme/print-cachekey0920.css);</style>
+    <style type="text/css" media="screen">@import url(http://www.remplanet.eu/web/portal_css/Plone%20Classic%20Theme/resourcedancing-resourcesdancing-cachekey2001.css);</style>
+        <!--[if lt IE 8]>    
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="http://www.remplanet.eu/web/portal_css/Plone%20Classic%20Theme/IEFixes-cachekey8631.css" />
+        <![endif]-->
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="http://www.remplanet.eu/web/portal_css/Plone%20Classic%20Theme/qcomments-cachekey7253.css" title="PloneComments" />
+    <style type="text/css" media="screen">@import url(http://www.remplanet.eu/web/portal_css/Plone%20Classic%20Theme/resourcejquery-ui-themessunburstjqueryui-cachekey0497.css);</style>
+    <style type="text/css" media="all">@import url(http://www.remplanet.eu/web/portal_css/Plone%20Classic%20Theme/faceted_view-cachekey2814.css);</style>
+    <style type="text/css" media="all">@import url(http://www.remplanet.eu/web/portal_css/Plone%20Classic%20Theme/ploneCustom-cachekey5993.css);</style>
+
+  
+    <link rel="kinetic-stylesheet" type="text/css" href="http://www.remplanet.eu/web/portal_kss/Plone%20Classic%20Theme/resourcetinymce.ksstinymce-cachekey5404.kss" />
+    <link rel="kinetic-stylesheet" type="text/css" href="http://www.remplanet.eu/web/portal_kss/Plone%20Classic%20Theme/at-cachekey0776.kss" />
+  
+    <script type="text/javascript" src="http://www.remplanet.eu/web/portal_javascripts/Plone%20Classic%20Theme/jquery-cachekey5122.js"></script>
+       <!--[if lt IE 8]>
+     
+    <script type="text/javascript" src="http://www.remplanet.eu/web/portal_javascripts/Plone%20Classic%20Theme/iefixes-cachekey9077.js"></script>
+       <![endif]-->
+     
+    <script type="text/javascript" src="http://www.remplanet.eu/web/portal_javascripts/Plone%20Classic%20Theme/resourcejquery-ui.min-cachekey3965.js"></script>
+    <script type="text/javascript" src="http://www.remplanet.eu/web/portal_javascripts/Plone%20Classic%20Theme/faceted_view-cachekey7420.js"></script>
+
+
+<title>REMPLANET Project &mdash; REMPLANET</title>
+
+        
+
+    <link rel="shortcut icon" type="image/x-icon" href="http://www.remplanet.eu/web/favicon.ico" />
+    <link rel="apple-touch-icon" href="http://www.remplanet.eu/web/touch_icon.png" />
+
+
+<script type="text/javascript">
+        jQuery(function($){
+            $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional[''],
+                {dateFormat: 'mm/dd/yy'}));
+        });
+        </script>
+
+    <link rel="home" href="http://www.remplanet.eu/web" title="Front page" />
+
+    <link rel="contents" href="http://www.remplanet.eu/web/sitemap" title="Site Map" />
+
+
+
+
+
+
+    <link rel="search" href="http://www.remplanet.eu/web/search_form" title="Search this site" />
+
+
+
+        <!-- Disable IE6 image toolbar -->
+        <meta http-equiv="imagetoolbar" content="no" />
+
+        
+        
+
+        
+        
+
+        
+        
+
+        
+        
+    
+
+  </head>
+
+  <body class="template-document_view portaltype-document section-remplanet-project icons-on" dir="ltr">
+    <div id="visual-portal-wrapper">
+
+      <div id="portal-top">
+        <div id="portal-header">
+    <p class="hiddenStructure">
+  <a accesskey="2" href="http://www.remplanet.eu/web/#content">Skip to content.</a> |
+
+  <a accesskey="6" href="http://www.remplanet.eu/web/#portlet-navigation-tree">Skip to navigation</a>
+</p>
+
+<div>
+     <table border="0" width="100%">
+      <tr>
+       <td>
+        <a id="portal-logo" accesskey="1" href="http://www.remplanet.eu/web">
+           <img src="http://www.remplanet.eu/web/logo_remplanet.jpg" alt="" title="" height="131" width="160" /></a>
+       </td>
+       <td>
+          <div id="remplanettitle">Resilient Multi-Plant Networks</div>
+       </td>
+       <td align="right">
+          <img id="logoeu" src="eu_logo.gif" />
+          <img id="logo7fp" src="7FP.jpg" />
+       </td>
+      </tr>
+     </table>
+    </div>
+<ul id="portal-siteactions">
+
+    <li id="siteaction-sitemap"><a href="http://www.remplanet.eu/web/sitemap" accesskey="3" title="Site Map">Site Map</a></li>
+    <li id="siteaction-accessibility"><a href="http://www.remplanet.eu/web/accessibility-info" accesskey="0" title="Accessibility">Accessibility</a></li>
+    <li id="siteaction-contact"><a href="http://www.remplanet.eu/web/contact-info" accesskey="9" title="Contact">Contact</a></li>
+</ul>
+
+
+    <h5 class="hiddenStructure">Sections</h5>
+
+    <ul id="portal-globalnav"><li id="portaltab-index_html" class="selected"><a href="http://www.remplanet.eu/web" title="">Home</a></li><li id="portaltab-project" class="plain"><a href="http://www.remplanet.eu/web/project" title="">Project</a></li><li id="portaltab-consortium" class="plain"><a href="http://www.remplanet.eu/web/consortium" title="">Consortium</a></li><li id="portaltab-news" class="plain"><a href="http://www.remplanet.eu/web/news" title="REMPLANET news.">News</a></li><li id="portaltab-events" class="plain"><a href="http://www.remplanet.eu/web/events" title="Esdeveniments del lloc">Events</a></li><li id="portaltab-publications" class="plain"><a href="http://www.remplanet.eu/web/publications" title="">Publications</a></li><li id="portaltab-deliverables" class="plain"><a href="http://www.remplanet.eu/web/deliverables" title="">Deliverables</a></li><li id="portaltab-tools" class="plain"><a href="http://www.remplanet.eu/web/tools" title="Brochures of the tools developed in the REMPLANET project.">Tools</a></li><li
+    id="portaltab-blog" class="plain"><a href="http://www.remplanet.eu/web/blog" title="REMPLANET Blog">Blog</a></li></ul>
+
+</div>
+
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Personal tools</h5>
+
+<ul id="portal-personaltools" class="visualInline">
+    
+
+    
+        <li id="personaltools-login">
+            <a href="http://www.remplanet.eu/web/login_form">Log in</a>
+        </li>
+    
+
+</ul>
+</div>
+
+
+
+<div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">You
+are here:</span>
+    <span id="breadcrumbs-home">
+        <a href="http://www.remplanet.eu/web">Home</a>
+        
+    </span>
+
+</div>
+
+      </div>
+
+      <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+
+      <table id="portal-columns">
+        <tbody>
+          <tr>
+            
+                
+                <td id="portal-column-one">
+                  <div class="visualPadding">
+                    
+                      
+<div id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f72656d706c616e65740a6e617669676174696f6e" class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f72656d706c616e65740a6e617669676174696f6e">
+<dl class="portlet portletNavigationTree">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="http://www.remplanet.eu/web/sitemap" class="tile">Navigation</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem lastItem">
+        <ul class="navTree navTreeLevel0">
+            <li class="navTreeItem navTreeTopNode navTreeCurrentNode">
+                <div>
+                   <a href="http://www.remplanet.eu/web" class="contenttype-plone-site navTreeCurrentItem" title="">
+                   Home
+                   
+                   </a>
+                </div>
+            </li>
+            
+
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-project">
+
+    
+
+
+        <a href="http://www.remplanet.eu/web/project" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Project</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-consortium">
+
+    
+
+
+        <a href="http://www.remplanet.eu/web/consortium" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Consortium</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-news">
+
+    
+
+
+        <a href="http://www.remplanet.eu/web/news" class="state-published navTreeFolderish contenttype-folder" title="REMPLANET news.">
+            
+            <span>News</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-events">
+
+    
+
+
+        <a href="http://www.remplanet.eu/web/events" class="state-published navTreeFolderish contenttype-folder" title="Esdeveniments del lloc">
+            
+            <span>Events</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-publications">
+
+    
+
+
+        <a href="http://www.remplanet.eu/web/publications" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Publications</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-deliverables">
+
+    
+
+
+        <a href="http://www.remplanet.eu/web/deliverables" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Deliverables</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-tools">
+
+    
+
+
+        <a href="http://www.remplanet.eu/web/tools" class="state-published navTreeFolderish contenttype-folder" title="Brochures of the tools developed in the REMPLANET project.">
+            
+            <span>Tools</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-blog">
+
+    
+
+
+        <a href="http://www.remplanet.eu/web/blog" class="state-published navTreeFolderish contenttype-folder" title="REMPLANET Blog">
+            
+            <span>Blog</span>
+        </a>
+
+    
+    
+</li>
+
+
+
+
+        </ul>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+
+</div>
+
+<div id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f72656d706c616e65740a63616c656e646172" class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f72656d706c616e65740a63616c656e646172">
+<dl class="portlet portletCalendar">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="http://www.remplanet.eu/web/project/partners/vl-idrodinamica-s.r.l?month:int=1&amp;year:int=2016&amp;orig_query=" rel="nofollow" title="Previous month" id="calendar-previous" class="kssCalendarChange kssattr-year-2016 kssattr-month-1 calendarPrevious">&laquo;</a>
+
+        
+            February
+            2016
+        
+
+        <a href="http://www.remplanet.eu/web/project/partners/vl-idrodinamica-s.r.l?month:int=3&amp;year:int=2016&amp;orig_query=" rel="nofollow" title="Next month" id="calendar-next" class="kssCalendarChange kssattr-year-2016 kssattr-month-3 calendarNext">&raquo;</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem">
+        <table class="ploneCalendar" summary="Calendar">
+            <caption class="hiddenStructure">February</caption>
+            <thead>
+                <tr class="weekdays"><th scope="col">Mo</th><th scope="col">Tu</th><th scope="col">We</th><th scope="col">Th</th><th scope="col">Fr</th><th scope="col">Sa</th><th scope="col">Su</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td>
+                </tr>
+                <tr><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td>
+                </tr>
+                <tr><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td>
+                </tr>
+                <tr><td>22</td><td>23</td><td>24</td><td class="todaynoevent"><strong>25</strong></td><td>26</td><td>27</td><td>28</td>
+                </tr>
+                <tr><td>29</td><td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            </tbody>
+
+        </table>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+
+</div>
+
+<div id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f72656d706c616e65740a72656d706c616e65742d6c696e6b65642d696e2d67726f7570" class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f72656d706c616e65740a72656d706c616e65742d6c696e6b65642d696e2d67726f7570">
+<dl class="portlet portletStaticText portlet-static-remplanet-linkedin-group">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <span>
+           REMPLANET LinkedIn Group
+        </span>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+        
+<p>Visit our group in <a class="external-link" href="http://www.linkedin.com/groups?mostPopular=&gid=3722992">LinkedIn</a></p>
+
+        
+            <span class="portletBottomLeft"></span>
+            <span class="portletBottomRight"></span>
+        
+    </dd>
+    
+    
+
+</dl>
+</div>
+
+<div id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f72656d706c616e65740a6e6577736c65747465722d737562736372697074696f6e" class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f72656d706c616e65740a6e6577736c65747465722d737562736372697074696f6e">
+
+<dl class="portlet portlet-dancing">
+
+    <dt class="portletHeader">
+      <span class="portletTopLeft"></span>
+      <span>Newsletter Subscription</span>
+      <span class="portletTopRight"></span>
+    </dt>
+
+   <dd class="portletItem">
+
+      <div>Subscribe to the REMPLANET Newsletter</div>
+
+	
+   <div><div class="form">
+
+  
+
+  
+
+  <form class="rowlike" action="http://www.remplanet.eu/web/remplanet-project/document_view" method="post">
+
+    
+
+      
+        <div class="row horizontal">
+	
+	  
+            <div class="field">
+
+              <label for="remplanet-newsletter-html-widgets-composer-email" class="horizontal">
+                <span>E-mail address</span>
+              </label>
+
+              <span class="fieldRequired horizontal" title="Required">
+                (Required)
+              </span>
+
+              
+
+              
+
+              <div class="widget horizontal">
+                
+    <input id="remplanet-newsletter-html-widgets-composer-email" name="remplanet-newsletter.html.widgets.composer.email" class="text-widget required primarylabeltextline-field" value="" type="text" />
+
+
+              </div>
+            </div>
+	  
+	
+        </div>
+      
+      
+        
+	
+	  
+            <div class="field">
+
+              
+
+              
+
+              
+
+              
+
+              <div class="widget horizontal">
+                  
+
+  
+
+<input name="remplanet-newsletter.html.widgets.collector.selected_collectors-empty-marker" type="hidden" value="1" />
+
+
+              </div>
+            </div>
+	  
+	
+        
+      
+
+    
+
+    
+      <div class="action horizontal">
+        
+<input id="remplanet-newsletter-html-buttons-subscribe" name="remplanet-newsletter.html.buttons.subscribe" class="submit-widget button-field" value="Subscribe" type="submit" />
+
+
+      </div>
+    
+  </form>
+</div>
+</div>
+   <div class="visualClear"></div>
+   </dd>
+   
+</dl>
+
+
+</div>
+
+
+
+
+                    
+                    &nbsp;
+                  </div>
+                </td>
+                
+            
+
+            
+            <td id="portal-column-content">
+
+              <div id="viewlet-above-content"></div>
+
+              
+                <div class="">
+
+                    
+
+                    <span id="contentTopLeft"></span>
+                    <span id="contentTopRight"></span>
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+
+                    
+                    <div id="content">
+                      
+                      
+
+                        
+                            
+                            
+                                
+                                
+            
+                <h1 id="parent-fieldname-title" class="documentFirstHeading">
+                    REMPLANET Project
+                </h1>
+            
+            
+        
+                            
+                            
+
+
+
+
+
+                            
+                                
+                                
+            
+                <div id="parent-fieldname-description" class="documentDescription">
+                   Resilient Multi-Plant Networks
+                </div>
+            
+            
+        
+                            
+
+                            
+
+
+                            <div id="content-core">
+                                
+    
+        
+        <div class="" id="parent-fieldname-text">
+            
+<h2>REMPLANET Overview</h2>
+<p>The REMPLANET Project mission is the development of methods, guidelines and tools for the implementation of the Resilient&nbsp; Multi-Plant Networks Model in non-hierarchical manufacturing networks, characterised by non-centralised decision making.<br />A resilient organization effectively aligns its strategy, operations, management systems, governance structure, and decision-support capabilities so that it can uncover and adjust to continually changing risks, endure disruptions to its primary earnings drivers, and create advantages over less adaptive competitors.<br />The research will consider and balance both operational resilience and strategic resilience in the context of machinery and equipment global manufacturing networks; operational flexibility-agility, and strategic innovation-renewal. REMPLANET model and tools will focus on the integration of the customer driven innovation influence in the products and manufacturing processes design, and the responsiveness to customised market demands of the related non-hierarchical global manufacturing networks processes under a real-time non-centralised decision making context.<br />Theoretical research and related tools will be contrasted, validated, and enhanced through empirical cases (pilots) from different&nbsp; machinery and equipment enterprise networks which have multi-site and multi-nation manufacturing plants, as well as customers distributed around the globe.</p>
+<p><a title="REMPLANET Presentation" class="internal-link" href="project/REMPLANET%20Presentation.PDF">REMPLANET Presentation</a></p>
+<h2>EU funded project</h2>
+<p>REMPLANET is a Collaborative Project under the NMP-2008-SMALL-2 call, funded by the European Commission Seventh Framework Programme - EU FP7 Project 229333</p>
+<h2>Contacts</h2>
+<p>Project Coordinator:&nbsp;&nbsp;&nbsp; Raul Poler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="mailto:rpoler@cigip.upv.es">rpoler@cigip.upv.es</a></p>
+<p>Project Manager:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Raquel Sanchis&nbsp; <a href="mailto:rsanchis@cigip.upv.es">rsanchis@cigip.upv.es</a></p>
+<p>Research Centre on Production Management and Engineering</p>
+<p>Polytechnic University of Valencia. Spain.</p>
+<h2>Surveys</h2>
+Resilience Survey: clic <a class="external-link" href="../ResilienceSurvey">here</a> to enter.
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+            
+        </div>
+    
+    
+
+                            </div>
+                            
+
+
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+
+            <h5 class="hiddenStructure">
+              Document Actions
+            </h5>
+
+            <ul>
+                  <li id="document-action-sendto">
+                      <a href="http://www.remplanet.eu/web/remplanet-project/sendto_form" title="">Send this</a>
+                  </li>
+            </ul>
+        
+
+        
+
+    </div>
+
+                        
+
+                      
+                    </div>
+                    
+
+                    
+
+                    <span id="contentBottomLeft"></span>
+                    <span id="contentBottomRight"></span>
+
+                </div>
+              
+
+              <div id="viewlet-below-content">
+
+
+
+    
+
+</div>
+
+            </td>
+            
+
+            
+                
+                <td id="portal-column-two">
+                  <div class="visualPadding">
+                    
+                      
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f72656d706c616e65740a6c6162656c5f6c6f675f696e" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f72656d706c616e65740a6c6162656c5f6c6f675f696e">
+
+<dl class="portlet portletLogin">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="http://www.remplanet.eu/web/login_form" class="tile">Log in</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+        <form action="http://www.remplanet.eu/web/login_form" id="loginform" method="post">
+
+            <div>
+                <input type="hidden" name="form.submitted" value="1" />
+                <input type="hidden" name="came_from" value="http://www.remplanet.eu/web/" />
+                <input type="hidden" name="js_enabled" id="js_enabled" value="0" />
+                <input type="hidden" name="cookies_enabled" id="cookies_enabled" value="" />
+                <input type="hidden" name="login_name" id="login_name" value="" />
+                <input type="hidden" name="pwd_empty" id="pwd_empty" value="0" />
+            </div>
+
+            <div class="field">
+
+              
+                <label for="__ac_name">Login Name</label>
+                <br />
+                <input type="text" size="10" alt="Login Name" name="__ac_name" value="" id="__ac_name" />
+              
+              
+            </div>
+
+            <div class="field">
+                <label for="__ac_password">Password</label>
+                <br />
+                <input type="password" size="10" alt="Password" name="__ac_password" id="__ac_password" />
+            </div>
+
+            <div class="cookiesMessage portalMessage" style="display:none">
+                Cookies are not enabled. You must enable cookies before you
+                can log in.
+            </div>
+
+            <div class="formControls">
+
+                <input class="context" type="submit" name="submit" value="Log in" alt="Log in" />
+            </div>
+        </form>
+    </dd>
+
+    <dd class="portletItem even">
+        <a href="http://www.remplanet.eu/web/mail_password_form" class="tile">
+           <img src="http://www.remplanet.eu/web/info_icon.gif" alt="" title="" height="16" width="16" />
+           Forgot your password?
+        </a>
+    </dd>
+
+    
+</dl>
+
+
+
+
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f72656d706c616e65740a736561726368" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f72656d706c616e65740a736561726368">
+<dl class="portlet portletSearch">
+
+  <dt class="portletHeader">
+      <span class="portletTopLeft"></span>
+      <a class="tile" href="http://www.remplanet.eu/web/search_form">Search</a>
+      <span class="portletTopRight"></span>
+  </dt>
+
+    <dd class="portletItem">
+      <form id="searchform" action="http://www.remplanet.eu/web/search">
+        <div class="LSBox">
+          <input class="inputLabel searchField portlet-search-gadget" name="SearchableText" type="text" size="15" title="Search Site" />
+          <input class="searchButton" type="submit" value="Search" />
+
+          <div class="LSResult" style="">
+            <div class="LSShadow"></div>
+          </div>
+        </div>
+      </form>
+      <div class="visualClear"><!-- --></div>
+    </dd>
+
+    <dd class="portletFooter">
+        <a href="http://www.remplanet.eu/web/search_form" class="tile">
+        Advanced Search&hellip;
+        </a>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f72656d706c616e65740a6e657773" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f72656d706c616e65740a6e657773">
+<dl class="portlet portletNews">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="http://www.remplanet.eu/web/news" class="tile">News</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    
+    <dd class="portletItem odd">
+
+        <a href="http://www.remplanet.eu/web/consortium/workspaces/wp7/t7.4/news/supply-chain-mass-customisation-production-planning-progetto-remplanet-italian-automazione-integrata" class="tile" title="Tra il 2009 e il 2012, il CRIT, all’interno di un consorzio transnazionale composto, tra gli altri, dalla tedesca FESTO, dall’Università di Valencia e dall’Università della Svizzera italiana, oltre che da due membri del Network Fornitori Accreditati CRIT, ha preso parte a un progetto finanziato dalla Commissione Europea.">
+            
+            Supply chain, mass customisation, production planning - progetto REMPLANET (Italian) (Automazione Integrata)
+         </a>
+            <span class="portletItemDetails">Apr 09, 2013</span>
+        
+    </dd>
+    
+    
+    <dd class="portletItem even">
+
+        <a href="http://www.remplanet.eu/web/blog/best-paper-award-in-the-5th-international-conference-on-industrial-engineering-and-industrial-management-for-the-remplanet-research" class="tile" title="Researchers from Alcoy Campus Site of the Universidad Politécnica de Valencia and IKERLAN Technology Research Center received an award for their research related to the enterprise resilience developed within the frame of the European Project REMPLANET.">
+            
+            Best Paper Award in the 5th International Conference on Industrial Engineering and Industrial Management for the REMPLANET Research
+         </a>
+            <span class="portletItemDetails">Dec 16, 2011</span>
+        
+    </dd>
+    
+    
+    <dd class="portletItem odd">
+
+        <a href="http://www.remplanet.eu/web/news/spoilt-for-choice-english-management-school-alumni-magazine" class="tile" title="A team of ULMS researchers is taking part in a €2.7 million multi-national project to explore how increasing the choice of products that a business offers can help to improve its supply chain performance.">
+            
+            Spoilt for choice (English) (Management School Alumni Magazine)
+         </a>
+            <span class="portletItemDetails">Oct 20, 2011</span>
+        
+    </dd>
+    
+    
+    <dd class="portletItem even">
+
+        <a href="http://www.remplanet.eu/web/blog/lugano-meeting" class="tile" title="During the 25th and 26th May 2011 in Lugano, SUPSI held the REMPLANET workshop for month M24 where several participants representing the different partners of the project presented and discussed the work done in last months and the future work to perform in each work package. ">
+            
+            Lugano Meeting 
+         </a>
+            <span class="portletItemDetails">Oct 12, 2011</span>
+        
+    </dd>
+    
+    
+    <dd class="portletItem odd">
+
+        <a href="http://www.remplanet.eu/web/blog/inet-ims-workshop-ice2011" class="tile" title="During the 17th International Conference on Concurrent Enterprising held by 20-22, June 2011 in Aachen (Germany), a iNet-IMS Workshop titled “Design and Management (strategic, tactical and operational) of Non-Hierarchical Collaborative Manufacturing Networks” was organized. ">
+            
+            iNet-IMS Workshop ICE2011 
+         </a>
+            <span class="portletItemDetails">Oct 12, 2011</span>
+        
+    </dd>
+    
+
+    <dd class="portletFooter">
+        <span class="portletBottomLeft"></span>
+        <a href="http://www.remplanet.eu/web/news">
+          More news&hellip;
+        </a>
+        <span class="portletBottomRight"></span>
+    </dd>
+    
+</dl>
+
+</div>
+
+
+
+
+                    
+                    &nbsp;
+                  </div>
+                </td>
+                
+            
+          </tr>
+        </tbody>
+      </table>
+      
+
+      <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+
+      
+
+        <div class="row">
+    <div class="cell width-full position-0">
+
+        <div id="portal-footer">
+            <p>
+                
+                The
+                <a href="http://plone.org">Plone<sup>&reg;</sup> Open Source CMS/WCM</a>
+                is
+                <acronym title="Copyright">&copy;</acronym>
+                2000-2016
+                by the
+                <a href="http://plone.org/foundation">Plone Foundation</a>
+                and friends.
+                
+
+                
+                Distributed under the
+                    <a href="http://creativecommons.org/licenses/GPL/2.0/">GNU GPL license</a>.
+                
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<div id="portal-colophon">
+
+<div class="colophonWrapper">
+<ul>
+  <li>
+    <a href="http://plone.org" title="This site was built using the Plone Open Source CMS/WCM.">
+      Powered by Plone &amp; Python</a>
+  </li>
+</ul>
+</div>
+</div>
+
+
+
+      
+
+      <div class="visualClear"><!-- --></div>
+    </div>
+<div id="kss-spinner"><img alt="" src="http://www.remplanet.eu/web/spinner.gif" /></div>
+</body>
+</html>
+
+

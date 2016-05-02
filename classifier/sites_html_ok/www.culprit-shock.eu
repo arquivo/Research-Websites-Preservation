@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!--
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2013 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/
+	-->
+	<base href="http://www.culprit-shock.eu/">
+	<link rel="shortcut icon" href="http://www.culprit-shock.eu/favicon.ico" type="image/x-ico; charset=binary">
+	<link rel="icon" href="http://www.culprit-shock.eu/favicon.ico" type="image/x-ico; charset=binary">
+	<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_65ed2cc546.css?1448011237" media="all">
+	<link rel="stylesheet" type="text/css" href="typo3conf/ext/powermail/Resources/Public/Css/jquery.ui.theme.css?1393408836" media="all">
+	<link rel="stylesheet" type="text/css" href="typo3conf/ext/powermail/Resources/Public/Css/jquery.ui.datepicker.css?1431682577" media="all">
+	<link rel="stylesheet" type="text/css" href="typo3conf/ext/powermail/Resources/Public/Css/CssBasic.css?1393408836" media="all">
+	<link rel="stylesheet" type="text/css" href="fileadmin/templates/css/style.css?1448281276" media="all" title="default">
+	<link rel="stylesheet" type="text/css" href="fileadmin/templates/css/mobile.css?1446111943" media="all">
+	<link rel="stylesheet" type="text/css" href="fileadmin/templates/css/culprit-shock/common.less?1431955878" media="all">
+	<script src="fileadmin/templates/scripts/jquery-1.10.x.min.js?1387182776" type="text/javascript"></script>
+	<script src="fileadmin/templates/scripts/jquery.columnizer.js?1391070246" type="text/javascript"></script>
+	<script src="fileadmin/templates/scripts/utils.js?1455096449" type="text/javascript"></script>
+	<script src="typo3temp/javascript_9a38f34785.js?1394193723" type="text/javascript"></script>
+	<meta property="og:image" content="http://www.culprit-shock.eu/fileadmin/websites/culprit-shock/social-media/logo_og_culprit-shock-1200x630.png">
+	<meta name="viewport" content="width=device-width">
+	<script src="fileadmin/templates/scripts/responsive-imagemap/ml.responsive.imagemap.js" type="text/javascript"></script>
+	<style type=text/css>
+	@import url(fileadmin/templates/css/culprit-shock/mobile.css);
+	</style>
+	<!--[if lte IE 8]> <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+	<!--[if IE 8]>
+	<style type=text/css>
+	@import url(fileadmin/templates/css/style-ie8.css);
+	</style>
+	<![endif]-->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-51856350-1', 'culprit-shock.eu');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+	</script>
+	<meta name="msapplication-TileColor" content="#2d89ef">
+	<link rel="apple-touch-icon" sizes="57x57" href="/fav/apple-touch-icon-57x57.png"/>
+	<link rel="apple-touch-icon" sizes="114x114" href="/fav/apple-touch-icon-114x114.png"/>
+	<link rel="apple-touch-icon" sizes="72x72" href="/fav/apple-touch-icon-72x72.png"/>
+	<link rel="apple-touch-icon" sizes="144x144" href="/fav/apple-touch-icon-144x144.png"/>
+	<link rel="apple-touch-icon" sizes="60x60" href="/fav/apple-touch-icon-60x60.png"/>
+	<link rel="apple-touch-icon" sizes="120x120" href="/fav/apple-touch-icon-120x120.png"/>
+	<link rel="apple-touch-icon" sizes="76x76" href="/fav/apple-touch-icon-76x76.png"/>
+	<link rel="apple-touch-icon" sizes="152x152" href="/fav/apple-touch-icon-152x152.png"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon-180x180.png"/>
+	<link rel="icon" type="image/png" href="/fav/favicon-96x96.png" sizes="96x96"/>
+	<link rel="icon" type="image/png" href="/fav/favicon.ico" sizes="16x16"/>
+	<link rel="icon" type="image/png" href="/fav/favicon-32x32.png" sizes="32x32"/>
+	<meta name="msapplication-TileImage" content="/fav/mstile-144x144.png"/>
+	<meta name="robots" content="index,follow">
+	<meta name="revisit-after" content="7 days">
+	<!--[if lte IE 10]>
+	<script type="text/javascript" src="/fileadmin/templates/scripts/respond/respond.min.js"></script>
+	<![endif]-->
+	<title>CULPRIT-SHOCK</title>
+	<meta name="dc.created" content="2016-01-26" />
+	<link rel="canonical" href="http://www.culprit-shock.eu/" />
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://www.culprit-shock.eu/">
+	<script src="typo3conf/ext/imagecycle/res/jquery/js/jquery.cycle.all-3.0.3.min.js" type="text/javascript"></script>
+	<script src="typo3conf/ext/imagecycle/res/jquery/js/jquery.easing-1.3.js" type="text/javascript"></script>
+</head>
+<body><a name="ontop"></a>
+	<div id="top_out">
+		<div id="top" class="clearfix">
+			<div id="breadcrumbs"> <span class="current">Home</span> </div>
+			<div id="homelink"> <a href=""><img src="fileadmin/templates/images/home_icon.gif" alt="Home - CULPRIT-SHOCK" title="Home - CULPRIT-SHOCK" /></a> </div>
+			<div id="topmenu">
+				<nav>
+				<ul>
+					<li><a href="contact/" title="Contact" >Contact</a></li>
+					<li class="separator">&#124;</li>
+					<li><a href="sitemap/" title="Sitemap" >Sitemap</a></li>
+					<li class="separator">&#124;</li>
+					<li><a href="login/login/" title="Login" >Login</a></li>
+					<li class="separator">&#124;</li>
+					<li><a href="news/" title="News" >News</a></li>
+					<li class="separator">&#124;</li>
+				</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div id="navigation_out">
+		<div id="navigation" class="clearfix">
+			<div id="searchicon"> <img id="loupe" src="fileadmin/templates/images/culprit-shock/search_icon.gif" alt="search" title="search"/> </div>
+			<div id="mainmenu" class="clearfix">
+				<nav>
+				<ul class="level1">
+					<li><a href="dissemination/" title="Dissemination" >Dissemination</a>
+					<ul class="level2">
+						<li><a href="dissemination/publications/" title="Publications" >Publications</a></li>
+						<li><a href="dissemination/meetings/" title="Meetings" >Meetings</a></li>
+						<li><a href="dissemination/media/" title="Media" >Media</a></li>
+					</ul>
+					</li>
+					<li><a href="the-group/" title="The Group" >The Group</a>
+					<ul class="level2">
+						<li><a href="the-group/the-team/" title="The Team" >The Team</a>
+						<ul class="level3">
+							<li><a href="the-group/the-team/universitaet-zu-luebeck/" title="Project Coordinator: Universität zu Lübeck" >Universität zu Lübeck</a></li>
+							<li><a href="the-group/the-team/institut-fuer-herzinfarktforschung/" title="Stiftung Institut für Herzinfarktforschung" >Institut für Herzinfarktforschung</a></li>
+							<li><a href="the-group/the-team/academic-medical-centre-amsterdam/" title="Academic Medical Centre Amsterdam" >Academic Medical Centre Amsterdam</a></li>
+							<li><a href="the-group/the-team/wilhelminenspital/" title="Wilhelminenspital of the City of Vienna" >Wilhelminenspital</a></li>
+							<li><a href="the-group/the-team/vilnius-university-hospital/" title="Vilnius University Hospital Santariskiu Klinikos" >Vilnius University Hospital</a></li>
+							<li><a href="the-group/the-team/assistance-publique-hopitaux-de-paris/" title="Assistance Publique Hôpitaux de Paris" >Assistance Publique Hôpitaux de Paris</a></li>
+							<li><a href="the-group/the-team/action/" title="A.C.T.I.O.N Allies in Cardiovascular trials, Initiatives and organized networks Association" >A.C.T.I.O.N</a></li>
+							<li><a href="the-group/the-team/university-medical-centre-ljubljana/" title="University Medical Centre Ljubljana" >University Medical Centre Ljubljana</a></li>
+							<li><a href="the-group/the-team/intensive-cardiac-therapy-clinic/" title="Intensive Cardiac Therapy Clinic, Department of the Institute Cardiology, Warsaw" >Intensive Cardiac Therapy Clinic</a></li>
+							<li><a href="the-group/the-team/insel-spital/" title="INSEL Spital" >INSEL Spital</a></li>
+							<li><a href="the-group/the-team/university-of-glasgow/" title="University of Glasgow" >University of Glasgow</a></li>
+							<li><a href="the-group/the-team/arcispedale-s-maria-nuova/" title="Arcispedale S. Maria Nuova" >Arcispedale S. Maria Nuova</a></li>
+							<li><a href="the-group/the-team/gabomi/" title="GABO:mi" >GABO:mi</a></li>
+							<li><a href="the-group/the-team/university-of-leipzig/" title="University of Leipzig" >University of Leipzig</a></li>
+							<li><a href="the-group/the-team/golden-jubilee-national-hospital/" title="Golden Jubilee National Hospital" >Golden Jubilee National Hospital</a></li>
+							<li><a href="the-group/the-team/university-of-leipzig-heart-centre/" title="University of Leipzig - Heart Centre" >University of Leipzig - Heart Centre</a></li>
+							<li><a href="the-group/the-team/azienda-ospedaliera-della-provincia-di-lecco-italy/" title="Azienda Ospedaliera della Provincia di Lecco, Italy" >Azienda Ospedaliera della Provincia di Lecco, Italy</a></li>
+							<li><a href="the-group/the-team/antwerp-university-hospital/" title="Antwerp University Hospital" >Antwerp University Hospital</a></li>
+						</ul>
+						</li>
+						<li><a href="the-group/advisory-boards/" title="Advisory Boards" >Advisory Boards</a></li>
+					</ul>
+					</li>
+					<li><a href="the-project/" title="The Project" >The Project</a>
+					<ul class="level2">
+						<li><a href="the-project/work-plan/" title="Work Plan" >Work Plan</a>
+						<ul class="level3">
+							<li><a href="the-project/work-plan/wp1-patient-enrolment/" title="WP1: Patient enrolment, randomization, and treatment" >WP1: Patient enrolment</a></li>
+							<li><a href="the-project/work-plan/wp2-prospective-culprit-shock-registry/" title="WP2: Prospective CULPRIT-SHOCK registry" >WP2: Prospective CULPRIT-SHOCK registry</a></li>
+							<li><a href="the-project/work-plan/wp3-angiographic-core-lab/" title="WP3: Angiographic core lab" >WP3: Angiographic core lab</a></li>
+							<li><a href="the-project/work-plan/wp4-biomarkers-and-biobank/" title="WP4: Biomarkers and biobank" >WP4: Biomarkers and biobank</a></li>
+							<li><a href="the-project/work-plan/wp5-microcirculation/" title="WP5: Microcirculation" >WP5: Microcirculation</a></li>
+							<li><a href="the-project/work-plan/wp6-data-management/" title="WP6: Data management and statistical analysis" >WP6: Data management</a></li>
+							<li><a href="the-project/work-plan/wp7-cost-effectiveness-analysis/" title="WP7: Cost-effectiveness and health-economic analysis" >WP7: Cost-effectiveness analysis</a></li>
+							<li><a href="the-project/work-plan/wp8-predictive-prognostic-model/" title="WP8: Predictive prognostic model and risk score" >WP8: Predictive prognostic model</a></li>
+							<li><a href="the-project/work-plan/wp9-dissemination/" title="WP9: Dissemination and exploitation of results" >WP9: Dissemination</a></li>
+							<li><a href="the-project/work-plan/wp10-project-management/" title="WP10: Project Management" >WP10: Project Management</a></li>
+						</ul>
+						</li>
+						<li><a href="the-project/meetings/" title="Meetings" >Meetings</a></li>
+					</ul>
+					</li>
+				</ul>
+				</nav>
+			</div>
+			<div id="projectlogo">
+				<!--img src="fileadmin/templates/images/logo.png" alt="projectlogo" title="projectlogo"-->
+				<div class="mediaall"><a href="/" title="Home"><img src="fileadmin/templates/images/culprit-shock/logo.jpg" alt="CULPRIT-SHOCK" title="CULPRIT-SHOCK" height="80" width="69" /></a></div>
+				<div class="mediaprint"><a href="/" title="Home"><img src="fileadmin/templates/images/culprit-shock/logo-print.jpg" alt="CULPRIT-SHOCK" title="CULPRIT-SHOCK" height="80" width="69" /></a></div>
+			</div>
+		</div>
+	</div>
+	<div id="header_out">
+		<div id="headerimg" class="clearfix headerimg1">
+			<div id="c1809" class="csc-default">
+				<div class="csc-textpic csc-textpic-center csc-textpic-above csc-textpic-equalheight">
+					<div class="csc-textpic-imagewrap">
+						<div class="csc-textpic-center-outer">
+							<div class="csc-textpic-center-inner">
+								<div class="csc-textpic-image csc-textpic-last"><img src="fileadmin/websites/culprit-shock/Header/Headerbild_EKG.jpg" width="986" height="270" border="0" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="header2img" class="clearfix headerimg2">
+			<div id="c4630" class="csc-default">
+				<div class="csc-textpic csc-textpic-center csc-textpic-above csc-textpic-equalheight">
+					<div class="csc-textpic-imagewrap">
+						<div class="csc-textpic-center-outer">
+							<div class="csc-textpic-center-inner">
+								<div class="csc-textpic-image csc-textpic-last"><img src="fileadmin/websites/gabomi-assets/header/header_chart_u2_u3_850px_x_270px.jpg" width="850" height="270" border="0" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="header3img" class="clearfix headerimg3">
+			<div id="c4631" class="csc-default">
+				<div class="csc-textpic csc-textpic-center csc-textpic-above csc-textpic-equalheight">
+					<div class="csc-textpic-imagewrap">
+						<div class="csc-textpic-center-outer">
+							<div class="csc-textpic-center-inner">
+								<div class="csc-textpic-image csc-textpic-last"><img src="fileadmin/websites/gabomi-assets/header/header_chart_u2_u3_600px_x_270px.jpg" width="600" height="270" border="0" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="header" class="clearfix">
+			<div id="searchbox">
+				<form action="search/" method="post" id="indexedsearch"><input name="tx_indexedsearch[sword]" value="" id="inputText" type="text" />
+				<button class="submit" name="tx_indexedsearch[submit_button]" type="submit" value="search">search</button>
+				<input type="hidden" name="tx_indexedsearch[sections]" value="0" /></form>
+			</div>
+			<div id="header_project">
+				<div id="c1803" class="csc-default">
+					<div class="csc-header csc-header-n1">
+						<h1 class="csc-firstHeader"><a href="the-project/" >Infos about the Project</a></h1>
+					</div>
+					<p class="bodytext">In this section CULPRIT-SHOCK presents its scientific objectives and the work plan. You may find information on CULPRIT-SHOCK meeting sas well.</p>
+				</div>
+			</div>
+			<div id="header_patient">
+				<div id="c1804" class="csc-default">
+					<div class="csc-header csc-header-n1">
+						<h1 class="csc-firstHeader"><a href="help-seekers/" >Infomation about the group</a></h1>
+					</div>
+					<p class="bodytext">In this section CULPRIT-SHOCK presents the project team and its external boards.</p>
+				</div>
+			</div>
+			<div id="header_investor">
+				<div id="c1805" class="csc-default">
+					<div class="csc-header csc-header-n1">
+						<h1 class="csc-firstHeader"><a href="investors/" >Information about dissemination activities</a></h1>
+					</div>
+					<p class="bodytext">Coming soon...</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="content_out">
+		<div id="content" class="clearfix">
+			<div id="onecols">
+				<!--TYPO3SEARCH_begin-->
+				<!--TYPO3SEARCH_end-->
+			</div>
+			<div id="homepage"> <a href="the-project/" ><img id="img_project" src="fileadmin/templates/images/culprit_shock_project_grey.jpg" alt="project" /></a><a href="the-group/" ><img id="img_patient" src="fileadmin/templates/images/culprit_shock_patient_grey.jpg" alt="patient" /></a><a href="dissemination/" ><img id="img_investor" src="fileadmin/templates/images/culprit_shock_investor_grey.jpg" alt="investor" /></a> </div>
+		</div>
+	</div>
+	<div id="bottom_out">
+		<div id="service" class="clearfix">
+			<div id="service_menu">
+				<div id="c4629" class="csc-default">
+					<div class="csc-textpic csc-textpic-center csc-textpic-above">
+						<div class="csc-textpic-imagewrap">
+							<div class="csc-textpic-center-outer">
+								<div class="csc-textpic-center-inner">
+									<div class="csc-textpic-imagerow">
+										<div class="csc-textpic-imagecolumn csc-textpic-firstcol">
+											<div class="csc-textpic-image csc-textpic-last"><a href="/" title="Home"><img src="fileadmin/templates/images/culprit-shock/layout/icon_home.gif" width="26" height="26" border="0" alt="Home"></a></div>
+										</div>
+										<div class="csc-textpic-imagecolumn csc-textpic-lastcol">
+											<div class="csc-textpic-image csc-textpic-last"><img src="fileadmin/templates/images/culprit-shock/layout/icon_menu.gif" width="26" height="26" border="0" alt="Menu" title="Menu"></div>
+										</div>
+									</div>
+									<div class="csc-textpic-imagerow csc-textpic-imagerow-last">
+										<div class="csc-textpic-imagecolumn csc-textpic-firstcol">
+											<div class="csc-textpic-image csc-textpic-last"><a href="search/" title="Search"><img src="fileadmin/templates/images/culprit-shock/search_icon.gif" width="23" height="26" border="0" alt="Search"></a></div>
+										</div>
+										<div class="csc-textpic-imagecolumn csc-textpic-lastcol">
+											<div class="csc-textpic-image csc-textpic-last"><a href="/#ontop" title="Top"><img src="fileadmin/templates/images/culprit-shock/layout/icon_top.gif" width="22" height="23" border="0" alt="Top"></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="csc-textpic-text">
+							<p class="bodytext"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="bottom" class="clearfix">
+			<div id="bottom_newsletter">
+				<div id="c1808" class="csc-default">
+					<div class="csc-header csc-header-n1">
+						<h1 class="csc-firstHeader">Newsletter Subscription</h1>
+					</div>
+					<div class="csc-mailform">
+						<form action="/" enctype="multipart/form-data" method="post">
+						<ol>
+						<li class="csc-form-2 csc-form-element csc-form-element-textline"> <input id="field-2" name="tx_form[nl_email]" type="text"/> </li>
+						<li class="csc-form-3 csc-form-element csc-form-element-submit"> <input id="field-3" name="tx_form[nl_submit]" type="submit" value="subscribe"/> </li>
+						</ol>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div id="bottom_news">
+				<div id="c1807" class="csc-default">
+					<div class="csc-header csc-header-n1">
+						<h1 class="csc-firstHeader">News Section</h1>
+					</div>
+					<div class="news">
+						<div class="news-list-view">
+							<!--
+							=====================
+							Partials/List/Item.html
+							-->
+							<div class="article articletype-0">
+								<!-- header -->
+								<div class="header">
+									<h3> <a title="Next meeting" href="news/news-detail/tx_news/proniasirs-3/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=80115bcd6a7505d50188009cea5d6735"> Next meeting </a> </h3>
+								</div>
+								<!-- teas=ser text -->
+								<div class="teaser-text"> The second CULPRIT-SHOCK General Assembly Meeting took place on 3rd September,... <a class="more" title="Next meeting" href="news/news-detail/tx_news/proniasirs-3/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=80115bcd6a7505d50188009cea5d6735"> Read more </a> </div>
+								<!-- footer information -->
+								<div class="footer">
+									<p>
+									<!-- date -->
+									<span class="news-list-date"> 05/06/2014 </span>
+									<!-- author -->
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="bottom_social">
+				<div id="c1806" class="csc-default">
+					<h1>Social Media</h1>
+				<a href=""><img src="fileadmin/templates/images/twitter_grey.gif" alt="Twitter" title="Twitter" /></a> <a href=""><img src="fileadmin/templates/images/gplus_grey.gif" alt="Google Plus" title="Google Plus" /></a> <a href=""><img src="fileadmin/templates/images/facebook_grey.gif" alt="Facebook" title="Facebook" /></a></div>
+				<div id="c4629" class="csc-default">
+					<div class="csc-textpic csc-textpic-center csc-textpic-above">
+						<div class="csc-textpic-imagewrap">
+							<div class="csc-textpic-center-outer">
+								<div class="csc-textpic-center-inner">
+									<div class="csc-textpic-imagerow">
+										<div class="csc-textpic-imagecolumn csc-textpic-firstcol">
+											<div class="csc-textpic-image csc-textpic-last"><a href="/" title="Home"><img src="fileadmin/templates/images/culprit-shock/layout/icon_home.gif" width="26" height="26" border="0" alt="Home"></a></div>
+										</div>
+										<div class="csc-textpic-imagecolumn csc-textpic-lastcol">
+											<div class="csc-textpic-image csc-textpic-last"><img src="fileadmin/templates/images/culprit-shock/layout/icon_menu.gif" width="26" height="26" border="0" alt="Menu" title="Menu"></div>
+										</div>
+									</div>
+									<div class="csc-textpic-imagerow csc-textpic-imagerow-last">
+										<div class="csc-textpic-imagecolumn csc-textpic-firstcol">
+											<div class="csc-textpic-image csc-textpic-last"><a href="search/" title="Search"><img src="fileadmin/templates/images/culprit-shock/search_icon.gif" width="23" height="26" border="0" alt="Search"></a></div>
+										</div>
+										<div class="csc-textpic-imagecolumn csc-textpic-lastcol">
+											<div class="csc-textpic-image csc-textpic-last"><a href="/#ontop" title="Top"><img src="fileadmin/templates/images/culprit-shock/layout/icon_top.gif" width="22" height="23" border="0" alt="Top"></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="csc-textpic-text">
+							<p class="bodytext"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer_out">
+		<div id="footer" class="clearfix">
+			<div id="footer_in">
+				<div id="proglogo"> <img src="fileadmin/templates/images/program_logo.gif" alt="programm" /> </div>
+				<div id="progtext"> CULPRIT-SHOCK is a Collaboration Project funded by the European Union under the 7<sup>th</sup> Framework Programme under grant agreement n° 602202. </div>
+				<div id="footermenu">
+					<nav>
+					<ul>
+						<li><a href="imprint/" title="Imprint" >Imprint</a></li>
+						<li class="separator">&#124;</li>
+						<li><a href="copyright/" title="Copyright" >Copyright</a></li>
+						<li class="separator">&#124;</li>
+					</ul>
+					</nav>
+				</div>
+				<div id="euflag"> <img src="fileadmin/templates/images/eu_flag.gif" alt="CULPRIT-SHOCK is a Collaboration Project funded by the European Union under the 7th Framework Programme under grant agreement n° 602202." title="CULPRIT-SHOCK is a Collaboration Project funded by the European Union under the 7th Framework Programme under grant agreement n° 602202." /> </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">var JsValidationCheckCheckboxes = 'Please check min. 1';var JsValidationCheckInteger = 'Not a valid number';var JsValidationCheckRequired = 'This field is required';var JsValidationCheckRequiredOption = 'Please select an option';var JsValidationCheckEmail = 'Invalid Email';var JsValidationCheckUrl = 'Invalid URL';var JsValidationCheckPhone = 'Invalid Phone No';var JsValidationCheckLetters = 'Only Letters allowed';</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="typo3conf/ext/powermail/Resources/Public/Js/jquery.ui.datepicker.min.js?1393408836" type="text/javascript"></script>
+	<script src="typo3conf/ext/powermail/Resources/Public/Js/jquery.validationEngine-en.js?1393408836" type="text/javascript"></script>
+	<script src="typo3conf/ext/powermail/Resources/Public/Js/jquery.validationEngine.js?1393408836" type="text/javascript"></script>
+	<script src="typo3conf/ext/powermail/Resources/Public/Js/tabs.js?1393408836" type="text/javascript"></script>
+	<script src="typo3conf/ext/powermail/Resources/Public/Js/form.js?1393408836" type="text/javascript"></script>
+	<script src="typo3conf/ext/powermail/Resources/Public/Js/powermail_frontend.js?1393408836" type="text/javascript"></script>
+	<script type="text/javascript">
+	jQuery(document).ready(function($) {
+	var mapElement = document.getElementsByTagName("map")[0];
+	if(mapElement)
+	mlResizeMap();
+	});
+	</script>
+</body>
+</html>

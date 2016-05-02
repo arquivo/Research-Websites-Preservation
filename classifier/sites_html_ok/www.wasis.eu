@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en-GB" lang="en-GB" xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head">
+<!--**********************************************************************************-->
+<!-- DotNetNuke� - http://www.dotnetnuke.com                                          -->
+<!-- Copyright (c) 2002-2010                                                          -->
+<!-- by DotNetNuke Corporation                                                        -->
+<!--**********************************************************************************-->
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta content="text/javascript" http-equiv="Content-Script-Type" /><meta content="text/css" http-equiv="Content-Style-Type" /><meta id="MetaKeywords" name="KEYWORDS" content=",DotNetNuke,DNN" /><meta id="MetaCopyright" name="COPYRIGHT" content="Copyright 2013 by Wasis" /><meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke " /><meta id="MetaAuthor" name="AUTHOR" content="Wasis" /><meta name="RESOURCE-TYPE" content="DOCUMENT" /><meta name="DISTRIBUTION" content="GLOBAL" /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><meta name="REVISIT-AFTER" content="1 DAYS" /><meta name="RATING" content="GENERAL" /><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" /><style id="StylePlaceholder" type="text/css"></style><link id="APortals__default_" rel="stylesheet" type="text/css" href="/Portals/_default/default.css" /><link id="APortals__default_Skins_skins_" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/skins/skin.css" /><link id="APortals__default_Containers_containers_" rel="stylesheet" type="text/css" href="/Portals/_default/Containers/containers/container.css" /><link id="APortals_0_" rel="stylesheet" type="text/css" href="/Portals/0/portal.css" /><script type="text/javascript" src="/Resources/Shared/Scripts/jquery/jquery.min.js" ></script><script type="text/javascript" src="/js/cookieconsent/sliding_popup.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		CreatePopup("/js/cookieconsent/popup.html", 200, 1500, "cookiepopup20120831", 365);
+	});
+</script><title>
+	WASIS - Home
+</title></head>
+<body id="Body">
+    <form method="post" action="/" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+
+<script src="/js/dnncore.js" type="text/javascript"></script><script type="text/javascript">DDRjQuery=window.DDRjQuery||jQuery;</script><script type="text/javascript">if (!(window.DDR && window.DDR.Menu && window.DDR.Menu.Providers && window.DDR.Menu.Providers.SolPart)) document.write(unescape('%3Cscript src="/DesktopModules/DDRMenu/SolPart/SolPartMenu.min.js" type="text/javascript"%3E%3C/script%3E'));</script>
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"en-GB","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":".","IsReadOnly":false,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":",","CurrencySymbol":"£","NaNSymbol":"NaN","CurrencyNegativePattern":1,"NumberNegativePattern":1,"PercentPositivePattern":0,"PercentNegativePattern":0,"NegativeInfinitySymbol":"-Infinity","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":".","NumberGroupSeparator":",","CurrencyPositivePattern":0,"PositiveInfinitySymbol":"Infinity","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":".","PercentGroupSeparator":",","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"AM","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402300799999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":false},"DateSeparator":"/","FirstDayOfWeek":1,"CalendarWeekRule":0,"FullDateTimePattern":"dd MMMM yyyy HH:mm:ss","LongDatePattern":"dd MMMM yyyy","LongTimePattern":"HH:mm:ss","MonthDayPattern":"dd MMMM","PMDesignator":"PM","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd/MM/yyyy","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"ShortestDayNames":["Su","Mo","Tu","We","Th","Fr","Sa"],"DayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"AbbreviatedMonthNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"MonthNames":["January","February","March","April","May","June","July","August","September","October","November","December",""],"IsReadOnly":false,"NativeCalendarName":"Gregorian Calendar","AbbreviatedMonthGenitiveNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"MonthGenitiveNames":["January","February","March","April","May","June","July","August","September","October","November","December",""]},"eras":[1,"A.D.",null,0]};//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=M7Y4RP9-Hez0tC-k2JvRFuqjne0HO2BnV6hm_Oqj9E5A4vseC7kAad6zvj69a_H61Pm-a6X7b7XcCH3j3BBlh9AT-F9gf_xjvVt2T2Fw64uVoBd5lzEqA1w-Mj7BvbrkdiL4f-aQ8c3SlIp2vey8kmQTizk1&amp;t=5f9d5645" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div>
+
+
+        
+        
+<style type="text/css">
+<!--
+body {
+	background-color: #585858;
+}
+-->
+</style>
+<table align="center" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td background="/Portals/_default/Skins/skins/images/1_r3_c1.jpg"><img src="/Portals/_default/Skins/skins/images/1_r3_c1.jpg" width="63" height="24" /></td>
+    <td bgcolor="#FFFFFF" width="800"><table align="center" width="800" border="0" cellspacing="0" cellpadding="0">
+       <tr>
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><img src="/Portals/_default/Skins/skins/images/1_r1_c3.jpg" width="10" height="24" /></td>
+            <td background="/Portals/_default/Skins/skins/images/1_r1_c3.jpg" width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="34%" align="left" style="padding-bottom:2"><span id="dnn_dnnCURRENTDATE_lblDate" class="User">25 February 2016</span>
+</td>
+                    <td width="33%" align="right" style="padding-bottom:2">&nbsp;&nbsp;&nbsp;<SPAN style="color:#333333">|</span>&nbsp;<a id="dnn_dnnLOGIN_cmdLogin" class="User" href="javascript:__doPostBack(&#39;dnn$dnnLOGIN$cmdLogin&#39;,&#39;&#39;)">Login</a></td>
+                  </tr>
+                </table></td>
+            <td><img src="/Portals/_default/Skins/skins/images/1_r1_c44.jpg" width="10" height="24" /></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td  align="center" ><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="center" style="padding:10px 0;"><a id="dnn_dnnLOGO_hypLogo" title="Wasis" href="http://www.wasis.eu/Home.aspx"><img id="dnn_dnnLOGO_imgLogo" src="/Portals/0/wasis_horizontal90.png" alt="Wasis" style="border-width:0px;" /></a></td>
+                    
+                  </tr>
+                </table></td>
+      </tr>
+      <tr>
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><img src="/Portals/_default/Skins/skins/images/1_r5_c3.jpg" width="10" height="6" /></td>
+            <td background="/Portals/_default/Skins/skins/images/1_r5_c4.jpg" width="100%"><img src="/Portals/_default/Skins/skins/images/1_r5_c3.jpg" width="20" height="6" /></td>
+            <td><img src="/Portals/_default/Skins/skins/images/1_r5_c44.jpg" width="10" height="6" /></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+       <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="10"><img src="/Portals/_default/Skins/skins/images/1_r6_c3.jpg" width="10" height="39" /></td>
+            <td background="/Portals/_default/Skins/skins/images/1_r6_c4.jpg" width="100%" height="39"><!-- DDRmenu v02.00.01 - SolPart template --><script type="text/javascript">
+			DDR.Menu.registerMenu('dnn_dnnSOLPARTMENU_ctldnnSOLPARTMENU', {MenuStyle:"SolPart",ControlID:"ctldnnSOLPARTMENU",PathImage:"/Portals/0/",PathSystemImage:"/images/",PathSystemScript:"/controls/SolpartMenu/",IndicateChildImageSub:"spacer.gif",CSSContainerSub:"Submenu",CSSNodeRoot:"RootMenuItem",CSSNodeHover:"MainMenu_MenuItemSel",CSSNodeHoverSub:"Submenuitemselected",CSSNodeHoverRoot:"RootMenuItemHover",CSSBreadCrumbSub:"Submenuitembreadcrumb",CSSBreadCrumbRoot:"RootMenuItemSel",CSSNodeSelectedRoot:"MainMenu_TabMenuItemSelHover",StyleControlHeight:0,StyleBorderWidth:0,StyleNodeHeight:0,StyleIconWidth:0,StyleFontSize:0,EffectsTransition:"AlphaFadeBottomRight",EffectsDuration:0,EffectsShadowStrength:0,ControlOrientation:"Horizontal",ControlAlignment:"Left",ForceDownLevel:"False",MouseOutHideDelay:300,MouseOverDisplay:"None",MouseOverAction:"Expand",ForceCrawlerDisplay:"False",IndicateChildren:false,SeparatorHTML:"<img src=\"/Portals/_default/Skins/skins/images/blackmenu.jpg\">",NodeLeftHTMLBreadCrumbSub:"<img alt='*' BORDER='0' src='/images/breadcrumb.gif'>",PopulateNodesFromClient:false});
+		</script><div id="dnn_dnnSOLPARTMENU_ctldnnSOLPARTMENU">
+  <ul>
+    <li nid="41" class="selected breadcrumb"><a href="http://www.wasis.eu/Home.aspx"><span>Home</span></a></li>
+    <li nid="63"><a href="http://www.wasis.eu/About.aspx"><span>About</span></a><ul nid="63">
+        <li nid="64"><a href="http://www.wasis.eu/About/Overview.aspx"><span>Overview</span></a></li>
+        <li nid="66"><a href="http://www.wasis.eu/About/Consortium.aspx"><span>Consortium</span></a><ul nid="66">
+            <li nid="89"><a href="http://www.wasis.eu/About/Consortium/ATGEurope.aspx"><span>ATG Europe</span></a></li>
+            <li nid="84"><a href="http://www.wasis.eu/About/Consortium/CIDAUT.aspx"><span>CIDAUT</span></a></li>
+            <li nid="93"><a href="http://www.wasis.eu/About/Consortium/CirComp.aspx"><span>CirComp</span></a></li>
+            <li nid="90"><a href="http://www.wasis.eu/About/Consortium/ComiteEuropeendeNormalisation.aspx"><span>Comite Europeen de Normalisation</span></a></li>
+            <li nid="87"><a href="http://www.wasis.eu/About/Consortium/INEGI.aspx"><span>INEGI</span></a></li>
+            <li nid="92"><a href="http://www.wasis.eu/About/Consortium/IVW.aspx"><span>IVW</span></a></li>
+            <li nid="85"><a href="http://www.wasis.eu/About/Consortium/KharkivAviationInstitute.aspx"><span>Kharkiv Aviation Institute</span></a></li>
+            <li nid="88"><a href="http://www.wasis.eu/About/Consortium/Element.aspx"><span>Element</span></a></li>
+            <li nid="83"><a href="http://www.wasis.eu/About/Consortium/NetComposites.aspx"><span>NetComposites</span></a></li>
+            <li nid="91"><a href="http://www.wasis.eu/About/Consortium/PiaggioAero.aspx"><span>Piaggio Aero</span></a></li>
+            <li nid="86"><a href="http://www.wasis.eu/About/Consortium/UniversityofPatras.aspx"><span>University of Patras</span></a></li>
+          </ul>
+        </li>
+        <li nid="67"><a href="http://www.wasis.eu/About/AdvisoryBoard.aspx"><span>Advisory Board</span></a></li>
+      </ul>
+    </li>
+    <li nid="68"><a href="http://www.wasis.eu/News.aspx"><span>News</span></a></li>
+    <li nid="69"><a href="http://www.wasis.eu/Events.aspx"><span>Events</span></a></li>
+    <li nid="70"><a href="http://www.wasis.eu/Information.aspx"><span>Information</span></a></li>
+    <li nid="71"><a href="http://www.wasis.eu/Links.aspx"><span>Links</span></a></li>
+    <li nid="72"><a href="http://www.wasis.eu/Contacts.aspx"><span>Contacts</span></a></li>
+  </ul>
+</div></td>
+            <td width="10"><img src="/Portals/_default/Skins/skins/images/1_r6_c44.jpg" width="10" height="39" /></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+       
+      </tr>
+    <tr>
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><img src="/Portals/_default/Skins/skins/images/1_r7_c3.jpg" width="10" height="29" /></td>
+            <td background="/Portals/_default/Skins/skins/images/1_r7_c4.jpg" width="100%"><table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+     <tr>
+     <td align="left" valign="middle" style="padding-top:3"><span style="font-weight:bold; color:#333333">You are here: </span><span id="dnn_dnnBREADCRUMB_lblBreadCrumb"><a href="http://www.wasis.eu/Home.aspx" class="User">Home</a></span>
+</td>
+     <td align="right" valign="middle" style="padding-top:3"><span id="dnn_dnnSEARCH_ClassicSearch">
+  <span class="SEARCH" title="Google Web Search"><input id="dnn_dnnSEARCH_optWeb" type="radio" name="dnn$dnnSEARCH$Search" value="optWeb" checked="checked" /><label for="dnn_dnnSEARCH_optWeb">Web</label></span>
+  <span class="SEARCH" title="Site Search"><input id="dnn_dnnSEARCH_optSite" type="radio" name="dnn$dnnSEARCH$Search" value="optSite" checked="checked" /><label for="dnn_dnnSEARCH_optSite">Site</label></span>
+  <input name="dnn$dnnSEARCH$txtSearch" type="text" maxlength="255" size="20" id="dnn_dnnSEARCH_txtSearch" class="NormalTextBox" onkeydown="return __dnn_KeyDown(&#39;13&#39;, &#39;javascript:__doPostBack(%27dnn$dnnSEARCH$cmdSearch%27,%27%27)&#39;, event);" />&nbsp;
+  <a id="dnn_dnnSEARCH_cmdSearch" class="SEARCH" href="javascript:__doPostBack(&#39;dnn$dnnSEARCH$cmdSearch&#39;,&#39;&#39;)"><img src="/Portals/_default/Skins/skins/images/Blacksearch.jpg"border="0"align="absMiddle"> </a>
+</span>
+
+
+</td>
+  </tr>
+</table></td>
+         
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+         <td valign="top" height="440"><table width="100%" height="440" border="0" cellspacing="0" cellpadding="0" summary="Skin Layout">
+ <tr align="center">
+            
+          </tr>
+          <tr>
+            
+            <td id="dnn_ContentPane" align="left" valign="top" class="contentpane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-463"><a name="463"></a><div id="dnn_ctr463_ContentPane"><!-- Start_Module_463 --><span class="Normal"><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-10294641-9']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></span><div id="dnn_ctr463_ModuleContent" class="ModDNNHTMLC">
+	<div id="dnn_ctr463_HtmlModule_lblContent" class="Normal">
+		
+	</div>
+
+</div><!-- End_Module_463 --></div>
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-382"><a name="382"></a>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td  align="left" width="12"><img src="/Portals/_default/Containers/containers/images/05_r1_c1.jpg" width="12" height="35"></td>
+        <td background="/Portals/_default/Containers/containers/images/05_r1_c4.jpg"  width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+             <td width="11%" valign="middle" nowrap="nowrap"><span id="dnn_ctr382_dnnTITLE_lblTitle" class="Head">Welcome to the WASIS Project</span>
+
+
+</td>
+            <td width="5%" align="right" valign="middle" nowrap="nowrap"></td>
+             <td width="84%" align="right" valign="middle" nowrap="nowrap"></td>
+          </tr>
+        </table></td>
+        <td><img src="/Portals/_default/Containers/containers/images/05_r1_c8.jpg" width="18" height="35" /></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td background="/Portals/_default/Containers/containers/images/05_r4_c1.jpg"><img src="/Portals/_default/Containers/containers/images/05_r4_c1.jpg" width="6" height="12"></td>
+        <td id="dnn_ctr382_ContentPane" width="100%" valign="top"><!-- Start_Module_382 --><div id="dnn_ctr382_ModuleContent" class="ModDNNHTMLC">
+	<div id="dnn_ctr382_HtmlModule_lblContent" class="Normal">
+	&nbsp;<br />
+<span class="Head"><span class="Normal" style="font-size: 13px;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 14px;">W</span></strong><span style="font-size: 14px;">afer design <strong>A</strong>pproach for <strong>S</strong>afety <strong>I</strong>ncreasing in worst case <strong>S</strong>ituations minimizing joints (WASIS)<br />
+</span></span><br />
+</span><br />
+This is a collaborative project between 11 European organisations located across&nbsp;10 different countries, working together to manufacture a &ldquo;More Affordable, Safer, Cleaner and Quieter&rdquo; aircraft. The anticipated aircraft for this project is a medium sized, general aviation pressurised jet with&nbsp;a diameter not exceeding 3m. <br />
+<br />
+The main objective of this project is the development of a composite fuselage structure based on the lattice stiffening concept and optimizing geometrical and mass properties of transition zones of fuselage structural joints. The material to be utilised in order to develop an all-composite fuselage structure is carbon fibre impregnated with an epoxy resin.&nbsp;Integrated components and joints were designed, specimens and prototypes were produced so far and fully representative fuselage sections are being manufactured for final testing and validation.<br />
+<br />
+<p style="text-align: center;"><span lang="EN-US" style="font-size: 11pt; font-family: calibri, sans-serif; color: #000000;"><v:shapetype id="_x0000_t75" path="m@4@5l@4@11@9@11@9@5xe" o:spt="75" coordsize="21600,21600" stroked="f" filled="f" o:preferrelative="t"><span lang="EN-US" style="font-size: 11pt; font-family: calibri, sans-serif; color: #000000;"><v:shapetype id="_x0000_t75" path="m@4@5l@4@11@9@11@9@5xe" o:spt="75" coordsize="21600,21600" stroked="f" filled="f" o:preferrelative="t"><img alt="" style="width: 161px; height: 100px;" src="/Portals/0/Home/P180.JPG" />&nbsp;</v:shapetype></span></v:shapetype></span><span lang="EN-US" style="font-size: 11pt; font-family: calibri, sans-serif; color: #000000;"><v:shapetype path="m@4@5l@4@11@9@11@9@5xe" o:spt="75" coordsize="21600,21600" stroked="f" filled="f" o:preferrelative="t">&nbsp;</v:shapetype></span><img style="width: 130px; height: 100px;" title="Lattice Structure" alt="Lattice Structure" src="/Portals/0/Home/structure_1.JPG" />&nbsp;<img style="width: 150px; height: 100px;" title="Material to be utilised" alt="Material to be utilised" src="/Portals/0/Home/px35-prepreg-250x250.jpg" /></p>
+<p style="text-align: left;">WASIS consortium is comprised of 11 partners&nbsp;who bring invaluable knowledge and experience to this project. The partners specialise in different fields ranging from research and processing to aircraft design and manufacture. </p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: center;"><img alt="" style="width: 583px; height: 95px;" src="/Portals/0/Partner%20Logos/All%20Logos.jpg" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;<br />
+This project has received funding from the European Community's Seventh Framework Programme FP7/2007-2013 under grant agreement n&deg; 265549.</p>
+<p style="text-align: center;"><img alt="" style="margin: 0px; width: 100px; height: 80px;" src="/Portals/0/About/FP7-gen-RGB.gif" />&nbsp;&nbsp;&nbsp;<img alt="" style="z-index: 0; width: 100px; height: 80px; margin-left: 0px; top: 1214px; margin-right: 0px; left: 546px;" src="/Portals/0/About/jaune.gif" />&nbsp;&nbsp;&nbsp; </p>
+</div>
+
+</div><!-- End_Module_382 --></td>
+
+        <td background="/Portals/_default/Containers/containers/images/05_r4_c10.jpg" ><img src="/Portals/_default/Containers/containers/images/05_r4_c10.jpg" width="6" height="12"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><img src="/Portals/_default/Containers/containers/images/05_r8_c1.jpg" width="6" height="20"></td>
+        <td background="/Portals/_default/Containers/containers/images/05_r8_c2.jpg" width="100%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="left" valign="middle" nowrap="nowrap"></td>
+            <td align="right" valign="middle" nowrap="nowrap">&nbsp;&nbsp;</td>
+          </tr>
+        </table></td>
+        <td><img src="/Portals/_default/Containers/containers/images/05_r8_c10.jpg" width="6" height="20"></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</div></td>
+
+            
+          </tr>
+          <tr>
+            
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><img src="/Portals/_default/Skins/skins/images/1_r28_c3.jpg" width="10" height="29" /></td>
+            <td background="/Portals/_default/Skins/skins/images/1_r28_c4.jpg" width="100%"><table width="100%" height="29" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="100%" align="center" valign="middle"><span id="dnn_dnnLINKS_lblLinks"><a class="Links" href="http://www.wasis.eu/Home.aspx">Home</a><span class="Links">  |  </span><a class="Links" href="http://www.wasis.eu/About.aspx">About</a><span class="Links">  |  </span><a class="Links" href="http://www.wasis.eu/News.aspx">News</a><span class="Links">  |  </span><a class="Links" href="http://www.wasis.eu/Events.aspx">Events</a><span class="Links">  |  </span><a class="Links" href="http://www.wasis.eu/Information.aspx">Information</a><span class="Links">  |  </span><a class="Links" href="http://www.wasis.eu/Links.aspx">Links</a><span class="Links">  |  </span><a class="Links" href="http://www.wasis.eu/Contacts.aspx">Contacts</a></span>
+</td>
+              </tr>
+            </table></td>
+            <td><img src="/Portals/_default/Skins/skins/images/1_r28_c44.jpg" width="10" height="29" /></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+       <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><img src="/Portals/_default/Skins/skins/images/1_r29_c3.jpg" width="10" height="40" /></td>
+            <td background="/Portals/_default/Skins/skins/images/1_r29_c4.jpg" width="100%"><table width="100%" height="40
+			" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+              <td align="center" valign="middle" height="100%"><span id="dnn_dnnCOPYRIGHT_lblCopyright" class="Footer">Copyright 2013 by Wasis</span>
+<SPAN style="color:#FFFFFF">.</SPAN>&nbsp;&nbsp;<span class="Footer">Website built by <a href="http://www.netcomposites.com" class="Footer">NetComposites</a></span><SPAN style="color:#FFFFFF">.</SPAN>&nbsp;&nbsp;<a id="dnn_dnnPRIVACY_hypPrivacy" class="Footer" rel="nofollow" href="http://www.wasis.eu/privacy.aspx">Privacy Statement</a>&nbsp;<SPAN style="color:#FFFFFF">.</SPAN>&nbsp;&nbsp;<a id="dnn_dnnTERMS_hypTerms" class="Footer" rel="nofollow" href="http://www.wasis.eu/terms.aspx">Terms Of Use</a></td>
+              </tr>
+            </table></td>
+            <td><img src="/Portals/_default/Skins/skins/images/1_r29_c44.jpg" width="10" height="40" /></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td background="/Portals/_default/Skins/skins/images/1_r3_c46.jpg"><img src="/Portals/_default/Skins/skins/images/1_r3_c46.jpg" width="63" height="24" /></td>
+  </tr>
+</table>
+
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" />
+        
+    
+<script type="text/javascript" src="/Resources/Shared/scripts/initWidgets.js" ></script></form>
+</body>
+</html>

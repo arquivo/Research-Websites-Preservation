@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	
+		<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+		
+			<title>BCAgrape</title>
+		
+	<link href="http://www.bca-grape.eu/stili/boxmodel.css" rel="stylesheet" type="text/css" />
+	<link href="http://www.bca-grape.eu/stili/generic.css" rel="stylesheet" type="text/css" />
+	<link href="http://www.bca-grape.eu/stili/details.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="/il_condiviso/js/en.js"></script>
+	<script type="text/javascript" src="/il_condiviso/js/utilityFunctions.js"></script>
+	
+	
+		<script type="text/javascript">
+			/* <![CDATA[ */
+			var _gaq = _gaq || [];
+			_gaq.push(['_require', 'inpage_linkid', '//www.google-analytics.com/plugins/ga/inpage_linkid.js']);
+			_gaq.push(['_setAccount', 'UA-21129982-45']);
+			_gaq.push(['_setDomainName', '.bca-grape.eu']);
+			_gaq.push(['_setLocalGifPath', '/il_condiviso/_utm.gif']);
+			_gaq.push(['_setLocalRemoteServerMode']);
+			
+				_gaq.push(['_gat._anonymizeIp']);
+			
+				_gaq.push(['_trackPageview']);
+			
+			(function(){
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+			
+				$(document).ready(function(){
+					$('a[href$=".pdf"]').each(function(i){
+						if ($(this).attr('target')!='_blank') $(this).attr('target','_blank');
+						$(this).click(function(){
+							_gaq.push(['_trackEvent','download','click','[PDF] '+$(this).text()+' [kLinkUrl:'+$(this).attr('href')+']']);
+						});
+					});
+				});
+			
+			/* ]]> */
+		</script>
+	
+
+	<style type="text/css">
+		/* codice per evidenziare l'item del menu per la sezione corrente*/
+		a#idProject_description {
+		}
+	</style>
+	
+</head>
+<body>
+
+	<div id="boxFixWidth">
+		
+		<div id="header">
+					
+				<div id="boxLogo"><a href="default.cfm" id="Logo" title="BCA-grape">BCA-grape</a><span id="payOff"></span></div>
+			<div  id="menu1liv">
+	
+				<a id="idProject_description" href="Project_description.cfm?lang=en" class="selected">
+			Project description </a> 
+				<a id="idProject_activities" href="Project_activities.cfm?lang=en" >
+			Project activities </a> 
+				<a id="idProject_partners" href="Project_partners.cfm?lang=en" >
+			Project partners </a> 
+				<a id="idConference" href="Conference.cfm?lang=en" >
+			Conference </a> 
+				<a id="idLegal_notices" href="Legal_notices.cfm?lang=en" >
+			Legal notices </a> 
+</div> 
+		</div>
+
+		<div id="container">
+			<div id="container2">
+				
+<div id="menu_sx">
+	
+	<h2>Partners:</h2> 
+	
+	<ul class="listSx">
+		<li><a href="http://www.agrifutur.com/" target="_blank" title="Agrifutur microrganismi utili"><img src="http://www.bca-grape.eu/grafica/agrifutur.gif" alt="Agrifutur microrganismi utili" /></a></li>
+		<li><a href="http://www.nki.hu/" target="_blank" title="Hungarian Academy of Sciences NKI"><img src="http://www.bca-grape.eu/grafica/fogliaLogo.gif" alt="Hungarian Academy of Sciences NKI" /></a></li>
+		<li><a href="http://bioved.eu/" target="_blank" title="Bioved"><img src="http://www.bca-grape.eu/grafica/bioved.gif" alt="Bioved" /></a></li>
+		<li><a href="http://www.vellsam.com/" target="_blank" title="Vellsam"><img src="http://www.bca-grape.eu/grafica/vellsam.gif" alt="Vellsam" /></a></li>
+		<li><a href="http://www.biyotar.com/" target="_blank" title="Biyolojik Tarim"><img src="http://www.bca-grape.eu/grafica/tarim.gif" alt="Biyolojik Tarim" /></a></li>
+		<li><a href="http://www.unicattolica.it/" target="_blank" title="Università cattolica del sacro cuore"><img src="http://www.bca-grape.eu/grafica/un_cattolica.gif" title="Università cattolica del sacro cuore" /></a></li>
+	</ul>
+	
+</div> 
+				<div id="content"><div class="boxtabella"><h1>Project description</h1> <p style="text-align: justify; ">The main goal of the BCA_grape project is to develop prototypes of new commercial Biological Control Agents (BCAs) against Erysiphe necator, the fungus causing the powdery mildew of grapevine.</p>
+<p style="text-align: justify; ">The interest of the participating SMEs rises from the fact that this disease matches with their strategic need to increase the offer for crops and diseases not targeted by their currently available products: grapevine is a very interesting potential market; a large amount of fungicides is used to control powdery mildews; E. necator is a key pathogen in traditional, integrated and organic viticulture; the sole BCA currently available on the EU market is not effective enough. So far no reliable solutions exist for the non-chemical control of E. necator. The 6 partners (4 SMEs and 2 RTD performers) are settled in four EU countries; other countries and end-users are involved in some project activities.</p>
+<p style="text-align: justify; ">&nbsp;</p>
+<hr />
+<h3><a title="Work package 7" href="http://www.bca-grape.eu/Work_package_7.cfm?lang=en">NEW!!! &nbsp;BCA grape leaflet</a></h3>
+<h3><a title="bca grape conference proceedings" href="http://www.bca-grape.eu/Conference.cfm?lang=en">NEW!!! &nbsp;Conference proceedings</a></h3> 	</div>
+	
+	<div id="cleardiv"></div>
+	</div>
+	
+		</div>
+		
+	</div>
+	
+	<div id="footer">
+	<img src="http://www.bca-grape.eu/grafica/flag_EU.gif"  alt="europe" />
+	BCA-grape is funded by the financial support of the Commission of the European Communities<br />
+	under the EC's Seventh Framework Programme (FP7, 2007-2013) in the grant-funded Capacities Programme <br /> Research for the Benefit of Specific Groups (in particular SMEs)<br /><br />
+	Copyright &copy; BCA - grape - All rights reserved - P.Iva 02345250985
+	
+	<div id="powered_IL">
+		<a href="http://www.imageline.it" target="_blank">Powered by Image Line<sup>&reg;</sup> s.r.l.</a><br/>
+		<a href="http://webmail.evoluzioniweb.it/" target="_blank" title="webmail access">- webmail access -</a>
+	</div>
+	
+	</div>
+	</div>
+	
+	
+	
+	
+
+</body>
+</html>

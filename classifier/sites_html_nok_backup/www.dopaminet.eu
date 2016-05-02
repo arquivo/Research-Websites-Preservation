@@ -1,0 +1,169 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang="en">
+<head>
+<title>Dopaminet</title>
+<!-- *JS* -->
+<script type='text/javascript' src='/e107_files/e107.js'></script>
+<!-- *CSS* -->
+<!-- Theme css -->
+<link rel='stylesheet' href='/e107_themes/lamb/style.css' type='text/css' media='all' />
+<link rel='stylesheet' href='/e107_files/e107.css' type='text/css' />
+<!-- *META* -->
+<meta http-equiv='content-type' content='text/html; charset=utf-8' />
+<meta http-equiv='content-style-type' content='text/css' />
+<meta http-equiv='content-language' content='en' />
+<!-- e107helpers meta -->
+<script type='text/javascript' src='/e107_plugins/e107helpers/e107helper.js'></script>
+<link rel="stylesheet" type="text/css" media="all" href="e107_handlers/calendar/calendar.css" />
+<script type="text/javascript" src="e107_handlers/calendar/calendar_stripped.js"></script>
+<script type="text/javascript" src="e107_handlers/calendar/calendar-setup_stripped.js"></script>
+<script type="text/javascript" src="e107_handlers/calendar/language/English.js"></script>
+<!-- log meta -->
+<script type='text/javascript'>
+			//<![CDATA[
+function rstr2b64(input)
+{
+	var b64pad  = "="; /* base-64 pad character. "=" for strict RFC compliance   */
+	var tab = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+	var output = "";
+	var len = input.length;
+	for(var i = 0; i < len; i += 3)
+	{
+		var triplet = (input.charCodeAt(i) << 16)
+                | (i + 1 < len ? input.charCodeAt(i+1) << 8 : 0)
+                | (i + 2 < len ? input.charCodeAt(i+2)      : 0);
+		for(var j = 0; j < 4; j++)
+		{
+			if(i * 8 + j * 6 > input.length * 8) output += b64pad;
+			else output += tab.charAt((triplet >>> 6*(3-j)) & 0x3F);
+		}
+	}
+	return output;
+}
+var logString = 'referer=' + ref + '&colour=' + colord + '&eself=' + eself + '&res=' + res + '';
+logString = rstr2b64(logString);
+document.write('<link rel="stylesheet" type="text/css" href="/e107_plugins/log/log.php?'+logString + '">' );
+//]]>
+</script>
+
+<!-- Core Meta Tags -->
+<link rel='icon' href='http://www.dopaminet.eu/favicon.ico' type='image/x-icon' />
+<link rel='shortcut icon' href='http://www.dopaminet.eu/favicon.ico' type='image/xicon' />
+
+<!-- *PRELOAD* -->
+</head>
+<body onload="externalLinks();">
+<div id='header'><img src='/e107_themes/lamb/images/logo.png' style='height: 100px; display: block' alt='' /></div><div id='banner'><a href='/banner.php?6' rel='external'><img src='/e107_images/banners/fp7.png' alt='http://cordis.europa.eu/fp7/home_en.html' style='border:0' /></a></div><table style='width: 100%;' cellpadding='0' cellspacing='0'><tr><td id='leftcontent'><div class='menuwrapper'><div class='columnwrap'><h4><img src='/e107_themes/lamb/images/bluearrow_greybg.png' alt='' width='6' height='9' /> Main Menu</h4>
+<br />
+	
+
+
+<!-- Sitelinks (1) -->
+
+
+ <img src='/e107_images/icons/home.png' alt='' style='vertical-align:middle' /><a href='/index.php'>HOME</a><br />
+ <img src='/e107_images/icons/rotella.png' alt='' style='vertical-align:middle' /><a href='/page.php?19'>Project Summary</a><br />
+ <img src='/e107_images/icons/wp.png' alt='' style='vertical-align:middle' /><a href='/page.php?24'>Workpackages</a><br />
+ <img src='/e107_images/icons/projects.png' alt='' style='vertical-align:middle' /><a href='/page.php?26'>Related Projects</a><br />
+ <img src='/e107_images/icons/newsletter.png' alt='' style='vertical-align:middle' /><a href='/page.php?39'>Publications</a><br />
+ <img src='/e107_images/icons/icon2_events.png' alt='' style='vertical-align:middle' /><a href='/page.php?35'>Events</a><br />
+ <img src='/e107_images/icons/calendario.png' alt='' style='vertical-align:middle' /><a href='/e107_plugins/agenda/agenda.php'>Agenda</a><br />
+ <img src='/e107_images/icons/phone.png' alt='' style='vertical-align:middle' /><a href='/contact.php'>Contact Us</a><br />
+
+	<br /><br />
+
+
+
+<!-- end Site Links -->
+
+
+<h4><img src='/e107_themes/lamb/images/bluearrow_greybg.png' alt='' width='6' height='9' /> Material</h4>
+<br />
+	<img src='http://www.dopaminet.eu/e107_images/custom/upload.png' class='bbcode' alt=''  /> <a href="/upload.php">Upload Area</a><br/> <img src='http://www.dopaminet.eu/e107_images/custom/download.png' class='bbcode' alt=''  /> <a href="/download.php">Download Area</a>
+	<br /><br />
+</div></div></td><td id='centercontent'><div class='columnwrap'><div style='text-align:center'><strong class='bbcode bold'><span style='font-size:14px'>DOPAMINET</span></strong></div><br /><br /><div><span style="font-size: medium;"><strong><span style='color:#0085B0'>Molecular Networks of Dopaminergic Neurons in Chordates</span></strong></span></div><br /><div><span style="font-size: medium;"><div class='indent'><br /><span style="font-size: small;">This research involves an in-depth study of dopaminergic neurons which are implicated in Parkinson's Disease (PD).<br /><br />In order to investigate how these neurons function at a molecular level and to build an insight into the complex molecular networks involved, a complement of cutting edge technologies will be used. Through the experience of the partners involved, including technologies such as microarrays, next-generation sequencing and high throughput imaging, this project will generate vast amounts of data on a very specific cell type at the heart of the disease. <br /><br />Therefore, DOPAMINET will provide a powerful platform for future translational studies involving these neurons. In turn, this will promote better health, quality of life </span></span><span style="font-size: medium;"><span style="font-size: small;">of elderly, cognitively  impaired patients </span></span><span style="font-size: medium;"><span style="font-size: small;">and help to reduce the high health care costs </span></span><span style="font-size: medium;"><span style="font-size: small;">related to treatment and  care </span></span><span style="font-size: medium;"><span style="font-size: small;">(currently, approximately €55 billion per year). </span><br /></div><br /></span></div><br /><span style="font-size: medium;"><strong>Further Information:</strong></span><br /><br /><ul><li><span style="font-size: small;"><a href="page.php?19">Project Summary</a></span></li><li><span style="font-size: small;"><a href="http://en.wikipedia.org/wiki/Parkinson's_disease" target="blank">What is Parkinson's Disease?</a></span></li><li><span style="font-size: small;"><a href="page.php?20">Parkinson's Charities</a></span></li></ul><br /><br /><br /><br /></div></td><td id='rightcontent'><div class='menuwrapper'><div class='columnwrap'><p style='font-size:7px; text-align:left;'>The research leading to these results has received funding from the European Community's Seventh Framework Programme (FP7 2007-2013) under grant no. 223744</p><h4><img src='/e107_themes/lamb/images/bluearrow_greybg.png' alt='' width='6' height='9' /> Search Dopaminet</h4>
+<br />
+	<div style='text-align:center'><form method='get' action='/search.php'>
+	<div>
+	<input class='tbox search' type='text' name='q' size='20' value='' maxlength='50' />
+	<input type='hidden' name='r' value='0' /><input class='button search' type='submit' name='s' value='Search' />
+	</div>
+	</form></div>
+	<br /><br />
+<h4><img src='/e107_themes/lamb/images/bluearrow_greybg.png' alt='' width='6' height='9' /> Welcome</h4>
+<br />
+	<form method="post" action="http://www.dopaminet.eu/index.php">	<div style='text-align: center'>Username: 	<br />	<input class='tbox login user' type='text' name='username' id='username' size='15' value='' maxlength='30' />
+	<br />Password: 	<br />    <input class='tbox login pass' type='password' name='userpass' id='userpass' size='15' value='' maxlength='30' />
+	<br />  	<input class='button' type='submit' name='userlogin' value='Login' />  <br /><input type='checkbox' name='autologin' value='1' checked='checked' />Remember me	<br />		<br />[ <a class='login_menu_link fpw' href='fpw.php' title="Forgot password?">Forgot password?</a> ]		</div>	</form>
+	<br /><br />
+<h4><img src='/e107_themes/lamb/images/bluearrow_greybg.png' alt='' width='6' height='9' /> <img src='e107_plugins/categorylink_menu/catimages/cat_users_16.png' alt='' />Partners</h4>
+<br />
+	<div style='text-align:center;'><table class='fborder' width='95%' ><tr><td class='smalltext'><a style='text-decoration:none; font-weight: normal;' href="page.php?7" > International School for Advanced Studies (SISSA) Italy</a>
+</td></tr><tr><td class='smalltext'><a style='text-decoration:none; font-weight: normal;' href="page.php?8" >Albert-Ludwigs-Universitat-Freiburg (ALU-FR) Germany </a>
+</td></tr><tr><td class='smalltext'><a style='text-decoration:none; font-weight: normal;' href="page.php?11" >Centre National de la Recherche Scientifique (CNRS) France </a>
+</td></tr><tr><td class='smalltext'><a style='text-decoration:none; font-weight: normal;' href="page.php?6" >Consorzio per il Centro di Biomedicina Molecolare (CBM) Italy</a>
+</td></tr><tr><td class='smalltext'><a style='text-decoration:none; font-weight: normal;' href="page.php?10" >Karlsruhe Institute for Technology (KIT) Germany </a>
+</td></tr><tr><td class='smalltext'><a style='text-decoration:none; font-weight: normal;' href="page.php?13" >The Institute for the Physical and Chemical Research (RIKEN) Japan </a>
+</td></tr><tr><td class='smalltext'><a style='text-decoration:none; font-weight: normal;' href="page.php?9" >The University of Birmingham  (UoB) United Kingdom </a>
+</td></tr><tr><td class='smalltext'><a style='text-decoration:none; font-weight: normal;' href="page.php?36" >University College London (UCL) United Kingdom </a>
+</td></tr><tr><td class='smalltext'><a style='text-decoration:none; font-weight: normal;' href="page.php?12" >YouHealth AB (YH) Sweden </a>
+</td></tr></table></div>
+	<br /><br />
+<h4><img src='/e107_themes/lamb/images/bluearrow_greybg.png' alt='' width='6' height='9' /> Project Overview</h4>
+<br />
+	<a href="/page.php?33"><img src='http://www.dopaminet.eu/e107_images/custom/wp_small.png' class='bbcode' alt=''  /></a>
+	<br /><br />
+<script type="text/javascript">
+// <![CDATA[
+
+
+    function View(field,color) {
+    var fieldname = 'ColorPreview_' + field;                 // preview color
+        if (ValidateColor(color)) {
+            document.getElementById(fieldname).style.backgroundColor = '#' + color;
+            document.getElementById(field).value = color;
+        } else {
+            alert('Your color-code is not valid');
+            document.getElementById(field).focus();
+        }
+    }
+
+    function Set(field,string) {                   // select color
+        var color = ValidateColor(string);
+        if (color == null) { alert('Invalid color code: ' + string); }        // invalid color
+        else {                         // valid color
+            View(field,color);                          // show selected color
+            document.getElementById(field).value = color;
+        }
+    }
+
+    function ValidateColor(string) {                // return valid color code
+      string = string || '';
+      string = string + "";
+      string = string.toUpperCase();
+      var chars = '0123456789ABCDEF';
+      var out   = '';
+
+      for (var i=0; i<string.length; i++) {             // remove invalid color chars
+        var schar = string.charAt(i);
+        if (chars.indexOf(schar) != -1) { out += schar; }
+      }
+
+      if (out.length != 6) { return null; }            // check length
+      return out;
+    }
+// ]]>
+</script>
+<script type="text/javascript">
+   function addicontext(txt, id) {
+      document.getElementById(id).value = txt;
+   }
+</script>
+
+<script type='text/javascript' src='/e107_plugins/agenda/agenda.js'></script>
+</div></div></td></tr></table><div id='footer'><div class='columnwrap'><div style='text-align: center;' class='smalltext'><br /><br /><a href='http://www.bham.ac.uk/' rel='external'><img src='/e107_images/generic/logo_birg.jpg' alt='' /></a><a href='http://www.cnrs.fr/index.php' rel='external'><img src='/e107_images/generic/cnrs_1.png' alt='' /></a><a href='http://www.uni-freiburg.de/index_en.php' rel='external'><img src='/e107_images/generic/logo_alu_fr_small.jpg' alt='' /></a><a href='http://www.cbm.fvg.it' rel='external'><img src='/e107_images/generic/cbm.png' alt='' /></a><a href='http://www.sissa.it' rel='external'><img src='/e107_images/generic/logosissanew_small.png' alt='' /></a><img src='/e107_images/generic/youhealth_ab_small.png' alt='' /><a href='http://www.riken.jp/engn/' rel='external'><img src='/e107_images/generic/logo_riken.png' alt='' /></a><a href='http://www.kit.edu' rel='external'><img src='/e107_images/generic/logo_KIT.jpg' alt='' /></a><a href='http://www.ucl.ac.uk' rel='external'><img src='/e107_images/generic/logo_UCL.jpg' alt='' /></a></div>		</div></div><script type='text/javascript' src='/e107_files/e_ajax.js'></script>
+<script type='text/javascript'>
+SyncWithServerTime('1456403585');
+       </script>
+</body></html>

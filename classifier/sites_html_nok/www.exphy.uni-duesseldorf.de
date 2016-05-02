@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="Keywords" content="Optical clocks, Cold atoms, Ultrastable lasers, Neutral atom lattice clocks, Time and frequency measurements, Gravitational physics, Fundamental physics metrology" />
+
+<title>SOC2-Towards Neutral-atom Space Optical Clocks</title>
+
+
+
+<style type="text/css"> 
+<!--
+a:link {color:#0066cc; text-decoration:none; }
+a:visited {color:#0066cc; text-decoration:none; }
+a:hover { font-weight:bold; color:#3399ff; text-decoration:none; }
+a:active { font-weight:bold; color:#cfcfcf; text-decoration:underline; }
+-->
+</STYLE>
+
+<Meta http-equiv="imagetoolbar" content="no">
+
+
+<style type="text/css"> 
+    <!-- 
+    body  {
+    	font: 70% Verdana, Arial, Helvetica, sans-serif;
+    	background-image: url(Design/hintergrund1.jpg);
+    	background-attachment:fixed;
+    	margin: 30px; /* Es empfiehlt sich, margin (Rand) und padding (Auffüllung) des Body-Elements auf 0 einzustellen, um unterschiedlichen Browser-Standardeinstellungen Rechnung zu tragen. */
+    	padding: 0px;
+    	text-align: center; /* Hierdurch wird der Container in IE 5*-Browsern zentriert. Dem Text wird dann im #container-Selektor die Standardausrichtung left (links) zugewiesen. */
+    	color: #000000;
+    }
+    .twoColFixLtHdr #container { 
+    filter: alpha(opacity=90);
+      opacity: 0.9;
+    	width: 710px;  /* Mit einer Breite, die 20 Pixel unter der vollen Breite von 800 Pixel liegt, können Sie dem Browser-Chrome Rechnung tragen und gleichzeitig eine horizontale Bildlaufleiste vermeiden. */
+    	background: #ffffff;
+    	margin: 0 auto; /* Durch automatische Ränder (in Verbindung mit einer Breite) wird die Seite zentriert. */
+    	border: 2px solid #5a67e0;
+    	text-align: left; /* Hierdurch wird die Einstellung text-align: center im Body-Element überschrieben. */
+    } 
+    .twoColFixLtHdr #header { 
+    	background: #ffffff; 
+    	padding: 10px 10px 5px 10px;  /* Diese Auffüllung entspricht der linksbündigen Ausrichtung der Elemente in den divs, die darunter erscheinen. Wenn im #header anstelle von Text ein Bild eingesetzt wird, sollten Sie die Auffüllung entfernen. */
+    } 
+    .twoColFixLtHdr #header h1 {
+    	margin: 0; /* Wenn Sie den Rand des letzten Elements im #header-div auf 0 einstellen, können Sie das Auftreten unerwarteter Abstände zwischen divs vermeiden. Wenn das div einen Rahmen hat, ist dies unnötig, weil dieser Rahmen die gleiche Wirkung hat. */
+    	padding: 10px 0; /* Durch die Verwendung der Auffüllung anstelle von Rändern lässt sich gewährleisten, dass das Element die Kanten des div nicht berührt. */
+    }
+    .twoColFixLtHdr #sidebar1 {
+    	float: left; /* Da es sich hier um ein floatendes Element handelt, muss eine Breite angegeben werden. */
+    	width: 120px; /* Die tatsächliche Breite dieses div umfasst in standardgerechten Browsern bzw. im Standardmodus von Internet Explorer außer der Breite auch die Auffüllung und den Rahmen. */
+    	background: #ffffff;
+			 /* Die Hintergrundfarbe wird nur für die Länge des Spalteninhalts angezeigt. */
+    	font: 90% Verdana, Arial, Helvetica, sans-serif;
+    	padding: 20px 5px 5px 15px;
+    }
+    .twoColFixLtHdr #mainContent { 
+    	margin: 15px 15px 0 195px; /* Durch den linken Rand dieses div-Elements entsteht die Spalte am linken Seitenrand. Der Spaltenbereich bleibt unabhängig von der Inhaltsmenge des sidebar1-div immer gleich. Sie können diesen Rand entfernen, falls der Text des #mainContent-div den Bereich von #sidebar1 füllen soll, wenn der Inhalt in #sidebar1 endet. */
+    	padding: 0 10px; /* padding (Auffüllung) bezeichnet den Innenabstand und margin (Rand) den Außenabstand der div -Box. */
+    } 
+    .twoColFixLtHdr #footer { 
+    	padding: 10px 10px 5px 0px; /* Diese Auffüllung entspricht der linksbündigen Ausrichtung der Elemente in den divs, die darunter erscheinen. */
+    	background:#ffffff; 
+    } 
+    .twoColFixLtHdr #footer p {
+    	margin: 0; /* Wenn Sie die Ränder des ersten Elements in der Fußzeile auf 0 einstellen, können Sie unerwartete Abstände zwischen divs vermeiden. */
+    	padding: 0px 0; /* Durch die Verwendung der Auffüllung bei diesem Element entsteht genau wie bei einem Rand ein Leerraum, aber ohne die potenziellen Abstandsprobleme. */
+    }
+    .fltrt { /* Mit dieser Klasse können Sie ein Element auf der Seite nach rechts fließen lassen. Das floatende Element muss vor dem Element stehen, neben dem es auf der Seite erscheinen soll. */
+    	float: right;
+    	margin-left: 8px;
+    }
+    .fltlft { /* Mit dieser Klasse können Sie ein Element auf der Seite nach links fließen lassen. */
+    	float: left;
+    	margin-right: 8px;
+    }
+    .clearfloat { /* Diese Klasse sollte in einem div- oder break-Element platziert werden und das letzte Element vor dem Schließen eines Containers sein, der wiederum einen vollständigen Float enthalten sollte. */
+    	clear:both;
+        height:0;
+        font-size: 1px;
+        line-height: 0px;
+    }
+.Stil1 {
+	font-style: italic;
+	font-size: 9px;
+	font-weight: bold;
+}
+.Stil2 {font-size: 9px; font-style: italic;}
+.Stil3 {
+	font-size: 80%;
+	color: #575757;
+}
+.Stil4 {
+	color: #575757;
+	font-style: italic;
+}
+.Stil6 {
+font-size: 28px;}
+.Stil8 {
+font-size: 16px;}
+    --> 
+    </style><!--[if IE 5]>
+    <style type="text/css"> 
+    /* Fügen Sie CSS-Box-Modell-Korrekturen für IE 5* in diesen bedingten Kommentar ein. */
+    .twoColFixLtHdr #sidebar1 { width: 230px; }
+    </style>
+    <![endif]--><!--[if IE]>
+    <style type="text/css"> 
+    /* Fügen Sie CSS-Korrekturen für alle IE-Versionen in diesen bedingten Kommentar ein. */
+    .twoColFixLtHdr #sidebar1 { padding-top: 30px; }
+    .twoColFixLtHdr #mainContent { zoom: 1; }
+    /* Mit der obigen proprietären Zoom-Eigenschaft wird IE die Eigenschaft hasLayout zugewiesen, die zur Verhinderung verschiedener Fehler erforderlich ist. */
+    </style>
+    <![endif]--></head>
+    
+    
+
+<body class="twoColFixLtHdr" oncontextmenu="return false">
+
+<h1 class="Stil6"><Font color="#5a67e0"><B>SOC2-Towards Neutral-atom Space Optical Clocks</B><P></FONT></h1>
+
+    <div id="container">
+     <!-- <div id="header">-->
+     <!--<div align="center">-->
+         <!--<P><h2><FONT color="#4d4e5f"> Exploring Gravity with Optical Clocks</FONT></h2></center><P>-->
+ <!-- end #header -->
+        
+       <!-- </div>-->
+
+      <div id="sidebar1">
+      
+        <A href="index.php">Home</A>
+        
+        <P><A href="EU-FP7-Project-description-SOC2-(263500)-2011-01-18 excerpt.pdf" target="_blank">Proposal text</A>
+
+        <P><a href="http://spaceopticalclocks.org" target="_blank">Exploring Gravity with optical clocks in space</A>
+
+<P><A href="Publications.php">Publications</A>
+
+<P><A href="2011-04-15_news_HHU_Duesseldorf.pdf" target="_blank">Press releases</A>
+          
+<P><A href="SOC2 Space Optical Clocks - from European Journey 2011.pdf" target="_blank">Download Flyer</A>
+
+<P><A href="http://www.exphy.uni-duesseldorf.de/soc/doku.php?id=start"><font size= "+1" color="#FF0000">Cooperation<br>Technology<br>transfer</font><br></A>
+
+          <!-- end #sidebar1 -->
+        </p>
+      </div>
+
+<div id="mainContent" align="justify">
+
+<P><Div align="center"><IMG src="Logos/europa.jpg"><IMG src="Logos/fp7.gif"></div>
+
+        <B><Font color="#5a67e0"><h1 class="Stil8">EU - FP7 Project"SOC2":
+Towards Neutral-atom Space Optical Clocks:
+Development of high-performance transportable
+and breadboard optical clocks and advanced subsystems (Project No. 263500)</B></FONT></H1>
+
+   <P><A href="http://www.uni-duesseldorf.de" target="_blank"><IMG src="Logos/1.jpg" border="0"></A>
+       <A href="http://www.ptb.de/" target="_blank"><IMG src="Logos/2.jpg" border="0"></A>
+       <A href="http://www.uni-hannover.de/de/" target="_blank"><IMG src="Logos/3.jpg" border="0"></A>
+       <A href="http://syrte.obspm.fr/" target="_blank"><IMG src="Logos/4.jpg" border="0"></A>
+       <A href="http://www.unifi.it/" target="_blank"><IMG src="Logos/5.jpg" border="0"></A>
+       <A href="http://www.inrim.it/" target="_blank"><IMG src="Logos/6.jpg" border="0"></A>
+       <A href="http://www.birmingham.ac.uk/" target="_blank"><IMG src="Logos/8.jpg" border="0"></A>
+       <A href="http://www.npl.co.uk/" target="_blank"><IMG src="Logos/9.jpg" border="0"></A>
+       <A href="http://www.toptica.com/" target="_blank"><IMG src="Logos/10.jpg" border="0"></A>
+       <A href="http://www.kayser-threde.de/" target="_blank"><IMG src="Logos/11.jpg" border="0"></A>
+       <A href="http://www.astrium.eads.net/de/locations/friedrichshafen.html" target="_blank"><IMG src="Logos/12.jpg" border="0"></A>
+       <A href="http://www.menlosystems.com/" target="_blank"><IMG src="Logos/13.jpg" border="0"></A>
+       <A href="http://www.kayser.it/" target="_blank"><IMG src="Logos/14.jpg" border="0"></A>
+       <A href="http://www2.unine.ch/" target="_blank"><IMG src="Logos/15.jpg" border="0"></A>
+       <A href="http://www.csem.ch/site/" target="_blank"><IMG src="Logos/16.jpg" border="0"></A>
+       <A href="http://www.epfl.ch/" target="_blank"><IMG src="Logos/17.jpg" border="0"></A>
+
+<p><B>Goal:</B>
+    <BR>The project SOC2 (2011-2015) will demonstrate transportable optical atomic clocks with performance significantly beyond
+microwave clocks.
+
+<p><B>Abstract:</B>
+    <BR>A range of new applications will be enabled by ultra-precise optical clocks, some of which by using them in space, near or far distant from Earth. They cover the fields of fundamental physics (tests of General Relativity), time and frequency metrology (comparison of distant terrestrial clocks, operation of a master clock in space), geophysics (mapping of the gravitational potential of the Earth), and potential applications in astronomy (local oscillators for radio ranging and interferometry in space).
+
+        <P>We will develop
+     <BR>(1) two "engineering confidence" ultra-precise transportable lattice optical clock demonstrators with relative frequency instability  < 1x10<sup>-15</sup>/tau<sup>1/2</sup>, inaccuracy < 5x10<sup>-17</sup>, one of which as a breadboard. They will be based on trapped neutral Ytterbium and Strontium atoms. Goal performance is about 1 and 2 orders better than today`s best transportable clocks, in inaccuracy and instability, respectively. The two systems will be validated in a laboratory environment (TRL 4) and performance will be established by comparison with laboratory optical clocks and primary frequency standards.
+      <BR>(2) the necessary laser systems (adapted in terms of power, linewidth, frequency stability, long-term reliability, and accuracy), atomic packages with control of systematic (magnetic fields, black-body radiation, atom number), where novel solutions with reduced space, power and mass requirements will be implemented. Some of the laser systems will be developed towards particularly high compactness and robustness. Also, crucial laser components will be tested at TRL 5 level (validation in relevant environment).
+
+                    <P>The work will build on the expertise of the proposers with laboratory optical clocks, and the successful development
+                        of breadboard and transportable cold Sr and Yb atomic sources and ultrastable lasers during the ELIPS-3 ESA development
+                        project "Space Optical Clocks (SOC)".
+                        <BR><A href="http://www.exphy.uni-duesseldorf.de/optical_clock/ELIPS.php" target="_blank">ELIPS-3</A>
+
+<P><B>Organization:</B>
+    <BR>SOC 2 is a cooperation project with 16
+partners from 5 European countries (Germany, Italy, Great Britain, France and Switzerland), comprising academic groups,
+national metrology institutes, photonics companies and space companies.
+<P><B>Coordinator:</B>
+    <A href="mailto:step.schiller@uni-duesseldorf.de"r>Prof. Stephan Schiller</A>, Heinrich-Heine-Universit&auml;t D&uuml;sseldorf
+<P><B>Budget:</B>
+    <BR>SOC2 is funded by the Seventh Framework Programme of the European Commission in the section "SPA.2010.2.2-01 Space
+technologies". Funding by the Commission is 2 M&euro;. Total budget is 2.7 M&euro;.
+<P><B>Project management:</B>
+    <BR>provided by <a href="
+http://www.forschung.uni-duesseldorf.de/en/research-services/eu-project-management.html" target="blank">EUPro</A>, the European Project Office D&uuml;sseldorf of the Research Management department of the HHU.Start of
+the project:
+March 1, 2011
+<P><B>Project advisor of the Research Executive Agency:</B>
+    <BR>Ms. Paula Mota Alves
+<!-- end #mainContent -->
+</div>
+
+
+ <br class="clearfloat" />
+      
+   	  <div id="footer">
+      
+        <!--<p align="center" class="Stil2">&nbsp;</p>
+        <p align="center" class="Stil2"><table width="620" border="0" background="Design/Unten.jpg">
+  <tr>
+    <td height="184" align="center" valign="bottom"><P class="Stil3">    
+      <P class="Stil3 Stil4">      Glaubst du dass dir nichts mehr passiert, bloß weil der Regen heute Nacht nicht deinen Namen summt? [Samsas Traum]</td>
+  </tr>
+</table>--></p>
+        <span class="Stil1">
+        <div align="center"><P><Font color="#5a67e0">Responsible for these web-pages: Stephan Schiller</FONT><P>
+          <!-- end #footer -->
+        </div>
+      </span></div>
+    <!-- end #container --></div>
+
+</body>
+</html>

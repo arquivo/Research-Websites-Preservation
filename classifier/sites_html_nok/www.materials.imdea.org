@@ -1,0 +1,362 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta about="http://www.materials.imdea.org/research/projects/MODENA" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<link rel="shortcut icon" href="http://www.materials.imdea.org/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta content="MODENA" about="http://www.materials.imdea.org/research/projects/MODENA" property="dc:title" />
+<link rel="shortlink" href="http://www.materials.imdea.org/node/1125" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://www.materials.imdea.org/research/projects/MODENA" />
+  <title>MODENA | IMDEA Materials</title>  
+  <style type="text/css" media="all">@import url("http://www.materials.imdea.org/modules/system/system.base.css?nnh7tr");
+@import url("http://www.materials.imdea.org/modules/system/system.menus.css?nnh7tr");
+@import url("http://www.materials.imdea.org/modules/system/system.messages.css?nnh7tr");
+@import url("http://www.materials.imdea.org/modules/system/system.theme.css?nnh7tr");</style>
+<style type="text/css" media="all">@import url("http://www.materials.imdea.org/modules/comment/comment.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/modules/date/date_api/date.css?nnh7tr");
+@import url("http://www.materials.imdea.org/modules/field/theme/field.css?nnh7tr");</style>
+<style type="text/css" media="screen">@import url("http://www.materials.imdea.org/sites/all/modules/flexslider/assets/css/flexslider_img.css?nnh7tr");</style>
+<style type="text/css" media="all">@import url("http://www.materials.imdea.org/sites/all/modules/google_analytics_reports/google_analytics_reports/google_analytics_reports.css?nnh7tr");
+@import url("http://www.materials.imdea.org/modules/node/node.css?nnh7tr");
+@import url("http://www.materials.imdea.org/modules/search/search.css?nnh7tr");
+@import url("http://www.materials.imdea.org/modules/user/user.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/modules/views/css/views.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/modules/accordion_menu/accordion_menu.css?nnh7tr");</style>
+<style type="text/css" media="all">@import url("http://www.materials.imdea.org/sites/all/modules/ckeditor/ckeditor.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/modules/ctools/css/ctools.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/modules/panels/css/panels.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/libraries/superfish/css/superfish.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/libraries/superfish/css/superfish-vertical.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/libraries/superfish/css/superfish-navbar.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/modules/views_slideshow/views_slideshow.css?nnh7tr");
+@import url("http://www.materials.imdea.org/modules/locale/locale.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/modules/custom_search/custom_search.css?nnh7tr");</style>
+<style type="text/css" media="all">@import url("http://www.materials.imdea.org/sites/all/themes/omega/alpha/css/alpha-reset.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/themes/omega/alpha/css/alpha-mobile.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/themes/omega/alpha/css/alpha-alpha.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/themes/omega/omega/css/formalize.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/themes/omega/omega/css/omega-text.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/themes/omega/omega/css/omega-branding.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/themes/omega/omega/css/omega-menu.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/themes/omega/omega/css/omega-forms.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/themes/omega/omega/css/omega-visuals.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/default/files/jqueryui_theme/theme_imdea_jquery/jquery.ui.button.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/default/files/jqueryui_theme/theme_imdea_jquery/jquery.ui.autocomplete.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/default/files/jqueryui_theme/theme_imdea_jquery/jquery.ui.core.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/default/files/jqueryui_theme/theme_imdea_jquery/jquery.ui.accordion.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/default/files/jqueryui_theme/theme_imdea_jquery/jquery.ui.slider.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/default/files/jqueryui_theme/theme_imdea_jquery/jquery.ui.tabs.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/default/files/jqueryui_theme/theme_imdea_jquery/jquery-ui-1.8.23.custom.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/default/files/jqueryui_theme/theme_imdea_jquery/jquery.ui.resizable.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/default/files/jqueryui_theme/theme_imdea_jquery/jquery.ui.selectable.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/default/files/jqueryui_theme/theme_imdea_jquery/jquery.ui.dialog.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/default/files/jqueryui_theme/theme_imdea_jquery/jquery.ui.datepicker.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/default/files/jqueryui_theme/theme_imdea_jquery/jquery.ui.all.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/default/files/jqueryui_theme/theme_imdea_jquery/jquery.ui.theme.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/default/files/jqueryui_theme/theme_imdea_jquery/jquery.ui.progressbar.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/default/files/jqueryui_theme/theme_imdea_jquery/jquery.ui.base.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/themes/theme_imdea/css/global.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/themes/theme_imdea/css/theme-imdea-menu.css?nnh7tr");</style>
+<style type="text/css" media="all">@import url("http://www.materials.imdea.org/sites/all/themes/theme_imdea/css/theme-imdea-alpha-default.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/themes/theme_imdea/css/theme-imdea-alpha-default-normal.css?nnh7tr");
+@import url("http://www.materials.imdea.org/sites/all/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?nnh7tr");</style>
+  <script type="text/javascript" src="http://www.materials.imdea.org/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://www.materials.imdea.org/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www.materials.imdea.org/misc/drupal.js?nnh7tr"></script>
+<script type="text/javascript" src="http://www.materials.imdea.org/misc/ui/jquery.ui.core.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="http://www.materials.imdea.org/misc/ui/jquery.ui.widget.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="http://www.materials.imdea.org/misc/ui/jquery.ui.accordion.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="http://www.materials.imdea.org/misc/form.js?v=7.19"></script>
+<script type="text/javascript" src="http://www.materials.imdea.org/sites/all/modules/google_analytics_reports/google_analytics_reports/google_analytics_reports.js?nnh7tr"></script>
+<script type="text/javascript" src="http://www.materials.imdea.org/sites/all/modules/panels/js/panels.js?nnh7tr"></script>
+<script type="text/javascript" src="http://www.materials.imdea.org/sites/all/libraries/superfish/jquery.hoverIntent.minified.js?nnh7tr"></script>
+<script type="text/javascript" src="http://www.materials.imdea.org/sites/all/libraries/superfish/jquery.bgiframe.min.js?nnh7tr"></script>
+<script type="text/javascript" src="http://www.materials.imdea.org/sites/all/libraries/superfish/superfish.js?nnh7tr"></script>
+<script type="text/javascript" src="http://www.materials.imdea.org/sites/all/libraries/superfish/supersubs.js?nnh7tr"></script>
+<script type="text/javascript" src="http://www.materials.imdea.org/sites/all/libraries/superfish/supposition.js?nnh7tr"></script>
+<script type="text/javascript" src="http://www.materials.imdea.org/sites/all/libraries/superfish/sftouchscreen.js?nnh7tr"></script>
+<script type="text/javascript" src="http://www.materials.imdea.org/sites/all/modules/views_slideshow/js/views_slideshow.js?nnh7tr"></script>
+<script type="text/javascript" src="http://www.materials.imdea.org/sites/all/modules/custom_search/js/custom_search.js?nnh7tr"></script>
+<script type="text/javascript" src="http://www.materials.imdea.org/sites/all/modules/google_analytics/googleanalytics.js?nnh7tr"></script>
+<script type="text/javascript" src="http://www.materials.imdea.org/sites/all/themes/omega/omega/js/jquery.formalize.js?nnh7tr"></script>
+<script type="text/javascript" src="http://www.materials.imdea.org/sites/all/themes/omega/omega/js/omega-mediaqueries.js?nnh7tr"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"theme_imdea","theme_token":"2sz0-VDIhVlGqHXflRXUsow_UAPG22VLSwxoYF16Fa8","js":{"0":1,"1":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"misc\/form.js":1,"sites\/all\/modules\/google_analytics_reports\/google_analytics_reports\/google_analytics_reports.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/jquery.bgiframe.min.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/sftouchscreen.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/custom_search\/js\/custom_search.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"sites\/all\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/flexslider\/assets\/css\/flexslider_img.css":1,"sites\/all\/modules\/google_analytics_reports\/google_analytics_reports\/google_analytics_reports.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/accordion_menu\/accordion_menu.css":1,"sites\/all\/modules\/ckeditor\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-vertical.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-navbar.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"modules\/locale\/locale.css":1,"sites\/all\/modules\/custom_search\/custom_search.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-visuals.css":1,"public:\/\/jqueryui_theme\/theme_imdea_jquery\/jquery.ui.button.css":1,"public:\/\/jqueryui_theme\/theme_imdea_jquery\/jquery.ui.autocomplete.css":1,"public:\/\/jqueryui_theme\/theme_imdea_jquery\/jquery.ui.core.css":1,"public:\/\/jqueryui_theme\/theme_imdea_jquery\/jquery.ui.accordion.css":1,"public:\/\/jqueryui_theme\/theme_imdea_jquery\/jquery.ui.slider.css":1,"public:\/\/jqueryui_theme\/theme_imdea_jquery\/jquery.ui.tabs.css":1,"public:\/\/jqueryui_theme\/theme_imdea_jquery\/jquery-ui-1.8.23.custom.css":1,"public:\/\/jqueryui_theme\/theme_imdea_jquery\/jquery.ui.resizable.css":1,"public:\/\/jqueryui_theme\/theme_imdea_jquery\/jquery.ui.selectable.css":1,"public:\/\/jqueryui_theme\/theme_imdea_jquery\/jquery.ui.dialog.css":1,"public:\/\/jqueryui_theme\/theme_imdea_jquery\/jquery.ui.datepicker.css":1,"public:\/\/jqueryui_theme\/theme_imdea_jquery\/jquery.ui.all.css":1,"public:\/\/jqueryui_theme\/theme_imdea_jquery\/jquery.ui.theme.css":1,"public:\/\/jqueryui_theme\/theme_imdea_jquery\/jquery.ui.progressbar.css":1,"public:\/\/jqueryui_theme\/theme_imdea_jquery\/jquery.ui.base.css":1,"sites\/all\/themes\/theme_imdea\/css\/global.css":1,"sites\/all\/themes\/theme_imdea\/css\/theme-imdea-menu.css":1,"normal::sites\/all\/themes\/theme_imdea\/css\/theme-imdea-alpha-default.css":1,"normal::sites\/all\/themes\/theme_imdea\/css\/theme-imdea-alpha-default-normal.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"googleAnalyticsReportsAjaxUrl":"http:\/\/www.materials.imdea.org\/google-analytics-reports\/ajax","jcarousel":{"ajaxPath":"http:\/\/www.materials.imdea.org\/jcarousel\/ajax\/views"},"custom_search":{"form_target":"_self","solr":0},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal","wide"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-1125 node-type-page i18n-en context-research">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <aside class="grid-3 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+  		<div class="logo-img">
+				<a class="active" title="IMDEA Materials" rel="home" href="http://www.materials.imdea.org/">
+			<img id="logo" alt="IMDEA Materials" src="/sites/all/themes/theme_imdea/logo.png">
+		</a>
+			</div>
+  </div>
+</aside>
+<div class="grid-9 region region-user-second" id="region-user-second">
+  <div class="region-inner region-user-second-inner">
+    <div class="block block-locale block-language block-locale-language odd block-without-title" id="block-locale-language">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="language-switcher-locale-url"><li class="en first active"><a href="http://www.materials.imdea.org/research/projects/MODENA" class="language-link active" lang="en" title="MODENA">English</a></li><li class="es last"><a href="http://www.materiales.imdea.org/investigacion/proyectos/MODENA" class="language-link" lang="es" title="MODENA">Español</a></li></ul>    </div>
+  </div>
+</div><div class="block block-search block-form block-search-form even block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form class="search-form" action="/research/projects/MODENA" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search this site </label>
+ <input class="custom-search-default-value custom-search-box form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<fieldset class="custom_search-popup form-wrapper" id="edit-popup"><div class="fieldset-wrapper"></div></fieldset>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-zeIPh4CoxG4sQGMYDSW7CGjb-zpGkYKSx6ZqlFFts7Q" />
+<input type="hidden" name="form_id" value="search_block_form" />
+<input class="default-text" type="hidden" name="default_text" value="" />
+</div>
+</div></form>    </div>
+  </div>
+</div><div class="block block-block block-4 block-block-4 odd block-without-title" id="block-block-4">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="block-inner clearfix">
+<div class="content clearfix">
+<div id="block-imdea-initiative">
+<p><a href="http://www.imdea.org/" target="_blank" title="IMDEA initiative">IMDEA initiative</a></p>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-breadcrumb-wrapper" class="zone-wrapper zone-breadcrumb-wrapper clearfix">  
+  <div id="zone-breadcrumb" class="zone zone-breadcrumb clearfix container-12">
+    <div class="grid-9 prefix-3 region region-breadcrumb" id="region-breadcrumb">
+  <div class="region-inner region-breadcrumb-inner">
+    <div class="block block-easy-breadcrumb block-easy-breadcrumb block-easy-breadcrumb-easy-breadcrumb odd block-without-title" id="block-easy-breadcrumb-easy-breadcrumb">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="easy-breadcrumb"><span class="easy-breadcrumb_segment-wrapper"><a href="http://www.materials.imdea.org/" class="easy-breadcrumb_segment easy-breadcrumb_segment-front">Home</a></span><span class="easy-breadcrumb_segment-separator"> &gt; </span><span class="easy-breadcrumb_segment-wrapper"><a href="http://www.materials.imdea.org/research" class="easy-breadcrumb_segment easy-breadcrumb_segment-1">Research</a></span><span class="easy-breadcrumb_segment-separator"> &gt; </span><span class="easy-breadcrumb_segment-wrapper"><a href="http://www.materials.imdea.org/research/projects" class="easy-breadcrumb_segment easy-breadcrumb_segment-2">Projects</a></span><span class="easy-breadcrumb_segment-separator"> &gt; </span><span class="easy-breadcrumb_segment-wrapper"><span class="easy-breadcrumb_segment easy-breadcrumb_segment-title">MODENA</span></span></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  <div id="zone-content" class="zone zone-content clearfix container-12">
+            <aside class="grid-3 region region-sidebar-first" id="region-sidebar-first">
+  <div class="region-inner region-sidebar-first-inner">
+    <div class="block block-accordion-menu block-1 block-accordion-menu-1 odd block-without-title" id="block-accordion-menu-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="accordion-menu-wrapper accordion-menu-1 accordion-menu-name-secondary-menu-english accordion-menu-source-menu-secondary-menu">
+  <h3 class="accordion-header accordion-header-1 first has-children odd menu-mlid-648"><a href="http://www.materials.imdea.org/about-us" class="accordion-link">About Us</a></h3>
+<div class="accordion-content-1"><ul class="menu"><li class="first leaf"><a href="http://www.materials.imdea.org/about-us/management-structure">Organizational Chart</a></li>
+<li class="leaf"><a href="http://www.materials.imdea.org/about-us/board-trustees">Board of Trustees</a></li>
+<li class="last leaf"><a href="http://www.materials.imdea.org/about-us/scientific-council">Scientific Council</a></li>
+</ul></div>
+<h3 class="accordion-header accordion-header-2 has-children even menu-mlid-656"><a href="http://www.materials.imdea.org/personas" class="accordion-link">People</a></h3>
+<div class="accordion-content-2"><ul class="menu"><li class="first leaf"><a href="http://www.materials.imdea.org/people/researchers" title="">Researchers</a></li>
+<li class="leaf"><a href="http://www.materials.imdea.org/people/postdocs-and-predocs">Postdoctoral and Predoctoral Researchers</a></li>
+<li class="leaf"><a href="http://www.materials.imdea.org/people/laboratory-technicians" title="">Laboratory Technicians</a></li>
+<li class="last leaf"><a href="http://www.materials.imdea.org/people/management-administration" title="">Management and Administration</a></li>
+</ul></div>
+<h3 class="accordion-header accordion-header-3 has-children odd menu-mlid-666"><a href="http://www.materials.imdea.org/research" class="accordion-link">Research</a></h3>
+<div class="accordion-content-3"><ul class="menu"><li class="first leaf"><a href="http://www.materials.imdea.org/research/research-programs">Research Programmes</a></li>
+<li class="leaf"><a href="http://www.materials.imdea.org/research/projects">Projects</a></li>
+<li class="leaf"><a href="http://www.materials.imdea.org/research/publications">Publications</a></li>
+<li class="leaf"><a href="http://www.materials.imdea.org/research/patents">Patents</a></li>
+<li class="last leaf"><a href="http://www.materials.imdea.org/research/software">Software</a></li>
+</ul></div>
+<h3 class="accordion-header accordion-header-4 has-children even menu-mlid-680"><a href="http://www.materials.imdea.org/scientific-infrastructure" class="accordion-link">Research Infrastructure</a></h3>
+<div class="accordion-content-4"><ul class="menu"><li class="first leaf"><a href="http://www.materials.imdea.org/scientific-infrastructure/processing">Processing</a></li>
+<li class="leaf"><a href="http://www.materials.imdea.org/scientific-infrastructure/microstructural-analysis">Microstructural Analysis</a></li>
+<li class="leaf"><a href="http://www.materials.imdea.org/scientific-infrastructure/mechanical-properties">Mechanical Properties</a></li>
+<li class="leaf"><a href="http://www.materials.imdea.org/scientific-infrastructure/thermal-properties">Thermal Properties</a></li>
+<li class="leaf"><a href="http://www.materials.imdea.org/scientific-infrastructure/simulation">Simulation</a></li>
+<li class="last leaf"><a href="http://www.materials.imdea.org/scientific-infrastructure/mechanical%20workshop">Machine Workshop</a></li>
+</ul></div>
+<h3 class="accordion-header accordion-header-5 has-children odd menu-mlid-798"><a href="http://www.materials.imdea.org/whats-new" class="accordion-link">What´s New</a></h3>
+<div class="accordion-content-5"><ul class="menu"><li class="first leaf"><a href="http://www.materials.imdea.org/whats-new/news" title="">News</a></li>
+<li class="last leaf"><a href="http://www.materials.imdea.org/whats-new/events" title="">Events</a></li>
+</ul></div>
+<h3 class="accordion-header accordion-header-6 no-children even menu-mlid-847"><a href="http://www.materials.imdea.org/open-tenders" class="accordion-link">Open tenders</a></h3>
+<div class="accordion-content-6"></div>
+<h3 class="accordion-header accordion-header-7 last has-children odd menu-mlid-694"><a href="http://www.materials.imdea.org/open-positions" class="accordion-link">Open Positions</a></h3>
+<div class="accordion-content-7"><ul class="menu"><li class="first leaf"><a href="http://www.materials.imdea.org/open-positions/staff-researchers">Staff Researchers</a></li>
+<li class="leaf"><a href="http://www.materials.imdea.org/open-positions/postdoctoral-researchers">Postdoctoral Researchers</a></li>
+<li class="leaf"><a href="http://www.materials.imdea.org/open-positions/predoctoral-researchers">Predoctoral Researchers</a></li>
+<li class="leaf"><a href="http://www.materials.imdea.org/open-positions/other-positions">Other Positions</a></li>
+<li class="last leaf"><a href="http://www.materials.imdea.org/open-positions/research-initiation-fellowships">Research Initiation Fellowships</a></li>
+</ul></div>
+</div>
+    </div>
+  </div>
+</div>  </div>
+</aside><div class="grid-9 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                <h1 class="title" id="page-title">MODENA</h1>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <article about="http://www.materials.imdea.org/research/projects/MODENA" typeof="foaf:Document" class="node node-page node-published node-not-promoted node-not-sticky author-imdea-editor odd clearfix" id="node-page-1125">
+            
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h2>&quot;Modelling of morphology Development of micro- and Nano Structures&quot;</h2>
+
+<p>&nbsp;</p>
+
+<h2><span style="font-size: 13px; line-height: 1.6em;">&nbsp; &nbsp;<img alt="" src="/sites/default/files/images/site/research/projects/MODENA/EU%20flag.jpg" style="width: 103px; height: 70px; float: right;" /> &nbsp;<img alt="" src="/sites/default/files/images/site/research/projects/MODENA/FP7-coo.jpg" style="width: 85px; height: 70px; float: right;" /></span><span style="font-size: 13px; line-height: 1.6em;">&nbsp; &nbsp;</span><span style="font-size: 13px; line-height: 1.6em;">​</span></h2>
+
+<p style="font-size: 13px;">&nbsp;</p>
+
+<p style="font-size: 13px;">&nbsp;</p>
+
+<p style="font-size: 13px;"><strong>Funding:</strong>&nbsp;European Union, 7th Framework Programme (NMP4-SL-2013-604271)<br />
+<strong>Partners:</strong>&nbsp;Norwegian University of Science and Technology, University of Trieste, BASF SE, Politecnico di Torino, Wikki Ltd., Eindhoven University of Technology, IMDEA Materials Institute, University of Stuttgarrt, Vysolka Skola Chemicko-Technologica, Deutsches Institut f&uuml;r Normung<br />
+<strong>Region:</strong>&nbsp;Europe&nbsp;<br />
+<strong>Project period:</strong>&nbsp;2014&nbsp;- 2016<br />
+<strong style="line-height: 1.6em;">Principal Investigators:</strong><span style="line-height: 1.6em;">&nbsp;<a href="http://www.materials.imdea.org/people/researchers/prof-javier-llorca" target="_blank">Prof. Javier LLorca</a> (javier.llorca(AT)imdea.org) and <a href="http://www.materials.imdea.org/people/researchers/dr-claudio-lopes" target="_blank">Dr. Claudio Lopes</a> (claudiosaul.lopes(AT)imdea.org)</span></p>
+
+<p><a href="http://modena.units.it/default.aspx" target="_blank">http://modena.units.it/default.aspx</a></p>
+
+<p><span style="line-height: 1.6em;">MODENA aims at developing, demonstrating and assessing an easy-to-use multi-scale software-modeling framework application under an open-source licensing scheme that delivers models with feasible computational loads for process and product design of complex materials. The use of the software will lead to novel research and development avenues that fundamentally improve the properties of these nanomaterials.</span></p>
+
+<p><span style="line-height: 1.6em;">As an application case MODENA will consider polyurethane (PU) foams, which is an excellent example of a large turnover product produced in a variety of qualities and of which the properties are the result of designing and controlling the material structure on all levels of scale, from the molecule to the final product. Polyurethanes are used in furniture, automotive, coatings, construction, thermal insulation and footwear, which are the most important industry sectors. Tailoring these properties requires understanding and detailed modeling of the fundamental material behaviour on all scales.</span></p>
+
+<p><span style="line-height: 1.6em;">An open-source software-suite will be constructed that logically interlinks scale and problem specific software of the participating research groups, using a software orchestrator that communicates information utilizing our proposed new communication standard in both directions, namely upwards to the higher scale and downwards to the lower scale. This feature is unique, enabling the solution of complex material design problems.</span></p>
+
+<p><span style="line-height: 1.6em;">IMDEA Materials Institute will be responsible for the modelling of the mechanical and transport properties at the macroscopic scale from the information of the morphology and material properties at the mesoscale. IMDEA Materials will also carry of the characterization on the mechanical properties at the mesoscale and macroscale in to validate the results of the models at the mesoscale and macroscale.</span></p>
+</div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+      </div>
+</article>    </div>
+  </div>
+</div>      </div>
+</div>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-12 region region-footer-first" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner">
+    <div class="block block-panels-mini block-english-footer block-panels-mini-english-footer odd block-without-title" id="block-panels-mini-english-footer">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="panel-display omega-grid omega-12-onecol" id="mini-panel-english_footer">
+  <div class="panel-panel">
+    <div class="inside"><div class="panel-pane pane-custom pane-1" >
+  
+      
+  
+  <div class="pane-content">
+    <div>
+<div class="grid-10">
+<div class="footer-block">
+<ul class="footer-border">
+	<li><a href="/contact">Contact</a></li>
+	<li><a href="/location">Location</a></li>
+</ul>
+</div>
+
+<div class="footer-block">
+<ul class="footer-border">
+	<li><a href="/press-room">Press Room</a></li>
+	<li><a href="/facts">Facts</a></li>
+</ul>
+</div>
+
+<div class="footer-block">
+<ul class="footer-border">
+	<li><a href="/public-hiring">Public hiring</a></li>
+	<li><a href="https://mail.imdea.org/" target="blank">Webmail</a></li>
+</ul>
+</div>
+
+<div class="footer-block">
+<ul class="footer-border">
+	<li><small>Follow us</small></li>
+	<li><a href="/whats-new/news/feed" target="_blank"><img alt="" src="/sites/default/files/images/site/Footer/rss_news_color.png" style="width: 36px; height: 28px;" /></a>&nbsp;&nbsp;<a href="/whats-new/events/feed" target="_blank"><img alt="" src="/sites/default/files/images/site/Footer/rss_event_color.png" style="width: 36px; height: 28px;" /></a>&nbsp;&nbsp;<a href="http://www.youtube.com/comunicacionimdea" target="_blank"><img alt="" src="/sites/default/files/images/site/Footer/youtube%20color.png" style="width: 29px; height: 29px;" /></a>&nbsp;&nbsp;<a alt="LinkedIn" href="https://www.linkedin.com/company/imdea-materiales" target="_blank" title="LinkedIn"><img alt="" src="/sites/default/files/images/site/Footer/linkedin.png" style="width: 29px; height: 29px;" /></a>​</li>
+</ul>
+</div>
+</div>
+
+<div class="grid-2">
+<p><img alt="" src="/sites/default/files/images/site/Footer/CM%20nuevo%20y%20UE%20ENG.png" style="margin-top: 10px; margin-bottom: 10px; float: right; width: 218px; height: 68px;" /></p>
+</div>
+</div>
+
+<div>
+<div class="grid-8">&nbsp;</div>
+
+<div class="grid-4" style="text-align: right;">
+<p><small><em><a href="http://www.imdea.org/disclaimer">Disclaimer</a> | <a href="http://www.imdea.org/privacy-policy">Privacy Policy </a>| <a href="http://www.imdea.org/accessibility">Accessibility</a><br />
+&copy; 2013 Fundaci&oacute;n IMDEA Materiales | <a href="http://www.imdea.org/fractals">&copy; Fractals</a></em></small></p>
+</div>
+</div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></footer>  </div>  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(function() {
+  jQuery('.accordion-menu-1').accordion({ animated: 'slide', autoHeight: false, clearStyle: true, fillSpace: false, event: 'mousedown', header: 'h3', collapsible: true, navigation: true, icons: { 'header': 'ui-icon-triangle-1-e', 'headerSelected': 'ui-icon-triangle-1-s' }, cookie: { path: '/' }, active: false });
+  jQuery('.accordion-menu-1 .accordion-header.no-children').each(function(index, element) {
+    jQuery(this)
+      .unbind('.accordion')
+      .children('.ui-icon')
+      .removeClass('ui-icon-triangle-1-e')
+      .addClass('ui-icon-triangle-1-s');
+  });
+});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-48956217-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+</body>
+</html>

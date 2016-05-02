@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>kiekids - epilepsy in children</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /><meta name="author" content="www.kiekids.eu" /><meta name="description" content="epilepsy in children" /><meta name="keywords" content="epilepsy, children, absence and myoclonic epilepsies, absence epilepsy, juvenile myoclonic epilepsy, progressive myoclonic epilepsy" /><link  href="http://fonts.googleapis.com/css?family=Terminal+Dosis:500" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="css/reset.css" type="text/css" /><link rel="stylesheet" href="css/common.css" type="text/css" /><link rel="stylesheet" href="css/modal.css" type="text/css" /><link rel="stylesheet" href="css/styles_pages.css" type="text/css" /><link rel="stylesheet" href="css/mobiles.css" type="text/css" media="screen" /><script type="text/javascript" src="js/jquery.tools.min_n.js"></script><script type="text/javascript" src="js/anim.js"></script><meta name="google-site-verification" content="FXZbwPEBxQudoB-88EICTXcbpkwywEPCNAWCYCczdhw" /></head><body><div id="acc_abonne"  class="modal arrondi15" ><h2 class="ctrlacces">access control<br/>thank you for identifying</h2><h3>you wish to access the partners area : Please enter your username and password and click sign in button.</h3><form id="frmConnexion" action="private.html" method="post" ><ul><li><label for="mb_ident" id="lib_mb_ident">login</label><input id="mb_ident" name="mb_ident" type="text" class="arrondi5" tabindex="1000" onkeypress="return IsConnexionFormValid(event);" /></li><li><label for="mb_pwd" id="lib_mb_pwd">passord</label><input id="mb_pwd" name="mb_pwd" type="password" class="arrondi5" tabindex="1001" onkeypress="return IsConnexionFormValid(event);" /></li></ul><p><input id="mb_send" type="button" class="normalbutton arrondi5" value="sign in" onclick="IsConnexionFormValid(-1);" tabindex="1002" /><input type="button" class="annulbutton close arrondi5" value="cancel" tabindex="1003" /><input type="hidden" name="sendfrmconnexion" /></p></form><form id="frmForgottenpwd" action="private.html" method="post" ><h3>you forgot your password ? enter your email address below to receive it.</h3><ul><li><label for="mb_email" id="lib_mb_email">email</label><input id="mb_email" name="mb_email" type="text" class="arrondi5" tabindex="1004" onkeypress="return IsForgottenpwdFormValid(event);" /></li></ul><p>please,&nbsp;&nbsp;<input id="mb_sendemail" type="button" class="normalbutton arrondi5" value="send me" onclick="IsForgottenpwdFormValid(-1);" tabindex="1005" />my password<input type="hidden" name="sendfrmForgotenpwd" /></p></form><div class="modallogo"></div></div><div id="header"><div class="wrapcenter"><div id="headerlogo"><a href="index.html"><img src="img/header_kiekids_logo.jpg" alt="logo kiekids" /></a></div> <!-- headerlogo --><div id="headermenu"><ul  id="nav"><li class=""><a href="index.html" class="">home</a></li><li class=""><a href="project-kiekids.html" class="">project</a></li><li class=""><a href="indications-kiekids.html" class="">indications</a></li><li class=""><a href="consortium-kiekids.html" class="">consortium</a></li><li><a href="private.html" class="modalInput" rel="#acc_abonne">private</a></li><li class=" selected "><a href="contact-kiekids.html" class=" selected ">contact</a></li></ul></div> <!-- headermenu --></div> <!-- wrapcenter --></div> <!-- header --><div id="headerbottom"><div class="wrapcenter"><h1>contact</h1><div id="eucontact"></div></div> <!-- fin wrapcenter --></div> <!-- fin headerbottom --><div id="pagewrap"><div class="wrapcenter"><div id="pagecontent" class="empreinte_droite">
+
+			<div class="colleft whatireallymean"></div>
+	
+			<div class="company ">
+	
+<p>to tell us all the good things you feel about this project or our internet web site, thank you for filling out the form below.</p><div id="contactformula"><form id="frmContact" action="contact-kiekids.html" method="post" ><p><label for="sm_name" id="lib_sm_name">name</label><input type="text" id="sm_name" name="sm_name" class="arrondi10" /><label for="sm_company" id="lib_sm_company">[company]</label><input type="text" id="sm_company" name="sm_company" class="arrondi10" /><label for="sm_email" id="lib_sm_email">email</label><input type="text" id="sm_email" name="sm_email" class="arrondi10" /><label for="sm_msg" id="lib_sm_msg">message</label><textarea id="sm_msg" name="sm_msg" class="arrondi10" rows="" cols="" ></textarea><br/><input type="button" name="sm_sendbtn" class="normalbutton arrondi10" value="send my message" onclick="IsContactFormValid(event);" /><input type="hidden" name="sendfrmcontact" /></p></form></div> <!-- footercontact -->								
+			</div> <!-- fin company -->
+
+			<div class="logo logocpy whereweare arrondi20"></div>
+			<div class="company ">
+				<h2>main contact</h2>
+				<p>
+				kiekids has gathered a consortium. Advicenne Pharma manages the communication of the project.
+				</p>
+
+				<div class="b0">
+				<div class="b1">
+					<p>
+					Advicenne Pharma Grenoble office (France)<br/>
+					445, rue Lavoisier - Inovallée<br/>
+					38330 Montbonnot-Saint-Martin<br/>
+					phone: +33 456 85 13 00<br/>
+					fax: +33 476 62 92 33
+					</p>
+				</div> <!-- fin b1 -->
+				<div class="b2">
+					<div class="b3">
+<!--	supprimer la valeur du param q pour supprimer l'étiquette 
+					<iframe width="250" height="148" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=&amp;aq=0&amp;oq=445,+rue+Lavoisier+38330+Montbonnot-Saint-Martin&amp;sll=46.75984,1.738281&amp;sspn=15.162427,33.815918&amp;ie=UTF8&amp;hq=&amp;hnear=445+Rue+Lavoisier,+38330+Montbonnot-Saint-Martin,+Is%C3%A8re,+Rh%C3%B4ne-Alpes&amp;t=m&amp;ll=45.220501,5.804901&amp;spn=0.017895,0.045834&amp;z=13&amp;output=embed"></iframe>
+-->
+						<a href="http://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=445,+rue+Lavoisier+38330+Montbonnot-Saint-Martin&amp;aq=&amp;sll=46.75984,1.738281&amp;sspn=15.162427,33.815918&amp;ie=UTF8&amp;hq=&amp;hnear=445+Rue+Lavoisier,+38330+Montbonnot-Saint-Martin,+Is%C3%A8re,+Rh%C3%B4ne-Alpes&amp;t=m&amp;ll=45.216752,5.813141&amp;spn=0.018138,0.05476&amp;z=13&amp;iwloc=A" >
+						<img src="img/montbonnotmap.jpg" alt="nimesmap" />						</a>
+
+					</div>
+				</div> <!-- fin b2 -->
+				</div> <!-- fin b0 -->
+	
+				<div class="b0">
+				<div class="b1">
+					<p>
+					Advicenne Pharma Nîmes<br/>
+					2, rue Briçonnet<br/>
+					30000 Nîmes<br/>
+					phone: +33 466 05 54 20<br/>
+					</p>
+				</div> <!-- fin b1 -->
+				<div class="b2">
+					<div class="b3">
+						<a href="https://goo.gl/maps/Uwjw2">
+<!--						<a href="http://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=442,+rue+Georges+Besse++30035+N%C3%AEmes&amp;sll=46.75984,1.738281&amp;sspn=15.162427,33.815918&amp;ie=UTF8&amp;hq=&amp;hnear=442+Rue+Georges+Besse,+30000+N%C3%AEmes,+Gard,+Languedoc-Roussillon&amp;t=m&amp;ll=43.819294,4.368267&amp;spn=0.009166,0.021372&amp;z=14&amp;iwloc=A">-->
+						<img src="img/nimesmap.jpg" alt="nimesmap" />						</a>					
+					</div>
+				</div> <!-- fin b2 -->
+				</div> <!-- fin b0 -->
+	
+
+			</div> <!-- fin company -->
+
+
+</div> <!-- fin pagecontent --></div> <!-- fin wrapcenter --></div> <!-- fin pagewrap --><div id="pagewrapfooter"></div><div id="footer"><div class="wrapcenter"><div class="europa"><p><img src="img/europa-flag.gif" alt="europa logo"></p><p>This project has received funding from the European Union’s Seventh Framework Programme for research, technological development and demonstration under grant agreement no. 282559.</p></div><div id="footereuproject" class="cols"><h2>kiekids project</h2><p><a href="">The ultimate goal of KIEKIDS is to submit in 2016 a novel age-adaptable paediatric formulation as a Paediatric Use Marketing Authorisation (PUMA).</a></p></div> <!-- footereuproject --><div id="footerindication" class="cols"><h2>indication</h2><ul><li><a href="http://www.kiekids.eu/indications-kiekids.html#indic_ame">absence and myoclonic epilepsies</a></li><li><a href="http://www.kiekids.eu/indications-kiekids.html#indic_ae">absence epilepsy</a></li><li><a href="http://www.kiekids.eu/indications-kiekids.html#indic_jme">juvenile myoclonic epilepsy</a></li><li><a href="http://www.kiekids.eu/indications-kiekids.html#indic_pme">progressive myoclonic epilepsy</a></li></ul></div> <!-- footerindication --><div id="footerconsortium" class="cols"><h2>consortium partners</h2><ul><li><a href="http://www.kiekids.eu/consortium-kiekids.html#advicenne">advicenne pharma</a></li><li><a href="http://www.kiekids.eu/consortium-kiekids.html#inserm">inserm</a></li><li><a href="http://www.kiekids.eu/consortium-kiekids.html#clinbay">clinbay sprl</a></li><li><a href="http://www.kiekids.eu/consortium-kiekids.html#chuv">chuv</a></li><li><a href="http://www.kiekids.eu/consortium-kiekids.html#sfp">seventh framework programme</a></li></ul></div> <!-- footerconsortium --><div id="footercontact" class="cols"><h2>main contact</h2><p><a href="contact-kiekids.html">Advicenne Pharma<br/>445, rue Lavoisier<br/>38330 Montbonnot<br/>contact [at] kiekids.eu<br/>+33 456 85 13 00<br/></a></p></div> <!-- footercontact --></div> <!-- wrapcenter --></div> <!-- footer --><div id="footerbottom"><div class="wrapcenter"><div id="footerbottombcontent"><p><a href="http://www.kiekids.eu/"><img src="img/footer_kiekids_logo.png" alt="kiekids" /></a></p><p>Powered by <a href="http://www.ouvrezlesguillemets.fr/">OLG</a></p></div> <!-- footerbottombcontent --></div> <!-- wrapcenter --></div> <!-- footerbottom --></body></html>

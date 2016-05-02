@@ -1,0 +1,518 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Home - Discontools</title>
+
+		<link href="/Sources/css/site.css?version=2" rel="stylesheet" type="text/css" />
+	<link href="/Sources/themes/base/minified/jquery.ui.core.min.css" type="text/css" rel="Stylesheet" />
+	<link href="/Content/themes/base/minified/jquery.ui.datepicker.min.css" rel="stylesheet" type="text/css" />
+	<link href="/Sources/css/extra.css?version=2" rel="stylesheet" type="text/css" />
+
+	<script src="/Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+	<script src="/Scripts/jquery-ui-1.8.16.min.js" type="text/javascript"></script>
+	<script src="/Scripts/jquery.validate.min.js" type="text/javascript"></script>
+	<script src="/Scripts/jquery.validate.unobtrusive.min.js" type="text/javascript"></script>
+	<script src="/Scripts/jquery.unobtrusive-ajax.min.js" type="text/javascript"></script>
+	<script src="/Scripts/jquery.autocomplete-min.js" type="text/javascript"></script>
+	<script src="/Scripts/jquery.scrollTo-1.4.2-min.js" type="text/javascript" ></script>
+	<script src="/Scripts/site.js" type="text/javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+		function GoToSearchResults() {
+			var selected = $('#searchterm').val();
+			if (selected != '') {
+				$("#frmSearchResults").submit();
+			}
+		}
+		$(document).ready(function () {
+			$("#searchterminput").focus(function () { $(this).select() });
+			$("#searchterminput").mouseup(function (e) {
+				e.preventDefault();
+			});
+
+		});
+	</script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36872259-6']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+        $('a[href^="/upl"]').live('click', function () {
+            //add to google analytics
+            _gaq.push(['_trackPageview', escape($(this).prop("href"))]);
+        });
+
+</script>
+</head>
+<body>
+	<div id="page">
+		<div id="header">
+			<div id="headerwrapper">
+				<div id="logo">
+					<a href="/"><img src="/sources/img/Discontools_logo.png" width="200" height="105" border="0" /></a>
+				</div>
+				<!--logo-->
+				<div id="nav">
+					<table border="0" cellspacing="0" cellpadding="0" class="nav">
+						<tr>
+							<td class="navtab_spec">
+								<a class="navspec" id="hrefDisease" href="/Diseases">DISEASE DATABASE</a>
+							</td>
+							<td class="navspace"></td>
+							<td class="navtab">
+								<a class="nav" id="hrefWorkgroups" href="/Workgroups">WORKGROUPS</a>
+							</td>
+							<td class="navspace"></td>
+							<td class="navtab">
+								<a class="nav" id="hrefAbout" href="/AboutDiscontools">ABOUT DISCONTOOLS</a>
+							</td>
+							<td class="navspace"></td>
+							<td class="navtab">
+								<a class="nav" id="hrefLinks" href="/Links">LINKS</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<!--nav-->
+			</div>
+			<!--headerwrapper-->
+			<div class="sidebar">
+				<div id="ajaxLoginForm">
+
+<script type="text/javascript">
+	function sendLogOnForm() {
+		if ($('#frmLogOn').valid()) {
+			$('#frmLogOn').submit();
+		}
+	}
+
+	$(document).ready(function () {
+		$('#showforgottenbox').click(function () {
+			$('#ajaxForgottenPasswordForm').show();
+
+			$('#ajaxForgottenPasswordForm').position({
+				of: $('#login'),
+				my: "left top",
+				at: "left bottom"
+			});
+		});
+	});
+</script>
+
+
+<form action="/Account" data-ajax="true" data-ajax-method="Post" data-ajax-mode="replace" data-ajax-update="#ajaxLoginForm" id="frmLogOn" method="post"><input id="logonbeenhere" name="logonbeenhere" type="hidden" value="1" />	<div id="login">
+		<div id="loginwrapper">
+			<table border="0" cellspacing="4" cellpadding="0">
+				<tr>
+					<td style="width: 200px;"><input class="loginbox" data-val="true" data-val-required="The UserName field is required." id="UserName" maxlength="100" name="UserName" type="text" value="" /></td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td><input class="loginbox" data-val="true" data-val-required="The Password field is required." id="Password" maxlength="100" name="Password" type="password" /></td>
+					<td><a href="javascript:sendLogOnForm();"><img src="/sources/img/loginbutton.png" border="0" width="70" height="26" alt="login"></a></td>
+				</tr>
+				<tr>
+					<td><a class="smalltext" href="javascript:void(0)" id="showforgottenbox">Forgotten password?</a></td>
+					<td></td>
+				</tr>  
+			</table>
+		</div><!--loginwrapper-->
+	</div>
+	<div id="logonerrorbox" style="position:absolute;z-index:350;display:none;">
+		<div class="printwrapper">
+			<div class="printwrapper_top">
+				<div class="left wrappercontent">
+					Wrong username or password. <br />Please try again.
+				</div>
+				<div class="right closeicon"><img src="/sources/img/close.png" width="11" height="11" alt="Close" id="closelogonerrorbox" style="cursor:pointer;"></div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</form>				</div>
+				<div id="ajaxForgottenPasswordForm" style="position:absolute;z-index:400;display:none;">
+
+<script type="text/javascript">
+	function sendForgottenPasswordForm() {
+		if ($('#frmForgottenPassword').valid()) {
+			$('#frmForgottenPassword').submit();
+		}
+	}
+
+	$(document).ready(function () {
+		$('#closeforgottenbox').click(function () {
+			$('#ajaxForgottenPasswordForm').hide();
+		});
+	});
+</script>
+
+<form action="/Account/ForgottenPassword" data-ajax="true" data-ajax-method="Post" data-ajax-mode="replace" data-ajax-update="#ajaxForgottenPasswordForm" id="frmForgottenPassword" method="post"><input id="forgottenpasswordbeenhere" name="forgottenpasswordbeenhere" type="hidden" value="1" />	<div class="printwrapper">
+		<div class="printwrapper_top">
+			<div class="left wrappercontent">
+				Type your e-mail address in the box below to receive your user name and password by e-mail:<br><br>
+				<span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td><input class="loginbox" data-val="true" data-val-regex="The e-mail is invalid." data-val-regex-pattern="^((([a-z]|\d|[!#\$%&amp;&#39;\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&amp;&#39;\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$" data-val-required="The e-mail field is required." id="Email" maxlength="100" name="Email" type="text" value="" /></td>
+						<td><a href="javascript:sendForgottenPasswordForm();"><img src="/sources/img/sendbutton.png" border="0" width="70" height="26" alt="send"></a></td>
+					</tr>
+				</table>
+			</div>
+			<div class="right closeicon"><img src="/sources/img/close.png" width="11" height="11" alt="Close" id="closeforgottenbox" style="cursor:pointer;"></div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</form>				</div>
+				<div id="searchheader">
+<form action="/Home/SearchResults" id="frmSearchResults" method="post">						<table border="0" cellspacing="0" cellpadding="0" class="search">
+							<tr>
+								<td>
+									<input type="text" id="searchterminput" name="searchterminput" value="Search" class="searchbox" />
+								</td>
+								<td>
+									<a href="javascript:GoToSearchResults()"><img src="/sources/img/searchbuttonorange.png" border="0" height="26" alt="Search" /></a>
+								</td>
+							</tr>
+						</table>
+</form>				</div>
+			</div>
+			<!--sidebar-->
+		</div>
+		<!--header-->
+		<div class="main">
+			
+<link rel="stylesheet" type="text/css" href="/Sources/wowslider/style.css" media="screen" />
+<script type="text/javascript" src="/Sources/wowslider/script.js"></script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function () {
+		jQuery("#wowslider-container1").wowSlider({
+			effect: "fly",
+			prev: "",
+			next: "",
+			duration: 10 * 100,
+			delay: 40 * 100,
+			outWidth: 620,
+			outHeight: 333,
+			width: 620,
+			height: 333,
+			caption: false,
+			controls: true,
+			autoPlay: true,
+			bullets: 0,
+			stopOnHover: false
+		});
+	});
+</script>
+
+<div id="slider">
+<div id="wowslider-container1">
+		<div class="ws_images">
+					<a href="http://www.discontools.eu/upl/1/default/doc/Pressrelease_DISCONTOOLS_151112.pdf" style="cursor:pointer;"><img src="/upl/1/default/img/DISCONTOOLSPressRelease.jpg" alt="" title="" id="wows0" width="620" height="330"/></a>
+					<a><img src="/upl/1/default/img/DTslider-1.jpg" alt="" title="" id="wows1" width="620" height="333"/></a>
+					<a><img src="/upl/1/default/img/homesmall_2(2).jpg" alt="" title="" id="wows2" width="620" height="333"/></a>
+		</div>
+</div>
+</div><div class="sidebar">
+    <div class="news">
+        <div class="titlespace">
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <div class="subtitle">
+                            What's new
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div id="tablewrapper">
+                <table class="newstable" border="0" cellspacing="0" cellpadding="2">
+                        <tr class="col" valign="top" >
+                            <td>
+                                <strong>04/12</strong>
+                            </td>
+                            <td>
+                                <a href="/upl/1/default/doc/MoU DISCONTOOLS.pdf"  target="_blank">MoU DISCONTOOLS 2015</a>
+                            </td>
+                        </tr>
+                        <tr  valign="top" >
+                            <td>
+                                <strong>22/10</strong>
+                            </td>
+                            <td>
+                                <a href="/upl/1/default/doc/ASF_MArias25092015.pdf"  target="_blank">Gap analysis African Swine Fever</a>
+                            </td>
+                        </tr>
+                        <tr class="col" valign="top" >
+                            <td>
+                                <strong>09/10</strong>
+                            </td>
+                            <td>
+                                <a href="/upl/1/default/doc/DPaton_FMD.pdf"  target="_blank">Gap analysis Foot and Mouth Disease</a>
+                            </td>
+                        </tr>
+                        <tr  valign="top" >
+                            <td>
+                                <strong>08/10</strong>
+                            </td>
+                            <td>
+                                <a href="/upl/1/default/doc/DISCONTOOLSmeeting2509_PMBagenda.pdf"  target="_blank">Agenda </a>
+                            </td>
+                        </tr>
+                        <tr class="col" valign="top" >
+                            <td>
+                                <strong>08/10</strong>
+                            </td>
+                            <td>
+                                <a href="/upl/1/default/doc/DISCONTOOLS_minutes_FundersPMB meeting 20150925.pdf"  target="_blank">Minutes</a>
+                            </td>
+                        </tr>
+                </table>
+            </div>
+        </div>
+        <!--newstitel-->
+    </div>
+    <!--news-->
+    <div class="pages">
+        <div class="titlespace">
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <div class="subtitle">
+                            Workgroup pages
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <table width="280" border="0" cellspacing="5" cellpadding="0">
+                    <tr>
+                        <td>
+                            <a href="/Workgroups/Group/25">
+                                <img src="/sources/img/stakeholder.png" onmouseover="this.src='/sources/img/stakeholder_sel.png'" onmouseout="this.src='/sources/img/stakeholder.png'" border= "0" width="284" height="40" alt="Stakeholder Forum"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/Workgroups/Group/31">
+                                <img src="/sources/img/funders.png" onmouseover="this.src='/sources/img/funders_sel.png'" onmouseout="this.src='/sources/img/funders.png'" border="0" width="284" height="40" alt="Funders"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/Workgroups/Group/27">
+                                <img src="/sources/img/projectmanagement.png" onmouseover="this.src='/sources/img/projectmanagement_sel.png'" onmouseout="this.src='/sources/img/projectmanagement.png'" border="0" width="284" height="40" alt="Project Management Board"></a>
+                        </td>
+                    </tr>
+						<tr>
+							<td>
+								<a href="/WorkgroupsUntil2013">
+									<img src="/sources/img/workgroupsuntil2013.png" onmouseover="this.src = '/sources/img/workgroupsuntil2013_sel.png'" onmouseout="this.src = '/sources/img/workgroupsuntil2013.png'" border="0" width="284" height="40" alt="Workgroups until 2013"></a>
+							</td>
+						</tr>
+            </table>
+        </div>
+        <!--newstitel-->
+    </div>
+    <!--pages-->
+</div>
+<!--sidebar-->
+
+
+
+		</div>
+		<!--main-->
+			<div id="bottom">
+				
+    <script type="text/javascript">
+    $(document).ready(function () {
+        var a = $('#disease').autocomplete({
+            serviceUrl: '/Home/AutocompleteSuggestions',
+		    minChars: 1,
+		    delimiter: /(,|;)\s*/, // regex or character
+		    maxHeight: 400,
+		    width: 300,
+		    zIndex: 9999,
+		    deferRequestBy: 200, //miliseconds
+		    noCache: false, //default is false, set to true to disable caching
+		    // callback function:
+		    onSelect: function (value, data) { SelectItem(value, data); }
+		    // local autosugest options:
+		});
+
+	    //		$('#disease').keypress(function (e) {
+	    //			if (e.which == 13) {
+	    //				GoToDisease();
+	    //			}
+	    //		});
+	});
+
+    function SelectItem(value, data) {
+        $('#hidDisease').val(data);
+    }
+
+    function GoToDisease() {
+        var selected = $('#hidDisease').val();
+        if (selected != '') {
+            $("#FrmDisease").submit();
+        }
+    }
+</script>
+<div id="bottomsearchbox">
+    <div id="bottomsearch">
+        <div id="bottomsearchtitel">
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <div class="subtitle_white">
+                            Find disease
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="searchfield">
+            <table width="280" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td width="232">
+                        <input type="text" id="disease" value="" class="searchboxdisease">
+<form action="/Home/GoToDisease" id="FrmDisease" method="post">                            <input id="hidDisease" name="hidDisease" type="hidden" value="" />
+</form>                    </td>
+                    <td width="68">
+                        <a href="javascript:GoToDisease()">
+                            <img src="/sources/img/searchbutton.png" border="0" height="26" alt="Search"></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!--searchfield-->
+        <div id="searchbutton">
+            <a href="/Diseases">
+                <img src="/sources/img/advancedsearchbutton.png" border="0" width="132" height="26"
+                    alt="advanced search"></a>
+        </div>
+        <!--searchbutton-->
+    </div>
+    <a href="/Home/ProjectsOutput" class="projectoutput">&nbsp;</a>
+    <!--bottomsearch-->
+</div>
+
+
+				
+    <div id="bottomlinks">
+
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <div class="subtitle">
+                        <a href="/Links">Links</a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table width="580" style="margin: 7px 19px;" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="145" height="57">
+                    <a href="http://www.anihwa.eu/" target="_blank">
+                        <img src="/upl/1/en/img/anihwa_new grey.PNG" onmouseover="this.src='/upl/1/en/img/anihwa_new kopie 2.PNG'" onmouseout="this.src='/upl/1/en/img/anihwa_new grey.PNG'" border="0" width="108" height="39" alt="Eranet- ANIHWA"></a>
+                </td>
+                <td width="145" height="57">
+                    <a href="http://www.medvetnet.org" target="_blank">
+                        <img src="/upl/1/default/img/link2.png" onmouseover="this.src='/upl/1/default/img/link2_sel.png'" onmouseout="this.src='/upl/1/default/img/link2.png'" border="0" width="122" height="57" alt="MED VET NET"></a>
+                </td>
+                <td width="145" height="57">
+                    <a href="http://www.ifaheurope.org" target="_blank">
+                        <img src="/upl/1/default/img/link3.png" onmouseover="this.src='/upl/1/default/img/link3_sel.png'" onmouseout="this.src='/upl/1/default/img/link3.png'" border="0" width="122" height="57" alt="IFAH-Europe"></a>
+                </td>
+                <td width="145" height="57">
+                    <a href="http://ec.europa.eu/research/index_en.html" target="_blank">
+                        <img src="/upl/1/default/img/link4.png" onmouseover="this.src='/upl/1/default/img/link4_sel.png'" onmouseout="this.src='/upl/1/default/img/link4.png'" border="0" width="122" height="57" alt="DG RESEARCH"></a>
+                </td>
+
+            </tr>
+            <tr>
+                <td width="145" height="57">
+                    <a href="http://ec.europa.eu/programmes/horizon2020/en" target="_blank">
+                        <img src="/upl/1/en/img/link5.png" onmouseover="this.src='/upl/1/default/img/link5_sel(1).png'" onmouseout="this.src='/upl/1/en/img/link5.png'" border="0" width="122" height="56" alt="Horizon 2020"></a>
+                </td>
+                <td width="145" height="57">
+                    <a href="http://www.vetinnova.es/spanish-technology-platform-for-animal-health/english/introduction_212_1_ap.html" target="_blank">
+                        <img src="/upl/1/default/img/Vetinnova logo (2)negro.jpg" onmouseover="this.src='/upl/1/default/img/Vetinnova logo (2).jpg'" onmouseout="this.src='/upl/1/default/img/Vetinnova logo (2)negro.jpg'" border="0" width="122" height="45" alt="Vetinnova"></a>
+                </td>
+                <td width="145" height="57">
+                    <a href="http://www.epizone-eu.net/" target="_blank">
+                        <img src="/upl/1/default/img/link5.png" onmouseover="this.src='/upl/1/default/img/link5_sel.png'" onmouseout="this.src='/upl/1/default/img/link5.png'" border="0" width="122" height="57" alt="EPIZONE"></a>
+                </td>
+                <td width="145" height="57">
+                    <a href="http://iconzafrica.com/" target="_blank">
+                        <img src="/upl/1/default/img/link7.png" onmouseover="this.src='/upl/1/default/img/link7_sel.png'" onmouseout="this.src='/upl/1/default/img/link7.png'" border="0" width="122" height="57" alt="ICONZ"></a>
+                </td>
+            </tr>
+            <tr>
+                <td width="145" height="57">
+                    <a href="http://www.galvmed.org/" target="_blank">
+                        <img src="/upl/1/default/img/link8.png" onmouseover="this.src='/upl/1/default/img/link8_sel.png'" onmouseout="this.src='/upl/1/default/img/link8.png'" border="0" width="122" height="57" alt="GalvMed"></a>
+                </td>
+                    <td width="145" height="57">
+                        <a href="http://www.etpgah.eu/" target="_blank">
+                            <img src="/upl/1/default/img/link9.png" onmouseover="this.src='/upl/1/default/img/link9_sel.png'" onmouseout="this.src='/upl/1/default/img/link9.png'" border="0" width="122" height="57" alt="ETPGAH"></a>
+                    </td>
+                    <td width="145" height="57">
+                        <a href="http://www.aefrv.eu/" target="_blank">
+                            <img src="/upl/1/default/img/link2.png" onmouseover="this.src='/upl/1/default/img/link2_sel.png'" onmouseout="this.src='/upl/1/default/img/link2.png'" border="0" width="122" height="57" alt="European Manufacturers of Veterinary Diagnostics (EMVD)"></a>
+                    </td>
+                    <td width="145" height="57">
+                        <a href="http://www.star-idaz.net/" target="_blank">
+                            <img src="/upl/1/default/img/StarIdaz1_sel.jpg" onmouseover="this.src='/upl/1/default/img/StarIdaz1_hover - kopie.jpg'" onmouseout="this.src='/upl/1/default/img/StarIdaz1_sel.jpg'" border="0" width="122" height="37" alt="STAR-IDAZ"></a>
+                    </td>
+            </tr>
+        </table>
+    </div>
+    <!--bottomlinks-->
+
+			</div>
+		<div id="footer">
+			<table border="0" cellspacing="0" cellpadding="0" class="footer">
+				<tr>
+					<td align="center" valign="bottom" class="footer_item footer_border_r">
+						<table border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>
+									<a href="/Home/Disclaimer" id="hrefDisclaimer" class="bottomnav">Disclaimer</a>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td align="center" valign="bottom" class="footer_item footer_border_r">
+						<table border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>
+									<a href="/Home/Sitemap" id="hrefSitemap" class="bottomnav">Sitemap</a>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td style="width: 670px;">
+					</td>
+					<td align="center" valign="bottom" class="footer_item footer_border_l">
+						<table border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>
+									<a href="/AboutDiscontools/Contacts" id="hrefContact" class="bottomnav">Contact</a>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<!--footer-->
+	</div>
+	<!--page-->
+</body>
+</html>

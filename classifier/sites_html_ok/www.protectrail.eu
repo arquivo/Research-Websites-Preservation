@@ -1,0 +1,822 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<title>PROTECTRAIL - The Railway-Industry Partnership for Integrated Security of Rail Transport. (...)</title>
+<meta name="description" content="The Railway-Industry Partnership for Integrated Security of Rail Transport. Funded under 7th FWP (Seventh Framework (...)" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Syndicate the whole site" href="http://www.protectrail.eu/spip.php?page=backend" />
+<link rel="stylesheet" href="plugins/auto/zpip/spip_style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="squelettes-dist/spip_formulaires.css" type="text/css" media="projection, screen, tv" />
+<link rel="stylesheet" href="plugins/auto/theme_blueprint/habillage.css" type="text/css" media="projection, screen, tv" />
+<link rel="stylesheet" href="squelettes-dist/impression.css" type="text/css" media="print" />
+ 
+<link rel="stylesheet" href="plugins/auto/theme_blueprint/blueprint/src/reset.css" type="text/css" media="projection, screen, tv" />
+<link rel="stylesheet" href="plugins/auto/theme_blueprint/blueprint/src/typography.css" type="text/css" media="projection, screen, tv" />
+<link rel="stylesheet" href="plugins/auto/theme_blueprint/blueprint/src/forms.css" type="text/css" media="projection, screen, tv" />
+<link rel="stylesheet" href="plugins/auto/theme_blueprint/blueprint/src/grid.css" type="text/css" media="projection, screen, tv" />
+<link rel="stylesheet" href="plugins/auto/theme_blueprint/blueprint/src/print.css" type="text/css" media="print" />
+<!--[if lt IE 8]><link rel="stylesheet" href="plugins/auto/theme_blueprint/blueprint/src/ie.css" type="text/css" media="projection, screen, tv"><![endif]-->
+<link rel="stylesheet" href="squelettes/perso.css" type="text/css" media="all" />
+<link rel='stylesheet' type='text/css' media='all' href='extensions/porte_plume/css/barre_outils.css' />
+<link rel='stylesheet' type='text/css' media='all' href='http://www.protectrail.eu/spip.php?page=barre_outils_icones.css' />
+<link rel="stylesheet" href="http://www.protectrail.eu/spip.php?page=cfg.css" type="text/css" media="all" />
+<!-- Debut CS -->
+<style type="text/css">
+
+span.spancrypt {background:transparent url(http://www.protectrail.eu/plugins/auto/couteau_suisse/img/mailcrypt/leure.gif) no-repeat scroll 0.1em center; padding-left:12px; text-decoration:none;}
+div.cs_sommaire {
+	display:block;
+	float:left !important;
+	margin-left:1em;
+	margin-right:0.4em;
+	overflow:auto;
+	z-index:100;
+	max-height:350px;
+	text-align:left;
+}
+
+a.sommaire_ancre {
+	background:transparent url(http://www.protectrail.eu/prive/images/spip_out.gif) no-repeat scroll left center;
+	padding-left:10px;
+	text-decoration:none;
+}
+
+div.cs_sommaire a:after {
+	display:none;
+}
+
+div.cs_sommaire_avec_fond {
+	background: transparent url(http://www.protectrail.eu/plugins/auto/couteau_suisse/img/sommaire/coin.gif) no-repeat scroll left top;
+	border-right: 1px solid rgb(153, 153, 153);
+	border-bottom: 1px solid rgb(153, 153, 153);
+	padding-bottom:0.1em;
+}
+
+div.cs_sommaire_sans_fond {
+	border: thin solid gray;
+	background-color: white;
+}
+
+div.cs_sommaire_inner {
+	margin: 3pt;
+}
+
+div.cs_sommaire_titre_avec_fond, div.cs_sommaire_titre_sans_fond {
+	border-bottom: 1px dotted silver;
+	line-height: 1;
+	position: inherit;
+	font-weight: bold;
+	text-align: center;
+}
+
+div.cs_sommaire_titre_avec_fond {
+	margin-left: 15px;
+}
+
+div.cs_sommaire ul{
+	margin: 0.3em 0.5em 0.1em 0.7em;
+	padding: 0pt;
+	font-size: 84%;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+}
+
+div.cs_sommaire ul li{
+	margin: 0pt;
+	padding: 0pt;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+}
+
+div.cs_sommaire_titre_avec_fond, div.cs_sommaire_titre_sans_fond {
+	background:transparent url(http://www.protectrail.eu/prive/images/deplierbas.gif) no-repeat scroll right center;
+	cursor:pointer;
+	padding-right:18px;
+}
+
+div.cs_sommaire_replie {
+	background:transparent url(http://www.protectrail.eu/prive/images/deplierhaut_rtl.gif) no-repeat scroll right center;
+	border:none;
+}
+
+.cs_sommaire_invisible{ display:none; }
+
+.blocs_titre {
+	background:transparent url(http://www.protectrail.eu/prive/images/triangle-bas.gif) no-repeat scroll left center;
+	font-weight:normal;
+	line-height:1.2em;
+	margin-top:4px;
+	padding:0pt 0pt 0pt 20px;
+	margin-bottom:0.1em;
+	clear:left;
+	cursor:pointer;
+}
+
+.blocs_replie {
+	background:transparent url(http://www.protectrail.eu/prive/images/triangle.gif) no-repeat scroll left center;
+}
+
+.blocs_title{
+	display:none;
+}
+</style>
+<!-- Fin CS -->
+
+
+<style type="text/css" media="all">
+.dsjcycle{
+padding:0px;
+margin:auto;
+display:block;
+clear:both;
+}
+</style>
+
+
+<style type="text/css">
+	.spip-admin-float, #bouton_montrer {
+	opacity:0.6 !important;
+	}
+</style>
+
+<script type='text/javascript' src='local/cache-js/ca3da8831af96f56ec3e67deeb602fbb.js'></script>
+
+
+
+
+
+<!-- insert_head --><!--[if lt IE 7]>
+	<script src='extensions/msie_compat/javascript/jquery.ifixpng.js'></script>
+	<script type='text/javascript'>//<![CDATA[
+		jQuery.ifixpng('rien.gif');		
+		function fixie() {
+			jQuery('img').ifixpng();
+		}
+		$(document).ready(function() { fixie(); });
+		onAjaxLoad(fixie);	
+	//]]></script>
+<![endif]-->
+
+
+
+
+<link rel='stylesheet' href='http://www.protectrail.eu/spip.php?page=forms_styles.css' type='text/css' media='all' />
+
+<!-- Debut CS -->
+
+
+<script type="text/javascript"><!--
+var cs_prive=window.location.pathname.match(/\/ecrire\/$/)!=null;
+jQuery.fn.cs_todo=function(){return this.not('.cs_done').addClass('cs_done');};
+function lancerlien(a,b){ x='ma'+'ilto'+':'+a+'@'+b; return x; }
+function soft_scroller_init() { if(typeof jQuery.localScroll=="function") jQuery.localScroll({hash: true}); }
+/* Valeur par defaut : blocs_slide = 'aucun' */
+var blocs_replier_tout = 0;
+var blocs_millisec = 100;
+var blocs_slide = 'aucun';
+var blocs_title_sep = /\|\|/g;
+var blocs_title_def = 'Expand||Collapse';
+
+var cs_init = function() {
+	cs_sommaire_init.apply(this);
+	/* optimisation : 'IF(1)' */ if(!cs_prive) jQuery("a.spip_out,a.spip_url,a.spip_glossaire",this).attr("target", "_blank"); 
+	jQuery('span.spancrypt', this).attr('class','cryptOK').html('&#6'+'4;');
+	jQuery("a["+cs_sel_jQuery+"title*='..']", this).each(function () {
+		this.title = this.title.replace(/\.\..t\.\./,'[@]');
+	});
+	soft_scroller_init.apply(this);
+	blocs_init.apply(this);
+}
+if(typeof onAjaxLoad=='function') onAjaxLoad(cs_init);
+if(window.jQuery) {
+var cs_sel_jQuery=typeof jQuery(document).selector=='undefined'?'@':'';
+var cs_CookiePlugin="http://www.protectrail.eu/prive/javascript/jquery.cookie.js";
+jQuery(document).ready(function(){
+	if(jQuery("div.cs_sommaire").length) {
+		// s'il y a un sommaire, on cache la navigation haute sur les pages
+		jQuery("div.decoupe_haut").css("display", "none");
+		// utilisation des cookies pour conserver l'etat du sommaire si on quitte la page
+		if(cs_CookiePlugin) jQuery.getScript(cs_CookiePlugin, cs_sommaire_cookie);
+	}
+	/* optimisation : 'IF(0) \{if(jQuery("div.cs_blocs").length)
+		jQuery.getScript(cs_CookiePlugin, cs_blocs_cookie); \}' */
+	cs_init.apply(document);
+});
+}
+// --></script>
+
+
+
+<!-- Fin CS -->
+
+
+
+
+<link rel='stylesheet' href='http://www.protectrail.eu/spip.php?page=saisies.css' type='text/css' media='projection, screen, tv' />
+
+
+
+<link rel="stylesheet" href="http://www.protectrail.eu/squelettes/thickbox.css" type="text/css" media="all" />
+<script type="text/javascript"><!--
+// Inside the function "this" will be "document" when called by ready() 
+// and "the ajaxed element" when called because of onAjaxLoad 
+var init_f = function() {
+	if (jQuery("a.thickbox,a[type='image/jpeg'],a[type='image/png'],a[type='image/gif']",this).addClass("thickbox").size()) {
+		TB_chemin_animation = "http://www.protectrail.eu/plugins/auto/thickbox2/circle_animation.gif";
+		TB_chemin_close = "http://www.protectrail.eu/plugins/auto/thickbox2/close.gif";
+		TB_chemin_css = "http://www.protectrail.eu/squelettes/thickbox.css";
+		TB_init(this);
+	};
+}
+//onAjaxLoad is defined in private area only
+if(typeof onAjaxLoad == "function") onAjaxLoad(init_f);
+if (window.jQuery) jQuery(document).ready(init_f);
+// --></script>
+<link rel="stylesheet" href="squelettes/smoothDivScroll.css" type="text/css" media="all" /></head>
+<body class="page_page page_sommaire">
+<div class="supcontainer" id="top">
+
+<div class="container">
+
+	<div class="span-24 header">
+		
+		<div class="accueil">
+<a rel="start home" href="http://www.protectrail.eu/" title="Home page"><img class='spip_logos' alt="" src="local/cache-vignettes/L162xH160/siteon0-35e6d.png" width='162' height='160' style='height:160px;width:162px;' /></a>
+</div>
+<div id="fp7">
+<a rel="start home" href="http://cordis.europa.eu/fp7/" title="Seventh Framework Programme" class="spip_out"><img src="squelettes/img/fp7.gif" alt="FP7 logo" /></a>
+</div>
+<div class="descriptif_site_spip last"><img src='local/cache-texte/385976ddf0d995401b660ce5084fdc28.png' width='336' height='53' style='width:336px;height:53px;' alt='&lt;p&gt;The Railway-Industry Partnership for Integrated Security of Rail Transport.
+Funded under 7th FWP (Seventh Framework Programme).&lt;/p&gt;' /></div></div>
+	
+    <div class="span-24 content">
+		
+		<div class="span-9 sidebar">
+		
+    <ul class="menu-liste barrenav">
+		
+		<li class="menu-entree">
+		<a href="About-PROTECTRAIL" title="About PROTECTRAIL ">About PROTECTRAIL </a>
+			
+		 
+			 </li>
+		
+		
+		<li class="menu-entree">
+		<a href="http://www.protectrail.eu/spip.php?page=consortium" title="Consortium">Consortium</a>
+			
+		 
+			 </li>
+		
+		
+		<li class="menu-entree">
+		<a href="Project-structure" title="Project structure">Project structure</a>
+			
+		 
+			 </li>
+		
+		
+		<li class="menu-entree">
+		<a href="http://www.protectrail.eu/spip.php?page=news" title="News &#38; Events">News &amp; Events</a>
+			
+				
+		 
+			 </li>
+		
+		
+		<li class="menu-entree">
+		<a href="Stakeholders-Advisory-Validation" title="Stakeholders Advisory &#38; Validation Group ">Stakeholders Advisory &amp; Validation Group </a>
+			
+		 
+			 </li>
+		
+		
+		<li class="menu-entree">
+		<a href="Schedule-of-meetings" title="Schedule of meetings">Schedule of meetings</a>
+			
+		 
+			 </li>
+		
+		
+		<li class="menu-entree">
+		<a href="Contact" title="Contact">Contact</a>
+			
+		 
+			 </li>
+		
+		
+		<li class="menu-entree spip_out">
+		<a href="http://extranet.uic.org/" title="Members area">Members area</a>
+			
+		 
+			 </li>
+		
+		
+	</ul>	
+<div class="coordinator">
+<p><span class='spip_document_13 spip_documents spip_documents_center'>
+<a href="http://www.ansaldo-sts.com" class="spip_out"><img src='IMG/gif/ansaldo_small.gif' width="80" height="29" alt="" /></a></span>
+<strong>Coordinator:</strong> Ansaldo STS S.p.A.</p>
+</div>
+
+	
+</div>
+
+<div class="span-15 last">
+
+  <div class="span-6">
+
+  <script src="squelettes/lib/jquery.qtip-1.0.js" type="text/javascript"></script>
+	
+	<div class="banners">
+	<h2><img src='local/cache-texte/badbdc4334b61ecc0ded278c29b01585.png' width='72' height='20' style='width:72px;height:20px;' alt='Highlights' /></h2>
+	<ul>
+		
+			
+	
+	
+		<li class="manual"><a href="IMG/pdf/ansaldo_sts_broschure_protectrail_2_edizione_2011.pdf" class="spip_out"><img src='local/cache-gd2/bf1b11114b609b8df5a4bad298895b42.png' width='30' height='30' alt='' class='spip_logos' style='height:30px;width:30px;' /> PROTECTRAIL Brochure </a></li>
+	
+		<li class="manual"><a href="IMG/pdf/newsletter-protectrail_10_09.pdf" class="spip_out"><img src='local/cache-gd2/745851c2f4566ac53b522679ef6cd941.png' width='30' height='30' alt='' class='spip_logos' style='height:30px;width:30px;' /> PROTECTRAIL Newsletter</a></li>
+	
+		<li class="manual"><a href="IMG/pdf/protectrail-white_paper-final.pdf" class="spip_out"><img src='local/cache-gd2/52b2c1e7aaeee14142470519b8428ada.jpg' width='30' height='30' alt='' class='spip_logos' style='height:30px;width:30px;' /> PROTECTRAIL White Paper</a></li>
+	
+	</ul>
+	</div>
+	
+	<script type="text/javascript">
+	// Create the tooltips only on document load
+	/*$(document).ready(function() 
+	{
+	   // Notice the use of the each method to gain access to each element individually
+	   $('.banners a').each(function()
+	   {
+		  // Create image content using websnapr thumbnail service
+		  var content = '<img src="';
+		  content += $(this).attr('rel');	  
+		  content += '" alt="Loading thumbnail..." />';
+		  
+		  // Setup the tooltip with the content
+		  $(this).qtip(
+		  {
+			 content: content,
+			 position: {
+				corner: {
+				   tooltip: 'bottomRight',
+				   target: 'topRight'
+				}
+			 },
+		  });
+	   });
+	});*/
+	</script>
+  
+  </div>
+  
+  <div class="span-9 last video">
+  <iframe width="350" height="197" src="//www.youtube.com/embed/oUmMyiJTLfk?controls=2&amp;showinfo=0&amp;theme=light" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+<div class="span-6">
+	
+	
+	<div class="box pressreleases">
+	<h2><img src='local/cache-texte/6ed139f0a4e8dafafd69b8eefd945544.png' width='183' height='20' style='width:183px;height:20px;' alt='Protectrail press releases' /></h2>
+	
+	<ul>
+		
+		<li><a href="http://www.uic.org/com/IMG/pdf/press_release_protectrail_en.pdf" title="The European-funded Project, PROTECTRAIL, is holding its final conference on 27 and 28 May in Paris UIC HQ" class="spip_out">The European-funded Project, PROTECTRAIL, is&nbsp;(...)
+		<br /><span class="descriptif">27 May 2014</span></a></li>
+		
+		<li><a href="http://www.uic.org/com/IMG/pdf/press_release__protectrail.pdf" title="PROTECTRAIL project is holding its final demonstration in Poland" class="spip_out">PROTECTRAIL project is holding its final demonstration
+		<br /><span class="descriptif">10 October 2013</span></a></li>
+		
+		<li><a href="http://www.uic.org/com/IMG/pdf/cp27_protectrail_project_en-2.pdf" title="Successful kick-off meeting of the ProtectRail project “Integrated protection of rail transportation”: a Railway/Supply industry partnership for integrated security of rail transport" class="spip_out">Successful kick-off meeting of the ProtectRail&nbsp;(...)
+		<br /><span class="descriptif">18 October 2010</span></a></li>
+		
+	</ul>
+	
+	</div>
+	
+	
+	<div class="box latestupdates">
+	<h2><img src='local/cache-texte/4df16a7b6f80223dd2bea3916b8c76f1.png' width='106' height='20' style='width:106px;height:20px;' alt='Latest updates' /></h2>
+	<ul>
+		
+		<li><a href="PROTECTRAIL-Final-Conference" title="PROTECTRAIL Final Conference">PROTECTRAIL Final Conference
+		<br /><span class="descriptif"><span class="date_maj">11 July 2014</span></span></a></li>
+		
+		<li><a href="Related-events" title="Related events">Related events
+		<br /><span class="descriptif"><span class="date_maj">1 July 2014</span></span></a></li>
+		
+		<li><a href="Schedule-of-meetings" title="Schedule of meetings">Schedule of meetings
+		<br /><span class="descriptif"><span class="date_maj">1 July 2014</span></span></a></li>
+		
+		<li><a href="PROTECTRAIL-exhibition-at-the-9th" title="PROTECTRAIL exhibition at the 9th UIC world security congress">PROTECTRAIL exhibition at the 9th UIC world&nbsp;(...)
+		<br /><span class="descriptif"><span class="date_maj">16 April 2014</span></span></a></li>
+		
+	</ul>
+	</div>
+
+	
+</div>
+
+<div class="span-9 last">
+
+	
+	<div class="box enews">
+	<h2><img src='local/cache-texte/f3b9c2da1d553a76fb5228c12656a8b3.png' width='124' height='20' style='width:124px;height:20px;' alt='Protectrail enews' /></h2>
+	<ul>
+		
+		<li><a href="http://www.uic.org/com
+		/article/protectrail-conference?page=thickbox_enews&amp;keepThis=true&amp;TB_iframe=true&amp;width=800&amp;height=600		" title="The European-funded Project, PROTECTRAIL, is holding its final conference on 27 and 28 May in Paris UIC HQ" class="spip_out thickbox">The European-funded Project, PROTECTRAIL, is&nbsp;(...)
+		<br /><span class="descriptif">from eNews Nr 401</span></a></li>
+		
+		<li><a href="http://www.uic.org/com
+		/article/protectrail-demonstration?page=thickbox_enews&amp;keepThis=true&amp;TB_iframe=true&amp;width=800&amp;height=600		" title="PROTECTRAIL demonstration" class="spip_out thickbox">PROTECTRAIL demonstration
+		<br /><span class="descriptif">from eNews Nr 387</span></a></li>
+		
+		<li><a href="http://www.uic.org/com
+		/article/european-commission-3rd-meeting-of?page=thickbox_enews&amp;keepThis=true&amp;TB_iframe=true&amp;width=800&amp;height=600		" title="European Commission 3rd Meeting of the Land Transport Security Expert Group (LANDSEC)" class="spip_out thickbox">European Commission 3rd Meeting of the Land&nbsp;(...)
+		<br /><span class="descriptif">from eNews Nr 377</span></a></li>
+		
+	</ul>
+	<a href="?page=news"><span>See more...</span></a>
+	</div>
+	
+	
+	<div id="diaporama">
+	
+	<script type="text/javascript">
+	$(document).ready(function() {
+		
+		
+		
+		$("#dsjcycle_0").cycle({
+			 fx:			"curtainX",
+			 timeout:	"4000",
+			 speed:		"1500",
+			 sync:		"on",
+			 pause:		"on",
+			 cleartype: 1
+			 
+			 });
+	});
+
+
+	</script>
+
+
+	
+
+	<div class="dsjcycle" id="dsjcycle_0" style='width:400px;height: px;background:ffffff'>
+
+	
+
+	
+   
+   		
+         
+         
+         
+         
+          
+            <img src='local/cache-vignettes/L350xH219/71ca884a888b665108cbd7d5065c8101-ed5fb.jpg' width='350' height='219' style='height:219px;width:350px;display:block;' alt='' />
+         
+         
+         
+	
+   
+   		
+         
+         
+         
+         
+          
+            <img src='local/cache-vignettes/L350xH219/47aa961c8e3bf962d4944beb855bdcb5-6a1c3.jpg' width='350' height='219' style='height:219px;width:350px;display:block;' alt='' />
+         
+         
+         
+	
+   
+   		
+         
+         
+         
+         
+          
+            <img src='local/cache-vignettes/L350xH219/42423da3831bf2bf0386b1a77f9568b6-26ad6.jpg' width='350' height='219' style='height:219px;width:350px;display:block;' alt='' />
+         
+         
+         
+	
+   
+   		
+         
+         
+         
+         
+          
+            <img src='local/cache-vignettes/L350xH219/636ed0ee58f60e9c71d310cf58052441-35f43.jpg' width='350' height='219' style='height:219px;width:350px;display:block;' alt='' />
+         
+         
+         
+	
+   
+   		
+         
+         
+         
+         
+          
+            <img src='local/cache-vignettes/L350xH219/019148b5be61375d9df0bf0f89e7dd83-3ea74.jpg' width='350' height='219' style='height:219px;width:350px;display:block;' alt='' />
+         
+         
+         
+	
+   
+   		
+         
+         
+         
+         
+          
+            <img src='local/cache-vignettes/L350xH219/3cd73253d6da1301d0d9e1d03f4d13bb-18660.jpg' width='350' height='219' style='height:219px;width:350px;display:block;' alt='30.' />
+         
+         
+         
+	
+   
+   		
+         
+         
+         
+         
+          
+            <img src='local/cache-vignettes/L350xH219/bf62dad2fa0d1f46b44ed9b70e1dff90-3c4d7.jpg' width='350' height='219' style='height:219px;width:350px;display:block;' alt='' />
+         
+         
+         
+	
+   
+   		
+         
+         
+         
+         
+          
+            <img src='local/cache-vignettes/L350xH219/39940b8ccaa6358d99ad9ecd76f34e8b-ac16b.jpg' width='350' height='219' style='height:219px;width:350px;display:block;' alt='' />
+         
+         
+         
+	
+   
+   		
+         
+         
+         
+         
+          
+            <img src='local/cache-vignettes/L350xH219/57124521ce1cbf02b6e4a7ee3aa51b03-dbef4.jpg' width='350' height='219' style='height:219px;width:350px;display:block;' alt='' />
+         
+         
+         
+	
+   
+   		
+         
+         
+         
+         
+          
+            <img src='local/cache-vignettes/L350xH219/ac13b530a8db318ba67bb69a06af05c9-9bbb8.jpg' width='350' height='219' style='height:219px;width:350px;display:block;' alt='' />
+         
+         
+         
+	
+   
+   		
+         
+         
+         
+         
+          
+            <img src='local/cache-vignettes/L350xH219/f7a631b07853e700453b567ef164fda3-ff608.jpg' width='350' height='219' style='height:219px;width:350px;display:block;' alt='' />
+         
+         
+         
+	
+   
+   		
+         
+         
+         
+         
+          
+            <img src='local/cache-vignettes/L350xH219/f8c091c2345a2359c25b6ef6df95100c-786b1.jpg' width='350' height='219' style='height:219px;width:350px;display:block;' alt='' />
+         
+         
+         
+	
+   
+   		
+         
+         
+         
+         
+          
+            <img src='local/cache-vignettes/L350xH219/8a8753f4c8596bf7b7b91cdff6f31faf-caf0d.jpg' width='350' height='219' style='height:219px;width:350px;display:block;' alt='' />
+         
+         
+         
+	
+   
+   		
+         
+         
+         
+         
+          
+            <img src='local/cache-vignettes/L350xH219/0f2d49c667a776e055691a2fcbee0b4b-8a37b.jpg' width='350' height='219' style='height:219px;width:350px;display:block;' alt='' />
+         
+         
+         
+	
+   
+   		
+         
+         
+         
+         
+          
+            <img src='local/cache-vignettes/L350xH219/d0b8266a2cd9631337d7c7e88743b425-c9715.jpg' width='350' height='219' style='height:219px;width:350px;display:block;' alt='' />
+         
+         
+         
+	
+   
+   		
+         
+         
+         
+         
+          
+            <img src='local/cache-vignettes/L350xH219/f238a4ec56a525923ee7bea3906d6de8-cfb4b.jpg' width='350' height='219' style='height:219px;width:350px;display:block;' alt='' />
+         
+         
+         
+	
+   
+   		
+         
+         
+         
+         
+          
+            <img src='local/cache-vignettes/L350xH219/66e7ed73cf73e6eca57217d112948fd7-d32aa.jpg' width='350' height='219' style='height:219px;width:350px;display:block;' alt='' />
+         
+         
+         
+	
+   
+   		
+         
+         
+         
+         
+          
+            <img src='local/cache-vignettes/L350xH219/d2bba98f560337af810637ae0737bba3-3ffaf.jpg' width='350' height='219' style='height:219px;width:350px;display:block;' alt='95.' />
+         
+         
+         
+	
+	</div><!-- sjcycle-->
+		
+	</div>	
+		
+</div>
+		
+</div></div>
+	
+</div>
+
+<div class="supcontainer footer">		
+
+	
+	<div id="logoParade">
+<div class="scrollingHotSpotLeft"></div>
+<div class="scrollingHotSpotRight"></div>
+<div class="scrollWrapper">
+<div class="scrollableArea">
+
+<a href="http://www.fundp.ac.be/droit/crid" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/7129e0c90f8186095decff8866aac043.jpg" width='70' height='50' style='height:50px;width:70px;' /></a>
+
+<a href="http://www.litrail.lt" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/3335a4cecc7b0f0c46018a10f9c7ba5f.png" width='53' height='50' style='height:50px;width:53px;' /></a>
+
+<a href="http://www.morpho.com/" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/07baf41f6f2c96e3d35ec3420ae4be8b.png" width='143' height='50' style='height:50px;width:143px;' /></a>
+
+<a href="http://www.dappolonia.it/" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/5fba50a9d3a321b4b1873c6b063f9cbc.png" width='318' height='50' style='height:50px;width:318px;' /></a>
+
+<a href="http://www.selex-si.com/SelexSI/IT/index.sdo" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/2fa80f0422febc0daf626c2bff2de56d.png" width='99' height='50' style='height:50px;width:99px;' /></a>
+
+<a href="http://www.plk-sa.pl/en/" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/b221f51d7317fdd5a17b7c9d2be0051a.jpg" width='324' height='50' style='height:50px;width:324px;' /></a>
+
+<a href="http://www.ansaldo-sts.com" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/d5504903eca319c033ff8e9b8acc02a4.png" width='133' height='50' style='height:50px;width:133px;' /></a>
+
+<a href="http://www.europages.fr/SODERN/bcg-C01-FRA374477-1005663010-27/informations-sur-l-entreprise.html" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/492fc8c3de6dbe9a91e2b3a0f3b0349f.jpg" width='104' height='50' style='height:50px;width:104px;' /></a>
+
+<a href="http://www.smithsdetection.com/index.php" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/34303d5aa40a0a9e479570529862aaea.jpg" width='255' height='50' style='height:50px;width:255px;' /></a>
+
+<a href="http://www.isl.eu/fr/ContentPage.aspx?UID=HOME" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/8c30b65e8df47e63700afe3b471aa8eb.jpg" width='65' height='50' style='height:50px;width:65px;' /></a>
+
+<a href="http://www.tcdd.gov.tr/" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/4a5820d1e95300dd5d10c3ec113b48f8.png" width='54' height='50' style='height:50px;width:54px;' /></a>
+
+<a href="http://www.italcertifer.com" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/3affe814037fda2c64a0d5ea56552445.png" width='147' height='50' style='height:50px;width:147px;' /></a>
+
+<a href="http://www.bombardier.com/en/transport" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/51faa991da9ee0a22d75dafaf2d2b0e6.png" width='162' height='50' style='height:50px;width:162px;' /></a>
+
+<a href="http://www.sncf.com/" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/92ed8b3191790aa6302f0ae066b2d04b.png" width='90' height='50' style='height:50px;width:90px;' /></a>
+
+<a href="http://www.tno.nl" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/6f8dde52ab71d339dd8121001af5fe35.jpg" width='100' height='50' style='height:50px;width:100px;' /></a>
+
+<a href="http://www.ikolej.pl/en/institute/" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/83401db0d75f6fcbec0ac2c453f1e5d0.png" width='134' height='50' style='height:50px;width:134px;' /></a>
+
+<a href="http://www.unife.org/" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/d936e0edc3e61dfdc43e74571226fa8a.png" width='127' height='50' style='height:50px;width:127px;' /></a>
+
+<a href="http://www.elbitsystems.com/elbitmain/" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/f9586eb698cc243ad916a8ecc66f9219.png" width='121' height='50' style='height:50px;width:121px;' /></a>
+
+<a href="http://www.thalesgroup.com/markets/security/home/" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/c733effe288343993b36db098273f9d5.png" width='178' height='50' style='height:50px;width:178px;' /></a>
+
+<a href="http://www.elsagdatamat.com" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/c5e46b750ea1831bb17d0ef3b8fe6e32.jpg" width='177' height='50' style='height:50px;width:177px;' /></a>
+
+<a href="http://www.alstom.com/Transport/" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/80647a1b5ac62c05a900478560d116e9.png" width='150' height='50' style='height:50px;width:150px;' /></a>
+
+<a href="http://www.ductis.de" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/bef3c0308f4957c874a533cc0dde3d85.jpg" width='190' height='50' style='height:50px;width:190px;' /></a>
+
+<a href="http://www.uic.org/" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/6427d78c3df4c85213c8f4292ee034d5.png" width='97' height='50' style='height:50px;width:97px;' /></a>
+
+<a href="http://www.kingston.ac.uk/" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/3b8250e6b447760a0748c2e6955c1047.png" width='100' height='50' style='height:50px;width:100px;' /></a>
+
+<a href="http://www.zssk.sk/en" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/c86ed73d35cc6c51100152dd48664273.png" width='88' height='50' style='height:50px;width:88px;' /></a>
+
+<a href="http://www.sarad.de/" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/5b52f716e505e9f1b7a94f2a40382edf.png" width='109' height='50' style='height:50px;width:109px;' /></a>
+
+<a href="http://www.cea.fr/" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/c6185fc6c0d1e79e164bf4cf6d7ff4e0.jpg" width='113' height='50' style='height:50px;width:113px;' /></a>
+
+<a href="http://www.cybersongmakers.com/eppra/1-products/security/index.htm" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/41dde462bbbe1bb9920d436ee51e97ee.png" width='152' height='50' style='height:50px;width:152px;' /></a>
+
+<a href="http://www.mermecgroup.com/" class="spip_out" title=""><img class='spip_logos' alt='' src="local/cache-gd2/ce6fbc1f7f45fc2cbcf8b93ee92aa869.png" width='189' height='50' style='height:50px;width:189px;' /></a>
+
+</div>
+</div>
+</div>
+
+<div class="footer_menu">
+<a href="http://www.protectrail.eu/spip.php?page=backend" rel="alternate" title="Syndicate the whole site"><img src="squelettes-dist/feed.png" alt="Follow-up of the site's activity" width="16" height="16" />&nbsp;RSS&nbsp;2.0</a>
+&nbsp;|&nbsp;<a href="?page=ispip" title="Mobile version">Mobile version</a>
+
+
+&nbsp;|&nbsp;<a href="Disclaimer">Disclaimer</a>
+
+&nbsp;|&nbsp;<a href="Contact-us">Contact us</a>
+
+
+&nbsp;|&nbsp;<a href="#top" id="backtotop">Top of the page</a>
+</div>
+
+<p id="credits">Credits / website development: <a href="http://www.uic.org" class="spip_out">UIC</a> Communications department</p>
+<p id="copyright">© PROTECTRAIL. All rights reserved</p>
+
+<script type="text/javascript">
+$(function() {
+	$("div#logoParade").smoothDivScroll({ autoScroll: "always", autoScrollDirection: "endlessloopleft", autoScrollStep: 1, autoScrollInterval: 25 });
+
+	// Logo parade event handlers
+	$("div#logoParade").bind("mouseover", function() {
+		$(this).smoothDivScroll("stopAutoScroll");
+	}).bind("mouseout", function() {
+		$(this).smoothDivScroll("startAutoScroll");
+	});
+
+});
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19795566-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></div>
+
+</div><!-- SPIP-CRON --><div style="background-image: url('http://www.protectrail.eu/spip.php?action=cron');"></div>
+</body>
+</html>
+

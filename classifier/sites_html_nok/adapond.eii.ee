@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="noindex" />
+<title>Webserver default page - Zone.eu</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css' />
+<style type="text/css">
+<!--
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #eeeeee;
+	margin: 0px;
+}
+.clear {
+	clear: both;
+	height: 0px;
+}
+a {
+	color: #649f11;
+	text-decoration: none;
+}
+a:hover {
+	color: #666;
+}
+.header {
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(254, 254, 254, 1) 48%, rgba(240, 240, 240, 1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(48%, rgba(254, 254, 254, 1)), color-stop(100%, rgba(240, 240, 240, 1)));
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(254, 254, 254, 1) 48%, rgba(240, 240, 240, 1) 100%);
+	background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(254, 254, 254, 1) 48%, rgba(240, 240, 240, 1) 100%);
+	background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(254, 254, 254, 1) 48%, rgba(240, 240, 240, 1) 100%);
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(254, 254, 254, 1) 48%, rgba(240, 240, 240, 1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f0f0f0', GradientType=0 );
+	-webkit-border-radius: 8px 8px 0px 0px;
+	border-radius: 8px 8px 0px 0px;
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+.container {
+	background-color: #FFF;
+	padding-top: 3em;
+	padding-bottom: 1em;
+	padding-right: 4em;
+	padding-left: 4em;
+	position: relative;
+}
+.wrapper {
+	width: 65%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	-webkit-box-shadow:  4px 4px 14px 4px #e5e4e4;
+	box-shadow:  4px 4px 14px 4px #e5e4e4;
+}
+.stripe {
+	background-color: #92ba1b;
+	height: 3px;
+}
+.flags {
+	font-weight: bold;
+	float: right;
+	padding-top: 25px;
+	padding-right: 60px;
+	padding-left: 60px;
+}
+.footer {
+	background-color: #FFF;
+	-webkit-border-radius: 0px 0px 8px 8px;
+	border-radius: 0px 0px 8px 8px;
+	padding-top: 3em;
+	padding-right: 4em;
+	padding-bottom: 4em;
+	padding-left: 0em;
+}
+.footer a {
+	display: block;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #CCC;
+	float: left;
+	margin-right: 15px;
+	padding-right: 15px;
+	font-weight: 600;
+	font-size: 13px;
+}
+.container h1 {
+	font-size: 19px;
+	font-weight: normal;
+	margin-bottom: 40px;
+}
+.container h2 {
+	letter-spacing: -1px;
+	margin-bottom: 50px;
+}
+.container hr {
+	color: #eee;
+	margin-top: 90px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #eee;
+}
+.footer a.noborder {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+ul.tabs {
+	padding: 7px 0;
+	font-size: 0;
+	margin:0;
+	list-style-type: none;
+	text-align: left; /*set to left, center, or right to align the tabs as desired*/
+}
+ul.tabs li {
+	display: inline;
+	margin: 0;
+	margin-right:3px; /*distance between tabs*/
+}
+ul.tabs li a {
+	text-decoration: none;
+	position: relative;
+	z-index: 1;
+	padding: 7px;
+	color: #649f11;
+	border-radius: 2px 2px 0 0;
+	outline:none;
+	font-size: 16px;
+	font-weight: normal;
+}
+ul.tabs li a:visited {
+	color: #000;
+}
+ul.tabs li a:hover {
+	color: #999;
+}
+ul.tabs li.selected a {
+	/*selected tab style */
+    position: relative;
+	top: 0px;
+	font-weight:600;
+	color: #000;
+}
+ul.tabs li.selected a:hover {
+	/*selected tab style */
+    text-decoration: none;
+}
+-->
+</style>
+<script language="javascript" type="text/javascript">
+var tabs=function(){var b=function(c,a){var b=new RegExp("(^| )"+a+"( |$)");return b.test(c.className)?true:false},j=function(a,c){if(!b(a,c))if(a.className=="")a.className=c;else a.className+=" "+c},h=function(a,b){var c=new RegExp("(^| )"+b+"( |$)");a.className=a.className.replace(c,"$1");a.className=a.className.replace(/ $/,"")},g=function(c,b){var a=document.getElementsByTagName("html");if(a)a[0].scrollTop+=b},e=function(){var b=window.location.pathname;if(b.indexOf("/")!=-1)b=b.split("/");var a=b[b.length-1]||"root";if(a.indexOf(".")!=-1)a=a.substring(0,a.indexOf("."));if(a>20)a=a.substring(a.length-19);return a},d=e(),c=function(a){this.a=0;this.b=[];this.c=[];this.d=[];this.e=0;this.f(a)};c.prototype={g:function(b){var c=new RegExp(d+b+"=(\\d+)"),a=document.cookie.match(c);return a?a[1]:this.h()},h:function(){for(var a=0,c=this.d.length;a<c;a++)if(b(this.d[a],"selected"))return a;return 0},j:function(d,c){for(var b=d.getAttribute("rel"),a=0;a<this.b.length;a++)if(this.b[a].getAttribute("rel")==b){j(this.b[a].parentNode,"selected");c&&this.e&&this.k(this.a,a)}else h(this.b[a].parentNode,"selected");this.l(b)},k:function(a,b){document.cookie=d+a+"="+b+"; path=/"},l:function(b){for(var a=0;a<this.c.length;a++)this.c[a].style.display=this.c[a].id==b?"block":"none"},m:function(a){if(a.id)for(var b=0;b<this.b.length;b++)if(this.b[b].getAttribute("rel")==a.id)return this.b[b];return a.parentNode.nodeName!="BODY"?this.m(a.parentNode):null},n:function(d,c){var a=document.getElementById(d);if(a){var b=this.m(a);if(b){this.j(b,0);if(!c)setTimeout(function(){a.scrollIntoView();g(a,-120)},0);else setTimeout(function(){window.scrollTo(0,0)},0);return 1}else return 0}},f:function(a){this.a=a.i;this.b=a.getElementsByTagName("a");this.d=a.getElementsByTagName("li");for(var b=0;b<this.b.length;b++)if(this.b[b].getAttribute("rel")){this.c.push(document.getElementById(this.b[b].getAttribute("rel")));var f=this;this.b[b].onclick=function(){f.j(this,1);return false}}var e=a.getAttribute("persist")||"";this.e=e.toLowerCase()=="true"?1:0;var d=window.location.hash;if(d&&d.length>1)if(this.n(d.substring(1),window.location.search.indexOf("noscroll=true")>-1))return;var c=this.e?parseInt(this.g(a.i)):this.h();if(c>=this.b.length)c=0;this.j(this.b[c],0)}};var a=[],i=function(d){var b=false;function a(){if(b)return;b=true;setTimeout(d,4)}if(document.addEventListener)document.addEventListener("DOMContentLoaded",a,false);else if(document.attachEvent){try{var e=window.frameElement!=null}catch(f){}if(document.documentElement.doScroll&&!e){function c(){if(b)return;try{document.documentElement.doScroll("left");a()}catch(d){setTimeout(c,10)}}c()}document.attachEvent("onreadystatechange",function(){document.readyState==="complete"&&a()})}if(window.addEventListener)window.addEventListener("load",a,false);else window.attachEvent&&window.attachEvent("onload",a)},f=function(){for(var e=document.getElementsByTagName("ul"),d=0,f=e.length;d<f;d++)if(b(e[d],"tabs")){e[d].i=a.length;a.push(new c(e[d]))}};i(f);return{open:function(c,d){for(var b=0;b<a.length;b++)a[b].n(c,d)}}}()
+</script >
+</head>
+<body>
+<div class="stripe"></div>
+<div class="wrapper">
+  <div class="header">
+    <div class="flags">
+      <ul class="tabs">
+        <li><a href="#" rel="view1">EST</a></li>
+        <li><a href="#" rel="view2">ENG</a></li>
+        <li><a href="#" rel="view3">RUS</a></li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+  <div class="tabcontents">
+    <div id="view1" class="container">
+
+            <h1>See on veebiserveri vaikeleht, mille on siia automaatselt paigaldanud <a href="http://www.zone.eu" title="zone.eu">Zone.eu</a></h1>
+      <h2>Sa otsisid tõenäoliselt midagi muud, kuid hetkel on meil pakkuda vaid see leht. Leht, mida sa otsisid, on siit serverist kas ära kolitud või ära kustutatud.</h2>
+      <p>Kui arvad, et näed seda lehte vea tõttu, siis palun võta meiega ühendust aadressil <a href="mailto:support@zone.eu" title="support mail">support@zone.eu</a>.</p>
+      <p>Muide, kui otsid domeeni registreerimise, kodulehe majutamise või VPS serveri teenust, tutvu ka meie pakkumistega aadressil <a href="https://www.zone.ee" title="domeeni registreerimine, kodulehe majutamine, vps server">www.zone.ee</a>.</p>
+      <hr />
+        <div class="footer"><a href="javascript: history.go(-1)" title="tagasi">Tagasi</a><a href="https://www.zone.ee/et/teenus/domeeni-registreerimine/" title="domneeni registreerimine">Domeeni registreerimine</a><a href="https://www.zone.ee/et/teenus/virtuaalserver/" title="kodulehe majutus">Kodulehe majutus</a><a href="https://www.zone.ee/et/teenus/pilveserver/" title="vps serverid">VPS serverid</a><a href="https://www.zone.ee/et/teenus/privaatserver/" title="privaatserverid" class="noborder">Privaatserverid</a>
+    <div class="clear"></div>
+  </div>
+    </div>
+    <div id="view2" class="container">
+      <h1>This is the webserver default page, placed here automatically by <a href="http://www.zone.eu" title="zone.eu">Zone.eu</a></h1>
+      <h2>You were probably seeking something else, but this is all we have to offer at the moment. In all likelihood, the page that used to be here, has been moved or removed.</h2>
+      <p>If you believe that you are seeing this page as a result of an error, please contact us at <a href="mailto:support@zone.eu" title="support mail">support@zone.eu</a>.</p>
+      <p>By the way, if you are looking for domain registration, web hosting or a VPS server, take a look at our offerings at <a href="https://www.zone.ee" title="domain registration, web hosting, vps server">www.zone.ee</a>.</p>
+      <hr />
+        <div class="footer"><a href="javascript: history.go(-1)" title="back">Back</a><a href="https://www.zone.ee/en/service/domain-registration/" title="domain registration">Domain registration</a><a href="https://www.zone.ee/en/service/webhosting/" title="web hosting">Web Hosting</a><a href="https://www.zone.ee/en/service/cloudserver/" title="vps servers">VPS servers</a><a href="https://www.zone.ee/en/service/dedicatedserver/" class="noborder" title="dedicated servers">Dedicated servers</a>
+    <div class="clear"></div>
+  </div>
+    </div>
+    <div id="view3" class="container">
+      <h1>Это стандартная страница виртуального сервера, которая была помещена сюда автоматически со стороны <a href="http://www.zone.eu" title="zone.eu">Zone.eu</a></h1>
+  <h2>Вы возможно искали что-то другое, но это всё что мы можем предложить на данный момент. Вероятно страница, которая должна была располагаться здесь была перемещена или переименована.</h2>
+  <p>Если вы полагаете, что данная страница отображается по ошибке, то просьба связаться с нами по адресу <a href="mailto:support@zone.eu" title="support mail">support@zone.eu</a>.</p>
+  <p>Кстати, если вы ищите возможность заказа домена, виртуального сервера или VPS сервера, то советуем вам ознакомиться с нашими предложениями по адресу <a href="https://www.zone.ee" title="domain registration, web hosting, vps server">www.zone.ee</a>.</p>
+      <hr />
+        <div class="footer"><a href="javascript: history.go(-1)" title="Назад">Назад</a><a href="https://www.zone.ee/ru/service/domain-registration/prices/" title="Регистрация домена">Регистрация домена</a><a href="https://www.zone.ee/ru/service/webhosting/" title="Виртуальные сервера">Виртуальные сервера</a><a href="https://www.zone.ee/ru/service/cloudserver/" title="VPS сервера">VPS сервера</a><a href="https://www.zone.ee/ru/service/dedicatedserver/"  title="Приватные сервера" class="noborder">Приватные сервера</a>
+    <div class="clear"></div>
+  </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

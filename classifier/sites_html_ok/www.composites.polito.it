@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it" dir="ltr">
+<head>
+	<title>Politecnico di Torino - Glasses and Inorganic Composites</title>
+
+	<!-- Contents -->
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta http-equiv="Content-Language" content="it" />
+	<meta http-equiv="last-modified" content="22/02/2011 16.38.05" />
+	<meta http-equiv="Content-Type-Script" content="text/javascript" />
+	<meta name="description" content="Studio dei matediali" />
+	<meta name="keywords" content="" />
+	<!-- imCustomHead -->
+	<meta http-equiv="Expires" content="0" />
+	<meta name="Resource-Type" content="document" />
+	<meta name="Distribution" content="global" />
+	<meta name="Robots" content="index, follow" />
+	<meta name="Revisit-After" content="21 days" />
+	<meta name="Rating" content="general" />
+	<!-- Others -->
+	<meta name="Author" content="DOIT System" />
+	<meta name="Generator" content="Microsoft FrontPage 5.0" />
+	<meta http-equiv="ImageToolbar" content="False" />
+	<meta name="MSSmartTagsPreventParsing" content="True" />
+	
+	<!-- Parent -->
+	<link rel="sitemap" href="sitemap.xml" title="Mappa generale del sito" />
+	<!-- Res -->
+	<script type="text/javascript" src="res/x5engine.js"></script>
+	<script type="text/javascript" src="res/doitsystem_post.js"></script>
+	<link rel="stylesheet" type="text/css" href="res/styles.css" media="screen, print" />
+	<link rel="stylesheet" type="text/css" href="res/template.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="res/print.css" media="print" />
+	<!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="res/iebehavior.css" media="screen" />
+    <![endif]-->
+	<link rel="stylesheet" type="text/css" href="res/home.css" media="screen, print" />
+	<link rel="stylesheet" type="text/css" href="res/handheld.css" media="handheld" />
+	<link rel="alternate stylesheet" title="Alto contrasto - Accessibilita" type="text/css" href="res/accessibility.css" media="screen" />
+	<script type="text/javascript">
+		function _onload()
+		{
+			var x = gup('p');
+	
+			if(x == "" || x == "home")
+				document.getElementById("id_body").src = "home.html";
+			else if(x == 'people')
+			{	
+				document.getElementById("id_body").src = "pages/people.html";
+			}
+			else if(x == 'resources_biomaterial')
+			{
+				document.getElementById("id_body").src = "pages/resources/biomaterials.html";
+				//document.getElementById("color_bar").style.backgroundColor = "#ff33cc";
+				//document.getElementById("color_bar").style.visibility = "visible";
+				
+			}
+			else if(x == 'resources_photonic')
+			{
+				document.getElementById("id_body").src = "pages/resources/photonic.html";
+				//document.getElementById("color_bar").style.backgroundColor = "green";
+				//document.getElementById("color_bar").style.visibility = "visible";
+			}
+			else if(x == 'resources_synthesis')
+				document.getElementById("id_body").src = "pages/resources/synthesis.html";
+			else if(x == 'resources_spray')
+				document.getElementById("id_body").src = "pages/resources/spray.html";
+			else if(x == 'resources_joining')
+				document.getElementById("id_body").src = "pages/resources/joining.html";
+			else if(x == 'resources_coating')
+				document.getElementById("id_body").src = "pages/resources/coating.html";
+			else if(x == 'resources_waste_management')
+				document.getElementById("id_body").src = "pages/resources/waste_management.html";
+			else if(x == 'resources_magnetic_electric')
+				document.getElementById("id_body").src = "pages/resources/magnetic_electric.html";
+			else if(x == 'resources_sputtering')
+				document.getElementById("id_body").src = "pages/resources/sputtering.html";
+			else if(x == 'experimental_facilities')
+				document.getElementById("id_body").src = "pages/experimental_facilities.html";
+			else if(x == 'projects_national')
+				document.getElementById("id_body").src = "pages/projects/national.html";
+			else if(x == 'projects_european')
+				document.getElementById("id_body").src = "pages/projects/european.html";
+			else if(x == 'projects_european_nasla')
+				document.getElementById("id_body").src = "pages/projects/european_nasla.html";
+			else if(x == 'projects_european_jolie')
+				document.getElementById("id_body").src = "pages/projects/european_jolie.html";
+			else if(x == 'projects_prin')
+				document.getElementById("id_body").src = "pages/projects/prin.html";
+			else if(x == 'publications')
+				document.getElementById("id_body").src = "pages/publications.html";
+			else if(x == 'collaborations')
+				document.getElementById("id_body").src = "pages/collaborations.html";
+			else if(x == 'contacts')
+				document.getElementById("id_body").src = "pages/contacts.html";
+		}
+		function go_page(val)
+		{
+			//f = document.forms['test'];
+			document.location.href = "?p="+val
+			//f.submit();
+		}
+		function _openMenu(id)
+		{
+			document.getElementById('resources').style.visibility = 'hidden';
+			document.getElementById('projects').style.visibility = 'hidden';
+			
+			if(id != "")
+				document.getElementById(id).style.visibility = 'visible';
+		}
+		function _closeMenu()
+		{
+			_openMenu('');
+		}
+		
+	</script>
+</head>
+<body>
+<div id="imSite"  onclick="javascript:_closeMenu();">
+<div id="imHeader">
+	<h1>Composites - Politecnico di Torino</h1>
+	<div id="imLogo" style="position:relative; left:50px; top:3px;">
+		<img src="images/_new_dismic_logo_3.png" border="0" height="135px" width="310px"/>
+	</div>
+	<div id="imLogo" style="position:absolute; left:380px; top:25px;">
+		<img src="images/dismic.png" border="0" width="380"/>
+	</div>
+	<div id="imButtonsHeader" style="position:absolute; left:800px; top:25px;">
+		<a href="javascript:go_page('home');"><img src="images/ico_home.png" border="0" title="Home Page" height="40px"/></a><br>
+		<a href="javascript:go_page('contacts');"><img src="images/ico_contattaci.png" title="Contacts" border="0" height="40px"/></a>
+	</div>
+	<div id="imLogoPolito" style="position:absolute; left:850px; top:7px;">
+		<a href="http://www.polito.it" target="_new">
+        <img src="images/logo_polito_2.png" border="0" width="95" height="110"/></a>
+	</div>
+</div>
+<div class="imInvisible">
+<hr />
+<a href="#imGoToCont" title="Salta il menu di navigazione">Vai ai contenuti</a>
+</div>
+<div id="imBody">
+
+	<div id="imMenuMain">
+
+<!-- Menu START -->
+<a name="imGoToMenu"></a><p class="imInvisible">Menu principale:</p>
+<div id="imMnMn" style="position:relative;z-index:1001; left:130px;">
+<ul>
+	<li><a href="javascript:go_page('people');" title=""  style="width:130px;" >People & Publications</a></li>
+	<li><a href="javascript:_openMenu('resources');" title="">Research</a></li>
+	<li><a href="javascript:go_page('experimental_facilities');" style="width:150px;" title="">Experimental Facilities</a></li>
+	<li><a href="javascript:_openMenu('projects');" title="">Projects</a></li>
+	<!--li><a href="javascript:go_page('publications');" title="">Publications</a></li-->
+	<li><a href="javascript:go_page('collaborations');" title="">Collaborations</a></li>
+	<li><a href="javascript:go_page('contacts');" title="">Contacts</a></li>
+</ul>
+<div id="resources" class="div_submenu" style="left:101px; width:200px; z-index:1002;">
+	<table width="100%" class="tblMenu imDefText" cellpadding="5" cellspacing="2">
+	  <tr>
+	    <td width="100%">
+	    	<a class="imDefText" style="color:white;text-decoration:none;" href="javascript:go_page('resources_biomaterial');" title="Research - Biomaterials">Biomaterials</a>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="100%">
+		<a class="imDefText" style="color:white;text-decoration:none;" href="javascript:go_page('resources_photonic');" title="Research - Photonics">Photonics</a>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="100%">
+	    	<a class="imDefText" style="color:white;text-decoration:none;" href="javascript:go_page('resources_joining');" title="Research - Joining">Joining</a>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="100%">
+	    	<a class="imDefText" style="color:white;text-decoration:none;" href="javascript:go_page('resources_coating');" title="Research - Coating">Coating</a>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="100%">
+	    	<a class="imDefText" style="color:white;text-decoration:none;" href="javascript:go_page('resources_waste_management');" title="Research - Waste Management">Waste Management</a>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="100%">
+		<a class="imDefText" style="color:white;text-decoration:none;" href="javascript:go_page('resources_magnetic_electric');" title="Research - Magnetic & Electronic Applications">Magnetic & Electronic Applications</a>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="100%">
+		<a class="imDefText" style="color:white;text-decoration:none;" href="javascript:go_page('resources_sputtering');" title="Research - Sputtering">Sputtering</a>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="100%">
+		<a class="imDefText" style="color:white;text-decoration:none;" href="javascript:go_page('resources_synthesis');" title="Research - Synthesis">Synthesis of new materials</a>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="100%">
+		<a class="imDefText" style="color:white;text-decoration:none;" href="javascript:go_page('resources_spray');" title="Research - Spray-Dryer & Micro-CT">Spray-Dryer & Micro-CT</a>
+	    </td>
+	  </tr>
+	</table>
+	
+	
+</div>
+<div id="projects" class="div_submenu" style="left:363px;width:500px; z-index:1003;">
+	<table width="100%" class="tblMenu imDefText" cellpadding="5" cellspacing="2">
+	  <tr>
+	    <td>
+	    	<span class="imDefText" style="color:white;text-decoration:none;">European Projects</span><br/>
+		<a class="imDefText imDefTextSmall" style="color:white;text-decoration:none;" href="javascript:go_page('projects_european_jolie');" title="JOLIE">&nbsp;&raquo;&nbsp;JOining of LIghtweight alloys to advanced FGM mEtal-ceramic materials [JOLIE]</a><br/>
+		<a class="imDefText imDefTextSmall" style="color:white;text-decoration:none;" href="javascript:go_page('projects_european');" title="Others European Projects">&nbsp;&raquo;&nbsp;Others Projects</a>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="100%">
+		<a class="imDefText" style="color:white;text-decoration:none;" href="javascript:go_page('projects_national');" title="Regional and National Projects">Regional and National Projects</a>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="100%">
+		<a class="imDefText" style="color:white;text-decoration:none;" href="javascript:go_page('projects_prin');" title="Prin">PRIN</a>
+	    </td>
+	  </tr>
+	</table>
+</div>
+</div>
+
+<!-- Menu END -->
+
+	</div>
+<hr class="imInvisible" />
+<a name="imGoToCont"></a>
+	<div id="imContent">
+
+<!-- Page START -->
+<div id="imPage" >
+	<center>
+		<div id="color_bar" style="position:relative; height:3px; width:800px;">&nbsp;</div>
+		<div style="position:relative; height:3px;">&nbsp;</div>
+	</center>
+	<iframe id="id_body" width="900px" height="98%" frameborder="no" style="overflow-y:auto;position:relative; z-index:0"></iframe>
+</div>
+<!-- Page END -->
+
+
+	</div>
+	<div id="imFooter">
+	<div class="imFooterDef imDefText imDefTextSmall">
+		<table width="100%">
+			<tr>
+				<td width="50%">Last Update on Wed, 4 Jul 2013</td>
+				<td width="50%" align="right">Site designed by <a href="http://www.doit-system.com" target="_new" class="imDefText imDefTextSmall" style="color:#b23f3f; text-decoration:none">DOIT SYSTEM sas</a></td>
+			</tr>
+		</table>
+	</div>
+	</div>
+</div>
+</div>
+<div class="imInvisible">
+<hr />
+<a href="#imGoToCont" title="Rileggi i contenuti della pagina">Torna ai contenuti</a> | <a href="#imGoToMenu" title="Naviga ancora nella pagina">Torna al menu</a>
+</div>
+
+
+<div id="imShowBoxBG" style="display: none;" onclick="imShowBoxHide()"></div>
+<div id="imShowBoxContainer" style="display: none;" onclick="imShowBoxHide()"><div id="imShowBox" style="height: 200px; width: 200px;"></div></div>
+<div id="imBGSound"></div>
+<div id="imToolTip"><script type="text/javascript">var imt = new IMTip;</script></div>
+</body>
+</html>
+<script>_onload();</script>

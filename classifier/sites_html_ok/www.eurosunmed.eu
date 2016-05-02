@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+
+<!--[if IE 7 ]><html class="ie ie7" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+  <head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="http://www.eurosunmed.eu/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" type="application/rss+xml" title="www.eurosunmed.eu RSS" href="http://www.eurosunmed.eu/rss.xml" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+    <title>www.eurosunmed.eu | EURO-MEDITERRANEAN COOPERATION ON RESEARCH &amp; TRAINING IN SUN BASED RENEWABLE ENERGIES</title>
+    <link type="text/css" rel="stylesheet" href="http://www.eurosunmed.eu/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.eurosunmed.eu/sites/default/files/css/css_C3XHwNeQCuHcjDaKcn9MEFoEthagNYdiNuOY7msVc7I.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.eurosunmed.eu/sites/default/files/css/css_M64c8viTbWx7UCdVfu_xWw6mOnHIHkn2Ywx8s9h8eiw.css" media="all" />
+
+    <script type="text/javascript" src="http://www.eurosunmed.eu/sites/default/files/js/js_zzcIWOou_jnX0ZWAIA4sb6Xy_p5a8FZNA0GySvuWjPU.js"></script>
+<script type="text/javascript" src="http://www.eurosunmed.eu/sites/default/files/js/js_JklMpJ6DeUNEVG0BTgIk4HaY5wY8ilo6o9aB5FD0Qz4.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-46013421-1"]);_gaq.push(['_setDomainName', 'eurosunmed.eu']);_gaq.push(['_setAllowLinker', true]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.eurosunmed.eu/sites/default/files/js/js_ggBnzbX0fLZ34FFOBaFF0UjhTMt9A8OEIntgvHD3SP4.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"eurosunmed", "theme_token":"peuIvEQQ5BO6RRlDviuK9xHicyUrAPH1rhOovJ5zu6Y", "js":{"sites\u002Fall\u002Fmodules\u002Fjquery_update\u002Freplace\u002Fjquery\u002F1.5\u002Fjquery.min.js":1, "misc\u002Fjquery.once.js":1, "misc\u002Fdrupal.js":1, "sites\u002Fall\u002Flibraries\u002Fjquery_cycle\u002Fjquery.cycle.all.min.js":1, "sites\u002Fall\u002Flibraries\u002Flemmon-slider\u002Flemmon-slider.js":1, "sites\u002Fall\u002Fmodules\u002Fadvisa_helper\u002Fjs\u002Fadvisa_helper.js":1, "sites\u002Fall\u002Fmodules\u002Fwebform\u002Fjs\u002Fwebform.js":1, "sites\u002Fall\u002Fmodules\u002Fadvisa_signature\u002Fjs\u002Fadvisa_signature.js":1, "sites\u002Fall\u002Fmodules\u002Fgoogle_analytics\u002Fgoogleanalytics.js":1, "0":1, "sites\u002Fall\u002Fthemes\u002Feurosunmed\u002Fjs\u002Fcustom.js":1, "sites\u002Fall\u002Fthemes\u002Feurosunmed\u002Fjs\u002Fselectnav.js":1, "sites\u002Fall\u002Fthemes\u002Feurosunmed\u002Fjs\u002Fflexslider.js":1, "sites\u002Fall\u002Fthemes\u002Feurosunmed\u002Fjs\u002Ftooltip.js":1, "sites\u002Fall\u002Fthemes\u002Feurosunmed\u002Fjs\u002Feffects.js":1, "sites\u002Fall\u002Fthemes\u002Feurosunmed\u002Fjs\u002Ffancybox.js":1, "sites\u002Fall\u002Fthemes\u002Feurosunmed\u002Fjs\u002Fcarousel.js":1, "sites\u002Fall\u002Fthemes\u002Feurosunmed\u002Fjs\u002Fisotope.js":1}, "css":{"modules\u002Fsystem\u002Fsystem.base.css":1, "modules\u002Fsystem\u002Fsystem.menus.css":1, "modules\u002Fsystem\u002Fsystem.messages.css":1, "modules\u002Fsystem\u002Fsystem.theme.css":1, "sites\u002Fall\u002Fmodules\u002Fsimplenews\u002Fsimplenews.css":1, "sites\u002Fall\u002Fmodules\u002Fcalendar\u002Fcss\u002Fcalendar_multiday.css":1, "sites\u002Fall\u002Fmodules\u002Fdate\u002Fdate_api\u002Fdate.css":1, "sites\u002Fall\u002Fmodules\u002Fdate\u002Fdate_popup\u002Fthemes\u002Fdatepicker.1.7.css":1, "modules\u002Ffield\u002Ftheme\u002Ffield.css":1, "modules\u002Fnode\u002Fnode.css":1, "modules\u002Fsearch\u002Fsearch.css":1, "modules\u002Fuser\u002Fuser.css":1, "sites\u002Fall\u002Fmodules\u002Fviews\u002Fcss\u002Fviews.css":1, "sites\u002Fall\u002Fmodules\u002Fctools\u002Fcss\u002Fctools.css":1, "sites\u002Fall\u002Fmodules\u002Fwebform\u002Fcss\u002Fwebform.css":1, "sites\u002Fall\u002Fmodules\u002Fadvisa_signature\u002Fcss\u002Fadvisa_signature.css":1, "sites\u002Fall\u002Fthemes\u002Feurosunmed\u002Fcss\u002Fslider-partners.css":1, "sites\u002Fall\u002Fthemes\u002Feurosunmed\u002Fcss\u002Fbase.css":1, "sites\u002Fall\u002Fthemes\u002Feurosunmed\u002Fcss\u002Fskeleton.css":1, "sites\u002Fall\u002Fthemes\u002Feurosunmed\u002Fcss\u002Ffancybox.css":1, "sites\u002Fall\u002Fthemes\u002Feurosunmed\u002Fcss\u002Fstyle.css":1, "sites\u002Fall\u002Fthemes\u002Feurosunmed\u002Fcss\u002Fboxed.css":1, "sites\u002Fall\u002Fthemes\u002Feurosunmed\u002Fcss\u002Fcolors\u002Fcyan.css":1, "sites\u002Fall\u002Fthemes\u002Feurosunmed\u002Fcss\u002Feurosunmed.css":1}}, "googleanalytics":{"trackOutbound":1, "trackMailto":1, "trackDownload":1, "trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+  </head>
+  <body class="html front not-logged-in no-sidebars page-node" >
+    <div id="skip-link">
+      <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    </div>
+        <!-- Wrapper Start -->
+<div id="wrapper">
+
+  <!-- 960 Container -->
+  <div class="container ie-dropdown-fix">
+
+    <!-- Header -->
+<div id="header">
+  <!-- Logo -->
+  <!-- <div class="ten columns"> -->
+                      <div id="logo">
+                <a href="/"><img src="http://www.eurosunmed.eu/sites/all/themes/eurosunmed/logo.png" alt="Home" /></a>
+                  <div id="tagline">EURO-MEDITERRANEAN COOPERATION ON RESEARCH &amp; TRAINING IN SUN BASED RENEWABLE ENERGIES</div>
+                <div class="clear"></div>
+      </div>
+      <!-- </div> -->
+
+
+    <!-- Navigation -->
+    <!-- <div class="sixteen columns"> -->
+
+                  <div id="navigation">
+                          <ul id="nav"  class="nav_simple sf-menu main-menu sf-horizontal sf-style-none sf-total-items-6 sf-parent-items-1 sf-single-items-5"><li id="menu-218-1" class="first odd sf-item-1 sf-depth-1 mainMenu sf-no-children"><a href="/" class="sf-depth-1  active">Home</a></li><li id="menu-499-1" class="middle even sf-item-2 sf-depth-1 mainMenu sf-no-children"><a href="/content/project" class="sf-depth-1 ">The project</a></li><li id="menu-502-1" class="middle odd sf-item-3 sf-depth-1 mainMenu sf-no-children"><a href="/partners" class="sf-depth-1 ">Partners</a></li><li id="menu-503-1" class="middle even sf-item-4 sf-depth-1 sf-total-children-3 sf-parent-children-0 sf-single-children-3 mainMenu parent menuparent has-dropdown"><a href="/news-events" class="sf-depth-1  mainMenu parent menuparent has-dropdown">News &amp; events</a><ul class="dropdown"><li id="menu-924-1" class="first odd sf-item-1 sf-depth-2 mainMenu sf-no-children"><a href="/event-created" class="sf-depth-2 ">Calendar</a></li><li id="menu-925-1" class="middle even sf-item-2 sf-depth-2 mainMenu sf-no-children"><a href="/eurosunmed-news-events" class="sf-depth-2 ">EUROSUNMED news &amp; events</a></li><li id="menu-926-1" class="last odd sf-item-3 sf-depth-2 mainMenu sf-no-children"><a href="/other-news" class="sf-depth-2 ">Other news</a></li></ul></li><li id="menu-539-1" class="middle odd sf-item-5 sf-depth-1 mainMenu sf-no-children"><a href="/network" class="sf-depth-1 ">Network</a></li><li id="menu-508-1" class="last even sf-item-6 sf-depth-1 mainMenu sf-no-children"><a href="/documents/dissemination" class="sf-depth-1 ">Dissemination</a></li></ul>        
+                  
+          <!-- Search Form -->  
+          <!-- <div class="search-form">
+            <form action="/" method="post" id="searchform" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="search"><div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." class="search-text-box form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+</div><div class="form-actions form-wrapper" id="edit-actions--2"><input class="button color form-submit" type="submit" id="edit-submit--2" name="op" value="Search" /></div><input type="hidden" name="form_build_id" value="form-UpftZHWGNjlWhqoP48wtmjKQlf8FRLXMaQ6_QT7v8rE" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>          </div> -->
+
+        
+      </div> 
+      <div class="clear"></div>
+
+    <!-- </div> -->
+    <!-- Navigation / End -->
+
+  <!-- Social / Contact -->
+
+  <div class="six columns">
+      <!-- Search Form -->  
+                <div class="search-form">
+        
+        <form action="/" method="post" id="searchform" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="search"><div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." class="search-text-box form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+</div><div class="form-actions form-wrapper" id="edit-actions--2"><input class="button color form-submit" type="submit" id="edit-submit--2" name="op" value="Search" /></div><input type="hidden" name="form_build_id" value="form-UpftZHWGNjlWhqoP48wtmjKQlf8FRLXMaQ6_QT7v8rE" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>      </div> 
+               <a class="link-extranet" href="?q=user/login">       
+              Extranet / LOG IN
+          </a>
+      
+
+    <div class="clear"></div>
+   
+
+  </div>    
+
+</div>
+<!-- Header / End
+  </div>
+  <!-- 960 Container / End -->
+
+
+  
+
+  <!-- Content
+  ================================================== -->
+
+  <!-- 960 Container -->
+  <div class="container">
+          <!-- Flexslider -->
+      <div class="sixteen columns">
+        <section class="slider">
+          <div id="home-slider" class="flexslider home"><ul class="slides"><li><img class="ob1_img_device1" id="slide-number-0" longdesc="&amp;lt;p&amp;gt;Full programme online &amp;lt;a href=&amp;quot;http://www.european-mrs.com/2016-spring-symposium-gg-european-materials-research-society&amp;quot;&amp;gt;here&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;" typeof="foaf:Image" src="http://www.eurosunmed.eu/sites/default/files/banner/lillegrandpalais_web.jpg" alt="EUROSUNMED Symposium AMREN2 at the E-MRS Spring Meeting in Lille, France 2-6 May 2016" title="EUROSUNMED Symposium AMREN2 at the E-MRS Spring Meeting in Lille, France 2-6 May 2016" /><div class="slide-caption"><h3>EUROSUNMED Symposium AMREN2 at the E-MRS Spring Meeting in Lille, France 2-6 May 2016</h3><p><p>Full programme online <a href="http://www.european-mrs.com/2016-spring-symposium-gg-european-materials-research-society">here</a></p></p></div></li ><li><img class="ob1_img_device1" id="slide-number-1" longdesc="&amp;lt;p&amp;gt;&amp;#039;EURO-MED Innovation in Sustainable Energy&amp;#039; was organised from 11 to 12 February in Marseille, France. See more information &amp;lt;a href=&amp;quot;http://www.eurosunmed.eu/news/eurosunmed-participates-maghrenov-international-conference-11-12-february-marseille-france&amp;quot;&amp;gt;here&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;" typeof="foaf:Image" src="http://www.eurosunmed.eu/sites/default/files/banner/24415175253_cc74674a31_ztest.jpg" alt="EUROSUNMED participates at MAGHRENOV International Conference" title="EUROSUNMED participates at MAGHRENOV International Conference" /><div class="slide-caption"><h3>EUROSUNMED participates at MAGHRENOV International Conference</h3><p><p>'EURO-MED Innovation in Sustainable Energy' was organised from 11 to 12 February in Marseille, France. See more information <a href="http://www.eurosunmed.eu/news/eurosunmed-participates-maghrenov-international-conference-11-12-february-marseille-france">here</a></p></p></div></li ><li><img class="ob1_img_device1" id="slide-number-2" longdesc="&amp;lt;p&amp;gt;&amp;lt;!--[if gte mso 9]&amp;gt;&amp;lt;xml&amp;gt;
+ &amp;lt;w:WordDocument&amp;gt;
+  &amp;lt;w:View&amp;gt;Normal&amp;lt;/w:View&amp;gt;
+  &amp;lt;w:Zoom&amp;gt;0&amp;lt;/w:Zoom&amp;gt;
+  &amp;lt;w:TrackMoves/&amp;gt;
+  &amp;lt;w:TrackFormatting/&amp;gt;
+  &amp;lt;w:HyphenationZone&amp;gt;21&amp;lt;/w:HyphenationZone&amp;gt;
+  &amp;lt;w:PunctuationKerning/&amp;gt;
+  &amp;lt;w:ValidateAgainstSchemas/&amp;gt;
+  &amp;lt;w:SaveIfXMLInvalid&amp;gt;false&amp;lt;/w:SaveIfXMLInvalid&amp;gt;
+  &amp;lt;w:IgnoreMixedContent&amp;gt;false&amp;lt;/w:IgnoreMixedContent&amp;gt;
+  &amp;lt;w:AlwaysShowPlaceholderText&amp;gt;false&amp;lt;/w:AlwaysShowPlaceholderText&amp;gt;
+  &amp;lt;w:DoNotPromoteQF/&amp;gt;
+  &amp;lt;w:LidThemeOther&amp;gt;FR&amp;lt;/w:LidThemeOther&amp;gt;
+  &amp;lt;w:LidThemeAsian&amp;gt;X-NONE&amp;lt;/w:LidThemeAsian&amp;gt;
+  &amp;lt;w:LidThemeComplexScript&amp;gt;X-NONE&amp;lt;/w:LidThemeComplexScript&amp;gt;
+  &amp;lt;w:Compatibility&amp;gt;
+   &amp;lt;w:BreakWrappedTables/&amp;gt;
+   &amp;lt;w:SnapToGridInCell/&amp;gt;
+   &amp;lt;w:WrapTextWithPunct/&amp;gt;
+   &amp;lt;w:UseAsianBreakRules/&amp;gt;
+   &amp;lt;w:DontGrowAutofit/&amp;gt;
+   &amp;lt;w:SplitPgBreakAndParaMark/&amp;gt;
+   &amp;lt;w:DontVertAlignCellWithSp/&amp;gt;
+   &amp;lt;w:DontBreakConstrainedForcedTables/&amp;gt;
+   &amp;lt;w:DontVertAlignInTxbx/&amp;gt;
+   &amp;lt;w:Word11KerningPairs/&amp;gt;
+   &amp;lt;w:CachedColBalance/&amp;gt;
+  &amp;lt;/w:Compatibility&amp;gt;
+  &amp;lt;w:BrowserLevel&amp;gt;MicrosoftInternetExplorer4&amp;lt;/w:BrowserLevel&amp;gt;
+  &amp;lt;m:mathPr&amp;gt;
+   &amp;lt;m:mathFont m:val=&amp;quot;Cambria Math&amp;quot;/&amp;gt;
+   &amp;lt;m:brkBin m:val=&amp;quot;before&amp;quot;/&amp;gt;
+   &amp;lt;m:brkBinSub m:val=&amp;quot;&amp;amp;#45;-&amp;quot;/&amp;gt;
+   &amp;lt;m:smallFrac m:val=&amp;quot;off&amp;quot;/&amp;gt;
+   &amp;lt;m:dispDef/&amp;gt;
+   &amp;lt;m:lMargin m:val=&amp;quot;0&amp;quot;/&amp;gt;
+   &amp;lt;m:rMargin m:val=&amp;quot;0&amp;quot;/&amp;gt;
+   &amp;lt;m:defJc m:val=&amp;quot;centerGroup&amp;quot;/&amp;gt;
+   &amp;lt;m:wrapIndent m:val=&amp;quot;1440&amp;quot;/&amp;gt;
+   &amp;lt;m:intLim m:val=&amp;quot;subSup&amp;quot;/&amp;gt;
+   &amp;lt;m:naryLim m:val=&amp;quot;undOvr&amp;quot;/&amp;gt;
+  &amp;lt;/m:mathPr&amp;gt;&amp;lt;/w:WordDocument&amp;gt;
+&amp;lt;/xml&amp;gt;&amp;lt;![endif]--&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;!--[if gte mso 9]&amp;gt;&amp;lt;xml&amp;gt;
+ &amp;lt;w:LatentStyles DefLockedState=&amp;quot;false&amp;quot; DefUnhideWhenUsed=&amp;quot;true&amp;quot;
+  DefSemiHidden=&amp;quot;true&amp;quot; DefQFormat=&amp;quot;false&amp;quot; DefPriority=&amp;quot;99&amp;quot;
+  LatentStyleCount=&amp;quot;267&amp;quot;&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;0&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;Normal&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;9&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;heading 1&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;9&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;heading 2&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;9&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;heading 3&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;9&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;heading 4&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;9&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;heading 5&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;9&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;heading 6&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;9&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;heading 7&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;9&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;heading 8&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;9&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;heading 9&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;39&amp;quot; Name=&amp;quot;toc 1&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;39&amp;quot; Name=&amp;quot;toc 2&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;39&amp;quot; Name=&amp;quot;toc 3&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;39&amp;quot; Name=&amp;quot;toc 4&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;39&amp;quot; Name=&amp;quot;toc 5&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;39&amp;quot; Name=&amp;quot;toc 6&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;39&amp;quot; Name=&amp;quot;toc 7&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;39&amp;quot; Name=&amp;quot;toc 8&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;39&amp;quot; Name=&amp;quot;toc 9&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;35&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;caption&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;10&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;Title&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;1&amp;quot; Name=&amp;quot;Default Paragraph Font&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;11&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;Subtitle&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;22&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;Strong&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;20&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;Emphasis&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;59&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Table Grid&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Placeholder Text&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;1&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;No Spacing&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;60&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light Shading&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;61&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light List&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;62&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light Grid&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;63&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Shading 1&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;64&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Shading 2&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;65&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium List 1&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;66&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium List 2&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;67&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 1&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;68&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 2&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;69&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 3&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;70&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Dark List&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;71&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful Shading&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;72&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful List&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;73&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful Grid&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;60&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light Shading Accent 1&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;61&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light List Accent 1&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;62&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light Grid Accent 1&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;63&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Shading 1 Accent 1&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;64&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Shading 2 Accent 1&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;65&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium List 1 Accent 1&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Revision&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;34&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;List Paragraph&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;29&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;Quote&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;30&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;Intense Quote&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;66&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium List 2 Accent 1&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;67&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 1 Accent 1&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;68&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 2 Accent 1&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;69&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 3 Accent 1&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;70&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Dark List Accent 1&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;71&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful Shading Accent 1&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;72&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful List Accent 1&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;73&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful Grid Accent 1&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;60&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light Shading Accent 2&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;61&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light List Accent 2&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;62&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light Grid Accent 2&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;63&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Shading 1 Accent 2&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;64&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Shading 2 Accent 2&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;65&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium List 1 Accent 2&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;66&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium List 2 Accent 2&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;67&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 1 Accent 2&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;68&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 2 Accent 2&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;69&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 3 Accent 2&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;70&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Dark List Accent 2&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;71&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful Shading Accent 2&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;72&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful List Accent 2&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;73&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful Grid Accent 2&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;60&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light Shading Accent 3&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;61&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light List Accent 3&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;62&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light Grid Accent 3&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;63&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Shading 1 Accent 3&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;64&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Shading 2 Accent 3&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;65&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium List 1 Accent 3&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;66&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium List 2 Accent 3&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;67&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 1 Accent 3&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;68&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 2 Accent 3&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;69&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 3 Accent 3&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;70&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Dark List Accent 3&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;71&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful Shading Accent 3&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;72&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful List Accent 3&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;73&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful Grid Accent 3&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;60&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light Shading Accent 4&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;61&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light List Accent 4&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;62&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light Grid Accent 4&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;63&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Shading 1 Accent 4&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;64&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Shading 2 Accent 4&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;65&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium List 1 Accent 4&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;66&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium List 2 Accent 4&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;67&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 1 Accent 4&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;68&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 2 Accent 4&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;69&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 3 Accent 4&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;70&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Dark List Accent 4&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;71&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful Shading Accent 4&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;72&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful List Accent 4&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;73&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful Grid Accent 4&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;60&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light Shading Accent 5&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;61&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light List Accent 5&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;62&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light Grid Accent 5&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;63&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Shading 1 Accent 5&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;64&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Shading 2 Accent 5&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;65&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium List 1 Accent 5&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;66&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium List 2 Accent 5&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;67&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 1 Accent 5&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;68&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 2 Accent 5&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;69&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 3 Accent 5&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;70&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Dark List Accent 5&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;71&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful Shading Accent 5&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;72&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful List Accent 5&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;73&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful Grid Accent 5&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;60&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light Shading Accent 6&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;61&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light List Accent 6&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;62&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Light Grid Accent 6&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;63&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Shading 1 Accent 6&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;64&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Shading 2 Accent 6&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;65&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium List 1 Accent 6&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;66&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium List 2 Accent 6&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;67&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 1 Accent 6&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;68&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 2 Accent 6&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;69&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Medium Grid 3 Accent 6&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;70&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Dark List Accent 6&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;71&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful Shading Accent 6&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;72&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful List Accent 6&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;73&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; Name=&amp;quot;Colorful Grid Accent 6&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;19&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;Subtle Emphasis&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;21&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;Intense Emphasis&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;31&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;Subtle Reference&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;32&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;Intense Reference&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;33&amp;quot; SemiHidden=&amp;quot;false&amp;quot;
+   UnhideWhenUsed=&amp;quot;false&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;Book Title&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;37&amp;quot; Name=&amp;quot;Bibliography&amp;quot;/&amp;gt;
+  &amp;lt;w:LsdException Locked=&amp;quot;false&amp;quot; Priority=&amp;quot;39&amp;quot; QFormat=&amp;quot;true&amp;quot; Name=&amp;quot;TOC Heading&amp;quot;/&amp;gt;
+ &amp;lt;/w:LatentStyles&amp;gt;
+&amp;lt;/xml&amp;gt;&amp;lt;![endif]--&amp;gt;&amp;lt;!--[if gte mso 10]&amp;gt;
+&amp;lt;style&amp;gt;
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:&amp;quot;Tableau Normal&amp;quot;;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:&amp;quot;&amp;quot;;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:10.0pt;
+	mso-para-margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:&amp;quot;Calibri&amp;quot;,&amp;quot;sans-serif&amp;quot;;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;}
+&amp;lt;/style&amp;gt;
+&amp;lt;![endif]--&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;EUROSUNMED is co-organizing an International School from 13 to 19 July in Erice, Italy. Apply &amp;lt;a href=&amp;quot;https://agenda.ct.infn.it/event/1192/overview&amp;quot;&amp;gt;here&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;" typeof="foaf:Image" src="http://www.eurosunmed.eu/sites/default/files/banner/impg1erice_egadi.jpg" alt="Apply to the next International School!" title="Apply to the next International School!" /><div class="slide-caption"><h3>Apply to the next International School!</h3><p><p><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>FR</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--></p><p><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tableau Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:10.0pt;
+	mso-para-margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;}
+</style>
+<![endif]--></p><p class="MsoNormal">EUROSUNMED is co-organizing an International School from 13 to 19 July in Erice, Italy. Apply <a href="https://agenda.ct.infn.it/event/1192/overview">here</a></p></p></div></li ></div></ul>        </section>
+      </div>
+      <!-- Flexslider / End -->
+    
+  </div>
+  <!-- 960 Container / End -->
+
+  
+
+  <!-- 960 Container -->
+  <div class="container">
+
+    
+
+
+    
+
+    
+    <div id="content" class="main-content">
+              <div class="container"><div class="sixteen columns">
+                    
+          <div class="clear"></div>
+
+                                                  </div></div>
+                  <div class="sixteen columns">
+          <div id="block-edito">
+            <h3>What is Eurosunmed?</h3>
+            <p class="p1"><span style="font-size: medium;"><span style="color: #000000; line-height: 1.538em;">EUROSUNMED&nbsp;is a&nbsp;4-year collaborative project supported by the FP7 Programme of the European Commission. This innovative project is targeting the following objectives:</span></span></p><div style="font-family: arial, sans-serif;"><table border="0"><tbody><tr><td style="width: 500px;"><div style="font-family: arial, sans-serif;"><ul><li><span style="font-size: medium;"><strong>Developing</strong> new technologies in&nbsp;<strong>3 energy field areas</strong>, namely&nbsp;<strong>photovoltaics</strong>,&nbsp;<strong>concentrated solar power&nbsp;</strong>and&nbsp;<strong>grid integration</strong>, at the EU research centres, national agencies and SMEs in&nbsp;strong collaboration&nbsp;with MPC universities, research organizations and SMEs from Morocco and Egypt.</span></li></ul><p>&nbsp;</p><ul><li><span style="font-size: medium;"><strong>Testing</strong> innovative components (PV cells/modules, heliostats…)&nbsp;<strong>under specific conditions</strong>&nbsp;of MPCs (irradiation, hot climate, dust…).</span></li></ul></div></td><td style="width: 500px;"><ul><li><span style="font-size: medium;"><strong>Establishing a</strong>&nbsp;<strong>strong network</strong>&nbsp;between EU and MPCs through exchange of students, senior researchers/engineers for transferring knowledge and technologies.</span></li></ul><p>&nbsp;</p><ul><li><span style="font-size: medium;"><strong>Disseminating&nbsp;</strong>the results of the project through the organization of scientific events open to a large public from universities, engineering schools and stakeholders.</span></li></ul><p>&nbsp;</p></td></tr></tbody></table><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p style="text-align: center;"><span style="font-size: medium;"><span style="font-size: xx-small;">The project is coordinated by Icube (CNRS-University of Strasbourg, France). Contact: Abdelilah Slaoui, abdelilah.slaoui@unistra.fr</span><br /></span></p></div>          </div>
+                  <div id="block-news">
+            <h3><a href="/news-events">News & Events</a></h3>
+            <div class='news'><a href='/news/international-school-2016'><img src='http://www.eurosunmed.eu/sites/default/files/news/2015-12-02_1031.png' alt='International School 2016' /></a><h4><a href='/news/international-school-2016'>International School 2016</a></h4><a href='/news/international-school-2016'><p>https://agenda.ct.infn.it/event/1192/overview</p></a></div><div class='news'><a href='/news/abstract-deadline-1-march-international-green-energy-conference-ingec-emhytec-2016'><img src='http://www.eurosunmed.eu/sites/default/files/news/2016-02-15_1640.png' alt='Abstract deadline 1 March! International Green Energy Conference: InGEC & EmHyTec 2016' /></a><h4><a href='/news/abstract-deadline-1-march-international-green-energy-conference-ingec-emhytec-2016'>Abstract deadline 1 March! International Green Energy Conference: InGEC & EmHyTec 2016</a></h4><a href='/news/abstract-deadline-1-march-international-green-energy-conference-ingec-emhytec-2016'><p>http://www.etrera.eu/emhytec2016/</p></a></div><div class='news'><a href='/news/2nd-eurosunmed-symposium-submit-your-abstract-15-january-2016'><img src='http://www.eurosunmed.eu/sites/default/files/news/lillegrandpalais_web.jpg' alt='2nd EUROSUNMED Symposium - submit your abstract by 15 January 2016!' /></a><h4><a href='/news/2nd-eurosunmed-symposium-submit-your-abstract-15-january-2016'>2nd EUROSUNMED Symposium - submit your abstract by 15 January 2016!</a></h4><a href='/news/2nd-eurosunmed-symposium-submit-your-abstract-15-january-2016'><p>http://bit.ly/20J7Cq5</p></a></div><div class='news'><a href='/news/eurosunmed-participates-maghrenov-international-conference-11-12-february-marseille-france'><img src='http://www.eurosunmed.eu/sites/default/files/news/24415175253_cc74674a31_z.jpg' alt='EUROSUNMED participates at MAGHRENOV International Conference, 11-12 February, Marseille, France' /></a><h4><a href='/news/eurosunmed-participates-maghrenov-international-conference-11-12-february-marseille-france'>EUROSUNMED participates at MAGHRENOV International Conference, 11-12 February, Marseille, France</a></h4><a href='/news/eurosunmed-participates-maghrenov-international-conference-11-12-february-marseille-france'><p>Euro-Med innovation in sustainable energy</p></a></div><div class='clear'></div>          </div>
+      </div>
+          </div>
+
+    
+  </div>
+  
+  
+  <div class="container">
+      <div id="block-advisa-helper-block-slider-partners">
+          <h3><a href="/partners">Partners</a></h3>    
+      <div class="slider-wp"><div class="slider" id="slider-partners"><ul><li><a href="/partners/al-akhawayn-university-aui" title="Al Akhawayn University (AUI)" style="background-image: url(http://www.eurosunmed.eu/sites/default/files/partners/logo-partners-aui_0.jpg);"></a></li><li><a href="/partners/alexandria-university" title="Alexandria University" style="background-image: url(http://www.eurosunmed.eu/sites/default/files/partners/logo-partners-alexandria-university.jpg);"></a></li><li><a href="/partners/cener-national-renewable-energy-centre-spain" title="CENER (National Renewable Energy Centre of Spain)" style="background-image: url(http://www.eurosunmed.eu/sites/default/files/partners/logo-partners-cener.jpg);"></a></li><li><a href="/partners/cnesten-centre-national-de-lenergie-des-sciences-et-techniques-nucleaires" title="CNESTEN (Centre National de l’Energie des Sciences et Techniques Nucléaires)" style="background-image: url(http://www.eurosunmed.eu/sites/default/files/partners/logo-partners-cnesten_0.jpg);"></a></li><li><a href="/partners/comit%C3%A9-national-de-recherche-scientifique-cnrs" title="CNRS (Centre National de Recherche Scientifique)" style="background-image: url(http://www.eurosunmed.eu/sites/default/files/partners/logo-partners-cnrs.jpg);"></a></li><li><a href="/partners/emrs-european-materials-research-society" title="EMRS (European Materials Research Society)" style="background-image: url(http://www.eurosunmed.eu/sites/default/files/partners/logo-partners-emrs.jpg);"></a></li><li><a href="/partners/eurec-association-european-renewable-energy-research-centres" title="EUREC (The Association of European Renewable Energy Research Centres)" style="background-image: url(http://www.eurosunmed.eu/sites/default/files/partners/eurec-double.jpg);"></a></li><li><a href="/partners/helwan-university-hu" title="Helwan University (HU)" style="background-image: url(http://www.eurosunmed.eu/sites/default/files/partners/logo-partners-helwan.jpg);"></a></li><li><a href="/partners/ik4-tekniker" title="IK4-TEKNIKER" style="background-image: url(http://www.eurosunmed.eu/sites/default/files/partners/logo-partners-eurosunmed-ik4.jpg);"></a></li><li><a href="/partners/mascir-moroccan-foundation-advanced-science-innovation-and-research" title="MAScIR (Moroccan Foundation for Advanced Science, Innovation and Research)" style="background-image: url(http://www.eurosunmed.eu/sites/default/files/partners/logo-partners-mascir.jpg);"></a></li><li><a href="/partners/masen-moroccan-agency-solar-energy" title="MASEN (Moroccan Agency for Solar Energy)" style="background-image: url(http://www.eurosunmed.eu/sites/default/files/partners/logo-partners-masen.jpg);"></a></li><li><a href="/partners/nve-nile-valley-engineering" title="NVE (Nile Valley Engineering)" style="background-image: url(http://www.eurosunmed.eu/sites/default/files/partners/logo-partners-nve.jpg);"></a></li><li><a href="/partners/sintef-and-sintef-e-stiftelsen-sintef-and-sintef-energi" title="SINTEF and SINTEF E (Stiftelsen SINTEF and SINTEF Energi AS)" style="background-image: url(http://www.eurosunmed.eu/sites/default/files/partners/logo-partners-sintef.jpg);"></a></li><li><a href="/partners/turboden" title="TURBODEN" style="background-image: url(http://www.eurosunmed.eu/sites/default/files/partners/logo-partners-turboden.jpg);"></a></li><li><a href="/partners/um5a-mohammed-v-%E2%80%93-university-agdal" title="UM5a (University Mohammed V)" style="background-image: url(http://www.eurosunmed.eu/sites/default/files/partners/logo-partners-um5a.jpg);"></a></li></ul></div><div class="controls slider-nav"><a href="#" class="prev-slide" id="slider-prev"></a><a href="#" class="next-slide" id="slider-next"></a></div></div>      </div>
+  </div>    
+  <!-- 960 Container / End -->
+
+</div>
+<!-- Wrapper / End -->
+
+
+<!-- Footer
+================================================== -->
+
+<!-- Footer Start -->
+<div id="footer">
+  <!-- 960 Container -->
+  <div class="container">
+
+
+          
+          <div class="region region-footer">
+    <div id="block-webform-client-block-12" class="block block-webform">
+
+    
+  <div class="content">
+    <form class="webform-client-form" enctype="multipart/form-data" action="/forms/newsletter" method="post" id="webform-client-form-12" accept-charset="UTF-8"><div><div class="form-item webform-component webform-component-email webform-container-inline" id="webform-component-subscribe-to-our-newsletter">
+  <label for="edit-submitted-subscribe-to-our-newsletter">Subscribe to our newsletter <span class="form-required" title="This field is required.">*</span></label>
+ <input class="email form-text form-email required" type="email" id="edit-submitted-subscribe-to-our-newsletter" name="submitted[subscribe_to_our_newsletter]" value="Your e-mail" size="60" />
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="1" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-rp5ipB3rLJ9Y6t-EwAMzdXiYh9Jw7FxaJbjbDv4j5F4" />
+<input type="hidden" name="form_id" value="webform_client_form_12" />
+<div class="form-actions form-wrapper" id="edit-actions"><input class="button color form-submit" type="submit" id="edit-submit" name="op" value=" " /></div></div></form>  </div>
+</div>
+<div id="block-menu-menu-useful-links" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/mentions-legales-et-credits">Legal mentions</a></li>
+<li class="leaf"><a href="/sitemap">Site Map</a></li>
+<li class="leaf"><a href="/user/login">Extranet / Log in</a></li>
+<li class="last leaf"><a href="/forms/contact-us">Contact us</a></li>
+</ul>  </div>
+</div>
+<div id="block-block-2" class="block block-block">
+
+    
+  <div class="content">
+    <ul class="social-icons"><li class="facebook"><a href="http://www.facebook.com/eurosunmed" target="_blank">Facebook</a></li>
+</ul>  </div>
+</div>
+<div id="block-block-1" class="block block-block">
+
+    
+  <div class="content">
+    <table><tbody><tr><td valign="middle" width="300">
+<p><img src="/sites/default/files/images/image-europe.gif" alt="Europe" title="Europe" width="87" height="65" style="float: right;" /></p>
+</td>
+<td width="25"> </td>
+<td>
+<p style="text-align: center;">EUROSUNMED<span style="line-height: 1.538em;"><br /></span></p>
+<p style="text-align: center;">This project has received funding from the European Union’s Seventh Programme for research, technological development and demonstration under grant agreement No 608593</p>
+</td>
+<td width="25"> </td>
+<td valign="middle" width="300">
+<p> </p>
+</td>
+</tr></tbody></table>  </div>
+</div>
+  </div>
+
+    
+      <div class="region region-footer-advisa">
+    <div id="block-advisa-signature-advisa-signature" class="block block-advisa-signature">
+
+    
+  <div class="content">
+    <div class="contenter-signature-advisa rollover-left">
+                    <div class="signature-advisa logo-black" onmouseover="showSignature();" onmouseout="hideSignature();">
+                        <table class="signature-over" id="signature_over">
+                            <tr>    <td class="signature-text">Made&nbsp;with&nbsp;pride&nbsp;by&nbsp;<a href="http://www.advisa.fr" target="_blank">advisa.fr</a></td>    <td class="signature-img"><a href="http://www.advisa.fr" target="_blank"><img src="http://www.eurosunmed.eu/sites/all/modules/advisa_signature/images/creation-site-drupal-agence-web-digitale-ecommerce-advisa-strasbourg-paris.gif" title="Une création Drupal de l'Agence Web Digitale Advisa" alt="Advisa Agence Drupal Strasbourg Paris, Agence E-commerce, E-marketing, Création site Internet, Référencement" /></a></td>            </tr>
+                        </table>
+                    </div>
+                </div>  </div>
+</div>
+  </div>
+
+  </div>
+  <!-- 960 Container / End -->
+
+</div>
+<!-- Footer / End -->      </body>
+</html>

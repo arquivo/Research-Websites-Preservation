@@ -1,0 +1,645 @@
+	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>CLIPP</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="description" content="This project aims to promote the &ldquo;valuable recycling resource&rdquo; concept for industrial painted and laminated packages (injected parts and extruded films), nowadays considered as a problem, promoting their recycling in the original application (closed loop cycle) and minimizing the environmental risks and impacts." />
+<link rel='Shortcut Icon' href='./imagenes/clipp.ico' type='image/x-icon' />
+<link href="style.css" rel="stylesheet" type="text/css" />
+ 
+<!--[if lt IE 7]>
+<script type="text/javascript" src="js/ie_png.js"></script>
+<script type="text/javascript">
+	ie_png.fix('.png, .carousel-box .next img, .carousel-box .prev img');
+</script>
+<link href="ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script type="text/javascript" src="js/jquery-1.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+<script>
+var dom = {};
+dom.query = jQuery.noConflict(true);
+dom.query(document).ready(function() {
+
+	//if mouse over and mouse out
+	dom.query('.eff').hover(
+	function () {
+
+		value = dom.query(this).find('img').outerHeight() * -1;
+
+		dom.query(this).find('img').stop().animate({bottom: value} ,{duration:1200, easing: 'easeOutBounce'});	
+		
+	},
+	function () {
+		
+
+		dom.query(this).find('img').stop().animate({bottom:0} ,{duration:1200, easing: 'easeOutBounce'});	
+	
+	});
+
+	dom.query('.eff').click(function () {	
+
+	});
+	
+});
+
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31874923-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body id="page1">
+ 
+	<div class='tail-top'>
+<!-- header -->
+  <div id='header'>
+		<div class='row-1' style='width:980px; margin:0 auto'>
+			<div class='fleft'><a href='index.php'><img src='imagenes/logo.png' alt='' /></a></div>
+			<div class='fright'>
+				<ul>
+					<li><a href='index.php'class='active'>Home</a></li>
+					<li><a href='about.php'>About the Project</a></li>
+					<li><a href='partners.php'>Partners</a></li>
+					<li><a href='publications.php'>Intranet</a></li>
+					<li><a href='dissemination.php'>Dissemination</a></li>
+                    <li><a href='tw_service.php'>Technological Watch</a></li>
+                    <li><a href='contact.php'>Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		
+  </div>
+<!-- content -->
+	<div id="content">
+		<div class="row-1">
+			<div class="inside">
+				<div class="container">
+					<div class="aside">
+						<div class="left">
+        <div class="cajon_user">
+          <div class="cajon_user_footer">
+            <div class="cajon_user_top">
+            
+            <div style="background:url('./imagenes/cajon_datos2.png') center no-repeat; width:306px; height:100px;">
+            <p style="font-size:11px; color:#333; padding-left:10px; padding-top:10px">
+            Contract Number: <font style="color:#090; font-weight:bold">FP7-SME-2010-1-261977</font><br />
+            Programme area: <font style="color:#090; font-weight:bold">FP7</font><br />
+			Subprogramme: <font style="color:#090; font-weight:bold">CAPACITIES</font><br />
+            Area: <font style="color:#090; font-weight:bold">R4SMEs</font>
+            </p>
+            </div>
+              <div style="background:url('./imagenes/cajon_vt1.png') center no-repeat; width:306px; height:21px;"></div>
+              <div style="background:url('./imagenes/cajon_vt2.png') center repeat-y; width:306px; font-size:12px; font-weight:bold; float:left; position:relative; color:#333">
+              	<div id="newsticker-demo">    
+    <div class="title">TECHNOLOGICAL WATCH SERVICE <a href="http://www.softvt.com" target="_blank"><img src="./imagenes/softvt2.png" align="right" border="0" style="margin:0; padding:0px; float:right" /></a></div>
+    <div class="newsticker-jcarousellite">
+		<ul>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/noticias_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_noticia.php?no_id=7528">Rabobank Announces Final Five Companies to Demo at FoodBytes! Brooklyn</a>
+                    <span class="cat">24/02/2016</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/noticias_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_noticia.php?no_id=7527">Peli BioThermal Officially Opens New European Service Center</a>
+                    <span class="cat">24/02/2016</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/noticias_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_noticia.php?no_id=7526">FKuR, Oerlemans Plastics y BK Pac avanzan en el uso de bioplásticos para envases de alimentos...</a>
+                    <span class="cat">24/02/2016</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/noticias_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_noticia.php?no_id=7525">How efficient is retail packaging in reducing waste?</a>
+                    <span class="cat">23/02/2016</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/noticias_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_noticia.php?no_id=7524">Plastics are Future will Meet in Valencia</a>
+                    <span class="cat">23/02/2016</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+        			
+                    <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/eventos_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_evento.php?ev_id=103">NPE 2018 Orlando: Feria del Plástico USA</a></a>
+                    <span class="cat">07/01/2016</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/eventos_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_evento.php?ev_id=102">Pro2Pac 2017 Londres</a></a>
+                    <span class="cat">03/12/2015</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/eventos_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_evento.php?ev_id=101">Foams 2015</a></a>
+                    <span class="cat">22/06/2015</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/eventos_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_evento.php?ev_id=100">Plastics Caps & Closures 2015</a></a>
+                    <span class="cat">23/06/2015</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/eventos_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_evento.php?ev_id=99">GPPS 15: Gulf Plastics & Polymers Show 2015</a></a>
+                    <span class="cat">26/06/2015</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+            
+            <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/articulos_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_articulo.php?ar_id=189">Estudio sobre Nanocompuestos de Poli(Ácido Láctico) y sus Mezclas con Poliolefinas para...</a></a>
+                    <span class="cat">19/02/2016</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/articulos_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_articulo.php?ar_id=188">Energy absorption capacity of a sustainable Ultra-High Performance Fibre Reinforced Concrete...</a></a>
+                    <span class="cat">17/02/2016</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/articulos_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_articulo.php?ar_id=187">Powder metallurgy inspired low-temperature fabrication of high-performance stereocomplexed...</a></a>
+                    <span class="cat">09/02/2016</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/articulos_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_articulo.php?ar_id=186">Early age performance and mechanical characteristics of recycled PET fibre reinforced concrete</a></a>
+                    <span class="cat">05/02/2016</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/articulos_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_articulo.php?ar_id=185">Three-dimensional skeleton networks of graphene wrapped polyaniline nanofibers: an excellent...</a></a>
+                    <span class="cat">25/01/2016</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+            
+            <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/legislacion_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_legislacion.php?le_id=10">Real Decreto 1025/2015, de 13 de noviembre, por el que se modifica el Real Decreto 846/2011,...</a></a>
+                    <span class="cat">30/11/2015</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/legislacion_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_legislacion.php?le_id=9">Reglamendo 10/2011: Modificación (bisfenol A en biberones de plástico para lactantes)</a></a>
+                    <span class="cat">26/04/2011</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/legislacion_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_legislacion.php?le_id=8">Sustancias y mezclas (clasificación, etiquetado y envasado). Modificación del Reglamento...</a></a>
+                    <span class="cat">26/04/2011</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/legislacion_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_legislacion.php?le_id=7">Plásticos en contacto con los alimentos (modificación Real Decreto 866/2008: Anexo II)</a></a>
+                    <span class="cat">26/04/2011</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/legislacion_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_legislacion.php?le_id=6">Registro Sanitario de Alimentos</a></a>
+                    <span class="cat">24/03/2011</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+            
+            <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/ayudas_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_ayuda.php?ay_id=10">134849 - Procurement of recycling equipment for selection and waste packaging</a></a>
+                    <span class="cat">29/07/2013</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+            
+            <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/normativa_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_normativa.php?no_id=49">D5203 Standard Specification for Polyethylene Plastics Molding and Extrusion Materials from...</a></a>
+                    <span class="cat">15/01/2016</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/normativa_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_normativa.php?no_id=48">ISO/FDIS 18263-2 - Plastics -- Mixtures of polypropylene (PP) and polyethylene (PE) recyclate...</a></a>
+                    <span class="cat">28/04/2015</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/normativa_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_normativa.php?no_id=47">ISO/FDIS 18263-1 - Plastics -- Mixtures of polypropylene (PP) and polyethylene (PE) recyclate...</a></a>
+                    <span class="cat">28/04/2015</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/normativa_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_normativa.php?no_id=46">ISO 18263-2 - Plastics -- Mixtures of polypropylene (PP) and polyethylene (PE) recyclate...</a></a>
+                    <span class="cat">18/09/2015</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/normativa_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_normativa.php?no_id=45">ISO 18263-1 - Plastics -- Mixtures of polypropylene (PP) and polyethylene (PE) recyclate...</a></a>
+                    <span class="cat">27/07/2015</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+            
+             <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/oferta_demanda_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_oferta_demanda.php?of_id=86">A flexible recycling system to convert plastics and oils into standard fuels.</a></a>
+                    <span class="cat">13/01/2016</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/oferta_demanda_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_oferta_demanda.php?of_id=85">Advanced simulation services for packaging development</a></a>
+                    <span class="cat">12/12/2015</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/oferta_demanda_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_oferta_demanda.php?of_id=84">SME Instrument Phase 2/FTI Pilot: an Italian SME is looking for other SMEs for innovative...</a></a>
+                    <span class="cat">10/12/2015</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/oferta_demanda_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_oferta_demanda.php?of_id=83">Established Scottish (UK) company seeks supplier of plastics for use in food packaging</a></a>
+                    <span class="cat">10/12/2015</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/oferta_demanda_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_oferta_demanda.php?of_id=82">Natural Fibre Composites (NFC) with high mechanical properties, low emissions and uniform...</a></a>
+                    <span class="cat">17/10/2015</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+            
+            <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/patentes_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_patente.php?pa_id=100">PRINTING A DUPLEX MICROWAVE INTERACTIVE SUSCEPTOR STRUCTURE ON CELLULOSE-BASED SUBSTRATES FOR...</a></a>
+                    <span class="cat">15/02/2016</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/patentes_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_patente.php?pa_id=99">PRINTING A DUPLEX MICROWAVE INTERACTIVE SUSCEPTOR STRUCTURE ON CELLULOSE-BASED SUBSTRATES FOR...</a></a>
+                    <span class="cat">15/02/2016</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/patentes_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_patente.php?pa_id=98">PROCESS FOR THE RECYCLING OF WASTE BATTERIES AND WASTE PRINTED CIRCUIT BOARDS IN MOLTEN SALTS...</a></a>
+                    <span class="cat">08/02/2016</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/patentes_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_patente.php?pa_id=97">MOLDED FIBER PACKAGING</a></a>
+                    <span class="cat">18/01/2016</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/patentes_green.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_patente.php?pa_id=96">ARRANGEMENT FOR A PACKAGING CONTAINER USED FOR COLLECTING RECYCLABLE MATERIALS</a></a>
+                    <span class="cat">21/12/2015</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+            
+                
+        </ul>
+    </div>
+    
+</div>
+			<p align="center"><a href="./tw_service.php">View All</a> <br /><br /><a href="./newsletter_subscribe.php"><img src="./imagenes/subscribe_newsletter.jpg" /></a></p>	
+              </div>
+              <div style="background:url('./imagenes/cajon_vt3.png') center repeat-y; width:306px; float:left; height:13px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+					</div>
+					<div class="content" style="width:620px; padding:0px">
+                    <div style="font-size:11px; color:#090; padding-left:0px; font-weight:bold; padding-top:0px;">February 25, 2016</div>
+                    
+						<h3>Welcome to CLIPP</h3>
+						<p class="txt1">This project aims to promote the &ldquo;valuable recycling resource&rdquo; concept for industrial painted and laminated packages (injected parts and extruded films), nowadays considered as a problem, promoting their recycling in the original application (closed loop cycle) and minimizing the environmental risks and impacts.</p>
+                      <h3>CLIPP News</h3>
+                      
+                      <div id="slider"> 
+                      			
+              <a href='./detalle_noticia.php?no_id=2712'><img src="./ficheros/noticias/113092326final_meeting.png" style="height:300px; visibility:hidden; display:none" title="CLIPP project final meeting" /></a>
+      			
+              <a href='./detalle_noticia.php?no_id=1276'><img src="./ficheros/noticias/122123126imagen_poster.png" style="height:300px; visibility:hidden; display:none" title="Study of recyclability of printed or laminate plastic packaging films using supercritical CO2..." /></a>
+      			
+              <a href='./detalle_noticia.php?no_id=40'><img src="./ficheros/noticias/105160443imagen_carrusel2.png" style="height:300px; visibility:hidden; display:none" title="CLIPP project" /></a>
+      	</div>
+     
+				  </div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<div class="tail-middle">
+			<div class="row-2">
+			  <div class="inside">
+		      <h3>Partners</h3>
+              <p style="font-size:11px; font-weight:bold; color:#333">10 partners from 4 different European countries.</p>
+			      	<div class="eff" style="margin-left:150px">
+                    <img src="./imagenes/aimplas.png" alt="AIMPLAS" title="AIMPLAS" />
+                            <div class="caption2"><a href="./partners.php?partner=aimplas" class="header">
+                            <div align="center" style="font-size:12px">AIMPLAS - Instituto Tecnol&oacute;gico del Pl&aacute;stico</div>
+                            <p style="color:#FFF; padding-top:10px">Spain</p>
+                                    </a>
+                      </div>
+                  </div>
+                                <div class="eff"> 
+                                <img src="./imagenes/saymopack.png" alt="SAYMOPACK" title="SAYMOPACK" />
+                            <div class="caption2"><a href="./partners.php?partner=saymopack" class="header">
+                            <div align="center" style="font-size:12px">Saymopack, S.L.</div>
+                                    <p style="color:#FFF; padding-top:10px">Spain</p></a>
+                                
+                                  </div>
+                  </div>
+                                <div class="eff"> 
+                                <img src="./imagenes/xtruder_xperts.png" alt="XTRUDER XPERTS" title="XTRUDER XPERTS" />
+                            <div class="caption2"><a href="./partners.php?partner=extruder_experts" class="header">
+                            <div align="center" style="font-size:12px">Extruder Experts, GmbH</div>
+                                    <p style="color:#FFF; padding-top:10px">Germany</p></a>
+                                
+                                  </div>
+                  </div>
+                                <div class="eff"> 
+                                <img src="./imagenes/gneuss.png" alt="GNEUSS" title="GNEUSS" />
+                                  <div class="caption2"><a href="./partners.php?partner=gneuss" class="header">
+                                  <div align="center" style="font-size:12px">GNEUSS, GmbH</div>
+                                    <p style="color:#FFF; padding-top:10px">Germany</p></a>
+                                
+                                  </div>
+        </div> 
+                                  <div class="eff">
+                                  <img src="./imagenes/skymark.png" alt="SKYMARK" title="SKYMARK" />
+                                  <div class="caption2"><a href="./partners.php?partner=skymark" class="header">
+                                  <div align="center" style="font-size:12px">Skymark Packaging International Ltd.</div>
+                                    <p style="color:#FFF; padding-top:10px">United Kingdom</p></a>
+                                    
+                                  </div>
+                  </div>
+                                  
+                                  <div class="eff" style="margin-left:150px"> 
+                                <img src="./imagenes/aligoplast.png" alt="ALIGOPLAST" title="ALIGOPLAST" />
+                            <div class="caption2"><a href="./partners.php?partner=aligoplast" class="header">
+                            <div align="center" style="font-size:12px">Aligoplast, S.A.</div>
+                                    <p style="color:#FFF; padding-top:10px">Spain</p></a>
+                                  </div>
+                  </div>
+                                  
+                                  <div class="eff"> 
+                                  <img src="./imagenes/pepiplast.png" alt="PEPIPLAST" title="PEPIPLAST" />
+                                    <div class="caption2" ><a href="./partners.php?partner=pepiplast" class="header">
+                                    <div align="center" style="font-size:12px">PEPI-PLAST d.o.o</div>
+                                    <p style="color:#FFF; padding-top:10px">Slovenia</p></a>       
+                                  
+                                  </div>
+                  </div>
+                  <div class="eff"> 
+                    <img src="./imagenes/grefusa.png" alt="GREFUSA" title="GREFUSA" />
+                            <div class="caption2"><a href="./partners.php?partner=grefusa" class="header">
+                            <div align="center" style="font-size:12px">Grefusa, S.L.</div>
+                                    <p style="color:#FFF; padding-top:10px">Spain</p></a>
+                    </div>
+                  </div>
+                  <div class="eff"> <img src="./imagenes/fraunhofer.png" alt="FRAUNHOFER" title="FRAUNHOFER" />
+                            <div class="caption2"><a href="./partners.php?partner=fraunhofer" class="header">
+                            <div align="center" style="font-size:12px">Fraunhofer-Gesellschaft</div>
+                            <p style="color:#FFF; padding-top:10px">Germany</p>
+                            </a>
+                    </div>
+                  </div>
+                                  
+                                <div class="eff"> <img src="./imagenes/cluster.png" alt="CLUSTER" title="CLUSTER" />
+                            <div class="caption2"><a href="./partners.php?partner=cluster" class="header">
+                            <div align="center" style="font-size:12px">Plasttechnics Cluster Slovenia </div>
+                            <p style="color:#FFF; padding-top:10px">Slovenia</p>
+                                    </a>
+                                  </div>
+                </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<div id='footer'>
+		<div class='footer' style='padding-top:20px; padding-bottom:20px'>
+			<div style='float:left;width:200px'>
+            <img src='./imagenes/logo_ue.png' align='absmiddle' border='0' style='height:40px; padding-left:20px' /> <img src='./imagenes/logo2_7.png' align='absmiddle' border='0' style='height:40px;padding-left:10px' />
+            </div>
+            <div style='float:left; width:750px'>
+			&quot;The research leading to these results has received funding from the European Union Seventh Framework Programme managed by <a href='http://ec.europa.eu/research/rea'>REA-Research Executive Agency</a> (FP7/2007-2013) under Grant Agreement n&deg; 261977 CLIPP&quot; <a href='mailto:dit@aimplas.es' style='float:right;color:#FFF'>Webmaster Contact</a><br /><br />
+            </div>
+		</div>
+	</div></div>
+<!-- jQuery --> 
+<script src="./js/jquery.min.js"></script> 
+ 
+<!-- Lateral Slider --> 
+<script src="./js/slider.jquery.pack.js"></script> 
+ 
+<!-- Lateral Slider --> 
+<script> 
+/* <![CDATA[ */
+// lateral slider
+$( '#slider' ).lateralSlider( {
+	captionPadding: '50',
+	captionHeight: 45,
+	captionWidth: 610,
+	current:1,
+	displayDuration:8000
+} );
+/* ]]> */
+</script>
+<script src="js/jquery-latest.pack.js" type="text/javascript"></script>
+<script src="js/jcarousellite_1.0.1c4.js" type="text/javascript"></script>
+<script type="text/javascript">
+jQuery.noConflict();
+jQuery(function() {
+	jQuery(".newsticker-jcarousellite").jCarouselLite({
+		vertical: true,
+		hoverPause:true,
+		visible: 2,
+		auto:2000,
+		speed:1000
+	});
+});
+</script>
+</body>
+</html>

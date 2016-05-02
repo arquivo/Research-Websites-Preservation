@@ -1,0 +1,184 @@
+
+    <!doctype html public "-//w3c//dtd xhtml 1.0 transitional//en" "http://www.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=9">
+        <title>
+            bioman.dti.dk
+        </title>
+        
+        
+        <!-- Stylesheets -->
+        	<link href='/css/blue.css' rel='stylesheet' type='text/css' />
+        <link href="/css/modern.css" rel="stylesheet" type="text/css" />
+        <script src="/Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+        <script src="/Scripts/UI.js" type="text/javascript"></script>
+
+        
+
+    </head>
+    <body>
+        <form method="post" action="/" id="ctl02">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUENTM4MQ9kFgJmD2QWAmYPZBYCZg9kFgJmD2QWBgIBDw8WAh4LVGV4dElmRW1wdHkFDWJpb21hbi5kdGkuZGtkZAIHDxYCHgRUZXh0BT8JPGxpbmsgaHJlZj0nL2Nzcy9ibHVlLmNzcycgcmVsPSdzdHlsZXNoZWV0JyB0eXBlPSd0ZXh0L2NzcycgLz5kAgsQZGQWDgIBD2QWAmYPZBYCAgIPDxYCHwEFBlNlYXJjaGRkAgMPDxYCHgdWaXNpYmxlaGQWAgIBD2QWAmYPZBYCZg8PFgIeCUxvZ2luVGV4dAUFTG9naW5kZAIFDw8WAh8CaGQWAgIBDw8WAh8BBQpOZXdzbGV0dGVyZGQCBw9kFgYCAQ8WAh4Fc3R5bGUFDWRpc3BsYXk6bm9uZTtkAgMPFgIfBAUNZGlzcGxheTpub25lO2QCBQ8WAh8EBQ1kaXNwbGF5Om5vbmU7ZAIJD2QWBAIDDxYEHglpbm5lcmh0bWwFBkJJT01BTh8CZ2QCBQ8PFgQfAQVFRWNvbm9taWNhbGx5IGVmZmljaWVudCBiaW9nYXMgcHJvZHVjdGlvbiBmcm9tIG1hbnVyZSBmaWJyZXMgYW5kIHN0cmF3HwJnZGQCDw9kFggCAQ8PFgQeCEltYWdlVXJsBTUvaW1hZ2VnZW4uYXNoeD9pbWFnZT0vbWVkaWEvMjkwNS9iaW9tYW4ucG5nJndpZHRoPTU4NR4NQWx0ZXJuYXRlVGV4dAUGQklPTUFOZGQCBw9kFgJmD2QWBgIBDxYCHwEFD0NvbnRhY3QgZGV0YWlsc2QCAw8WAh8BBeUBCjxwPlNlY3Rpb24gb2YmbmJzcDtFbnZpcm9ubWVudGFsIEJpb3RlY2hub2xvZ3k8L3A+Cgo8cD5Eci4gQ2Fyb2xpbmUgS3JhZ2VsdW5kIFJpY2tlcnM8L3A+Cgo8cD5Lb25nc3ZhbmcgQWxsw6kgMjksODAwMCBBYXJodXM8L3A+Cgo8cD5EZW5tYXJrLCA8YSBocmVmPSJtYWlsdG86Y2FrckBkdGkuZGsiPmNha3JAZHRpLmRrPC9hPjwvcD4KCjxwPis0NSA3MjIwIDI5NDA8L3A+Cgo8cD4mbmJzcDs8L3A+CmQCBQ8WBh4EaHJlZgUOaHR0cDovL2R0aS5kay8fBQUOUmVhZCBtb3JlICZndDsfAmdkAgkPZBYCZg9kFgQCAQ8WAh8BBRJDb21wYW5pZXMgaW52b2x2ZWRkAgMPFgIfAQXbAQo8cD5UaGUgZm9sbG93aW5nIGNvbXBhbmllcyBhcmUgcGFydGljaXBhdGluZyBpbiB0aGUgIkJJT01BTiIKcHJvamVjdDogQmlnYWRhbiBBL1MsIERlbm1hcms7IEVuenltZSBzdXBwbGllcyBMdGQsIFVuaXRlZCBLaW5nZG9tOwpIaWJyaWRhY2lvbiBUZXJtb3NvbGFyIE5hdmFycmEgKEhUTikgU0wsIFNwYWluOyBIaWVsc2NoZXIKVWx0cmFzb25pY3MgR21iSCwgR2VybWFueS48L3A+CmQCCw9kFgJmDxYCHgVjbGFzcwULaGVscGVyLWxhc3QWBgIBDxYCHwEFEUZ1bmRpbmcgb2YgQklPTUFOZAIDDxYCHwEFlQIKPHA+QklPTUFOIGlzIGZ1bmRlZCBieSB0aGUgRXVyb3BlYW4gVW5pb24ncyBTZXZlbnRoIEZyYW1ld29yawpQcm9ncmFtbWUgbWFuYWdlZCBieSBSRUEgLSBSZXNlYXJjaCBFeGVjdXRpdmUgQWdlbmN5OiA8c3Bhbj48YQpocmVmPSJodHRwOi8vZWMuZXVyb3BhLmV1L3Jlc2VhcmNoL3JlYSI+aHR0cDovL2VjLmV1cm9wYS5ldS9yZXNlYXJjaC9yZWE8L2E+PC9zcGFuPgooRlA3LzIwMDctMjAxMykgdW5kZXIgZ3JhbnQgYWdyZWVtZW50IG5vIEZQNy1TTUUtMjAxMiwgMzE1NjY0LjwvcD4KZAIFDxYGHwgFJ2h0dHA6Ly9jb3JkaXMuZXVyb3BhLmV1L3Byb2plY3RzLzMxNTY2NB8FBQ5SZWFkIG1vcmUgJmd0Ox8CZ2QCEQ9kFgYCAQ8WAh8BZWQCAw8WAh8BZWQCBQ8WAh8BZWRkuKq9HUJMTL9h3gnBySxpgPP+ml8eK7VuDpjmX8D1MY4=" />
+</div>
+
+        <div class="helper-clearfix">
+            <div class="container">
+                
+
+
+
+                
+                
+                <div id="ContentPlaceHolderDefault_pnlSocialWidgets" class="addthis_toolbox addthis_default_style ">
+	
+                    <a id="ContentPlaceHolderDefault_fb" class="addthis_button_facebook" style="display:none;"></a>    
+                    <a id="ContentPlaceHolderDefault_tw" class="addthis_button_twitter" style="display:none;"></a>    
+                    <a id="ContentPlaceHolderDefault_li" class="addthis_button_linkedin" style="display:none;"></a>
+                    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4e786f255f8325eb"></script>
+              
+</div>
+            </div>
+        </div>
+        
+<!-- OutputCache Duration="600" VaryByParam="none" -->
+
+<div id="head" class="helper-clearfix">
+	<div class="container">
+		<div class="primaryLogo">
+			
+			<div id="ContentPlaceHolderDefault_Header1_SiteLogoDiv">BIOMAN</div>
+			<span id="ContentPlaceHolderDefault_Header1_SiteLogoMotto">Economically efficient biogas production from manure fibres and straw</span>
+		</div>
+		<div class="secondaryLogo">
+			
+			
+		</div>
+	</div>
+</div>
+
+
+        <div id="menu" class="helper-clearfix">
+            <ul class="container"><li><a href="/" class="selected">BIOMAN</a></li><li><a href="/partners.aspx">Partners</a></li><li><a href="/press-releases.aspx">Press releases</a></li><li><a href="/objectives.aspx">Objectives</a></li><li><a href="/contact-details.aspx">Contact details</a></li></ul>
+        </div>
+        <div id="submenu">
+            <div class="container">
+                
+            </div>
+        </div>
+        
+	<div id="mainContent">
+		<div class="container">
+			<div class="main helper-clearfix">
+				<img id="ContentPlaceHolderDefault_BodyContent_TopImage" class="skinMainImg" src="/imagegen.ashx?image=/media/2905/bioman.png&amp;width=585" alt="BIOMAN" />
+				<div>
+					<h1>
+						BIOMAN
+					</h1>
+					<p>Energy produced from biogas is a key renewable resource and is
+conditioned by a supply of substrates and waste materials
+compatible with responsible use of arable lands, and safe food and
+feed production.<br />
+<br />
+ BIOMAN will for a series of SMEs develop physical and enzymatic
+pre-treatment strategies and technology for biogas plants. This
+will enable the consortium member SME to bring complete solutions
+to the market and enable the agricultural sector to run biogas
+plants directly on cattle manure and straw.</p>
+
+<p>&nbsp;</p>
+
+<p><a href="/media/2997/bioman.pdf"
+target="_blank">/media/2997/bioman.pdf</a><a
+href="/media/2997/poster_bioman_4.pdf" target="_blank"></a></p>
+				</div>
+			</div>
+		</div>
+		<div id="secondaryContent">
+			<div class="container">
+				<div class="secondary helper-clearfix">
+					<div id="ContentPlaceHolderDefault_BodyContent_ctl02_BoxContainer">
+	<h2>
+		Contact details</h2>
+	
+<p>Section of&nbsp;Environmental Biotechnology</p>
+
+<p>Dr. Caroline Kragelund Rickers</p>
+
+<p>Kongsvang Allé 29,8000 Aarhus</p>
+
+<p>Denmark, <a href="mailto:cakr@dti.dk">cakr@dti.dk</a></p>
+
+<p>+45 7220 2940</p>
+
+<p>&nbsp;</p>
+
+	<p><a href="http://dti.dk/" id="ContentPlaceHolderDefault_BodyContent_ctl02_ReadmoreLink" class="readmore">Read more &gt;</a></p>
+</div>
+
+					<div id="ContentPlaceHolderDefault_BodyContent_ctl03_BoxContainer">
+	<h2>
+		Companies involved</h2>
+	
+<p>The following companies are participating in the "BIOMAN"
+project: Bigadan A/S, Denmark; Enzyme supplies Ltd, United Kingdom;
+Hibridacion Termosolar Navarra (HTN) SL, Spain; Hielscher
+Ultrasonics GmbH, Germany.</p>
+
+	<p></p>
+</div>
+
+					<div id="ContentPlaceHolderDefault_BodyContent_ctl04_BoxContainer" class="helper-last">
+	<h2>
+		Funding of BIOMAN</h2>
+	
+<p>BIOMAN is funded by the European Union's Seventh Framework
+Programme managed by REA - Research Executive Agency: <span><a
+href="http://ec.europa.eu/research/rea">http://ec.europa.eu/research/rea</a></span>
+(FP7/2007-2013) under grant agreement no FP7-SME-2012, 315664.</p>
+
+	<p><a href="http://cordis.europa.eu/projects/315664" id="ContentPlaceHolderDefault_BodyContent_ctl04_ReadmoreLink" class="readmore">Read more &gt;</a></p>
+</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+        
+
+<div id="footer">
+	<div class="container">
+		<p>
+			
+		</p>
+		<p>
+			
+		</p>
+		<p class="helper-last">
+			
+		</p>
+	</div>
+</div>
+
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35956792-16']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+        
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+</div></form>
+    </body>
+    </html>

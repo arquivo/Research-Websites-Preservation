@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<META name="description" content="">
+<META name="keywords" content="">
+<title>Nanoindent</title>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META name="Author" content="Netfocus Consulting">
+
+<style>
+p,ul,ol { color: #552222; font-size: 8pt; font-family: Arial, Helvetica, Verdana,sans-serif; }
+.sNormal {color: #606040;font-size:11pt;font-family:Arial,Helvetica,Verdana,sans-serif;}
+.sNormal2 {color: #606040;font-size:11pt;font-family:Arial,Helvetica,Verdana,sans-serif;text-align:justify}
+.sHeader {color: #808060;font-size:14pt;font-family:Arial,Helvetica,Verdana,sans-serif;}
+.sInput {font-family: Arial,Verdana; font-size: 9pt; font-weight: normal; background-color: #ffffff; border: 1px #e0e0e0 solid;color:#808080} 
+.sInput3 {font-family: Arial,Verdana; color:#a0a080;font-size: 9pt; font-weight: normal; background-color: #ffffff; border: 1px #a0a0a0 solid}
+.sInputPsw {font-family: Arial,Verdana; font-size: 9pt; font-weight: normal; background-color: #ffffff; border: 1px #e0e0e0 solid; background: url(/img/psw.gif) no-repeat 96% 50% #ffffff;} 
+.sTblHead {color:#ffffff;background-color:#606020;text-align:center;}
+
+A.cu {color:#a06000;font-family:Arial,Verdana;font-size:11pt;text-decoration:none;}
+A.cu:hover {text-decoration:underline;}
+
+A.bu {color:#606040;font-family:Arial,Verdana;font-size:11pt;text-decoration:none;}
+A.bu:hover {text-decoration:underline;}
+
+A.du {color:#a0a060;font-family:Arial,Verdana;font-size:10pt;text-decoration:none;font-style:italic;padding-left:12pt;}
+A.du:hover {text-decoration:underline;}
+
+</style>
+
+<script>
+function procLogin() {
+with(document.formLogin) {
+//	document.location.href="/default.asp?strAction=login&strUserName="+strUserName.value+"&strPswd="+strPswd.value;
+	strAction.value="login";
+	submit();
+}}
+</script>
+</head>
+
+<body bgColor=#fffff0 text="#000000" link="#000080" vlink="#000080" alink="#000800" bottomMargin=0  leftMargin=0 topMargin=0>
+<center>
+
+<table height=100% ><tr valign=middle align=middle><td><table cellspacing=0 cellpadding=15><tr><td><img src="/img/logo.gif" border=0></td></tr></table>
+
+
+<table bgcolor=#ffffff width=800 style='border:1pt solid #e0d0d0'>
+<tr valign=top><td>
+  <table cellpadding=5 bgcolor=#ffffff>
+  <tr><td valign=top  style='padding-top:12pt'>
+	<table cellpadding=0 cellspacing=0 width=130>
+	<tr valign=top><td colspan=2><table style='border:1pt solid;border:1pt solid #a0a080;font-family:Arial;font-size:10pt;color:#606040;background-color:#f0f0e0' height=25 width=140 cellpadding=4 cellspacing=0 border=0><tr bgcolor='#d0d0b0' onClick=document.location.href='/default.asp' onMouseOut=this.style.backgroundColor='d0d0b0' onMouseOver=this.style.backgroundColor='d0d0b0' style='cursor:pointer'><td>HOME</td></tr></table><br></td></tr><tr valign=top><td colspan=2><table style='border:1pt solid;border:1pt solid #a0a080;font-family:Arial;font-size:10pt;color:#606040;background-color:#f0f0e0' height=25 width=140 cellpadding=4 cellspacing=0 border=0><tr bgcolor='#F0EFD8' onClick=document.location.href='/members/default.asp' onMouseOut=this.style.backgroundColor='F0EFD8' onMouseOver=this.style.backgroundColor='e0dAc0' style='cursor:pointer'><td>MEMBERS</td></tr></table><br></td></tr><tr valign=top><td colspan=2><table style='border:1pt solid;border:1pt solid #a0a080;font-family:Arial;font-size:10pt;color:#606040;background-color:#f0f0e0' height=25 width=140 cellpadding=4 cellspacing=0 border=0><tr bgcolor='#F0EFD8' onClick=document.location.href='/members/partners.asp' onMouseOut=this.style.backgroundColor='F0EFD8' onMouseOver=this.style.backgroundColor='e0dAc0' style='cursor:pointer'><td>ASSOCIATED<BR>PARTNERS</td></tr></table><br></td></tr><tr valign=top><td colspan=2><table style='border:1pt solid;border:1pt solid #a0a080;font-family:Arial;font-size:10pt;color:#606040;background-color:#f0f0e0' height=25 width=140 cellpadding=4 cellspacing=0 border=0><tr bgcolor='#F0EFD8' onClick=document.location.href='/news/default.asp' onMouseOut=this.style.backgroundColor='F0EFD8' onMouseOver=this.style.backgroundColor='e0dAc0' style='cursor:pointer'><td>NEWS AND EVENTS</td></tr></table><br></td></tr><tr valign=top><td colspan=2><table style='border:1pt solid;border:1pt solid #a0a080;font-family:Arial;font-size:10pt;color:#606040;background-color:#f0f0e0' height=25 width=140 cellpadding=4 cellspacing=0 border=0><tr bgcolor='#F0EFD8' onClick=document.location.href='/database/default.asp' onMouseOut=this.style.backgroundColor='F0EFD8' onMouseOver=this.style.backgroundColor='e0dAc0' style='cursor:pointer'><td>DATABASE</td></tr></table><br></td></tr><tr valign=top><td colspan=2><table style='border:1pt solid;border:1pt solid #a0a080;font-family:Arial;font-size:10pt;color:#606040;background-color:#f0f0e0' height=25 width=140 cellpadding=4 cellspacing=0 border=0><tr bgcolor='#F0EFD8' onClick=document.location.href='/forum/default.asp?strMasterForumId=ORTGERVC' onMouseOut=this.style.backgroundColor='F0EFD8' onMouseOver=this.style.backgroundColor='e0dAc0' style='cursor:pointer'><td>FORUM</td></tr></table><br></td></tr><tr valign=top><td height=30px><hr style='color:#c0c0a0' size=0></td></tr><tr valign=top><td colspan=2><table style='border:1pt solid;border:1pt solid #a0a080;font-family:Arial;font-size:10pt;color:#606040;background-color:#f0f0e0' height=25 width=140 cellpadding=4 cellspacing=0 border=0><tr bgcolor='#f5a659' onClick=document.location.href='/default2.asp' onMouseOut=this.style.backgroundColor='f5a659' onMouseOver=this.style.backgroundColor='d58639' style='cursor:pointer'><td>NANOINDENT-plus</td></tr></table><br></td></tr>
+    </table>
+	
+		<form name=formLogin method=post action="/default.asp">
+		<input type=hidden name=strAction value="">
+		<p class=sNormal style='padding:3pt;'>
+		Login<br>
+		<input tabindex=100 name=strUserName class=sInput style='width:130' maxlength=100 value=' e-mail' style='color:#c0c0c0;font-style:italic' onFocus="this.style.color='#000000';this.value=''"><br>
+		<input tabindex=101 name=strPswd class=sInputPsw style='width:110' maxlength=100 type=password onKeyDown="if (window.event.keyCode==13) {procLogin()};"> 
+		<a href="javascript:procLogin()"><img border=0 src="/img/ok.gif" style="cursor:pointer" onClick=procLogin()></a><br>
+		<a style='font-style:italic;color:#b0b0a0;font-size:9pt;padding-left:30pt' href="/login/forget.asp" class=cu>did you forget?</a>
+		</p>
+		</form>
+		<p><a href="/login/reg.asp" class=bu>Register here &raquo;</a></p>
+	
+   </td><td width=580 height=400 valign=top> 
+	  <table cellpadding=10 cellspacing=0 class=sNormal width=100% ><tr valign=top><td>
+
+<form name=form1 method=post action="/login/default.asp">
+
+<!-- Generated by XStandard version 2.0.0.0 on 2012-02-09T12:58:53 --><p>FP7 NANOINDENT ended on 31 August 2011. We are thankful for the European Union for the financial support.</p><p>You may read the Publishable summary report in the news section.</p><hr /><p>Some partners submitted a new proposal in January 2012 titled &quot;<strong>Standardising the nano-scratch test</strong>&quot; or simply NANOINDENT-plus.</p><p>The call (NMP.2012.4.0-2 Support for standardisation needs) states &quot;The proposed support actions should build on the scientific and technical achievements of NMP projects, or clusters of projects, funded under FP6 and/or FP7. It should address the preparation of standards and metrology issues in order to vigorously push the knowledge towards industrial innovation.&quot;</p><p>The NANOINDENT-plus project will, therfore, further develop, validate and draft standards for nano-scratching, which is an important new tool to investigate the tribological properties of materials on a scale relevant to the fundamental mechanisms of wear. The new standard will facilitate the development of new coatings and engineered surfaces that will give impact through more efficient transport, improved competitiveness of industry and a better quality of life for EU citizens.</p><p>You may read the abstract in the news section.</p><p>&#160;</p><hr /><p class="sNormal2">The <strong>original FP7 NANOINDENT Coordination Action project</strong> aimed to gather, improve, catalogue and present European-wide activities in characterisation techniques, methods and equipment for nanomechanical testing. It improved existing nanoindentation metrology to reveal structure-properties relationship at the nano-scale. The work laid down a solid base for subsequent efforts for defining and preparing new standards to support measurement technology in the field of nanomaterials characterisation. Steps included development of the classical and the dynamic nanoindentation method and its application to new fields, application of modified nano-indenters to new fields as scratching and wear measurement, firm and uniform determination of instrumental parameters and defining new standard samples for the new applications.</p><p class="sNormal2">The project disseminated information based on a new &quot;Nanocharacterisation database&quot; on two levels: on a broader level a novel inventory of data and techniques in nanomechanical characterisation had being built and, for a narrower public, the actual results of the network have been disseminated.</p><p class="sNormal2">For more information contact: Dr. Péter NAGY (<a class="cu" href="mailto:nagyp@chemres.hu">nagyp@chemres.hu</a>)</p><p class="sNormal2">The Nanoindent project has received funding from the European Community's Seventh Framework Programme (FP7/2007-2013) under grant agreement n° NMP3-CA-2008-218659.</p><p align="center"><img alt="FP7 Cooperation" height="75" src="http://www.netfocus.hu/FileLib/nano/Img/FP7-coo-RGB.jpg" style="border:1pt solid #c0c0c0;float:left" width="92" /><a href="http://www.vinf.eu/" onclick="window.open(this.href);return false;" onkeypress="window.open(this.href);return false;" shape="circle" title="Homepage of the Virtual Institute of Nano-films"><img alt="Virtual Institute of Nano-films" border="0" dir="ltr" height="75" longdesc="http://www.vinf.eu/" src="http://www.netfocus.hu/FileLib/nano/Img/VINF%20logo.jpg" style="border:1pt solid #c0c0c0;float:center" width="100" xml:lang="en" /></a><img alt="Europa" height="75" src="http://www.netfocus.hu/FileLib/nano/Img/Europa.jpg" style="border:1pt solid #c0c0c0;float:right" width="110" /></p>
+
+	</form>
+
+
+	</td></tr></table>
+      </td>
+  </tr>
+</table>
+    </td>
+  </tr>
+</table>
+<P style='font-family:Arial;color:#a0a060;text-align:center;'>&copy 2016 CRC-HAS</p>
+</form>
+</body>
+</html>
+

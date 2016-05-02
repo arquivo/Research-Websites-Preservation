@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html lang="{$language}"><!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="" />
+        <meta name="generator" content="" />
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="pragma" content="no-cache">
+
+        <link rel="shortcut icon" type="images/x-icon" href="http://first.aster.it//images/common/second.png"/>
+
+        <link rel="stylesheet" href="http://first.aster.it//css/aster/reset.css" />
+        <link rel="stylesheet" href="http://first.aster.it//css/jquery-ui-1.8.21.custom.css" />
+        <link rel="stylesheet" href="http://first.aster.it//css/aster/grid.css" />
+        <link rel="stylesheet" href="http://first.aster.it//css/aster/main.css" />
+        <link rel="stylesheet" href="http://first.aster.it//css/aster/font.css" />
+        <link rel="stylesheet" href="http://first.aster.it//css/amministrazione.css" />
+        <script src="http://first.aster.it//javascripts/modernizr-1.1.min.js"></script><!-- this is the javascript allowing html5 to run in older browsers -->
+        <script src="http://first.aster.it//javascripts/jquery-1.7.1.min.js"></script>
+        <script src="http://first.aster.it//javascripts/jquery-ui-1.8.18.custom.min.js"></script>
+        <script src="http://first.aster.it//javascripts/jquery.ui.datepicker-it.js"></script>
+        <script src="http://first.aster.it//javascripts/main.js"></script>
+        <script src="http://first.aster.it//javascripts/deleteDialog.js"></script>
+        <script src="http://first.aster.it//javascripts/json2.js"></script>
+        <script language="javascript">
+            var baseURL="http://first.aster.it/";
+        </script>
+        <!-- <link href='http://fonts.googleapis.com/css?family=Exo:400,200,700,400italic,200italic,700italic' rel='stylesheet' type='text/css'> -->
+        <!--compatibilita' ie-->
+        <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-124406-1']);
+          _gaq.push (['_gat._anonymizeIp']);
+          _gaq.push(['_trackPageview']);
+          _gaq.push(['_setCustomVar', 1, 'Gruppo', 'ASTER']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+    </head>
+    <body class="" id="">
+        <div class="extwrapper">
+            <script src="http://first.aster.it//javascripts/aster/header.js"></script>
+
+<header id="header-top" >
+    <div class="wrapper">
+        <div id="login-social">    
+            <!-- Box Login -->
+            <div id="login">
+                
+                <a id="loginButton" title="Accedi ai servizi FIRST" class="button">Login</a>
+                <a href="registrazione" title="Per ricevere gratuitamente la newsletter ed accedere all'area riservata" class="button">Registrati</a>
+                
+            </div>
+            <!-- Box Social - contenuto di esempio -->
+            
+            <div id="like-bar">
+                <!-- AddThis Button BEGIN -->
+<!--
+                <div class="addthis_toolbox addthis_default_style ">
+                <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+                <a class="addthis_button_tweet"></a>
+                <a class="addthis_button_pinterest_pinit"></a>
+                <a class="addthis_counter addthis_pill_style"></a>
+                </div>
+                <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-5024f60c73e76c2b"></script>
+-->
+                <!-- AddThis Button END -->
+            </div>
+            
+        </div>
+        <!-- Logo -->
+        <figure id="logo">
+            <a href="#" title="">
+                <img src="http://first.aster.it//images/aster/logo.png" alt="Logo" class="logo_screen" />
+            </a>
+        </figure>
+         <!-- Navbar superiore -->
+        <nav id="top-menu-nav" class="clearfix">
+            <!-- menu primo livello - secondario - sinistra -->
+            <ul class="navbar navbar_secondario clearfix">
+                <li class="first"><a href="staff" title="">Staff</a></li>
+                <li class=""><a href="mailto:first@aster.it" title="">Email</a></li>
+                <li class=""><a href="firstRSS.xml" title=""><img src="http://first.aster.it//images/aster/icons/ico_rss.png" alt="" /></a></li>
+                <li class=""><a href="https://twitter.com/F1RST_ASTER" class="twitter-follow-button" data-show-count="false" data-lang="it" data-show-screen-name="false">Segui @F1RST_ASTER</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
+            </ul>
+            <!-- menu primo livello - principale - destra -->
+            <ul class="navbar navbar_principale clearfix">
+                <li id="np1" class="first"><a href="home" title="">Home</a></li>
+                <li id="np2" class=""><a href="cosa" title="">Chi siamo</a></li>
+                <li id="np3" class=""><a href="#" title="">Informazioni</a>
+                    <!-- menu dropdown - secondo livello -->
+                    <ul class="closed">
+                        <li id="np3_1" class="first"><a href="bandi" title="">Scadenze</a></li>
+                        <li id="np3_2" class=""><a href="eventi" title="">Eventi</a></li>
+                        <li id="np3_3" class=""><a href="cercaBandi" title="">Cerca bandi</a></li>
+                        <li id="np3_4" class="last"><a href="cercaNews" title="">Cerca le news</a></li>
+                    </ul>
+                </li>
+                <li id="np4" class="approfondimenti"><a href="#" title="">Approfondimenti</a>
+                    <ul class="closed">
+                        <li id="np4_1" class="first"><a href="cercaFinanziamenti" title="">Programmi</a></li>
+                        <li id="np4_2" class=""><a href="focus" title="">Focus</a></li>
+                        <li id="np4_3" class=""><a href="dossier" title="">Dossier</a></li>
+                        <li id="np4_4" class=""><a href="firstIncontra" title="">First incontra</a></li>
+                        <li id="np4_5" class=""><a href="lezioni" title="">Lezioni</a></li>
+                        <li id="np4_6" class="last"><a href="pubblicazioni" title="">Pubblicazioni</a></li>
+                    </ul>
+                </li>
+                <li id="np5" class="servizi last"><a href="#" title="">Servizi</a>
+                    <ul class="closed">
+                        <li id="np5_1" class="first"><a href="assistenza" title="">Assistenza</a></li>
+                        <li id="np5_2" class=""><a href="ricercaPartner" title="">Ricerca partner</a></li>
+                        
+                        <li id="np5_3" class=""><a href="apre" title="">Sportello APRE</a></li>
+                        <li id="np5_4" class="last"><a href="personalizzazione" title="">Personalizzazione</a></li>
+                        
+                    </ul>
+                </li>
+                
+             </ul>
+        </nav>
+    </div>
+    
+    <div id="editPassword-dialog" title="Cambia password" style="display: none;">
+        <label for="oldPassword">Vecchia password</label>
+        <input type="password" name="oldPassword" id="oldPassword" />
+        <label for="newPassword">Nuova Password</label>
+        <input type="password" name="newPassword" id="newPassword" />
+        <label for="confirmNewPassword">Conferma Password</label>
+        <input type="password" name="confirmNewPassword" id="confirmNewPassword" />
+        <button id="changePassword">Salva password</button>
+    </div>
+
+    <div id="login-dialog" title="Accedi ai servizi FIRST - Login utente" style="display: none;">
+
+        <div id="login-accesso">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="usernameLogin" />
+            <label for="password">Password</label>
+            <input type="password" name="password" id="passwordLogin" />
+            <button id="login-button">Accedi</button>
+            <span type="button" id="lostPassword">Hai perso la tua password?</span>
+        </div>
+
+        <div id="login-recupero" style="display: none;">
+            <label for="Email">Email</label>
+            <input type="text" name="Email" id="emailLogin" />
+            <button id="recupera">Recupera password</button>
+        </div>
+
+    </div>
+    
+</header>
+
+            <!-- INIZIO BODY: MENUSX + CONTENT -->
+            <section id="middleWrapper" class="clearfix">
+                <div class="wrapper">
+                    <!-- breadcrumb -->
+<!--
+                    <section id="pathbar" class="breadcrumb">
+                        <a href="#" title="">Home</a>
+                        <a href="#" title="" class="current">scadenze</a>
+                    </section>
+-->
+
+                    
+
+                    
+
+
+                    <!-- INIZIO CONTENT -->
+                        <script src="http://first.aster.it//javascripts/aster/viewNews.js"></script>
+
+<section class="col_content_dx rounded-shadow">
+    <div id="mainwrapper">
+        <link rel="stylesheet" href="http://first.aster.it//css/aster/editNews.css" />
+<script src="http://first.aster.it//javascripts/tinymce/tiny_mce.js"></script>
+<script src="http://first.aster.it//javascripts/tinymce/mce_init.js"></script>
+<script src="http://first.aster.it//javascripts/editNews.js"></script>
+<div id="editNews" class="editNews">
+
+        <div class="col_menuForm col">
+            <div id="menu-nav">
+                <ul class="menu-nav">
+                    <li><a id="menu-item" name="datiPrincipali">Dati principali</a></li>
+                    <li><a id="menu-item" name="programmi">Programmi</a></li>
+                    <li><a id="menu-item" name="altriDescrittori">Altri descrittori</a></li>
+                    <li><a id="menu-item" name="dateLink">Date e link</a></li>
+                    <li><a id="menu-item" name="tag">Tag</a></li>
+                    <li><a id="menu-item" name="gestione">Gestione</a></li>
+                </ul>
+                <div class="comandi">
+                    <button id="annulla">Chiudi</button>
+                    <button id="salva" type="submit">Salva</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col_contentForm col">
+
+                <!-- DATI PRINCIPALI -->
+                <div id="datiPrincipali">
+                    <fieldset>
+                        <h2>FONTE (*)</h2>
+                            <ol>
+                                <li><select id="lista_fonte" class="editor"></select></li>
+                                <li>
+                                    <label for="numFonte">Numero</label>
+                                    <input id="numFonte" class="editor" type="text" name="fonteNumero" size="10"/>
+                                </li>
+                                <li>
+                                    <label for="dataFonte">Data</label>
+                                    <input id="dataFonte" class="datepicker editor" type="text" size="10"/>
+                                </li>
+                            </ol>
+                    </fieldset>
+
+                    <fieldset>
+                        <h2>TIPO DI NOTIZIA (*)</h2>
+                        <select id="lista_notizia" class="editor"></select>
+                    </fieldset>
+
+                    <fieldset>
+                        <h2>IDENTIFICATIVO DEL BANDO</h2>
+                        <textarea id="identBando" wrap="soft" name="Invito" rows="1" class="editor" style="width: 100%;"></textarea>
+                    </fieldset>
+
+                    <fieldset>
+                        <h2>TITOLO (*)</h2>
+                        <ol id="evento" class="eventoLocate" style="display:none;">
+                            <li>
+                                <label for="comune">Comune</label>
+                                <input id="comune" class="editor" type="text" maxlength="50"/>
+                            </li>
+                            <li>
+                                <label for="prov">Provincia</label>
+                                <input id="prov" class="editor" type="text" maxlength="2" size="2"/>
+                            </li>
+                            <li>
+                                <label for="stato">Stato</label>
+                                <input id="stato" class="editor" type="text"/>
+                            </li>
+                            <li>
+                                <label for="eventoDal">Data dal</label>
+                                <input id="eventoDal" class="datepicker editor" type="text" size="10"/>
+                            </li>
+                            <li>
+                                <label for="eventoAl">al</label>
+                                <input id="eventoAl" class="datepicker editor" type="text" size="10"/>
+                            </li>
+                        </ol>
+                        <textarea id="titolo" class="editor" rows="4" style="width: 100%;"></textarea>
+                    </fieldset>
+
+                    <fieldset>
+                        <h2>TITOLO BREVE</h2>
+                        <textarea id="titoloBreve" class="editor" rows="2" style="width: 100%;"></textarea>
+                    </fieldset>
+
+                    <fieldset>
+                        <h2>ABSTRACT</h2>
+                        <textarea id="abstract" class="editor" rows="3" style="width: 100%;"></textarea>
+                    </fieldset>
+
+                    <fieldset>
+                        <h2>TESTO</h2>
+                        <textarea id="testo" class="mceEditor" wrap="soft" rows="50" maxlength="5000" style="width: 100%;"></textarea>
+                    </fieldset>
+
+                    <fieldset>
+                        <h2>REFERENTE</h2>
+                        <textarea id="referente" class="mceEditor" wrap="soft" rows="4" cols="120" style="width: 100%;"></textarea>
+                    </fieldset>
+                </div>
+
+                <!-- PROGRAMMI -->
+                <div id="programmi" style="display:none;">
+                    <input type="checkbox" id="cb_programmi_chiusi" class="editor"><label for="cb_programmi_chiusi">Includi i programmi chiusi</label></input>
+                    <div id="tabs">
+                        <ul>
+                            <li><a href="#sezione_programmi_UE">Comunitari (UE)</a></li>
+                            <li><a href="#sezione_programmi_IT">Nazionali</a></li>
+                            <li><a href="#sezione_programmi_altri">Altri</a></li>
+                        </ul>
+                        <div id="sezione_programmi_UE"></div>
+                        <div id="sezione_programmi_IT"></div>
+                        <div id="sezione_programmi_altri"></div>
+                    </div>
+                </div>
+
+                <!-- ALTRI DESCRITTORI -->
+                <div id="altriDescrittori" style="display:none;">
+                    <div class="comandi">
+                        <button type="button" id="importaKey">Importa keyword</button>
+                        <button type="button" id="importaAltri">Importa altri</button>
+                    </div>
+
+                    <fieldset>
+                        <h2>KEYWORDS(*)</h2>
+                        <input type="button" id="checkAllKey" value="Seleziona tutto"/>
+                        <input type="button" id="uncheckAllKey" value="Deseleziona tutto"/>
+                        <div id="sezione_keywords"></div>
+                    </fieldset>
+
+                    <fieldset>
+                        <h2>AREA (*)</h2>
+                        <button id="addArea">Aggiungi area</button>
+                        <div id="aree" class="editor" imgDelete="http://first.aster.it//images/common/delete.png"></div>
+                    </fieldset>
+
+                    <fieldset>
+                        <h2>BENEFICIARI</h2>
+                        <div id="sezione_beneficiari"></div>
+                    </fieldset>
+
+                    <fieldset>
+                        <h2>FABBISOGNI</h2>
+                        <div id="sezione_fabbisogni"></div>
+                    </fieldset>
+
+                    <fieldset>
+                        <h2>TIPO FINANZIAMENTO</h2>
+                        <div id="sezione_finanziamenti"></div>
+                        <ol class="stanziamento">
+                            <li>
+                                <label for="stanziamento">Stanziamento in Euro</label>
+                                <input id="stanziamento" class="editor" type="text"/>
+                            </li>
+                        </ol>
+                    </fieldset>
+                </div>
+
+                <!-- DATE E LINK -->
+                <div id="dateLink" style="display:none;">
+
+                    <fieldset>
+                        <h2>SEZIONE LINK</h2>
+                        <div class="comandi">
+                            <ol>
+                                <li>
+                                    <button id="addLink" type="button">Aggiungi link</button>
+                                </li>
+                                <li>
+                                    <label>Tipo</label>
+                                    <select id="tipoLink" class="editor">
+                                        <option value="1">Link</option>
+                                        <option value="2">Testo originale</option>
+                                        <option value="3">News</option>
+                                        <option value="4">Bando aperto</option>
+                                    </select>
+                                </li>
+                            </ol>
+                        </div>
+                        <div id="link" class="editor" imgDelete="http://first.aster.it//images/common/delete.png"></div>
+                    </fieldset>
+
+                    <fieldset>
+                        <h2>SEZIONE ALTRE SCADENZE</h2>
+                        <div class="comandi">
+                            <button type="button" id="addScadenza">Aggiungi scadenza</button>
+                        </div>
+                        <div id="scadenze" class="editor" imgDelete="http://first.aster.it//images/common/delete.png"></div>
+                    </fieldset>
+
+                </div>
+
+                <!-- TAG -->
+                <div id="tag" style="display:none;">
+                    <fieldset>
+                        <h2>ASSOCIA FOCUS\DOSSIER</h2>
+                        <button type="button" id="addFocus">Pubblica in focus</button>
+                        <div id="focus" class="editor" imgDelete="http://first.aster.it//images/common/delete.png"></div>
+                        <button type="button" id="addDossier">Pubblica in dossier</button>
+                        <div id="dossier" class="editor" imgDelete="http://first.aster.it//images/common/delete.png"></div>
+                    </fieldset>
+                    <fieldset>
+                        <h2>TAG</h2>
+                        <div id="sezione_flags"></div>
+                    </fieldset>
+                </div>
+
+                <!-- GESTIONE -->
+                <div id="gestione" style="display:none;">
+                    <fieldset>
+                        <h2>GESTIONE</h2>
+                        <div class="comandi">
+                            <button class="duplicaButton"type="button">Duplica</button>
+                            <button class="anteprimaButton"type="button">Anteprima</button>
+                        </div>
+                        <ol class="status">
+                            <li id="statoBozza" class="Bozza">
+                                <label>Bozza</label>
+                            </li>
+                            <li id="statoCompleta" class="Completa">
+                                <label>Completa</label>
+                            </li>
+                            <li class="pubblicazione">
+                                <input type="checkbox" id="checkPubblicata" class="checkPubblicata"/>
+                                <label for="checkPubblicata" class="checkPubblicata">Pubblicata</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="checkInvio"/>
+                                <label for="checkInvio">Invia in newsletter</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="checkAccoda" class="checkAccoda"/>
+                                <label for="checkAccoda" id="checkAccoda" class="checkAccoda">Accoda ultima newsletter</label>
+                            </li>
+                        </ol>
+                    </fieldset>
+
+
+                    <div class="datiNews">
+                        <h4>News inviata il</h4>
+                        <ul id="dateInvio" class="editor"></ul>
+                    </div>
+
+                    <div class="datiNews">
+                        <h4 class="autore">News inserita da</h4>
+                        <label class="autore">Nessun inserimento</label>
+                    </div>
+
+                    <div class="datiNews">
+                        <h4 class="modifica">News modificata da</h4>
+                        <label class="modifica">Nessuna modifica</label>
+                    </div>
+
+                </div>
+
+        </div>
+</div>
+
+
+
+
+        <header class="news">
+            <ul id="condividi">
+<!--
+                <li><script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+                <script type="IN/Share"></script></li>
+<li><a href=”http://www.linkedin.com/shareArticle?mini=true&url=url.com&title=titolo&source=aster.it”><img src=”http://first.aster.it//images/common/linkedin.png”/></a></li>
+-->
+            <li>
+                <a href="" onclick="return lin_click()" target="_blank" title='Condividi su linkedIn'><img src="http://first.aster.it//images/common/linkedin.png"/></a>
+            </li>
+            <li><a href="http://www.facebook.com/share.php?u=<url>" onclick="return fbs_click()" target="_blank" title='Condividi su Facebook'><img alt='Condividi su Facebook' src="http://first.aster.it//images/common/facebook_icon.png"/></a></li>
+            <li><a class="twitter popup" href="http://twitter.com/share" target='_blank' title='Condividi su Twitter'><img alt='Condividi su Twitter' src="http://first.aster.it//images/common/twitter_icon.png"/></a></li>
+            <li><div class="g-plus" data-action="share" data-annotation="none"></div></li>
+
+                <!-- Place this tag after the last share tag. -->
+                <script type="text/javascript">
+                  (function() {
+                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                    po.src = 'https://apis.google.com/js/plusone.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                  })();
+                </script>
+
+            </ul>
+            <h1 class="pagetitle">NEWS</h1>
+            <h2 class="pagesubtitle">VINTAGE - A user friendly Decision Support System for an integrated vineyard management, for addressing quality and quantity production variability optimising the use of resources</h2>
+        </header>
+
+        <section class="testata-news">
+            <div class="news-dati">
+                <p class="first">News n.: <span id="numeroNews">25424</span></p>
+                <p>
+                    Fonte:
+                                            <a href="http://cordis.europa.eu" target="_blank">CORDIS - PROJECTS - 101471</a>
+                                        <span>del</span>
+                    <span id="dataNews">02/12/2011</span>
+                </p>
+                <p class="last">Tipo informazione: <span>RISULTATO</span></p>
+            </div>
+            <div class="news-control">
+                <div id="stampaNews" class="buttonNews">
+                    <input type="image" title="Stampa la news 25424" src="http://first.aster.it//images/aster/icons/ico_stampa_small.png" onClick="window.print()"/>
+                </div>
+                
+                
+            </div>
+        </section>
+
+        <section class="testo-news">
+            <section class="text-news"><p>The objective of this project is to offer to the SMEs Associations the first integrated management solution for supporting vine growers throughout vineyard life cycle, from planting to harvesting, aiming at addressing quality and production variability issues by means of an advanced Decision Support System (DSS). This DSS will be based on the output of well established and consolidated models applied to viticulture, and will assist the users in day to day management procedures, thanks to a user friendly web interface, assessing for instance the unique watering needs of each single parcel, controlling the growth phase of the grape, along with its vigour and maturity, optimizing at the same time the usage of fertilizers and parasiticides and limiting operators intervention on the soil and on the plant. <br /><br />With the application of information technologies it will be possible to fine tune wine production within the vineyard, maximising the oenological potential of the vineyards, and providing the vine-growers with the following, continuously up to date information: 1)Indication on the type of grape to be grown in the vineyard, being able to differentiate the production in case several zones of the vineyard present different agronomical features;<br />2)Indication of the ripeness of the grapes; <br />3)Real time indication, through micro-meteorological stations, of the soil properties, weather forecasts, and other parameters (fertilizing, irrigation, etc.)that can influence both yield but most importantly quality of the harvesting. <br />4)Indication of soil variability, which is one of the key factors that can affect vine growth fruit development, quality and yield; <br />5)indications of the zone at risk of fungi or parasites attack;<br /> 6) understanding and managing the dynamics of soil, water and phenological stages.</p>
+<hr />
+<p><strong>Start date:</strong> 2011-12-01<br /> <strong>End date:</strong> 2014-11-30<br /> <br /> <strong>Duration:</strong> 36 months<br /> <br /> <strong>Project Reference:</strong> 286608<br /> <br /> <strong>Project cost:</strong> 2.86 million euro<br /> <strong>Project Funding:</strong> 2.15 million euro<br /> <br /> <strong>Subprogramme Area:</strong> SME-2011-2 Research for SME associations<br /> <strong>Contract type:</strong> Research for SME associations/groupings</p>
+<hr />
+<p><strong>Coordinatore:</strong> - LABOR S.R.L. - Valerio GROSSO<br /> <br /> <strong>Altri Partecipanti</strong></p>
+<ul>
+<li>GRUPO DE EMPRESAS VINICOLAS DE RIOJA - SPAIN</li>
+<li>VIGNAIOLI PIEMONTESI S.C.A - ITALY</li>
+<li>ASSOCIACAO NACIONAL DAS DENOMINACOES DE ORIGEM VITIVINICOLAS - PORTUGAL</li>
+<li>BUREAU INTERPROFESSIONNEL DES VINS DE BOURGOGNE - FRANCE</li>
+<li>UNIVERSITE DE BOURGOGNE - FRANCE</li>
+<li>BODEGAS DEL MEDIEVO SL - SPAIN</li>
+<li>GAIAG SRL - ITALY</li>
+<li>UNIVERSITA DEGLI STUDI DI ROMA LA SAPIENZA - ITALY</li>
+<li><strong>AGENZIA REGIONALE PREVENZIONE E AMBIENTE DELL'EMILIA-ROMAGNA - ITALY</strong></li>
+<li>TECHNISCHE UNIVERSITAET WIEN - AUSTRIA</li>
+<li>INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE - FRANCE</li>
+</ul></section>
+                            <section class="doc-news">
+                    <h3>DOCUMENTI</h3>
+                                            <ul id="listaLinks">
+                                                    <li class="contenutoLink"><a href="http://cordis.europa.eu/search/index.cfm?fuseaction=proj.document&PJ_LANG=EN&PJ_RCN=12461682&q=337F25338E58BF91DEFD31475F2B4645&pid=0&type=pro" target="_blank">Testo ufficiale</a></li>
+                                                </ul>
+                                                                        </section>
+                                    <section class="info-news">
+                <table>
+                                                                    <tr class="infoRow">
+                        <td class="etichetta">
+                            <span>Link</span>
+                        </td>
+                        <td class="listaNews">
+                            <ul id="listaLinks">
+                                                    <li class="contenutoLink"><a href="http://first.aster.it/dossier/show_dossier.php?ID=16&MENU=01" target="_blank">- Accedi al dossier F1RST</a></li>
+                                                    </ul>
+                        </td>
+                    </tr>
+                                                                    <tr class="infoRow">
+                        <td class="etichetta">
+                            <span>Quadro di finanziamento</span>
+                        </td>
+                        <td class="listaNews">
+                            <ul id="listaProgrammi">
+                                                        <li class="contenutoProgramma"><a href="viewProgramma?ID=565" target="_blank">7FP-SME</a> : RICERCA A FAVORE DELLE PMI nell'ambito del programma specifico “Capacità” recante attuazione del Settimo programma quadro (2007-2013) di attività comunitarie di ricerca, sviluppo tecnologico e dimostrazione</li>
+                                                    </ul>
+                        </td>
+                    </tr>
+                                                                                    <tr class="infoRow">
+                        <td class="etichetta">
+                            <span>Area di interesse</span>
+                        </td>
+                        <td class="listaNews">
+                            <ul id="listaAree">
+                                                        <li class="contenutoArea">Unione Europea</li>
+                                                    </ul>
+                        </td>
+                    </tr>
+                
+                
+                                </table>
+            </section>
+                    </section>
+
+        <section class="footer-news">
+            <span>© Unione europea, 1995-2014
+Riutilizzo autorizzato con indicazione della fonte. La politica della Commissione europea in materia di riutilizzo si basa sulla decisione del 12 dicembre 2011 . Il principio generale del riutilizzo può essere soggetto a condizioni stabilite nei singoli avvisi sul copyright. Si rinviano pertanto gli utenti agli avvisi sul copyright che figurano nei singoli siti web del portale Europa e nei singoli documenti. Il principio non si applica ai documenti oggetto di diritti di proprietà intellettuale di terzi.</span>
+        </section>
+
+        <div id="segnalaDialog" title="Segnala la news n°25424">
+            <section class="box-generali">
+                <form id="" class="clearfix">
+                    <div class="field">
+                        <div class="form-row">
+                            <div class="child-first">Nome del mittente <span>(*)</span></div>
+                            <div class="child-last">
+                                <input type="text" id="nomeMittente" class="editor" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="child-first">Cognome del mittente <span>(*)</span></div>
+                            <div class="child-last">
+                                <input type="text" id="cognomeMittente" class="editor" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="child-first">Email del mittente <span>(*)</span></div>
+                            <div class="child-last">
+                                <input type="text" id="emailMittente" class="editor" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="child-first">Email del destinatario <span>(*)</span></div>
+                            <div class="child-last">
+                                <input type="text" id="emailDestinatario" class="editor"/>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="child-first">Testo del messaggio <span>(*)</span></div>
+                            <div class="child-last">
+                                <textarea type="text" id="testoMsg" class="editor" rows="10"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <div class="comandi">
+                <input type="button" id="send" class="sendButton" value="Invia" />
+                <input type="button" id="cancel" class="cancelButton" value="Annulla" />
+            </div>
+        </div>
+    </div>
+</section>
+
+                    <!-- fine content -->
+
+
+                </div>
+            </section> <!-- CHIUSURA BODY: MENUSX + CONTENT -->
+            
+                <div id="footer" class="rounded-shadow clearfix">
+    <div id="footer-nav">
+        <ul class="navbar_footer">
+            <li class="first"><a href="https://drive.google.com/open?id=0B6CGnfl93T9QVkNYdVVLM3VOb1k&authuser=0" title="">Privacy</a></li>
+            <li class="second"><a href="copyright" title="">Clausola di responsabilità</a></li>
+            <li class="last"><a href="mailto:first.admin@aster.it" title="">Per problemi tecnici: first.admin@aster.it</a></li>
+        </ul>
+        <a id="footer-cc" href="http://creativecommons.org/licenses/by-nd/3.0/deed.it"><img src="http://first.aster.it//images/aster/somerights20.gif"></a>
+    </div>
+    <div id="footer-img" class="footer-box"><img src="http://first.aster.it//images/aster/logo_footer.png" alt="" /> <span>&nbsp;Email: <a href="mailto:first@aster.it">first@aster.it</a></span></div>
+    <div id="footer-contacts" class="footer-box">ASTER S. Cons. p. A. <br />CNR Area della Ricerca di Bologna <br />Via Gobetti, 101 - 40129 - Bologna  <br />Tel. +39 051 6398099 </div>
+</div>
+
+            
+        </div> <!-- CHIUSURA extwrapper -->
+
+        <div id="error-dialog" title="Errore" style="display: none;">
+            <p>
+                <span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 50px 0;"></span>
+                <span id="error-message">Errore!</span>
+            </p>
+        </div>
+
+        <div id="info-dialog" title="Info" style="display: none;">
+            <p>
+                <span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 50px 0;"></span>
+                <span id="info-message">Info!</span>
+            </p>
+        </div>
+
+        <div id="confirm-dialog" title="Conferma" style="display: none;">
+            <p>
+                <span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 50px 0;"></span>
+                <span id="confirm-message">Conferma!</span>
+            </p>
+        </div>
+
+    </body>
+</html>

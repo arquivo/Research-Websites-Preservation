@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="hdMaster" runat="server">
+	    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+	    <meta name="description" content="Brunel University London"/>
+	    <meta name="keywords" content="Brunel University London, Service Status"/>
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	           
+        <!--[if IE]>
+            <link href="/styles/version_1_0_1/common-ie.css" rel="stylesheet" type="text/css"/>    
+        <![endif]-->
+        <!--[if IE 6]><link href="/styles/version_1_0_1/lhn-menu-ie6.css" rel="stylesheet" type="text/css" /> <![endif]-->
+		<!--[if IE 6]><link href="/styles/version_1_0_1/common-ie6.css" rel="stylesheet" type="text/css" /> <![endif]-->
+		<!--[if IE 7]><link href="/styles/version_1_0_1/common-ie7.css" rel="stylesheet" type="text/css" /> <![endif]-->	
+	<link href="//www.brunel.ac.uk/__brunel_brand/0/main-styles.css" rel="stylesheet" type="text/css"/>
+	<link href="/styles/brunel/override.css" rel="stylesheet" type="text/css" />
+        <title runat="server" id="pgeTitle">Home - Brunel University London</title>
+       
+</head>
+
+<body class="lt-ie9 ie ie10 js no-mobile desktop ie gt-ie6 gt-ie7 eq-ie8 lt-ie9 lt-ie10 lt-ie11 ie ie8">
+    
+    <div id="home">    
+        
+        <div class="header-wrap">    
+           <div class="header-border">
+            <div id="header">        
+			    <ul class="left">
+                    <li><a href="http://www.brunel.ac.uk/intranets"><strong>Intranets: Students &amp Staff</strong></a></li>
+                    <li><a href="http://www.brunel.ac.uk/colleges"><strong>Colleges & Institutes</strong></a></li>
+                    <li><a href="http://www.brunel.ac.uk/services"><strong>Administrative Services</strong></a></li>
+		    <li><a href="https://alumni1.brunel.ac.uk/"><strong>Alumni</strong></a></li>
+                </ul>
+
+                <ul class="right">
+		    <li><a href="http://www.brunel.ac.uk/about-this-website/privacy/cookies">Cookies</a></li>
+                    <li><a href="http://www.brunel.ac.uk/accessibility">Accessibility</a></li>
+                    <li><a href="http://www.brunel.ac.uk/about/campus/contact">Contact Brunel</a></li>
+                </ul>				
+                <div id="logo"><a href="/">Brunel University London</a></div>       
+		   </div>
+          </div>
+        </div>
+        
+      <div class="navigation-wrap"> 
+        <div class="navigation-border">        
+            <div id="navigation">
+                  <ul>
+        <li><a class="normal" href="http://www.brunel.ac.uk/courses">Courses</a>
+            		      
+        </li>
+            <li><a class="normal" href="http://www.brunel.ac.uk/life">Campus Life</a>
+            		      
+        </li>
+            <li><a class="normal" href="http://www.brunel.ac.uk/research">Research</a>
+            		      
+        </li>
+            <li><a class="normal" href="http://www.brunel.ac.uk/business">Business</a>
+            		      
+        </li>
+            <li><a class="normal" href="http://www.brunel.ac.uk/international">International</a>
+            		      
+        </li>
+            <li><a class="normal" href="http://www.brunel.ac.uk/news-and-events">News &amp; Events</a>
+            		      
+        </li>
+            <li><a class="normal" href="http://www.brunel.ac.uk/about">About Brunel</a>
+            		      
+        </li>
+ </ul>
+			    <div class="clear"></div>
+            </div>
+        </div>
+      </div>
+      
+      <div class="container-wrap">       
+            <div class="container-border">
+                <div id="container" class="col-3">                   
+                    <div id="left-sidebar">                         
+                        <p class="section-name">                                                                                   
+                           <a id="ancSectionName" runat="server"></a>
+                        </p>   
+                        <!--left hand navigation goes here--> 
+			<ul>
+				<li><a class="normal" href="https://webapps.brunel.ac.uk/apps/service_status/UI/admin/status_form.aspx?sysSection=2">Update service status</a></li>
+                                <li><a class="normal" href="https://webapps.brunel.ac.uk/apps/service_status/UI/admin/announcements.aspx?sysSection=3">Create announcement</a></li>
+			</ul>                      
+                         
+                    </div>
+		    
+                    <div class="content">                                                                     
+                        <!-- breadcrumbs -->
+                         <p id="breadcrumbs">
+                            <a href="http://www.brunel.ac.uk/">Home</a><span>>></span>
+                            <a href="http://www.brunel.ac.uk/life/study/computer-centre">Computer Centre</a><span>>></span>
+                            <label id="breadcrumbSection" runat="server">Service status</label>
+                         </p>                         
+                         <h1 class="page-title">Service status</label></h1>                             
+                         <iframe src="https://webapps.brunel.ac.uk/apps/service_status/UI/pages/service_status_sharepoint.aspx" height="880" width="720" frameborder="0"></iframe>
+                    </div>                   
+                    <!-- social bookmarking goes here if required -->                          
+                   <div class="clear"></div>
+                </div>
+            </div>        
+        <div class="clear"></div>
+      </div>
+       
+     <div class="footer-wrap">
+        <div class="footer-border">
+            <div id="footer">
+		<ul>
+            		<li><a href="http://www.brunel.ac.uk/about-this-website/terms">Terms and conditions</a></li>
+            		<li><a href="http://www.brunel.ac.uk/about-this-website/disclaimer">Disclaimer</a></li>
+            		<li><a href="http://www.brunel.ac.uk/about/administration/information-access/freedom-of-information">Freedom of Information</a></li>
+            		<li><a href="http://www.brunel.ac.uk/about-this-website/a-z">Sitemap</a></li>
+            		<li><a href="http://www.brunel.ac.uk/about-this-website">About this website</a></li>
+            		<li><a href="http://www.brunel.ac.uk/?SQ_DESIGN_NAME=feedback" id="page-feedback">Page feedback</a></li>
+        	</ul>
+                <p class="copyright">&copy; <a href="http://www.brunel.ac.uk/home">Brunel University London</a> 2014</p>
+                <div class="clear"><!-- Should be removed if footer will come through SSI--></div>
+            </div>
+        </div>
+</div>
+        
+    </div>
+   
+</body>
+</html>

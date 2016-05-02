@@ -1,0 +1,324 @@
+﻿<div id="cookie"><div class="cookieMessage"><p>This website uses own and third party cookies to give you the best experience when you visit our website.<br> By continuing to use this website, you consent to our use of these cookies. <a href="/sior/policies.php#cookies">More information</a>.</p><p>
+	<a class="btn btn-primary btn-sm" role="button" id="i_cookie_click">Accept</a></p></div></div>                
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<!--Title-->
+			<title>Social Impact Research of ALACs.Promotion of Participation and Citizenship in Europe through the "Advocacy and Legal Advice Centres (ALACs)" of Transparency International</title>
+	
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<!--[endif]-->
+	<link rel="shortcut icon" href="img/favicon.ico">
+	
+	<!-- cookies -->
+	<script src="js/cookies.js"></script>
+	
+	<!-- jQuery Version 1.11.0 -->	
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>	
+
+	<script type="text/javascript">
+		$("#i_cookie_click").click(function() 
+		{
+			var myCookie = setCookie("i_cookies", 2, 365);
+				$("#cookie").remove();
+					location.reload();
+		});	
+	</script>
+		
+</head>
+
+<body>
+	<!-- Google Analítics -->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58348133-1', 'auto');
+  ga('send', 'pageview');
+
+</script>	
+    <!-- Navigation -->
+	    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--<a class="navbar-brand" href="index.php"><strong>S</strong>ocial <strong>I</strong>mpact <strong>O</strong>pen <strong>R</strong>epository</a>-->
+				<a href="index.php"><img class="alignleft" src="img/logo_sior.png" height="70"></a>
+				<a href="index.php"><img class="alignleft" src="" width="40"></a>
+				<a href="www.ub.edu"><img class="alignleft" src="img/logoub.png" height="70"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+											<li>
+							<a href="index.php"><strong>Search</strong></a>
+						</li>
+											<li>
+							<a href="upload.php"><strong>Upload</strong></a>
+						</li>
+											<li>
+							<a href="sior.php"><strong>About</strong></a>
+						</li>
+											<li>
+							<a href="criteria.php"><strong>Criteria</strong></a>
+						</li>
+											<li>
+							<a href="contactus.php"><strong>Help</strong></a>
+						</li>												
+					<li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><strong>Log In</strong></a><div class="dropdown-menu" style="padding: 15px; padding-bottom: 10px;"><div><a href="https://orcid.org/oauth/authorize?client_id=APP-FJXAV0G8RLEW7ROQ&response_type=code&scope=/authenticate&redirect_uri=http://www.ub.edu/sior/bin/orcid.php&show_login=true" class="btn btn-default btn-lg btn-block"><img src="img/orcid_24x24.png"><small> Log In with ORCID</small></a></div><div style="text-align: center; padding: 15px; padding-bottom: 10px;"><h4>- OR -</h4></div><form class="form-horizontal" name="loginForm" id="loginForm" role="form" action="bin/login.php" method="post">Email:<br /><input type="text" id="login_username" name="login_username" value="" /><br /><br />Password:<br /><input type="password"  id="login_password" name="login_password" value="" /><br /><br /><input type="submit" class="btn btn-primary" value="Log In" /> <input type="hidden" id="location" name="location" value="Location: /sior/register.php"></form><br /><div><a href="http://ub.edu/sior/forgot_password.php">Forgotten password? </a></div><div><a href="http://ub.edu/sior/register.php">Register in SIOR</a></div></div></li>                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+	
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+
+        <!-- /.row -->
+		<div class="row">        
+			<div class="col-md-12">
+				<br>
+				<!-- For success/fail messages -->	
+								<br>
+				<!-- For success/fail messages -->		
+																
+				<div class="well">
+					<form role="form" id="search" action="/sior/search.php" method="post">
+						<div class="input-group">
+							<input type="text" class="form-control" id="searched" name="searched" >
+							<input type="hidden" id="searchedfield" name="searchedfield" >							
+							<div class="input-group-btn">
+								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-search"></i> <span class="caret"></span></button>								
+									<ul class="dropdown-menu dropdown-menu-right" role="menu">										
+										<li><a href="#" class="link_submition" id="all">All fields</a></li>				
+										<li><a href="#" class="link_submition" id="keyword">Keyword</a></li>
+										<li><a href="#" class="link_submition" id="acronym">Acronym</a></li>
+										<li><a href="#" class="link_submition" id="title">Title</a></li>
+										<li><a href="#" class="link_submition" id="institution">Institution</a></li>										
+										<li><a href="#" class="link_submition" id="researcher">Researcher</a></li>								
+										<li><a href="#" class="link_submition" id="targets">Targets</a></li>										
+										<li><a href="#" class="link_submition" id="discipline">Scientific field</a></li>														
+									</ul>																		
+							</div><!-- /btn-group -->												
+						</div>
+					</form>
+					<script type="text/javascript">
+						$(document).ready(function(){
+							$('.dropdown-toggle').dropdown();
+							
+							$(".link_submition").on("click",function(){
+								var i = $(this).attr('id');
+								
+								$('#searchedfield').val(i);
+								$("#search").submit();
+							});				
+						});	
+				</script>
+                </div>		
+			</div>
+		</div>
+        <div class="row">
+
+        <!-- Blog Entries Column -->
+		<div class="col-md-8">
+			<h1 class="page-header">ALACs                <small>Promotion of Participation and Citizenship in Europe through the "Advocacy and Legal Advice Centres (ALACs)" of Transparency International</small>
+            </h1>				
+			<div class="row">
+				<div class="col-md-4">
+					<p>  <i class="fa fa-calendar"></i>   <strong>From</strong> 2009-09-01 <strong>to</strong> 2012-10-31</p>				
+				</div>
+				<div class="col-md-2">
+					<p><i class="fa fa-cloud"></i>   <a href="http://www.soziologie.uni-konstanz.de/alacs/project/">Website</a></p>
+				</div>
+				<div class="col-md-6">
+					<p><i class="fa fa-bar-chart"></i><strong> Score: 7</strong></p> <p><small> This is the provisional score according to the available data</small></p>
+				</div>
+			</div>
+			<hr>
+			<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active"><a href="#pi" role="tab" data-toggle="tab"><strong>Project Impacts</strong></a></li>
+				<li role="presentation"><a href="#st" role="tab" data-toggle="tab"><strong>Targets Oriented</strong></a></li>
+				<li role="presentation"><a href="#rt" role="tab" data-toggle="tab"><strong>Research Team</strong></a></li>
+				<li role="presentation"><a href="#pd" role="tab" data-toggle="tab"><strong>Project Description</strong></a></li>
+			</ul>
+
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane fade in active" id="pi">
+					<br>
+					   
+						<!--<h3 class="page-header">Social Impact</h3>-->
+						<h3><strong>Improvement and efficiency in the fight against corruption through Advocacy and Legal Advice Centres (ALACs)</strong></h3><hr><h4><strong>Increase in the number of civil complaints against acts of corruption</strong></h4><br><p><i><strong>Evidence:</strong></i></p><p style="text-align: justify;">ALACs' Legal Advice service implemented in Romania, Czech Republic, Hungary, Ireland, Azerbaijan, and Bosnia & Herzegovina led to changes in cultural understanding of corruption and helped citizens to act against abuses.</p><br><p><i><strong>Source: </strong>Project document</i></p><p style="padding-left: 30px;"><small><a href="http://goo.gl/cf0yjf">http://goo.gl/cf0yjf</a></small></p><p><i><strong>Source: </strong>Project document</i></p><p style="padding-left: 30px;"><small><a href="http://goo.gl/UXvUhQ">http://goo.gl/UXvUhQ</a></small></p><hr><h4><strong>ALACs impact on national legislation.</strong></h4><br><p><i><strong>Evidence:</strong></i></p><p style="text-align: justify;">A campaign was organized in Romania aiming at protecting those who report through the implementation of Law No. 571 of 14 December 2004 regarding the protection of personnel within public authorities, public institutions and other establishments, who report infringements</p><br><p><i><strong>Source: </strong>Media coverage</i></p><p style="padding-left: 30px;"><small><a href="http://capacity4dev.ec.europa.eu/article/citizens-become-actors-fight-against-corruption">http://capacity4dev.ec.europa.eu/article/citizens-become-actors-fight-against-corruption</a></small></p><p><i><strong>Source: </strong>Official report (external from research team)</i></p><p style="padding-left: 30px;"><small><a href="http://www.transparency.org.ro/politici_si_studii/studii/avertizarea_de_integritate_europa/RomaniaCountryReport.pdf">http://www.transparency.org.ro/politici_si_studii/studii/avertizarea_de_integritate_europa/RomaniaCountryReport.pdf</a></small></p><hr><h4><strong>ALACs impact on the politics of Transparency International (Civil Society Organization)</strong></h4><br><p><i><strong>Evidence:</strong></i></p><p style="text-align: justify;">The projects for 2015 include to relaunch the ALAC project, to develop and broaden the ALAC projects and to include the ALAC approach as an integrated one in other projects instead of making it a separate element. As a result, ALAC will be the most active programme within the People Engagement Programme (PEP).</p><br><p><i><strong>Source: </strong>Project document</i></p><p style="padding-left: 30px;"><small><a href="http://goo.gl/cf0yjf">http://goo.gl/cf0yjf</a></small></p><hr>				</div>
+
+
+				<div role="tabpanel" class="tab-pane fade" id="st">
+					<br>
+					<table class="table table-striped">
+						 <thead>
+							<tr>
+								<th><small>Goals</small></th>
+								<th><small>Targets</small></th>
+								<th></th>
+							</tr>
+							</thead>
+							<tbody>				
+											
+							</tbody>
+					</table>
+				</div>
+
+				<div role="tabpanel" class="tab-pane fade" id="rt">
+					<br>
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th><small>Researcher</small></th>
+								<th><small><img class="alignnone" src="img/iD icon.png" width=""></img> ORCID</small></th>
+								<th><small>Institution/Foundation</small></th>
+								<th><small>Research Center</small></th>
+							</tr>
+						</thead>
+						<tbody>				
+							<tr><td><small>Dirk Tänzler</small></td><td><small><a href="http://orcid.org/"></a></small></td><td><small>Universitat Konstanz</small></td><td><small>Department of History and Sociology</small></td></td></tr><tr><td><small>Angelos Giannakopoulos</small></td><td><small><a href="http://orcid.org/"></a></small></td><td><small>Universitat konstanz</small></td><td><small></small></td></td></tr><tr><td><small>Ben Elers</small></td><td><small><a href="http://orcid.org/"></a></small></td><td><small>Transparency International EV</small></td><td><small></small></td></td></tr><tr><td><small>Ralf Rogowski</small></td><td><small><a href="http://orcid.org/0000-0003-3493-4074">0000-0003-3493-4074</a></small></td><td><small>University of Warwick</small></td><td><small></small></td></td></tr><tr><td><small>Rena Safaralieva</small></td><td><small><a href="http://orcid.org/"></a></small></td><td><small>Transparency-Azerbaijan Anti-Corruption Public Association</small></td><td><small></small></td></td></tr><tr><td><small>Srdjan Blagovcanin</small></td><td><small><a href="http://orcid.org/"></a></small></td><td><small>Borba Protiv Korupcije Bosnia I Hercegovina UG</small></td><td><small></small></td></td></tr><tr><td><small>Martin Lachmann</small></td><td><small><a href="http://orcid.org/"></a></small></td><td><small>Transparency International-Ceskarepublika OPS</small></td><td><small></small></td></td></tr><tr><td><small>Victor Alistar</small></td><td><small><a href="http://orcid.org/"></a></small></td><td><small>Asociatia Romana Pentru Transparenta</small></td><td><small></small></td></td></tr><tr><td><small>Salla Nazarenko</small></td><td><small><a href="http://orcid.org/"></a></small></td><td><small>Transparency Suomi RY</small></td><td><small></small></td></td></tr><tr><td><small>Adam Földes</small></td><td><small><a href="http://orcid.org/"></a></small></td><td><small>Transparency International Magyarország Alapítvány</small></td><td><small></small></td></td></tr><tr><td><small>John Devitt</small></td><td><small><a href="http://orcid.org/0000-0002-4366-8049">0000-0002-4366-8049</a></small></td><td><small>Transparency International (Ireland) LTD.</small></td><td><small></small></td></td></tr><tr><td><small>Sergej Muravjov</small></td><td><small><a href="http://orcid.org/"></a></small></td><td><small>Transparency International Lietuvosskyrius - Transparency Internationallithuanian</small></td><td><small></small></td></td></tr><tr><td><small>Kirsten Gercek</small></td><td><small><a href="http://orcid.org/"></a></small></td><td><small>Universitaet Duisburg-Essen</small></td><td><small></small></td></td></tr><tr><td><small>Nienke Palstra</small></td><td><small><a href="http://orcid.org/"></a></small></td><td><small>Transparency International Liaisonoffice To The European Union AISBL*TI EU Office</small></td><td><small></small></td></td></tr>						
+						</tbody>
+					</table>
+				</div>
+
+				<div role="tabpanel" class="tab-pane fade" id="pd">
+					<br>
+					<p style="text-align: justify;">With the focus on the Advocacy and Legal Advice Centres (ALACs) of Transparency International (TI), the leading CSO against corruption, the project objectives were: enhancing civil society participation raising anti-corruption effectiveness, and developing the advocacy for legal change at the national and EU level. Based on the insight that citizens participation and the values of integrity, accountability and transparency were crucial components of fighting corruption the project was designed to promote the ALACs both as a management tool of a bottom-up anti-corruption work and citizens participation mechanism. Combining action-research and practical implementation the project was designed as a process of organizational learning intended to have direct impact on the work of Transparency International and its partner organizations in Europe and all over the world.</p>
+					<hr>
+					<div class="row">
+						<div class="col-md-3">
+							<p><strong>Scientific field: </strong></p>
+						</div>						
+						<div class="col-md-9">
+								Social Sciences (SOC)
+	
+						</div>
+					</div>				
+					<div class="row">
+						<div class="col-md-3">
+							<p><strong>Keywords: </strong></p>
+						</div>						
+						<div class="col-md-9">
+								Anti-corruption, 
+Transparency International, 
+Europe participation, 
+citizenship, 
+	
+						</div>
+					</div>	
+					<div class="row">
+						<div class="col-md-3">
+							<p><strong>Contract Number: </strong></p>
+						</div>
+						<div class="col-md-9"> 
+							<p>225374</p>
+						</div>
+					</div>					
+					<div class="row">	
+						<div class="col-md-3">
+							<p><strong>Funding received:</strong></p>
+						</div>
+						<div class="col-md-9"><p>999804 €</p>						
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							<p><strong>Funding Agency: </strong></p>
+						</div>						
+						<div class="col-md-9">
+								<p>FP7 Cooperation</p>	
+						</div>		
+					</div>				
+				</div>
+			</div>		
+        </div>
+
+            <!-- Blog Sidebar Widgets Column -->
+            <div class="col-md-4">
+				
+                <!-- Side Widget Well -->
+				<div class="well">
+					<h4><a href="http://socialimpactscience.org/sis2016/"><img class="alignleft" src="img/logo_sis2016.png" width="320"></a></h4>
+					<h4 style="text-align: left;"><strong>BARCELONA, 25-29th OF JULY 2016</strong></h4>
+				</div>
+				
+                <div class="well">               
+
+					<a class="twitter-timeline" href="https://twitter.com/SIORepository" data-widget-id="644532352329363456" data-chrome="nofooter noscrollbar transparent">Twitter @SIORepository</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>			
+            </div>
+
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+				<footer>
+            <div class="row">
+				<div class="col-lg-12">
+                    <p style="text-align: center;"><a href="/sior/contactus.php">Contact us</a> | <a href="/sior/policies.php">Policies</a> | Copyright &copy; Social Impact Open Repository 2015</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+	<!-- Piwik -->
+		<script type="text/javascript">
+	  var _paq = _paq || [];
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+		//var u="//crea.ub.edu/sior/analytics/piwik/";
+		var u="//www.ub.edu/sior/analytics/piwik/";
+		_paq.push(['setTrackerUrl', u+'piwik.php']);
+		_paq.push(['setSiteId', 1]);
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+	<noscript><p><img src="//crea.ub.edu/sior/analytics/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!--<noscript><p><img src="//www.ub.edu/sior/analytics/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>-->
+	<!-- End Piwik Code -->	
+	
+</body>
+
+</html>

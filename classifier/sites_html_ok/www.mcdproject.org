@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<!--[if IE 7]>    <html class="no-js oldie ie7 ie" lang="en-US" > <![endif]-->
+<!--[if IE 8]>    <html class="no-js oldie ie8 ie" lang="en-US" > <![endif]-->
+<!--[if IE 9 ]>   <html class="no-js       ie9 ie" lang="en-US" > <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="en-US" > <!--<![endif]-->
+<head>
+        <meta charset="UTF-8" >
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <title>The MCD project | MCD Project</title>
+            
+        <!-- devices setting -->
+        <meta name="viewport"           content="initial-scale=1,user-scalable=no,width=device-width">
+	    
+        <meta name="author"             content="">
+	
+        <!-- feeds, pingback -->
+        <link rel="profile"             href="http://gmpg.org/xfn/11" />
+        <link rel="alternate"           href="http://www.mcdproject.org/feed/" type="application/rss+xml" title="MCD Project RSS2 Feed" />  
+        <link rel="pingback"            href="http://www.mcdproject.org/xmlrpc.php" />
+                
+        <link rel="stylesheet"          href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' >
+
+        <!-- enables HTML5 elements & feature detects -->
+        <script src="http://www.mcdproject.org/wp-content/themes/lotus/js/libs/modernizr-2.6.2.min.js"></script>
+    
+<!-- outputs by wp_head -->
+<link rel="alternate" type="application/rss+xml" title="MCD Project &raquo; Feed" href="http://www.mcdproject.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="MCD Project &raquo; Comments Feed" href="http://www.mcdproject.org/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.mcdproject.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='layerslider_css-css'  href='http://www.mcdproject.org/wp-content/plugins/LayerSlider/css/layerslider.css?ver=4.6.5' type='text/css' media='all' />
+<link rel='stylesheet' id='cuteslider-css'  href='http://www.mcdproject.org/wp-content/plugins/cuteslider/css/cuteslider.css?ver=1.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-settings-css'  href='http://www.mcdproject.org/wp-content/plugins/revslider/rs-plugin/css/settings.css?rev=4.0.4&#038;ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-captions-css'  href='http://www.mcdproject.org/wp-content/plugins/revslider/rs-plugin/css/dynamic-captions.css?rev=4.0.4&#038;ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-static-css'  href='http://www.mcdproject.org/wp-content/plugins/revslider/rs-plugin/css/static-captions.css?rev=4.0.4&#038;ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-base-css'  href='http://www.mcdproject.org/wp-content/themes/lotus/css/base.css?ver=2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-main-css'  href='http://www.mcdproject.org/wp-content/themes/lotus/css/main.css?ver=2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='superfish-css'  href='http://www.mcdproject.org/wp-content/themes/lotus/css/other/superfish.css?ver=2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-resp-css'  href='http://www.mcdproject.org/wp-content/themes/lotus/css/responsive.css?ver=2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-fonts-css'  href='http://www.mcdproject.org/wp-content/themes/lotus/css/fonts.css?ver=2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-stylesheet-css'  href='http://www.mcdproject.org/wp-content/themes/lotus/style.css?ver=2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='http://www.mcdproject.org/wp-content/themes/lotus/css/other/prettyPhoto.css?ver=3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jplayer-css'  href='http://www.mcdproject.org/wp-content/themes/lotus/css/other/jplayer/jplayer.css?ver=3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='userdefined-css'  href='http://www.mcdproject.org/wp-content/themes/lotus/css/other/custom.css?ver=2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='__EPYT__style-css'  href='http://www.mcdproject.org/wp-content/plugins/youtube-embed-plus/styles/ytprefs.min.css?ver=4.4.2' type='text/css' media='all' />
+<style id='__EPYT__style-inline-css' type='text/css'>
+
+                .epyt-gallery-thumb {
+                        width: 33.333%;
+                }
+</style>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/themes/lotus/js/libs/jquery-1.9.1.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/plugins/LayerSlider/js/layerslider.kreaturamedia.jquery.js?ver=4.6.5'></script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/plugins/LayerSlider/js/jquery-easing-1.3.js?ver=1.3.0'></script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/plugins/LayerSlider/js/jquerytransit.js?ver=0.9.9'></script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/plugins/LayerSlider/js/layerslider.transitions.js?ver=4.6.5'></script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.plugins.min.js?rev=4.0.4&#038;ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?rev=4.0.4&#038;ver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _EPYT_ = {"ajaxurl":"https:\/\/www.mcdproject.org\/wp-admin\/admin-ajax.php","security":"a7206b0514","gallery_scrolloffset":"20","eppathtoscripts":"http:\/\/www.mcdproject.org\/wp-content\/plugins\/youtube-embed-plus\/scripts\/","epresponsiveselector":"[\"iframe.__youtube_prefs_widget__\"]","epdovol":"1","version":"11.0.1","evselector":"iframe.__youtube_prefs__[src], iframe[src*=\"youtube.com\/embed\/\"], iframe[src*=\"youtube-nocookie.com\/embed\/\"]"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/plugins/youtube-embed-plus/scripts/ytprefs.min.js?ver=4.4.2'></script>
+<link rel='https://api.w.org/' href='http://www.mcdproject.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.mcdproject.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.mcdproject.org/wp-includes/wlwmanifest.xml" /> 
+<link rel="canonical" href="http://www.mcdproject.org/the-mcd-project/" />
+<link rel='shortlink' href='http://www.mcdproject.org/?p=86' />
+<link rel="alternate" type="application/json+oembed" href="http://www.mcdproject.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.mcdproject.org%2Fthe-mcd-project%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.mcdproject.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.mcdproject.org%2Fthe-mcd-project%2F&#038;format=xml" />
+<meta name="title"       content="The MCD project" /> 
+<!-- end wp_head -->
+
+<!--[if IE 7]>
+    <link rel="stylesheet"      href="http://www.mcdproject.org/wp-content/themes/lotus/css/ie7.css?ver=3.0" type="text/css" media="screen"/>
+<![endif]-->
+
+ 
+
+<!-- custom styles for plugins -->
+<link rel="stylesheet"  href="http://www.mcdproject.org/wp-content/themes/lotus/css/other/overwrite.css?ver=1.5" type="text/css" media="screen"/>
+
+ 
+    
+<!-- Media query for old IE
+[if lt IE 9]><script src="http://www.mcdproject.org/wp-content/themes/lotus/js/libs/modules/css3-mediaqueries.js"></script><![endif]-->
+
+</head>
+
+
+
+<body class="page page-id-86 page-parent page-template-default" >
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+<div id="inner-body">
+    
+        <div id="top-header">
+        <div class="container fold">
+            
+            <p>Mosquito Contamination Device</p>            
+                        
+        </div><!-- end container -->
+    </div><!-- end top header -->
+        
+    
+    <header id="siteheader" role="banner" class="wrapper">
+        <div class="container">
+	  	
+        <div id="sitetitle">
+            <div id="logo" class="fold" >
+                <div class="logo_inner">
+                    <section>
+                        <h4 class="site-title"><a href="http://www.mcdproject.org/" title="MCD Project" rel="home">MCD Project</a></h4>
+                        <p class="site-description">Mosquito Contamination Device</p>
+                    </section>
+                    <a href="http://www.mcdproject.org/" title="MCD Project" rel="home">
+                                                <img src="http://www.mcdproject.org/wp-content/uploads/2013/08/EU-MCD-logo.png"   alt="MCD Project" />
+                                            </a>
+                </div><!-- end logo inner -->
+                
+                <div class="nav-toggle"><a class="icon-reorder" href="#"></a></div>
+            </div><!-- end logo fold -->
+        </div><!-- end #sitetitle -->
+
+
+<!-- start navigation -->
+<nav id="access" class="menu-main-container"><ul id="menu-main" class="sf-menu"><li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-86 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-92"><a title="Our goal, background, MCD, objectives and workplan" href="http://www.mcdproject.org/the-mcd-project/">The MCD project</a>
+<ul class="sub-menu">
+	<li id="menu-item-273" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-273"><a href="http://www.mcdproject.org/the-mcd-project/">Project description</a></li>
+	<li id="menu-item-268" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-268"><a href="http://www.mcdproject.org/the-mcd-project/workplan/">Workplan</a></li>
+	<li id="menu-item-542" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-542"><a href="http://www.mcdproject.org/progress-2/">Progress</a>
+	<ul class="sub-menu">
+		<li id="menu-item-562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-562"><a href="http://www.mcdproject.org/prototype-results/">Prototype results</a></li>
+		<li id="menu-item-563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-563"><a href="http://www.mcdproject.org/field-tests/">Field tests</a></li>
+		<li id="menu-item-564" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-564"><a href="http://www.mcdproject.org/the-mcd-project/dm/">Deliverables &#038; milestones</a></li>
+	</ul>
+</li>
+	<li id="menu-item-364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-364"><a href="http://www.mcdproject.org/the-mcd-project/prototypes/">Prototypes</a>
+	<ul class="sub-menu">
+		<li id="menu-item-366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366"><a href="http://www.mcdproject.org/the-mcd-project/prototypes/eave-tubes/">Eave tubes</a></li>
+		<li id="menu-item-381" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381"><a href="http://www.mcdproject.org/the-mcd-project/prototypes/smart-patch/">Smart patch</a></li>
+		<li id="menu-item-480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="http://www.mcdproject.org/the-mcd-project/prototypes/oviposition-device/">Outdoor MCD</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-35"><a title="About us, The FP7 Health Innovation Initiative and our partners" href="http://www.mcdproject.org/about/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255"><a href="http://www.mcdproject.org/about/fp7-health-innovation-initiative/">FP7-Health-Innovation-Initiative</a></li>
+	<li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-91"><a href="http://www.mcdproject.org/about/partners/">Consortium partners</a>
+	<ul class="sub-menu">
+		<li id="menu-item-114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114"><a href="http://www.mcdproject.org/about/partners/in2care/">In2Care</a></li>
+		<li id="menu-item-113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113"><a href="http://www.mcdproject.org/about/partners/biogents/">Biogents</a></li>
+		<li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="http://www.mcdproject.org/about/partners/ctf2000/">CTF2000</a></li>
+		<li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="http://www.mcdproject.org/about/partners/penn-state-university/">Penn State University</a></li>
+		<li id="menu-item-110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="http://www.mcdproject.org/about/partners/ifakara-health-institute/">Ifakara Health Institute</a></li>
+	</ul>
+</li>
+	<li id="menu-item-236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-236"><a title="Our External Advisory Board  to provide advice and guidance" href="http://www.mcdproject.org/about/advisory-board/">Advisory Board</a></li>
+</ul>
+</li>
+<li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a title="The latest news" href="http://www.mcdproject.org/news/">News</a></li>
+<li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a title="Questions? Want to help? Need press photo&#8217;s? Get in touch" href="http://www.mcdproject.org/contact/">Contact</a></li>
+</ul></nav><!-- end navigation -->
+
+			
+        </div><!-- end of container -->
+    </header><!-- end header -->
+    
+            <header id="page-title-section" >
+            
+            <div class="page-header container ">
+                
+                <div class="container fold" >
+                    
+                    <section>
+                        <h1 class="page-title" itemprop="headline">The MCD project</h1>
+                                            </section>
+                    
+                <p id="axi_breadcrumbs"><span><a href="http://www.mcdproject.org">Home</a></span> / <span> The MCD project</span></p>
+  
+                
+                </div>
+           
+            </div><!-- end page header -->
+            
+        </header> <!-- end page header -->
+            
+
+      
+    
+    
+        
+    <div id="main" class="no-sidebar">
+        <div class="wrapper fold clearfix">
+            
+            <section id="primary" >
+                <div class="content" role="main"  >
+                    
+                            
+                                        
+                    <div class="container block">
+                        
+                                                
+                                                
+                        <article id="post-86" class="clearfix post-86 page type-page status-publish hentry" role="article" >
+                            
+                            <section class="post_content clearfix" itemprop="articleBody">
+                                
+                                                                
+                            </section> <!-- end article section -->
+                            
+                            <div class="clear"></div>
+                            
+                            <footer>
+                                                            </footer> <!-- end article footer -->
+                        
+                        </article> <!-- end article -->
+                        
+                        
+                              
+                        
+                        <div class="clear"></div>
+                        
+                                                
+                        
+                        <div class="entry-builder-wrapper">
+                            <div class="entry-builder container">
+                                <div class="entry-builder-frame">
+                                    
+                                          
+        <section class="widget-column  two_third">
+            
+            <section class="img-top">
+                                <div class="entry-content">
+                                                                    <p><p><a id="goal" name="goal"></a></p>
+
+<h3>Goal</h3>
+
+<p>The aim of this project is to develop novel malaria vector control tools that can be classified as ‘MCDs’ or ‘Mosquito Contamination Devices’. MCDs are devices that are attractive to mosquitoes and upon contact results in contamination and/or infection of the mosquitoes with insecticides.<br />
+<br />
+There is a dire need for innovative malaria vector control tools that can be implemented at house level or in an area-wide fashion. Our goal is to develop MCDs that can be exploited as novel vector control products and effectively kill malaria mosquitoes. We aim for product innovations that move beyond personal protection and can exert a major additional impact on mosquito densities and malaria transmission intensity in resource-poor countries.<br />
+ </p>
+</p>
+                                    </div>
+                            </section>
+            
+        </section><!-- widget-container -->
+        
+
+        <section class="widget-image widget-container one_third">
+            
+                      
+           <div class="widget-inner">
+               
+
+        <img alt="" src="http://www.mcdproject.org/wp-content/uploads/2013/08/mcd-diagram-4.gif" />
+    
+
+               
+           </div>
+           
+       </section>
+
+<div class="divider  solid one_one"  style="margin-top:7px; margin-bottom:7px;"  ><span class="scroll2top" data-autofade="false" >Go to top</span></div>      
+        <section class="widget-column  two_third">
+            
+            <section class="img-top">
+                                <div class="entry-content">
+                                                                    <p><p><a id="objectives" name="objectives"></a></p>
+
+<h3>Objectives</h3>
+
+<p><span style="line-height: 1.6em;">This Consortium aims to develop low-tech attractive stations containing novel mosquito control agents that can be used in integrated vector management (IVM) strategies to complement indoor vector control tools and face the challenge of insecticide resistance.<br />
+Its objectives are:</span></p>
+
+<ul>
+	<li>to develop long-lasting applications of mosquito infectants and contaminants,</li>
+	<li><span style="line-height: 1.6em;">to design and test new (low-tech) prototype devices</span></li>
+	<li><span style="line-height: 1.6em;">to lure and contaminate malaria mosquitoes by incorporating attractive stimulants</span></li>
+	<li><span style="line-height: 1.6em;">to test and optimize device impacts under tropical field conditions</span></li>
+</ul>
+</p>
+                                    </div>
+                            </section>
+            
+        </section><!-- widget-container -->
+        
+
+        <section class="widget-image widget-container one_third">
+            
+                      
+           <div class="widget-inner">
+               
+
+        <img alt="" src="http://www.mcdproject.org/wp-content/uploads/2013/08/muggen_met_bg.jpg" />
+    
+
+               
+           </div>
+           
+       </section>
+
+<div class="divider  solid one_one"  style="margin-top:7px; margin-bottom:7px;"  ><span class="scroll2top" data-autofade="false" >Go to top</span></div>      
+        <section class="widget-column  two_third">
+            
+            <section class="img-top">
+                                <div class="entry-content">
+                                                                    <p><p><a id="background" name="background"></a></p>
+
+<h3>Expected impacts</h3>
+
+<p>Malaria infects 300 million people worldwide every year, causing a massive public health and economic burden in developing countries. Current malaria control relies heavily on chemical insecticide technologies, such as Insecticide Treated Nets (ITNs) and Indoor Residual Sprayings (IRS), targeting the adult mosquito vectors. However, resistance is rapidly building up against these chemical insecticides and novel control agents with new and effective modes of action are thus urgently needed. There is, therefore, a dire need for an innovative vector control approach.<br />
+<br />
+Use of MCDs can help to move beyond personal protection and is expected to exert a major additional impact on mosquito densities. By developing an effective and low-cost MCD product that can be implemented in an Integrated Vector Management context we expect to:<br />
+<br />
+1) Deliver a precision-targeted and easy to deploy mosquito control device that can be used in the peri-domestic domain and provide a low-cost vector control tool that enables the effective use of novel bioactives and can complement existing malaria interventions.<br />
+2) Provide a means for effective resistance management, by enabling the efficient use of alternative insecticides, resistance-breaking powder applications, and/or the use of multiple bioactives (in combination therapies, mosaics or rotations) to slow the evolution of resistance.<br />
+3) Achieve complementing and potentially synergistic impacts between our MCDs and current tools such as Indoor Residual Spraying (IRS) and Insecticide Treated bednets (ITNs); rendering these chemical strategies more effective and expanding their effective lifespan.</p>
+</p>
+                                    </div>
+                            </section>
+            
+        </section><!-- widget-container -->
+        
+
+        <section class="widget-image widget-container one_third">
+            
+                      
+           <div class="widget-inner">
+               
+
+        <img alt="" src="http://www.mcdproject.org/wp-content/uploads/2013/08/malaria-infected-people-worldwide3.gif" />
+    
+
+               
+           </div>
+           
+       </section>
+
+                                    
+                                </div>
+                            </div><!-- axiom-builder container -->
+                        </div><!-- axiom-builder wrapper -->
+                        
+                        <div class="clear"></div>
+                        
+                        
+
+<!-- You can start editing here. -->
+
+
+        
+
+
+                    </div>
+                    
+                    
+                                                
+                    
+                </div><!-- end content -->
+            </section><!-- end primary -->
+            
+            
+            
+
+
+            
+        </div>
+    </div><!-- end main -->
+
+
+		
+    <footer id="sitefooter" class="wrapper" role="contentinfo" >
+        <div class="container fold">
+            
+                        
+            <div id="copyright">
+                                <small>The research leading to these results has received funding from the European Community’s Seventh Framework Programme under grant agreement No.306105 (MCD Project). 
+© 2013 Company. All rights reserved</small>
+                            </div>
+            
+                        <!-- end navigation -->
+            
+            
+        </div><!-- end of container -->
+    </footer><!-- end sitefooter -->
+    
+    <div class="scroll2top"></div>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46691973-1', 'mcdproject.org');
+  ga('send', 'pageview');
+
+    </script><!-- user custom js -->
+    
+    <!--[if (lte IE 8)]>
+    <script src="http://www.mcdproject.org/wp-content/themes/lotus/js/libs/polyfills/selectivizr-min.js"></script>
+    <![endif]-->
+     
+    <!-- outputs by wp_footer -->
+    <script type='text/javascript'>
+/* <![CDATA[ */
+var CSSettings = {"pluginPath":"http:\/\/www.mcdproject.org\/wp-content\/plugins\/cuteslider"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/plugins/cuteslider/js/cute.slider.js?ver=1.1.1'></script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/plugins/cuteslider/js/cute.transitions.all.js?ver=1.1.1'></script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/themes/lotus/js/plugins.js?ver=1.6'></script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/themes/lotus/js/libs/hoverIntent.js?ver=r7'></script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/themes/lotus/js/libs/superfish.js?ver=1.7.2'></script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/themes/lotus/js/libs/plugins/jquery.prettyPhoto.js?ver=3.1.5'></script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/themes/lotus/js/libs/plugins/jquery.fitvids.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/themes/lotus/js/libs/plugins/jquery.isotope.min.js?ver=1.5.25'></script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/themes/lotus/js/libs/plugins/jquery.touchSwipe.min.js?ver=1.3.3'></script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/themes/lotus/js/libs/plugins/jquery.mousewheel.min.js?ver=3.0.6'></script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/themes/lotus/js/libs/plugins/jquery.carouFredSel-6.1.0-packed.js?ver=6.1.0'></script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/themes/lotus/js/script.js?ver=1.8'></script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-content/plugins/youtube-embed-plus/scripts/fitvids.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.mcdproject.org/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+    <!-- end wp_footer -->
+    
+</div><!--! end of #inner-body -->
+</body>
+</html>

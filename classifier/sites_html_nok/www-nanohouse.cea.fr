@@ -1,0 +1,553 @@
+<HTML>
+<HEAD>
+<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>
+<link rel=stylesheet href='/home/lib/css/toc.css' type='text/css'>
+<TITLE> - NanoHouse</TITLE>
+	
+	<meta name="title" content="">
+	<meta name="Keywords" content="nano, nanohouse, use, recycling, nanotechnology-based products">
+	<meta name="Description" content="Website of the European project NanoHouse">
+	<meta name="audience" content="all">
+	<meta name="revisit-after" content="30 days">
+	<meta name="CONTENT-LANGUAGE" content="EN">
+	<meta name="robots" content="index, follow">
+	<meta name="expires" content="never">
+	<meta name="copyright" content="CEA">
+	
+	<meta name="Page-topic" content="NanoHouse">
+
+<script type='text/javascript' language=JavaScript>
+var tmp;
+function openWin(name,src,lngWidth,lngHeight,bScroll) {
+	var xCoord;
+	var yCoord;
+	var strAgent=navigator.userAgent;
+	if(tmp)tmp.close();
+	if (strAgent.indexOf('Mozilla/3')==-1 && strAgent.indexOf('MSIE 3')==-1)
+	{
+		xCoord=(screen.width/2 - (lngWidth/2));
+		yCoord=(screen.height/2 - (lngHeight/2));
+	}
+	tmp=open(src,name,'top='+ yCoord +',left='+ xCoord +',directories=no,menubar=no,scrollbars='+bScroll+',resizable=no,location=no,toolbar=no,width='+lngWidth+',height='+lngHeight);
+	if (strAgent.indexOf('MSIE 3')==-1) tmp.focus();
+}
+</SCRIPT>
+<link rel=stylesheet href='/home/lib/css/doc.css' type='text/css'>
+<link rel=stylesheet href='/home/lib/css/index.css' type='text/css'>
+</HEAD>
+<BODY bgColor=#ffffff leftMargin=0 topMargin=0 marginheight='0' marginwidth='0'>
+<a name='top'></a>
+<table cellSpacing=0 cellPadding=0 width='97%' border=0>
+  <tr>
+    <td vAlign=top width=192 rowSpan=2><a href="/home/index.htm"><img alt='' heigsht=85 src='/home/lib/img/top_1.gif' width=192 border=0></a></TD>
+    <td vAlign=bottom width='90%' background='/home/lib/img/fond_top.gif' height=49><img alt='' height=49 src='/home/lib/img/top_2.gif'></TD>
+  </tr>
+  <tr>
+    <td vAlign=top>
+      <table cellSpacing=0 cellPadding=0 width='100%' border=0>
+        <tr rowSpan=2>
+          <td vAlign=top class='backtitle'  align=left width=0 rowSpan=2><img alt='' sheight=36 src='/home/lib/img/top_3.gif'  sstyle='width:10px' ></TD>
+          <td vAlign=top class='backtitle' align=right width='98%'><font class='DocType'><div id='rubrique'>&nbsp;</div></font></TD><td width='5' class='backtitle'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan=3><img alt='' height=16 src='/home/lib/img/pix.gif' width=5 border=0></font></TD>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellSpacing=0 cellPadding=0 height='100%' width='97%' border=0>
+  <tr>
+    <td valign=top align=left rowSpan=2><img alt='' src='/home/lib/img/pix.gif' width='1' height='1'></td>
+    <td valign=top align=left rowSpan=2>
+      <table id=FolderTop border=0 cellspacing=0 cellpadding=0 width='100%'>
+        <tr><td align='left'><img alt='' src='/home/lib/img/menu1.gif' width=218 height=25></td></tr>
+        <tr><td align='left'><img alt='' src='/home/lib/img/menu1.gif' width=218 height=25></td></tr>
+        <tr><td align='left'><img alt='' src='/home/lib/img/uptableline.gif' ></td></tr>
+      </table>
+</td>
+ <script type='text/javascript'>
+ function GetTreeName(){
+ return "";
+ }
+ var currentFolderNumber=0;
+ var folderCounter=0;
+ var precItem;
+ var precLevel;
+ function changeFolder(FolderNumber) {
+ 	var precTop=136;
+ 	var precHeight=0;
+ 	var pad=0;
+ 	if (FolderNumber==currentFolderNumber) FolderNumber=0 ;
+ 	currentFolderNumber=FolderNumber;
+ 	for (i=1;i<folderCounter;i++) {
+ 		if (document.layers['FolderTitle'+i]){	
+ 			document.layers['FolderTitle'+i].visibility='show';
+ 			document.layers['FolderTitle'+i].top=precTop + precHeight;
+ 			precTop = document.layers['FolderTitle'+i].top;
+ 			precHeight = document.layers['FolderTitle'+i].clip.height;
+ 		}
+ 		if (document.layers['FolderChild'+i]){	
+ 			if (i==FolderNumber) {
+ 				document.layers['FolderChild'+i].visibility='show';
+ 				document.layers['FolderChild'+i].top=precTop + precHeight;
+ 				precTop= document.layers['FolderChild'+i].top;
+ 				precHeight= document.layers['FolderChild'+i].clip.height;
+ 			}
+ 			else 
+ 			{
+ 				document.layers['FolderChild'+i].visibility='hide';
+ 			}
+ 		}
+ 	}
+  document.layers['FolderBottom'].top=precTop + precHeight;
+ }
+ function showFirstLink(FolderNumber,strHref,strTarget) {
+ if (document.layers['FolderChild'+FolderNumber].visibility=='show')
+ window.open(strHref,strTarget);
+ }
+ function exitFolder(FolderNumber) {
+ 	currentFolderNumber=0;
+ }
+ function swapItem(level,itemId) {
+ return;
+ }
+document.getElementById('rubrique').innerHTML='<b></b><fosnt size=4></font>';
+ </SCRIPT>
+<layer id='FolderTitle1' style="visibility:visible">
+<link rel='stylesheet' href='/home/lib/css/toc.css' type='text/css'>
+<table class='Level1' cellpadding=0 cellspacing=0 border=0 width='220'>
+ <tr >
+ <td class='Level1Cell' width=160 valign='middle'>
+
+<a class='Level1Link' id='Link2' href="/scripts/home/publigen/content/templates/show.asp?P=55&L=EN&ITEMID=2" target="" onclick="swapItem(1,2)">
+Overview
+</a>
+</td>
+<td width=22 style='background-color:#B7B7B7;'>&nbsp;</td>
+</tr>
+</table>
+</layer>
+<layer id='FolderTitle2' style='position:relative;visibility:visible'>
+<link rel='stylesheet' href='/home/lib/css/toc.css' type='text/css'>
+<table class='Level1' cellpadding=0 cellspacing=0 border=0 width='220'>
+ <tr >
+ <td class='Level1Cell' valign='middle' width='160'>&nbsp
+<a class='Level1Link' href='javascript:void(0)' onclick='changeFolder(2)'>
+Project description</a></td>
+<td width=22 style='background-color:#B7B7B7;'>&nbsp;</td>
+</tr>
+</table>
+</layer>
+<layer id='FolderChild2' style='position:relative;visibility:hidden;width:100%'>
+<link rel='stylesheet' href='/home/lib/css/toc.css' type='text/css'>
+<table class='Level2' cellpadding=0 cellspacing=0 border='0' width='220'>
+<tr>
+<td class='Level2Cell' valign='middle' width=160 style='padding-left:15px;'>
+&nbsp
+<a class='Level2Link' id='Link4' href="/scripts/home/publigen/content/templates/show.asp?P=56&L=EN&ITEMID=4" target="" onclick="swapItem(2,4)">Project structure</a></td>
+<td width=22 style='background-color:#B7B7B7;'>&nbsp;</td>
+</tr>
+</table>
+<table class='Level2' cellpadding=0 cellspacing=0 border='0' width='220'>
+<tr>
+<td class='Level2Cell' valign='middle' width=160 style='padding-left:15px;'>
+&nbsp
+<a class='Level2Link' id='Link5' href="/scripts/home/publigen/content/templates/show.asp?P=57&L=EN&ITEMID=5" target="" onclick="swapItem(2,5)">Research activities</a></td>
+<td width=22 style='background-color:#B7B7B7;'>&nbsp;</td>
+</tr>
+</table>
+</layer>
+<layer id='FolderTitle3' style="visibility:visible">
+<link rel='stylesheet' href='/home/lib/css/toc.css' type='text/css'>
+<table class='Level1' cellpadding=0 cellspacing=0 border=0 width='220'>
+ <tr >
+ <td class='Level1Cell' width=160 valign='middle'>
+
+<a class='Level1Link' id='Link6' href="/scripts/home/publigen/content/templates/show.asp?P=59&L=EN&ITEMID=6" target="" onclick="swapItem(1,6)">
+Consortium
+</a>
+</td>
+<td width=22 style='background-color:#B7B7B7;'>&nbsp;</td>
+</tr>
+</table>
+</layer>
+<layer id='FolderTitle4' style='position:relative;visibility:visible'>
+<link rel='stylesheet' href='/home/lib/css/toc.css' type='text/css'>
+<table class='Level1' cellpadding=0 cellspacing=0 border=0 width='220'>
+ <tr >
+ <td class='Level1Cell' valign='middle' width='160'>&nbsp
+<a class='Level1Link' href='javascript:void(0)' onclick='changeFolder(4)'>
+Dissemination</a></td>
+<td width=22 style='background-color:#B7B7B7;'>&nbsp;</td>
+</tr>
+</table>
+</layer>
+<layer id='FolderChild4' style='position:relative;visibility:hidden;width:100%'>
+<link rel='stylesheet' href='/home/lib/css/toc.css' type='text/css'>
+<table class='Level2' cellpadding=0 cellspacing=0 border='0' width='220'>
+<tr>
+<td class='Level2Cell' valign='middle' width=160 style='padding-left:15px;'>
+&nbsp
+<a class='Level2Link' id='Link8' href="/scripts/home/publigen/content/templates/show.asp?P=60&L=EN&ITEMID=8" target="" onclick="swapItem(2,8)">Dissemination Reports</a></td>
+<td width=22 style='background-color:#B7B7B7;'>&nbsp;</td>
+</tr>
+</table>
+<table class='Level2' cellpadding=0 cellspacing=0 border='0' width='220'>
+<tr>
+<td class='Level2Cell' valign='middle' width=160 style='padding-left:15px;'>
+&nbsp
+<a class='Level2Link' id='Link9' href="/scripts/home/publigen/content/templates/show.asp?P=68&L=EN&ITEMID=9" target="MAIN" onclick="swapItem(2,9)">Last publications</a></td>
+<td width=22 style='background-color:#B7B7B7;'>&nbsp;</td>
+</tr>
+</table>
+</layer>
+<layer id='FolderTitle5' style='position:relative;visibility:visible'>
+<link rel='stylesheet' href='/home/lib/css/toc.css' type='text/css'>
+<table class='Level1' cellpadding=0 cellspacing=0 border=0 width='220'>
+ <tr >
+ <td class='Level1Cell' valign='middle' width='160'>&nbsp
+<a class='Level1Link' href='javascript:void(0)' onclick='changeFolder(5)'>
+Events</a></td>
+<td width=22 style='background-color:#B7B7B7;'>&nbsp;</td>
+</tr>
+</table>
+</layer>
+<layer id='FolderChild5' style='position:relative;visibility:hidden;width:100%'>
+<link rel='stylesheet' href='/home/lib/css/toc.css' type='text/css'>
+<table class='Level2' cellpadding=0 cellspacing=0 border='0' width='220'>
+<tr>
+<td class='Level2Cell' valign='middle' width=160 style='padding-left:15px;'>
+&nbsp
+<a class='Level2Link' id='Link11' href="/scripts/home/publigen/content/templates/show.asp?P=65&L=EN&ITEMID=11" target="" onclick="swapItem(2,11)">Events</a></td>
+<td width=22 style='background-color:#B7B7B7;'>&nbsp;</td>
+</tr>
+</table>
+</layer>
+<layer id='FolderTitle6' style="visibility:visible">
+<link rel='stylesheet' href='/home/lib/css/toc.css' type='text/css'>
+<table class='Level1' cellpadding=0 cellspacing=0 border=0 width='220'>
+ <tr >
+ <td class='Level1Cell' width=160 valign='middle'>
+
+<a class='Level1Link' id='Link12' href="/scripts/home/publigen/content/templates/show.asp?P=63&L=EN&ITEMID=12" target="" onclick="swapItem(1,12)">
+French version
+</a>
+</td>
+<td width=22 style='background-color:#B7B7B7;'>&nbsp;</td>
+</tr>
+</table>
+</layer>
+<script type='text/javascript'>
+var strCurrentFolderId=0
+folderCounter=7
+strCurrentLinkId=1
+lngFirstLinkID =2
+strCurrentLinkHRef = "/scripts/home/publigen/content/templates/show.asp?P=55&L=EN"
+requestSync = ""
+openFolder(0);</script>
+         <layer width=200 id='FolderBottom' style='visibility:visible'>
+         <link rel='stylesheet' href='/home/lib/css/toc.css' type='text/css'>
+      <table border=0 cellspacing=0 cellpadding=0 width='218'>
+        <tr>
+          <td align='right'>
+            <table width='100%' border='0' cellspacing='0' cellpadding='0' background='/home/lib/img/fond_rech.gif'>
+              <form name=rechercher method=post action='../search/speedsearch.asp'><input type=hidden name='L' value='EN'>              <tr background='/home/lib/img/fond_rech.gif' align='right'>
+                <td height='39'>                  <table width=218 border=0 cellspacing=0 cellpadding=0 background='/home/lib/img/pix.gif'>
+                    <tr>
+                      <td colspan=2 height=12><img alt='' src='/home/lib/img/pix.gif' width=25 height=8><img alt='' src='/home/lib/img/t_rech_EN.gif' width=115></td>
+                    </tr>
+                    <tr>
+                      <td align='right' width='141' valign='top'>
+                      <input type='text' id='KEY' name='KEY' value='' size='22' style='visibility:visible'>
+                      </td>
+                      <td align='right' valign='middle' width='77'>
+                      <input type=image border=0 src='/home/lib/img/submit_EN.gif' width=67 height=16 name=valider><img alt='' src='img/pix.gif' width=6 height=18>
+                      </td>
+                    </tr>
+                  </form>                  </table>                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr><td align=left><a href='mailto:francois.tardif@cea.fr'><img alt='' src='/home/lib/img/t_cont_EN.gif' border=0 usemap='#Map1'></a></td></tr>
+        <tr><td align=left><a href='/scripts/home/publigen/tree/templates/map.asp?TREE=sommaire_EN&L=EN'><img alt='' src='/home/lib/img/t_plan_EN.gif' border=0 usemap='#Map2'></a></td></tr>
+        <tr><td align=left><a target=printwin href='/scripts/home/publigen/content/templates/show.asp?P=55&L=EN&context=print'><img alt='' src='/home/lib/img/t_print_EN.gif' border=0 usemap='#Map2'></a></td></tr>
+        <tr><td align=left><a href='/scripts/home/publigen/content/search/whatsnew.asp?L=EN'><img alt='' src='/home/lib/img/t_news_EN.gif' border=0 usemap='#Map2'></a></td></tr>
+        <tr><td align=left><a href='?L=FR&P=55&vTicker=alleza'><img alt='' src='/home/lib/img/t_gb_EN.gif' border=0 usemap='#Map2'></a></td></tr>
+      </table>
+<table height='100%' border=0 cellspacing=0 cellpadding=0><tr height='30%'><td><br><br></td></tr><tr><td valign=top><br></td></tr><tr><td valign=top><map name='printMap'><area shape='rect' coords='1,99,128,114' href='/scripts/home/publigen/content/templates/show.asp?P=55&L=EN&context=print'></map><img src='/home/lib/img/backdown.gif' border=0 usemap='#printmap'></td></tr></table></layer>
+<script>
+changeFolder(strCurrentFolderId)
+if(strCurrentLinkId.length>0)
+         swapItem(1,strCurrentLinkId)
+else
+         swapItem(1,lngFirstLinkID)
+</script>
+    <td valign=top rowSpan=2><img alt='' height=1 src='/home/lib/img/pix.gif' width='18'></td>
+    <td valign=top width='80%'>
+      <table background='/home/lib/img/../../liblocal/images/nano_clair2.JPG' summary='' cellSpacing=0 cellPadding=0 width='100%' height='100%' border=0>
+      <tr height=30 valign='bottom'><td style='max-width:500px'><table width='100%' border=0 cellspacing=0 cellpadding=0><tr><td><img src='/home/lib/img/flechetitre.gif'></td><td width='10%' valign=bottom><font class='Title'><nobr>NanoHouse</nobr><br><img alt=''src='/home/lib/img/pix.gif' width='1'></font></td><td width='100%' background='/home/lib/img/titleline2.gif'></td></tr></table></td></tr>
+      <tr height=5><td width='100%' background='/home/lib/img/titleline.gif' ></td></tr>
+      <tr height=5><td width='100%'><img src='/home/lib/img/pix.gif' height='1'> </td></tr>
+      <tr><td valign=top>
+<table border='0' cellpadding=2 cellspacing=0>
+<tr><td width='70%' valign=top>
+<table border='0' width='100%'>
+<tr><td valign=top><b><font class='ParaTitle'>
+</font></b></td>
+</tr>
+<tr>
+<td>
+<font class='ParaText'>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: justify"><B style="mso-bidi-font-weight: normal"><SPAN lang=EN-GB style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-GB">NanoHouse</SPAN></B><SPAN lang=EN-GB style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-GB"> project in some words:<?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: justify"><SPAN lang=EN-GB style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-GB"><o:p>&nbsp;</o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: justify"><B style="mso-bidi-font-weight: normal"><SPAN lang=EN-GB style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-GB">NanoHouse</SPAN></B><SPAN lang=EN-GB style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-GB"> collaborative project is funded by the European Commission in the frame of FP7 programs: </SPAN><SPAN lang=EN-US style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-US">NMP-2009-1.3-1 &amp; ENV.2009.3.1.3.2 "Activities towards the development of appropriate solutions for the use, recycling and/or final treatment of nanotechnology-based products"</SPAN><SPAN lang=EN-GB style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-GB">.<o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: justify"><SPAN lang=EN-GB style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-GB">This project started January 2010 for a duration of 42 months (until 06/2013) and a total budget of 3.1&nbsp;M€.<o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: justify"><I style="mso-bidi-font-style: normal"><SPAN lang=EN-US style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-US">Collaborative project n° 247810</SPAN></I><I style="mso-bidi-font-style: normal"><SPAN lang=EN-GB style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-GB"><o:p></o:p></SPAN></I></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: justify"><SPAN lang=EN-GB style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-GB"><o:p>&nbsp;</o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: justify"><B style="mso-bidi-font-weight: normal"><SPAN lang=EN-GB style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-GB">This project aims at promoting </SPAN></B><B><SPAN lang=EN-US style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-US">a responsible and sustainable development of nanomaterials in building industry through a</SPAN></B><B style="mso-bidi-font-weight: normal"><SPAN lang=EN-GB style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-GB"> Life Cycle Thinking approach.<o:p></o:p></SPAN></B></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: justify"><SPAN lang=EN-GB style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-GB"><o:p>&nbsp;</o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: justify"><SPAN lang=EN-US style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-font-weight: bold; mso-ansi-language: EN-US">Nanomaterials can bring great advantages to building industry for sustainable development. Indeed, nanoparticles can increase the resistance to ageing (UV, mechanical stress, etc.) of construction materials particularly paints and coatings; they can replace toxic organic biocides and they can be advantageously used for air purification, thermal insulation, self cleaning, etc. Nevertheless, the development of nanomaterials in this economic area can develop dynamically only if the safety of humans and the environment is satisfactorily resolved. </SPAN><SPAN lang=EN-GB style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-GB">As far as human chronic exposure is concerned, addressing the issue of safety, and consequently of acceptability of nanoproducts calls for a focus on the places where people live. In this perspective, buildings and individual houses are critical in that, they constitute the major surrounding of people in developed countries.</SPAN><SPAN lang=EN-US style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-font-weight: bold; mso-ansi-language: EN-US"><o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: justify"><SPAN lang=EN-GB style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-GB"><o:p>&nbsp;</o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: justify"><SPAN lang=EN-GB style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-GB">The nine partners involved in <B style="mso-bidi-font-weight: normal">NanoHouse</B> project are generating missing data on the potential exposure levels and the hazard due to this chronic exposure for 2 nanoparticle types: nano silver and nano titanium dioxide contained in indoor and outdoor coatings and paints. Both direct and indirect exposures (through the environment to human: vegetables, drinking water) are considered.&nbsp;</SPAN></P></font></td>
+</tr>
+<tr>
+<td>
+<table border=0 cellspacing=2 cellpadding=2>
+<tr><td colspan=2><iframe src="/home/liblocal/docs/Overview/Overview.htm" scrolling='AUTO' frameborder='NO' width='675' height='550' marginheight='0' marginwidth='0'></iframe></td></tr></table>
+</td></tr>
+</table><br>
+<table width=100% ><tr height=1 bgcolor="#DDDDDD"  class="separators"><td></td></tr></table></td>
+<td valign=top width='15'>&nbsp;</td>
+<td valign=top><table id=newsmaintable width='100%' border='0' cellpadding=2 cellspacing=0>
+<tr><td class='titlecol2'>&nbsp;<img src='/home/lib/img/smallflechetitre.gif'>INFORMATIONS</font></td>
+</tr>
+<tr><td class='TitleCol2'><table width='100%' border=0 cellpadding=4 cellspacing=0><tr height=90><td valign=top class='bodycol2'><div class='paratext' style='position:relative;width:100%;height:90;overflow:hidden;' id=newsticker></div>
+</td></tr></table></td></tr></table><br>
+
+<script language=javascript>
+		var news, imgs,links,dates,targs,maxNews;
+		
+		news=new Array();
+		imgs=new Array();
+		links=new Array();
+		dates=new Array();
+		targs=new Array();
+			news[0]="Kick-off Meeting, January 19th-20th 2010, Grenoble, France";
+			imgs[0]="";
+			links[0]="";
+			dates[0]="";
+			targs[0]="MAIN";
+			maxNews=1;
+
+
+        var newsHeight=92;
+        var newsWidth=document.getElementById("newsticker").style.width;
+       	var newsPos=0;
+        var newsCurrentPos=0;
+        var newsMaxPos=92;
+	var internalHTML="";
+	
+	if (maxNews==0){
+  		maxNews=1;
+		news[0]="<br><br><center>pas<br> d'actualités.";
+		imgs[0]="";
+		links[0]="";
+		dates[0]="";
+		targs[0]="";
+	}
+
+	for (currNews=0;currNews<maxNews;currNews++){
+		internalHTML+=getHtmlCodeNews(currNews);
+	}
+	internalHTML+=getHtmlCodeNews(0);
+
+	document.getElementById('newsticker').innerHTML="<div id='newsContener' style='position:absolute;width:"+newsWidth+";'></div>";
+	document.getElementById('newsContener').innerHTML=internalHTML;
+
+	function getHtmlCodeNews(curNews){
+		var dc;
+		dc="<div style='height:92;width:100%;overflow=hidden;'>";
+		dc+="<table style='border-bottom: 1px solid #777777;border-top: 1px solid #777777' width=100% height=90 border=0 cellpading=0 cellspacing=0>";
+		dc+="<tr height=90><td width=100% >";
+		if(imgs[curNews]!=""){
+			dc+="<table width=100% height=90 border=0 cellpading=0 cellspacing=0>";
+			dc+="<tr height=85><td><img onload='if(this.width>60) this.style.width=60;if(this.height>80) this.style.height=80;' src='"+imgs[curNews]+"'></td><td valign=top><table border=0 cellspacing=0 cellpadding=0>";
+			if(dates[curNews]!="")
+				dc+="<tr><td align=center class=paratextsmall><i><b></b></i>"+dates[curNews]+"</td></tr>";
+			dc+="<tr height=55><td class='paratext'>"+news[curNews]+"</td></tr>";
+			if(links[curNews]!="")
+				dc+="<tr><td align=right class=linktextsmall><a href='"+links[curNews]+"' target='"+targs[curNews]+"'><img border=0 src='/home/lib/img//linksmall.gif'> more...</td></tr>";
+			dc+="</table></td></tr></table>";
+		}else{
+			dc+="<table width=100% height=90 border=0 cellspacing=0 cellpadding=0>";
+			if(dates[curNews]!="")
+				dc=dc+"<tr><td align=center class=paratextsmall><i><b>"+dates[curNews]+"</b></i></td></tr>";
+			dc=dc+"<tr  height=55><td class='paratext'>"+news[curNews]+"</td></tr>";
+			if(links[curNews]!="")
+				dc=dc+"<tr><td align=right class=linktextsmall><a href='"+links[curNews]+"' target='"+targs[curNews]+"'><img border=0 src='/home/lib/img//linksmall.gif'> more...</td></tr>";
+			dc=dc+"</table>";
+		}
+		dc+="</td></tr></table></div>";
+		return dc;
+	}
+
+
+	function loopNews(){
+	    if (newsCurrentPos>=newsHeight){
+	    	pauseImage();
+		return;
+	    }
+    	    newsCurrentPos+=1;
+    	    newsPos+=1;
+    	    document.getElementById('newsContener').style.top=-newsPos-2;
+          setTimeout ("loopNews()",40);
+        }
+ 
+	function pauseImage(){
+   		if (newsPos>=newsMaxPos) newsPos-=newsMaxPos;
+   		newsCurrentPos-=newsHeight;
+   		setTimeout("loopNews()",3000);
+ 	}
+	
+	newsCurrentPos=newsHeight;
+	newsPos=0;
+      document.getElementById('newsContener').style.top=-newsPos-2;
+	pauseImage();
+			
+   </script>
+<table width='100%' class='TitleCol2' border='0' cellpadding=2 cellspacing=0>
+<tr><td class=titlecol2>&nbsp;
+News</font></td>
+</tr>
+<tr><td class='cellcol2'><table width='100%' border=0 cellpadding=4 cellspacing=0><tr><td class='bodycol2'><table width='100%'  border='0' cellpadding=1 cellspacing=0>
+<tr><td><table width='100%' border=0 cellpadding=2 cellspacing=1><tr><td valign=top>
+<font class='ParaTextSmall'>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt"><B><SPAN lang=EN-GB style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-GB">NanoHouse partners actively support the European Nanosafety Cluster!<?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></SPAN></B></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-GB style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-GB">Peter Wick: <?xml:namespace prefix = u1 /><u1:City u2:st="on"><?xml:namespace prefix = st1 ns = "urn:schemas-microsoft-com:office:smarttags" /><st1:place w:st="on"><st1:City w:st="on">Lausanne</u1:City></st1:City></st1:place> 03/2010, <o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt"><st1:PersonName w:st="on" ProductID="Bernd Nowack"><SPAN lang=NL style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: NL">Bernd Nowack</SPAN></st1:PersonName><SPAN lang=NL style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: NL">: Ispra 04/2010, <o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt"><st1:PersonName w:st="on" ProductID="Peter Hoet"><SPAN lang=NL style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: NL">Peter Hoet</SPAN></st1:PersonName><SPAN lang=NL style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: NL">: <u1:City u2:st="on">Edinburg</u1:City> 06/2010, <u1:place u2:st="on"><u1:City u2:st="on"><o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-GB style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-GB">S. Zuin: <st1:City w:st="on"><st1:place w:st="on">Prague</u1:City></u1:place></st1:place></st1:City> 12/2010,<o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-GB style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-ansi-language: EN-GB">Peter Wick: next session<o:p></o:p></SPAN></P></font></td></tr></table></td></tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table><br>
+<table width='100%' class='TitleCol2' border='0' cellpadding=2 cellspacing=0>
+<tr><td class=titlecol2>&nbsp;
+Nanosafe 2012 Conference</font></td>
+</tr>
+<tr><td class='cellcol2'><table width='100%' border=0 cellpadding=4 cellspacing=0><tr><td class='bodycol2'><table width='100%'  border='0' cellpadding=1 cellspacing=0>
+<tr><td><table width='100%' border=0 cellpadding=2 cellspacing=1><tr><td valign=top>
+<map name="0%2E7055475">
+<area name="1" href="" target="" alt="" shape="RECT" coords="10,10,40,40">
+<area name="2" href="" target="" alt="" shape="RECT" coords="10,10,40,40">
+<area name="3" href="" target="" alt="" shape="RECT" coords="10,10,50,50">
+<area name="4" href="http://www.nanosafe.org/scripts/home/publigen/content/templates/show.asp?P=124&L=EN&ITEMID=56" target="_blank" alt="" shape="RECT" coords="1,0,302,121">
+<area name="5" href="" target="" alt="" shape="RECT" coords="10,10,50,50">
+<area name="6" href="" target="" alt="" shape="RECT" coords="10,10,50,50">
+<area name="7" href="" target="" alt="" shape="RECT" coords="10,10,40,40">
+<area name="8" href="" target="" alt="" shape="RECT" coords="10,10,40,40">
+<area name="9" href="" target="" alt="" shape="RECT" coords="10,10,40,40">
+<area name="10" href="" target="" alt="" shape="RECT" coords="10,10,40,40">
+<area name="11" href="" target="" alt="" shape="RECT" coords="10,10,40,40">
+<area name="12" href="" target="" alt="" shape="RECT" coords="10,10,50,50">
+<area name="13" href="" target="" alt="" shape="RECT" coords="10,10,50,50">
+<area name="14" href="" target="" alt="" shape="RECT" coords="10,10,50,50">
+</map>
+<img class='Image' align='left' border='0' usemap="#0%2E7055475" src='/home/liblocal/images/Logos/Logo%20Nanosafe%202012.jpg' width='300' height='122' border=0></td>
+<td valign=top>
+<font class='ParaTextSmall'>
+</font></td></tr></table></td></tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table><br>
+<table width='100%' class='TitleCol2' border='0' cellpadding=2 cellspacing=0>
+<tr><td class=titlecol2>&nbsp;
+nanoSMILE</font></td>
+</tr>
+<tr><td class='cellcol2'><table width='100%' border=0 cellpadding=4 cellspacing=0><tr><td class='bodycol2'><table width='100%'  border='0' cellpadding=1 cellspacing=0>
+<tr><td><table width='100%' border=0 cellpadding=2 cellspacing=1><tr><td valign=top>
+<map name="0%2E533424">
+<area name="1" href="http://www.nanosmile.org" target="_blank" alt="" shape="RECT" coords="0,0,201,142">
+</map>
+<img class='Image' align='left' border='0' usemap="#0%2E533424" src='/home/liblocal/images/Logos/Nanosmile_small_2.jpg' width='200' height='144' border=0></td>
+<td valign=top>
+<font class='ParaTextSmall'>
+</font></td></tr></table></td></tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table><br>
+<table width='100%' class='TitleCol2' border='0' cellpadding=2 cellspacing=0>
+<tr><td class=titlecol2>&nbsp;
+Partners</font></td>
+</tr>
+<tr><td class='cellcol2'><table width='100%' border=0 cellpadding=4 cellspacing=0><tr><td class='bodycol2'><table width='100%'  border='0' cellpadding=1 cellspacing=0>
+<tr><td><table width='100%' border=0 cellpadding=2 cellspacing=1><tr><td valign=top>
+<map name="0%2E5795186">
+<area name="1" href="http://www.cnrs.fr/index.php" target="_blank" alt="" shape="RECT" coords="389,415,504,527">
+<area name="2" href="http://isterre.fr/annuaire/pages-web-du-personnel/Lenaic-BONNEAU/Activite-a-l-ISTerre?lang=en" target="_blank" alt="" shape="RECT" coords="182,412,385,549">
+<area name="3" href="http://corporateportal.ppg.com/ppg/" target="_blank" alt="" shape="RECT" coords="10,421,161,528">
+<area name="4" href="http://www.gfcchimica.com/inglese/index.php" target="_blank" alt="" shape="RECT" coords="6,311,259,413">
+<area name="5" href="http://www.akzonobel.com/" target="_blank" alt="" shape="RECT" coords="265,316,514,394">
+<area name="6" href="http://www.ujf-grenoble.fr/37654972/1/fiche___pagelibre/" target="_blank" alt="" shape="RECT" coords="282,199,503,287">
+<area name="7" href="http://www.materispaints.it" target="_blank" alt="" shape="RECT" coords="8,240,280,312">
+<area name="8" href="http://www.kuleuven.be/english/" target="_blank" alt="" shape="RECT" coords="277,100,507,196">
+<area name="9" href="http://www.veneziaricerche.it/" target="_blank" alt="" shape="RECT" coords="11,147,274,233">
+<area name="10" href="http://www.empa.ch/plugin/template/empa/3/*/---/l=2/changeLang=true/lartid=/orga=/type=/theme=/bestellbar=/new_abt=/uacc=" target="_blank" alt="" shape="RECT" coords="172,4,453,81">
+<area name="11" href="http://www.cea.fr/english_portal" target="_blank" alt="" shape="RECT" coords="17,0,170,141">
+</map>
+<img class='Image' align='left' border='0' usemap="#0%2E5795186" src='/home/liblocal/images/Logos%20partenaires/logospartners%20nanohouse%2021112012.jpeg' width='529' height='591' border=0></td>
+<td valign=top>
+<font class='ParaTextSmall'>
+</font></td></tr></table></td></tr>
+<tr><td><table border=0 cellspacing=0 cellpadding=0>
+<tr><td valign=top><img src='/home/lib/img/link_ml.gif' width='9' height='9' border=0>&nbsp;</td><td valign='top'><a class='LinkTextSmall' href="https://contribution-epub.cea.fr/prjnanohouse/scripts/home/index.asp" target="_blank">Members</a>
+</td></tr></table>
+</td></tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table><br>
+</td></tr>
+</table>
+	  </td>
+	</tr>
+    </table>
+    </td>
+  </tr>
+  <TR>
+    <TD vAlign=top width='80%'>
+      <TABLE summary='' cellSpacing=0 cellPadding=0 width='100%' border=0>
+	<TR>
+	  <TD vAlign=bottom align=left width='95%' bgColor=#000000 height=1><IMG height=1 src='/home/lib/img/pix.gif' width=25></TD>
+        </TR>
+	<TR>
+	  <TD vAlign=bottom align=center width='95%' height=1>
+	    <SPAN class=Footer1>Site de NANOHOUSE - Last update : 21/11/2012 15:23:27 - <A class=Footer1 href='/scripts/home/publigen/content/templates/mentions_legales.asp' target=ml>Legal Notice</A></SPAN>
+	    <BR>
+	    <SPAN class=Footer2>&copy; CEA 2003-2016 All Rights Reserved </SPAN>
+	  </TD>
+	</TR>
+      </TABLE>
+    </TD>
+  </TR>
+</TABLE>
+<MAP id=homeMap name=homeMap><AREA alt='' shape=RECT coords=96,20,166,83 href='http://www.cea.fr/'></MAP>
+</BODY>
+</HTML>

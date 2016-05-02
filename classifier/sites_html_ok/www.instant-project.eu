@@ -1,0 +1,148 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2012 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/ and http://typo3.org/
+-->
+
+
+<link rel="shortcut icon" href="http://www.instant-project.eu/fileadmin/pictures/base/favicon.ico" type="image/x-icon; charset=binary">
+<link rel="icon" href="http://www.instant-project.eu/fileadmin/pictures/base/favicon.ico" type="image/x-icon; charset=binary">
+<title>Instant</title>
+<meta name="generator" content="TYPO3 4.6 CMS">
+<meta name="DESCRIPTION" content="Website for the EU project INSTANT">
+<meta name="KEYWORDS" content="Instant, Biosensor, Electrochemistry, RIfS, Impedance, Nanoparticles, Nano">
+<meta name="Author" content="Dominik Furin">
+
+<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_66eba5e499.css?1382704811" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/css/main.css?1375352359" media="all" title="main_css">
+<link rel="stylesheet" type="text/css" href="fileadmin/css/themes/blue/style.css?1375346593" media="all" title="tablesorter_css">
+
+
+
+<script src="fileadmin/js/jquery.js?1375347994" type="text/javascript"></script>
+<script src="fileadmin/js/jquery.tablesorter.min.js?1375347093" type="text/javascript"></script>
+<script src="fileadmin/js/instant.js?1375353230" type="text/javascript"></script>
+<script src="typo3temp/javascript_757c080409.js?1331939333" type="text/javascript"></script>
+
+
+<script type="text/javascript" src="typo3conf/ext/jq_fancybox/fancybox/js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="typo3conf/ext/jq_fancybox/fancybox/js/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="typo3conf/ext/jq_fancybox/fancybox/js/jquery.fancybox-1.3.1.pack.js"></script>
+	<link rel="stylesheet" href="typo3conf/ext/jq_fancybox/fancybox/css/jquery.fancybox.css" type="text/css" />
+	<script type="text/javascript">/* <![CDATA[ */
+			jQuery.noConflict();
+			(function($) { 
+				$(document).ready(function() {
+				if ($("*").is(".jqfancybox")) { 
+						$(".jqfancybox").fancybox({
+							"padding": 0,
+							"speedIn": 300,
+							"speedOut": 300,
+							"changeSpeed": 300,
+							"transitionIn": "elastic",
+							"transitionOut": "elastic",
+							"titlePosition": "over",
+							"titleShow": true,
+							"easingIn": "swing",
+							"easingOut": "swing",
+							"showCloseButton": true,
+							"showNavArrows": true,
+							"enableEscapeButton": true,
+							"overlayShow": true,
+							"overlayOpacity": 0.4,
+							"overlayColor": "#666",
+							"centerOnScroll": false,
+							"hideOnContentClick": false,
+							"onComplete"		 :	function() {
+														$("#fancybox-wrap").hover(function() {
+															$("#fancybox-title").show();
+														}, function() {
+															$("#fancybox-title").hide();
+														});
+												 	},  "titleFormat": function(title, currentArray, currentIndex, currentOpts) { return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' of ' + currentArray.length + (title.length ? ' : &nbsp; ' + title : '') + '</span>';}
+				});
+			 } 
+			});})(jQuery);
+			/* ]]> */
+		</script><!-- /FANCYBOX -->
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+  <!-- Header -->
+  <div id="header">
+    <table width="100%">
+      <tr>
+        <td><img src="fileadmin/pictures/base/logo.png" width="146" height="146"/></td>
+        <td>
+          <div align="center">
+            <h1>
+              <p>&nbsp;</p>
+              <p>INSTANT</p>
+              Innovative Sensor for the fast Analysis of Nanoparticles in Selected Target Products
+            </h1>
+          </div>
+        </td>
+        <td><div align="right"><img src="fileadmin/pictures/base/fp7logo.png"/></div></td>
+      </tr>
+    </table>
+  </div>  
+  
+  <!-- Header -->
+  <div id="topnav"><a href="index.php?id=58"  ><img src="typo3temp/menu/0108e5fa7d.gif" width="100" height="20" border="0" alt="Search" /></a><a href="index.php?id=55"  ><img src="typo3temp/menu/de370e2f26.gif" width="100" height="20" border="0" alt="Login" /></a><a href="index.php?id=26"  ><img src="typo3temp/menu/114b6e5dbf.gif" width="100" height="20" border="0" alt="Registration" /></a><a href="index.php?id=56"  ><img src="typo3temp/menu/8d24e4bde3.gif" width="100" height="20" border="0" alt="Imprint" /></a></div>
+
+  <!-- Main -->
+  <div id="content">
+    <table>
+      <tr>
+        <td valign="top"><div id="nav"><ul><li><a href="index.php?id=22"  ><img src="typo3temp/menu/edea8233f8.gif" width="149" height="30" border="0" alt="INSTANT" /></a></li><li><a href="index.php?id=21"  ><img src="typo3temp/menu/f297f59a74.gif" width="149" height="30" border="0" alt="PROJECT OVERVIEW" /></a></li><li><a href="index.php?id=10"  ><img src="typo3temp/menu/83522023ad.gif" width="149" height="30" border="0" alt="PROJECT PARTNERS" /></a></li><li><a href="index.php?id=8"  ><img src="typo3temp/menu/6044956361.gif" width="149" height="30" border="0" alt="NEWS" /></a></li><li><a href="index.php?id=7"  ><img src="typo3temp/menu/79db532b22.gif" width="149" height="30" border="0" alt="CONTACT" /></a></li></ul></div></td>      
+        <td valign="top">
+          
+	<!--  CONTENT ELEMENT, uid:104/image [begin] -->
+		<div id="c104" class="csc-default" >
+		<!--  Image block: [begin] -->
+			<div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap csc-textpic-single-image" style="width:600px;"><a href="uploads/pics/staff.png" rel="fancybox104" class="jqfancybox"><img src="typo3temp/pics/f3bd46b8e9.png" width="600" height="254" border="0" alt="" /></a></div></div><div class="csc-textpic-clear"><!-- --></div>
+		<!--  Image block: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:104/image [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:2/textpic [begin] -->
+		<div id="c2" class="csc-default" >
+		<!--  Image block: [begin] -->
+			<div class="csc-textpic csc-textpic-center csc-textpic-below csc-textpic-equalheight"><div class="csc-textpic-text">
+		<!--  Text: [begin] -->
+			<h3> &nbsp;FP7-NMP-2011-SME-5<br /> &nbsp;NMP4-SE-2012-280550 </h3>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext"><span lang="EN-US">In recent years, nanotechnology has been a hot topic in the scientific community due to the specific properties in the nanoscale and has become an enabling technology for numerous applications. Especially engineered nanoparticles (ENPs) have shown various beneficial properties. In many fields of application, these ENPs have left the scientific laboratories and made their way to consumer products. Beside their advantages, ENPs are under discussion in the scientific community due to possible unforeseen hazards and an unknown disposition in living organisms and the environment. Nanoparticles (NPs) have drawn vast public attention due to their application in many consumer products (e.g. cosmetics, food and food packaging, drinks). Following t</span><span lang="EN-US">he “Opinion of the Scientific Committee on the Potential Risks Arising from Nanoscience and Nanotechnologies on Food and Feed Safety” released by the European Food Safety Authority (EFSA) in 2009, the European Commission tackles this arising matter of public concern within the current FP7 NMP theme. </span></p>
+<p class="bodytext"><span lang="EN-US">One of the key challenges is the detection, identification and quantification of engineered nanoparticles in complex matrices, such as products, food and the environment. However, currently none of the existing techniques allows for a holistic approach which is able to analyze all ENPs’ properties in a single step. </span></p>
+<p class="bodytext"><span lang="EN-US">Recently emerging engineered nanoparticles (ENPs) include Ag, SiO2, TiO2, ZnO, and organic NPs. The “Opinion of the Scientific Committee on the Potential Risks Arising from Nanoscience and Nanotechnologies on Food and Feed Safety” released by the European Food Safety Authority (EFSA) (2009) also highlights the urgent need for such a tool. Accordingly, the interdisciplinary project INSTANT will develop an innovative and integrated technology for monitoring the exposure of consumers to ENPs using a label free opto-electrochemical sensor array in combination with novel recognition elements.</span></p>
+<p class="bodytext"><span lang="EN-US">INSTANT will face this challenge by developing a fully integrated tool for the extraction of ENPs from complex matrices and their subsequent detection and identification. The device will be tailored to be used as a cost-effective monitoring tool, allowing for analytics of food and cosmetics close to the point of need (Point-of-Product Testing POPT and Point-of-Food Testing POFT).</span></p>
+<p style="text-autospace:none" class="bodytext"><span lang="EN-US">Accordingly, the project INSTANT is organized in a workflow using complementary expertise of well-known partners in their fields from all over Europe.</span></p>
+<p class="bodytext">The detection and identification of ENPs in cosmetic products, food and/or drinks require an efficient sample preparation and extraction of ENPs from these complex matrices. Especially the size distribution of ENPs in the sample and the influence of the matrix on chemical and physical properties of the ENPs have to be taken into account. INSTANT will develop a generalized extraction protocol to isolate and pre-concentrate ENPs from food and cosmetic samples. An extraction protocol, as generalized as possible, will be developed for the extraction of ENPs from complex matrices. This generalized protocol allows for an extension in the future to a wider range of samples (e.g. for environmental monitoring).</p>
+		<!--  Text: [end] -->
+			</div><div class="csc-textpic-imagewrap" style="width:600px;"><div class="csc-textpic-imagecolumn" style="width:175px;"><div><a href="uploads/pics/EKUT_03.jpg" rel="fancybox2" class="jqfancybox"><img src="typo3temp/pics/44b016c52b.png" width="95" height="25" border="0" alt="" /></a></div><div><a href="uploads/pics/CD_02.jpg" rel="fancybox2" class="jqfancybox"><img src="typo3temp/pics/fb9c3adec6.png" width="175" height="46" border="0" alt="" /></a></div></div><div class="csc-textpic-imagecolumn" style="width:365px;"><div><a href="uploads/pics/BM_02.jpg" rel="fancybox2" class="jqfancybox"><img src="typo3temp/pics/9a06945ca7.png" width="97" height="25" border="0" alt="" /></a></div><div><a href="uploads/pics/NANO_02.jpg" rel="fancybox2" class="jqfancybox"><img src="typo3temp/pics/9d75872bc9.png" width="355" height="46" border="0" alt="" /></a></div></div><div class="csc-textpic-imagecolumn" style="width:35px;"><div><a href="uploads/pics/UMU_02.png" rel="fancybox2" class="jqfancybox"><img src="typo3temp/pics/79b8e875f5.png" width="25" height="25" border="0" alt="" /></a></div></div><div class="csc-textpic-imagecolumn" style="width:99px;"><div><a href="uploads/pics/UNIVIE_02.jpg" rel="fancybox2" class="jqfancybox"><img src="typo3temp/pics/e139e02ea3.png" width="89" height="25" border="0" alt="" /></a></div></div><div class="csc-textpic-imagecolumn" style="width:46px;"><div><a href="uploads/pics/UCO_02.jpg" rel="fancybox2" class="jqfancybox"><img src="typo3temp/pics/64eb40c573.png" width="36" height="25" border="0" alt="" /></a></div></div><div class="csc-textpic-imagecolumn" style="width:48px;"><div><a href="uploads/pics/SITEX_02.jpg" rel="fancybox2" class="jqfancybox"><img src="typo3temp/pics/41109e95c9.png" width="38" height="25" border="0" alt="" /></a></div></div><div class="csc-textpic-imagecolumn" style="width:111px;"><div><a href="uploads/pics/SINATEC_02.jpg" rel="fancybox2" class="jqfancybox"><img src="typo3temp/pics/1a54354e91.png" width="101" height="25" border="0" alt="" /></a></div></div><div class="csc-textpic-imagecolumn" style="width:59px;"><div><a href="uploads/pics/BAM_02.jpg" rel="fancybox2" class="jqfancybox"><img src="typo3temp/pics/2a43a30770.png" width="49" height="25" border="0" alt="" /></a></div></div></div></div><div class="csc-textpic-clear"><!-- --></div>
+		<!--  Image block: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:2/textpic [end] -->
+		
+        </td>
+        <td><div id="right"></div></td>
+      </tr>
+    </table>    
+  </div>
+  
+  <!-- Footer -->
+  <div align="left">    
+  </div>
+
+
+
+
+</body>
+</html>

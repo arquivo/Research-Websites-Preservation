@@ -1,0 +1,500 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <title>Fiducia : FP7 RESEARCH PROJECT</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="keywords" content="generic" />
+    <meta name="description" content="generic" />
+ 
+       <link rel = "stylesheet" href = "/demo/css/fiducia.css" type = "text/css" />    
+ 
+	<link rel="Shortcut Icon" type="image/ico" href="/favicon.ico" />
+   		<style type="text/css" title="currentStyle">
+		 
+	  
+			@import "/addons/datatables/media/css/demo_table.css";
+			@import "/addons/datatables/examples/examples_support/themes/smoothness/jquery-ui-1.8.4.custom.css";
+		</style>
+    
+ 
+    
+<script type="text/javascript">
+var base_url = "http://fiduciaproject.eu";
+var tpl_url = "/templates/frontend/blue";
+</script>
+
+<link rel="stylesheet" href="http://f.fontdeck.com/s/css/zH28mslJNSfrEtk/N8vkA5GMvEQ/www.fiduciaproject.eu/18516.css" type="text/css" />
+<link rel="stylesheet" href="http://f.fontdeck.com/s/css/zH28mslJNSfrEtk/N8vkA5GMvEQ/fiduciaproject.eu/18516.css" type="text/css" />
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> 
+<script type="text/javascript" src="/templates/frontend/blue/js/jquery.livequery.pack.js"></script>
+
+<script type="text/javascript" src="/templates/frontend/blue/js/jquery.fiducia.js"></script>
+ 
+
+
+
+<script type="text/javascript" src="http://fiduciaproject.eu/addons/autocomplete/jquery.autoSuggest.js"></script>
+<link href="http://fiduciaproject.eu/addons/autocomplete/autoSuggest.css" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript" language="javascript" src="http://fiduciaproject.eu/addons/datatables/media/js/jquery.dataTables.js"></script> 
+ 
+<script src="/demo/scripts/jquery.idTabs.min.js"></script>   
+ 
+
+ 
+       
+<style>
+.stripped tr.even .itemRow {background-color:#f9f9f7; border-top:dashed #cbcbc4 1px; border-bottom:dashed #cbcbc4 1px;}
+.stripped tr.even  {background-color:#f9f9f7; border-top:dashed #cbcbc4 1px; border-bottom:dashed #cbcbc4 1px;} 
+.attFiles {height:30px; margin-top:20px; font-size:16px; color:#4d4a42;}
+.tt {position:relative; z-index:24; color:#4d4a42; font-size:12px; }
+	.tt:hover {z-index:25; color:#949488; background:; cursor:help; outline:none; text-decoration:none; }
+	.tt div {display:none; z-index:26;
+			border-radius:5px 5px; -moz-border-radius:5px; -webkit-border-radius:5px; 
+			box-shadow:4px 4px 4px rgba(255, 102, 0, 0.2); -webkit-box-shadow:4px 4px rgba(255, 102, 0, 0.2); -moz-box-shadow:4px 4px rgba(255, 102, 0, 0.2);}
+	.tt:hover div {z-index:26; display:block; position:absolute; left:0px; top:0px; padding:7px; background-color:#fff; border:#f60 solid 1px;}
+/* paging */
+.paging {margin-top:20px; padding-top:5px; border-top:dotted #cbcbc4 2px;}
+.paging a {float:left; display:block; padding-left:8px; font-size:16px;}	
+
+
+#errors, .error_message {    color:red; font-size:14px }
+#messages,.messages {color:green;  font-size:14px }
+	#submContactButton1 {float:right; text-align:right; font-size:22px;}
+	#submContactButton1 a {color:#4d4a42;}
+	#submContactButton1 a:hover {color:#f60;}
+ 
+</style> 
+<script type="text/javascript"> 
+$(document).ready(function () {	
+ 	
+	/* slide Menu */
+	$('#nav li').hover(
+		function () { $('ul', this).slideDown(400);}, 
+		function () {$('ul', this).slideUp(400);}
+	);
+	
+});
+</script>
+ <script type="text/javascript">
+
+ 
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-32407080-1']);
+
+  _gaq.push(['_trackPageview']);
+
+ 
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+ 
+
+</script>
+
+
+                   
+</head>
+<body> 
+ 
+ <div id="container">
+
+	<!-- Header & Login -->
+  	<div id="header">
+        <div id="divL">
+        	<a href="/"><img src="/demo/img/Fiducia_logo.png" /></a><img src="/demo/img/sp.png" /><img src="/demo/img/fp7_research_project.png" /><a href="http://cordis.europa.eu/fp7/home_en.html" target="_blank"><img src="/demo/img/eu_logo_new2.png" /></a></div>
+        <div id="divR">
+       	  <div class="login">
+          
+            	 
+                <!-- log-in member -->
+ 
+                
+                 <form style="margin:0;" name="login_form" method="post" action="/login">
+                    <h3>Member's Log-in</h3>
+                   
+                      
+                      <input name="username" type="text" class="field fieldL" id="login_username" value="your e-Mail" maxlength="120" onblur="if(this.value=='') this.value='your e-Mail';" onfocus="if(this.value=='your e-Mail') this.value='';" /><br />
+                       
+                      <input name="password" type="password" class="field fieldL" id="login_password" value="password" maxlength="120"  onblur="if(this.value=='') this.value='password';" onfocus="if(this.value=='password') this.value='';" /> 
+                      <input type="image" src="/demo/img/arrow_btn.png" align="absmiddle" alt="Submit button">
+                       <br />
+                    <span><a href="/lost">Forgot Password?</a></span>
+                  
+                </form>                 
+                   	  
+          </div>
+                 
+        </div>
+        <div class="clear"></div>
+  </div>
+
+
+
+
+ 
+ 	<!-- Menu --> 
+    <div id="menuSpace"></div>  
+    <div id="menuContainer">
+      <div style="padding-top:4px;">
+    	<ul id="nav">
+        	<li><a href="/" >Home</a></li>
+            
+      		<li><a href="#"  >The Project</a>
+                <ul>
+                  <div class="Mout">
+                    <div class="div1"><img src="/demo/img/theProject_icon_48.png" /></div>
+                    <div class="div2">
+                    	<a href="/page/21">About The Project</a>
+                        <a href="/wps">Areas of Research</a>
+                        <a href="/page/45">Deliverables</a>  
+                        <a href="/brochures">Brochures</a>                   </div>
+                    <div class="clear"></div>
+                  </div>
+                  <div class="divBottom"></div>
+                </ul>
+          	</li>
+            
+            <li><a href="/partners">Partners</a>
+                <!-- <ul>
+                    <div class="Mout">
+                        <div class="div1"><img src="/demo/img/partners_icon_48.png"/></div>
+						<div class="div2">
+                        	<a href="Organizations.html">Organizations</a>
+                            <a href="Media.html">Media</a>
+                            <a href="Sponsors.html">Sponsors</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="divBottom"></div>
+                </ul> -->
+            </li>
+            
+            <li><a href="#">Resources</a>
+                <ul>
+                    <div class="Mout">
+                        <div class="div1"><img src="/demo/img/articles_icon_48.png"/></div>
+                        <div class="div2">
+                        
+                            <a href="/publications">Other Publications</a>
+                            <a href="/fiducia_publications">Publications</a>
+							 <a href="/fiducia_policy_briefs">Policy Briefs</a> 
+                                                    </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="divBottom"></div>
+                </ul>
+            </li>
+            
+            <li><a href="#">Areas of Research</a>
+                <ul>
+                    <div class="Mout">
+                        <div class="div1"><img src="/demo/img/wGroups_icon_48.png"/></div>
+                        <div class="div2">
+                        	<a href="/packages">Work Packages</a>
+                            <a href="/tasks">Tasks</a>
+                            <a href="/members">All Members</a>
+                            <a href="/deliverables">Deliverables</a>
+                            <a href="/library">Library</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="divBottom"></div>
+                </ul>
+            </li>
+            
+           
+            
+           <li><a href="#">Events</a>
+                <ul>
+                    <div class="Mout">
+                        <div class="div1"><img src="/demo/img/events_icon_48.png"/></div>
+                        <div class="div2">
+                        	<a href="/events">Upcoming Events</a>
+                            <a href="/events_archived">Archived Events</a>                        </div>
+                      <div class="clear"></div>
+                    </div>
+                    <div class="divBottom"></div>
+                </ul>
+            </li>
+            
+           <li><a href="#">Newsroom</a>
+                <ul>
+                    <div class="Mout">
+                        <div class="div1"><img src="/demo/img/news_icon_48.png"/></div>
+                        <div class="div2">
+                            <a href="/news">Latest News</a>
+                             <a href="/news_archived">Archived News</a> 
+                            <a href="/press_releases">Press Releases</a>
+                         <a href="/newsletters">Newsletters</a> 
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="divBottom"></div>
+                </ul>
+            </li>
+            
+             <li><a href="/contact">Contact</a>
+              <!--  <ul>
+                    <div class="Mout">
+                        <div class="div1"><img src="/demo/img/surveys_icon_48.png"/></div>
+                        <div class="div2">
+                        	<a href="CurrentSurveys.html">Current Surveys</a>
+                        	<a href="PreviousSurveys.html">Previous Surveys</a>                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="divBottom"></div>
+                </ul>-->
+            </li>
+    </ul>
+    
+    <div class="clear"></div>
+</div>
+    </div>	<!-- Main Content-->
+    <div id="main">
+    
+	   <div style="width:720px; float:left;">
+       
+   		 <div id="mainTheme" style="margin-top:60px;">
+         		<h1 style="font-size:40px;">Trust in Justice:</h1>
+         	<strong>Topline Results from Round 5 of the European Social Survey.</strong><br />
+         	Trust in justice – the theories being tested. Why do people break the law? This key criminological question tends to attract a 
+            particular sort of answer: that the risks of punishment are too low, or that insufficiently tough sentences are imposed.
+ <a href="http://fiduciaproject.eu/publication/1/european-social-survey-topline-findings-on-trust-in-justice">...more</a><br />
+<br />
+            <img src="/demo/img/graphHome8.png"   /><br /><br />
+              <font style="font-size:11px;"><b>Visualized by:</b> Fiducia team<b> - Source:</b> <a href="http://www.europeansocialsurvey.org" target="_blank">europeansocialsurvey.org</a></font>       
+         </div>
+            
+           <div id="tabs" style="margin-top:70px;">
+     
+           
+           		<div id="adv2">
+                	<div id="tabsM" style="height:33px; background:url(/demo/img/allTabsBg.png) top left no-repeat;">
+                      
+                        <a href="#ani2">Work Progress</a>
+                      
+                        <a href="#ani4">Latest News</a>
+                        
+                        <div class="clear"></div>
+                   </div>
+                  <div style="height:25px;"></div>
+                  
+                  <div> 
+                      
+                        
+                        <div id="ani2" style="display:none;">
+                            <h2>Focus on 4 areas of "new European" crimes</h2>
+                        <br />
+                            <br />
+                                                         
+                          <div style="float:left; width:340px; margin-right:20px;">
+                            	<img src="/demo/img/wp6.png" style="display:block; width:80px;  margin-right:12px; float:left;" />
+                           	<div style="display:block; float:left; width:248px;">
+                                	<h4>Trafficking of human beings</h4>
+                            		 The first of four work-packages that will involve case-studies of emerging forms of criminality across Europe. It is concerned with trafficking,...<br />
+                            		<br />
+                            		<a href="/wps">&gt; view  this Work Package</a>     <br /><br />
+                                </div>
+                            </div>     
+                                                            
+                                                         
+                          <div style="float:left; width:340px; margin-right:20px;">
+                            	<img src="/demo/img/wp7.png" style="display:block; width:80px;  margin-right:12px; float:left;" />
+                           	<div style="display:block; float:left; width:248px;">
+                                	<h4>Trafficking of goods</h4>
+                            		 WP7 is the project’s second case-study work-package. It will address trafficking of a wide range of goods.  It will focus on the trafficking of...<br />
+                            		<br />
+                            		<a href="/wps">&gt; view  this Work Package</a>     <br /><br />
+                                </div>
+                            </div>     
+                                   <div class="clear"></div>                            
+                                                         
+                          <div style="float:left; width:340px; margin-right:20px;">
+                            	<img src="/demo/img/wp8.png" style="display:block; width:80px;  margin-right:12px; float:left;" />
+                           	<div style="display:block; float:left; width:248px;">
+                                	<h4>Criminalization of migration and ethnic minorities</h4>
+                            		 WP8 investigates the construction a “risk category” by which irregular (im)migration and certain ethnic groups are linked with deviant...<br />
+                            		<br />
+                            		<a href="/wps">&gt; view  this Work Package</a>     <br /><br />
+                                </div>
+                            </div>     
+                                                            
+                                                         
+                          <div style="float:left; width:340px; margin-right:20px;">
+                            	<img src="/demo/img/wp9.png" style="display:block; width:80px;  margin-right:12px; float:left;" />
+                           	<div style="display:block; float:left; width:248px;">
+                                	<h4>Cybercrimes</h4>
+                            		 WP9 aims at exploring the legal, criminological and sociological aspects of cyber-crime as a new European-scale emergency.   This objective will...<br />
+                            		<br />
+                            		<a href="/wps">&gt; view  this Work Package</a>     <br /><br />
+                                </div>
+                            </div>     
+                                                            
+                              
+                      
+                    </div> 
+                        
+                       
+                        <div id="ani4" style="display:none;">
+                            <h2>Latest News</h2>
+                            <br />
+                                               <div style="float:left; width:340px; margin-right:20px;">
+                            	 3 September 2014<br />
+								<h4>Seven questions on the FIDUCIA findings on Human Trafficking to Dr. Paolo Campana</h4>
+                            	<p>Paolo Campana, Research Fellow, Department of Sociology and Nuffield College, University of Oxford
+
+<strong>Paolo, you’re part of the Extra-legal Governance Institute at the University of...<br />
+                            	<br />
+                           	  <a href="/new/37/Seven-questions-on-the-FIDUCIA-findings-on-Human-Trafficking-to-Dr.-Paolo-Campana">... continue reading</a>
+                            </div>
+    
+                        <div style="float:left; width:340px; margin-right:20px;">
+                            	 3 July 2014<br />
+								<h4>24% of Britons no longer have trust in the police</h4>
+                            	<p>A recent survey exclusively conducted by ComRes for The Mirror reveals that nearly 1 out of 4 Britons does not trust the police. The survey also revealed that half of Britons believe that drugs...<br />
+                            	<br />
+                           	  <a href="/new/36/24%-of-Britons-no-longer-have-trust-in-the-police">... continue reading</a>
+                            </div>
+    
+                                                   
+                            <div class="clear"></div>
+                    </div>
+                      
+                   </div>
+                   
+            	</div> 
+             
+				<script type="text/javascript"> 
+					  $("#adv2").idTabs(function(id,list,set){ 
+						$("a",set).removeClass("selected") 
+						.filter("[href='"+id+"']",set).addClass("selected"); 
+						for(i in list) 
+						  $(list[i]).hide(); 
+						$(id).fadeIn(); 
+						return false; 
+					  }); 
+                </script>
+                
+        	</div>
+	   </div>
+        
+        
+        <div style="width:188px; float:right;">
+        	 <!-- search everything -->
+          <div id="searchAll">
+                <form style="margin:0; padding:0;">
+                  <h3 style="padding:0 0 4px 0;">Search</h3>
+                  <input name="newslleterS" type="text" class="field3 field3c" id="newslleterS" alt="newslleterS" value="" 
+                  onblur="if(this.value=='') this.value='';" onfocus="if(this.value=='') this.value='';"/> <a href="#"><img src="/demo/img/search24.png" align="absmiddle" /></a>
+                </form>
+          </div>
+             
+             <hr class="hr6"/>
+              			
+			
+                 <div id="quote"> 
+                  <span style="font-size:22px;" class="bold">Interviews</span><br /><br />
+                  <div class="userPhoto" style="background-image:url(/media/other/Dr_PaoloCampana_80x80.jpg); background-size:cover;  width:80px; height:80px; margin-right:5px;"></div>
+              <div  ><h6>Dr. Paolo Campana</h6><em>University of Oxford</em></div> 
+              <div>
+            
+              	 <br />
+              		<h5 class="h5Q" style="font-size:20px; line-height:24px">&#8220;As a society, we must decide how we want to approach the individuals who buy sexual services. Are they part of the problem or part of the solution?"
+
+ 
+&#8221;</h5>
+               
+                  	<br />
+                  <span style="display:block; text-align:right;"><a href="/new/37/seven-questions-on-the-fiducia-findings-on-human-trafficking-to-dr-paolo-campana">> read the interview</a></span> 
+              </div>
+            </div>
+            
+            <hr class="hr6"/>
+                
+        <div id="newslleter" style="margin-top:15px;">
+            <span style="font-size:13px;">subscribe to</span> Fiducia's<br />
+            <img src="/demo/img/news_icon_24.png" /> <span style="font-size:22px;" class="bold">Newsletter</span><br />
+            <form  name="newsletterform" id="newsletterform" method="post" action="" style="padding:0; margin:0;"> <input name="newslleterS" type="text" class="field3 field3c" id="newslleterS" alt="newslleterS" value="your e-Mail address" 
+                onblur="if(this.value=='') this.value='your e-Mail address';" onfocus="if(this.value=='your e-Mail address') this.value='';"/> <a  href="javascript:document.newsletterform.submit();"><img src="/demo/img/arrow_btn.png" align="absmiddle" /></a>
+            </form>
+                                
+		</div>
+        
+        <div id="socialMedia" style="margin-top:50px;">
+			<span style="float:left; margin-right:3px;">Follow Us: </span><a href="#" class="facebook"></a><a href="#" class="twitter"></a><a href="#" class="vimeo"></a><a href="#" class="youTube" ></a>
+		</div>
+                
+            
+        </div>
+        
+        <div class="clear"></div>
+    
+    </div> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+	<!-- Footer -->
+	<div id="footer">
+    	<hr class="hrFooter" />
+      	<div>
+        	<div style="float:left;"><h3>Partners</h3></div>
+            <div style="float:right; margin-top:10px;"><a href="http://www.thezyme.gr" target="_blank">design by The Zyme</a> - development by SK</div>
+            <div class="clear"></div>
+      </div>
+      <div><a href="/partners"><img src="/demo/img/partners_all2.gif" /></a></div>
+        <div style="padding-top:15px;">
+            <div style="float:left;">&copy; 2012-2015 FP7 PROJECT. All rights reserved<br/><span style="font-size:11px">The views expressed in this website are the sole responsibility of the author and do not necessarily reflect the views of the European Commission</span></div>
+            
+            <div style="float:right;"></div>
+            <div class="clear"></div>
+        </div>
+	</div> 
+  </div>
+  <!-- bottom spacer -->
+<div class="bottomSpacer"></div> 
+
+	<script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(window).scroll(function() {
+                if ($(window).scrollTop() >= 182) {
+                    $("#menuContainer").addClass('fixed').css({paddingTop: 0});
+                } else {
+                    $("#menuContainer").removeClass('fixed').css({paddingTop: 0});
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

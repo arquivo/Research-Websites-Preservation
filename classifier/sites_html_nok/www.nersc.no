@@ -1,0 +1,584 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>MAIRES: Monitoring Arctic land and sea ice using Russian and European satellites | Nansen Environmental and Remote Sensing Center</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/www.nersc.no/files/cti_flex_favicon.ico" type="image/x-icon" />
+<meta name="description" content="The Nansen Center is an independent non-profit research foundation affiliated with the University of Bergen, Norway. The Nansen Center conducts basic and applied environmental and climate research." />
+<meta name="keywords" content="climate research,remote sensing" />
+<meta name="dcterms.creator" content="Lars-Gunnar Persson, Nansen Environmental and Remote Sensing Center" />
+<meta name="dcterms.contributor" content="Lasse H. Pettersson, Nansen Environmental and Remote Sensing Center" />
+<meta name="copyright" content="Copyright 2011 Nansen Environmental and Remote Sensing Center" />
+<link rel="canonical" href="https://www.nersc.no/project/maires" />
+<meta name="revisit-after" content="1 day" />
+<meta name="dcterms.publisher" content="Nansen Environmental and Remote Sensing Center" />
+<meta name="geo.position" content="60.38232;5.32691" />
+<meta name="icbm" content="60.38232,5.32691" />
+  <link type="text/css" rel="stylesheet" media="all" href="/sites/www.nersc.no/files/ctools/css/1787e2ca3c439b77ee3367c154c317e2.css?J" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/www.nersc.no/files/css/css_71e38cfdcc6bd539bca5e4dc409374b4.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/www.nersc.no/files/css/css_61473ed2ead3c2d34a8f71993d0918b7.css" />
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/cti_flex/css/ie.css?J" />
+<![endif]-->
+<!--[if lte IE 6]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/cti_flex/css/ie6.css?J" />
+<![endif]-->
+  <script type="text/javascript" src="/sites/www.nersc.no/files/js/js_43006179e706e9a05a4d3c660ecf5dd1.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "colorbox": { "transition": "elastic", "speed": 350, "opacity": "0.85", "slideshow": false, "slideshowAuto": false, "slideshowSpeed": 2500, "slideshowStart": "", "slideshowStop": "", "current": "{current} of {total}", "previous": "« Prev", "next": "Next »", "close": "Close", "overlayClose": true, "maxWidth": "100%", "maxHeight": "100%" }, "jquerymenu": { "hover": 0, "animate": 0, "edit_link": 0, "click_to_expand": 0 }, "lightbox2": { "rtl": "0", "file_path": "/(\\w\\w/)sites/www.nersc.no/files", "default_image": "/sites/all/modules/lightbox2/images/brokenimage.jpg", "border_size": 10, "font_color": "000", "box_color": "fff", "top_position": "", "overlay_opacity": "0.8", "overlay_color": "000", "disable_close_click": 0, "resize_sequence": 0, "resize_speed": 400, "fade_in_speed": 400, "slide_down_speed": 600, "use_alt_layout": 0, "disable_resize": 0, "disable_zoom": 0, "force_show_nav": 0, "show_caption": 0, "loop_items": 0, "node_link_text": "View Image Details", "node_link_target": 0, "image_count": "Image !current of !total", "video_count": "", "page_count": "Page !current of !total", "lite_press_x_close": "press \x3ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\x3e\x3ckbd\x3ex\x3c/kbd\x3e\x3c/a\x3e to close", "download_link_text": "", "enable_login": false, "enable_contact": false, "keys_close": "c x 27", "keys_previous": "p 37", "keys_next": "n 39", "keys_zoom": "z", "keys_play_pause": "32", "display_image_size": "", "image_node_sizes": "()", "trigger_lightbox_classes": "", "trigger_lightbox_group_classes": "", "trigger_slideshow_classes": "", "trigger_lightframe_classes": "", "trigger_lightframe_group_classes": "", "custom_class_handler": 0, "custom_trigger_classes": "", "disable_for_gallery_lists": true, "disable_for_acidfree_gallery_lists": true, "enable_acidfree_videos": true, "slideshow_interval": 5000, "slideshow_automatic_start": 0, "slideshow_automatic_exit": 0, "show_play_pause": 0, "pause_on_next_click": 0, "pause_on_previous_click": 0, "loop_slides": 0, "iframe_width": 960, "iframe_height": 540, "iframe_border": 1, "enable_video": 1, "flvPlayer": "/", "flvFlashvars": "" }, "extlink": { "extTarget": "_blank", "extClass": "ext", "extSubdomains": 0, "extExclude": "10\\.47\\...\\.\\+(\\s)", "extInclude": "", "extCssExclude": "", "extCssExplicit": "", "extAlert": 0, "extAlertText": "This link will take you to an external web site. We are not responsible for their content.", "mailtoClass": "mailto" }, "custom_search": { "form_target": "_self", "solr": 0 }, "panelsTabs": { "project-": { "fillingTabs": "disabled" } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" }, "AjaxLoad": { "css": [ "/modules/aggregator/aggregator.css", "/modules/book/book.css", "/modules/node/node.css", "/modules/system/defaults.css", "/modules/system/system.css", "/modules/system/system-menus.css", "/modules/user/user.css", "/sites/all/modules/calendar/calendar_multiday/calendar_multiday.css", "/sites/all/modules/cck/theme/content-module.css", "/sites/all/modules/colorbox/styles/default/colorbox_default_style.css", "/sites/all/modules/counter/counter.css", "/sites/all/modules/ctools/css/ctools.css", "/sites/all/modules/date/date.css", "/sites/all/libraries/jquery.ui/themes/base/jquery-ui.css", "/sites/all/libraries/jquery.ui/themes/base/ui.datepicker.css", "/sites/all/modules/date/date_popup/themes/jquery.timeentry.css", "/sites/all/modules/filefield/filefield.css", "/sites/www.nersc.no/files/geshifilter-languages.css", "/sites/all/modules/geshifilter/geshifilter.css", "/sites/all/modules/img_assist/img_assist.css", "/sites/all/modules/jquerymenu/jquerymenu.css", "/sites/all/modules/ldap_integration/ldaphelp/ldaphelp.css", "/sites/all/modules/library/library.css", "/sites/all/modules/lightbox2/css/lightbox.css", "/sites/all/modules/mollom/mollom.css", "/sites/all/modules/og/theme/og.css", "/sites/all/modules/panels/css/panels.css", "/sites/all/modules/pollfield/pollfield.css", "/sites/all/modules/sitedoc/sitedoc.css", "/sites/all/modules/tableofcontents/tableofcontents.css", "/sites/all/modules/upgrade_status/upgrade_assist/upgrade_assist.css", "/sites/all/modules/upload_element/upload_element.css", "/sites/all/modules/video/css/video.css", "/sites/all/modules/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.css", "/sites/www.nersc.no/modules/simplenews/simplenews.css", "/modules/forum/forum.css", "/sites/all/modules/extlink/extlink.css", "/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css", "/sites/www.nersc.no/modules/biblio/biblio.css", "/sites/all/modules/views/css/views.css", "/sites/all/modules/panels/plugins/layouts/flexible/flexible.css", "/sites/www.nersc.no/files/ctools/css/d697f58a6595bba3ba8d09537609ec1e.css", "/sites/www.nersc.no/files/ctools/css/1787e2ca3c439b77ee3367c154c317e2.css", "/sites/all/themes/zen/style.css", "/sites/all/themes/cti_flex/css/html-reset.css", "/sites/all/themes/cti_flex/css/wireframes.css", "/sites/all/themes/cti_flex/css/tabs.css", "/sites/all/themes/cti_flex/css/messages.css", "/sites/all/themes/cti_flex/css/pages.css", "/sites/all/themes/cti_flex/css/block-editing.css", "/sites/all/themes/cti_flex/css/blocks.css", "/sites/all/themes/cti_flex/css/navigation.css", "/sites/all/themes/cti_flex/css/nodes.css", "/sites/all/themes/cti_flex/css/comments.css", "/sites/all/themes/cti_flex/css/forms.css", "/sites/all/themes/cti_flex/css/cti-flex.css", "/sites/all/themes/cti_flex/css/layout-fixed.css", "/sites/all/themes/cti_flex/colors/nersc.css", "/sites/all/themes/cti_flex/css/local.css", "/sites/all/themes/cti_flex/css/print.css" ], "scripts": [ "/sites/all/modules/jquery_update/replace/jquery.min.js", "/misc/drupal.js", "/sites/all/modules/ajax_load/ajax_load.js", "/sites/all/libraries/colorbox/colorbox/jquery.colorbox-min.js", "/sites/all/modules/colorbox/js/colorbox.js", "/sites/all/modules/colorbox/styles/default/colorbox_default_style.js", "/sites/all/modules/colorbox/js/colorbox_load.js", "/sites/all/modules/colorbox/js/colorbox_inline.js", "/sites/all/modules/img_assist/img_assist.js", "/sites/all/modules/jquerymenu/jquerymenu.js", "/sites/all/modules/lightbox2/js/lightbox_video.js", "/sites/all/modules/lightbox2/js/lightbox.js", "/sites/all/modules/og/og.js", "/sites/all/modules/panels/js/panels.js", "/sites/all/modules/tableofcontents/jquery.scrollTo-min.js", "/sites/all/modules/tableofcontents/jquery.localscroll-min.js", "/sites/all/modules/tableofcontents/tableofcontents.js", "/sites/all/modules/video/js/video.js", "/sites/all/modules/views_slideshow/js/jquery.cycle.all.min.js", "/sites/all/modules/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.js", "/sites/all/modules/extlink/extlink.js", "/sites/all/modules/custom_search/js/custom_search.js", "/misc/collapse.js", "/sites/all/modules/panels_tabs/panels_tabs.js", "/sites/all/modules/google_analytics/googleanalytics.js" ] }, "CToolsUrlIsAjaxTrusted": { "/project/maires": true } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-23081826-1", { "cookieDomain": "auto" });ga("require", "linkid", "linkid.js");ga("send", "pageview");
+//--><!]]>
+</script>
+  <style type="text/css">
+body {font-family: Arial, Helvetica, "Bitstream Vera Sans", sans-serif;}
+</style>  <style type="text/css">
+</style>
+  <!--[if lte IE 6]>
+  <script type="text/javascript" src="/sites/all/themes/cti_flex/js/suckerfish.js"></script>
+  <![endif]-->
+</head>
+
+<body class="page not-front not-logged-in node-type-project i18n-en page-project-maires section-project one-sidebar sidebar-second page-panels ">
+
+  <div id="page-wrapper"><div id="page">
+
+    <div id="header"><div class="section clearfix">
+
+              <div id="secondary">
+          <ul class="links"><li class="menu-323 first last"><a href="https://www.nersc.no/user/login" title="Log in to intranet">Log in</a></li>
+</ul>        </div> <!-- /#secondary -->
+      
+              <div id="logo-title">
+
+                      <div id="logo"><a href="/" title="Home" rel="home"><img src="/sites/www.nersc.no/files/logo.png" alt="Home" id="logo-image" /></a></div>
+          
+              <div id="title-slogan">
+
+                                    <h1 id="site-name">
+                <a href="/" title="Home" rel="home">
+                Nansen Environmental and Remote Sensing Center                </a>
+              </h1>
+                      
+                      <div id="site-slogan">- a non-profit climate and environmental research foundation founded in 1986.</div>
+          
+          </div> <!-- /#title-slogan -->
+        
+        </div> <!-- /#logo-title -->
+      
+      
+    </div></div> <!-- /.section, /#header -->
+
+    <div id="main-wrapper"><div id="main" class="clearfix  with-navigation">
+
+      <div id="content" class="column"><div class="section">
+
+        
+        
+                          <h1 class="title">MAIRES: Monitoring Arctic land and sea ice using Russian and European satellites</h1>
+                                
+        
+        <div id="content-area">
+          <div class="panel-flexible panels-flexible-25 clear-block" id="project">
+<div class="panel-flexible-inside panels-flexible-25-inside">
+<div class="panels-flexible-row panels-flexible-row-25-2 panels-flexible-row-first clear-block ">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-25-2-inside panels-flexible-row-inside-first clear-block">
+<div class="panels-flexible-region panels-flexible-region-25-header panels-flexible-region-first panels-flexible-region-last ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-25-header-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-row panels-flexible-row-25-main-row clear-block">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-25-main-row-inside clear-block">
+<div class="panels-flexible-region panels-flexible-region-25-short_description panels-flexible-region-first panels-flexible-region-last ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-25-short_description-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="rounded-shadow region_rounded_shadow region-rounded-shadow-temporary-e172cb28ba6de47b473b35f9a1c86eaf">
+  <div class="rounded-shadow-background">
+    <div class="rounded-shadow-wrap-corner">
+      <div class="rounded-shadow-top-edge">
+        <div class="rounded-shadow-left"></div>
+        <div class="rounded-shadow-right"></div>
+      </div>
+      <div class="rounded-shadow-left-edge">
+        <div class="rounded-shadow-right-edge clear-block">
+          <div class="panels_pane panel-pane pane-content-field pane-field-short-description"  id="project-short-desc">
+  
+  
+  
+  <div class="pane-content">
+    <div class="field field-type-text field-field-short-description">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>MAIRES will study land and sea ice in the Arctic using data from European and Russian satellites</p>
+        </div>
+        </div>
+</div>
+  </div>
+
+  
+  </div>
+        </div>
+      </div>
+      <div class="rounded-shadow-bottom-edge">
+      <div class="rounded-shadow-left"></div><div class="rounded-shadow-right"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-row panels-flexible-row-25-1 clear-block ">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-25-1-inside clear-block">
+<div class="panels-flexible-region panels-flexible-region-25-content panels-flexible-region-first panels-flexible-region-last ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-25-content-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panels_pane panel-pane pane-content-field pane-field-objectives" >
+  
+      <h2 class="pane-title">Objectives</h2>
+  
+  
+  <div class="pane-content">
+    <div class="field field-type-text field-field-objectives">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>The overall objective of the MAIRES proposal is to develop methodologies for satellite monitoring of Arctic glaciers, sea ice and icebergs. The proposal will demonstrate the benefits of combining Earth Observation data from European and Russian satellites for operational mapping, interpretation and forecast of land and sea ice variations in the Eurasian Arctic with subsequent applications in the socio-economic sector. The results of the proposal will contribute to improved understanding of changes in land and sea ice in response to climate change in the Arctic.</p>
+        </div>
+        </div>
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panels_pane panel-pane pane-node-body" >
+  
+      <h2 class="pane-title">Project Summary</h2>
+  
+  
+  <div class="pane-content">
+    <p>MAIRES will develop methodologies for satellite monitoring of Arctic glaciers, sea ice and icebergs. Methodologies to retrieve quantitative information from the ESA and RKA data will be developed, and examples of satellite derived products for each of the three thematic areas will be presented. The main satellite data will be Synthetic Aperture Radar (SAR), optical and infrared images, radar altimeter data, passive microwave data and geoid data fro GOCE. Results from the proposal can contribute to improved understanding of climate change and provide useful data for scientists, policy-makers and the general public. The MAIRES project will demonstrate the benefits of combining Earth Observation data from European and Russian satellites for operational mapping, interpretation and forecast of land and sea ice variations in the Eurasian Arctic. Satellite-derived data collected over many years can show seasonal and interannual variability of land ice, sea ice and icebergs. The results will be disseminated to users groups including climate research and operational users. The project will establish cooperation between ongoing GMES projects related to the cryosphere and Russian scientists, users and stakeholders.</p>
+  </div>
+
+  
+  </div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-row panels-flexible-row-25-3 clear-block ">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-25-3-inside clear-block">
+<div class="panels-flexible-region panels-flexible-region-25-bottom panels-flexible-region-first panels-flexible-region-last ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-25-bottom-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+&nbsp;  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-row panels-flexible-row-25-4 panels-flexible-row-last clear-block ">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-25-4-inside panels-flexible-row-inside-last clear-block">
+<div class="panels-flexible-region panels-flexible-region-25-bottom_ panels-flexible-region-first panels-flexible-region-last ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-25-bottom_-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panels_pane panel-pane pane-content-fieldgroup pane-project-group-project-details" >
+  
+  
+  
+  <div class="pane-content">
+    <fieldset class="fieldgroup group-project-details collapsible"><legend>Project Details</legend><div class="field field-type-text field-field-acronym">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Acronym:&nbsp;</div>
+                    MAIRES        </div>
+        </div>
+</div>
+<div class="field field-type-nodereference field-field-project-funder">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Funding Agency:&nbsp;</div>
+                    European Commission        </div>
+        </div>
+</div>
+<div class="field field-type-nodereference field-field-project-leader">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Project Leader at NERSC:&nbsp;</div>
+                    <a href="/staff/stein-sandven">Stein Sandven</a>        </div>
+        </div>
+</div>
+<div class="field field-type-nodereference field-field-department">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Department:&nbsp;</div>
+                    <a href="/group/polar-and-environmental-research">Polar and Environmental Research</a>        </div>
+        </div>
+</div>
+<div class="field field-type-nodereference field-field-main-research-area">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Main Research Area:&nbsp;</div>
+                    <a href="/research/arctic-and-marine-remote-sensing-studies">Arctic and Marine Remote Sensing Studies</a>        </div>
+              <div class="field-item even">
+                      <div class="field-label-inline">
+              Main Research Area:&nbsp;</div>
+                    <a href="/research/climate-processes-variability-and-change">Climate Processes, Variability and Change</a>        </div>
+        </div>
+</div>
+<div class="field field-type-text field-field-coordinating-institute">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Coordinating Institute:&nbsp;</div>
+                    Nansen Environmental and Remote Sensing Center        </div>
+        </div>
+</div>
+<div class="field field-type-computed field-field-project-status">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Project Status:&nbsp;</div>
+                    Completed        </div>
+        </div>
+</div>
+</fieldset>
+  </div>
+
+  
+  </div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+</div>
+        </div>
+
+        
+        
+      </div></div> <!-- /.section, /#content -->
+
+      <div id="navigation"><div class="section clearfix">
+
+	           <div id="suckerfishmenu">
+            <ul class="menu"><li class="leaf first"><a href="/" title="The Home Page of Nansen Environmental and Remote Sensing Center">Home</a></li>
+<li class="expanded"><a href="/research" title="Research at Nansen Environmental and Remote Sensing Center">Research</a><ul class="menu"><li class="expanded first"><a href="/research" title="">Research Groups</a><ul class="menu"><li class="leaf first"><a href="/group/data-assimilation-and-forecasting-group" title="Data Assimilation and Forecasting Group">Data Assimilation and Forecasting Group</a></li>
+<li class="leaf"><a href="/group/ecosystem-modeling-group" title="Ecosystem Modeling Group">Ecosystem Modeling Group</a></li>
+<li class="leaf"><a href="/group/climate-dynamics-and-prediction-group" title="Large-scale Climate Dynamics and Modelling Group">Climate Dynamics and Prediction Group</a></li>
+<li class="leaf"><a href="/group/ocean-and-coastal-remote-sensing-group" title="Ocean and Coastal Remote Sensing Group">Ocean and Coastal Remote Sensing Group</a></li>
+<li class="leaf"><a href="/group/polar-acoustics-and-oceanography-group" title="Polar Acoustics and Oceanography Group">Polar Acoustics and Oceanography Group</a></li>
+<li class="leaf"><a href="/group/scientific-data-management-group" title="Scientific Data Management Group">Scientific Data Management Group</a></li>
+<li class="leaf"><a href="/group/sea-ice-and-land-ice-remote-sensing-group" title="Sea Ice and Land Ice Remote Sensing Group">Sea Ice and Land Ice Remote Sensing Group</a></li>
+<li class="leaf last"><a href="/group/sea-ice-modelling-group" title="Sea ice Modeling Group">Sea Ice Modelling Group</a></li>
+</ul></li>
+<li class="leaf"><a href="/research/climate-processes-variability-and-change" title="Climate Processes, Variability and Change">Climate Processes, Variability and Change</a></li>
+<li class="leaf"><a href="/research/arctic-and-marine-remote-sensing-studies" title="Arctic and Marine Remote Sensing Studies">Arctic and Marine Remote Sensing Studies</a></li>
+<li class="leaf"><a href="/research/ocean-modelling-data-assimilation-and-forecasting" title="Ocean Modelling, Data Assimilation and Forecasting">Ocean Modelling, Data Assimilation and Forecasting</a></li>
+<li class="leaf last"><a href="/research/socio-economic-impact-global-change" title="Socio-economic Impact of Global Change">Socio-economic Impact of Global Change</a></li>
+</ul></li>
+<li class="leaf"><a href="/project" title="Projects at Nansen Environmental and Remote Sensing Center">Projects</a></li>
+<li class="leaf"><a href="/publications" title="Publications from Nansen Environmental and Remote Sensing Center">Publications</a></li>
+<li class="leaf"><a href="/education" title="Education at Nansen Environmental and Remote Sensing Center">Education</a></li>
+<li class="expanded"><a href="/data" title="Data and Services at Nansen Environmental and Remote Sensing Center">Data</a><ul class="menu"><li class="leaf first"><a href="/data/climate-modelling" title="Climate Modelling">Climate Modelling</a></li>
+<li class="leaf"><a href="/data/arctic-sea-ice" title="Arctic Sea Ice">Arctic Sea Ice</a></li>
+<li class="leaf"><a href="/data/ocean-modelling" title="Ocean Modelling">Ocean Modelling</a></li>
+<li class="leaf"><a href="/data/algae-blooms-and-water-quality" title="Algae Blooms and Water Quality">Algae Blooms and Water Quality</a></li>
+<li class="leaf"><a href="/data/ocean-tracer-simulations" title="Ocean Tracer Simulations">Ocean Tracer Simulations</a></li>
+<li class="leaf"><a href="/data/satellite-radar-data" title="Satellite Radar Data">Satellite Radar Data</a></li>
+<li class="leaf last"><a href="/data/nextsim-f" title="neXtSIM-F">Sea-ice forecasts</a></li>
+</ul></li>
+<li class="expanded"><a href="/outreach" title="Outreach from Nansen Environmental and Remote Sensing Center">Outreach</a><ul class="menu"><li class="leaf first"><a href="/news" title="NERSC News Archive">NERSC News Archive</a></li>
+<li class="leaf"><a href="/news/media/archive" title="NERSC in Media">NERSC in Media</a></li>
+<li class="collapsed last"><a href="/downloads" title="Downloads from Nansen Environmental and Remote Sening Center">Downloads</a></li>
+</ul></li>
+<li class="expanded last"><a href="/about" title="About Nansen Environmental and Remote Sensing Center">About us</a><ul class="menu"><li class="leaf first"><a href="/about/vision" title="The Vision and Strategy of Nansen Environmental and Remote Sensing Center">Vision &amp; Strategy</a></li>
+<li class="leaf"><a href="/about/organization" title="The Organization of Nansen Environmental and Remote Sensing Center">Organization</a></li>
+<li class="collapsed"><a href="/about/research-departments" title="The Research Departments at Nansen Environmental and Remote Sensing Center">Research Departments</a></li>
+<li class="leaf"><a href="/about/staff" title="The Staff, Students and Visitors at Nansen Environmental and Remote Sensing Center">Staff</a></li>
+<li class="leaf"><a href="/about/opportunities">Vacancies</a></li>
+<li class="leaf"><a href="/about/annual-reports">Annual Reports</a></li>
+<li class="leaf"><a href="/about/nansengroup" title="About the Nansen Group">Nansen Group</a></li>
+<li class="leaf last"><a href="/about/contact" title="Contact Information of Nansen Environmental and Remote Sensing Center">Contact us</a></li>
+</ul></li>
+</ul>          </div>
+        
+                  <div id="search-box">
+            <form action="/project/maires"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text  custom-search-default-value custom-search-box" />
+</div>
+<fieldset class="custom_search-popup"></fieldset>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-8wohDpjh89N_TRcDS4tmlXAIvmlkJ0FpQR9HcHzsGgQ" value="form-8wohDpjh89N_TRcDS4tmlXAIvmlkJ0FpQR9HcHzsGgQ"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+<input type="hidden" name="default_text" id="edit-default-text" value=""  class="default-text" />
+</div>
+
+</div></form>
+          </div> <!-- /#search-box -->
+        
+        
+      </div></div> <!-- /.section, /#navigation -->
+
+      
+      <div class="region region-sidebar-second column sidebar"><div class="section">
+  
+<div id="block-views-projects-block_2" class="block block-views first last region-odd odd region-count-1 count-1  block-1"><div class="block-inner">
+
+      <h2 class="title">Projects</h2>
+  
+  <div class="content">
+    <div class="views_view view view-projects view-id-projects view-display-id-block_2 view-dom-id-1">
+  
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/project/imos">IMOS: Isfjorden Marine Observatory Svalbard</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/project/geoaccessno">GeoAccessNO: GeoAccessNO</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/project/increase">iNcREASE: NoRthern European and Arctic Sea lEvel</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/project/spices">SPICES: Space-borne observations for detecting and forecasting sea ice cover extremes</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/project/hiarc">HIARC: Anthropogenic Heat Islands in the Arctic - Windows to the Future of the Regional Climates, Ecosystems and Society</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/project/ositac-wits">OSITAC WITS: Copernicus OSITAC Wind, Sea Ice and Temperature at the Sea Surface Service</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/project/arc-mfc">ARC MFC: Copernicus Arctic Marine Services</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-8 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/project/nextwim">neXtWIM: Waves in a next-generation sea ice model</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/project/sonarc">SONARC: Development of sea ice monitoring and forecasting system to support safe operations and navigation in Arctic Seas</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-10 views-row-even views-row-last">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/project/ocean-flagship">Ocean Flagship: Ocean Flagship</a></span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+      <div class="item-list"><ul class="pager"><li class="pager-previous first">&nbsp;</li>
+<li class="pager-current">1 of 3</li>
+<li class="pager-next last"><a href="/project/maires?page=1" class="active">››</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div><!-- /.view -->
+  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div></div><!-- /.section, /.region -->
+
+    </div></div> <!-- /#main, /#main-wrapper -->
+
+          <div id="footer"><div class="section">
+
+                  <div id="footer-message"><div id="footer-message-left">
+<div id="footer-message-left-logo"></div>
+<p id="footer-message-left-text">The Nansen Center is a partner in</p>
+<div id="footer-message-left-logos"><a href="http://www.bjerknes.uib.no" target="_blank"><img src="/sites/www.nersc.no/files/images/BCCR_Logo_3.png"></a><a href="http://www.bjerknes.uib.no/skd" target="_blank"><img src="/sites/www.nersc.no/files/images/SKD_Logo_3.png"></a>
+<a href="http://www.hjortcentre.no" target="_blank"><img src="/sites/www.nersc.no/files/images/HJORT-logo-h80inv.png"></a>
+</div>
+</div>
+<div id="footer-message-right">
+Copyright &copy; 2011 NERSC<br />
+<a href="/about/contact">Address</a>: Thormøhlens gate 47,<br />N-5006 Bergen, Norway<br />
+<a href="/contact">Web Editor</a> Lasse Pettersson
+</div></div>
+        
+        
+      </div></div> <!-- /.section, /#footer -->
+    
+  </div></div> <!-- /#page, /#page-wrapper -->
+
+  <div class="region region-page-closure">
+  
+<div id="block-views-centers-block_3" class="block block-views first last region-odd even region-count-1 count-2  no-header block-1"><div class="block-inner">
+
+  
+  <div class="content">
+    <div class="views_view view view-centers view-id-centers view-display-id-block_3 frontpage-center view-dom-id-2">
+  
+  
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid col-3">
+  <tbody>
+                <tr class="row-1 row-first">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field-field-logo-fid">
+                <span class="field-content"><a href="/center/nansen-environmental-and-remote-sensing-center"><img src="https://www.nersc.no/sites/www.nersc.no/files/imagecache/height-50-grey/images/logo/NERSC-Logo_0.png" alt="Nansen Environmental and Remote Sensing Center Logo" title="Nansen Environmental and Remote Sensing Center Logo" width="98" height="50" class="imagecache imagecache-height-50-grey imagecache-default imagecache-height-50-grey_default"/></a></span>
+  </div>
+  
+  <div class="views-field-field-center-name-value">
+                <span class="field-content"><a href="/center/nansen-environmental-and-remote-sensing-center">Nansen Environmental and Remote Sensing Center</a></span>
+  </div>
+  
+  <span class="views-field-field-home-city-value">
+                <span class="field-content">(Bergen,</span>
+  </span>
+         
+  <span class="views-field-field-home-country-value">
+                <span class="field-content">Norway)</a></h2></span>
+  </span>
+          </td>
+                  <td class="col-2">
+              
+  <div class="views-field-field-logo-fid">
+                <span class="field-content"><a href="/center/nansen-international-environmental-and-remote-sensing-center"><img src="https://www.nersc.no/sites/www.nersc.no/files/imagecache/height-50-grey/images/logo/NIERSC-logo-new-transparent_blue_thumb.png" alt="Nansen International Environmental and Remote Sensing Center Logo" title="Nansen International Environmental and Remote Sensing Center Logo" width="58" height="50" class="imagecache imagecache-height-50-grey imagecache-default imagecache-height-50-grey_default"/></a></span>
+  </div>
+  
+  <div class="views-field-field-center-name-value">
+                <span class="field-content"><a href="/center/nansen-international-environmental-and-remote-sensing-center">Nansen International Environmental and Remote Sensing Center</a></span>
+  </div>
+  
+  <span class="views-field-field-home-city-value">
+                <span class="field-content">(St. Petersburg,</span>
+  </span>
+         
+  <span class="views-field-field-home-country-value">
+                <span class="field-content">Russia)</a></h2></span>
+  </span>
+          </td>
+                  <td class="col-3 col-last">
+              
+  <div class="views-field-field-logo-fid">
+                <span class="field-content"><a href="/center/nansen-bangladesh-international-centre-coastal-ocean-and-climate-studies"><img src="https://www.nersc.no/sites/www.nersc.no/files/imagecache/height-50-grey/images/logo/NABIC-logo.jpg" alt="NABIC Logo" title="NABIC Logo" width="48" height="50" class="imagecache imagecache-height-50-grey imagecache-default imagecache-height-50-grey_default"/></a></span>
+  </div>
+  
+  <div class="views-field-field-center-name-value">
+                <span class="field-content"><a href="/center/nansen-bangladesh-international-centre-coastal-ocean-and-climate-studies">Nansen-Bangladesh International Centre for Coastal, Ocean and Climate Studies</a></span>
+  </div>
+  
+  <span class="views-field-field-home-city-value">
+                <span class="field-content">(Dhaka,</span>
+  </span>
+         
+  <span class="views-field-field-home-country-value">
+                <span class="field-content">Bangladesh)</a></h2></span>
+  </span>
+          </td>
+              </tr>
+                <tr class="row-2 row-last">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field-field-logo-fid">
+                <span class="field-content"><a href="/center/nansen-environmental-research-center-%E2%80%93-india"><img src="https://www.nersc.no/sites/www.nersc.no/files/imagecache/height-50-grey/images/logo/NERCI-Logo_0.png" alt="Nansen Environmental Research Center – India Logo" title="Nansen Environmental Research Center – India Logo" width="108" height="50" class="imagecache imagecache-height-50-grey imagecache-default imagecache-height-50-grey_default"/></a></span>
+  </div>
+  
+  <div class="views-field-field-center-name-value">
+                <span class="field-content"><a href="/center/nansen-environmental-research-center-%E2%80%93-india">Nansen Environmental Research Center – India</a></span>
+  </div>
+  
+  <span class="views-field-field-home-city-value">
+                <span class="field-content">(Cochin,</span>
+  </span>
+         
+  <span class="views-field-field-home-country-value">
+                <span class="field-content">India)</a></h2></span>
+  </span>
+          </td>
+                  <td class="col-2">
+              
+  <div class="views-field-field-logo-fid">
+                <span class="field-content"><a href="/center/nansen%E2%80%93zhu-international-research-centre"><img src="https://www.nersc.no/sites/www.nersc.no/files/imagecache/height-50-grey/images/logo/NZC-logo.png" alt="Nansen–Zhu International Research Centre Logo" title="Nansen–Zhu International Research Centre Logo" width="70" height="50" class="imagecache imagecache-height-50-grey imagecache-default imagecache-height-50-grey_default"/></a></span>
+  </div>
+  
+  <div class="views-field-field-center-name-value">
+                <span class="field-content"><a href="/center/nansen%E2%80%93zhu-international-research-centre">Nansen–Zhu International Research Centre</a></span>
+  </div>
+  
+  <span class="views-field-field-home-city-value">
+                <span class="field-content">(Beijing,</span>
+  </span>
+         
+  <span class="views-field-field-home-country-value">
+                <span class="field-content">China)</a></h2></span>
+  </span>
+          </td>
+                  <td class="col-3 col-last">
+              
+  <div class="views-field-field-logo-fid">
+                <span class="field-content"><a href="/center/nansen-tutu-centre-marine-environmental-research"><img src="https://www.nersc.no/sites/www.nersc.no/files/imagecache/height-50-grey/images/logo/NTC-Logo_0.png" alt="Nansen-Tutu Centre for Marine Environmental Research Logo" title="Nansen-Tutu Centre for Marine Environmental Research Logo" width="87" height="50" class="imagecache imagecache-height-50-grey imagecache-default imagecache-height-50-grey_default"/></a></span>
+  </div>
+  
+  <div class="views-field-field-center-name-value">
+                <span class="field-content"><a href="/center/nansen-tutu-centre-marine-environmental-research">Nansen-Tutu Centre for Marine Environmental Research</a></span>
+  </div>
+  
+  <span class="views-field-field-home-city-value">
+                <span class="field-content">(Cape Town,</span>
+  </span>
+         
+  <span class="views-field-field-home-country-value">
+                <span class="field-content">South Africa)</a></h2></span>
+  </span>
+          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div><!-- /.view -->
+  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div><!-- /.region -->
+
+  
+</body>
+</html>

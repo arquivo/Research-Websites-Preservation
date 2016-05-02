@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Apo-Decide | Centre for Systems Medicine</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.systemsmedicineireland.ie/wp-content/themes/twentyeleven/style.css" />
+<link rel="pingback" href="http://www.systemsmedicineireland.ie/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="http://www.systemsmedicineireland.ie/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Centre for Systems Medicine &raquo; Feed" href="http://www.systemsmedicineireland.ie/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Centre for Systems Medicine &raquo; Comments Feed" href="http://www.systemsmedicineireland.ie/comments/feed/" />
+<link rel='stylesheet' id='slider-ui-css'  href='http://www.systemsmedicineireland.ie/wp-content/plugins/thethe-image-slider/style/css/thethe-image-slider.css?ver=3.2.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='ttsp-all-css'  href='http://www.systemsmedicineireland.ie/wp-content/plugins/thethe-sliding-panels/style/css/ttsp.all.css?ver=3.2.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.systemsmedicineireland.ie/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://www.systemsmedicineireland.ie/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<script type='text/javascript' src='http://code.jquery.com/jquery-latest.min.js?ver=latest'></script>
+<script type='text/javascript' src='http://www.systemsmedicineireland.ie/wp-content/plugins/thethe-image-slider/style/js/thethe-image-slider.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://www.systemsmedicineireland.ie/wp-content/plugins/thethe-sliding-panels/style/js/jquery.cookie.min.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://www.systemsmedicineireland.ie/wp-content/plugins/thethe-sliding-panels/style/js/jquery.ttsp.js?ver=3.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.systemsmedicineireland.ie/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.systemsmedicineireland.ie/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Centre for Systems Medicine' href='http://www.systemsmedicineireland.ie/' />
+<link rel='up' title='Colorectal Cancer' href='http://www.systemsmedicineireland.ie/research/colorectal-cancer/' />
+<link rel='prev' title='Apo-Sys' href='http://www.systemsmedicineireland.ie/research/colorectal-cancer/apo-sys/' />
+<link rel='next' title='Angio-Predict' href='http://www.systemsmedicineireland.ie/research/colorectal-cancer/angio-predict/' />
+<meta name="generator" content="WordPress 3.2.1" />
+<link rel='canonical' href='http://www.systemsmedicineireland.ie/research/colorectal-cancer/apo-decide/' />
+<style type="text/css">
+    .calnk a:hover {
+        background-position:0 0;
+        text-decoration:none;  
+        color:#000000;
+        border-bottom:1px dotted #000000;
+     }
+    .calnk a:visited {
+        text-decoration:none;
+        color:#000000;
+        border-bottom:1px dotted #000000;
+    }
+    .calnk a {
+        text-decoration:none; 
+        color:#000000; 
+        border-bottom:1px dotted #000000;
+    }
+    .calnk a span { 
+        display:none; 
+    }
+    .calnk a:hover span {
+        color:#333333; 
+        background:#F6F79B; 
+        display:block;
+        position:absolute; 
+        margin-top:1px; 
+        padding:5px; 
+        width:150px; 
+        z-index:100;
+        line-height:1.2em;
+    }
+    .calendar-table {
+        border:0 !important;
+        width:100% !important;
+        border-collapse:separate !important;
+        border-spacing:2px !important;
+    }
+    .calendar-heading {
+        height:25px;
+        text-align:center;
+        border:1px solid #D6DED5;
+        background-color:#E4EBE3;
+    }
+    .calendar-next {
+        width:25%;
+        text-align:center;
+    }
+    .calendar-prev {
+        width:25%;
+        text-align:center;
+    }
+    .calendar-month {
+        width:50%;
+        text-align:center;
+        font-weight:bold;
+    }
+    .normal-day-heading {
+        text-align:center;
+        width:25px;
+        height:25px;
+        font-size:0.8em;
+        border:1px solid #DFE6DE;
+        background-color:#EBF2EA;
+    }
+    .weekend-heading {
+        text-align:center;
+        width:25px;
+        height:25px;
+        font-size:0.8em;
+        border:1px solid #DFE6DE;
+        background-color:#EBF2EA;
+        color:#FF0000;
+    }
+    .day-with-date {
+        vertical-align:text-top;
+        text-align:left;
+        width:60px;
+        height:60px;
+        border:1px solid #DFE6DE;
+    }
+    .no-events {
+
+    }
+    .day-without-date {
+        width:60px;
+        height:60px;
+        border:1px solid #E9F0E8;
+    }
+    span.weekend {
+        color:#FF0000;
+    }
+    .current-day {
+        vertical-align:text-top;
+        text-align:left;
+        width:60px;
+        height:60px;
+        border:1px solid #BFBFBF;
+        background-color:#E4EBE3;
+    }
+    span.event {
+        font-size:0.75em;
+    }
+    .kjo-link {
+        font-size:0.75em;
+        text-align:center;
+    }
+    .calendar-date-switcher {
+        height:25px;
+        text-align:center;
+        border:1px solid #D6DED5;
+        background-color:#E4EBE3;
+    }
+    .calendar-date-switcher form {
+        margin:2px;
+    }
+    .calendar-date-switcher input {
+        border:1px #D6DED5 solid;
+        margin:0;
+    }
+    .calendar-date-switcher select {
+        border:1px #D6DED5 solid;
+        margin:0;
+    }
+    .calnk a:hover span span.event-title {
+        padding:0;
+        text-align:center;
+        font-weight:bold;
+        font-size:1.2em;
+        margin-left:0px;
+    }
+    .calnk a:hover span span.event-title-break {
+        width:96%;
+        text-align:center;
+        height:1px;
+        margin-top:5px;
+        margin-right:2%;
+        padding:0;
+        background-color:#000000;
+        margin-left:0px;
+    }
+    .calnk a:hover span span.event-content-break {
+        width:96%;
+        text-align:center;
+        height:1px;
+        margin-top:5px;
+        margin-right:2%;
+        padding:0;
+        background-color:#000000;
+        margin-left:0px;
+    }
+    .page-upcoming-events {
+        font-size:80%;
+    }
+    .page-todays-events {
+        font-size:80%;
+    }
+    .calendar-table table,tbody,tr,td {
+        margin:0 !important;
+        padding:0 !important;
+    }
+    table.calendar-table {
+        margin-bottom:5px !important;
+    }
+    .cat-key {
+        width:100%;
+        margin-top:30px;
+        padding:5px;
+        border:0 !important;
+    }
+    .cal-separate {
+       border:0 !important;
+       margin-top:10px;
+    }
+    table.cat-key {
+       margin-top:5px !important;
+       border:1px solid #DFE6DE !important;
+       border-collapse:separate !important;
+       border-spacing:4px !important;
+       margin-left:2px !important;
+       width:99.5% !important;
+       margin-bottom:5px !important;
+    }
+    .cat-key td {
+       border:0 !important;
+    }
+</style>
+<script type='text/javascript'>
+jQuery(document).ready(function($) {
+$('#thetheRightPanel').rightPanel({theme : 'grey', bgColor : '#c9d9e8',  borderWidth : 1, borderColor : '', textColor : '', tabRadius : 5, radius : 10, shadowSize : 5, shadowColor : '', opacity : 20, width : '200px', heightUnit : 'px', height : '150px', autoOpen : false, openIn : 10, autoClose : false, closeAfter : 30, showCloseButton : false, closeButtonText : 'Close', showTab : true, tabText : 'Members', speed : 500,firstVisitShow : true,regularity : 'always', backLink : false});
+});
+</script>	<style>
+		/* Link color */
+		a,
+		#site-title a:focus,
+		#site-title a:hover,
+		#site-title a:active,
+		.entry-title a:hover,
+		.entry-title a:focus,
+		.entry-title a:active,
+		.widget_twentyeleven_ephemera .comments-link a:hover,
+		section.recent-posts .other-recent-posts a[rel="bookmark"]:hover,
+		section.recent-posts .other-recent-posts .comments-link a:hover,
+		.format-image footer.entry-meta a:hover,
+		#site-generator a:hover {
+			color: #c90c30;
+		}
+		section.recent-posts .other-recent-posts .comments-link a:hover {
+			border-color: #c90c30;
+		}
+		article.feature-image.small .entry-summary p a:hover,
+		.entry-header .comments-link a:hover,
+		.entry-header .comments-link a:focus,
+		.entry-header .comments-link a:active,
+		.feature-slider a.active {
+			background-color: #c90c30;
+		}
+	</style>
+<style type="text/css">
+body { background-color: #fff; }
+</style>
+</head>
+
+<body class="page page-id-1422 page-child parent-pageid-505 page-template page-template-sidebar-page-php two-column left-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="http://www.systemsmedicineireland.ie/" title="Centre for Systems Medicine" rel="home">Centre for Systems Medicine</a></span></h1>
+				<h2 id="site-description">Centre for Systems Medicine &#8211; the Science of Proteins</h2>
+			</hgroup>
+
+						<a href="http://www.systemsmedicineireland.ie/">
+									<img src="http://www.systemsmedicineireland.ie/wp-content/uploads/2015/06/banners-05.jpg" width="1000" height="288" alt="" />
+							</a>
+			
+								<form method="get" id="searchform" action="http://www.systemsmedicineireland.ie/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search" />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu"><ul><li ><a href="http://www.systemsmedicineireland.ie/" title="Home">Home</a></li><li class="page_item page-item-1905"><a href="http://www.systemsmedicineireland.ie/careers/" title="CSM Careers">CSM Careers</a></li><li class="page_item page-item-2150"><a href="http://www.systemsmedicineireland.ie/education-and-outreach-2/" title="Education and Outreach">Education and Outreach</a></li><li class="page_item page-item-26"><a href="http://www.systemsmedicineireland.ie/news/" title="News">News</a></li><li class="page_item page-item-4 current_page_ancestor"><a href="http://www.systemsmedicineireland.ie/research/" title="Research">Research</a><ul class='children'><li class="page_item page-item-505 current_page_ancestor current_page_parent"><a href="http://www.systemsmedicineireland.ie/research/colorectal-cancer/" title="Colorectal Cancer">Colorectal Cancer</a><ul class='children'><li class="page_item page-item-1430"><a href="http://www.systemsmedicineireland.ie/research/colorectal-cancer/angio-predict/" title="Angio-Predict">Angio-Predict</a></li><li class="page_item page-item-1422 current_page_item"><a href="http://www.systemsmedicineireland.ie/research/colorectal-cancer/apo-decide/" title="Apo-Decide">Apo-Decide</a></li><li class="page_item page-item-1416"><a href="http://www.systemsmedicineireland.ie/research/colorectal-cancer/apo-sys/" title="Apo-Sys">Apo-Sys</a></li><li class="page_item page-item-1486"><a href="http://www.systemsmedicineireland.ie/research/colorectal-cancer/systems-based-patient-stratification/" title="Systems-based patient stratification">Systems-based patient stratification</a></li><li class="page_item page-item-1461"><a href="http://www.systemsmedicineireland.ie/research/colorectal-cancer/apo-colon/" title="APO-COLON">APO-COLON</a></li><li class="page_item page-item-1451"><a href="http://www.systemsmedicineireland.ie/research/colorectal-cancer/paracrine-cell-proliferative-function-of-caspase-3/" title="Paracrine, cell proliferative function of caspase-3">Paracrine, cell proliferative function of caspase-3</a></li><li class="page_item page-item-1492"><a href="http://www.systemsmedicineireland.ie/research/colorectal-cancer/selenium-supply-biomarkers/" title="Selenium supply biomarkers">Selenium supply biomarkers</a></li><li class="page_item page-item-1463"><a href="http://www.systemsmedicineireland.ie/research/colorectal-cancer/tumour-associated-antigens-as-minimally-invasive-serum-test/" title="Tumour-associated antigens as minimally invasive serum test">Tumour-associated antigens as minimally invasive serum test</a></li><li class="page_item page-item-1497"><a href="http://www.systemsmedicineireland.ie/research/colorectal-cancer/selenoprotein-gene-variants/" title="Selenoprotein Gene Variants">Selenoprotein Gene Variants</a></li><li class="page_item page-item-1479"><a href="http://www.systemsmedicineireland.ie/research/colorectal-cancer/breast-predict/" title="BREAST-PREDICT">BREAST-PREDICT</a></li><li class="page_item page-item-1484"><a href="http://www.systemsmedicineireland.ie/research/colorectal-cancer/bcl-2-family-proteins-and-bioenergetics/" title="BCL-2 family proteins and bioenergetics">BCL-2 family proteins and bioenergetics</a></li></ul></li><li class="page_item page-item-507"><a href="http://www.systemsmedicineireland.ie/research/melanoma/" title="Melanoma">Melanoma</a><ul class='children'><li class="page_item page-item-1441"><a href="http://www.systemsmedicineireland.ie/research/melanoma/sys-mel/" title="Sys-Mel">Sys-Mel</a></li><li class="page_item page-item-1490"><a href="http://www.systemsmedicineireland.ie/research/melanoma/dtic-based-chemotherapy-responsiveness/" title="DTIC-based chemotherapy responsiveness">DTIC-based chemotherapy responsiveness</a></li><li class="page_item page-item-1585"><a href="http://www.systemsmedicineireland.ie/research/melanoma/mel-plex/" title="MEL-PLEX">MEL-PLEX</a></li></ul></li><li class="page_item page-item-834"><a href="http://www.systemsmedicineireland.ie/research/neuroscience/" title="Neuroscience">Neuroscience</a><ul class='children'><li class="page_item page-item-1386"><a href="http://www.systemsmedicineireland.ie/research/neuroscience/neuro-mir/" title="Neuro-miR">Neuro-miR</a></li><li class="page_item page-item-1393"><a href="http://www.systemsmedicineireland.ie/research/neuroscience/epimirna/" title="EpimiRNA">EpimiRNA</a></li><li class="page_item page-item-1404"><a href="http://www.systemsmedicineireland.ie/research/neuroscience/coen/" title="CoEN">CoEN</a></li><li class="page_item page-item-1447"><a href="http://www.systemsmedicineireland.ie/research/neuroscience/bh3-only-proteins/" title="BH3 Only Proteins">BH3 Only Proteins</a></li><li class="page_item page-item-1469"><a href="http://www.systemsmedicineireland.ie/research/neuroscience/sim-on-imaging-of-gene-activation-during-oxidative-neuron-death/" title="SIM-ON: Imaging of Gene Activation during Oxidative Neuron Death">SIM-ON: Imaging of Gene Activation during Oxidative Neuron Death</a></li><li class="page_item page-item-1434"><a href="http://www.systemsmedicineireland.ie/research/neuroscience/oxy-sense/" title="Oxy-Sense">Oxy-Sense</a></li></ul></li><li class="page_item page-item-509"><a href="http://www.systemsmedicineireland.ie/research/glioblastoma-multiforme/" title="Glioblastoma Multiforme">Glioblastoma Multiforme</a><ul class='children'><li class="page_item page-item-1494"><a href="http://www.systemsmedicineireland.ie/research/glioblastoma-multiforme/combination-therapy-of-r-roscovitine-with-trail/" title="Combination therapy of R-roscovitine with TRAIL">Combination therapy of R-roscovitine with TRAIL</a></li></ul></li><li class="page_item page-item-512"><a href="http://www.systemsmedicineireland.ie/research/diabetes/" title="Diabetes">Diabetes</a><ul class='children'><li class="page_item page-item-1473"><a href="http://www.systemsmedicineireland.ie/research/diabetes/bh3-only-proteins/" title="BH3-Only Proteins">BH3-Only Proteins</a></li><li class="page_item page-item-1438"><a href="http://www.systemsmedicineireland.ie/research/diabetes/the-diabetic-brain/" title="The diabetic brain">The diabetic brain</a></li></ul></li><li class="page_item page-item-514"><a href="http://www.systemsmedicineireland.ie/research/biomarker-discovery/" title="Biomarker Discovery">Biomarker Discovery</a></li><li class="page_item page-item-82"><a href="http://www.systemsmedicineireland.ie/research/funding/" title="Funding">Funding</a></li></ul></li><li class="page_item page-item-6"><a href="http://www.systemsmedicineireland.ie/investigators/" title="Investigators">Investigators</a><ul class='children'><li class="page_item page-item-63"><a href="http://www.systemsmedicineireland.ie/investigators/jochen-prehn/" title="Jochen Prehn">Jochen Prehn</a><ul class='children'><li class="page_item page-item-522"><a href="http://www.systemsmedicineireland.ie/investigators/jochen-prehn/team-members/" title="Team members">Team members</a></li><li class="page_item page-item-524"><a href="http://www.systemsmedicineireland.ie/investigators/jochen-prehn/research-2/" title="Research">Research</a><ul class='children'><li class="page_item page-item-729"><a href="http://www.systemsmedicineireland.ie/investigators/jochen-prehn/research-2/colorectal-cancer_jp/" title="Colorectal Cancer">Colorectal Cancer</a></li><li class="page_item page-item-747"><a href="http://www.systemsmedicineireland.ie/investigators/jochen-prehn/research-2/neuroscience/" title="Neurodegeneration and Bioenergetics">Neurodegeneration and Bioenergetics</a></li><li class="page_item page-item-742"><a href="http://www.systemsmedicineireland.ie/investigators/jochen-prehn/research-2/diabetes/" title="Diabetes">Diabetes</a></li></ul></li><li class="page_item page-item-721"><a href="http://www.systemsmedicineireland.ie/investigators/jochen-prehn/mentoring-and-supervision/" title="Mentoring and Supervision">Mentoring and Supervision</a></li></ul></li><li class="page_item page-item-65"><a href="http://www.systemsmedicineireland.ie/investigators/markus-rehm/" title="Markus Rehm">Markus Rehm</a><ul class='children'><li class="page_item page-item-237"><a href="http://www.systemsmedicineireland.ie/investigators/markus-rehm/team-members/" title="Team members">Team members</a></li><li class="page_item page-item-268"><a href="http://www.systemsmedicineireland.ie/investigators/markus-rehm/research/" title="Research">Research</a></li></ul></li><li class="page_item page-item-77"><a href="http://www.systemsmedicineireland.ie/investigators/annette-byrne/" title="Annette Byrne">Annette Byrne</a><ul class='children'><li class="page_item page-item-241"><a href="http://www.systemsmedicineireland.ie/investigators/annette-byrne/team-members/" title="Team members">Team members</a></li><li class="page_item page-item-270"><a href="http://www.systemsmedicineireland.ie/investigators/annette-byrne/research/" title="Research">Research</a></li></ul></li><li class="page_item page-item-67"><a href="http://www.systemsmedicineireland.ie/investigators/brona-murphy/" title="Brona Murphy">Brona Murphy</a><ul class='children'><li class="page_item page-item-243"><a href="http://www.systemsmedicineireland.ie/investigators/brona-murphy/team-members/" title="Team members">Team members</a></li><li class="page_item page-item-272"><a href="http://www.systemsmedicineireland.ie/investigators/brona-murphy/research/" title="Research">Research</a></li></ul></li><li class="page_item page-item-69"><a href="http://www.systemsmedicineireland.ie/investigators/heinrich-huber/" title="Heinrich Huber">Heinrich Huber</a><ul class='children'><li class="page_item page-item-247"><a href="http://www.systemsmedicineireland.ie/investigators/heinrich-huber/team-members/" title="Team members">Team members</a></li><li class="page_item page-item-276"><a href="http://www.systemsmedicineireland.ie/investigators/heinrich-huber/research/" title="Research">Research</a><ul class='children'><li class="page_item page-item-348"><a href="http://www.systemsmedicineireland.ie/investigators/heinrich-huber/research/348-2/" title="Apoptosis and Cancer">Apoptosis and Cancer</a></li><li class="page_item page-item-345"><a href="http://www.systemsmedicineireland.ie/investigators/heinrich-huber/research/bioenergetics-and-cancer/" title="Bioenergetics and cancer">Bioenergetics and cancer</a></li><li class="page_item page-item-339"><a href="http://www.systemsmedicineireland.ie/investigators/heinrich-huber/research/cancer-cell-death-and-chemoresistance/" title="Cancer Cell death and chemoresistance">Cancer Cell death and chemoresistance</a></li></ul></li></ul></li><li class="page_item page-item-162"><a href="http://www.systemsmedicineireland.ie/investigators/david-hughes/" title="David Hughes">David Hughes</a><ul class='children'><li class="page_item page-item-249"><a href="http://www.systemsmedicineireland.ie/investigators/david-hughes/team-members/" title="Team members">Team members</a></li><li class="page_item page-item-278"><a href="http://www.systemsmedicineireland.ie/investigators/david-hughes/research-2/" title="Research">Research</a></li></ul></li><li class="page_item page-item-2176"><a href="http://www.systemsmedicineireland.ie/investigators/triona-ni-chonghaile/" title="Tríona Ní Chonghaile">Tríona Ní Chonghaile</a><ul class='children'><li class="page_item page-item-2173"><a href="http://www.systemsmedicineireland.ie/investigators/triona-ni-chonghaile/research-2/" title="Research">Research</a><ul class='children'><li class="page_item page-item-2180"><a href="http://www.systemsmedicineireland.ie/investigators/triona-ni-chonghaile/research-2/research/" title="Team Members">Team Members</a></li></ul></li></ul></li><li class="page_item page-item-1316"><a href="http://www.systemsmedicineireland.ie/investigators/amanda-tivnan/" title="Amanda Tivnan">Amanda Tivnan</a><ul class='children'><li class="page_item page-item-1499"><a href="http://www.systemsmedicineireland.ie/investigators/amanda-tivnan/team-members/" title="Team members">Team members</a></li><li class="page_item page-item-1319"><a href="http://www.systemsmedicineireland.ie/investigators/amanda-tivnan/research/" title="Research">Research</a></li></ul></li><li class="page_item page-item-483"><a href="http://www.systemsmedicineireland.ie/investigators/elaine-kay/" title="Elaine Kay">Elaine Kay</a></li><li class="page_item page-item-490"><a href="http://www.systemsmedicineireland.ie/investigators/bryan-hennessy/" title="Bryan Hennessy">Bryan Hennessy</a></li><li class="page_item page-item-965"><a href="http://www.systemsmedicineireland.ie/investigators/leonie-young/" title="Leonie Young">Leonie Young</a></li><li class="page_item page-item-1115"><a href="http://www.systemsmedicineireland.ie/investigators/maria-byrne/" title="Maria Byrne">Maria Byrne</a></li></ul></li><li class="page_item page-item-8"><a href="http://www.systemsmedicineireland.ie/core-facilities/" title="Core Facilities">Core Facilities</a><ul class='children'><li class="page_item page-item-539"><a href="http://www.systemsmedicineireland.ie/core-facilities/systems-biology-modelling-core/" title="Systems Biology Modelling Core">Systems Biology Modelling Core</a></li><li class="page_item page-item-640"><a href="http://www.systemsmedicineireland.ie/core-facilities/bioinformatics-and-biostatistics/" title="Bioinformatics and Biostatistics">Bioinformatics and Biostatistics</a></li><li class="page_item page-item-470"><a href="http://www.systemsmedicineireland.ie/core-facilities/molecular-cell-imaging-core/" title="Molecular Cell Imaging Core">Molecular Cell Imaging Core</a></li><li class="page_item page-item-626"><a href="http://www.systemsmedicineireland.ie/core-facilities/intra-vital-imaging-core/" title="Intra-Vital Imaging Core">Intra-Vital Imaging Core</a></li><li class="page_item page-item-537"><a href="http://www.systemsmedicineireland.ie/core-facilities/cancer-biobank/" title="Cancer Biobank">Cancer Biobank</a></li><li class="page_item page-item-911"><a href="http://www.systemsmedicineireland.ie/core-facilities/protein-arrays/" title="Protein Arrays">Protein Arrays</a></li></ul></li><li class="page_item page-item-10"><a href="http://www.systemsmedicineireland.ie/publications/" title="Publications">Publications</a></li><li class="page_item page-item-12"><a href="http://www.systemsmedicineireland.ie/tools/" title="Tools">Tools</a><ul class='children'><li class="page_item page-item-370"><a href="http://www.systemsmedicineireland.ie/tools/apopto-cell/" title="APOPTO-CELL">APOPTO-CELL</a></li><li class="page_item page-item-878"><a href="http://www.systemsmedicineireland.ie/tools/dr_momp/" title="DR_MOMP">DR_MOMP</a></li><li class="page_item page-item-1145"><a href="http://www.systemsmedicineireland.ie/tools/sys-act/" title="SYS-ACT">SYS-ACT</a></li><li class="page_item page-item-373"><a href="http://www.systemsmedicineireland.ie/tools/toxi-sim/" title="Toxi-Sim">Toxi-Sim</a></li><li class="page_item page-item-873"><a href="http://www.systemsmedicineireland.ie/tools/alissa/" title="ALISSA">ALISSA</a></li></ul></li></ul></div>
+			</nav><!-- #access -->
+
+		<!--JASMIN: added google analytics code-->
+			<script type="text/javascript">
+
+  				var _gaq = _gaq || [];
+  				_gaq.push(['_setAccount', 'UA-29756616-1']);
+  				_gaq.push(['_trackPageview']);
+
+  				(function() {
+    					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  				})();
+
+			</script>
+
+	</header><!-- #branding -->
+
+
+	<div id="main">
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+				
+<article id="post-1422" class="post-1422 page type-page status-publish hentry">
+	<header class="entry-header">
+		<h1 class="entry-title">Apo-Decide</h1>
+	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><a href="http://www.systemsmedicineireland.ie/2015/mel-plex-worshop-wednesday-6th-may-2015/horizon2020/" rel="attachment wp-att-1791"><img src="http://www.systemsmedicineireland.ie/wp-content/uploads/2015/03/horizon20204-300x130.jpg" alt="" title="horizon2020" width="300" height="130" class="aligncenter size-medium wp-image-1791" /></a><a href="http://www.systemsmedicineireland.ie/news/cancer-cell-h20-h20/" rel="attachment wp-att-1890"><img src="http://www.systemsmedicineireland.ie/wp-content/uploads/2011/11/cancer-cell-h20-h20-300x194.jpg" alt="" title="cancer cell h20 h20" width="300" height="194" class="aligncenter size-medium wp-image-1890" /></a><br />
+Published in the Horizon 2020 report published 15th of May 2015:</p>
+<p>https://ec.europa.eu/programmes/horizon2020/en/news/threshold-personalised-cancer-treatment</p>
+<p>New tumour profiling methods developed by EU-funded researchers aim to help doctors adjust treatments for colorectal cancer to the specific needs of an individual patient. The methods are currently at the trial stage and could be in use in clinics within three years.<br />
+ “Worldwide, colorectal cancer is responsible for around 694 000 deaths each year, according to the World Health Organization. Decision making on treatment in the clinic currently depends largely on factors such as how much the tumour has grown and the age of a patient. As each patient is unique, the success of such treatments is largely unpredictable.<br />
+ To replace the &#8216;one size fits all&#8217; approach, the APO-DECIDE project, led by Professor Jochen Prehn at the Royal College of Surgeons in Ireland, is developing new clinical decision-making tools to help doctors categorise patients on the basis of their individual biological and genetic characteristics. &#8220;There are numerous genes and pathways altered in human cancers, and no single patient is like another,” says Prof. Prehn. “We now need to employ computational approaches to understand the complexity of genes and protein altered in individual cancer patients.”</p>
+<p>Such computational approaches (also termed systems biology approaches) use mathematics to explore how proteins interact with each other, and how these interactions produce a biological, clinically relevant effect.</p>
+<p>The crux of cancer treatment lies with apoptosis, or programmed cell death. Current chemotherapy treatments increase apoptosis in the tumour or nudge the cells along the path to self-destruction. Using the APO-DECIDE system, an oncologist will be able work out the dose of apoptosis promoter required on an individual basis, meaning the patient receives a dose best suited to treat their tumour right from the start.</p>
+<p>&#8220;The tools developed in APO-DECIDE will deliver the right chemotherapy to the right patient at the right time, hence avoiding unnecessary side-effects and accelerating access to better treatments,&#8221; says Prof. Prehn.</p>
+<p>Understanding the patient – and the tumour</p>
+<p>Tumours can become unresponsive to chemotherapy. They are made of different types of cells and many develop resistance to chemotherapy drugs. For example, for one particular type of colorectal cancer, up to 50-60 % of patients prove unresponsive to a commonly used treatment regime.</p>
+<p>To get the treatment right, APO-DECIDE, which ends in November 2014, is not only considering differences between patients – it is also analysing the cancer at a molecular level. This information will then be used to identify weak spots in the tumour that can then be targeted with new drugs (‘apoptosis sensitisers’) that reprogramme tumour cells to respond to treatment.</p>
+<p>This strategy avoids a situation in which a patient who is not responsive to the drugs has to endure harsh chemotherapy treatment needlessly. Analysing the chemical pathways (strings of biochemical reactions) in a tumour prior to therapy and knowing that the tumour will be responsive also reduces uncertainty, and means that scarce resources can be used to maximum benefit.</p>
+<p>Extending the technology to other cancers</p>
+<p>Prof. Prehn says researchers now widely accept that the chemical roots of a tumour resistance to treatment are shared by most cancer cell types. As common pathways are responsible for a tumour not responding to chemotherapy drugs, the results of APO-DECIDE may be helpful in the battle against many other types of cancer.</p>
+<p>And the results will help to do more than personalise treatment. As well as using knowledge about the biochemical pathway to re-sensitise cancer cells, APO-DECIDE is also making the reverse possible. A new process can de-sensitise normal cells vulnerable to damage during chemotherapy, such as bone marrow stem cells.</p>
+<p>Trials are underway, involving 600 patients. If they go as expected, doctors could be using the APO-DECIDE technology in clinics in two to three years&#8217; time.</p>
+<p>APO-DECIDE’s research stands to provide real benefits for cancer patients. Prof. Prehn summarises the impact on clinical practice: &#8220;Such a systems-wide model approach can deliver a new generation of patient analysis tools that inform oncologists and health care providers about the type and dosage of chemotherapy that is best suited for individual patients.&#8221;</p>
+<p><strong><a href="http://www.apodecide.eu/news/">news</a>Using Systems Medicine to Deliver Personalised Medicine for Colorectal Cancer</strong></p>
+<p><img class="aligncenter size-medium wp-image-1423" title="Logo_small" src="http://www.systemsmedicineireland.ie/wp-content/uploads/2014/09/Logo_small-300x72.png" alt="" width="300" height="72" /></p>
+<p>Apoptosis Modelling for Treatment Decisions in Colorectal Cancer is a short, focused, 2-year research programme and a partnership with 3 academic institutions (Queen’s University Belfast; Descartes University Paris; University Clinics Frankfurt) and 3 SMEs including two Irish SMEs (Oncomark &amp; Pintail) aimed at exploring and validating the clinical utility of a computational model of effector caspase activation (PCCP) in the context of colorectal cancer, employing automated digital pathology technologies, RPPA analysis, as well as PK/PD modelling.</p>
+<p>The <a title="Apo-decide" href="http://www.apodecide.eu/" target="_blank">APO-DECIDE consortium</a> will tackle the problem of chemotherapy resistance in colorectal cancer. By analyzing protein levels and DNA mutations in individual tumours, and by incorporating these biological data into a complex modeling environment that recapitulates how these entities interact, APO-DECIDE will develop novel diagnostic tools that predict which patients will likely benefit from chemotherapy. It is a hope that these clinical decision-making tools will enable doctors to develop personalized therapies for patients to ensure the best outcomes while potentially avoiding unnecessary chemotherapy and side effects. These new prediction tools may also be used in clinical trials to develop new drugs to treat bowel cancer, enabling ‘smart’ clinical trials design in the future. Commercialization of the project results will be facilitated by OncoMark Ltd. and Optimata Ltd.</p>
+<p>Please see the homepage of <a title="APO-DECIDE" href="http://www.apodecide.eu/" target="_blank">APO-DECIDE</a> for more details.</p>
+<p><a href="http://www.apodecide.eu/news/">http://www.apodecide.eu/news/</a></p>
+<p>Project press release at Horizon 2020: <a title="horizon2020" href="http://ec.europa.eu/programmes/horizon2020/en/news/threshold-personalised-cancer-treatment" target="_blank">http://ec.europa.eu/programmes/horizon2020/en/news/threshold-personalised-cancer-treatment</a></p>
+<p><em><img class="aligncenter size-full wp-image-1516" title="EU_logo_2014" src="http://www.systemsmedicineireland.ie/wp-content/uploads/2014/09/EU_logo_2014.png" alt="" width="186" height="125" />This project has received funding from the European Union’s Seventh Framework Programme for research, technological development and demonstration under grant agreement no <a title="cordis" href="http://cordis.europa.eu/project/rcn/105417_en.html">306021</a>.</em></p>
+			</div><!-- .entry-content -->
+	<footer class="entry-meta">
+			</footer><!-- .entry-meta -->
+</article><!-- #post-1422 -->
+
+					<div id="comments">
+	
+	
+	
+									
+</div><!-- #comments -->
+
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+		<div id="secondary" class="widget-area" role="complementary">
+			<aside id="text-3" class="widget widget_text">			<div class="textwidget"><img title="logo" src="http://www.systemsmedicineireland.ie/wp-content/uploads/2015/04/logo-300x179.png" alt="" width="150" height="90" /></div>
+		</aside>		<aside id="recent-posts-3" class="widget widget_recent_entries">		<h3 class="widget-title">News</h3>		<ul>
+				<li><a href="http://www.systemsmedicineireland.ie/2016/research-day-2016/" title="Research Day 2016">Research Day 2016</a></li>
+				<li><a href="http://www.systemsmedicineireland.ie/2016/rcsi-led-%e2%80%98angiotox%e2%80%99-project-selected-for-presentation-at-the-american-association-for-the-advancement-of-science-aaas-annual-meeting-feb-11-15-2016-washington-dc-2/" title="RCSI led ‘ANGIOTOX’ project selected  for presentation at the American Association for the Advancement of Science (AAAS) Annual Meeting;  Feb  11-15 2016 , Washington DC.">RCSI led ‘ANGIOTOX’ project selected  for presentation at the American Association for the Advancement of Science (AAAS) Annual Meeting;  Feb  11-15 2016 , Washington DC.</a></li>
+				<li><a href="http://www.systemsmedicineireland.ie/2016/congratulations-to-dr-manuela-salvucci/" title="Congratulations to Dr. Manuela Salvucci">Congratulations to Dr. Manuela Salvucci</a></li>
+				<li><a href="http://www.systemsmedicineireland.ie/2016/congrats-to-dr-zaitun-zakaria-winner-of-registrar-prize-2015/" title="Congrats to Dr. Zaitun Zakaria">Congrats to Dr. Zaitun Zakaria</a></li>
+				<li><a href="http://www.systemsmedicineireland.ie/2015/angiopredict-final-plenary-meeting/" title="Angiopredict Final Plenary Meeting">Angiopredict Final Plenary Meeting</a></li>
+				<li><a href="http://www.systemsmedicineireland.ie/2015/breast-predict-hold-second-sucessful-scientific-advisory-board-meeting/" title="Breast-Predict hold second sucessful scientific advisory board meeting">Breast-Predict hold second sucessful scientific advisory board meeting</a></li>
+				<li><a href="http://www.systemsmedicineireland.ie/2015/irish-assocaition-of-pharmacologists/" title="Irish Assocaition of Pharmacologists">Irish Assocaition of Pharmacologists</a></li>
+				<li><a href="http://www.systemsmedicineireland.ie/2015/congratulations-to-meshal-alanezi/" title="Congratulations to Meshal Alanezi">Congratulations to Meshal Alanezi</a></li>
+				<li><a href="http://www.systemsmedicineireland.ie/2015/csm-hosts-a-guest-scientist-from-brazil/" title="CSM hosts a guest scientist from Brazil">CSM hosts a guest scientist from Brazil</a></li>
+				<li><a href="http://www.systemsmedicineireland.ie/2015/congratulations-to-dr-alice-o%e2%80%99farrell/" title="Congratulations to Dr Alice O’Farrell">Congratulations to Dr Alice O’Farrell</a></li>
+				</ul>
+		</aside><aside id="archives-3" class="widget widget_archive"><h3 class="widget-title">Previously</h3>		<ul>
+			<li><a href='http://www.systemsmedicineireland.ie/2016/02/' title='February 2016'>February 2016</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2016/01/' title='January 2016'>January 2016</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2015/12/' title='December 2015'>December 2015</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2015/11/' title='November 2015'>November 2015</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2015/10/' title='October 2015'>October 2015</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2015/06/' title='June 2015'>June 2015</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2015/05/' title='May 2015'>May 2015</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2015/04/' title='April 2015'>April 2015</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2015/03/' title='March 2015'>March 2015</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2015/02/' title='February 2015'>February 2015</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2015/01/' title='January 2015'>January 2015</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2014/11/' title='November 2014'>November 2014</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2014/10/' title='October 2014'>October 2014</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2014/08/' title='August 2014'>August 2014</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2014/07/' title='July 2014'>July 2014</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2014/05/' title='May 2014'>May 2014</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2014/04/' title='April 2014'>April 2014</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2014/01/' title='January 2014'>January 2014</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2013/12/' title='December 2013'>December 2013</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2013/11/' title='November 2013'>November 2013</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2013/10/' title='October 2013'>October 2013</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2013/09/' title='September 2013'>September 2013</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2013/08/' title='August 2013'>August 2013</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2013/07/' title='July 2013'>July 2013</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2013/06/' title='June 2013'>June 2013</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2013/05/' title='May 2013'>May 2013</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2013/04/' title='April 2013'>April 2013</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2012/11/' title='November 2012'>November 2012</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2012/07/' title='July 2012'>July 2012</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2012/06/' title='June 2012'>June 2012</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2012/05/' title='May 2012'>May 2012</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2012/04/' title='April 2012'>April 2012</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2012/01/' title='January 2012'>January 2012</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2011/11/' title='November 2011'>November 2011</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2011/09/' title='September 2011'>September 2011</a></li>
+	<li><a href='http://www.systemsmedicineireland.ie/2011/08/' title='August 2011'>August 2011</a></li>
+		</ul>
+</aside>		</div><!-- #secondary .widget-area -->
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+<div id="supplementary" class="three">
+		<div id="first" class="widget-area" role="complementary">
+		<aside id="text-6" class="widget widget_text"><h3 class="widget-title">Contact Director</h3>			<div class="textwidget"><p><a href="mailto:jprehn@rcsi.ie">Prof. Jochen Prehn</a><br />
+Centre for Systems Medicine<br />
+Royal College of Surgeons in Ireland<br />
+123 St. Stephen's Green<br />
+Dublin 2<br />
+Ireland</p>
+<p>Tel: +353 1 402 2255</p>
+<p>e-mail: <a href="mailto:csm@rcsi.ie">CSM at RCSI</a><br />
+jprehn@rcsi.ie</p>
+</div>
+		</aside>	</div><!-- #first .widget-area -->
+	
+		<div id="second" class="widget-area" role="complementary">
+		<aside id="text-5" class="widget widget_text"><h3 class="widget-title">Contact CSM Manager</h3>			<div class="textwidget"><p><a href="mailto:lonesbertelsen@rcsi.ie">Dr. Helena Bonner</a><br />
+Centre for Systems Medicine<br />
+Royal College of Surgeons in Ireland<br />
+123 St. Stephen's Green<br />
+Dublin 2<br />
+Ireland</p>
+<p>Tel: +353 1 402 2289</p>
+<p>e-mail: <a href="mailto:csm@rcsi.ie">CSM at RCSI</a></p>
+</div>
+		</aside>	</div><!-- #second .widget-area -->
+	
+		<div id="third" class="widget-area" role="complementary">
+				<aside id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">News</h3>		<ul>
+				<li><a href="http://www.systemsmedicineireland.ie/2016/research-day-2016/" title="Research Day 2016">Research Day 2016</a></li>
+				<li><a href="http://www.systemsmedicineireland.ie/2016/rcsi-led-%e2%80%98angiotox%e2%80%99-project-selected-for-presentation-at-the-american-association-for-the-advancement-of-science-aaas-annual-meeting-feb-11-15-2016-washington-dc-2/" title="RCSI led ‘ANGIOTOX’ project selected  for presentation at the American Association for the Advancement of Science (AAAS) Annual Meeting;  Feb  11-15 2016 , Washington DC.">RCSI led ‘ANGIOTOX’ project selected  for presentation at the American Association for the Advancement of Science (AAAS) Annual Meeting;  Feb  11-15 2016 , Washington DC.</a></li>
+				<li><a href="http://www.systemsmedicineireland.ie/2016/congratulations-to-dr-manuela-salvucci/" title="Congratulations to Dr. Manuela Salvucci">Congratulations to Dr. Manuela Salvucci</a></li>
+				<li><a href="http://www.systemsmedicineireland.ie/2016/congrats-to-dr-zaitun-zakaria-winner-of-registrar-prize-2015/" title="Congrats to Dr. Zaitun Zakaria">Congrats to Dr. Zaitun Zakaria</a></li>
+				<li><a href="http://www.systemsmedicineireland.ie/2015/angiopredict-final-plenary-meeting/" title="Angiopredict Final Plenary Meeting">Angiopredict Final Plenary Meeting</a></li>
+				</ul>
+		</aside>	</div><!-- #third .widget-area -->
+	</div><!-- #supplementary -->
+			<div id="site-generator">
+				Centre for Systems Medicine - <a href="http://www.rcsi.ie">Royal College of Surgeons Ireland</a> - St. Stephen's Green 121 - Dublin 2 - Ireland
+				<!--				<a href="http://www.rcsi.ie/" title="Royal College of Surgeons in Ireland" rel="generator">Proudly powered by RCSI</a>
+			--></div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+<div id="thetheRightPanel" class="tspContent"><div class="thethe-content"><div id="meta-3" class="widget widget_meta"><h3 class="widget-title">Members of the Centre</h3>			<ul>
+						<li><a href="http://www.systemsmedicineireland.ie/wp-login.php">Log in</a></li>
+			<!--JASMIN<li><a href="http://www.systemsmedicineireland.ie/feed/" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://www.systemsmedicineireland.ie/comments/feed/" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>
+			-->			</ul>
+</div></div></div>
+</body>
+</html>

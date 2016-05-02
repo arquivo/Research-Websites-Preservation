@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Home Page | EcoSyn Project</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="content-language" content="English" />
+	<meta name="Keywords" content="" />
+	<meta name="Description" content=" - " />
+	<meta name="Author" content="e-ureka! di Massimiliano Vitali" />
+	<meta name="Copyright" content="Endura Spa" />
+	<meta name="Rating" content="" />
+	<meta name="Robots" content="index,follow" />
+	<meta name="Language" content="English" />
+<!-- 
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+ -->
+	<link rel="shortcut icon" href="/favicon.ico" />
+<!--
+	SweetFox4WebSite stylesheet 
+-->
+
+	<link rel="stylesheet" href="/sfStyleSheets/styleFontS.css" type="text/css" />
+	<link rel="stylesheet" href="/sfStyleSheets/styleBasic.css" type="text/css" />
+	<link rel="stylesheet" href="/sfStyleSheets/styleMenu.css" type="text/css" />
+	<link rel="stylesheet" href="/sfStyleSheets/styleHeaders.css" type="text/css" />
+	<link rel="stylesheet" href="/sfStyleSheets/styleContents.css" type="text/css" />
+	<link rel="stylesheet" href="/sfStyleSheets/styleContentsSpecific.css" type="text/css" />
+	<link rel="stylesheet" href="/sfStyleSheets/styleContentsPhotoGallery.css" type="text/css" />
+	<link rel="stylesheet" href="/sfStyleSheets/styleContentsExtras.css" type="text/css" />
+	<link rel="stylesheet" href="/sfStyleSheets/styleForms.css" type="text/css" />
+	<link rel="stylesheet" href="/sfStyleSheets/styleSearchResults.css" type="text/css" />
+
+<!--
+	SweetFox4WebSite AR stylesheets
+-->
+	<link rel="stylesheet" href="/sfStyleSheets/styleRa.css" type="text/css" />
+	<link rel="stylesheet" href="/sfStyleSheets/style4site.css" type="text/css" />
+	<link rel="stylesheet" href="/sfStyleSheets/style4siteRW.css" type="text/css" />
+<!-- 
+	jQuery scroll panel 
+-->
+	<link rel="stylesheet" type="text/css" media="all" href="/sfAddons/jqueryScrollPane/jquery.jscrollpane.css" />
+<!-- 
+	Nivo Slider 
+-->
+	<link rel="stylesheet" href="/sfAddons/nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/sfAddons/nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/sfAddons/nivo-slider/themes/demo/demo.css" type="text/css" media="screen" />
+
+	<link rel="stylesheet" href="/__layout/style.css" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
+<!-- 
+	*** STANDARD SCRIPTS ***
+-->
+	<!-- init -->
+	<!--[if lt IE 6]>   
+	<style type="text/css">   
+	img, div, a, input { behavior: url(/sfScripts/iepngfix/iepngfix.htc); }   
+	</style>   
+	<script type="text/javascript" src="/sfScripts/iepngfix/iepngfix_tilebg.js"></script>
+	<![endif]-->
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/sfScripts/html5.js"></script>
+	<![endif]-->
+	<!--[if IE]> 
+	<script type="text/javascript" src="/sfScripts/ie-set_timeout.js"></script> 
+	<![endif]-->
+<!-- 
+	SweetFox menu scripts (graphic/no graphic)
+-->
+	<script type="text/javascript">
+
+			LinkOut457 = new Image();
+			LinkOut457.src = 'http://www.ecosyn.eu/WSP_IP_link/457_immagine.png';
+			LinkOver457 = new Image();
+			LinkOver457.src = 'http://www.ecosyn.eu/WSP_IP_link_over/457_immagine.png';
+			
+			LinkOut458 = new Image();
+			LinkOut458.src = 'http://www.ecosyn.eu/WSP_IP_link/458_immagine.png';
+			LinkOver458 = new Image();
+			LinkOver458.src = 'http://www.ecosyn.eu/WSP_IP_link_over/458_immagine.png';
+			
+			LinkOut489 = new Image();
+			LinkOut489.src = 'http://www.ecosyn.eu/WSP_IP_link/489_immagine.png';
+			LinkOver489 = new Image();
+			LinkOver489.src = 'http://www.ecosyn.eu/WSP_IP_link_over/489_immagine.png';
+			
+			LinkOut490 = new Image();
+			LinkOut490.src = 'http://www.ecosyn.eu/WSP_IP_link/490_immagine.png';
+			LinkOver490 = new Image();
+			LinkOver490.src = 'http://www.ecosyn.eu/WSP_IP_link_over/490_immagine.png';
+			
+			LinkOut496 = new Image();
+			LinkOut496.src = 'http://www.ecosyn.eu/WSP_IP_link/496_immagine.png';
+			LinkOver496 = new Image();
+			LinkOver496.src = 'http://www.ecosyn.eu/WSP_IP_link_over/496_immagine.png';
+			
+			LinkOut491 = new Image();
+			LinkOut491.src = 'http://www.ecosyn.eu/WSP_IP_link/491_immagine.png';
+			LinkOver491 = new Image();
+			LinkOver491.src = 'http://www.ecosyn.eu/WSP_IP_link_over/491_immagine.png';
+			
+			LinkOut493 = new Image();
+			LinkOut493.src = 'http://www.ecosyn.eu/WSP_IP_link/493_immagine.png';
+			LinkOver493 = new Image();
+			LinkOver493.src = 'http://www.ecosyn.eu/WSP_IP_link_over/493_immagine.png';
+			
+			LinkOut492 = new Image();
+			LinkOut492.src = 'http://www.ecosyn.eu/WSP_IP_link/492_immagine.png';
+			LinkOver492 = new Image();
+			LinkOver492.src = 'http://www.ecosyn.eu/WSP_IP_link_over/492_immagine.png';
+			var hidedAll = 1;var menuLinkS = new Array();var menuItemS = new Array();var menuMenuS = new Array();var activeMenuMenuS = new Array();var menuLevel = new Array();menuLevel['Main'] = 0;for (var i=0; i<=2; i++){menuLinkS[i] = new Array();menuItemS[i] = new Array();menuMenuS[i] = new Array();activeMenuMenuS[i] = new Array();}menuItemS[0].push('Voice_4088');menuLinkS[0].push('VoiceLink_4088');menuItemS[0].push('Voice_4084');menuLinkS[0].push('VoiceLink_4084');menuItemS[0].push('Voice_4086');menuLinkS[0].push('VoiceLink_4086');menuItemS[0].push('Voice_4100');menuLinkS[0].push('VoiceLink_4100');menuItemS[0].push('Voice_4101');menuLinkS[0].push('VoiceLink_4101');menuItemS[0].push('Voice_4157');menuLinkS[0].push('VoiceLink_4157');menuItemS[0].push('Voice_4102');menuLinkS[0].push('VoiceLink_4102');menuItemS[0].push('Voice_4103');menuLinkS[0].push('VoiceLink_4103');menuItemS[0].push('Voice_4104');menuLinkS[0].push('VoiceLink_4104');/*for (var i=0; i<=2; i++){alert(menuLinkS[i]);alert(menuItemS[i]);alert(menuMenuS[i]);}*/
+	</script>
+<!-- 
+	SweetFox core scripts 
+-->
+	<script type="text/javascript" src="http://3d.sweetfox.it/__js/scripts.js"></script>
+	<script type="text/javascript" src="http://3d.sweetfox.it/__js/scripts_data.js"></script>
+	<script type="text/javascript" src="http://3d.sweetfox.it/__js/scriptAjaxGenerici.js"></script>
+<!-- 
+	sfSite scripts 
+-->
+	<script type="text/javascript" src="/sfScripts/basic.js"></script>
+<!-- 
+	jQuery library 
+-->
+	<script type="text/javascript" src="/sfScripts/jquery/jquery.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44731628-1', 'ecosyn.eu');
+  ga('send', 'pageview');
+
+</script><!-- 
+	jQuery scroll panel
+-->
+	<script language="javascript">
+	
+		if(!(navigator.userAgent.match(/iPhone/i)) && !(navigator.userAgent.match(/iPod/i)) && !(navigator.userAgent.match(/iPad/i)) && !(navigator.userAgent.match(/Android/i)))
+		{
+			document.write('<script type="text/javascript" src="/sfAddons/jqueryScrollPane/jquery.mousewheel.js"><\/script>');
+			document.write('<script type="text/javascript" src="/sfAddons/jqueryScrollPane/jquery.jscrollpane.min.js"><\/script>');
+			
+			$(function() {
+				$('#scrollPanel').jScrollPane({ scrollbarWidth:24, scrollbarMargin:3});
+				$('.scrollPanel').jScrollPane({ scrollbarWidth:24, scrollbarMargin:3});
+			});
+		}
+		
+	</script>
+<!-- 
+	Nivo Slider 
+-->
+	<script type="text/javascript" src="/sfAddons/nivo-slider/jquery.nivo.slider.pack.js"></script>
+
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('#slider').nivoSlider({ effect: "sliceUp",animSpeed: 1000,pauseTime: 4000 });
+		});
+	</script>
+<!-- 
+	fade on css class wrap
+-->
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('.wrap').fadeIn(1000);
+		});
+	</script>
+</head>
+<body ondblclick="
+	collapseSelectionToStart();
+	$('#Multimedia').css('display','none');
+	$('#Links').css('display','none');
+	$('#Zip').css('display','none');
+	$('#Pdf').css('display','none');
+	$('#Info').css('display','none');
+">
+
+	<div id="Page">
+		<div class="header">
+			<div class="img_bottom"><img src="/immagini_/europe.png" width="102" height="68" /> </div>
+			<div id="hText"><p>
+	<span style="color:#ffffff;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px;">ECOSYN project has received funding from the European Union&rsquo;s Seventh Framework Programme for research,</span></span><br />
+	<span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; color: rgb(255, 255, 255);">technological development and demonstration under grant agreement no 605740</span></p>
+</div>
+			<div id="siteSearch">
+		<div id="searchBox">
+			<form name="mdrForm" method="get" action="/index.php?lingua=uk&pagina=4109">
+				<input type="hidden" name="lingua" value="uk" />
+				<input type="hidden" name="pagina" value="4109" />
+				<input type="hidden" name="pag" value="1" />
+				<div id="searchBoxLabel">  </div>
+				<div id="searchBoxField"><input type="text" id="searchKey" name="chiave" value="I'm looking for..." onfocus="if (this.value.replace('\'','') == 'Im looking for...') this.value=''; " /></div>
+				<div id="searchBoxButton"><input type="submit" name="" value=" " onclick="if (document.getElementById('searchKey').value == '') return false;" /></div>
+				<div class="ClearAll"></div>
+			</form>
+		</div></div>
+		</div>
+			
+		<div id="Path2Page">
+			<ul>
+				<li class="label">you are here</li><li>&raquo;</li><li>Home Page</li>
+			</ul>
+		</div>
+		<section onmouseover="hidedAllMenus('Main');">
+			<div id="sectionLeft">
+				<div class="pad">
+			<nav id="MainMenu">
+
+			<nav id="MenuMain">
+				<ul><li id="Voice_4088"class="active"><a id="VoiceLink_4088"class="active" href="/" 
+					if (document.getElementById('MenuMain_4088')) { document.getElementById('MenuMain_4088').style.display='block'; }"><img id="LinkII488" src="http://www.ecosyn.eu/WSP_IP_link_active/488_immagine.png" alt="Home Page" title="Home Page" border="0" /></a></li><li id="Voice_4084"><a id="VoiceLink_4084" href="/index.php?lingua=uk&pagina=4084" ><img id="LinkII457" src="http://www.ecosyn.eu/WSP_IP_link/457_immagine.png" alt="<small>ECOSYN</small> PROJECT" title="<small>ECOSYN</small> PROJECT" border="0" onmouseover="this.src=LinkOver457.src" onmouseout="this.src=LinkOut457.src" /></a></li><li id="Voice_4086"><a id="VoiceLink_4086" href="/index.php?lingua=uk&pagina=4086" ><img id="LinkII458" src="http://www.ecosyn.eu/WSP_IP_link/458_immagine.png" alt="<small>ECOSYN</small> CONSORTIUM" title="<small>ECOSYN</small> CONSORTIUM" border="0" onmouseover="this.src=LinkOver458.src" onmouseout="this.src=LinkOut458.src" /></a></li><li id="Voice_4100"><a id="VoiceLink_4100" href="/index.php?lingua=uk&pagina=4100" ><img id="LinkII489" src="http://www.ecosyn.eu/WSP_IP_link/489_immagine.png" alt="PUBLICATIONS" title="PUBLICATIONS" border="0" onmouseover="this.src=LinkOver489.src" onmouseout="this.src=LinkOut489.src" /></a></li><li id="Voice_4101"><a id="VoiceLink_4101" href="/index.php?lingua=uk&pagina=4101" ><img id="LinkII490" src="http://www.ecosyn.eu/WSP_IP_link/490_immagine.png" alt="NEWS" title="NEWS" border="0" onmouseover="this.src=LinkOver490.src" onmouseout="this.src=LinkOut490.src" /></a></li><li id="Voice_4157"><a id="VoiceLink_4157" href="/index.php?lingua=uk&pagina=4157" ><img id="LinkII496" src="http://www.ecosyn.eu/WSP_IP_link/496_immagine.png" alt="EVENTS" title="EVENTS" border="0" onmouseover="this.src=LinkOver496.src" onmouseout="this.src=LinkOut496.src" /></a></li><li id="Voice_4102"><a id="VoiceLink_4102" href="/index.php?lingua=uk&pagina=4102" ><img id="LinkII491" src="http://www.ecosyn.eu/WSP_IP_link/491_immagine.png" alt="GALLERIES" title="GALLERIES" border="0" onmouseover="this.src=LinkOver491.src" onmouseout="this.src=LinkOut491.src" /></a></li><li id="Voice_4103"><a id="VoiceLink_4103" href="/index.php?lingua=uk&pagina=4103" ><img id="LinkII493" src="http://www.ecosyn.eu/WSP_IP_link/493_immagine.png" alt="CONTACT US" title="CONTACT US" border="0" onmouseover="this.src=LinkOver493.src" onmouseout="this.src=LinkOut493.src" /></a></li><li id="Voice_4104"><a id="VoiceLink_4104" href="/index.php?lingua=uk&pagina=4104" ><img id="LinkII492" src="http://www.ecosyn.eu/WSP_IP_link/492_immagine.png" alt="<small>PROJECT</small> FINDINGS <small>AND</small> DISSEMINATION" title="<small>PROJECT</small> FINDINGS <small>AND</small> DISSEMINATION" border="0" onmouseover="this.src=LinkOver492.src" onmouseout="this.src=LinkOut492.src" /></a></li>
+				</ul>
+			</nav>
+						<div class="ClearAll"></div>
+			</nav>
+			<div class="reserved_area" align="center">
+	<div id="loginForm">
+<form name="registrati" method="post" action="/sfSiteRa/WSP_AR_login.php?lingua=uk">
+	<input type="hidden" name="redirectUrl" value="/index.php?lingua=uk&pagina=4087" />
+	<div class="head"> </div>
+	<div class="form"> 
+		<div class="uidLabel">User Name</div>
+		<div class="uidField"><input type="text" id="loginUser" name="user_admin" value="user-id" onfocus="(this.value == 'user-id') ? this.value='' : '';" onblur="(this.value == '') ? this.value='user-id' : ''" /></div>
+		<div class="terminator"></div>
+		<div class="pwdLabel">Password</div>
+<!-- 
+		<div class="pwdField"><input type="text" id="loginPassword" name="passw_admin" value="password" onfocus="if (this.value == 'password') { this.value=''; window.document.getElementById('loginPassword').attributes['type'] = 'password'; }" onblur="if (this.value == '') { this.value='password'; this.attributes['type']='text'; } " /></div>
+ -->
+		<div id="pwdFake" class="pwdField" style="display:block;"><input type="text" id="loginPasswordFake" name="" value="password" onfocus="window.document.getElementById('pwdFake').style.display='none'; window.document.getElementById('pwdReal').style.display='block'; window.document.getElementById('loginPassword').focus()" /></div>
+		<div id="pwdReal" class="pwdField" style="display:none;"><input type="password" id="loginPassword" name="passw_admin" value="password" onfocus="if (this.value == 'password') { this.value=''; }" onblur="if (this.value == '') { window.document.getElementById('pwdFake').style.display='block'; window.document.getElementById('pwdReal').style.display='none'; } " /></div>
+		<div class="terminator"></div>
+		<div class="submitForm"><input type="submit" name="button" value="Login" /></div>
+		<div class="remLink"><a href="/index.php?lingua=uk&pagina=4090">Forgot Password?</a></div>
+	</div>
+</form>
+		<div class="ClearAll"></div>	</div>				
+			</div>
+				</div>
+			</div>
+			<div id="sectionMain">
+				<div class="pad">
+	<div class="slider_home">
+<div id="articlesWhole"><div id="article11168" class="article">		<div class="picturesContent">
+<div class="slider-wrapper theme-default"><div class="ribbon"></div><div id="slider" class="nivoSlider"><img src="http://www.ecosyn.eu/WSP_immagini_extra/41093_extra.jpg" alt="mg13" title="" /><img src="http://www.ecosyn.eu/WSP_immagini_extra/41094_extra.jpg" alt="mg11" title="" /><img src="http://www.ecosyn.eu/WSP_immagini_extra/41095_extra.jpg" alt="mg5" title="" /><img src="http://www.ecosyn.eu/WSP_immagini_extra/41096_extra.jpg" alt="mg6" title="" /><img src="http://www.ecosyn.eu/WSP_immagini_extra/41097_extra.jpg" alt="mg8" title="" /><img src="http://www.ecosyn.eu/WSP_immagini_extra/41098_extra.jpg" alt="mg14" title="" /><img src="http://www.ecosyn.eu/WSP_immagini_extra/41099_extra.jpg" alt="mg9" title="" /><img src="http://www.ecosyn.eu/WSP_immagini_extra/41100_extra.jpg" alt="mg3" title="" /><img src="http://www.ecosyn.eu/WSP_immagini_extra/41101_extra.jpg" alt="mg10" title="" /><img src="http://www.ecosyn.eu/WSP_immagini_extra/41102_extra.jpg" alt="mg12" title="" /><img src="http://www.ecosyn.eu/WSP_immagini_extra/41103_extra.jpg" alt="mg2" title="" /><img src="http://www.ecosyn.eu/WSP_immagini_extra/41104_extra.jpg" alt="mg4" title="" /><img src="http://www.ecosyn.eu/WSP_immagini_extra/41105_extra.jpg" alt="mg1" title="" /><img src="http://www.ecosyn.eu/WSP_immagini_extra/41106_extra.jpg" alt="mg7" title="" /></div></div>		</div>
+</div></div>	</div>		<div class="abstract_home">
+			<div class="txt_abstract">
+				<p align="right"><img src="/__layout/costruzione/titolo_project.png" width="140" height="30" /></p>
+								<p>
+	Insect pests cause significant damage to agricultural crops and transmit several important diseases of humans and animals. Chemical insecticides have been used to control insect pests for many decades and remain essential to ensure a supply of affordable food and as part of disease vector control for the foreseeable future. Unfortunately, the world-wide use of synthetic insecticides over many years has led to increased resistance to insecticides and contributed to environmental contamination. One way to reduce insecticide use without compromising control is to use a synergist in combination with an insecticide. Synergists are themselves nontoxic but act by increasing the effectiveness of the insecticides they are used with. They do this by inhibiting the metabolic systems in insects that detoxify insecticides. The goal of this project is to develop ecofriendly synergists for use in formulations with insecticides, both in agriculture and in Public Health, enabling a reduction in the amount of insecticidal active applied, and thereby reducing the adverse effects of these insecticides on beneficial insects such as bees.&nbsp;</p>
+
+				<p align="right">[ <a class="linkabstract" href="index.php?lingua=uk&pagina=4084">Read all </a>]</p>
+			</div>
+		</div>		<div class="news_home">
+			<p align="right"><img src="/__layout/costruzione/titolo_news.png" width="110" height="30" /></p>
+			<div id="scrollPanel" class="Overflow">
+						<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Upcoming - A joint publication has been submitted to Pest Management Science</span>
+					<span class="StileNews"><p style="margin-left:18.0pt;">
+	Upcoming - A joint publication of results achieved in WP1 and WP2 has been submitted to Pest Management Science on December 21st, 2015. (Pest Management Science - Manuscript number: PM-15-0798: The interactions between piperonyl butoxide and analogues with the metabolic enzymes FE4 and CYP6CY3 of the green peach aphid Myzus persicae (Hemiptera: Aphididae). By Panini, Michela; Tozzi, Francesco; Bass, Chris; Zimmer, Christoph T.; Field, Linda; Borzatta, Valerio; Mazzoni, Emanuele; Moores, Graham).</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4101&recordDettaglio=12636">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Upcoming – A paper to disseminate results of the project</span>
+					<span class="StileNews"><p style="margin-left:18.0pt;">
+	Upcoming &ndash; A paper to disseminate results of the project (WP4) to the scientific community by publication of a paper in an international scientific peer-reviewed journal is foreseen (Rothamsted with Universit&agrave; Cattolica del Sacro Cuore / Apreslabs / Endura)</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4101&recordDettaglio=12637">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Upcoming – Rothamsted plans to disseminate results of the project to the scientific community</span>
+					<span class="StileNews"><p style="margin-left:18.0pt;">
+	Upcoming &ndash; Rothamsted plans to disseminate results of the project to the scientific community by publication of a paper in an international scientific peer-reviewed journal. A paper on results achieved in WP6 is currently under preparation.</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4101&recordDettaglio=12638">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Upcoming - Vyzkumny Ustav VcelarskY Sro plans to prepare peer-reviewed publication</span>
+					<span class="StileNews"><p style="margin-left:18.0pt;">
+	Upcoming - Vyzkumny Ustav VcelarskY Sro plans to prepare peer-reviewed publication, to disseminate and publish results of tests performed on beneficial insects for scientific community in an international journal</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4101&recordDettaglio=12639">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Ecosyn @ European PhD Network in “Insect Science”</span>
+					<span class="StileNews"><p>
+	Dr. Michela Panini will held a presentation about Ecosyn project results with the title &quot;Characterisation of interactions between novel inhibitors and metabolic enzymes in insect pest&quot; at the European PhD Network in &ldquo;Insect Science&rdquo;, 6th Annual Meeting and SEI-SIPAV Joint Workshop, Firenze, 11 &ndash; 13 November 2015.</p>
+<p>
+	<a href="http://www.societaentomologicaitaliana.it/en/archivio-comunicazioni-2/63-news-2/220-european-phd-network-in-insect-science.html">http://www.societaentomologicaitaliana.it/en/archivio-comunicazioni-2/63-news-2/220-european-phd-network-in-insect-science.html</a></p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4157&recordDettaglio=12557">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"><img src="http://www.ecosyn.eu/WSP_immagini_miniatura/51127_miniatura.jpg" alt="Insecticide boost - Dr. G. Moores (Apres Lab)" title="Insecticide boost - Dr. G. Moores (Apres Lab)" /></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Insecticide boost - Dr. G. Moores (Apres Lab)</span>
+					<span class="StileNews"><p>
+	An overview on the use of synergists to overcome insecticide resistance and Ecosyn project findings.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="http://www.soci.org/chemistry-and-industry/cni-data/2015/9/insecticide-boost">http://www.soci.org/chemistry-and-industry/cni-data/2015/9/insecticide-boost</a></p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4104">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Ecosyn @ Resistance 2015</span>
+					<span class="StileNews"><p>
+	Several Ecosyn consortium members will attend and present relevant project&#39;s findings during Resistance 2015, Rothamsted Research, Harpendem, Hertfordshire, United Kingdom, on September 14-16th &nbsp;2015.</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4157&recordDettaglio=12421">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Posters presented at Resistance 2015</span>
+					<span class="StileNews"><p>
+	Posters presented at Resistance 2015</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4100&recordDettaglio=12631">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Dissemination article “Insecticide Boost” on C&I Magazine</span>
+					<span class="StileNews"><p style="margin-left:18.0pt;">
+	Dissemination article &ldquo;Insecticide Boost&rdquo; on C&amp;I Magazine Issue 9, 2015 (ApresLabs)&nbsp;</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4100&recordDettaglio=12629">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Ecosyn @ Agrisciences Young Researchers 2015: Crop Production, Protection and Utilisation</span>
+					<span class="StileNews"><p>
+	Dr. Michela Panini (UCSC) will hold a talk entitled &quot;Ecosyn: ecofriendly synergists for insecticide formulations&quot; and Dr. Vincenzo Puggioni (UCSC) will present a poster (Target site and metabolic insecticide resistance monitoring in Musca Domestica) at the Agrisciences Young Researchers 2015: Crop Production, Protection and Utilisation, 8th July 2015, Syngenta, Jealott&#39;s Hill International Research Centre (Bracknell, UK).</p>
+<p>
+	&nbsp;</p>
+<p>
+	Please visit the event website for more information:&nbsp;<a href="https://www.soci.org/Events/Display-Event?EventCode=PEST453" style="font-family: Calibri, sans-serif;">https://www.soci.org/Events/Display-Event?EventCode=PEST453</a></p>
+<p>
+	&nbsp;</p>
+<p style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">
+	<span style="font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;
+color:black"><o:p></o:p></span></p>
+<p style="background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">
+	<span style="font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;
+color:black"><o:p></o:p></span></p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4157&recordDettaglio=12418">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Poster presented by UNICATT at the conference “Agrisciences Young Researchers 2015</span>
+					<span class="StileNews"><p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: medium; text-indent: -24px;">Poster presented by UNICATT at the conference &ldquo;Agrisciences Young Researchers 2015</span></p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4100&recordDettaglio=12632">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"><img src="http://www.ecosyn.eu/WSP_immagini_miniatura/47995_miniatura.jpg" alt="Press Release - Ecosyn on Spray Magazine" title="Press Release - Ecosyn on Spray Magazine" /></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Press Release - Ecosyn on Spray Magazine</span>
+					<span class="StileNews"><p>
+	An Ecosyn project summary was published on Spray Magazine, May 2015.</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4101&recordDettaglio=12365">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Press release in Spray Magazine</span>
+					<span class="StileNews"><p style="margin-left:18.0pt;">
+	Press release in Spray Magazine presenting the project, its overview and scope. May 2015. (ENDURA)</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4100&recordDettaglio=12628">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"><img src="http://www.ecosyn.eu/WSP_immagini_miniatura/47976_miniatura.jpg" alt="Workshop " title="Workshop " /></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Workshop </span>
+					<span class="StileNews"><p>
+	Dr. Prof. O.Gurkan will hold a workshop at Plant Protection Research Institute, Ankara, Turkey.</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4157&recordDettaglio=12237">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Ecosyn @ Agri Innovation 2015: Emerging Science and Technologies in Crop Research</span>
+					<span class="StileNews"><p>
+	<span style="color: rgb(51, 51, 51); font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; font-size: 11px;">Dr. Graham Moores (Rothamsted Research) will present Ecosyn project at Agri Innovation 2015: Emerging science and technologies in crop research,&nbsp;SCI, London.</span></p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4101&recordDettaglio=12236">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Paper produced for Proceedings of Crop Protection in Southern Britain Conference</span>
+					<span class="StileNews"><p style="margin-left:18.0pt;">
+	Paper produced for Proceedings of Crop Protection in Southern Britain Conference due to take place on 25th -26th November 2014, at Peterborough Arena, Cambridgeshire. Paper entitled: &ldquo;Controlling aphids and turnip yellows virus in oilseed rape in a post-neonicotinoid world&rdquo; by Dewar Crop Protection Ltd.</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4100&recordDettaglio=12630">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Ecosyn @ Czech Phytomedical Days </span>
+					<span class="StileNews"><p>
+	Dr. Martin Kamler (VYZKUMNY USTAV VCELARSKY) will present a poster about Ecosyn project during the next Czech Phytomedical Days, Pardubice, November 5-6 2014.</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4157&recordDettaglio=11665">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Ecosyn Project 1st Review Meeting</span>
+					<span class="StileNews"><p>
+	The first Review Meeting will be held in Brussels on October 15th, 2014.</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4101&recordDettaglio=11639">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Ecosyn @ World Aerosol Congress</span>
+					<span class="StileNews"><p>
+	Ecosyn project was presented by Dr. Cosimo Franco (Endura) at the World Aerosol Congress in Buenos Aires, Argentina.&nbsp;</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4157&recordDettaglio=11650">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Press release in Chemistry Today magazine </span>
+					<span class="StileNews"><p style="margin-left:18.0pt;">
+	Press release in Chemistry Today magazine to update about the development of the project, September 1st 2014. (ENDURA)</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4100&recordDettaglio=12626">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Press Release - Update on Ecosyn project</span>
+					<span class="StileNews"><p>
+	Press release on Chemistry Today magazine, September 1st 2014.</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4101&recordDettaglio=11651">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Press release in AGROW </span>
+					<span class="StileNews"><p style="margin-left:18.0pt;">
+	Press release in AGROW (World Crop Protection News) journal to update about the development of the project, August 20th 2014, issue 694: 18. (ENDURA)</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4100&recordDettaglio=12625">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Press Release - Update on Ecosyn project</span>
+					<span class="StileNews"><p>
+	An update on Ecosyn project was published on AGROW Magazine, August 20th 2014.</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4101&recordDettaglio=11676">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Ecosyn @ 13th IUPAC International Congress of Pesticide Chemistry</span>
+					<span class="StileNews"><p>
+	<span style="color: rgb(51, 51, 51); font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; font-size: 12px;">Dr. Cristoph Zimmer (Rothamsted Research) will present Ecosyn project at&nbsp;</span><span style="font-size: 12px;">13th IUPAC International Congress of Pesticide Chemistry, San Francisco, USA.&nbsp;</span></p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4157&recordDettaglio=11589">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"><img src="http://www.ecosyn.eu/WSP_immagini_miniatura/45866_miniatura.jpg" alt="Ecosyn @10th European Congress of Entomology" title="Ecosyn @10th European Congress of Entomology" /></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Ecosyn @10th European Congress of Entomology</span>
+					<span class="StileNews"><p>
+	Dr. Chris Bass, Dr. Cristoph Zimmer (Rothamsted Research), Dr. Michela Panini and Prof. Emanuele Mazzoni (Universit&agrave; Cattolica del Sacro Cuore) will present the Ecosyn project poster &nbsp;at the 10th European Congress of Entomology, University of York, Heslington, York.</p>
+<p>
+	http://www.royensoc.co.uk/meetings/20140803_ece2014.htm</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4157&recordDettaglio=11594">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Ecosyn @ Agri - innovation 2014: Emerging science and technologies in crop research</span>
+					<span class="StileNews"><p>
+	Dr. Graham Moores (Rothamsted Research) and Dr. Michela Panini (Universit&agrave; Cattolica del Sacro Cuore) will present Ecosyn project at Agri - innovation 2014: Emerging science and technologies in crop research,&nbsp;Imperial College, London.</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4157&recordDettaglio=11522">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Ecosyn @Giornate Fitopatologiche 2014</span>
+					<span class="StileNews"><p>
+	Prof. E. Mazzoni (Universit&agrave; Cattolica del Sacro Cuore) will present a poster about Ecosyn project during the next <em>Giornate Fitopatologiche</em> conference, Chianciano Terme (Siena), March 18-21 2014.</p>
+<p>
+	&nbsp;</p>
+<p>
+	http://giornatefitopatologiche.imagelinenetwork.com/edizione-2014-protezione-piante-difesa-diserbo.cfm</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4157&recordDettaglio=11465">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Ecosyn @Informa Life Science’s Biocide formulations Conference</span>
+					<span class="StileNews"><p>
+	Prof. E. Mazzoni (Universit&agrave; Cattolica del Sacro Cuore) will held a talk on insecticid<span style="font-size: 12px;">es resistance and synergists during the next&nbsp;</span><span style="font-size: 12px;">Informa Life Science&rsquo;s Biocide formulations Conference</span><span style="font-size: 12px;">, Berlin, 12-13 February 2014.</span></p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4157&recordDettaglio=11455">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Ecosyn @ Honeybees and plant protection Congress</span>
+					<span class="StileNews"><p>
+	<span style="color: rgb(51, 51, 51); font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; font-size: 11px;">M. Kamler (BRIDOL) will present Ecosyn project at&nbsp;Honeybees and plant protection Congress held in Hrdec Kralove, Czech Republic, on 21st of January 2014.</span></p>
+<p>
+	<a href="http://www.ovocnarska-unie.cz/sispo/?str=ovoc-dny">http://www.ovocnarska-unie.cz/sispo/?str=ovoc-dny</a><span style="color: rgb(51, 51, 51); font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; font-size: 11px;">v</span></p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4157&recordDettaglio=11638">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Press release on Rothamsted Research's website</span>
+					<span class="StileNews"><p style="margin-left:18.0pt;">
+	Press release: &ldquo;Reducing the impact of pesticides on beneficial insects&rdquo; on Rothamsted Research&#39;s website, November 2013.</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4100&recordDettaglio=12624">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Press release on "Pest Magazine"</span>
+					<span class="StileNews"><p style="margin-left:18.0pt;">
+	&nbsp;Press release on &quot;Pest Magazine&quot; on November 27th 2013, Vol.55, Nr.6 (Babolna Kornyezetbiologial Kozpont Kft)</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4100&recordDettaglio=12623">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"><a href="http://www.pestmagazine.co.uk/content/NewsItem.aspx?id=1072"><img src="http://www.ecosyn.eu/WSP_immagini_miniatura/41720_miniatura.jpg" alt="Press Release - A one million euro research fund is all set to benefit public health pest control" title="Press Release - A one million euro research fund is all set to benefit public health pest control" /></a></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Press Release - A one million euro research fund is all set to benefit public health pest control</span>
+					<span class="StileNews"><p>
+	Press release on &quot;Pest Magazine&quot; on November 27th 2013.</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4101&recordDettaglio=11387">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Press release in AGROW </span>
+					<span class="StileNews"><p style="margin-left:18.0pt;">
+	&nbsp;Press release in AGROW (World Crop Protection News) journal announcing the project, its overview and scope. November 13th, 2013, issue 676: 13 (ENDURA)</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4100&recordDettaglio=12622">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"><a href="https://www.agra-net.net/agra/agrow/markets-regulatory/europe/eu-funds-insecticide-synergist-research--1.htm" target="_blanc"><img src="http://www.ecosyn.eu/WSP_immagini_miniatura/41701_miniatura.jpg" alt="Press Release - EU funds insecticide synergist research" title="Press Release - EU funds insecticide synergist research" /></a></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Press Release - EU funds insecticide synergist research</span>
+					<span class="StileNews"><p>
+	From AGROW journal, on November 13th 2013, issue 676 page 13.</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4101&recordDettaglio=11381">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Introduction article of the project</span>
+					<span class="StileNews"><p style="margin-left:18pt;">
+	Introduction article of the project, its overview and aims with description of work on beneficial insects in the local reviewed journal for crop protection &ldquo;Rostlinol&eacute;kař&rdquo; (&ldquo;Phytodoctor&rdquo; http://www.rostlinolekari.cz/)</p>
+<p>
+	&nbsp;</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4100&recordDettaglio=12612">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"><a href="http://www.rothamsted.ac.uk/news/reducing-impact-pesticides-beneficial-insects" target="_blanc"><img src="http://www.ecosyn.eu/WSP_immagini_miniatura/41458_miniatura.jpg" alt="Press Release - Reducing the impact of pesticides on beneficial insects" title="Press Release - Reducing the impact of pesticides on beneficial insects" /></a></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Press Release - Reducing the impact of pesticides on beneficial insects</span>
+					<span class="StileNews"><p>
+	Project&#39;s press release on Rothamsted Research&#39;s website.</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4101&recordDettaglio=11364">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Ecosyn @ Honeybees and plant protection Congress</span>
+					<span class="StileNews"><p>
+	M. Kamler (BRIDOL) will present Ecosyn project at&nbsp;Honeybees and plant protection Congress held in Pardubice, Czech Republic, on 7th November 2013.</p>
+<p>
+	<a href="http://www.rostlinolekari.cz/">http://www.rostlinolekari.cz/</a></p>
+<p>
+	<a href="http://www.rostlinolekari.cz/pages/rld_pozv_2013a4.pdf">http://www.rostlinolekari.cz/pages/rld_pozv_2013a4.pdf</a></p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4157&recordDettaglio=11637">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Press release on Hungarian Pest Control Association</span>
+					<span class="StileNews"><p style="margin-left:18.0pt;">
+	Press release on project published on Hungarian Pest Control Association, November 2013 (Babolna Kornyezetbiologial Kozpont Kft)</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4100&recordDettaglio=12627">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Press Release - Announce the project and the kick off meeting</span>
+					<span class="StileNews"><p abp="2210" style="margin-left: 18pt">
+	Press release to announce the project and the kick off meeting in Piacenza (Italy) on local newspaper (Cattolica news) &nbsp;as well as on one of the most important Italian agricultural online newspaper (www.agrinotizie.it) , October 2013 (UNICATT).</p>
+<p abp="2211">
+	&nbsp;</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4100&recordDettaglio=12611">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"><a href="http://www.ilpiacenza.it/cronaca/cattolica-meeting-kick-off-pesticidi-sinergizzanti.html" target="_blanc"><img src="http://www.ecosyn.eu/WSP_immagini_miniatura/41239_miniatura.jpg" alt="Newspaper release" title="Newspaper release" /></a></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Press Release - Kick off Meeting</span>
+					<span class="StileNews"><p>
+	Press release on &quot;IlPiacenza&quot; on October 1st, 2013</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4101&recordDettaglio=11229">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"><a href="http://www.ilpiacenza.it/economia/i-sinergizzanti-le-nuove-sostanze-per-ridurre-uso-ed-effetti-degli-insetticidi.html" target="_blanc"><img src="http://www.ecosyn.eu/WSP_immagini_miniatura/41702_miniatura.jpg" alt="Press Release - I sinergizzanti, le nuove sostanze per ridurre uso ed effetti degli insetticidi" title="Press Release - I sinergizzanti, le nuove sostanze per ridurre uso ed effetti degli insetticidi" /></a></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Press Release - I sinergizzanti, le nuove sostanze per ridurre uso ed effetti degli insetticidi</span>
+					<span class="StileNews"><p>
+	Press release on &quot;IlPiacenza&quot; on October 2nd 2013.</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4101&recordDettaglio=11382">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"><a href="http://agronotizie.imagelinenetwork.com/agricoltura-economia-politica/2013/10/02/ecosyn-sinergizzanti-per-ridurre-lrsquoeffetto-nocivo-degli-agrofarmaci/34812"><img src="http://www.ecosyn.eu/WSP_immagini_miniatura/41835_miniatura.jpg" alt="Press Release - Ecosyn, sinergizzanti per ridurre l’effetto nocivo degli agrofarmaci" title="Press Release - Ecosyn, sinergizzanti per ridurre l’effetto nocivo degli agrofarmaci" /></a></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Press Release - Ecosyn, sinergizzanti per ridurre l’effetto nocivo degli agrofarmaci</span>
+					<span class="StileNews"><p>
+	Press release on Agronotizie.com, October 2nd 2013</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4101&recordDettaglio=11413">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>			<div class="box_news">
+				<div class="img_news"><img src="http://www.ecosyn.eu/WSP_immagini_miniatura/41115_miniatura.jpg" alt="Kick off meeting of EcoSyn project " title="" /></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">Kick off meeting of EcoSyn project</span>
+					<span class="StileNews"><p>
+	<em>Time</em> : 13.00-18.00 (October 1st) ; 9.00-14.00 (October 2nd)<br />
+	<em>Place</em>: Universit&agrave; Cattolica del Sacro Cuore - Via Emilia Parmense 84, 20122 Piacenza (Italy)</p>
+</span>
+					[<a class="linknews" href="index.php?lingua=uk&pagina=4101&recordDettaglio=11169">Read all</a>]
+				</div> 
+				<div class="ClearAll"></div> 
+			</div>
+<!-- 
+			<div class="box_news">
+				<div class="img_news"><img src="/__layout/costruzione/icona_news.png" width="75" height="75" /></div>
+				<div class="txt_news">
+				<span class="StileTITOLI">TITOLO NEWS</span>
+					<br /><span class="StileNews">Abstract news abstract news abstract news abstract news abstract news abstract news</span>
+					<br />[<a class="linknews" href="#">Read all</a>]
+				</div>  
+			</div>
+			<div class="box_news">
+				<div class="img_news"><img src="/__layout/costruzione/icona_news.png" width="75" height="75" /></div>
+				<div class="txt_news">
+					<span class="StileTITOLI">TITOLO NEWS</span>
+					<br /><span class="StileNews">Abstract news abstract news abstract news abstract news abstract news abstract news</span>
+					<br />[<a class="linknews" href="#">Read all</a>]
+				</div>  
+			</div>
+ -->
+			</div>
+		</div>		<div class="consortium_home">
+			<p align="right"><img src="/__layout/costruzione/titolo_consortium.png" width="180" height="30" /></p>
+						<div class="img_cons"><img src="http://www.ecosyn.eu/WSP_immagini_extra/41107_extra.png" alt="ENDURA S.p.A. " title="" /></div>
+			<div class="img_cons"><img src="http://www.ecosyn.eu/WSP_immagini_extra/41108_extra.png" alt="No. 2. DEWAR CROP PROTECTION Ltd " title="" /></div>
+			<div class="img_cons"><img src="http://www.ecosyn.eu/WSP_immagini_extra/41114_extra.png" alt="ANKARA ADVANCED TECHNOLOGIES INVESTMENT AS" title="" /></div>
+			<div class="img_cons"><img src="http://www.ecosyn.eu/WSP_immagini_extra/41109_extra.jpg" alt="ROTHAMSTED RESEARCH Ltd" title="" /></div>
+			<div class="img_cons"><img src="http://www.ecosyn.eu/WSP_immagini_extra/41110_extra.png" alt="UNIVERSITA’ CATTOLICA DEL SACRO CUORE" title="" /></div>
+			<div class="img_cons"><img src="http://www.ecosyn.eu/WSP_immagini_extra/41111_extra.png" alt="AGCHEMACCESS Ltd" title="" /></div>
+			<div class="img_cons"><img src="http://www.ecosyn.eu/WSP_immagini_extra/41112_extra.png" alt="VYZKUMNY USTAV VCELARSKY s.r.o." title="" /></div>
+			<div class="img_cons"><img src="http://www.ecosyn.eu/WSP_immagini_extra/41113_extra.png" alt="BABOLNA  BIO  Ltd" title="" /></div>
+			<div class="img_cons"><img src="http://www.ecosyn.eu/WSP_immagini_extra/41253_extra.png" alt="APRESLABS Ltd" title="" /></div>
+		</div>				</div>
+			</div>
+			<div class="ClearAll"></div>
+		</section>
+		<div id="spcFooter"></div>
+	</div>
+	<footer>
+		<br />
+		<div id="fContent">
+			<div id="WebPrivacyPolicy"><a href="javascript:ApriFinestra('/sfPrivacyCookies/policy.php',800,600,'YES')">Web Privacy Policy</a></div>
+						<div id="PoweredBy"><div><em>powered by&nbsp;&nbsp;</em><strong><a href="http://www.kaizengraphics.com" target="blanc_">kaizengraphics</a></strong>&nbsp;&&nbsp;<strong><a href="http://www.e-ureka.it" target="blanc_">e-ureka!</a></strong> <em>&copy;2013</em></div></div>
+		</div>
+	</footer>
+	<div id="DefaultWaitRoom"><table><tr><td><img src="/immagini/loading.gif" alt="loading..." border="0" /></td></tr></table></div>
+	<div id="reportArea"><div id="reportAreaContainer"><div id="reportClose"><a href="javascript:void 0" onClick="CloseTransparentStages();"><img src="/immagini/spacer.gif" width="36" height="36" /></a></div><div id="reportAreaContent" class="BO"> </div></div></div>
+	<div id="alphaScreen" onclick="collapseSelectionToStart();CloseTransparentStages()"></div>
+	<div id="mmediaStage" onclick="collapseSelectionToStart();CloseTransparentStages()"><div id="mmediaPlayer"> </div></div>
+	
+<!-- 
+// 	<script language="javascript">
+// 		WaitRoomClose('DefaultWaitRoom');
+// 		ShowReport('','');
+// 	</script>
+ -->
+	<script type="text/javascript" src="/sfPrivacyCookies/jquery.cookiebar.js"></script>
+	<link rel="stylesheet" href="/sfPrivacyCookies/jquery.cookiebar.css" type="text/css" />
+	<link rel="stylesheet" href="/sfPrivacyCookies/custom/jquery.cookiebar.css" type="text/css" />
+	<script language="javascript">
+		$(document).ready(function(){
+			$.cookieBar({
+				fixed: true,
+				declineButton: false,
+				policyButton: true
+			});
+		});
+	</script>
+	<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+<script type="text/javascript">
+  window.___gcfg = {lang: 'it'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+</body>
+</html>

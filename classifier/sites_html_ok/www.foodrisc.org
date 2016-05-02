@@ -1,0 +1,212 @@
+<!DOCTYPE html><html xml:lang="en" lang="en">
+  <head>
+    <base href="http://www.foodrisc.org/"/>
+    <title>FoodRisC: Food Risk Communication – perceptions and communication of food risk/benefits across Europe</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="White October Ltd"/>
+    <meta name="keywords" content="Replace with search engine keywords"/>
+    <meta name="description" content="Replace with seach engine description"/>
+    <meta name="robots" content="INDEX, FOLLOW"/>
+    <meta http-equiv="expires" content="0"/>
+    <meta http-equiv="pragma" content="no-cache"/>
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta name="Publisher" content="White October Ltd"/>
+    <meta name="verify-v1" content="NOT SET"/>
+    <link rel="Shortcut Icon" href="/favicon.ico"/>
+    <link href="http://hitachirail.whiteag5.tryingitout.co.uk/css/bootstrap.css" rel="stylesheet"/>
+    <style type="text/css" media="all">
+	
+			@import "http://www.foodrisc.org/css/styles.css?v=4";
+            @import "http://www.foodrisc.org/css/page-player.css?v=5";
+	
+		</style>
+    <script type="text/javascript" src="http://hitachirail.whiteag5.tryingitout.co.uk/js/jquery-1.8.3.min.js"> </script>
+    <script src="http://www.foodrisc.org/js/soundmanager2-nodebug-jsmin.js"> </script>
+    <script type="text/javascript">
+
+        /* --------
+
+          Config override: This demo uses shiny flash 9 stuff, overwriting Flash 8-based defaults
+          Alternate PP_CONFIG object must be defined before page-player JS is included/executed.
+          Alternately, edit the config in page-player.js to simply use the values below by default
+
+        -------- */
+
+        // demo only..
+        soundManager.useHighPerformance = true; // keep flash on screen, boost performance
+        soundManager.wmode = 'transparent'; // transparent SWF, if possible
+        soundManager.useFastPolling = true; // increased JS callback frequency
+        soundManager.url = '../swf/';
+
+        var PP_CONFIG = {
+          flashVersion: 9,       // version of Flash to tell SoundManager to use - either 8 or 9. Flash 9 required for peak / spectrum data.
+          usePeakData: true,     // [Flash 9 only] whether or not to show peak data (left/right channel values) - nor noticable on CPU
+          useWaveformData: false, // [Flash 9 only] show raw waveform data - WARNING: LIKELY VERY CPU-HEAVY
+          useEQData: false,      // [Flash 9 only] show EQ (frequency spectrum) data
+          useFavIcon: true,     // try to apply peakData to address bar (Firefox + Opera) - performance note: appears to make Firefox 3 do some temporary, heavy disk access/swapping/garbage collection at first(?) - may be too heavy on CPU
+          useMovieStar: true     // Flash 9.0r115+ only: Support for a subset of MPEG4 formats.
+        }
+
+        </script>
+    <script src="http://www.foodrisc.org/js/page-player.js"> </script>
+  </head>
+  <body>
+    <div id="header">
+      <div id="logo">
+        <img src="http://www.foodrisc.org/images/logo.gif" alt="FoodRisC: Benefit &amp; Risk Communication" width="287" height="108"/>
+      </div>
+      <div id="strapline">Perceptions and communication of food risk/benefits across Europe </div>
+      <div id="primarynav">
+        <p class="skiplink">
+          <a name="primnav" href="#endprimnav">Skip primary navigation</a>
+        </p>
+        <ul>
+          <li>
+            <a href="http://www.foodrisc.org/" class="slidingdoors ltr active lastlink">
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a class="slidingdoors ltr " href="http://www.foodrisc.org/research_14.html">
+              <span>Research</span>
+            </a>
+          </li>
+          <li>
+            <a class="slidingdoors ltr " href="http://www.foodrisc.org/about_15.html">
+              <span>About</span>
+            </a>
+          </li>
+          <li>
+            <a class="slidingdoors ltr " href="http://www.foodrisc.org/news_7.html">
+              <span>News</span>
+            </a>
+          </li>
+          <li>
+            <a class="slidingdoors ltr " href="http://www.foodrisc.org/partners_12.html">
+              <span>Partners</span>
+            </a>
+          </li>
+          <li>
+            <a class="slidingdoors ltr " href="http://www.foodrisc.org/publications_61.html">
+              <span>Publications</span>
+            </a>
+          </li>
+          <li>
+            <a class="slidingdoors ltr  lastlink" href="http://www.foodrisc.org/e-resource_67.html">
+              <span>E-resource</span>
+            </a>
+          </li>
+        </ul>
+        <a name="endprimnav" class="skiplink-placeholder"> </a>
+      </div>
+    </div>
+    <div id="content">
+      <div id="content_top">
+        <div class="box_simple">
+          <div id="box_positionstatement"><h2><span>FoodRisC</span></h2><p>aims to map out the networks and information sources contributing to food risk and benefit communication across Europe&nbsp;to create a toolkit aimed at policy makers, food authorities&nbsp;and other stakeholders that will facilitate effective and coherent communication on food.&nbsp;<a href="/about-foodrisc_15.html">Read more...</a></p> </div>
+        </div>
+        <div id="banner" style="background-image: url(&quot;http://www.foodrisc.org/medialibrary/_homehero/2010/12/06/1cb32b3d/iStock_000010876103Medium_cropped.jpg&quot;);">
+          <p> </p>
+        </div>
+      </div>
+      <div id="content_bottom">
+        <div class="box_l"><h3><a href="research_14.html">Research</a></h3><ul>     <li><a href="/creating-a-benchmark_18.html">Creating a benchmark</a></li>     <li><a href="/new-and-classical-media_19.html">New and Classical Media</a></li>     <li><a href="/consumer-response_20.html">Consumer Response</a></li>     <li><a href="/deliberative-engagement_22.html">Deliberative Engagement</a></li>     <li><a href="/information-seeking_21.html">Information Seeking</a></li>     <li><a href="/best-practices_23.html">Best Practices</a></li> </ul></div>
+        <div id="box_latestnews" class="box_l">
+          <h3>Latest News</h3>
+          <ul>
+            <li class="first">
+              <a href="http://www.foodrisc.org/key-communications_71.html">Key Communications</a>
+              <span class="date">25 Nov 2013</span>
+            </li>
+            <li class="">
+              <a href="http://www.foodrisc.org/pictures-final-foodriscefsa-conference-now-online_70.html">Pictures final FoodRisC/EFSA conference now online</a>
+              <span class="date">17 Oct 2013</span>
+            </li>
+            <li class="last">
+              <a href="http://www.foodrisc.org/read-the-final-foodrisc-leaflet-in-12-european-languages_69.html">Read the final FoodRisC leaflet in 12 European languages</a>
+              <span class="date">15 Oct 2013</span>
+            </li>
+          </ul>
+        </div>
+        <div id="box_socialmedia" class="box_l">
+          <h3>Follow the project</h3>
+          <ul>
+            <li class="first">
+              <a href="http://www.foodrisc.org/?action=news_rss"><img src="images/socialmedia/rss.gif" alt="RSS"/>RSS Feeds</a>
+            </li>
+            <li>
+              <a href="http://twitter.com/FoodRisc"><img src="images/socialmedia/twitter.gif" alt="Twitter"/>Follow us on Twitter</a>
+            </li>
+            <li class="last">
+              <a href="http://www.facebook.com/pages/FoodRisC/121071961283472?v=info"><img src="images/socialmedia/facebook.gif" alt="Facebook"/>Facebook Group</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div id="footer_partners">
+        <ul>
+          <li>
+            <a href="http://eu.com">
+              <img src="http://www.foodrisc.org/medialibrary/_footerpartner/2014/04/29/564a2841/images 2.jpeg"/>
+            </a>
+          </li>
+          <li>
+            <img src=""/>
+          </li>
+          <li>
+            <img src=""/>
+          </li>
+        </ul>
+        <div class="htmltext"><p>This project has received funding from the European Union&rsquo;s Seventh Framework Programme for research, technological development and demonstration.</p> </div>
+      </div>
+      <div id="footer_credits">
+        <span>© FoodRisC, 2016</span>
+        <ul>
+          <li class="">
+            <a href="http://www.foodrisc.org/contact_26.html">
+              <span>Contact</span>
+            </a>
+          </li>
+          <li class=" last">
+            <a href="http://www.foodrisc.org/about_15.html">
+              <span>About</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+    <script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-20797643-1");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+		</script>
+    <div id="control-template">
+      <div class="controls">
+        <div class="statusbar">
+          <div class="loading"> </div>
+          <div class="position"> </div>
+        </div>
+      </div>
+      <div class="timing">
+        <div id="sm2_timing" class="timing-data"><span class="sm2_position">%s1</span> / <span class="sm2_total">%s2</span></div>
+      </div>
+      <div class="peak">
+        <div class="peak-box">
+          <span class="l"> </span>
+          <span class="r"> </span>
+        </div>
+      </div>
+    </div>
+    <div id="spectrum-container" class="spectrum-container">
+      <div class="spectrum-box">
+        <div class="spectrum"> </div>
+      </div>
+    </div>
+  </body>
+</html>

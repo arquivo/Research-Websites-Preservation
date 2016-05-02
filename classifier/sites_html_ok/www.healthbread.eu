@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="de-DE">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	  
+		<title>Healthbread</title>
+		
+	    <!-- Stylesheets -->
+		<link rel="stylesheet" href="http://www.healthbread.eu/wp-content/themes/food-recipes-child/style.css" type="text/css" media="all" />
+		
+		<!-- Example Stylesheets To Write Your Own Styles - remove comments and you will see blue skin -->		
+	    <!--<link rel="stylesheet" href="http://www.healthbread.eu/wp-content/themes/food-recipes/skin/blue/blue.css" type="text/css" media="all" />-->	
+		
+		<link rel="pingback" href="http://www.healthbread.eu/xmlrpc.php" />
+		<link rel="alternate" type="application/rss+xml" title="Healthbread" href="http://www.healthbread.eu/feed/" />
+		<link rel="alternate" type="application/atom+xml" title="Healthbread" href="http://www.healthbread.eu/feed/atom/" />				
+		
+				<!-- FAVICON -->
+		<link rel="shortcut icon" href="" />
+				
+		<link rel="alternate" type="application/rss+xml" title="Healthbread &raquo; Feed" href="http://www.healthbread.eu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Healthbread &raquo; Kommentar-Feed" href="http://www.healthbread.eu/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Healthbread &raquo; START Kommentar-Feed" href="http://www.healthbread.eu/start/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.healthbread.eu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.7"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='category-posts-css'  href='http://www.healthbread.eu/wp-content/plugins/category-posts/cat-posts.css?ver=4.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='collapseomatic-css-css'  href='http://www.healthbread.eu/wp-content/plugins/jquery-collapse-o-matic/light_style.css?ver=1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='kamn-css-easy-twitter-feed-widget-css'  href='http://www.healthbread.eu/wp-content/plugins/easy-twitter-feed-widget/easy-twitter-feed-widget.css?ver=4.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='nivoslider-css'  href='http://www.healthbread.eu/wp-content/themes/food-recipes/js/nivo-slider/nivo-slider.css?ver=4.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='http://www.healthbread.eu/wp-content/themes/food-recipes/js/prettyPhoto/css/prettyPhoto.css?ver=4.2.7' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by Yoast plugin v5.4.2 - Universal disabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-34612016-4']);
+	_gaq.push(['_gat._forceSSL']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+<!-- / Google Analytics by Yoast -->
+<script type='text/javascript' src='http://www.healthbread.eu/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://www.healthbread.eu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.healthbread.eu/wp-content/themes/food-recipes/js/jquery.validate.js?ver=1.5.2'></script>
+<script type='text/javascript' src='http://www.healthbread.eu/wp-content/themes/food-recipes/js/jquery.form.js?ver=2.93'></script>
+<script type='text/javascript' src='http://www.healthbread.eu/wp-content/themes/food-recipes/js/jquery.easing.1.3.js?ver=1.3'></script>
+<script type='text/javascript' src='http://www.healthbread.eu/wp-content/themes/food-recipes/js/jquery.backgroundPosition.js?ver=1.22'></script>
+<script type='text/javascript' src='http://www.healthbread.eu/wp-content/themes/food-recipes/js/prettyPhoto/js/jquery.prettyPhoto.js?ver=3.1.3'></script>
+<script type='text/javascript' src='http://www.healthbread.eu/wp-content/themes/food-recipes/js/jquery-ui-1.8.16.custom.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://www.healthbread.eu/wp-content/themes/food-recipes/js/jquery.cycle.js?ver=2.9993'></script>
+<script type='text/javascript' src='http://www.healthbread.eu/wp-content/themes/food-recipes/js/nivo-slider/jquery.nivo.slider.js?ver=2.7.1'></script>
+<script type='text/javascript' src='http://www.healthbread.eu/wp-content/themes/food-recipes/js/accordion-slider.js?ver=1.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.healthbread.eu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.healthbread.eu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.2.7" />
+<link rel='canonical' href='http://www.healthbread.eu/' />
+<link rel='shortlink' href='http://www.healthbread.eu/' />
+<style type="text/css" media="all">
+/* <![CDATA[ */
+@import url("http://www.healthbread.eu/wp-content/plugins/wp-table-reloaded/css/plugin.css?ver=1.9.4");
+@import url("http://www.healthbread.eu/wp-content/plugins/wp-table-reloaded/css/datatables.css?ver=1.9.4");
+/* ]]> */
+</style>						
+</head>
+<!--[if lt IE 7 ]> <body class="home page page-id-2 page-template page-template-template-home page-template-template-home-php ie6"> <![endif]-->
+<!--[if IE 7 ]>    <body class="home page page-id-2 page-template page-template-template-home page-template-template-home-php ie7"> <![endif]-->
+<!--[if IE 8 ]>    <body class="home page page-id-2 page-template page-template-template-home page-template-template-home-php ie8"> <![endif]-->
+<!--[if IE 9 ]>    <body class="home page page-id-2 page-template page-template-template-home page-template-template-home-php ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <body class="home page page-id-2 page-template page-template-template-home page-template-template-home-php"> <!--<![endif]-->
+
+<!-- ============= HEADER STARTS HERE ============== -->
+		<div id="header-wrapper">
+				
+		        <div id="header">
+					<!-- WEBSITE LOGO -->
+						<a href="http://www.healthbread.eu">
+														<img src="http://www.healthbread.eu/wp-content/uploads/2012/10/Bread-Logo-fettRGB-längs-75x2081.jpg" alt="Healthbread" class="logo" />
+													</a>												
+												
+						
+						<img class="header-img" src="http://www.healthbread.eu/wp-content/uploads/2013/04/shutterstock_22178632-knetende-Hände-463x117-braun.jpg.jpeg" height="117" width="463" alt="Healthbread" />		            
+						
+												
+				</div><!-- end of header div -->
+				
+				
+                <!-- NAVIGATION BAR STARTS HERE -->
+		        <div id="nav-wrap">
+						<div class="inn-nav clearfix">
+		                		
+		                        <!-- MAIN NAVIGATION STARTS HERE -->
+                                <ul id="menu-main" class="nav"><li id="menu-item-87" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-87"><a href="http://www.healthbread.eu/">Start</a></li>
+<li id="menu-item-71" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-71"><a href="http://www.healthbread.eu/overview">Project Overview</a>
+<ul class="sub-menu">
+	<li id="menu-item-72" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-72"><a href="?p=49">Objectives</a></li>
+	<li id="menu-item-73" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-73"><a href="?p=51">Impacts</a></li>
+</ul>
+</li>
+<li id="menu-item-74" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-74"><a href="?p=54">Consortium</a></li>
+<li id="menu-item-75" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-75"><a href="?p=56">Scientific Methodology</a>
+<ul class="sub-menu">
+	<li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-76"><a href="http://www.healthbread.eu/work-packages/">Work Packages</a></li>
+</ul>
+</li>
+<li id="menu-item-914" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-914"><a href="http://www.healthbread.eu/bakers-manual/">Baker Manual &#038; Nutrition Guideline</a></li>
+<li id="menu-item-918" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-918"><a href="http://www.healthbread.eu/media-corner/">Media Corner</a>
+<ul class="sub-menu">
+	<li id="menu-item-893" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-893"><a href="http://www.healthbread.eu/dissemination-material/">Diss. Material</a></li>
+	<li id="menu-item-894" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-894"><a href="http://www.healthbread.eu/?p=868">Stakeholder Events</a></li>
+	<li id="menu-item-897" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-897"><a href="http://www.healthbread.eu/?p=862">Journal Articles</a></li>
+	<li id="menu-item-896" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-896"><a href="http://www.healthbread.eu/?p=864">Presentations</a></li>
+	<li id="menu-item-895" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-895"><a href="http://www.healthbread.eu/?p=866">Media Coverage</a></li>
+	<li id="menu-item-234" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-234"><a href="http://www.healthbread.eu/?p=221">Press Contact</a></li>
+</ul>
+</li>
+<li id="menu-item-114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-114"><a href="?p=109">Contact</a></li>
+<li id="menu-item-695" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-695"><a href="/dissemination-material/">Other Languages</a></li>
+</ul>								<!-- MAIN NAVIGATION ENDS HERE -->
+		                        
+								
+		                        <!-- SOCIAL NAVIGATION -->
+                                						</div>
+				</div><!-- end of nav-wrap -->
+				<!-- NAVIGATION BAR ENDS HERE -->
+		
+				<span class="w-pet-border"></span>
+		
+		</div><!-- end of header-wrapper div -->
+
+<!-- ============= HEADER ENDS HERE ============== -->
+
+
+
+<!-- ============= CONTAINER STARTS HERE ============== -->
+		
+        <div id="container">
+		
+		        <!-- WEBSITE SEARCH STARTS HERE -->    	
+				<div class="top-search clearfix">
+						<h3 class="head-pet"><span>Search</span></h3>
+						<form action="http://www.healthbread.eu" id="searchform">
+								<p>
+										<input type="text" name="s" id="s" class="field" value="Search for" />
+										<input type="submit" name="s_submit" id="s-submit" value="" />
+								</p>
+						</form>
+						<!-- p class="statement"><span class="fireRed">Recipe Types:</span>
+                        		                        </p -->
+				</div><!-- end of top-search div-->
+                
+                        
+		        <!-- ============= CONTENT AREA STARTS HERE ============== -->
+				<div id="content" class="clearfix">  						<!-- SLIDER STARTS HERE -->
+						<div id="slider" class="slider2">
+								<!-- div class="most-rated">
+										<div class="item">
+                                        												</div>
+								</div -->
+								<h2 class="slider-head">Nutritionally enriched and tasty breads for European consumers!<!-- img src="http://www.healthbread.eu/wp-content/themes/food-recipes/images/slider-heading.png" alt="Top3 Recipes of the Day" / --></h2>
+								<!-- p class="slogan">
+                                		&nbsp;                                </p -->
+								<div class="slides right-slider">
+										<ul>
+                                        																			<li>
+																				<a href="overview/" class="img-box"><img width="515" height="262" src="http://www.healthbread.eu/wp-content/uploads/2014/10/HB-Manual-english-p1-515x262.jpg" class="attachment-li-slider-thumb wp-post-image" alt="HB Manual english p1" /></a>
+																				<div class="slide-info">
+																						<h2><a href="/overview/">HealthBread Bakers Manual</a></h2>
+																						
+																						<!-- div class="rating">
+																								<span class="off"></span><span class="off"></span><span class="off"></span><span class="off"></span><span class="off"></span>																								<span>Average Rating: <span>(0 / 5)</span></span>
+																						</div -->
+																						
+																						<p>The HealthBread Bakers Manual provides SME bakers with general guidance for selecting flours and favourable fermentation processes and is available in four languages &#8211; English, Dutch, German and Italian.</p>
+																						
+																						<!-- a href="overview/" class="readmore">Read more</a -->
+																				</div>
+																		</li>
+																																			<li>
+																				<a href="overview/" class="img-box"><img width="515" height="262" src="http://www.healthbread.eu/wp-content/uploads/2013/09/oven-braun-515x262.jpg" class="attachment-li-slider-thumb wp-post-image" alt="oven braun 515x262" /></a>
+																				<div class="slide-info">
+																						<h2><a href="/overview/">Collaborative Project</a></h2>
+																						
+																						<!-- div class="rating">
+																								<span class="off"></span><span class="off"></span><span class="off"></span><span class="off"></span><span class="off"></span>																								<span>Average Rating: <span>(0 / 5)</span></span>
+																						</div -->
+																						
+																						<p>HealthBread links science, industrial innovation and baker craftsmanship.</p>
+																						
+																						<!-- a href="overview/" class="readmore">Read more</a -->
+																				</div>
+																		</li>
+																																			<li>
+																				<a href="overview/" class="img-box"><img width="515" height="262" src="http://www.healthbread.eu/wp-content/uploads/2013/09/bread-cutting-braun-515x262.jpg" class="attachment-li-slider-thumb wp-post-image" alt="bread cutting braun 515x262" /></a>
+																				<div class="slide-info">
+																						<h2><a href="/overview/">Beneficial nutrients</a></h2>
+																						
+																						<!-- div class="rating">
+																								<span class="off"></span><span class="off"></span><span class="off"></span><span class="off"></span><span class="off"></span>																								<span>Average Rating: <span>(0 / 5)</span></span>
+																						</div -->
+																						
+																						<p>HealthBread utilises specific parts of the wheat grain kernels to achieve higher levels of dietary fibre and beneficial nutrients.</p>
+																						
+																						<!-- a href="overview/" class="readmore">Read more</a -->
+																				</div>
+																		</li>
+																																			<li>
+																				<a href="overview/" class="img-box"><img width="515" height="262" src="http://www.healthbread.eu/wp-content/uploads/2013/03/bread-tablet-braun-515x262.jpg" class="attachment-li-slider-thumb wp-post-image" alt="bread tablet braun 515x262" /></a>
+																				<div class="slide-info">
+																						<h2><a href="/overview/">SME marketing plan</a></h2>
+																						
+																						<!-- div class="rating">
+																								<span class="off"></span><span class="off"></span><span class="off"></span><span class="off"></span><span class="off"></span>																								<span>Average Rating: <span>(0 / 5)</span></span>
+																						</div -->
+																						
+																						<p>HealthBread assists SME bakeries to produce and market new healthy bread options.</p>
+																						
+																						<!-- a href="overview/" class="readmore">Read more</a -->
+																				</div>
+																		</li>
+																											</ul>
+										<p class="sliderNav"><span></span></p>
+								</div><!-- end of slides -->
+						</div><!-- end of Slider div -->
+						<!-- SLIDER AREA ENDS HERE -->                        
+                        <div id="left-area" class="clearfix full-wide homepage">
+                        		                                
+                                    <div class="post-2 page type-page status-publish hentry" id="page-2">
+                                            <p>Since the HealthBread project ended in <strong>October 2014</strong>, updates are provided only sporadically. For scientific requests please contact Jan-Willem van der Kamp (Project Coordinator), <a href="mailto:jan-willem.vanderkamp@tno.nl">jan-willem.vanderkamp@tno.nl</a>, Tel. +31 88 866 51 18</p>
+<p><span lang="EN-US">If you are interested in purchasing HealthBread products, please contact</span><span lang="EN-US"> either <a href="mailto:ccc@goodmillsinnovation.com">ccc@goodmillsinnovation.com</a> (GoodMills Innovation GmbH)</span><span lang="EN-US"> or Silvia Folloni, <a href="mailto:s.folloni@openfields.it">s.folloni@openfields.it</a> (Open Fields S.R.L. for Italy)</span></p>
+                                    </div><!-- end of post div -->								
+								                                
+								                                          						
+                        </div><!-- end of left-area -->
+                        
+                        <!-- Home Page Whats Hot Recipe Area -->                        
+			            <!-- div id="whats-hot">
+			            	 	<h2 class="w-bot-border">What's <span>Hot</span></h2>
+			                
+				                <ul class="cat-list clearfix">
+                                						                </ul>
+			                
+			            </div --><!-- end of whats-hot div -->
+            
+            			<span class="w-pet-border"></span>
+            
+			            <div id="home-infos" class="clearfix">
+			            		<div class="left-content customcontent">
+				            	<div class="widget nostylewt"><h2 class="w-bot-border">About</h2>			<div class="textwidget">Consumer interest in healthy eating and healthy bread products continues to grow. The HealthBread project (EU FP7 funded) was a two-year collaborative research project with an aim to create good tasting and nutritionally enriched bread products. The project produced ‘whole grain’ and ‘white’ bread products and assessed their commercial potential. 
+
+Eight bakeries from Austria, Germany, Italy and the Netherlands, together with renowned research organisations TNO (Netherlands) and VTT (Finland) joined colleagues from industry, business and research and created a number of healthy bread options for a European consumer base.
+
+
+<a href="http://www.healthbread.eu/overview/">Read more</a></div>
+		</div>				                </div>
+			            		<div class="middle-content customcontent">
+				            	<div class="widget nostylewt"><h2 class="w-bot-border">HealthBread Project</h2>			<div class="textwidget"><img src="http://www.healthbread.eu/wp-content/uploads/2014/09/van-der-Kamp_Becker_515x262.jpg" style= width="270" height="152">
+
+Project Coordinator  (Jan Willem van der Kamp) presents the HealthBread ‘Bakers Manual’ to Mr Peter Becker - President of the German Association of Artisan Bakeries and President of the International Union of Bakeries and Confectioneries (UIBC). The Bakers Manual is produced in four languages (English, German, Italian and Dutch) and will be disseminated to SME bakers across Europe.
+</br>
+</br>
+Read more on the Bakers Manual <a href="http://www.healthbread.eu/bakers-manual/">here...</a></div>
+		</div>				                </div>
+			            		<div class="right-content customcontent">
+				            	<div class="widget nostylewt"><h2 class="w-bot-border">News</h2><ul>
+			<li class="cat-post-item">
+				<a class="post-title" href="http://www.healthbread.eu/european-commission-acknowledges-project-coordinators-success/" rel="bookmark" title="Permanent link to European Commission acknowledges project coordinators success!">European Commission acknowledges project coordinators success!</a>
+				
+
+								
+											
+								<p>The EC has issued a press release acknowledging the work [&hellip;]</p>
+ 
+								
+							</li>
+						<li class="cat-post-item">
+				<a class="post-title" href="http://www.healthbread.eu/healthy-wholemeal-bread-with-the-taste-and-texture-of-white-bread/" rel="bookmark" title="Permanent link to Healthy wholemeal bread with the taste and texture of white bread!!">Healthy wholemeal bread with the taste and texture of white bread!!</a>
+				
+
+								
+											
+								<p>TNO celebrates the success of the HealthBread project and the announcement [&hellip;]</p>
+ 
+								
+							</li>
+						<li class="cat-post-item">
+				<a class="post-title" href="http://www.healthbread.eu/jan-willem-van-der-kamp-voted-as-bakery-and-snacks-personality-of-the-year-2014/" rel="bookmark" title="Permanent link to Jan-Willem Van der Kamp voted as &#8218;Bakery and Snacks&#8216; Personality of the Year 2014">Jan-Willem Van der Kamp voted as &#8218;Bakery and Snacks&#8216; Personality of the Year 2014</a>
+				
+
+								
+											
+								<p>HealthBread project coordinator Jan-Willem Van der Kamp was recently voted [&hellip;]</p>
+ 
+								
+							</li>
+			</ul>
+</div><div class="widget nostylewt"><h2 class="w-bot-border">Events</h2><ul>
+			<li class="cat-post-item">
+				<a class="post-title" href="http://www.healthbread.eu/1-3-july-2015-joint-iccaistec-conference-expo-milan-it-the-healthbread-concept/" rel="bookmark" title="Permanent link to 1-3 July 2015, Joint ICC/AISTEC Conference EXPO Milan (IT) &#8211; The HealthBread Concept">1-3 July 2015, Joint ICC/AISTEC Conference EXPO Milan (IT) &#8211; The HealthBread Concept</a>
+				
+
+								
+											
+								<p>The HealthBread concept &#8211; clean label bread, tasting like white [&hellip;]</p>
+ 
+								
+							</li>
+						<li class="cat-post-item">
+				<a class="post-title" href="http://www.healthbread.eu/24-26-june-2015-whole-grain-summit-portland-or-developing-and-customizing-whole-grain-breads-for-european-consumers/" rel="bookmark" title="Permanent link to 24-26 June 2015, Whole Grain Summit, Portland (OR) &#8211; DEVELOPING AND CUSTOMIZING “WHOLE GRAIN BREADS” FOR EUROPEAN CONSUMERS">24-26 June 2015, Whole Grain Summit, Portland (OR) &#8211; DEVELOPING AND CUSTOMIZING “WHOLE GRAIN BREADS” FOR EUROPEAN CONSUMERS</a>
+				
+
+								
+											
+								<p>DEVELOPING AND CUSTOMIZING “WHOLE GRAIN BREADS” FOR EUROPEAN CONSUMERS, Roberto [&hellip;]</p>
+ 
+								
+							</li>
+						<li class="cat-post-item">
+				<a class="post-title" href="http://www.healthbread.eu/1-3-june-2015-6th-international-dietary-fibre-conference-paris-high-fibre-clean-label-bread-products/" rel="bookmark" title="Permanent link to 1-3 June 2015, 6th International Dietary Fibre Conference, Paris High fibre clean label bread products">1-3 June 2015, 6th International Dietary Fibre Conference, Paris High fibre clean label bread products</a>
+				
+
+								
+											
+								<p>The HealthBread concept &#8211; high fibre clean label bread products [&hellip;]</p>
+ 
+								
+							</li>
+			</ul>
+</div>				                </div>
+			            </div><!-- end of home-infos div -->
+            
+
+  				</div><!-- end of content div -->
+                
+        		<!-- CONTENT ENDS HERE -->
+                                
+		</div><!-- end of container div -->
+		<div class="w-pet-border"></div>
+<!-- ============= CONTAINER AREA ENDS HERE ============== -->
+
+
+<!-- ============= BOTTOM AREA STARTS HERE ============== -->
+	    <div id="bottom-wrap">
+		    	<ul id="bottom" class="clearfix">
+			        	<li>
+								<div class="about">
+																			<!-- a href="http://www.healthbread.eu"><img src="http://www.healthbread.eu/wp-content/uploads/2012/09/Bread-Logo-e1349511810877.jpg" alt="Healthbread" class="footer-logo" /></a -->											
+										<p></p>
+										<!-- a href="" class="readmore">Read more About Us</a -->
+																	</div>
+						</li>
+						<li>
+                        					            		                        </li>
+                        <li>
+                        					<div class="textwidget"><a href="http://www.healthbread.eu/dissemination-material/"><img src="http://www.healthbread.eu/wp-content/uploads/2013/03/Flags-HB-160x79-db-neu.png"></a></div>
+		                        </li>
+						
+						
+			            
+				</ul><!-- end of bottom div -->
+	    </div><!-- end of bottom-wrap div -->
+<!-- ============= BOTTOM AREA ENDS HERE ============== -->
+
+
+<!-- ============= FOOTER STARTS HERE ============== -->	
+        
+        <div id="footer-wrap">
+				<div id="footer">       
+					         		
+						<p class="copyright"><div id="footer"><p class="copyright"></p><div class="footer-widget-wrapper" style="float: left; margin-top: 10px; "> <div class="one-third column mb0" style="width: 345px;float: left; "><div class="custom-sidebar gdl-divider"><div class="textwidget"><div align="center"><img src="http://www.bioconsept.eu/tl_files/images/eu_logo.png"></div> </div> </div></div><div class="two-thirds column mb0" style="     float: left;     width: 600px; "><div class="custom-sidebar gdl-divider">	<div class="textwidget"><p class="copyright" style=" line-height: 12px;     font-size: 12px;     margin: 4px 10px; ">Funded by the 7th Framework Programme of the European Union, FP7 – Knowledge based Bio-Economy, Collaborative Project, Grant agreement number: 312165, KBBE.2012.2.3-02 – Exploitation of Framework Programme project results in food processing by small and medium-sized enterprises.</p> </div> 		</div></div><div class="display-none mb0"></div><div class="display-none mb0"></div>					<br class="clear"> 				</div><p></p> 						<p class="dnd"> </p>    					                      				</div></p>
+						<p class="dnd"><a href="http://www.healthbread.eu/contact/">Contact</a> - <a href="http://www.healthbread.eu/media-corner/">Media Corner</a> - <a href="http://www.healthbread.eu/disclaimer/">Disclaimer</a> - <a href="http://www.healthbread.eu/?p=943">Cookies</a> - <a href="http://www.rtd1090.eu/contao/index.php" target="_blank">Intranet</a></p>   
+					                     
+				</div><!-- end of footer div -->
+		</div><!-- end of footer-wrapper div -->
+        
+<!-- ============= FOOTER STARTS HERE ============== -->
+    
+	<script type='text/javascript'>
+var colomatduration = 'fast';
+var colomatslideEffect = 'slideFade';
+</script><script type='text/javascript' src='http://www.healthbread.eu/wp-content/themes/food-recipes/js/script.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.healthbread.eu/wp-includes/js/comment-reply.min.js?ver=4.2.7'></script>
+<script type='text/javascript' src='http://www.healthbread.eu/wp-content/plugins/jquery-collapse-o-matic/js/collapse.js?ver=1.5.15'></script>
+<script type='text/javascript' src='http://www.healthbread.eu/wp-content/plugins/easy-twitter-feed-widget/lib/js/widget-easy-twitter-feed-widget.js?ver=1.0'></script>
+	
+</body>
+</html>

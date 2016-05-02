@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="http://www.nanopuzzles.eu/sites/all/themes/nano/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>NanoPuzzles</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="cleartype" content="on">
+
+  <style>
+@import url("http://www.nanopuzzles.eu/modules/system/system.base.css?no6iu0");
+</style>
+<style>
+@import url("http://www.nanopuzzles.eu/modules/comment/comment.css?no6iu0");
+@import url("http://www.nanopuzzles.eu/sites/all/modules/date/date_api/date.css?no6iu0");
+@import url("http://www.nanopuzzles.eu/modules/field/theme/field.css?no6iu0");
+@import url("http://www.nanopuzzles.eu/modules/node/node.css?no6iu0");
+@import url("http://www.nanopuzzles.eu/modules/search/search.css?no6iu0");
+@import url("http://www.nanopuzzles.eu/modules/user/user.css?no6iu0");
+@import url("http://www.nanopuzzles.eu/sites/all/modules/views/css/views.css?no6iu0");
+@import url("http://www.nanopuzzles.eu/sites/all/modules/ckeditor/css/ckeditor.css?no6iu0");
+</style>
+<style>
+@import url("http://www.nanopuzzles.eu/sites/all/modules/ctools/css/ctools.css?no6iu0");
+@import url("http://www.nanopuzzles.eu/sites/all/modules/lightbox2/css/lightbox.css?no6iu0");
+@import url("http://www.nanopuzzles.eu/sites/all/modules/nano_tweaks/css/nano-puzzle-block.css?no6iu0");
+</style>
+<style>
+@import url("http://www.nanopuzzles.eu/sites/all/themes/nano/css/styles.css?no6iu0");
+@import url("http://www.nanopuzzles.eu/sites/all/themes/nano/css/2pi-bl.css?no6iu0");
+@import url("http://www.nanopuzzles.eu/sites/all/themes/nano/css/2pi-bp.css?no6iu0");
+@import url("http://www.nanopuzzles.eu/sites/all/themes/nano/css/2pi-pw.css?no6iu0");
+</style>
+  <script src="http://www.nanopuzzles.eu/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+<script src="http://www.nanopuzzles.eu/misc/jquery.once.js?v=1.2"></script>
+<script src="http://www.nanopuzzles.eu/misc/drupal.js?no6iu0"></script>
+<script src="http://www.nanopuzzles.eu/sites/all/modules/lightbox2/js/lightbox.js?1456405360"></script>
+<script src="http://www.nanopuzzles.eu/sites/all/modules/nano_tweaks/js/nano-puzzle-block.js?no6iu0"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nano","theme_token":"zmJiJdYiTMQEf3uy4fi5Mdb7o3sOvTT2pGbJSAVxfxs","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/nano_tweaks\/js\/nano-puzzle-block.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/nano_tweaks\/css\/nano-puzzle-block.css":1,"sites\/all\/themes\/nano\/system.menus.css":1,"sites\/all\/themes\/nano\/system.messages.css":1,"sites\/all\/themes\/nano\/system.theme.css":1,"sites\/all\/themes\/nano\/css\/styles.css":1,"sites\/all\/themes\/nano\/css\/2pi-bl.css":1,"sites\/all\/themes\/nano\/css\/2pi-bp.css":1,"sites\/all\/themes\/nano\/css\/2pi-pw.css":1}},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":true,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":false,"disable_resize":false,"disable_zoom":false,"force_show_nav":false,"show_caption":true,"loop_items":false,"node_link_text":"View Image Details","node_link_target":false,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":false},"puzzle_nodes":[{"nid":"17","link":"http:\/\/www.nanopuzzles.eu\/cz%C4%99%C5%9B%C4%87-procesu\/nanodata"},{"nid":"18","link":"http:\/\/www.nanopuzzles.eu\/cz-procesu\/nanodesc"},{"nid":"19","link":"http:\/\/www.nanopuzzles.eu\/cz-procesu\/nanoqsar"},{"nid":"20","link":"http:\/\/www.nanopuzzles.eu\/cz-procesu\/nanointer"}]});</script>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic&subset=latin-ext' rel='stylesheet' type='text/css'>
+      <!--[if lt IE 9]>
+    <script src="/sites/all/themes/zen/js/html5.js"></script>
+    <![endif]-->
+  
+  <script>
+  jQuery( document ).ready( function( $ ) {
+
+    var fCV = $( '.page-frontpage .field-collection-view' ),
+        nazwaDzialu = fCV.find( '.field-name-field-nazwa-dzialu'),
+        tekstDzialu = fCV.find( '.field-name-field-tekst-dzialu');
+
+    tekstDzialu.addClass( 'fc-accordion-content-wrapper' ).hide();
+    nazwaDzialu.addClass( 'fc-accordion-title' ).click( function() {
+      $( this ).next( 'div' ).stop().slideToggle();
+    });
+  })
+  </script>
+
+</head>
+<body class="html front not-logged-in two-sidebars page-frontpage page-views" >
+      <p id="skip-link">
+      <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
+    </p>
+      <div id="wrapper">
+<div id="bg"></div>
+<div id="seven"></div>
+<div id="ue"></div>
+<div id="page">
+
+  <header class="header" id="header" role="banner">
+	<div class="region-top-left">
+    		
+      <a href="/" title="Home" rel="home" class="header__logo" id="logo"><img src="http://www.nanopuzzles.eu/sites/default/files/logo.png" alt="Home" class="header__logo-image" /></a>
+    	</div>
+    
+    
+    		  <div class="region region-top-second">
+    <div id="block-block-1" class="block block-block first last odd">
+
+      
+  <p>NanoPUZZLES</p>
+<p>Modelling toxicity behaviour of engineered nanoparticles</p>
+
+</div>
+  </div>
+        </header>
+  	<div id="navigation">
+
+              <nav id="main-menu" role="navigation" tabindex="-1">
+          <h2 class="element-invisible">Main menu</h2><ul class="links inline clearfix"><li class="menu-444 first"><a href="/project">Project</a></li>
+<li class="menu-445"><a href="/consortium">Consortium</a></li>
+<li class="menu-446"><a href="/activities-puzzles">Activities</a></li>
+<li class="menu-447"><a href="/publications-events">Publications &amp; Events</a></li>
+<li class="menu-588"><a href="/results-products">Results &amp; Products</a></li>
+<li class="menu-449 last"><a href="/nanosafety-cluster">NanoSafety Cluster</a></li>
+</ul>        </nav>
+      
+      
+    </div>
+	<div id="content" class="column" role="main">
+	  	  	  <a id="main-content"></a>
+	  	  	  	  	  	  	  	  
+
+
+<div class="view view-frontpage view-id-frontpage view-display-id-page view-dom-id-26ee4f9d88249219bd14c8abee9214bd">
+        
+  
+  
+  
+  
+  
+  
+  
+  
+</div><div id="block-views-puzzle-block" class="block block-views even">
+
+        <h2 class="block__title block-title">NanoPUZZLES - Nanoparticles safety collaboration platform</h2>
+    
+  <div class="view view-puzzle view-id-puzzle view-display-id-block view-dom-id-a70eb189d78e473d06f4b24d630f3742">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/cz%C4%99%C5%9B%C4%87-procesu/nanodata">nanoDATA</a></span>  </div>  
+  <div class="views-field views-field-field-skrocony-tytul">        <div class="field-content">Data acquirement</div>  </div>  
+  <div class="views-field views-field-field-opis">        <span class="field-content">The main objective of the first thematic area is to develop a framework for classified engineered...</span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div id="my-more"><a href="/node/17">» Read more</a></div></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/cz-procesu/nanodesc">nanoDESC</a></span>  </div>  
+  <div class="views-field views-field-field-skrocony-tytul">        <div class="field-content">Data analysis</div>  </div>  
+  <div class="views-field views-field-field-opis">        <span class="field-content">The main objective of the second thematic area is to develop a framework for the optimal characterisation of...</span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div id="my-more"><a href="/node/18">» Read more</a></div></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/cz-procesu/nanoqsar">nanoQSAR</a></span>  </div>  
+  <div class="views-field views-field-field-skrocony-tytul">        <div class="field-content">Usable result reports</div>  </div>  
+  <div class="views-field views-field-field-opis">        <span class="field-content">The objective of this thematic area is to develop scientifically justified and technically viable methods of...</span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div id="my-more"><a href="/node/19">» Read more</a></div></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/cz-procesu/nanointer">nanoINTER</a></span>  </div>  
+  <div class="views-field views-field-field-skrocony-tytul">        <div class="field-content">Results interchange</div>  </div>  
+  <div class="views-field views-field-field-opis">        <span class="field-content">The objective of the third thematic area is to develop methods to predict and explain interactions of...</span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div id="my-more"><a href="/node/20">» Read more</a></div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+<div id="block-nano-tweaks-nano-puzzle" class="block block-nano-tweaks last odd">
+
+      
+  <div class='nano-puzzle-pieces-wrapper'>
+<div class='nano-puzzle-piece weight-0' id='puzzle-nid-17'>
+<div class='title'></div>
+<img usemap="#proces-map-17" src="http://www.nanopuzzles.eu/sites/default/files/blue_0.png" /></div>
+<div class='nano-puzzle-piece weight-1' id='puzzle-nid-18'>
+<div class='title'></div>
+<img usemap="#proces-map-18" src="http://www.nanopuzzles.eu/sites/default/files/orange_0.png" /></div>
+<div class='nano-puzzle-piece weight-2' id='puzzle-nid-19'>
+<div class='title'></div>
+<img usemap="#proces-map-19" src="http://www.nanopuzzles.eu/sites/default/files/red_0.png" /></div>
+<div class='nano-puzzle-piece weight-3' id='puzzle-nid-20'>
+<div class='title'></div>
+<img usemap="#proces-map-20" src="http://www.nanopuzzles.eu/sites/default/files/green_0.png" /></div>
+</div>
+</div>
+	  	</div>
+	           <aside class="sidebars">
+          <section class="region region-sidebar-first column sidebar">
+    <div id="block-views-project-desc-block" class="block block-views first last odd">
+
+        <h2 class="block__title block-title">Project description</h2>
+    
+  <div class="view view-project-desc view-id-project_desc view-display-id-block view-dom-id-7b0577eb9098477e4d26f69d3359ef2c">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><p>The main objective of the NanoPUZZLES project is to develop, within three years, a package of computational algorithms for the comprehensive modelling of the relationships between the structure, properties, molecular interactions and toxicity of selected classes of engineered nanoparticles (NPs). The package (i) will serve as a proof-of-the-concept that the risk related to NPs can be comprehensively assessed with use of computational techniques and (ii) will define a basis for development of further modelling techniques for a large variety of nanoparticles.</p>
+<p>The project will focus on two groups of compounds: (i) inorganic engineered nanoparticles (metal nanooxides) and (ii) carbon nanoparticles (carbon nanotubes (single-walled and multi-walled), fullerenes and fullerene derivatives). That choice was dictated by the wide application of these nanoparticles in everyday household products, and by the fact that these compounds are commercially available in the market whch eliminates the necessity for their synthesis (reduction of costs).</p>
+<p>Computational algorithms will be developed within four work packages related to the following thematic areas (Fig. 1):<br />
+• Quality assessment of physicochemical and toxicological data available for nanomaterials and data exploration (NanoDATA),<br />
+• Development of novel descriptors for nanoparticles’ structure (NanoDESC),<br />
+• Simulating interactions of nanoparticles with biological systems (NanoINTER),<br />
+• Quantitative and qualitative structure-activity relationship modelling, grouping and read across (NanoQSAR).</p>
+<p>Application of the methods developed within the four thematic areas will allow for predicting toxicity and the behaviour of novel nanoparticles from their structure and/or physicochemical properties without the necessity of performing extensive empirical testing (reduction of costs and need for animal testing). Moreover, it will result in a framework being established to categorise nanoparticles according to the potential for exposure, as well as physicochemical, structural and toxicological properties (based on available empirical data and computationally predicted results). This, in the longer perspective, should lead to designing and engineering nanomaterials that are of low risk for human and the environment.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-dzialy-dodatkowe">        <div class="field-content"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-dzialy-dodatkowe clearfix" about="/field-collection/field-dzialy-dodatkowe/14" typeof="">
+  <div class="content">
+    <div class="field field-name-field-nazwa-dzialu field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">About the NanoPUZZLES Project</div></div></div><div class="field field-name-field-tekst-dzialu field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>NanoPUZZLES is a € 1.17 million, 36-month Small Collaborative Project, funded by the EU under the 7th Framework's NMP Theme.</p>
+<p>The main objective is to develop a package of computational algorithms for the comprehensive modelling of the relationships between the structure, properties, molecular interactions and toxicity of selected classes of engineered nanoparticles (NPs). The package:<br />
+(i) will serve as a proof-of-the-concept that the risk related to NPs can be comprehensively assessed with use of computational techniques and<br />
+(ii) will define a basis for development of further modelling techniques for a large variety of nanoparticles.</p>
+<p>The project started on 1st of January 2013 and is being implemented by 5 consortium partners, coordinated by the University of Gdansk (Poland).</p>
+<p><strong>Grant Agreement:&nbsp;FP7-NMP-2012-SMALL-6-309837</p>
+<p>Project Title:&nbsp;“Modelling properties, interactions, toxicity and environmental behaviour of engineered nanoparticles”</p>
+<p>Acronym:&nbsp;NanoPUZZLES</strong></p>
+<p>Start date : 1st January 2013<br />
+End date : 30th December 2015</p>
+<p>Size:<br />
+€ 1,169,800 Total Budget<br />
+€&nbsp;&nbsp;&nbsp;&nbsp; 976,810 EC Contribution</p>
+</div></div></div>  </div>
+</div>
+</div><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-dzialy-dodatkowe clearfix" about="/field-collection/field-dzialy-dodatkowe/15" typeof="">
+  <div class="content">
+    <div class="field field-name-field-nazwa-dzialu field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">CONTACT</div></div></div><div class="field field-name-field-tekst-dzialu field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p><strong>The Coordinator/Scientific Coordinator of the project is Tomasz Puzyn (<a href="mailto:puzi@qsar.eu.org">puzi@qsar.eu.org</a>)</strong></p>
+<p>Tomasz Puzyn PhD DSc<br />
+University of Gdańsk<br />
+Faculty of Chemistry<br />
+ul. Wita Stwosza 63<br />
+80-952 Gdańsk,&nbsp;Poland<br />
+Phone: (+48 58) 523 52 48<br />
+e-mail: <a href="mailto:pchs@qsar.eu.org">pchs@qsar.eu.org</a>&nbsp;</p>
+<p><strong>The Project Manager is Katarzyna Dembowska (<a href="mailto:k.dembowska@innobaltica.eu">k.dembowska@innobaltica.eu</a>)</strong></p>
+<p>Katarzyna Dembowska&nbsp;<br />
+InnoBaltica Sp. z o.o.<br />
+ul. Trzy Lipy 3<br />
+80-172 Gdańsk<br />
+Poland<br />
+Phone: (+48) 603-208-338<br />
+e-mail: <a href="mailto:k.dembowska@innobaltica.eu">k.dembowska@innobaltica.eu</a>&nbsp;</p>
+</div></div></div>  </div>
+</div>
+</div></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+  </section>
+          <section class="region region-sidebar-second column sidebar">
+    <div id="block-views-news-left-column-block" class="block block-views first last odd">
+
+        <h2 class="block__title block-title">Latest news</h2>
+    
+  <div class="view view-news-left-column view-id-news_left_column view-display-id-block view-dom-id-c000f27aa73b35248b3945bc9385567d">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/compnanotox2015-conference-6-eu-fp7-projects-and-modena-cost-action">CompNanoTox2015 Conference by 6 EU FP7 projects and MODENA COST ACTION</a></span>  </div>  
+  <span class="views-field views-field-name">    <span class="views-label views-label-name">By</span>    <span class="field-content">k.dembowska,</span>  </span>  
+  <span class="views-field views-field-created">    <span class="views-label views-label-created">posted on</span>    <span class="field-content">14.08.15</span>  </span>  
+  <div class="views-field views-field-body">        <span class="field-content">CompNanoTox 2015 conference, 4-6 Nov. 2015, Malaga, Spain, will disseminate &amp; integrate outputs on computational methods for toxicological risk assessment of engineered nanoparticles. Registration by 25th Sept. 2015.
+Five years after announcing...</span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div id="my-more"><a href="/node/28">» Read full article</a></div></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/qualitynano-meeting-current-status-and-future-plans-nanosafety-research-and-implementation">QualityNano - Meeting on Current Status and Future Plans in NanoSafety Research and Implementation. Heraklion, Crete, Greece 15th to 17th July 2015</a></span>  </div>  
+  <span class="views-field views-field-name">    <span class="views-label views-label-name">By</span>    <span class="field-content">j.leliwa,</span>  </span>  
+  <span class="views-field views-field-created">    <span class="views-label views-label-created">posted on</span>    <span class="field-content">11.06.15</span>  </span>  
+  <div class="views-field views-field-body">        <span class="field-content">The EU Infrastructure on Nanosafety, QualityNano, is concluding its activity with a meeting in 15th to 17th July 2015 in Heraklion, Crete, Greece. The opportunity and organization is being used by a variety of groupings, projects, and activities to...</span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div id="my-more"><a href="/node/27">» Read full article</a></div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+  </section>
+      </aside>
+    
+	<div class="clearfix"></div>
+	
+  
+
+</div>
+<div id="footer-bg">
+  <footer id="footer" class="region region-footer">
+    <div id="block-block-3" class="block block-block first odd">
+
+        <h2 class="block__title block-title">Project Partners</h2>
+    
+  <div id="partnerzy">
+<ul><li>
+			<a href="http://en.ug.edu.pl/" target="_blank"><img src="/sites/all/themes/nano/images/loga/ug.png" /></a></li>
+<li>
+			<a href="http://www.eie.gr/index-en.html" target="_blank"><img src="/sites/all/themes/nano/images/loga/face.png" /></a></li>
+<li>
+			<a href="https://www.ljmu.ac.uk/" target="_blank"><img src="/sites/all/themes/nano/images/loga/jmu.png" /></a></li>
+<li>
+			<a href="http://www.marionegri.it/en_US/home" target="_blank"><img src="/sites/all/themes/nano/images/loga/mario.png" /></a></li>
+<li>
+			<a href="http://www.innobaltica.eu" target="_blank"><img src="/sites/all/themes/nano/images/loga/inno.png" /></a></li>
+</ul></div>
+<p> </p>
+
+</div>
+<div id="block-block-2" class="block block-block last even">
+
+        <h2 class="block__title block-title">Contact</h2>
+    
+  <p>NanoPUZZLES Project Manager<br />
+Katarzyna Dembowska<br />
+InnoBaltica Ltd.<br />
+Gdańsk Science and Technology Park<br />
+Trzy Lipy Street no. 3, 80-172 Gdańsk, Poland<br />
+e-mail: <a href="mailto:k.dembowska@innobaltica.eu">k.dembowska@innobaltica.eu</a></p>
+<p><a href="http://goo.gl/maps/nJ2wL">Click here to see our location in Google Maps</a></p>
+<p><a href="http://webcollab.nanopuzzles.eu">Login as a partner</a></p>
+
+</div>
+  </footer>
+</div>
+</div>
+
+  <div class="region region-bottom">
+    <div id="block-block-4" class="block block-block first last odd">
+
+      
+  <p><span style="display:inline-block;text-align:left"><a href="sitemap">Site map</a> · <a href="privacy">Privacy policy</a></span><span style="display:block;text-align:right;margin-top:-23px">With the support of the 7th Framework Programme © 2013 NanoPuzzles All Rights Reserved</span></p>
+
+</div>
+  </div>
+  </body>
+</html>

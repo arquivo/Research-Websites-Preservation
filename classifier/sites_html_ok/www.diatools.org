@@ -1,0 +1,495 @@
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<meta http-equiv="content-language" content="en"/>
+<meta name="robots" content="index, follow"/>
+<meta name="DC.Date.X-MetadataLastModified" content="2014-07-28 14:28:48+0200"/>
+<meta name="DC.Publisher" content="Uppsala University, Sweden"/>
+<meta name="keywords" content="diatools"/>
+<meta name="verify-v1" content="C0Lsm7Gfb0ZBOR7asOdLqJT3nmC1KjgMGl9Nn7YINpA="/>
+<meta name="DC.Identifier" content="http://www.diatools.org/"/>
+<meta name="DC.Creator.PersonalName" content="Erik Ullerås"/>
+<meta name="creator" content="Erik Ullerås"/>
+<meta name="google-site-verification" content="3hsp02Yga3t3wGt7juuw0hCIaa6O5iLP3SyI_a6f0XM"/>
+<link href="//live.webb.uu.se/common/CSS/aggregated-css-general" rel="stylesheet" type="text/css"/>
+<link href="//live.webb.uu.se/common/CSS/aggregated-css-menus" rel="stylesheet" type="text/css"/>
+<link href="//live.webb.uu.se/common/CSS/aggregated-css-page-layout" rel="stylesheet" type="text/css"/>
+<link href="//live.webb.uu.se/common/CSS/aggregated-css-components" rel="stylesheet" type="text/css"/>
+<link href="//live.webb.uu.se/common/CSS/aggregated-css-print" rel="stylesheet" type="text/css"/>
+<link href="//live.webb.uu.se/common/CSS/WP_main_css" rel="stylesheet" type="text/css" />
+<link href="//live.webb.uu.se/common/CSS/WP_menu_css" rel="stylesheet" type="text/css" />
+<link href="//live.webb.uu.se/common/CSS/WPPrintCSS" rel="stylesheet" type="text/css" />
+<link href="//live.webb.uu.se/common/CSS/CUSTOM/CSS_DiaTools" rel="stylesheet" type="text/css" />
+<link rel="apple-touch-icon-precomposed" href="/digitalAssets/19/19350_1appletouch57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/digitalAssets/19/19350_1appletouch72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/digitalAssets/19/19350_1appletouch114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/digitalAssets/19/19350_1appletouch144.png" />
+<link rel="shortcut icon" href="/digitalAssets/19/19350_1uu_favicon.ico"/>
+<title>
+DiaTools - Tools for minimally invasive diagnostics - Uppsala University, Sweden
+</title>
+<script language="javascript" type="text/javascript" src="/script/uu/jquery.min.js"></script>
+<script src="/script/uu/modernizer-custom-2.6.2.js"></script>
+<script language="javascript" type="text/javascript" src="/jsp/errorjs.jsp"></script>
+<script type="text/javascript">
+function truncateCustomVarAndSet(index, name, value, scope) {
+"use strict";
+while (value.length && encodeURIComponent(name + value).length > 64) {
+value = value.substring(0, value.length-1);
+} 
+_gaq.push(['_setCustomVar', index, name, value, scope]);
+} 
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-10963324-1']);
+_gaq.push(['_setDomainName', 'none']);
+_gaq.push(['_setAllowLinker', true]);
+_gaq.push(['_setAllowAnchor', true]);
+truncateCustomVarAndSet(3, 'lang', 'en', 3);		
+_gaq.push(['_trackPageview']);
+_gaq.push(function() {
+if (window.history &&
+window.history.replaceState &&
+location.href.indexOf("__utma") > 0) {
+var hash = location.hash;
+if (hash.indexOf("#") === 0) {
+hash = hash.substring(1);
+}
+var hashParameters = hash.split("&");
+var newHashParameters = [];
+var newHash = "";
+for (var index = 0; index < hashParameters.length; index++) { 
+var param = hashParameters[index];
+if (!param.startsWith('__utm')) {
+newHashParameters.push(param);
+}
+}
+if(newHashParameters.length > 0) {
+newHash = "#" + newHashParameters.join("&");
+}
+window.history.replaceState({}, "", document.location.href.split("#")[0] + newHash);
+}
+});
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+</script>
+</head>
+<body class="uu-site   centralised" id="top">
+<div id="wrapper">
+	<div id="header">
+		<div class="headerComponent componentContainer">
+<div class="toppImg">
+<div class="logo">
+<a href="http://www.uu.se/en"  accesskey="1" tabindex="2"><img id="uuLogga" height="125" width="125" src="/digitalAssets/19/19378_1uu_logga.png" alt="Uppsala University" title="Uppsala University"/></a>
+<span class="alt-logo">Uppsala University</span> </div>
+</div>
+<div class="toppNav"> 
+<ul class="icons">
+<li class="searchField">
+<form action="" class="cse-search-box">
+	
+	
+	
+		<input type="hidden" name="cx"
+	 		value="011717781912689254944:63hbtazxlyw" />
+	 
+
+    <input type="hidden" name="cof" value="FORID:10" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <label for="googleSearchField" class="hide-visually">Search</label>
+    <input id="googleSearchField" class="searchfield" type="text" accesskey="4" name="q" size="20" />
+    
+        <input type="hidden" name="hq" value="+site:www.diatools.org" />
+    
+    <input type="submit" name="sa" value="Search" />
+</form>
+</li>
+<li class="login">
+| <a href="#">Login</a>
+<ul class="dropdown">
+<li class="sp-link" >
+<a title="Student" href="https://studentportalen.uu.se/portal/portal/uusp?uusp.doLogin=true&uusp-locale=en>">Student</a>
+</li>
+<li class="mp-link">
+<a title="Employee" href="http://www.mp.uu.se">Employee</a>
+</li>
+<li class="alumni-link">
+<a title="Alumni" href="https://www.alumnnatverk.uu.se/portal/public/Default.aspx?lan=0">Alumni</a>
+</li>
+</ul>
+</li>
+<li class="rs_skip listen">
+<a accesskey="L" class="no-google-analytics"
+href="http://app.eu.readspeaker.com/cgi-bin/rsent?customerid=4462&amp;lang=en_uk&amp;readid=readSpeakerContent&amp;url=http%3A%2F%2Fwww.diatools.org%2F%3FlanguageId%3D1" 
+target="_blank" 
+onclick="readpage(this.href, 'xp1'); return false;">Listen</a>
+</li>
+</ul>
+<span class="siteName"></span>
+</div>
+</div>
+	</div>
+	<div id="containerflarp">
+		<div id="flik"></div>
+		
+		<div id="topMenu">
+			 
+			<ul id="menucontainer">
+	
+	
+	
+	
+	
+		
+		<li class="first selected"><a href="/" title="Start">Start</a></li>
+		
+			
+			<li ><a href="/Consortium/" title="Consortium">Consortium</a></li>
+		
+			
+			<li ><a href="/Work+Packages/" title="Work Packages">Work Packages</a></li>
+		
+			
+			<li ><a href="/News/" title="News">News</a></li>
+		
+			
+			<li ><a href="/Contact/" title="Contact">Contact</a></li>
+		
+	</ul>
+			
+		</div>
+		
+		<div id="container">
+			<div id="breadcrumbsRow">
+				
+				<div class="imageContainer componentContainer">
+<img src="/digitalAssets/131/131491_1toppbild.png" alt="" title=""/>			
+</div>
+				
+			</div>
+			<div id="leftCol">
+				
+				
+				
+				
+				<div class="articleContainer componentContainer  blue colorbox clearfix" id="article_component_8_5">
+<div class="header" id="articleHeader_component_8_5">
+<!-- RSPEAK_START -->
+<h2>Project details</h2>
+<!-- RSPEAK_STOP -->
+</div>
+<div class="articleContent">
+<div class="articleExtraInfo">				
+</div>	
+<div class="articleText" id="articleText_component_8_5">
+<!-- RSPEAK_START -->				
+<p><table tabindex="0" cellspacing="0"><tbody tabindex="0"><tr tabindex="0"><td tabindex="0"><p tabindex="0"><strong tabindex="0">Project Acronym:&nbsp;</strong>DIATOOLS</p><p tabindex="0"><strong tabindex="0">Project Reference: </strong>259796</p><p tabindex="0"><strong tabindex="0">Start Date:</strong>&nbsp;2010-11-01</p><p tabindex="0"><strong tabindex="0">Duration:</strong>&nbsp;48 months&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p tabindex="0"><strong tabindex="0">Contract Type:</strong>&nbsp;Small or medium-scale focused research project</p><p tabindex="0"><strong tabindex="0">Project Funding: </strong>5 million euro</p><p tabindex="0"><strong tabindex="0">Research area: </strong>HEALTH.2010.1.2-1 Tools for the identification and the detection of biomarkers in&nbsp;clinical samples and patients.</p></td></tr></tbody></table></p><p>&nbsp;</p>
+<!-- RSPEAK_STOP -->
+</div>
+<div class="articleExtrasBar">
+<div class="articleFeatures">
+<div class="printControl"><p><a class="printButton" id="printButton_component_8_5" href=""> Print</a></p></div>
+<div class="numberOfComments" id="articleNumberOfComments128086"></div>
+</div>
+</div> 
+</div>
+</div>
+<div class="clear"></div>
+				
+			</div>
+			
+			<div id="centerCol">
+				<div id="xp1" class="rs_preserve rs_skip"></div> 
+				<div id="readSpeakerContent">
+					<!-- RSPEAK_STOP -->
+					<!-- index_start -->
+					
+					<div class="articleContainer componentContainer  clearfix" id="article_component_2_6">
+<div class="header" id="articleHeader_component_2_6">
+<!-- RSPEAK_START -->
+<h1>DiaTools - Tools for minimally invasive diagnostics</h1>
+<!-- RSPEAK_STOP -->
+</div>
+<div class="articleContent">
+<div class="articleExtraInfo">				
+</div>	
+<div class="articleText" id="articleText_component_2_6">
+<!-- RSPEAK_START -->				
+<p>&nbsp;</p><p tabindex="0">A new generation of molecular tools is becoming available that can digitally record numbers, identities and locations of a broad range of molecular markers for increased diagnostic accuracy. This project will for the first time combine synergistically several groundbreaking technological innovations by the partners, notably padlock and proximity probes with rolling circle amplification for single molecule detection and counting, directed self-assembly of solid phases, and advanced micro-fluidics and read-out techniques, bringing these from the research lab into integrated instruments useful in routine. This will enable minimally invasive diagnostics, prognostics, and follow-up of treatment of cancers. Blood samples and fine needle aspirates will be subjected to high content, multiplex and multimodal assays of nucleic acids, proteins and interacting complexes thereof in single cells as well as in cell-free bodily fluids.</p><p tabindex="0">We will use flow cytometry to collect multi-parameter information for large populations of cells, and individual detected molecules will be recorded using a fluorescence activated molecule counter developed by one of the partners. Also, very rare cells and molecules will be targeted through enrichment techniques using novel capturing approaches of unprecedented efficiency. We will apply these diagnostic approaches to characterize biomarkers in solid tumours and in leukemia and lymphoma for minimally invasive diagnostics, monitoring disease progress and selecting optimal therapy, and the assays will be clinically validated in small-scale studies of well-characterized patient samples.</p><p>&nbsp;</p>
+<!-- RSPEAK_STOP -->
+</div>
+<div class="articleExtrasBar">
+<div class="articleFeatures">
+<div class="printControl"><p><a class="printButton" id="printButton_component_2_6" href=""> Print</a></p></div>
+<div class="numberOfComments" id="articleNumberOfComments128082"></div>
+</div>
+</div> 
+</div>
+</div>
+<div class="clear"></div>
+					
+					<div id="centerBottomArea">
+						<div id="cBALeftCol">
+							
+							
+							
+						</div>
+						<div id="cBARightCol">
+							
+							
+							
+						</div>
+					</div>
+					<!-- index_stop -->
+				</div>
+			</div>
+			
+			<div id="rightCol">
+				
+				<div class="miniarticleWrapper componentContainer clearfix">
+
+
+
+
+	
+	
+	
+	
+	
+		
+	
+		
+			
+			
+			
+		
+	
+	
+	
+	
+	<div class="miniArticleContent">
+		<p><img alt="" align="left" style="height: 134px; width: 172px" src="/digitalAssets/128/128080_1fp7-gen-rgb.jpg" /></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><h3><strong><p><strong>European Conference on Novel Technologies for In Vitro Diagnostics</strong></p><p class="bodyText">DiaTools is co-organizing an international conference in Leuven, Belgium, October 6-8, 2014. The conference topics include</p></strong><strong><ul><li><strong>Device technologies</strong></li><li><strong>Innovative bioassay development</strong></li><li><strong>Integrated systems for clinical applications</strong></li><li><strong>Industrial aspects of diagnostics and the future of in vitro diagnostics</strong></li></ul><p class="bodyText">For more information, please visit <a href="http://www.diatech2014.eu/">www.diatech2014.eu</a>&nbsp;or download a flyer <a lang="none" class="pdf" href="/digitalAssets/128/128080_1flyer_leuven-diatech2014.pdf">here</a>.</p></strong></h3><p>&nbsp;</p><p class="bodyText">&nbsp;</p> 
+		
+		
+	</div>
+	
+	
+	
+	
+
+</div>
+				
+			</div>
+	
+			<div class="clear"></div>
+		</div> 
+	</div>
+	
+	<div id="footer">
+		<div class="uuFooter">
+<div class="footerText">
+<div class="sidfot vcard"> &copy; 2014
+<a class="url fn org" href="http://www.uu.se">Uppsala University</a> | 
+<div class="adr">
+<span class="post-office-box">Box 256</span>,
+<span class="postal-code">751 05</span>
+<span class="locality">Uppsala</span>
+</div> |
+Tel. <span class="tel">018-471 00 00</span>	| 
+Org. nr: 202100-2932 | 
+VAT-nr: SE202100293201 |
+<a href="/Contact/">Contact</a> | 
+<a href="http://www.uu.se/en/about-uu/contact/registrar">Registrar</a> | 
+Editor:&nbsp;<a href="http://katalog.uu.se/empInfo?id=N96-618">Erik Ullerås</a> | 
+<a href="/Om_webbplatsen/">About&nbsp;the&nbsp;WebSite</a> |
+Last modified: Jul 28, 2014
+</div>
+</div>
+</div>
+	</div>
+</div>
+<script type="text/javascript">
+try {
+jQuery(function() {
+"use strict";
+function getFirstGroup(regex, string) {
+var matches = string.match(regex);
+return matches ? matches[1] : undefined;
+}
+function getHostname(httpUrl) {
+var re = new RegExp('^http(?:s)?://((?:(?:[a-zA-Z]|[a-zA-Z][a-zA-Z0-9\\-]*[a-zA-Z0\\-9])\\.)*(?:[A-Za-z]|[A-Za-z][A-Za-z0-9\\-]*[A-Za-z0-9]))(?:/|$)', 'i');
+return getFirstGroup(re, httpUrl);
+}
+function trackVirtual(gaq, href, prefix) {
+var urlWithoutProtocol = getFirstGroup(/^(?:(?:http(?:s)?)|ftp):\/(\/.+)$/i, href) || href;
+gaq.push(['_trackPageview', '/virtual' + (prefix || '') + urlWithoutProtocol]);
+}
+jQuery('a:not(.no-google-analytics)').click(function(e) {
+var protocol, hostName, tracker, recipient, delay,
+isFileLink = false,
+fileTypes = /\.(pdf|doc|docx|ppt|pptx|pps|ppsx|xls|xlsx|exe|vcf|eps|jpg|png|zip|txt)$/i,
+jThis = jQuery(this),
+href = jQuery.trim(jThis.attr("href")),
+target = jThis.attr("target");
+if (href) {
+isFileLink = fileTypes.test(href);
+protocol = getFirstGroup(/^(http|https|mailto|ftp):.+$/, href);
+switch(protocol) {	
+case "ftp":
+isFileLink = true;
+break;
+case "http":
+case "https":
+hostName = getHostname(href);
+if (hostName && hostName.indexOf("uu.se") !== -1) {
+if (_gat &&
+getHostname(location.href) !== hostName
+&& !(new RegExp('m\.teknat\.uu\.se|rektorsbloggen\.uu\.se|mp\.uu\.se|studentportalen\.uu').test(hostName))) {
+tracker = _gat._getTrackerByName();
+if (typeof tracker._getLinkerUrl(href, true) == 'string') {
+jQuery(this).attr("href", tracker._getLinkerUrl(href, true));
+}
+}	    
+} else if (_gaq) { 
+trackVirtual(_gaq, href, '/external');
+if (!target) {
+delay = 100;
+e.preventDefault();
+}
+}
+break;
+case "mailto":
+recipient = getFirstGroup(/^[^:]+:(.+)$/, href);
+if (_gaq && recipient) {
+_gaq.push(['_trackPageview', '/virtual/email/' + recipient]);
+}
+break;
+}
+if (isFileLink) {
+trackVirtual(_gaq, href, '/documents');
+if (!target) {
+delay = 100;
+e.preventDefault();
+}
+}
+if (delay) {
+setTimeout('document.location = "' + href + '"', delay);
+}				
+}
+});
+});
+} catch (e) {
+if (typeof UU !== 'undefined' && UU.logError) {
+UU.logError(e);
+}
+}
+</script>
+<script type="text/javascript" src="/script/uu/readspeaker/ReadSpeaker.js?pids=embhl"></script>
+<script type="text/javascript">
+try {
+jQuery(function() {
+jQuery('img[usemap]').wrap('<div class="is-scrollable-x">');
+});
+} catch (e) {
+if (typeof UU !== 'undefined' && UU.logError) {
+UU.logError(e);
+}
+}
+</script>
+<script type="text/javascript">
+try {
+function Article_print(uniqueId) {
+try {
+var articleId = '#articleText_' + uniqueId;
+var headerId = "#articleHeader_" + uniqueId;		
+var printButtonClass = "printButtonInPopup";
+var head = unescape('%3Chtml%3E%3Chead%3E') + jQuery('head').html() + unescape('%3C/head%3E');
+var header = jQuery(headerId).html();
+var article = jQuery(articleId).html();
+var toc = unescape("%3Cdiv%20class%3D%22toc%22%3E") + jQuery('.toc', jQuery(articleId).parent()).html() + unescape("%3C/div%3E");
+var printLink = unescape("%3Cdiv%20class%3D%22printControl%22%3E%3Cp%3E%3Ca%20class%3D%22" + printButtonClass + "%22%20href%3D%22%22%3E") + 'Print' + unescape("%3C/a%3E%3C/p%3E%3C/div%3E");
+var printWindow = window.open('', 'print_content', 'width=650,height=800,toolbar=0,resizable=1,location=0,menubar=1,scrollbars=1,status=1');
+printWindow.document.open();
+printWindow.document.write(head + '\n' + 
+unescape('%3Cbody%20class%3D%22printBody%22%3E') + '\n' + 
+printLink + '\n' + 
+header + '\n' +
+article + '\n' +  
+unescape('%3C/body%3E%3C/html%3E'));
+printWindow.document.close();
+var interval = 100;
+var intervalId = setInterval(function() {
+var printButton = jQuery('.' + printButtonClass, printWindow.document.body);
+if (printButton.length !== 0) {
+printButton.click(function(e) {
+e.preventDefault(); 
+printWindow.print(); 
+return false;
+});
+clearInterval(intervalId);
+printWindow.print(); 
+}
+}, interval);
+} catch (error) {
+alert(error);
+}
+}
+} catch (e) {
+if (typeof UU !== 'undefined' && UU.logError) {
+UU.logError(e);
+}
+}
+</script>
+<script type="text/javascript">
+try {
+jQuery(function() {
+var uniqueId = 'component_8_5';
+var printButtonId = '#printButton_' + uniqueId;
+jQuery(printButtonId).click(function(event) {
+Article_print(uniqueId);
+return false;
+});
+});
+} catch (e) {
+if (typeof UU !== 'undefined' && UU.logError) {
+UU.logError(e);
+}
+}
+</script>
+<script type="text/javascript" src="http://live.webb.uu.se/common/js/docreader"></script>
+<script type="text/javascript">
+try {
+jQuery(function() {
+var uniqueId = 'component_2_6';
+var printButtonId = '#printButton_' + uniqueId;
+jQuery(printButtonId).click(function(event) {
+Article_print(uniqueId);
+return false;
+});
+});
+} catch (e) {
+if (typeof UU !== 'undefined' && UU.logError) {
+UU.logError(e);
+}
+}
+</script>
+<script type="text/javascript">
+try {
+jQuery(".rplcAt").replaceWith("@");
+} catch (e) {
+if (typeof UU !== 'undefined' && UU.logError) {
+UU.logError(e);
+}
+}
+</script>
+</body>
+</html>
+

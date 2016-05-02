@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Domainname nicht verfügbar / Domain not available</title>
+	<style type="text/css" media="screen">
+		* {
+			font-family: arial, verdana, helvetica;
+			margin: 0;
+			padding: 0;
+		}
+		
+		a, :focus {
+			outline: 0;
+			text-decoration: none;
+		}
+		
+		body {
+			background: #e5e5e5;
+			font-size: .75em;
+			padding-top: 130px;
+			text-align: center;
+		}
+		
+		#holder, #holder .wrap, #holder .inner, #nb {
+			display: block;
+			width: 610px;
+		}
+		
+		#holder {
+			background: transparent url('/error_handler/holderbg.gif') left top repeat-y;
+			margin: 0 auto;
+			position: relative;			
+		}
+		
+		#holder .wrap {			
+			background: transparent url('/error_handler/errtop.gif') left top no-repeat;
+		}
+		
+		#holder .inner {
+			background: transparent url('/error_handler/errbottom.gif') left bottom no-repeat;
+			color: #e5e5e5;
+			font-weight: bold;
+			padding: 70px 20px 30px 210px;
+			width: 380px;
+			text-align: left;		
+		}
+		
+		#holder .inner p {
+			line-height: 1.4em;
+			padding: 0 0 30px 25px;
+		}
+		
+		#holder .inner em {
+			display: block;
+			font-weight: normal;
+			padding: 1px 0;
+		}
+		
+		#holder .inner .lang {
+			background: transparent url('/error_handler/de.gif') left 2px no-repeat;
+		}
+		
+		#holder .en {
+			background-image: url('/error_handler/us.gif') !important;
+		}
+		
+		#nb {
+			font-size: .95em;
+			margin-top: 20px;
+			position: absolute;
+			top: 100%;
+		}
+		
+		#nb, #nb a {
+			color: #7b7b7b;
+		}
+	</style>
+	
+</head>
+
+<body>
+	
+	<div id="holder">
+		<div class="wrap">
+			<div class="inner">
+			<p class="lang de">Der Domainname ist nicht verfügbar.</p>
+			<p class="lang en">The Domain is not available.</p>
+		</div>
+		</div>
+		<div id="nb"><a href="http://www.netbuild.net" title="Webhosting">www.netbuild.net</a></div>
+	</div>
+
+</body>
+</html>

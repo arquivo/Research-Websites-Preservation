@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <!-- Title -->
+    <title>
+        Home         // CENTER-TBI.eu
+        
+    </title>
+
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CENTER-TBI is a large European research project that aims to improve the care for patients with Traumatic Brain Injury (TBI).">
+    <meta name="author" content="CENTER-TBI website team">
+    <meta name="keywords" content="EU, IntBIR, CENTER, TBI, Trauma, Traumatic, Brain, Injury, Research, Project, Neuroinformatics, DTI, Collaboration">
+    <meta name="robots" CONTENT="INDEX, FOLLOW">
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="https://www.center-tbi.eu/assets/plugins/bootstrap/css/bootstrap.min.css?300" />
+    <link rel="stylesheet" href="https://www.center-tbi.eu/assets/css/style.css?1310" />
+    <link rel="stylesheet" href="https://www.center-tbi.eu/assets/css/headers/header1.css?130" />
+    <link rel="stylesheet" href="https://www.center-tbi.eu/assets/css/responsive.css?130" />
+
+    <!-- CSS shortcut & favicon -->
+    <link rel="shortcut icon" href="https://www.center-tbi.eu/favicon.ico" />
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="https://www.center-tbi.eu/assets/plugins/font-awesome/css/font-awesome.css?130" />
+    <link rel="stylesheet" href="https://www.center-tbi.eu/assets/plugins/fancybox/source/jquery.fancybox.css?130" />
+
+    <!-- CSS Theme -->
+    <link rel="stylesheet" href="https://www.center-tbi.eu/assets/css/themes/blue.css?1300" />
+    <link rel="stylesheet" href="https://www.center-tbi.eu/assets/css/themes/headers/header1-blue.css?130" />
+
+    <!-- CSS Page Style -->
+    <link rel="stylesheet" href="https://www.center-tbi.eu/assets/plugins/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" href="https://www.center-tbi.eu/assets/plugins/flexslider/flexslider.css">
+<link rel="stylesheet" href="https://www.center-tbi.eu/assets/plugins/parallax-slider/css/parallax-slider.css?20131101">
+</head>
+
+<body>
+<div class="top">
+    <div class="container">
+        <ul class="loginbar pull-right">
+            <li>
+                <i class="icon-globe"></i>
+                <a>English</a>
+                <ul class="lenguages">
+                    <li class="active">
+                        <a href="#">English <i class="icon-ok"></i></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="devider">&nbsp;</li>
+            <li><a href="https://www.center-tbi.eu/faq" class="login-btn">FAQ</a></li>
+            <li class="devider">&nbsp;</li>
+            <li><a href="https://www.center-tbi.eu/links" class="login-btn">Links</a></li>
+             <li class="devider">&nbsp;</li>
+            <li><a class="btn-u btn-u-small" href="https://extranet.center-tbi.eu" class="login-btn">Extranet Login</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="header">
+    <div class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://www.center-tbi.eu">
+                    <img  id="logo-header" src="https://www.center-tbi.eu/assets/img/logo1-center-tbi.png" alt="Logo">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown active">
+                       <a href="https://www.center-tbi.eu">Home</a>
+                    </li>
+                    <li class="dropdown ">
+                        <a href="https://www.center-tbi.eu/project/overview" class="dropdown-toggle disabled" data-toggle="dropdown" data-hover="dropdown" data-delay="100" data-close-others="true">Project
+                            <i class="icon-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://www.center-tbi.eu/project/overview">Overview</a></li>
+                            <li><a href="https://www.center-tbi.eu/project/aims">Aims</a></li>
+                            <li><a href="https://www.center-tbi.eu/project/research-areas">Research Areas</a></li>
+                            <li><a href="https://www.center-tbi.eu/project/background">Background</a></li>
+                            <li><a href="https://www.center-tbi.eu/project/timeline">Timeline</a></li>
+                            <li><a href="https://www.center-tbi.eu/project/participants">Participants</a></li>
+                            <li><a href="https://www.center-tbi.eu/project/organisation">Team &amp; Organisation</a></li>
+                            <li><a href="https://www.center-tbi.eu/project/collaboration">Collaboration</a></li>
+                             <li><a href="https://www.center-tbi.eu/project/progression">Patients recruitment progression</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown ">
+                        <a href="https://www.center-tbi.eu/news" class="dropdown-toggle disabled" data-toggle="dropdown" data-hover="dropdown" data-delay="100" data-close-others="true">News & Events
+                            <i class="icon-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://www.center-tbi.eu/news">News</a></li>
+                            <li><a href="https://www.center-tbi.eu/events">Events</a></li>
+                            <li><a href="https://www.center-tbi.eu/calendar">Calendar</a></li>
+                            <li><a href="https://www.center-tbi.eu/press">Press Releases</a></li>
+                            <li><a href="https://www.center-tbi.eu/in-the-media">In The Media</a></li>
+                        </ul>
+                    </li>
+                   <!-- <li class="dropdown ">
+                        <a href="https://www.center-tbi.eu/publications" >Publications</a>
+                    </li> -->
+                    <!--*********-->
+         <li class="dropdown ">
+                        <a href="https://www.center-tbi.eu/publications" class="dropdown-toggle disabled" data-toggle="dropdown" data-hover="dropdown" data-delay="100" data-close-others="true">Publications
+                            <i class="icon-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://www.center-tbi.eu/publications">Publications</a></li>
+                            <li><a href="https://www.center-tbi.eu/publications/datasharing">Data Sharing Policy</a></li>
+                            <li><a href="https://www.center-tbi.eu/publications/LSR">Living Systematic Reviews</a></li>
+
+                        </ul>
+                    </li>
+                   <!-- test-->
+                    <li class="dropdown ">
+                       <a href="https://www.center-tbi.eu/academical">Education</a>
+                    </li>
+                     <li class="dropdown ">
+                        <a href="https://www.center-tbi.eu/patients/tbi" class="dropdown-toggle disabled" data-toggle="dropdown" data-hover="dropdown" data-delay="100" data-close-others="true">Patients
+                            <i class="icon-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://www.center-tbi.eu/patients/contact">Patient Contact</a></li>
+                            <li><a href="https://www.center-tbi.eu/patients/tbi">Traumatic Brain Injury</a></li>
+                            <li><a href="https://www.center-tbi.eu/patients/facts">10 facts about TBI</a></li>
+
+
+                            <li><a href="https://www.center-tbi.eu/patients/background">Background</a></li>
+                            <li><a href="https://www.center-tbi.eu/patients/aims">Aims and Objectives</a></li>
+                             <li><a href="https://www.center-tbi.eu/patients/partners">Partners and timelines</a></li>
+                            <li><a href="https://www.center-tbi.eu/patients/summary">Project Summary</a></li>
+                             
+
+                        </ul>
+                    </li>
+                      <!--<li class="dropdown ">
+                         <a href="https://www.center-tbi.eu/patients/facts">Patients</a>
+                    </li>-->
+                    <li class="dropdown ">
+                        <a href="https://www.center-tbi.eu/contact">Contact</a>
+                    </li>
+                    <!--<li class="hidden-sm"><a class="search"><i class="icon-search search-btn"></i></a></li>-
+                </ul>
+                <div class="search-open">
+                    <form action="https://www.center-tbi.eu/search" method="GET">
+                    <div class="input-group">
+                        <input type="text" name="q" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+                            <button class="btn-u" type="submit">Go</button>-->
+                        </span>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="slider-inner">
+    <div id="da-slider-home" class="da-slider">
+        <div class="da-slide">
+            <h2><i>Phased<br/>recruitment<br/>has started!</i></h2>
+            <p style="top: 288px">
+                <i><span class="icon-chevron-sign-right"></span> Started 19th of December 2014</i><br/>
+                <i><span class="icon-chevron-sign-right"></span> <span id="patientscount">154</span> patients included so far</i><br/>
+                <i><span class="icon-chevron-sign-right"></span> phased start in <span id="sitescount">154</span> sites</i><br/>
+            </p>
+            <div class="da-img" id="statistics" style="width=30px;bottom:30px"></div>
+        </div>
+        <div class="da-slide">
+            <h2>
+                <i>Diffusion Tensor</i><br/>
+                <i>Imaging</i>
+            </h2>
+            <p style="top: 238px">
+                <i>Healthy brain</i><br/>
+                <i style="margin-left: 40px">vs</i><br/>
+                <i>Injured brain after 1 year</i><br/><br/>
+                <i class="color-blue">Nerve fibre pathways in the brain</i>
+            </p>
+            <div class="da-img" style="top: 0"><img src="https://www.center-tbi.eu/assets/img/slider/dti-nerves.png" alt="dti-nerves" /></div>
+        </div>
+        <div class="da-slide">
+            <h2><i>Traumatic brain Injury</i></h2>
+            <p style="top: 188px">
+                <i><span class="icon-chevron-sign-right"></span> Silent Epidemic</i><br/>
+                <i><span class="icon-chevron-sign-right"></span> Deadly Killer</i><br/>
+                <i><span class="icon-chevron-sign-right"></span> That can strike us all</i><br/>
+                <i><span class="icon-chevron-sign-right"></span> Changes lives forever</i>
+            </p>
+            <a href="https://www.center-tbi.eu/project/background" class="da-link">Read more</a>
+
+        </div>
+        <div class="da-slide">
+            <h2><i>Facts &amp; Figures</i><br/><i>In Europe</i></h2>
+            <p style="top: 248px">
+                <i><span class="icon-chevron-sign-right"></span> 2.5 million people suffer a TBI each year</i><br/>
+                <i><span class="icon-chevron-sign-right"></span> 1 million are admitted to hospital</i><br/>
+                <i><span class="icon-chevron-sign-right"></span> 75.000 will die</i><br/>
+            </p>
+            <div class="da-img"><img src="https://www.center-tbi.eu/assets/img/slider/facts-figures.png" alt="" /></div>
+        </div>
+        <div class="da-arrows">
+            <span class="da-arrows-prev"></span>
+            <span class="da-arrows-next"></span>
+        </div>
+    </div>
+</div>
+
+<div class="container" style="margin-top: 20px">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="testimonials letter tag-box tag-box-v3">
+                <h2>Welcome to the CENTER-TBI website!</h2>
+                <p>
+                    CENTER-TBI is a large European project that aims to improve the care for patients with Traumatic Brain Injury (TBI).
+                </p>
+                <p>
+                    It forms part of the larger global initiative InTBIR: International Initiative for Traumatic Brain Injury Research with projects currently ongoing in Europe, the US and Canada.
+                </p>
+                <p>
+                    CENTER-TBI brings the newest technologies and many of the world's leading TBI experts together in a much needed effort to tackle the silent epidemic of TBI. International and multidisciplinary collaboration are key elements to the project in which past dogmas will be left behind and innovative approaches undertaken. As Coordinators of CENTER-TBI we are proud to lead this generationally unique project.
+                </p>
+                <p>
+                    We anticipate that CENTER-TBI will revolutionize our view of leading TBI to more effective and efficient therapy, improved health care at both individual and population based levels, and  better outcomes at lower costs.
+                </p>
+                <p>
+                    We are grateful to our patients for allowing us the opportunity to advance the care for future patients, and wish all Participants and Investigators success in their efforts.
+                </p>
+                <div class="row">
+                    <div class="col-md-6 testimonial-info" style="margin-top: 10px">
+                        <img src="assets/img/team/maas_small.jpg" alt=""/>
+                        <span class="testimonial-author">
+                            Andrew Maas
+                            <em>Project Coordinator</em>
+                        </span>
+                    </div>
+                    <div class="col-md-6 testimonial-info" style="margin-top: 10px">
+                        <img src="assets/img/team/menon_small.jpg" alt="" style="float:right; margin-left: 15px;"/>
+                        <span class="testimonial-author" style="float:right; text-align:right;">
+                            David Menon
+                            <em>Co-chairman</em>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="tag-box tag-box-v6">
+                <h2>A few facts about TBI</h2>
+                <ul class="list-unstyled">
+                    <li><i class="icon-chevron-sign-right"></i> In Europe:
+                        <ul>
+                            <li>2.5 million people suffer a TBI each year</li>
+                            <li>1 million are admitted to hospital</li>
+                            <li>75.000 will die</li>
+                        </ul>
+                    </li>
+                    <li><i class="icon-chevron-sign-right"></i> TBI is the leading cause of death and disability in young adults.</li>
+                    <li><i class="icon-chevron-sign-right"></i> The incidence in elderly patients is increasing.</li>
+                    <li><i class="icon-chevron-sign-right"></i> TBI can strike us all, but males are about twice as likely as females to experience a TBI.</li>
+                    <li><i class="icon-chevron-sign-right"></i> In younger patients Road Traffic Accidents are the most frequent cause of injury; in older patients falls.</li>
+                    <li><i class="icon-chevron-sign-right"></i> Moderate and severe head injury (respectively) are associated with a 2.3 and 4.5 times increased risk of Alzheimer’s disease. </li>
+                </ul>
+            </div>
+            <div class="tag-box tag-box-v2" style="margin-bottom:0">
+                The CENTER-TBI website provides general information and further aims to be a  communication platform for Patients, Scientific Participants and Investigators. As such, you will also find secure sections on the website with more specific information – these require a login and password.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 md-margin-bottom-40">
+                <!-- Monthly Newsletter -->
+                <div class="headline"><h3>Newsletter</h3></div>
+                <p>Subscribe to our newsletter and stay up to date!</p>
+                <form action="https://www.center-tbi.eu/newsletter/subscribe" class="footer-subscribe margin-bottom-20" method="POST">
+                    <input name="_token" type="hidden" value="zkK5d8MIKxdvGwyb9gimgcVPbP915KWmpolfXEip">                    <div class="input-group">
+                        <input name="email" type="text" class="form-control" placeholder="Email Address">
+                        <span class="input-group-btn">
+                            <button class="btn-u" type="submit">Subscribe</button>
+                        </span>
+                    </div>
+                </form>
+                <p>If you are already subscribed and you wish to edit your details or unsubscribe, please visit <a href="http://lists.center-tbi.eu/listinfo/newsletter">this link</a></p>
+
+                <div class="headline"><h2>Stay Connected</h2></div>
+
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/CenterTBI" target="_blank" data-original-title="Facebook" class="social_facebook"></a></li>
+                    <li><a href="https://twitter.com/CenterTBI" target="_blank" data-original-title="Twitter" class="social_twitter"></a></li>
+                    <li><a href="http://www.linkedin.com/groups/CENTERTBI-7443074" target="_blank" data-original-title="Linkedin" class="social_linkedin"></a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 md-margin-bottom-40">
+                <div class="posts">
+    <div class="headline"><h3>Recent News Articles</h3></div>
+    <!--<dl class="dl-horizontal">
+        <dt><a href="https://www.center-tbi.eu/news/highlights-of-the-first-center-tbi-general-assembly"><img src="https://www.center-tbi.eu/assets/img/news/ctbi.png" alt=""></a></dt>
+        <dd>
+            <p><a href="https://www.center-tbi.eu/news/highlights-of-the-first-center-tbi-general-assembly">Highlights of the first CENTER-TBI General Assembly Meeting</a></p> 
+            <i class="icon-calendar"></i> October 31, 2013
+        </dd>
+    </dl>-->
+       <dl class="dl-horizontal">
+        <dt><a href="https://www.center-tbi.eu/news/ted"><img src="https://www.center-tbi.eu/assets/img/news/ctbi.png" alt=""></a></dt>
+        <dd>
+            <p><a href="https://www.center-tbi.eu/news/ted">JUST RELEASED! TBI Endpoints Development Initiative’s</a></p>
+            <i class="icon-calendar"></i> july 2, 2015
+        </dd>
+        </dl>
+        <br/>
+    <!-- 2 posters accepted-->
+   <dl class="dl-horizontal">
+        <dt><a href="https://www.center-tbi.eu/news/abstracts"><img src="https://www.center-tbi.eu/assets/img/news/ctbi.png" alt=""></a></dt>
+        <dd>
+            <p><a href="https://www.center-tbi.eu/news/abstracts">2 abstracts have been accepted</a></p>
+            <i class="icon-calendar"></i> Feb 5, 2015
+        </dd>
+        </dl>
+<!-- patient inclusion -->
+    <!-- <dl class="dl-horizontal">
+        <dt><a href="https://www.center-tbi.eu/news/recruitment"><img src="https://www.center-tbi.eu/assets/img/news/ctbi.png" alt=""></a></dt>
+        <dd>
+            <p><a href="https://www.center-tbi.eu/news/recruitment">Patient recruitment has started!</a></p>
+            <i class="icon-calendar"></i> Dec 19, 2014
+        </dd>
+        </dl>-->
+<!--recent news phantom
+   <dl class="dl-horizontal">
+        <dt><a href="https://www.center-tbi.eu/news/IFEM"><img src="https://www.center-tbi.eu/assets/img/news/emergencymed.jpg" alt=""></a></dt>
+        <dd>
+            <p><a href="https://www.center-tbi.eu/news/IFEM">Endorsed by IFEM</a></p>
+            <i class="icon-calendar"></i> Nov 21, 2014
+        </dd>
+        </dl>-->
+        <!-- new item phantoms
+        <dl class="dl-horizontal">
+        <dt><a href="https://www.center-tbi.eu/news/first-phantom"><img src="https://www.center-tbi.eu/assets/img/news/ctbi.png" alt=""></a></dt>
+        <dd>
+            <p><a href="https://www.center-tbi.eu/news/first-phantom">First Phantoms</a></p>
+            <i class="icon-calendar"></i> July 31, 2014
+        </dd>
+        </dl>-->
+    <!-- protocol submission-->
+    <!--<dl class="dl-horizontal">
+        <dt><a href="https://www.center-tbi.eu/news/protocol"><img src="https://www.center-tbi.eu/assets/img/news/ctbi.png" alt=""></a></dt>
+        <dd>
+            <p><a href="https://www.center-tbi.eu/news/protocol">Protocol submission </a></p>
+            <i class="icon-calendar"></i> July 31, 2014
+        </dd>
+
+        
+    </dl>-->
+</div>
+
+                <div class ="headline" style="margin-top:17px"><h3>Endorsed By</h3></div>
+
+                <a href="https://www.center-tbi.eu/news/IFEM"><img src="https://www.center-tbi.eu/assets/img/news/emergencymed.jpg" alt="" width="80"></a>
+            </div>
+
+            <div class="col-md-4">
+                <div class="headline"><h3>Coordinating Center</h3></div>
+                <ul class="list-unstyled who-bottom">
+                    <li><i class="icon-home"></i><strong>Antwerp University Hospital</strong><br>
+                        <div style="margin-left: 30px">
+                            dept. Neurosurgery<br>
+                            Wilrijkstraat 10<br>
+                            2650 Edegem<br>
+                            BELGIUM</div></li>
+                    <li><i class="icon-phone-sign"></i>+32 (0)3 821 4632</li>
+                    <li><i class="icon-envelope-alt"></i><a href="mailto:info@center-tbi.eu">info@center-tbi.eu</a></li>
+                </ul>
+                <div class="headline"></div>
+                <a href="http://onlyoffice.com?campaign=nonprofit" target="_blank" style="cursor: pointer;" rel="me nofollow"><img alt="Projects CRM Documents" width="100%" title="Projects CRM Documents" src='http://www.onlyoffice.com/images/banners/en-US/468-x-60-03.jpg' /></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="copyright-space">&copy; 2016 CENTER-TBI. All rights reserved.
+                    <a href="https://www.center-tbi.eu/legal/privacy-policy">Privacy Policy</a> |
+                    <a href="https://www.center-tbi.eu/legal/disclaimer">Disclaimer</a> |
+                    <a href="https://www.center-tbi.eu/sitemap">Sitemap</a></p>
+            </div>
+            <div class="col-md-6">
+                <img src="https://www.center-tbi.eu/assets/img/ec_fp7.png?v1.1" class="pull-left" alt="" />
+                <a href="https://www.center-tbi.eu"><img id="logo-footer" src="https://www.center-tbi.eu/assets/img/logo2-center-tbi.png" class="pull-right" alt="" /></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JS Global Compulsory -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://www.center-tbi.eu/assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://www.center-tbi.eu/assets/plugins/bootstrap/js/bootstrap.min.js?300"></script>
+<script type="text/javascript" src="https://www.center-tbi.eu/assets/plugins/hover-dropdown.min.js?130"></script>
+<script type="text/javascript" src="https://www.center-tbi.eu/assets/plugins/back-to-top.js?1301"></script>
+
+<!-- JS Implementing Plugins -->
+<script type="text/javascript" src="https://www.center-tbi.eu/assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="https://www.center-tbi.eu/assets/plugins/flexslider/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="https://www.center-tbi.eu/assets/plugins/parallax-slider/js/modernizr.js"></script>
+<script type="text/javascript" src="https://www.center-tbi.eu/assets/plugins/parallax-slider/js/jquery.cslider.js?20131029"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script type="text/javascript" src="https://www.center-tbi.eu/assets/js/pages/index.js?20131031"></script>
+
+<!-- JS Page Level -->
+<script type="text/javascript" src="https://www.center-tbi.eu/assets/js/app.js?201310221133"></script>
+<script>
+jQuery(document).ready(function() {
+   
+    App.init();
+    scrolltotop.init("https://www.center-tbi.eu/assets/img/up.png");
+    App.initFancybox();
+    Index.initParallaxSlider();
+
+function getSumTotal(data) {
+    var totalList = [], total = 0;
+    for (var i = 0; i < data.length; i++) {
+        total += data[i];
+        totalList.push(total);
+    }
+    return totalList;
+}
+
+var chartOptions = {
+    chart: {
+        renderTo: 'statistics',
+        type: 'area',
+        backgroundColor:'rgba(255, 255, 255, 0.9)',
+        height: 250,
+        alignTicks: false,
+    },
+    title:{
+        text: null
+    },
+    credits:{
+        enabled: false
+    },
+    tooltip:{
+        shared: true,
+        headerFormat: 'Week {point.key}<br>',
+    },
+    plotOptions: {
+        area: {
+            //stacking: 'normal',
+            lineColor: '#666666',
+            lineWidth: 1,
+            marker: {
+                lineWidth: 1,
+                lineColor: '#666666'
+            }
+        },
+        series: {
+            dataLabels: {
+                enabled: true,
+                formatter: function() {
+                    if (this.point.x == this.series.data.length - 1) {
+                        return this.y;
+                    } else {
+                        return null;
+                    }
+                }
+            }
+        }
+    },
+    xAxis: {
+        labels: {
+            style: {
+                "fontWeight": "bold"
+            }
+        },
+        title: {
+            text: "Weeks since start of recruitment"
+        },
+        categories: []
+    },
+
+    yAxis: [{ // Primary yAxis - PATIENTS
+        title: {
+            rotation: 270,
+            text: 'Number of patients'
+        },
+        labels: {
+            format: '{value}',
+            style: {
+                "fontWeight": "bold",
+                fontSize: "15px"
+            }
+        }
+    }, { // Secondary yAxis - SITES
+        title: {
+            rotation: 270,
+            text: 'Number of sites'
+        },
+        min: 0,
+        max: 80,
+        tickInterval: 20,
+        gridLineWidth: 1,
+        gridLineDashStyle: "dot",
+        labels: {
+            format: '{value}',
+            style: {
+                "fontWeight": "bold",
+                fontSize: "15px"
+            }
+        },
+        opposite: true
+    }],
+
+    series: [
+    {
+        data: [],
+        name: 'Patients in Core Study',
+        zIndex: 3,
+    },
+    {
+        data: [],
+        name: 'Patients in Registry',
+        zIndex: 2,
+    },
+    {
+        data: [],
+        name: 'Number of recruiting sites',
+        yAxis: 1,
+        type: 'column',
+        zIndex: 1,
+    }
+    ]
+
+}
+
+$.getJSON("patients/statistics", function(json){
+    chartOptions.xAxis.categories = json[0]['data'];
+    chartOptions.series[0].data = getSumTotal(json[1]['data']);
+    //chartOptions.series[0].data = json[1]['data'];
+    chartOptions.series[1].data = getSumTotal(json[2]['data']);
+    //chartOptions.series[1].data = json[2]['data'];
+    chartOptions.series[2].data = getSumTotal(json[3]['data']);
+    chart = new Highcharts.Chart(chartOptions);
+
+    $('#patientscount').html(chartOptions.series[0].data[chartOptions.series[0].data.length -1] + chartOptions.series[1].data[chartOptions.series[1].data.length -1]);
+    $('#sitescount').html(chartOptions.series[2].data[chartOptions.series[2].data.length -1]);
+});
+
+
+
+});
+</script>
+<!--[if lt IE 9]>
+    <script src="https://www.center-tbi.eu/assets/plugins/respond.js"></script>
+<![endif]-->
+
+<!-- CENTER-TBI.eu Analytics -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setCookieDomain", "*.center-tbi.eu"]);
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://stats.center-tbi.eu/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><img src="https://stats.center-tbi.eu/piwik.php?idsite=1&amp;rec=1" style="border:0" alt="" /></noscript>
+</body>
+</html>

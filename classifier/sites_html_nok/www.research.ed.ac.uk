@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+			<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+			<meta name="description" content="Description" />
+			<title>SynSys - Synaptic systems: dissecting brain function in health and disease - Edinburgh Research Explorer</title><script type="text/javascript" src="/portal/dwr/engine.js?stamp=1456902132586"></script><script type="text/javascript" src="/portal/dwr/interface/PureFacade.js?stamp=1456902132586"></script><script type="text/javascript" src="/portal/resources/style/lib/prototype.js?stamp=1456902132586"></script><script type="text/javascript" src="/portal/resources/style/js/atira.js?stamp=1456902132586"></script><script type="text/javascript" src="/portal/resources/style/js/atira_chart.js?stamp=1456902132586"></script><link type="text/css" rel="stylesheet" href="/portal/resources/style/css/combined/portal.css?stamp=1456902132586" /><!--[if IE 6]><link type="text/css" rel="stylesheet" href="/portal/resources/style/css/msie/msie6.css?stamp=1456902132586" /><link type="text/css" rel="stylesheet" href="/portal/resources/core/style/css/components/msie6.css?stamp=1456902132586" /><![endif]--><!--[if IE 7]><link type="text/css" rel="stylesheet" href="/portal/resources/style/css/msie/msie7.css?stamp=1456902132586" /><![endif]-->
+			<script type="text/javascript" src="/portal/resources/style/js/jquery-1.7.2.min.js"></script>
+			<script type="text/javascript" src="/portal/resources/style/js/videofy.js"></script><script>   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');    ga('create', 'UA-3415584-4', 'auto');   ga('send', 'pageview');  </script></head><body class="en_GB en">
+			<div id="header">
+				<div class="header_wrapper clearfix">
+					<div id="logo">
+		    			<a href="/">
+		    				<img alt="The University of Edinburgh home" src="/portal/resources/style/gfx/logo.png" />
+		    			</a>
+		        	</div>
+		        	<div class="right_header">
+	        			<ul class="top_nav clearfix">
+		                    <li><a href="http://www.ed.ac.uk/news">News</a></li>
+		                    <li><a href="http://www.ed.ac.uk/about">About</a></li>
+		                    <li><a href="http://www.ed.ac.uk/studying">Studying</a></li>
+		                    <li class="selected"><a href="http://www.ed.ac.uk/research">Research</a></li>
+		                    <li><a href="http://www.ed.ac.uk/alumni">Alumni</a></li>
+		                    <li><a href="http://www.ed.ac.uk/business">Business</a></li>
+		                    <li><a href="http://www.ed.ac.uk/staff-students">Staff &amp; students</a></li>
+		                    <li><a href="http://www.ed.ac.uk/schools-departments">Schools &amp; departments</a></li>
+		             	</ul>
+		        		<div class="header_tab">
+		        			<form id="search" method="get" accept-charset="UTF-8" action="/portal/en/searchall.html" class="globalSearch">
+						  		<div>
+							    	<input type="text" onfocus="this.select()" value="Search term" id="searchall" name="searchall" class="search_field" />
+									<select id="searchOptions" name="searchOptions">
+										<option value="researchSearch" selected="selected">Search the Research Explorer</option>
+										<option value="siteSearch">Search the full site</option>
+										<option value="people">Search for people</option>
+									</select>
+									<input type="hidden" value="site:http://www.ed.ac.uk/search/google-results" name="qp" id="qp" />
+									<input type="submit" value="Go" name="submit" class="search_button" />
+									<a class="contact_us" href="/portal/en/contact.html">Contact us</a>
+								</div>		    
+							</form>
+							<script type="text/javascript">
+								jQuery.noConflict();
+								jQuery(document).ready(function() {
+									var form = jQuery("#search");
+									var searchfield = jQuery("#searchall");
+									var qp = jQuery("#qp");
+									jQuery("#searchOptions").on("change", function() {
+										var type = jQuery(this).val();
+										switch (type) {
+											default:
+											case "researchSearch":
+												form.attr("action", "/portal/en/searchall.html");
+												searchfield.attr("name", "searchall");
+												qp.attr("disabled", "disabled");
+												break;
+											case "people":
+											case "siteSearch":
+												form.attr("action", "http://www.ed.ac.uk/jsp/search.jsp");
+												searchfield.attr("name", "keywords");
+												break;
+										}
+									});
+								});
+							</script>
+		        		</div>
+		        	</div>
+				</div>
+			</div>
+			<div id="wrapper">
+				<div id="top"><a class="portal_link" href="http://www.research.ed.ac.uk/portal/en/"><span>
+						<img src="/portal/resources/style/gfx/logo_researchexplorer.png" alt="Edinburgh Research Explorer" /></span></a>
+				</div>
+    			<div class="breadcrumb">
+					<ul>			
+						<li class="home"><a href="http://www.ed.ac.uk/">University Homepage</a></li>
+						<li><a href="http://www.ed.ac.uk/research">Research</a></li>
+						<li><a class="portal_link" href="http://www.research.ed.ac.uk/portal/en/"><span>Explorer home</span></a>
+						</li>
+			<li><a class="portal_link" href="http://www.research.ed.ac.uk/portal/en/projects/search.html"><span>Projects</span></a></li>
+			<li>SynSys - Synaptic systems: dissecting brain function in health and dis...</li>
+					</ul>
+				</div>
+				<ul class="navigation">
+					<li><a class="portal_link" href="http://www.research.ed.ac.uk/portal/en/"><span>Explorer home</span></a></li>
+					<li><a class="portal_link" href="http://www.research.ed.ac.uk/portal/en/persons/search.html"><span>Staff</span></a>
+					</li>
+					<li class="selected"><a class="portal_link" href="http://www.research.ed.ac.uk/portal/en/projects/search.html"><span>Research projects</span></a>
+					</li>
+					<li><a class="portal_link" href="http://www.research.ed.ac.uk/portal/en/publications/search.html"><span>Research outputs</span></a>
+					</li>
+					<li><a class="portal_link" href="http://www.research.ed.ac.uk/portal/en/activities/search.html"><span>Research activities</span></a>
+					</li>			
+					
+					<li><a class="portal_link" href="http://www.research.ed.ac.uk/portal/en/organisations/search.html"><span>Colleges &amp; Schools</span></a>
+					</li>
+					
+					
+					<li><a class="portal_link" href="http://www.research.ed.ac.uk/portal/en/clippings/search.html"><span>Research press coverage</span></a>
+					</li>
+
+					<li><a class="portal_link" href="http://www.research.ed.ac.uk/portal/en/datasets/search.html"><span>Datasets</span></a>
+					</li>
+											
+					
+				</ul>
+				<div id="container">
+					<div class="clearfix">
+						<div class="content ">
+			<div class="view_title"><div class="rendering rendering_project  rendering_project_compact rendering_abstractproject rendering_compact rendering_abstractproject_compact"><h2 class="title"><span>SynSys - Synaptic systems: dissecting brain function in health and disease</span></h2><p class="type"><span class="type_family">Project<span class="type_family_sep">: </span></span><span class="type_classification_parent">Funded Project<span class="type_parent_sep"> › </span></span><span class="type_classification">Research</span></p></div>
+			</div>
+			<div class="view_body projects">
+				<div class="box">
+					<div class="left participants_portal"><div class="rendering rendering_project  rendering_project_associatesparticipantsclassifiedportal rendering_fundedproject rendering_associatesparticipantsclassifiedportal rendering_fundedproject_associatesparticipantsclassifiedportal"><ul class="relations persons"><li><a rel="Person" href="http://www.research.ed.ac.uk/portal/en/persons/seth-grant(4b4c6fb7-906b-4cd9-84ba-14fc5ac06a32).html" class="link person"><span>Grant, Seth</span></a><span class="dimmed"> (Principal investigator)</span></li><li><a rel="Person" href="http://www.research.ed.ac.uk/portal/en/persons/douglas-armstrong(da3124d7-44f9-4199-82bf-9e964f422ab9).html" class="link person"><span>Armstrong, Douglas</span></a><span class="dimmed"> (Co-investigator)</span></li></ul></div><div class="rendering rendering_project  rendering_project_associatesorganisationsportal rendering_fundedproject rendering_associatesorganisationsportal rendering_fundedproject_associatesorganisationsportal"><ul class="relations organisations"><li class="school"><a rel="Organisation" href="http://www.research.ed.ac.uk/portal/en/organisations/school-of-clinical-sciences(9eeb6ca0-977f-4d0d-984b-25232f16d3a3).html" class="link"><span>School of Clinical Sciences</span></a></li><li class="research_centre"><a rel="Organisation" href="http://www.research.ed.ac.uk/portal/en/organisations/centre-for-clinical-brain-sciences(d6f24604-b956-4b80-866e-7b1995aaa0d0).html" class="link"><span>Centre for Clinical Brain Sciences</span></a></li><li class="school"><a rel="Organisation" href="http://www.research.ed.ac.uk/portal/en/organisations/school-of-informatics(d9a3581f-93a4-4d74-bf29-14c86a1da9f4).html" class="link"><span>School of Informatics</span></a></li></ul></div>
+					</div>
+					<div class="right details_portal"><div class="rendering rendering_project  rendering_project_edinburghdetailsportal rendering_fundedproject rendering_edinburghdetailsportal rendering_fundedproject_edinburghdetailsportal"><table class="properties"><tbody><tr class="total-award"><th>Total award</th><td>£1,281,018.00</td></tr><tr class="funding-organisation"><th>Funding organisation</th><td>EU government bodies</td></tr><tr class="funder-project-reference"><th>Funder project reference</th><td>242167 Synsys</td></tr><tr class="period"><th>Period</th><td><span class="date">1/07/10</span> → <span class="date">31/12/14</span></td></tr></tbody></table></div>
+					</div>
+				</div><div class="rendering rendering_project  rendering_project_edinburghdetailsdescriptionportal rendering_fundedproject rendering_edinburghdetailsdescriptionportal rendering_fundedproject_edinburghdetailsdescriptionportal"></div><div class="rendering rendering_project  rendering_project_projectallrelationsportal rendering_fundedproject rendering_projectallrelationsportal rendering_fundedproject_projectallrelationsportal"><div class="related-research-outputs"><h3 class="subheader">Related research outputs</h3><ul class="relations"><li><div class="rendering rendering_researchoutput  rendering_researchoutput_compact rendering_abstractpublication rendering_compact rendering_abstractpublication_compact"><h2 class="title"><a rel="ContributionToJournal" href="http://www.research.ed.ac.uk/portal/en/publications/synsysnet(0ed8b720-47df-4de6-bba3-e2208b1dca26).html" class="link"><span>SynSysNet: integration of experimental data on synaptic protein-protein interactions with drug-target relations</span></a></h2><p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Article</span></p></div></li><li><div class="rendering rendering_researchoutput  rendering_researchoutput_compact rendering_abstractpublication rendering_compact rendering_abstractpublication_compact"><h2 class="title"><a rel="ContributionToJournal" href="http://www.research.ed.ac.uk/portal/en/publications/comparative-study-of-human-and-mouse-postsynaptic-proteomes-finds-high-compositional-conservation-and-abundance-differences-for-key-synaptic-proteins(547bad29-b285-41e4-9dde-80d1418d8e89).html" class="link"><span>Comparative Study of Human and Mouse Postsynaptic Proteomes Finds High Compositional Conservation and Abundance Differences for Key Synaptic Proteins</span></a></h2><p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Article</span></p></div></li><li><div class="rendering rendering_researchoutput  rendering_researchoutput_compact rendering_abstractpublication rendering_compact rendering_abstractpublication_compact"><h2 class="title"><a rel="ContributionToJournal" href="http://www.research.ed.ac.uk/portal/en/publications/synaptic-scaffold-evolution-generated-components-of-vertebrate-cognitive-complexity(9b4de289-c284-460a-8387-90673aa8240a).html" class="link"><span>Synaptic scaffold evolution generated components of vertebrate cognitive complexity</span></a></h2><p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Article</span></p></div></li><li><div class="rendering rendering_researchoutput  rendering_researchoutput_compact rendering_abstractpublication rendering_compact rendering_abstractpublication_compact"><h2 class="title"><a rel="ContributionToJournal" href="http://www.research.ed.ac.uk/portal/en/publications/cognitive-components-in-mice-and-humans-combining-genetics-and-touchscreens-for-medical-translation(001b9522-9e53-4fef-86f6-4519d45c23d8).html" class="link"><span>Cognitive components in mice and humans: Combining genetics and touchscreens for medical translation</span></a></h2><p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Article</span></p></div></li><li><div class="rendering rendering_researchoutput  rendering_researchoutput_compact rendering_abstractpublication rendering_compact rendering_abstractpublication_compact"><h2 class="title"><a rel="ContributionToJournal" href="http://www.research.ed.ac.uk/portal/en/publications/evolution-of-glun2ab-cytoplasmic-domains-diversified-vertebrate-synaptic-plasticity-and-behavior(2556d7d3-f98c-4f18-8abc-4756992418a6).html" class="link"><span>Evolution of GluN2A/B cytoplasmic domains diversified vertebrate synaptic plasticity and behavior</span></a></h2><p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Article</span></p></div></li><li><div class="rendering rendering_researchoutput  rendering_researchoutput_compact rendering_abstractpublication rendering_compact rendering_abstractpublication_compact"><h2 class="title"><a rel="ContributionToJournal" href="http://www.research.ed.ac.uk/portal/en/publications/a-polygenic-burden-of-rare-disruptive-mutations-in-schizophrenia(1530f625-82a9-4e47-b60c-50ba62beacc6).html" class="link"><span>A polygenic burden of rare disruptive mutations in schizophrenia</span></a></h2><p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Article</span></p></div></li><li><div class="rendering rendering_researchoutput  rendering_researchoutput_compact rendering_abstractpublication rendering_compact rendering_abstractpublication_compact"><h2 class="title"><a rel="ContributionToJournal" href="http://www.research.ed.ac.uk/portal/en/publications/a-simulator-for-spatially-extended-kappa-models(8e7ed1c1-b325-454b-b4bb-a4ec91e77cd2).html" class="link"><span>A simulator for spatially extended kappa models</span></a></h2><p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Article</span></p></div></li><li><div class="rendering rendering_researchoutput  rendering_researchoutput_compact rendering_abstractpublication rendering_compact rendering_abstractpublication_compact"><h2 class="title"><a rel="ContributionToBookAnthology" href="http://www.research.ed.ac.uk/portal/en/publications/rkappa-statistical-sampling-suite-for-kappa-models(b9adddef-e2be-45fb-9ee6-55a2ec286a31).html" class="link"><span>RKappa: Statistical sampling suite for Kappa models</span></a></h2><p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Chapter in Book/Report/Conference proceeding<span class="type_parent_sep"> › </span></span><span class="type_classification">Conference contribution</span></p></div></li><li><div class="rendering rendering_researchoutput  rendering_researchoutput_compact rendering_abstractpublication rendering_compact rendering_abstractpublication_compact"><h2 class="title"><a rel="ContributionToJournal" href="http://www.research.ed.ac.uk/portal/en/publications/dynamics-of-elongation-factor-2-kinase-regulation-in-cortical-neurons-in-response-to-synaptic-activity(3cc3b2e4-df3d-4c25-80ae-bf80a3b48cdd).html" class="link"><span>Dynamics of Elongation Factor 2 Kinase Regulation in Cortical Neurons in Response to Synaptic Activity</span></a></h2><p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Article</span></p></div></li><li><div class="rendering rendering_researchoutput  rendering_researchoutput_compact rendering_abstractpublication rendering_compact rendering_abstractpublication_compact"><h2 class="title"><a rel="ContributionToBookAnthology" href="http://www.research.ed.ac.uk/portal/en/publications/integration-of-rulebased-models-and-compartmental-models-of-neurons(c541c092-620a-4c88-9fec-b67a77082bca).html" class="link"><span>Integration of rule-based models and compartmental models of neurons</span></a></h2><p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Chapter in Book/Report/Conference proceeding<span class="type_parent_sep"> › </span></span><span class="type_classification">Conference contribution</span></p></div></li><li><div class="rendering rendering_researchoutput  rendering_researchoutput_compact rendering_abstractpublication rendering_compact rendering_abstractpublication_compact"><h2 class="title"><a rel="ContributionToJournal" href="http://www.research.ed.ac.uk/portal/en/publications/improved-functional-enrichment-analysis-of-biological-networks-using-scalable-modularity-based-clustering(710d3900-c47d-4ac0-8d0e-13e56852219c).html" class="link"><span>Improved Functional Enrichment Analysis of Biological Networks using Scalable Modularity Based Clustering</span></a></h2><p class="type"><span class="type_family">Research output<span class="type_family_sep">: </span></span><span class="type_classification_parent">Contribution to journal<span class="type_parent_sep"> › </span></span><span class="type_classification">Article</span></p></div></li></ul></div></div>
+			</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<div class="footer_wrapper">
+					<div class="left">
+						<ul>
+							<li><a href="http://www.ed.ac.uk/about/website/website-terms-conditions">Terms &amp; conditions</a></li>
+							<li><a href="http://www.ed.ac.uk/about/website/privacy">Privacy &amp; cookies</a></li>
+							<li><a href="http://www.ed.ac.uk/about/website/accessibility">Website accessibility</a></li>
+							<li><a href="http://www.ed.ac.uk/about/website/freedom-information">Freedom of Information Publication Scheme</a></li>
+						</ul>
+						<p>Unless explicitly stated otherwise, all material is copyright © The University of Edinburgh 2012.</p>
+					</div>
+					<span class="pure_login"><a title="EASE authenticated secure login" href="http://www.pure.ed.ac.uk/">Staff login</a></span>
+				</div>
+			</div></body></html>

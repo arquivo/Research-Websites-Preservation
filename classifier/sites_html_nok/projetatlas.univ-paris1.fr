@@ -1,0 +1,473 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="fr" lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2013 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/
+-->
+
+<base href="http://www.univ-paris1.fr/" />
+
+<title>Université Paris 1 Panthéon-Sorbonne: Accueil</title>
+<meta name="generator" content="TYPO3 4.5 CMS" />
+<meta name="description" content="Riche de huit siècles d'excellence, Paris 1 est une université de référence en droit, sciences politiques, économie, gestion, arts et sciences humaines." />
+<meta name="keywords" content="Sorbonne, Paris 1, Paris1, Panthéon, Université Paris 1 Panthéon-Sorbonne, Droit, sciences politiques, économie, gestion, mathématiques, gestion, arts, histoire, géographie, archéologie, sciences humaines, master, formations, études, cinéma, recherche, laboratoires, école doctorale, étudiants, doctorants" />
+<meta name="author" content="Université Paris 1 Panthéon-Sorbonne - Marc-Olivier Lagadic" />
+<meta name="robots" content="index,follow,archive" />
+<meta name="copyright" content="Université Paris 1 Panthéon-Sorbonne" />
+<meta name="language" content="fr-FR" />
+
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/v2/style2014.css?1454023321" media="screen" />
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/v2/css/layout.css?1443692856" media="screen" />
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/v2/css/megamenu2014.css?1421017408" media="screen" />
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/v2/css/extension.css?1324288979" media="screen" />
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/v2/css/div.css?1447775755" media="screen" />
+<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_6ad3db94e1.css?1356132277" media="all" />
+
+
+
+<script src="typo3conf/ext/flashslideshow/res/swfobject.js?1317888324" type="text/javascript"></script>
+<script src="typo3temp/javascript_980ab81914.js?1356132275" type="text/javascript"></script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="icon" type="image/png" href="favicon.png" />
+<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
+<link rel="apple-touch-icon" sizes="57x57" href="appletouch-57.gif" />
+<link rel="apple-touch-icon" sizes="114x114" href="appletouch-114.gif" />
+<link rel="apple-touch-icon" sizes="72x72" href="appletouch-72.gif" />
+<link rel="apple-touch-icon" sizes="144x144" href="appletouch.gif" />
+
+<script type="text/javascript" src="fileadmin/templates/v2/js/jquery.js"></script>
+<script type="text/javascript" src="fileadmin/templates/v2/js/jquery.megamenu.js"></script>
+<script type="text/javascript" src="fileadmin/templates/v2/js/swfobject/swfobject.js"></script>
+<script type="text/javascript" src="fileadmin/templates/v2/js/jquery.jcarousel.js"></script>
+<script type="text/javascript">
+		var flashvars = {};
+		
+		flashvars.font = "font.swf";
+		var attributes = {};
+		attributes.wmode = "transparent";
+		attributes.id = "news";
+		swfobject.embedSWF("fileadmin/templates/v2/swf/news.swf", "news", "276", "316", "9", "expressInstall.swf", flashvars, attributes);
+</script>
+<script src="fileadmin/templates/v2/js/AC_RunActiveContent.js" type="text/javascript"></script>
+<script type="text/javascript" src="fileadmin/templates/v2/js/cookie.js"></script>
+<script type="text/javascript">
+<!--
+
+/* Cette fonction permet de charger la valeur par défaut "Rechercher par mots-clés" dans le champ texte du moteur de recherche. Si javascript pas installé, rien n'est chargé.*/
+$(document).ready(function() {
+
+	var numero = lire_cookie("image");
+	var random = choix_image();
+	while (random == numero) {
+		var random = choix_image();
+	}
+	$(".port_info").attr({src:"fileadmin/Accueil_www/images/btn-candidature_" + random + ".png"});
+	ecrire_cookie("image",random);
+	
+	
+	
+	$(".keywords").val("Rechercher par mots-clés");
+	/*au focus du champ de recherche, si la valeur du champ est "Rechercher par mots-clés", le champ se vide*/
+	$(".keywords").focus(function() {
+		if ($(".keywords").val() == "Rechercher par mots-clés") {
+			$(".keywords").val("");
+		}
+	});
+	$(".keywords").blur(function() {
+		if ($(".keywords").val() == "") {
+			$(".keywords").val("Rechercher par mots-clés");
+		}
+	});
+	
+});
+
+/* La fonction choix_image permet de déterminer un nombre aléatoirement entre 1 et 4 */
+function choix_image() {
+	var aleatoire = Math.floor((Math.random()*4)+1);
+	return aleatoire;
+}
+	
+jQuery(function() {
+	jQuery("#menu").megaMenu('click_open_close_slide');
+});
+-->
+</script>	<!--[if lte IE 6]>
+	<link rel="stylesheet" href="fileadmin/templates/v1/css/styles-ie6.css" type="text/css" media="all" />
+	<![endif]-->
+	<!--[if gte IE 7]>
+	<link rel="stylesheet" href="fileadmin/templates/v1/css/styles-ie7.css" type="text/css" media="all" />
+	<![endif]-->
+	<script type="text/javascript" src="fileadmin/templates/v1/js/rechercher.js"></script>
+	<script type="text/javascript" src="fileadmin/templates/v1/js/lien_offre_formation.js"></script>	<link rel="stylesheet" href="fileadmin/templates/templates_ext/tx_up1annuaire/up1annuaire.css" type="text/css" media="all" title="Normal" />
+<meta name="description" content="Riche de huit siècles d'excellence, Paris 1 est une université de référence en droit, sciences politiques, économie, gestion, arts et sciences humaines." />
+<meta name="keywords" content="Sorbonne,Paris 1,Paris1,Panthéon,Université Paris 1 Panthéon-Sorbonne,Droit,sciences politiques,économie,gestion,mathématiques,gestion,arts,histoire,géographie,archéologie,sciences humaines,master,formations,études,cinéma,recherche,laboratoires,école doctorale,étudiants,doctorants" />
+<meta name="DC.Description" content="Riche de huit siècles d'excellence, Paris 1 est une université de référence en droit, sciences politiques, économie, gestion, arts et sciences humaines." />
+<meta name="DC.Subject" content="Sorbonne,Paris 1,Paris1,Panthéon,Université Paris 1 Panthéon-Sorbonne,Droit,sciences politiques,économie,gestion,mathématiques,gestion,arts,histoire,géographie,archéologie,sciences humaines,master,formations,études,cinéma,recherche,laboratoires,école doctorale,étudiants,doctorants" />
+<link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+
+<script type="text/javascript" src="media/scripts/jsfunc.layermenu.js"></script>
+
+<script type="text/javascript">
+	/*<![CDATA[*/
+<!--
+
+GLV_curLayerWidth["0"]=0;
+GLV_curLayerHeight["0"]=0;
+GLV_curLayerX["0"]=0;
+GLV_curLayerY["0"]=0;
+GLV_menuOn["0"] = null;
+GLV_gap["0"]=0;
+GLV_currentLayer["0"] = null;
+GLV_currentROitem["0"] = null;
+GLV_hasBeenOver["0"]=0;
+GLV_doReset["0"]=false;
+GLV_lastKey["0"] = "";
+GLV_onlyOnLoad["0"] = 0;
+GLV_dontHideOnMouseUp["0"] = 0;
+GLV_dontFollowMouse["0"] = 0;
+GLV_date = new Date();
+GLV_timeout["0"] = GLV_date.getTime();
+GLV_timeoutRef["0"] = 0;
+GLV_menuXY["0"] = new Array();
+GLV_menuXY["0"]["Menu00"] = new Array(0,0,"itemID5065823df6","anchorID5065823df6");
+GLV_menuXY["0"]["Menu01"] = new Array(0,0,"itemIDd1a4314cf7","anchorIDd1a4314cf7");
+GLV_menuXY["0"]["Menu02"] = new Array(0,0,"itemIDeca3ddb57a","anchorIDeca3ddb57a");
+GLV_menuXY["0"]["Menu03"] = new Array(0,0,"itemID1fdc3ed088","anchorID1fdc3ed088");
+GLV_menuXY["0"]["Menu04"] = new Array(0,0,"itemIDc63528c0b4","anchorIDc63528c0b4");
+GLV_menuXY["0"]["Menu05"] = new Array(0,0,"itemID00bead7c29","anchorID00bead7c29");
+
+function GL0_getMouse(e) {
+	if (GLV_menuOn["0"]!=null && !GLV_dontFollowMouse["0"]){
+
+	}
+	GL_mouseMoveEvaluate("0");
+}
+function GL0_hideCode() {
+
+}
+function GL0_doTop(WMid,id) {
+GLV_menuOn["0"].top = (GLV_menuXY["0"][id][1]-(0))+"px";
+}
+function GL0_restoreMenu() {
+
+}
+function GL0_resetSubMenus() {
+	var resetSubMenu=1;
+
+	return resetSubMenu;
+}
+
+GLV_timeout_pointers[GLV_timeout_count] = "0";
+GLV_timeout_count++;
+// -->
+	/*]]>*/
+</script>
+</head>
+<body class="accueil" onload="T3_onloadWrapper();">
+<div id="header-submenu">
+</div>
+
+<div id="wrapper-prehome"></div>
+<div id="prehome">
+	<div id="close-button" onclick="displayDiv(false,'onlyClose')">X</div>
+	<div id="message">Bientôt <span id="fbnumber"></span> fans, merci !<br /><span id="pourquoi">Pourquoi pas vous ?</span></div>
+	<div id="trash-cookie" onclick="displayDiv(false,'longClose')">Ne plus afficher cette fenêtre</div>
+	<a target="_blank" href="https://www.facebook.com/UnivParis1PantheonSorbonne" onclick="displayDiv(false,'longClose')"><img alt="Facebook J'aime Paris 1" src="//www.univ-paris1.fr/fileadmin/Accueil_www/div/fond.png" id="image-prehome" /></a>
+</div>
+<div class="main">
+  <div class="block_header">
+    <div class="header">
+      <div class="logo"><a href="http://www.univ-paris1.fr"><img src="fileadmin/templates/v2/images/logo-univ-paris1.fr.png" width="296" height="105" border="0" alt="Logo Universit&eacute; Paris 1 Panth&eacute;-Sorbonne" title="Universit&eacute; Paris 1 Panth&eacute;on-Sorbonne" /></a></div>
+
+      <div class="search">
+		<form id="form1" name="form1" method="get" action="//search.univ-paris1.fr" target="_blank">
+			<label>
+			<input name="q" type="text" class="keywords" maxlength="50" title="Rechercher" value="" />
+			<input type="submit" value="" class="button_submit_mercure" />
+			</label>
+		</form>
+	</div>
+      
+      <div class="rss">
+<a class="info" href="//www.facebook.com/UnivParis1PantheonSorbonne" target="_blank"><img src="fileadmin/templates/v2/icones-accueil/facebook.png" alt="Facebook" width="18" height="18" border="0" /><span>Facebook</span></a>
+<a class="info" href="//twitter.com/SorbonneParis1" target="_blank"><img src="fileadmin/templates/v2/icones-accueil/twitter.png" alt="Twitter" width="18" height="18" border="0" /><span>Twitter</span></a>
+<a class="info" href="//www.linkedin.com/edu/school?id=12544" target="_blank"><img src="fileadmin/templates/v2/icones-accueil/linkedin.png" alt="Linkedin" width="18" height="18" border="0" /><span>Linkedin</span></a>
+<a class="info" href="//www.youtube.com/user/UnivParis1" target="_blank"><img src="fileadmin/templates/v2/icones-accueil/youtube.png" alt="YouTube" width="18" height="18" border="0" /><span>YouTube</span></a>
+      </div>
+      
+      <div class="text">
+				<ul><li class="last"><a href="menu-accueil/menu-texte/annuaire-public/" onfocus="blurLink(this);">Annuaire public</a></li></ul>
+      </div>
+      
+      <div class="rss_2">
+      <ul><li id="tmenuID536208"><span class="link"><a href="menu-accueil/menu-icone/campus-condorcet/" title="Campus Condorcet" onfocus="blurLink(this);" onmouseover="GL_hideAll(&quot;0&quot;);" onmouseout="GL_resetAll(&quot;0&quot;);" class="info_2"><img src="uploads/media/rss_10.png" width="24" height="24" alt="Icones" border="0" /></a><span class="hide"><a href="menu-accueil/menu-icone/campus-condorcet/" title="Campus Condorcet" onfocus="blurLink(this);" onmouseover="GL_hideAll(&quot;0&quot;);" onmouseout="GL_resetAll(&quot;0&quot;);" class="info_2">Campus Condorcet</a></span></span></li><li id="tmenuID536209"><span class="link"><a href="menu-accueil/menu-icone/comue-hesam/" title="Comue HéSam" onfocus="blurLink(this);" onmouseover="GL_hideAll(&quot;0&quot;);" onmouseout="GL_resetAll(&quot;0&quot;);" class="info_2"><img src="uploads/media/rss_11.png" width="24" height="24" alt="Icones" border="0" /></a><span class="hide"><a href="menu-accueil/menu-icone/comue-hesam/" title="Comue HéSam" onfocus="blurLink(this);" onmouseover="GL_hideAll(&quot;0&quot;);" onmouseout="GL_resetAll(&quot;0&quot;);" class="info_2">Comue HéSam</a></span></span></li><li id="tmenuID536388"><span class="link"><a href="services/communication/espace-presse/" title="Presse" onfocus="blurLink(this);" onmouseover="GL_hideAll(&quot;0&quot;);" onmouseout="GL_resetAll(&quot;0&quot;);" class="info_2"><img src="uploads/media/presse.png" width="24" height="24" alt="Icones" border="0" /></a><span class="hide"><a href="services/communication/espace-presse/" title="Presse" onfocus="blurLink(this);" onmouseover="GL_hideAll(&quot;0&quot;);" onmouseout="GL_resetAll(&quot;0&quot;);" class="info_2">Presse</a></span></span></li><li id="tmenuID536210"><span class="link"><a href="lesorbonnaute/?no_cache=1" title="Le Sorbonn@ute" onfocus="blurLink(this);" onmouseover="GL_hideAll(&quot;0&quot;);" onmouseout="GL_resetAll(&quot;0&quot;);" class="info_2"><img src="uploads/media/icone_sorbonnaute.png" width="24" height="24" alt="Icones" border="0" /></a><span class="hide"><a href="lesorbonnaute/?no_cache=1" title="Le Sorbonn@ute" onfocus="blurLink(this);" onmouseover="GL_hideAll(&quot;0&quot;);" onmouseout="GL_resetAll(&quot;0&quot;);" class="info_2">Le Sorbonn@ute</a></span></span></li><li id="tmenuID536211"><span class="link"><a href="services/communication/magazine/" title="Panthéon Sorbonne Magazine" onfocus="blurLink(this);" onmouseover="GL_hideAll(&quot;0&quot;);" onmouseout="GL_resetAll(&quot;0&quot;);" class="info_2"><img src="uploads/media/rss_mag.png" width="24" height="24" alt="Icones" border="0" /></a><span class="hide"><a href="services/communication/magazine/" title="Panthéon Sorbonne Magazine" onfocus="blurLink(this);" onmouseover="GL_hideAll(&quot;0&quot;);" onmouseout="GL_resetAll(&quot;0&quot;);" class="info_2">Panthéon Sorbonne Magazine</a></span></span></li><li id="tmenuID536212" class="last"><span class="link"><a href="menu-accueil/menu-icone/reseau-pro/" title="Reseau Pro" onfocus="blurLink(this);" onmouseover="GL_hideAll(&quot;0&quot;);" onmouseout="GL_resetAll(&quot;0&quot;);" class="info_2"><img src="uploads/media/rss_12.png" width="24" height="24" alt="Icones" border="0" /></a><span class="hide"><a href="menu-accueil/menu-icone/reseau-pro/" title="Reseau Pro" onfocus="blurLink(this);" onmouseover="GL_hideAll(&quot;0&quot;);" onmouseout="GL_resetAll(&quot;0&quot;);" class="info_2">Reseau Pro</a></span></span></li></ul>
+      </div>
+      
+      <div class="clr"></div>
+      
+  </div> <!-- fin du div header -->
+  <div id="menu_horizontal">
+
+    <ul id="menu">
+<li class="right_element"><span><a href="https://ent.univ-paris1.fr/accueil/" title="Environnement Num&eacute;rique de Travail">ENT</a></span></li>
+<li class="drop">Université
+<div class="fullwidth">
+<div class="col_12" id="first"><h4>Université</h4></div>
+<div class="col_4"><ul class="csc-menu csc-menu-1"> <li><p class="dark"><a href="universite/" onfocus="blurLink(this);">Accueil</a></p></li><li><p class="brown"><a href="universite/actualites/?no_cache=1" onfocus="blurLink(this);">Actualités</a></p></li><li><p class="yellow"><a href="universite/presentation/" onfocus="blurLink(this);">Présentation</a></p></li></ul></div><div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="red"><a href="universite/campus/" onfocus="blurLink(this);">Campus</a></p></li><li><p class="blue"><a href="universite/unites-de-formation/" onfocus="blurLink(this);">Unités de Formation</a></p></li><li><p class="green"><a href="universite/travailler-a-luniversite/" onfocus="blurLink(this);">Travailler à l'université</a></p></li></ul></div><div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="universite/marches-publics/" onfocus="blurLink(this);">Marchés publics</a></p></li><li><p class="brown"><a href="universite/campus-condorcet-paris-aubervilliers/" onfocus="blurLink(this);">Campus Condorcet Paris-Aubervilliers</a></p></li><li><p class="yellow"><a href="universite/mission-egalite/" onfocus="blurLink(this);">Mission Egalité</a></p></li></ul></div></div></li>
+<li class="drop">Départements
+<div class="fullwidth">
+<div class="col_12" id="first"><h4>Départements</h4></div>
+<div class="col_4"><ul class="csc-menu csc-menu-1"> <li><p class="dark"><a href="ufr/ufr04/?no_cache=1" onfocus="blurLink(this);">Arts plastiques & sciences de l'art (UFR04)</a></p></li><li><p class="brown"><a href="ufr/iap/" onfocus="blurLink(this);">Assurances - Institut des assurances de Paris (IAP)</a></p></li><li><p class="yellow"><a href="ufr/concours-centre-dinformation-et-de-preparation-aux-carrieres-pupliques-cipcea/" onfocus="blurLink(this);">Concours - Centre d'information et de préparation aux carrières pupliques (CIPCEA)</a></p></li><li><p class="red"><a href="ufr/idup/" onfocus="blurLink(this);">IDUP - Institut de Démographie de l'Université Paris 1</a></p></li><li><p class="blue"><a href="ufr/sgel/" onfocus="blurLink(this);">Département des langues</a></p></li><li><p class="green"><a href="ufr/eds/" onfocus="blurLink(this);">Droit - École de Droit de la Sorbonne (EDS)</a></p></li><li><p class="dark"><a href="ufr/iej/" onfocus="blurLink(this);">Droit - Études judiciaires - Institut d'études judiciaires "Jean Domat" (IEJ)</a></p></li><li><p class="brown"><a href="ufr/ufr26/" onfocus="blurLink(this);">Etudes juridiques générales - UFR26</a></p></li><li><p class="yellow"><a href="ufr/ufr01/" onfocus="blurLink(this);">Droit - Département Master de droit public</a></p></li></ul></div><div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="ufr/ufr05/" onfocus="blurLink(this);">Droit - Département Master de droit privé</a></p></li><li><p class="brown"><a href="ufr/ufr07/" onfocus="blurLink(this);">Droit - Département Master de droit international, européen et comparé</a></p></li><li><p class="yellow"><a href="ufr/cavej/" onfocus="blurLink(this);">Droit à distance - Enseignement à distance et droit en ligne (CAVEJ)</a></p></li><li><p class="red"><a href="ufr/ufr06/" onfocus="blurLink(this);">École de Management de la Sorbonne (UFR06)</a></p></li><li><p class="blue"><a href="ufr/ufr02/" onfocus="blurLink(this);">Economics department (ufr02)</a></p></li><li><p class="green"><a href="ufr/formation-continue-pantheon-sorbonne-fcps/" onfocus="blurLink(this);">Formation Continue Panthéon Sorbonne (FCPS)</a></p></li><li><p class="dark"><a href="ufr/ufr08/actualites/" onfocus="blurLink(this);">Géographie (UFR08)</a></p></li><li><p class="brown"><a href="ufr/ufr09/" onfocus="blurLink(this);">History Department (ufr09)</a></p></li><li><p class="yellow"><a href="ufr/ufr03/" onfocus="blurLink(this);">Histoire de l'art et archéologie (UFR03)</a></p></li><li><p class="red"><a href="ufr/iedes/" onfocus="blurLink(this);">Institute of Economic and Social Development Studies</a></p></li></ul></div><div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="ufr/ufr27/" onfocus="blurLink(this);">Mathématiques & informatique (UFR27)</a></p></li><li><p class="brown"><a href="ufr/ufr10/" onfocus="blurLink(this);">Philosophie (UFR10)</a></p></li><li><p class="yellow"><a href="ufr/ufr11/" onfocus="blurLink(this);">UFR11 - Political sciences</a></p></li><li><p class="red"><a href="ufr/sociologie/" onfocus="blurLink(this);">Département de Sociologie - UFR 10</a></p></li><li><p class="blue"><a href="ufr/sport-service-des-sports-uefaps/" onfocus="blurLink(this);">Sport - Service des sports (UEFAPS)</a></p></li><li><p class="green"><a href="ufr/irest/" onfocus="blurLink(this);">Institut de Recherche et d'Études Supérieures du Tourisme homepage</a></p></li><li><p class="dark"><a href="ufr/isst/" onfocus="blurLink(this);">ISST - Institut des Sciences Sociales du Travail</a></p></li><li><p class="brown"><a href="ufr/ufr12/" onfocus="blurLink(this);">Travail et Etudes sociales, AES et droit social - UFR12</a></p></li></ul></div></div></li>
+<li class="drop">Formations
+<div class="fullwidth">
+<div class="col_12" id="first"><h4>Offre de formation</h4></div>
+<div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="formations/actualites/" onfocus="blurLink(this);">Actualités</a></p></li><li><p class="brown"><a href="formations/" onfocus="blurLink(this);">Accueil</a></p></li><li><p class="yellow"><a href="universite/administration/attestations-et-diplomes/" onfocus="blurLink(this);">Attestations et diplômes</a></p></li><li><p class="red"><a href="formations/calendrier-universitaire/" onfocus="blurLink(this);">Calendrier 2015-2016</a></p></li><li><p class="blue"><a href="formations/offre-de-formation/type/centre-dinitiation-a-lenseignement-superieur-cies/" onfocus="blurLink(this);">Centre d'initiation à l'enseignement supérieur (CIES)</a></p></li><li><p class="green"><a href="formations/offre-de-formation/type/diplomes-duniversite/" onfocus="blurLink(this);">Diplômes d'Université</a></p></li></ul></div><div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="formations/offre-de-formation/type/doctorats/" onfocus="blurLink(this);">Doctorats</a></p></li><li><p class="brown"><a href="formations/offre-de-formation/type/erasmus-mundus/" onfocus="blurLink(this);">Erasmus Mundus</a></p></li><li><p class="yellow"><a href="formations/offre-de-formation/type/formation-a-distance/" onfocus="blurLink(this);">Formation à distance</a></p></li><li><p class="red"><a href="formations/offre-de-formation/type/formation-continue/" onfocus="blurLink(this);">Formation continue</a></p></li><li><p class="blue"><a href="formations/offre-de-formation/type/formation-en-apprentissage/" onfocus="blurLink(this);">Formation en apprentissage</a></p></li><li><p class="green"><a href="formations/sinscrire-a-paris-1/" onfocus="blurLink(this);">Inscription à Paris 1</a></p></li></ul></div><div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="formations/offre-de-formation/type/licences/" onfocus="blurLink(this);">Licences</a></p></li><li><p class="brown"><a href="formations/offre-de-formation/type/masters-1/" onfocus="blurLink(this);">Masters 1</a></p></li><li><p class="yellow"><a href="formations/offre-de-formation/type/masters-2/" onfocus="blurLink(this);">Masters 2</a></p></li><li><p class="red"><a href="formations/offre-de-formation/type/non-bacheliers/" onfocus="blurLink(this);">Non-bacheliers</a></p></li><li><p class="blue"><a href="formations/testmenu/" onfocus="blurLink(this);">Orientation et information des étudiants (SCUIO)</a></p></li><li><p class="green"><a href="formations/offre-de-formation/type/preparation-aux-concours/" onfocus="blurLink(this);">Préparation aux concours</a></p></li></ul></div></div></li>
+<li class="drop">Recherche
+<div class="fullwidth">
+<div class="col_12" id="first"><h4>Direction de la recherche et de la valorisation</h4></div>
+<div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="recherche/accueil/" onfocus="blurLink(this);">Accueil</a></p></li><li><p class="brown"><a href="recherche/actualites/" onfocus="blurLink(this);">Actualités</a></p></li><li><p class="yellow"><a href="recherche/page-perso/" onfocus="blurLink(this);">Pages personnelles Enseignants-Chercheurs</a></p></li><li><p class="red"><a href="recherche/appels-doffre-et-appels-a-candidatures/" onfocus="blurLink(this);">Appels d'offre et appels à candidatures</a></p></li><li><p class="blue"><a href="recherche/bibliotheques-et-centres-de-documentation/" onfocus="blurLink(this);">Bibliothèques et centres de documentation</a></p></li></ul></div><div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="recherche/bibliotheques-et-centres-de-documentation/" onfocus="blurLink(this);">Bibliothèques et centres de documentation</a></p></li><li><p class="brown"><a href="recherche/doctorat/" onfocus="blurLink(this);">Doctorat</a></p></li><li><p class="yellow"><a href="recherche/habilitation-a-diriger-des-recherches/" onfocus="blurLink(this);">Habilitation à diriger des recherches</a></p></li><li><p class="red"><a href="recherche/hal-hyper-articles-en-ligne/" onfocus="blurLink(this);">HAL (Hyper Articles en Ligne)</a></p></li><li><p class="blue"><a href="recherche/proces-verbaux-de-la-commission-de-la-recherche-du-conseil-academique/" onfocus="blurLink(this);">Procès verbaux de la commission de la recherche du conseil académique</a></p></li></ul></div><div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="recherche/unites-de-recherche/" onfocus="blurLink(this);">Unités de recherche</a></p></li><li><p class="brown"><a href="recherche/valorisation/" onfocus="blurLink(this);">Valorisation</a></p></li><li><p class="yellow"><a href="recherche/liens-utiles/" onfocus="blurLink(this);">Liens utiles</a></p></li><li><p class="red"><a href="recherche/doctorants-contractuels-cies/" onfocus="blurLink(this);">Doctorants contractuels (CIES)</a></p></li></ul></div><div class="clear"></div>
+<div class="col_12"><h4>&Eacute;coles Doctorales </h4></div>
+<div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="ecoles-doctorales/ed-archeologie/" onfocus="blurLink(this);">Archéologie (ED 112)</a></p></li><li><p class="brown"><a href="ecoles-doctorales/ed279/?no_cache=1" onfocus="blurLink(this);">Arts plastiques, esthétique & sciences de l'art (ED 279)</a></p></li><li><p class="yellow"><a href="ecoles-doctorales/edds/" onfocus="blurLink(this);">École Doctorale de Droit de la Sorbonne (ED 565)</a></p></li></ul></div><div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="ecoles-doctorales/economie-ed-465/" onfocus="blurLink(this);">Économie (ED 465)</a></p></li><li><p class="brown"><a href="ecoles-doctorales/geographie-ed-434/" onfocus="blurLink(this);">Géographie (ED 434)</a></p></li><li><p class="yellow"><a href="ecoles-doctorales/management-ed-559/" onfocus="blurLink(this);">Management (ED 559)</a></p></li><li><p class="red"><a href="ecoles-doctorales/ed-histoire/" onfocus="blurLink(this);">Histoire (ED 113)</a></p></li></ul></div><div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="ecoles-doctorales/histoire-de-lart-ed-441/" onfocus="blurLink(this);">Histoire de l'art (ED 441)</a></p></li><li><p class="brown"><a href="ecoles-doctorales/philosophie-ed-280/" onfocus="blurLink(this);">Philosophie (ED 280)</a></p></li><li><p class="yellow"><a href="ecoles-doctorales/science-politique-ed119/" onfocus="blurLink(this);">Science politique (ED119)</a></p></li></ul></div>
+<div class="clear"></div>
+<div class="col_12"><h4>Laboratoires</h4></div>
+<div class="col_6"><ul class="csc-menu csc-menu-1"> <li><p class="dark"><a href="unites-de-recherche/acte-arts-creations-theories-esthetique-umr-8218/" onfocus="blurLink(this);">ACTE - Arts, Créations, Théories, Esthétique (UMR 8218)</a></p></li><li><p class="brown"><a href="unites-de-recherche/anhima-anthropologie-et-histoire-des-mondes-antiques-umr-8210/" onfocus="blurLink(this);">ANHIMA - anthropologie et histoire des mondes antiques (UMR 8210)</a></p></li><li><p class="yellow"><a href="unites-de-recherche/archam-archeologie-des-ameriques-umr-8096/" onfocus="blurLink(this);">ARCHAM - Archéologie des Amériques (UMR 8096)</a></p></li><li><p class="red"><a href="unites-de-recherche/arscan-archeologies-et-sciences-de-lantiquite-umr-7041/" onfocus="blurLink(this);">ARSCAN - Archéologies et Sciences de l'antiquité (UMR 7041)</a></p></li><li><p class="blue"><a href="unites-de-recherche/imaf-institut-des-mondes-africains-umr-8171/" onfocus="blurLink(this);">IMAF - Institut des Mondes africains (UMR 8171)</a></p></li><li><p class="green"><a href="unites-de-recherche/cetcopra/" onfocus="blurLink(this);">Cetcopra</a></p></li><li><p class="dark"><a href="unites-de-recherche/phico/" onfocus="blurLink(this);">Centre de philosophie contemporaine de la Sorbonne (PhiCo, EA 3562)</a></p></li><li><p class="brown"><a href="unites-de-recherche/cerdi-centre-detude-et-de-recherche-en-droit-de-limmateriel/" onfocus="blurLink(this);">CERDI - Centre d'étude et de recherche en droit de l'immatériel</a></p></li><li><p class="yellow"><a href="unites-de-recherche/cergors-gestion-des-organisations-et-des-ressources-humaines-equipe-interne-du-prism/" onfocus="blurLink(this);">CERGORS - Gestion des organisations et des ressources humaines (équipe interne du PRISM)</a></p></li><li><p class="red"><a href="unites-de-recherche/ces-centre-deconomie-de-la-sorbonne-umr-8174/" onfocus="blurLink(this);">CES - Centre d'économie de la Sorbonne (UMR 8174)</a></p></li><li><p class="blue"><a href="unites-de-recherche/cessp/" onfocus="blurLink(this);">CESSP - Centre européen de sociologie et de science politique de l'Université (UMR 8209)</a></p></li><li><p class="green"><a href="unites-de-recherche/chs-xxe-siecle-centre-dhistoire-sociale-du-xxe-siecle-umr-8058/" onfocus="blurLink(this);">CHS XXe siècle - Centre d'histoire sociale du XXe siècle (UMR 8058)</a></p></li><li><p class="dark"><a href="unites-de-recherche/chspm/" onfocus="blurLink(this);">CHSPM - Centre d'histoire des systèmes de pensée moderne (EA 1451)</a></p></li><li><p class="brown"><a href="unites-de-recherche/crhxix/" onfocus="blurLink(this);">CRHXIX - Centre d'histoire du XIXe siècle (EA 3550)</a></p></li><li><p class="yellow"><a href="unites-de-recherche/cri/" onfocus="blurLink(this);">CRI - Centre de Recherche en Informatique (EA 1445)</a></p></li><li><p class="red"><a href="ecoles-doctorales/geographie-ed-434/centres-de-recherche/centre-de-recherches-de-linstitut-de-demographie-de-luniversite-paris-1-cridup/" onfocus="blurLink(this);">CRIDUP - Centre de recherches de l'institut de démographie de l'université Paris 1 (EA 134)</a></p></li><li><p class="blue"><a href="unites-de-recherche/crps/" onfocus="blurLink(this);">CRPS - Centre de recherches politiques de la Sorbonne</a></p></li><li><p class="green"><a href="unites-de-recherche/developpement-et-societe-umr-developpement-et-societe-umr-201/" onfocus="blurLink(this);">Développement et société (UMR développement et société - UMR 201)</a></p></li><li><p class="dark"><a href="unites-de-recherche/eirest/" onfocus="blurLink(this);">EIREST - Equipe interdisciplinaire de recherches sur le tourisme (EA 7337)</a></p></li><li><p class="brown"><a href="unites-de-recherche/geographie-cites-umr-8504/" onfocus="blurLink(this);">Géographie-Cités (UMR 8504)</a></p></li><li><p class="yellow"><a href="unites-de-recherche/grammata-antiquite-moyen-age-transmission-arabe-ea-2482-equipe-interne-de-sphere-umr-7219/" onfocus="blurLink(this);">GRAMMATA - Antiquité, moyen-âge, transmission Arabe (EA 2482) (équipe interne de SPHERE - UMR 7219)</a></p></li><li><p class="red"><a href="unites-de-recherche/hicsa-histoire-culturelle-et-sociale-de-lart-ea-4100/" onfocus="blurLink(this);">HiCSA - histoire culturelle et sociale de l'art (EA 4100)</a></p></li></ul></div><div class="col_6"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="unites-de-recherche/idhes/" onfocus="blurLink(this);">IDHES - Institutions et dynamiques historiques de l'économie et de la société (UMR 8533)</a></p></li><li><p class="brown"><a href="unites-de-recherche/ihmc/" onfocus="blurLink(this);">IHMC (Institut d'histoire moderne et contemporaine)</a></p></li><li><p class="yellow"><a href="unites-de-recherche/ihpst-institut-dhistoire-et-de-philosophie-des-sciences-et-des-techniques-umr-8590/" onfocus="blurLink(this);">IHPST - Institut d'histoire et de philosophie des sciences et des techniques (UMR 8590)</a></p></li><li><p class="red"><a href="unites-de-recherche/isjps/" onfocus="blurLink(this);">ISJPS - UMR 8103</a></p></li><li><p class="blue"><a href="unites-de-recherche/iredies/" onfocus="blurLink(this);">IREDIES - Institut de recherche en droit international et européen de la Sorbonne (EA 4536)</a></p></li><li><p class="green"><a href="unites-de-recherche/irice-identites-relations-internationales-civilisations-europeennes-umr-8138/" onfocus="blurLink(this);">IRICE - Identités, relations internationales & civilisations européennes (UMR 8138)</a></p></li><li><p class="dark"><a href="unites-de-recherche/irjs/" onfocus="blurLink(this);">IRJS - Institut de recherche juridique de la Sorbonne (EA 4150 - Institut André Tunc)</a></p></li><li><p class="brown"><a href="unites-de-recherche/isor/" onfocus="blurLink(this);">ISOR - Images, sociétés, représentations (équipe interne du centre d'histoire du XIXe S.)</a></p></li><li><p class="yellow"><a href="unites-de-recherche/laboratoire-de-geographie-physique-umr-8591/" onfocus="blurLink(this);">Laboratoire de géographie physique (UMR 8591)</a></p></li><li><p class="red"><a href="unites-de-recherche/ladyss-laboratoire-dynamiques-sociales-et-recomposition-des-espaces-umr-7533/" onfocus="blurLink(this);">LADYSS - Laboratoire dynamiques sociales et recomposition des espaces (UMR 7533)</a></p></li><li><p class="blue"><a href="unites-de-recherche/lamop-laboratoire-de-medievistique-occidentale-de-paris-umr-8589/" onfocus="blurLink(this);">LAMOP - Laboratoire de médievistique occidentale de Paris (UMR 8589)</a></p></li><li><p class="green"><a href="unites-de-recherche/mondes-americains-umr-8168/" onfocus="blurLink(this);">Mondes Américains (UMR 8168)</a></p></li><li><p class="dark"><a href="unites-de-recherche/orient-mediterranee-centre-byzance-et-islam-medieval-umr-8167/" onfocus="blurLink(this);">Orient - Méditerranée / Centre Byzance et Islam médiéval (UMR 8167)</a></p></li><li><p class="brown"><a href="unites-de-recherche/phare-philosophie-histoire-et-analyse-des-representations-economiques-fre-3643/" onfocus="blurLink(this);">PHARE - Philosophie, Histoire et Analyse des Représentations Economiques (FRE 3643)</a></p></li><li><p class="yellow"><a href="unites-de-recherche/prism-sorbonne/" onfocus="blurLink(this);">PRISM - Pole de recherches interdisciplinaires en sciences du management (EA 4101)</a></p></li><li><p class="red"><a href="unites-de-recherche/prodig-pole-de-recherche-pour-lorganisation-et-la-diffusion-de-linformation-geographique-umr-8586/" onfocus="blurLink(this);">PRODIG - Pôle de recherche pour l'organisation et la diffusion de l'information géographique (UMR 8586)</a></p></li><li><p class="blue"><a href="unites-de-recherche/samm-statistique-analyse-et-modelisation-multidisciplinaire-ea-4543/" onfocus="blurLink(this);">SAMM - Statistique, analyse et modélisation multidisciplinaire (EA 4543)</a></p></li><li><p class="green"><a href="unites-de-recherche/trajectoires-de-la-sedentarisation-a-letat-umr-8215/" onfocus="blurLink(this);">Trajectoires de la sédentarisation à l'état (UMR 8215)</a></p></li></ul></div>
+<div class="clear"></div>
+<div class="col_12"><h4>Autres structures de recherche</h4></div>
+<div class="col_6"><ul class="csc-menu csc-menu-1"> <li><p class="dark"><a href="autres-structures-de-recherche/cist-college-international-des-sciences-du-territoire/" onfocus="blurLink(this);">CIST - Collège international des sciences du territoire</a></p></li><li><p class="brown"><a href="autres-structures-de-recherche/institut-des-etudes-sur-la-guerre-et-la-paix/" onfocus="blurLink(this);">Homepage</a></p></li><li><p class="yellow"><a href="autres-structures-de-recherche/lobservatoire-du-centenaire/" onfocus="blurLink(this);">L'Observatoire du Centenaire</a></p></li><li><p class="red"><a href="autres-structures-de-recherche/gerfip-groupement-europeen-de-recherches-en-finances-publiques/" onfocus="blurLink(this);">GERFIP - Groupement européen de recherches en finances publiques</a></p></li><li><p class="blue"><a href="autres-structures-de-recherche/grale/" onfocus="blurLink(this);">GRALE</a></p></li></ul></div><div class="col_6"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="autres-structures-de-recherche/gridauh-groupement-de-recherche-de-linstitutions-et-du-droit-de-lamenagement-de-lurbanisme-et-de-lhabitat/" onfocus="blurLink(this);">GRIDAUH - Groupement de recherche de l'institutions et du droit de l'amenagement, de l'urbanisme et de l'habitat</a></p></li><li><p class="brown"><a href="autres-structures-de-recherche/ihrf-institut-dhistoire-de-la-revolution-francaise-ums-622/" onfocus="blurLink(this);">IHRF - Institut d'histoire de la révolution française (UMS 622)</a></p></li><li><p class="yellow"><a href="autres-structures-de-recherche/ipr/" onfocus="blurLink(this);">Institut Pierre Renouvin</a></p></li><li><p class="red"><a href="autres-structures-de-recherche/mae-mrg-maison-de-larcheologie-et-de-lethnologie-rene-ginouves-ums-844/" onfocus="blurLink(this);">MAE MRG - Maison de l'archéologie et de l'ethnologie (René Ginouvès) (UMS 844)</a></p></li></ul></div></div></li>
+<li class="drop">International
+<div class="fullwidth">
+<div class="col_12" id="first"><h4>International</h4></div>
+<div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="international/" onfocus="blurLink(this);">Accueil</a></p></li><li><p class="brown"><a href="international/news/" onfocus="blurLink(this);">Actualités</a></p></li><li><p class="yellow"><a href="international/pantheon-sorbonne-dans-le-monde/" onfocus="blurLink(this);">Panthéon-Sorbonne dans le monde</a></p></li></ul></div><div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="international/etudiants-de-pantheon-sorbonne/" onfocus="blurLink(this);">Etudiants de Panthéon-Sorbonne</a></p></li><li><p class="brown"><a href="international/etudiants-etrangers/" onfocus="blurLink(this);">Foreign students</a></p></li><li><p class="yellow"><a href="international/enseignants-chercheurs/" onfocus="blurLink(this);">Enseignants-chercheurs</a></p></li></ul></div><div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="international/personnel-administratif/" onfocus="blurLink(this);">Personnel administratif</a></p></li><li><p class="brown"><a href="international/direction-des-relations-internationales/" onfocus="blurLink(this);">Direction des Relations internationales</a></p></li></ul></div></div></li>
+<li class="drop">Formation Continue
+<div class="fullwidth">
+<div class="col_12" id="first"><h4>Formation Continue</h4></div>
+<div class="col_4"><ul class="csc-menu csc-menu-1"> <li><p class="dark"><a href="fcps/?no_cache=1" onfocus="blurLink(this);">Accueil</a></p></li><li><p class="brown"><a href="fcps/news-cep/?no_cache=1" onfocus="blurLink(this);">Actualités et événements</a></p></li><li><p class="yellow"><a href="fcps/formation/" onfocus="blurLink(this);">Offre de formations</a></p></li></ul></div><div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="fcps/daeu/" onfocus="blurLink(this);">DAEU</a></p></li><li><p class="brown"><a href="fcps/anglais/" onfocus="blurLink(this);">Anglais</a></p></li><li><p class="yellow"><a href="fcps/concours/" onfocus="blurLink(this);">Prépa concours : Magistrats administratifs</a></p></li></ul></div><div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="fcps/nous-contacter/" onfocus="blurLink(this);">Nous contacter</a></p></li></ul></div></div></li>
+<li class="drop_sans_down">Administration
+<div class="fullwidth">
+<div class="col_12" id="first"><h4>Administration</h4></div>
+<div class="col_4"><ul class="csc-menu csc-menu-1"> <li><p class="dark"><a href="universite/administration/direction-administrative-des-centres/" onfocus="blurLink(this);">Administration des centres</a></p></li><li><p class="brown"><a href="universite/administration/division-des-affaires-financieres-daf/" onfocus="blurLink(this);">Affaires financières</a></p></li><li><p class="yellow"><a href="universite/administration/agence-comptable/" onfocus="blurLink(this);">Agence comptable</a></p></li><li><p class="red"><a href="services/archives/" onfocus="blurLink(this);">Archives</a></p></li><li><p class="blue"><a href="universite/administration/attestations-et-diplomes/" onfocus="blurLink(this);">Attestations et diplômes</a></p></li><li><p class="green"><a href="etudiant/bourses/" onfocus="blurLink(this);">Bourses</a></p></li><li><p class="dark"><a href="services/communication/" onfocus="blurLink(this);">Communication</a></p></li><li><p class="brown"><a href="universite/administration/dgs/" onfocus="blurLink(this);">Direction générale des services</a></p></li><li><p class="yellow"><a href="bibliotheques/actualites-des-bibliotheques/?no_cache=1" onfocus="blurLink(this);">Documentation (Service commun)</a></p></li></ul></div><div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="universite/administration/service-des-formations-et-de-la-pedagogie/" onfocus="blurLink(this);">Formations et pédagogie</a></p></li><li><p class="brown"><a href="formations/sinscrire-a-paris-1/" onfocus="blurLink(this);">Inscriptions administratives</a></p></li><li><p class="yellow"><a href="universite/administration/direction-de-la-logistique/" onfocus="blurLink(this);">Logistique (DL)</a></p></li><li><p class="red"><a href="etudiant/sante/service-inter-universitaire-de-medecine-preventive-et-de-promotion-de-la-sante/" onfocus="blurLink(this);">Médecine préventive et de promotion de la santé</a></p></li><li><p class="blue"><a href="services/orive/" onfocus="blurLink(this);">Observatoire des résultats, de l'insertion professionnelle et de la vie étudiante (ORIVE)</a></p></li><li><p class="green"><a href="universite/administration/scuio/" onfocus="blurLink(this);">Orientation et information des étudiants (SCUIO - DPEIP)</a></p></li><li><p class="dark"><a href="espace-professionnel/" onfocus="blurLink(this);">Partenariats entreprise et insertion professionnelle (DPEIP)</a></p></li><li><p class="brown"><a href="universite/administration/gouvernance-de-luniversite/" onfocus="blurLink(this);">Présidence</a></p></li></ul></div><div class="col_4"><ul class="csc-menu csc-menu-1"><li><p class="dark"><a href="services/publications-de-la-sorbonne/" onfocus="blurLink(this);">Publications de la Sorbonne</a></p></li><li><p class="brown"><a href="recherche/accueil/la-direction-de-la-recherche-et-de-la-valorisation/" onfocus="blurLink(this);">Recherche et valorisation</a></p></li><li><p class="yellow"><a href="international/" onfocus="blurLink(this);">Relations internationales</a></p></li><li><p class="red"><a href="universite/administration/direction-des-ressources-humaines/" onfocus="blurLink(this);">Ressources humaines (DRH)</a></p></li><li><p class="blue"><a href="menu-accueil/administration/sports-uefaps/" onfocus="blurLink(this);">Sports (UEFAPS)</a></p></li><li><p class="green"><a href="menu-accueil/administration/dsiun/" onfocus="blurLink(this);">Système d'information et des usages numériques (DSIUN)</a></p></li><li><p class="dark"><a href="services/sun/" onfocus="blurLink(this);">Usages numériques (SUN)</a></p></li><li><p class="brown"><a href="etudiant/" onfocus="blurLink(this);">Vie étudiante</a></p></li></ul></div></div></li></ul>
+    
+</div> <!-- fin du div menu-horizontal -->
+</div> <!-- fin du div block-header -->
+    <div class="clr"></div>
+</div> <!-- fin du div main -->
+    <div class="clr"></div>
+<div class="header_text_bg">
+    <div class="header_content">
+	        <div id="news"> <a href="http://www.adobe.com/go/getflashplayer"> <img src="fileadmin/templates/v2/images/get_flash_player.gif" alt="Get Adobe Flash player" /> </a> </div>
+    		<div id="cu3er-container"><a href="http://www.univ-paris1.fr/fileadmin/Service-com/Flipbooks/Pantheonsorbonnemag/PSM_numero16_janvfevr16/index.html#/1/" target="_blank"><img src="fileadmin/Accueil_www/diaporama/banniere_PSM_16.jpg" width="680" height="316" border="0" alt="Panthéon Sorbonne magazine n°16" title="Panthéon Sorbonne magazine n°16" /></a></div>
+    </div>
+  <div class="clr"></div>
+</div> <!-- fin du div header_text_bg -->
+     
+<div class="body_resize">
+    <div class="body">
+  	<div class="body_fat">
+        	        <div class="bg"></div>
+        		<div class="block01">
+          			<h1>Vie de l'universit&eacute;</h1>
+          			<div class="block01-img"><!--TYPO3SEARCH_begin-->
+	<!--  CONTENT ELEMENT, uid:611749/html [begin] -->
+		<!--DMAILER_SECTION_BOUNDARY_--><div id="c611749" class="csc-default">
+		<!--  Raw HTML content: [begin] -->
+			<a href="/formations/sinscrire-a-paris-1/" title="Aide pour s'inscrire">
+<div id="bt360x51-sanscoin">
+	<div id="contenu-bt360x51">
+		<h3>Déposer votre candidature :</h3>
+                <p><span>Consulter la procédure détaillée</span></p>
+	</div>
+</div>
+</a>
+<a href="http://lyceens-votreavenir.univ-paris1.fr/" target="_blank" title="Lycéen votre avenir">
+<div id="bt360x51-sanscoin">
+	<div id="contenu-bt360x51">
+<p>&nbsp;</p>
+		<h3>Lycéens</h3>
+                <p><span>Trouvez ici une aide à l'orientation afin de choisir votre licence.</span></p>
+<p>&nbsp;</p>
+</div>
+</div>
+</a>
+<a href="formations/actualites/" target="_self" title="Plus d'infos sur les JPO">
+<div id="bt360x51">
+	<div id="contenu-bt360x51-light">
+		<h3>Les Journées Portes Ouvertes</h3>
+<p style="color: #c89102; letter-spacing: 1.5px;">Retrouvez l'ensemble des JPO de l'université
+	</div></p>
+</div>
+</a>
+
+		<!--  Raw HTML content: [end] -->
+			</div><!--DMAILER_SECTION_BOUNDARY_END-->
+	<!--  CONTENT ELEMENT, uid:611749/html [end] -->
+		<!--TYPO3SEARCH_end--></div>
+			<div class="clr"></div>
+          			<div class="block01-text"><!--TYPO3SEARCH_begin-->
+	<!--  CONTENT ELEMENT, uid:599458/html [begin] -->
+		<!--DMAILER_SECTION_BOUNDARY_--><div id="c599458" class="csc-default" style="margin-top:15px;">
+		<!--  Raw HTML content: [begin] -->
+			<div style="width: 184px; float:left; "><h1>Vie étudiante</h1>
+<a href="/etudiant/"><img src="fileadmin/templates/v2/images/port_3.jpg" alt="Accès au service de la vie étudiante de l'université Paris 1" /></a>
+<p style="padding-bottom: 5px; padding-top:5px;">Soyez informés des initiatives des  étudiants de l'université Paris 1 Panthéon-Sorbonne et du service de la Vie étudiante. Vous retrouvez  toutes les
+ informations utiles pour mieux vivre au sein de l'université.</p><p></p>
+<span style="font: bold 0.8em Arial, Helvetica, sans-serif; color: #263f82; float: right;"><a href="/etudiant/">Plus &gt;&gt;</a></span></p></div>
+
+<div style="width:184px; float: right; "><h1>Vie associative</h1>
+<a href="/etudiant/vie-associative/"><img src="fileadmin/Accueil_www/images/bandeau-associati_reduit.jpg" alt="Accès à la vie associative de l'université Paris 1" /></a>
+<p style="padding-bottom: 5px; padding-top: 5px;">
+Les associations étudiantes de Paris 1 Panthéon-Sorbonne vous proposent des opportunités de vous investir et des événements tout au long de l'année ! Pour ne rien manquer, <a href="http://www.univ-paris1.fr/etudiant/agenda-culturel-et-associatif/">consultez l'agenda associatif et culturel</a> !
+</br><span style="font: bold 0.8em Arial, Helvetica, sans-serif; color: #263f82; float: right;"><a href="/etudiant/vie-associative/">Plus >></a></span></p></div>
+		<!--  Raw HTML content: [end] -->
+			</div><!--DMAILER_SECTION_BOUNDARY_END-->
+	<!--  CONTENT ELEMENT, uid:599458/html [end] -->
+		<!--TYPO3SEARCH_end--></div>
+			<div class="clr"></div>
+			</div>
+        		<div class="block03"><!--TYPO3SEARCH_begin-->
+	<!--  CONTENT ELEMENT, uid:604882/textpic [begin] -->
+		<!--DMAILER_SECTION_BOUNDARY_--><div id="c604882" class="csc-default">
+		<!--  Header: [begin] -->
+			<div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Solidarité</h1></div>
+		<!--  Header: [end] -->
+			
+		<!--  Image block: [begin] -->
+			<div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap csc-textpic-single-image" style="width:180px;"><img src="uploads/pics/2016-02-03_SolidariteTurquie-2.png" width="180" height="137" border="0" alt="Solidarité" title="Solidarité" /></div><div class="csc-textpic-text">
+		<!--  Text: [begin] -->
+			<p class="align-left">Fière de défendre les libertés d'opinion et d'expression partout dans le monde, dans le respect des convictions et des croyances de tous, l<span style="background-color: rgba(255, 255, 255, 0);">’université Paris 1 Panthéon-Sorbonne</span> apporte son plein et entier soutien à tous les universitaires turcs inquiétés ou poursuivis après avoir signé un appel demandant l’arrêt des opérations militaires dans le sud-est de leur pays.<br /> Elle sera particulièrement attentive à l'évolution de la situation des droits de l'homme en Turquie et soutiendra toutes les initiatives en faveur de la promotion d'un Etat de droit dans ce pays. </p>
+<p class="bodytext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.univ-paris1.fr/universite/actualites/actualite-detaillee/article/conference-actualite-des-droits-et-libertes-en-turquie/?no_cache=1" title="Opens external link in new window" target="_blank" class="external-link-new-window"> &nbsp;Plus &gt;&gt;</a></p>
+<p class="bodytext"><strong><br /></strong></p>
+		<!--  Text: [end] -->
+			</div></div><div class="csc-textpic-clear"><!-- --></div>
+		<!--  Image block: [end] -->
+			</div><!--DMAILER_SECTION_BOUNDARY_END-->
+	<!--  CONTENT ELEMENT, uid:604882/textpic [end] -->
+		<!--TYPO3SEARCH_end--></div>
+    		        <div class="block04"><!--TYPO3SEARCH_begin-->
+	<!--  CONTENT ELEMENT, uid:541165/image [begin] -->
+		<!--DMAILER_SECTION_BOUNDARY_--><div id="c541165" class="csc-default">
+		<!--  Header: [begin] -->
+			<div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Bibliothèques</h1></div>
+		<!--  Header: [end] -->
+			
+		<!--  Image block: [begin] -->
+			<div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap csc-textpic-single-image" style="width:184px;"><a href="bibliotheques/actualites-des-bibliotheques/?no_cache=1"><img src="uploads/pics/port_4.jpg" width="184" height="140" border="0" alt="Accès aux bibliothèques de Paris 1" /></a></div></div><div class="csc-textpic-clear"><!-- --></div>
+		<!--  Image block: [end] -->
+			</div><!--DMAILER_SECTION_BOUNDARY_END-->
+	<!--  CONTENT ELEMENT, uid:541165/image [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:544292/html [begin] -->
+		<!--DMAILER_SECTION_BOUNDARY_--><div id="c544292" class="csc-default">
+		<!--  Raw HTML content: [begin] -->
+			<p>Découvrez toute la richesse documentaire de nos bibliothèques et de nos centres de documentation, consultez leurs catalogues et leurs collections. 
+Accédez à l'espace de documentation en ligne, Domino, et consultez ainsi  les nombreuses ressources électroniques proposées par l'Université...</p>
+<p style="float: right; margin-top: 43px;"><a href="http://www.univ-paris1.fr/bibliotheques/" class="internal-link" title="Ouvre un lien interne dans la fenêtre courante">Plus &gt;&gt;</a></p>
+		<!--  Raw HTML content: [end] -->
+			</div><!--DMAILER_SECTION_BOUNDARY_END-->
+	<!--  CONTENT ELEMENT, uid:544292/html [end] -->
+		<!--TYPO3SEARCH_end--></div>
+          		<div class="block05"><!--TYPO3SEARCH_begin-->
+	<!--  CONTENT ELEMENT, uid:554419/textpic [begin] -->
+		<!--DMAILER_SECTION_BOUNDARY_--><div id="c554419" class="csc-default">
+		<!--  Header: [begin] -->
+			<div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Espace professionnel</h1></div>
+		<!--  Header: [end] -->
+			
+		<!--  Image block: [begin] -->
+			<div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap csc-textpic-single-image" style="width:180px;"><a href="espace-professionnel/"><img src="uploads/pics/reseau_pro_01.png" width="180" height="140" border="0" alt="Orientation et insertion professionnel" /></a></div><div class="csc-textpic-text">
+		<!--  Text: [begin] -->
+			<p class="bodytext">Visitez l'espace pro dédié à l'insertion professionnelle des étudiants et des diplômés de Paris 1, ainsi qu'au développement des relations entre l'université et les entreprises.</p>
+<p style="float: right; margin-top: 5px;" class="bodytext"><a href="espace-professionnel/" title="Opens internal link in current window" class="internal-link">Plus &gt;&gt;</a></p>
+		<!--  Text: [end] -->
+			</div></div><div class="csc-textpic-clear"><!-- --></div>
+		<!--  Image block: [end] -->
+			</div><!--DMAILER_SECTION_BOUNDARY_END-->
+	<!--  CONTENT ELEMENT, uid:554419/textpic [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:613439/html [begin] -->
+		<!--DMAILER_SECTION_BOUNDARY_--><div id="c613439" class="csc-default" style="margin-top:5px;">
+		<!--  Raw HTML content: [begin] -->
+			<a href="/universite/travailler-a-luniversite/" target="_self" title="Recrutement">
+<div id="bt189x110">
+	<div id="contenu-bt189x110">
+		<h3>Recrutement</h3>
+		<p>(ATER, Enseignant, BIATSS, Étudiant)</p>
+                <p>&nbsp;</p>
+		<p><span>Cliquez ici</span></p>
+	</div>
+</div>
+</a>
+		<!--  Raw HTML content: [end] -->
+			</div><!--DMAILER_SECTION_BOUNDARY_END-->
+	<!--  CONTENT ELEMENT, uid:613439/html [end] -->
+		<!--TYPO3SEARCH_end--></div>
+     	           </div> <!-- fin du div body_fat -->
+               <div class="clr"></div>
+	</div> <!-- fin du div body -->
+ <div class="clr"></div>
+ <div id="footer">
+         <ul id="footer_resize"><li><a href="menu-accueil/footer-accueil/nous-contacter/" onfocus="blurLink(this);">Nous contacter</a></li><li><a href="menu-accueil/footer-accueil/mentions-legales/" onfocus="blurLink(this);">Mentions Légales</a></li><li class="last"><a href="menu-accueil/footer-accueil/plan-du-site/" onfocus="blurLink(this);">Plan du site</a></li></ul>
+	 <div class="clr"></div>
+</div>
+ <div class="clr"></div>
+</div> <!-- fin du div body_resize -->
+<script type="text/javascript" src="//www.univ-paris1.fr/fileadmin/templates/v2/js/div.js"></script>
+<!-- TAG GOOGLE ANALYTICS START -->
+<script type="text/javascript">
+  var _gaq;
+   if (!_gaq) _gaq = [];
+  _gaq.push(['_setAccount', 'UA-10860601-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- TAG GOOGLE ANALYTICS END -->
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq;
+  if (!_paq) _paq = [];
+  
+  _paq.push([function() {
+	var self = this;
+	function getOriginalVisitorCookieTimeout() {
+		var now = new Date(),
+		nowTs = Math.round(now.getTime() / 1000),
+		visitorInfo = self.getVisitorInfo();
+		var createTs = parseInt(visitorInfo[2]);
+		var cookieTimeout = 33696000; // 13 mois en secondes
+		var originalTimeout = createTs + cookieTimeout - nowTs;
+		return originalTimeout;
+	}
+	this.setVisitorCookieTimeout( getOriginalVisitorCookieTimeout() );
+}]);
+  
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//stats.univ-paris1.fr/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//stats.univ-paris1.fr/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+
+
+
+</body>
+</html>

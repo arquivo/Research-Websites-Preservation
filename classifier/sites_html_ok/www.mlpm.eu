@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en" >
+
+<head>
+
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="keywords" content="">
+<meta name="description"
+	content="MLPM - Machine Learning for Personalized MedicineMLPM is a Marie Curie Initial Training Network, funded by the European Union within the 7th Framework Programme. MLPM has started on January 1, 2013 and will be carried out over a period of four years. MLPM is a consortium of several universities, research institutions and companies located in Spain, France, Germany, Belgium, UK, Switzerland, Israel and in the USA. MLPM involves the predoctoral training of 14 young scientists in the research field at the interface of Machine Learning and Medicine. Its goal is to educate interdisciplinary experts who will develop and employ the computational and statistical tools that are necessary to enable personalized medical treatment of patients according to their genetic and molecular properties and who are aware of the scientific, clinical and industrial implications of this research.">
+<title>Home
+	 | Machine Learning for Personalized Medicine </title>
+<link rel="shortcut icon" href="/static/img/favicon.ico">
+
+
+<link rel="alternate" type="application/rss+xml" title="RSS"
+	href="/blog/feeds/rss/">
+<link rel="alternate" type="application/atom+xml" title="Atom"
+	href="/blog/feeds/atom/">
+ 
+
+<link rel="stylesheet" href="/static/css/bootstrap.css">
+<link rel="stylesheet" href="/static/css/mezzanine.css">
+<link rel="stylesheet" href="/static/css/bootstrap-responsive.css">
+<link rel="stylesheet" href="/static/mezzanine/css/magnific-popup.css">
+<link rel="stylesheet" href="/static/mezzanine-slideshows/css/owl.carousel.css">
+<link rel="stylesheet" href="/static/mezzanine-slideshows/css/owl.theme.css">
+
+ 
+ 
+
+<!-- link href="/static/css/googleapis.font.Anaheim.css" rel='stylesheet' type='text/css'-->
+<link href="/static/css/googleapis.font.Titillium.css" rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/myCustom.css">
+ 
+
+<script src="/static/mezzanine/js/jquery-1.7.2.min.js"></script>
+<script src="/static/js/bootstrap.js"></script>
+<script src="/static/js/bootstrap-extras.js"></script>
+ 
+<!--[if lt IE 9]>
+<script src="/static/js/html5shiv.js"></script>
+<![endif]-->
+
+
+
+</head>
+<body id="body">
+
+	<!-- div class="my-custom-container">
+		<!--style="background-color: #FFFFFF; margin: 0px; padding-top: 20px"-->
+		<!-- div class="container changed-bootstrap-container"-->
+			<div class="container">
+				<div class="row" id="myhead">
+					<div class="span2 left">
+						</p>
+						<a href="/"> 
+							<img src="/static/img/mlpm_Logo_final_cropped.gif" width="200"	height="200" style="box-shadow: 0 0 0px;">
+						</p>
+					</div>
+					<div class="span7 middle">
+						</p>
+						<h1>
+							Machine Learning
+							 
+								for Personalized Medicine</h1>
+								</p>
+								<h4>
+									Marie-Curie Action: "Initial Training Networks"
+								</h4>
+								
+					</div>
+				</div>
+			</div>
+		<!--/div-->
+
+		<div class="container">
+
+			  
+
+
+		</div>
+		<div class="container">
+			<div class="row" id="main-part-container-wrapper">
+
+				<div class="span2 left " id="logos">
+					
+					<div class="panel tree menu-padding color_menu ">
+					
+
+<ul  class="nav nav-list navlist-menu-level-0" ><li class="
+              active
+             
+             "
+      id="tree-menu--"><a href="/">Home</a></li><li class="
+             
+             
+             "
+      id="tree-menu-blog"><a href="/blog/">News</a></li><li class="
+             
+             
+             "
+      id="tree-menu-people"><a href="/people/">People</a></li><li class="
+             
+             
+             "
+      id="tree-menu-members"><a href="/members/">Partners</a></li><li class="
+             
+             
+             "
+      id="tree-menu-projects"><a href="/projects/">Projects</a></li><li class="
+             
+             
+             "
+      id="tree-menu-summer-school"><a href="/summer-school/">Conferences/Summer Schools</a></li><li class="
+             
+             
+             "
+      id="tree-menu-contact"><a href="/contact/">Contact</a></li><li class="
+             
+             
+              last"
+      id="tree-menu-publications"><a href="/publications/">MLPM Publications</a></li></ul>
+</div>
+					
+				</div>
+
+				<div class="span7 middle">
+					<h2>
+About this Network
+</h2>
+					
+
+<h3><span>MLPM - Machine Learning for Personalized Medicine</span></h3>
+<p>MLPM is a <a href="http://cordis.europa.eu/fp7/mariecurieactions/itn_en.html">Marie Curie Initial Training Network</a>, funded by the European Union within the 7th Framework Programme. MLPM has started on January 1, 2013 and will be carried out over a period of four years. MLPM is a consortium of several universities, research institutions and companies located in Spain, France, Germany, Belgium, UK, Switzerland, Israel and in the USA. MLPM involves the predoctoral training of 14 young scientists in the research field at the interface of Machine Learning and Medicine. Its goal is to educate interdisciplinary experts who will develop and employ the computational and statistical tools that are necessary to enable personalized medical treatment of patients according to their genetic and molecular properties and who are aware of the scientific, clinical and industrial implications of this research.</p>
+<p><img alt="ITN members" height="335" src="/static/media/uploads/.thumbnails/2013portrait129_670.jpg/2013portrait129_670-670x335.jpg" title="ITN members" width="670"/></p>
+<h4 class="mceTemp">From Genetic Data to Medicine</h4>
+<p><span>Over the last decade, enormous progress has been made on recording the health state of an individual patient down to the molecular level of gene activity and genomic information – even sequencing a patient’s genome for less than 1000 dollars is no longer an unrealistic goal. However, the ultimate hope to use all this information for personalized medicine, that is to tailor medical treatment to the needs of an individual, remains largely unfulfilled. To turn the vision of personalized medicine into reality, many methodological problems remain to be solved: there is a lack of methods that allow us to gain a causal understanding of the underlying disease mechanisms, including gene-gene and gene-environment interactions. Similarly, there is an urgent need for integration of the heterogeneous patient data currently available, for improved and robust biomarker discovery for disease diagnosis, prognosis and therapy outcome prediction.</span></p>
+<h4><span>Bringing together Machine Learning and Statistical Genetics</span></h4>
+<p><span>The field of machine learning, which tries to detect patterns, rules and statistical dependencies in large datasets, has also witnessed dramatic progress over the last decade and has had a profound impact on the Internet. Amongst others, advanced methods for high-dimensional feature selection, causality inference, and data integration have been developed or are topics of current research. These techniques address many of the key methodological challenges that personalized medicine faces today and keep it from rising to the next level. Despite this rich potential of machine learning in personalized medicine, its impact on data-driven medicine remains low, due to a lack of experts with knowledge in both machine learning and in statistical genetics. Our ITN aims to close this gap by bringing together leading European research institutes in Machine Learning and Statistical Genetics, both from the private and public sector, to train 14 early stage researchers.</span></p>
+<h4><span>Partners and events</span></h4>
+<p>The <a href="/members/">MLPM partners</a> include several academic labs with background in Statistical Genetics or Machine Learning, and private companies that are active in this domain. The network is coordinated by the Max Planck Society, noteably by Professor Karsten Borgwardt at the Max Planck Institute for Intelligent Systems in Tübingen, Germany. MLPM will host several scientific events which will provide an excellent predoctoral training for the MLPM fellows. The <a href="/summer-school-2013/">first MLPM summer school</a> was held in September 2013 in Tübingen, Germany.</p>
+
+
+
+
+					
+
+
+    
+
+
+				</div>
+				
+				<div class="span3 right">
+				 	<div class="panel" id="logos">
+				 		<table>
+						  <tr>
+						    <th><a href="http://ec.europa.eu/rea/"> 
+							<img src="/static/img/flag_2colors.png" width="85"	height="65">
+						</a></th>
+						    <th><a href="http://cordis.europa.eu/fp7/home_en.html"> 
+							<img src="/static/img/FP7-people.png" width="69"	height="56">
+						</a> </th>
+						    <th><a href="http://ec.europa.eu/research/mariecurieactions/"> 
+							<img src="/static/img/MarieCurie.png" width="57" height="55">
+						</a></th>
+						  </tr>
+						</table>
+						
+						
+					</div>	
+										
+					
+				    <div class="panel">
+				    
+					
+
+
+
+
+<h3>Recent Posts</h3>
+<ul class="unstyled recent-posts">
+
+<li><a href="/blog/summer-school-2015-videos-are-now-online-available/"
+    >Summer School 2015 videos are now ONLINE available! </a></li>
+
+<li><a href="/blog/congress-personalised-medicine-data-diagnosis-decisions-may-2016-tuebingen-germany/"
+    >Congress: Personalised Medicine - Data - Diagnosis - Decisions</a></li>
+
+<li><a href="/blog/mathematician-ilaria-bonavita-joins-our-network/"
+    >Mathematician Ilaria Bonavita joins our network!</a></li>
+
+<li><a href="/blog/prof-karsten-borgwardt-elected-chairman-of-the-machine-learning-in-systems-biology-steering-committee/"
+    >Prof. Karsten Borgwardt elected Chairman of the &quot;Machine Learning in Systems Biology&quot; Steering Committee</a></li>
+
+<li><a href="/blog/1st-mlpm-mini-hackathon-in-basel/"
+    >1st MLPM Mini-Hackathon in Basel </a></li>
+
+</ul>
+
+
+
+
+
+
+<h3>Archive</h3>
+
+    
+        
+        <h6>2016</h6><ul class="unstyled">
+    
+    <li><a href="/blog/archive/2016/1/"
+        >January</a> (1)</li>
+
+    
+        </ul>
+        <h6>2015</h6><ul class="unstyled">
+    
+    <li><a href="/blog/archive/2015/11/"
+        >November</a> (2)</li>
+
+    
+    <li><a href="/blog/archive/2015/10/"
+        >October</a> (1)</li>
+
+    
+    <li><a href="/blog/archive/2015/4/"
+        >April</a> (1)</li>
+
+    
+    <li><a href="/blog/archive/2015/2/"
+        >February</a> (2)</li>
+
+    
+        </ul>
+        <h6>2014</h6><ul class="unstyled">
+    
+    <li><a href="/blog/archive/2014/11/"
+        >November</a> (2)</li>
+
+    
+    <li><a href="/blog/archive/2014/5/"
+        >May</a> (2)</li>
+
+    
+    <li><a href="/blog/archive/2014/4/"
+        >April</a> (1)</li>
+
+    
+    <li><a href="/blog/archive/2014/3/"
+        >March</a> (2)</li>
+
+    
+    <li><a href="/blog/archive/2014/2/"
+        >February</a> (1)</li>
+
+    
+        </ul>
+        <h6>2013</h6><ul class="unstyled">
+    
+    <li><a href="/blog/archive/2013/11/"
+        >November</a> (1)</li>
+
+    
+    <li><a href="/blog/archive/2013/9/"
+        >September</a> (1)</li>
+
+    
+    <li><a href="/blog/archive/2013/7/"
+        >July</a> (1)</li>
+
+    
+    <li><a href="/blog/archive/2013/6/"
+        >June</a> (1)</li>
+
+</ul>
+
+
+
+
+
+
+<h3>Categories</h3>
+<ul class="unstyled">
+
+<li><a href="/blog/category/awards/"
+    >Awards</a> (2)</li>
+
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+<h3>Authors</h3>
+<ul class="unstyled">
+
+    <li><a href="/blog/author/MLPM-Admin/"
+        >MLPM-Admin</a>
+        (15)</li>
+
+    <li><a href="/blog/author/Felipe/"
+        >Felipe</a>
+        (1)</li>
+
+    <li><a href="/blog/author/Melanie/"
+        >Melanie</a>
+        (1)</li>
+
+    <li><a href="/blog/author/MLPM/"
+        >MLPM</a>
+        (2)</li>
+
+</ul>
+
+
+
+
+					
+				    </div>
+				    <a href="https://www.facebook.com/mlpm.itn"> 
+							<img src="/static/img/facebook_square.png" width="25"	height="25" 
+							style="margin-right: 3px;">
+						Like us on Facebook!
+					</a>
+					</p>
+					<a class="twitter-timeline" href="https://twitter.com/mlpm_itn" data-widget-id="379602991981932544">Tweets by @mlpm_itn</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				
+				</div>
+
+			</div>
+		</div>
+
+		<footer>
+			<div class="container">
+				<!-- 
+
+<div class="nav-footer"><ul class="list-unstyled"><li class="active"
+            id="footer-menu--"><a href="/">Home</a></li></ul><ul class="list-unstyled"><li 
+            id="footer-menu-blog"><a href="/blog/">News</a></li></ul><ul class="list-unstyled"><li 
+            id="footer-menu-people"><a href="/people/">People</a></li></ul><ul class="list-unstyled"><li 
+            id="footer-menu-members"><a href="/members/">Partners</a></li></ul><ul class="list-unstyled"><li 
+            id="footer-menu-projects"><a href="/projects/">Projects</a></li></ul><ul class="list-unstyled"><li 
+            id="footer-menu-summer-school"><a href="/summer-school/">Conferences/Summer Schools</a></li><li 
+            id="footer-menu-summer-school-summer-school-2015"><a href="/summer-school/summer-school-2015/">Summer School 2015</a></li><li 
+            id="footer-menu-summer-school-summer-school-2015-talks-and-speakers"><a href="/summer-school/summer-school-2015/talks-and-speakers/">Talks and Speakers</a></li><li 
+            id="footer-menu-summer-school-summer-school-2015-registration"><a href="/summer-school/summer-school-2015/registration/">Registration</a></li><li 
+            id="footer-menu-summer-school-summer-school-2015-venue"><a href="/summer-school/summer-school-2015/venue/">Venue</a></li><li 
+            id="footer-menu-summer-school-summer-school-2015-transport-information"><a href="/summer-school/summer-school-2015/transport-information/">Transport Information</a></li><li 
+            id="footer-menu-summer-school-summer-school-2015-hotels"><a href="/summer-school/summer-school-2015/hotels/">Hotels</a></li><li 
+            id="footer-menu-summer-school-summer-school-2015-organizers"><a href="/summer-school/summer-school-2015/organizers/">Organizers</a></li><li 
+            id="footer-menu-summer-school-summer-school-2015-programme"><a href="/summer-school/summer-school-2015/programme/">Programme</a></li><li 
+            id="footer-menu-summer-school-summer-school-2015-videos"><a href="/summer-school/summer-school-2015/videos/">Videos</a></li><li 
+            id="footer-menu-summer-school-summer-school-2015-impressions"><a href="/summer-school/summer-school-2015/impressions/">Impressions</a></li><li 
+            id="footer-menu-summer-school-summer-school-2014"><a href="/summer-school/summer-school-2014/">Summer School 2014</a></li><li 
+            id="footer-menu-summer-school-summer-school-2014-schedule"><a href="/summer-school/summer-school-2014/schedule/">Schedule</a></li><li 
+            id="footer-menu-summer-school-summer-school-2014-transport-information"><a href="/summer-school/summer-school-2014/transport-information/">Transport information</a></li><li 
+            id="footer-menu-summer-school-summer-school-2014-venue"><a href="/summer-school/summer-school-2014/venue/">Venue</a></li><li 
+            id="footer-menu-summer-school-summer-school-2014-talks-and-speakers"><a href="/summer-school/summer-school-2014/talks-and-speakers/">Talks and Speakers</a></li><li 
+            id="footer-menu-summer-school-summer-school-2014-hotel-information"><a href="/summer-school/summer-school-2014/hotel-information/">Hotel Information</a></li><li 
+            id="footer-menu-summer-school-summer-school-2014-registration"><a href="/summer-school/summer-school-2014/registration/">Registration</a></li><li 
+            id="footer-menu-summer-school-summer-school-2014-impressions-summer-school-in-paris-2014"><a href="/summer-school/summer-school-2014/impressions-summer-school-in-paris-2014/">Impressions</a></li><li 
+            id="footer-menu-summer-school-summer-school-2014-videos"><a href="/summer-school/summer-school-2014/videos/">Videos</a></li><li 
+            id="footer-menu-summer-school-2013"><a href="/summer-school-2013/">Summer School 2013 </a></li><li 
+            id="footer-menu-summer-school-2013-speakers"><a href="/summer-school-2013/speakers/">Lectures and speakers</a></li><li 
+            id="footer-menu-summer-school-2013-schedule"><a href="/summer-school-2013/schedule/">Schedule</a></li><li 
+            id="footer-menu-summer-school-4th-annual-meeting"><a href="/summer-school/4th-annual-meeting/">4th Annual Meeting 2016</a></li></ul><ul class="list-unstyled"><li 
+            id="footer-menu-contact"><a href="/contact/">Contact</a></li></ul><ul class="list-unstyled"><li 
+            id="footer-menu-impressum"><a href="/impressum/">Imprint</a></li></ul><ul class="list-unstyled"><li 
+            id="footer-menu-publications"><a href="/publications/">MLPM Publications</a></li></ul></div>
+-->
+				<p>
+					<a href="/impressum/">Imprint/Impressum</a> <span class="separator">|</span>
+					Powered by <a href="http://mezzanine.jupo.org">Mezzanine</a>
+					 and <a
+						href="http://www.djangoproject.com">Django</a> <span
+						class="separator">|</span> Theme by <a
+						href="http://twitter.github.com/bootstrap/">Bootstrap</a> 
+						
+				</p>
+			</div>
+		</footer>
+
+		
+
+
+
+
+
+
+<script>
+
+</script>
+
+		<script src="/static/mezzanine-slideshows/js/owl.carousel.js"></script>
+		<script src="/static/mezzanine-slideshows/js/jquery.magnific-popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en-US" class="no-js">
+<head>
+<meta charset="UTF-8">
+<title> Promerc</title>
+<!-- meta tags -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- You should remove this for a not responsive site -->
+<meta name="author" content="">
+<!-- icons -->
+<link rel="shortcut icon" type="image/x-icon" href="http://www.promerc.eu/wp-content/themes/kiwi-child/images/favicon_new.ico">
+<!-- css + javascript -->
+<script type="text/javascript">//<![CDATA[
+// Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-50813611-1']);
+_gaq.push(['_trackPageview']);
+(function () {
+var ga = document.createElement('script');
+ga.type = 'text/javascript';
+ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga, s);
+})();
+//]]></script>
+<!-- <link rel='stylesheet' id='wpfb-css'  href='http://www.promerc.eu/wp-content/plugins/wp-filebase/wp-filebase.css?ver=0.3.0.05' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='testimonial_slider_headcss-css'  href='http://www.promerc.eu/wp-content/plugins/testimonial-slider/css/skins/default/style.css?ver=1.0.1' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='events-manager-css'  href='http://www.promerc.eu/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.52' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='kiwi_less-css'  href='http://www.promerc.eu/wp-content/themes/kiwi-child/child-style.css?ver=1.0' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='kiwi_css-css'  href='http://www.promerc.eu/wp-content/themes/kiwi-child/style.css?ver=1.0' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='mailchimp-for-wp-css'  href='http://www.promerc.eu/wp-content/plugins/mailchimp-for-wp/assets/css/css.php?checkbox=1&#038;form=1&#038;form-theme=dark&#038;ver=1.5.8' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='jquery-magnific-popup-css'  href='http://www.promerc.eu/wp-content/plugins/cyclone-slider-pro/libs/magnific-popup/magnific-popup.css?ver=2.8.2' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='cyclone-template-style-dark-css'  href='http://www.promerc.eu/wp-content/plugins/cyclone-slider-pro/templates/dark/style.css?ver=2.8.2' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='cyclone-template-style-default-css'  href='http://www.promerc.eu/wp-content/plugins/cyclone-slider-pro/templates/default/style.css?ver=2.8.2' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='cyclone-template-style-galleria-css'  href='http://www.promerc.eu/wp-content/plugins/cyclone-slider-pro/templates/galleria/style.css?ver=2.8.2' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='cyclone-template-style-standard-css'  href='http://www.promerc.eu/wp-content/plugins/cyclone-slider-pro/templates/standard/style.css?ver=2.8.2' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='cyclone-template-style-text-css'  href='http://www.promerc.eu/wp-content/plugins/cyclone-slider-pro/templates/text/style.css?ver=2.8.2' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='cyclone-template-style-thumbnails-css'  href='http://www.promerc.eu/wp-content/plugins/cyclone-slider-pro/templates/thumbnails/style.css?ver=2.8.2' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//www.promerc.eu/wp-content/cache/wpfc-minified/52f5b87d1f9f892cfb13c3697a32836e/1446822216index.css" media="all"/>
+<!-- <link rel='stylesheet' id='tw-recent-posts-widget-css'  href='http://www.promerc.eu/wp-content/plugins/tw-recent-posts-widget/tw-recent-posts-widget.css?ver=100.1.0' type='text/css' media='screen' /> -->
+<link rel="stylesheet" type="text/css" href="//www.promerc.eu/wp-content/cache/wpfc-minified/a88a9e2964ecfbee0ae41f7f9280c11a/1446822216index.css" media="screen"/>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js?ver=1.11.0'></script>
+<script src='//www.promerc.eu/wp-content/cache/wpfc-minified/9d945fba56b25b26682cbe97d4c00246/1446822216index.js' type="text/javascript"></script>
+<!-- <script type='text/javascript' src='http://www.promerc.eu/wp-content/plugins/testimonial-slider/js/testimonial.js?ver=1.0.1'></script> -->
+<!-- <script type='text/javascript' src='http://www.promerc.eu/wp-content/plugins/testimonial-slider/js/jquery.cycle.js?ver=1.0.1'></script> -->
+<!-- <script type='text/javascript' src='http://www.promerc.eu/wp-content/plugins/testimonial-slider/js/jquery.easing.js?ver=1.0.1'></script> -->
+<!-- <script type='text/javascript' src='http://www.promerc.eu/wp-content/plugins/testimonial-slider/js/jquery.touchwipe.js?ver=1.0.1'></script> -->
+<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js?ver=2.7.1'></script>
+<script type='text/javascript' src='http://www.promerc.eu/wp-content/themes/kiwi/js/bootstrap.min.js?ver=3.1.1'></script>
+<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js?ver=1.4.2'></script>
+<script src='//www.promerc.eu/wp-content/cache/wpfc-minified/c61ddaf6432c1678507eb41f8321921e/1446822216index.js' type="text/javascript"></script>
+<!-- <script type='text/javascript' src='http://www.promerc.eu/wp-content/themes/kiwi/js/scripts.js?ver=1.0.0'></script> -->
+<!-- <script type='text/javascript' src='http://www.promerc.eu/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.4'></script> -->
+<!-- <script type='text/javascript' src='http://www.promerc.eu/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.10.4'></script> -->
+<!-- <script type='text/javascript' src='http://www.promerc.eu/wp-includes/js/jquery/ui/jquery.ui.position.min.js?ver=1.10.4'></script> -->
+<!-- <script type='text/javascript' src='http://www.promerc.eu/wp-includes/js/jquery/ui/jquery.ui.mouse.min.js?ver=1.10.4'></script> -->
+<!-- <script type='text/javascript' src='http://www.promerc.eu/wp-includes/js/jquery/ui/jquery.ui.sortable.min.js?ver=1.10.4'></script> -->
+<!-- <script type='text/javascript' src='http://www.promerc.eu/wp-includes/js/jquery/ui/jquery.ui.datepicker.min.js?ver=1.10.4'></script> -->
+<!-- <script type='text/javascript' src='http://www.promerc.eu/wp-includes/js/jquery/ui/jquery.ui.menu.min.js?ver=1.10.4'></script> -->
+<!-- <script type='text/javascript' src='http://www.promerc.eu/wp-includes/js/jquery/ui/jquery.ui.autocomplete.min.js?ver=1.10.4'></script> -->
+<!-- <script type='text/javascript' src='http://www.promerc.eu/wp-includes/js/jquery/ui/jquery.ui.resizable.min.js?ver=1.10.4'></script> -->
+<!-- <script type='text/javascript' src='http://www.promerc.eu/wp-includes/js/jquery/ui/jquery.ui.draggable.min.js?ver=1.10.4'></script> -->
+<!-- <script type='text/javascript' src='http://www.promerc.eu/wp-includes/js/jquery/ui/jquery.ui.button.min.js?ver=1.10.4'></script> -->
+<!-- <script type='text/javascript' src='http://www.promerc.eu/wp-includes/js/jquery/ui/jquery.ui.dialog.min.js?ver=1.10.4'></script> -->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var EM = {"ajaxurl":"http:\/\/www.promerc.eu\/wp-admin\/admin-ajax.php","locationajaxurl":"http:\/\/www.promerc.eu\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"dd\/mm\/yy","ui_css":"http:\/\/www.promerc.eu\/wp-content\/plugins\/events-manager\/includes\/css\/ui-lightness.css","show24hours":"1","is_ssl":"","bookingInProgress":"Please wait while the booking is being submitted.","tickets_save":"Save Ticket","bookingajaxurl":"http:\/\/www.promerc.eu\/wp-admin\/admin-ajax.php","bookings_export_save":"Export Bookings","bookings_settings_save":"Save Settings","booking_delete":"Are you sure you want to delete?","bb_full":"Uitverkocht","bb_book":"Reserveer nu","bb_booking":"Reserveren...","bb_booked":"Reservering ingezonden","bb_error":"Reservering fout. Nogmaals proberen?","bb_cancel":"Annuleren","bb_canceling":"Annuleren...","bb_cancelled":"Geannuleerd","bb_cancel_error":"Geannuleerd fout. Nogmaals proberen?","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","event_reschedule_warning":"Are you sure you want to reschedule this recurring event? If you do this, you will lose all booking information and the old recurring events will be deleted.","event_detach_warning":"Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.","delete_recurrence_warning":"Are you sure you want to delete all recurrences of this event? All events will be moved to trash.","disable_bookings_warning":"Are you sure you want to disable bookings? If you do this and save, you will lose all previous bookings. If you wish to prevent further bookings, reduce the number of spaces available to the amount of bookings you currently have","booking_warning_cancel":"Weet je zeker dat je de reservering wilt annuleren?"};
+/* ]]> */
+</script>
+<script src='//www.promerc.eu/wp-content/cache/wpfc-minified/c5d2b0d9d586aa8b5f234a4f3463afb1/1446822216index.js' type="text/javascript"></script>
+<!-- <script type='text/javascript' src='http://www.promerc.eu/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.52'></script> -->
+<script> jQuery(document).ready(function(){jQuery(".kiwi-logo-carousel-default").bxSlider({mode:"horizontal",speed:30000,slideMargin:30,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:true,tickerHover:true,adaptiveHeight:true,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:20,moveSlides:1,slideWidth:90,auto:false,useCSS:false});jQuery(".kiwi-logo-carousel-logos").bxSlider({mode:"horizontal",speed:25000,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:true,tickerHover:true,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:30,moveSlides:1,slideWidth:200,auto:false,useCSS:false});}); </script><style type="text/css">	.ssba {
+}
+.ssba img		
+{ 	
+width: 35px !important;
+padding: 6px;
+border:  0;
+box-shadow: none !important;
+display: inline !important;
+vertical-align: middle;
+}
+.ssba, .ssba a		
+{
+text-decoration:none;
+background: none;
+font-size: 	20px;
+}</style>		<script src='//www.promerc.eu/wp-content/cache/wpfc-minified/089ef706582ff6479c14e60225b1df18/1446822216index.js' type="text/javascript"></script>
+<!-- <script src="http://www.promerc.eu/wp-content/themes/kiwi-child/js/script.js"></script> -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-50744174-6', 'auto');
+ga('send', 'pageview');
+</script>	</head>
+<body class="home page page-id-22 page-template page-template-home-template-php homepage">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;"/>
+<div id="mobile-menu-container" class="mobile-menu-container hidden-sm hidden-md hidden-lg">
+<div class="mobile-menu-inner">
+<ul id="menu-menu-1" class="nav navbar-nav"><li id="menu-item-4" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home active menu-item-4"><a href="http://www.promerc.eu/" >Home</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20 dropdown"><a href="http://www.promerc.eu/?page_id=6"  data-toggle="dropdown" data-target="#" class="dropdown-toggle">Project <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="http://www.promerc.eu/inside/" >Scope</a></li>
+<li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="http://www.promerc.eu/objectives/" >Objectives</a></li>
+<li id="menu-item-330" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-330"><a href="http://www.promerc.eu/facts-and-figures/" >Facts and Figures</a></li>
+<li id="menu-item-337" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-337"><a href="http://www.promerc.eu/links/" >Links</a></li>
+</ul>
+</li>
+<li id="menu-item-331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-331 dropdown"><a href="http://www.promerc.eu/partners/"  data-toggle="dropdown" data-target="#" class="dropdown-toggle">Partners <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li id="menu-item-940" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-940"><a href="http://www.promerc.eu/project-locations/" >Partner locations</a></li>
+</ul>
+</li>
+<li id="menu-item-332" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-332"><a href="http://www.promerc.eu/news/" >News/Events</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a href="http://www.promerc.eu/downloads/" >Downloads</a></li>
+</ul>			</div>
+</div>
+<div id="mobile-menu-outer" class="mobile-menu-outer"></div>
+<div id="wrap">
+<div class="container header shadow">
+<div class="row">
+<div class="col-sm-3 hidden-xs">
+<a href="http://www.promerc.eu"><img class="logo" class="img-responsive" src="http://www.promerc.eu/wp-content/themes/kiwi-child/images/promerc.png" alt=""></a>
+</div>
+<div class="col-sm-9 hidden-xs upperbar">
+<div class="row">
+<div class="col-sm-8 col-xs-2"><a class="topbuttons" href="http://www.promerc.eu/subscribe/">Subscribe</a><a class="topbuttons" href="https://service.projectplace.com/login?lang=english" target="_blank">Login</a></div>
+<div class="col-sm-4 hidden-xs">
+<form role="search" method="get" id="searchformtop" action="">
+<div class="input-group">
+<input type="text" value="" placeholder="Search..." name="s" id="s" class="form-control">
+<span class="input-group-btn">
+<button class="btn btn-default" id="searchsubmit" type="submit"><i class="fa fa-search"></i></button>
+</span>
+</div><!-- /input-group -->
+</form>
+</div>
+</div>
+</div>
+<div class="col-sm-9 col-xs-12 navigation">
+<div class="navbar navbar-default" role="navigation">
+<div class="hidden-sm hidden-md hidden-lg">	
+<div class="floatleft">
+<div class="mobile-left hidden-sm hidden-md hidden-lg" title="Show menu" id="toggle-mobile-menu">
+<i class="fa fa-bars"></i>
+</div>
+<a class="" href="http://www.promerc.eu"><img class="logomenu" src="http://www.promerc.eu/wp-content/themes/kiwi-child/images/whitelogo.png" alt=""></a>
+</div>
+<div class="subscribe">
+<a class="searchformtoggle togglesearch navbar-toggle"><i class="fa fa-search"></i></a>
+<a class="visible-xs topbuttons buttoninmenu" href="https://service.projectplace.com/login?lang=english" target="_blank"><i class="fa fa-user"></i></a>
+<a class="visible-xs topbuttons buttoninmenu" href="http://www.promerc.eu/subscribe/"><i class="fa fa-envelope-o"></i></a>
+</div>
+</div>
+<div class="collapse navbar-collapse navbar-ex1-collapse hidden-xs">
+<ul id="menu-menu-2" class="nav navbar-nav"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home active menu-item-4"><a href="http://www.promerc.eu/" >Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20 dropdown"><a href="http://www.promerc.eu/?page_id=6"  data-toggle="dropdown" data-target="#" class="dropdown-toggle">Project <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="http://www.promerc.eu/inside/" >Scope</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="http://www.promerc.eu/objectives/" >Objectives</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-330"><a href="http://www.promerc.eu/facts-and-figures/" >Facts and Figures</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-337"><a href="http://www.promerc.eu/links/" >Links</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-331 dropdown"><a href="http://www.promerc.eu/partners/"  data-toggle="dropdown" data-target="#" class="dropdown-toggle">Partners <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-940"><a href="http://www.promerc.eu/project-locations/" >Partner locations</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-332"><a href="http://www.promerc.eu/news/" >News/Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a href="http://www.promerc.eu/downloads/" >Downloads</a></li>
+</ul>				</div>
+</div>
+<div id="headersearch">
+<form role="search" method="get" id="searchform" action="">
+<div class="input-group">
+<input type="text" value="" name="s" id="s" class="form-control">
+<span class="input-group-btn">
+<button class="btn btn-default" id="searchsubmit" type="submit"><i class="fa fa-search"></i></button>
+</span>
+</div><!-- /input-group -->
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="maincontent container shadow">
+<div class="row">
+<!-- content -->
+<div class="content">
+<!-- article -->
+<article id="post-22" class="post-22 page type-page status-publish hentry">
+<div class="cycloneslider cycloneslider-template-thumbnails cycloneslider-width-responsive" id="cycloneslider-homeslider-1" style="max-width:1200px" ><div class="cycloneslider-slides cycle-slideshow"	data-cycle-allow-wrap="true" data-cycle-dynamic-height="off" data-cycle-auto-height="1200:400" data-cycle-auto-height-easing="null" data-cycle-auto-height-speed="250" data-cycle-delay="0" data-cycle-easing="" data-cycle-fx="fade" data-cycle-hide-non-active="true" data-cycle-log="false" data-cycle-next="#cycloneslider-homeslider-1 .cycloneslider-next" data-cycle-pager="#cycloneslider-homeslider-1 .cycloneslider-pager" data-cycle-pause-on-hover="true" data-cycle-prev="#cycloneslider-homeslider-1 .cycloneslider-prev" data-cycle-slides="&gt; div" data-cycle-speed="1000" data-cycle-swipe="true" data-cycle-tile-count="7" data-cycle-tile-delay="100" data-cycle-tile-vertical="true" data-cycle-timeout="4000"	> <div class="cycloneslider-slide cycloneslider-slide-image" > <img src="http://www.promerc.eu/wp-content/uploads/2014/05/Vessel-1200x400.png" alt="" title="" /> <div class="cycloneslider-caption"> <div class="cycloneslider-caption-title">PROMERC</div> <div class="cycloneslider-caption-description">Independent review and recommendations about non-lethal technologies for pirate avoidance and opposing the boarding of vessels by pirates.</div> </div> </div> <div class="cycloneslider-slide cycloneslider-slide-image" > <img src="http://www.promerc.eu/wp-content/uploads/2014/05/spray-1200x400.png" alt="" title="" /> <div class="cycloneslider-caption"> <div class="cycloneslider-caption-title">PROMERC</div> <div class="cycloneslider-caption-description">An automated voyage planning support tool to aid shore based authorities</div> </div> </div> <div class="cycloneslider-slide cycloneslider-slide-image" > <img src="http://www.promerc.eu/wp-content/uploads/2014/05/Stern-AP-Hoses-1200x400.jpg" alt="" title="" /> <div class="cycloneslider-caption"> <div class="cycloneslider-caption-title">PROMERC</div> <div class="cycloneslider-caption-description">An automated decision support tool to provide seafarers with real time threat assessment, evaluation of possible courses of action and a recommended course of action</div> </div> </div> <div class="cycloneslider-slide cycloneslider-slide-image" > <img src="http://www.promerc.eu/wp-content/uploads/2014/05/800px-US_Navy_080918-N-6575H-003_Merchant_ships_are_anchored_off_the_coast_of_Galveston_Texas-1200x400.jpg" alt="" title="" /> <div class="cycloneslider-caption"> <div class="cycloneslider-caption-title">PROMERC</div> <div class="cycloneslider-caption-description">Recommendations on the further development of counter piracy measures</div> </div> </div> <div class="cycloneslider-slide cycloneslider-slide-image" > <img src="http://www.promerc.eu/wp-content/uploads/2014/05/2_fleet_hedwig-1200x400.jpg" alt="" title="" /> <div class="cycloneslider-caption"> <div class="cycloneslider-caption-title">PROMERC</div> <div class="cycloneslider-caption-description">Recommendations on the further development of counter piracy measures</div> </div> </div> </div><div class="cycloneslider-prev"></div><div class="cycloneslider-next"></div></div><div id="cycloneslider-homeslider-1-pager" class="cycloneslider-template-thumbnails cycloneslider-thumbnails"	style="max-width:1200px" ><ul class="clearfix"> <li><img src="http://www.promerc.eu/wp-content/uploads/2014/05/Vessel-40x40.png" width="40" height="40" alt="" title="" /></li> <li><img src="http://www.promerc.eu/wp-content/uploads/2014/05/spray-40x40.png" width="40" height="40" alt="" title="" /></li> <li><img src="http://www.promerc.eu/wp-content/uploads/2014/05/Stern-AP-Hoses-40x40.jpg" width="40" height="40" alt="" title="" /></li> <li><img src="http://www.promerc.eu/wp-content/uploads/2014/05/800px-US_Navy_080918-N-6575H-003_Merchant_ships_are_anchored_off_the_coast_of_Galveston_Texas-40x40.jpg" width="40" height="40" alt="" title="" /></li> <li><img src="http://www.promerc.eu/wp-content/uploads/2014/05/2_fleet_hedwig-40x40.jpg" width="40" height="40" alt="" title="" /></li> </ul></div>			
+<div class="col-xs-12">
+<div class="row">
+<div class="col-sm-8">
+<h1>Welcome to the PROMERC project</h1>
+<p>PROMERC aims to reduce the vulnerability of EU merchant fleets and maritime supply lines to criminal abduction and extortion and thereby reduce risk to mariners, shipping, and the environment, while also reducing costs. This will be delivered through the provision of:</p>
+<ul>
+<li>Independent review and recommendations about non-lethal technologies for pirate avoidance and opposing the boarding of vessels by pirates.</li>
+<li>An automated voyage planning support tool to aid shore based authorities, which will balance routeing to mitigate risk against incurring additional fuel costs due to re-routeing and increased speed.</li>
+<li>An automated decision support tool to provide seafarers with real time threat assessment, evaluation of possible courses of action and a recommended course of action. A manual to aid in the selection and use of appropriate counter piracy measures in a layered holistic defence.</li>
+<li>Recommendations on the further development of counter piracy measures.</li>
+</ul>
+<p>&nbsp;</p>
+</div>
+<div class="col-sm-4">
+<div id="tw-recent-posts-2" class="tw-recent-posts widget"><h3>Latest news:</h3>
+<div class="featured-posts textwidget">
+<div class="featured-post">
+<div class="post-thumb"><a href="http://www.promerc.eu/promerc-counter-measure-manoeuvres/"><img src="http://www.promerc.eu/wp-content/uploads/2014/03/PROMERC_logo_subtitle-120x61.jpg" class="alignleft wp-post-image" alt="PROMERC_logo_subtitle" title="" /></a></div>
+<h4><a href="http://www.promerc.eu/promerc-counter-measure-manoeuvres/" rel="bookmark"
+title="PROMERC Counter Measure Manoeuvres">PROMERC Counter Measure Manoeuvres</a></h4>
+<div class="post-time">
+17/08/2015		</div>
+<div class="clear"></div>
+</div>
+<div class="featured-post">
+<div class="post-thumb"><a href="http://www.promerc.eu/comparison-between-promerc-ipatch-counter-piracy-measures/"><img src="http://www.promerc.eu/wp-content/uploads/2014/03/PROMERC_logo_subtitle-120x61.jpg" class="alignleft wp-post-image" alt="PROMERC_logo_subtitle" title="" /></a></div>
+<h4><a href="http://www.promerc.eu/comparison-between-promerc-ipatch-counter-piracy-measures/" rel="bookmark"
+title="Comparison between PROMERC / IPATCH Counter Piracy Measures">Comparison between PROMERC / IPATCH Counter Piracy Measures</a></h4>
+<div class="post-time">
+13/08/2015		</div>
+<div class="clear"></div>
+</div>
+<div class="featured-post">
+<div class="post-thumb"><a href="http://www.promerc.eu/progress-workpackage-development-of-tools/"><img src="http://www.promerc.eu/wp-content/uploads/2014/03/PROMERC_logo_subtitle-120x61.jpg" class="alignleft wp-post-image" alt="PROMERC_logo_subtitle" title="" /></a></div>
+<h4><a href="http://www.promerc.eu/progress-workpackage-development-of-tools/" rel="bookmark"
+title="Progress Workpackage &#8216;Development of tools&#8217;">Progress Workpackage &#8216;Development of tools&#8217;</a></h4>
+<div class="post-time">
+13/08/2015		</div>
+<div class="clear"></div>
+</div>
+</div>
+</div><div id="text-6" class="widget_text widget">			<div class="textwidget"><a class="widget-more-news-link" href="http://www.promerc.eu/news/" >More news...</a></div>
+</div>					</div>
+</div>
+<div class="row uitgelicht">
+<div class="col-sm-4 newrow">
+<div id="widget_sp_image-2" class="widget_sp_image widget"><h3>Concept of PROMERC</h3><a href="http://www.promerc.eu/?p=8" target="_self" class="widget_sp_image-image-link" title="Concept of PROMERC"><img width="250" height="256" alt="Concept of PROMERC" class="attachment-medium" style="max-width: 100%;" src="http://www.promerc.eu/wp-content/uploads/2014/05/Overall-Concept-250x256.png" /></a><div class="widget_sp_image-description" ><p>Conceptual picture of PROMERC project and interactions between the different items.</p>
+</div></div>					</div>
+<div class="col-sm-4">
+<div id="text-5" class="widget_text widget"><h3>Vision and Objectives</h3>			<div class="textwidget"><p>The overall goal of the project is to reduce the vulnerability of European Union (EU) merchant fleets andmaritime supply lines to criminal abduction and extortion and thereby reduce risk to mariners, shipping, andthe environment, while also reducing costs and remaining cognisant of legal and social constraints. </p>
+<p><a href="http://www.promerc.eu/project/objectives/" > Read more</a></p>
+<p>.</p>
+</div>
+</div><div id="widget_sp_image-5" class="widget_sp_image widget"><a href="http://www.promerc.eu/ec-promerc-deliverables-online/" target="_self" class="widget_sp_image-image-link" title=""><img width="250" height="60" alt="" class="attachment-medium aligncenter" style="max-width: 100%;" src="http://www.promerc.eu/wp-content/uploads/2015/01/FirstResults-250x60.jpg" /></a></div>					</div>
+<div class="col-sm-4">
+<div id="em_widget-4" class="widget_em_widget widget"><h3>Events</h3><ul><li><a href="http://www.promerc.eu/events/promerc-demonstration-conference/" title="PROMERC Demonstration &amp; Conference">PROMERC Demonstration &amp; Conference</a><ul><li>23/02/2016</li><li>Portsmouth</li></ul></li><li><a href="http://www.promerc.eu/events/transnav-2015/" title="TransNav 2015">TransNav 2015</a><ul><li>17/06/2015 - 19/06/2015</li><li>Gdynia</li></ul></li><li><a href="http://www.promerc.eu/events/maritime-piracy-strengthening-the-eu-response/" title="Maritime piracy: strengthening the EU response">Maritime piracy: strengthening the EU response</a><ul><li>24/03/2015</li><li>Brussels</li></ul></li></ul></div>					</div>
+</div>
+</div>
+<div>
+<div class="col-sm-4 newrow homecol">
+<!--h3>Follow us on Twitter</h3> <i class="fa fa-twitter pull-right"></i-->
+<div id="widget_sp_image-3" class="widget_sp_image widget"><h3>The team</h3><a href="http://www.promerc.eu/?p=615" target="_self" class="widget_sp_image-image-link" title="The team"><img width="690" height="341" alt="The team" class="attachment-full alignleft" style="max-width: 100%;" src="http://www.promerc.eu/wp-content/uploads/2014/06/Consortium_Malmo_May-2014_small.jpg" /></a><div class="widget_sp_image-description" ><p>The ProMerc Consortium during two days of (workshop) meetings at WMU Headquarters in Malmö, May 2014.</p>
+</div></div>				</div>
+<div class="col-sm-4 homecol">
+<h3>Partners about</h3>
+<div id="testimonial_ssliderr_wid-3" class="testimonial_sliderr_wclass widget"><h3></h3><script type="text/javascript"> jQuery(document).ready(function() {jQuery("head").append("<style type=\"text/css\">.testimonial_slider_set.testimonial_slider{width:100% !important;max-width:300px;display:block;}.testimonial_slider_set img{max-width:90% !important;}.testimonial_side{width:100% !important;}</style>");});jQuery(document).ready(function() {			jQuery("#testimonial_slider_recent").testiMonial({				responsive: true,				items: 	{					width: 300,					visible     : {	min: 1,	max: 1}				},				pagination  : { container: "#testimonial_slider_recent_nav",			anchorBuilder: function( nr ) {				return '<a href="#" style="background: transparent url(http://www.promerc.eu/wp-content/plugins/testimonial-slider/css/skins/default/buttons/default/nav.png) no-repeat;width:16px;height:16px;"></a>';			} },				auto: 3000, next:   "#testimonial_slider_recent_next", 				 prev:   "#testimonial_slider_recent_prev",				scroll: {						items:1,						fx: "fade",						easing: "swing",						duration: 700,						pauseOnHover: true					}			});			jQuery("head").append("<style type=\"text/css\">#testimonial_slider_recent_nav a.selected{background-position:-16px 0 !important;}</style>");			jQuery("#testimonial_slider_recent_wrap").hover( 				function() { jQuery(this).find(".testimonial_nav_arrow_wrap").show();}, 				function() { jQuery(this).find(".testimonial_nav_arrow_wrap").hide();} );			jQuery("#testimonial_slider_recent").touchwipe({					wipeLeft: function() {						jQuery("#testimonial_slider_recent").trigger("next", 1);					},					wipeRight: function() {						jQuery("#testimonial_slider_recent").trigger("prev", 1);					},					preventDefaultEvents: false			});						});</script> 	<noscript><p><strong></strong></p></noscript>	<div id="testimonial_slider_recent_wrap" class="testimonial_slider testimonial_slider_set testimonial_slider__default" style="width:300px;">				<div id="testimonial_slider_recent" class="testimonial_slider_instance">			<div class="testimonial_slideri" style="background-color:#ffffff;border:0px solid #dddddd;width:300px;height:200px;">			<!-- testimonial_slideri --><div class="testimonial_by_wrap" ><span class="testimonial_avatar" ><img src="http://www.promerc.eu/wp-content/uploads/2014/06/Foto-Sergie-Funtò-150x150.jpg" style="max-height:80px;width:80px;border:1px solid #cccccc;" /></span><span class="testimonial_by" style="line-height:15px;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:normal;color:#737373;">Sergio Funtò</span><span class="testimonial_site" style="line-height:15px;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:normal;color:#f16022;"><a href="http://www.promerc.eu/?p=490"  style="line-height:15px;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:normal;color:#f16022;">EII</a></span></div><div class="testimonial_quote" style="background:url(http://www.promerc.eu/wp-content/plugins/testimonial-slider/css/skins/default/buttons/default/quote.png) left top no-repeat;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:italic;color:#737373;"><span > We are very happy to participate in the PROMERC project as this allows us to get to know people, ideas, rules and traditions coming from the European merchant ships world.  EII people have undertaken this work with grate enthusiasm that will allow them to increase their cultural background. <a href="http://www.promerc.eu/partners/#eii">Read more...</a> </span></div>	<div class="sldr_clearlt"></div><div class="sldr_clearrt"></div><!-- /testimonial_slideri -->		</div><div class="testimonial_slideri" style="background-color:#ffffff;border:0px solid #dddddd;width:300px;height:200px;">			<!-- testimonial_slideri --><div class="testimonial_by_wrap" ><span class="testimonial_avatar" ><img src="http://www.promerc.eu/wp-content/uploads/2014/06/SAMI_Elisabeth-Wilson1.jpg" style="max-height:80px;width:80px;border:1px solid #cccccc;" /></span><span class="testimonial_by" style="line-height:15px;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:normal;color:#737373;">SAMI</span><span class="testimonial_site" style="line-height:15px;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:normal;color:#f16022;"><a href="http://www.promerc.eu/?p=488"  style="line-height:15px;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:normal;color:#f16022;">SAMI</a></span></div><div class="testimonial_quote" style="background:url(http://www.promerc.eu/wp-content/plugins/testimonial-slider/css/skins/default/buttons/default/quote.png) left top no-repeat;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:italic;color:#737373;"><span > We are pleased to be a part of PROMERC, a hugely important and significant maritime security project. For too long shipping has been left dealing with the problems of piracy, but without the solutions it needs. Now within PROMERC, partners and key stakeholders are working together to <a href="http://www.promerc.eu/partners/#sami">read more...</a> </span></div>	<div class="sldr_clearlt"></div><div class="sldr_clearrt"></div><!-- /testimonial_slideri -->		</div><div class="testimonial_slideri" style="background-color:#ffffff;border:0px solid #dddddd;width:300px;height:200px;">			<!-- testimonial_slideri --><div class="testimonial_by_wrap" ><span class="testimonial_avatar" ><img src="http://www.promerc.eu/wp-content/uploads/2014/04/Huw-Davies-foto-150x150.jpg" style="max-height:80px;width:80px;border:1px solid #cccccc;" /></span><span class="testimonial_by" style="line-height:15px;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:normal;color:#737373;">Huw Davies</span><span class="testimonial_site" style="line-height:15px;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:normal;color:#f16022;"><a href="http://www.promerc.eu/?p=471"  style="line-height:15px;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:normal;color:#f16022;">FLIR</a></span></div><div class="testimonial_quote" style="background:url(http://www.promerc.eu/wp-content/plugins/testimonial-slider/css/skins/default/buttons/default/quote.png) left top no-repeat;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:italic;color:#737373;"><span > “As a former seafarer I am committed to reducing the risk of piracy to merchant seamen and shipping in the most cost effective way possible through a better understanding of risk, costs and benefits. PROMERC will achieve this.” </span></div>	<div class="sldr_clearlt"></div><div class="sldr_clearrt"></div><!-- /testimonial_slideri -->		</div><div class="testimonial_slideri" style="background-color:#ffffff;border:0px solid #dddddd;width:300px;height:200px;">			<!-- testimonial_slideri --><div class="testimonial_by_wrap" ><span class="testimonial_avatar" ><img src="http://www.promerc.eu/wp-content/uploads/2014/04/Huw-Davies-foto-150x150.jpg" style="max-height:80px;width:80px;border:1px solid #cccccc;" /></span><span class="testimonial_by" style="line-height:15px;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:normal;color:#737373;">Huw Davies</span><span class="testimonial_site" style="line-height:15px;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:normal;color:#f16022;"><a href="http://www.promerc.eu/?p=471"  style="line-height:15px;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:normal;color:#f16022;">FLIR</a></span></div><div class="testimonial_quote" style="background:url(http://www.promerc.eu/wp-content/plugins/testimonial-slider/css/skins/default/buttons/default/quote.png) left top no-repeat;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:italic;color:#737373;"><span > There are a bewildering number of options available to shipping companies to mitigate the risk of piracy and to deter pirates with scant information regarding their operational effectiveness or the cost benefits of their use. <a title="Quote-FLIR" href="http://www.promerc.eu/partners/#flir">Read more...</a> </span></div>	<div class="sldr_clearlt"></div><div class="sldr_clearrt"></div><!-- /testimonial_slideri -->		</div><div class="testimonial_slideri" style="background-color:#ffffff;border:0px solid #dddddd;width:300px;height:200px;">			<!-- testimonial_slideri --><div class="testimonial_by_wrap" ><span class="testimonial_avatar" ><img src="http://www.promerc.eu/wp-content/uploads/2014/03/uniresearch-150x80.jpg" style="max-height:80px;width:80px;border:1px solid #cccccc;" /></span><span class="testimonial_by" style="line-height:15px;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:normal;color:#737373;"></span><span class="testimonial_site" style="line-height:15px;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:normal;color:#f16022;"><a href="http://www.promerc.eu/?p=223"  style="line-height:15px;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:normal;color:#f16022;">Uniresearch</a></span></div><div class="testimonial_quote" style="background:url(http://www.promerc.eu/wp-content/plugins/testimonial-slider/css/skins/default/buttons/default/quote.png) left top no-repeat;font-family:'Lucida Sans Unicode', 'Lucida Grand', sans-serif;;font-size:12px;font-weight:normal;font-style:italic;color:#737373;"><span > Uniresearch is the project manager of the ProMerc project. </span></div>	<div class="sldr_clearlt"></div><div class="sldr_clearrt"></div><!-- /testimonial_slideri -->		</div>		</div>		<div id="testimonial_slider_recent_nav" class="testimonial_nav" ></div>		<div class="testimonial_nav_arrow_wrap">			<a class="testimonial_prev" id="testimonial_slider_recent_prev" href="#" style="background: transparent url(http://www.promerc.eu/wp-content/plugins/testimonial-slider/css/skins/default/buttons/default/prev.png) no-repeat 0 0;"><span>prev</span></a>			<a class="testimonial_next" id="testimonial_slider_recent_next" href="#" style="background: transparent url(http://www.promerc.eu/wp-content/plugins/testimonial-slider/css/skins/default/buttons/default/next.png) no-repeat 0 0;"><span>next</span></a>		</div>	</div></div>				</div>
+<div class="col-sm-4 homecol">
+<div id="text-4" class="widget_text widget"><h3>Project interactions</h3>			<div class="textwidget"><p>The ProMerc project will interact with other EC funded initiatives, where the main interaction will be with <a href ="http://www.ipatchproject.eu/" target="_blank"> iPatch</a>.</p>
+<p>PROMERC and the related IPATCH project have agreed to develop a common data schema for the capture of all piracy related information. It is anticipated that this will lay the groundwork for a future ‘standard’ data model which will be adopted by all agencies.</p>
+</div>
+</div><div id="widget_sp_image-4" class="widget_sp_image widget"><a href="http://www.ipatchproject.eu/" target="_self" class="widget_sp_image-image-link" title=""><img width="200" height="86" alt="" class="attachment-medium aligncenter" style="max-width: 100%;" src="http://www.promerc.eu/wp-content/uploads/2014/04/logo-iPatch.png" /></a></div>				</div>
+</div>
+<div>
+<div class="col-xs-12 newrow">
+<ul class="kiwi-logo-carousel-default grayhovercolor col4"><li><a target="_blank" href="http://www.uniresearch.nl/"><img src="http://www.promerc.eu/wp-content/uploads/2014/04/UNR-Logo-200x72.jpg" alt="Uniresearch" title="Uniresearch"></a></li><li><a target="_blank" href="https://www.tno.nl/"><img src="http://www.promerc.eu/wp-content/uploads/2014/04/07-TNO-LQ.jpg" alt="TNO" title="TNO"></a></li><li><a target="_blank" href="http://www.marss.co.uk/"><img src="http://www.promerc.eu/wp-content/uploads/2014/04/logo_MARSS_200x72.jpg" alt="MARSS" title="MARSS"></a></li><li><a target="_blank" href="http://www.cmre.nato.int/"><img src="http://www.promerc.eu/wp-content/uploads/2014/04/02-CMRE-LQ.png" alt="CMRE" title="CMRE"></a></li><li><a target="_blank" href="http://wmu.se/"><img src="http://www.promerc.eu/wp-content/uploads/2014/04/03-WMU-LQ.png" alt="WMU" title="WMU"></a></li><li><a target="_blank" href="http://www.stt.aegean.gr/en.html"><img src="http://www.promerc.eu/wp-content/uploads/2014/04/04-UoA-LQ.png" alt="UoA" title="UoA"></a></li><li><a target="_blank" href="http://www.seasecurity.org/"><img src="http://www.promerc.eu/wp-content/uploads/2014/04/05-SAMI-LQ.png" alt="SAMI" title="SAMI"></a></li><li><a target="_blank" href="http://www.eng.it/"><img src="http://www.promerc.eu/wp-content/uploads/2014/04/08-EII-LQ.png" alt="EII" title="EII"></a></li><li><a target="_blank" href="http://www.oldendorff.com/index.html"><img src="http://www.promerc.eu/wp-content/uploads/2014/04/09-OLD-LQ.png" alt="Oldendorff" title="Oldendorff"></a></li></ul>				</div>
+</div>
+</article>
+<!-- /article -->
+</div>
+<!-- /content -->
+</div> <!-- /row -->			</div> <!-- /content container -->							<!-- footer -->			<div id="footer" class="footer">			<div class="container footercolor shadow" >								<div id="top">						<div  class="col-lg-3 col-md-3 col-sm-6 col-xs-6 "><h3>Project info</h3><ul id="menu-footer1" class="menu"><li id="menu-item-401" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-401"><a href="http://www.promerc.eu/facts-and-figures/" >Facts and Figures</a></li>
+<li id="menu-item-376" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-376"><a href="http://www.promerc.eu/objectives/" >Objectives</a></li>
+<li id="menu-item-377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-377"><a href="http://www.promerc.eu/inside/" >Scope</a></li>
+<li id="menu-item-364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-364"><a href="http://www.promerc.eu/downloads/" >Downloads</a></li>
+</ul></div><div  class="col-lg-3 col-md-3 col-sm-6 col-xs-6 "><h3>Project interactions</h3><ul id="menu-footer2" class="menu"><li id="menu-item-381" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381"><a href="http://www.promerc.eu/links/" >Links</a></li>
+<li id="menu-item-383" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-383"><a href="http://www.promerc.eu/news/" >News/Events</a></li>
+<li id="menu-item-380" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380"><a href="http://www.promerc.eu/subscribe/" >Subscribe</a></li>
+<li id="menu-item-384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-384"><a href="http://www.promerc.eu/partners/" >Partners</a></li>
+</ul></div><div  class="col-lg-3 col-md-3 col-sm-6 col-xs-6 "><h3>Contact details</h3>			<div class="textwidget"><p>Project Coordinator<br />
+FLIR<br />
+Mr Huw Davies<br />
+<a href="mailto:huw.davies@flir.com">Send Email</a><br />
+www.FLIR.com</p>
+<p>Project Manager<br />
+Uniresearch BV<br />
+Mr Cor van der Zweep<br />
+<a href="mailto:c.vanderzweep@uniresearch.com">Send Email</a><br />
+www.uniresearch.com</p>
+</div>
+</div><div  class="col-lg-3 col-md-3 col-sm-6 col-xs-6 "><h3>Information</h3>			<div class="textwidget"><p>This project has received funding from the European Union’s Seventh Framework Programme for research, technological development and demonstration under Grant <img src="http://www.kiwibootstrap.nl/wp-content/uploads/2014/04/EU-flag_yellow_200-e1397588642336.jpg" class="alignright">Agreement no. 607685.</p>
+</div>
+</div>						<div class="rows">						<div class="col-xs-12 lastfooter">												<div class="col-xs-6">								<span class="copyright" >&copy; Copyright 2016 Promerc</span>							</div>							<div class="col-xs-6 ysdvak">			<a target="_blank" href="http://www.uniresearch.com" title="Uniresearch">Uniresearch</a> - <a target="_blank" href="http://www.yourstyledesign.nl" title="Reclamebureau Yourstyledesign">YSD</a> for <a target="_blank" href="http://www.yourstyledesign.nl/grafisch" rtitle="Graphic Design">graphic</a> and <a target="_blank" href="http://www.yourstyledesign.nl/websites" title="Webdesign">webdesign</a></div>     							</div>										</div>									</div>						</div>													</div>			</div>			<!-- /footer -->					</div> <!-- /wrapper -->		<!-- <link rel='stylesheet' id='bxslider-css-css'  href='http://www.promerc.eu/wp-content/plugins/kiwi-logo-carousel/third-party/jquery.bxslider/jquery.bxslider.css?ver=3.9' type='text/css' media='' /> -->
+<!-- <link rel='stylesheet' id='kiwi-logo-carousel-styles-css'  href='http://www.promerc.eu/wp-content/plugins/kiwi-logo-carousel/custom-styles.css?ver=3.9' type='text/css' media='' /> -->
+<link rel="stylesheet" type="text/css" href="//www.promerc.eu/wp-content/cache/wpfc-minified/54bd8f02df3b5193c46e2f0c37105703/1446822216index.css" media="all"/>
+<script type='text/javascript' src='http://www.promerc.eu/wp-content/plugins/cyclone-slider-pro/libs/cycle2/jquery.cycle2.min.js?ver=2.8.2'></script>
+<script type='text/javascript' src='http://www.promerc.eu/wp-content/plugins/cyclone-slider-pro/libs/cycle2/jquery.cycle2.carousel.min.js?ver=2.8.2'></script>
+<script type='text/javascript' src='http://www.promerc.eu/wp-content/plugins/cyclone-slider-pro/libs/cycle2/jquery.cycle2.swipe.min.js?ver=2.8.2'></script>
+<script type='text/javascript' src='http://www.promerc.eu/wp-content/plugins/cyclone-slider-pro/libs/cycle2/jquery.cycle2.tile.min.js?ver=2.8.2'></script>
+<script type='text/javascript' src='http://www.promerc.eu/wp-content/plugins/cyclone-slider-pro/libs/cycle2/jquery.cycle2.video.min.js?ver=2.8.2'></script>
+<script type='text/javascript' src='http://www.promerc.eu/wp-content/plugins/cyclone-slider-pro/libs/jquery-easing/jquery.easing.1.3.1.min.js?ver=2.8.2'></script>
+<script type='text/javascript' src='http://www.promerc.eu/wp-content/plugins/cyclone-slider-pro/libs/magnific-popup/jquery.magnific-popup.min.js?ver=2.8.2'></script>
+<script type='text/javascript' src='http://www.promerc.eu/wp-content/plugins/cyclone-slider-pro/templates/dark/script.js?ver=2.8.2'></script>
+<script type='text/javascript' src='http://www.promerc.eu/wp-content/plugins/cyclone-slider-pro/templates/galleria/script.js?ver=2.8.2'></script>
+<script type='text/javascript' src='http://www.promerc.eu/wp-content/plugins/cyclone-slider-pro/templates/thumbnails/script.js?ver=2.8.2'></script>
+<script type='text/javascript' src='http://www.promerc.eu/wp-content/plugins/cyclone-slider-pro/js/client.js?ver=2.8.2'></script>
+<script type='text/javascript' src='http://www.promerc.eu/wp-content/plugins/kiwi-logo-carousel/third-party/jquery.bxslider/jquery.bxslider.js?ver=3.9'></script>
+</body></html><!-- WP Fastest Cache file was created in 0.5034191608429 seconds, on 11-02-16 16:05:06 Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko--><!-- via php -->

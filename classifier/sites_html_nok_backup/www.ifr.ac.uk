@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<META http-equiv="refresh" content="0;URL=http://biorefinerycentre.ifr.ac.uk"> 
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>NAMASTE project</title>
+<!-- InstanceEndEditable -->
+<link href="../screen.css" rel="stylesheet" type="text/css" />
+<!--[if IE 5]>
+<style>body {text-align: center;}#wrapper {text-align: left;}.menulist a {float: left; clear: both;}</style>
+<![endif]-->
+<!--[if lte IE 7]>
+<style>#wrapper, #footer, #masthead {zoom: 1;}</style>
+<![endif]-->
+<script language="JavaScript">
+<!--
+function breadCrumbs(base,delStr,defp,cStyle,tStyle,dStyle,nl) { // by Paul Davis - http://www.kaosweaver.com
+loc=window.location.toString();subs=loc.substr(loc.indexOf(base)+base.length+1).split("/");
+ document.write('<a href="'+getLoc(subs.length-1)+defp+'" class="'+cStyle+'">Home</a>  '+'<span class="'+dStyle+'">'+delStr+'</span> ');
+ a=(loc.indexOf(defp)==-1)?1:2;for (i=0;i<(subs.length-a);i++) { subs[i]=makeCaps(unescape(subs[i]));
+ document.write('<a href="'+getLoc(subs.length-i-2)+defp+'" class="'+cStyle+'">'+subs[i]+'</a>  '+'<span class="'+dStyle+'">'+delStr+'</span> ');}
+ if (nl==1) document.write("<br>");document.write('<span class="'+tStyle+'">'+document.title+'</span>');
+}
+function makeCaps(a) {
+  g=a.split(' ');for (l=0;l<g.length;l++) g[l]=g[l].toUpperCase().slice(0,1)+g[l].slice(1);
+  return g.join(" ");
+}
+function getLoc(c) {
+  var d="";if (c>0) for (k=0;k<c;k++) d=d+"../"; return d;
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+<body onload="MM_preloadImages('../images/bullet_ov.gif')">
+<div id="wrapper">
+  <div id="masthead">
+    <div class="content">
+      <table border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td><img src="../images/title.gif" alt="Sustainability in the Food Chain" width="227" height="108" /></td>
+          <td><img src="../images/spacer.gif" alt="*" width="12" height="108" /></td>
+          <td><img src="../images/header_central.gif" alt="Sustainability in the Food Chain" width="226" height="108" /></td>
+          <td><img src="../images/spacer.gif" alt="*" width="13" height="108" /></td>
+          <td><a href="http://www.ifr.ac.uk"><img src="../images/splash_topright.jpg" alt="Institute of Food Research: Exploitation Platform" width="226" height="108" border="0" /></a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div id="center">
+  <div id="navigation"><a href="../overview/default.html" class="navmenu" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','../images/bullet_ov.gif',1)"><img src="../images/bullet.gif" alt="*" name="home" width="24" height="18" border="0" align="absmiddle">Overview</a>
+		  <a href="default.html" class="navmenu" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('research','','../images/bullet_ov.gif',1)"><img src="../images/bullet.gif" alt="*" name="research" width="24" height="18" border="0" align="absmiddle">Research</a>
+		  <a href="../People/default.html" class="navmenu" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('People','','../images/bullet_ov.gif',1)"><img src="../images/bullet.gif" alt="*" name="People" width="24" height="18" border="0" align="absmiddle">People</a>
+		  <a href="../Outputs/default.html" class="navmenu" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Outputs','','../images/bullet_ov.gif',1)"><img src="../images/bullet.gif" alt="*" name="Outputs" width="24" height="18" border="0" align="absmiddle">Outputs</a>
+		  <a href="../news/default.html" class="navmenu" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('links','','../images/bullet_ov.gif',1)"><img src="../images/bullet.gif" alt="*" name="links" width="24" height="18" border="0" align="absmiddle">News</a>
+		  <a href="../links/default.html" class="navmenu" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contact','','../images/bullet_ov.gif',1)"><img src="../images/bullet.gif" alt="*" name="contact" width="24" height="18" border="0" align="absmiddle"">Links</a><a href="../contact/default.html" class="navmenu" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('contact1','','../images/bullet_ov.gif',1)"><img src="../images/bullet.gif" alt="*" name="contact1" width="24" height="18" border="0" align="absmiddle" id="contact1">Contact us</a></div>
+    <div class="content">
+      <div class="noprint">
+        <script language="JavaScript" type="text/javascript">breadCrumbs("www.ifr.ac.uk/sustainability",">","default.html","breadcrumb","breadcrumb","breadcrumb","0");</script>
+      </div>
+      <!-- InstanceBeginEditable name="textarea" -->
+                    <h1>About the NAMASTE project<img src="/SFC/images/clip_image002_0003.jpg" alt="" width="245" height="86" hspace="15" border="0" align="right" /></h1>
+                    <ul>
+                      <li>Project Sponsor: Collaborative project  in coordination with DBT (India), funded by the European   Commission.</li>
+                      <li>Topics addressed:  KBBE-2009-2-7-02 Valorisation of by-products in food processing</li>
+                      <li> Project Title: New Advances in the integrated Management of food processing wAste in India and Europe: use of Sustainable Technologies for the Exploitation of by-products into new foods and feeds (NAMASTE)</li>
+                      </ul>
+                    <h2>Purpose and significance of the project</h2>
+                    <p>NAMASTE is a proactive international cooperation effort directed  at the valorization of selected byproducts where a clear mutual benefit exists  in terms of knowledge generation and market expansion for the global Food &amp;  Drink Industry.</p>
+                    <p>The NAMASTE  is an innovative EU project  dealing with the conversion of fruit and cereal processing<br />
+                      byproducts and wastes into new healthy  foods. It is the first time that such a challenge of key relevance for the  sustainability and competitiveness of the fruit and cereal processing sectors  of European food industry is faced through a  synergistic European and Indian effort. Such an effort has been also specifically  tailored for addressing the wellbeing request of modern society which displays an  ever widening demand for “simple and ready to eat” foods with improved  nutritive value, novel shapes and flavours, colour and texture.</p>
+                    <p>The overall aim of the NAMASTE R&amp;D project is to identify  and introduce innovative and industry relevant approaches for the valorization  of fruit (citrus, mango &amp; pomegranates) and cereal (rice &amp; wheat) wastes and by-products. This will be achieved through an  holistic conversion into functional and health-benefitting beverages, foods and  feeds by means of environmentally and economically sustainable protocols and  technologies. Through this type of approach it is envisaged  that the production of food processing waste would be minimized and underpinned by building a synergistic research  programme between Europe and India to serve the future knowledge-based  economies through improved competitive advantage.</p>
+                    <p align="center"><img src="../images/NAMASTE plan.jpg" alt="" width="606" height="455" /></p>
+                    <p align="left">At IFR, the focus is on the use of wheat bran. The work, co-ordinated through the <a href="http://www.ifr.ac.uk/sfc">Sustainability of the Food Chain</a> Exploitation Platform, involves collaboration with the <a href="http://www.ifr.ac.uk/chemical-imaging/">IFR Imaging Partnership</a> and <a href="http://www.ifr.ac.uk/info/science/GIT/gut-microbiota.htm">Integrated Biology of the GI Tract</a>.</p>
+      <h2>The Consortium</h2>
+                    <p>The project consortium includes partners  in both the EU and India.</p>
+                    <p>The European partners are: </p>
+                    <ol>
+                      <li>Alma Mater Studiorum-Università di Bologna, Italy (Coordinator : F. Fava)</li>
+                      <li>The Institute of Food Research (UK)</li>
+                      <li>AZTI Tecnalia / Unidad de Investigación Alimentaria (Spain)</li>
+                      <li>Campden &amp; Chorleywood Magyarország (Hungary)</li>
+                      <li>Agrotechnology and Food Innovations B.V. (The Netherlands)</li>
+                      <li>Grupo Leche Pascual (Spain)</li>
+                      <li>J. Rettenmaier &amp; Söhne GmbH + CO. KG, (Germany)</li>
+                    </ol>
+<p>The Indian partners are: </p>
+<ol>
+  <li>North East Institute of Science &amp; Technology, Jorhat, Assam  (Coordinator : P. K. Goswami)</li>
+  <li>Euro India Research Centre, Bangalore</li>
+  <li>University of Agricultural Sciences, Bangalore</li>
+  <li>Nature Fresh Logistics Pvt Ltd, Maharashtra</li>
+  <li>Desai Fruits and Vegetables, Mumbai.<br />
+</li>
+  </ol>
+<h2>
+                      Project newsletters:</h2>
+                    <ul>
+                      <li><a href="Namaste_Brochure_version3.pdf">NAMASTE Project Brochure</a></li>
+                      <li><a href="1st Newsletter.pdf">First Newsletter (October 2010)</a></li>
+                      <li><a href="2nd Newsletter  of NAMASTE.pdf">Second Newsletter (March 2011)</a> </li>
+                      <li><a href="3rd NAMASTE newsletter.pdf">Third Newsletter (July 2011)</a></li>
+                      <li><a href="4th NAMASTE Newsletter.pdf">Fourth Newsletter (January 2012) </a></li>
+                      <li><a href="5th NAMASTE newsletter.pdf">Fifth Newsletter (September 2012) </a><img src="../images/new icon.jpg" alt="" width="39" height="35" hspace="5" align="bottom" /></li>
+      </ul>
+      <h2>Who to contact for further information:</h2>
+                    <blockquote>
+                      <p>Professor Keith Waldron / Dr Jim Robertson<br />
+                      
+                      Institute of Food Research<br />
+                      Norwich Research Park <br />
+                      Colney<br />
+                      Norwich <br />
+                      NR4 7UA<br />
+                      UK <br />
+                      Phone: +44 (0) 1603 255000<br />
+                      Fax: +44 (0) 1603 507723</p>
+                      <p>E-mail: <a href="mailto:keith.waldron@ifr.ac.uk">keith.waldron@ifr.ac.uk</a></p>
+                      <p>E-mail: <a href="mailto:jim.robertson@ifr.ac.uk">jim.robertson@ifr.ac.uk</a></p>
+                      <p>&nbsp;</p>
+                    </blockquote>
+                    <!-- InstanceEndEditable -->
+      <table width="650"  border="0" align="center" cellpadding="0" cellspacing="0" class="footerText">
+        <tr>
+          <td width="90" height="80" align="left" valign="middle"><a href="http://www.ifr.ac.uk/SFC/"><img src="../images/SFClogo.gif" alt="Sustainability in the Food Chain Exploitation Platform" width="71" height="70" border="0" /></a></td>
+          <td width="483" align="center" valign="middle"><a href="http://www.ifr.ac.uk">Copyright Institute of Food Research</a></td>
+          <td width="90" align="center" valign="middle"><a href="http://www.ifr.ac.uk"><img src="../images/ifrlogo.gif" alt="Institute of Food Research" width="71" height="70" border="0" /></a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div id="footer">
+    <div class="content">website designed by <a href="mailto:ifr.communications@ifr.ac.uk">NBI Communications</a></div>
+  </div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10095354-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+<!-- InstanceEnd --></html>

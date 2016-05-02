@@ -1,0 +1,566 @@
+
+<!DOCTYPE html>
+<html>
+<head id="ctl00_Head1"><title>
+	Home - RADIOMI
+</title>
+<link rel='stylesheet' type='text/css' href='//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/themes/cupertino/jquery-ui.css' />
+<link rel='stylesheet' type='text/css' href='/csshandler.ashx?skin=styleshout-refresh&amp;s=27&amp;v=2.4.0.3&amp;sv=00000000-0000-0000-0000-000000000000' />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="search" type="application/opensearchdescription+xml" title="RADIOMI Site Search" href="http://radiomi.chem.ox.ac.uk/SearchEngineInfo.ashx" />
+	<!--[if IE]>
+	<meta http-equiv="Page-Enter" content="blendTrans(Duration=0)" /><meta http-equiv="Page-Exit" content="blendTrans(Duration=0)" />
+	<![endif]-->
+	
+<link rel='shortcut icon' href='/Data/Sites/27/skins/styleshout-refresh/favicon.ico' />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript" ></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js" type="text/javascript" ></script>
+<link rel='canonical' href='http://radiomi.chem.ox.ac.uk/home.aspx' /></head>
+<body id="ctl00_Body" class="pagebody">
+<script type="text/javascript"> 
+var _gaq = _gaq || []; 
+_gaq.push(['_setAccount','UA-49363107-1']); 
+_gaq.push(['_gat._anonymizeIp']);
+_gaq.push(['_setCustomVar', 1, 'member-type', 'anonymous', 1]); _gaq.push(['_trackPageview']); 
+ _gaq.push(['_trackPageLoadTime']); 
+ </script>
+<form method="post" action="/" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATEFIELDCOUNT" id="__VIEWSTATEFIELDCOUNT" value="6" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjA1OTAyNzk1MQ9kFgJmD2QWAgIDD2QWAgIDD2QWDgIRDw8WAh4HVmlzaWJsZWhkZAIbDw8WAh8AaGRkAiMPZBYCZg9kFgICAQ8PZBYCHgVzdHlsZQUPZGlzcGxheTppbmxpbmU7FgQCAw8PFgIeB1Rvb2xUaXAFC1NpdGUgU2VhcmNoZGQCBQ8PFgIeBFRleHQFBlNlYXJjaGRkAicPDxYEHghDc3NDbGFzcwUQbGVmdHNpZGUgY21zem9uZR4EXyFTQgICZBYCAgMPZBYIZg9kFgICAg9kFgICAw9kFgICAw9kFgICAQ9kFgQCAQ8PFgIfAGhkFgICAQ9kFgJmD2QWAgIFD2QWAmYPFgIeCkNhbGxiYWNrSUQFKWN0bDAwJGxlZnRDb250ZW50JGN0bDAwJFJhdGluZyRVc2VyUmF0aW5nZAINDw8WAh8AaGQWAgIBD2QWAmYPZBYCAgUPZBYCZg8WAh8GBS9jdGwwMCRs" />
+<input type="hidden" name="__VIEWSTATE1" id="__VIEWSTATE1" value="ZWZ0Q29udGVudCRjdGwwMCRSYXRpbmdCb3R0b20kVXNlclJhdGluZ2QCAQ9kFgICAg9kFgICAw9kFgICAw9kFgICAQ9kFgQCAQ8PFgIfAGhkFgICAQ9kFgJmD2QWAgIFD2QWAmYPFgIfBgUpY3RsMDAkbGVmdENvbnRlbnQkY3RsMDEkUmF0aW5nJFVzZXJSYXRpbmdkAg0PDxYCHwBoZBYCAgEPZBYCZg9kFgICBQ9kFgJmDxYCHwYFL2N0bDAwJGxlZnRDb250ZW50JGN0bDAxJFJhdGluZ0JvdHRvbSRVc2VyUmF0aW5nZAICD2QWAgICD2QWAgIDD2QWAgIDD2QWAgIBD2QWBAIBDw8WAh8AaGQWAgIBD2QWAmYPZBYCAgUPZBYCZg8WAh8GBSljdGwwMCRsZWZ0Q29udGVudCRjdGwwMiRSYXRpbmckVXNlclJhdGluZ2QCDQ8PFgIfAGhkFgICAQ9kFgJmD2QWAgIFD2QWAmYP" />
+<input type="hidden" name="__VIEWSTATE2" id="__VIEWSTATE2" value="FgIfBgUvY3RsMDAkbGVmdENvbnRlbnQkY3RsMDIkUmF0aW5nQm90dG9tJFVzZXJSYXRpbmdkAgMPZBYCAgIPZBYCAgMPZBYCAgMPZBYCAgEPZBYEAgEPDxYCHwBoZBYCAgEPZBYCZg9kFgICBQ9kFgJmDxYCHwYFKWN0bDAwJGxlZnRDb250ZW50JGN0bDAzJFJhdGluZyRVc2VyUmF0aW5nZAINDw8WAh8AaGQWAgIBD2QWAmYPZBYCAgUPZBYCZg8WAh8GBS9jdGwwMCRsZWZ0Q29udGVudCRjdGwwMyRSYXRpbmdCb3R0b20kVXNlclJhdGluZ2QCKQ8PFgQfBAVGYXJ0LWxheW91dC1jZWxsICBhcnQtY29udGVudC1uYXJyb3cgY2VudGVyLXJpZ2h0YW5kbGVmdG1hcmdpbnMgY21zem9uZR8FAgJkFgICBQ9kFgRmD2QWAgICD2QWAgIDD2QWAgIDD2QWAgIBD2QWBAIBDw8W" />
+<input type="hidden" name="__VIEWSTATE3" id="__VIEWSTATE3" value="Ah8AaGQWAgIBD2QWAmYPZBYCAgUPZBYCZg8WAh8GBSljdGwwMCRtYWluQ29udGVudCRjdGwwMCRSYXRpbmckVXNlclJhdGluZ2QCDQ8PFgIfAGhkFgICAQ9kFgJmD2QWAgIFD2QWAmYPFgIfBgUvY3RsMDAkbWFpbkNvbnRlbnQkY3RsMDAkUmF0aW5nQm90dG9tJFVzZXJSYXRpbmdkAgEPZBYCAgIPZBYCAgMPZBYCAgMPZBYCAgEPZBYEAgEPDxYCHwBoZBYCAgEPZBYCZg9kFgICBQ9kFgJmDxYCHwYFKWN0bDAwJG1haW5Db250ZW50JGN0bDAxJFJhdGluZyRVc2VyUmF0aW5nZAINDw8WAh8AaGQWAgIBD2QWAmYPZBYCAgUPZBYCZg8WAh8GBS9jdGwwMCRtYWluQ29udGVudCRjdGwwMSRSYXRpbmdCb3R0b20kVXNlclJhdGluZ2QCKw8PFgQfBAURcmlnaHRzaWRlIGNt" />
+<input type="hidden" name="__VIEWSTATE4" id="__VIEWSTATE4" value="c3pvbmUfBQICZBYCAgEPZBYEZg9kFgICAg9kFgICAw9kFgICAw9kFgICAQ9kFgQCAQ8PFgIfAGhkFgICAQ9kFgJmD2QWAgIFD2QWAmYPFgIfBgUqY3RsMDAkcmlnaHRDb250ZW50JGN0bDAwJFJhdGluZyRVc2VyUmF0aW5nZAINDw8WAh8AaGQWAgIBD2QWAmYPZBYCAgUPZBYCZg8WAh8GBTBjdGwwMCRyaWdodENvbnRlbnQkY3RsMDAkUmF0aW5nQm90dG9tJFVzZXJSYXRpbmdkAgEPZBYCAgIPZBYCAgMPZBYCAgMPZBYCAgEPZBYEAgEPDxYCHwBoZBYCAgEPZBYCZg9kFgICBQ9kFgJmDxYCHwYFKmN0bDAwJHJpZ2h0Q29udGVudCRjdGwwMSRSYXRpbmckVXNlclJhdGluZ2QCDQ8PFgIfAGhkFgICAQ9kFgJmD2QWAgIFD2QWAmYPFgIfBgUwY3RsMDAkcmlnaHRDb250" />
+<input type="hidden" name="__VIEWSTATE5" id="__VIEWSTATE5" value="ZW50JGN0bDAxJFJhdGluZ0JvdHRvbSRVc2VyUmF0aW5nZAI5Dw8WAh8AaGRkGAEFFWN0bDAwJFNpdGVNZW51MSRjdGwwMA8PZAUkYWJkYmZlMTEtNDhiNi00MmUwLWFhZTYtYzQxZTVjMzQ1YzdjZBltXvQXAp0R/dZNJjXgYK1VOFsj" />
+
+
+<script src="/ScriptResource.axd?d=EEnfl3cJiZM0KBEnD7GAGVdW3OOKiC3OulGG9WfJ08W_K1dhWdgEwJKhknTJ3JfLNGOKef7r7mzfycnKCGRcyUfp36AgIgeKjnDrraiRDJK4um0AoDuJxJ0ZGwZcdvoASYaf4VmFTFm0fr86TJgVeZn_lUtFFb-GbikHon1nOlgBP4NHSWggrZOT-QFH4dKpRlgJtV5IvW747SFfA0ds8F9UhbWEFzzdCzfbozOFIRm4Vvuq0" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAtmAD0+gsX4U9cmOrcgVzhwh40PwVBRKJxhcUVQFDm46oGUyZBwuY8hTLvUbOiYnWYzAMiCiyVV9cVH213d4DK+/efUAxaKfxQjtNs/qwkZPMBnaoetP0dKuoIbWy+yYSXOtzAVQyIU+olAN2qJ8GXwluqpT+SRPGaj6Cukd6ylp+Yez0dntcCzzU7IqPPbjrYnY2PddqnhWvwByd2KlJ3DPZHMusP4VNBRBbrVW2Wngk2nrhfwcHYybiaOAUSudTnl1MTq" />
+
+
+
+
+<div id="outerwrap">
+<div class="topnav">
+    <ul>
+    
+    <li class="firstnav"><a class="sitelink homelink" href="/">Home</a></li>
+    <li class="topnavitem"><a class="sitelink" href="/SiteMap.aspx">Site Map</a></li>
+    
+    
+    
+    
+    
+    <li class="topnavitem"><a class="sitelink" rel="nofollow" href="/Secure/Login.aspx?returnurl=%2f">Sign In</a></li>
+    
+    </ul>  
+</div> 
+<div id="wrapwebsite">
+    <div id="wrapheader">
+	    <h1 class='art-Logo-name art-logo-name siteheading '><a class='siteheading' href='http://radiomi.chem.ox.ac.uk/Default.aspx'>RADIOMI</a></h1>
+	    <a href='#startcontent' class='skiplink'>Skip over navigation</a>
+        <div id="ctl00_InsecurePanel1" class="addthisbutton">
+	
+              
+        
+</div>
+        <div class="searchpanel">
+        <div id='ctl00_SearchInput1_pnlS' class=''>
+
+<div id="ctl00_SearchInput1_pnlSearch" class="searchpanel " style="display:inline;">
+	
+<h2 id="ctl00_SearchInput1_heading" style="position: absolute; left:-2000px; text-indent: -999em;"><label for="ctl00_SearchInput1_txtSearch" id="ctl00_SearchInput1_lblSearchHeading">Site Search</label></h2>
+<input onfocus="javascript:watermarkEnter(this, &#39;enter search terms&#39;);" onblur="javascript:watermarkLeave(this, &#39;enter search terms&#39;);" name="ctl00$SearchInput1$txtSearch" type="text" id="ctl00_SearchInput1_txtSearch" title="Site Search" class="watermarktextbox" />
+<input type="submit" name="ctl00$SearchInput1$btnSearch" value="Search" id="ctl00_SearchInput1_btnSearch" />
+
+
+</div>
+
+</div>
+        </div>
+    </div>
+    <div class="wrapmenu">
+    
+
+<div class="AspNet-Menu-Horizontal" id="ctl00_SiteMenu1_ctl00">
+		<ul class="AspNet-Menu">
+			<li class="AspNet-Menu-Leaf AspNet-Menu-SelectedLeaf">
+				<a href="/home.aspx" class="AspNet-Menu AspNet-Menu-SelectedLeaf">
+					<span>Home</span></a>
+			</li>
+			<li class="AspNet-Menu-Leaf">
+				<a href="/people.aspx" class="AspNet-Menu">
+					<span>Partners</span></a>
+			</li>
+			<li class="AspNet-Menu-Leaf">
+				<a href="/assoc-partners.aspx" class="AspNet-Menu">
+					<span>Assoc Partners</span></a>
+			</li>
+			<li class="AspNet-Menu-Leaf">
+				<a href="/esrsers.aspx" class="AspNet-Menu">
+					<span>Fellows</span></a>
+			</li>
+			<li class="AspNet-Menu-Leaf">
+				<a href="/news-1.aspx" class="AspNet-Menu">
+					<span>News</span></a>
+			</li>
+			<li class="AspNet-Menu-Leaf">
+				<a href="/events-1.aspx" class="AspNet-Menu">
+					<span>Events</span></a>
+			</li>
+			<li class="AspNet-Menu-Leaf">
+				<a href="/publications-1.aspx" class="AspNet-Menu">
+					<span>Publications</span></a>
+			</li>
+			<li class="AspNet-Menu-Leaf">
+				<a href="/outreach.aspx" class="AspNet-Menu">
+					<span>Outreach</span></a>
+			</li>
+			<li class="AspNet-Menu-Leaf">
+				<a href="/jobs-1.aspx" class="AspNet-Menu">
+					<span>Jobs</span></a>
+			</li>
+			<li class="AspNet-Menu-Leaf">
+				<a href="/contact.aspx" class="AspNet-Menu">
+					<span>Contact</span></a>
+			</li>
+		</ul>
+
+</div>
+
+
+	</div>		        
+    <div id="wrapcenter">
+	    <div id="ctl00_divLeft" class="leftside cmszone">
+	
+		    
+		    <a id="startcontent"></a>
+		    
+<div id='ctl00_leftContent_ctl00_pnlOuterWrap' class=''>
+
+<div class='rtop'><div class='r1'></div><div class='r2'></div><div class='r3'></div><div class='r4'></div></div>
+<div id='ctl00_leftContent_ctl00_pnlInnerWrap' class='panelwrapper htmlmodule'>
+
+<h2 id="module2609" class=" moduletitle">Latest headlines</h2>
+<div id='ctl00_leftContent_ctl00_pnlOuterBody' class=''>
+
+<div id='ctl00_leftContent_ctl00_pnlInnerBody' class='modulecontent'>
+
+
+<div id='ctl00_leftContent_ctl00_divContent' class=''>
+<p class="AlignJustify">12/11/2015: <strong>RADIOMI ESRs&nbsp;</strong><strong style="line-height: 1.5em;"><strong>Carlotta Taddei (KCL) and Ulrike Filp (VUMC) with IBA Prizes for Outstanding Presentations</strong>&nbsp;</strong><a href="http://radiomi.chem.ox.ac.uk/HtmlEdit.aspx?mid=2613&amp;pageid=1463">More</a></p>
+
+</div>
+<input type="hidden" name="ctl00$leftContent$ctl00$hdnIsDirty" id="ctl00_leftContent_ctl00_hdnIsDirty" />
+
+
+
+
+
+
+</div>
+<div id='ctl00_leftContent_ctl00_divFooter' class='modulefooter'>
+
+</div>
+
+</div>
+<div id='ctl00_leftContent_ctl00_divCleared' class='cleared'>
+
+</div>
+
+</div>
+<div class='rbottom'><div class='r4'></div><div class='r3'></div><div class='r2'></div><div class='r1'></div></div>
+
+</div>
+
+<div id='ctl00_leftContent_ctl01_pnlOuterWrap' class=''>
+
+<div class='rtop'><div class='r1'></div><div class='r2'></div><div class='r3'></div><div class='r4'></div></div>
+<div id='ctl00_leftContent_ctl01_pnlInnerWrap' class='panelwrapper htmlmodule'>
+
+<h2 id="module2787" class=" moduletitle">Publications</h2>
+<div id='ctl00_leftContent_ctl01_pnlOuterBody' class=''>
+
+<div id='ctl00_leftContent_ctl01_pnlInnerBody' class='modulecontent'>
+
+
+<div id='ctl00_leftContent_ctl01_divContent' class=''>
+<p>04/11/2015: <strong>15th RADIOMI Paper.&nbsp;</strong>An article by Prof. Gouverneur's<span style="font-size: 1.2em; line-height: 1.5em; background-color: transparent;">&nbsp;group accepted for publication in&nbsp;<em>Synlett.</em>&nbsp;</span><a href="http://radiomi.chem.ox.ac.uk/publications-1.aspx" style="line-height: 1.5em;">More</a></p>
+
+<p>15/10/2015: <strong>14th RADIOMI Paper. </strong>A joint article by Prof. Gouverneur and Prof. Solin's group publishes in <em>JFluChem. </em><a href="http://radiomi.chem.ox.ac.uk/publications-1.aspx">More</a></p>
+
+</div>
+<input type="hidden" name="ctl00$leftContent$ctl01$hdnIsDirty" id="ctl00_leftContent_ctl01_hdnIsDirty" />
+
+
+
+
+
+
+</div>
+<div id='ctl00_leftContent_ctl01_divFooter' class='modulefooter'>
+
+</div>
+
+</div>
+<div id='ctl00_leftContent_ctl01_divCleared' class='cleared'>
+
+</div>
+
+</div>
+<div class='rbottom'><div class='r4'></div><div class='r3'></div><div class='r2'></div><div class='r1'></div></div>
+
+</div>
+
+<div id='ctl00_leftContent_ctl02_pnlOuterWrap' class=''>
+
+<div class='rtop'><div class='r1'></div><div class='r2'></div><div class='r3'></div><div class='r4'></div></div>
+<div id='ctl00_leftContent_ctl02_pnlInnerWrap' class='panelwrapper htmlmodule'>
+
+<h2 id="module3902" class=" moduletitle">Newsletter</h2>
+<div id='ctl00_leftContent_ctl02_pnlOuterBody' class=''>
+
+<div id='ctl00_leftContent_ctl02_pnlInnerBody' class='modulecontent'>
+
+
+<div id='ctl00_leftContent_ctl02_divContent' class=''>
+<p>Coming soon:&nbsp;<a href="http://radiomi.chem.ox.ac.uk/news-1.aspx">Issue 4</a></p>
+
+</div>
+<input type="hidden" name="ctl00$leftContent$ctl02$hdnIsDirty" id="ctl00_leftContent_ctl02_hdnIsDirty" />
+
+
+
+
+
+
+</div>
+<div id='ctl00_leftContent_ctl02_divFooter' class='modulefooter'>
+
+</div>
+
+</div>
+<div id='ctl00_leftContent_ctl02_divCleared' class='cleared'>
+
+</div>
+
+</div>
+<div class='rbottom'><div class='r4'></div><div class='r3'></div><div class='r2'></div><div class='r1'></div></div>
+
+</div>
+
+<div id='ctl00_leftContent_ctl03_pnlOuterWrap' class=''>
+
+<div class='rtop'><div class='r1'></div><div class='r2'></div><div class='r3'></div><div class='r4'></div></div>
+<div id='ctl00_leftContent_ctl03_pnlInnerWrap' class='panelwrapper htmlmodule'>
+
+<h2 id="module4075" class=" moduletitle">Forthcoming events</h2>
+<div id='ctl00_leftContent_ctl03_pnlOuterBody' class=''>
+
+<div id='ctl00_leftContent_ctl03_pnlInnerBody' class='modulecontent'>
+
+
+<div id='ctl00_leftContent_ctl03_divContent' class=''>
+<p>RADIOMI Symposium</p>
+
+</div>
+<input type="hidden" name="ctl00$leftContent$ctl03$hdnIsDirty" id="ctl00_leftContent_ctl03_hdnIsDirty" />
+
+
+
+
+
+
+</div>
+<div id='ctl00_leftContent_ctl03_divFooter' class='modulefooter'>
+
+</div>
+
+</div>
+<div id='ctl00_leftContent_ctl03_divCleared' class='cleared'>
+
+</div>
+
+</div>
+<div class='rbottom'><div class='r4'></div><div class='r3'></div><div class='r2'></div><div class='r1'></div></div>
+
+</div>
+
+	    
+</div>
+	    <div id="ctl00_divCenter" class="art-layout-cell  art-content-narrow center-rightandleftmargins cmszone">
+	
+            
+	        
+	        
+<div id='ctl00_mainContent_ctl00_pnlOuterWrap' class=''>
+
+<div class='rtop'><div class='r1'></div><div class='r2'></div><div class='r3'></div><div class='r4'></div></div>
+<div id='ctl00_mainContent_ctl00_pnlInnerWrap' class='panelwrapper htmlmodule'>
+
+<h2 id="module3900" class=" moduletitle">Innovative Radiochemistry to Advance Molecular Imaging</h2>
+<div id='ctl00_mainContent_ctl00_pnlOuterBody' class=''>
+
+<div id='ctl00_mainContent_ctl00_pnlInnerBody' class='modulecontent'>
+
+
+<div id='ctl00_mainContent_ctl00_divContent' class=''>
+<h3 class="AlignCenter">&nbsp;</h3>
+
+<table align="center">
+	<tbody>
+		<tr>
+			<td>
+			<p class="AlignCenter">&nbsp;</p>
+
+			<p class="AlignCenter">&nbsp;</p>
+			</td>
+			<td class="AlignCenter"><img alt="" src="/Data/Sites/27/pavlina/photos/cic-biomagune-1.jpg" style="width: 220px; height: 146px;" /></td>
+			<td class="AlignCenter">&nbsp;</td>
+			<td class="AlignCenter"><img alt="" src="/Data/Sites/27/pavlina/photos/utu-1.png" style="width: 220px; height: 147px;" /></td>
+		</tr>
+	</tbody>
+</table>
+
+</div>
+<input type="hidden" name="ctl00$mainContent$ctl00$hdnIsDirty" id="ctl00_mainContent_ctl00_hdnIsDirty" />
+
+
+
+
+
+
+</div>
+<div id='ctl00_mainContent_ctl00_divFooter' class='modulefooter'>
+
+</div>
+
+</div>
+<div id='ctl00_mainContent_ctl00_divCleared' class='cleared'>
+
+</div>
+
+</div>
+<div class='rbottom'><div class='r4'></div><div class='r3'></div><div class='r2'></div><div class='r1'></div></div>
+
+</div>
+
+<div id='ctl00_mainContent_ctl01_pnlOuterWrap' class=''>
+
+<div class='rtop'><div class='r1'></div><div class='r2'></div><div class='r3'></div><div class='r4'></div></div>
+<div id='ctl00_mainContent_ctl01_pnlInnerWrap' class='panelwrapper htmlmodule'>
+
+<h2 id="module1906" class=" moduletitle">About the Project</h2>
+<div id='ctl00_mainContent_ctl01_pnlOuterBody' class=''>
+
+<div id='ctl00_mainContent_ctl01_pnlInnerBody' class='modulecontent'>
+
+
+<div id='ctl00_mainContent_ctl01_divContent' class=''>
+<p class="AlignJustify"><strong>The RADIOMI project research objective is to pool the expertise of nine leading scientists to provide a coordinated first class training program to produce new talent and innovation in Radiochemistry for Molecular Imaging.</strong></p>
+
+<div class="AlignJustify">
+<div class="floatpanel">
+<div class="floatpanel section" style="width: 46%;">
+<p><span style="text-align: justify;">The emphasis of this network&nbsp;is on training scientists able to develop and perform innovative &nbsp; &nbsp; &nbsp; </span>radiolabeling&nbsp;with the short half-life positron emitting isotopes&nbsp;18F (109.8&nbsp;mins),&nbsp;11C&nbsp;(20.4&nbsp;mins) and&nbsp;13N&nbsp;(10&nbsp;mins).&nbsp;These new and improved methods will be trialed in the&nbsp;synthesis of known &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+</div>
+
+<div class="floatpanel section" style="width: 46%;">
+<p>and new&nbsp;radio tracers&nbsp;(small molecules, peptides, libraries of labeled compounds) notoriously difficult to prepare and/or to access in a pure form, with the required quality or in a reproducible&nbsp;manner.&nbsp;</p>
+
+<p>Preclinical&nbsp;evaluation will be carried out on selected tracers. &nbsp;</p>
+</div>
+</div>
+
+<div class="clear section">
+<p>The network provides state-of-the-art training opportunities in chemistry, radiochemistry, nuclear physics, microfluidic and flow technology, pharmacology, (pre)clinical imaging (oncology, Central Nervous System), multimodal imaging&nbsp;- all&nbsp;key disciplines for radiopharmaceutical development and nuclear medicine,&nbsp;with a major impact on society’s welfare.</p>
+</div>
+</div>
+
+</div>
+<input type="hidden" name="ctl00$mainContent$ctl01$hdnIsDirty" id="ctl00_mainContent_ctl01_hdnIsDirty" />
+
+
+
+
+
+
+</div>
+<div id='ctl00_mainContent_ctl01_divFooter' class='modulefooter'>
+
+</div>
+
+</div>
+<div id='ctl00_mainContent_ctl01_divCleared' class='cleared'>
+
+</div>
+
+</div>
+<div class='rbottom'><div class='r4'></div><div class='r3'></div><div class='r2'></div><div class='r1'></div></div>
+
+</div>
+
+	    
+</div>
+	    <div id="ctl00_divRight" class="rightside cmszone">
+	
+			    
+<div id='ctl00_rightContent_ctl00_pnlOuterWrap' class=''>
+
+<div class='rtop'><div class='r1'></div><div class='r2'></div><div class='r3'></div><div class='r4'></div></div>
+<div id='ctl00_rightContent_ctl00_pnlInnerWrap' class='panelwrapper htmlmodule'>
+
+<h2 id="module1888" class=" moduletitle">Funding</h2>
+<div id='ctl00_rightContent_ctl00_pnlOuterBody' class=''>
+
+<div id='ctl00_rightContent_ctl00_pnlInnerBody' class='modulecontent'>
+
+
+<div id='ctl00_rightContent_ctl00_divContent' class=''>
+<table align="center" style="line-height: 1.5em;">
+	<tbody>
+		<tr>
+			<td class="AlignCenter"><img alt="" src="/Data/Sites/27/pavlina/logos/eu-flag.jpg" style="line-height: 1.5em; width: 100px; height: 68px;" /></td>
+		</tr>
+		<tr>
+			<td class="AlignCenter"><img alt="" src="/Data/Sites/27/pavlina/logos/marie-curie-actions-logo.jpg" style="width: 100px; height: 97px;" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="AlignCenter">&nbsp;</div>
+
+<div class="AlignCenter"><span style="box-sizing: border-box; font-weight: 700; color: rgb(51, 51, 51); font-family: Verdana, Arial, Helvetica, sans-serif; line-height: 15px;">Project reference</span><span style="color: rgb(51, 51, 51); font-family: Verdana, Arial, Helvetica, sans-serif; line-height: 15px;">: 316882</span></div>
+
+<div class="AlignCenter">Subprogramme area:</div>
+
+<div class="AlignCenter"><strong><span style="line-height: 1.5em;">FP7-PEOPLE-2012-ITN</span></strong></div>
+
+<div class="AlignCenter">&nbsp;</div>
+
+<div class="AlignCenter"><span style="line-height: 1.5em;">EU contribution:&nbsp;</span></div>
+
+<div class="AlignCenter"><span style="line-height: 1.5em;">EUR 3,918,481</span></div>
+
+<div class="AlignCenter"><span style="line-height: 1.5em;">Period: 2012-2016</span></div>
+
+<div class="AlignCenter">&nbsp;</div>
+
+<div>
+<table align="center">
+	<tbody>
+		<tr>
+			<td><img alt="" src="/Data/Sites/27/logo.png" style="line-height: 1.5em; width: 150px; height: 146px;" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+</div>
+<input type="hidden" name="ctl00$rightContent$ctl00$hdnIsDirty" id="ctl00_rightContent_ctl00_hdnIsDirty" />
+
+
+
+
+
+
+</div>
+<div id='ctl00_rightContent_ctl00_divFooter' class='modulefooter'>
+
+</div>
+
+</div>
+<div id='ctl00_rightContent_ctl00_divCleared' class='cleared'>
+
+</div>
+
+</div>
+<div class='rbottom'><div class='r4'></div><div class='r3'></div><div class='r2'></div><div class='r1'></div></div>
+
+</div>
+
+<div id='ctl00_rightContent_ctl01_pnlOuterWrap' class=''>
+
+<div class='rtop'><div class='r1'></div><div class='r2'></div><div class='r3'></div><div class='r4'></div></div>
+<div id='ctl00_rightContent_ctl01_pnlInnerWrap' class='panelwrapper htmlmodule'>
+
+<h2 id="module3903" class=" moduletitle">Connect with us</h2>
+<div id='ctl00_rightContent_ctl01_pnlOuterBody' class=''>
+
+<div id='ctl00_rightContent_ctl01_pnlInnerBody' class='modulecontent'>
+
+
+<div id='ctl00_rightContent_ctl01_divContent' class=''>
+<p class="AlignCenter" style="color: rgb(51, 51, 51);"><a href="https://www.linkedin.com/groups?gid=7495158&amp;trk=groups%2Fguest%2Fitem_detail-r-subgr-subgrpname&amp;goback=%2Egde_3089236_member_138519072"><img alt="" src="http://radiomi.chem.ox.ac.uk/Data/Sites/27/pavlina/logos/social/linkedin.png" style="width: 35px; height: 35px;" /></a>&nbsp;<a href="https://twitter.com/RADIOMI_EU"><img alt="" src="http://radiomi.chem.ox.ac.uk/Data/Sites/27/pavlina/logos/social/twitter.png" style="width: 35px; height: 35px;" /></a></p>
+
+</div>
+<input type="hidden" name="ctl00$rightContent$ctl01$hdnIsDirty" id="ctl00_rightContent_ctl01_hdnIsDirty" />
+
+
+
+
+
+
+</div>
+<div id='ctl00_rightContent_ctl01_divFooter' class='modulefooter'>
+
+</div>
+
+</div>
+<div id='ctl00_rightContent_ctl01_divCleared' class='cleared'>
+
+</div>
+
+</div>
+<div class='rbottom'><div class='r4'></div><div class='r3'></div><div class='r2'></div><div class='r1'></div></div>
+
+</div>
+
+	    
+</div>		
+	</div>
+</div>
+<div id="wrapfooter">
+        <br class="clear" />
+        <a class="sitemaplink" href="/SiteMap.aspx">Site Map</a> |
+        <a href='/?skin=printerfriendly' rel='nofollow'>Printable View</a> |
+        &copy; 2008 - 2016 Department of Chemistry - University of Oxford |
+	    <a href='http://www.mojoportal.com?utm_source=usersite&amp;utm_medium=referral&amp;utm_campaign=poweredbymojo' >Powered by mojoPortal</a> |
+	    <a rel='nofollow' href='http://validator.w3.org/check?uri=referer'  title='Valid HTML 5'>HTML 5</a> |
+	    <a rel='nofollow' href='http://jigsaw.w3.org/css-validator/validator?uri=http://radiomi.chem.ox.ac.uk/csshandler.ashx?skin=styleshout-refresh'  title='Valid CSS'>CSS</a> |
+        <a title="Visit the web site of the designer" href="http://www.styleshout.com/">Design by styleshout</a>
+    </div>
+</div>
+<script type="text/javascript">
+function HideMenuToolbar(){ $("#toolbar").fadeOut(); $("#toolbarbut").fadeIn("slow");}
+function ShowMenuToolbar(){ $("#toolbar").fadeIn(); $("#toolbarbut").fadeOut("slow");}
+$(document).ready(function(){ 
+  $("span.downarr a").click(function() {HideMenuToolbar(); Set_Cookie('openstate', 'closed')});
+  $("span.showbar a").click(function() {ShowMenuToolbar(); Set_Cookie('openstate', 'open') });
+  $("span.downarr a, span.showbar a").click(function() { return false; });	
+	var openState = Get_Cookie('openstate');
+	if(openState != null){ if(openState == 'closed'){HideMenuToolbar();} if(openState == 'open'){ShowMenuToolbar();}}
+});	
+</script>
+
+
+
+<script type="text/javascript">Sys.Application.add_load(function() { var form = Sys.WebForms.PageRequestManager.getInstance()._form; form._initialAction = form.action = window.location.href; }); </script>
+<script type="text/javascript" > $('div.mojo-accordion').accordion({});$('div.mojo-accordion-nh').accordion({heightStyle:'content',animate:{opacity:'toggle',duration:'400'}}); $('div.mojo-tabs').tabs({}); $('input.jqbutton').button(); $('.jqtt').tooltip(); $('.faqs dd').hide();$('.faqs dt').hover(function(){$(this).addClass('hover')},function(){$(this).removeClass('hover')}).click(function(){ $(this).next().slideToggle('normal'); });  $("a.unclickable").click(function(){ return false; });</script><script type='text/javascript'>
+<!--
+
+  var wmctl00_SearchInput1_txtSearch = document.getElementById('ctl00_SearchInput1_txtSearch'); if(wmctl00_SearchInput1_txtSearch){wmctl00_SearchInput1_txtSearch.value = 'enter search terms';}
+//-->
+</script></form>
+
+<script type="text/javascript"> 
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
+        <title>Redcat Devices - SkyFlashProject</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/style/normalize.css">
+        <link rel="stylesheet" href="/style/main.css?1">
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
+ 		<link rel="stylesheet" href="/js/fancybox/source/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
+		    <link href="/style/nivo-slider.css" type="text/css" rel="stylesheet" media="screen"/>
+    <link href="/style/light/light.css" type="text/css" rel="stylesheet" media="screen"/>
+		<!--[if IE]><link rel="stylesheet" href="/style/ie.css"><![endif]-->
+		
+        <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.4"></script>
+        <script src="/js/main.js"></script>
+		    <script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>
+    <script>
+	$(window).load(function() {
+        $('#slider').nivoSlider({
+        	controlNav: true, 
+	        effect: 'random', // Specify sets like: 'fold,fade,sliceDown'
+    	    slices: 15, // For slice animations
+        	boxCols: 8, // For box animations
+	        boxRows: 4, // For box animations
+    	    animSpeed: 500, // Slide transition speed
+        	pauseTime: 5000 // How long each slide will show
+        });
+    });
+    </script>
+
+    </head>
+    <body>
+	<div id="page">
+
+	<header>
+
+		<div id="logo"></div>
+		<div id="partners-logos">
+			<img src="/img/loghi/FP7-gen-RGB_119px.jpg" alt="FP7" />
+			<img src="/img/loghi/LogoUE.jpg" alt="Unione Europea" />
+		</div>
+		
+				<nav>
+			<ul id="menu">
+				<li class="menu-item"><a href="/" title="Home">Home</a></li>
+				<li class="menu-item ">
+					<a href="/project/" title="Project">Project</a>
+					<ul class="menu-sub">
+											<li class="menu-item menu-item-sub ">
+							<a href="/project/objectives/" title="Objectives">Objectives</a>
+						</li>
+											<li class="menu-item menu-item-sub ">
+							<a href="/project/efforts/" title="Efforts">Efforts</a>
+						</li>
+											<li class="menu-item menu-item-sub ">
+							<a href="/project/existing/" title="Existing Technology">Existing Technology</a>
+						</li>
+											<li class="menu-item menu-item-sub ">
+							<a href="/project/radhardening/" title="RHBD Techniques">RHBD Techniques</a>
+						</li>
+											<li class="menu-item menu-item-sub ">
+							<a href="/project/expected-impacts/" title="Expected Impacts">Expected Impacts</a>
+						</li>
+											<li class="menu-item menu-item-sub ">
+							<a href="/project/workpackages/" title="Workpackages">Workpackages</a>
+						</li>
+										</ul>
+				</li>
+				<li class="menu-item ">
+					<a href="/prototypes/" title="Prototypes">Prototypes</a>
+				</li>
+				<li class="menu-item ">
+					<a href="/deliverables/" title="Deliverables">Deliverables</a>
+				</li>
+				<li class="menu-item ">
+					<a href="/dissemination/" title="Dissemination">Dissemination</a>
+				</li>
+				<li class="menu-item ">
+					<a href="/partners/" title="Partners">Partners</a>
+					<ul class="menu-sub">
+											<li class="menu-item menu-item-sub ">
+							<a href="/partners/redcat/" title="RedCat Devices">RedCat Devices</a>
+						</li>
+											<li class="menu-item menu-item-sub ">
+							<a href="/partners/milano/" title="University of Milano">University of Milano</a>
+						</li>
+											<li class="menu-item menu-item-sub ">
+							<a href="/partners/padova/" title="University of Padova">University of Padova</a>
+						</li>
+											<li class="menu-item menu-item-sub ">
+							<a href="/partners/tower/" title="Tower Semiconductor">Tower Semiconductor</a>
+						</li>
+											<li class="menu-item menu-item-sub ">
+							<a href="/partners/jyvaskyla/" title="University of Jyv&auml;skyl&auml;">University of Jyv&auml;skyl&auml;</a>
+						</li>
+											<li class="menu-item menu-item-sub ">
+							<a href="/partners/cyprus/" title="University of Cyprus">University of Cyprus</a>
+						</li>
+											<li class="menu-item menu-item-sub ">
+							<a href="/partners/uppsala/" title="University of Uppsala">University of Uppsala</a>
+						</li>
+											<li class="menu-item menu-item-sub ">
+							<a href="/partners/santiago/" title="University of Santiago De compostela">University of Santiago De compostela</a>
+						</li>
+										</ul>
+				</li>
+				<li class="menu-item ">
+					<a href="/gallery/" title="Gallery">Gallery</a>
+				</li>
+				<li class="menu-item ">
+					<a href="/news/" title="News">News</a>
+				</li>
+				<li class="menu-item ">
+					<a href="/contact/" title="Contact">Contact</a>
+				</li>
+			</ul>
+		</nav>
+
+        
+	</header>
+
+
+		<div id="wrapper" class="home">
+			<div id="home-content">
+			<div id="main" class="home">
+	<div id="reel-wrapper" class="slider-wrapper theme-light">
+        <div class="ribbon"></div>
+        <div id="slider" class="nivoSlider">
+            	    <img src="/imgbank/reel/Proton_test_Uppsala_5_novembre_2013_pag_reel.jpg" alt="Uppsala. Proton test on RC27F2014SKY3 (November 2013)" title="Uppsala. Proton test on RC27F2014SKY3 (November 2013)">        
+            	    <img src="/imgbank/reel/FinalMeeting.png" alt="SkyFlash Final Meeting (February 28, 2014)" title="SkyFlash Final Meeting (February 28, 2014)">        
+            	    <img src="/imgbank/reel/IMG_2333_700x300px.jpg" alt="RC27F1024SKY1 (1Mbit rad-hard OTP memory)" title="RC27F1024SKY1 (1Mbit rad-hard OTP memory)">        
+            	    <img src="/imgbank/reel/AO19_700x300px.jpg" alt="RC27F1024SKY1 (1Mbit rad-hard OTP memory)" title="RC27F1024SKY1 (1Mbit rad-hard OTP memory)">        
+            	    <img src="/imgbank/reel/board.jpg" alt="Santiago de Compostela (Spain). Gamma Ray testing campaign (Dec. 2012)" title="Santiago de Compostela (Spain). Gamma Ray testing campaign (Dec. 2012)">        
+            	    <img src="/imgbank/reel/table.jpg" alt="Santiago de Compostela (Spain). Gamma Ray testing campaign (Dec. 2012)" title="Santiago de Compostela (Spain). Gamma Ray testing campaign (Dec. 2012)">        
+            	    <img src="/imgbank/reel/tube.jpg" alt="Jyvaskyla (Finland). Heavy Ions testing campaign (Apr. 2013)" title="Jyvaskyla (Finland). Heavy Ions testing campaign (Apr. 2013)">        
+            	    <img src="/imgbank/reel/Jyvaskyla_aprile_2013_pag_reel.png" alt="Jyvaskyla (Finland). Heavy Ions testing campaign (Apr. 2013)" title="Jyvaskyla (Finland). Heavy Ions testing campaign (Apr. 2013)">        
+                </div>
+	</div>
+			</div>
+
+			</div>
+			<div id="home-welcome">
+			<p><b>SkyFlash 262890 FP7 Project</b> aims to develop a strong rad hard by design (RHBD) metholodology for the realization of non volatile flash memories based on standard CMOS 180nm processes using memory cells based on floating trap ONO (Oxide-Nitride-Oxide) approach (Flash memories).&nbsp;The methodology will be focused on environments affected by radiation due to protons, electrons and high energy ions (heavy ions) such as low and high orbits (satellites) or deep space (probes).</p>
+
+			</div>
+			<br class="clear"/>
+			
+			<div id="boxes">
+			
+				<div class="home-box">
+		
+<div class="sidebox" id="sidebox-news">
+<h3>News</h3>
+<ul>
+<li><h4><a href="/news/12/skyflash-final-review-meeting/">SkyFlash Final Review Meeting</a></h4>
+<span class="news-abstract"><p>28th February 2014, EU-funded SkyFlash project will officially come to an end and the consortium will meet to discuss final results and future activities.</p></span></li>
+<li><h4><a href="/news/11/october-november-december-2013-newsletter/">October, November, December 2013 - Newsletter</a></h4>
+<span class="news-abstract">October, November, December 2013 - Newsletter</span></li>
+<li><h4><a href="/news/10/contemporary-tests-on-sky3/">Contemporary tests on Sky3</a></h4>
+<span class="news-abstract">Contemporary tests on Sky3 at University of Padova and Svedberg Laboratory (TSL), Uppsala</span></li>
+<li><h4><a href="/news/9/september-2013-newsletter/">September 2013 Newsletter</a></h4>
+<span class="news-abstract">Newsletter of September 2013 presents gamma test of University of Santiago De Compostela and proton test of University of Padova on bandgap of University of Cyprus; presentation&nbsp; of Valentino Liberali, University of Milano, at RADECS 2013; RC27F1024SKY5 to be bonded and possible dates for testing.<br></span></li>
+</ul>
+</div>
+
+				</div>
+		
+				<div class="home-box">
+		
+				</div>
+		
+				<div class="home-box">
+		
+<div class="sidebox" id="sidebox-dissemination">
+<h3>Dissemination Events</h3>
+<ul>
+<li><h4><a href="/dissemination/#dissemination-12"">2013 September 23-2013 September 27</a></h4>
+<span class="dissemination-abstract">RADECS 2013 - Oxford, UK</span></li>
+<li><h4><a href="/dissemination/#dissemination-11"">2013 July 26</a></h4>
+<span class="dissemination-abstract">SkyFlash on ECOWEB</span></li>
+<li><h4><a href="/dissemination/#dissemination-10"">2013 July 10</a></h4>
+<span class="dissemination-abstract">Universit&agrave; della Calabria, Dipartimento di Elettronica, Informatica e Sistemistica</span></li>
+</ul>
+</div>
+
+				</div>
+		
+				<br class="clear"/>
+			</div>
+		</div>
+
+	<footer>
+        <div class="footer-column">
+			<h4>Partners</h4>
+			<p><a href="http://www.redcatdevices.com">RedCat Devices</a></p>
+			<p><a href="http://www.unimi.it/">University of Milan</a></p>
+			<p><a href="http://www.unipd.it/">University of Padova</a></p>
+			<p><a href="http://www.jazzsemi.com/">Towerjazz</a></p>
+		</div>
+        <div class="footer-column">
+			<p><a href="http://www.jyu.fi/">University of Jyv&auml;skyl&auml;</a></p>
+			<p><a href="http://www.ucy.ac.cy/">University of Cyprus</a></p>
+			<p><a href="http://www.uu.se/">University of Uppsala</a></p>
+			<p><a href="http://www.usc.es/gir/">University of  Santiago de Compostela</a></p>
+		</div>
+        <div class="footer-column">
+        &nbsp;
+        </div>
+        <div class="footer-column">
+			<h4>Website managed by</h4>
+			<p>RedCat Devices srl</p>
+			<p>via Valsolda 21</p>
+			<p>20142 Milano (Italy)</p>
+			<p>P.IVA 05336500961</p>
+        </div>
+        <div class="footer-column">
+			<p><a href="/sharing/">Restricted area</a></p>
+        	<p>&nbsp;</p>
+        	<p>Web design:</p>
+        	<p>Silvio Sosio SSWA</p>
+        </div>
+    <br class="clear"/>
+	</footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63585714-3', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+</script>
+    
+	</div>
+    </body>
+</html>

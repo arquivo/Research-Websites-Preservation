@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>ASCOS - Aviation Safety and Certification</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="content-language" content="en" />
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="expires" content="0" />
+<meta name="author" content="ASCOS" />
+<meta name="description" content="Aviation Safety and Certification of new Operations and Systems" />
+<meta name="keywords" lang="en" content="safety, certification, aviation, ASCOS, veiligheid, certificatie" />
+<meta name="generator" content="web to date 8.0" />
+<link rel="stylesheet" type="text/css" href="./assets/sf.css" />
+<link rel="stylesheet" type="text/css" href="./assets/sd.css" />
+<link rel="stylesheet" type="text/css" href="./assets/sc.css" />
+<link rel="stylesheet" type="text/css" href="./assets/ssb.css" />
+<link rel="stylesheet" type="text/css" href="./assets/scal.css" />
+<script type="text/javascript" src="./assets/jq.js"></script>
+<script type="text/javascript" src="./assets/jqcf.js"></script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+
+$(document).ready(function() {
+	$('#logo').crossfade({delay: 5000});
+
+	$('#searchcriteria').focus(function() {
+		if (this.value==this.defaultValue) {
+			this.value='';
+		}
+	}).blur(function() {
+		if (this.value=='') {
+			this.value=this.defaultValue;
+		}
+	});
+});
+
+/* ]]> */
+</script>
+
+</head>
+
+<body>
+
+<div id="header">
+
+<div id="common">
+
+<a href="./index.php">Home page</a>
+| <a href="./contact.html">Disclaimer</a>
+</div>
+
+</div>
+
+<div id="maincol">
+
+<div id="logo">
+
+<img src="./images/s2dlogo.jpg" width="898" height="160" alt="" border="0"/><div id="searchbox">
+<form action="./fts.php" method="get">
+<input id="searchcriteria" type="text" name="criteria" maxlength="100" value="I am looking for..." />
+<input id="searchsubmit" type="image" src="./images/psearchsubmit.gif" />
+</form>
+</div>
+</div>
+
+<div id="leftcol">
+
+
+
+<a  href="./dissemination-forum/index.html">Dissemination Forum</a>
+
+<a  href="./background/index.html">Background</a>
+
+<a  href="./project/index.html">Project</a>
+
+<a  href="./work/index.html">Work</a>
+
+<a  href="./information/index.html">News</a>
+
+<a  href="./publications/index.html">Publications</a>
+
+<a  href="./e-learning/index.html">E-learning</a>
+
+<a  href="./about-us/index.html">About us</a>
+
+</div>
+
+<div id="content">
+
+<div class="paragraph">
+	
+	
+<img src="./images/080085_17_460.jpg" width="454" height="177" alt="" border="0"/>	
+</div>
+<div class="line"></div><div class="paragraph">
+<p style="text-align: center;" ><a title="" href="./dissemination-forum/index.html">DISSEMINATION FORUM</a><b><br/></b><a  title="" href="./downloads/ascos-fdf---agenda-final-draft.pdf">FINAL DRAFT AGENDA 28/29 MAY 2015</a> [230 KB]
+<b><br/>European Commission<br/></b><a  title="" href="./downloads/96-covent.pdf">Covent Garden Building</a> [1.220 KB]
+<b><br/>BRUSSELS, BELGIUM</b></p>
+</div>
+<div class="paragraph">
+<p style="" ><b>What is ASCOS?<br/></b>ASCOS is an innovative EU funded research project, dealing with Aviation Safety and Certification of new Operations and Systems. ASCOS contributes to the Area/Topic Operational Safety in the Activity Ensuring Customer Satisfaction and Safety of the EU 7th Framework Programme Aeronautics and Air Transport.<br/><br/><b>SAFETY<br/></b>ASCOS aims to break the current chain of &lsquo;stagnation&rsquo; of safety by focusing on safety improvements in priority risk areas in the total aviation system. ASCOS contributes to the ACARE Vision 2020 safety, being a reduction of the accident rate by 80% and a drastic reduction of the impact of human error and its consequences.<br/><br/><b>CERTIFICATION<br/></b>ASCOS will introduce novel and innovative certification adaptations, which will ease the certification and approval process of safety enhancement systems and operations. Supporting new methods and tools for safety based design and continuous safety monitoring are developed.</p>
+</div>
+</div>
+
+<div id="sidebar">
+
+</div>
+
+
+<div class="clearer"></div>
+
+<div id="maintop"></div>
+<div id="mainbottom"></div>
+
+</div>
+
+<div id="footer">SEVENTH FRAMEWORK PROGRAMME</div>
+
+</body>
+</html>

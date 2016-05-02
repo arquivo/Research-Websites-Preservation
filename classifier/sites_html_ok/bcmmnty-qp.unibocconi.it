@@ -1,0 +1,1155 @@
+<!-- (c) Copyright IBM Corporation 1999, 2002   All rights reserved. Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->
+<!-- $HaikuForm - 700050.050 -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+
+
+<HEAD>
+
+<script type='text/javascript' src=../../../../../QuickPlace/innovativest/Main.nsf/$defaultview/E5625BD1B8F3E85005256823005AAF05/?OpenDocument&CacheResults&Form=qpbase&QPVersion=700050.050000></script>
+<script type='text/javascript' src=../../../../../QuickPlace/innovativest/Main.nsf/$defaultview/E5625BD1B8F3E85005256823005AAF05/?OpenDocument&CacheResults&Form=qpread&QPVersion=700050.050000></script>
+
+
+<script src="/qphtml/html/common/qp_write_html.js" type="text/javascript"></script>
+<script type="text/javascript">
+debugText( "---------------------------------------------------------------", 1);
+debugText( "========== GET " + location.href, 1);
+</script>
+<script type='text/javascript' src=../../../../../QuickPlace/innovativest/Main.nsf/$defaultview/E5625BD1B8F3E85005256823005AAF05/?OpenDocument&CacheResults&Form=h_RequestContext&TimeStamp=C1257460004777B6&QPVersion=700050.050000&LoginName=Anonymous></script>
+<script type="text/javascript">
+var h_SameTimeToken = '';
+var h_SameTimeServerUrlLocation = 'http://bcmmnty-st.unibocconi.it';
+var h_SametimeMeetingServer	= '';
+var h_SametimeCommunityServer = "";
+if (h_SameTimeServerUrlLocation != "")
+{
+parseSTCommunityServerSetting ();
+}
+if (h_SameTimeToken.length == 0)
+{
+var ltpaCookieVal = '';
+h_SameTimeToken = ltpaCookieVal == null ? "" : ltpaCookieVal;
+}
+var bSTLinksAvailable = (typeof (setSTLinksURL) == 'function') ? true : false;
+haiku.loginName = 'Anonymous'; 
+haiku.userName = 'Anonymous'; 
+haiku.canonicalName = 'Anonymous';  
+haiku.AbbrevUserName = 'Anonymous';	
+haiku.SetIsSametimeAwarenessAvailable();
+haiku.SetIsSametimeMeetingAvailable();
+haiku.bIsExpandedMembership = ('' != '');
+initSTLinksAppletParameters();
+</script>
+<script type="text/javascript">
+var currentUserAccess = 2;
+var currentUserRoles = "$$WebClient";
+{
+if (currentUserAccess == 3 && currentUserRoles.indexOf("[h_Editors]") >= 0)
+currentUserAccess = 4;
+}
+var h_baseUrl =  getProtocalAndServerUrl(self) + getAbsoluteServerRootPath(self) + 
+'/QuickPlace/innovativest/Main.nsf/' + 
+'h_Toc' + 
+'/4DF38292D748069D0525670800167212/';
+
+var h_PageUnid = "4DF38292D748069D0525670800167212";
+var oNS3BugWorkAround;
+var SceneTitleSkinComponentTitleTextConvertToHTML = true;
+var SceneTitleSkinComponentTitleText = 'Title Missing from ' + 'h_StdPageRead';
+var isAuthor = false;
+var isWorkflowReEdit = false;
+var DraftDocSkinComponentUrl = "";
+var PublisedSkinComponentUrl = "";
+var G_aNavigationLinks			= new Array( );
+var G_aJumpLinks					= new Array( );
+var G_aPrioritySceneActions				= new Array( );
+var G_aSceneActions				= new Array( );
+var G_aFolderActions				= new Array( );
+var G_aRoomActions				= new Array( );
+var G_aToc	= new Array( ); 
+addTocObj( '10000', 'Welcome', 'Welcome', '4DF38292D748069D0525670800167212', '', '', '', '0', '30DF3123AEFAF358052567080016723D', '', '', '');addTocObj( '20000', 'Home', 'Home', '6F62C34308AE1B45C1257460004519ED', '', '', '', '0', '30DF3123AEFAF358052567080016723D', '', '', '');addTocObj( '30000', 'Partners', 'Partners', '5C6C0CAF5E56AA8BC12574600045538B', '', '', '', '0', 'EFF75DAA99A1ED99852567B6007121A3', '', '', '');addTocObj( '35000', 'Survey on patents', 'Survey on patents', '41B46A2C065355AFC125766500316085', '', '', '', '0', '30DF3123AEFAF358052567080016723D', '', '', '');addTocObj( '40000', 'Project news &amp; events', 'Project news & events', 'F1750EC1769A9318C12574600045ABCA', '', '', '', '1', '1', '1', '', 'F1750EC1769A9318C12574600045ABCA');addTocObj( '42500', 'InnoS&amp;T Final conference - Panel members contributions', 'InnoS&T Final conference - Panel members contributions', '21EE448C9756E6A1C125782D003FBB56', '', '', '', '1', '1', '7', '', 'F1750EC1769A9318C12574600045ABCA~21EE448C9756E6A1C125782D003FBB56');addTocObj( '45000', 'Deliverables', 'Deliverables', '06C9F772A592EAB5C125775800681D4B', '', '', '', '1', '1', '5', '', '06C9F772A592EAB5C125775800681D4B');addTocObj( '50000', 'Other News &amp; Events', 'Other News & Events', '066AD9FE2BBB7083C125746000463A30', '', '', '', '1', '1', '1', '', '066AD9FE2BBB7083C125746000463A30');addTocObj( '80000', 'Links', 'Links', 'DD0BE04ADF2729B3C12574600046924D', '', '', '', '1', '1', '1', '', 'DD0BE04ADF2729B3C12574600046924D');addTocObj( '110000', 'Index', 'Index', 'CE6A3D6B1F546C9405256708001671FF', '', '', '', '1', '', 'h_Index', '', '7D27846061270B3CC12574600046EFB9');;
+function addTocObj( TOCposition, title, limerickTitle, unid, roomNsf, urlPointer, newWindow, type, form, folderStyle, autoEdit, ancestry)
+{
+G_aToc[G_aToc.length]	= new Object( );
+G_aToc[G_aToc.length-1].TOCposition		= TOCposition	;
+G_aToc[G_aToc.length-1].title				= title			;
+G_aToc[G_aToc.length-1].LimerickTitle	= limerickTitle;
+G_aToc[G_aToc.length-1].unid				= unid			;
+G_aToc[G_aToc.length-1].roomNsf			= roomNsf		;
+G_aToc[G_aToc.length-1].urlPointer		= urlPointer	;
+G_aToc[G_aToc.length-1].newWindow		= newWindow		;
+G_aToc[G_aToc.length-1].type				= type			;
+G_aToc[G_aToc.length-1].form				= form			;
+G_aToc[G_aToc.length-1].autoEdit			= autoEdit		;
+G_aToc[G_aToc.length-1].folderStyle		= folderStyle	;
+G_aToc[G_aToc.length-1].ancestry			= ancestry;
+return G_aToc.length;
+}
+var G_aFolders = new Array( ); 
+addFolderObj(	'Project news &amp; events',  'F1750EC1769A9318C12574600045ABCA', '40000', 'h_1E9F2821EED3168CC12574600045B435', 'F1750EC1769A9318C12574600045ABCA', '0', '1', '1', '', false );addFolderObj(	'InnoS&amp;T Final conference - Panel members contributions',  'F1750EC1769A9318C12574600045ABCA~21EE448C9756E6A1C125782D003FBB56', '42500', 'h_986314D799427EFAC125782D003FDACD', '21EE448C9756E6A1C125782D003FBB56', '0', '7', '', '', false );addFolderObj(	'Deliverables',  '06C9F772A592EAB5C125775800681D4B', '45000', 'h_C93B07E6012A16EBC125775800682F36', '06C9F772A592EAB5C125775800681D4B', '1', '5', '', '', false );addFolderObj(	'Other News &amp; Events',  '066AD9FE2BBB7083C125746000463A30', '50000', 'h_39EBCB94F68E8A21C12574600046419B', '066AD9FE2BBB7083C125746000463A30', '0', '1', '0', '', false );addFolderObj(	'Links',  'DD0BE04ADF2729B3C12574600046924D', '80000', 'h_48124F1A9ED7E4E4C125746000469DF5', 'DD0BE04ADF2729B3C12574600046924D', '0', '1', '0', '', false );addFolderObj(	'Index',  '7D27846061270B3CC12574600046EFB9', '110000', 'h_Index', 'CE6A3D6B1F546C9405256708001671FF', '1', 'h_Index', '0', '', false );;
+var G_taskFolderName = "Tasks";
+for( var i=0; i < G_aToc.length; i++)
+{
+if ( G_aToc[i].folderStyle == "h_Task") {
+if (G_aToc[i].title != '') {
+G_taskFolderName = G_aToc[i].title;
+}
+break;
+}
+}
+addFolderObj( "Calendar",	"Calendar",	0, "h_Calendar", "2A922D48C75DD00B052567080016723A",	"1", "h_Calendar", "", "", false);
+addFolderObj( G_taskFolderName,		"Tasks",		0, "h_TaskList", "ED8254464B105395852567EF0069625F",		"1", "h_Task", "", "", false);
+function addFolderObj( title, ancestry, TOCpos, SystemName, unid, canAddDocs, style, sortOrder, sortColumn, bShow)
+{
+G_aFolders[G_aFolders.length] = new Object( );
+G_aFolders[G_aFolders.length-1].title		 = title;
+G_aFolders[G_aFolders.length-1].ancestry	 = ((ancestry == "") ? unid : ancestry);
+G_aFolders[G_aFolders.length-1].TOCpos		 = TOCpos;
+G_aFolders[G_aFolders.length-1].SystemName = SystemName;
+G_aFolders[G_aFolders.length-1].unid		 = unid;
+G_aFolders[G_aFolders.length-1].canAddDocs = canAddDocs;
+G_aFolders[G_aFolders.length-1].style		 = style;
+G_aFolders[G_aFolders.length-1].sortOrder	 = sortOrder;
+G_aFolders[G_aFolders.length-1].sortColumn = sortColumn;
+G_aFolders[G_aFolders.length-1].bShow		 = bShow;
+return G_aFolders.length;
+}
+</script>
+
+<script type="text/javascript">
+function genUniqueNum()
+{ 
+logEnter("genUniqueNum");
+var now = new Date();
+return now.getTime();
+logExit("genUniqueNum"); 
+};
+function getUploadedURLStr( theHaikuFileName, theHaikuUniqueNum)
+{ 
+logEnter("getUploadedURLStr");
+var returnHtml = "" + "$File" + '/' + escape(theHaikuFileName) + '?OpenElement';
+if (( typeof(theHaikuUniqueNum) != "undefined") &&
+(theHaikuUniqueNum != ''))
+{
+returnHtml += '&' + theHaikuUniqueNum; 
+}		 		
+return returnHtml;
+logExit("getUploadedURLStr"); 
+};
+function CheckForUploadControl()
+{ 
+logEnter("CheckForUploadControl");
+if (h_ClientBrowser.hasActiveX ()) {
+if (typeof(theForm.UploadControl.General_ControlExists) == "undefined") {
+alert("Warning: Without downloading the QuickPlace Upload ActiveX Control, QuickPlace will not function properly. To download the control, adjust your browser's security settings, click the \"Refresh\" button and try again.");
+}
+}
+logExit("CheckForUploadControl"); 
+};
+function msoCommentShow(com_id,anchor_id)
+{ 
+logEnter("msoCommentShow");
+logExit("msoCommentShow"); 
+};
+function msoCommentHide(com_id)
+{ 
+logEnter("msoCommentHide");
+logExit("msoCommentHide"); 
+};
+var fieldNames = new Object;
+fieldNames.h_AllowEdit = '1';
+fieldNames.h_IsSystem = '0';
+fieldNames.h_IsInToc = '1';
+fieldNames.h_SetReadScene = 'h_StdPageRead';
+fieldNames.h_Type = '0';
+fieldNames.MIME_Version = '1.0';
+fieldNames.h_UpgradeOptions = 'h_Append,h_NoCopy';
+fieldNames.h_SetParentUnid = '';
+fieldNames.h_FolderUNID = '';
+fieldNames.h_PageType = '';
+fieldNames.h_HTMLImportFiles = '';
+fieldNames.h_HTMLImportStyleSheet = '';
+fieldNames.h_HTMLImportOriginalFile = '';
+fieldNames.h_NSImport = '';
+fieldNames.h_HTMLImportUnqNum = '';
+fieldNames.h_AltText = '';
+fieldNames.h_NonArchiveAttachments = '1';
+fieldNames.h_AttachmentTimes = '';
+fieldNames.h_AttachmentNamesAlt = 'QPNULL';
+fieldNames.h_AttachmentLengthsAlt = 'QPNULL';
+fieldNames.h_AttachmentOldNames = '';
+fieldNames.h_Position = 10000;
+fieldNames.h_publishSeqTime = '02/09/2011 01:27:36 PM';
+fieldNames.h_ReturnToPage = '4DF38292D748069D0525670800167212';
+fieldNames.h_RevNum = '';
+fieldNames.h_Name = 'Welcome';
+fieldNames.PageBody = '<div><b><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><strong><img alt="" src="$FILE/Image.europa.jpg?OpenElement&1212755580593">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt="" src="$FILE/Image.seventh.jpg?OpenElement&1212755593421"></strong></font></font></span></p><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><strong><font face="Verdana" size="4"><p align="center"><span style="font-family: Tahoma;"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><o:p><span style="font-size: 10pt; font-family: Tahoma;"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><strong></strong></font></font></span><font color="#000099">"Project funded under the Socio-economic Sciences and Humanities theme"<o:p></o:p></font></span></o:p></font></font></span></p><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"></font></font></font></strong></span><strong><font face="Verdana" size="4"></font></strong><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><strong><font color="#000099">Title:</font></strong></font></font></span></p><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif">Innovative S&amp;T indicators for empirical models and policies: combining patent data and surveys.<o:p></o:p></font></font></span></p><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><strong></strong></font></font></span>&nbsp;</p><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><strong><font color="#000099">Acronym:</font></strong> </font></font></span></p><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif">InnoS&amp;T<br></font></font></span></p><span style="font-family: Tahoma;"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><strong></strong></font></font></font></font></span><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"></font></font><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><span style="font-family: Tahoma;"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><strong><font color="#000099"></font></strong></font></font></span></font></font></span>&nbsp;</p><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><span style="font-family: Tahoma;"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><strong><font color="#000099">Project duration:</font></strong> </font></font></span></font></font></span></p><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><span style="font-family: Tahoma;"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif">1.04.2008 &#8211; 31.03.2011</font></font></span></font></font></span></p><p class="MsoNormal" style="margin: 0pt;" align="center"><br><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><span style="font-family: Tahoma;"></span></font></font></span></p><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><span style="font-family: Tahoma;"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><a target="_top" href="http://bcmmnty-qp.unibocconi.it/QuickPlace/innovativest/Main.nsf/h_1E9F2821EED3168CC12574600045B435/15F1A2DB85866C61C12577AC0048F9C8/?OpenDocument">InnoS&amp;T final conference - Munich 15-16th February 2011</a><br></font></font></span> </font></font></span></p><p><span style="font-family: Tahoma;"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><o:p><span style="font-size: 10pt; font-family: Tahoma;"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><strong></strong></font></font></span></span></o:p></font></font></span>&nbsp;</p><p><span style="font-family: Tahoma;"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><o:p><span style="font-size: 10pt; font-family: Tahoma;"><o:p></o:p></span>&nbsp;</o:p></font></font></span></p><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"></font></font></b>    </div>\r\n\r\n\r\n\r\n\r\n\r\n\r\n';
+fieldNames.h_CurrentPosition = '';
+fieldNames.h_ImageURL = '';
+fieldNames.h_HeadlineText = '';
+fieldNames.h_LinkURL = '';
+fieldNames.h_LinkTitle = '';
+fieldNames.h_PageText = '';
+fieldNames.h_TextAbstract = '\n\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n\n"Project funded under the Socio-economic Sciences and Humanities theme"\n\nTitle:\n\nInnovative S&amp;T indicators for empirical models and policies: combining...';
+fieldNames.h_NameIsBanner = '0';
+fieldNames.h_ImageCount = 2;
+fieldNames.h_NewImageCount = 2;
+fieldNames.h_SetImageSync = '0';
+fieldNames.h_HeadlineCount = 0;
+fieldNames.h_SystemName = 'h_Welcome';
+fieldNames.h_TaskStatus = '';
+fieldNames.h_Form = '30DF3123AEFAF358052567080016723D';
+fieldNames.h_Originator = 'CN=marianic/OU=innovativest/OU=QP/O=unibocconi';
+fieldNames.h_OriginatorDisplayName = 'CN=marianic/OU=innovativest/OU=QP/O=unibocconi';
+fieldNames.h_EditSceneTrail = '';
+fieldNames.h_IsPublished = '1';
+fieldNames.h_PublishedVersionUNID = '';
+fieldNames.h_LastTimePutAway = '02/09/2011 01:27:41 PM';
+fieldNames.h_LastEditor = 'CN=sgiovannoni/OU=innovativest/OU=QP/O=unibocconi';
+fieldNames.h_LastEditorDisplayName = 'Serena Giovannoni';
+fieldNames.h_SetPublishAction = '';
+fieldNames.Form = 'h_PageUI';
+fieldNames.h_SetEditScene = 'h_StdPageAnimation';
+fieldNames.h_PageCmd = 'h_MakeDraftFromPublishedVersion';
+fieldNames.h_PageCmdStage = 'h_Before';
+fieldNames.h_DraftVersionUNID = 'FF02C35750DA7938C1257911004FEB6F';
+fieldNames.h_DraftVersionTimestamp = '09/20/2011 04:32:56 PM';
+fieldNames.h_SaveAuthors = 'CN=marianic/OU=innovativest/OU=QP/O=unibocconi, [h_Editors]';
+fieldNames.h_Authors = 'CN=sgiovannoni/OU=innovativest/OU=QP/O=unibocconi';
+fieldNames.Scene = '';
+fieldNames.h_SetEditCurrentScene = '';
+fieldNames.h_SetEditNextScene = '';
+fieldNames.h_EditAction = '';
+fieldNames.h_SetErrorScene = 'h_HaikuError';
+fieldNames.h_SetReturnURL = '';
+fieldNames.h_DocCreated = '01/28/1999 11:05:09 PM';
+fieldNames.h_ModifiedDate = '02/09/2011 01:27:39 PM';
+fieldNames.h_HasUpdates = 1;
+fieldNames.DeliveredDate = '';
+fieldNames.h_DocSize = 19184;
+fieldNames.h_AttachmentNames = '"Image.europa.jpg", "Image.seventh.jpg"';
+fieldNames.h_AttachmentLengths = '4422, 6189';
+fieldNames.h_NumAttachments = 2;
+fieldNames.h_AttachmentImageCount = 2;
+fieldNames.h_HTMLImport = '';
+fieldNames.h_CurrentBgColor = '#ffffff';
+fieldNames.h_CalTimeDateTmp = '';
+fieldNames.h_CurrentSkinName = 'h_BlobSkin';
+fieldNames.h_CurrentSkinType = 'h_Page';
+fieldNames.h_SceneContext = '';
+fieldNames.h_Context_InFolder = 0;fieldNames.h_BuildNumber='700050.05';
+fieldNames.h_MaxFileSizeAllowedToUpload = '50000';
+
+var notesFieldNameList = "";
+for (property in fieldNames) { 
+notesFieldNameList += property + " "; 
+}
+var h_AllowEdit = '1';
+var h_IsSystem = '0';
+var h_IsInToc = '1';
+var h_SetReadScene = 'h_StdPageRead';
+var h_Type = '0';
+var MIME_Version = '1.0';
+var h_UpgradeOptions = 'h_Append,h_NoCopy';
+var h_SetParentUnid = '';
+var h_FolderUNID = '';
+var h_PageType = '';
+var h_HTMLImportFiles = '';
+var h_HTMLImportStyleSheet = '';
+var h_HTMLImportOriginalFile = '';
+var h_NSImport = '';
+var h_HTMLImportUnqNum = '';
+var h_AltText = '';
+var h_NonArchiveAttachments = '1';
+var h_AttachmentTimes = '';
+var h_AttachmentNamesAlt = 'QPNULL';
+var h_AttachmentLengthsAlt = 'QPNULL';
+var h_AttachmentOldNames = '';
+var h_Position = 10000;
+var h_publishSeqTime = '02/09/2011 01:27:36 PM';
+var h_ReturnToPage = '4DF38292D748069D0525670800167212';
+var h_RevNum = '';
+var h_Name = 'Welcome';
+var PageBody = '<div><b><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><strong><img alt="" src="$FILE/Image.europa.jpg?OpenElement&1212755580593">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt="" src="$FILE/Image.seventh.jpg?OpenElement&1212755593421"></strong></font></font></span></p><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><strong><font face="Verdana" size="4"><p align="center"><span style="font-family: Tahoma;"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><o:p><span style="font-size: 10pt; font-family: Tahoma;"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><strong></strong></font></font></span><font color="#000099">"Project funded under the Socio-economic Sciences and Humanities theme"<o:p></o:p></font></span></o:p></font></font></span></p><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"></font></font></font></strong></span><strong><font face="Verdana" size="4"></font></strong><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><strong><font color="#000099">Title:</font></strong></font></font></span></p><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif">Innovative S&amp;T indicators for empirical models and policies: combining patent data and surveys.<o:p></o:p></font></font></span></p><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><strong></strong></font></font></span>&nbsp;</p><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><strong><font color="#000099">Acronym:</font></strong> </font></font></span></p><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif">InnoS&amp;T<br></font></font></span></p><span style="font-family: Tahoma;"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><strong></strong></font></font></font></font></span><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"></font></font><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><span style="font-family: Tahoma;"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><strong><font color="#000099"></font></strong></font></font></span></font></font></span>&nbsp;</p><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><span style="font-family: Tahoma;"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><strong><font color="#000099">Project duration:</font></strong> </font></font></span></font></font></span></p><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><span style="font-family: Tahoma;"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif">1.04.2008 &#8211; 31.03.2011</font></font></span></font></font></span></p><p class="MsoNormal" style="margin: 0pt;" align="center"><br><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><span style="font-family: Tahoma;"></span></font></font></span></p><p class="MsoNormal" style="margin: 0pt;" align="center"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><span style="font-family: Tahoma;"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><a target="_top" href="http://bcmmnty-qp.unibocconi.it/QuickPlace/innovativest/Main.nsf/h_1E9F2821EED3168CC12574600045B435/15F1A2DB85866C61C12577AC0048F9C8/?OpenDocument">InnoS&amp;T final conference - Munich 15-16th February 2011</a><br></font></font></span> </font></font></span></p><p><span style="font-family: Tahoma;"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><o:p><span style="font-size: 10pt; font-family: Tahoma;"><span style="font-size: 10pt; font-family: Tahoma;" lang="EN-GB"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><strong></strong></font></font></span></span></o:p></font></font></span>&nbsp;</p><p><span style="font-family: Tahoma;"><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><o:p><span style="font-size: 10pt; font-family: Tahoma;"><o:p></o:p></span>&nbsp;</o:p></font></font></span></p><font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"></font></font></b>    </div>\r\n\r\n\r\n\r\n\r\n\r\n\r\n';
+var h_CurrentPosition = '';
+var h_ImageURL = '';
+var h_HeadlineText = '';
+var h_LinkURL = '';
+var h_LinkTitle = '';
+var h_PageText = '';
+var h_TextAbstract = '\n\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n\n"Project funded under the Socio-economic Sciences and Humanities theme"\n\nTitle:\n\nInnovative S&amp;T indicators for empirical models and policies: combining...';
+var h_NameIsBanner = '0';
+var h_ImageCount = 2;
+var h_NewImageCount = 2;
+var h_SetImageSync = '0';
+var h_HeadlineCount = 0;
+var h_SystemName = 'h_Welcome';
+var h_TaskStatus = '';
+var h_Form = '30DF3123AEFAF358052567080016723D';
+var h_Originator = 'CN=marianic/OU=innovativest/OU=QP/O=unibocconi';
+var h_OriginatorDisplayName = 'CN=marianic/OU=innovativest/OU=QP/O=unibocconi';
+var h_EditSceneTrail = '';
+var h_IsPublished = '1';
+var h_PublishedVersionUNID = '';
+var h_LastTimePutAway = '02/09/2011 01:27:41 PM';
+var h_LastEditor = 'CN=sgiovannoni/OU=innovativest/OU=QP/O=unibocconi';
+var h_LastEditorDisplayName = 'Serena Giovannoni';
+var h_SetPublishAction = '';
+var Form = 'h_PageUI';
+var h_SetEditScene = 'h_StdPageAnimation';
+var h_PageCmd = 'h_MakeDraftFromPublishedVersion';
+var h_PageCmdStage = 'h_Before';
+var h_DraftVersionUNID = 'FF02C35750DA7938C1257911004FEB6F';
+var h_DraftVersionTimestamp = '09/20/2011 04:32:56 PM';
+var h_SaveAuthors = 'CN=marianic/OU=innovativest/OU=QP/O=unibocconi, [h_Editors]';
+var h_Authors = 'CN=sgiovannoni/OU=innovativest/OU=QP/O=unibocconi';
+var Scene = '';
+var h_SetEditCurrentScene = '';
+var h_SetEditNextScene = '';
+var h_EditAction = '';
+var h_SetErrorScene = 'h_HaikuError';
+var h_SetReturnURL = '';
+var h_DocCreated = '01/28/1999 11:05:09 PM';
+var h_ModifiedDate = '02/09/2011 01:27:39 PM';
+var h_HasUpdates = 1;
+var DeliveredDate = '';
+var h_DocSize = 19184;
+var h_AttachmentNames = '"Image.europa.jpg", "Image.seventh.jpg"';
+var h_AttachmentLengths = '4422, 6189';
+var h_NumAttachments = 2;
+var h_AttachmentImageCount = 2;
+var h_HTMLImport = '';
+var h_CurrentBgColor = '#ffffff';
+var h_CalTimeDateTmp = '';
+var h_CurrentSkinName = 'h_BlobSkin';
+var h_CurrentSkinType = 'h_Page';
+var h_SceneContext = '';
+var h_Context_InFolder = 0;var h_BuildNumber='700050.05';
+var h_MaxFileSizeAllowedToUpload = '50000';
+
+var h_isBeingEdited=0;
+var h_isAutoEdit = false;
+var h_PageUnid = "4DF38292D748069D0525670800167212";
+var h_Authors = 'CN=sgiovannoni/OU=innovativest/OU=QP/O=unibocconi';
+var h_AuthorsDisplayName = 'Serena Giovannoni';
+var h_Readers = '';
+var h_ReadersDisplayName = '';
+var h_DraftVersionUNID = "FF02C35750DA7938C1257911004FEB6F";
+var h_PublishedVersionUNID = "";
+var h_Type = "0";
+var h_DraftVersionTimestamp = "09/20/2011 04:32:56 PM";
+var h_IsNewDoc = "0";
+if ( (typeof( h_LastTimePutAway) == "undefined" || h_LastTimePutAway == "")
+&& h_PublishedVersionUNID == "") {
+h_IsNewDoc = "1";
+}
+var h_PageType = "";
+var h_IsInToc = '1';
+var h_IsPublished = '1';
+if (h_StartPage && h_StartPage == h_PageUnid) {         
+h_StartPage = "";
+}
+if ( h_ClientBrowser.calendarIntegrationEnabled) {
+h_ClientBrowser.calendarIntegrationFolderOptions = "h_Always"; 
+}
+currentPage = null;
+currentPage = new makePageObj (h_PageUnid);
+currentPage.init(self);
+SceneTitleSkinComponentTitleText = (typeof(h_Name) != "undefined" ? h_Name : "");
+</script>
+
+
+<script type="text/javascript">
+var h_CalendarDate =  '';
+var h_CalendarTime =  '';
+if (typeof(h_OriginatorDisplayName) == "undefined" ) {
+self.h_OriginatorDisplayName = 'CN=marianic/OU=innovativest/OU=QP/O=unibocconi';
+}
+function onLoad_Handler()
+{ 
+logEnter("onLoad_Handler");
+logExit("onLoad_Handler"); 
+};
+var url;
+if ( typeof( h_Context_InFolderName) != "undefined" && 
+h_Context_InFolderName != "") {
+var szValue;
+url = getAbsoluteRoomURL(self) + '/' + h_Context_InFolderName + '/' + h_PageUnid + '/?Navigate&To=Prev';
+if ( (szValue = GetUrlArgument( location.href, "ResortAscending")) != "") {
+url += "&ResortAscending=" + szValue;
+} 
+else if ( (szValue = GetUrlArgument( location.href, "ResortDescending")) != "") {
+url += "&ResortDescending=" + szValue;
+}
+AddNavigationLink( "Previous", url, 'Go to the previous page');
+if ( 
+(typeof (h_PublishedVersionUNID) == "undefined" || h_PublishedVersionUNID == "") &&
+typeof(h_FolderDoc) != "undefined" && !h_FolderDoc.doesFolderPreviewDocument( )) {
+var startPage = (h_PageType == 'h_Response' || h_PageType == 'h_Revision')? h_SetParentUnid : h_PageUnid;
+url = getAbsoluteRoomURL(self) + '/' + 'h_Toc' + '/' + h_FolderDoc.h_Unid + "/?OpenDocument&StartUNID=" + startPage;
+if ( (szValue = GetUrlArgument( location.href, "ResortAscending")) != "") {
+url += "&ResortAscending=" + szValue;
+} 
+else if ( (szValue = GetUrlArgument( location.href, "ResortDescending")) != "") {
+url += "&ResortDescending=" + szValue;
+}
+AddNavigationLink( "Folder", url, 'Go to the folder that this page is inside');
+}
+url = getAbsoluteRoomURL(self) + '/' + h_Context_InFolderName + '/' + h_PageUnid + '/?Navigate&To=Next';
+if ( (szValue = GetUrlArgument( location.href, "ResortAscending")) != "") {
+url += "&ResortAscending=" + szValue;
+} 
+else if ( (szValue = GetUrlArgument( location.href, "ResortDescending")) != "") {
+url += "&ResortDescending=" + szValue;
+}
+AddNavigationLink( "Next", url, 'Go to the next page');
+}
+var h_Form = '30DF3123AEFAF358052567080016723D';
+if (h_Form != '') {
+var formTitle			= '';
+var workflowType		= '';
+var workflowOptions	= '';
+var approverNames		= '';
+var publishFolder		= '';
+var formDescription  = '';
+var formType			= '';
+ formTitle			= 'Page'; workflowType		= 'h_Standard'; workflowOptions	= ''; approverNames		= ''; publishFolder		= ''; formDescription   = 'Create a new page that can include formatted text, images, and file attachments.'; formType				= ''; 
+var iCount = 0;
+var fieldSysName		= new Array( );
+var fieldTitle			= new Array( );
+var fieldLabel			= new Array( );
+var fieldType			= new Array( );
+var fieldFocus			= new Array( );
+var fieldRequired		= new Array( );
+var fieldDefault		= new Array( );
+var fieldFormat		= new Array( );
+var fieldChoiceStr	= new Array( );
+ fieldSysName[iCount]		= 'h_Name'; fieldTitle[iCount]		= 'Page Title'; fieldLabel[iCount]		= ''; fieldType[iCount]			= 'h_Subject'; fieldFocus[iCount]		= '1'; fieldRequired[iCount]	= '1'; fieldDefault[iCount]		= ''; fieldFormat[iCount]		= 'h_BannerOptional'; fieldChoiceStr[iCount]	= ''; iCount++;  fieldSysName[iCount]		= 'PageBody'; fieldTitle[iCount]		= 'Contents'; fieldLabel[iCount]		= ''; fieldType[iCount]			= 'h_RichText'; fieldFocus[iCount]		= ''; fieldRequired[iCount]	= ''; fieldDefault[iCount]		= ''; fieldFormat[iCount]		= ''; fieldChoiceStr[iCount]	= ''; iCount++;  fieldSysName[iCount]		= 'h_Attachments'; fieldTitle[iCount]		= 'Attachments'; fieldLabel[iCount]		= ''; fieldType[iCount]			= 'h_Attachments'; fieldFocus[iCount]		= ''; fieldRequired[iCount]	= ''; fieldDefault[iCount]		= ''; fieldFormat[iCount]		= ''; fieldChoiceStr[iCount]	= ''; iCount++;  fieldSysName[iCount]		= 'h_NotifyIndicator'; fieldTitle[iCount]		= 'Email Notification'; fieldLabel[iCount]		= 'The following members will be notified when this page is published:'; fieldType[iCount]			= 'h_NotifyIndicator'; fieldFocus[iCount]		= ''; fieldRequired[iCount]	= ''; fieldDefault[iCount]		= ''; fieldFormat[iCount]		= 'h_NonStaticList'; fieldChoiceStr[iCount]	= ''; iCount++; 
+var formObj = currentRoom.formDef[h_Form] = new makeFormObj (h_Form, formType, formTitle, formDescription, publishFolder, workflowType, workflowOptions, approverNames);
+MakeFormObject(formObj);
+}
+var formObj = currentRoom.formDef[h_Form];
+if ( formObj.formType == "h_ImportedHtml") {
+h_NameIsBanner = '0';
+}
+if (isInAnyTaskView()) {
+currentFolderStorage = "h_TaskList";
+if (isInToDoView()) {
+currentFolderStorage = "h_TaskToDoList";
+}
+else if (isInMilestoneView()) {
+currentFolderStorage = "h_TaskMilestoneList";
+}
+}
+else {
+currentFolderStorage = (currentFolderStorage=="")? "h_Toc" : currentFolderStorage;
+}
+var DraftDocSkinComponentUrl = "../.." + "/" + currentFolderStorage + '/' + 'FF02C35750DA7938C1257911004FEB6F' + '/?OpenDocument';
+var PublishedDocSkinComponentUrl = "../.." + "/" + currentFolderStorage + '/' + '' + '/?OpenDocument';
+helpPageUnid = "F332374FD94C95DC85256B8000762944";
+var hasWorkflow = (formObj.workflowType == "h_ApprovalCycle" || formObj.workflowType == "h_EditorInChief") ? true : false;
+var workflowStage="";
+if (hasWorkflow) {
+workflowStage = (typeof(h_WorkflowStage)=="undefined") ? "h_New" : h_WorkflowStage;
+}
+var isWorkflowReEdit = false;
+if ((hasWorkflow) && ( h_DraftVersionUNID != "" || h_PublishedVersionUNID != "")) {
+var approverNames = formObj.approverList.join() + "," + h_Originator;
+isWorkflowReEdit = isInStringCaseIndependent( approverNames, haiku.canonicalName, false);
+}
+var groupsForUser = new Array("");
+var isAuthor = isPageAuthor( h_Authors, groupsForUser);
+if (hasWorkflow) {
+if (currentUserAccess == 6 && ( isInStringCaseIndependent( h_SetNextStageUser, haiku.canonicalName, true))) { 
+isAuthor = true;
+}
+}
+var h_IsSystem = '0';
+if (haiku.userName != "Anonymous" && (typeof(h_SystemName) != "undefined" && h_SystemName == "h_HaikuSetupWelcome")) {
+var userFromWhere = "";
+if ( isLocalUser(userFromWhere))
+{
+AddSceneAction("Change Password", "../.." + "/" + currentFolderStorage + '/' + h_PageUnid + '/?EditDocument&PreSetFields=h_EditAction;h_Next,h_SetEditNextScene;h_SecurityPassword,h_SetEditCurrentScene;h_SecurityPassword,h_Admin;2,h_ReturnToPage;' + currentPage.PageUnid, "", true);
+}
+}
+if (currentUserAccess > 2) {
+if (	haiku.haikuType != 'HaikuSetupNT' && h_Context_InFolder != "1") {
+var createInFolder = (h_Context_InFolder==1?h_Context_InFolderName:'h_Toc');
+if (isInToDoView()){
+createInFolder = "FC26FF80844B992B052568B0005C0ADA";
+}
+else if (isInMilestoneView()) {
+createInFolder = "3E4E4EF48A6899A0052568B0005C0AAC";
+}
+AddRoomAction( 'New...', "../../"+createInFolder+"/$new/?EditDocument&Form=h_PageUI"+"&PreSetFields=h_EditAction;"+"h_New"+",h_SetReadScene;"+'h_StdPageRead'+",h_SetEditScene;"+'h_StdPageFormIndex'+",h_ReturnToPage;"+h_PageUnid);
+}
+if (h_IsPublished == "1" && h_IsSystem != "1" && (h_Context_InFolder == "1" && h_Context_InFolderName!='h_Index') && 
+(currentUserAccess == 6 || (typeof h_FolderDoc.h_CanAddPages!="undefined" && h_FolderDoc.h_CanAddPages=="1")) &&
+((typeof h_FolderDoc.h_FavoredForm != "undefined" && typeof h_FolderDoc.h_HideNewAction != "undefined") &&
+(h_FolderDoc.h_FavoredForm != "" || h_FolderDoc.h_HideNewAction != "1"))) {
+if (currentFolderStyle == "5" || currentFolderStyle == "6") {
+putAway.tmpText = formatMessage( '%1 by %2', h_Name, "Serena Giovannoni");
+AddSceneAction('Respond', 
+"../../"+(h_Context_InFolder==1?h_Context_InFolderName:'h_Toc')+"/$new/?EditDocument&Form=h_PageUI"+"&PreSetFields=h_EditAction;"+"h_New"+",h_SetReadScene;"+'h_StdPageRead'+",h_SetEditScene;"+(typeof h_FolderDoc.h_ResponseForm!="undefined" && h_FolderDoc.h_ResponseForm=="h_Any"?"h_StdPageFormIndex":"h_StdPageEdit")+",h_ReturnToPage;"+h_PageUnid+",h_Form;"+"30DF3123AEFAF358052567080016723D"+",h_PageType;h_Response,h_SetParentUnid;" + h_PageUnid);
+}
+if (typeof(DeliveredDate) == "undefined" || DeliveredDate == "") {
+AddSceneAction('New Revision',
+"../../"+(h_Context_InFolder==1?h_Context_InFolderName:'h_Toc')+"/$new/?EditDocument&Form=h_PageUI"+"&PreSetFields=h_EditAction;"+"h_New"+",h_SetReadScene;"+'h_StdPageRead'+",h_SetEditScene;"+'h_StdPageEdit'+",h_ReturnToPage;"+h_PageUnid+',h_Form;'+(h_Form==""?"30DF3123AEFAF358052567080016723D":h_Form)+',h_PageType;h_Revision,h_SetParentUnid;'+h_PageUnid+',h_Originator;'+escape(haiku.canonicalName)+'&ParentUNID='+h_PageUnid);
+}
+}
+if (	(hasWorkflow) && 
+( isInStringCaseIndependent( h_Authors, haiku.canonicalName, false) && workflowStage!="h_New" && workflowStage!="h_Published")) {
+AddSceneAction('Approve/Reject', "../.." + "/" + currentFolderStorage + "/" + h_PageUnid + "/?EditDocument&Form=h_PageUI&PreCopyDoc&PreSetFields=h_EditAction;h_Edit,h_SetEditScene;h_WorkflowOptions,h_ReturnToPage;4DF38292D748069D0525670800167212");
+}
+var addDeleteAction = false, addCopyMoveAction = false, isEditablePage = false;
+var allowSidebarUpdates = (''!='0');
+if (currentFolderStorage=="h_Toc" && !allowSidebarUpdates) {
+allowSidebarUpdates = false;
+}
+else {
+allowSidebarUpdates = true;
+}
+if ((h_IsSystem != "1" && isAuthor) || (typeof(DeliveredDate) != "undefined" && DeliveredDate != "")) {
+isEditablePage = true;
+}
+if (isEditablePage || (currentUserAccess == 6 && "1" == "1")) {
+var validForm = true;
+var isConflict = "0";
+if (h_DraftVersionUNID == "" && validForm && (typeof(DeliveredDate)=="undefined" || DeliveredDate == "")){
+if (h_IsPublished == "0" && !(hasWorkflow)) {
+AddSceneAction('Publish Now', 
+"../.." + "/" + currentFolderStorage + '/' + h_PageUnid+"/?EditDocument&Form=h_PageContentUI&PreCopyDoc"+
+"&PreSetFields=h_EditAction;h_Edit,h_SetEditScene;h_StdPageAnimation,h_ReturnToPage;" + 
+((h_PublishedVersionUNID=="")?h_PageUnid:h_PublishedVersionUNID) +
+",h_InputAction;h_Publish");
+if (h_PublishedVersionUNID != "") {
+AddSceneAction('Revert', "javascript:confirmRevert()");
+}
+}
+AddSceneAction('Edit', "javascript:confirmEdit()");
+}
+if (typeof h_TaskStatus!="undefined" && h_TaskStatus == "h_Incomplete") {
+AddSceneAction('Complete', 
+"../.." + "/" + currentFolderStorage + '/' + h_PageUnid+"/?EditDocument&Form=h_PageContentUI&PreCopyDoc&PreSetFields=h_EditAction;h_Edit,h_SetEditScene;h_StdPageAnimation,h_ReturnToPage;" + 
+((h_PublishedVersionUNID=="")?h_PageUnid:h_PublishedVersionUNID) +
+",h_InputAction;h_ChangeToComplete");
+}
+}
+if (	(isEditablePage || currentUserAccess == 6) && 
+h_PublishedVersionUNID=="" &&
+!((hasWorkflow) && workflowStage=='h_Submitted')) {
+if (h_IsSystem != "1") addCopyMoveAction = true;
+if (h_IsSystem != "1") addDeleteAction = true;
+}
+var iAmCurrentEditor = (isAuthor) ? true : false;
+var iAmEditor = false;
+if( typeof(h_SaveAuthors) != "undefined") {
+iAmEditor = isPageEditor( h_SaveAuthors, groupsForUser);
+}else {
+iAmEditor = isPageEditor( "", groupsForUser);
+}
+var iAmAuthor = (currentUserAccess == 2)? false : true;
+var iAmReader = (currentUserAccess == 2)? true : false;
+var multipleEditors = ((2 > 1 && h_DraftVersionUNID!="") || formObj.workflowType == 'h_MultipleEditors' || (currentUserAccess == 6 && "1" == "1")) ? true : false;
+var singleEditor    = !multipleEditors;
+var isDraft = (h_IsPublished == "1" ? false : true);
+var h_PreventBookmark = (isDraft) ? "1" : "";
+var isPublished = ( h_IsPublished == "1" || h_PublishedVersionUNID != ""); 
+var displayButton = "";
+if ( h_IsSystem != "1" && isPublished)
+{
+if (singleEditor && iAmCurrentEditor)
+{
+if (hasWorkflow)
+displayButton = "PageStatus";
+else if (h_DraftVersionUNID == "")
+displayButton = "CheckInOut";
+}
+if (iAmEditor && multipleEditors)
+{
+if (iAmCurrentEditor || !hasWorkflow)
+displayButton = "CheckInOut";
+else 
+displayButton = "PageStatus";
+}
+}
+if (hasWorkflow)
+{
+displayButton = "PageStatus";
+}
+if (displayButton == "PageStatus")
+{
+AddSceneAction('Page Status', "../.." + "/" + currentFolderStorage + '/' + h_PageUnid+"/?OpenDocument&Form=h_PageUI&PreSetFields=h_SetReadScene;h_StdPageStatus");
+}
+else if (displayButton == "CheckInOut")
+{
+if (isDraft)
+AddSceneAction('Check In...', "../.." + "/" + currentFolderStorage + '/' + h_PageUnid+"/?OpenDocument&Form=h_PageUI&PreSetFields=h_SetReadScene;h_StdPageStatus");
+else
+AddSceneAction('Check Out...', "../.." + "/" + currentFolderStorage + '/' + h_PageUnid+"/?OpenDocument&Form=h_PageUI&PreSetFields=h_SetReadScene;h_StdPageStatus");
+}
+var iNumberOfResponses =  0;
+if (addCopyMoveAction)
+{
+AddSceneAction("Copy", "javascript:confirmCopy(" + iNumberOfResponses + ",'" + h_PublishedVersionUNID + "','" + h_DraftVersionUNID + "')");
+if ((h_Context_InFolder==1?h_Context_InFolderName:'h_Toc') != "h_Calendar" && !isInAnyTaskView() && allowSidebarUpdates) {
+AddSceneAction("Move", "javascript:confirmMove(" + iNumberOfResponses + ",'" + h_PublishedVersionUNID + "','" + h_DraftVersionUNID + "')");
+}
+}
+if (addDeleteAction && allowSidebarUpdates) 
+{
+AddSceneAction('Delete', "javascript:confirmDelete(" + iNumberOfResponses + ",'" + h_PublishedVersionUNID + "','" + h_DraftVersionUNID + "')");
+}
+}
+</script>
+
+
+
+<script type="text/javascript">
+var G_ShowTutorial = false;
+var G_TutorialURL = "";
+if (G_TutorialURL != "") {
+G_ShowTutorial = true;
+}
+var G_ShowWhatsNew = '1';
+var G_ShowSiteMap = ("0"=="1")? true : false;
+var G_ShowMyPlaces = ("0"=="0")? false: true;
+var G_ShowOffline  = '' == "false" ? false : true;
+if (G_ShowOffline)
+{
+if (!currentMember.isExplicitMember() ||
+"0" == "0")
+G_ShowOffline = false;
+}
+var G_ShowSearch = ("1"=="0")? false : true;
+var G_ShowChat = ("0"=="0")? false : true;
+if (G_ShowChat) {
+if (currentMember.isLocalUser())
+G_ShowChat = false;
+}
+var G_ShowMemberProfileLink = "1" == "1" ? true : false;
+if (G_ShowMemberProfileLink)
+{
+if (!(currentUserRoles.indexOf("[h_Members]") >= 0))
+G_ShowMemberProfileLink = false;
+var membersPageVisibleToAll = "0" == "0" ? false : true;
+if (!membersPageVisibleToAll && currentUserAccess != 6)
+G_ShowMemberProfileLink = false;
+var tmpUrl = h_baseUrl.toLowerCase();
+if (tmpUrl.indexOf ('quickplace/quickplace') != -1)
+G_ShowMemberProfileLink = false;
+}
+var G_ShowHelp = ("0"=="0")? false : true;
+var G_qpLogoURL = "";
+{
+var imageURL = "";
+var limerickURL = "";
+if ( imageURL != "")
+{
+G_qpLogoURL = buildUrl("Main.nsf") + '/' + "$defaultview" + '/' + "E5625BD1B8F3E85005256823005AAF05" + "/" + imageURL;
+}
+else if ( limerickURL != "")
+{
+G_qpLogoURL = limerickURL;
+}
+}	
+var G_szNotificationTitle    = "";
+var G_szNotificationAbstract = "";
+var G_szNotificationUrl		  = stripLogin();
+{
+if ( typeof( h_Name) != "undefined")
+{
+G_szNotificationTitle = replaceStr( h_Name, "\"", "&quot;");
+}
+if ( typeof( h_TextAbstract) != "undefined") {
+if ( IsTextAbstractNotifiable( h_TextAbstract))
+{
+G_szNotificationAbstract = replaceStr( h_TextAbstract,"\"","&quot;");
+}
+}
+var szBrowserBasedPrefix = getProtocalAndServerUrl() + getAbsoluteServerRootPath(self);
+G_szNotificationUrl = haiku.GetEmailUrlPrefix( ) + G_szNotificationUrl.substring( szBrowserBasedPrefix.length);
+}
+var G_qpCurrentBackgroudColor = '#ffffff';
+</script>
+<LINK rel=STYLESHEET type=text/css href="../../../../../QuickPlace/innovativest/Main.nsf/$defaultview/9EEB7D0C2C9DF92405256820007751D3/?OpenDocument&Form=h_StyleSheet&CacheResults&TimeStamp=C125798700509102&QPVersion=700050.050000&LoginName=Anonymous">
+<script type="text/javascript">
+document.write ('<title> ' +
+(typeof(h_Name) != "undefined" && h_Name != "" ? h_Name : SceneTitleSkinComponentTitleText) +
+' - ' + haikuName + 
+'</title>');
+</script>
+</HEAD>
+
+<BODY class=h-page-bg>
+
+                         
+<!-- BEGIN SKIN OUTPUT --> 
+<!-- Special table just for actions -->
+<table width="100%" border=0 cellspacing="0" cellpadding="0">
+	<tr>
+		<!-- Spacer -->
+		<td valign="top"><img src="../../../../../qphtml/skins/blob/transparent.gif" width=80 height=1 alt="" border=0></td>
+		<!-- Actions -->
+		<td width=100% nowrap class=h-action-text><script type='text/javascript'>QPComponentInit('<Item class=h-action-text>','&nbsp;','<Item class=h-action-text>','&nbsp;|&nbsp;','','','','');</script><script type="text/javascript">
+document.write( GenerateActionsHTML( ));
+</script>
+</td>
+		<td align="right" nowrap class="h-action-text">
+			<!-- My Status -->
+			<script type='text/javascript'>QPComponentInit('<Item class="h-action-text">','','<Item class="h-action-text">','','',' | ','','');</script><script type="text/javascript">
+document.write( GenerateMyStatusHTML( ));
+</script>
+
+			<!-- Sign In -->
+			<script type='text/javascript'>QPComponentInit('<Item class="h-action-text">','','<Item class="h-action-text">','','','','','');</script><script type="text/javascript">
+document.write( GenerateSignInHTML( ));
+</script>
+
+		</td>
+	</tr>
+</table>
+<!-- Special table just for logo -->
+<table width="100%" border=0 cellspacing="0" cellpadding="0">
+	<!-- Space -->
+	<tr><td colspan=2><img src="../../../../../qphtml/skins/blob/transparent.gif" width=1 height=20 alt="" border=0></td></tr>
+	<!-- Logo -->
+	<tr>
+		<td align=right><span class=h-logo-text>&nbsp;<script type='text/javascript'>QPComponentInit('<Item class=h-logo-text>','','<Item class=h-logo-text>','','','','','');</script><script type="text/javascript">
+document.write( GenerateLogoHTML( ));
+</script>
+</span></td>
+		<td></td>
+	</tr>
+	<!-- Spacers -->
+	<tr>
+		<td width=516><img src="../../../../../qphtml/skins/blob/transparent.gif" width=516 height=1 alt="" border=0></td>
+		<td width=100%></td>
+	</tr>
+</table>
+<!-- Main table -->
+<table width="100%" border=0 cellspacing="0" cellpadding="0">
+	<tr> 
+		<!-- LEFT COLUMN -->
+		<!-- Table of contents -->
+		<td width=200 valign="top" align="left">  
+			<table width="100%" border=0 cellspacing="0" cellpadding="0">
+				<!-- Column spacers -->
+				<tr>
+					<td width="12"><img src="../../../../../qphtml/skins/blob/transparent.gif" width="12" height=1 alt="" border=0></td>
+					<td width="140"><img src="../../../../../qphtml/skins/blob/transparent.gif" width="140" height=1 alt="" border=0></td>
+					<td width="48"><img src="../../../../../qphtml/skins/blob/transparent.gif" width="48" height=1 alt="" border=0></td>
+				</tr>
+				<!-- Space -->
+				<tr><td colspan=3><img src="../../../../../qphtml/skins/blob/transparent.gif" width=1 height=24 alt="" border=0></td></tr>
+				<tr>
+					<td></td>
+					<td>
+						<script type='text/javascript'>QPComponentInit('<Item class=h-toc-text><br>','','<Item class=h-tocSelected-text><br>','','','','','');var h_QPTocComponent_Text=new Array();var h_QPTocComponent_Hover=new Array();var h_QPTocComponent_Selected=new Array();h_QPTocComponent_Text['font-family']='geneva, arial, helvetica, sans-serif';h_QPTocComponent_Text['font-size']='10pt';h_QPTocComponent_Text['color']='#004573';h_QPTocComponent_Text['background-color']='#008BC0';h_QPTocComponent_Text['font-family']='arial, helvetica, sans-serif';h_QPTocComponent_Text['font-size']='9pt';h_QPTocComponent_Text['text-transform']='lowercase';h_QPTocComponent_Text['color']='white';h_QPTocComponent_Text['sidebar-background-color'] = '#f7efbd';for (q in h_QPTocComponent_Text) {h_QPTocComponent_Hover[q] = h_QPTocComponent_Text[q];h_QPTocComponent_Selected[q]=h_QPTocComponent_Text[q];}h_QPTocComponent_Hover['color']='#e74d4a';h_QPTocComponent_Hover['color']='#BED000';h_QPTocComponent_Selected['font-family']='geneva, arial, helvetica, sans-serif';h_QPTocComponent_Selected['font-size']='10pt';h_QPTocComponent_Selected['color']='#e74d4a';h_QPTocComponent_Selected['background-color']='#008BC0';h_QPTocComponent_Selected['font-family']='arial, helvetica, sans-serif';h_QPTocComponent_Selected['font-size']='9pt';h_QPTocComponent_Selected['text-transform']='lowercase';h_QPTocComponent_Selected['color']='white';</script><script type="text/javascript">
+document.write( GenerateTOCHTML( ));
+</script>
+
+					<td></td>
+				</tr>
+				<!-- Tools --> 
+				<tr>
+					<td></td>
+					<td><span class=h-tool-text>
+						<br>
+						<br>
+						<span class=h-searchLabel-text>Search:</span>
+						<script type='text/javascript'>QPComponentInit('','','','','','','','');</script><script type="text/javascript">
+function h_QuickSearchFormSubmit( )
+{ 
+logEnter("h_QuickSearchFormSubmit");
+if ( document.h_QuickSearchForm.h_SearchStringTmp.value == "") {
+alert('Please type in a word or a phrase.');
+document.h_QuickSearchForm.h_SearchStringTmp.focus();
+return;
+}
+if (document.h_QuickSearchForm.h_SearchStringTmp.value.indexOf(',') != -1) {
+alert('Search text cannot contain the following character:  ,');		
+document.h_QuickSearchForm.h_SearchStringTmp.focus();
+return;
+}
+var string = document.h_QuickSearchForm.h_SearchStringTmp.value;
+if ( string.length > 200) {
+alert('Search text is too long.');					
+return;
+}
+var searchUrl  = getAbsoluteRoomURL(self) + '/' + (h_Context_InFolder==1?h_Context_InFolderName:'h_Toc')+"/$new/?EditDocument&Form=h_PageUI"+"&PreSetFields=h_EditAction;"+"h_New"+",h_SetReadScene;"+'h_StdPageRead'+",h_SetEditScene;"+'h_SearchResults'+",h_ReturnToPage;"+h_PageUnid;
+searchUrl     += ",h_SearchStart;0,h_SearchCount;15,h_SearchString;" + escape( string );
+location.href = searchUrl;
+return false;
+logExit("h_QuickSearchFormSubmit"); 
+};
+document.write('<Form name="h_QuickSearchForm" method=POST action="javascript:h_QuickSearchFormSubmit( )">');
+document.write('<INPUT title="' + 'Search string' + '" class=h-searchField-text name=h_SearchStringTmp size=10 value="">');
+document.write('<a href="javascript:h_QuickSearchFormSubmit( )">');
+document.write('<img src="' + "../../../../../qphtml/attachments/go.gif" + '" width=28 height=20 alt="' + 'QuickSearch: Click here to find pages matching any word or phrase entered in the area to the left of this button.' + ((h_ClientBrowser.isGecko() || h_ClientBrowser.isSafari()) ? '" title="'+ 'QuickSearch: Click here to find pages matching any word or phrase entered in the area to the left of this button.' : '') + '" border="0" align=top></a></Form>');
+</script>
+
+						<script type='text/javascript'>QPComponentInit('<Item class=h-tool-text><br>','','<Item class=h-tool-text><br>','','','','','');</script><script type="text/javascript">
+document.write( GenerateAdvancedSearchHTML( ));
+</script>
+
+						<script type='text/javascript'>QPComponentInit('<Item class="h-tool-text">','','<Item class="h-tool-text">','&nbsp;| ','','<br>','','');</script><script type="text/javascript">
+document.write( GenerateWhatsNewHTML( ));
+</script>
+
+						<script type='text/javascript'>QPComponentInit('<Item class="h-tool-text">','','<Item class="h-tool-text">','&nbsp;| ','<span class="h-tool-text">','<br></span>','','');</script><script type="text/javascript">
+document.write( GenerateSiteMapLauncherHTML( ));
+</script>
+
+						<br>
+						<script type='text/javascript'>QPComponentInit('<Item class="h-tool-text">&nbsp;| ','','<Item class="h-tool-text">&nbsp;| ','','','','','');</script><script type="text/javascript">
+document.write( GenerateOfflineHTML( ));
+</script>
+
+						<script type='text/javascript'>QPComponentInit('<Item class=h-tool-text>&nbsp;| ','','<Item class=h-tool-text>&nbsp;| ','','','','','');</script><script type="text/javascript">
+document.write( GenerateChatHTML( ));
+</script>
+
+						<script type='text/javascript'>QPComponentInit('<Item class=h-tool-text>&nbsp;| ','','<Item class=h-tool-text>&nbsp;| ','','','','','');</script><script type="text/javascript">
+document.write( GenerateNotifyHTML( ));
+</script>
+
+						<script type='text/javascript'>QPComponentInit('<Item class=h-tool-text>&nbsp;| ','','<Item class=h-tool-text>&nbsp;| ','','','','','');</script><script type="text/javascript">
+document.write( GenerateDownloadFileHTML( ));
+</script>
+
+						<script type='text/javascript'>QPComponentInit('<Item class=h-tool-text>&nbsp;| ','','<Item class=h-tool-text>&nbsp;| ','','','','','');</script><script type="text/javascript">
+document.write( GeneratePrintHTML( ));
+</script>
+
+						<script type='text/javascript'>QPComponentInit('<Item class=h-tool-text>','','<Item class=h-tool-text>','','<span class="h-tool-text">','&nbsp;|</span>','','');</script><script type="text/javascript">
+document.write( GenerateTutorialHTML( ));
+</script>
+
+						<script type='text/javascript'>QPComponentInit('<Item class=h-tool-text>','','<Item class=h-tool-text>','','','','','');</script><script type="text/javascript">
+document.write( GenerateHelpHTML( ));
+</script>
+
+						</span>
+						<br>
+						<br>
+						<span class=h-tool-text>
+						<!-- MyPlaces -->
+						<script type='text/javascript'>QPComponentInit('<Item class=h-tool-text>','','<Item class=h-tool-text>','','',' | ','','');</script><script type="text/javascript">
+document.write( GenerateMyPlacesLink( ));
+</script>
+
+						<script type='text/javascript'>QPComponentInit('<Item class=h-tool-text>','','<Item class=h-tool-text>','> ','','','','');</script><script type="text/javascript">
+document.write( GeneratePathHTML( ));
+</script>
+</span>
+					</td>
+					<td></td>
+				</tr>
+			</table>
+		</td>
+		<!-- RIGHT COLUMN -->
+		<td width="100%" valign="top" align="left">
+			<!-- Table for title, navigation, etc.  -->
+			<table width="100%" border=0 cellspacing="0" cellpadding="0">
+				<!-- Space -->
+				<tr><td width=100% colspan=2><img src="../../../../../qphtml/skins/blob/transparent.gif" width=1 height=25 alt="" border=0></td></tr>
+				<!-- Page title -->
+				<tr>
+					<td colspan=2 valign="top" class=h-pageTitle-textbg>
+					<script type='text/javascript'>QPComponentInit('','&nbsp;','','','','','','');</script><script type="text/javascript">
+document.write(GeneratePageTitleHTML ( ));
+</script>
+
+					</td>
+				</tr>
+				<!-- Author date -->
+				<tr>
+					<td valign="top" class=h-authorMod-text>
+					<script type='text/javascript'>QPComponentInit('<Item>','&nbsp;','<Item>',', ','','','','');</script><script type="text/javascript">
+document.write(GenerateAuthorAndModifiedHTML ( ));
+</script>
+
+					</td>
+					<!-- Jump + navigation -->
+					<td align=right valign="top">
+						<table width="1" border=0 cellspacing="0" cellpadding="0">
+							<tr>
+							<!-- Jump -->
+							<script type='text/javascript'>QPComponentInit('<td nowrap class=h-nav-text><Item class=h-nav-text>&nbsp;</td>','','<td nowrap class=h-nav-text><Item class=h-nav-text>&nbsp;</td>','','','','','');</script><script type="text/javascript">
+document.write( GenerateJumpHTML( ));
+</script>
+
+							<!-- Navigation -->
+							<script type='text/javascript'>QPComponentInit('<td nowrap class=h-nav-bg><Item></td>','<td>&nbsp;</td>','<td nowrap class=h-nav-bg><Item></td>','','','','\n\t\t\t\t\t\t\t\t\tfolder=<img src="../../../../../qphtml/skins/blob/hblobfolder.gif" alt="Go to this page\'s folder" border=0 width="21" height="19">&&\n\t\t\t\t\t\t\t\t\tfirst=<img src="../../../../../qphtml/skins/blob/hblobfirst.gif" alt="Go to first page" border=0 width="21" height="19">&&\n\t\t\t\t\t\t\t\t\tprevious=<img src="../../../../../qphtml/skins/blob/hblobprevious.gif"alt="Go to previous page"  border=0 width="21" height="19">&&\n\t\t\t\t\t\t\t\t\tnext=<img src="../../../../../qphtml/skins/blob/hblobnext.gif" alt="Go to next page" border=0 width="21" height="19">&&\n\t\t\t\t\t\t\t\t\tlast=<img src="../../../../../qphtml/skins/blob/hbloblast.gif" alt="Go to last page" border=0 width="21" height="19">','');</script><script type="text/javascript">
+document.write( GenerateNavigationHTML( ));
+</script>
+
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<!-- Revisions -->
+				<script type='text/javascript'>QPComponentInit('<Item class=h-revision-text>','','<Item class=h-revisionSelected-text>','&nbsp;|&nbsp;','<tr><td colspan=2 valign="top" class=h-revision-text>','</td></tr>','','');</script><script type="text/javascript">
+document.write( GenerateRevisionHTML( ));
+</script>
+
+			</table>
+			<!-- New table for content -->
+			<table width="100%" border=0 cellspacing="0" cellpadding="0">
+				<!-- Column spacer -->
+				<tr>
+					<td width=100% colspan=2></td>
+					<td><img src="../../../../../qphtml/skins/blob/transparent.gif" width=1 height=1 alt="" border=0></td>
+				</tr>
+				<!-- Page content --> 
+				<tr>
+					<td colspan=2 width="100%" colspan="2" valign="top"><script type='text/javascript'>QPComponentInit('','','','','','','','');</script><script type="text/javascript">
+document.write('<DIV class=' + (h_CurrentSkinType=='h_Edit'?"h-fieldEdit-text":"h-page-text") + '>');
+function onKeyPressHandler (e) 
+{ 
+logEnter("onKeyPressHandler");
+var whichCode = (window.Event) ? e.which : e.keyCode;
+if (whichCode == 13 && eventGetTarget(e).tagName != "TEXTAREA" && currentMember.isADAEnabled()!="1") {
+if ( G_aSceneActions.length > 0)
+{
+var i;
+for (i = 0; i < G_aSceneActions.length; i++) {
+if (G_aSceneActions[i].defaultEntry == true) {
+if (!eval (G_aSceneActions[i].href)) {
+e.returnValue = false;
+}
+}
+}
+}
+}
+logExit("onKeyPressHandler");
+}
+function mainOnSubmitHandler (aForm) 
+{
+return false;
+}
+</script>
+<FORM METHOD=post ACTION=../../cf07bfcad7af887a0525670800167221/4df38292d748069d0525670800167212/?EditDocument NAME="h_PageUI" onKeyDown="onKeyPressHandler(event)" onSubmit="return mainOnSubmitHandler(this)">
+
+<INPUT TYPE=hidden NAME="%%ModDate" VALUE="c1257911004feb6f">
+
+<INPUT type=hidden name=h_SceneContext value="">
+<INPUT TYPE=hidden name=h_EditAction>
+<INPUT TYPE=hidden name=h_SetEditCurrentScene value=h_StdPageRead>
+<script type="text/javascript">
+var theForm = document.forms['h_PageUI'];
+haiku.oContextObject.LoadContext( h_SceneContext);
+function CommonFormPreSubmit( oForm)
+{
+haiku.oContextObject.AddContext( "putAway");
+if (typeof( oForm) == "undefined") { 
+haiku.oContextObject.SaveContext( theForm);
+} else {
+haiku.oContextObject.SaveContext( oForm);
+}
+debugText( "========== POST " + theForm.action, 1);
+}
+function mainOnLoadHandler () 
+{
+if (typeof( onLoad_Handler) != "undefined") {
+onLoad_Handler();
+} else {
+h_HandleError ("No onLoad_Handler.  Why?", "", "");
+}
+}
+window.onload = mainOnLoadHandler;
+var h_QPComponent_FormatString='<Item>';
+document.write(GenerateDraftTextHTML ( ));
+</script>
+<script type="text/javascript">
+function genUniqueNum()
+{ 
+logEnter("genUniqueNum");
+var now = new Date();
+return now.getTime();
+logExit("genUniqueNum"); 
+};
+function getUploadedURLStr( theHaikuFileName, theHaikuUniqueNum)
+{ 
+logEnter("getUploadedURLStr");
+var returnHtml = "" + "$File" + '/' + escape(theHaikuFileName) + '?OpenElement';
+if (( typeof(theHaikuUniqueNum) != "undefined") &&
+(theHaikuUniqueNum != ''))
+{
+returnHtml += '&' + theHaikuUniqueNum; 
+}		 		
+return returnHtml;
+logExit("getUploadedURLStr"); 
+};
+function CheckForUploadControl()
+{ 
+logEnter("CheckForUploadControl");
+if (h_ClientBrowser.hasActiveX ()) {
+if (typeof(theForm.UploadControl.General_ControlExists) == "undefined") {
+alert("Warning: Without downloading the QuickPlace Upload ActiveX Control, QuickPlace will not function properly. To download the control, adjust your browser's security settings, click the \"Refresh\" button and try again.");
+}
+}
+logExit("CheckForUploadControl"); 
+};
+function msoCommentShow(com_id,anchor_id)
+{ 
+logEnter("msoCommentShow");
+logExit("msoCommentShow"); 
+};
+function msoCommentHide(com_id)
+{ 
+logEnter("msoCommentHide");
+logExit("msoCommentHide"); 
+};
+var h_MailPostedDate = '';
+;
+if (h_PageType == "h_Response" || h_PageType == "h_Revision") {
+var parentName = '';
+var authorName = '';
+if ( authorName == "")
+{
+putAway.tmpText = parentName;
+} else {
+putAway.tmpText = formatMessage( '%1 by %2', parentName, authorName);
+}
+var linkHTML = (putAway.tmpText=="")?"(unavailable)]":'<a href=\'javascript:buildResponseLink("' + currentFolderStorage + '","' + h_SetParentUnid + '", false)\'>' +
+putAway.tmpText + '</a>&#93;</font>';
+}
+if (h_PageType == "h_Mail") {
+document.write('<table width=100%><td align="right"><font size=1>&#91;' + formatMessage( 'Mailed in from: %1', '') + '&#93;</font></td></table>');
+}
+if ( formObj.formType != "h_ImportedHtml") {
+if (typeof h_HTMLImport == "undefined" || h_HTMLImport == "") {
+var strToReplace = new Array("'", "\"","<",">");
+var strReplacements = new Array("\\\'", "&quot;","&lt;","&gt;");
+var strToReplace2 = new Array("\"","<",">");
+var strReplacements2 = new Array("&quot;","&lt;","&gt;");
+var i;
+for (i=0;i<formObj.fieldDef.length;i++){
+var fieldObj = formObj.fieldDef[i];
+if (fieldObj.fieldType!="h_Hidden"){
+fieldObj.getReadModeHTML(self, i);
+}
+}
+}
+}
+</script>
+
+
+
+
+</FORM>
+</div>
+</td>
+					<!-- Set min distance to bottom rule for small pages -->
+					<td><img src="../../../../../qphtml/skins/blob/transparent.gif" width=1 height=250 alt="" border=0></td>
+				</tr>
+			</table>
+			<!-- New table for bottom items -->
+			<table width="100%" border=0 cellspacing="0" cellpadding="0">
+				<!-- Actions -->
+				<td colspan=2 width=100% align=right nowrap class=h-action-text><script type='text/javascript'>QPComponentInit('<Item class=h-action-text>','','<Item class=h-action-text>','&nbsp;|&nbsp;','','','','');</script><script type="text/javascript">
+document.write( GenerateActionsHTML( ));
+</script>
+</td>
+				<!-- Space -->
+				<tr><td colspan=2><img src="../../../../../qphtml/skins/blob/transparent.gif" width=1 height=4 alt="" border=0></td></tr>
+				<!-- Rule -->
+				<tr><td colspan=2 class=h-line-bg><img src="../../../../../qphtml/skins/blob/transparent.gif" width=1 height=2 alt="" border=0></td></tr>
+				<!-- Space -->
+				<tr><td colspan=2><img src="../../../../../qphtml/skins/blob/transparent.gif" width=1 height=4 alt="" border=0></td></tr>
+				<!-- Go to top + navigation -->
+				<tr>
+					<td>
+						<table border=0 cellspacing="0" cellpadding="0">
+							<tr>
+								<td nowrap class=h-nav-bg><a href="javascript:gotoHash('top')"><img src="../../../../../qphtml/skins/blob/hblobtop.gif" border=0 width="21" height="19"></a></td>
+							</tr> 
+						</table>
+					</td>
+					<!-- Navigation -->
+					<td align=right valign="top" width=100%>
+						<table border=0 cellspacing="0" cellpadding="0">
+							<tr>
+							<script type='text/javascript'>QPComponentInit('<td nowrap class=h-nav-bg><Item></td>','<td>&nbsp;</td>','<td nowrap class=h-nav-bg><Item></td>','','','','\n\t\t\t\t\t\t\t\t\tfolder=<img src="../../../../../qphtml/skins/blob/hblobfolder.gif" alt="Go to this page\'s folder" border=0 width="21" height="19">&&\n\t\t\t\t\t\t\t\t\tfirst=<img src="../../../../../qphtml/skins/blob/hblobfirst.gif" alt="Go to first page" border=0 width="21" height="19">&&\n\t\t\t\t\t\t\t\t\tprevious=<img src="../../../../../qphtml/skins/blob/hblobprevious.gif"alt="Go to previous page"  border=0 width="21" height="19">&&\n\t\t\t\t\t\t\t\t\tnext=<img src="../../../../../qphtml/skins/blob/hblobnext.gif" alt="Go to next page" border=0 width="21" height="19">&&\n\t\t\t\t\t\t\t\t\tlast=<img src="../../../../../qphtml/skins/blob/hbloblast.gif" alt="Go to last page" border=0 width="21" height="19">','');</script><script type="text/javascript">
+document.write( GenerateNavigationHTML( ));
+</script>
+
+							</tr> 
+						</table>
+					</td>
+				</tr>
+				<!-- Space -->
+				<tr><td colspan=2><img src="../../../../../qphtml/skins/blob/transparent.gif" width=1 height=12 alt="" border=0></td></tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<script type="text/javascript">
+function NotifyFormSubmit( )
+{ 
+logEnter("NotifyFormSubmit");
+if (typeof( h_PreventBookmark) != "undefined" && h_PreventBookmark == "1") {
+alert( "This page is temporary and cannot be used with 'Notify'.");
+return;
+}	
+document.forms['h_NotifyForm'].submit( );
+logExit("NotifyFormSubmit"); 
+};
+function AdvSearchFormSubmit( )
+{ 
+logEnter("AdvSearchFormSubmit");
+document.forms['h_AdvSearchForm'].submit( );
+logExit("AdvSearchFormSubmit"); 
+};
+function WhatsNewUpdateDayFormSubmit( )
+{ 
+logEnter("WhatsNewUpdateDayFormSubmit");
+document.forms['h_UpdateWhatsNewDayForm'].submit( );
+logExit("WhatsNewUpdateDayFormSubmit"); 
+};
+function WhatsNewUpdateWeekFormSubmit( )
+{ 
+logEnter("WhatsNewUpdateWeekFormSubmit");
+document.forms['h_UpdateWhatsNewWeekForm'].submit( );
+logExit("WhatsNewUpdateWeekFormSubmit"); 
+};
+function SearchPlacesFormSubmit( )
+{ 
+logEnter("SearchPlacesFormSubmit");
+document.forms['h_SearchPlacesForm'].submit( );
+logExit("SearchPlacesFormSubmit"); 
+};
+document.write('<Form name="h_NotifyForm" method=post action='							+ getAbsoluteRoomURL(self) + '/' + (h_Context_InFolder==1?h_Context_InFolderName:'h_Toc')+"/$new/?EditDocument&Form=h_PageUI"+"&PreSetFields=h_EditAction;"+"h_New"+",h_SetReadScene;"+'h_StdPageRead'+",h_SetEditScene;"+'h_Bookmark'+",h_ReturnToPage;"+h_PageUnid + '>');
+document.write('<INPUT TYPE=hidden NAME="h_InitialURL" VALUE="'						+ location.href + '">');
+document.write('<INPUT TYPE=hidden NAME="h_NotificationURL" VALUE="'					+ G_szNotificationUrl + '">');
+document.write('<INPUT TYPE=hidden NAME="h_Name" VALUE="'								+ G_szNotificationTitle + '">');
+document.write('<INPUT TYPE=hidden NAME="h_SetPublishEmailTextAbstract" VALUE="' + G_szNotificationAbstract + '">');
+document.write('</form>');
+document.write('<Form name="h_AdvSearchForm" method=post action=' + getAbsoluteRoomURL(self) + '/' + (h_Context_InFolder==1?h_Context_InFolderName:'h_Toc')+"/$new/?EditDocument&Form=h_PageUI"+"&PreSetFields=h_EditAction;"+"h_New"+",h_SetReadScene;"+'h_StdPageRead'+",h_SetEditScene;"+'h_SearchCriteria'+",h_ReturnToPage;"+(typeof(h_SetSaveDoc) != "undefined" && h_SetSaveDoc == "0" && typeof(h_ReturnToPage) != "undefined" && h_ReturnToPage != ""? h_ReturnToPage:h_PageUnid) + '>');
+document.write('<INPUT TYPE=hidden NAME="h_InitialURL" VALUE="' + location.href + '">');
+document.write('</form>');
+document.write('<Form name="h_UpdateWhatsNewDayForm" method=post action=' + 
+getAbsoluteRoomURL(self) + '/' + (h_Context_InFolder==1?h_Context_InFolderName:'h_Toc')+"/$new/?EditDocument&Form=h_PageUI"+"&PreSetFields=h_EditAction;"+"h_New"+",h_SetReadScene;"+'h_StdPageRead'+",h_SetEditScene;"+'h_WhatsNewResults'+",h_ReturnToPage;"+h_PageUnid + '>');
+document.write('<INPUT TYPE=hidden NAME="h_SetUpdateWhatsNew" VALUE="1">');
+document.write('<INPUT TYPE=hidden NAME="h_SetWhatsNewDays" VALUE="1">');
+document.write('</form>');
+document.write('<Form name="h_UpdateWhatsNewWeekForm" method=post action=' + 
+getAbsoluteRoomURL(self) + '/' + (h_Context_InFolder==1?h_Context_InFolderName:'h_Toc')+"/$new/?EditDocument&Form=h_PageUI"+"&PreSetFields=h_EditAction;"+"h_New"+",h_SetReadScene;"+'h_StdPageRead'+",h_SetEditScene;"+'h_WhatsNewResults'+",h_ReturnToPage;"+h_PageUnid + '>');
+document.write('<INPUT TYPE=hidden NAME="h_SetUpdateWhatsNew" VALUE="1">');
+document.write('<INPUT TYPE=hidden NAME="h_SetWhatsNewDays" VALUE="7">');
+document.write('</form>');
+document.write('<Form name="h_SearchPlacesForm" method=post action=' + getAbsoluteRoomURL(self) + '/' + (h_Context_InFolder==1?h_Context_InFolderName:'h_Toc')+"/$new/?EditDocument&Form=h_PageUI"+"&PreSetFields=h_EditAction;"+"h_New"+",h_SetReadScene;"+'h_StdPageRead'+",h_SetEditScene;"+'h_SearchPlacesCriteria'+",h_ReturnToPage;"+(typeof(h_SetSaveDoc) != "undefined" && h_SetSaveDoc == "0" && typeof(h_ReturnToPage) != "undefined" && h_ReturnToPage != ""? h_ReturnToPage:h_PageUnid) + '>');
+document.write('<INPUT TYPE=hidden NAME="h_InitialURL" VALUE="' + location.href + '">');
+document.write('</form>');
+</script>
+<script type="text/javascript">
+writeLinksApplet_QP ();
+</script>
+
+
+
+</BODY>
+</HTML>

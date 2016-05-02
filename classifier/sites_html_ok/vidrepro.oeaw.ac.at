@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en-US"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en-US"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en-US"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en-US"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en-US"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. -->
+
+<head id="http://vidwirel.oeaw.ac.at" data-template-set="html5-reset-wordpress-theme" profile="http://gmpg.org/xfn/11">
+
+	<meta charset="UTF-8">
+	
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	
+	<title>
+		    - REPRO	</title>
+	
+	<meta name="title" content=" - REPRO">
+	<meta name="description" content="subtitle">
+	
+	<meta name="google-site-verification" content="">
+	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
+	
+	<meta name="author" content="creativbox.at">
+	<meta name="Copyright" content="Copyright VID. All Rights Reserved.">
+
+	<!--  Mobile Viewport meta tag
+	j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag 
+	device-width : Occupy full width of the screen in its current orientation
+	initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width -->
+	<!-- Uncomment to use; use thoughtfully!
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	-->
+	
+	<link rel="shortcut icon" href="http://vidrepro.oeaw.ac.at/wp-content/themes/repro/_/img/favicon.ico">
+	<!-- This is the traditional favicon.
+		 - size: 16x16 or 32x32
+		 - transparency is OK
+		 - see wikipedia for info on browser support: http://mky.be/favicon/ -->
+		 
+	<link rel="apple-touch-icon" href="http://vidrepro.oeaw.ac.at/wp-content/themes/repro/_/img/apple-touch-icon.png">
+	<!-- The is the icon for iOS's Web Clip.
+		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
+		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
+		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
+	
+	<!-- CSS: screen, mobile & print are all in the same file -->
+	<link rel="stylesheet" href="http://vidrepro.oeaw.ac.at/wp-content/themes/repro/style.css">
+	
+	<!-- all our JS is at the bottom of the page, except for Modernizr. -->
+	<script src="http://vidrepro.oeaw.ac.at/wp-content/themes/repro/_/js/modernizr-1.7.min.js"></script>
+	
+	<link rel="pingback" href="http://vidrepro.oeaw.ac.at/xmlrpc.php" />
+
+	
+	<link rel="alternate" type="application/rss+xml" title="REPRO &raquo; Feed" href="http://vidrepro.oeaw.ac.at/feed/" />
+<link rel="alternate" type="application/rss+xml" title="REPRO &raquo; Comments Feed" href="http://vidrepro.oeaw.ac.at/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="REPRO &raquo; Welcome Comments Feed" href="http://vidrepro.oeaw.ac.at/welcome/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/vidrepro.oeaw.ac.at\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.7"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js?ver=4.2.7'></script>
+<link rel='canonical' href='http://vidrepro.oeaw.ac.at/' />
+<link rel='shortlink' href='http://vidrepro.oeaw.ac.at/' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+	
+</head>
+
+<body class="home page page-id-4 page-template-default">
+	
+	
+		<header id="header">
+			<h1><a href="http://vidrepro.oeaw.ac.at/">REPRO</a></h1>
+			<div class="description">subtitle</div>
+		</header>
+
+
+<section id="content">
+<div>
+
+<menu id="sidebar">
+ 		<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-332" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4 current_page_item menu-item-332"><a href="http://vidrepro.oeaw.ac.at/">Home</a></li>
+<li id="menu-item-335" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-335"><a href="http://vidrepro.oeaw.ac.at/introduction/">REPRO at a glance</a></li>
+<li id="menu-item-337" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-parent-item menu-item-337"><a href="http://vidrepro.oeaw.ac.at/work-packages/">Work packages</a>
+<ul class="sub-menu">
+	<li id="menu-item-338" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-338"><a href="http://vidrepro.oeaw.ac.at/work-packages/overview/">Overview</a></li>
+	<li id="menu-item-339" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-339"><a href="http://vidrepro.oeaw.ac.at/work-packages/work-package-1-management-and-coordination/">WP1 Coordination</a></li>
+	<li id="menu-item-340" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-340"><a href="http://vidrepro.oeaw.ac.at/work-packages/wp2/">WP2 Fertility trends</a></li>
+	<li id="menu-item-341" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-341"><a href="http://vidrepro.oeaw.ac.at/work-packages/wp3/">WP3 Fertility intentions</a></li>
+	<li id="menu-item-342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-342"><a href="http://vidrepro.oeaw.ac.at/work-packages/wp4-fertility-behaviour/">WP4 Fertility behaviour</a></li>
+	<li id="menu-item-343" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-343"><a href="http://vidrepro.oeaw.ac.at/work-packages/wp/">WP5 Context</a></li>
+	<li id="menu-item-344" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-344"><a href="http://vidrepro.oeaw.ac.at/work-packages/wp6/">WP6 Macro-level determinants</a></li>
+	<li id="menu-item-345" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-345"><a href="http://vidrepro.oeaw.ac.at/work-packages/wp-2/">WP7 Policy implications</a></li>
+	<li id="menu-item-346" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-346"><a href="http://vidrepro.oeaw.ac.at/work-packages/wp8/">WP8 Dissemination</a></li>
+</ul>
+</li>
+<li id="menu-item-349" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-349"><a href="http://vidrepro.oeaw.ac.at/coordination/">Coordination</a></li>
+<li id="menu-item-352" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-352"><a href="http://vidrepro.oeaw.ac.at/repro-partners/">REPRO-Partners</a></li>
+<li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-parent-item menu-item-356"><a href="http://vidrepro.oeaw.ac.at/documents/">Useful documents</a>
+<ul class="sub-menu">
+	<li id="menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-544"><a href="http://vidrepro.oeaw.ac.at/documents/hfd/">HFD</a></li>
+	<li id="menu-item-542" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-542"><a href="http://vidrepro.oeaw.ac.at/documents/databases/">Databases</a></li>
+	<li id="menu-item-533" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-533"><a href="http://vidrepro.oeaw.ac.at/documents/macro-trends/">Macro-trends</a></li>
+	<li id="menu-item-529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-529"><a href="http://vidrepro.oeaw.ac.at/documents/harmonisation/">Harmonisation</a></li>
+	<li id="menu-item-538" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-538"><a href="http://vidrepro.oeaw.ac.at/documents/intentions/">Intentions</a></li>
+	<li id="menu-item-536" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-536"><a href="http://vidrepro.oeaw.ac.at/documents/couples/">Couples</a></li>
+	<li id="menu-item-543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-543"><a href="http://vidrepro.oeaw.ac.at/documents/bulgaria-hungary/">Bulgaria &#038; Hungary</a></li>
+	<li id="menu-item-541" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-541"><a href="http://vidrepro.oeaw.ac.at/documents/realisation/">Realisation</a></li>
+	<li id="menu-item-537" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-537"><a href="http://vidrepro.oeaw.ac.at/documents/realisation-2/">Realisation 2</a></li>
+	<li id="menu-item-534" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-534"><a href="http://vidrepro.oeaw.ac.at/documents/fertility-cultures/">Fertility-cultures</a></li>
+	<li id="menu-item-532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-532"><a href="http://vidrepro.oeaw.ac.at/documents/changing-intentions/">Changing-intentions</a></li>
+	<li id="menu-item-540" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-540"><a href="http://vidrepro.oeaw.ac.at/documents/norms/">Norms</a></li>
+	<li id="menu-item-535" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-535"><a href="http://vidrepro.oeaw.ac.at/documents/cross-national/">Cross-national</a></li>
+	<li id="menu-item-530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-530"><a href="http://vidrepro.oeaw.ac.at/documents/cross-national-fertility/">Cross-national fertility</a></li>
+	<li id="menu-item-539" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-539"><a href="http://vidrepro.oeaw.ac.at/documents/tpb/">TPB</a></li>
+	<li id="menu-item-531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-531"><a href="http://vidrepro.oeaw.ac.at/documents/policy-relevant-information/">Policy-relevant-information</a></li>
+</ul>
+</li>
+<li id="menu-item-334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-334"><a href="http://vidrepro.oeaw.ac.at/publications/">Publications</a></li>
+<li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="http://vidrepro.oeaw.ac.at/dissemination/">Dissemination</a></li>
+<li id="menu-item-361" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-parent-item menu-item-361"><a href="http://vidrepro.oeaw.ac.at/events/">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-522"><a href="http://vidrepro.oeaw.ac.at/events/kick-off-meeting/">Kick-off Meeting</a></li>
+	<li id="menu-item-523" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-523"><a href="http://vidrepro.oeaw.ac.at/events/meeting-in-budapest-10/">Meeting in Budapest</a></li>
+	<li id="menu-item-524" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-524"><a href="http://vidrepro.oeaw.ac.at/events/meeting-in-milan-08/">Meeting in Milan</a></li>
+	<li id="menu-item-525" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-525"><a href="http://vidrepro.oeaw.ac.at/events/meeting-in-paris-08/">Meeting in Paris</a></li>
+	<li id="menu-item-526" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-526"><a href="http://vidrepro.oeaw.ac.at/events/meeting-in-milan-09/">Meeting in Milan</a></li>
+	<li id="menu-item-527" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-527"><a href="http://vidrepro.oeaw.ac.at/events/meeting-in-the-hague/">Meeting in The Hague</a></li>
+	<li id="menu-item-528" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-528"><a href="http://vidrepro.oeaw.ac.at/events/meeting-in-vienna/">Meeting in Vienna</a></li>
+</ul>
+</li>
+<li id="menu-item-364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-364"><a href="http://vidrepro.oeaw.ac.at/funding-by-the-european-commission/">Funding</a></li>
+<li id="menu-item-367" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-parent-item menu-item-367"><a href="http://vidrepro.oeaw.ac.at/password-area/">Password area</a>
+<ul class="sub-menu">
+	<li id="menu-item-375" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-375"><a href="http://vidrepro.oeaw.ac.at/password-area/documents-2/">Documents</a></li>
+	<li id="menu-item-386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-386"><a href="http://vidrepro.oeaw.ac.at/password-area/logo/">Logo</a></li>
+	<li id="menu-item-385" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-385"><a href="http://vidrepro.oeaw.ac.at/password-area/deliverables/">Deliverables</a></li>
+	<li id="menu-item-398" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-398"><a href="http://vidrepro.oeaw.ac.at/password-area/acknowledgement/">Acknowledgement</a></li>
+	<li id="menu-item-397" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397"><a href="http://vidrepro.oeaw.ac.at/password-area/steering-board/">Steering Board</a></li>
+	<li id="menu-item-396" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-396"><a href="http://vidrepro.oeaw.ac.at/password-area/review-report/">Review report</a></li>
+	<li id="menu-item-395" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-395"><a href="http://vidrepro.oeaw.ac.at/password-area/kick-off-meeting/">Kick-off Meeting 08</a></li>
+	<li id="menu-item-401" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-401"><a href="http://vidrepro.oeaw.ac.at/password-area/milan-08/">Milan 08</a></li>
+	<li id="menu-item-406" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406"><a href="http://vidrepro.oeaw.ac.at/password-area/meeting-in-paris/">Paris 08</a></li>
+	<li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-430"><a href="http://vidrepro.oeaw.ac.at/password-area/milan-09/">Milan 09</a></li>
+	<li id="menu-item-415" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-415"><a href="http://vidrepro.oeaw.ac.at/password-area/meeting-in-the-hague/">The Hague 09</a></li>
+	<li id="menu-item-420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-420"><a href="http://vidrepro.oeaw.ac.at/password-area/meeting-in-budapest/">Budapest 10</a></li>
+	<li id="menu-item-423" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-423"><a href="http://vidrepro.oeaw.ac.at/password-area/meeting-in-vienna/">Vienna 10</a></li>
+	<li id="menu-item-428" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-428"><a href="http://vidrepro.oeaw.ac.at/password-area/final-report/">Final report</a></li>
+</ul>
+</li>
+<li id="menu-item-370" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-370"><a href="http://cordis.europa.eu/fp7/home_en.html">7th Framework European Commission</a></li>
+</ul></div>    	</menu>
+
+	
+		<article class="post-4 page type-page status-publish hentry" id="post-4">
+
+			<h1>Welcome</h1>
+
+	
+			<div class="entry">
+				<p>During the last decades all European countries faced a decline in fertility rates, although at a different pace. Evidence shows that there exists a gap between people&#8217;s wishes to have children and their actual behaviour. The realization of their wish to have a child may not be completely within their control; they can be impeded by social, economic, cultural, psychological and other circumstances that appear both at the individual and the societal level. The main objective of the REPRO project is to upgrade the existing knowledge and to generate new scientific and policy-oriented knowledge on the factors that drive changes in the birth rates and influence the reproductive decision-making of contemporary Europeans.</p>
+<p>REPRO has ended in January 2011. This website will no longer be regularly updated.</p>
+<h2><img alt="" src="http://vidrepro.oeaw.ac.at/wp-content/uploads/news.gif" width="43" height="14" /></h2>
+<ul>
+<li>New issue of the Vienna Yearbook of Population Research based on the REPRO conference <a href="http://www.oeaw.ac.at/vid/publications/VYPR2011/VYPR2011.shtml">» more</a></li>
+<li>Scientific articles stemming from the REPRO project <a title="Publications" href="http://vidrepro.oeaw.ac.at/publications/">» more</a></li>
+<li>Presentations and pictures from the final REPRO conference &#8220;From<br />
+intentions to behaviour&#8221; (Dec 2010) available (go to bottom of<br />
+page) <a href="http://vidrepro.oeaw.ac.at/dissemination">» more</a></li>
+</ul>
+<p>&nbsp;</p>
+<p>Use the full text search for specific terms:</p>
+<form id="searchform" action="?php bloginfo('url'); ?" method="get">
+<div><input class="text" id="s" type="text" name="s" value="" /><br />
+<input class="submit button" type="submit" name="submit" value="Search" /></div>
+</form>
+			</div>
+
+
+		</article>
+
+	
+	
+	</div>
+</section>
+
+		<footer id="footer"><div><a href="http://www.oeaw.ac.at/vid" target="_blank"><img src="http://vidwirel.oeaw.ac.at/wp-content/themes/wirel/img/vid-logo.png" width="78" height="28" /></a>Coordinator: <a href="http://www.oeaw.ac.at/vid" target="_blank">Vienna Institute of Demography</a><br /> Austrian Academy of Sciences<br />Wohllebengasse 12-14, 6th floor, 1040 Vienna, Austria</div></footer>
+
+	
+	<script type='text/javascript' src='http://vidrepro.oeaw.ac.at/wp-includes/js/comment-reply.min.js?ver=4.2.7'></script>
+
+
+<!-- here comes the javascript -->
+
+<!-- jQuery is called via the Wordpress-friendly way via functions.php -->
+
+<!-- this is where we put our custom functions -->
+<script src="http://vidrepro.oeaw.ac.at/wp-content/themes/repro/_/js/functions.js"></script>
+
+<!-- Asynchronous google analytics; this is the official snippet.
+	 Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.
+	 
+<script>
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-XXXXXX-XX']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+-->
+	
+</body>
+
+</html>

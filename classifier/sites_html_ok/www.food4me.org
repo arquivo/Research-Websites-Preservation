@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr" >
+	<head>
+  <base href="http://www.food4me.org/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Super User" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Home</title>
+  <link href="http://www.food4me.org/en/component/search/?format=opensearch" rel="search" title="Search Food4Me" type="application/opensearchdescription+xml" />
+  <link rel="stylesheet" href="/media/mod_languages/css/template.css" type="text/css" />
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+  </script>
+
+<link rel="stylesheet" href="/templates/food4me25/css/style.css" type="text/css" />
+<link rel="image_src" href="/templates/food4me25/images/logo_food4me.gif" />
+<style>
+#global.home {
+	background:#FFF url(/templates/food4me25/images/visu_home.jpg) no-repeat top left;
+}
+#menu li.item-101 a {
+	color:#e6b012;
+	height:27px;
+	border-bottom:12px solid #e6b012;
+}
+#global.home #content {
+	width: 560px;
+	float:right;
+}
+</style>
+<!--[if lt IE 8 ]>
+        <link href="/templates/food4me_25/css/style_ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!-- Facebook 
+<meta property="og:title" content="Food4me"/>
+<meta property="og:url" content="http://www.food4me.org"/>
+<meta property="og:image" content="http://www.food4me.org/templates/food4me/images/logo_food4me.gif"/>
+<meta property="og:site_name" content="Food4me"/>
+<meta property="og:description" content="An integrated analysis of opportunities and challenges for personalised nutrition. Food4Me will consider all aspects of personalised nutrition; from investigating consumer understanding to producing technologies for implementation and investigating gene expression in response to diet."/>
+<meta property="og:locale" content="en_US"/>-->
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27122063-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<meta name="google-site-verification" content="6GQGre6m-eQ7NH09dFW1H42cJz3B9EzYdypyRoRKzD8" />
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- header -->
+<div id="header">
+	<div id="logo">
+		<a href="/"><img src="/templates/food4me25/images/pix_trans.gif" border="0" width="200" height="140" /></a>
+    </div>
+    <div style="float:left; width:750px;">
+        <div id="extranet_access">
+            		<div class="moduletable">
+					
+<ul class="menu">
+<li class="item-121"><a href="/en/extranet" >Extranet</a></li><li class="item-152"><a href="https://pop.food4me-ssl.org/volunteer/" target="_blank" >Volunteer section</a></li><li class="item-322"><a href="/register/" target="_blank" >Conference Registration</a></li></ul>
+		</div>
+	
+        </div>
+        <div id="language_menu">
+            		<div class="moduletable">
+					<div class="mod-languages">
+
+	<ul class="lang-inline">
+						<li class="lang-active" dir="ltr">
+			<a href="/en/">
+							<img src="/media/mod_languages/images/en.gif" alt="English (UK)" title="English (UK)" />						</a>
+			</li>
+								<li class="" dir="ltr">
+			<a href="/de/">
+							<img src="/media/mod_languages/images/de.gif" alt="Deutsch" title="Deutsch" />						</a>
+			</li>
+								<li class="" dir="ltr">
+			<a href="/pl/">
+							<img src="/media/mod_languages/images/pl.gif" alt="polish" title="polish" />						</a>
+			</li>
+								<li class="" dir="ltr">
+			<a href="/es/">
+							<img src="/media/mod_languages/images/es.gif" alt="Spanish" title="Spanish" />						</a>
+			</li>
+				</ul>
+
+</div>
+		</div>
+	
+        </div>
+    </div>
+    <div id="search">
+	    		<div class="moduletable">
+					<form action="/en/" method="post">
+	<div class="search">
+		<label for="mod-search-searchword"> </label><input name="searchword" id="mod-search-searchword" maxlength="20"  class="inputbox" type="text" size="20" value="Search..."  onblur="if (this.value=='') this.value='Search...';" onfocus="if (this.value=='Search...') this.value='';" /><input type="submit" value="OK" class="button" onclick="this.form.searchword.focus();"/>	<input type="hidden" name="task" value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="198" />
+	</div>
+</form>
+		</div>
+	
+    </div>
+    <div id="menu">
+	    		<div class="moduletable_menu">
+					
+<ul class="menu">
+<li class="item-101"><a href="/en/" >Home</a></li><li class="item-111 parent"><a href="/en/about/about-the-food4me-project" >About</a></li><li class="item-301"><a href="https://pop.food4me-ssl.org/volunteer/" >Join</a></li><li class="item-107"><a href="/en/research" >Research</a></li><li class="item-321"><a href="/en/scientific-publications" >Scientific Publications</a></li><li class="item-106"><a href="/en/news" >News</a></li><li class="item-153"><a href="/en/mediacenter" >Media</a></li><li class="item-105 parent"><a href="/en/partnerslist/who" >Who</a></li><li class="item-104"><a href="/en/contact" >Contact</a></li></ul>
+		</div>
+	
+	</div>
+</div>
+<!-- content -->
+<div id="global" class="home">
+	<div id="feeds">
+    	        		<div class="moduletable">
+					<div class="itp-fblike-box">
+
+
+
+<div id="fb-root"></div>
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+	<div class="fb-like-box" 
+	data-href="https://www.facebook.com/pages/Food4Me-Personalised-Nutrition/272949659407356" 
+	data-width="290" 
+	data-height="390" 
+	data-show-faces="0" 
+	data-border-color="" 
+	data-stream="1" 
+	data-header="0"
+	data-force-wall="false"></div>
+</div>
+		</div>
+	
+                <ul>
+        	<li class="on"><a href="/index.php"><img src="/templates/food4me25/images/tab_FB.gif" border="0" /></a></li>
+            <li ><a href="/index.php?twitter=feed"><img src="/templates/food4me25/images/tab_twitter.gif" border="0" /></a></li>
+        </ul>
+    </div>
+	<div id="content">
+    			<div class="item-page">
+
+	<h2>
+			Home		</h2>
+
+
+
+
+
+
+
+
+<p class="intro_home">An <span class="white">integrated analysis</span> of opportunities and challenges for <span class="white">personalised nutrition</span>.</p>
+<p>Is it possible to design a better, healthier and more individual diet? Understanding the relationship between food and gene expression may make this a reality. Food4Me is a university led, EU funded research project investigating all aspects of this exciting field.</p>
+<p><a href="/en/about/about-the-food4me-project">Read more about the Food4Me project</a></p> 
+	
+</div>
+
+        <div style="margin-top:35px;">
+        	
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div id="global_footer">
+<!-- keep in touch -->
+    <div id="keepintouch">
+        <div id="menu_keepintouch" class="float_left">
+            		<div class="moduletable">
+					
+<ul class="menu">
+<li class="item-148"><a class="link_mail" href="/en/keep-in-touch" ><img src="/images/mail.png" alt="Subscribe to our news" /><span class="image-title">Subscribe to our news</span> </a></li></ul>
+		</div>
+	
+        </div>
+        <div id="facebook" class="fb-like-box" data-href="http://www.facebook.com/pages/Food4Me-Personalised-Nutrition/272949659407356" data-width="240" data-height="70" data-show-faces="false" data-stream="false" data-header="true"></div>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+        <div id="menu_footer" class="float_left">
+            		<div class="moduletable_menu">
+					
+<ul class="menu">
+<li class="item-101"><a href="/en/" >Home</a></li><li class="item-111 parent"><a href="/en/about/about-the-food4me-project" >About</a></li><li class="item-301"><a href="https://pop.food4me-ssl.org/volunteer/" >Join</a></li><li class="item-107"><a href="/en/research" >Research</a></li><li class="item-321"><a href="/en/scientific-publications" >Scientific Publications</a></li><li class="item-106"><a href="/en/news" >News</a></li><li class="item-153"><a href="/en/mediacenter" >Media</a></li><li class="item-105 parent"><a href="/en/partnerslist/who" >Who</a></li><li class="item-104"><a href="/en/contact" >Contact</a></li></ul>
+		</div>
+	
+        </div>
+        <p class="copyright">&copy; Copyright 2011 Food4Me<br />This project has received funding from the European Union's Seventh Framework Programme for research, technological development and demonstration. (Contract n&ordm;265494)<br /><img src="/templates/food4me/images/europe.gif" style="margin:10px 0 38px 0;" /><!--<img src="/templates/food4me/images/FP7-gen-RGB.gif" style="margin-top:10px;" />--></p>
+    </div>
+</div>
+<div class="clear"></div>
+<!-- signature -->
+<div id="signature"><a href="http://www.tostaky.be" target="_blank">webdesign by tostaky</a></div>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='ISO-8859-1'?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!--
+The pdf icon is from the Silk icon set by Mark James, http://www.famfamfam.com/
+Licenced under Creative Commons Attribution 2.5 License, http://creativecommons.org/licenses/by/2.5/
+Silk icons: http://www.famfamfam.com/lab/icons/silk/
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Euler - Home</title>
+    <meta name="description" content="Project Euler" />
+    <meta http-equiv="keywords" name="keywords" content="project euler cordis fp7 European Software Defined radio for wireless in joint security operations" />
+
+    <script type="text/javascript" src="script/jquery.pngFix.js"></script>
+
+<link rel="stylesheet" type="text/css" media="screen" href="screen.css" />
+<link rel="stylesheet" type="text/css" media="print" href="print.css" />
+
+<link rel="shortcut icon" href="favicon.ico" />
+
+<!-- transparent png fix for pre-IE7 browsers -->
+<!--[if lt IE 7]>
+<script type="text/javascript" src="script/jquery.pngFix.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$(document).pngFix();
+});
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div id="window">
+
+<div id="centered_container_with_shadow">
+
+ <div id="centered_container_abstract_01">
+
+  <div id="header">
+
+  <ul id="topmenu">
+     <li><a href="index.php">Home</a></li>
+     <li><a href="sitemap.php">Sitemap</a></li>
+     <li><a href="contact.php">Contact Us</a></li>
+   </ul>
+
+   <ul id="mainmenu">
+     <li id="main_active"><a href="index.php">Home</a></li>
+     <li><a href="endusers.php">For End-Users</a></li>
+     <li><a href="partners.php">Partners</a></li>
+     <li><a href="news.php">News</a></li>
+   </ul>
+
+   <ul id="submenu">
+     <li><a id="sub_active" href="index.php">Project Summary</a></li>
+     <li><a href="workpackages.php">Workpackages</a></li>
+     <li><a href="deliverables.php">Deliverables</a></li>
+     <li><a href="technology.php">Euler Technology</a></li>
+     <li><a href="dissemination.php">Dissemination</a></li>
+   </ul>
+
+  </div> <!-- header -->
+
+  <div id="text_content">
+
+    <div id="newsbar">
+
+    <h2><a href="news.php">Latest news:</a></h2>
+
+	<p><span class="news_date">23.February 2012</span><br />
+    <a href="news.php#20">A public demonstration of the Euler project on 29th of March in the Hague</a></p>
+
+	<p><span class="news_date">23. February 2012</span><br />
+    <a href="news.php#19">EULER will be presented in Karlsruhe SDR workshop</a></p>
+
+	<p><span class="news_date">October 2011</span><br />
+    <a href="news.php#18">EULER article published in IEEE Communications Magazine</a></p>
+
+
+
+
+
+
+
+ 
+	
+
+
+
+    <div id="news_dog"></div>
+
+    </div>
+
+
+  <div id="text_area_frontpage">
+
+
+  <h1>Project Summary</h1>
+
+  <p>EULER - EUropean Software Defined radio for wireless in joint security operations</p>
+
+  <p>The EULER project gathers major players in Europe in the field of wireless systems communication integration and software defined radio (SDR), is supported by a strong group of end-users, and aims to define and actually demonstrate how the benefits of SDR can be leveraged in order to drastically enhance interoperability and fast deployment in case of crisis needed to be jointly resolved. The proposed activities span the following topics: proposal for a new high-data-rate waveform for homeland security, strengthening and maturing ongoing efforts in Europe in the field of SDR standardisation, implementation of Software defined radio platforms, associated assessment of the proposal for high-data-rate waveform for security, and realisation of an integrated demonstrator targeted towards end-users. Significant interaction with E.U stakeholders in the field of security forces management will contribute in shaping a European vision for interoperability in joint operations for restoring safety after crisis.</p>
+
+  <p>Grant agreement no.: FP7-SEC-218133</p>
+
+ 
+
+  <!--<p><a href="./Newsletter.pdf">EULER newsletter (pdf)</a></p>-->
+
+  <p><a href="./Euler_Flyer.pdf"><img src="images/flyer.png" alt="Flyer" /> EULER flyer</a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="./Euler_general_presentation.pdf"><img src="images/flyer.png" alt="Presentation" /> EULER presentation</a></p>
+
+
+
+  </div> <!-- text_area -->
+
+  <div id="clear" style="clear:both;"></div>
+
+  </div> <!-- text_content -->
+
+ </div> <!-- centered_container -->
+
+</div> <!-- centered_container_with_shadow -->
+
+<div id="footer">
+
+  <div id="logos">
+  <a href="http://europa.eu/"><img src="images/eu_small.gif" alt="The European Union" /></a> <a href="http://cordis.europa.eu/"><img src="images/cordis_small.gif" alt="EUROPA - CORDIS" /></a> <a href="http://cordis.europa.eu/fp7/"><img src="images/7th_small.gif" alt="CORDIS: FP7" /></a>
+  </div> <!-- logos -->
+
+  <p>Last update: Thursday February 23, 2012</p>
+
+</div> <!-- footer -->
+
+</div> <!-- window -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8690972-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

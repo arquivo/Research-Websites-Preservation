@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+<meta name="description" content="National & Kapodistrian University of Athens School of Physics Division of Physics of Environment - Meteorology, Atmospheric Modeling and Weather Forecasting Group"/>
+<meta name="keywords" content="meteo, weather, forecast, greece, skiron, σκιρον, καιρός, ελλάδα, πρόγνωση, wave, θάλλασα, κύμματα, dust, wind, cloud, rain, athens, europe, greek, sahara, seaweaves, air, pollution, chemical, climate, regional, prediction, mediteranian, aegean, sea, air pollution, snow, swell, analysis, mesoscale, atlantic, asia, middle, thermal, east, aerosols, ozone, sulfates, humidity, local, city, cities, χάρτες καιρού, τοπική, παγκόσμια, ποιότητα αέρα, αέρας, κυματική, σκόνη, Σαχάρα, βροχή, χίονι, χαλάζι, παγετός, υγρασία, ατμοσφαιρική, ρύπανση, ατμόσφαιρα, κλίμα, κλιματολογική, σύννεφα, Αθήνα, Ευρώπη, Ελληνική, χημικά, περιφέρεια, περιφερειακή, πρόβλεψη, μεσσογειακή, παγκόσμια, Αιγαίο, ανάλυση, Ατλαντικός, Ασία, πόλις, πόλη, τοπική, θερμοκρασία, τοπικά, χάρτες, όζον, νέφος, in meteo,kairos kairos kairos,καιρου,καιρού,in volos,athinon,προγνωση,πρόγνωση,προγνωςη καιρου,προγνωση καιρού,καιροσ προγνωση,καιρος προγνωση,πρόγνωση καιρου,καιρός πρόγνωση,κτελ,kteλ,κρήτης,κρητησ,σκι,αττικής,
+ελλάδος,greece meteo,μετεο greece"/>
+<link href="/base/webstyle.css" rel="stylesheet" type="text/css"/>
+<link rel="shortcut icon" href="/base/img/mini_athina.png"/>
+<script type="text/javascript" src="/base/js/jsclock.js"></script>
+<script type="text/javascript" src="/base/js/chrome.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="/base/js/arrow_buttons.js"></script>
+<script type="text/javascript">var gaJsHost=(("https:"==document.location.protocol)?"https://ssl.":"http://www.");var _gaq=_gaq||[];(function(){function functionName(fn){var name=/\W*function\s+([\w\$]+)\(/.exec(fn);if(!name)
+return'No name';return name[1];}
+var nameSpace='_gat';var existingGat=window[nameSpace];if(existingGat&&typeof existingGat['_getTracker']=='function'){return;}
+var gaqAccounts=[];function setAccount(acct,prefix){if(gaqAccounts[prefix]!=acct){gaqAccounts[prefix]=acct;_gaq.push([prefix+'_setAccount',acct]);}}
+window['_modpagespeed_getRewriteTracker']=function(tracker_acct,tracker_name){var prefix=tracker_name?tracker_name+'.':'';function deferTrackerFunc(fn){return function(){setAccount(tracker_acct,prefix);var pushArgs=[fn];[].push.apply(pushArgs,arguments);_gaq.push(pushArgs);};}
+var pageTrackerMethodNames=['_trackPageview','_trackEvent','_trackTrans','_addIgnoredOrganic','_addIgnoredRef','_addItem','_addOrganic','_addTrans','_clearIgnoredOrganic','_clearIgnoredRef','_clearOrganic','_clearXKey','_clearXValue','_cookiePathCopy','_deleteCustomVar','_link','_linkByPost','_sendXEvent','_setAllowAnchor','_setAllowHash','_setAllowLinker','_setAutoTrackOutbound','_setCampCIdKey','_setCampContentKey','_setCampIdKey','_setCampMediumKey','_setCampNOKey','_setCampNameKey','_setCampSourceKey','_setCampTermKey','_setCampaignCookieTimeout','_setCampaignTrack','_setClientInfo','_setCookiePath','_setCookiePersistence','_setCookieTimeout','_setCustomVar','_setDetectFlash','_setDetectTitle','_setDomainName','_setHrefExamineLimit','_setLocalGifPath','_setLocalRemoteServerMode','_setLocalServerMode','_setMaxCustomVariables','_setNamespace','_setReferrerOverride','_setRemoteServerMode','_setSampleRate','_setSessionCookieTimeout','_setSessionTimeout','_setTrackOutboundSubdomains','_setTrans','_setTransactionDelim','_setVar','_setVisitorCookieTimeout','_setXKey','_setXValue'];var pageTracker={initData:function(){},};for(var i=pageTrackerMethodNames.length;i--;){var n=pageTrackerMethodNames[i];pageTracker[n]=deferTrackerFunc(prefix+n);}
+return pageTracker;};var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+<script type="text/javascript">try{var pageTracker=_modpagespeed_getRewriteTracker("UA-7353189-1");pageTracker._trackPageview();}catch(err){}</script>
+<title>Active Projects - POSEIDON</title>
+</head>
+<body onLoad="StartClock()" onUnload="KillClock()">
+<div id="headtitle">
+<map name="headmap">
+<area coords="0,0,100,90" href="http://www.uoa.gr"/>
+<area coords="450,0,100,40" href="http://www.uoa.gr"/>
+</map>
+<img id="headimg" src="/base/img/headTitle.png" usemap="#headmap" border="0"/>
+</div>
+<div id="menu">
+<div class="topmenu">
+<div class="chromestyle" id="chromemenu">
+<ul>
+<li><a href="/index.php">Home</a></li>
+<li><a href="#" rel="dropmenu1">Group</a></li>
+<li><a href="#" rel="dropmenu2">Research</a></li>
+<li><a href="/awards.php">Awards</a></li>
+<li><a href="#" rel="dropmenu3">Conferences</a></li>
+<li><a href="/contactus.php">Contact Us</a></li>
+<li><a href="/gbook/index.htm">Guest Book</a></li>
+<li><a href="
+
+/greek/index.php">Greek &nbsp;<img src="/images/flag_gr.png" border="0" align="texttop"/></a></li>
+</ul>
+</div>
+<div id="dropmenu1" class="dropmenudiv" style="width: 150px;">
+<a href="/about.php">Our Group</a>
+<a href="/staff.php">Group Members</a>
+<a href="staff.php#prev">Past Members</a>
+<a href="staff.php#vis">Visitors</a>
+<a href="/jobs.php">Job Opportunities</a>
+</div>
+<div id="dropmenu2" class="dropmenudiv">
+<a href="/proj.php">Funded Research</a>
+<a href="/activ.php">Research Activities</a>
+<a href="/publications.php">Publications</a>
+</div>
+<div id="dropmenu3" class="dropmenudiv" style="width: 150px;">
+<a href="/confrecent.php">Recent</a>
+<a href="/confarch.php">Past</a>
+</div>
+<script type="text/javascript">cssdropdown.startchrome("chromemenu")</script>
+</div>
+<div id="content">
+<div id="lmenu" class="rounded">
+<div id="clockText" class="larticle" align="center"></div>
+<div class="larticle">
+<ul class="menublock">
+<li><b>Weather Forecast</b>
+<ul class="doted">
+<li><a href="/ICLAMS/index.php">High Resolution</a></li>
+<li><a href="/forecastnew.php">Regional</a></li>
+<li><a href="/marina.php?option=2">NE Atlantic & Europe</a></li>
+<li><a href="/forecastcity.php">Meteo/Dust Grams</a></li>
+<li><a href="/ICLAMS/locations.php">Local Forecast</a></li>
+</ul>
+</li>
+<li><b>Dust</b>
+<ul>
+<li><a href="/dustindx.php?domain=med">Med-Europe</a></li>
+<li><a href="/dustindx.php?domain=atl">North Atlantic</a></li>
+<li><a href="/dustindx.php?domain=asia">Central Asia</a></li>
+<li><a href="/arabian.php">Arabian Gulf (N)</a></li>
+</ul>
+</li>
+<li><b>Wave Forecast</b>
+<ul>
+<li><a href="/wamindx.php?option=1">Global</a></li>
+<li><a href="/wamindx.php?option=2">North Atlantic</a></li>
+<li><a href="/wamindx.php?option=3">Mediterranean</a></li>
+<li><a href="/wamindx.php?option=4">Aegean Sea</a></li>
+<li><a href="/wamindx.php?option=5">Adriatic Sea</a></li>
+<li><a href="/wamindx.php?option=6">Black Sea</a></li>
+<li><a href="/wamindx.php?option=7">Cyclades</a></li>
+</ul>
+</li>
+<li><b>Air Quality Forecast</b>
+<ul>
+<li><a href="/camxindx.php">Mediterranean</a></li>
+</ul>
+</li>
+<li><b>Interactive Forecast (Weather & Wave)</b>
+<ul>
+<li><a href="/gmap/index.php?lat=50.850092&lon=4.352209">Europe</a></li>
+<li><a href="/gmap">Mediterranean</a></li>
+</ul>
+</li>
+<li><b>Current Weather</b>
+<ul>
+<li><a href="/satel.php">Satellite Images</a></li>
+<li><a href="/metar.php">Surface Observations</a></li>
+<li><a href="/metar/airports_ng.php">Airport Observations</a></li>
+</ul>
+</li>
+<li><b>Active Projects</b>
+<ul>
+<li><a href="/proj_moon.php">MOONGOOS</a></li>
+<li><a href="/marina.php?option=1">NORWAY</a></li>
+<li><a href="/proj_irpwind.php">IRPWIND</a></li>
+<li><a href="/proj_medsea.php">MedSea</a></li>
+<li><a href="/proj_blacksea.php">BlackSea</a></li>
+</ul>
+</li>
+<li><b>Finished Projects</b>
+<ul>
+<li><a href="/oldproj.php">Archive</a></li>
+</ul></li>
+</ul>
+<br>
+<a style="margin-left: -5px;" href="/itm35.php"><img id="headimg" style="width:140px;height:100px;" src="/base/img/ITM_logo.png" border="0"/></a>
+</div>
+</div>
+<div id="maintext">
+<center><h1><a href="http://www.marina-platform.info/" target="_blank">MARINA Platform</a></h1>(<a href="http://forecast.uoa.gr/MARINA/" target="_blank">Members only</a>)</center>
+<p>
+<b>MArine Renewable INtegrated Application Platform</b><br>
+Collaborative Project. 7th Framework Programme<br>
+Grant agreement number: 241402<br>
+54 months - January 2010 to June 2014<br>
+17 partners from 12 different countries<br>
+Total budget: 12.761.220&#8364; // Total EC contribution: 8.708.660&#8364;
+</p>
+<h2>Objective</h2>
+<p>
+The objective of the MARINA Platform project is to establish a set of equitable and
+transparent criteria for the evaluation of multi-purpose platforms for marine renewable
+energy (MRE) all focussed on system integration and reducing costs. One way of
+reducing costs is to exploit synergies with other technologies. One effective choice is
+to combine offshore wind with other Marine Renewable Energy (MRE) technologies;
+primarily wave energy, but also ocean and/or tidal currents at sites where these
+resources are concentrated. If costs can be reduced to a competitive level, the
+potential for wind farms in deeper waters is huge. These will be brought to the level of
+preliminary engineering designs with estimates for energy output, material sizes and
+weights, platform dimensions, component specifications and other relevant factors.
+This will allow the resultant new multi-purpose MRE platform designs, validated by
+advanced modelling and tank-testing at reduced scale, to be taken to the next stage of
+development, which is the construction of pilot scale platforms for testing at sea.
+Recognising the complexity of the challenge, and the significant development risks,
+MARINA is primarily a research project focused on the longer-term benefits and
+synergies of integrating deep-water wind and ocean energy. However, its progress will
+be greatly assisted by the ambition of industrial.
+</p>
+<h2>Partners</h2>
+<p>
+<img src="/images/MARINA/partners.png">
+</p>
+<h2>Description of work</h2>
+<p>
+MARINA Platform project activities are
+organized in 9 work packages,
+including project management and
+dissemination activities.
+<p>
+<b>Work package 1: Overall methodology and management</b>
+<br>
+Objective: to establish an overall
+methodology in order to manage the
+communication and data flow between
+partners and work packages, and to
+assess the progress towards the
+objectives of the project and towards
+results.
+</p>
+<p>
+<b>Work package 2: Site Assessment and Monitoring</b>
+<br>
+Objective: to establish criteria for identifying suitable sites for the deployment of deep
+offshore renewable energy platforms, and use these criteria at suitable test locations
+determine the design criteria for deep offshore multi-purpose platforms.
+</p>
+<p>
+<b>Work package 3: Concepts Identification</b>
+<br>
+Objective: to establish criteria for the viability of concepts that integrate conversion of
+wind and wave/current energy and apply these in the identification of novel concepts,
+as well as to develop and assess novel concepts of wave and wind energy converters.
+</p>
+<p>
+<b>Work package 4: Synthesis - modelling and testing</b>
+<br>
+Objective: to develop methodologies for dynamic analysis of integrated wind/wave and
+wind/current energy conversion systems, including structure and energy conversion,
+as well as develop and validate tools for dynamic analysis and assess the
+performance of novel concepts identified under WP3.
+</p>
+<p>
+<b>Work package 5: Technology Risk Assessment methodology</b>
+<br>
+Objective: to develop/review risk analysis methods and apply them in assessing risks
+associated with installation, operation, including survivability of wind and ocean energy
+facilities.
+</p>
+<p>
+<b>Work package 7: Critical Component Engineering</b>
+<br>
+Objective: to identify the critical components for marine renewable integrated
+platforms and to determine activities to engineer new or improved systems, as well as
+to develop risk assessment methodologies for critical components to feed into WP5.
+</p>
+<p>
+<b>Work package 8: Grid connection and macro-system integration</b>
+<br>
+Objective: to lead to feasible solutions for transmission systems delivering power from
+combined marine systems far from land to the onshore electrical grid.
+</p>
+<p>
+<b>Work package 9: Exploitation and Dissemination</b>
+<br>
+Objective: to set-up communication systems through which MARINA results will be
+managed. The dissemination activities will be mainly targeted to technology
+developers, end-users and regulators and they will be coordinated with other national
+and international initiatives.
+</p>
+<h2>Project coordinator</h2>
+<p>
+<b>ACCIONA ENERGIA S.A.</b>
+<br>
+Contact person: Raul Manzanas
+</p>
+</div>
+</div>
+<div id="footer">
+<div style="padding-right: 10px;" align="center">Copyright @ 1995-2012, Atmospheric Modeling &amp; Weather Forecasting Group</div>
+</div>
+<div style="width:100%;" align="center"><small>The user assumes the entire risk related to its use of this data. AM&amp;WFG is providing this data "as is,"
+and AM&amp;WFG disclaims any and all warranties, whether express or implied, including (without limitation) any implied warranties of
+merchantability or fitness for a particular purpose. In no event will AM&amp;WFG be liable to you or to any third party for any direct,
+indirect, incidental, consequential, special or exemplary damages or lost profit resulting from any use or misuse of this data.</small>
+</div>
+</body>
+</html>

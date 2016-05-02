@@ -1,0 +1,370 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>SUSFOOD - Home</title>
+        <script type="text/javascript">
+         var mediadir = "https://www.susfood-era.net/c_media/";
+var LWResourceUrl = "https://www.susfood-era.net/lw_resource/";
+
+         </script>
+        
+        <script type="text/javascript" src="https://www.susfood-era.net/c_media/js/lw_liveedit.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.susfood-era.net/c_media/jquery/ui/jquery-ui-1.8.7.custom.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://www.susfood-era.net/c_media/jquery/ui/css/smoothness/jquery-ui-1.8.7.custom.css" />
+
+        <script type="text/javascript" src="https://www.susfood-era.net/c_media/yui-calendar/js/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="https://www.susfood-era.net/c_media/yui-calendar/js/calendar-min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="https://www.susfood-era.net/c_media/yui-calendar/css/fonts-min.css" />
+<link rel="stylesheet" type="text/css" href="https://www.susfood-era.net/c_media/yui-calendar/css/calendar.css" />
+
+         <script type="text/javascript">
+         
+         </script>
+         <style>
+         
+         </style>
+        <link rel="stylesheet" href="https://www.susfood-era.net/layout/nivo/themes/default/default.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="https://www.susfood-era.net/layout/nivo/nivo-slider.css" type="text/css" media="screen" />      
+        
+        <script type="text/javascript" src="https://www.susfood-era.net/layout/nivo/jquery.nivo.slider.pack.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            $('#slider').nivoSlider({
+                effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+                pauseTime: 5000, // How long each slide will show
+                startSlide: 0, // Set starting Slide (0 index)
+                directionNav: false, // Next & Prev navigation
+                directionNavHide: false, // Only show on hover
+                controlNav: false, // 1,2,3... navigation
+                controlNavThumbs: false, // Use thumbnails for Control Nav
+                pauseOnHover: false, // Stop animation while hovering
+                randomStart: true // Start on a random slide
+            });
+        });
+        </script>   
+        
+        <link rel="stylesheet" href="https://www.susfood-era.net/lw_resource/layoutfiles/layout/susfood_basic.css" type="text/css" media="screen" />      
+        <link rel="stylesheet" type="text/css" href="https://www.ptj.de/lw_resource/layoutfiles/eventtool/lw_events_basic.css" />
+<style>
+/*++++++++++++++++++++++++++++++*/
+/*++++++ lw_events Plugin ++++++*/
+/*++++++++++++++++++++++++++++++*/
+
+
+/*++++++ Kalender ++++++*/
+/*---- events headline ----*/
+div#container_content div#veranstaltungen center {
+    padding: 0 0 0 10px;
+	box-shadow:none;
+}
+
+/*---- gesamter kalender ----*/
+.yui-skin-sam .yui-calcontainer {
+    background-color: #d1eef6;
+	box-shadow:none;
+    padding: 20px 22px;
+}
+
+/*++++++ Teaser ++++++*/
+/*---- next event ----*/
+div#LwEvents_nextEvent span {
+	margin-left:22px;
+}
+/*---- container ----*/
+div#LwEvents_TeaserList {
+	margin:20px 4px 20px 8px;
+}
+
+/*++++++ Popup ++++++*/
+/*---- titel ----*/
+div#veranstaltungen div#infobox div.calelement h2 {
+    color: #433D83;
+}
+/*---- datum ----*/
+div#veranstaltungen div#infobox div.calelement h3 {
+    color: #433D83;
+}
+
+
+/*++++++ Liste ++++++*/
+/*---- titel ----*/
+div#LwEvents_MainList h2.LwEvents_EntryTitle {
+	font-size:14px;
+}
+</style>
+    </head>
+    <body>
+        <div id="page" class="clearfix">
+            
+            <div id="header">
+
+                <div class="container_float_left">
+                     <div id="header_big_picture">
+                        <div class="slider-wrapper theme-default">
+                            <div id="slider" class="nivoSlider">
+                                <img src="https://www.susfood-era.net/layout/header_images/header01.jpg" />
+                                <img src="https://www.susfood-era.net/layout/header_images/header02.jpg" />
+                                <img src="https://www.susfood-era.net/layout/header_images/header03.jpg" />
+                                <img src="https://www.susfood-era.net/layout/header_images/header04.jpg" />
+                                <img src="https://www.susfood-era.net/layout/header_images/header05.jpg" />
+                                <img src="https://www.susfood-era.net/layout/header_images/header06.jpg" />
+                                <img src="https://www.susfood-era.net/layout/header_images/header07.jpg" />
+                                <img src="https://www.susfood-era.net/layout/header_images/header08.jpg" />
+                                <img src="https://www.susfood-era.net/layout/header_images/header09.jpg" />
+                                <img src="https://www.susfood-era.net/layout/header_images/header10.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container_float_right">
+                    <div id="header_logo">&nbsp;</div>
+                </div>
+
+            </div>
+
+            
+            <div class="container_margin_4px0px">
+                <div id="top_link_box">
+                    <a href="http://susfood-db-era.net/" target="_blank">Link to META KNOWLEDGE BASE</a>
+                </div>                
+            </div>
+
+            
+            <div class="container_full_width clearfix">
+                
+                <div class="container_float_left">
+                    <div id="side_navi">
+                        <!-- Navigation: -->
+                        <ul>    <li class="active" id="page_6"><a href="https://www.susfood-era.net/home" class="active"><span>Home</span></a> </li>
+    <li class="" id="page_7"><a href="https://www.susfood-era.net/index.php?index=13"><span>Initiative</span></a> </li>
+    <li class="" id="page_40"><a href="https://www.susfood-era.net/susfood-partners"><span>SUSFOOD Partners</span></a> </li>
+    <li class="" id="page_9"><a href="https://www.susfood-era.net/index.php?index=9"><span>Calls</span></a> </li>
+    <li class="" id="page_224"><a href="https://www.susfood-era.net/224"><span>SRA</span></a> </li>
+    <li class="" id="page_22"><a href="https://www.susfood-era.net/index.php?index=22"><span>Meta Knowledge Base</span></a> </li>
+    <li class="" id="page_10"><a href="https://www.susfood-era.net/index.php?index=10"><span>Partnering</span></a> </li>
+    <li class="" id="page_11"><a href="https://www.susfood-era.net/index.php?index=23"><span>Information</span></a> </li>
+    <li class="" id="page_33"><a href="https://www.susfood-era.net/index.php?index=87"><span>Contact</span></a> </li>
+    <li class="" id="page_97"><a href="https://www.susfood-era.net/index.php?index=97"><span>Legal Notice</span></a> </li>
+    <li class="" id="page_12"><a href="https://www.susfood-era.net/index.php?index=12"><span>Intranet</span></a></li>
+</ul>
+
+                    </div>
+                </div>
+              
+                <div class="container_float_left">
+                    <div class="container_margin_0px3px">
+                        <div id="content_main">
+                            <!--<p><a href="https://www.susfood-era.net/home"><span>Home</span></a>
+</p>-->
+                            
+<script language=JavaScript>
+   text1=" ..................The Strategic Research Agenda of the ERA-Net SUSFOOD "; 
+   function lauf1()
+   {
+      text1=text1.slice(1,text1.length)+text1.slice(0,1);
+      document.zeile1.fenster1.value=text1;
+      window.setTimeout("lauf1()",300)
+   }
+   window.setTimeout("lauf1()",300);
+</script>
+
+<script language=JavaScript>
+   text2=" ................................The Country Report is available for download"; 
+   function lauf2()
+   {
+      text2=text2.slice(1,text2.length)+text2.slice(0,1);
+      document.zeile2.fenster2.value=text2;
+      window.setTimeout("lauf2()",300)
+   }
+   window.setTimeout("lauf2()",300);
+</script>
+<h1>Welcome to SUSFOOD</h1><h2>A former FP7-ERA-Net</h2>
+<p>SUSFOOD is the acronym for SUStainable FOOD production and consumption.</p>
+<p>The European transnational research cooperation project consisted of a network of 25 partners from 16 European countries.<p>As an FP7-ERA-Net, SUSFOOD accomplished a European Strategic Research Agenda, finished its mapping activities by establishing a country report and enhanced collaboration and coordination between research programmes by conducting two transnational joint calls for proposals.</p>
+<p>The goal of SUSFOOD is to maintain the scientific cooperation between EU member and associated states in order to maximise the contribution of research to the development of food systems aiming at more sustainability from production to consumption.</p>
+<p>Therefore, the SUSFOOD-partners agree to preserve the network of the consortium and continue with joint activities without EU funding.</p>
+<p>Further information about future SUSFOOD activities will be available in due time.</p>
+<p style="font-weight:bold;background-color: #fffacd;">SUSFOOD Status Seminar held in October 2015 &#8211;for impressions and more information please click <a href="index.php?index=298">here</a></p>
+
+
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container_float_left">
+                    <div id="teaser">
+                            
+    
+        <div id="hiddenCalElement">
+            <div id="item_new" class="calelement">
+                <h3>DATUM</h3>
+                <h2>HEADLINE</h2>
+            </div>
+        </div>
+
+        <div class="yui-skin-sam">
+            <div id="veranstaltungen">
+                <center>Events</center>
+                
+                <div id="infobox">
+                    <span id="close" class="close" onclick="$('#infobox').hide();">x</span>
+                    <div style="margin-top:10px;">
+                        <p id="date"></p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div id="cal1Container"></div>
+        </div>
+
+        <script type="text/javascript">
+            YAHOO.namespace("example.calendar");
+
+            function getPreparedArray()
+            {
+                var eventArray = new Array();
+                        return eventArray;
+            }
+
+            function dateToLocaleString(dt, cal) {
+                var wStr = cal.cfg.getProperty("WEEKDAYS_LONG")[dt.getDay()];
+                var dStr = dt.getDate();
+                var mStr = cal.cfg.getProperty("MONTHS_LONG")[dt.getMonth()];
+                var yStr = dt.getFullYear();
+                return (wStr + ", " + dStr + " " + mStr + " " + yStr);
+            }
+
+            function mySelectHandler(type, args, obj) {
+                var selected = args[0];
+                var selDate = this.toDate(selected[0]);
+                var myDate = new Date(selDate);
+
+                var y = String(myDate.getFullYear());
+                var monat = myDate.getMonth() + 1;
+                if (monat < 10) {
+                    var m = "0" + String(monat);
+                } else {
+                    var m = String(monat);
+                }
+                
+                if (myDate.getDate() < 10) {
+                    var d = "0" + String(myDate.getDate());
+                } else {
+                    var d = String(myDate.getDate());
+                }
+
+                var selectedIntDate = y + m + d;
+
+                var parray = getPreparedArray();
+                var bool = false;
+                $('#infobox div.calelement').remove();
+
+                for (var i = parray.length - 1; i >= 0; i--) {
+                    if (selectedIntDate >= parray[i]['startdate'] & selectedIntDate <= parray[i]['enddate']) {
+                        var bool = true;
+
+                        var year1 = String(parray[i]['startdate']).substr(0, 4);
+                        var month1 = String(parray[i]['startdate']).substr(4, 2);
+                        var day1 = String(parray[i]['startdate']).substr(6, 2);
+
+                        var year2 = String(parray[i]['enddate']).substr(0, 4);
+                        var month2 = String(parray[i]['enddate']).substr(4, 2);
+                        var day2 = String(parray[i]['enddate']).substr(6, 2);
+
+                        if (parray[i]['pageid'] > 0) {
+                            var url = 'https://www.susfood-era.net/index.php?index=' + parray[i]['pageid'];
+                            var urltype = 'intern';
+                        } else if (String(parray[i]['exturl']) === "") {
+                            var url = 'https://www.susfood-era.net/home?cmd=showDetail&id=' + parray[i]['id'];
+                            var urltype = 'intern';
+                        } else if (String(parray[i]['exturl']) !== "") {
+                            var url = parray[i]['exturl'];
+                            var urltype = 'extern';
+                        }
+
+                        $('#hiddenCalElement #item_new').clone()
+                                .attr('id', 'item_' + i)
+                                .insertAfter('#infobox p#date');
+
+                        $('#item_' + i).css('display', 'block');
+                        $('#item_' + i + '.calelement h3').text(day1 + '.' + month1 + '.' + year1 + ' - ' + day2 + '.' + month2 + '.' + year2);
+                        $('#item_' + i + '.calelement h2').html(parray[i]['headline'] + '<span style="font-size:11px;">...<br/><a href="#" >&nbsp;</a><span>');
+                        $('#item_' + i + '.calelement h2 span a').text('[more]');
+                        if(urltype === 'extern'){
+                            $('#item_' + i + '.calelement h2 span a').attr('target', '_blank');
+                        }
+                        $('#item_' + i + '.calelement h2 span a').attr('href', url);
+                        $('#item_' + i + '.calelement h2 span a').addClass(urltype);
+                    }
+                }
+                if (bool) {
+                    $('#infobox').show();
+                    $('#infobox #date').html(dateToLocaleString(selDate, this));
+                } else {
+                    $('#infobox').hide();
+                }
+            }
+
+            YAHOO.example.calendar.init = function() {
+                YAHOO.example.calendar.cal1 = new YAHOO.widget.Calendar("cal1", "cal1Container");
+                YAHOO.example.calendar.cal1.selectEvent.subscribe(mySelectHandler, YAHOO.example.calendar.cal1, true);
+
+                YAHOO.example.calendar.cal1.cfg.setProperty("DATE_FIELD_DELIMITER", ".");
+
+                YAHOO.example.calendar.cal1.cfg.setProperty("MDY_DAY_POSITION", 1);
+                YAHOO.example.calendar.cal1.cfg.setProperty("MDY_MONTH_POSITION", 2);
+                YAHOO.example.calendar.cal1.cfg.setProperty("MDY_YEAR_POSITION", 3);
+
+                YAHOO.example.calendar.cal1.cfg.setProperty("MD_DAY_POSITION", 1);
+                YAHOO.example.calendar.cal1.cfg.setProperty("MD_MONTH_POSITION", 2);
+
+                
+
+                        YAHOO.example.calendar.cal1.render();
+            };
+
+            YAHOO.util.Event.onDOMReady(YAHOO.example.calendar.init);
+        </script>
+
+        <div style="clear:both" ></div>
+
+
+                          
+                    </div>                        
+                </div>
+                
+            </div>
+            
+            <div id="footer">
+                <a href="http://europa.eu/index_en.htm" target="_blank"><img src="https://www.susfood-era.net/lw_resource/datapool/_items/item_66/logo_eu.jpg"></a>
+                
+                <a href="http://www.international.inra.fr/" target="_blank"><img src="https://www.susfood-era.net/lw_resource/datapool/_items/item_87/logotype-inra_150x65.jpg"></a> 
+            </div>
+            
+        </div>
+
+
+
+
+
+
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://services.ptj.de/piwik/" : "https://services.ptj.de/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 16);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="https://services.ptj.de/piwik/piwik.php?idsite=16" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+<!-- Events Detail View -->
+
+</body>
+</html>

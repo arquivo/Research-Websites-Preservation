@@ -1,0 +1,333 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+"http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<!--RAW FILE-->
+<head>
+<base href="http://adsabs.harvard.edu/abs/2010cosp...38.3202R" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="http://adsabs.harvard.edu/abs/2010cosp...38.3202R" />
+<meta name="robots" content="noarchive" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<TITLE>HAMLET -Human Model MATROSHKA for Radiation Exposure Determination of Astronauts</TITLE>
+<meta name="citation_language" content="en" />
+<meta name="citation_abstract_html_url" content="http://adsabs.harvard.edu/abs/2010cosp...38.3202R" />
+<meta name="citation_title" content="HAMLET -Human Model MATROSHKA for Radiation Exposure Determination of Astronauts -Current status and results" />
+<meta name="citation_authors" content="Reitz, Guenther; Berger, Thomas; Bilski, Pawel; Burmeister, Soenke; Labrenz, Johannes; Hager, Luke; Palfalvi, Jozsef K.; Hajek, Michael; Puchalska, Monika; Sihver, Lembit" />
+<meta name="citation_date" content="2010" />
+<meta name="citation_conference" content="38th COSPAR Scientific Assembly" />
+<meta name="citation_volume" content="38" />
+<meta name="citation_firstpage" content="11" />
+<meta name="citation_lastpage" content="" />
+<link title="schema(PRISM)" rel="schema.prism" href="http://prismstandard.org/namespaces/1.2/basic/" />
+<meta name="prism.publicationName" content="38th COSPAR Scientific Assembly" />
+<meta name="prism.volume" content="38" />
+<meta name="prism.startingPage" content="11" />
+<meta name="prism.endingPage" content="" />
+<link title="schema(DC)" rel="schema.dc" href="http://purl.org/dc/elements/1.1/" />
+<meta name="dc.language" content="en" />
+<meta name="dc.date" content="2010" />
+<meta name="dc.source" content="38th COSPAR Scientific Assembly. Held 18-15 July 2010, in Bremen, Germany, p.11" />
+<meta name="dc.title" content="HAMLET -Human Model MATROSHKA for Radiation Exposure Determination of Astronauts -Current status and results" />
+<meta name="dc.creator" content="Reitz, Guenther" />
+<meta name="dc.creator" content="Berger, Thomas" />
+<meta name="dc.creator" content="Bilski, Pawel" />
+<meta name="dc.creator" content="Burmeister, Soenke" />
+<meta name="dc.creator" content="Labrenz, Johannes" />
+<meta name="dc.creator" content="Hager, Luke" />
+<meta name="dc.creator" content="Palfalvi, Jozsef K." />
+<meta name="dc.creator" content="Hajek, Michael" />
+<meta name="dc.creator" content="Puchalska, Monika" />
+<meta name="dc.creator" content="Sihver, Lembit" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<SCRIPT language="JavaScript" type="text/javascript">
+<!-- Begin
+function mkemail(parts) {
+    var sep = ".";
+    var str = arguments[0];
+    for ( var i = 1 ; i < arguments.length ; i++ ) {
+        if ( arguments[i] == "" ) {
+            sep = String.fromCharCode(29+35) ;
+           continue ;
+        } else {
+            str = str.concat ( sep ) ;
+            str = str.concat ( arguments[i] ) ;
+            sep = ".";
+        }
+    }
+    return(str);
+}
+var toggle = 0 ;
+function t(){
+if ( toggle == 0 ) {
+setStyleByClass("span","a","backgroundColor","#ffffff");
+setStyleByClass("div","h","backgroundColor","#ffffff");
+setStyleByClass("div","h","opacity","0");
+setStyleByClass("div","h","filter","alpha(opacity=0)");
+setStyleByClass("span","b","backgroundColor","#ffffff");
+setStyleByClass("div","i","backgroundColor","#ffffff");
+setStyleByClass("div","i","opacity","0");
+setStyleByClass("div","i","filter","alpha(opacity=0)");
+setStyleByClass("span","c","backgroundColor","#ffffff");
+setStyleByClass("div","j","backgroundColor","#ffffff");
+setStyleByClass("div","j","opacity","0");
+setStyleByClass("div","j","filter","alpha(opacity=0)");
+setStyleByClass("span","d","backgroundColor","#ffffff");
+setStyleByClass("div","k","backgroundColor","#ffffff");
+setStyleByClass("div","k","opacity","0");
+setStyleByClass("div","k","filter","alpha(opacity=0)");
+setStyleByClass("span","e","backgroundColor","#ffffff");
+setStyleByClass("div","l","backgroundColor","#ffffff");
+setStyleByClass("div","l","opacity","0");
+setStyleByClass("div","l","filter","alpha(opacity=0)");
+setStyleByClass("span","f","backgroundColor","#ffffff");
+setStyleByClass("div","m","backgroundColor","#ffffff");
+setStyleByClass("div","m","opacity","0");
+setStyleByClass("div","m","filter","alpha(opacity=0)");
+setStyleByClass("span","g","backgroundColor","#ffffff");
+setStyleByClass("div","n","backgroundColor","#ffffff");
+setStyleByClass("div","n","opacity","0");
+setStyleByClass("div","n","filter","alpha(opacity=0)");
+toggle = 1 ;
+} else {
+setStyleByClass("span","a","backgroundColor","#ffff88");
+setStyleByClass("div","h","backgroundColor","#ffff00");
+setStyleByClass("div","h","opacity","0.3");
+setStyleByClass("div","h","filter","alpha(opacity=30)");
+setStyleByClass("span","b","backgroundColor","#ccccff");
+setStyleByClass("div","i","backgroundColor","#3333ff");
+setStyleByClass("div","i","opacity","0.3");
+setStyleByClass("div","i","filter","alpha(opacity=30)");
+setStyleByClass("span","c","backgroundColor","#ffcccc");
+setStyleByClass("div","j","backgroundColor","#ff3333");
+setStyleByClass("div","j","opacity","0.3");
+setStyleByClass("div","j","filter","alpha(opacity=30)");
+setStyleByClass("span","d","backgroundColor","#bbffff");
+setStyleByClass("div","k","backgroundColor","#00ffff");
+setStyleByClass("div","k","opacity","0.3");
+setStyleByClass("div","k","filter","alpha(opacity=30)");
+setStyleByClass("span","e","backgroundColor","#ffdd77");
+setStyleByClass("div","l","backgroundColor","#ff6600");
+setStyleByClass("div","l","opacity","0.3");
+setStyleByClass("div","l","filter","alpha(opacity=30)");
+setStyleByClass("span","f","backgroundColor","#ccffaa");
+setStyleByClass("div","m","backgroundColor","#33ff00");
+setStyleByClass("div","m","opacity","0.3");
+setStyleByClass("div","m","filter","alpha(opacity=30)");
+setStyleByClass("span","g","backgroundColor","#ffccff");
+setStyleByClass("div","n","backgroundColor","#ff00ff");
+setStyleByClass("div","n","opacity","0.3");
+setStyleByClass("div","n","filter","alpha(opacity=30)");
+toggle = 0 ;
+}
+}
+var ie = (document.all) ? true : false;
+
+function setStyleByClass(t,c,p,v){
+	var elements;
+	if(t == '*') {
+		elements = (ie) ? document.all : document.getElementsByTagName('*');
+	} else {
+		elements = document.getElementsByTagName(t);
+	}
+	for (var i = 0; i < elements.length; i++)
+    {
+		var node = elements.item(i);
+		for(var j = 0; j < node.attributes.length; j++)
+		{
+			if(node.attributes.item(j).nodeName == 'class')
+			{
+				if(node.attributes.item(j).nodeValue == c)
+				{
+				eval('node.style.' + p + " = '" +v + "'");
+				}
+			}
+		}
+	}
+}
+//  End -->
+</SCRIPT>
+<style>.a{background-color: #ffff88}</style>
+<style>.h{background-color: #ffff00}</style>
+<style>.b{background-color: #ccccff}</style>
+<style>.i{background-color: #3333ff}</style>
+<style>.c{background-color: #ffcccc}</style>
+<style>.j{background-color: #ff3333}</style>
+<style>.d{background-color: #bbffff}</style>
+<style>.k{background-color: #00ffff}</style>
+<style>.e{background-color: #ffdd77}</style>
+<style>.l{background-color: #ff6600}</style>
+<style>.f{background-color: #ccffaa}</style>
+<style>.m{background-color: #33ff00}</style>
+<style>.g{background-color: #ffccff}</style>
+<style>.n{background-color: #ff00ff}</style>
+<style type="text/css">
+@media (max-width : 980px) {
+* {
+  font-size: 18px !important;
+}
+a {
+  margin: 8px !important;
+  display:inline-block;
+}
+td:first-of-type {
+   white-space: normal !important;
+}
+td:first-of-type {
+   white-space: nowrap;
+}
+}
+</style>
+<style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style>
+<style type="text/css">
+a:link {color: #0000ff}
+a.oa:link {color: #00a000}
+a:visited {color: #4000a0}
+a.oa:visited {color: #006666}
+a:hover {color: #ff0000}
+a.oa:hover {color: #cc33cc}
+</style>
+</head>
+<body bgcolor="#ffffff"  text="#000000" link="#0000ff" alink="#ff0000" vlink="#4000a0">
+<div align="right" style="font-size:84%;padding-bottom:4px"><a href="http://adsabs.harvard.edu/cgi-bin/nph-manage_account?man_cmd=login&amp;man_url=http://adsabs.harvard.edu/abs/2010cosp...38.3202R">Sign on</a></div>
+<p><h3><A HREF="http://adsabs.harvard.edu/">SAO/NASA ADS</a> <a href="http://adsabs.harvard.edu/abstract_service.html">Astronomy Abstract Service</A></h3>
+<hr>
+<p>
+<dl>
+<dt><table width="100%"><tbody><tr><td align="left"><strong>&#183; <a href="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?return_req=no_params&amp;arxiv_sel=ALL&amp;db_key=AST&amp;text=The%20exploration%20of%20space%20as%20seen%20in%20specific%20projects%20from%20the%20European%0aSpace%20Agency%20%28ESA%29%20acts%20as%20groundwork%20for%20human%20long%20duration%20space%0amissions.%20One%20of%20the%20main%20constraints%20for%20long%20duration%20human%20missions%0ais%20radiation.%20The%20radiation%20load%20on%20astronauts%20and%20cosmonauts%20in%20space%0a%28as%20for%20the%20ISS%29%20is%20a%20factor%20of%20100%20higher%20than%20the%20natural%20radiation%20on%0aEarth%20and%20will%20further%20increase%20should%20humans%20travel%20to%20Mars.%20In%0apreparation%20for%20long%20duration%20space%20missions%20it%20is%20important%20to%20evaluate%0athe%20impact%20of%20space%20radiation%20in%20order%20to%20secure%20the%20safety%20of%20the%0aastronauts%20and%20minimize%20their%20radiation%20risks.%20To%20determine%20the%0aradiation%20risk%20on%20humans%20one%20has%20to%20measure%20the%20radiation%20doses%20to%0aradiosensitive%20organs%20within%20the%20human%20body.%20One%20way%20to%20approach%20this%20is%0athe%20ESA%20facility%20MATROSHKA%20%28MTR%29,%20under%20the%20scientific%20and%20project%20lead%0aof%20DLR.%20It%20is%20dedicated%20to%20determining%20the%20radiation%20load%20on%20astronauts%0awithin%20and%20outside%20the%20International%20Space%20Station%20%28ISS%29,%20and%20was%0alaunched%20in%20January%202004.%20MTR%20is%20currently%20preparing%20for%20its%20fourth%0aexperimental%20phase%20inside%20the%20Japanese%20Experimental%20Module%20%28JEM%29%20in%0asummer%202010.%20MTR,%20which%20mimics%20a%20human%20head%20and%20torso,%20is%20an%0aanthropomorphic%20phantom%20containing%20over%206000%20radiation%20detectors%20to%0adetermine%20the%20depth%20dose%20and%20organ%20dose%20distribution%20in%20the%20body.%20It%20is%0athe%20largest%20international%20research%20initiative%20ever%20performed%20in%20the%0afield%20of%20space%20dosimetry%20and%20combines%20the%20expertise%20of%20leading%20research%0ainstitutions%20around%20the%20world,%20thereby%20generating%20a%20huge%20pool%20of%20data%20of%0apotentially%20immense%20value%20for%20research.%20Aiming%20at%20optimal%20scientific%0aexploitation,%20the%20FP7%20project%20HAMLET%20aims%20to%20process%20and%20compile%20the%0adata%20acquired%20individually%20by%20the%20participating%20laboratories%20of%20the%0aMATROSHKA%20experiment.%20Based%20on%20experimental%20input%20from%20the%20MATROSHKA%0aexperiment%20phases%20as%20well%20as%20on%20radiation%20transport%20calculations,%20a%0athree-dimensional%20model%20for%20the%20distribution%20of%20radiation%20dose%20in%20an%0aastronaut%27s%20body%20will%20be%20built%20up.%20The%20scientific%20achievements%0acontribute%20essentially%20to%20radiation%20risk%20estimations%20for%20future%0ainterplanetary%20space%20exploration%20by%20humans,%20putting%20them%20on%20a%20solid%0aexperimental%20and%20theoretical%20basis.%20The%20talk%20will%20give%20an%20overview%20of%0athe%20current%20status%20of%20the%20MATROSHKA%20data%20evaluation%20and%20results%20and%0acomparisons%20of%20the%20first%20three%20MTR%20experimental%20phases%20%28MTR-1,%202A%20and%0a2B%29.%20The%20HAMLET%20project%20is%20funded%20by%20the%20European%20Commission%20under%20the%0aEUs%20Seventh%20Frame-work%20Programme%20%28FP7%29%20under%20Project%20Nr%3a%20218817%20and%0acoordinated%20by%20the%20German%20Aerospace%20Center%20%28DLR%29%0ahttp%3a//www-fp7-hamlet.eu%0a+&amp;title=HAMLET%20-Human%20Model%20MATROSHKA%20for%20Radiation%20Exposure%20Determination%20of%20Astronauts%20-Current%20status%20and%20results">Find Similar Abstracts</a> (with <a href="#feedback">default settings below</a>)</strong></td>
+</tr></tbody></table>
+<dt><strong>&#183; <a  href="http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2010cosp...38.3202R&#38;link_type=ARTICLE&#38;db_key=AST&#38;high=">Full Printable Article (PDF/Postscript)</a></strong>
+<dt><strong>&#183; <a  href="http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2010cosp...38.3202R&#38;link_type=TOC&#38;db_key=AST&#38;high=">Table of Contents</a></strong>
+<dt><strong>&#183; <a href="http://adsabs.harvard.edu/cgi-bin/nph-ref_history?refs=AR&#38;bibcode=2010cosp...38.3202R">Reads History</a></strong>
+<dt>&#183;
+<dt><strong>&#183; <a href="http://www.microsofttranslator.com/BV.aspx?from=en&amp;a=http://adsabs.harvard.edu/abs/2010cosp...38.3202R">Translate This Page</a></strong>
+
+</dl>
+<table><tbody>
+<tr><td valign="top" align="left"><b>Title:</b></td><td><br></td><td align="left" valign="top">HAMLET -Human Model MATROSHKA for Radiation Exposure Determination of Astronauts -Current status and results</td></tr>
+<tr><td valign="top" align="left"><b>Authors:</b></td><td><br></td><td align="left" valign="top"><a href="http://adsabs.harvard.edu/cgi-bin/author_form?author=Reitz,+G&#38;fullauthor=Reitz,%20Guenther&#38;charset=ISO-8859-1&#38;db_key=AST">Reitz,&#160;Guenther</a>; <a href="http://adsabs.harvard.edu/cgi-bin/author_form?author=Berger,+T&#38;fullauthor=Berger,%20Thomas&#38;charset=ISO-8859-1&#38;db_key=AST">Berger,&#160;Thomas</a>; <a href="http://adsabs.harvard.edu/cgi-bin/author_form?author=Bilski,+P&#38;fullauthor=Bilski,%20Pawel&#38;charset=ISO-8859-1&#38;db_key=AST">Bilski,&#160;Pawel</a>; <a href="http://adsabs.harvard.edu/cgi-bin/author_form?author=Burmeister,+S&#38;fullauthor=Burmeister,%20Soenke&#38;charset=ISO-8859-1&#38;db_key=AST">Burmeister,&#160;Soenke</a>; <a href="http://adsabs.harvard.edu/cgi-bin/author_form?author=Labrenz,+J&#38;fullauthor=Labrenz,%20Johannes&#38;charset=ISO-8859-1&#38;db_key=AST">Labrenz,&#160;Johannes</a>; <a href="http://adsabs.harvard.edu/cgi-bin/author_form?author=Hager,+L&#38;fullauthor=Hager,%20Luke&#38;charset=ISO-8859-1&#38;db_key=AST">Hager,&#160;Luke</a>; <a href="http://adsabs.harvard.edu/cgi-bin/author_form?author=Palfalvi,+J&#38;fullauthor=Palfalvi,%20Jozsef%20K.&#38;charset=ISO-8859-1&#38;db_key=AST">Palfalvi,&#160;Jozsef&#160;K.</a>; <a href="http://adsabs.harvard.edu/cgi-bin/author_form?author=Hajek,+M&#38;fullauthor=Hajek,%20Michael&#38;charset=ISO-8859-1&#38;db_key=AST">Hajek,&#160;Michael</a>; <a href="http://adsabs.harvard.edu/cgi-bin/author_form?author=Puchalska,+M&#38;fullauthor=Puchalska,%20Monika&#38;charset=ISO-8859-1&#38;db_key=AST">Puchalska,&#160;Monika</a>; <a href="http://adsabs.harvard.edu/cgi-bin/author_form?author=Sihver,+L&#38;fullauthor=Sihver,%20Lembit&#38;charset=ISO-8859-1&#38;db_key=AST">Sihver,&#160;Lembit</a></td></tr>
+<tr><td valign="top" align="left"><b>Affiliation:</b></td><td><br></td><td align="left" valign="top">AA(German Aerospace Center DLR), AB(German Aerospace Center (DLR)), AC(Christian-Albrechts-Universit&#228;t zu Kiel), AD(Christian-Albrechts-Universit&#228;t zu Kiel), AE(Health Protection Agency, UK), AF(Hungarian Academy of Sciences KFKI Atomic Energy Research Institute), AG(Technical University of Vienna / Atomic Institute of the Austrian Universities), AH(Chalmers University of Technology), AI(Chalmers University of Technology, G&#246;teborg, Sweden, Roanoke College, Salem, VA, USA, Texas A&#38;M University, College Station, TX, USA)</td></tr>
+<tr><td valign="top" align="left"><b>Publication:</b></td><td><br></td><td align="left" valign="top">38th COSPAR Scientific Assembly. Held 18-15 July 2010, in Bremen, Germany, p.11</td></tr>
+<tr><td valign="top" align="left"><b>Publication Date:</b></td><td><br></td><td align="left" valign="top">00/2010</td></tr>
+<tr><td valign="top" align="left"><b>Origin:</b></td><td><br></td><td align="left" valign="top"><a href="http://ads.harvard.edu">ADS</a></td></tr>
+<tr><td valign="top" align="left"><b>Comment:</b></td><td><br></td><td align="left" valign="top">Symposium F, session 24, paper number F24-0018-10 (Oral)</td></tr>
+<tr><td valign="top" align="left"><b>Bibliographic Code:</b></td><td><br></td><td align="left" valign="top"><A href="http://adsabs.harvard.edu/abs/2010cosp...38.3202R">2010cosp...38.3202R</a></td></tr>
+</tbody></table>
+<h3 align="center">                               Abstract</h3>
+The exploration of space as seen in specific projects from the European
+Space Agency (ESA) acts as groundwork for human long duration space
+missions. One of the main constraints for long duration human missions
+is radiation. The radiation load on astronauts and cosmonauts in space
+(as for the ISS) is a factor of 100 higher than the natural radiation on
+Earth and will further increase should humans travel to Mars. In
+preparation for long duration space missions it is important to evaluate
+the impact of space radiation in order to secure the safety of the
+astronauts and minimize their radiation risks. To determine the
+radiation risk on humans one has to measure the radiation doses to
+radiosensitive organs within the human body. One way to approach this is
+the ESA facility MATROSHKA (MTR), under the scientific and project lead
+of DLR. It is dedicated to determining the radiation load on astronauts
+within and outside the International Space Station (ISS), and was
+launched in January 2004. MTR is currently preparing for its fourth
+experimental phase inside the Japanese Experimental Module (JEM) in
+summer 2010. MTR, which mimics a human head and torso, is an
+anthropomorphic phantom containing over 6000 radiation detectors to
+determine the depth dose and organ dose distribution in the body. It is
+the largest international research initiative ever performed in the
+field of space dosimetry and combines the expertise of leading research
+institutions around the world, thereby generating a huge pool of data of
+potentially immense value for research. Aiming at optimal scientific
+exploitation, the FP7 project HAMLET aims to process and compile the
+data acquired individually by the participating laboratories of the
+MATROSHKA experiment. Based on experimental input from the MATROSHKA
+experiment phases as well as on radiation transport calculations, a
+three-dimensional model for the distribution of radiation dose in an
+astronaut's body will be built up. The scientific achievements
+contribute essentially to radiation risk estimations for future
+interplanetary space exploration by humans, putting them on a solid
+experimental and theoretical basis. The talk will give an overview of
+the current status of the MATROSHKA data evaluation and results and
+comparisons of the first three MTR experimental phases (MTR-1, 2A and
+2B). The HAMLET project is funded by the European Commission under the
+EUs Seventh Frame-work Programme (FP7) under Project Nr: 218817 and
+coordinated by the German Aerospace Center (DLR)
+http://www-fp7-hamlet.eu
+<hr>
+<table width=100%><tbody><tr><td align="left"><b><a href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2010cosp...38.3202R&amp;data_type=BIBTEX&amp;db_key=AST&amp;nocookieset=1">Bibtex entry for this abstract</a></b>&nbsp;&nbsp;&nbsp;<b><a href="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?bibcode=2010cosp...38.3202R&amp;data_type=Custom&amp;format=%5c%5cbibitem%5b%25%5c2m%25%28y%29%5d%25%7bR%7d%20%25%5c5.3l%20%25%5cY,%25%5cj,%25%5cV,%25%5cp%5cn&amp;return_fmt=LONG&amp;db_key=AST&amp;nocookieset=1">Preferred format for this abstract</a></b> (see <a href="http://adsabs.harvard.edu/cgi-bin/pref_set">Preferences</a>)</td>
+</tr></tbody></table>
+<hr>
+<div style="display: table">
+<div style="display: table-row; float: left;">
+<div style="display: table-cell; float: left; padding: 5px">
+<form method="POST" action="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect"><a name="private"></a>
+<input type="hidden" name="bibcode" value="2010cosp...38.3202R">
+<input type="submit" name="library" value=" Add this article to private library ">
+</form>
+</div>
+<div style="display: table-cell; float: left; padding: 5px">
+<form method="POST" action="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect"><a name="private"></a>
+<input type="hidden" name="bibcode" value="2010cosp...38.3202R">
+<input type="submit" name="library" value=" Remove from private library ">
+</form>
+</div>
+</div>
+<div style="display: table-row; clear: left;">
+<div style="display: table-cell; float: left; padding: 5px;">
+<form method="GET" action="http://adsabs.harvard.edu/adsfeedback/submit_abstract.html"><input type="submit" name="submit" value=" Submit corrections to this record "><input type="hidden" name="bibcode" value="2010cosp...38.3202R"><input type="hidden" name="db_key" value="AST"></form>
+</div>
+<div  style="display: table-cell; float: left; padding: 5px;">
+<form method="GET" action="http://labs.adsabs.harvard.edu/adsabs/abs/2010cosp...38.3202R"><input type="submit" value=" View record in ADSLabs ">&nbsp;<img src="/figs/new.gif" alt=" New! "/></form>
+</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<hr>
+<form method="POST" action="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect"><a name="feedback"></a>
+<h3>Find Similar Abstracts:</h3>
+
+<input type="hidden" name="return_req" value="no_params">
+<table>
+<tr><td>Use:</td><td>      <input type="checkbox" name="use_auth" value="YES"></td><td>  Authors</td></tr>
+<tr><td></td><td>          <input type="checkbox" checked name="use_title" value="YES"></td><td>  Title</td></tr>
+<tr><td></td><td>          <input type="checkbox" checked name="use_text" value="YES"></td><td>  Abstract Text</td></tr>
+
+<tr><td>Return:</td><td>   <input type="radio" checked name="return_req" value="feedback"></td><td>  Query Results</td><td>   Return <input name="nr_to_return" size="5" value="100">&nbsp;&nbsp;&nbsp;items starting with number <input name="start_nr" size="5" value="1"></td></tr>
+<tr><td></td><td>          <input type="radio" name="return_req" value="form"></td><td>  Query Form</td></tr>
+
+<tr><td>Database:</td><td> <input type="checkbox" checked name="db_key" value="AST"></td><td>  Astronomy</td></tr>
+<tr><td></td><td>          <input type="checkbox"  name="db_key" value="PHY"></td><td>  Physics</td></tr>
+<tr><td></td><td>          <input type="checkbox"  name="db_key" value="PRE"></td><td>  arXiv e-prints</td></tr>
+
+</table>
+
+<input type="hidden" name="arxiv_sel" value="ALL">
+<input type="hidden" name="bib_dbkey" value="AST">
+<input type="submit" name="selfeedback" value="      Send Query     ">&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="      Reset      ">
+<input type="hidden" name="bibcode" value="2010cosp...38.3202R">
+</form>
+<br><hr><br>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-37369750-3', 'harvard.edu');
+  ga('send', 'pageview');
+
+</script>
+<!-- ADS_MIRROR: CFA -->
+</body>
+</html>

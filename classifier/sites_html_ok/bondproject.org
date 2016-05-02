@@ -1,0 +1,529 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+	<head>
+		  <base href="http://bondproject.org/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Bond Project</title>
+  <link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/plugins/system/rokbox/themes/light/rokbox-style.css" type="text/css" />
+  <link rel="stylesheet" href="http://bondproject.org/plugins/content/attachments.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_iridium_j15/css/template.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_iridium_j15/css/style5.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_iridium_j15/css/typography.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/system/css/general.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_iridium_j15/css/menu-fusion.css" type="text/css" />
+  <style type="text/css">
+    <!--
+
+	div.wrapper { margin: 0 auto; width: 1005px;padding:0;}
+	body { min-width:1005px;}
+	#inset-block-left { width:0px;padding:0;}
+	#inset-block-right { width:0px;padding:0;}
+	#maincontent-block { margin-right:0px;margin-left:0px;}
+
+	.s-c-s .colmid { left:0px;}
+	.s-c-s .colright { margin-left:-225px;}
+	.s-c-s .col1pad { margin-left:225px;}
+	.s-c-s .col2 { left:225px;width:0px;}
+	.s-c-s .col3 { width:225px;}
+	
+
+	.s-c-x .colright { left:0px;}
+	.s-c-x .col1wrap { right:0px;}
+	.s-c-x .col1 { margin-left:0px;}
+	.s-c-x .col2 { right:0px;width:0px;}
+	
+
+	.x-c-s .colright { margin-left:-225px;}
+	.x-c-s .col1 { margin-left:225px;}
+	.x-c-s .col3 { left:225px;width:225px;}
+	
+	a, #top-right ul li a:hover, .abstract-menu li a:hover, #main-content .cart_totals div, #roksearch_results .roksearch_odd-hover h3, #roksearch_results .roksearch_even-hover h3, #horiz-menu.splitmenu li:hover .item span, #horiz-menu.splitmenu li.active .item span, #horiz-menu.splitmenu li.active:hover .item span {color:#118D4F;}
+	#main-body ul.menu li > a, #main-body ul.menu li > .separator, #main-body ul.menu li > .item, #main-body ul.menu li li > a, #main-body ul.menu li li > .separator, #main-body ul.menu li li > .item, #horiz-menu li > .item, body #horiz-menu li.root:hover > .item span, body #horiz-menu li.root.active > .item span, body #horiz-menu li.root.active:hover > .item span, .feature-block a .readon1-r {color:#118D4F;}	
+	.pagination .page-active, .pagination .page-inactive:hover, .rokstories-layout4 .feature-block .feature-number-sub.active {background:#118D4F;}
+	
+	
+	
+    -->
+  </style>
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+  <script type="text/javascript" src="/plugins/content/avreloaded/swfobject.js"></script>
+  <script type="text/javascript" src="/plugins/content/avreloaded/avreloaded.js"></script>
+  <script type="text/javascript" src="/plugins/system/rokbox/rokbox.js"></script>
+  <script type="text/javascript" src="/plugins/system/rokbox/themes/light/rokbox-config.js"></script>
+  <script type="text/javascript" src="/plugins/content/avreloaded/silverlight.js"></script>
+  <script type="text/javascript" src="/plugins/content/avreloaded/wmvplayer.js"></script>
+  <script type="text/javascript" src="/modules/mod_roknavmenu/themes/fusion/js/fusion.js"></script>
+  <script type="text/javascript" src="/templates/rt_iridium_j15/js/rokfonts.js"></script>
+  <script type="text/javascript" src="/templates/rt_iridium_j15/js/rokutils.js"></script>
+  <script type="text/javascript" src="/modules/mod_rokajaxsearch/js/rokajaxsearch.js"></script>
+  <script type="text/javascript">
+var rokboxPath = '/plugins/system/rokbox/';
+		        window.addEvent('load', function() {
+					new Fusion('ul.menutop', {
+						pill: 0,
+						effect: 'slide and fade',
+						opacity: 1,
+						hideDelay: 500,
+						tweakInitial: {'x': -12, 'y': 0},
+        				tweakSubsequent: {'x': -12, 'y': -6},
+						menuFx: {duration: 400, transition: Fx.Transitions.Quint.easeOut},
+						pillFx: {duration: 400, transition: Fx.Transitions.Quint.easeOut}
+					});
+	            });
+		window.templatePath = '/templates/rt_iridium_j15';
+		window.uri = '';
+		window.currentStyle = 'style5';
+	window.addEvent('domready', function() {
+		var modules = ['side-mod', 'showcase-panel', 'moduletable', 'article-rel-wrapper'];
+		var header = ['h3','h2','h1'];
+		RokBuildSpans(modules, header);
+	});window.addEvent((window.webkit) ? 'load' : 'domready', function() {
+				window.rokajaxsearch = new RokAjaxSearch({
+					'results': ' Results',
+					'close': '',
+					'websearch': 0,
+					'blogsearch': 0,
+					'imagesearch': 0,
+					'videosearch': 0,
+					'imagesize': 'MEDIUM',
+					'safesearch': 'MODERATE',
+					'search': ' Search...',
+					'readmore': ' Read more...',
+					'noresults': ' No results',
+					'advsearch': ' Advanced search',
+					'page': ' Page',
+					'page_of': ' of',
+					'searchlink': 'http://bondproject.org/index.php?option=com_search&amp;view=search&amp;tmpl=component',
+					'advsearchlink': 'http://bondproject.org/index.php?option=com_search&amp;view=search',
+					'uribase': 'http://bondproject.org/',
+					'limit': '10',
+					'perpage': '3',
+					'ordering': 'newest',
+					'phrase': 'any',
+					'hidedivs': '',
+					'includelink': 1,
+					'viewall': ' View all results',
+					'estimated': ' estimated',
+					'showestimated': 1,
+					'showpagination': 1,
+					'showcategory': 1,
+					'showreadmore': 1,
+					'showdescription': 1
+				});
+			});
+  </script>
+
+		
+	</head>
+	<body id="ff-iridium" class="f-default style5 simple iridium-home iehandle">
+	<!--Begin Top Advertisement-->
+		<!--End Top Advertisement-->
+	<div id="bg-tile"><div id="bg-main">
+	<!--Begin Header-->
+	<div id="header">
+		<div class="wrapper">
+			<div class="padding">
+			    				<div id="accessibility">
+					<div class="textsizer-desc">Text Size</div>
+					<div id="buttons">
+						<a href="http://bondproject.org/?fontstyle=f-larger" title="Increase Font Size" class="large"><span class="button">&nbsp;</span></a>
+						<a href="http://bondproject.org/?fontstyle=f-smaller" title="Decrease Font Size" class="small"><span class="button">&nbsp;</span></a>
+					</div>
+				</div>
+								<!--Begin Logo-->
+								<div class="logo-module">
+										<a href="/" id="logo"></a>
+									</div>
+								<!--End Logo-->
+														<div id="searchmod">		<div class="moduletable">
+					<div id="searchmod-surround">
+<form name="rokajaxsearch" id="rokajaxsearch" class="light" action="http://bondproject.org/" method="get">
+<div class="rokajaxsearch">
+	<input id="roksearch_search_str" name="searchword" type="text" class="inputbox" value=" Search..." />
+	<input type="hidden" name="searchphrase" value="any"/>
+	<input type="hidden" name="limit" value="" />
+	<input type="hidden" name="ordering" value="newest" />
+	<input type="hidden" name="view" value="search" />
+	<input type="hidden" name="Itemid" value="99999999" />
+	<input type="hidden" name="option" value="com_search" />
+
+	
+	<div id="roksearch_results"></div>
+</div>
+<div id="rokajaxsearch_tmp" style="visibility:hidden;display:none;"></div>
+</form>
+</div>		</div>
+	</div>
+												</div>
+		</div>
+	</div>
+	<!--End Header-->
+	<div class="wrapper">
+		<!--Begin Horizontal Menu-->
+				<div id="horiz-menu" class="fusion">
+			<div class="wrapper">
+				<div class="padding">
+					<div id="horizmenu-surround">
+											<ul class="menutop level1" >
+			<li class="item1 active root" >
+			<a class="orphan item bullet" href="http://bondproject.org/"  >
+			<span>
+		    			Home			   
+			</span>
+		</a>
+		
+		
+</li>	
+			<li class="item163 root" >
+			<a class="orphan item bullet" href="/project.html"  >
+			<span>
+		    			Project			   
+			</span>
+		</a>
+		
+		
+</li>	
+			<li class="item171 parent root" >
+			<a class="daddy item bullet" href="/consortium.html"  >
+			<span>
+		    			Consortium			   
+			</span>
+		</a>
+		
+			<div class="fusion-submenu-wrapper level2">
+			<div class="drop-top"></div>
+			<ul class="level2">
+							
+					<li class="item177" >
+			<a class="orphan item bullet" href="/consortium/beneficiary-1-ub.html"  >
+			<span>
+		    			Beneficiary 1: UB			   
+			</span>
+		</a>
+		
+		
+</li>	
+							
+					<li class="item178" >
+			<a class="orphan item bullet" href="/consortium/beneficiary-2-inra.html"  >
+			<span>
+		    			Beneficiary 2: INRA			   
+			</span>
+		</a>
+		
+		
+</li>	
+							
+					<li class="item179" >
+			<a class="orphan item bullet" href="/consortium/beneficiary-3-ucbl.html"  >
+			<span>
+		    			Beneficiary 3: UCBL			   
+			</span>
+		</a>
+		
+		
+</li>	
+							
+					<li class="item180" >
+			<a class="orphan item bullet" href="/consortium/beneficiary-4-cnm-csic.html"  >
+			<span>
+		    			Beneficiary 4: CNM-CSIC			   
+			</span>
+		</a>
+		
+		
+</li>	
+							
+					<li class="item181" >
+			<a class="orphan item bullet" href="/consortium/beneficiary-5-unile.html"  >
+			<span>
+		    			Beneficiary 5: UNILE			   
+			</span>
+		</a>
+		
+		
+</li>	
+							
+					<li class="item182" >
+			<a class="orphan item bullet" href="/consortium/beneficiary-6-polimi.html"  >
+			<span>
+		    			Beneficiary 6: POLIMI			   
+			</span>
+		</a>
+		
+		
+</li>	
+							
+					<li class="item183" >
+			<a class="orphan item bullet" href="/consortium/beneficiary-7-tyndall.html"  >
+			<span>
+		    			Beneficiary 7: TYNDALL			   
+			</span>
+		</a>
+		
+		
+</li>	
+							
+					<li class="item184" >
+			<a class="orphan item bullet" href="/consortium/beneficiary-8-uniscan.html"  >
+			<span>
+		    			Beneficiary 8: UNISCAN			   
+			</span>
+		</a>
+		
+		
+</li>	
+							</ul>
+		</div>
+		
+</li>	
+			<li class="item173 root" >
+			<a class="orphan item bullet" href="/news-and-events.html"  >
+			<span>
+		    			News and events			   
+			</span>
+		</a>
+		
+		
+</li>	
+			<li class="item174 root" >
+			<a class="orphan item bullet" href="/job-opportunities.html"  >
+			<span>
+		    			Job opportunities			   
+			</span>
+		</a>
+		
+		
+</li>	
+			<li class="item175 root" >
+			<a class="orphan item bullet" href="/useful-links.html"  >
+			<span>
+		    			Useful links			   
+			</span>
+		</a>
+		
+		
+</li>	
+			<li class="item176 root" >
+			<a class="orphan item bullet" href="/contact-us.html?Name=Value"  >
+			<span>
+		    			Contact us			   
+			</span>
+		</a>
+		
+		
+</li>	
+	</ul>
+										</div>
+				<div class="clr"></div>
+				</div>
+			</div>
+		</div>
+				<!--End Horizontal Menu-->
+		<div id="main-trans-top">
+		<!--Begin Showcase-->
+				
+				<!--End Showcase-->
+		</div>
+		<div id="main-trans">
+		<!--Begin Main Body-->
+		<div id="main-body">
+			<div id="main-content" class="x-c-s">
+			    <div class="colmask leftmenu">
+			        <div class="colmid">
+			    	    <div class="colright">
+					       <!--Begin Main Column (col1wrap)-->   
+						    <div class="col1wrap">
+						        <div class="col1pad">
+						            <div class="col1">
+								        <div id="maincol">
+											<div id="main-content-surround">
+																																																		    									<div class="bodycontent">
+		    												    												    										<div id="maincontent-block">
+																												
+																												
+
+<div class="blog iridium-home">
+	<div class="module-tm"><div class="module-tl"></div><div class="module-tr"></div></div>
+	<div class="module-inner">
+			<div class="leading iridium-home">
+			
+<div class="iridium-home">
+	    <div class="article-rel-wrapper">
+	
+	
+	</div>
+		
+	
+	
+	
+	<p style="text-align: justify;">Recently, the use of smell in different fields has been rediscovered due to major advances in odour sensing technology and artificial intelligence. However, current electronic noses, based on electronic sensors, have significant limitations concerning sensitivity, reliability and selectivity, amongst others. These limitations are at the basis of recurrent troubles of this technology to reach essential applications in different areas, such as food safety, diagnosis, security, environment…</p>
+<p style="text-align: justify;">The <a href="http://www.bondproject.org" target="_parent" title="Bond Project">Bond Project</a> proposes a new bioelectronic nose based on olfactory receptors in order to mimic the animal nose. For this aim, micro/nano, bio and information technologies will converge to develop an integrated bioelectronic analytical nanoplatform based on olfactory receptors for odour detection.</p>
+<p style="text-align: justify;">The scientific and technological challenges of the BOND project can only be solved by integrating a multidisciplinary consortium at European level with expertise in areas such as biotechnology, surface chemistry, nanofabrication, electronics and theoretical modelling. The partners involved in the BOND project are experienced partners used to work in large consortia with distributed laboratories all over the European Union and offer competences and resources to build a complementary partnership for the successful implementation of the nanobioplatform. Six of the eight partners have already successfully worked together in the European SPOT-NOSED project to produce a proof of concept of a bioelectronic sensor based on olfactory receptors.</p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: center;"><!-- AllVideos Reloaded Plugin (v1.2.4.1054) starts here
+--><ins><noscript><div style="background-color:red;color:white;width:160px"><strong>JavaScript is disabled!</strong><br/>To display this content, you need a JavaScript capable browser.</div></noscript></ins><span id="avreloaded0" class="allvideos"><ins><div id="warnflashavreloaded0" style="background-color:red;color:white;width:160px;visibility:hidden"><strong>Adobe Flash Player not installed or older than 9.0.115!</strong><br/><a href="http://www.adobe.com/go/getflashplayer" onclick="window.open(this.href);return false;" onkeypress="window.open(this.href);return false;"><a href="/component/content/article/105-home.html" alt="Home" title="Read Article: Home" ><img title="Read Article: Home" src="/plugins/content/avreloaded/160x41_Get_Flash_Player.jpg" alt="Get Adobe Flash Player here" style="border:0" /></a></a></div></ins></span><script type="text/javascript">
+swfobject.embedSWF('http://www.youtube.com/v/ZcuE2SxBMEo','avreloaded0','550','400','9.0.28','/plugins/content/avreloaded/expressinstall.swf',
+{autoplay:'1',color1:'0xFFFFFF',color2:'0x000000',rel:'0',egm:'0',border:'0',loop:'0'},{wmode:'window',bgcolor:'#FFFFFF',menu:'true'},{id:'p_avreloaded0',styleclass:'allvideos'});
+</script><script type="text/javascript">window.addEvent("domready",function(){var s = "warnflashavreloaded0"; if ($(s)){$(s).setOpacity(1);}});</script><!--
+AllVideos Reloaded Plugin (v1.2.4.1054) ends here --></p>
+	
+</div>
+		</div>
+		<span class="leading_separator iridium-home">&nbsp;</span>
+	
+	
+	
+		</div>
+	<div class="module-bm"><div class="module-bl"></div><div class="module-br"></div></div>
+</div>
+
+																														    										</div>
+		    									</div>
+		    									<div class="clr"></div>
+		       																																</div>
+										</div>    
+									</div>
+						        </div>
+						    </div>
+						    <!--End Main Column (col1wrap)-->
+					        <!--Begin Left Column (col2)-->
+					         
+						    <!--End Left Column (col2)-->
+						    <!--Begin Right Column (col3)-->
+						    						    <div class="col3">
+								<div id="rightcol">
+																			<div class="">
+		<div class="moduletable">
+						<div class="style-h3"><h3 class="module-title">Members Login</h3></div>
+						<div class="module-inner">
+				
+<div class="main-login-form">
+	<form action="/index.php" method="post" name="login" class="form-login">
+				<div class="username-block">
+			<input name="username" type="text" class="inputbox" value="Username" alt="Username" onblur="if(this.value=='') this.value='Username';" onfocus="if(this.value=='Username') this.value='';" />
+		</div>
+		<div class="password-block">
+			<input type="password" name="passwd" class="inputbox" alt="Password" />
+		</div>
+		<div class="login-extras">
+			<div class="remember-me">
+			<input type="checkbox" name="remember" class="checkbox" value="yes" alt="Remember Me" />
+			<label class="remember">
+				Remember Me			</label>	
+			</div>
+			<div class="readon-wrap1"><div class="readon1-l"></div><a class="readon-main"><span class="readon1-m"><span class="readon1-r"><input type="submit" name="Submit" class="button" value="Log in" /></span></span></a></div><div class="clr"></div>
+			<div class="login-links">
+			<p>
+				<a href="/component/user/reset.html#content">
+					Forgot your password?</a>
+			</p>
+			<p>
+				<a href="/component/user/remind.html#content">
+					Forgot your username?</a>
+			</p>
+						</div>
+			<input type="hidden" name="option" value="com_user" />
+			<input type="hidden" name="task" value="login" />
+			<input type="hidden" name="return" value="LyNjb250ZW50" />
+			<input type="hidden" name="6bd5a9cb2e507fd86f464c03265af41e" value="1" />		</div>
+	</form>
+</div>
+			</div>
+		</div>
+	</div>
+		<div class="">
+		<div class="moduletable">
+						<div class="style-h3"><h3 class="module-title">Latest news</h3></div>
+						<div class="module-inner">
+				
+<div class="">
+	<ul class="latestnews">
+				<li class="latestnews">
+			<a href="/news-and-events/149-digital-olfaction-convention-2012.html" class="latestnews">Digital Olfaction Convention 2012</a>
+		</li>
+				<li class="latestnews">
+			<a href="/members-area/project-planning/125-project-planning.html" class="latestnews">Project Planning</a>
+		</li>
+				<li class="latestnews">
+			<a href="/news-and-events/124-nanoyou-virtual-nano-lab.html" class="latestnews">NANOYOU: Virtual Nano Lab</a>
+		</li>
+				<li class="latestnews">
+			<a href="/useful-links/121-phantoms-foundation.html" class="latestnews">Phantoms foundation</a>
+		</li>
+				<li class="latestnews">
+			<a href="/useful-links/120-olfaction-site.html" class="latestnews">Olfaction Site</a>
+		</li>
+			</ul>
+</div>
+			</div>
+		</div>
+	</div>
+		<div class="">
+		<div class="moduletable">
+						<div class="style-h3"><h3 class="module-title">Who is online</h3></div>
+						<div class="module-inner">
+				 We have&nbsp;1 guest&nbsp;online			</div>
+		</div>
+	</div>
+	
+								</div>
+						    </div>
+						     
+						    <!--End Right Column (col3)-->
+						</div>
+					</div>
+				</div>
+			</div>
+					</div>
+		<!--End Main Body-->
+	</div>
+	</div>
+	<!--Begin Main Bottom-->
+		
+	<!--End Main Bottom-->
+	<!--Begin Footer-->
+		<div class="wrapper">
+		<div id="main-trans2">
+			<div id="footer">
+				<div id="footer-bg"><div id="footer-bg2">
+										<div id="mainmodules4" class="spacer w99">
+												<div class="block full">
+								<div class="">
+		<div class="moduletable">
+			<div class="module-padding">
+								<div style="float: left;" mce_style="float:left;"><a mce_href="/web-map.html" href="/web-map.html">Web map</a><br mce_bogus="1"></div>
+<div id="top-button" style="float: right;" mce_style="float:right;"><a href="#" mce_href="#" id="top-scroll" class="top-button-desc">Back to top</a><br mce_bogus="1"></div>			</div>
+		</div>
+	</div>
+		<div class="">
+		<div class="moduletable">
+			<div class="module-padding">
+								<div style="text-align: center;" mce_style="text-align: center;"><img src="http://www.bondproject.org/images/stories/peu_web_bondproject.jpg" mce_src="/images/stories/peu_web_bondproject.jpg" alt=""></div>			</div>
+		</div>
+	</div>
+	
+						</div>
+																							</div>
+										<!--Begin Copyright Section-->
+										<!--End Copyright Section-->
+				</div></div>
+			</div>
+		</div>
+	</div>
+		<!--End Footer-->
+	<!--Begin Bottom Advertisment-->
+		<!--End Bottom Advertisment-->	
+		</div></div>
+	</body>
+</html>

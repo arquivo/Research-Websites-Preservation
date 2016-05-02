@@ -1,0 +1,223 @@
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="nl">
+    <head>
+	    <title>ELASSTIC - Homepage</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+        <link rel="stylesheet" type="text/css" href="/inc/css.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/inc/filetree.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/inc/datepicker.css" media="screen" />
+		<script src="/inc/php_file_tree.js" type="text/javascript"></script>
+	    <script src="/inc/scripts.js" type="text/javascript"></script>
+	    <script src="/inc/rightmouse.js" type="text/javascript"></script>
+	    <script src="/inc/betterfade.js" type="text/javascript"></script>
+	    <script src="/inc/swfobject.js" type="text/javascript"></script>
+		<script src="/inc/datepicker.js" type="text/javascript"></script>
+		<meta name="description" content="ELASSTIC">
+		<meta name="keywords" content="ELASSTIC">
+		<!--[if lt IE 7.]>
+		<script defer src="/inc/pngfix.js" type="text/javascript"></script>
+		<![endif]-->
+    </head>
+    <body>
+		<div id="mainbodywrapper">
+			<div id="mainbody">
+				<div style="position:absolute;top:10px;margin-left:54px;"><a href="/"><img src="/images/blank.gif" alt="Home" style="width:150px;height:70px;border:0;"></a></div>
+				<div id="header">
+					<div style="float:right;color:#fff;padding:8px 50px 0 0;">
+						<form id="searchform" method="post" action="/index.php">
+							<input type="hidden" name="dosearch" value="true" />
+							<div style="float:left;"><a class="topmenulink" href="/sitemap/">Sitemap</a>
+&nbsp;|&nbsp;
+<a class="topmenulink" href="/articles/contact.html">Contact</a>
+&nbsp;|&nbsp;
+<a class="topmenulink" href="/articles/newsletter.html">Newsletter</a>
+&nbsp;|&nbsp;
+<a class="topmenulink" href="/articles/disclaimer.html">Disclaimer</a>
+&nbsp;|&nbsp;
+<a class="topmenulink" href="/articles/partners-only.html">Partners Only</a>
+</div>
+							<div style="float:left;"><input type="text" name="search" style="width:100px;border:1px solid #cecece;height:16px;margin:0 5px 0 15px;"></div>
+							<div style="float:left;"><img src="/images/search.gif" onclick="return verifysearchform('_en')" /></div>
+						</form>
+					</div>
+					<div style="float:left;">
+						<div style="position:absolute;font-size:32px;color:#000;font-family:arial;margin:40px 0 0 215px;">/ Homepage</div>
+					</div>
+					<div class="clear">&nbsp;</div>
+					<div style="width:1050px;">
+						<div style="float:right;">
+						<div id="fb-root" style="margin:23px 0 0 0;"></div>
+<div style="float:right;">
+	<script src="http://connect.facebook.net/nl_NL/all.js#appId=267640423265579&amp;xfbml=1"></script>
+	<fb:like href="http://www.elasstic.eu" send="false" colorscheme="light" layout="button_count" show_faces="true" action="recommend" font=""></fb:like>
+</div>
+<div style="float:right;">
+	<script src="https://apis.google.com/js/plusone.js"></script>
+	<g:plusone href="http://www.elasstic.eu" size="medium"></g:plusone>
+</div>
+<div style="float:right;">
+	<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="nl" data-url="http://www.elasstic.eu" style="">Tweeten</a>
+	<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+</div>
+<div style="float:right;margin:0 25px 0 0;">
+	<script src="http://platform.linkedin.com/in.js" type="text/javascript"></script>
+	<script type="IN/Share" data-counter="right" data-url="http://www.elasstic.eu"></script>
+</div>
+<div class="clear"></div>
+<div style="height:20px;"></div>						</div>
+					</div>
+					<div class="menuposition"><div class="menuitem" onmouseover="getElementById('b0').style.display='block';getElementById('mm0').style.color='#c53134';" onmouseout="getElementById('b0').style.display='none';getElementById('mm0').style.color='#c53134';"><ul class="ul-menu"><li><a id="mm0" class="mainmenulink_current" href="/mainmenu/home.html">Home</a></li></ul><ul id="b0" class="ul-dropdownbox"></ul>
+</div>
+<div class="menuitem" onmouseover="getElementById('b1').style.display='block';getElementById('mm1').style.color='#c53134';" onmouseout="getElementById('b1').style.display='none';getElementById('mm1').style.color='#fff';"><ul class="ul-menu"><li><a id="mm1" class="mainmenulink" href="/mainmenu/elasstic-results.html">ELASSTIC Results&nbsp;<img src="/images/pijltje.png" alt=""></a></li></ul><ul id="b1" class="ul-dropdownbox"><li class="li-dropdownitem"><a class="dropdownlink" href="/articles/objectives-approach.html">Objectives & Approach</a>&nbsp;</li>
+<li class="li-dropdownitem"><a class="dropdownlink" href="/articles/explosion-[emi].html">Explosion [EMI]</a>&nbsp;</li>
+<li class="li-dropdownitem"><a class="dropdownlink" href="/articles/earthquake-[sp].html">Earthquake [SP]</a>&nbsp;</li>
+<li class="li-dropdownitem"><a class="dropdownlink" href="/articles/crowd-control-[siemens].html">Crowd Control [SIEMENS]</a>&nbsp;</li>
+</ul>
+</div>
+<div class="menuitem" onmouseover="getElementById('b2').style.display='block';getElementById('mm2').style.color='#c53134';" onmouseout="getElementById('b2').style.display='none';getElementById('mm2').style.color='#fff';"><ul class="ul-menu"><li><a id="mm2" class="mainmenulink" href="/mainmenu/news.html">News&nbsp;<img src="/images/pijltje.png" alt=""></a></li></ul><ul id="b2" class="ul-dropdownbox"><li class="li-dropdownitem"><a class="dropdownlink" href="/newsarchive/">News archive</a>&nbsp;</li>
+</ul>
+</div>
+<div class="menuitem" onmouseover="getElementById('b3').style.display='block';getElementById('mm3').style.color='#c53134';" onmouseout="getElementById('b3').style.display='none';getElementById('mm3').style.color='#fff';"><ul class="ul-menu"><li><a id="mm3" class="mainmenulink" href="/mainmenu/events.html">Events&nbsp;<img src="/images/pijltje.png" alt=""></a></li></ul><ul id="b3" class="ul-dropdownbox"><li class="li-dropdownitem"><a class="dropdownlink" href="/pastevents/">Past events</a>&nbsp;</li>
+</ul>
+</div>
+<div class="menuitem" onmouseover="getElementById('b4').style.display='block';getElementById('mm4').style.color='#c53134';" onmouseout="getElementById('b4').style.display='none';getElementById('mm4').style.color='#fff';"><ul class="ul-menu"><li><a id="mm4" class="mainmenulink" href="/mainmenu/visuals.html">Visuals</a></li></ul><ul id="b4" class="ul-dropdownbox"></ul>
+</div>
+<div class="menuitem" onmouseover="getElementById('b5').style.display='block';getElementById('mm5').style.color='#c53134';" onmouseout="getElementById('b5').style.display='none';getElementById('mm5').style.color='#fff';"><ul class="ul-menu"><li><a id="mm5" class="mainmenulink" href="/mainmenu/consortium.html">Consortium</a></li></ul><ul id="b5" class="ul-dropdownbox"></ul>
+</div>
+<div class="menuitem" onmouseover="getElementById('b6').style.display='block';getElementById('mm6').style.color='#c53134';" onmouseout="getElementById('b6').style.display='none';getElementById('mm6').style.color='#fff';"><ul class="ul-menu"><li><a id="mm6" class="mainmenulink" href="/mainmenu/downloads.html">Downloads</a></li></ul><ul id="b6" class="ul-dropdownbox"></ul>
+</div>
+<div class="menuitem" onmouseover="getElementById('b7').style.display='block';getElementById('mm7').style.color='#c53134';" onmouseout="getElementById('b7').style.display='none';getElementById('mm7').style.color='#fff';"><ul class="ul-menu"><li><a id="mm7" class="mainmenulink" href="/mainmenu/links.html">Links</a></li></ul><ul id="b7" class="ul-dropdownbox"></ul>
+</div>
+<div class="clear">&nbsp;</div>
+</div>				</div>
+				<div id="main">
+					 	<div id="leftmidcontent">
+		<img src="/images/blank.gif" style="float:right;width:0;height:750px;" />		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+        <tr>
+            <td width="100%" valign="top" padding-right:=""><a target="_blank" href="http://www.elasstic.eu/userdata/file/Newsletters%20and%20leaflets/Invitation-Symposium%20Urban%20en%20Building%20resilience.pdf"><img width="730" height="727" alt="" src="/userdata/Endworkshop_Invitation.JPG" /></a></td>
+        </tr>
+        <tr>
+            <td width="100%" valign="top" padding-right:=""><hr />
+            <p style="text-align: left"><strong>The overall objective of the ELASSTIC project </strong>is to improve the safety, security and resilience of large scale multifunctional building complexes to natural and man-made disasters by providing a methodology and tools which enable to include security and resilience from the early design and planning phase of such projects.&nbsp;</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="740" valign="top" padding-right:=""><hr />
+            <p style="text-align: left"><strong>Validation </strong>(Proof of Concept) of the approach and developed tools will be done by evaluating the design of a multifunctional (housing, shopping centre, transport node, business centre and museum), resilient, large scale urban complex (anno 2020) called the ELASSTIC complex. The complex will not only be secure and resilient to disasters, it will also be designed to ensure fast and efficient evacuation in case of a disaster.</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="740" valign="top" padding-right:=""><hr />
+            <p style="text-align: left"><strong>The ELASSTIC&nbsp;Approach</strong> is explained in a presentation and a video. To be found at <a href="/index.php?articleid=88">Visuals</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="740" valign="top" padding-right:=""><hr />
+            <p><strong>Overall Results </strong>of the project are to be found in <a href="/index.php?articleid=97">ELASSTIC&nbsp;Results</a> and in <a href="http://www.elasstic.eu/downloads/">Downloads</a>.&nbsp;</p>
+            </td>
+        </tr>
+        <tr>
+            <td>The individual results/contributions per partner:
+            <table width="100%" cellspacing="1" cellpadding="1" border="0">
+                <tbody>
+                    <tr>
+                        <td width="20%" valign="top" align="left"><a href="/index.php?articleid=94"><img width="100%" alt="" src="/userdata/EMI Results.jpg" /></a></td>
+                        <td width="20%" valign="top" align="left"><a href="/index.php?articleid=96"><img width="100%" alt="" src="/userdata/SP Results.jpg" /></a></td>
+                        <td width="20%" valign="top" align="left"><a href="/index.php?articleid=95"><img width="100%" alt="" src="/userdata/SIE Results.jpg" /></a></td>
+                        <td width="20%" valign="middle" align="center">&nbsp;<a href="/index.php?articleid=79"><img width="100%" alt="" src="/userdata/image/news/news_logo.jpg" /></a></td>
+                    </tr>
+                    <tr>
+                        <td width="20%" valign="top" align="left"><a href="/index.php?articleid=94">Explosion testing of a smart element</a></td>
+                        <td width="20%" valign="top" align="left"><a href="/index.php?articleid=96">Hazard Scenario Evaluation for Earthquakes</a></td>
+                        <td width="20%" valign="top" align="left"><a href="/index.php?articleid=95">&ldquo;Crowd Control&rdquo; inside Building Information Modeling (BIM) for Building Evacuation and Hazard Simulation</a></td>
+                        <td width="20%" valign="top" align="left"><a href="http://www.elasstic.eu/index.php?articleid=79">Read more</a> about the expected results of the ELASSTIC&nbsp;project.</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" valign="top" align="left"><a href="/index.php?articleid=91"><strong>EMI-Fraunhofer</strong></a></td>
+                        <td width="20%" valign="top" align="left"><a href="/index.php?articleid=91"><strong>Schl&uuml;ssler Plan</strong></a></td>
+                        <td width="20%" valign="top" align="left"><a href="/index.php?articleid=91"><strong>SIEMENS</strong></a></td>
+                        <td width="20%" valign="top" align="left"><strong>&nbsp;</strong></td>
+                    </tr>
+                    <tr>
+                        <td width="20%" valign="top" align="left">&nbsp;</td>
+                        <td width="20%" valign="top" align="left">&nbsp;</td>
+                        <td width="20%" valign="top" align="left">&nbsp;</td>
+                        <td width="20%" valign="top" align="left">&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+        <tr>
+            <td width="100%" valign="top" padding-right:="">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="100%" valign="top" padding-right:="">
+            <p>&nbsp;</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43281290-1', 'elasstic.eu');
+  ga('send', 'pageview');
+
+</script>	</div>
+<div id="rightcontent">
+			<h3>News</h3>
+<p>
+<div style="margin-bottom:10px;"><a class="" href="/news/flyer-2-released.html">Flyer 2 released »</a></div>
+</p>
+
+<h3>Events</h3>
+<p>
+April  7, 2016<br /><a class="" href="/calendar/final-workshop-urban-building-resilience.html">Final workshop - Urban & Building Resilience »</a><hr />
+</p>
+
+<div style="height:10px;">&nbsp;</div><a class="twitter-timeline"  href="https://twitter.com/search?q=Elasstic.eu+OR+%23Elasstic" data-widget-id="374160855861956610">Tweets about "Elasstic.eu OR #Elasstic"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><p>
+	<h3>News letter</h3>
+<p>Would you like to receive our Newsletters? Please fill in the form below:</p>
+<p>
+<form name="" action="/registernewsletter.php">
+    <input type="hidden" name="addnewsletter" value="true" />
+    <table border="0" cellspacing="1" cellpadding="1" width="200">
+        <tbody>
+            <tr>
+                <td>Name</td>
+                <td><input class="formtext" maxlength="50" style="width: 120px" name="name" type="text" /></td>
+            </tr>
+            <tr>
+                <td>Company</td>
+                <td><input class="formtext" maxlength="50" style="width: 120px" name="company" type="text" /></td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td><input class="formtext" maxlength="50" autocomplete="OFF" style="width: 120px" name="email" type="text" /></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td><input class="formbutton" type="submit" name="submit" value="Submit" /></td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+</p></p>
+<p>&nbsp;</p>	<p style="margin:20px 0 0 0;">
+	<p>This project has received funding from the European Union&rsquo;s Seventh Framework Programme for research, technological development and demonstration under grant agreement no 312632&nbsp;</p>
+<p><a target="_blank" href="http://ec.europa.eu/index_en.htm"><img width="60" height="41" alt="" src="/userdata/image/ec.gif" /></a></p></p>
+<p style="font-size:9px;margin:30px 0 0 0;">
+	&copy; website hosted by <a href="http://www.uniresearch.nl" target="_blank">Uniresearch</a>
+</p>
+</div>
+<div class="clear">&nbsp;</div>				</div>
+			</div>
+		</div>
+    </body>
+</html>

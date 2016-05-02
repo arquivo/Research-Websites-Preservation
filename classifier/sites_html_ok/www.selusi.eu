@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Selusi - Home</title>
+        
+<base href="http://www.selusi.eu/" />
+<meta name="Generator" content="CMS Made Simple - Copyright (C) 2004-9 Ted Kulp. All rights reserved." />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ 
+        <link rel="stylesheet" type="text/css" href="http://www.selusi.eu/stylesheet.php?cssid=50" />
+
+        
+	<script language="JavaScript" type="text/javascript" src="http://www.selusi.eu/modules/jQuery/libraries/jquery.js" ></script>
+	<script language="JavaScript" type="text/javascript">jQuery.noConflict();</script>
+	<script language="JavaScript" type="text/javascript" src="http://www.selusi.eu/modules/jQuery/libraries/plugins/colorbox/js/colorbox.jquery.js" ></script>
+	<script language="JavaScript" type="text/javascript" src="http://www.selusi.eu/modules/jQuery/libraries/plugins/uicore/js/uicore.jquery.js" ></script>
+	<script language="JavaScript" type="text/javascript" src="http://www.selusi.eu/modules/jQuery/libraries/plugins/zaccordion/js/zaccordion.jquery.js" ></script>
+
+	<!--[if lte IE 6]>
+	<link rel="stylesheet" type="text/css" href="http://www.selusi.eu/stylesheet.php?cssid=52" />
+
+	
+	<![endif]-->
+	<!--[if IE 7]>
+	
+	<![endif]-->
+        <script type="text/javascript" src="uploads/theme/functions.js"></script>
+         <script type="text/javascript" src="/js/jquery.cycle.min.js"></script>
+          <script type="text/javascript" src="/js/jquery.colorbox.js"></script>
+        
+  <script type="text/javascript">
+        jQuery(document).ready(function($){
+          // $("a[class='colorbox']").colorbox();
+           $(".videobox").colorbox({iframe:true, width:525, height:400});
+           $(".slideshow").colorbox({rel:'slideshow', slideshow:true});
+           $("#accordion").accordion({
+            autoHeight: false,
+            collapsible: true
+        });
+          $('.slideshow').cycle({
+		fx: 'fade' , 
+		speed:  1500 
+	});
+
+        });
+        </script>
+
+
+        
+        <script type="text/javascript" src="uploads/theme/ie6.js"></script>
+    </head>    <body class="page-home">
+        <a name="top"></a>
+        <div class="wrapper">
+            <div class="header">
+                <div class="header-top"><a href="http://www.selusi.eu/"><img src="uploads/theme/images/header-logo.png" onload="setpng(this)" alt="logo"/></a></div>
+                <div class="header-bottom"></div>
+                <div class="clear"></div>
+            </div>  
+            <div class="main-container">
+                <div class="col-main layout2column">
+                       <div class="col-right layout2columns-right">
+                       <div class="horizontal-menu-container">
+		                <div class="horizontal-menu"></div>
+		                
+		         </div>
+		         <div class="clear"></div>
+                        <div class="breadcrumbs">/ <span class="lastitem">Home</span></div>
+                        <div class="content-inside clear">
+                                                        <h1>Home</h1>
+                            <p><strong><span style="font-family: courier new,courier;">Social Enterprises in Europe</span></strong><br />We study the market behaviors and organizational design decisions of over 800 social enterprises in Europe over time. We are interested to better understand the implications of social mission drive for managerial practices and organizational performance.</p>
+<p><strong><span style="font-family: courier new,courier;">Open Service Innovation</span><br /></strong>We bring forward emerging social entrepreneurs as a powerful, yet so far untapped source of ‘external’ intelligence, ideas and technologies, and advance and pilot-test concrete strategies for how companies can access and leverage this intelligence in their service innovation processes.</p>
+<p><strong><span style="font-family: courier new,courier;">Innovation and Economic Policy-making</span></strong><br />From our unique blend of fundamental and applied research, we aim to distill new public policy insights that can inform EU’s policy-making with respect to the competitiveness of its service sector, the roles of social ventures and service innovation. In addition, we take a strong interest in thinking through the policy-making relevance of our work to non-EU emerging economies, as well as the developing world.</p>
+<p style="text-align: center;"><a href="index.php?page=conference"><img src="uploads/images/conf-material.png" alt="" width="490" height="130" border="0" /></a></p>
+                        </div>
+                 </div>        
+               <div class="col-left">
+                 <div class="vertical-menu-container">
+               		 <div class="vertical-menu"> 
+
+<ul>
+
+
+<li class="parent"><a class="parent" href="http://www.selusi.eu/index.php?page=about-the-project"><span>About the project</span></a>
+
+
+</li>
+
+
+<li class="parent"><a class="parent" href="http://www.selusi.eu/index.php?page=team"><span>Team</span></a>
+
+
+</li>
+
+
+<li><a href="http://www.selusi.eu/index.php?page=business-platform"><span>Policy Reports</span></a>
+
+
+</li>
+
+
+<li><a href="http://www.selusi.eu/index.php?page=research"><span>Academic Research</span></a>
+
+
+</li>
+
+
+<li><a href="http://www.selusi.eu/index.php?page=teaching-material"><span>Teaching Material</span></a>
+
+
+</li>
+
+
+<li><a href="http://www.selusi.eu/index.php?page=survey-data"><span>Survey Data</span></a>
+
+
+</li>
+
+
+<li class="parent"><a class="parent" href="http://www.selusi.eu/index.php?page=conference"><span>Final Conference</span></a>
+
+
+</li>
+
+
+<li><a href="http://www.selusi.eu/index.php?page=contact"><span>Contact</span></a>
+
+
+</li>
+</ul>
+</div>
+                </div>
+                <div class="search-box"><form id="cntnt01moduleform_1" method="get" action="http://www.selusi.eu/">
+<div class="hidden">
+<input type="hidden" name="mact" value="Search,cntnt01,dosearch,0" />
+<input type="hidden" name="cntnt01returnid" value="15" />
+</div>
+
+
+<input type="text" class="search-input" id="cntnt01searchinput" name="cntnt01searchinput" size="20" maxlength="50" value="Enter Search..." onfocus="if(this.value==this.defaultValue) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;"/>
+</form>
+</div>
+               <div class="news-left">
+               <h2>News</h2>
+               <ul>
+<li>
+<h3><a href="http://www.selusi.eu/index.php?mact=Newsroom,cntnt01,detail,0&amp;cntnt01template=side_list&amp;cntnt01limit=1&amp;cntnt01orderby=Date%20DESC&amp;cntnt01pagedetails=news&amp;cntnt01item_id=4&amp;cntnt01returnid=15">Final Project Conference in BXL</a></h3>
+<div class="date">Wed 30 November -1</div>
+<div class="summary">
+
+
+
+
+
+
+
+Conference Title: Social Enterprise and Social Business Innovation in Europe
+Key findings of a 3-year research to be presented by top academics at the closing conference on 6-7 October in Brussels
+
+What ...<a href="http://www.selusi.eu/index.php?mact=Newsroom,cntnt01,detail,0&amp;cntnt01template=side_list&amp;cntnt01limit=1&amp;cntnt01orderby=Date%20DESC&amp;cntnt01pagedetails=news&amp;cntnt01item_id=4&amp;cntnt01returnid=15">More</a></div>
+</li>
+</ul>
+<div class="viewall"><a href="http://www.selusi.eu/index.php?page=news" title="News"  class="view-all">View all news</a></div>
+
+               </div>
+               </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+            <div class="footer-container">
+                <div class="footer footer-inside"><img src="uploads/theme/images/logo-1.gif" alt="european commission"/><a href="http://cordis.europa.eu/fp7/" target="_blank"><img src="uploads/theme/images/logo-2.gif" alt="seventh framework programme"/></a></div>
+            </div>
+        </div>
+
+    
+       <!-- Google Analytics code goes here-->
+     
+    </body>
+</html><!-- 1.511229 / 47 / 14557248 / 15530016 -->

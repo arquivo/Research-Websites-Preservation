@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>ODIN-VITD.eu</title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script src="/js/jquery-1.10.2.min.js"></script>
+  <script src="/js/lightbox-2.6.min.js"></script>
+  <link href="/css/lightbox.css" rel="stylesheet" />
+  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>  
+  <link rel="stylesheet" type="text/css" href="/style.css">  
+  <script type="text/javascript" src="/admin/ckeditor/ckeditor.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/crop.css">
+	<script src="/js/crop.js"></script>    
+  <link rel="stylesheet" type="text/css" href="/js/codebase/dhtmlxcalendar.css">
+  <link rel="stylesheet" type="text/css" href="/js/codebase/skins/dhtmlxcalendar_omega.css">
+  <!-- bxSlider file -->
+  <script src="/js/jquery.bxslider.js"></script>
+  <link href="/css/jquery.bxslider.css" rel="stylesheet" />  
+  <script src="/js/codebase/dhtmlxcalendar.js"></script>  
+  </head>
+  <body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10334684-26', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=224073674415730";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>  
+  <!-- container -->
+  <div id="container">
+    <!-- container_in -->
+    <div id="container_in">
+      <!-- container_in -->
+      <div id="header">
+        <!-- logo -->
+        <div id="logo">
+          <img src="/img/logo.png">
+        </div>
+        <!-- / logo -->
+		<div style="height: 240px;overflow: hidden;width:1040px;">
+            <ul class="bxslider" style="width:1040px;margin-left:-40px;">
+              <li><img src="/img/slider/1 ODIN food.jpg" /></li>
+              <li><img src="/img/slider/2 ODIN slider people.jpg" /></li>
+              <li><img src="/img/slider/3 ODIN mushrooms.jpg" /></li>
+              <li><img src="/img/slider/4 ODIN slider  researcher.jpg" /></li>
+              <li><img src="/img/slider/5 ODIN fish red.jpg" /></li>
+              <li><img src="/img/slider/6.jpg" /></li>
+              <li><img src="/img/slider/7 ODIN meat.jpg" /></li>
+              <li><img src="/img/slider/8 ODIN dishes.jpg" /></li>
+              <li><img src="/img/slider/9 ODIN fish.jpg" /></li>
+              <li><img src="/img/slider/10 ODIN research.jpg" /></li>
+              <li><img src="/img/slider/11 ODIN eggs.jpg" /></li>
+            </ul>
+        </div>
+
+                <!-- menu1 -->
+        <div id="menu1">          
+                      <a href="/science/" class="m_science">LOGIN</a>            
+                        <a href="/regulatory/" class="m_regulatory">Regulators</a>            
+                        <a href="/industry/" class="m_industry">Industry</a>            
+                        <a href="/health/" class="m_healthcare">Health</a>            
+                        <a href="/public/" class="m_public">Homepage</a>            
+                 
+          <!-- menu2_line -->
+          <!--
+          <div id="menu2_line" class="m_public">
+          </div>
+          -->
+          <!-- / menu2_line -->             
+        </div>
+        <!-- / menu1 -->
+        <!-- menu1_line -->
+        <div style="width:100%;position:relative;clear:both;font-size:0px;height:0px;"></div>
+        <div id="menu1_line" class="m_public">
+        </div>
+        <!-- / menu1_line -->
+      </div>
+      <!-- / header -->
+      <!-- content -->
+      <div id="content">
+        <!-- menu2 -->
+        <div id="menu2" class="m_public">
+                      <a href="/public/2-home/">Home</a>
+                        <a href="/public/65-project/">Project</a>
+                        <a href="/public/66-team/">Team</a>
+                        <a href="/public/3-faq/">FAQ</a>
+                        <a href="/public/4-vitamin-d/">Vitamin D</a>
+                        <a href="/public/67-publications/">Publications</a>
+                        <a href="/public/76-events/">Events</a>
+                        <a href="/public/5-news/">News</a>
+                        <a href="/public/6-contact/">Contact</a>
+                    </div>
+        <!-- / menu2 -->
+        <!-- content_left -->
+        <div id="content_left" style="">
+          <div id="content_left_links" class="m_public">            
+                              <a href="/public/7-what-we-are-working-on/">What we are working on</a>
+                            </div>
+                          <div id="content_left_text" class="m_public">
+	              <h3>WHAT&rsquo;S IT ABOUT?</h3>
+
+<div class="textwidget" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-family: Arial; font-size: 10px; line-height: 10px; vertical-align: baseline; color: rgb(0, 0, 0);">
+<p><span style="font-size:11px"><strong>Project Title:</strong><span style="color:rgb(0, 0, 0); font-family:arial">&nbsp;Food-based solutions for optimal vitamin D nutrition and health through the life cycle</span><br />
+<strong>Project No.:</strong><span style="color:rgb(0, 0, 0); font-family:arial">&nbsp;FP7-613977-ODIN&nbsp;</span><br />
+<strong>Total budget:</strong><span style="color:rgb(0, 0, 0); font-family:arial">&nbsp;EURO 7.95 million&nbsp;</span><br />
+<strong>EU Contribution:</strong><span style="color:rgb(0, 0, 0); font-family:arial">&nbsp;EURO 6 million</span></span></p>
+
+<p><strong>Coordinator:</strong>&nbsp;University College Cork, Ireland, Professor Kevin Cashman and Professor Mairead Kiely</p>
+
+<p><strong>Start:</strong>&nbsp;November 1, 2013&nbsp;<br />
+<strong>Duration:</strong>&nbsp;48 months</p>
+</div>
+                </div>
+                        </div>
+        <!-- / content_left -->
+        <!-- content_center -->
+        <div id="content_center"  style="width:440px;">  
+<h3><img alt="" src="/upload/images/ODIN_Budapest_2013-logoODIN-resized%284%29.png" style="height:343px; width:441px" /></h3>
+
+<p>Welcome to the ODIN website, click above to learn more about the ODIN project&nbsp;and&nbsp;the team behind ODIN.</p>
+  <div style="position:relative;padding-top:10px;">
+    <div style="float:left">
+      <div class="fb-share-button" data-href="http://www.odin-vitd.eu/" data-type="button"></div>
+    </div>
+    <div style="float:left;margin-left:10px;">
+      <!-- Place this tag where you want the share button to render. -->
+      <div class="g-plus" data-action="share" data-annotation="none"></div>
+      
+      <!-- Place this tag after the last share tag. -->
+      <script type="text/javascript">
+        window.___gcfg = {
+          lang: 'en-US'
+        };
+        (function() {
+          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+          po.src = 'https://apis.google.com/js/platform.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+      </script>
+    </div>
+    <div style="float:left;margin-left:10px;">
+      <script src="//platform.linkedin.com/in.js" type="text/javascript">
+       lang: en_US
+      </script>
+      <script type="IN/Share"></script>
+    </div>
+    <div style="float:left;margin-left:10px;">
+      <a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </div>  
+  </div>
+    
+
+                </div>
+        <!-- / content_center -->
+        <!-- content_right -->
+        <div id="content_right" style="width:305px;">
+                        <div id="newsfeed">
+              <h2 style="text-align:center;">News feed</h2>
+              <div id="newsfeed_in">
+                <div id="newsfeed_in_load">
+                                      <div class="article">
+                      <h3>New Publication - Vitamin D Deficiency in Europe: Pandemic?</h3>
+                      <p class="article_date">18.02.2016 12:03</p>
+                      <p><span style="font-size:14px">The first European-wide data from the ODIN project shows that the prevalence of vitamin D deficiency, which is completely preventable through nutrition, is 13%: these first internationally comparable data present firm evidence for significant risk to public health from vitamin D deficiency. To read a summary and for a link to the full publication <a href="http://www.odin-vitd.eu/files/Cashman%20%20AJCN%20summary%20HP.docx">click here</a></span></p>
+                    </div>
+                                        <div class="article">
+                      <h3>Just Published - New Data on the Effect of UV-irradiated Mushrooms on Vitamn D Status</h3>
+                      <p class="article_date">18.02.2016 11:49</p>
+                      <p><span style="font-size:14px">UV-irradiated mushrooms, enriched in vitamin D<sub>2</sub>, may improve vitamin D status in individuals with <em>low</em> but not high vitamin D status. This is the main finding from&nbsp;an <em>ODIN</em> systematic review and meta-analysis that has just been published. To read more and for a link to the full&nbsp;publication&nbsp;<a href="http://www.odin-vitd.eu/files/Mushrooms%20summary.docx">click here</a> </span></p>
+                    </div>
+                                        <div class="article">
+                      <h3></h3>
+                      <p class="article_date">15.02.2016 13:33</p>
+                      <p>&nbsp;</p>
+
+<p><strong>New Data on Bioavailability of Vitamin D<sub>2</sub> in Bread</strong></p>
+
+<p>ODIN researchers&nbsp;have published new randomised controlled trial data showing very poor bioavailability of vitamin D from bread made with UV-irradiated yeast which has implications for its ability to improve vitamin D status. <a href="http://www.odin-vitd.eu/files/Bread%20paper%20summary.pdf">Click here </a>to read more and&nbsp;for a link to access the abstract and publication.</p>
+
+<p>&nbsp;</p>
+                    </div>
+                                    </div>
+                <span id="newsfeed_load_more">Load more posts</span>
+              </div>
+            </div>
+            <h3 style="text-align:center;">NEWSLETTER</h3>            <div class="newsletter m_public" style="width:279px">
+              Subscribe to ODIN-Newsletter                            <form action="?action=1_newsletter" method="post" style="margin-top:8px;">     
+                <label for="title" class="download_upload"><strong>
+                Name                
+                </strong></label><br>
+                <input type="text" name="newsl_name1" id="newsl_name1" class="download_upload m_public" style="width:263px"><br>
+                <label for="title" class="download_upload"><strong>
+                E-mail                
+                </strong></label><br>
+                <input type="text" name="newsl_mail1" id="newsl_mail1" class="download_upload m_public" style="width:263px"><br>
+                <input type="submit" value="Submit" class="download_upload2 m_public">    
+              </form>            
+            </div>
+                    </div>
+        <!-- / content_right -->
+        <!-- footer -->
+        <div id="footer_top">
+          Powered by PAMIDA International's Intelligent Platform Technology - IPTEC2020   
+        </div>
+        <div id="footer" class="m_public">
+          <div id="footer_left">
+            THE PROJECT IS COORDINATED BY<br>
+            <img src="/img/eu1.png">
+          </div>
+          <div id="footer_center">
+            <img src="/img/eu2.png" style="height:60px;">            
+          </div>
+          <div id="footer_right">
+            <span style="color:#a7a7a7;font-size:10px;display:block;padding-top:5px">This project has received funding from the European Union's Seventh Framework Programme for research, technological development and demonstration under grant agreement no. 613977</span>
+          </div>
+        </div>
+        <!-- / footer -->
+      </div>
+      <!-- / content -->
+    </div>
+    <!-- / container_in -->
+    <!-- footer2 -->
+    <div id="footer2">
+    </div>
+    <!-- / container_in -->
+  </div>
+  <!-- / container -->
+
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.bxslider').bxSlider({
+      auto: true,
+      mode: 'fade'
+    });
+
+    $("#content_left_text .readmore_act").click(function() {
+  		$("#content_left_text .readmore").slideDown();
+  		$(this).hide();
+	  });
+    $("#content_right_text .readmore_act").click(function() {
+  		$("#content_right_text .readmore").slideDown();
+  		$(this).hide();
+	  });
+
+          var newsfeed_loaded = 3;
+      $("#newsfeed_load_more").click(function() {
+        $.get("/footer_newsfeed_helper.php?loaded="+newsfeed_loaded+"&limit=3", function( data ) {
+          $("#newsfeed_in_load").append( data );
+          newsfeed_loaded = newsfeed_loaded + 3;
+          if(newsfeed_loaded >= 15) $("#newsfeed_load_more").hide();
+        }); 
+      });    
+        });    
+  </script>
+  </body>
+</html>

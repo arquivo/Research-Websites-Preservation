@@ -1,0 +1,323 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><!-- V. 0.1. bis zum Go-Online --><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<!--
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2010 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.com/ and http://typo3.org/
+	-->
+	<base href="http://www.euroforgen.eu/" />
+	<link rel="shortcut icon" href="http://www.euroforgen.eu/" type="directory" />
+	<link rel="icon" href="http://www.euroforgen.eu/" type="directory" />
+	<meta name="generator" content="TYPO3 4.4 CMS" />
+	<meta name="keywords" content="EUROFORGEN,dna fingerprinting,SNPs,forensic DNA,virtual forensic collaboration,genetic fingerprint,forensic genetics,DNA databases" />
+	<meta name="description" content="The European Forensic Genetics Network of Excellence develops a broad initiative f. creating an European Virtual Centre of Forensic Genetic Research." />
+	<meta name="audience" content="alle" />
+	<meta name="robots" content="index, follow" />
+	<meta name="distribution" content="global" />
+	<meta name="revisit-after" content="3" />
+	<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_ae1c9e696a.css?1398762780" media="all" />
+	<link rel="stylesheet" type="text/css" href="typo3conf/ext/wt_directory/css/default.css?1374481554" media="all" />
+	<link rel="stylesheet" type="text/css" href="fileadmin/templates/multiflex4/css/mf4_layout4_setup.css?1421236018" media="screen,print" />
+	<link rel="stylesheet" type="text/css" href="fileadmin/templates/multiflex4/css/mf4_layout4_text.css?1424083338" media="screen,print" />
+	<link rel="stylesheet" type="text/css" href="fileadmin/templates/multiflex4/css/layout_t3.css?1449840285" media="screen,print" />
+	<link rel="stylesheet" type="text/css" href="fileadmin/templates/multiflex4/css/mf4_layout4_print.css?1425565502" media="print" />
+	<link rel="stylesheet" type="text/css" href="fileadmin/templates/multiflex4/css/euroforgen/common.css?1440159391" media="screen,print" />
+	<script src="typo3conf/ext/powermail_mul/lib/script/multifile_compressed.js?1295595161" type="text/javascript"></script>
+	<script src="typo3temp/javascript_a708894199.js?1386174870" type="text/javascript"></script>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	<!-- Dies ist nötig, damit gecheckte Checkboxen und Radio Felder auch im IE 8 Druck als gecheckt ausgegeben werden. -->
+	<!--[if IE]>
+	<style type=text/css>
+	@import url(fileadmin/templates/multiflex4/css/style_ie.css);
+	</style>
+	<![endif]-->
+	<!--[if IE 6]>
+	<style type=text/css>
+	@import url(fileadmin/templates/multiflex4/css/style_ie_6.css);
+	</style>
+	<![endif]-->
+	<style type="text/css">
+	@import url(fileadmin/templates/multiflex4/scripts/DataTables-1.9.4/media/css/demo_page.css);
+	@import url(fileadmin/templates/multiflex4/scripts/DataTables-1.9.4/media/css/demo_table.css);
+	</style>	<script src="http://code.jquery.com/jquery-1.8.3.js" type="text/javascript"></script>
+	<script type="text/javascript" src="fileadmin/templates/multiflex4/scripts/DataTables-1.9.4/media/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" src="fileadmin/templates/multiflex4/scripts/menu.js"></script>
+	<script type="text/javascript" src="/typo3conf/ext/sr_freecap/pi2/freeCap.js"></script>
+	<meta name="author" content="GABO:mi in Munich - Your experts in the management of research projects" />
+	<title>EUROFORGEN-NoE - the European Forensic Genetics Network of Excellence</title>
+	<meta name="title" content="EUROFORGEN-NoE - the European Forensic Genetics Network of Excellence" />
+	<meta name="keywords" content="EUROFORGEN,dna fingerprinting,SNPs,forensic DNA,virtual forensic collaboration,genetic fingerprint,forensic genetics,DNA databases" />
+	<meta name="description" content="The European Forensic Genetics Network of Excellence develops a broad initiative f. creating an European Virtual Centre of Forensic Genetic Research." />
+	<meta name="dc.created" content="2016-02-03" />
+	<link rel="canonical" href="http://www.euroforgen.eu/home/" />
+	<meta property="og:type" content="website" /><meta property="og:url" content="http://www.euroforgen.eu/" /><meta property="og:title" content="EUROFORGEN-NoE - the European Forensic Genetics Network of Excellence" /><meta property="og:description" content="The European Forensic Genetics Network of Excellence develops a broad initiative f. creating an European Virtual Centre of Forensic Genetic Research. " /><meta name="google-site-verification" content="phtO-l-4Vjeqtrhe1pKfq4n06f9694mQ1n7DZ8nbJMM" />
+	<meta property="og:image" content="http://www.euroforgen.eu/fileadmin/websites/euroforgen/images/social-media/logo_og_euroforgen-1200x630.png" />	<script type="text/javascript" src="typo3/contrib/prototype/prototype.js"></script>
+	<script type="text/javascript" src="typo3/contrib/scriptaculous/scriptaculous.js"></script>
+	<script type="text/javascript" src="typo3/contrib/scriptaculous/controls.js"></script>
+	<script type="text/javascript" src="typo3conf/ext/wt_directory/js/wtdirectory_autocomplete.js"></script>
+	<script type="text/javascript">
+	/*<![CDATA[*/
+	<!--
+	function openPic(url,winName,winParams)	{	//
+	var theWindow = window.open(url,winName,winParams);
+	if (theWindow)	{theWindow.focus();}
+	}
+	// -->
+	/*]]>*/
+	</script>
+</head>
+<body>
+	<!-- Main Page Container -->
+	<div class="page-container">
+		<!--  START COPY here -->
+		<!-- A. HEADER -->
+		<div class="header">
+			<!-- A.1 HEADER TOP -->
+			<div class="header-top">
+				<div class="round-border-topleft"></div><div class="round-border-topright"></div>
+					<!-- Sitelogo and sitename -->
+					<div id="onlyprint"><!-- ###HEADERLOGO### --><!-- ###HEADERLOGO### --></div>
+					<a class="sitelogo" href="#" title="Home"></a>
+					<div class="headerpicture"></div>
+					<div class="addcontenttop"><!-- ###ADDCONTENTTOP### --> <!-- ###ADDCONTENTTOP### --></div>
+					<!-- Navigation Level 0 -->
+					<div class="nav0">
+						<ul class="langnav"><li class="nolang"><img src="fileadmin/templates/multiflex4/img/flag_germany_bw.png" width="32" height="20" border="0" alt="Deutsche Version" title="Deutsche Version" /></li></ul>
+					</div>
+					<!-- Navigation Level 1 -->
+					<div class="nav1">
+						<ul><li class="top"><a href="login/" title="Login">Login</a></li><li class="top"><a href="search/" title="Search">Search</a></li><li class="top"><a href="contact/contact-form/" title="Contact">Contact</a></li><li class="top"><a href="overview5/" title="Sitemap">Sitemap</a></li><li class="top"><a href="imprint/" title="Imprint">Imprint</a></li></ul>
+					</div>
+				</div>
+				<!-- A.3 HEADER BOTTOM -->
+				<div class="header-bottom">
+					<!-- Navigation Level 2 (Drop-down menus) -->
+					<div class="nav2">
+						<ul id="nav"><li class="menuparent"><a href="home/" title="Home">Home</a><ul><li class="menuparent"><a href="about-euroforgen-noe/" title="About EUROFORGEN-NoE">About EUROFORGEN-NoE</a><ul><li><a href="about-euroforgen-noe/background/" title="Background">Background</a></li><li><a href="about-euroforgen-noe/concept-and-objectives/" title="Concept and Objectives">Concept and Objectives</a></li><li><a href="about-euroforgen-noe/impact/" title="Impact">Impact</a></li></ul></li><li class="menuparent"><a href="the-group/" title="The Group">The Group</a><ul><li class="menuparent"><a href="the-group/consortium/" title="Consortium">Consortium</a><ul><li><a href="the-group/consortium/university-of-cologne/" title="University of Cologne">University of Cologne</a></li><li><a href="the-group/consortium/universidade-de-santiago-de-compostela/" title="Universidade de Santiago de Compostela">Universidade de Santiago de Compostela</a></li><li><a href="the-group/consortium/norwegian-institute-of-public-health/" title="Norwegian Institute of Public Health">Norwegian Institute of Public Health</a></li><li><a href="the-group/consortium/university-of-copenhagen/" title="University of Copenhagen">University of Copenhagen</a></li><li><a href="the-group/consortium/netherlands-forensic-institute/" title="Netherlands Forensic Institute ">Netherlands Forensic Institute </a></li><li><a href="the-group/consortium/innsbruck-medical-university/" title="Innsbruck Medical University">Innsbruck Medical University</a></li><li><a href="the-group/consortium/norwegian-university-of-life-sciences/" title="Norwegian University of Life Sciences">Norwegian University of Life Sciences</a></li><li><a href="the-group/consortium/northumbria-university-centre-for-forensic-science/" title="Northumbria University Centre for Forensic Science">Northumbria University Centre for Forensic Science</a></li><li><a href="the-group/consortium/jagiellonian-university-krakow/" title="Jagiellonian University Krakow">Jagiellonian University Krakow</a></li><li><a href="the-group/consortium/epiontis-gmbh/" title="Epiontis GmbH">Epiontis GmbH</a></li><li><a href="the-group/consortium/gabomilliarium/" title="GABO:milliarium">GABO:milliarium</a></li><li><a href="the-group/consortium/king-s-college-london/" title="King's College London">King's College London</a></li><li><a href="the-group/consortium/universityofzurich/" title="University of Zurich">University of Zurich</a></li><li><a href="the-group/consortium/westfaelische-wilhelms-universitaet-muenster/" title="Westfaelische Wilhelms-Universitaet Muenster">Westfaelische Wilhelms-Universitaet Muenster</a></li><li><a href="the-group/consortium/erasmus-mc-university-medical-center-rotterdam/" title="Erasmus MC University Medical Center Rotterdam">Erasmus MC University Medical Center Rotterdam</a></li><li><a href="the-group/consortium/university-of-strathclyde/" title="University of Strathclyde">University of Strathclyde</a></li></ul></li><li><a href="the-group/scientific-advisory-board/" title="Scientific Advisory Board">Scientific Advisory Board</a></li><li><a href="the-group/ethics-group/" title="Ethics Group">Ethics Group</a></li><li><a href="the-group/coordinatorproject-office/" title="Coordinator/Project Office">Coordinator/Project Office</a></li></ul></li><li class="menuparent"><a href="the-project/" title="The Project">The Project</a><ul><li><a href="the-project/wp01-project-management/" title="WP01 - Project Management">WP01 - Project Management</a></li><li><a href="the-project/wp02-integrating-research-and-networking/" title="WP02 - Integrating research and networking">WP02 - Integrating research and networking</a></li><li><a href="the-project/wp03-exemplar-research-projects/" title="WP03 - Exemplar research projects">WP03 - Exemplar research projects</a></li><li><a href="the-project/wp04-ethical-and-legal-aspects-and-the-societal-dimension-of-forensic-genetics/" title="WP04 - Ethical and legal aspects, and the societal dimension of forensic genetics">WP04 - Ethical and legal aspects, and the societal dimension of forensic genetics</a></li><li><a href="the-project/wp05-education-training-and-career-development/" title="WP05 - Education, training and career development">WP05 - Education, training and career development</a></li></ul></li><li class="menuparent"><a href="networking-activities/" title="Networking Activities">Networking Activities</a><ul><li><a href="networking-activities/european-landscape-in-forensic-genetics/" title="European landscape in forensic genetics">European landscape in forensic genetics</a></li><li><a href="networking-activities/directory-of-forensic-genetic-research-laboratories-in-europe/" title="Directory of Forensic Genetic Research Laboratories in Europe">Directory of Forensic Genetic Research Laboratories in Europe</a></li><li><a href="networking-activities/european-virtual-institute-of-research-in-forensic-genetics/" title="European Virtual Institute of Research in Forensic Genetics">European Virtual Institute of Research in Forensic Genetics</a></li></ul></li><li class="menuparent"><a href="training/" title="Training">Training</a><ul><li><a href="training/exchange-options/" title="Exchange options">Exchange options</a></li><li><a href="training/online-resources/" title="Online resources">Online resources</a></li><li><a href="training/upcoming-courses/" title="Upcoming Courses">Upcoming Courses</a></li><li><a href="training/courses/" title="Regular Courses">Regular Courses</a></li></ul></li><li class="menuparent"><a href="news/" title="News">News</a><ul><li><a href="news/euroforgen-s-international-dissemination-conference/" title="EUROFORGEN's International Dissemination Conference">EUROFORGEN's International Dissemination Conference</a></li><li><a href="news/seminar-series-on-genetics-technology-security-and-justice-at-northumbria-university/" title="Seminar series on genetics, technology, security and justice at Northumbria University">Seminar series on genetics, technology, security and justice at Northumbria University</a></li><li><a href="news/public-relations-conference/" title="Public Relations Conference">Public Relations Conference</a></li><li><a href="news/newsletter/" title="Newsletter">Newsletter</a></li><li><a href="news/meetings-and-workshops/" title="Meetings and Workshops">Meetings and Workshops</a></li><li><a href="news/short-term-fellowships/" title="Short Term Fellowships">Short Term Fellowships</a></li></ul></li><li class="menuparent"><a href="dissemination-activities/" title="Dissemination Activities">Dissemination Activities</a><ul><li><a href="dissemination-activities/consortium-publications/" title="Consortium publications">Consortium publications</a></li><li><a href="dissemination-activities/journal-articles/" title="Journal articles">Journal articles</a></li></ul></li><li><a href="contact/" title="Contact">Contact</a></li><li><a href="login/" title="Login">Login</a></li></ul></li></ul>
+						</div>
+					</div>
+					<!-- A.4 HEADER BREADCRUMBS -->
+					<!-- Breadcrumbs -->
+					<div class="header-breadcrumbs"><a name="top"></a>
+						<span class="rootline">&nbsp;<img src="fileadmin/templates/multiflex4/img/bg_bullet_arrow.gif" alt="" />&nbsp;<a href="home/" target="_self" title="Home">Home</a></span>
+						<!-- Search form -->
+						<div class="searchform">
+							<!--
+							BEGIN: Content of extension "macina_searchbox", plugin "tx_macinasearchbox_pi1"
+							-->
+							<div class="tx-macinasearchbox-pi1">
+								<form action="search/" method="post" name="searchform" id="searchform">
+								<fieldset>		<!-- ###SUCHETEXT### --><!-- ###SUCHETEXT### -->
+								<input name="tx_indexedsearch[sword]" type="text" class="field" value="search" onfocus="clearText(this)" />
+								<input name="tx_indexedsearch[submit_button]" type="submit" class="button" value="GO" title="GO" alt="GO" />
+								<input type="hidden" name="tx_indexedsearch[_sections]" value="0" />
+								<input type="hidden" name="tx_indexedsearch[pointer]" value="0" />
+								<input type="hidden" name="tx_indexedsearch[ext]" value="0" />
+								<input type="hidden" name="tx_indexedsearch[lang]" value="0" />
+								</fieldset>
+								</form>
+							</div>
+							<!-- END: Content of extension "macina_searchbox", plugin "tx_macinasearchbox_pi1" -->
+						</div>
+					</div>
+				</div>
+				<!--  END COPY here -->
+				<!-- B. MAIN -->
+				<div class="main">
+					<!-- B.1 MAIN NAVIGATION -->
+					<div class="main-navigation">
+						<!-- Navigation Level 3 -->
+						<div class="round-border-topright"></div>
+						<h1 class="first"><!-- foo --></h1>
+						<ul class="nav3-li"><li><a href="about-euroforgen-noe/" title="About EUROFORGEN-NoE" class="level1-no">About EUROFORGEN-NoE</a></li><li><a href="the-group/" title="The Group" class="level1-no">The Group</a></li><li><a href="the-project/" title="The Project" class="level1-no">The Project</a></li><li><a href="networking-activities/" title="Networking Activities" class="level1-no">Networking Activities</a></li><li><a href="training/" title="Training" class="level1-no">Training</a></li><li><a href="news/" title="News" class="level1-no">News</a></li><li><a href="dissemination-activities/" title="Dissemination Activities" class="level1-no">Dissemination Activities</a></li><li><a href="contact/" title="Contact" class="level1-no">Contact</a></li><li><a href="login/" title="Login" class="level1-no">Login</a></li></ul>
+						<!-- ###INHALT_RANDLINKS### -->
+						<!-- ###INHALT_RANDLINKS### -->
+						<!--  CONTENT ELEMENT, uid:3960/textpic [begin] -->
+						<a id="c3960"></a><div class="subcontent-unit-border-green"><div class="round-border-topleft"></div><div class="round-border-topright"></div>
+						<!--  Image block: [begin] -->
+						<div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap" style="width:80px;"><dl class="csc-textpic-image csc-textpic-firstcol csc-textpic-lastcol" style="width:80px;"><dt><a href="http://cordis.europa.eu/fp7/home_en.html" target="_blank" title="Seventh Framework Programme"><img src="typo3temp/pics/97a3965168.jpg" width="80" height="53" border="0" alt="Seventh Framework Programme" /></a></dt></dl></div><div class="csc-textpic-text">
+							<!--  Text: [begin] -->
+							<p class="bodytext"><a href="http://cordis.europa.eu/fp7/home_en.html" title="Seventh Framework Programme" target="_blank"><b>EUROFORGEN-NoE</b> - The research leading to these results receives funding from the European Union Seventh Framework Programme (FP7/2007-2013) under grant agreement n° 285487.</a></p>
+							<!--  Text: [end] -->
+						</div></div><div class="csc-textpic-clear"><!-- --></div>
+						<!--  Image block: [end] -->
+					</div>
+					<!--  CONTENT ELEMENT, uid:3960/textpic [end] -->
+					<!-- ###CONTENTPLACEHOLDER01### --><!--Platzhalter fÃ¼r z.B. PHP include - erscheint bottom, linke Spalte--><!-- ###CONTENTPLACEHOLDER01### -->
+					<div class="feEditAdvanced-contentWrapper feEditAdvanced-editButton editAction">
+						<!--  CONTENT ELEMENT, uid:209/textpic [begin] -->
+						<a id="c209"></a>
+						<!--  Image block: [begin] -->
+						<div class="csc-textpic csc-textpic-center csc-textpic-below"><div class="csc-textpic-text">
+							<!--  Text: [begin] -->
+							<p class="bodytext">&nbsp;<br />&nbsp;</p>
+							<!--  Text: [end] -->
+						</div><div class="csc-textpic-imagewrap" style="width:158px;"><dl class="csc-textpic-image csc-textpic-firstcol csc-textpic-lastcol" style="width:158px;text-align:center;"><dt></dt></dl></div></div><div class="csc-textpic-clear"><!-- --></div>
+						<!--  Image block: [end] -->
+						<!--  CONTENT ELEMENT, uid:209/textpic [end] -->
+					</div>
+				</div>
+				<!-- B.1 MAIN CONTENT -->
+				<div class="main-content">
+					<!--TYPO3SEARCH_begin-->
+					<div class="seitentitel"><!-- ###SEITENTITLE### --><!-- Hier kann der Seitentitle angezeigt werden--><!-- ###SEITENTITLE### --></div>
+					<div class="inhalt_normal">
+						<!--  CONTENT ELEMENT, uid:3968/shortcut [begin] -->
+						<a id="c3968"></a><div class="content">
+						<!--  Inclusion of other records (by reference): [begin] -->
+						<!--  CONTENT ELEMENT, uid:4494/textpic [begin] -->
+						<a id="c4494"></a>
+						<!--  Header: [begin] -->
+						<h1>About EUROFORGEN-NoE</h1>
+						<!--  Header: [end] -->
+						<!--  Image block: [begin] -->
+						<div class="csc-textpic-text">
+							<!--  Text: [begin] -->
+							<p style="text-align:justify" class="bodytext"><span lang="EN-GB">The main objective of the European Forensic Genetics Network of Excellence -- EUROFORGEN-NoE -- is the creation of a <b>European Virtual Centre of Forensic Genetic Research</b>. </span></p>
+							<p style="text-align:justify" class="bodytext"><span lang="EN-GB">Forensic genetics is a highly innovative field of applied science with a strong impact on the security of citizens. The project, funded by the SECURITY programme of the European Commission under the 7<sup>th</sup> Framework Programme, started in January 2012 and will run for 5 years. It is coordinated by Prof. Peter Schneider of the Institute of Legal Medicine at the University Hospital of Cologne, Germany.</span></p>
+							<p style="text-align:justify" class="bodytext"><span lang="EN-GB">The network includes 16 partners from 9 countries including leading groups in European forensic genetic research. It aims to create a close integration of existing collaborations as well as to establish new interactions in this highly specialized field of security. Therefore, all key players such as scientists, stakeholders and end-users (e.g. police institutions and the justice system), educational centres and scientific societies will be integrated into these activities. Furthermore, the societal dimension of applying forensic genetics in criminal investigations, potentially affecting privacy rights and minority protection, will be addressed. Finally, training and educational activities will be implemented to establish common European-wide standards for generating and interpreting genetic data related to biological evidence.</span></p>
+							<p style="text-align:justify" class="bodytext"><span lang="EN-GB">With the establishment of a long-term collaborative network, it will become possible to effectively connect all scientific groups active in the field of forensic genetics and to initiate a sustained effort covering all aspects of research within the field. If you are working in the field, and interested to contribute to our network, please <a href="contact/contact-form/" class="internal-link"><img src="uploads/RTEmagicC_b0cd7f271a.gif.gif" height="10" width="14" alt="" />contact us</a>.<br /></span></p>
+							<!--  Text: [end] -->
+						</div>
+						<!--  Image block: [end] -->
+						<!--  CONTENT ELEMENT, uid:4494/textpic [end] -->
+						<!--  Inclusion of other records (by reference): [end] -->
+					</div>
+					<!--  CONTENT ELEMENT, uid:3968/shortcut [end] -->
+				</div>
+				<div class="addcontentnormal001"><!-- ###ADDCONTENTNORMAL001### --> <!-- ###ADDCONTENTNORMAL001### --></div>
+				<!-- Pagebrowser-Einbindung -->
+				<!-- ###PAGEBROWSER### --> <!-- ###PAGEBROWSER### -->
+				<div class="inhalt_rechts">
+				</div>
+				<!--TYPO3SEARCH_end-->
+			</div>
+			<!-- B.3 SUBCONTENT -->
+			<div class="main-subcontent">
+				<!--  CONTENT ELEMENT, uid:35024/text [begin] -->
+				<a id="c35024"></a><div class="subcontent-unit-border-green"><div class="round-border-topleft"></div><div class="round-border-topright"></div>
+				<!--  Header: [begin] -->
+				<h1>EUROFORGEN-NoE Satellite Meeting 2016 in Venice</h1>
+				<!--  Header: [end] -->
+				<!--  Text: [begin] -->
+				<p class="bodytext">Join our conference &quot;Forensic DNA analysis in the light of the new security needs&quot; at the IALM Intersocietal Symposium 2016 in Venice to meet scientists, experts and policymakers involved in forensic genetics. Find out about current challenges and new research projects. Interested?&nbsp; <a href="news/euroforgen-s-international-dissemination-conference/"><img src="uploads/RTEmagicC_b0cd7f271a.gif.gif" height="10" width="14" alt="" />Find more information here.</a> </p>
+				<!--  Text: [end] -->
+			</div>
+			<!--  CONTENT ELEMENT, uid:35024/text [end] -->
+			<!--  CONTENT ELEMENT, uid:35206/textpic [begin] -->
+			<a id="c35206"></a><div class="subcontent-unit-border-green"><div class="round-border-topleft"></div><div class="round-border-topright"></div>
+			<!--  Header: [begin] -->
+			<h1>Job offer at CMP-Cyprus</h1>
+			<!--  Header: [end] -->
+			<!--  Image block: [begin] -->
+			<div class="csc-textpic-text">
+				<!--  Text: [begin] -->
+				<p class="bodytext">The Committee on Missing Persons (CMP) in Cyprus is offering a position as International Consultant - Identification Coordinator. <a href="https://jobs.undp.org/cj_view_job.cfm?cur_job_id=62563" target="_blank" class="external-link-new-window">Find out more!</a></p>
+				<!--  Text: [end] -->
+			</div>
+			<!--  Image block: [end] -->
+		</div>
+		<!--  CONTENT ELEMENT, uid:35206/textpic [end] -->
+		<!--  CONTENT ELEMENT, uid:32740/text [begin] -->
+		<a id="c32740"></a><div class="subcontent-unit-border-green"><div class="round-border-topleft"></div><div class="round-border-topright"></div>
+		<!--  Header: [begin] -->
+		<h1>Seminar series on genetics, technology, security and justice at Northumbria University</h1>
+		<!--  Header: [end] -->
+		<!--  Text: [begin] -->
+		<p class="bodytext"><a href="news/seminar-series-on-genetics-technology-security-and-justice-at-northumbria-university/" class="internal-link"><img src="uploads/RTEmagicC_b0cd7f271a.gif.gif" height="10" width="14" alt="" />Read about it here!</a></p>
+		<!--  Text: [end] -->
+	</div>
+	<!--  CONTENT ELEMENT, uid:32740/text [end] -->
+	<!--  CONTENT ELEMENT, uid:6733/textpic [begin] -->
+	<a id="c6733"></a><div class="subcontent-unit-border-green"><div class="round-border-topleft"></div><div class="round-border-topright"></div>
+	<!--  Header: [begin] -->
+	<h1>Short Term Fellowships</h1>
+	<!--  Header: [end] -->
+	<!--  Image block: [begin] -->
+	<div class="csc-textpic-text">
+		<!--  Text: [begin] -->
+		<p class="bodytext"><a href="news/short-term-fellowships/" class="internal-link"><img src="uploads/RTEmagicC_b0cd7f271a.gif.gif" height="10" width="14" alt="" />SHORT TERM FELLOWSHIPS<br /></a></p>
+		<!--  Text: [end] -->
+	</div>
+	<!--  Image block: [end] -->
+</div>
+<!--  CONTENT ELEMENT, uid:6733/textpic [end] -->
+<!--  CONTENT ELEMENT, uid:35164/textpic [begin] -->
+<a id="c35164"></a><div class="subcontent-unit-border-green"><div class="round-border-topleft"></div><div class="round-border-topright"></div>
+<!--  Header: [begin] -->
+<h1>Project factsheet</h1>
+<!--  Header: [end] -->
+<!--  Image block: [begin] -->
+<div class="csc-textpic csc-textpic-center csc-textpic-above csc-textpic-equalheight"><div class="csc-textpic-imagewrap" style="width:142px;"><dl class="csc-textpic-image csc-textpic-firstcol csc-textpic-lastcol" style="width:142px;"><dt><a href="index.php?eID=tx_cms_showpic&amp;file=uploads%2Fpics%2FEuroforgen_FactSheet.pdf&amp;width=800&amp;height=600m&amp;md5=787744d11b883ec18061fbe3c8181c40&amp;contentHash=7b98b7bcfda7228b07aa1e10b678b0ae" onclick="openPic('http://www.euroforgen.eu/index.php?eID=tx_cms_showpic&amp;file=uploads%2Fpics%2FEuroforgen_FactSheet.pdf&amp;width=800&amp;height=600m&amp;md5=787744d11b883ec18061fbe3c8181c40&amp;contentHash=7b98b7bcfda7228b07aa1e10b678b0ae','65a1ff304bd6aecbb4e2cd46b7f8f11b','width=800,height=565,status=0,menubar=0'); return false;" target="thePicture"><img src="typo3temp/pics/2b724b6c42.jpg" width="142" height="100" border="0" alt="EUROFORGEN-NoE flyer" /></a></dt></dl></div><div class="csc-textpic-text">
+	<!--  Text: [begin] -->
+	<p class="bodytext"><a href="fileadmin/websites/euroforgen/images/Euroforgen_FactSheet.pdf" class="download"><img src="uploads/RTEmagicC_9a67f6e013.gif.gif" height="10" width="14" alt="" />Download our EUROFORGEN factsheet here!</a></p>
+	<!--  Text: [end] -->
+</div></div><div class="csc-textpic-clear"><!-- --></div>
+<!--  Image block: [end] -->
+</div>
+<!--  CONTENT ELEMENT, uid:35164/textpic [end] -->
+<!-- Subcontent unit -->
+<!--  CONTENT ELEMENT, uid:30636/textpic [begin] -->
+<a id="c30636"></a><div class="subcontent-unit-border-green"><div class="round-border-topleft"></div><div class="round-border-topright"></div>
+<!--  Header: [begin] -->
+<h1>Newsletter (1/2016)</h1>
+<!--  Header: [end] -->
+<!--  Image block: [begin] -->
+<div class="csc-textpic csc-textpic-center csc-textpic-above csc-textpic-equalheight"><div class="csc-textpic-imagewrap" style="width:71px;"><dl class="csc-textpic-image csc-textpic-firstcol csc-textpic-lastcol" style="width:71px;"><dt><a href="index.php?eID=tx_cms_showpic&amp;file=uploads%2Fpics%2F2016-01_EUROFORGEN-NoE_Newsletter.pdf&amp;width=800&amp;height=600m&amp;md5=eadcc433c6c237a780e24f2feb31e39a&amp;contentHash=7b98b7bcfda7228b07aa1e10b678b0ae" onclick="openPic('http://www.euroforgen.eu/index.php?eID=tx_cms_showpic&amp;file=uploads%2Fpics%2F2016-01_EUROFORGEN-NoE_Newsletter.pdf&amp;width=800&amp;height=600m&amp;md5=eadcc433c6c237a780e24f2feb31e39a&amp;contentHash=7b98b7bcfda7228b07aa1e10b678b0ae','d49a7a51b17b9ff528a9dbe4ceed7188','width=424,height=600,status=0,menubar=0'); return false;" target="thePicture"><img src="typo3temp/pics/d1ea996520.jpg" width="71" height="100" border="0" alt="EUROFORGEN-NoE flyer" /></a></dt></dl></div><div class="csc-textpic-text">
+<!--  Text: [begin] -->
+<p class="bodytext"><a href="fileadmin/websites/euroforgen/media/Newsletter/2016-01_EUROFORGEN-NoE_Newsletter.pdf" class="download"><img src="uploads/RTEmagicC_3f16037e5e.gif.gif" height="10" width="14" alt="" />Dowload here</a></p>
+<!--  Text: [end] -->
+</div></div><div class="csc-textpic-clear"><!-- --></div>
+<!--  Image block: [end] -->
+</div>
+<!--  CONTENT ELEMENT, uid:30636/textpic [end] -->
+<!--  CONTENT ELEMENT, uid:4995/shortcut [begin] -->
+<a id="c4995"></a>
+<!--  Inclusion of other records (by reference): [begin] -->
+<!--  Inclusion of other records (by reference): [end] -->
+<!--  CONTENT ELEMENT, uid:4995/shortcut [end] -->
+</div>
+</div>
+<!-- Frei plazierbarer Content-->
+<div class="addcontentcenter"><!-- ###ADDCONTENTCENTER### --> <!-- ###ADDCONTENTCENTER### --></div>
+<!-- C. FOOTER AREA -->
+<div class="footer">
+<div class="addcontentfooter001"><!-- ###ADDCONTENTFOOTER001### --> <!-- ###ADDCONTENTFOOTER001### --></div>
+<div class="addcontentfooter002"><!-- ###ADDCONTENTFOOTER002### --> <!-- ###ADDCONTENTFOOTER002### --></div>
+<div class="addcontentfooter003"><!-- ###ADDCONTENTFOOTER003### --> <!-- ###ADDCONTENTFOOTER003### --></div>
+<div class="footerdata"><p>Copyright&nbsp;&copy;&nbsp;2016&nbsp;</p>
+<div class="menufooter">
+<!-- ###MENU_FOOTER### -->
+<!-- Navigation item -->
+<ul>
+<li><a href="#" title="Who we are">Links</a></li>
+<li><a href="#" title="Send us a message">Contact</a></li>
+<li><a href="#" title="Send us a message">Impressum</a></li>
+</ul>
+<!-- Navigation item -->
+<!-- ###MENU_FOOTER### -->
+</div>
+</div>
+<p class="credits">Copyright by EUROFORGEN-NoE, e-mail: info(at)euroforgen.eu</p>
+</div>
+</div>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-29563619-1']);
+_gaq.push(['_gat._anonymizeIp']);
+_gaq.push(['_setDomainName', 'euroforgen.eu']);
+_gaq.push(['_setAllowLinker', true]);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</body>
+</html>

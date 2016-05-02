@@ -1,0 +1,312 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="author" content="Wolfgang Rauter, biolution GmbH" />
+<meta name="keywords" content="TOBI, project, EC, funded, 7th Framework Programme, obesity, overweight, diabetes mellitus, atherosklerose, obesity-related, inflammation, macrophage, adipokines, adipose tissue" />
+<title>GENINCA - Home</title>
+<link rel="stylesheet" type="text/css" href="css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+<!--[if lte IE 6]>
+	<link rel="stylesheet" media="all" type="text/css" href="css/ie_fixes.css" />
+	<![endif]-->
+<!--[if lte IE 7]>
+	<link rel="stylesheet" media="all" type="text/css" href="css/ie7_fixes.css" />
+	<![endif]-->
+
+
+<link rel="shortcut ICON" href="favicon.ico" type="image/x-icon"/>
+
+<style type="text/css">
+@media print {
+#pane1, #pane2, #pane3, #pane4, #pane5 {
+width:auto;
+height:auto;
+overflow:auto;
+position:static;
+}
+}
+</style>
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.lightbox.min.js"></script>
+<script type="text/javascript" src="js/captify.tiny.js"></script>
+<script type="text/javascript" src="js/ezpz_tooltip.js"></script>
+<script type="text/javascript" src="js/ezpz_tooltip.min.js"></script>
+<script src="js/jquery.hslides.js" type="text/javascript"></script>
+<script src="js/jquery.hoverintent.js" type="text/javascript"></script>
+<script src="js/jquery.easing.js" type="text/javascript"></script>
+<script src="js/jScrollPane.js" type="text/javascript"></script>
+<script src="../Scripts/swfobject_modified.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(function(){
+		$('img.captify').captify({});
+	});
+
+</script>
+
+<script type="text/javascript">
+$(function(){
+				
+		$('#pane1').jScrollPane();
+		$('#pane2').jScrollPane();
+		$('#pane3').jScrollPane();
+		$('#pane4').jScrollPane();
+		$('#pane5').jScrollPane();
+		$('#pane6').jScrollPane();
+});
+			
+</script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+  $(".tooltip-target").ezpz_tooltip();
+});
+
+</script>
+
+
+
+<script type="text/javascript">
+$(function(){
+			
+			enterFunction = function(){
+			$(this).html('ACTIVE');
+		}
+		leaveFunction = function(){
+			$(this).html('inactive');
+		}
+		$('.accordion1').hSlides({
+				totalWidth: 950, 
+				totalHeight: 600, 
+				minPanelWidth: 60, 
+				maxPanelWidth: 660,
+				midPanelWidth: 190,
+				easing: 'swing',
+				sensitivity: 1,   
+				interval: 50,
+				timeout: 100,
+				activeClass: 'active'
+
+
+				
+			});
+
+		}
+		);
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+</script>
+</head>
+
+<div id="no_support"><p>This site does not support Internet Explorer 6, making it probably inaccessable for users. Please <a href="http://www.microsoft.com/uk/windows/internet-explorer/worldwide-sites.aspx" target="_blank">update to the current version of IE</a> for free</p></div>
+<div id="header"><a id="logo" href="index.html" title="back to home"><img src="images/logo.jpg" alt="GENINCA" /></a><a id="fp7" href="http://cordis.europa.eu/home_en.html" target="_blank" title="FP7 website"><img src="images/logo_fp7.jpg" alt="FP7 and European Commission" /></a><ul id="lang"><li><a href="#" title="View site in English"><img src="images/lang_en_gray.png" alt="EN" /></a></li><li><a href="html_de/index_de.html" title="Seite auf Deutsch anzeigen"><img src="images/lang_de.png" alt="DE" /></a></li></ul>
+</div>
+<div id="over_wrap"></div>
+<div id="wrap">
+		<ul class="accordion accordion1">
+			<li class="one"><div class="slide">
+			
+			  <h3>The role of our genes <a href="print/genes_print.html"><img src="images/print.png" alt="print" /></a> </h3>
+			  <div id="pane5"  class="scroll-pane">
+                <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="510" height="175">
+                  <param name="movie" value="flash/scanimation_dna.swf" />
+                  <param name="quality" value="high" />
+                  <param name="wmode" value="opaque" />
+                  <param name="swfversion" value="6.0.65.0" />
+                  <!-- Dieses param-Tag fordert Benutzer von Flash Player 6.0 r65 und höher auf, die aktuelle Version von Flash Player herunterzuladen. Wenn Sie nicht wünschen, dass die Benutzer diese Aufforderung sehen, löschen Sie dieses Tag. -->
+                  <param name="expressinstall" value="../Scripts/expressInstall.swf" />
+                  <!-- Das nächste Objekt-Tag ist für Nicht-IE-Browser vorgesehen. Blenden Sie es daher mit IECC in IE aus. -->
+                  <!--[if !IE]>-->
+                  <object type="application/x-shockwave-flash" data="flash/scanimation_dna.swf" width="510" height="175">
+                    <!--<![endif]-->
+                    <param name="quality" value="high" />
+                    <param name="wmode" value="opaque" />
+                    <param name="swfversion" value="6.0.65.0" />
+                    <param name="expressinstall" value="../Scripts/expressInstall.swf" />
+                    <!-- Im Browser wird für Benutzer von Flash Player 6.0 und älteren Versionen der folgende alternative Inhalt angezeigt. -->
+                    <div>
+                      <h4>F&uuml;r den Inhalt dieser Seite ist eine neuere Version von Adobe Flash Player erforderlich.</h4>
+                      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Adobe Flash Player herunterladen" width="112" height="33" /></a></p>
+                    </div>
+                    <!--[if !IE]>-->
+                  </object>
+                  <!--<![endif]-->
+                </object>
+               <p class="haupttext">In a healthy body, cells grow, die and are replaced constantly. They divide in a highly regulated and strictly controlled way. Each cell contains our genetic information which determines our outward physical appearance and inward physical health. Our hair colour, eye colour, or height are for example physically inherited characteristics. Genes are  nature&rsquo;s blueprints for every living being.</p>
+			    <h4>Controlling our Organism</h4>
+			    <p class="haupttext">Due to a regulation mechanism our genes, the working units of the DNA, decide when to renew cells, when to destroy them and consequently determine the general health of our body, the right functioning of organs and the predisposition for diseases which are characterised as genetically inherited diseases. Therefore, this regulation mechanism controls the growth of and communication to the cells. </p>
+			    <h4>Small Alterations Causing Big Effects</h4>
+			    <p class="haupttext">During cell division genetic disorders or inherited diseases can be detected or even caused. In such a case the human body sends an alert to our repair mechanism, which stops the reproduction cycle until the defect is eradicated.  Sometimes, however, the regulation mechanism of a damaged and potentially cancerous cell does not work properly and the cell, together with the defect it contains, grows in an uncontrolled way. <br />
+			      <strong>We will show you why small alterations turn out to be a huge problem for the people concerned and consequently for the European society as a whole.</strong></p>
+		      </div>
+			</div>
+			</li>
+			
+			
+			<li class="two"><div class="slide">
+			
+			  <h3>Cells and cancer <a href="print/cells_print.html"><img src="images/print.png" alt="print" /></a></h3>
+			  <div id="pane4"  class="scroll-pane">
+			    <h4>Uncontrolled proliferation of cells</h4>
+				<p class="haupttext">If a cancerous cell grows without order, our immune system is responsible for fighting against it. If the immune system is not able to recognise the cell, it can&rsquo;t be destroyed and the uncontrolled division continous. The result is the accumulation of so called tumour stem cells which sustain the growth of tumours. The surrounding human tissue is damaged and changes become palpable. <br />
+				  To date little is known about these cells and for the development of new treatments specifically targeting these highly malignant cells it is crucial to know which alterations they bear from the very first stages of their malignancy.<br />
+				  <br /> 
+			      <strong>The Fact is that nearly every cell in the human body can become a tumour stem cell. We differentiate between various types of cancer, depending on the location of the malignant cell. </strong></p>
+				  <h4>Colon Cancer and Liver Cancer</h4>
+				  <p class="haupttext">In the case of colon cancer the malignant cells enter the bloodstream or lymphatic system and spread this way from the original tumour to form new ones (e.g. in the liver). They invade and damage adjacent tissues and organs and extend to distant organs, building so called metastasis. Due to this break away, the intestinal mucosa is affected and blood is exuded through the stool. Once metastasis has occurred in intestinal cancer, a complete cure of the cancer is unlikely. <br />
+				    Chronic infections (hepatitis C, liver cirrhosis) can aid the development of liver cancer by repeatedly causing the body's own immune system to attack the liver cells. Vaccination against hepatitis may therefore help prevent developing a tumour. <br />
+				    <br />
+		        <strong>The most effective way of prevention is early detection. Therefore, it is recommended that all individuals over the age of 40 have yearly examinations and have their stool tested for hidden blood. </strong></p>
+			  </div></div></li>
+
+			<li class="three"><div class="slide">
+			
+			  <h3>People concerned <a href="print/people_print.html"><img src="images/print.png" alt="print" /></a>  </h3>
+			  <div id="pane3"  class="scroll-pane">
+			  <object id="FlashID3" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="510" height="175">
+			    <param name="movie" value="flash/scanimation_mensch.swf" />
+			    <param name="quality" value="high" />
+			    <param name="wmode" value="opaque" />
+			    <param name="swfversion" value="6.0.65.0" />
+			    <!-- Dieses param-Tag fordert Benutzer von Flash Player 6.0 r65 und höher auf, die aktuelle Version von Flash Player herunterzuladen. Wenn Sie nicht wünschen, dass die Benutzer diese Aufforderung sehen, löschen Sie dieses Tag. -->
+			    <param name="expressinstall" value="../Scripts/expressInstall.swf" />
+			    <!-- Das nächste Objekt-Tag ist für Nicht-IE-Browser vorgesehen. Blenden Sie es daher mit IECC in IE aus. -->
+			    <!--[if !IE]>-->
+			    <object type="application/x-shockwave-flash" data="flash/scanimation_mensch.swf" width="510" height="175">
+			      <!--<![endif]-->
+			      <param name="quality" value="high" />
+			      <param name="wmode" value="opaque" />
+			      <param name="swfversion" value="6.0.65.0" />
+			      <param name="expressinstall" value="../Scripts/expressInstall.swf" />
+			      <!-- Im Browser wird für Benutzer von Flash Player 6.0 und älteren Versionen der folgende alternative Inhalt angezeigt. -->
+			      <div>
+			        <h4>F&uuml;r den Inhalt dieser Seite ist eine neuere Version von Adobe Flash Player erforderlich.</h4>
+			        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Adobe Flash Player herunterladen" width="112" height="33" /></a></p>
+		          </div>
+			      <!--[if !IE]>-->
+		        </object>
+			    <!--<![endif]-->
+		      </object>
+			  <h4>Colon Cancer </h4>
+			  <p class="haupttext"> Globally, cancer of the colon is the third leading cause of cancer in males and the fourth leading cause of cancer in females. Cancer of the colon is a disease of the large intestine, where the waste material is stored. The reason for the high mortality rate is that people with colon cancer often have no symptoms at all, especially in the early stages. <br />
+			    <br />
+While liver cancer has a comparatively small number of cases in Europe, it is one of the leading death causes in other parts of the world (e.g. Japan). Without treatment the prognosis is poor (almost all patients die within 6 months). If the liver or parts of it are removed, up to 50% of the patients are still alive 5 years after the diagnosis.<br />
+			    <br />
+Some people are more likely to develop colon cancer than others. The risk of intestine cancer is growing significantly in industrial countries and among people at the age of 50 (although recent studies show that some cancers like colon and liver cancer are affecting also those at a younger age). 
+Apart from genetic causes there are also inherited diseases which can result in intestinal cancer. The most common factors for the increased risk include a high fat intake, a family history of colon or liver cancer, polyps in the large intestine as well as chronic ulcerative colitis. <br />
+			    <br />
+
+The most common treatment of colon cancer is surgery depending on the location, size, and extent of cancer spread, as well as on the age and health of the patient </p>
+				<h4>Liver Cancer </h4>
+			  <p class="haupttext">or hepatic cancer is properly conisidered to be a cancer which starts in the liver as apposed to cancer which originates in another organ and migrates to the liver, known as a liver metastasis. The most frequent form of liver cancer is hepatocellular carcinoma, sometimes in combination with cholangiocarcinoma.<br />
+			    <br />
+			    Worldwide, this carcinoma is one of the top five types of cancer. It occurs more often in men than in women. It is usually seen in people aged 50-60 and is more common in Africa and Asia than in America or Europe. This is due to the fact, that liver cancer is often caused by chronic infections of the liver, especially hepatitis B and C, which are more common in Africa and Asia. <br />
+			    <br />
+			    <strong>Treatment of liver cancer often requires total or partial hepatectomy, chemo- or radiotherapy or liver transplantation.</strong><br />
+			    <br />
+			    There is currently
+			    no effective screening test for liver cancer. Screening trials using ultrasound, computed tomography and blood tests are ongoing. <br />
+			  </p>
+  </div></div></li>
+			<li class="four"><div class="slide">
+			  <h3>Consequences for the European society <a href="print/europe_print.html"><img src="images/print.png" alt="print" /></a> </h3>
+			  <div id="pane2"  class="scroll-pane">
+			   <h4>Social and Economic Burden:</h4>
+      <p class="haupttext">According to figures from Europe, cancer will constitute an increasing burden on European healthcare and economic structure in the future. Latest results from 2009 statistics indicate that Europe, with 10.7 % of the world&rsquo;s population, is responsible for 24 % of all new cancer cases reported for this year<strong> alone with an overall cost of 82 billion Euros for the year.  </strong><br />
+        If this current trend continues, it is predicted that by the year 2040 there will be an increase in colon cancer by 50 % mainly amongst the younger age groups. This figure for colon cancer alone would place an enormous burden on the social and economic structure of Europe. </p>
+        
+        <h4>There is Hope</h4> <p class="haupttext">Unlike years ago there is more hope for people who are more susceptible to cancer either by life choices or due to genetic causes. One of the bigger success stories in recent years is related to the implementation and recommendation of early screening processes for some of the common cancers.  <br />
+          <br />
+          <strong>For many cancer forms early detection is the key to successful treatment and survival. </strong></p>
+        <div class="clear"></div></div></div></li>
+			
+			
+			<li class="five active"><div class="slide">
+			
+			  <h3>The GENINCA Project  <a href="print/project_print.html"><img src="images/print.png" alt="print" /></a> </h3>
+			  <div id="pane1"  class="scroll-pane">
+			    <div class="clear"></div><div id="press_news"><img src="images/curious_news.jpg" class="float" alt="" />
+			    <h4>Curiosities</h4> 
+			    <div class="clear"></div>
+			  <img src="images/non_layout/index/leber.jpg" alt="Liver" />
+			  <p class="haupttext">The liver can regenerate. From as little as 25% a whole organ can regrow. </p>
+			  <!-- <p class="haupttext">Since stoneage, animal colon is used as string for instruments<a href="html_en/media.html" class="link">read</a></p>-->
+			 
+			 <!--<p class="haupttext">Plato thought that the liver was the seat of the darkest emotions<a href="html_en/media.html" class="link">read</a></p>-->
+			 
+			 <!--<p class="haupttext">The liver is the only internal organ that regenerate itself<a href="html_en/media.html" class="link">read</a></p>-->
+			 
+			 <!--<p class="haupttext">As little as 25% of a liver can regenerate into a whole liver<a href="html_en/media.html" class="link">read</a></p>-->
+			  
+			  </div><div id="scientific_news"><img src="images/media_news.jpg" class="float" alt="" />
+			  <h4>MEDIA News</h4>
+			  <div class="clear"></div>
+			    <img src="images/non_layout/index/eu_game.jpg" alt="GENINCA video" />
+			    <p class="haupttext">GENINCA and the <a href="http://www.geninca.eu/game/index.html" target="_blank" class="link">GENINCA-game</a> are published on the European Commission News Site. <a href="html_en/media.html" class="link">more</a></p>
+			  </div><div id="media_news"><img src="images/scientific_news.jpg" class="float" alt="" />
+			  <h4>PROJECT News</h4>
+			  <div class="clear"></div>
+			  <a href="images/non_layout/index/consortium_0611_large.jpg"  rel="lightbox-1" title="The Consortium in June 2011"><img src="images/non_layout/index/consortium_0611.jpg" alt="The Partners" /></a>
+			  <p class="haupttext">The consortium discussed final achievements and the overall impact of GENINCA at the final project meeting</p>
+			  </div><div class="clear"></div>
+			  <p class="haupttext">&nbsp;</p>
+			  <p class="haupttext">The collaborative EU project GENINCA  focuses on novel methods of <strong>early diagnosis and treatment for cancer of colon and liver.</strong></p> 
+			  <p class="haupttext">We will use highly sophisticated methods to characterise specific tissue samples undergoing the very early steps in the erosion of healthy cells. The tumour stem cells present within these lesions will be subjected to comprehensive molecular analysis. This will lead to a better understanding of their nascency and their characteristics which in turn will enable the development of new therapies aimed at specifically eradicating these cells and therefore to treating cancer more effectively. <a href="html_en/about.html" class="link">details</a> <br />
+			    <strong><br />
+			    Download the facts as PDF </strong>: &nbsp;&nbsp;&nbsp;<a href="pdf/GENINCA_factsheet_en.pdf" class="link_uk">EN</a>&nbsp;&nbsp;&nbsp; <a href="pdf/GENINCA_factsheet_dt.pdf" class="link_de">DE</a>&nbsp;&nbsp;&nbsp; <a href="pdf/GENINCA_factsheet_fr.pdf" class="link_fr">FR</a>&nbsp;&nbsp;&nbsp; <a href="pdf/GENINCA_factsheet_it.pdf" class="link_it">IT</a></p>
+			  </div></div></li>
+              
+              <li class="blank_disclaimer"><div class="slide">
+			
+			  <div id="pane6"  class="scroll-pane">
+			    <div class="clear"></div>
+</div></div></li>
+	</ul>
+</div>
+<div id="clear"></div>
+<div id="under_wrap"></div>
+<div id="footer"><div id="navigation"><ul><li><a href="html_en/about.html">About</a></li><li><a href="html_en/contact.php">Contact</a></li><li><a href="html_en/media.html">Media</a></li><li><a href="html_en/pubmed.html">PubMed</a></li></ul>
+</div></div>
+
+  <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+  <script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15819337-1");
+pageTracker._trackPageview();
+} catch(err) {}
+swfobject.registerObject("FlashID");
+swfobject.registerObject("FlashID");
+swfobject.registerObject("FlashID2");
+swfobject.registerObject("FlashID3");
+swfobject.registerObject("FlashID4");
+swfobject.registerObject("FlashID5");
+  </script>
+
+</body>
+</html>

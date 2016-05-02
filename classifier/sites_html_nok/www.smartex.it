@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+<head>
+  <base href="http://www.smartex.it/index.php/en/research/projects/european-projects/prosys-laser" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Super User" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Prosys Laser</title>
+  <link href="/templates/fjt005_j25/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="http://www.smartex.it/plugins/system/fmalertcookies/assets/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.smartex.it/plugins/system/fmalertcookies/assets/css/custom.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/rokbox/themes/light/rokbox-style.css" type="text/css" />
+  <script src="http://www.smartex.it/plugins/system/fmalertcookies/assets/js/bootstrap3.min.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/plugins/system/rokbox/rokbox.js" type="text/javascript"></script>
+  <script src="/plugins/system/rokbox/themes/light/rokbox-config.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});var rokboxPath = '/plugins/system/rokbox/';
+  </script>
+
+<link href='http://fonts.googleapis.com/css?family=Cuprum' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/templates/fjt005_j25/css/styles.css" type="text/css" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script> 
+<script type="text/javascript" src="/templates/fjt005_j25/js/scrolltopcontrol.js"></script><script type="text/javascript" src="/templates/fjt005_j25/js/hoverIntent.js"></script>
+<script type="text/javascript" src="/templates/fjt005_j25/js/superfish.js"></script>
+<script type="text/javascript">
+    jQuery(function(){
+      jQuery('#nav ul').superfish({
+      pathLevels  : 3,
+      delay    : 800,
+      animation  : {opacity:'show',height:'show',width:'show'},
+      speed    : 'normal',
+      autoArrows  : false,
+      dropShadows : false,
+      });    
+    });
+</script>
+
+
+<meta name="google-site-verification" content="" />
+
+<script type="text/javascript">
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-36108548-1']);
+_gaq.push(['_trackPageview']);
+					
+ (function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+</script>
+
+</head>
+<body class="background">
+<div id="scroll-top"></div>
+<div id="header-w">
+<div id="header">
+            <div class="logo"><a href="/"><img src="/images/logo.png" alt="Smartex" /></a></div>
+     
+        <div id="PCB">PCB image</div>
+        <div class="sitedescription"></div>
+                          
+</div>
+</div>
+     
+            <div id="slide-w"><div id="slide-i">
+                <script type="text/javascript" src="http://www.smartex.it/modules/mod_inivoslider/js/jquery.nivo.slider.js"></script>
+<style type="text/css" media="screen">
+#slider-wrapper {width:960px; height:300px; margin:0 auto;}
+
+.nivoSlider {position:relative;background:url(http://www.smartex.it/modules/mod_inivoslider/images/loading.gif) no-repeat 50% 50%; margin-bottom:50px;}
+.nivoSlider img {osition:absolute;top:0px;left:0px;display:none;}
+.nivoSlider a {border:0;display:block;}
+
+.nivo-controlNav {position:absolute;left:50%;bottom:-25px; margin-left:-40px; /* Tweak this to center bullets */}
+.nivo-controlNav a {display:block;width:16px;height:16px;background:url(http://www.smartex.it/modules/mod_inivoslider/images/bullets.png) 0 0 no-repeat;text-indent:-9999px;border:0;margin-right:3px;float:left;}
+.nivo-controlNav a.active {background-position:0 -16px;}
+.nivo-directionNav a {display:block;width:30px;height:30px;background:url(http://www.smartex.it/modules/mod_inivoslider/images/arrows.png) no-repeat;text-indent:-9999px;border:0;}
+a.nivo-nextNav {background-position:-30px 0;right:15px;}
+a.nivo-prevNav {left:15px;}
+.nivo-caption {font-family: Helvetica, Arial, sans-serif;}
+.nivo-caption a { color:#fff;border-bottom:1px dotted #fff;}
+.nivo-caption a:hover {color:#fff;}
+.nivoSlider {position:relative;}
+.nivoSlider img {position:absolute;	top:0px;left:0px;}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {position:absolute;top:0px;left:0px;width:100%;height:100%;border:0;padding:0;margin:0;z-index:6;display:none;}
+/* The slices and boxes in the Slider */
+.nivo-slice {display:block;position:absolute;z-index:5;height:100%;}
+.nivo-box {display:block;position:absolute;z-index:5;}
+/* Caption styles */
+.nivo-caption {position:absolute;left:0px;bottom:0px;background:#000;color:#fff;opacity:0.8; /* Overridden by captionOpacity setting */width:100%;z-index:8;}
+.nivo-caption p {padding:5px;margin:0;}
+.nivo-caption a {display:inline !important;}
+.nivo-html-caption {display:none;}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {position:absolute;top:45%;z-index:9;cursor:pointer;}
+.nivo-prevNav {left:0px;}
+.nivo-nextNav {right:0px;}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav a {position:relative;z-index:9;cursor:pointer;}
+.nivo-controlNav a.active {font-weight:bold;}
+.slidemessage { padding:5px; text-align:center; border:2px solid #bf1212; background:#e25757; color:#fff; text-shadow:1px 1px #000;}
+
+</style>
+<script type="text/javascript">
+            jQuery.noConflict();
+            (function($) {
+                $(window).load(function(){
+                    $('#slider').nivoSlider({
+                    effect:'random',
+                    slices:10,
+					boxCols: 8,
+					boxRows: 8,
+                    animSpeed:300,
+                    pauseTime:3000,
+					startSlide: 0,
+					directionNav: false,
+					directionNavHide: true,
+					controlNav: false,
+					controlNavThumbs: false,
+					controlNavThumbsFromRel: false,
+					controlNavThumbsSearch: '.jpg',
+					controlNavThumbsReplace: '_thumb.jpg',
+					keyboardNav: false,
+					pauseOnHover: true,
+					manualAdvance: false,
+					captionOpacity: 0.8,
+					prevText: 'Prev',
+					nextText: 'Next',
+					randomStart: false,
+					beforeChange: function(){},
+					afterChange: function(){},
+					slideshowEnd: function(){},
+					lastSlide: function(){},
+					afterLoad: function(){}					
+                    });
+                });
+            })(jQuery);
+</script>
+      
+		<div id="slider-wrapper"><div id="slider" class="nivoSlider"><img src="/images/immaginisito/whealty.jpg" width="960"  height="300" title=""/><img src="/images/immaginisito/tempsensor.jpg" width="960"  height="300" title=""/><img src="/images/immaginisito/conductive.jpg" width="960"  height="300" title=""/>                </div></div>            
+<noscript><a href="http://newjoomlatemplates.com/nivoslider">Joomla 2.5 Slideshow</a> created by users based <a href="http://hosting-reviews.org/">hosting reviews</a> hosing guide and ratings.</noscript>           
+            </div></div>
+         
+<div id="main">
+                    <div id="navr"><div id="navl"><div id="nav">         
+              
+<ul class="menu">
+<li class="item-166 first"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/" >Home</a></li><li class="item-167 deeper  parent"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/about-us" >About us</a><ul><li class="item-168 first"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/about-us/mission" >Mission</a></li><li class="item-169 last"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/about-us/staff" >Staff</a></li></ul></li><li class="item-201 active deeper  parent"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/research" >Research</a><ul><li class="item-173 active first  deeper  parent"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/research/projects" >Projects</a><ul><li class="item-174 active first  deeper  parent"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/research/projects/european-projects" >European Projects</a><ul><li class="item-176 first"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/research/projects/european-projects/flexibility" >Flexibility</a></li><li class="item-177"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/research/projects/european-projects/e-sponder" >E-sponder</a></li><li class="item-178"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/research/projects/european-projects/psyche" >Psyche</a></li><li class="item-179"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/research/projects/european-projects/veritas" >Veritas</a></li><li class="item-180"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/research/projects/european-projects/mobiserv" >Mobiserv</a></li><li class="item-181 current active"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/research/projects/european-projects/prosys-laser" >Prosys Laser</a></li><li class="item-182"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/research/projects/european-projects/tremor" >Tremor</a></li><li class="item-183"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/research/projects/european-projects/systex" >Systex</a></li><li class="item-184"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/research/projects/european-projects/proetex" >Proetex</a></li><li class="item-185"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/research/projects/european-projects/biotex" >Biotex</a></li><li class="item-186"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/research/projects/european-projects/myheart" >MyHeart</a></li><li class="item-187 last"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/research/projects/european-projects/wealthy" >Wealthy</a></li></ul></li><li class="item-175 last"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/research/projects/national-projects" >National Projects</a></li></ul></li><li class="item-171 last"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/research/publications" >Publications</a></li></ul></li><li class="item-188 deeper  parent"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/products" >Products</a><ul><li class="item-189 first  deeper  parent"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/products/wearable-wellness-system" >Wearable Wellness System</a><ul><li class="item-190 first"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/products/wearable-wellness-system/garment" >Garment</a></li><li class="item-191"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/products/wearable-wellness-system/sew-device" >SEW Device</a></li><li class="item-192 last"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/products/wearable-wellness-system/software-tools" >Software Tools</a></li></ul></li></ul></li><li class="item-193 deeper  parent"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/contacts" >Contacts</a><ul><li class="item-194 last  first"><span class="li-l"></span><span class="li-r"></span><a href="/index.php/en/contacts/how-to-reach-us" >How to reach us</a></li></ul></li></ul>
+
+                            
+            </div></div></div>
+                   
+  <div id="wrapper">
+     <div id="main-content">  
+      <div id="message">
+        
+<div id="system-message-container">
+</div>
+    </div>
+                  
+        <div class="full">                        
+                    <div id="comp_100">
+                                <div id="comp-i">
+                                                                        <div id="breadcrumbs">
+                                      <div class="breadcrumbs">
+<a href="/index.php/en/" class="pathway">Home</a> <span class="sep">&nbsp;</span> <a href="/index.php/en/research" class="pathway">Research</a> <span class="sep">&nbsp;</span> <a href="/index.php/en/research/projects" class="pathway">Projects</a> <span class="sep">&nbsp;</span> <a href="/index.php/en/research/projects/european-projects" class="pathway">European Projects</a> <span class="sep">&nbsp;</span> Prosys Laser</div>
+
+                                    </div>
+                                                                        <noscript><a href="http://bluehostingreview.org/">BlueHost Reviews</a> web hosting reviews <a href="http://inmotionreviews.net/">InMotion Reviews</a></noscript>                                     <div class="item-page">
+
+
+
+
+
+<div class="clr"></div>
+
+	<p align="CENTER" lang="en-GB"><span style="color: #000000; font-size: 10pt;" color="#000000"><span style="font-family: Verdana,sans-serif;" face="Verdana, sans-serif"><b>Intelligent personal protective clothing for the use with high-power <br />hand-held laser processing devices <br />(NMP2-SE-2009-229165, EU funded project)</b></span></span></p>
+<p style="font-weight: normal;" align="LEFT" lang="en-GB"><span style="color: #000000; font-size: 10pt;" color="#000000"><span style="font-family: Verdana,sans-serif;" face="Verdana, sans-serif">Starting date: 01/12/2009; closing date: 30/11/2012; total project cost: 3,772,866 Euros; total EC funding: 2,820,500 Euros.</span></span></p>
+<p style="font-weight: normal;" align="LEFT" lang="en-GB"><a target="_blank" href="http://www.prosyslaser.com/"><span style="color: #000000; font-size: 10pt;" color="#000000"><span style="font-family: Verdana,sans-serif;" face="Verdana, sans-serif"><img style="display: block; margin-left: auto; margin-right: auto;" src="/images/progetti/prosys_logo.jpg" alt="" /></span></span></a></p>
+<p align="LEFT"><span style="font-family: Verdana,sans-serif; font-size: 10pt;" face="Verdana, sans-serif">Prosys-Laser is dedicated to develop highly innovative “passive” and “active” laser protective clothing for the use with hand-held laser processing devices (HLD), which are not available on the market today. Major project objectives are: a) Open new markets for high performance PPE and its testing, especially enforcing participating SME to widen their product range and directly benefit from project developments and prototypes. b) Sustain the growth of laser technology by providing means for the safe use of innovative developments such as hand-held laser devices for material processing and high power lasers with high brightness. c) Minimize health risks for operators of HLDs and consequently reduce the number of related accidents. d) Initiate and contribute to standardizing process regarding laser PPE and its testing procedures. </span></p>
+<p align="LEFT"><span style="font-family: Verdana,sans-serif; font-size: 10pt;" face="Verdana, sans-serif">The project combines successfully innovative laser technology with high performance textile technology. This is also reflected in the consortium containing 9 SME, which represents a goal-orientated combination of different competences and skills. Key developments are: a) Passive functional multi-layer technical textiles, providing a high level of passive laser resistance. b) Active functional multi-layer textiles incorporating sensors which detect laser exposure and, by means of a safety control, deactivate the laser beam automatically. c) Test methods and testing set-ups to qualify passive and active functional technical textiles and tailored PPE (e.g. gloves), respectively. </span></p>
+<p align="LEFT"><span style="font-family: Verdana,sans-serif; font-size: 10pt;" face="Verdana, sans-serif">Major impacts can be expected on the Lead Market Initiative: a) Create new high-performance PPE products for highly innovative laser industry and reach the goal of approx. 50% increase in PPE industry revenues in Europe. b) Increase HLD use and therefore EU productivity regarding the HLD market by more than 50%. c) Reduce accidents and society costs. d) Strengthen the market by standardization activities. e) Enhance a high-tech, knowledge-based industry driven by SME.</span></p>
+	</div>
+                                    <div class="clr"></div>
+                                </div>
+                    </div>
+                        <div class="clr"></div>
+        </div>
+                        
+        </div>        
+  </div>  
+</div>
+            <div id="bottom-w"><div id="bottom">
+    <div id="mods3" class="spacer w99">
+      	<div class="module">
+        <div class="inner">
+			    <div class="module-body">
+	        
+			<p>We have 9&#160;guests and no members online</p>
+
+        </div>
+        </div>
+	</div>
+	
+      
+      
+            
+    </div>
+        </div></div>
+            
+<div id="footer"><div id="footer-i"> 
+<div class="copy">
+  
+
+<div class="custom"  >
+	<p>Copyright © Smartex s.r.l.&nbsp; - All rights reserved - Reproduction is forbidden&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; VAT Number: IT01808150971</p></div>
+
+</div>
+</div></div>
+<div id="cadre_alert_cookies" style="opacity:0.9;text-align:center;position:fixed;z-index:10000;left: 0;right: 0;bottom: 0; margin:0px;"><div style="display: inline-block;width: 100%;margin:auto;max-width:50%;background-color: #FFFFFF;border: 1px solid #eee;"><div style="display: inline-block;padding:10px;color: #666666"><div class="cadre_texte "><p><i style="color: #191919; font-family: Georgia; font-size: 15.3999996185303px; line-height: 21.5599994659424px; text-align: justify;"><strong>This web site uses cookies to improve our services and user experience. If you want more info you can read our <a href="/index.php/en/research/projects/european-projects/prosys-laser/2-non-categorizzato/93-privacy-policy">privacy policy</a>. By clicking on any point of the screen or by scrolling or simply by closing this banner you automatically give us your consent to the use of all cookies.</strong></i></p></div><div class="cadre_bouton "><div class=" col-md-12 col-sm-6 btn_close" style="margin:5px 0;text-align:center"><button onclick="CloseCadreAlertCookie();" style="color:#eeeeee" class="btn btn-warning  popup-modal-dismiss">Accept</button></div></div></div></div></div><script type="text/javascript">var name = "fmalertcookies" + "=";var ca = document.cookie.split(";");for(var i=0; i<ca.length; i++) {var c = ca[i];while (c.charAt(0)==" ") c = c.substring(1);if (c.indexOf(name) == 0){ document.getElementById("cadre_alert_cookies").style.display="none";}}var d = new Date();d.setTime(d.getTime() + (30*(24*60*60*1000)));var expires_cookie = "expires="+d.toUTCString();function CloseCadreAlertCookie(){document.getElementById('cadre_alert_cookies').style.display='none'; document.cookie='fmalertcookies=true; '+expires_cookie+'; path=/'}</script></body>
+</html>

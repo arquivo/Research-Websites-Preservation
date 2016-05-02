@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <script type="text/javascript" src="//use.typekit.net/oxt0fyl.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PsyCris</title>
+
+<link rel="stylesheet" href="http://psycris.eu/panel/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css?v=3.0.1" type="text/css" media="all" />
+        <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/ui-darkness/jquery-ui.css?ver=3.8">
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?ver=3.8">
+<link rel="stylesheet" href="/assets/css/bootstrap-theme.min.css?ver=3.8">
+<link rel="stylesheet" href="/assets/css/main.css?ver=3.8">
+<!--[if lte IE 7]>
+<link rel="stylesheet" href="/assets/css/ie7-and-down.css?ver=3.8">
+<![endif]-->
+<link rel="stylesheet" href="/plugins/wp-members/css/wp-members-2014.css?ver=2.9.8.1">
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+<script type='text/javascript' src='/assets/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
+<meta name="generator" content="WPML ver:3.0.1 stt:1,4,3,2;0" />
+<link rel="alternate" hreflang="en_US" href="http://psycris.eu/" />
+<link rel="alternate" hreflang="es_ES" href="http://psycris.eu/es/" />
+<link rel="alternate" hreflang="de_DE" href="http://psycris.eu/de/" />
+<link rel="alternate" hreflang="fr_FR" href="http://psycris.eu/fr/" />
+
+<style type="text/css">                                                        
+</style><!-- WP-Members version 2.9.8.1, available at http://rocketgeek.com/wp-members -->
+<script type="text/javascript">
+//<![CDATA[
+jQuery(document).ready(function() {
+	var dialog = jQuery('<div></div>')
+	.html('<form method="post" action=""><input type="hidden" name="ip" value="193.136.44.167" /><p><label for="s2email">Your email:</label><br /><input type="text" name="email" id="s2email" value="" size="20" /></p><p><input type="submit" name="subscribe" value="Subscribe" />&nbsp;<input type="submit" name="unsubscribe" value="Unsubscribe" /></p></form>')
+	.dialog({autoOpen: false, modal: true, zIndex: 10000, title: 'Subscribe to this blog'});
+	jQuery('a.s2popup').click(function(){
+		dialog.dialog('open');
+		return false;
+	});
+});
+//]]>
+</script>
+	<link rel="canonical" href="http://psycris.eu/">
+        <!-- Favicons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57-precomposed.png">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="alternate" type="application/rss+xml" title="PsyCris Feed" href="http://psycris.eu/feed/">
+    </head><body id="home" class="home page page-template page-template-front-page-php lang-en">
+  <!--[if lt IE 8]><div class="alert alert-warning">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+    <!-- Docs master nav -->
+<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <h1>
+                <a class="navbar-brand" href="http://psycris.eu" title="PsyCris"><img src="/assets/img/logo.png" title="PsyCris  alt="PsyCris /></a>
+            </h1>
+        </div>
+                    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+                <ul id="nav" class="nav navbar-nav"><li class="button-project in-page-navigation menu-project"><a href="#project">Project</a></li>
+<li class="button-consortium in-page-navigation menu-consortium"><a href="#consortium">Consortium</a></li>
+<li class="button-publications in-page-navigation menu-publications"><a href="#publications">Publications</a></li>
+<li class="button-contact in-page-navigation menu-contact"><a href="#contact">Contact</a></li>
+<li class="button-news menu-news"><a class="no-one-page-nav" href="/news/">News</a></li>
+<li class="button-events menu-events"><a class="no-one-page-nav" href="/events/">Events</a></li>
+<li class="button-blog menu-blog"><a class="no-one-page-nav" href="/blog/">Blog</a></li>
+</ul>            </nav>
+            </div>
+</header>
+<!-- Page content -->
+<div class="container">
+        <div class="language-area alignleft">
+        <ul><li><a title="English" href="http://psycris.eu/" class="icon-flag icon-flag-en active"></a></li><li><a title="Español" href="http://psycris.eu/es/" class="icon-flag icon-flag-es "></a></li><li><a title="Deutsch" href="http://psycris.eu/de/" class="icon-flag icon-flag-de "></a></li><li><a title="Français" href="http://psycris.eu/fr/" class="icon-flag icon-flag-fr "></a></li></ul>    </div>
+</div>    <!-- Page content -->
+<div class="branding-area">
+    <h2>Improving <span>psy</span>cho-social support in <span>cris</span>is management</h2>
+    <img src="/assets/img/branding-top-img.png" class="img-responsive" title="Help People Saving lives" />
+    <section class="clear-both">
+        <article id="pic-top">
+            <div class="orange-frame">
+                <h1 title="This is the home of the PsyCris Project">This is the home of the PsyCris Project</h1>
+            </div>
+            <div class="gray-frame">
+                <img src="/assets/img/logo_monochrome.png" alt="" />
+            </div>
+        </article>
+    </section>
+</div> <!-- End Branding-area -->
+<section id="introduction" class="centered-column">
+    <div class="intro-text">
+        <h3>PsyCris (Psycho-Social Support in Crisis Management) is an international multi-disciplinary project funded by the European Union with the overall objective to improve psycho-social support in crisis management.</h3>
+        <p>Our main goals are: status quo analysis of support in crises in European countries, improvement of support strategies, contingency planning, development of interventions, providing efficient self-help strategies to communities affected by crises as well as investigation of long-term impact of crises. The results will have a significant impact on public health, community resilience, international cooperation and cost containment.</p>
+<div class="socialbox">
+<ul>
+<li class="social"><a href="https://www.facebook.com/psycris.eu" target="_blank"><img alt="Facebook" src="/assets/img/icon_facebook.png" width="32" height="32" /></a></li>
+<li class="social nomargin"><a href="https://twitter.com/psycris_eu" target="_blank"><img alt="Twitter" src="/assets/img/icon_twitter.png" width="32" height="32" /></a></li>
+</ul>
+</div>
+    </div><!-- End Intro-text -->
+    <div id="link-news">
+        <a href="http://psycris.eu/news/" class="button-learn-more-intro" title="Learn More"><h3><span>LEARN MORE</span></h3><h4>In the news section</h4></a>
+    </div>
+</section>
+
+<!-- Begin Latest Area  --> 
+<div class="latest-area">
+<!-- INIT // Last news section -->
+    <section id="latestNewsBlock" class="latest-news-block centered-column">
+        <header>
+            <h3 title="Latest News">Latest News</h3>
+        </header>
+                                <article>
+    <header><h4 title="PsyCris Stress Management Training"><a href="http://psycris.eu/news/psycris-stress-management-training/" title="PsyCris Stress Management Training">PsyCris Stress Management Training</a></h4></header>
+    <div class="home-article-content">
+                            <p>The PsyCris research project offers a stress management training specifically targeted at crisis managers. Participants will get familiar with effective stress management strategies. Strong emphasis is also put on communication and leadership skills in crisis management. Detailed information can be found here: Stress management training in German Stress management training in Spanish</p>
+            </div>
+    <a href="http://psycris.eu/news/psycris-stress-management-training/" title="More" class="news-read-more">More</a>
+</article>                                <article>
+    <header><h4 title="European experts in disaster psychology comment on PsyCris recommendations for psychosocial support"><a href="http://psycris.eu/news/european-experts-in-disaster-psychology-comment-on-psycris-recommendations-for-psychosocial-support/" title="European experts in disaster psychology comment on PsyCris recommendations for psychosocial support">European experts in disaster psychology comment on PsyCris recommendations for psychosocial support</a></h4></header>
+    <div class="home-article-content">
+                            <p>PsyCris (Adler and Meyer, LMU) was able to meet with representatives of the European Federation of Psychologists’ Associations (EFPA) Standing Committee for Crisis and Disaster Psychology (http://disaster.efpa.eu/) on 24th October 2015 in Lisbon for a joint evaluation process. Initiated by one of PsyCris’ External Scientific Advisory Board members, Marc Stein (Luxembourg), who is also a member of the respective Standing...</p>
+            </div>
+    <a href="http://psycris.eu/news/european-experts-in-disaster-psychology-comment-on-psycris-recommendations-for-psychosocial-support/" title="More" class="news-read-more">More</a>
+</article>                                <article>
+    <header><h4 title="COPAO participates in an accident simulation in Granada"><a href="http://psycris.eu/news/copao-participates-in-an-accident-simulation-in-granada/" title="COPAO participates in an accident simulation in Granada">COPAO participates in an accident simulation in Granada</a></h4></header>
+    <div class="home-article-content">
+                            <p>The group of Psychological Intervention in catastrophes, crises and emergencies of the COPAO were this weekend 24th and 25th in Guadix (Granada), in a drill organized by the Red Cross, within the cooperation agreement we have both institutions. It was inaugurated by the Mayor of Guadix, the President of the Cruz Roja in the province of Granada and our President...</p>
+            </div>
+    <a href="http://psycris.eu/news/copao-participates-in-an-accident-simulation-in-granada/" title="More" class="news-read-more">More</a>
+</article>            </section>
+    <!-- Last news section // END -->
+<!-- INIT // Last blog section -->
+    <section id="latestPostsBlock" class="latest-posts-block centered-column">
+        <header>
+            <h3 title="Latest Comments/Blogs">Latest Comments/Blogs</h3>
+        </header>
+                                <article>
+    <header><h4 title="Interview with crisis manager Yves Legil after his intervention in the aftermath of the Nepal Earthquake"><a href="http://psycris.eu/blog/interview-with-crisis-manager-yves-legil-after-his-intervention-in-the-aftermath-of-the-nepal-earthquake/" title="Interview with crisis manager Yves Legil after his intervention in the aftermath of the Nepal Earthquake">Interview with crisis manager Yves Legil after his intervention in the aftermath of the Nepal Earthquake</a></h4></header>
+    <div class="home-article-content">
+                            <p>Interviewee: Yves Legil, member of the Humanitarian Intervention Team (HIT) of the GSP [1] (Luxembourg Psychological Support Group) and the Luxembourg Fire Service. Interviewer: Lilly Eischen, PsyCris project collaborator and member of the GSP. L.E: After your intervention in Nepal three weeks ago in the aftermath of the terrible earthquake, it would be interesting if you could tell us about your...</p>
+            </div>
+    <a href="http://psycris.eu/blog/interview-with-crisis-manager-yves-legil-after-his-intervention-in-the-aftermath-of-the-nepal-earthquake/" title="More" class="news-read-more">More</a>
+</article>                                <article>
+    <header><h4 title="Crisis mangers invited to participate at PsyCris innovative stress management survey"><a href="http://psycris.eu/blog/crisis-mangers-invited-to-participate-at-psycris-innovative-stress-management-survey/" title="Crisis mangers invited to participate at PsyCris innovative stress management survey">Crisis mangers invited to participate at PsyCris innovative stress management survey</a></h4></header>
+    <div class="home-article-content">
+                            <p>The EU-funded PsyCris Project invites crisis mangers to take part in completing a newly developed questionnaire on stress and stress management. The questionnaire, which is offered in English, German and Spanish, was developed as part of PsyCris efforts to develop procedures and tools that improve psychosocial support in crisis management. The information obtained by the questionnaire will help PsyCris identify potential...</p>
+            </div>
+    <a href="http://psycris.eu/blog/crisis-mangers-invited-to-participate-at-psycris-innovative-stress-management-survey/" title="More" class="news-read-more">More</a>
+</article>                                <article>
+    <header><h4 title="Security without borders?"><a href="http://psycris.eu/blog/security-without-borders/" title="Security without borders?">Security without borders?</a></h4></header>
+    <div class="home-article-content">
+                            <p>By Ulrike Hess-Meining I recently participated in the conference „Grenzenlose Sicherheit? &#8211; Gesellschaftliche Dimensionen der Sicherheitsforschung“ (“Security without borders? —Societal dimensions of security research”). The conference was organised by the German Ministry of Education and Research (BMBF) and “SiFO” (Fachdialog Sicherheitsforschung) in Berlin. Key speakers included Saskia Sassen (Columbia University, New York) and Cornel Zwierlein (Ruhr-Universität Bochum and Harvard). Sessions...</p>
+            </div>
+    <a href="http://psycris.eu/blog/security-without-borders/" title="More" class="news-read-more">More</a>
+</article>            </section>
+    <!-- Last blog section // END -->
+<!-- INIT // Last events section -->
+    <section id="latestEventsBlock" class="latest-events-block centered-column">
+        <header>
+            <h3 title="Latest Events">Latest Events</h3>
+        </header>
+                                <article>
+    <header><h4 title="PsyCris Stress Management Training"><a href="http://psycris.eu/events/psycris-stress-management-training/" title="PsyCris Stress Management Training">PsyCris Stress Management Training</a></h4></header>
+    <div class="home-article-content">
+                            <p>The PsyCris research project offers a stress management training specifically targeted at crisis managers. Participants will get familiar with effective stress management strategies. Strong emphasis is also put on communication and leadership skills in crisis management. Detailed information can be found here: Stress management training in German Stress management training in Spanish</p>
+            </div>
+    <a href="http://psycris.eu/events/psycris-stress-management-training/" title="More" class="news-read-more">More</a>
+</article>                                <article>
+    <header><h4 title="Presentation at KEOD 2015 &#8211; 7th International Conference on Knowledge Engineering and Ontology Development"><a href="http://psycris.eu/events/presentation-at-keod-2015-7th-international-conference-on-knowledge-engineering-and-ontology-development/" title="Presentation at KEOD 2015 &#8211; 7th International Conference on Knowledge Engineering and Ontology Development">Presentation at KEOD 2015 &#8211; 7th International Conference on Knowledge Engineering and Ontology Development</a></h4></header>
+    <div class="home-article-content">
+                            <p>Psycris partner Werner Sauter (BSO) will present the conceptual development of the Psycris PPP platform at the KEOD 2015 &#8211; 7th International Conference on Knowledge Engineering and Ontology Development, which will be held in Lisbon from the 12th to the 14th of November. See the full program at the event&#8217;s website here.</p>
+            </div>
+    <a href="http://psycris.eu/events/presentation-at-keod-2015-7th-international-conference-on-knowledge-engineering-and-ontology-development/" title="More" class="news-read-more">More</a>
+</article>                                <article>
+    <header><h4 title="8th International Congress and 13th National of Clinical Psychology"><a href="http://psycris.eu/events/8th-international-congress-and-13th-national-of-clinical-psychology/" title="8th International Congress and 13th National of Clinical Psychology">8th International Congress and 13th National of Clinical Psychology</a></h4></header>
+    <div class="home-article-content">
+                            <p>Daniel Apel (partner LMU) will present the abstract: Impact of the Flood Disaster 2013 in Germany on Community Mental Health and Multivariate Modelling of Causal Factor Relations Including Social Support and Religious Belief Conference dates: 12-22 November 2015, Granada, Spain Conference website: http://www.aepc.es/psclinica_web/presentacion_en.html &nbsp;</p>
+            </div>
+    <a href="http://psycris.eu/events/8th-international-congress-and-13th-national-of-clinical-psychology/" title="More" class="news-read-more">More</a>
+</article>            </section>
+    <!-- Last events section // END -->
+<!-- Latest Area // END -->
+</div>
+
+<!-- Begin project  -->        
+<div id="project"></div>     
+<!-- Begin Projects  -->                
+<section class="project-area clear-both">
+    <div class="centered-column">
+        <article class="margin-bottom">
+            <h2 title="Project">Project</h2>
+            <h3 title="The overall objective of PsyCris Project is to improve psycho-social support in crisis management within the European Union.">The overall objective of PsyCris Project is to improve psycho-social support in crisis management within the European Union.</h3>
+            <p>PsyCris is funded as a part of the Seventh Framework Programme (FP7) by the European Commission with an overall budget of 3 827 525,79€. The duration of the project (No. 312395) will be 36 months starting on July 1st 2013.</p>
+                                                                                <div class="projects-container">
+                                                <a href="#project-main-goals" title="Main Goals" class="project-box">
+                            <h4 title="Main Goals">Main Goals<span></span></h4>
+                        </a>
+                                                <a href="#project-tools" title="Tools" class="project-box">
+                            <h4 title="Tools">Tools<span></span></h4>
+                        </a>
+                                                <div id="project-main-goals" class="project-content-box-wrap">
+                            <div class="project-content-box">
+                                <span class="project-box-close-area"><button class="project-box-close-button">Close</button></span>
+                                <p>- Status quo analysis of psychological and medical support in crises in European countries &#8211; Improvement of support strategies for victims, affected individuals and crisis managers &#8211; Enhancement of psycho-medical preparedness for major incidents (contingency planning) &#8211; Development of interventions to deal with stress and reduce stress related disorders of crisis management personnel and authorities &#8211; Providing efficient self-help strategies to communities affected by crises &#8211; Investigation of long-term psycho-social, societal and cultural impact of crises</p>
+                            </div>
+                        </div>
+                                                <div id="project-tools" class="project-content-box-wrap">
+                            <div class="project-content-box">
+                                <span class="project-box-close-area"><button class="project-box-close-button">Close</button></span>
+                                <p>As its main product, the project will provide a set of tools enabling: &#8211; efficient handling of relevant data &#8211; transfer of knowledge and practical competences relevant for crisis management, stress control and social support &#8211; rapid decision-making in concrete crises. The tools are integrated within a computerised knowledge system combining e-learning and face-to-face teaching.</p>
+                            </div>
+                        </div>
+                                                <a href="#project-research" title="Research" class="project-box">
+                            <h4 title="Research">Research<span></span></h4>
+                        </a>
+                                                <a href="#project-methods" title="Methods" class="project-box">
+                            <h4 title="Methods">Methods<span></span></h4>
+                        </a>
+                                                <div id="project-research" class="project-content-box-wrap">
+                            <div class="project-content-box">
+                                <span class="project-box-close-area"><button class="project-box-close-button">Close</button></span>
+                                <p>Research and development are based on a multi-disciplinary approach including methods from different areas: &#8211; psychology (e.g. stress management, human resources management, psycho-trauma intervention) &#8211; education sciences (e.g. knowledge management) &#8211; informatics (e.g. decision making heuristics, new technologies, web 2.0, social software) &#8211; engineering &#8211; intercultural communication &#8211; sociology &#8211; health sciences Current and possible changes in society, health systems and climate as well as cross-cultural and gender aspects are carefully considered. PsyCris will propose guidelines for preparedness, prevention and intervention for crises. The results will have a significant impact on public health, community resilience, international cooperation and cost containment.</p>
+                            </div>
+                        </div>
+                                                <div id="project-methods" class="project-content-box-wrap">
+                            <div class="project-content-box">
+                                <span class="project-box-close-area"><button class="project-box-close-button">Close</button></span>
+                                <p>Working with various methods is crucial for developing an integrated, end-user oriented system. Research and development is based on a multi-disciplinary approach including methods from different areas: &#8211; psychology (e.g. stress management, human resources management and psycho-trauma intervention) &#8211; education sciences (e.g. knowledge management) &#8211; informatics (e.g. decision making heuristics) &#8211; engineering &#8211; sociology &#8211; health sciences Actual and possible changes in society, health systems and climate as well as cross-cultural and gender aspects are considered. This is an overview of the methods used in PsyCris: &#8211; Methods Regarding Qualitative Research, Documents, Expert Interviews, GABEK® Analysis &#8211; Methods Regarding Quantitative Research &#8211; Methods Regarding Societal and Cultural Impact of Crises &#8211; Methods Regarding Stress and Self-regulation in Crisis Management &#8211; Methods Regarding Development of Contingency Plans &#8211; Methods Regarding Development of Demonstrator PsyCris Preparedness-Planning-Prevention Platform (PsyCris PPP Platform)</p>
+<h4><a title="Methods" href="http://psycris.eu/methods-3/">Read More</a></h4>
+                            </div>
+                        </div>
+                                            </div>
+                                    </article>
+    </div>       
+</section>
+<!-- Begin Consortium  --> 
+<div id="consortium"></div>               
+<section class="consortium-area clear-both">
+    <div class="centered-column">
+        <article class="margin-bottom">
+            <h2 title="Consortium) ?>">Consortium</h2>
+            <h3 title="Overview of the organisational structure of the project and the partners of the consortium) ?>">Overview of the organisational structure of the project and the partners of the consortium:</h3>
+            <img class="img-responsive" src="/assets/img/consortium-img.jpg" title="Organisational Structure" />
+        </article>
+    </div>
+    <div class="centered-column">
+        <article class="margin-bottom">
+            <table class="table" border="0">
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                <h3>Name of the Organisation</h3>
+                </th>
+                <th scope="row">
+                <h3>Short Name&nbsp;</h3>
+                </th>
+                <th scope="row">
+                <h3>Country</h3>
+                </th>
+                </tr>
+                <tr>
+                    <td><a href="http://www.psy.lmu.de/psycris/" target="_blank" title="Ludwig-Maximilians-Universität München">Ludwig-Maximilians-Universität München</a> (Coordination)</td>
+                    <td>LMU</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td><a href="http://www.ugr.es/en/" target="_blank" title="Universidad de Granada">Universidad de Granada</a></td>
+                    <td>UGR</td>
+                    <td>Spain</td>
+                </tr>
+                <tr>
+                    <td><a href="http://www.umit.at/psycris/" target="_blank" title="UMIT - Private Universität für Gesundheitswissenschaften, Medizinische Informatik und Technik">UMIT - Private Universität für Gesundheitswissenschaften, Medizinische Informatik und Technik</a> (Co-Coordination)</td>
+                    <td>UMIT</td>
+                    <td>Austria</td>
+                </tr>
+                <tr>
+                    <td><a href="http://www.kitokieprojektai.net" target="_blank" title="Kitokie projektai">Kitokie projektai</a></td>
+                    <td>KKP</td>
+                    <td>Lithuania</td>
+                </tr>
+                <tr>
+                    <td><a href="http://www.blended-solutions.de/" target="_blank" title="Blended Solutions GmbH">Blended Solutions GmbH</a></td>
+                    <td>BSO</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td><a href="http://www.bayfor.org/" target="_blank" title="Bayerische Forschungsallianz GmbH">Bayerische Forschungsallianz GmbH</a></td>
+                    <td>BayFOR</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td><a href="http://www.childrenatrisk.co.il/en/Gallery.asp?PiD=0.2&amp;id=8" target="_blank" title="Amuta LeYeladim beSikun - Cohen-Harris Resilience Center for Trauma and Disaster Intervention">Amuta LeYeladim beSikun - Cohen-Harris Resilience Center for Trauma and Disaster Intervention</a></td>
+                    <td>CHC</td>
+                    <td>Israel</td>
+                </tr>
+                <tr>
+                    <td><a href="http://www.insight.co.at" target="_blank" title="Insight Instruments">Insight Instruments</a></td>
+                    <td>ISI</td>
+                    <td>Austria</td>
+                </tr>
+                <tr>
+                    <td><a href="http://www.suppsy.lu/" target="_blank" title="Protection Civile Luxembourg Groupe de Support Psychologique">Protection Civile Luxembourg Groupe de Support Psychologique</a></td>
+                    <td>GSP</td>
+                    <td>Luxembourg</td>
+                </tr>
+                <tr>
+                    <td><a href="http://www.copao.com/" target="_blank" title="Colegio Oficial de Psicólogos de Andalucía Oriental">Colegio Oficial de Psicólogos de Andalucía Oriental</a></td>
+                    <td>COPAO</td>
+                    <td>Spain</td>
+                </tr>
+                    
+                    
+                     <tr>
+                        <th scope="row">
+                <h3>ESAB members</h3>
+                </th>
+                <th scope="row">
+                <h3>Association&nbsp;</h3>
+                </th>
+                <th scope="row">
+                <h3>Country</h3>
+                </th>
+                </tr>
+                <tr>
+                    
+                    
+                    <tr>
+                    <td>Marc Stein</td>
+                    <td>Clinical and Organisational Psychologist at the Luxembourg Police, member of EUTOPA – European Guideline for Target group Oriented Psychosocial Aftercare/European Network for Psycho-Social Aftercare in Case of Disaster, member of the EFPA SC Disasters, Trauma and Psychology</td>
+                    <td>Luxembourg</td>
+                </tr>
+                <tr>
+                    
+                    
+                    <tr>
+                    <td>Dr. Andreas A. Calderon</td>
+                    <td>Stephenson Disaster Management Institute (SDMI), Louisiana State University</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                                        
+                    <tr>
+                    <td>Dr. Thomas Ehring</td>
+                    <td>Department Psychology at the Ludwig-Maximilian University (LMU)</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    
+                    <tr>
+                    <td>Dr.Josef Zelger</td>
+                    <td>Department of Psychology at the University of Innsbruck</td>
+                    <td>Austria</td>
+                </tr>
+                <tr>
+                    
+                    
+                    <tr>
+                    <td>Dr. Franco Zeno</td>
+                    <td>Center of Health and Communities Medical College of Wisconsin</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    
+                    
+                    <tr>
+                    <td>Dr. Lars Weisath, MD</td>
+                    <td>University of Oslo, Norwegian Centre for Violence and Traumatic Stress Studies</td>
+                    <td>Norway</td>
+                </tr>
+                <tr>
+                    
+                    
+                    <tr>
+                    <td>Dr. Winfried Rief</td>
+                    <td>Head of the Psychotherapy Ambulance Marburg, Department Psychology at the Philipps-University Marburg</td>
+                    <td>Germany</td>
+                </tr>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </tbody>
+            </table>
+        </article>
+    </div>             
+</section>
+<!-- Begin publications  -->
+<div id="publications"></div>     
+<section class="publications-area clear-both">
+    <div class="centered-column">
+        <article class="margin-bottom">
+            <h2 title="Publications">Publications</h2>
+                                                            <ul>
+                                            <li>
+                            <a href="#" class="" title="Publications">A) Publications</a>
+                                                            <ul>
+                                                                            <li>Articles                                                                                            <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/adler_future-security-2014.pdf" title="Adler, C., Duschek, S. (2014). Resilience — Doing Well Despite of Adversity. Proceedings of the 9th Security Research Conference. Berlin, September 16–18. S7, pp. 198–206">Adler, C., Duschek, S. (2014). Resilience — Doing Well Despite of Adversity. Proceedings of the 9th Security Research Conference. Berlin, September 16–18. S7, pp. 198–206 (PDF, 474 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                            <li class="weblink"><a target="_blank" href="http://psycris.eu/media/Raich_Prod_Economics.pdf" title="Raich, M., Adler, T., Kirschenbaum, A., Duschek, S. (2014). Disaster Logistics: The disaster supply chain and the role of human behavior, 18th International Working Seminar on Production Economics. Innsbruck, February 24-28">Raich, M., Adler, T., Kirschenbaum, A., Duschek, S. (2014). Disaster Logistics: The disaster supply chain and the role of human behavior, 18th International Working Seminar on Production Economics. Innsbruck, February 24-28</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/Raich-etal_Instanbul_2015.pdf" title="Raich, M., Adler, C., Stühlinger, V., Lorenzoni, N., Duschek, S. (in press) Impact of major incidents on health system performance, security and health protection. In: Sustainable Development, Wessex Institute: Southhampton">Raich, M., Adler, C., Stühlinger, V., Lorenzoni, N., Duschek, S. (in press) Impact of major incidents on health system performance, security and health protection. In: Sustainable Development, Wessex Institute: Southhampton (PDF, 393 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                            <li class="weblink"><a target="_blank" href="http://psycris.eu/media/First-Steps-in-the-Development-of-an-Internet-based-Learning-Platform-for-Strategic-Crisis-Managers-ISCRAM2015.pdf" title="Adler, C., Sauter, W., Meyer, J., Hagl, M., Raich, M. (2015). First Steps in the Development of an Internet-based Learning Platform for Strategic Crisis Managers. ISCRAM 2015">Adler, C., Sauter, W., Meyer, J., Hagl, M., Raich, M. (2015). First Steps in the Development of an Internet-based Learning Platform for Strategic Crisis Managers. ISCRAM 2015</a></li>
+                                                                                                                                                                                                                        </ul>
+                                                                                    </li>
+                                                                            <li>Conference abstracts                                                                                            <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/Reich_etal_Produc_Economics_2014.pdf" title="Raich, M., Adler, C., Kirschenbaum, A., Duschek, S. (2014). Disaster Logistics: The effectiveness of contingency plans during disasters and the role of human behavior. 18th International Working Seminar on Production Economics">Raich, M., Adler, C., Kirschenbaum, A., Duschek, S. (2014). Disaster Logistics: The effectiveness of contingency plans during disasters and the role of human behavior. 18th International Working Seminar on Production Economics (PDF, 207 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/Abstract_DeGPT-Tagung-for-website.pdf" title="Karmainski, J., Adler, C. (2014). Epidemiology and predictors of psychological stress of affected students after a school shooting. DeGPT-Tagung, p.43">Karmainski, J., Adler, C. (2014). Epidemiology and predictors of psychological stress of affected students after a school shooting. DeGPT-Tagung, p.43 (PDF, 94 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/Access-toPsycho-social-support_VSt_MR_SD_TA_FINAL_290120141.pdf" title="Stuhlinger, V., Adler, C., Raich, M., Duschek, S. (2014). Access to Health Care and Psycho-Social Support in Cross-Border Crises: a European Perspective. EAHL 2014">Stuhlinger, V., Adler, C., Raich, M., Duschek, S. (2014). Access to Health Care and Psycho-Social Support in Cross-Border Crises: a European Perspective. EAHL 2014 (PDF, 87 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/Abstract_EHMA2014_Plank_Raich_Adler_Duschek1.pdf" title="Plank, S., Raich, M., Adler, C., Duschek, S. (2014). Crisis managers’ response to large scale incidents: Social identity implications. EHMA 2014">Plank, S., Raich, M., Adler, C., Duschek, S. (2014). Crisis managers’ response to large scale incidents: Social identity implications. EHMA 2014 (PDF, 196 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/Abstract_EHMA2014_Raich_Adler_Duschek.pdf" title="Raich, M., Adler, C., Duschek, S. (2014). Experiences and attitudes of crisis managers concerning psycho- social support systems during and after disasters in Europe. EHMA 2014">Raich, M., Adler, C., Duschek, S. (2014). Experiences and attitudes of crisis managers concerning psycho- social support systems during and after disasters in Europe. EHMA 2014 (PDF, 158 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/EHMA-Abstract-2015.pdf" title="Raich, M., Stuhlinger, V., Lorenzoni, N., Adler, C., Duschek, S. (2015). Long term Impacts of Disasters–Implications for European Public Health Systems. EHMA 2015">Raich, M., Stuhlinger, V., Lorenzoni, N., Adler, C., Duschek, S. (2015). Long term Impacts of Disasters–Implications for European Public Health Systems. EHMA 2015 (PDF, 149 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/Disaster-Conference-Istanbul-2015.pdf" title="Raich M., Adler, C., Stühlinger, V., Lorenzoni, N., Duschek, S. (2015) Impacts of Disasters on Health System Performance, Security and Health Protection. 4th International Conference on Disaster Management and Human Health: Reducing Risk, Improving Outcomes, 20.-22.5.2015 Istanbul/Turkey">Raich M., Adler, C., Stühlinger, V., Lorenzoni, N., Duschek, S. (2015) Impacts of Disasters on Health System Performance, Security and Health Protection. 4th International Conference on Disaster Management and Human Health: Reducing Risk, Improving Outcomes, 20.-22.5.2015 Istanbul/Turkey (PDF, 162 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/OEPH_Abstract_2015.pdf" title="Raich, M., Adler, C., Stühlinger, V., Lorenzoni, N., Duschek, S. (2015) Langzeitwirkungen von Katastrophen auf das Public Health System. Presented at Annual Meeting of Austrian Public Health Association, 28.-29.5.2015 St.Pölten/Austria">Raich, M., Adler, C., Stühlinger, V., Lorenzoni, N., Duschek, S. (2015) Langzeitwirkungen von Katastrophen auf das Public Health System. Presented at Annual Meeting of Austrian Public Health Association, 28.-29.5.2015 St.Pölten/Austria (PDF, 87 kB)</a></li>
+                                                                                                                                                                                                                        </ul>
+                                                                                    </li>
+                                                                            <li>Posters, multimedia                                                                                            <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/Stress-Training-Flyer-Spanish.pdf" title="Stress Management Training (Spanish)">Stress Management Training (Spanish) (PDF, 916 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/Stress-Training-Flyer-German.pdf" title="Stress Management Training (German)">Stress Management Training (German) (PDF, 195 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/help-people-help-themselves-last.png" title="Help people help themselves Infographic">Help people help themselves Infographic (PNG, 821 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                            <li class="weblink"><a target="_blank" href="http://videoonline.edu.lmu.de/en/wintersemester-2013-2014/4900" title="Open access: obstacle or opportunity? Workshop held at LMU on 5/12/2013 — Video">Open access: obstacle or opportunity? Workshop held at LMU on 5/12/2013 — Video</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/Maragkos-Hagl-Adler-on-resilience-2013.pdf" title="Doing well despite of adversity. Resilience colloquium at LMU on 19/12/2013 — Presentation">Doing well despite of adversity. Resilience colloquium at LMU on 19/12/2013 — Presentation (PDF, 278 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/Adler-on-stress-and-performance-BuKo-NoSe-05-2014.pdf" title="Stress, performance and  cognitive restrictions in extreme situations. Bundeskongress für Notfallseelsorge München 23-24052014 — Presentation in German">Stress, performance and  cognitive restrictions in extreme situations. Bundeskongress für Notfallseelsorge München 23-24052014 — Presentation in German (PDF, 643 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/Poster_EHMA2014_Sarah.pdf" title="Crisis managers’ response to large scale incidents: Social identity implications. poster presented at EHMA 2014">Crisis managers’ response to large scale incidents: Social identity implications. poster presented at EHMA 2014 (PDF, 8 MB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/Poster_EHMA2014_Raich.pdf" title="Experiences and attitudes of crisis managers concerning psycho- social support systems during and after disasters in Europe. poster presented at EHMA 2014">Experiences and attitudes of crisis managers concerning psycho- social support systems during and after disasters in Europe. poster presented at EHMA 2014 (PDF, 952 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/Stress-in-crisis-management_Amelie-Janka_ePoster.pdf" title="Stress in crisis management: Evidence from self-reported and psychophysiological assessments. Poster presented at the Clinical Psychology Conference in Dresden 2015">Stress in crisis management: Evidence from self-reported and psychophysiological assessments. Poster presented at the Clinical Psychology Conference in Dresden 2015 (PDF, 304 kB)</a></li>
+                                                                                                                                                                                                                        </ul>
+                                                                                    </li>
+                                                                            <li>Emergency screenplays                                                                                            <ul>
+                                                                                                                                                                                                                                        <li class="weblink"><a target="_blank" href="http://psycris.eu/emergency-screenplays" title="Screenplay presentations">Screenplay presentations</a></li>
+                                                                                                                                                                                                                        </ul>
+                                                                                    </li>
+                                                                            <li>Stress assessment                                                                                            <ul>
+                                                                                                                                                                                                                                        <li class="weblink"><a target="_blank" href="http://bit.ly/PsyCris_PSAB_English" title="Stress assessment battery (English)">Stress assessment battery (English)</a></li>
+                                                                                                                                                                                                                                                                                                                                                            <li class="weblink"><a target="_blank" href="http://bit.ly/PsyCris_PSAB_German" title="Stress assessment battery (German)">Stress assessment battery (German)</a></li>
+                                                                                                                                                                                                                                                                                                                                                            <li class="weblink"><a target="_blank" href="http://bit.ly/PsyCris_PSAB_Spanish" title="Stress assessment battery (Spanish)">Stress assessment battery (Spanish)</a></li>
+                                                                                                                                                                                                                        </ul>
+                                                                                    </li>
+                                                                    </ul>
+                                                    </li>
+                                                                    <li>
+                            <a href="#" class="" title="In the media">B) In the media</a>
+                                                            <ul>
+                                                                            <li>Press releases                                                                                            <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/press-release-28-06-2013.pdf" title="LMU: 28.06.2013">LMU: 28.06.2013 (PDF, 111 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                            <li class="weblink"><a target="_blank" href="http://secretariageneral.ugr.es/pages/tablon/*/noticias-canal-ugr/un-proyecto-internacional-analizara-como-mejorar-el-apoyo-psicologico-ante-una-catastrofe-natural-o-un-atentado#.UxTwcnmKnLR" title="UGR: 17.02.2014">UGR: 17.02.2014</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/EntwurfHoWa-Lokal-Sachsen_2015-04_kommentiert_DD.pdf" title="LMU: 04.2015 — flood survey ">LMU: 04.2015 — flood survey  (PDF, 138 kB)</a></li>
+                                                                                                                                                                                                                        </ul>
+                                                                                    </li>
+                                                                            <li>Newspaper articles, interviews, videos                                                                                            <ul>
+                                                                                                                                                                                                                                        <li class="weblink"><a target="_blank" href="http://www.ideal.es/miugr/noticias/proyecto-internacional-analizara-como-201402171758.html" title="IDEAL Granada (Spain): 17.02.2014">IDEAL Granada (Spain): 17.02.2014</a></li>
+                                                                                                                                                                                                                                                                                                                                                            <li class="weblink"><a target="_blank" href="http://canal.ugr.es/medios-impresos/item/70953-granada-hoy" title="GranadaHoy (Spain): 18.02.2014">GranadaHoy (Spain): 18.02.2014</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/EMERGENCIAS-GRANADA.mp3" title="Radio Canarias (Spain): 24.02.2014 — Interview by Aida Herrera (COPAO)">Radio Canarias (Spain): 24.02.2014 — Interview by Aida Herrera (COPAO) (MP3, 5 MB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/Tine-Adler-Resilience-to-disasters-09.01.2014.mp3" title="Aus Kultur und Sozialwissenschaften (Germany): 09.01.2014 — Interview by Christine Adler">Aus Kultur und Sozialwissenschaften (Germany): 09.01.2014 — Interview by Christine Adler (MP3, 6 MB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/Proyecto-PsyCris_Herrera_2014.pdf" title="Herrera, A. (2014). ¿Qué es el proyecto PsyCris? Revista del COPAO">Herrera, A. (2014). ¿Qué es el proyecto PsyCris? Revista del COPAO (PDF, 287 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                            <li class="weblink"><a target="_blank" href="http://psicosocialyemergencias.com/?s=psycris&submit.x=0&submit.y=0" title="Herrera, A., Ruiz Moreno, F.  (2014). ¿Qué es el proyecto PsyCris? Revista digital Psicosocial y Emergencias">Herrera, A., Ruiz Moreno, F.  (2014). ¿Qué es el proyecto PsyCris? Revista digital Psicosocial y Emergencias</a></li>
+                                                                                                                                                                                                                                                                                                                                                            <li class="weblink"><a target="_blank" href="http://www.deutschlandradiokultur.de/krisenintervention-wenn-die-welt-zusammenbricht.976.de.html?dram:article_id=315402" title="Radio interview on Deutschlandradio (Germany): 26.03.2015 — Interview by Christine Adler (LMU)">Radio interview on Deutschlandradio (Germany): 26.03.2015 — Interview by Christine Adler (LMU)</a></li>
+                                                                                                                                                                                                                                                                                                                                                            <li class="weblink"><a target="_blank" href="https://youtu.be/HTt5gmr5AbQ" title="Youtube video by DonauTV (Germany) on psychosocial consequences of floods">Youtube video by DonauTV (Germany) on psychosocial consequences of floods</a></li>
+                                                                                                                                                                                                                        </ul>
+                                                                                    </li>
+                                                                    </ul>
+                                                    </li>
+                                                                    <li>
+                            <a href="#" class="" title="Relevant literature">C) Relevant literature</a>
+                                                            <ul>
+                                                                            <li>Manuals                                                                                            <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/Circular_Especial_Tren_Alvia.pdf" title="Intervention in the train derailment incident in Galicia: 24.07.2013 ">Intervention in the train derailment incident in Galicia: 24.07.2013  (PDF, 3 MB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/FOLLETO.pdf" title="Self-help guide for people affected by critical situations (COPAO)">Self-help guide for people affected by critical situations (COPAO) (PDF, 151 kB)</a></li>
+                                                                                                                                                                                                                        </ul>
+                                                                                    </li>
+                                                                            <li>Definitions                                                                                            <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/alles-stress.pdf" title="Alles—stress">Alles—stress (PDF, 191 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/crisis-managers.pdf" title="Crisis managers">Crisis managers (PDF, 251 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/psycho-social-support1.pdf" title="Psycho-social support">Psycho-social support (PDF, 230 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/dsm.pdf" title="Trauma in DSM-IV-TR and DSM-V ">Trauma in DSM-IV-TR and DSM-V  (PDF, 237 kB)</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="doclink"><a target="_blank" href="http://psycris.eu/panel/../media/Defintions-PSU.pdf" title="Psycho-social support, Crisis managers: latest definitions">Psycho-social support, Crisis managers: latest definitions (PDF, 952 kB)</a></li>
+                                                                                                                                                                                                                        </ul>
+                                                                                    </li>
+                                                                            <li>Links                                                                                            <ul>
+                                                                                                                                                                                                                                        <li class="weblink"><a target="_blank" href="http://www.bridgeproject.eu/" title="BRIDGE — EU project">BRIDGE — EU project</a></li>
+                                                                                                                                                                                                                        </ul>
+                                                                                    </li>
+                                                                    </ul>
+                                                    </li>
+                                                            </ul>
+                    </article>
+    </div>            
+</section>
+<!-- Begin Contact  -->
+<div id="contact"></div>
+<section class="contact-area clear-both" id="contact">
+    <div class="centered-column">
+        <article class="margin-bottom">
+            <h2 title="Contact) ?>">Contact</h2>
+            <p><strong>LMU</strong><br><strong>PsyCris Project</strong><br>Leopoldstra&szlig;e 13<br>80802 Munich<br>Germany</p>
+            <p><strong>Telephone/Fax</strong><br>Telephone Project Office: +49 (0) 89 / 2180 - 5175<br>Telephone Secretariat: +49 (0) 89 / 2180 - 5173<br>Fax: +49 (0) 89 / 2180 - 6372</p>
+            <p><strong>Email</strong><br>Dr. Tine Adler (Coordination): <a href="mailto:christine.adler@psy.lmu.de">christine.adler@psy.lmu.de</a><br>Brigitte Langhof (Secretariat): <a href="mailto:langhof@psy.lmu.de">langhof@psy.lmu.de</a></p>
+        </article>
+    </div>            
+</section>            <!-- Footer Only content -->
+        <footer role="contentinfo" class="bck-white">
+            <div id="eu-strip" class="container">
+                <div class="eulogo">
+                    <img src="/assets/img/eu_label.png" class="img-responsive" title="Sciences & Humanities"/>
+                </div>
+            </div>
+        </footer>    
+        <footer role="contentinfo">
+            <div id="contentFooter" class="container">
+                <nav class="container">
+                    <ul id="footerMenu" class="menu">
+                        <li>
+                            <ul class="sub-menu">
+                                <li><a href="http://psycris.eu/privacy-policy/">Privacy Policy</a></li>
+                                <li><a href="http://psycris.eu/disclaimer/">Disclaimer</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="sub-menu">
+                                <li><a href="http://cordis.europa.eu/fp7/ssh/" target="_blank">Cordis SSH</a></li>
+                                <li><a href="http://ec.europa.eu/research/social-sciences/index_en.html" target="_blank">Europa SSH</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="sub-menu">
+                                <li>Email: <a href="mailto:contact@psycris.eu">contact@psycris.eu</a></li>
+                                <li>Copyright: PsyCris 2014</li>
+                                <li>Design by <a href="http://browsedigital.com" target="_blank">Browse</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="disclaimer">
+                <div class="text container">
+                    <h2>Disclaimer.</h2>
+                    <p>Legal Notice regarding the Funding by the European Union. The views expressed in this website and associated blog are the sole responsibility of the author and do not necessarily reflect the views of the European Commission. More complete Legal & Disclaimer details can be viewed <a href="http://psycris.eu/disclaimer/">HERE</a></p>
+                </div>
+            </div>   
+        </footer>
+        <a href="#" class="scrollup" style="display: none;" title="Top">Top</a>
+            <style type="text/css" media="screen">
+        #bit, #bit * {}
+        #bit {
+            bottom: -300px;
+            font: 13px "Helvetica Neue",sans-serif;
+            position: fixed;
+            right: 10px;
+            z-index: 999999;
+        }
+
+        .loggedout-follow-typekit {
+            margin-right: 4.5em;
+        }
+
+        #bit a.bsub {
+            background-color: #464646;
+            background-image: -moz-linear-gradient(center bottom , #3F3F3F, #464646 5px);
+            border: 0 none;
+            box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2);
+            color: #CCCCCC;
+            display: block;
+            float: right;
+            font: 13px/28px "Helvetica Neue",sans-serif;
+            letter-spacing: normal;
+            outline-style: none;
+            outline-width: 0;
+            overflow: hidden;
+            padding: 0 10px 0 8px;
+            text-decoration: none !important;
+            text-shadow: 0 -1px 0 #444444;
+        }
+
+        #bit a.bsub {
+            border-radius: 2px 2px 0 0;
+        }
+
+        #bit a.bsub span {
+            background-attachment: scroll;
+            background-clip: border-box;
+            background-color: transparent;
+            background-image: url(/panel/wp-content/plugins/follow/include/star.png);
+            background-origin: padding-box;
+            background-position: 2px 3px;
+            background-repeat: no-repeat;
+            background-size: 20% auto;
+            padding-left: 18px;
+        }
+
+        #bit a:hover span, #bit a.bsub.open span {
+            /*background-position: 0 -117px;*/
+            color: #FFFFFF !important;
+        }
+
+        #bit a.bsub.open {
+            background: none repeat scroll 0 0 #333333;
+        }
+
+        #bitsubscribe {
+            background: none repeat scroll 0 0 #464646;
+            border-radius: 2px 0 0 0;
+            color: #FFFFFF;
+            margin-top: 27px;
+            padding: 15px;
+            width: 200px;
+        }
+
+        div#bitsubscribe.open {
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+        }
+
+        #bitsubscribe div {
+            overflow: hidden;
+        }
+
+        #bit h3, #bit #bitsubscribe h3 {
+            color: #FFFFFF;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 20px;
+            font-weight: 300;
+            margin: 0 0 0.5em !important;
+            text-align: left;
+            text-shadow: 0 1px 0 #333333;
+        }
+
+        #bit #bitsubscribe p {
+            color: #FFFFFF;
+            font: 300 15px/1.3em "Helvetica Neue",Helvetica,Arial,sans-serif;
+            margin: 0 0 1em;
+            text-shadow: 0 1px 0 #333333;
+        }
+
+        #bitsubscribe p a {
+            margin: 20px 0 0;
+        }
+
+        #bit #bitsubscribe p.bit-follow-count {
+            font-size: 13px;
+        }
+
+        #bitsubscribe input[type="submit"] {
+            -moz-transition: all 0.25s ease-in-out 0s;
+            background: #2c2c2c;
+            border: 0;
+            border-radius: 3px;
+            color: #fcfcfc;
+            padding: 3px 20px;
+            text-decoration: none;
+        }
+
+        #bitsubscribe input[type="submit"]:hover {
+            background: #e39205;
+            color: #2c2c2c;
+            text-decoration: none;
+        }
+
+        #bitsubscribe input[type="submit"]:active {
+            background: -moz-linear-gradient(center top , #111111 0%, #222222 100%) repeat scroll 0 0 transparent;
+            box-shadow: 0 -1px 0 #333333 inset;
+            color: #AAAAAA;
+            text-decoration: none;
+        }
+
+        #bitsubscribe input[type="text"] {
+            border-radius: 3px 3px 3px 3px;
+            font: 300 15px "Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+
+        #bitsubscribe input[type="text"]:focus {
+            border: 1px solid #000000;
+        }
+
+        #bitsubscribe.open {
+            display: block;
+        }
+
+        #bsub-subscribe-button {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #bitsubscribe #bsub-credit {
+            border-top: 1px solid #3C3C3C;
+            font: 11px "Helvetica Neue",sans-serif;
+            margin: 0 0 -15px;
+            padding: 7px 0;
+            text-align: center;
+        }
+
+        #bitsubscribe #bsub-credit a {
+            background: none repeat scroll 0 0 transparent;
+            color: #AAAAAA;
+            text-decoration: none;
+            text-shadow: 0 1px 0 #262626;
+        }
+
+        #bitsubscribe #bsub-credit a:hover {
+            background: none repeat scroll 0 0 transparent;
+            color: #FFFFFF;
+        }
+    </style>    
+
+    <script type="text/javascript" charset="utf-8">
+        jQuery.extend(jQuery.easing, {
+            easeOutCubic: function(x, t, b, c, d) {
+                return c * ((t = t / d - 1) * t * t + 1) + b;
+            }
+        });
+        jQuery(document).ready(function() {
+            var isopen = false,
+                    bitHeight = jQuery('#bitsubscribe').height();
+            setTimeout(function() {
+                jQuery('#bit').animate({
+                    bottom: '-' + bitHeight - 30 + 'px'
+                }, 200);
+            }, 300);
+            jQuery('#bit a.bsub').click(function() {
+                if (!isopen) {
+                    isopen = true;
+                    jQuery('#bit a.bsub').addClass('open');
+                    jQuery('#bit #bitsubscribe').addClass('open')
+                    jQuery('#bit').stop();
+                    jQuery('#bit').animate({
+                        bottom: '0px'
+                    }, {
+                        duration: 400,
+                        easing: "easeOutCubic"
+                    });
+                } else {
+                    isopen = false;
+                    jQuery('#bit').stop();
+                    jQuery('#bit').animate({
+                        bottom: '-' + bitHeight - 30 + 'px'
+                    }, 200, function() {
+                        jQuery('#bit a.bsub').removeClass('open');
+                        jQuery('#bit #bitsubscribe').removeClass('open');
+                    });
+                }
+            });
+        });
+    </script>
+
+    <div id="bit" class="">
+        <a class="bsub" href="javascript:void(0)"><span id='bsub-text'>Follow</span></a>
+
+        <div id="bitsubscribe">
+            <h3><label for="loggedout-follow-field">Follow PsyCris</label></h3>
+
+            <form action=http://psycris.eu/subscribe/ method="post" accept-charset="utf-8" id="loggedout-follow">
+                  <p>Get every new post on this blog delivered to your Inbox.</p>
+                <p class="bit-follow-count">Join other followers:</p>
+                <p>
+                    <input type="text" name="email" id="s2email" style="width: 95%; padding: 1px 2px" value="Enter email address" onfocus='this.value = (this.value == "Enter email address") ? "" : this.value;' onblur='this.value = (this.value == "") ? "Enter email address" : this.value;'  id="loggedout-follow-field"/>
+                </p>
+
+                <input type="hidden" name="ip" value="193.136.44.167">
+
+                <p id='bsub-subscribe-button'>
+                    <input type="submit" name="subscribe"  value="Sign me up!" />
+                </p>
+            </form>
+        </div>
+    </div>
+    <script type='text/javascript' src='/panel/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='/panel/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='/panel/wp-includes/js/jquery/ui/jquery.ui.mouse.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='/panel/wp-includes/js/jquery/ui/jquery.ui.resizable.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='/panel/wp-includes/js/jquery/ui/jquery.ui.draggable.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='/panel/wp-includes/js/jquery/ui/jquery.ui.button.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='/panel/wp-includes/js/jquery/ui/jquery.ui.position.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='/panel/wp-includes/js/jquery/ui/jquery.ui.dialog.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='/assets/js/vendor/bootstrap.min.js?ver=3.8'></script>
+<script type='text/javascript' src='/assets/js/plugins.js?ver=3.8'></script>
+<script type='text/javascript' src='/assets/js/vendor/jquery.scrollTo.js?ver=3.8'></script>
+<script type='text/javascript' src='/assets/js/vendor/jquery.nav.js?ver=3.8'></script>
+<script type='text/javascript' src='/assets/js/main.js?ver=3.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var icl_vars = {"current_language":"en","icl_home":"http:\/\/psycris.eu\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/plugins/sitepress-multilingual-cms/res/js/sitepress.js?ver=3.8'></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-6583789-5', 'psycris.eu');
+        ga('send', 'pageview');
+    </script>
+    </body>
+</html>

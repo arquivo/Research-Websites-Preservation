@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	
+	<title>In-MINDD </title>
+
+	<link rel="stylesheet" href="http://www.inmindd.eu/wp-content/themes/Avada/style.css" />
+	
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="http://www.inmindd.eu/wp-content/themes/Avada/js/respond.min.js"></script>
+	<link rel="stylesheet" href="http://www.inmindd.eu/wp-content/themes/Avada/css/ie.css" />
+	<![endif]-->
+
+		<meta name="viewport" content="width=device-width, initial-scale=1; maximum-scale=1" />
+	<link rel="stylesheet" href="http://www.inmindd.eu/wp-content/themes/Avada/css/media.css" />
+	
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+	
+		<link rel="shortcut icon" href="http://www.inmindd.eu/wp-content/uploads/2012/08/favicon-1.ico" type="image/x-icon" />
+	
+											<link rel="alternate" type="application/rss+xml" title="In-MINDD &raquo; Feed" href="http://www.inmindd.eu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="In-MINDD &raquo; Comments Feed" href="http://www.inmindd.eu/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="In-MINDD &raquo; Home Comments Feed" href="http://www.inmindd.eu/sample-page/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.inmindd.eu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='layerslider_css-css'  href='http://www.inmindd.eu/wp-content/plugins/LayerSlider/css/layerslider.css?ver=2.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='twitter-tweet-css'  href='http://www.inmindd.eu/wp-content/plugins/twitter-tweet-horizontal-scroll/script/twitter-tweet-horizontal-scroll.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wooslider-flexslider-css'  href='http://www.inmindd.eu/wp-content/plugins/wooslider/assets/css/flexslider.css?ver=1.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wooslider-common-css'  href='http://www.inmindd.eu/wp-content/plugins/wooslider/assets/css/style.css?ver=1.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpt-twitter-feed-css'  href='http://www.inmindd.eu/wp-content/plugins/wp-to-twitter/css/twitter-feed.css?ver=4.3.3' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.inmindd.eu/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.inmindd.eu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.inmindd.eu/wp-content/themes/Avada/js/jtwt.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.inmindd.eu/wp-content/themes/Avada/js/jquery.elastislide.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.inmindd.eu/wp-content/themes/Avada/js/jquery.prettyPhoto.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.inmindd.eu/wp-content/themes/Avada/js/jquery.isotope.min.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.inmindd.eu/wp-content/themes/Avada/js/jquery.flexslider-min.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.inmindd.eu/wp-content/themes/Avada/js/jquery.cycle.lite.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.inmindd.eu/wp-content/themes/Avada/js/jquery.fitvids.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.inmindd.eu/wp-content/themes/Avada/js/modernizr.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.inmindd.eu/wp-content/themes/Avada/js/main.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.inmindd.eu/wp-content/plugins/LayerSlider/js/layerslider.kreaturamedia.jquery-min.js?ver=2.0.0'></script>
+<script type='text/javascript' src='http://www.inmindd.eu/wp-content/plugins/LayerSlider/js/jquery-easing-1.3.js?ver=2.0.0'></script>
+<script type='text/javascript' src='http://www.inmindd.eu/wp-content/plugins/twitter-tweet-horizontal-scroll/script/jquery.cycle.all.min.js?ver=4.3.3'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.inmindd.eu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.inmindd.eu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.3" />
+<link rel='canonical' href='http://www.inmindd.eu/' />
+<link rel='shortlink' href='http://www.inmindd.eu/' />
+    <script type="text/javascript">
+    
+    jQuery(document).ready(function(){
+    	
+    	    	jQuery("#layerslider_1").layerSlider({    		
+   			autoStart			: true,
+   			pauseOnHover		: true,
+			firstLayer			: 1,
+			animateFirstLayer	: false,
+			twoWaySlideshow		: true,
+    		keybNav				: true,
+    		touchNav			: true,
+    		imgPreload			: true,
+    		navPrevNext			: true,
+    		navStartStop		: true,
+    		navButtons			: true,
+    		skin				: 'defaultskin',
+    		skinsPath			: 'http://www.inmindd.eu/wp-content/plugins/LayerSlider/skins/',
+    		    		globalBGColor		: 'white',
+    		    		    		yourLogo			: false,
+    		yourLogoStyle		: 'position: absolute; left: 10px; top: 10px; z-index: 99;',
+    		yourLogoLink		: false,
+    		yourLogoTarget		: '_self',
+    		
+    		loops				: 0,
+    		forceLoopNum		: true,
+    		autoPlayVideos		: true,
+    		
+    		    		
+    		autoPauseSlideshow	: 'auto',
+    		youtubePreview		: 'maxresdefault.jpg',
+    		
+    		cbInit				: function() { },
+    		cbStart				: function() { },
+    		cbStop				: function() { },
+    		cbPause				: function() { },
+    		cbAnimStart			: function() { },
+    		cbAnimStop			: function() { },
+    		cbPrev				: function() { },
+    		cbNext				: function() { }    	});
+    	    });
+    
+    </script>
+    <link type="text/css" href="http://www.inmindd.eu/wp-content/plugins/enhanced-bibliplug/css/bibliplug.css" rel="Stylesheet" />
+
+	<!--[if IE 8]>
+	<script type="text/javascript">
+	jQuery(document).ready(function() {
+	var imgs, i, w;
+	var imgs = document.getElementsByTagName( 'img' );
+	for( i = 0; i < imgs.length; i++ ) {
+	    w = imgs[i].getAttribute( 'width' );
+	    if ( 615 < w ) {
+	        imgs[i].removeAttribute( 'width' );
+	        imgs[i].removeAttribute( 'height' );
+	    }
+	}
+	});
+	</script>
+	<![endif]-->
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	
+	<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('.flexslider').flexslider();
+
+		$('.video, .wooslider .slide-content').fitVids();
+
+		function onAfter(curr, next, opts, fwd) {
+		  var $ht = $(this).height();
+
+		  //set the container's height to that of the current slide
+		  $(this).parent().animate({height: $ht});
+		}
+
+	    $('.reviews').cycle({
+			fx: 'fade',
+			after: onAfter,
+			timeout: 4000		});
+
+			});
+	</script>
+
+	
+	<style type="text/css">
+	
+		a:hover,
+	#nav ul .current_page_item a, #nav ul .current-menu-item a, #nav ul > .current-menu-parent a,
+	.footer-area ul li a:hover,
+	.side-nav li.current_page_item a,
+	.portfolio-tabs li.active a, .faq-tabs li.active a,
+	.project-content .project-info .project-info-box a:hover,
+	.about-author .title a,
+	span.dropcap{
+		color:#e9a825 !important;
+	}
+	#nav ul .current_page_item a, #nav ul .current-menu-item a, #nav ul > .current-menu-parent a,
+	#nav ul ul,
+	.reading-box,
+	.side-nav li.current_page_item a,
+	.portfolio-tabs li.active a, .faq-tabs li.active a,
+	.tab-holder .tabs li.active a,
+	.post-content blockquote,
+	.progress-bar-content{
+		border-color:#e9a825 !important;
+	}
+	h5.toggle.active span.arrow,
+	.post-content ul.arrow li::before,
+	.progress-bar-content{
+		background-color:#e9a825 !important;
+	}
+	
+		.sep-boxed-pricing ul li.title-row{
+		background-color:#c4a362 !important;
+		border-color:#c4a362 !important;
+	}
+			.image .image-extras{
+		background-image: linear-gradient(top, #e8cb90 0%, #d6ad5a 100%);
+		background-image: -o-linear-gradient(top, #e8cb90 0%, #d6ad5a 100%);
+		background-image: -moz-linear-gradient(top, #e8cb90 0%, #d6ad5a 100%);
+		background-image: -webkit-linear-gradient(top, #e8cb90 0%, #d6ad5a 100%);
+		background-image: -ms-linear-gradient(top, #e8cb90 0%, #d6ad5a 100%);
+
+		background-image: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			color-stop(0, #e8cb90),
+			color-stop(1, #d6ad5a)
+		);
+	}
+	.no-cssgradients .image .image-extras{
+		background:#e8cb90;
+	}
+			#main .reading-box .button,
+	#main .continue.button,
+	#main .portfolio-one .button,
+	#main .comment-submit{
+		color: #785510 !important;
+		background-image: linear-gradient(top, #e8cb90 0%, #d6ad5a 100%);
+		background-image: -o-linear-gradient(top, #e8cb90 0%, #d6ad5a 100%);
+		background-image: -moz-linear-gradient(top, #e8cb90 0%, #d6ad5a 100%);
+		background-image: -webkit-linear-gradient(top, #e8cb90 0%, #d6ad5a 100%);
+		background-image: -ms-linear-gradient(top, #e8cb90 0%, #d6ad5a 100%);
+
+		background-image: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			color-stop(0, #e8cb90),
+			color-stop(1, #d6ad5a)
+		);
+		border:1px solid #d6ad5a;
+	}
+	.no-cssgradients #main .reading-box .button,
+	.no-cssgradients #main .continue.button,
+	.no-cssgradients #main .portfolio-one .button,
+	.no-cssgradients #main .comment-submit{
+		background:#e8cb90;
+	}
+	#main .reading-box .button:hover,
+	#main .continue.button:hover,
+	#main .portfolio-one .button:hover,
+	#main .comment-submit:hover{
+		color: #785510 !important;
+		background-image: linear-gradient(top, #d6ad5a 0%, #e8cb90 100%);
+		background-image: -o-linear-gradient(top, #d6ad5a 0%, #e8cb90 100%);
+		background-image: -moz-linear-gradient(top, #d6ad5a 0%, #e8cb90 100%);
+		background-image: -webkit-linear-gradient(top, #d6ad5a 0%, #e8cb90 100%);
+		background-image: -ms-linear-gradient(top, #d6ad5a 0%, #e8cb90 100%);
+
+		background-image: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			color-stop(0, #d6ad5a),
+			color-stop(1, #e8cb90)
+		);
+		border:1px solid #d6ad5a;
+	}
+	.no-cssgradients #main .reading-box .button:hover,
+	.no-cssgradients #main .continue.button:hover,
+	.no-cssgradients #main .portfolio-one .button:hover,
+	.no-cssgradients #main .comment-submit:hover{
+		background:#d6ad5a;
+	}
+	
+	
+		.page-title-container{
+		background-image:url(http://193.189.141.94/wp-content/themes/Avada/images/page_title_bg.png) !important;
+	}
+	
+		body,#nav ul li ul li a,
+	.more,
+	.container h3,
+	.meta .date,
+	.review blockquote q,
+	.review blockquote div strong,
+	.footer-area  h3,
+	.image .image-extras .image-extras-content h4,
+	.project-content .project-info h4,
+	.post-content blockquote,
+	.button.large,
+	.button.small{
+		font-family:'PT Sans', Arial, Helvetica, sans-serif !important;
+	}
+	.container h3,
+	.review blockquote div strong,
+	.footer-area  h3,
+	.button.large,
+	.button.small{
+		font-weight:bold;
+	}
+	.meta .date,
+	.review blockquote q,
+	.post-content blockquote{
+		font-style:italic;
+	}
+			#nav,
+	#main .reading-box h2,
+	#main h2,
+	.page-title h2,
+	.image .image-extras .image-extras-content h3,
+	#main .post h2,
+	#sidebar .widget h3,
+	.tab-holder .tabs li a,
+	.share-box h4,
+	.project-content h3,
+	.side-nav li a,
+	h5.toggle a,
+	.full-boxed-pricing ul li.title-row,
+	.full-boxed-pricing ul li.pricing-row,
+	.sep-boxed-pricing ul li.title-row,
+	.sep-boxed-pricing ul li.pricing-row,
+	.person-author-wrapper,
+	.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6{
+		font-family:'PT Sans', arial, helvetica, sans-serif !important;
+	}
+		#header .logo {
+margin: 10px 0 25px;}
+
+.reading-box {
+margin: 0 0 40px;}
+
+#content a {
+color: #e9a825;
+}
+
+#content a:hover{
+color: #ccc !important;
+}
+
+.toggle a{
+color: #666 !important;
+}	</style>
+
+	<style type="text/css" id="ss">
+	</style>
+
+	<link rel="stylesheet" id="style_selector_ss" href="" />
+</head>
+<body class="home page page-id-2 page-template page-template-full-width page-template-full-width-php">
+	<div id="wrapper">
+	<header id="header">
+		<div class="row">
+			<h1 class="logo"><a href="http://www.inmindd.eu"><img src="http://www.inmindd.eu/wp-content/uploads/2012/08/inminddlogonobackground2-e1365346908280.png" alt="In-MINDD" /></a></h1>
+			<nav id="nav" class="nav-holder">
+				<ul id="nav" class="menu"><li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-38"><a href="http://www.inmindd.eu/">Home</a></li>
+<li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://www.inmindd.eu/project/">Project</a></li>
+<li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="http://www.inmindd.eu/news/">News</a></li>
+<li id="menu-item-361" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-361"><a href="http://www.inmindd.eu/media-centre/">Media Centre</a>
+<ul class="sub-menu">
+	<li id="menu-item-398" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-398"><a href="http://www.inmindd.eu/media-centre/dementia-information-in-mindd/">In-MINDD &#038; Dementia</a></li>
+	<li id="menu-item-397" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397"><a href="http://www.inmindd.eu/media-centre/press-release-media-downloads/">Media Downloads</a></li>
+</ul>
+</li>
+<li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-42"><a href="http://www.inmindd.eu/team/">Partners</a>
+<ul class="sub-menu">
+	<li id="menu-item-282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-282"><a href="http://www.inmindd.eu/team/dublin-city-university/">Dublin City University</a></li>
+	<li id="menu-item-281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-281"><a href="http://www.inmindd.eu/team/maastricht-university/">Maastricht University</a></li>
+	<li id="menu-item-280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-280"><a href="http://www.inmindd.eu/team/universite-de-nice-sophia-antipolis/">UNSA</a></li>
+	<li id="menu-item-279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-279"><a href="http://www.inmindd.eu/team/university-of-glasgow/">University of Glasgow</a></li>
+	<li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-278"><a href="http://www.inmindd.eu/team/pintail-ltd/">Pintail Ltd</a></li>
+</ul>
+</li>
+<li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a href="http://www.inmindd.eu/related-projects/">Related Projects</a></li>
+<li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="http://www.inmindd.eu/publications/">Publications</a></li>
+<li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a href="http://www.inmindd.eu/contact/">Contact</a></li>
+</ul>			</nav>
+		</div>
+	</header>
+		<div id="layerslider-container">
+		<div id="layerslider-wrapper">
+		<div class="ls-shadow-top"></div>
+		<div id="layerslider_1" style="margin: 0px auto; width: 940px; height: 340px; "><div class="ls-layer" style="background-image: url(/wp-content/uploads/2012/10/runningslide.jpg);slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0;"><div  class="ls-s2" style="position: absolute; top:0px; left: 0px;   parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; "> <div class="backgroundright"></div> </div><div  class="ls-s2" style="position: absolute; top:0px; left: 0px;   parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; "> <h1 class="slideshowright">Welcome to In-MINDD</h1> </div><div  class="ls-s2" style="position: absolute; top:0px; left: 0px;   parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; "> <h2 class="slideshowright">INnovative, Midlife INtervention for Dementia Deterrence</h2> </div><div  class="ls-s2" style="position: absolute; top:0px; left: 0px;   parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; "> <a href="/project/" class="continue mobile-button button small green">Find out More!</a> </div></div><div class="ls-layer" style="background-image: url(/wp-content/uploads/2012/10/handstandslide.jpg);slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0;"><div  class="ls-s2" style="position: absolute; top:0px; left: 0px;   parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; "> <div class="backgroundleft"></div> </div><div  class="ls-s2" style="position: absolute; top:0px; left: 0px;   parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; "> <h2 class="slideshowleft">Adopting a healthy lifestyle in midlife can improve your long term brain health</h2> </div><div  class="ls-s2" style="position: absolute; top:0px; left: 0px;   parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; "> <h1 class="slideshowleft">Welcome to In-MINDD</h1> </div></div><div class="ls-layer" style="background-image: url(/wp-content/uploads/2012/10/bikedogslide.jpg);slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0;"><div  class="ls-s2" style="position: absolute; top:0px; left: 0px;   parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; "> <div class="backgroundleft"></div> </div><div  class="ls-s2" style="position: absolute; top:0px; left: 0px;   parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; "> <h1 class="slideshowleft">Welcome to In-MINDD</h1> </div><h2  class="ls-s2" style="position: absolute; top:0px; left: 0px;   parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; "> <h2 class="slideshowleft">An active and healthy lifestyle may be key to reducing the chance of developing dementia.</h2> </h2></div></div>		<div class="ls-shadow-bottom"></div>
+		</div>
+		</div>
+							<div id="main" style="overflow:hidden !important;">
+		<div class="row">	<div id="content" class="full-width">
+				<div id="post-2" class="post-2 page type-page status-publish hentry">
+						<div class="post-content">
+				<section class="reading-box">
+<a href="/project/" class="continue button large green">Read More About the Project</a><h2>In-MINDD - INnovative, Midlife INtervention for Dementia Deterrence</h2><p>In-MINDD seeks to promote long term brain health and prevent or at least delay the onset of dementia by combining social innovation, multifactorial modelling and clinical expertise.</p><a href="/project/" class="continue mobile-button button large green">Read More About the Project</a></section>
+<div class="two_third">
+<div class="title">
+<h2>Latest News</h2>
+</div>
+<div class="container">
+<section class="columns" style="width:100%">
+<div class="holder">
+<article class="col">
+<div class="flexslider floated-post-slideshow">
+<ul class="slides">
+<li>
+				<a href="http://www.inmindd.eu/in-mindd-at-ipa-international-conference/"><img src="http://www.inmindd.eu/wp-content/uploads/2015/10/Seb-at-IPA-220x135.jpg" alt="" /></a>
+			</li></ul>
+	</div><h3><a href="http://www.inmindd.eu/in-mindd-at-ipa-international-conference/">In-MINDD at IPA International Conference</a></h3>
+<ul class="meta">
+<li><em class="date">October 15, 2015</em></li>
+</ul>
+</article>
+<article class="col">
+<div class="flexslider floated-post-slideshow">
+<ul class="slides">
+<li>
+				<a href="http://www.inmindd.eu/50-dementia-experts-attend-in-mindd-policy-symposium-in-dublin/"><img src="http://www.inmindd.eu/wp-content/uploads/2015/10/Foto-01-10-15-14-06-16-220x135.jpg" alt="" /></a>
+			</li></ul>
+	</div><h3><a href="http://www.inmindd.eu/50-dementia-experts-attend-in-mindd-policy-symposium-in-dublin/">50 Dementia Experts Attend In-MINDD Policy Symposium in Dublin</a></h3>
+<ul class="meta">
+<li><em class="date">October 7, 2015</em></li>
+</ul>
+</article>
+<article class="col last">
+<div class="flexslider floated-post-slideshow">
+<ul class="slides">
+<li>
+				<a href="http://www.inmindd.eu/in-mindd-newsletter-autumn-2015/"><img src="http://www.inmindd.eu/wp-content/uploads/2015/09/Picture1-e1443122834320-220x135.png" alt="" /></a>
+			</li></ul>
+	</div><h3><a href="http://www.inmindd.eu/in-mindd-newsletter-autumn-2015/">In-MINDD Newsletter Autumn 2015</a></h3>
+<ul class="meta">
+<li><em class="date">September 24, 2015</em></li>
+</ul>
+</article>
+</div>
+</section>
+</div></div>
+<div class="one_third last">
+<div class="title">
+<h2>Project Summary</h2>
+</div>
+<p>In-MINDD will:</p>
+<ul>
+<li>develop and validate online tools to help doctors assess if an individual’s lifestyle supports long term brain health;</li>
+<li>generate personal strategies for adopting a brain healthy lifestyle and</li>
+<li>provide on-line supports to help people in midlife implement and adhere to positive change.</li>
+</ul>
+<p>The work of the project is enhanced by extensive communications and awareness raising</p></div>
+<div class="clearboth"></div>
+<div class="title">
+<h2>Project Partners</h2>
+</div>
+<p><a href="http://www.inmindd.eu/wp-content/uploads/2012/08/partners_banner.jpg"><img class="alignnone wp-image-671 size-full" title="partners2" src="http://www.inmindd.eu/wp-content/uploads/2012/08/partners_banner.jpg" alt="" width="950" height="300" /></a></p>
+			</div>
+		</div>
+			</div>
+		</div>
+	</div>
+		<footer class="footer-area">
+		<div class="row">
+			<section class="columns">
+				<article id="text-2" class="col"><h3>Funded by EU FP7 </h3>			<div class="textwidget"><p><img src="http://www.inmindd.eu/wp-content/uploads/2014/06/eu_flag_grey.jpg"><br />
+This project has received funding from the European Union’s Seventh Framework Programme for research, technological development and demonstration under grant agreement no 304979.<br />
+<a href="http://cordis.europa.eu/projects/rcn/105501_en.html" target="_blank">EU CORDIS</a></p>
+</div>
+		</article>
+						<article id="recent-posts-3" class="col">		<h3>Latest News:</h3>		<ul>
+					<li>
+				<a href="http://www.inmindd.eu/in-mindd-at-ipa-international-conference/">In-MINDD at IPA International Conference</a>
+						</li>
+					<li>
+				<a href="http://www.inmindd.eu/50-dementia-experts-attend-in-mindd-policy-symposium-in-dublin/">50 Dementia Experts Attend In-MINDD Policy Symposium in Dublin</a>
+						</li>
+					<li>
+				<a href="http://www.inmindd.eu/in-mindd-newsletter-autumn-2015/">In-MINDD Newsletter Autumn 2015</a>
+						</li>
+				</ul>
+		</article>
+				
+							</section>
+		</div>
+	</footer>
+			<footer id="footer">
+		<div class="row">
+			<ul class="social-networks">
+								<li><a href="http://www.facebook.com/pages/In-MINDD/500669519994517" class="facebook">facebook</a>
+					<div class="popup">
+						<div class="holder">
+							<p>Facebook</p>
+						</div>
+					</div>
+				</li>
+												<li><a href="https://twitter.com/fp7InMindd" class="twitter">twitter</a>
+					<div class="popup">
+						<div class="holder">
+							<p>Twitter</p>
+						</div>
+					</div>
+				</li>
+																			</ul>
+			<ul class="copyright">
+				<li>Copyright 2012 In-MINDD | A FP7 Funded Project</li>
+			</ul>
+		</div>
+	</footer>
+		</div><!-- wrapper -->
+	<script type='text/javascript' src='http://www.inmindd.eu/wp-content/plugins/wooslider/assets/js/jquery.flexslider-min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://www.inmindd.eu/?wooslider-javascript=load&#038;ver=1.0.0'></script>
+</body>
+</html>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36686669-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+

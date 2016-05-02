@@ -1,0 +1,925 @@
+
+<!DOCTYPE html >
+<html lang="en" dir="ltr" class="ms-isBot">
+    <head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta http-equiv="Expires" content="0" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" /><meta name="author" /><link rel="icon" type="image/x-icon" href="/Style Library/Geant/Images/favicon.ico" /><title>
+	GÉANT project (GN4-1)
+</title><link rel="stylesheet" type="text/css" href="/_layouts/15/1033/styles/Themable/corev15.css?rev=OqAycmyMLoQIDkAlzHdMhQ%3D%3D"/>
+<link rel="stylesheet" type="text/css" href="/Style%20Library/ResponsiveServer/Bootstrap3/css/bootstrap3.min.css"/>
+<link rel="stylesheet" type="text/css" href="/Style%20Library/ResponsiveServer/Bootstrap3/css/bootstrap2-custom.min.css"/>
+<link rel="stylesheet" type="text/css" href="/Style%20Library/ResponsiveServer/Bootstrap3/css/sp-responsive.css"/>
+<link rel="stylesheet" type="text/css" href="/Style%20Library/ResponsiveServer/Bootstrap3/css/bootstrap3-custom.min.css"/>
+<link rel="stylesheet" type="text/css" href="/Style%20Library/Geant/CSS/CustomRTEStyles.css"/>
+<link rel="stylesheet" type="text/css" href="/Style%20Library/Geant/CSS/geant-styles.css"/>
+<link rel="stylesheet" type="text/css" href="/Style%20Library/Geant/CSS/geant-slider.css"/>
+<link rel="stylesheet" type="text/css" href="/Style%20Library/Geant/CSS/geant-custom.css"/>
+<link rel="stylesheet" type="text/css" href="/_layouts/15/1033/styles/Themable/searchv15.css?rev=qarmmE3eURu3ZS2Wsbpf2w%3D%3D"/>
+<script type="text/javascript" src="/_layouts/15/init.js?rev=rQHvYUfURJXLBpgKnm0dcA%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/ba.dante.sp2013.claimsprovider/checkpermissions.js"></script>
+<script type="text/javascript" src="/ScriptResource.axd?d=XTD1o4xoNx9linr0j1H4JExYyTYcDK950pkuuKpGImnarwLFe8hjchmqfifOPq8k4uCEaY8UAx27O_s-LbNfwQwWGTtIAvpTjUECQr3LCrk8g7zp-2XmEC8uGsYQ2rJqhabjmKMcqCo6WXDwINLCPXFxVbXIEnCzE625YysA5OX56TqM_2Cl7h_yu3WZoEQR0&amp;t=72e85ccd"></script>
+<script type="text/javascript" src="/_layouts/15/blank.js?rev=ZaOXZEobVwykPO9g8hq%2F8A%3D%3D"></script>
+<script type="text/javascript">RegisterSod("initstrings.js", "\u002f_layouts\u002f15\u002f1033\u002finitstrings.js?rev=4Yrxyggg5knao3D48Ii\u00252FWA\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("strings.js", "\u002f_layouts\u002f15\u002f1033\u002fstrings.js?rev=u\u00252B0KcZWR52dtr8LTlqcZcw\u00253D\u00253D");RegisterSodDep("strings.js", "initstrings.js");</script>
+<script type="text/javascript">RegisterSod("sp.init.js", "\u002f_layouts\u002f15\u002fsp.init.js?rev=NE4k7OOs\u00252Bg76wmoP9o3TWA\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("sp.res.resx", "\u002f_layouts\u002f15\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=SP\u00252ERes\u0026rev=yNk\u00252FhRzgBn40LJVP\u00252BqfgdQ\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("sp.ui.dialog.js", "\u002f_layouts\u002f15\u002fsp.ui.dialog.js?rev=0xf6wCIW4E1pN83I9nSIJQ\u00253D\u00253D");RegisterSodDep("sp.ui.dialog.js", "sp.init.js");RegisterSodDep("sp.ui.dialog.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("core.js", "\u002f_layouts\u002f15\u002fcore.js?rev=OATcKiYLYC3PhwG7nx92sQ\u00253D\u00253D");RegisterSodDep("core.js", "strings.js");</script>
+<script type="text/javascript">RegisterSod("menu.js", "\u002f_layouts\u002f15\u002fmenu.js?rev=Yb\u00252FYo8qgTV4OUX0FEzTMog\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("mQuery.js", "\u002f_layouts\u002f15\u002fmquery.js?rev=VYAJYBo5H8I3gVSL3MzD6A\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("callout.js", "\u002f_layouts\u002f15\u002fcallout.js?rev=ryx2n4ePkYj1\u00252FALmcsXZfA\u00253D\u00253D");RegisterSodDep("callout.js", "strings.js");RegisterSodDep("callout.js", "mQuery.js");RegisterSodDep("callout.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("clienttemplates.js", "\u002f_layouts\u002f15\u002fclienttemplates.js?rev=y3xh0qyJB62CM2ZD4nL8tw\u00253D\u00253D");RegisterSodDep("clienttemplates.js", "initstrings.js");</script>
+<script type="text/javascript">RegisterSod("sharing.js", "\u002f_layouts\u002f15\u002fsharing.js?rev=EojJW\u00252FD7vytDfjPyrFWfzw\u00253D\u00253D");RegisterSodDep("sharing.js", "strings.js");RegisterSodDep("sharing.js", "mQuery.js");RegisterSodDep("sharing.js", "clienttemplates.js");RegisterSodDep("sharing.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("suitelinks.js", "\u002f_layouts\u002f15\u002fsuitelinks.js?rev=REwVU5jSsadDdOZlCx4wpA\u00253D\u00253D");RegisterSodDep("suitelinks.js", "strings.js");RegisterSodDep("suitelinks.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("clientrenderer.js", "\u002f_layouts\u002f15\u002fclientrenderer.js?rev=PWwV4FATEiOxN90BeB5Hzw\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("srch.resources.resx", "\u002f_layouts\u002f15\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=Srch\u00252EResources\u0026rev=T\u00252BEc8BFdsTQbQuVAobKatQ\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("search.clientcontrols.js", "\u002f_layouts\u002f15\u002fsearch.clientcontrols.js?rev=OoewcCMl7mmhv2GGjiRhew\u00253D\u00253D");RegisterSodDep("search.clientcontrols.js", "sp.init.js");RegisterSodDep("search.clientcontrols.js", "clientrenderer.js");RegisterSodDep("search.clientcontrols.js", "srch.resources.resx");</script>
+<script type="text/javascript">RegisterSod("sp.runtime.js", "\u002f_layouts\u002f15\u002fsp.runtime.js?rev=5f2WkYJoaxlIRdwUeg4WEg\u00253D\u00253D");RegisterSodDep("sp.runtime.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("sp.search.js", "\u002f_layouts\u002f15\u002fsp.search.js?rev=uZlrSmuyYGO8yQWFVg\u00252BIdw\u00253D\u00253D");RegisterSodDep("sp.search.js", "sp.init.js");RegisterSodDep("sp.search.js", "sp.runtime.js");</script>
+<script type="text/javascript">RegisterSod("ajaxtoolkit.js", "\u002f_layouts\u002f15\u002fajaxtoolkit.js?rev=4rOiCbaFgJMmqw9Ojtpa6g\u00253D\u00253D");RegisterSodDep("ajaxtoolkit.js", "search.clientcontrols.js");</script>
+<script type="text/javascript">RegisterSod("sp.js", "\u002f_layouts\u002f15\u002fsp.js?rev=hfV5Po3SUEMXr9lb64ZrsQ\u00253D\u00253D");RegisterSodDep("sp.js", "sp.runtime.js");RegisterSodDep("sp.js", "sp.ui.dialog.js");RegisterSodDep("sp.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("userprofile", "\u002f_layouts\u002f15\u002fsp.userprofiles.js?rev=Pbfi3FBmvy2ewPqDZp16\u00252BQ\u00253D\u00253D");RegisterSodDep("userprofile", "sp.runtime.js");</script>
+<script type="text/javascript">RegisterSod("followingcommon.js", "\u002f_layouts\u002f15\u002ffollowingcommon.js?rev=sObFmln\u00252BGVrczIpXNeFRrg\u00253D\u00253D");RegisterSodDep("followingcommon.js", "strings.js");RegisterSodDep("followingcommon.js", "sp.js");RegisterSodDep("followingcommon.js", "userprofile");RegisterSodDep("followingcommon.js", "core.js");RegisterSodDep("followingcommon.js", "mQuery.js");</script>
+<script type="text/javascript">RegisterSod("profilebrowserscriptres.resx", "\u002f_layouts\u002f15\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=ProfileBrowserScriptRes\u0026rev=J5HzNnB\u00252FO1Id\u00252FGI18rpRcw\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("sp.ui.mysitecommon.js", "\u002f_layouts\u002f15\u002fsp.ui.mysitecommon.js?rev=Ua8qmZSU9nyf53S7PEyJwQ\u00253D\u00253D");RegisterSodDep("sp.ui.mysitecommon.js", "sp.init.js");RegisterSodDep("sp.ui.mysitecommon.js", "sp.runtime.js");RegisterSodDep("sp.ui.mysitecommon.js", "userprofile");RegisterSodDep("sp.ui.mysitecommon.js", "profilebrowserscriptres.resx");</script>
+<script type="text/javascript">RegisterSod("browserScript", "\u002f_layouts\u002f15\u002fnon_ie.js?rev=W2q45TO627Zi6ztdktTOtA\u00253D\u00253D");RegisterSodDep("browserScript", "strings.js");</script>
+<script type="text/javascript">RegisterSod("inplview", "\u002f_layouts\u002f15\u002finplview.js?rev=JuQvHna5pA8GjBqyCrETww\u00253D\u00253D");RegisterSodDep("inplview", "strings.js");RegisterSodDep("inplview", "core.js");RegisterSodDep("inplview", "sp.js");</script>
+<script type="text/javascript">RegisterSod("datepicker.js", "\u002f_layouts\u002f15\u002fdatepicker.js?rev=rG6q4pRH1LERpfn53ncDpA\u00253D\u00253D");RegisterSodDep("datepicker.js", "strings.js");</script>
+<script type="text/javascript">RegisterSod("sp.core.js", "\u002f_layouts\u002f15\u002fsp.core.js?rev=b89b6nnwOk\u00252FeDkJa0KhP5w\u00253D\u00253D");RegisterSodDep("sp.core.js", "strings.js");RegisterSodDep("sp.core.js", "sp.init.js");RegisterSodDep("sp.core.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("dragdrop.js", "\u002f_layouts\u002f15\u002fdragdrop.js?rev=\u00252FlbcPNAdxvx6ol\u00252BJ5Sir4g\u00253D\u00253D");RegisterSodDep("dragdrop.js", "strings.js");</script>
+<script type="text/javascript">RegisterSod("quicklaunch.js", "\u002f_layouts\u002f15\u002fquicklaunch.js?rev=SV6sY1PxQIso9KC9IL8e2Q\u00253D\u00253D");RegisterSodDep("quicklaunch.js", "strings.js");RegisterSodDep("quicklaunch.js", "dragdrop.js");</script>
+
+           <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script type="text/javascript" src="/Style Library/ResponsiveServer/Bootstrap3/js/jquery-1.9.1.js" ></script>
+     <script type="text/javascript" src="/Style Library/Geant/JS/geant.app.js" ></script> 
+
+        <link type="text/xml" rel="alternate" href="/Projects/GEANT_Project_GN4-1/_vti_bin/spsdisco.aspx" />
+            
+            
+            <link rel="canonical" href="http://www.geant.org:80/Projects/GEANT_Project_GN4-1" /><meta name="description" content="Projects" /><meta name="keywords" content="A" />
+            
+            
+        
+                
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/Style Library/Geant/JS/respond.min.js"></script>
+		<![endif]-->	
+		<script type="text/javascript"> 
+			function ProcessImn(){} 
+			function ProcessImnMarkers(){}   
+		</script>
+		<script type="text/javascript" src="https://cdn.webtuna.com/webtuna.js"></script>
+    </head>
+    <body onhashchange="if (typeof(_spBodyOnHashChange) != 'undefined') _spBodyOnHashChange();">    	
+        
+        <div id="imgPrefetch" style="display:none">
+<img src="/_layouts/15/images/spcommon.png?rev=23" />
+</div>
+
+        <form method="post" action="./Home.aspx" id="aspnetForm">
+<input type="hidden" name="_wpcmWpid" id="_wpcmWpid" value="" />
+<input type="hidden" name="wpcmVal" id="wpcmVal" value="" />
+<input type="hidden" name="MSOWebPartPage_PostbackSource" id="MSOWebPartPage_PostbackSource" value="" />
+<input type="hidden" name="MSOTlPn_SelectedWpId" id="MSOTlPn_SelectedWpId" value="" />
+<input type="hidden" name="MSOTlPn_View" id="MSOTlPn_View" value="0" />
+<input type="hidden" name="MSOTlPn_ShowSettings" id="MSOTlPn_ShowSettings" value="False" />
+<input type="hidden" name="MSOGallery_SelectedLibrary" id="MSOGallery_SelectedLibrary" value="" />
+<input type="hidden" name="MSOGallery_FilterString" id="MSOGallery_FilterString" value="" />
+<input type="hidden" name="MSOTlPn_Button" id="MSOTlPn_Button" value="none" />
+<input type="hidden" name="__REQUESTDIGEST" id="__REQUESTDIGEST" value="0x4D6AE086E28DC99AA8FE9E129B2AA25D8471B213506BA8F5E85B0996F299B11CF96D4297D9BAD128741E9BD3C0B12FAC65023595AE7A8FD8D150327F7387C731,25 Feb 2016 12:59:38 -0000" />
+<input type="hidden" name="MSOSPWebPartManager_DisplayModeName" id="MSOSPWebPartManager_DisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_ExitingDesignMode" id="MSOSPWebPartManager_ExitingDesignMode" value="false" />
+<input type="hidden" name="MSOWebPartPage_Shared" id="MSOWebPartPage_Shared" value="" />
+<input type="hidden" name="MSOLayout_LayoutChanges" id="MSOLayout_LayoutChanges" value="" />
+<input type="hidden" name="MSOLayout_InDesignMode" id="MSOLayout_InDesignMode" value="" />
+<input type="hidden" name="_wpSelected" id="_wpSelected" value="" />
+<input type="hidden" name="_wzSelected" id="_wzSelected" value="" />
+<input type="hidden" name="MSOSPWebPartManager_OldDisplayModeName" id="MSOSPWebPartManager_OldDisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_StartWebPartEditingName" id="MSOSPWebPartManager_StartWebPartEditingName" value="false" />
+<input type="hidden" name="MSOSPWebPartManager_EndWebPartEditing" id="MSOSPWebPartManager_EndWebPartEditing" value="false" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUBMA9kFgJmD2QWAgIBD2QWBAIBD2QWBAIJD2QWAmYPZBYCAgEPFgIeE1ByZXZpb3VzQ29udHJvbE1vZGULKYgBTWljcm9zb2Z0LlNoYXJlUG9pbnQuV2ViQ29udHJvbHMuU1BDb250cm9sTW9kZSwgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTUuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5YwFkAhoPZBYCAgMPZBYCZg9kFgJmDzwrAAYAZAIHD2QWFAIBD2QWAgIBD2QWEAUmZ19kYTdiNTkwM19lZTQ3XzRmZmRfOTYyNl8yYWNiOWJmZWFjMmQPZBYEZg8WAh4HVmlzaWJsZWhkAgEPFgIfAWhkBSZnX2I0NjEzZjZkX2IwNGJfNDY1Zl85NDQ5XzUyMzY4MDliNGUzYg9kFgRmDxYCHwFoZAIBDxYCHwFoZAUmZ184Y2FjZWM1N18xYjAyXzQ5OGNfOWM4Zl9iYTVhODY3M2FmN2IPZBYEZg8WAh8BaGQCAQ8WAh8BaGQFJmdfNTA1ZGM0ZGJfZjg3M180ZjYyXzgyYmNfODYyMjEyZWZkNDIyD2QWBGYPFgIfAWhkAgEPFgIfAWhkBSZnX2JjNzBmMmU0X2I0MWNfNGZjNF84ODhkXzhlM2UwOTY3NmMzMA9kFgRmDxYCHwFoZAIBDxYCHwFoZAUmZ184YzAzNGVlNV8yOTM2XzRiYWNfODNkNF81YTVjYWU1ZDdiZmMPZBYEZg8WAh8BaGQCAQ8WAh8BaGQFJmdfNDIzNmMxODZfOTRjOV80MDQwXzk4MzdfMWI5MzkyZTVhNDhmD2QWBGYPFgIfAWhkAgEPFgIfAWhkBSZnXzZjOGQ1OGMzX2RiNDhfNGMzMF85M2VhXzc0ZTRjNDBkYTAzYw9kFgRmDxYCHwFoZAIBDxYCHwFoZAIFD2QWAgIFD2QWAgIDDxYCHwFoFgJmD2QWBAICD2QWBgIBDxYCHwFoZAIDDxYCHwFoZAIFDxYCHwFoZAIDDw8WAh4JQWNjZXNzS2V5BQEvZGQCDQ9kFgICAQ9kFgICAQ8WAh8ACysEAWQCEQ9kFgICAQ9kFgICAQ9kFgICAQ8PFgQeC1BhcmFtVmFsdWVzMtkDAAEAAAD/////AQAAAAAAAAAMAgAAAFhNaWNyb3NvZnQuU2hhcmVQb2ludCwgVmVyc2lvbj0xNS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj03MWU5YmNlMTExZTk0MjljBQEAAAA9TWljcm9zb2Z0LlNoYXJlUG9pbnQuV2ViUGFydFBhZ2VzLlBhcmFtZXRlck5hbWVWYWx1ZUhhc2h0YWJsZQEAAAAFX2NvbGwDHFN5c3RlbS5Db2xsZWN0aW9ucy5IYXNodGFibGUCAAAACQMAAAAEAwAAABxTeXN0ZW0uQ29sbGVjdGlvbnMuSGFzaHRhYmxlBwAAAApMb2FkRmFjdG9yB1ZlcnNpb24IQ29tcGFyZXIQSGFzaENvZGVQcm92aWRlcghIYXNoU2l6ZQRLZXlzBlZhbHVlcwAAAwMABQULCBxTeXN0ZW0uQ29sbGVjdGlvbnMuSUNvbXBhcmVyJFN5c3RlbS5Db2xsZWN0aW9ucy5JSGFzaENvZGVQcm92aWRlcgjsUTg/AQAAAAoKAwAAAAkEAAAACQUAAAAQBAAAAAEAAAAGBgAAAApGaWx0ZXJMaW5rEAUAAAABAAAABgcAAAABPwseEEZpbHRlck9wZXJhdGlvbnMyjQUAAQAAAP////8BAAAAAAAAAAQBAAAAkwJTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5EaWN0aW9uYXJ5YDJbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV0sW01pY3Jvc29mdC5TaGFyZVBvaW50LldlYlBhcnRQYWdlcy5GaWx0ZXJPcGVyYXRpb24sIE1pY3Jvc29mdC5TaGFyZVBvaW50LCBWZXJzaW9uPTE1LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTcxZTliY2UxMTFlOTQyOWNdXQMAAAAHVmVyc2lvbghDb21wYXJlcghIYXNoU2l6ZQADAAiSAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkdlbmVyaWNFcXVhbGl0eUNvbXBhcmVyYDFbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dCAAAAAAJAgAAAAAAAAAEAgAAAJIBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuR2VuZXJpY0VxdWFsaXR5Q29tcGFyZXJgMVtbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0AAAAAC2RkAhcPZBYCAgEPZBYCAgEPZBYCAgEPDxYEHwMy2QMAAQAAAP////8BAAAAAAAAAAwCAAAAWE1pY3Jvc29mdC5TaGFyZVBvaW50LCBWZXJzaW9uPTE1LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTcxZTliY2UxMTFlOTQyOWMFAQAAAD1NaWNyb3NvZnQuU2hhcmVQb2ludC5XZWJQYXJ0UGFnZXMuUGFyYW1ldGVyTmFtZVZhbHVlSGFzaHRhYmxlAQAAAAVfY29sbAMcU3lzdGVtLkNvbGxlY3Rpb25zLkhhc2h0YWJsZQIAAAAJAwAAAAQDAAAAHFN5c3RlbS5Db2xsZWN0aW9ucy5IYXNodGFibGUHAAAACkxvYWRGYWN0b3IHVmVyc2lvbghDb21wYXJlchBIYXNoQ29kZVByb3ZpZGVyCEhhc2hTaXplBEtleXMGVmFsdWVzAAADAwAFBQsIHFN5c3RlbS5Db2xsZWN0aW9ucy5JQ29tcGFyZXIkU3lzdGVtLkNvbGxlY3Rpb25zLklIYXNoQ29kZVByb3ZpZGVyCOxROD8BAAAACgoDAAAACQQAAAAJBQAAABAEAAAAAQAAAAYGAAAACkZpbHRlckxpbmsQBQAAAAEAAAAGBwAAAAE/Cx8EMo0FAAEAAAD/////AQAAAAAAAAAEAQAAAJMCU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuRGljdGlvbmFyeWAyW1tTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldLFtNaWNyb3NvZnQuU2hhcmVQb2ludC5XZWJQYXJ0UGFnZXMuRmlsdGVyT3BlcmF0aW9uLCBNaWNyb3NvZnQuU2hhcmVQb2ludCwgVmVyc2lvbj0xNS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj03MWU5YmNlMTExZTk0MjljXV0DAAAAB1ZlcnNpb24IQ29tcGFyZXIISGFzaFNpemUAAwAIkgFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5HZW5lcmljRXF1YWxpdHlDb21wYXJlcmAxW1tTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXQgAAAAACQIAAAAAAAAABAIAAACSAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkdlbmVyaWNFcXVhbGl0eUNvbXBhcmVyYDFbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dAAAAAAtkZAIZD2QWAgIBD2QWAgIBDzwrAAUBAA8WAh4PU2l0ZU1hcFByb3ZpZGVyBSFDdXJyZW50TmF2U2l0ZU1hcFByb3ZpZGVyTm9FbmNvZGVkZAIbD2QWAgIBD2QWCAIBDxYCHwALKwQBZAIDDxYCHwALKwQBZAIFDxYCHwALKwQBZAIHDxYCHwALKwQBZAIhD2QWAgICD2QWAgIDDxYCHwALKwQBZAIjD2QWAgIBD2QWAgIBD2QWAgIBDw8WBB8DMtkDAAEAAAD/////AQAAAAAAAAAMAgAAAFhNaWNyb3NvZnQuU2hhcmVQb2ludCwgVmVyc2lvbj0xNS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj03MWU5YmNlMTExZTk0MjljBQEAAAA9TWljcm9zb2Z0LlNoYXJlUG9pbnQuV2ViUGFydFBhZ2VzLlBhcmFtZXRlck5hbWVWYWx1ZUhhc2h0YWJsZQEAAAAFX2NvbGwDHFN5c3RlbS5Db2xsZWN0aW9ucy5IYXNodGFibGUCAAAACQMAAAAEAwAAABxTeXN0ZW0uQ29sbGVjdGlvbnMuSGFzaHRhYmxlBwAAAApMb2FkRmFjdG9yB1ZlcnNpb24IQ29tcGFyZXIQSGFzaENvZGVQcm92aWRlcghIYXNoU2l6ZQRLZXlzBlZhbHVlcwAAAwMABQULCBxTeXN0ZW0uQ29sbGVjdGlvbnMuSUNvbXBhcmVyJFN5c3RlbS5Db2xsZWN0aW9ucy5JSGFzaENvZGVQcm92aWRlcgjsUTg/AQAAAAoKAwAAAAkEAAAACQUAAAAQBAAAAAEAAAAGBgAAAApGaWx0ZXJMaW5rEAUAAAABAAAABgcAAAABPwsfBDKNBQABAAAA/////wEAAAAAAAAABAEAAACTAlN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkRpY3Rpb25hcnlgMltbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XSxbTWljcm9zb2Z0LlNoYXJlUG9pbnQuV2ViUGFydFBhZ2VzLkZpbHRlck9wZXJhdGlvbiwgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTUuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5Y11dAwAAAAdWZXJzaW9uCENvbXBhcmVyCEhhc2hTaXplAAMACJIBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuR2VuZXJpY0VxdWFsaXR5Q29tcGFyZXJgMVtbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0IAAAAAAkCAAAAAAAAAAQCAAAAkgFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5HZW5lcmljRXF1YWxpdHlDb21wYXJlcmAxW1tTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXQAAAAALZGQCJQ9kFgICAQ9kFgICAQ9kFgICAQ8PFgQfAzLZAwABAAAA/////wEAAAAAAAAADAIAAABYTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTUuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5YwUBAAAAPU1pY3Jvc29mdC5TaGFyZVBvaW50LldlYlBhcnRQYWdlcy5QYXJhbWV0ZXJOYW1lVmFsdWVIYXNodGFibGUBAAAABV9jb2xsAxxTeXN0ZW0uQ29sbGVjdGlvbnMuSGFzaHRhYmxlAgAAAAkDAAAABAMAAAAcU3lzdGVtLkNvbGxlY3Rpb25zLkhhc2h0YWJsZQcAAAAKTG9hZEZhY3RvcgdWZXJzaW9uCENvbXBhcmVyEEhhc2hDb2RlUHJvdmlkZXIISGFzaFNpemUES2V5cwZWYWx1ZXMAAAMDAAUFCwgcU3lzdGVtLkNvbGxlY3Rpb25zLklDb21wYXJlciRTeXN0ZW0uQ29sbGVjdGlvbnMuSUhhc2hDb2RlUHJvdmlkZXII7FE4PwEAAAAKCgMAAAAJBAAAAAkFAAAAEAQAAAABAAAABgYAAAAKRmlsdGVyTGluaxAFAAAAAQAAAAYHAAAAAT8LHwQyjQUAAQAAAP////8BAAAAAAAAAAQBAAAAkwJTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5EaWN0aW9uYXJ5YDJbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV0sW01pY3Jvc29mdC5TaGFyZVBvaW50LldlYlBhcnRQYWdlcy5GaWx0ZXJPcGVyYXRpb24sIE1pY3Jvc29mdC5TaGFyZVBvaW50LCBWZXJzaW9uPTE1LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTcxZTliY2UxMTFlOTQyOWNdXQMAAAAHVmVyc2lvbghDb21wYXJlcghIYXNoU2l6ZQADAAiSAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkdlbmVyaWNFcXVhbGl0eUNvbXBhcmVyYDFbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dCAAAAAAJAgAAAAAAAAAEAgAAAJIBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuR2VuZXJpY0VxdWFsaXR5Q29tcGFyZXJgMVtbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0AAAAAC2RkGAEFLGN0bDAwJFBsYWNlSG9sZGVyVG9wTmF2QmFyJFRvcE5hdmlnYXRpb25NZW51Dw9kBQhQUk9KRUNUU2TKCaWqQ+yaqaUCnhZ5Orf0Q4BkVmizRFDZSP5TkEdnTA==" />
+
+
+<script type="text/javascript">
+//<![CDATA[
+var MSOWebPartPageFormName = 'aspnetForm';
+var g_presenceEnabled = true;
+var g_wsaEnabled = false;
+var g_wsaQoSEnabled = false;
+var g_wsaQoSDataPoints = [];
+var g_wsaLCID = 1033;
+var g_wsaListTemplateId = 850;
+var g_wsaSiteTemplateId = 'CMSPUBLISHING#0';
+var _fV4UI=true;var _spPageContextInfo = {webServerRelativeUrl: "\u002fProjects\u002fGEANT_Project_GN4-1", webAbsoluteUrl: "http:\u002f\u002fwww.geant.org\u002fProjects\u002fGEANT_Project_GN4-1", siteAbsoluteUrl: "http:\u002f\u002fwww.geant.org", serverRequestPath: "\u002fProjects\u002fGEANT_Project_GN4-1\u002fPages\u002fHome.aspx", layoutsUrl: "_layouts\u002f15", webTitle: "G\u00C9ANT project \u0028GN4-1\u0029", webTemplate: "39", tenantAppVersion: "0", isAppWeb: false, webLogoUrl: "_layouts\u002f15\u002fimages\u002fsiteicon.png", webLanguage: 1033, currentLanguage: 1033, currentUICultureName: "en-US", currentCultureName: "en-US", clientServerTimeDelta: new Date("2016-02-25T12:59:38.5007736Z") - new Date(), siteClientTag: "73$$15.0.4649.1000", crossDomainPhotosEnabled:false, webUIVersion:15, webPermMasks:{High:16,Low:200769},pageListId:"{8329f803-b38d-4267-ba1c-cea31fd12a6f}",pageItemId:1, pagePersonalizationScope:1, alertsEnabled:true, siteServerRelativeUrl: "\u002f", allowSilverlightPrompt:'True'};document.onreadystatechange=fnRemoveAllStatus; function fnRemoveAllStatus(){removeAllStatus(true)};
+                            function DoCallBack(filterText)
+                            {WebForm_DoCallback('ctl00$PlaceHolderTopNavLinks$g_157b8eb3_665f_487d_bb57_b9c9e5654960$ctl01',filterText,UpdateFilterCallback,0,CallBackError,true)
+                            }
+                            function CallBackError(result, clientsideString)
+                            {                
+                            }
+                        var _spWebPartComponents = new Object();//]]>
+</script>
+
+<script src="/_layouts/15/blank.js?rev=ZaOXZEobVwykPO9g8hq%2F8A%3D%3D" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+(function(){
+
+        if (typeof(_spBodyOnLoadFunctions) === 'undefined' || _spBodyOnLoadFunctions === null) {
+            return;
+        }
+        _spBodyOnLoadFunctions.push(function() {
+
+            if (typeof(SPClientTemplates) === 'undefined' || SPClientTemplates === null || (typeof(APD_InAssetPicker) === 'function' && APD_InAssetPicker())) {
+                return;
+            }
+
+            var renderFollowFooter = function(renderCtx,  calloutActionMenu)
+            {
+                if (renderCtx.ListTemplateType == 700) 
+                    myDocsActionsMenuPopulator(renderCtx, calloutActionMenu);
+                else
+                    CalloutOnPostRenderTemplate(renderCtx, calloutActionMenu);
+
+                var listItem = renderCtx.CurrentItem;
+                if (typeof(listItem) === 'undefined' || listItem === null) {
+                    return;
+                }
+                if (listItem.FSObjType == 0) {
+                    calloutActionMenu.addAction(new CalloutAction({
+                        text: Strings.STS.L_CalloutFollowAction,
+                        tooltip: Strings.STS.L_CalloutFollowAction_Tooltip,
+                        onClickCallback: function (calloutActionClickEvent, calloutAction) {
+                            var callout = GetCalloutFromRenderCtx(renderCtx);
+                            if (!(typeof(callout) === 'undefined' || callout === null))
+                                callout.close();
+                            SP.SOD.executeFunc('followingcommon.js', 'FollowSelectedDocument', function() { FollowSelectedDocument(renderCtx); });
+                        }
+                    }));
+                }
+            };
+
+            var registerOverride = function(id) {
+                var followingOverridePostRenderCtx = {};
+                followingOverridePostRenderCtx.BaseViewID = 'Callout';
+                followingOverridePostRenderCtx.ListTemplateType = id;
+                followingOverridePostRenderCtx.Templates = {};
+                followingOverridePostRenderCtx.Templates.Footer = function(renderCtx) {
+                    var  renderECB;
+                    if (typeof(isSharedWithMeView) === 'undefined' || isSharedWithMeView === null) {
+                        renderECB = true;
+                    } else {
+                        var viewCtx = getViewCtxFromCalloutCtx(renderCtx);
+                        renderECB = !isSharedWithMeView(viewCtx);
+                    }
+                    return CalloutRenderFooterTemplate(renderCtx, renderFollowFooter, renderECB);
+                };
+                SPClientTemplates.TemplateManager.RegisterTemplateOverrides(followingOverridePostRenderCtx);
+            }
+            registerOverride(101);
+            registerOverride(700);
+        });
+    })();(function(){
+
+        if (typeof(_spBodyOnLoadFunctions) === 'undefined' || _spBodyOnLoadFunctions === null) {
+            return;
+        }
+        _spBodyOnLoadFunctions.push(function() 
+        {
+          ExecuteOrDelayUntilScriptLoaded(
+            function()
+            {
+              var pairs = SP.ScriptHelpers.getDocumentQueryPairs();
+              var followDoc, itemId, listId, docName;
+              for (var key in pairs)
+              {
+                if(key.toLowerCase() == 'followdocument') 
+                  followDoc = pairs[key];
+                else if(key.toLowerCase() == 'itemid') 
+                  itemId = pairs[key];
+                else if(key.toLowerCase() == 'listid') 
+                  listId = pairs[key];
+                else if(key.toLowerCase() == 'docname') 
+                  docName = decodeURI(pairs[key]);
+              } 
+
+              if(followDoc != null && followDoc == '1' && listId!=null && itemId != null && docName != null)
+              {
+                SP.SOD.executeFunc('followingcommon.js', 'FollowDocumentFromEmail', function() 
+                { 
+                  FollowDocumentFromEmail(itemId, listId, docName);
+                });
+              }
+
+            }, 'SP.init.js');
+
+        });
+    })();if (typeof(DeferWebFormInitCallback) == 'function') DeferWebFormInitCallback();//]]>
+</script>
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="BAB98CB3" />
+            <span id="DeltaSPWebPartManager">
+                
+            </span>
+            
+            
+            
+            
+
+            
+                
+                <span id="ctl00_SPSecurityTrimmedControl2"><!-- IE scroll bar fix --><div id="s4-ribbonrow" style="display:none;"></div></span> 
+
+
+            <div id="s4-workspace">
+                <div id="s4-bodyContainer">
+                <a id="top" name="top" tabindex="-1"></a>
+                    <div class="masthead ms-dialogHidden">
+                        <div class="header clearfix container">
+                        	<div class="row">
+	                        	<div class="col-md-1">                        	
+	                        	</div>
+	                        	<div class="col-md-10">
+                        	
+                        	
+                            <div id="DeltaSiteLogo" class="pull-left">
+	
+                                <a id="ctl00_x36d5bee949a7480783b3afc048c15598" class="ms-siteicon-a" href="/"><img src="/Style%20Library/Geant/Images/logo.png" alt="Geant" /> </a>
+                            
+</div>
+                          
+                            
+                            
+                              
+                        
+                            <!--search-->
+                            <div class="input-group pull-right">
+                            	<div class="row">
+                            			<div class="col-xs-12">
+			                            	<div class="social-links">			                            		
+	                            				<a href="https://www.facebook.com/GEANTnetwork">
+	                            					<img src="/Style Library/Geant/Images/Social-Media/top_sm_facebook.png" alt="Facebook" >
+	                            				</a>
+	                            		 
+	                            				<a href="https://soundcloud.com/geant-sounds">
+	                            					<img src="/Style Library/Geant/Images/Social-Media/top_sm_soundcloud.png" alt="Soundcloud" >
+	                            				</a>
+	                            			 
+	                            				<a href="https://twitter.com/GEANTnews">
+	                            					<img src="/Style Library/Geant/Images/Social-Media/top_sm_twitter.png" alt="Twitter" >
+	                            				</a>
+	                            			 
+	                            				<a href="https://www.youtube.com/user/GEANTtv">
+	                            					<img src="/Style Library/Geant/Images/Social-Media/top_sm_youtube.png" alt="Youtube" >
+	                            				</a>
+			                            	</div>		                            
+			                          
+			                            	<div class="top-nav-links">
+			                            		<div class="row">
+			                            			<span id="DeltaPlaceHolderTopNavLinks">
+											             
+
+	<div class="ms-webpart-chrome ms-webpart-chrome-fullWidth ">
+	<div class="ms-webpart-chrome-title" id="WebPartWPQ14_ChromeTitle">
+		<span title="" id="WebPartTitleWPQ14" class="js-webpart-titleCell"><h2 style="text-align:justify;" class="ms-webpart-titleText">&nbsp;<span></span><span id="WebPartCaptionWPQ14"></span></h2></span>
+	</div><div WebPartID="00000000-0000-0000-0000-000000000000" HasPers="true" id="WebPartWPQ14" width="100%" class="ms-WPBody ms-WPBorder ms-wpContentDivSpace " OnlyForMePart="true" allowDelete="false" style="" ><noscript><div id="ctl00_PlaceHolderTopNavLinks_g_157b8eb3_665f_487d_bb57_b9c9e5654960_ctl00_noscript">It looks like your browser does not have JavaScript enabled. Please turn on JavaScript and try again.</div></noscript><div id="ctl00_PlaceHolderTopNavLinks_g_157b8eb3_665f_487d_bb57_b9c9e5654960_ctl00">
+
+	</div><div class="ms-clear"></div></div>
+</div><div class="ms-webpart-chrome ms-webpart-chrome-fullWidth ">
+	<div class="ms-webpart-chrome-title" id="WebPartWPQ15_ChromeTitle">
+		<span title="" id="WebPartTitleWPQ15" class="js-webpart-titleCell"><h2 style="text-align:justify;" class="ms-webpart-titleText">&nbsp;<span></span><span id="WebPartCaptionWPQ15"></span></h2></span>
+	</div><div WebPartID="00000000-0000-0000-0000-000000000000" HasPers="true" id="WebPartWPQ15" width="100%" class="ms-WPBody ms-WPBorder ms-wpContentDivSpace " OnlyForMePart="true" allowDelete="false" style="" ><?xml version="1.0" encoding="utf-8"?><p><table><tr><td><a href="">Contacts</a></td><td>Contacts</td><td>http://www.geant.org/Contacts/Pages/Home.aspx, /Contacts/Pages/Home.aspx</td></tr><tr><td><a href="">Support</a></td><td>Support</td><td>http://www.geant.org/Support/Pages/Home.aspx, /Support/Pages/Home.aspx</td></tr><tr><td><a href="">JOBS</a></td><td>JOBS</td><td>http://www.geant.org/About/Joining_GEANT/Pages/Job_opportunities.aspx, /About/Joining_GEANT/Pages/Job_opportunities.aspx</td></tr><tr><td><a href="">GATEWAY</a></td><td>GATEWAY</td><td>http://www.geant.org/Gateway/Pages/Home.aspx, /Gateway/Pages/Home.aspx</td></tr></table></p><div class="ms-clear"></div></div>
+</div><div class="ms-webpart-chrome ms-webpart-chrome-fullWidth ">
+	<div WebPartID="00000000-0000-0000-0000-000000000000" HasPers="true" id="WebPartWPQ1" width="100%" class="ms-WPBody " OnlyForMePart="true" allowMinimize="false" allowRemove="false" allowDelete="false" style="" ><div class="ms-clear"></div></div>
+</div>
+
+
+											        </span>
+												</div>
+											</div>
+											
+										</div>
+                            	</div>
+                            
+                            
+                                
+                                <div id="DeltaPlaceHolderSearchArea" class="ms-mpSearchBox ms-floatRight">
+	
+                                    
+										<div id="searchInputBox">
+                                            <div class="ms-webpart-chrome ms-webpart-chrome-fullWidth ">
+		<div WebPartID="00000000-0000-0000-0000-000000000000" HasPers="true" id="WebPartWPQ2" width="100%" class="ms-WPBody " OnlyForMePart="true" allowDelete="false" style="" ><div componentid="ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr" id="ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr"><div id="SearchBox" name="Control"><div class="ms-srch-sb ms-srch-sb-border" id="ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_sboxdiv"><input type="text" value="Search..." maxlength="2048" accessKey="S" title="Search..." id="ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_sbox" autocomplete="off" autocorrect="off" onkeypress="EnsureScriptFunc('Search.ClientControls.js', 'Srch.U', function() {if (Srch.U.isEnterKey(String.fromCharCode(event.keyCode))) {$find('ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr').search($get('ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_sbox').value);return Srch.U.cancelEvent(event);}})" onkeydown="EnsureScriptFunc('Search.ClientControls.js', 'Srch.U', function() {var ctl = $find('ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr');ctl.activateDefaultQuerySuggestionBehavior();})" onfocus="EnsureScriptFunc('Search.ClientControls.js', 'Srch.U', function() {var ctl = $find('ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr');ctl.hidePrompt();ctl.setBorder(true);})" onblur="EnsureScriptFunc('Search.ClientControls.js', 'Srch.U', function() {var ctl = $find('ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr'); if (ctl){ ctl.showPrompt(); ctl.setBorder(false);}})" class="ms-textSmall ms-srch-sb-prompt ms-helperText"/><a title="Search" class="ms-srch-sb-searchLink" id="ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_SearchLink" onclick="EnsureScriptFunc('Search.ClientControls.js', 'Srch.U', function() {$find('ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr').search($get('ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_sbox').value);})" href="javascript: {}" ><img src="/_layouts/15/images/searchresultui.png?rev=23" class="ms-srch-sb-searchImg" id="searchImg" alt="Search" /></a><div class="ms-qSuggest-container ms-shadow" id="AutoCompContainer"><div id="ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_AutoCompList"></div></div></div></div></div><noscript><div id="ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_noscript">It looks like your browser does not have JavaScript enabled. Please turn on JavaScript and try again.</div></noscript><div id="ctl00_PlaceHolderSearchArea_SmallSearchInputBox1">
+
+		</div><div class="ms-clear"></div></div>
+	</div>
+                                        </div>
+                                    
+                                
+</div>
+                                
+                                </div> 
+                                </div>
+
+							<div class="col-md-1">                        	
+		                	</div>                        
+		                </div> 
+                            </div>
+                        </div> 
+
+                       
+
+
+ <div class="container">
+                            	<div class="row">
+	                        	<div class="col-md-1">                        	
+	                        	</div>
+	                        	<div class="col-md-10">
+                        <div class="navbar navbar-inverse">
+                           
+
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>                        
+                                </div>
+                                <div id="DeltaTopNavigation" class="ms-displayInline ms-core-navigation" role="navigation">
+	
+                                    
+                                    
+										<div id="zz1_TopNavigationMenu" class="collapse navbar-collapse noindex ms-core-listMenu-horizontalBox">
+		<ul id="zz2_RootAspMenu" class="root ms-core-listMenu-root static">
+			<li class="static dynamic-children"><a class="static dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Networks" accesskey="1"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">NETWORKS</span></span></a><ul class="dynamic">
+				<li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Networks/Pan-European_network/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">GÉANT pan-European network</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Networks/Pan-European_network/Pages/GEANT_topology_map.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">GÉANT topology map</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Networks/Pan-European_network/Pages/The_technology.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">The technology</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Networks/Pan-European_network/Pages/What-sets-it-apart.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">What sets it apart?</span></span></a></li>
+				</ul></li><li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Networks/Global_networking/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Global networking</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Networks/Global_networking/Pages/The_Americas.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">The Americas</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Networks/Global_networking/Pages/Africa_and_the_Middle_East.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Africa and the Middle East</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Networks/Global_networking/Pages/Asia_and_Pacific.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Asia and Pacific</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Networks/Global_networking/Pages/Eastern_Partnership.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Eastern Partnership</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Networks/Global_networking/Pages/Global_service_collaboration.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Global service collaboration</span></span></a></li>
+				</ul></li><li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Networks/Network_Operations/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Network Operations</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Networks/Network_Operations/Pages/GEANT_Operations_Centre.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">GÉANT Operations Centre</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Networks/Network_Operations/Pages/GEANT_CERT.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">GÉANT CERT</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Networks/Network_Operations/Pages/Multi-Domain_Security_Team.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Multi-Domain Security Team</span></span></a></li>
+				</ul></li>
+			</ul></li><li class="static dynamic-children"><a class="static dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">SERVICES</span></span></a><ul class="dynamic">
+				<li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Connectivity_and_network/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Connectivity &amp; network management</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Connectivity_and_network/Pages/GEANT_IP.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">GÉANT IP</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Connectivity_and_network/Pages/GEANT_Point-to-Point.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">GÉANT point-to-point</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Connectivity_and_network/Pages/GEANT_Open.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">GÉANT Open</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Connectivity_and_network/Pages/VPN_Services.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">GÉANT VPN Services</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Connectivity_and_network/Pages/GEANT_Testbeds_Service.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">GÉANT Testbeds Service</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Connectivity_and_network/Pages/eduroam.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">eduroam</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Connectivity_and_network/Pages/perfSONAR.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">perfSONAR</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Connectivity_and_network/Pages/eduPERT.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">eduPERT</span></span></a></li>
+				</ul></li><li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Trust_identity_and_security/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Trust, identity &amp; security</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Trust_identity_and_security/Pages/eduGAIN.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">eduGAIN</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Trust_identity_and_security/Pages/eduPKI.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">eduPKI</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Trust_identity_and_security/Pages/TCS.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">TCS</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Trust_identity_and_security/Pages/Trusted_Introducer.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Trusted Introducer</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Trust_identity_and_security/Pages/TACAR.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">TACAR</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Trust_identity_and_security/Pages/TRANSITS_Training.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">TRANSITS training</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Trust_identity_and_security/Pages/FaaS.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">FaaS</span></span></a></li>
+				</ul></li><li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Storage_and_clouds/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Storage &amp; clouds</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Storage_and_clouds/Pages/Cloud_Services.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Cloud Services</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Storage_and_clouds/Pages/FileSender.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">FileSender</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Storage_and_clouds/Pages/ownCloud.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">ownCloud</span></span></a></li>
+				</ul></li><li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Real-time_communications/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Real-time communications &amp; multimedia</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Real-time_communications/Pages/eduCONF.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">eduCONF</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Real-time_communications/Pages/eduOER.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">eduOER</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Real-time_communications/Pages/NRENum_net.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">NRENum.net​</span></span></a></li>
+				</ul></li><li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Professional_services"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Professional services</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Professional_services/#project_management"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Project management</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Professional_services/#consultancy"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Consultancy</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Services/Professional_services/#secretariat"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Secretariat services</span></span></a></li>
+				</ul></li>
+			</ul></li><li class="static dynamic-children"><a class="static dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">PEOPLE</span></span></a><ul class="dynamic">
+				<li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/research_communities/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Research communities</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/research_communities/Pages/Particle_physics.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Particle physics</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/research_communities/Pages/Space.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Space</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/research_communities/Pages/Health_and_medicine.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Health &amp; medicine</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/research_communities/Pages/Earth_observation.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Earth observation</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/research_communities/Pages/Energy.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Energy</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/research_communities/Pages/Arts_and_education.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Arts &amp; education</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/research_communities/Pages/Science_meets_art.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Science meets art</span></span></a></li>
+				</ul></li><li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/Community_development/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Community development</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/Community_development/Pages/TNC.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">TNC</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/Community_development/Pages/Training.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Training</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/Community_development/Pages/TF-CPR.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">TF-CPR</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/Community_development/Pages/TF-MSP.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">TF-MSP</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/Community_development/Pages/Campus_Best_Practice.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Campus Best Practice</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/Community_development/Pages/Green_ICT.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Green ICT</span></span></a></li>
+				</ul></li><li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/Community_Awards/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Community Awards</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/Community_Awards/Pages/Overview_of_winners.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Overview of winners</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/Community_Awards/Pages/Submit_a_nomination.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Submit a nomination</span></span></a></li>
+				</ul></li>
+			</ul></li><li class="static dynamic-children"><a class="static dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Innovation"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">INNOVATION</span></span></a><ul class="dynamic">
+				<li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Innovation/Research_programmes/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Research programmes</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Innovation/Research_programmes/Pages/Network_architectures.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Network architectures</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Innovation/Research_programmes/Pages/Network_services.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Network services</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Innovation/Research_programmes/Pages/Trust_and_identity.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Trust and identity</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Innovation/Research_programmes/Pages/Foresight_studies.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Foresight studies</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Innovation/Research_programmes/Pages/Standards.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Standards</span></span></a></li>
+				</ul></li><li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Innovation/SIG_TF/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Special interest groups &amp; task forces</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Innovation/SIG_TF/Pages/SIG-ISM.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">SIG-ISM</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Innovation/SIG_TF/Pages/SIG-NOC.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">SIG-NOC</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Innovation/SIG_TF/Pages/TF-CSIRT.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">TF-CSIRT</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Innovation/SIG_TF/Pages/TF-MNM.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">TF-MNM</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Innovation/SIG_TF/Pages/TF-Storage.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">TF-Storage</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Innovation/SIG_TF/Pages/TF-WebRTC.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">TF-WebRTC</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/Community_development/Pages/TF-CPR.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">TF-CPR</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/Community_development/Pages/TF-MSP.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">TF-MSP</span></span></a></li>
+				</ul></li><li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Innovation/Open_Call/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Open Call Programme</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Innovation/Open_Call/Pages/Home.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Overview</span></span></a></li>
+				</ul></li>
+			</ul></li><li class="static dynamic-children selected"><a class="static dynamic-children selected menu-item ms-core-listMenu-item ms-displayInline ms-core-listMenu-selected ms-navedit-linkNode" tabindex="0" href="/Projects"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">PROJECTS</span><span class="ms-hidden">Currently selected</span></span></a><ul class="dynamic">
+				<li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/GEANT_Project_GN4-1/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">GÉANT project (GN4-1)</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/GEANT_Project_GN4-1/Pages/A_European_success_story.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">A European success story</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/GEANT_Project_GN4-1/Pages/Supporting_Horizon_2020.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Supporting Horizon 2020</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/GEANT_Project_GN4-1/Pages/Partners.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Partners</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/GEANT_Project_GN4-1/Pages/Activity_structure.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Activity structure</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/GEANT_Project_GN4-1/Pages/Deliverables.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Deliverables</span></span></a></li>
+				</ul></li><li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/Network_projects/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Network projects</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/Network_projects/Pages/Home.aspx/#geant"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">GÉANT Project</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/Network_projects/Pages/Home.aspx/#africaconnect"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">AfricaConnect2</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/Network_projects/Pages/Home.aspx/#caren"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">CAREN</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/Network_projects/Pages/Home.aspx/#eapconnect"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">EaPConnect</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/Network_projects/Pages/Home.aspx/#eumedconnect3"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">EUMEDCONNECT3</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/Network_projects/Pages/Home.aspx/#fed4fire"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Fed4FIRE</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/Network_projects/Pages/Home.aspx/#glif"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">GLIF</span></span></a></li>
+				</ul></li><li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/Trust_and_Identity/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Trust &amp; identity projects</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/Trust_and_Identity/Pages/Home.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">AARC</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/Trust_and_Identity/Pages/Home.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">REFEDS</span></span></a></li>
+				</ul></li><li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/collaboration_projects/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Collaboration projects</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/collaboration_projects/Pages/Home.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">MAGIC</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/collaboration_projects/Pages/Home.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">OpenCloudMesh</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Projects/collaboration_projects/Pages/Home.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">TANDEM</span></span></a></li>
+				</ul></li>
+			</ul></li><li class="static dynamic-children"><a class="static dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">ABOUT</span></span></a><ul class="dynamic">
+				<li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/Our_organisation/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Our organisation</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/Our_organisation/Pages/Activities.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Activities</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/Our_organisation/Pages/Partnership.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">EC Partnership</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/Our_organisation/Pages/Funding.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Funding</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/Our_organisation/Pages/Formalities.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Formalities</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/Our_organisation/Pages/Governance.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Governance</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/Our_organisation/Pages/Managers.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Managers</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/Our_organisation/Pages/Staff.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Staff</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Contacts/Pages/Home.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Contact us</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Support/Pages/Home.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Support</span></span></a></li>
+				</ul></li><li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/Membership/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Membership</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/Membership/Pages/MAandGAreps.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Members, Associates &amp; GA representatives</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/Membership/Pages/Membership_map.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Membership map</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/Our_organisation/Pages/Formalities.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Membership documents</span></span></a></li>
+				</ul></li><li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/NRENs/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">NRENs</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/NRENs/Pages/The_case_for_NRENs.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">The case for NRENs</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/NRENs/Pages/NREN_Compendium.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">NREN Compendium</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/NRENs/Pages/NREN_service_portfolio.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">NREN service portfolio</span></span></a></li>
+				</ul></li><li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/Joining_GEANT/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Joining GÉANT</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/Joining_GEANT/Pages/Become_a_member.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Become a member or associate organisation</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/Joining_GEANT/Pages/Job_opportunities.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Job opportunities</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/About/Joining_GEANT/Pages/Participate.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Participate in our activities</span></span></a></li>
+				</ul></li>
+			</ul></li><li class="static dynamic-children"><a class="static dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Resources"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">RESOURCES</span></span></a><ul class="dynamic">
+				<li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Resources/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Library</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Resources/#information_sheets"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Information S​heets</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Resources/#maps"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Maps</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Resources/#service_descriptions"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Service Descriptions</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Resources/#publications"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Publications</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Resources/#logos"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Logos</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Resources/#videos"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Videos​</span></span></a></li>
+				</ul></li>
+			</ul></li><li class="static dynamic-children"><a class="static dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/News_and_Events"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">NEWS &amp; EVENTS</span></span></a><ul class="dynamic">
+				<li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/News_and_Events/News/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">News</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/News_and_Events/News/Pages/GEANT-News.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">GÉANT news</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/News_and_Events/News/Pages/pear-communit​​y-news.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">PeaR communit​​y news</span></span></a></li>
+				</ul></li><li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/News_and_Events/Events/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Events</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/News_and_Events/Events/Pages/Home.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Calendar</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/News_and_Events/Events/Pages/SC15.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">SC15</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/People/Community_development/Pages/TNC.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">TNC16</span></span></a></li>
+				</ul></li><li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/News_and_Events/CONNECT/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">CONNECT</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/News_and_Events/CONNECT/Pages/Home.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Current issue</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/News_and_Events/CONNECT/Pages/Past_issues.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Past issues</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/News_and_Events/CONNECT/Pages/Articles.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Articles library</span></span></a></li>
+				</ul></li><li class="dynamic dynamic-children"><a class="dynamic dynamic-children menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/News_and_Events/Social_media/Pages/Home.aspx"><span aria-haspopup="true" class="additional-background ms-navedit-flyoutArrow dynamic-children"><span class="menu-item-text">Social media</span></span></a><ul class="dynamic">
+					<li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/News_and_Events/Social_media/Pages/Twitter.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Twitter</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/News_and_Events/Social_media/Pages/YouTube.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">YouTube</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/News_and_Events/Social_media/Pages/Facebook.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Facebook</span></span></a></li><li class="dynamic"><a class="dynamic menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/News_and_Events/Social_media/Pages/SoundCloud.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">SoundCloud</span></span></a></li>
+				</ul></li>
+			</ul></li>
+		</ul>
+	</div>
+                                    
+                                
+</div>
+                            </div>
+                      
+                          	<div class="main-nav-right-links collapse navbar-collapse">
+                          		<span id="DeltaPlaceHolderMainNavRightLinks">
+									 
+
+	<div class="ms-webpart-chrome ms-webpart-chrome-fullWidth ">
+	<div class="ms-webpart-chrome-title" id="WebPartWPQ16_ChromeTitle">
+		<span title="" id="WebPartTitleWPQ16" class="js-webpart-titleCell"><h2 style="text-align:justify;" class="ms-webpart-titleText">&nbsp;<span></span><span id="WebPartCaptionWPQ16"></span></h2></span>
+	</div><div WebPartID="00000000-0000-0000-0000-000000000000" HasPers="true" id="WebPartWPQ16" width="100%" class="ms-WPBody ms-WPBorder ms-wpContentDivSpace " OnlyForMePart="true" allowDelete="false" style="" ><noscript><div id="ctl00_PlaceHolderMainNavRightLinks_ContentBySearchWebPart1_ctl00_noscript">It looks like your browser does not have JavaScript enabled. Please turn on JavaScript and try again.</div></noscript><div id="ctl00_PlaceHolderMainNavRightLinks_ContentBySearchWebPart1_ctl00">
+
+	</div><div class="ms-clear"></div></div>
+</div><div class="ms-webpart-chrome ms-webpart-chrome-fullWidth ">
+	<div class="ms-webpart-chrome-title" id="WebPartWPQ17_ChromeTitle">
+		<span title="" id="WebPartTitleWPQ17" class="js-webpart-titleCell"><h2 style="text-align:justify;" class="ms-webpart-titleText">&nbsp;<span></span><span id="WebPartCaptionWPQ17"></span></h2></span>
+	</div><div WebPartID="00000000-0000-0000-0000-000000000000" HasPers="true" id="WebPartWPQ17" width="100%" class="ms-WPBody ms-WPBorder ms-wpContentDivSpace " OnlyForMePart="true" allowDelete="false" style="" ><?xml version="1.0" encoding="utf-8"?><div class="ms-clear"></div></div>
+</div><div class="ms-webpart-chrome ms-webpart-chrome-fullWidth ">
+	<div WebPartID="00000000-0000-0000-0000-000000000000" HasPers="true" id="WebPartWPQ3" width="100%" class="ms-WPBody " OnlyForMePart="true" allowMinimize="false" allowRemove="false" allowDelete="false" style="" ><div class="ms-clear"></div></div>
+</div>
+
+
+							    </span>
+                          	</div>
+                          </div>
+                            <div class="col-md-1">                        	
+	                        </div>
+	                     </div>
+						
+                    
+                   </div>  
+                   
+                   <div id="breadcrumb-area">
+                   
+                   		 <span id="DeltaBreadcrumbDropdown"> 
+                                
+<div id="breadcrumb-wrapper">
+	<div class="container">	
+		<div class="row"> 
+			<div class="col-md-1">			 
+			</div> 
+            <div class="col col-md-10">
+            	<div class="root-node">
+            		<a href="/">Home</a>
+            	</div>
+				<ul class="s4-breadcrumb">
+	<li class="s4-breadcrumbRootNode"><span class="s4-breadcrumb-arrowcont"><img src="/_layouts/15/images/nodearrow.png" alt="" style="display:inline-block;padding-top:4px;" /></span><a class="s4-breadcrumbRootNode" href="/Pages/Home.aspx">Home</a><ul class="s4-breadcrumbRootNode">&gt;<li class="s4-breadcrumbNode"><span class="s4-breadcrumb-arrowcont"><img src="/_layouts/15/images/nodearrow.png" alt="" style="display:inline-block;padding-top:4px;" /></span><a class="s4-breadcrumbNode" href="/Projects/Pages/Home.aspx">Projects</a><ul class="s4-breadcrumbNode">&gt;<li class="s4-breadcrumbCurrentNode"><span class="s4-breadcrumb-arrowcont"><img src="/_layouts/15/images/nodearrow.png" alt="" style="display:inline-block;padding-top:4px;" /></span><span class="s4-breadcrumbCurrentNode">GÉANT project (GN4-1)</span></li></ul></li></ul></li>
+</ul>	
+			</div>
+			<div class="col-md-1">			 
+			</div>	
+		</div>
+	</div>	
+</div>
+
+                         
+                        </span>
+                   </div>
+                       
+					<div id="bannerarea">
+                        <div id="DeltaPlaceHolderBanner">
+	                        
+                            
+  
+	<!-- First Row-->
+ 	<div class="inner-banner">
+ 		<div class="container">
+			<div class="row">			 
+                <div class="col col-md-12">
+                    <!-- Inner  Banner Image - place in a paragraph to enforce the modular scale spacing -->                    				    
+				    <div class="inner-banner-wrapper">
+				   		 <div class="inner-banner-image">
+				   		 	<img alt="" src="/Projects/GEANT_Project_GN4-1/PublishingImages/Pages/Home/GN4_project_banner.jpg" style="BORDER: 0px solid; ">	
+				   		 </div>				   	
+				   		 <div class="inner-banner-content">
+				   		 	 <div class="inner-banner-page-title">
+				   		 		<div class="ExternalClassA2B1DDD901F34127AA6A7401AA5CAC6D">GÉANT Project (GN4-1)</div>
+				   		 	</div>	
+				   			 <div class="inner-banner-byline">
+				   		 		<div class="ExternalClassB285992FE7084263A6FFAFC3DDA16197">Accelerating research, driving innovation</div><div class="ExternalClassB285992FE7084263A6FFAFC3DDA16197">and enriching education.</div>
+				   		 	</div>	
+				   		 	<div class="inner-banner-caption">
+				    			
+				    		</div>				    	 		  
+  						</div>
+				    </div>
+                </div>                
+            </div>
+         </div>
+    </div>
+ 
+                        
+</div>                          
+                    </div>
+     
+
+                    <div id="centerarea" class="container">
+                        <div class="row">                            
+                            <div class="col-sm-3 col-lg-2 ms-dialogHidden"> 
+                                <div id="DeltaPlaceHolderLeftNavBar" class="ms-core-navigation" role="navigation">
+	
+                                    
+										<a id="startNavigation" name="startNavigation" tabindex="-1"></a>
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <div class="ms-core-sideNavBox-removeLeftMargin">                                                  
+                                             
+                                            														 
+                                            
+                                        </div>
+                                    
+                                
+</div> 
+                            </div>
+                            <div class="col-sm-9 col-lg-10">
+							</div>
+						 </div>
+						 <div id="MainRow" class="row">  
+						   <div class="col-sm-12 col-lg-12">
+ 
+                                <div id="notificationArea" class="ms-notif-box"></div>
+                                <div id="DeltaPageStatusBar">
+	
+                                    <div id="pageStatusBar"></div>
+                                
+</div>
+                                <div id="DeltaPlaceHolderMain">
+	
+                                    <a id="mainContent" name="mainContent" tabindex="-1"></a>
+                                    
+	
+			<!-- 1st Row-->
+            <div class="row inner-row">
+             	<div class="col-md-1 left-side">
+             	
+             	
+
+					<menu class="ms-hide">
+		<ie:menuitem id="MSOMenu_Help" iconsrc="/_layouts/15/images/HelpIcon.gif" onmenuclick="MSOWebPartPage_SetNewWindowLocation(MenuWebPart.getAttribute('helpLink'), MenuWebPart.getAttribute('helpMode'))" text="Help" type="option" style="display:none">
+
+		</ie:menuitem>
+	</menu>
+
+             	<div class="page-sharing">           	
+             	
+	             	<div class="share-link share-link-twitter">
+	             		<a class="twitter-share-button" href="https://twitter.com/share" data-via="twitterdev">
+						Tweet</a>
+					</div>
+					<div class="share-link share-link-facebook">
+						<div id="fb-root"></div>
+						<div class="fb-like" data-href="" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>  
+					</div>
+					<div class="share-link share-link-message">
+						<a href="mailto:" title="Message" id="email-to">   
+							<img src="/style library/geant/images/mail-icon.png" alt="Message">   
+							<span class="message-text">Message</span>
+						</a></div>
+					<div class="share-link share-link-print">
+						<a href="#" onclick="window.print();return false"><img src="/style library/geant/images/print-icon.png" alt="Print this page">
+							<span class="print-text">Print</span>
+						</a></div>
+
+					<script>
+
+					    window.twttr = (function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], t = window.twttr || {}; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); t._e = []; t.ready = function (f) { t._e.push(f); }; return t; }(document, "script", "twitter-wjs"));
+
+					    (function (d, s, id) {
+					        var js, fjs = d.getElementsByTagName(s)[0];
+					        if (d.getElementById(id)) return;
+					        js = d.createElement(s); js.id = id;
+					        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";
+					        fjs.parentNode.insertBefore(js, fjs);
+					    }(document, 'script', 'facebook-jssdk'));
+
+					    $('.fb-like').attr('data-href', window.location.href);
+
+					    var pageTitle = 'GÉANT project (GN4-1)';
+					    var pageLink = window.location.href;
+					    var subject = "Link from the GÉANT Project site";
+					    var body = pageLink;
+					    $('#email-to').attr('href', 'mailto:?subject=' + subject + '&body=' + body);
+
+					</script>
+				</div>
+			</div>
+                
+                <div id="inner-content" class="col-md-10 center-col">
+	                <div class="row root-row">
+	                	<div class="col-md-9 center-left"> 
+	                		<div class="row">
+	                			<div class="col-md-12"> 
+					        		<div class="ms-webpart-zone ms-fullWidth">
+		<div id="MSOZoneCell_WebPartWPQ6" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+			<div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+				<div WebPartID="da7b5903-ee47-4ffd-9626-2acb9bfeac2d" HasPers="false" id="WebPartWPQ6" width="100%" class="ms-WPBody " allowDelete="false" style="" ><div class="ms-rtestate-field"><p> <strong>The&#160;GÉANT Project has gro​wn during its iterations (GN1, GN2, GN3, GN3plus and now GN4-1) to incorporate not just the award-winning 500Gbps pan-European network, but also a catalogue of advanced, user-focused services, and a successful programme of innovation&#160;that is pushing the boundaries of networking technology to deliver real impact to over 50 million users.</strong></p> 
+<p>&#160;&#160; </p> 
+<p> 
+   <span style="line-height: 1.6;">The <a href="/Networks/Pan-European_network/Pages/Home.aspx"><span class="ms-rteThemeForeColor-5-0">GÉANT network</span></a> provides the high speed connectivity needed to share, access and process the massive volumes of data. This data is generated by, and essential to, diverse research and education <a href="/People/research_communities/Pages/Home.aspx"><span class="ms-rteThemeForeColor-5-0">communities</span></a> across such areas as particle physics, bioinformatics, earth observation, drug discovery, and arts and culture.</span></p></div><div class="ms-clear"></div></div>
+			</div><div class="ms-PartSpacingVertical"></div>
+		</div><div id="MSOZoneCell_WebPartWPQ9" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+			<div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+				<div WebPartID="505dc4db-f873-4f62-82bc-862212efd422" HasPers="false" id="WebPartWPQ9" width="100%" class="ms-WPBody ms-WPBorderBorderOnly " allowDelete="false" style="" ><div class="ms-rtestate-field"><h3>
+   <a href="/Projects/GEANT_Project_GN4-1/Pages/A_European_Success_Story.aspx"><img class="ms-rtePosition-1" alt="success.jpg" src="/Projects/GEANT_Project_GN4-1/PublishingImages/Pages/Home/success.jpg" data-pin-nopin="true" style="margin: 5px; width: 69px;"/></a>​<a href="/Projects/GEANT_Project_GN4-1/Pages/A_European_Success_Story.aspx"><strong class="ms-rteStyle-Accent1"><span class="ms-rteThemeForeColor-5-0">A European success story</span></strong></a></h3>
+<p>The GÉANT Project and associated activities&#160;have been a vital element of Europe&#39;s e-infrastructure strategy for 15 years.</p></div><div class="ms-clear"></div></div>
+			</div><div class="ms-PartSpacingVertical"></div>
+		</div><div id="MSOZoneCell_WebPartWPQ8" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+			<div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+				<div WebPartID="8cacec57-1b02-498c-9c8f-ba5a8673af7b" HasPers="false" id="WebPartWPQ8" width="100%" class="ms-WPBody ms-WPBorderBorderOnly " allowDelete="false" style="" ><div class="ms-rtestate-field"><h3><a href="/Projects/GEANT_Project_GN4-1/Pages/Supporting_Horizon_2020.aspx"><img class="ms-rtePosition-1" alt="2020.jpg" src="/Projects/GEANT_Project_GN4-1/PublishingImages/Pages/Home/2020.jpg" style="margin: 5px; width: 68px;"/></a>​<a href="/Projects/GEANT_Project_GN4-1/Pages/Supporting_Horizon_2020.aspx"><strong class="ms-rteStyle-Accent1">Supporting Horizon 2020&#160;</strong></a></h3><p>The GÉANT Project&#160;is a key part of the Digital Agenda for Europe, a flagship initiative driving Europe 2020.</p></div><div class="ms-clear"></div></div>
+			</div><div class="ms-PartSpacingVertical"></div>
+		</div><div id="MSOZoneCell_WebPartWPQ12" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+			<div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+				<div WebPartID="4236c186-94c9-4040-9837-1b9392e5a48f" HasPers="false" id="WebPartWPQ12" width="100%" class="ms-WPBody ms-WPBorderBorderOnly " allowDelete="false" style="" ><div class="ms-rtestate-field"><h3><a href="/Projects/GEANT_Project_GN4-1/Pages/Partners.aspx"><img class="ms-rtePosition-1" alt="partners.jpg" src="/Projects/GEANT_Project_GN4-1/PublishingImages/Pages/Home/partners.jpg" data-pin-nopin="true" style="margin: 5px; width: 69px;"/></a><strong class="ms-rteStyle-Accent1">​</strong><a href="/Projects/GEANT_Project_GN4-1/Pages/Partners.aspx"><strong class="ms-rteStyle-Accent1">GÉANT Project partners</strong></a></h3><p>The collaboration of the NREN partners has long&#160;been paramount to the continued success of the GÉANT project.<br/></p></div><div class="ms-clear"></div></div>
+			</div><div class="ms-PartSpacingVertical"></div>
+		</div><div id="MSOZoneCell_WebPartWPQ11" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+			<div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+				<div WebPartID="8c034ee5-2936-4bac-83d4-5a5cae5d7bfc" HasPers="false" id="WebPartWPQ11" width="100%" class="ms-WPBody ms-WPBorderBorderOnly " allowDelete="false" style="" ><div class="ms-rtestate-field"><h3><a href="/Projects/GEANT_Project_GN4-1/Pages/Activity_structure.aspx"><img class="ms-rtePosition-1" alt="structure2.jpg" src="/Projects/GEANT_Project_GN4-1/PublishingImages/Pages/Home/structure2.jpg" data-pin-nopin="true" style="margin: 5px; width: 69px;"/></a>​<a href="/Projects/GEANT_Project_GN4-1/Pages/Activity_structure.aspx"><strong class="ms-rteStyle-Accent1">Activity structure</strong></a></h3><p>The GÉANT Project is structured ​into four functional activity groups: Networking, Development Service,&#160;<span style="line-height: 1.6;">Production &amp; Security Service​ and&#160;Joint Research.</span></p></div><div class="ms-clear"></div></div>
+			</div><div class="ms-PartSpacingVertical"></div>
+		</div><div id="MSOZoneCell_WebPartWPQ10" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+			<div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+				<div WebPartID="bc70f2e4-b41c-4fc4-888d-8e3e09676c30" HasPers="false" id="WebPartWPQ10" width="100%" class="ms-WPBody ms-WPBorderBorderOnly " allowDelete="false" style="" ><div class="ms-rtestate-field"><h3>​<a href="/Projects/GEANT_Project_GN4-1/Pages/Deliverables.aspx"><img class="ms-rtePosition-1" alt="deliverables2.jpg" src="/Projects/GEANT_Project_GN4-1/PublishingImages/Pages/Home/deliverables2.jpg" style="margin: 5px; width: 67px;"/></a><strong class="ms-rteStyle-Accent1">​</strong><a href="/Projects/GEANT_Project_GN4-1/Pages/Deliverables.aspx"><strong class="ms-rteStyle-Accent1">GÉANT Project deliverables</strong></a></h3><p>There are 51 deliverables&#160;</p><p>planned for the current GN4-1 iteration of the GÉANT Project.&#160;​<br/></p></div><div class="ms-clear"></div></div>
+			</div>
+		</div>
+	</div>
+					    		</div> 
+	                		</div>
+	                		<div class="row">
+	                			<div class="col-md-6 bottom-left"> 
+					        		
+					    		</div> 
+					    		<div class="col-md-6 bottom-right"> 
+					        		
+					    		</div> 
+	                		</div>
+					    </div>	               
+	                	<div class="col-md-3 center-right"> 
+					        <div class="ms-webpart-zone ms-fullWidth">
+		<div id="MSOZoneCell_WebPartWPQ7" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+			<div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+				<div WebPartID="b4613f6d-b04b-465f-9449-5236809b4e3b" HasPers="false" id="WebPartWPQ7" width="100%" class="ms-WPBody ms-WPBorderBorderOnly " allowDelete="false" style="" ><div class="ms-rtestate-field"><h10 class="ms-rteElement-GeantHBlue">​The&#160;GÉANT Proj​​ect</h10>
+<table class="ms-rteTable-default" cellspacing="0" style="width: 100%;">
+   <tbody>
+      <tr>
+         <td class="ms-rteTable-default" style="width: 100%;">
+            <p>
+               <strong>The project&#160;is co-funded by Europe&#39;s NRENs and the EU.&#160;</strong></p>
+            <p>&#160;<img alt="eu_flag.jpg" src="/Projects/GEANT_Project_GN4-1/PublishingImages/Pages/Home/eu_flag.jpg" style="margin: 10px 0px; width: 60px;"/> </p>
+            <p>As part of the GÉANT 2020 Framework Partnership Agreement (FPA), the project receives funding from the European Union&#39;s Horizon 2020 research and innovation programme under Grant Agreement No. 691567 (GN4-1).​​​</p>
+         </td>
+      </tr>
+   </tbody>
+</table></div><div class="ms-clear"></div></div>
+			</div><div class="ms-PartSpacingVertical"></div>
+		</div><div id="MSOZoneCell_WebPartWPQ13" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+			<div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+				<div WebPartID="6c8d58c3-db48-4c30-93ea-74e4c40da03c" HasPers="false" id="WebPartWPQ13" width="100%" class="ms-WPBody ms-WPBorderBorderOnly " allowDelete="false" style="" ><div class="ms-rtestate-field"><h10 class="ms-rteElement-GeantHBlue">​​​CONNECT Magazine </h10>
+<p></p><table width="100%" class="ms-rteTable-default " cellspacing="0" style="height: 53px;"><tbody><tr><td class="ms-rteTable-default" style="width: 1%; height: 18px;">​​​</td>
+         <td class="ms-rteTable-default" style="width: 98%; height: 18px;">
+            <p>The lates​t issue of CONNECT is now avaialble to download or rea​d online.​​​</p> 
+            <p> 
+               <a href="http://issuu.com/geantpublish/docs/connect_issue_20/1" target="_blank" style="color: #0072c6; text-decoration: underline; outline-width: 0px;">
+                  <img alt="connect_small_banner.jpg" src="/People/PublishingImages/connect_small_banner.jpg" style="margin: 10px 0px; width: 179px;"/></a></p> 
+         </td>
+         <td class="ms-rteTable-default" style="width: 1%; height: 18px;">​​​​​</td>
+      </tr>
+   </tbody>
+</table></div><div class="ms-clear"></div></div>
+			</div>
+		</div>
+	</div>
+					    </div>					   	
+	                </div>	                               				    
+                </div>               
+                <div class="col-md-1 right-side">
+			 		  
+			 	</div>
+            </div>
+           
+          	<div class="row">
+          		<div class="col-md-1 left-side"> 
+			 	</div>
+                <div class="col-md-10 center-col">
+                	<div class="back-to-top"><a href="#top">back to top</a></div>
+                </div>
+			  	<div class="col-md-1 right-side">
+				</div>          	
+          	</div>
+           
+<div style='display:none' id='hidZone'></div>
+                                
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="footer">
+                    	<div class="container">
+                    		<div class="row">
+                    			<div class="col-md-1">
+								</div>
+                    			<div class="col-md-10">
+                    				<div id="footer-links">
+                    					<div class="footer-links-left">
+                    						  <span id="DeltaPlaceHolderFooterLeftLinks">
+									             
+
+	<div class="ms-webpart-chrome ms-webpart-chrome-fullWidth ">
+	<div class="ms-webpart-chrome-title" id="WebPartWPQ18_ChromeTitle">
+		<span title="" id="WebPartTitleWPQ18" class="js-webpart-titleCell"><h2 style="text-align:justify;" class="ms-webpart-titleText">&nbsp;<span></span><span id="WebPartCaptionWPQ18"></span></h2></span>
+	</div><div WebPartID="00000000-0000-0000-0000-000000000000" HasPers="true" id="WebPartWPQ18" width="100%" class="ms-WPBody ms-WPBorder ms-wpContentDivSpace " OnlyForMePart="true" allowDelete="false" style="" ><noscript><div id="ctl00_PlaceHolderFooterLeftLinks_ContentBySearchWebPart2_ctl00_noscript">It looks like your browser does not have JavaScript enabled. Please turn on JavaScript and try again.</div></noscript><div id="ctl00_PlaceHolderFooterLeftLinks_ContentBySearchWebPart2_ctl00">
+
+	</div><div class="ms-clear"></div></div>
+</div><div class="ms-webpart-chrome ms-webpart-chrome-fullWidth ">
+	<div class="ms-webpart-chrome-title" id="WebPartWPQ19_ChromeTitle">
+		<span title="" id="WebPartTitleWPQ19" class="js-webpart-titleCell"><h2 style="text-align:justify;" class="ms-webpart-titleText">&nbsp;<span></span><span id="WebPartCaptionWPQ19"></span></h2></span>
+	</div><div WebPartID="00000000-0000-0000-0000-000000000000" HasPers="true" id="WebPartWPQ19" width="100%" class="ms-WPBody ms-WPBorder ms-wpContentDivSpace " OnlyForMePart="true" allowDelete="false" style="" ><?xml version="1.0" encoding="utf-8"?><p><table><tr><td><a href="">Networks</a></td><td>Networks</td><td>http://www.geant.org/Networks, /Networks/</td></tr><tr><td><a href="">Services</a></td><td>Services</td><td>http://www.geant.org/Services, /Services/</td></tr><tr><td><a href="">People</a></td><td>People</td><td>http://www.geant.org/People, /People/</td></tr></table></p><div class="ms-clear"></div></div>
+</div><div class="ms-webpart-chrome ms-webpart-chrome-fullWidth ">
+	<div WebPartID="00000000-0000-0000-0000-000000000000" HasPers="true" id="WebPartWPQ4" width="100%" class="ms-WPBody " OnlyForMePart="true" allowMinimize="false" allowRemove="false" allowDelete="false" style="" ><div class="ms-clear"></div></div>
+</div>
+
+
+									         </span>
+                    					</div>
+                    					<div class="footer-links-right">
+                    						<span id="DeltaPlaceHolderFooterRightLinks">
+									             
+
+	<div class="ms-webpart-chrome ms-webpart-chrome-fullWidth ">
+	<div class="ms-webpart-chrome-title" id="WebPartWPQ20_ChromeTitle">
+		<span title="" id="WebPartTitleWPQ20" class="js-webpart-titleCell"><h2 style="text-align:justify;" class="ms-webpart-titleText">&nbsp;<span></span><span id="WebPartCaptionWPQ20"></span></h2></span>
+	</div><div WebPartID="00000000-0000-0000-0000-000000000000" HasPers="true" id="WebPartWPQ20" width="100%" class="ms-WPBody ms-WPBorder ms-wpContentDivSpace " OnlyForMePart="true" allowDelete="false" style="" ><noscript><div id="ctl00_PlaceHolderFooterRightLinks_ContentBySearchWebPart3_ctl00_noscript">It looks like your browser does not have JavaScript enabled. Please turn on JavaScript and try again.</div></noscript><div id="ctl00_PlaceHolderFooterRightLinks_ContentBySearchWebPart3_ctl00">
+
+	</div><div class="ms-clear"></div></div>
+</div><div class="ms-webpart-chrome ms-webpart-chrome-fullWidth ">
+	<div class="ms-webpart-chrome-title" id="WebPartWPQ21_ChromeTitle">
+		<span title="" id="WebPartTitleWPQ21" class="js-webpart-titleCell"><h2 style="text-align:justify;" class="ms-webpart-titleText">&nbsp;<span></span><span id="WebPartCaptionWPQ21"></span></h2></span>
+	</div><div WebPartID="00000000-0000-0000-0000-000000000000" HasPers="true" id="WebPartWPQ21" width="100%" class="ms-WPBody ms-WPBorder ms-wpContentDivSpace " OnlyForMePart="true" allowDelete="false" style="" ><?xml version="1.0" encoding="utf-8"?><p><table><tr><td><a href="">Cookies &amp; Policies</a></td><td>Cookies &amp; Policies</td><td>http://www.geant.org/Policies, /Policies/</td></tr><tr><td><a href="">Disclaimer</a></td><td>Disclaimer</td><td>http://www.geant.org/Disclaimer, /Disclaimer/</td></tr></table></p><div class="ms-clear"></div></div>
+</div><div class="ms-webpart-chrome ms-webpart-chrome-fullWidth ">
+	<div WebPartID="00000000-0000-0000-0000-000000000000" HasPers="true" id="WebPartWPQ5" width="100%" class="ms-WPBody " OnlyForMePart="true" allowMinimize="false" allowRemove="false" allowDelete="false" style="" ><div class="ms-clear"></div></div>
+</div>
+
+
+									         </span>
+                    					</div>
+                    				</div>
+                    			</div>
+                    			<div class="col-md-1">
+								</div>
+                    		</div>
+                    	</div>
+                    </div>
+                </div>
+            </div>
+            <!--end workspace-->
+            <div id="DeltaFormDigest">
+	
+                
+					<script type="text/javascript">//<![CDATA[
+        var formDigestElement = document.getElementsByName('__REQUESTDIGEST')[0];
+        if (!((formDigestElement == null) || (formDigestElement.tagName.toLowerCase() != 'input') || (formDigestElement.type.toLowerCase() != 'hidden') ||
+            (formDigestElement.value == null) || (formDigestElement.value.length <= 0)))
+        {
+            formDigestElement.value = '0x4D6AE086E28DC99AA8FE9E129B2AA25D8471B213506BA8F5E85B0996F299B11CF96D4297D9BAD128741E9BD3C0B12FAC65023595AE7A8FD8D150327F7387C731,25 Feb 2016 12:59:38 -0000';
+            g_updateFormDigestPageLoaded = new Date();
+        }
+        //]]>
+        </script>
+                
+            
+</div>
+        
+
+<script type="text/javascript">
+//<![CDATA[
+var _spFormDigestRefreshInterval = 1440000;window.g_updateFormDigestPageLoaded = new Date(); window.g_updateFormDigestPageLoaded.setDate(window.g_updateFormDigestPageLoaded.getDate() -5);var sdpWPQ14=$get('WebPartWPQ14');
+                            if (sdpWPQ14 != null) { // webpart body div
+                                sdpWPQ14 = sdpWPQ14.parentNode;
+                                if (sdpWPQ14 != null) { // webpart div
+                                    sdpWPQ14.className='display-none';
+                                }
+                            }var sdpWPQ16=$get('WebPartWPQ16');
+                            if (sdpWPQ16 != null) { // webpart body div
+                                sdpWPQ16 = sdpWPQ16.parentNode;
+                                if (sdpWPQ16 != null) { // webpart div
+                                    sdpWPQ16.className='display-none';
+                                }
+                            }var sdpWPQ18=$get('WebPartWPQ18');
+                            if (sdpWPQ18 != null) { // webpart body div
+                                sdpWPQ18 = sdpWPQ18.parentNode;
+                                if (sdpWPQ18 != null) { // webpart div
+                                    sdpWPQ18.className='display-none';
+                                }
+                            }var sdpWPQ20=$get('WebPartWPQ20');
+                            if (sdpWPQ20 != null) { // webpart body div
+                                sdpWPQ20 = sdpWPQ20.parentNode;
+                                if (sdpWPQ20 != null) { // webpart div
+                                    sdpWPQ20.className='display-none';
+                                }
+                            }var _fV4UI = true;
+function _RegisterWebPartPageCUI()
+{
+    var initInfo = {editable: false,isEditMode: false,allowWebPartAdder: false,listId: "{8329f803-b38d-4267-ba1c-cea31fd12a6f}",itemId: 1,recycleBinEnabled: true,enableMinorVersioning: true,enableModeration: false,forceCheckout: true,rootFolderUrl: "\u002fProjects\u002fGEANT_Project_GN4-1\u002fPages",itemPermissions:{High:16,Low:200769}};
+    SP.Ribbon.WebPartComponent.registerWithPageManager(initInfo);
+    var wpcomp = SP.Ribbon.WebPartComponent.get_instance();
+    var hid;
+    hid = document.getElementById("_wpSelected");
+    if (hid != null)
+    {
+        var wpid = hid.value;
+        if (wpid.length > 0)
+        {
+            var zc = document.getElementById(wpid);
+            if (zc != null)
+                wpcomp.selectWebPart(zc, false);
+        }
+    }
+    hid = document.getElementById("_wzSelected");
+    if (hid != null)
+    {
+        var wzid = hid.value;
+        if (wzid.length > 0)
+        {
+            wpcomp.selectWebPartZone(null, wzid);
+        }
+    }
+};
+function __RegisterWebPartPageCUI() {
+ExecuteOrDelayUntilScriptLoaded(_RegisterWebPartPageCUI, "sp.ribbon.js");}
+_spBodyOnLoadFunctionNames.push("__RegisterWebPartPageCUI");var __wpmExportWarning='This Web Part Page has been personalized. As a result, one or more Web Part properties may contain confidential information. Make sure the properties contain information that is safe for others to read. After exporting this Web Part, view properties in the Web Part description file (.WebPart) by using a text editor such as Microsoft Notepad.';var __wpmCloseProviderWarning='You are about to close this Web Part.  It is currently providing data to other Web Parts, and these connections will be deleted if this Web Part is closed.  To close this Web Part, click OK.  To keep this Web Part, click Cancel.';var __wpmDeleteWarning='You are about to permanently delete this Web Part.  Are you sure you want to do this?  To delete this Web Part, click OK.  To keep this Web Part, click Cancel.';
+            ExecuteOrDelayUntilScriptLoaded(
+                function() 
+                {                    
+                    Srch.ScriptApplicationManager.get_current().states = {"webUILanguageName":"en-US","webDefaultLanguageName":"en-US","contextUrl":"http://www.geant.org/Projects/GEANT_Project_GN4-1","contextTitle":"GÉANT project (GN4-1)","supportedLanguages":[{"id":1025,"label":"Arabic"},{"id":1093,"label":"Bengali"},{"id":1026,"label":"Bulgarian"},{"id":1027,"label":"Catalan"},{"id":2052,"label":"Chinese (Simplified)"},{"id":1028,"label":"Chinese (Traditional)"},{"id":1050,"label":"Croatian"},{"id":1029,"label":"Czech"},{"id":1030,"label":"Danish"},{"id":1043,"label":"Dutch"},{"id":1033,"label":"English"},{"id":1035,"label":"Finnish"},{"id":1036,"label":"French"},{"id":1031,"label":"German"},{"id":1032,"label":"Greek"},{"id":1095,"label":"Gujarati"},{"id":1037,"label":"Hebrew"},{"id":1081,"label":"Hindi"},{"id":1038,"label":"Hungarian"},{"id":1039,"label":"Icelandic"},{"id":1057,"label":"Indonesian"},{"id":1040,"label":"Italian"},{"id":1041,"label":"Japanese"},{"id":1099,"label":"Kannada"},{"id":1042,"label":"Korean"},{"id":1062,"label":"Latvian"},{"id":1063,"label":"Lithuanian"},{"id":1086,"label":"Malay"},{"id":1100,"label":"Malayalam"},{"id":1102,"label":"Marathi"},{"id":1044,"label":"Norwegian"},{"id":1045,"label":"Polish"},{"id":1046,"label":"Portuguese (Brazil)"},{"id":2070,"label":"Portuguese (Portugal)"},{"id":1094,"label":"Punjabi"},{"id":1048,"label":"Romanian"},{"id":1049,"label":"Russian"},{"id":3098,"label":"Serbian (Cyrillic)"},{"id":2074,"label":"Serbian (Latin)"},{"id":1051,"label":"Slovak"},{"id":1060,"label":"Slovenian"},{"id":3082,"label":"Spanish (Spain)"},{"id":2058,"label":"Spanish (Mexico)"},{"id":1053,"label":"Swedish"},{"id":1097,"label":"Tamil"},{"id":1098,"label":"Telugu"},{"id":1054,"label":"Thai"},{"id":1055,"label":"Turkish"},{"id":1058,"label":"Ukrainian"},{"id":1056,"label":"Urdu"},{"id":1066,"label":"Vietnamese"}],"navigationNodes":[{"id":1001,"name":"Everything","url":"{searchcenterurl}/results.aspx","promptString":"Search everything"},{"id":1002,"name":"People","url":"{searchcenterurl}/peopleresults.aspx","promptString":"Search people"},{"id":1003,"name":"Conversations","url":"{searchcenterurl}/conversationresults.aspx","promptString":"Search conversations"},{"id":0,"name":"This Site","url":"~site/_layouts/15/osssearchresults.aspx?u={contexturl}","promptString":"Search this site"}],"searchCenterUrl":"/SearchCenter/Pages","showAdminDetails":false,"defaultPagesListName":"Pages","isSPFSKU":false,"userAdvancedLanguageSettingsUrl":"?ShowAdvLang=1","defaultQueryProperties":{"culture":1033,"uiLanguage":1033,"summaryLength":180,"desiredSnippetLength":90,"enableStemming":true,"enablePhonetic":false,"enableNicknames":false,"trimDuplicates":true,"bypassResultTypes":false,"enableInterleaving":true,"enableQueryRules":true,"processBestBets":true,"enableOrderingHitHighlightedProperty":false,"hitHighlightedMultivaluePropertyLimit":-1,"processPersonalFavorites":true}};
+                    Srch.U.trace(null, 'SerializeToClient', 'ScriptApplicationManager state initialized.');
+                }, 'Search.ClientControls.js');var g_clientIdDeltaPlaceHolderMain = "DeltaPlaceHolderMain";
+var g_clientIdDeltaPlaceHolderPageTitleInTitleArea = "ctl00_DeltaPlaceHolderPageTitleInTitleArea";
+var g_clientIdDeltaPlaceHolderUtilityContent = "DeltaPlaceHolderUtilityContent";
+
+                    ExecuteOrDelayUntilScriptLoaded(
+                        function() 
+                        {
+                            if ($isNull($find('ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr')))
+                            {
+                                var sb = $create(Srch.SearchBox, {"delayLoadTemplateScripts":true,"messages":[],"queryGroupNames":["MasterPage"],"renderTemplateId":"~sitecollection/_catalogs/masterpage/Display Templates/Search/Control_SearchBox_Compact.js","resultsPageAddress":"/SearchCenter/pages/results.aspx","serverInitialRender":true,"showDataErrors":true,"states":{},"tryInplaceQuery":false}, null, null, $get("ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr"));
+                                sb.activate('Search...', 'ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_sbox', 'ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_sboxdiv', 'ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_NavButton', 'ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_AutoCompList', 'ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_NavDropdownList', 'ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_SearchLink', 'ms-srch-sbprogress', 'ms-srch-sb-prompt ms-helperText');
+                            }
+                        }, 'Search.ClientControls.js');g_QuickLaunchControlIds.push("zz1_TopNavigationMenu");_spBodyOnLoadFunctionNames.push('QuickLaunchInitDroppable'); var g_zz1_TopNavigationMenu = null; function init_zz1_TopNavigationMenu() { if (g_zz1_TopNavigationMenu == null) g_zz1_TopNavigationMenu = $create(SP.UI.AspMenu, null, null, null, $get('zz1_TopNavigationMenu')); } if(g_spPreFetchKeys) {{ g_spPreFetchKeys.push('SP.Core.js');}}EnsureScriptFunc('SP.Core.js', 'SP.UI.AspMenu', init_zz1_TopNavigationMenu);
+//]]>
+</script>
+</form>
+        <span id="DeltaPlaceHolderUtilityContent">
+            
+        </span>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+         <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script type="text/javascript" src="/Style Library/ResponsiveServer/Bootstrap3/js/bootstrap3.min.js" ></script>
+        <script type="text/javascript" src="/Style Library/ResponsiveServer/Bootstrap3/js/bootstrap3-custom.js" ></script>         
+        <script type="text/javascript" src="/Style Library/Geant/JS/jquery.SPServices-2014.02.min.js" ></script> 
+   		  
+        
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-55165366-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+        <script src="/js" type="text/javascript"></script>
+<script type="text/javascript">try{ clicky.init(100915010); }catch(e){}</script>
+ 
+    </body>
+</html>
+

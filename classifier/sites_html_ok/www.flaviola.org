@@ -1,0 +1,571 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Flaviola: European FP7 research project on flavanols and their positive impact on cardiovascular health" />
+		<link rel="icon" href="http://www.flaviola.org/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="http://www.flaviola.org/favicon.ico" type="image/x-icon" />
+		
+		<title>Project FLAVIOLA - Pursuing advances in cardiovascular health</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/flaviola_strongred_wide/styles.css"  />
+		<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/flaviola_strongred_wide/ie6.css"  /><![endif]-->
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/flaviola_strongred_wide/colors-page38.css"  />
+		<script type="text/javascript" src="rw_common/themes/flaviola_strongred_wide/javascript.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/flaviola_strongred_wide/css/element/earthblank.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/flaviola_strongred_wide/css/backgrounds/orangestripes.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/flaviola_strongred_wide/css/slogan/hidden.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/flaviola_strongred_wide/css/title/boxon.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/flaviola_strongred_wide/css/font/12.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/flaviola_strongred_wide/css/text/normal.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/flaviola_strongred_wide/css/archives/archiveson.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/flaviola_strongred_wide/css/sidebar/left.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/flaviola_strongred_wide/css/font/11s.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/flaviola_strongred_wide/css/links/underlined.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/flaviola_strongred_wide/css/menu/mixed.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/flaviola_strongred_wide/css/font/sanserif.css" />
+				
+		<style type="text/css" media="all">body {
+	color: #ffffff;
+}
+ 
+.blog-entry {
+	padding-bottom: 10px;
+letter-spacing: 0.1em;
+}
+.second {
+width: 70%;
+padding-left: 100px;
+}
+
+#compy {
+position: absolute;
+top: 0px;
+left: 0px;
+width: 110px;
+height: 80px;
+background: url('resources/molly.png');
+opacity: 1;
+}
+
+#circle {
+position: absolute;
+top: 145px;
+left: 220px;
+width: 77px;
+height: 38px;
+background: url('resources/circle.png');
+opacity: 1;
+}
+
+#cocoa {
+position: absolute;
+top: 40px;
+left: 315px;
+width: 89px;
+height: 53px;
+background: url('resources/cocoa.png');
+opacity: 1;
+}
+
+#heart {
+position: absolute;
+top: 120px;
+left: 0px;
+width: 124px;
+height: 128px;
+background: url('resources/heart.png');
+opacity: 1;
+}
+
+#eu1 {
+position: absolute;
+top: 130px;
+left: 580px;
+width: 149px;
+height: 145px;
+background: url('resources/eu.png');
+opacity: 1;
+}
+
+#tea {
+position: absolute;
+top: 15px;
+left: 430px;
+width: 49px;
+height: 73px;
+background: url('resources/tea.png');
+opacity: 1;
+}
+
+#grapes {
+position: absolute;
+top: 30px;
+left: 600px;
+width: 75px;
+height: 63px;
+background: url('resources/grapes.png');
+opacity: 1;
+}
+
+#content {
+width: 741px;
+}
+
+#item1 {
+width: 361px;
+background: #a69b91 url('resources/booklet.jpg') no-repeat left;
+height: 150px;
+border-radius: 5px 0px 0px 5px;
+padding-left: 380px;
+padding-top: 10px;
+transition: all ease-in 0.2s;
+-webkit-filter: grayscale(0.8);
+filter: grayscale(0.8);
+box-shadow: 0px 0px 5px #000;
+margin: 5px;
+}
+
+#item1:hover {
+-webkit-filter: grayscale(0);
+filter: grayscale(0);
+}
+
+#item1:hover > #item1_text {
+
+}
+
+.topic {
+text-transform: uppercase;
+font-weight: bold;
+font-size: 16pt;
+}
+
+#item1_text {
+width: 95%;
+margin-bottom: 10px;
+font-size: 10pt;
+line-height: 1.3;
+}
+
+
+#item1_more {
+float: right;
+margin-right: 10px;
+}
+
+#item1_more a{
+width: 40px;
+height: 33px;
+display: block;
+background: #fff;
+border-radius: 50%;
+color: #CF7C51!important;
+font-size: 14pt;
+line-height: 1.2;
+text-align: center;
+padding-top: 7px;
+text-decoration: none!important;
+-webkit-filter: grayscale(0.8);
+filter: grayscale(0.8);
+transition: all ease-in 0.2s;
+
+}
+
+#item1_more a:hover{
+-webkit-filter: grayscale(0);
+filter: grayscale(0);
+}
+
+#item1_down {
+float: right;
+margin-right: 10px;
+}
+
+#item1_down a{
+width: 40px;
+height: 33px;
+display: block;
+background: #fff;
+border-radius: 50%;
+color: #CF7C51!important;
+font-size: 14pt;
+line-height: 1.2;
+text-align: center;
+padding-top: 7px;
+text-decoration: none!important;
+-webkit-filter: grayscale(0.8);
+filter: grayscale(0.8);
+transition: all ease-in 0.2s;
+}
+
+#item1_down a:hover{
+-webkit-filter: grayscale(0);
+filter: grayscale(0);
+}
+
+#item2 {
+width: 361px;
+background: #a69b91 url('resources/slide.jpg') no-repeat left;
+height: 150px;
+border-radius: 5px 0px 0px 5px;
+padding-left: 380px;
+padding-top: 10px;
+transition: all ease-in 0.2s;
+-webkit-filter: grayscale(0.8);
+filter: grayscale(0.8);
+box-shadow: 0px 0px 5px #000;
+margin: 5px;
+}
+
+#item2:hover {
+-webkit-filter: grayscale(0);
+filter: grayscale(0);
+}
+
+#item2:hover > #item2_text {
+
+}
+
+#item2_text {
+width: 95%;
+margin-bottom: 10px;
+font-size: 10pt;
+line-height: 1.3;
+}
+
+
+#item2_more {
+float: right;
+margin-right: 10px;
+}
+
+#item2_more a{
+width: 40px;
+height: 33px;
+display: block;
+background: #fff;
+border-radius: 50%;
+color: #CF7C51!important;
+font-size: 14pt;
+line-height: 1.2;
+text-align: center;
+padding-top: 7px;
+text-decoration: none!important;
+-webkit-filter: grayscale(0.8);
+filter: grayscale(0.8);
+transition: all ease-in 0.2s;
+
+}
+#item2_more a:hover{
+-webkit-filter: grayscale(0);
+filter: grayscale(0);
+}
+
+
+
+#item3 {
+width: 361px;
+background: #a69b91 url('resources/nutshell.jpg') no-repeat left;
+height: 150px;
+border-radius: 5px 0px 0px 5px;
+padding-left: 380px;
+padding-top: 10px;
+transition: all ease-in 0.2s;
+-webkit-filter: grayscale(0.8);
+filter: grayscale(0.8);
+box-shadow: 0px 0px 5px #000;
+margin: 5px;
+}
+
+#item3:hover {
+-webkit-filter: grayscale(0);
+filter: grayscale(0);
+}
+
+#item3:hover > #item3_text {
+
+}
+
+#item3_text {
+width: 95%;
+margin-bottom: 10px;
+font-size: 10pt;
+line-height: 1.3;
+}
+
+
+#item3_more {
+float: right;
+margin-right: 10px;
+}
+
+#item3_more a{
+width: 40px;
+height: 33px;
+display: block;
+background: #fff;
+border-radius: 50%;
+color: #CF7C51!important;
+font-size: 14pt;
+line-height: 1.2;
+text-align: center;
+padding-top: 7px;
+text-decoration: none!important;
+-webkit-filter: grayscale(0.8);
+filter: grayscale(0.8);
+transition: all ease-in 0.2s;
+
+}
+#item3_more a:hover{
+-webkit-filter: grayscale(0);
+filter: grayscale(0);
+}
+
+#item4 {
+width: 361px;
+background: #a69b91 url('resources/book.jpg') no-repeat left;
+height: 150px;
+border-radius: 5px 0px 0px 5px;
+padding-left: 380px;
+padding-top: 10px;
+transition: all ease-in 0.2s;
+-webkit-filter: grayscale(0.8);
+filter: grayscale(0.8);
+box-shadow: 0px 0px 5px #000;
+margin: 5px;
+}
+
+#item4:hover {
+-webkit-filter: grayscale(0);
+filter: grayscale(0);
+}
+
+#item4:hover > #item3_text {
+
+}
+
+#item4_text {
+width: 95%;
+margin-bottom: 10px;
+font-size: 10pt;
+line-height: 1.3;
+}
+
+
+#item4_more {
+float: right;
+margin-right: 10px;
+}
+
+#item4_more a{
+width: 40px;
+height: 33px;
+display: block;
+background: #fff;
+border-radius: 50%;
+color: #CF7C51!important;
+font-size: 14pt;
+line-height: 1.2;
+text-align: center;
+padding-top: 7px;
+text-decoration: none!important;
+-webkit-filter: grayscale(0.8);
+filter: grayscale(0.8);
+transition: all ease-in 0.2s;
+
+}
+#item4_more a:hover{
+-webkit-filter: grayscale(0);
+filter: grayscale(0);
+}
+
+
+.blog-entry-title {
+	text-decoration: none;
+	font-size: 1.1em;
+	padding-left: 20px;
+	background: transparent url('assets/blocco2.png') no-repeat top left;
+	padding-bottom: 0px;
+}
+
+.blog-entry-title a {
+	padding-bottom: 0px;
+}
+
+.blog-entry-body {
+	font-size: 0.9em;
+	padding-left: 20px;
+	
+}
+
+.more {
+	text-decoration: none;
+	height: 20px;
+	vertical-align: middle;
+	color: #F68A39;
+	padding-left: 20px;
+	padding-top: 3px;
+	background: transparent url('assets/lente4.png') no-repeat left;
+	margin-left: 0px;
+}
+
+.didascalia {
+padding-top: 10px;
+padding-left:12px;
+line-height: 1.2;
+color: #f68a39;
+font-size: 8px;
+font-family: times;
+}
+
+.colonna {
+color: #cccccc;
+
+font-size: 12px;
+line-height: 1.5;
+letter-spacing:0;
+}
+
+.colonna2 {
+color: #cccccc;
+text-align: center;
+font-size: 12px;
+line-height: 1.5;
+letter-spacing:0;
+}
+
+
+
+</style>
+		
+				<link rel='stylesheet' type='text/css' media='all' href='rw_common/plugins/stacks/stacks.css' />
+		<!--[if lte IE 7]>
+			<link rel='stylesheet' type='text/css' media='all' href='rw_common/plugins/stacks/stacks_ie.css' />
+		<![endif]-->
+		<link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page38.css' />
+		<script type='text/javascript' charset='utf-8' src='files/stacks_page_page38.js'></script>
+
+				<link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+
+
+		<script type="text/javascript" charset="utf-8">
+			var blankImg = "rw_common/themes/flaviola_strongred_wide/blank.gif";
+		</script>	
+
+		<style type="text/css">
+
+ 			img, div, input { behavior: url("rw_common/themes/flaviola_strongred_wide/iepngfix.htc") }
+
+		</style>
+
+	</head>
+
+<body>
+	
+<!-- This site was created using the RapidWeaver theme, Elements, developed by elixir graphics. -->
+<!-- For more information on RapidWeaver themes, icon design and graphics, visit www.elixirgraphics.com -->
+
+<div id="container">
+	<div id="header">
+	<a id="logoblank" href="http://www.flaviola.org"></a>	
+	</div>
+	<div id="main">
+		<div id="menusystem">
+			<div id="navcontainer">
+				<ul><li><a href="index.php" rel="self" id="current">Home</a></li><li><a href="project/index.php" rel="self">The Project</a></li><li><a href="results/index.php" rel="self">Our Results</a></li><li><a href="contacts/index.php" rel="self">Contacts</a></li><li><a href="news/news.html" rel="self">News & media</a></li></ul>
+			</div>
+			<div id="archiveTop"></div>
+			<div id="archives">
+				<div id="archivesContent">
+					<div id="leftsidebar">
+<!--<div class="sinistratopic"><font color="#ffffff">&rarr;</font> Partners</div> -->
+<div id="menupartners">
+<div id="p1"><a href="/partners/dusseldorf/"></a></div>
+<div id="p2"><a href="/partners/mars/"></a></div>		
+<div id="p3"><a href="/partners/reading/"></a></div>		
+<div id="p4"><a href="/partners/maas/"></a></div>		
+<div id="p5"><a href="/partners/inra/"></a></div>		
+<div id="p6"><a href="/partners/karolinska/"></a></div>		
+<div id="p7"><a href="/partners/gent/"></a></div>		
+<div id="p8"><a href="/partners/sciprom/"></a></div>		
+</div>
+<!--<div class="sinistratopic"><font color="#ffffff">&rarr;</font> Funding</div>-->
+<div class="sinistratext">The FLAVIOLA project was co-funded by the European Union.<div id="fp7logo"><img src="http://www.flaviola.org/fp7little-1.png" alt="logo FP7" /></div></div>
+<div id="sinistracopyright">&copy; FLAVIOLA</div>
+					</div>					
+				</div>
+			</div>
+			<div id="archiveBottom"></div>
+		</div>
+		<div id="sidebarContainer">
+			<div id="sidebarTop"></div>
+			<div id="sidebarContent">
+				<div id="sidebarIndent">
+					<div class="destra">
+<div class="topic">Our Final Results</div>
+<div class="rightbody">
+<br />The FLAVIOLA Project ended in December 2012.<br /><br />Therefore, a new section of our website has been built to present our findings and our results.<br /><br /> You can access this new pages throught the menu on the left, under "Our Results" or by <a href="http://www.flaviola.org/evo/results/index.php">clicking here</a>.<br /><br /> You will discover that our results are presented in different ways, meeting the needs of several types of publics.
+
+Enjoy Reading!
+</div>
+</div>
+
+
+					
+				</div>
+			</div>
+			<div id="sidebarBottom"></div>
+		</div>
+		<div id="content">
+			
+
+<!-- Stacks v1215 --><div id='stacks_out_2_page38' class='stacks_top'><div id='stacks_in_2_page38' class=''><div id='stacks_out_7999_page38' class='stacks_out'><div id='stacks_in_7999_page38' class='stacks_in text_stack'>FLAVIOLA was a <b>pan-European project</b> which aimed to drive the development of innovative and natural food products that would have a far-reaching impact on the general public, consumers, scientists and physicians as well as European institutions and the food industry. FLAVIOLA ran from September 2009 to February 2013.</div></div><div id='stacks_out_8067_page38' class='stacks_out'><div id='stacks_in_8067_page38' class='stacks_in stack_stack'><div id='stacks_out_8069_page38' class='stacks_out'><div id='stacks_in_8069_page38' class='stacks_in com_joeworkman_stacks_link_stack'><a href="results/impact/index.php" rel="self" title="General Impact"> <div id='stacks_out_8071_page38' class='stacks_out'><div id='stacks_in_8071_page38' class='stacks_in text_stack'><div id="item3">
+<div class="topic">General Impact</div>
+<div id="item3_text">FLAVIOLA aimed to improve understanding of dietary flavanols, with a view to delivering maximum benefit to all relevant parties within the EU.</div>
+<!--<div id="item3_more"><a href="results/nutshell/index.php" rel="self" title="In a nutshell"><i class="fa fa-eye fa-lg"></i></a></div>--></div></div></div> </a>
+
+</div></div></div></div><div id='stacks_out_8019_page38' class='stacks_out'><div id='stacks_in_8019_page38' class='stacks_in stack_stack'><div id='stacks_out_8021_page38' class='stacks_out'><div id='stacks_in_8021_page38' class='stacks_in com_joeworkman_stacks_link_stack'><a href="results/nutshell/index.php" rel="self" title="In a nutshell"> <div id='stacks_out_8023_page38' class='stacks_out'><div id='stacks_in_8023_page38' class='stacks_in text_stack'><div id="item1">
+<div class="topic">In a nutshell</div>
+<div id="item1_text">FLAVIOLA key outcomes are summarized in a booklet, video and infographic illustration.
+<!--<div id="item1_more"><a href="results/outcomes/index.php" rel="self" title="Key outcomes"><i class="fa fa-eye fa-lg"></i></a></div><div id="item1_down"><a href="http://www.flaviola.org/FLAVIOLA_booklet.pdf" rel="external"><i class="fa fa-download fa-lg"></i></a></div>-->
+</div></div></div></div> </a>
+
+</div></div></div></div><div id='stacks_out_8043_page38' class='stacks_out'><div id='stacks_in_8043_page38' class='stacks_in stack_stack'><div id='stacks_out_8045_page38' class='stacks_out'><div id='stacks_in_8045_page38' class='stacks_in com_joeworkman_stacks_link_stack'><a href="results/s_work/index.php" rel="self" title="Scientific Work"> <div id='stacks_out_8047_page38' class='stacks_out'><div id='stacks_in_8047_page38' class='stacks_in text_stack'><div id="item2">
+<div class="topic">Scientific Work</div>
+<div id="item2_text">The four scientific FLAVIOLA workpackages are summarised in four infographic slide sets.</div>
+<!--<div id="item2_more"><a href="results/s_work/wp1/index.php" rel="self" title="Scientific Work"><i class="fa fa-eye fa-lg"></i></a></div>--></div></div></div> </a>
+
+</div></div></div></div><div id='stacks_out_8091_page38' class='stacks_out'><div id='stacks_in_8091_page38' class='stacks_in stack_stack'><div id='stacks_out_8093_page38' class='stacks_out'><div id='stacks_in_8093_page38' class='stacks_in com_joeworkman_stacks_link_stack'><a href="results/publications/index.php" rel="self" title="Publications"> <div id='stacks_out_8095_page38' class='stacks_out'><div id='stacks_in_8095_page38' class='stacks_in text_stack'><div id="item4">
+<div class="topic">Publications</div>
+<div id="item4_text">This page reports FLAVIOLA dissemination activities as well as relevant other publications related to the FLAVIOLA project.</div>
+<!--<div id="item4_more"><a href="results/publications/index.php" rel="self" title="Publications"><i class="fa fa-eye fa-lg"></i></a></div>--></div></div></div> </a>
+
+</div></div></div></div></div></div>
+
+
+
+<!-- End of Stacks Content -->
+
+
+
+			<div class="clearer"></div>
+		</div>
+	</div>
+	<div id="contentBottom"></div>
+
+</div>
+<div id="breadcrumb"></div>
+<div id="footer"></div>
+
+<!-- Start Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-262987-12");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- End Google Analytics -->
+</body>
+</html>

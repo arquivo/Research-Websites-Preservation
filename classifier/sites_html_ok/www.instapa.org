@@ -1,0 +1,298 @@
+<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Instapa</title>
+    <script language="Javascript" src="/js/Controller.js">
+    </script>
+    <script language="Javascript">
+					function syncToc(nodeId, typeId, subTypeId)
+					{
+						subTypeId = subTypeId || 0;
+						location.href='/everyone/' + nodeId + '/' + typeId + '/' + subTypeId + '/20'; 
+					}
+				</script>
+    <link href="/asp/customize.aspx?f=/css/pp.css" rel="stylesheet" type="text/css">
+  </head>
+  <body onunload="ns_topshare.ns_controllers.PageController.GetInstance().Unload();">
+    <table height="100%" width="100%" cellpadding="0" cellspacing="0" border="0">
+      <colgroup>
+        <col width="*">
+        <col width="1024">
+        <col width="*">
+      </colgroup>
+      <tr>
+        <td class="Space">
+							.
+						</td>
+        <td>
+          <div id="container">
+            <div id="header">
+              <div id="topNav">
+                <div id="login">
+                  <a href="/login">Login</a>
+                  <a href="http://www.instapa.org/register">Register</a>
+                </div>
+              </div>
+            </div>
+            <center>
+              <table class="borderCenteredContent" border="0">
+                <tr>
+                  <td>
+                    <div id="menu">
+                      <div id="imageMenu">
+                      </div>
+                      <div id="headerMenu">Instapa</div>
+                      <div id="tree">
+														<script language="Javascript" src="/js/Controller.js">
+</script>
+<script language="Javascript" src="/tagexpander/js/MenuController.js">
+</script>
+<script language="Javascript" src="/tagexpander/js/TreeController.js">
+</script>
+<link rel="stylesheet" type="text/css" href="/asp/customize.aspx?f=/tagexpander/css/tsMenu.css">
+<script>
+				//create and register the menucontroller
+				var menu = new ns_topshare.ns_menucontrollers.MenuController('MyPublicTree',
+					false,
+					true,
+					'MyPublicTree',
+					'',
+					'tsMenuAan',
+					'',
+					'tsMenuVertical',
+					true,
+					'', '',
+					'content',
+					'div',
+					'/node/asp/renderpublic.aspx',
+					'E');
+					
+				// check if we have something to render, based on permissions
+				if ((true ) || (menu.CheckPermission('1010') != '0'))	
+				{ 
+					menu.SetLayoutCategory(20);
+
+					var paramList = new Array(2);
+					paramList[0] = menu;
+					paramList[1] = 'MASTER';
+					if (paramList[1] == 'MASTER')
+						paramList[1] = ns_topshare.ns_controllers.PageController.GetInstance().ctrl_id;
+
+
+					//chain Toggle of this menu to locally defined button
+					menu.HandleClick = function(p_msg)
+					{
+						if (this.HasSibling(p_msg.senderID))
+						{
+							this.Toggle(true);
+	
+							if(this.status)
+							{
+								if (this.targetType == 'frame')
+								{
+									try
+									{
+										parent.frames[this.targetName].ns_topshare.ns_controllers.PageController.GetInstance().Unload();
+									}
+									catch (e)
+									{
+										// just let it pass. 
+									}
+								}
+								ns_topshare.ns_controllers.PageController.GetInstance().GetController('tree_' + this.ctrl_id).Navigate('1010', '1012'); 
+								// propagate the message to children; 
+								for (var i = 0; i < this.children.length; i++)
+									this.children[i].DoCommand(p_msg);
+
+							}
+						}
+					}
+
+					menu.AddHandler(ns_topshare.ns_controllers.BUTTON_CLICK, menu.HandleClick);
+
+					var msg = menu.ConstructMessage(ns_topshare.ns_controllers.REGISTER, paramList);
+					ns_topshare.ns_controllers.PageController.GetInstance().SendMessage(msg);
+
+					//create and run a TreeController, which controls the tree and chain it to its parent controller
+					var ctl = new ns_topshare.ns_treecontrollers.TreeController(
+					'tree_MyPublicTree'				// its unique id - prefix it to make it a unique control
+					, '1010'						// node id to focus on 	
+					, '1012'					// base id to focus on
+					, '5.0:7.0:8.0:10.0:12.0'					// type filter
+					, '0'					// Retrieval depth
+					, 'MyPublicTree'					// target Id for canvas to render treedata on
+					, 'content'				// target name of the canvas to show the item
+					, 'div'				// type of the canvas (div or frame)
+					, '/node/asp/renderpublic.aspx'				// url to use to fill the canvas
+					, 'E'                        // the viewcontext
+					, 'everyone');			
+	
+					ctl.SetLayoutCategory(20);
+					ctl.SetIconVisibility(false);
+					ctl.SetDefaultLinkCss('link');
+					ctl.SetFocusCss('focus');
+					ctl.SetLevel('0');
+					ctl.SetHighlightLevel(0);
+					ctl.SetTreeClass('tagTree');
+					
+					// Now add specialized behaviour to this object instance
+					ctl.HandleClick = function(msg)
+					{
+						// If the click originated from 'our' controller, do stuff			
+						if(msg.senderID == 'btn_MyPublicTree')	
+						{
+							this.Render();
+						}
+					}
+
+					ctl.AddHandler(ns_topshare.ns_controllers.BUTTON_CLICK, ctl.HandleClick);
+	
+					var paramList = new Array(2);
+					paramList[0] = ctl;
+					paramList[1] = 'MyPublicTree';		// make it a child of the menucontroller
+					if (paramList[1] == 'MASTER')
+						paramList[1] = ns_topshare.ns_controllers.PageController.GetInstance().ctrl_id;
+	
+					//register the treecontroller in the control chain	
+					var msg = ctl.ConstructMessage(ns_topshare.ns_controllers.REGISTER, paramList);
+					ns_topshare.ns_controllers.PageController.GetInstance().SendMessage(msg);
+	
+					// Check the initial state
+					// These methods expose an the interface for the controlled tree data	
+					// and bind them to our controller
+					function tree_MyPublicTreetoggle(p_ctrlId, p_target, p_nodeId, p_typeId, p_closedImage, p_openImage) 
+					{
+						var ctlObj = ns_topshare.ns_controllers.PageController.GetInstance().GetController(p_ctrlId);	 
+						ctlObj.Toggle(p_target, p_nodeId, p_typeId, p_closedImage, p_openImage);
+					}
+
+				function tree_MyPublicTreenavigate(p_ctrlId, p_id, p_parent, p_typeId, p_subTypeId)
+				{
+					if(menu.targetType == 'frame')
+					{
+						try
+						{
+							parent.frames[menu.targetName].ns_topshare.ns_controllers.PageController.GetInstance().Unload();
+						}
+						catch (e)
+						{
+							// Just let it pass. 
+						}
+					}
+					var ctlObj = ns_topshare.ns_controllers.PageController.GetInstance().GetController(p_ctrlId);
+					
+					if (true == true)
+						ctlObj.SendNavigateMessage(p_id, p_typeId, p_subTypeId, 20);
+					else
+					{
+						ctlObj.Navigate(p_id, p_parent, p_typeId, p_subTypeId);
+						if ((p_typeId == 5 || p_typeId == 12) && !ctlObj.IsOpen(p_id))
+						{
+							if(p_typeId == 5)
+								ctlObj.Toggle(p_ctrlId + 'node' + p_id, p_id, p_typeId, '/images/t_folder_closed.gif', '/images/t_folder_open.gif');
+							else
+								ctlObj.Toggle(p_ctrlId + 'node' + p_id, p_id, p_typeId, '/images/pp_folder_dicht_trans.gif.gif', '/images/pp_folder_open_trans.gif');
+						}
+					}
+				}
+			}
+		</script>
+<div class="hidden" id="div_btn_MyPublicTree">
+  <div id="MyPublicTree" class="MyPublicTree tsMenuAan tsMenuVertical " style="width:*; height:;">
+  </div>
+</div>
+<script language="Javascript">
+			if ((true) || (menu.CheckPermission('1012') != '0'))
+			{
+				document.getElementById('div_btn_MyPublicTree').className = '';
+				if (true == true)
+				{
+					menu.Open();
+					ctl.Render();
+				}
+			}
+
+		</script>
+													</div>
+                      <div id="search">
+														<script language="Javascript" src="/js/Controller.js">
+</script>
+<script language="Javascript" src="/tagexpander/js/tsSearchController.js">
+</script>
+<script>
+			// Instantiate the controller
+			searchboxmysearchcontroller = new ns_topshare.ns_searchcontrollers.SearchController('mysearchcontroller'
+			, 'content'
+			, 'frame'
+			, 1012
+			, 'tssearchresults'    
+			, '2'
+			, 'E');
+
+			// On Search, do we want to repaint the window? (Yes when following statement is 
+			searchboxmysearchcontroller.SetRepaintOnSearch(false);
+
+			// Register this under parent
+			// TODO: make this into a Controller method - this could be a single line..
+			var paramList = new Array(2);
+			paramList[0] = searchboxmysearchcontroller;
+			paramList[1] = 'MASTER';
+
+			if (paramList[1] == 'MASTER')
+				paramList[1] = ns_topshare.ns_controllers.PageController.GetInstance().ctrl_id;
+
+			var msg = searchboxmysearchcontroller.ConstructMessage(ns_topshare.ns_controllers.REGISTER, paramList);
+			searchboxmysearchcontroller.SendMessage(msg);
+		</script>
+<div id="mysearchcontroller" class="tsSearchController" style="">
+  <input type="text" id="searchformysearchcontroller" name="searchformysearchcontroller" class="searchInput" value="">
+  <input type="submit" value="Search" onClick="searchboxmysearchcontroller.DoSearch(document.getElementById('searchformysearchcontroller').value);" class="searchButton">
+</div>
+													</div>
+                    </div>
+                    <div id="content">
+                      <div id="trail">
+														/ <script language="Javascript" src="/js/Controller.js"></script><script language="Javascript" src="/tagexpander/js/DataController.js"></script><script language="Javascript">
+			// Setting up the control
+			// called from tagTrail
+			var ctrl = new ns_topshare.ns_datacontrollers.TsDataController(
+				'trail'
+				, 'everyone'
+				, '0'
+				, ''
+				, ''
+				, ''
+				, 'E'
+				, true
+				, '');
+
+			var paramList = new Array(2);
+			paramList[0] = ctrl;
+			paramList[1] = 'MASTER';
+			if (paramList[1] == 'MASTER')
+			paramList[1] = ns_topshare.ns_controllers.PageController.GetInstance().ctrl_id;
+
+			var msg = ctrl.ConstructMessage(ns_topshare.ns_controllers.REGISTER, paramList);
+			ns_topshare.ns_controllers.PageController.GetInstance().SendMessage(msg);
+
+			if (ctrl.nodeId == '')
+				ctrl.nodeId = '1012';
+
+		</script><a href="JavaScript:parent.syncToc(1012,12,'#',0,0,1011);">Homepage</a>
+													</div>	
+													<?xml version="1.0" encoding="utf-8"?><p><div class="title" style="text-align: left"><span style="color: rgb(204,102,51)"><strong><u><span style="font-size: 22px">I</span></u><span style="font-size: 22px">mproved <u>N</u>utrition through <u>Stap</u>le Foods in <u>A</u>frica</span></strong></span></div><div class="title" style="text-align: center"><br /><img alt="" src="/downloadimage/1012/1245_7292011_50958_PM_logo_257x80_150ppp.png/logo_257x80_150ppp.png" /><br />&#160;</div><span style="font-size: 12px"><div style="text-align: justify"><span style="font-family: Arial">The INSTAPA project, financed as part of the 7th Framework Programme of the European Commission, focuses on the improvement of millet-, sorghum-, maize-, and cassava-based foods for young children in sub-Saharan Africa to safely prevent deficiencies of iron, zinc, and vitamin A to improve immune function and cognitive development.<br />The project is conducted by research scientists from Europe, Africa and USA (<a href="javascript:parent.syncToc(2147,7,0)">Partners</a>).<br /></span></div><span style="font-family: Arial"><br /><a href="javascript:parent.syncToc(2195,5,0)">Click here</a> to find out more about the INSTAPA project.<br /></span></span><p><span style="font-size: 12px"><br /><span style="font-family: Arial">Brochure in English: <a href="/downloadattachment/1012/1053/Brochure INSTAPA.pdf" target="_blank" BORDER="0">Brochure INSTAPA.pdf</a><br />Brochure en français: <a href="/downloadattachment/1012/1054/Brochure INSTAPA FR.pdf" target="_blank" BORDER="0">Brochure INSTAPA FR.pdf</a><br /><br /></span></span></p><hr /><h1><span style="color: rgb(204,102,51)">News / Announcements</span></h1><ul><li><span style="font-size: 14px">New course on <a target="_blank" href="https://www.edx.org/course/nutrition-health-part-2-micronutrients-wageningenx-nutr102x#">Micronutrients and Malnutrition</a>:&#160;See 'Training and Symposia'&#160;(Menu on the left side)&#160;- Nov 2015</span></li></ul><br /><ul><li><a href="javascript:parent.syncToc(2673,9,0)">WP6 Field Impressions (Video)</a><br />&#160;</li><li><a href="javascript:parent.syncToc(2198,5,0)">New scientific publication</a><span style="color: rgb(0,0,0)">&#160; updated March 2015</span></li></ul><br /><ul><li><span style="color: rgb(0,0,0)">The Pimal Study: a short video presenting the activities of Work Package 5 (safety), can be seen <a href="javascript:parent.syncToc(2198,5,0)">here</a>.</span></li></ul><br /><ul><li><a href="javascript:parent.syncToc(2198,5,0)">Abstracts of presentations and posters</a> presented at the IUNS International Congress of Nutrition 2013 have been published in <em>Annals of Nutrition and Metabolism</em></li></ul><br /><ul><li><a href="javascript:parent.syncToc(2198,5,0)">New book chapter</a> in "Neuropsychology of Children in Africa, Perspectives on Risk and Resilience"</li></ul><br /><ul><li><a href="javascript:parent.syncToc(2198,5,0)">New scientific publication</a><span style="color: rgb(0,0,0)"> in "Journal of Agricultural and Food Chemistry"</span></li></ul><br /><ul><li><a href="javascript:parent.syncToc(2275,7,0)">INSTAPA featured in <em>Projects</em> magazine</a></li></ul><br /><ul><li><a href="javascript:parent.syncToc(2198,5,0)">New scientific publication</a><span style="color: rgb(0,0,0)"> in "Food Security"</span></li></ul><br /><ul><li><a href="javascript:parent.syncToc(2275,7,0)">HarvestPlus press release about biofortified cassava</a></li></ul><br /><ul><li><a href="javascript:parent.syncToc(2275,7,0)">Media coverage of studies with iron-biofortified pearl millet</a></li></ul><br /><ul><li><a href="javascript:parent.syncToc(2198,5,0)">New scientific publications</a><span style="color: rgb(0,0,0)"> <span style="color: rgb(0,0,0)">in the "Journal of Nutrition", "British Journal of Nutrition" and PLOS ONE</span><br /></span></li></ul><br /><ul><li><span style="color: rgb(0,0,0)">In the news</span>: <a href="javascript:parent.syncToc(2275,7,0)">INSTAPA project featured on EU's <em>'Research &amp; Innovation'</em> website</a></li></ul><br /><ul><li><a href="javascript:parent.syncToc(2198,5,0)">New scientific publications</a><span style="color: rgb(0,0,0)"> in the "International Journal of Biological and Chemical Sciences" and in the "Journal of Agricultural and Food Chemistry"</span></li></ul><br /><ul><li><span style="color: rgb(0,0,0)">Field impression: a short video presenting the activities of Work Package 6 (cognitive development), can be seen <a href="javascript:parent.syncToc(2198,5,0)">here</a>.</span></li></ul><br /><ul><li><span style="color: rgb(0,0,0)">The INSTAPA project was well represented at the <a target="_blank" href="http://www.nutritioncongress.co.za">Nutrition Congress Africa 2012</a>, which took place in Bloemfontein, South Africa, October 01-04. The posters and presentations by INSTAPA members are available for download <a href="javascript:parent.syncToc(2667,7,0)">here</a>.<br /></span></li></ul><br /><ul><li><span style="color: rgb(0,0,0)">A 8.8 min documentary was broadcasted by EURONEWS about the INSTAPA project. The documentary can be seen online using this link: <a href="javascript:parent.syncToc(2749,7,0)">Micronutrients against malnutrition</a></span></li></ul><br /><ul><li><span style="color: rgb(0,0,0)"><span style="color: rgb(0,0,0)">The <a href="/downloadattachment/1012/2042/Newsletter_issue_4.pdf" target="_blank" BORDER="0">fourth issue</a> of the yearly INSTAPA Newsletter has been published, and can be downloaded <a href="javascript:parent.syncToc(2198,5,0)">here</a>.</span></span></li></ul><br /><ul><li><span style="color: rgb(0,0,0)"><a href="javascript:parent.syncToc(2198,5,0)">Booklet of traditional recipes</a> from Burkina Faso and Benin available to download (large pdf file, French or English version) or purchase as hardcopy</span></li></ul></p>
+												</div>
+                    <a class="sitemapCrawler" href="/tagexpander/asp/tagexpander.aspx?tag=@sitemap%20layoutcategory=21%20ppkey=everyone%20includebase=1%20depth=2%20id=1012%20types=5.0:7.0:12.0%20sitemap@">sitemap</a>
+                  </td>
+                </tr>
+              </table>
+            </center>
+          </div>
+        </td>
+        <td class="Space">
+							.
+						</td>
+      </tr>
+    </table>
+  </body>
+</html>

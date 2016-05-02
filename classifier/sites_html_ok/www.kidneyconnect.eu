@@ -1,0 +1,250 @@
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+<head>
+  <base href="http://www.kidneyconnect.eu/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="kidneyconnect, kidneyconnect.eu, diabetes, cardiovascular disease, kidney, podocyte, glomerulus, glomerular filtration barrier, diagnostics, ehealth, mobile health, computational medicine, bioinformatics, medicines, nanomedicines, targeted delivery, health economics, systems biology, exchange programs, medical training, clinical training, international collaborations, treatment guidelines, best practices, patient organisations, dialysis, kidney replacement, innovative medicines" />
+  <meta name="author" content="KC.eu Administrator" />
+  <meta name="description" content="KidneyConnect - A Gateway to European Kidney Research Resources" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>KidneyConnect - Home</title>
+  <link href="/templates/clever/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/media/mod_languages/css/template.css" type="text/css" />
+  <script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+  <script src="/media/jui/js/bootstrap.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+;</script>
+
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" href="/templates/clever/css/styles.css" type="text/css" />
+<link rel="stylesheet" href="/templates/clever/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="/templates/clever/css/font-awesome.min.css" type="text/css" />
+<!-- Custom CSS For IE -->
+<!--[if IE 7]><link rel="stylesheet" href="/templates/clever/css/font-awesome-ie7.min.css" type="text/css" /><![endif]-->
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script><![endif]-->
+<!-- Custom CSS -->
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Sintony' rel='stylesheet' type='text/css'>
+</head>
+<body class="background">
+<div id="wrapper">
+<div id="header-wrap" class="clr">
+    	<div id="header" class="container row clr">   
+            <div id="logo" class="col span_4">
+				                            <a href="/"><img src="/images/KC_logo_j.jpg" alt="KidneyConnect" /></a>
+                 
+                                                <div id="site-description">A Gateway to European Kidney Research Resources</div>
+                  
+            </div><!-- /logo -->
+        	            <div id="top" class="col span_8">
+				
+
+<div class="custom"  >
+	<p style="text-align: right;"><br /><img src="/images/FP7.jpg" alt="" width="176" height="66" /></p></div>
+
+			</div>
+        	            
+
+<div id="social">
+		</div>
+    	</div>
+</div>
+
+<div id="navbar-wrap">
+    <nav id="navbar" class="container row clr">
+    	<div id="navigation" class="span_12 col clr"> 
+        	<script type="text/javascript">
+	jQuery(document).ready(function($){
+		$('#navbar-wrap').prepend('<a id="menu-icon"><span class="menu-icon-title">Main menu (EN)</span> <i class="icon-double-angle-down"></i> </a>');
+		$("#menu-icon").on("click", function(){
+			$("#navbar").slideToggle(500,"linear");
+			$(this).toggleClass("active");
+		});
+	});
+</script>
+    
+<ul class="menu ">
+<li class="item-128 current active"><a href="/" ><span class="menutitle">Home</span> <span class="menudesc"></span></a></li><li class="item-129"><a href="/about-us-en-gb" ><span class="menutitle">About Us</span> <span class="menudesc"></span></a></li><li class="item-130"><a href="/aims" ><span class="menutitle">Aims</span> <span class="menudesc"></span></a></li><li class="item-131"><a href="/news" ><span class="menutitle">News</span> <span class="menudesc"></span></a></li><li class="item-132"><a href="/contact" ><span class="menutitle">Contact</span> <span class="menudesc"></span></a></li></ul>
+
+         </div>            
+    </nav>
+</div>
+<div class="clr"></div>
+       
+            <div id="slide-wrap" class="container row clr">
+                    <link rel="stylesheet" href="/templates/clever/css/flexslider.css" type="text/css" />
+<script type="text/javascript" src="/templates/clever/js/jquery.flexslider-min.js"></script>
+
+<script type="text/javascript">
+    jQuery(window).load(function(){
+      jQuery('.flexslider').flexslider({
+			namespace: "flex-",             //{NEW} String: Prefix string attached to the class of every element generated by the plugin
+			selector: ".slides > li",       //{NEW} Selector: Must match a simple pattern. '{container} > {slide}' -- Ignore pattern at your own peril
+			animation: "slide",              //String: Select your animation type, "fade" or "slide"
+			easing: "swing",               //{NEW} String: Determines the easing method used in jQuery transitions. jQuery easing plugin is supported!
+			direction: "horizontal",        //String: Select the sliding direction, "horizontal" or "vertical"
+			reverse: false,                 //{NEW} Boolean: Reverse the animation direction
+			animationLoop: true,             //Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end
+			smoothHeight: false,            //{NEW} Boolean: Allow height of the slider to animate smoothly in horizontal mode
+			startAt: 0,                     //Integer: The slide that the slider should start on. Array notation (0 = first slide)
+			slideshow: true,                //Boolean: Animate slider automatically
+			slideshowSpeed: 7000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
+			animationSpeed: 600,            //Integer: Set the speed of animations, in milliseconds
+			initDelay: 0,                   //{NEW} Integer: Set an initialization delay, in milliseconds
+			randomize: false,               //Boolean: Randomize slide order
+		
+			// Usability features
+			pauseOnAction: true,            //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
+			pauseOnHover: false,            //Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
+			useCSS: true,                   //{NEW} Boolean: Slider will use CSS3 transitions if available
+			touch: true,                    //{NEW} Boolean: Allow touch swipe navigation of the slider on touch-enabled devices
+			video: false,                   //{NEW} Boolean: If using video in the slider, will prevent CSS3 3D Transforms to avoid graphical glitches
+		
+			// Primary Controls
+			controlNav: true,               //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+			directionNav: true,             //Boolean: Create navigation for previous/next navigation? (true/false)
+			prevText: "Previous",           //String: Set the text for the "previous" directionNav item
+			nextText: "Next",               //String: Set the text for the "next" directionNav item
+		
+			// Secondary Navigation
+			keyboard: true,                 //Boolean: Allow slider navigating via keyboard left/right keys
+			multipleKeyboard: false,        //{NEW} Boolean: Allow keyboard navigation to affect multiple sliders. Default behavior cuts out keyboard navigation with more than one slider present.
+			mousewheel: false,              //{UPDATED} Boolean: Requires jquery.mousewheel.js (https://github.com/brandonaaron/jquery-mousewheel) - Allows slider navigating via mousewheel
+			pausePlay: false,               //Boolean: Create pause/play dynamic element
+			pauseText: "Pause",             //String: Set the text for the "pause" pausePlay item
+			playText: "Play",               //String: Set the text for the "play" pausePlay item
+		
+			// Special properties
+			controlsContainer: "",          //{UPDATED} jQuery Object/Selector: Declare which container the navigation elements should be appended too. Default container is the FlexSlider element. Example use would be $(".flexslider-container"). Property is ignored if given element is not found.
+			manualControls: "",             //{UPDATED} jQuery Object/Selector: Declare custom control navigation. Examples would be $(".flex-control-nav li") or "#tabs-nav li img", etc. The number of elements in your controlNav should match the number of slides/tabs.
+			sync: "",                       //{NEW} Selector: Mirror the actions performed on this slider with another slider. Use with care.
+			asNavFor: "",                   //{NEW} Selector: Internal property exposed for turning the slider into a thumbnail navigation for another slider
+		
+			// Carousel Options
+			itemWidth: 0,                   //{NEW} Integer: Box-model width of individual carousel items, including horizontal borders and padding.
+			itemMargin: 0,                  //{NEW} Integer: Margin between carousel items.
+			minItems: 0,                    //{NEW} Integer: Minimum number of carousel items that should be visible. Items will resize fluidly when below this.
+			maxItems: 0,                    //{NEW} Integer: Maxmimum number of carousel items that should be visible. Items will resize fluidly when above this limit.
+			move: 0,                        //{NEW} Integer: Number of carousel items that should move on animation. If 0, slider will move all visible items.
+      });
+    });
+</script>
+
+<div class="flexslider" id="flexslider">
+	<ul class="slides">
+		        <li>
+        	            <img src="/images/slides/Testtube.jpg" />
+                                </li>
+                <li>
+        	            <img src="/images/slides/kid1.jpg" />
+                                </li>
+                <li>
+        	            <img src="/images/slides/hplc.jpg" />
+                                </li>
+                <li>
+        	            <img src="/images/slides/kid2.jpg" />
+                                </li>
+                <li>
+        	            <img src="/images/slides/sugar.jpg" />
+                                </li>
+        	</ul>
+</div>
+            </div>
+ 
+                
+		                    
+<div id="box-wrap" class="container row clr">
+	<div id="main-content" class="row span_12">
+							                                <div id="post" class="col span_9 clr">
+                                    <div id="comp-wrap">
+                                    	                                        <div id="system-message-container">
+	</div>
+
+                                        <div class="item-page">
+	<h1 class="item-page-title"><a href="/">Home</a></h1>
+
+
+        
+
+
+
+
+	        
+
+<p>Diabetes, Cardiovascular and Chronic kidney (DCC) -diseases are relentlessly increasing globally, causing enormous human suffering, excess premature deaths and unsustainable costs.</p>
+<p>To combat these challenges, European kidney research has traditions to build on innovative approaches, development of new methods, meticulous collection of biological sample repositories, and their smart use for the full benefit ultimately for the DCC patient in the form of new diagnostics, therapies and treatment practices.</p>
+<p><img style="float: right;" src="/images/KC_PROCESS.jpg" alt="" width="247" height="187" /></p>
+<p>KidneyConnect is a European Union -funded program to bring together leading teams in Europe and beyond to underpin nationally funded programs under</p>
+<ul>
+<li>Discovery and Future Technologies</li>
+<li>New Research Platforms</li>
+<li>Translational and</li>
+<li>Clinical Kidney Research<br /><br /></li>
+</ul>
+<p>to create networked capacities, well trained talent pools, dynamic research-, training- and exchange programs and optimized strategies for secured funding of the topics of key importance for the DCC patient.</p>
+<p>Notably, KidneyConnect emphasizes the importance to collaborate with patient organizations, discovery intensive industry as well as healthcare organizations with key decision makers and actively invites their participation.</p>
+<p>We expect to achieve new concepts of cost-effective use of resources already generated throughout Europe and beyond for the full benefit of the patient, healthcare organisations and new smart economies to yield substantial benefits and agility in the huge global markets.</p>
+<hr />
+<h3 style="text-align: center;"> Partners of KidneyConnect</h3>
+<p style="text-align: center;"> <img src="/images/PL_160/160_DCU.gif" alt="" /><img src="/images/PL_160/160_Florence.gif" alt="" /><img src="/images/PL_160/160_Vienna.gif" alt="" /><img src="/images/PL_160/160_Freiburg.gif" alt="" /><img src="/images/PL_160/160_HU.gif" alt="" /><img src="/images/PL_160/160_Greifswald.gif" alt="" /><img src="/images/PL_160/160_Aachen.gif" alt="" /><img src="/images/PL_160/160_IRCCS.gif" alt="" /><img src="/images/PL_160/160_Athens.gif" alt="" /><img src="/images/PL_160/160_Madrid.gif" alt="" /><img src="/images/PL_160/160_Bristol.gif" alt="" /><img src="/images/PL_160/160_MArionegri.gif" alt="" /><img src="/images/PL_160/160_Torino.gif" alt="" /><img src="/images/PL_160/160_Gothenburg.gif" alt="" /><img src="/images/PL_160/160_Inserm.gif" alt="" /><img src="/images/PL_160/160_London.gif" alt="" /></p> 
+	    
+
+	
+
+</div>
+
+                                    </div>
+                                </div>
+							                            <div id="rightbar-w" class="col span_3 clr">
+                            	<div id="sidebar">
+                                	<div class="module light ">
+	    <div class="module-body">
+    	<div class="mod-languageslight">
+
+	<ul class="lang-inline">
+						<li class="" dir="ltr">
+			<a href="/zh-CN/">
+							<img src="/media/mod_languages/images/zh_cn.gif" alt="Chinese (Simplified)" title="Chinese (Simplified)" />						</a>
+			</li>
+								<li class="lang-active" dir="ltr">
+			<a href="http://www.kidneyconnect.eu/">
+							<img src="/media/mod_languages/images/en_gb.gif" alt="English (UK)" title="English (UK)" />						</a>
+			</li>
+				</ul>
+
+</div>
+    </div>
+</div>
+<div class="module light ">
+	    <div class="module-body">
+    	<a class="twitter-timeline" data-theme="light" data-link-color="##4aed05" data-border-color="##cccccc"  data-chrome="nofooter "  3  href="https://twitter.com/KidneyConnecteu" data-widget-id="430054758984851457" width="250" height="350">Tweets by @KidneyConnecteu</a>
+
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>    </div>
+</div>
+
+                            	</div>
+                            </div>
+                            	</div>
+</div>
+
+		        
+<div id="footer-wrap"  class="container row clr" >
+                            <div id="footer-nav">           
+				
+<ul class="menu ">
+<li class="item-128 current active"><a href="/" ><span class="menutitle">Home</span> <span class="menudesc"></span></a></li><li class="item-129"><a href="/about-us-en-gb" ><span class="menutitle">About Us</span> <span class="menudesc"></span></a></li><li class="item-130"><a href="/aims" ><span class="menutitle">Aims</span> <span class="menudesc"></span></a></li><li class="item-131"><a href="/news" ><span class="menutitle">News</span> <span class="menudesc"></span></a></li><li class="item-132"><a href="/contact" ><span class="menutitle">Contact</span> <span class="menudesc"></span></a></li></ul>
+
+            </div>
+                        
+</div>
+</div>
+</body>
+</html>

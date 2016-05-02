@@ -1,0 +1,680 @@
+
+
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb"
+      lang="en-gb">
+
+  
+    
+    
+    
+    
+    
+
+  
+
+  <head>
+
+    <meta http-equiv="Content-Type"
+          content="text/html;charset=utf-8" />
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    <!-- Internet Explorer fix, forces IE8 into newest possible rendering
+         engine even if it's on an intranet. This has to be defined before any
+         script/style tags. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+
+    
+      <base href="http://Pla-foam.uk-matri.org/front-page" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    <link rel="kss-base-url" href="http://Pla-foam.uk-matri.org/front-page" />
+
+  
+  
+    
+    
+      <script type="text/javascript"
+              src="http://Pla-foam.uk-matri.org/portal_javascripts/Intranet%20Theme/jquery-cachekey4984.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://Pla-foam.uk-matri.org/portal_javascripts/Intranet%20Theme/resourcebase2-dom-fp-cachekey3867.js">
+      </script>
+    
+    
+    
+  
+
+
+  
+  
+    
+    
+    
+      <style type="text/css">@import url(http://Pla-foam.uk-matri.org/portal_css/Intranet%20Theme/base-cachekey0660.css);</style>
+    
+    
+    
+  
+
+  
+    
+    
+    
+      <style type="text/css">@import url(http://Pla-foam.uk-matri.org/portal_css/Intranet%20Theme/resourcenetsightintranet.stylesheetsdeplone3-cachekey8749.css);</style>
+    
+    
+    
+  
+
+
+  
+  <link rel="kinetic-stylesheet" type="text/css"
+        href="http://Pla-foam.uk-matri.org/portal_kss/Intranet%20Theme/at-cachekey9767.kss" />
+
+
+<title>Welcome to the PLA FOAM Site &mdash; PlaFoam Site</title>
+
+    <!-- IE6 workaround CSS/JS  -->
+    <!--[if lte IE 7]>
+        <style type="text/css" media="all">@import url(http://Pla-foam.uk-matri.org/IEFixes.css);</style>
+        
+        <script type="text/javascript"
+                src="http://Pla-foam.uk-matri.org/iefixes.js">
+        </script>
+    <![endif]-->
+
+
+    
+
+    <link rel="shortcut icon" type="image/x-icon"
+          href="http://Pla-foam.uk-matri.org/favicon.ico" />
+
+
+
+    <link rel="home" href="http://Pla-foam.uk-matri.org"
+          title="Front page" />
+
+    <link rel="contents"
+          href="http://Pla-foam.uk-matri.org/sitemap"
+          title="Site Map" />
+
+
+
+
+
+
+    <link rel="search"
+          href="http://Pla-foam.uk-matri.org/search_form"
+          title="Search this site" />
+
+
+
+    <!-- Disable IE6 image toolbar -->
+    <meta http-equiv="imagetoolbar" content="no" />
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+  </head>
+
+  <body class="section-front-page template-document_view"
+        dir="ltr">
+    <div id="visual-portal-wrapper">
+
+      <div id="portal-top">
+        <div id="portal-header">
+<p class="hiddenStructure">
+  <a accesskey="2"
+     href="http://Pla-foam.uk-matri.org/#documentContent">Skip to content.</a> |
+
+  <a accesskey="6"
+     href="http://Pla-foam.uk-matri.org/#portlet-navigation-tree">Skip to navigation</a>
+</p>
+
+<a id="portal-logo" accesskey="1"
+   href="http://Pla-foam.uk-matri.org">
+    <img src="http://Pla-foam.uk-matri.org/logo.jpg" alt="" title="" height="56" width="215" /></a>
+
+<div id="portal-personaltools-wrapper" class="visualNoPrint">
+  
+  
+  <!--[if IE]>
+  <style type="text/css" media="all">@import url(http://Pla-foam.uk-matri.org/++resource++netsightintranet.stylesheets/netsightintranet_IEFixes.css);</style>
+  <![endif]-->
+  
+  
+  <h5 class="hiddenStructure">Personal tools</h5>
+  <div id="users-name" class="anon">
+    
+    
+      not logged in
+    
+  </div>
+  <ul id="portal-personaltools" class="visualInline">
+    
+
+    
+      <li class=" None isFirst">
+        <a href="http://Pla-foam.uk-matri.org/login_form">Log in</a>
+      </li>
+    
+
+  </ul>
+</div>
+
+<div id="portal-searchbox">
+    <form name="searchform"
+          action="http://Pla-foam.uk-matri.org/search">
+
+        <label for="searchGadget">Search</label>
+
+        <div class="LSBox">
+        <input name="SearchableText" type="text" size="23"
+               title="Search Site" accesskey="4"
+               class="inputLabel" id="searchGadget" />
+
+        <input class="searchButton" type="image"
+               value="Search"
+               src="http://Pla-foam.uk-matri.org/search.gif" />
+   
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only"
+                   class="noborder" type="checkbox"
+                   name="path" value="/PlaFoam" />
+            <label for="searchbox_currentfolder_only"
+                   style="cursor: pointer">
+                only current folder</label>
+	    <a id="advanced_search_link"
+        href="http://Pla-foam.uk-matri.org/search_form">Advanced</a>
+        </div>
+	
+
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="http://Pla-foam.uk-matri.org/search_form"
+           accesskey="5">
+            Advanced Search&hellip;
+        </a>
+    </div>
+
+</div>
+
+
+    <h5 class="hiddenStructure">Sections</h5>
+
+    <ul id="portal-globalnav">
+        <li id="portaltab-index_html" class="selected"><a
+    href="http://Pla-foam.uk-matri.org" title="">Home</a></li>
+        <li id="portaltab-partners" class="plain"><a
+    href="http://Pla-foam.uk-matri.org/partners" title="">Partners</a></li>
+        <li id="portaltab-events" class="plain"><a
+    href="http://Pla-foam.uk-matri.org/events"
+    title="Site Events">Events</a></li>
+        <li id="portaltab-contact" class="plain"><a
+    href="http://Pla-foam.uk-matri.org/contact" title="">Contact</a></li>
+        <li id="portaltab-disclaimer" class="plain"><a
+    href="http://Pla-foam.uk-matri.org/disclaimer" title="">Disclaimer</a></li>
+    </ul>
+
+</div>
+
+
+    
+
+
+<div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">You
+are here:</span>
+    <a href="http://Pla-foam.uk-matri.org">Home</a>
+    
+
+</div>
+
+      </div>
+
+      <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+
+      <table id="portal-columns">
+        <tbody>
+          <tr>
+            
+            <td id="portal-column-one">
+              <div class="visualPadding">
+                
+                  
+<div id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f506c61466f616d0a6e617669676174696f6e"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f506c61466f616d0a6e617669676174696f6e"><div id="navigationTree" class="portlet empty">
+
+  <div id="title">
+    <h3>
+      <a href="http://Pla-foam.uk-matri.org">PlaFoam Site</a>
+    </h3>
+  </div>
+
+  
+  
+</div>
+</div>
+
+<div id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f506c61466f616d0a6c6f67696e"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f506c61466f616d0a6c6f67696e">
+
+<dl class="portlet portletLogin">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="http://Pla-foam.uk-matri.org/login_form"
+           class="tile">Log in</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+        <form action="http://Pla-foam.uk-matri.org/login_form"
+              name="loginform" method="post">
+
+            <input type="hidden" name="form.submitted" value="1" />
+            <input type="hidden" name="came_from"
+                   value="http://Pla-foam.uk-matri.org/" />
+            <input type="hidden" name="js_enabled" id="js_enabled" value="0" />
+            <input type="hidden" name="cookies_enabled" id="cookies_enabled" value="" />
+            <input type="hidden" name="login_name" id="login_name" value="" />
+            <input type="hidden" name="pwd_empty" id="pwd_empty" value="0" />
+
+            <div class="field">
+                <label for="__ac_name">Login Name</label>
+                <br />
+                <input type="text" size="10"
+                       alt="Login Name" name="__ac_name"
+                       value="" id="__ac_name" />
+            </div>
+            
+            <div class="field">
+                <label for="__ac_password">Password</label>
+                <br />
+                <input type="password" size="10"
+                       alt="Password" name="__ac_password"
+                       id="__ac_password" />
+            </div>
+
+            <div class="cookiesMessage portalMessage"
+                 style="display:none">
+                Cookies are not enabled. You must enable cookies before you
+                can log in.
+            </div>
+            
+            <div class="formControls">
+            
+                <input class="context" type="submit"
+                       name="submit" value="Log in"
+                       alt="Log in" />
+            </div>
+        </form>
+    </dd>
+    
+    <dd class="portletItem even">
+        <a href="http://Pla-foam.uk-matri.org/mail_password_form"
+           class="tile">
+           <img src="http://Pla-foam.uk-matri.org/info_icon.gif" alt="" title="" height="16" width="16" />
+           Forgot your password?
+        </a>
+    </dd>
+    
+    
+</dl>
+
+
+
+
+</div>
+
+
+
+
+                
+                &nbsp;
+              </div>
+            </td>
+            
+
+            
+            <td id="portal-column-content">
+
+              
+                <div class="">
+
+                  <div id="toolbar-holder" class="">
+  
+  
+</div>
+
+
+                  <div id="region-content" class="documentContent">
+
+                    <span id="contentTopLeft"></span>
+                    <span id="contentTopRight"></span>
+                    
+                    <a name="documentContent"></a>
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+                    
+                    <div id="viewlet-above-content"></div>
+
+                    
+                    <div id="content">
+                      
+                      
+    
+
+        
+
+        <h1 class="documentFirstHeading"> 
+            
+        <span class="" id="parent-fieldname-title">
+            Welcome to the PLA FOAM Site
+        </span>
+    
+        </h1>
+
+        
+
+
+
+
+        <p class="documentDescription">
+            
+        <span class="" id="parent-fieldname-description">
+            
+        </span>
+    
+        </p>
+
+        
+
+
+
+        
+
+        
+        <div class="" id="parent-fieldname-text">
+            
+<table class="invisible">
+<tbody>
+<tr>
+<td>
+<h3>The development of a single-screw extrusion process for the
+production of low density biodegradable PLA foam for thermoformed food
+packaging applications</h3>
+
+<p>&nbsp;<img class="image-inline image-inline" src="http://pla-foam.uk-matri.org/copy_of_CIMG0045.JPG/image_preview" alt="PLA Foam Extruder" height="434" width="525" align="left" hspace="12" /></p>
+
+<p>The use of polymers for food packing is an essential part of the
+food production and transportation process to reduce food damage and
+spoilage, reduce the risk of contamination and increase product
+lifetimes. Currently within the EU, ~22 million tonnes of polymers are
+used for packaging applications annually. Of these 450,000 tonnes p.a.
+are foamed polymers which are manufactured from synthetic polymers such
+as Expanded Polystyrene (EPS) of density ~50 kg/m. However, foamed
+polymers are difficult to recycle cost-effectively and as a result only
+a very small proportion are recycled at the end of life, with the vast
+majority going to landfill.</p>
+
+<p>As a result of these considerable issues, the market place is
+looking for a soluion where by these products can be composted at the
+end of life or will degrade in the environment if accidentally released
+as litter. Of the renewable polymers being commercialised, only Poly
+Lactic Acid (PLA) is produced in sufficient quantities to be a
+commercial solution.</p>
+
+<p>PLA Foam looks to develop&nbsp;a single screw extruder capable of
+foaming PLA to a level suitable for thermoforming.</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: left;"><strong>The research leading to these
+results has received funding from the European Union&nbsp;Seventh
+Framework Programme (</strong><strong><em>FP7-SME-2008-1</em>) under
+<em>grant agreement</em> n° 232145</strong></p>
+
+<p style="text-align: left;"><img class="image-inline" src="http://pla-foam.uk-matri.org/PLA_FP7_EU_Flag.jpg/image_preview" alt="PLA_Foam_Eu_FP7_Flag" height="91" width="400" /></p>
+
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+            
+        </div>
+    
+
+        <div class="relatedItems">
+    
+        
+            
+        
+    
+</div>
+    
+        
+
+<div class="visualClear"><!-- --></div>
+<div class="documentActions">
+    
+
+    <h5 class="hiddenStructure">Document Actions</h5>
+
+    <ul>
+    
+        <li id="document-action-sendto">
+            <a href="http://Pla-foam.uk-matri.org/front-page/sendto_form"
+               title="">Send this</a>
+        </li>
+    
+    
+        <li id="document-action-print">
+            <a href="javascript:this.print();" title="">Print this</a>
+        </li>
+    
+
+    </ul>
+    
+
+    
+
+</div>
+
+
+    
+
+                    </div>
+                    
+
+                    
+                    
+                      
+    
+
+
+
+
+                    
+                    
+
+                    <span id="contentBottomLeft"></span>
+                    <span id="contentBottomRight"></span>
+
+                  </div>
+
+                </div>
+
+              
+            </td>
+            
+
+            
+            <td id="portal-column-two">
+              <div class="visualPadding">
+                
+                  
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c61466f616d0a706c612d666f616d2d73756d6d617279"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c61466f616d0a706c612d666f616d2d73756d6d617279">
+<dl class="portlet portletStaticText portlet-static-pla-foam-summary">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <span>
+           PLA-Foam Summary
+        </span>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+        
+<p>A published summary of the PLA-Foam project is now available. Download the <a class="external-link" href="pla-foam-summary.pdf">PDFsummary here</a></p>
+
+        
+            <span class="portletBottomLeft"></span>
+            <span class="portletBottomRight"></span>
+        
+    </dd>
+    
+    
+
+</dl>
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c61466f616d0a63616c656e646172"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f506c61466f616d0a63616c656e646172"><dl class="portlet portletCalendar"
+    xmlns="http://www.w3.org/1999/xhtml">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="?month:int=1&amp;year:int=2016&amp;orig_query="
+           rel="nofollow" title="Previous month"
+           id="calendar-previous"
+           class="kssCalendarChange kssattr-year-2016 kssattr-month-1 calendarPrevious">&laquo;</a>
+
+        
+            February
+            2016
+        
+
+        <a href="?month:int=3&amp;year:int=2016&amp;orig_query="
+           rel="nofollow" title="Next month"
+           id="calendar-next"
+           class="kssCalendarChange kssattr-year-2016 kssattr-month-3 calendarNext">&raquo;</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem">
+        <table class="ploneCalendar" summary="Calendar">
+            <caption class="hiddenStructure">February</caption>
+            <thead>
+                <tr class="weekdays"><th scope="col">Mo</th><th
+    scope="col">Tu</th><th scope="col">We</th><th
+    scope="col">Th</th><th scope="col">Fr</th><th
+    scope="col">Sa</th><th scope="col">Su</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td>
+                </tr>
+                <tr><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td>
+                </tr>
+                <tr><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td>
+                </tr>
+                <tr><td>22</td><td>23</td><td>24</td><td
+    class="todaynoevent"><strong>25</strong></td><td>26</td><td>27</td><td>28</td>
+                </tr>
+                <tr><td>29</td><td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            </tbody>
+
+        </table>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+</div>
+
+
+
+
+                
+                &nbsp;
+              </div>
+            </td>
+            
+          </tr>
+        </tbody>
+      </table>
+      
+
+      <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+      
+      
+
+      
+
+        <ul id="portal-siteactions">
+
+    <li id="siteaction-sitemap"><a
+    href="http://Pla-foam.uk-matri.org/sitemap"
+    accesskey="3" title="Site Map">Site Map</a></li>
+    <li id="siteaction-accessibility"><a
+    href="http://Pla-foam.uk-matri.org/accessibility-info"
+    accesskey="0" title="Accessibility">Accessibility</a></li>
+    <li id="siteaction-contact"><a
+    href="http://Pla-foam.uk-matri.org/contact-info"
+    accesskey="9" title="Contact">Contact</a></li>
+
+</ul>
+
+
+
+      
+
+      <div class="visualClear"><!-- --></div>
+    </div>
+<div id="kss-spinner"><img alt=""
+                           src="http://Pla-foam.uk-matri.org/spinner.gif" /></div>
+</body>
+</html>
+
+

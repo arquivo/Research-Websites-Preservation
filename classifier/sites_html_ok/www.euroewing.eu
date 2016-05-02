@@ -1,0 +1,542 @@
+<!doctype html>
+<!--[if IE 7]> <html lang="en" class="lt-ie9 lt-ie8 no-js"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="lt-ie9 no-js"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+
+<head>
+<base href="http://www.euroewing.eu/" />
+
+        
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0" />
+
+
+
+
+
+<meta name="contact.name" content="Web Services" />
+<meta name="contact.email" content="silva-support@ucl.ac.uk" />
+
+
+
+
+        <!-- Head injector Script -->
+        
+        <title>Euro Ewing Consortium</title>
+
+
+        
+
+
+        <link href="//cdn.ucl.ac.uk/skins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" media="screen, projection"
+              href="//cdn.ucl.ac.uk/indigo/css/screen.min.css" />
+        <link rel="stylesheet" media="screen, projection"
+              href="//cdn.ucl.ac.uk/skins/UCLIndigoSkin/default-theme/css/brightblue.css">
+
+        
+
+        <link rel="stylesheet" media="screen, projection"
+              href="//cdn.ucl.ac.uk/skins/UCLIndigoSkin/www.euroewing.eu-theme/css/www.euroewing.eu.min.css">
+
+        <link rel="stylesheet" media="screen, projection"
+              href="//cdn.ucl.ac.uk/silva/UCLDefaultLayoutV4/css/screen/uclSearch.min.css">
+
+
+        <!--[if IE]>
+            <link media="screen, projection"
+                  rel="stylesheet"
+                  href="//cdn.ucl.ac.uk/indigo/css/ie.min.css" />
+            <link rel="stylesheet"
+                  media="screen, projection"
+                  href="//cdn.ucl.ac.uk/skins/UCLIndigoSkin/default-theme/css/ie.min.css">
+        <![endif]-->
+
+
+
+        <!--[if lt IE 8]>
+            <link media="screen, projection"
+                  rel="stylesheet"
+                  href="//cdn.ucl.ac.uk/indigo/css/ie-old.css" />
+            <link rel="stylesheet"
+                  media="screen, projection"
+                  href="//cdn.ucl.ac.uk/skins/UCLIndigoSkin/default-theme/css/ie-old.min.css">
+
+        <![endif]-->
+
+
+	<link media="print" rel="stylesheet"
+       href="//cdn.ucl.ac.uk/skins/UCLIndigoSkin/default-theme/css/print.css" />
+
+        <link rel="shortcut icon"
+              href="//cdn.ucl.ac.uk/indigo/images/favicon.ico">
+        <link rel="apple-touch-icon-precomposed"
+              href="//cdn.ucl.ac.uk/indigo/images/favicon-152.png">
+        <meta name="msapplication-TileColor" content="#000000">
+        <meta name="msapplication-TileImage"
+              content="//cdn.ucl.ac.uk/indigo//images/favicon-144.png">
+
+        <script src="//cdn.ucl.ac.uk/indigo/js/lib/modernizr-custom.js"></script>
+
+       
+
+        <script>
+            var cuttingTheMustard = document.querySelector && window.localStorage && window.addEventListener;
+
+            Modernizr.load({
+                //cutting the mustard as used by the BBC
+                test : cuttingTheMustard
+                //if old browser load the shiv
+                ,nope : [
+                    '//cdn.ucl.ac.uk/indigo/js/lib/html5shiv-printshiv.min.js'
+                    ,'//cdn.ucl.ac.uk/indigo/js/lib/respond.min.js'
+                    ,'//cdn.ucl.ac.uk/indigo/js/lib/respond.proxy.min.js'
+                ]
+            });
+            //set conditional assets for main.js
+            var globalSiteSpecificVars = {
+                pathToJquery: '//cdn.ucl.ac.uk/indigo/js/lib/jquery-1.9.1.min'
+                ,googleAnalyticsIdsArray: []//specify array of site specific id's NOT UCL generic UA-943297-1
+            }
+            if(cuttingTheMustard){
+                globalSiteSpecificVars.pathToJquery = '//cdn.ucl.ac.uk/indigo/js/lib/jquery-2.1.1.min';
+            }
+        </script> 
+
+        <script src="//cdn.ucl.ac.uk/indigo/js/lib/require.min.js"></script>
+        <script src='//cdn.ucl.ac.uk/skins/UCLIndigoSkin/default-theme/main.js'></script>
+        <script>require(['app/general','theme/indigo-autocomplete-ga','theme/footer','app/searchWithAutoComplete','app/lightbox','theme/www.euroewing.eu']);//load the default stuff</script>
+
+        <link id="respond-proxy" rel="respond-proxy"
+              href="//cdn.ucl.ac.uk/indigo/js/respond-x-domain/respond-proxy.html" />
+        <link href="/globals/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+    <body id="www.euroewing.eu"
+          class="layout-vertical layout-vertical--nav-2col section-www.euroewing.eu">
+
+     
+     <!--noindex-->
+        	<header class="header header--desktop">
+		<a class="header__close" href="#">
+            <img src="//cdn.ucl.ac.uk/indigo/images/close.png" alt="X" />Close</a>
+        <div id="top" class="masthead">
+
+			<div class="wrapper clearfix">
+
+				<div class="masthead__search">
+					<form action="http://search2.ucl.ac.uk/s/search.html" method="get">
+						<div class="search-form">
+							<input type="search" placeholder="Search UCL websites, degrees, short courses, people and more" class="search-form__input search-form__input--search" name="query" value="">
+						</div>
+						<input type="hidden" name="collection" value="website-meta">
+		                <input type="hidden" name="profile" value="_website">
+						<input type="hidden" name="tab" value="websites">
+		                <input type="submit" name="submit" value="Go" class="btn search-form__input search-form__input--submit" />
+					</form>
+				</div>
+
+		<nav class="masthead__nav m-clear">
+                    <ul class="masthead__list">
+                        <li class="masthead__item"><a href="//www.ucl.ac.uk/" class="masthead__link">UCL Home</a>
+                        </li>
+                        <li class="masthead__item"><a href="//www.ucl.ac.uk/prospective-students/" class="masthead__link">Prospective students</a>
+                        </li>
+                        <li class="masthead__item"><a href="//www.ucl.ac.uk/students/" class="masthead__link">Current students</a>
+                        </li>
+                        <li class="masthead__item"><a href="//www.ucl.ac.uk/staff/" class="masthead__link">Staff</a>
+                        </li>
+                    </ul>
+                </nav>
+			</div>
+
+</div><!-- end #global-masthead -->
+
+
+    	<div class="wrapper">
+           
+
+                       
+               <div id="branding">
+    <div class="logo-left">
+        <a href="http://www.euroewing.eu">
+            <img alt="UCL logo" src="http://www.euroewing.eu/images/euro-ewing-logo.png">
+        </a>
+    </div>
+    <div class="head-right">
+        <h1 class="section_header_white">Euro Ewing Consortium</h1>
+        <span class="head_subheader">International Clinical Trials to Improve Survival from Ewing Sarcoma</span>
+    </div>
+    <div id="search"> 
+      <form action="http://search2.ucl.ac.uk/s/search.html" method="get" id="googlesearch">
+        <input placeholder="Search Euroewing" name="query" id="query" type="text" value="" accesskey="q">
+        <input type="hidden" name="collection" value="euroewing">
+        <input type="submit" value="GO" class="submit" name="Submit">
+      </form>
+    </div>
+</div>
+
+           
+        
+
+          
+    <div class="sidebar">
+        <!-- mobile nav -->
+        <nav class="nav nav--mobile">
+
+
+        </nav>
+
+	
+       <!-- desktop nav -->
+        <nav class="nav nav--left">
+            <ul>
+                <li><a href="http://www.euroewing.eu"
+                       class="navitem selectednav selected-section">Home</a>
+                </li>
+                
+                    
+                        <li>
+                        
+			<a href="http://www.euroewing.eu/about-EEC"
+      class="navitem">EEC</a>
+                            
+                        </li>
+                    
+                    
+                        <li>
+                        
+			<a href="http://www.euroewing.eu/clinical-trials"
+      class="navitem">Clinical Trials</a>
+                            
+                        </li>
+                    
+                    
+                        <li>
+                        
+			<a href="http://www.euroewing.eu/partners"
+      class="navitem">EURO EWING Consortium Partners</a>
+                            
+                        </li>
+                    
+                    
+                        <li>
+                        
+			<a href="http://www.euroewing.eu/contact-us"
+      class="navitem">Contact us</a>
+                            
+                        </li>
+                    
+                    
+                        <li>
+                        
+			<a href="http://www.euroewing.eu/news-and-events"
+      class="navitem">News and Events</a>
+                            
+                        </li>
+                    
+                    
+                        <li>
+                        
+			<a href="http://www.euroewing.eu/patients-and-public"
+      class="navitem">Patients and Public</a>
+                            
+                        </li>
+                    
+                    
+                        <li>
+                        
+			<a href="http://www.euroewing.eu/partner-resources"
+      class="navitem">Partner Resources</a>
+                            
+                        </li>
+                    
+                
+            </ul>
+        </nav>
+    </div> <!-- end #sidebar -->
+
+    <nav class="nav nav--top">
+        
+        <ul>
+            <li><a href="http://www.euroewing.eu"
+                   class="navitem selectednav">Home</a></li>
+            
+                
+                    
+                    <li><a href="http://www.euroewing.eu/about-EEC"
+                           class="navitem">EEC</a></li>
+                
+                  
+                
+                    
+                    <li><a href="http://www.euroewing.eu/clinical-trials"
+                           class="navitem">Clinical Trials</a></li>
+                
+                  
+                
+                    
+                    <li><a href="http://www.euroewing.eu/partners"
+                           class="navitem">EURO EWING Consortium Partners</a></li>
+                
+                  
+                
+                    
+                    <li><a href="http://www.euroewing.eu/contact-us"
+                           class="navitem">Contact us</a></li>
+                
+                  
+                
+                    
+                    <li><a href="http://www.euroewing.eu/news-and-events"
+                           class="navitem">News and Events</a></li>
+                
+                  
+                
+                    
+                    <li><a href="http://www.euroewing.eu/patients-and-public"
+                           class="navitem">Patients and Public</a></li>
+                
+                  
+                
+                    
+                    <li><a href="http://www.euroewing.eu/partner-resources"
+                           class="navitem">Partner Resources</a></li>
+                
+                  
+            
+        </ul>
+    </nav>
+
+
+    
+	</div> <!-- end .wrapper -->
+
+    </header><!-- end #nav-wrap -->
+
+    <!--endnoindex-->
+
+        <div class="wrapper site-content">
+            <!--noindex-->
+            <header class="header header--mobile default-header">
+	<a class="header header__open" href="#">
+				<img src="//cdn.ucl.ac.uk/indigo/images/mob-nav.png" alt="Menu">
+			</a>
+</header>
+
+
+            <!--endnoindex-->
+            <div class="site-content__inner clearfix">
+                <div class="site-content__body">
+                    <!--noindex-->
+                    
+    <nav class="breadcrumb clearfix">
+        <ul class="breadcrumb__list">
+            <li class="breadcrumb__item">
+                <a href="http://www.euroewing.eu">UCL Home</a>
+                <!--[if lte IE 7]>&raquo;<![endif]-->
+            </li>
+            <li class="breadcrumb__item">
+                <a href="http://www.euroewing.eu/www.euroewing.eu">Euro Ewing Consortium</a>
+                
+            </li>
+        </ul>
+    </nav>
+
+                    <!--endnoindex-->
+                    <div class="site-content__main">
+
+                        <article class="article clearfix">
+                            <!-- Start Silva content --> 
+
+
+<script>
+    globalSiteSpecificVars['carouselConfig'] = {responsiveClass:true,loop:true,autoplay:true,lazyload:true,items:1,animateOut:'fadeOut',autoplayHoverPause:true,smartSpeed:400,autoplayTimeout:6000,dots:true,items:1,nav:false,responsive:{0:{},500:{},700:{nav:true,},1000:{nav:true,},1300:{nav:true,}}};;
+    require(['app/carousel']);;</script>
+
+
+<div style="width:100%">
+    <div class="owl-carousel">
+    <!--loop this section below through all images/videos -->
+        
+            
+                <figure class="owl-carousel__item">
+                    
+                        <img src="http://www.euroewing.eu/images/carousel/soft-tissue1.jpg" />
+                    
+                    
+                    <figcaption class="overlay">
+                        
+
+<h2 class="heading">EEC</h2>
+
+
+
+
+
+
+
+                    </figcaption>
+                </figure>
+            
+        
+        
+            
+                <figure class="owl-carousel__item">
+                    
+                        <img src="http://www.euroewing.eu/images/carousel/soft-tissue3.jpg" />
+                    
+                    
+                    <figcaption class="overlay">
+                        
+
+<h2 class="heading">EEC</h2>
+
+
+
+
+
+
+
+                    </figcaption>
+                </figure>
+            
+        
+        
+            
+                <figure class="owl-carousel__item">
+                    
+                        <img src="http://www.euroewing.eu/images/carousel/soft-tissue2.jpg" />
+                    
+                    
+                    <figcaption class="overlay">
+                        
+
+<h2 class="heading">EEC</h2>
+
+
+
+
+
+
+
+                    </figcaption>
+                </figure>
+            
+        
+        
+            
+                <figure class="owl-carousel__item">
+                    
+                        <img src="http://www.euroewing.eu/images/carousel/100th-patient.jpg" />
+                    
+                    
+                    
+                </figure>
+            
+        
+    <!--loop this section above through all images/videos -->
+    </div>
+</div>
+
+
+
+<p class="p">The EURO EWING
+Consortium – International Clinical Trials to Improve Survival from Ewing
+Sarcoma (EEC project) is a UCL coordinated collaborative project involving 20
+European partners, which has recently been awarded funding through the European Union's Framework Programme 7
+(FP7). </p>
+<p class="p">Ewing Sarcomas (ES) are fatal, rare bone cancers
+particularly affecting young people. About 60% of patients achieve long term
+survival with current treatment but there has been no improvement in this
+proportion for 25 years. Treatment is unsuccessful because chemotherapy fails
+to prevent the development of, or to effectively treat established, metastases.
+</p>
+<p class="p"> The
+Euro Ewing Consortium is a coalition of clinical study groups bringing together
+the most active clinicians and scientists in Europe
+dedicated to improving survival from ES. This initiative will support an integrated programme of
+investigator-driven, inclusive clinical trials that are rigorously designed,
+conducted, analysed and reported, and underpinned by complementary embedded
+translational research. Through collaborative working, the EEC will provide ES
+patients with greater access to clinical trials, allow efficient acquisition of
+knowledge and deliver clinically meaningful results within 5 years, thereby contributing
+to improved survival from ES.</p>
+<ul class="disc">
+<li><a href="http://www.euroewing.eu/about-EEC/about-eec">More information about EEC</a></li>
+</ul>
+
+
+<!-- End Silva content --> 
+
+                        </article>
+
+                    <div class="content-footer">
+                                        <hr />
+                <div id="content-footer">
+
+</div>
+
+                    </div>
+
+                    </div>
+                     <div class="content-sidebar">
+                                        <div class="site-content__sidebar">
+<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/euroewing" data-widget-id="407458051206045696" data-theme="light" height="400">Tweets by @euroewing</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--noindex-->
+
+         
+              <footer class="footer wrapper"> 
+    <div class="footer__inner clearfix">
+
+
+        <div id="eu-logo">
+            <span class="sponsored">Sponsored by</span>
+            <img src="//www.euroewing.eu/images/eu-logo.gif" />
+            <span class="fp-text">This project has received funding from the European Union’s Seventh Framework Programme for research, technological development and demonstration under grant agreement n°602856.</span>
+        </div>
+
+        <div id="footer-links">
+            <ul>
+                <li><a href="http://www.ucl.ac.uk/disclaimer">Disclaimer</a></li>
+                <li><a href="http://www.ucl.ac.uk/foi">Freedom of Information</a></li>
+                <li><a href="http://www.ucl.ac.uk/accessibility">Accessibility</a></li>
+                <li><a href="http://www.ucl.ac.uk/privacy">Privacy</a></li>
+                <li><a href="http://www.ucl.ac.uk/cookies">Cookies</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+         
+
+         
+        <!--endnoindex-->
+    </body>
+</html>

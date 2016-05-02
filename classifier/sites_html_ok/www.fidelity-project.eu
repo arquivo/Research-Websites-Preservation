@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<title>FIDELITY Project - About FIDELITY</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="security" />
+	<meta name="keywords" content="security" />
+    <meta name="author" content="xipix">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->	
+<!-- begin frontend modules files -->
+<!-- end frontend modules files -->
+  <link rel="stylesheet" type="text/css" href="http://www.fidelity-project.eu/css/bootstrap.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="http://www.fidelity-project.eu/templates/xipix/css/styles.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="http://www.fidelity-project.eu/modules/activecalendar/frontend.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="http://www.fidelity-project.eu/modules/..//ui/jquery-ui.custom.css" media="screen" />
+  <script type="text/javascript" src="http://www.fidelity-project.eu/modules/lib_jquery/jquery-core/jquery-core.min.js"></script>
+  <script type="text/javascript" src="http://www.fidelity-project.eu/js/bootstrap.js"></script>
+  <script type="text/javascript" src="http://www.fidelity-project.eu/js/swfobject.js"></script>
+  <script type="text/javascript" src="http://www.fidelity-project.eu/js/jquery.fontscale.js"></script>
+  <script type="text/javascript" src="http://www.fidelity-project.eu/js/jquery.cookie.js"></script>
+  <script type="text/javascript" src="http://www.fidelity-project.eu/modules/droplets/js/mdcr.js"></script>
+  <script type="text/javascript" src="http://www.fidelity-project.eu/modules/..//ui/jquery-ui.custom.min.js"></script>
+  <script type="text/javascript" src="http://www.fidelity-project.eu/modules/..//js/custom.js"></script>
+</head>
+<body>
+<div class="container">
+	<!--START header -->
+	<div class="row" id="header">
+		<div class="span4">
+			<h1 id="header-logo">
+				<a href="http://www.fidelity-project.eu" title="FIDELITY Project"></a>
+			</h1>
+		</div>	
+		<div class="span4 offset4">
+			<div class="header-control">  
+								<form action="http://www.fidelity-project.eu/search/index.php" method="get" class="navbar-search pull-right">
+						<fieldset>
+			  <a class="" href="http://www.fidelity-project.eu/page/contact-us.php" title="Contact us"><i class="icon-add icon-envelope"></i></a>
+			  <a class="" target="_blank" href="http://www.fidelity-project.eu/rss.php" title="Feed RSS"><i class="icon-add icon-rss"></i></a>
+			  <a class="" href="http://www.fidelity-project.eu/page/sitemap.php" title="SiteMap"><i class="icon-add icon-sitemap"></i></a>	
+							<input type="hidden" name="referrer" value="2" />
+							<input type="text" name="string"  class="input-search" placeholder="Search" value="Search"/>
+							<input class="input-submit" type="submit" value="" />
+						</fieldset>
+					</form>
+							</div>
+			<a href="http://cordis.europa.eu/fp7/" target="_blank" class="logos float_right" id="fp7"></a>
+			<a href="http://ec.europa.eu/index_en.htm" class="logos" target="_blank" id="eu"></a>
+		</div>
+	</div>
+	<!--END header -->
+	<!--START menu -->
+	<div class="row">
+		<div class="span12">
+			<div class="navbar">
+			  <div class="navbar-inner">
+				<div class="container">
+				  <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+				  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </a>	 
+				  <div class="nav-collapse">
+<!-- show_menu2 -->
+ <ul class="menu-top ">
+    <li><a href="http://www.fidelity-project.eu"  title="About FIDELITY" class="pageid_2">Home</a>    </li>
+    <li><a href="http://www.fidelity-project.eu/page/project.php"  title="Project" class="pageid_22">Project</a>
+     <ul class=" ">
+        <li><a href="http://www.fidelity-project.eu/page/project/project-objectives.php"  title="Project Objectives" class="pageid_16">Project Objectives</a>        </li>
+        <li><a href="http://www.fidelity-project.eu/page/project/results-and-benefits.php"  title="Results and benefits" class="pageid_27">Results and benefits</a>        </li>
+        <li><a href="http://www.fidelity-project.eu/page/project/work-structure.php"  title="Work structure" class="pageid_17">Work structure</a>        </li>
+        <li><a href="http://www.fidelity-project.eu/page/project/deliverables.php"  title="Deliverables" class="pageid_19">Deliverables</a>        </li>
+        <li><a href="http://www.fidelity-project.eu/page/project/the-advisory-board.php"  title="The Advisory board" class="pageid_12">The Advisory board</a>        </li>
+     </ul>
+    </li>
+    <li><a href="http://www.fidelity-project.eu/page/partners.php"  title="Partners" class="pageid_23">Partners</a>    </li>
+    <li><a href="http://www.fidelity-project.eu/page/security-issues.php"  title="Security Issues" class="pageid_7">Security Issues</a>    </li>
+    <li><a href="http://www.fidelity-project.eu/page/standardisation.php"  title="Standardisation" class="pageid_11">Standardisation</a>    </li>
+    <li><a href="http://www.fidelity-project.eu/page/publications.php"  title="Publications" class="pageid_24">Publications</a>    </li>
+    <li><a href="http://www.fidelity-project.eu/page/fidelity-news-and-press.php"  title="FIDELITY News" class="pageid_18">FIDELITY News</a>    </li>
+    <li><a href="http://www.fidelity-project.eu/page/events.php"  title="Events" class="pageid_14">Events</a>    </li>
+    <li><a href="http://www.fidelity-project.eu/page/links.php"  title="Links" class="pageid_25">Links</a>    </li>
+    <li><a href="http://www.fidelity-project.eu/page/contact-us.php"  title="Contact us" class="pageid_4">Contact us</a>    </li>
+ </ul>
+				  </div>	
+				</div>
+			  </div>
+			</div>	
+		</div>
+	</div>
+	<!-- END menu -->
+	<div class="row">
+				<!-- Left Column -->
+		<div id="col-left" class="span3">			
+			<!--START subnav -->
+			<div class="hideOrNot">	
+				<div class="box">
+					<div class="box-title"><h3>Home</h3></div>
+					<div class="box-content">
+<!-- show_menu2 -->
+					</div>
+				</div>
+			</div>
+			<!--END subnav -->
+							<div class="box">
+					<!--START getNewsHeads -->
+					<div class="box-title">
+						<h3>News &amp; Press Releases</h3>
+					</div>
+					<div class="box-content">
+						<ul class="no_bullet"><li>
+		<a href="http://www.fidelity-project.eu/page/posts/european-conference-on-epassports-21.php" class="lien_news" ><span> European Conference on ePassports</span> </a><span class="date_news">01-25-2016</span>
+		<p>Identity Management in the Entry/Exit System</p><a class="read-more" href="http://www.fidelity-project.eu/page/posts/european-conference-on-epassports-21.php">Read more<i class="icon-add icon-right-red"></i></a></li><li>
+		<a href="http://www.fidelity-project.eu/page/posts/learn-more-origins-european-project-25.php" class="lien_news" ><span> Learn More: ORIGINS European Project</span> </a><span class="date_news">10-13-2015</span>
+		<p>The project ORIGINS aims to study the security</p><a class="read-more" href="http://www.fidelity-project.eu/page/posts/learn-more-origins-european-project-25.php">Read more<i class="icon-add icon-right-red"></i></a></li></ul>
+					</div>
+					<div class="box-footer">
+						<a href="http://www.fidelity-project.eu/page/fidelity-news-and-press.php">See all News / Press Release<i class="icon-add icon-right-orange"></i></a>
+					</div>
+					<!--END getNewsHeads -->
+				</div>
+						<div class="box">
+				<div class="box-title">
+					<h3>Publications</h3>
+				</div>
+				<div class="box-content">
+					<ul class="no_bullet"><li class="publications"><a class="publication_title" href="http://www.fidelity-project.eu/page/publications.php#publication_146">Identification over Outsourced Biometric Data</a>
+			<br/><span>Biometric Security
+Editor(s): David Chek Ling Ngo, Andrew Beng Jin Teoh, Jiankun Hu
+Page: 497</span>
+			<br /><span class="publication_author">Julien Bringerת Hervé Chabanne and Alain Patey</span></li><li class="publications"><a class="publication_title" href="http://www.fidelity-project.eu/page/publications.php#publication_143">Texture based features for robust palmprint recognition: A comparative study</a>
+			<br/><span>to appear</span>
+			<br /><span class="publication_author">R. Raghavendra and Christoph Busch</span></li><li class="publications"><a class="publication_title" href="http://www.fidelity-project.eu/page/publications.php#publication_142">Hand Dorsal Vein Recognition: Sensor, Algorithms and Evaluation</a>
+			<br/><span></span>
+			<br /><span class="publication_author">R. Raghavendra Jayachander Surbiryala Christoph Busch</span></li></ul>
+				</div>
+				<div class="box-footer">
+					<a href="http://www.fidelity-project.eu/page/publications.php">See all Publications<i class="icon-add icon-right-orange"></i></a>
+				</div>
+			</div>
+		</div>   
+		<!-- END left column -->  
+		<!-- Content -->		
+		<div id="container" class="span9">
+			<div class="box">
+                <div class="box-title"><h2>About FIDELITY</h2>
+					<div class="font-controls float_right">
+						<a class="btn" href="#" id="fontplus" title="Zoom plus"><i class="icon-add icon-font-plus"></i></a>
+						<a class="btn" href="#" id="fontminus" title="Zoom minus"><i class="icon-add icon-font-minus"></i></a>
+						<a class="btn" href="#" id="fontreset" title="Zoom reset"><i class="icon-add icon-font-reset"></i></a>
+						<a class="btn"  href="javascript:window.print()" title="Print page"><i class="icon-add icon-print"></i></a>
+					</div>
+				</div>
+				<div class="box-content">
+					<!--START ariane -->	
+					<ul class="breadcrumb"><li>You are here:</li> <li><a href="http://www.fidelity-project.eu" target="_top" title="About FIDELITY">Home</a></li></ul>					<!--END ariane -->	
+				<div class="contenu" id="content-principal">
+					<a class="section_anchor" id="lep_2"></a><h3 style="font: 18px/27px arial; margin: 0px; color: #75003d; text-transform: none; text-indent: 0px; letter-spacing: normal; padding-bottom: 8px; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: #fbf6ed; text-rendering: optimizeLegibility; -webkit-text-stroke-width: 0px;"><span style="font-size: x-large;"><span style="font-size: x-small;">_____________________________________________________________________________________________________________________________________________________</span><br /></span></h3>
+<h3 style="font: 18px/27px arial; margin: 0px; color: #75003d; text-transform: none; text-indent: 0px; letter-spacing: normal; padding-bottom: 8px; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: #fbf6ed; text-rendering: optimizeLegibility; -webkit-text-stroke-width: 0px;"><strong><span style="font-size: x-large;">European Conference on ePassports</span></strong></h3>
+<p>On 10 and 11 December 2015, the FIDELITY consortium organised a Conference on ePassports entitled “Entrusting travel documents and borders - the FIDELITY approach” in Brussels’ SQUARE Conference centre.</p>
+<p>During this Conference, FIDELITY presented the results of its 4 years research and development work on shortcomings and vulnerabilities in the ePassport life cycle and its solutions and recommendations to overcome them to the 216 delegates who attended the Conference over the two days.</p>
+<p> </p>
+<p><span style="font-size: small;">___________________________________________________________________________________________________________________</span></p>
+<p> </p>
+<p>FIDELITY is a project funded by the <a href="http://ec.europa.eu/index_en.htm" target="_blank">European Commission</a>, under the Security theme of the Seventh Framework Programme</p>
+<p>This multi-disciplinary initiative will analyse shortcomings and vulnerabilities in the ePassport life cycle, and develop technical solutions and recommendations to overcome them. FIDELITY will demonstrate privacy enhanced solutions to:<img style="clear: both; float: right; margin: 0px 60px;" src="http://www.fidelity-project.eu/media/tweaked/pages/2/fp7-logo_100_82.png" alt="- no image description is available -" width="100" height="82" title="- no image description is available -" /><img style="float: right; clear: both; margin-left: 10px; margin-right: 10px;" src="http://www.fidelity-project.eu/media/tweaked/pages/2/fidelity-logo_200_57.jpg" alt="- no image description is available -" width="200" height="57" title="- no image description is available -" /></p>
+<ul>
+<li style="text-align: left;"><strong>Secure issuing processes</strong>: authentication of documents, preventing impersonation and fraud;</li>
+<li>
+<div style="text-align: left;"><strong>Improve ePassport security and usability</strong>: authentification processes, ID check speed, accuracy of biometrics, management of certificates, access to remote data bases, convenience of biometric sensors and inspection devices;</div>
+</li>
+<li style="text-align: left;"><strong>Better manage lost and stolen passports;</strong></li>
+<li style="text-align: left;"><strong>Ensure privacy</strong>: privacy-by-design, the exclusive FIDELITY-applied principle will be considered in all phases of the ePassport life cycle, using characteristics such as systematic anomysization of data and separation of data streams using privacy-enhancing-technologies.</li>
+</ul>
+<p style="text-align: left;">FIDELITY will strengthen trust and confidence of stakeholders and citizens in ePassports, provide more reliable ID checks, hence hinder criminal movements, and ease implementation of E/E records providing better analysis of migration flows. Solutions will be designed for backwards compatibility to be deployed progressively in the existing infrastructure.</p>
+<p><a href="http://www.fidelity-project.eu/page/partners.php">The FIDELITY consortium </a>is composed of market-leading companies, innovative SME, renowned academia, ethical-sociological-legal experts, and end-users, which will help to define requirements and recommendations and assess results. They will, with the other partners actively promote the project results towards stakeholders and international working groups that elaborate future ePassport standards.</p>	
+				</div>			
+				</div>
+								<div class="box-footer main-footer">
+					<span class="float_left" >Copyright 2012 FIDELITY. All Rights Reserved</span>
+					<span class="float_right" ><a class="" href="http://www.fidelity-project.eu/page/legal-mentions.php" title="Legal mentions and Terms of Use">Legal mentions and Terms of Use</a></span>
+				</div>
+            </div>		
+		</div>
+	</div>
+	<div class="row">
+		<div class="span12">&nbsp;</div>
+	</div>	
+	<div class="row">
+		<div class="span12">
+		</div>
+	</div>	
+</div>
+<div id="frontediter" style="width:80px;margin:auto;">
+	 
+</div>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34204485-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>

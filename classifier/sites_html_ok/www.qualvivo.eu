@@ -1,0 +1,722 @@
+
+
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb"
+      lang="en-gb">
+
+  
+    
+    
+    
+    
+    
+
+  
+
+  <head>
+
+    <meta http-equiv="Content-Type"
+          content="text/html;charset=utf-8" />
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    <!-- Internet Explorer fix, forces IE8 into newest possible rendering
+         engine even if it's on an intranet. This has to be defined before any
+         script/style tags. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+
+    
+      <base href="http://www.Qualvivo.eu/front-page" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    <link rel="kss-base-url" href="http://www.Qualvivo.eu/front-page" />
+
+  
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.Qualvivo.eu/portal_javascripts/Intranet%20Theme/jquery-cachekey0448.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.Qualvivo.eu/portal_javascripts/Intranet%20Theme/resourcebase2-dom-fp-cachekey0900.js">
+      </script>
+    
+    
+    
+  
+
+
+  
+  
+    
+    
+    
+      <style type="text/css">@import url(http://www.Qualvivo.eu/portal_css/Intranet%20Theme/base-cachekey7073.css);</style>
+    
+    
+    
+  
+
+  
+    
+    
+    
+      <style type="text/css">@import url(http://www.Qualvivo.eu/portal_css/Intranet%20Theme/resourcenetsightintranet.stylesheetsdeplone3-cachekey0473.css);</style>
+    
+    
+    
+  
+
+
+  
+  <link rel="kinetic-stylesheet" type="text/css"
+        href="http://www.Qualvivo.eu/portal_kss/Intranet%20Theme/at-cachekey1205.kss" />
+
+
+<title>Welcome to the Qualvivo Site &mdash; Qualvivo Site</title>
+
+    <!-- IE6 workaround CSS/JS  -->
+    <!--[if lte IE 7]>
+        <style type="text/css" media="all">@import url(http://www.Qualvivo.eu/IEFixes.css);</style>
+        
+        <script type="text/javascript"
+                src="http://www.Qualvivo.eu/iefixes.js">
+        </script>
+    <![endif]-->
+
+
+    
+    <link rel="author"
+          href="http://www.Qualvivo.eu/author/admin"
+          title="Author information" />
+
+
+
+    <link rel="shortcut icon" type="image/x-icon"
+          href="http://www.Qualvivo.eu/favicon.ico" />
+
+
+
+    <link rel="home" href="http://www.Qualvivo.eu"
+          title="Front page" />
+
+    <link rel="contents"
+          href="http://www.Qualvivo.eu/sitemap"
+          title="Site Map" />
+
+
+
+
+
+
+    <link rel="search"
+          href="http://www.Qualvivo.eu/search_form"
+          title="Search this site" />
+
+
+
+    <!-- Disable IE6 image toolbar -->
+    <meta http-equiv="imagetoolbar" content="no" />
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+  </head>
+
+  <body class="section-front-page template-intranet_document_view"
+        dir="ltr">
+    <div id="visual-portal-wrapper">
+
+      <div id="portal-top">
+        <div id="portal-header">
+<p class="hiddenStructure">
+  <a accesskey="2"
+     href="http://www.Qualvivo.eu/#documentContent">Skip to content.</a> |
+
+  <a accesskey="6"
+     href="http://www.Qualvivo.eu/#portlet-navigation-tree">Skip to navigation</a>
+</p>
+
+<a id="portal-logo" accesskey="1"
+   href="http://www.Qualvivo.eu">
+    <img src="http://www.Qualvivo.eu/logo.jpg" alt="" title="" height="103" width="476" /></a>
+
+<div id="portal-personaltools-wrapper" class="visualNoPrint">
+  
+  
+  <!--[if IE]>
+  <style type="text/css" media="all">@import url(http://www.Qualvivo.eu/++resource++netsightintranet.stylesheets/netsightintranet_IEFixes.css);</style>
+  <![endif]-->
+  
+  
+  <h5 class="hiddenStructure">Personal tools</h5>
+  <div id="users-name" class="anon">
+    
+    
+      not logged in
+    
+  </div>
+  <ul id="portal-personaltools" class="visualInline">
+    
+
+    
+      <li class=" None isFirst">
+        <a href="http://www.Qualvivo.eu/login_form">Log in</a>
+      </li>
+    
+
+  </ul>
+</div>
+
+<div id="portal-searchbox">
+    <form name="searchform"
+          action="http://www.Qualvivo.eu/search">
+
+        <label for="searchGadget">Search</label>
+
+        <div class="LSBox">
+        <input name="SearchableText" type="text" size="23"
+               title="Search Site" accesskey="4"
+               class="inputLabel" id="searchGadget" />
+
+        <input class="searchButton" type="image"
+               value="Search"
+               src="http://www.Qualvivo.eu/search.gif" />
+   
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only"
+                   class="noborder" type="checkbox"
+                   name="path" value="/Qualvivo" />
+            <label for="searchbox_currentfolder_only"
+                   style="cursor: pointer">
+                only current folder</label>
+	    <a id="advanced_search_link"
+        href="http://www.Qualvivo.eu/search_form">Advanced</a>
+        </div>
+	
+
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="http://www.Qualvivo.eu/search_form"
+           accesskey="5">
+            Advanced Search&hellip;
+        </a>
+    </div>
+
+</div>
+
+
+    <h5 class="hiddenStructure">Sections</h5>
+
+    <ul id="portal-globalnav">
+        <li id="portaltab-index_html" class="selected"><a
+    href="http://www.Qualvivo.eu" title="">Home</a></li>
+        <li id="portaltab-partners" class="plain"><a
+    href="http://www.Qualvivo.eu/partners" title="">Partners</a></li>
+        <li id="portaltab-events" class="plain"><a
+    href="http://www.Qualvivo.eu/events" title="Site Events">Events</a></li>
+        <li id="portaltab-contact" class="plain"><a
+    href="http://www.Qualvivo.eu/contact" title="">Contact</a></li>
+        <li id="portaltab-disclaimer" class="plain"><a
+    href="http://www.Qualvivo.eu/disclaimer" title="">Disclaimer</a></li>
+        <li id="portaltab-summary" class="plain"><a
+    href="http://www.Qualvivo.eu/summary"
+    title="Qualvivo Project Summary">Project Summary</a></li>
+    </ul>
+
+</div>
+
+
+    
+
+
+<div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">You
+are here:</span>
+    <a href="http://www.Qualvivo.eu">Home</a>
+    
+
+</div>
+
+      </div>
+
+      <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+
+      <table id="portal-columns">
+        <tbody>
+          <tr>
+            
+            <td id="portal-column-one">
+              <div class="visualPadding">
+                
+                  
+<div id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f5175616c7669766f0a6e617669676174696f6e"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f5175616c7669766f0a6e617669676174696f6e"><div id="navigationTree" class="portlet empty">
+
+  <div id="title">
+    <h3>
+      <a href="http://www.Qualvivo.eu">Qualvivo Site</a>
+    </h3>
+  </div>
+
+  
+  
+</div>
+</div>
+
+<div id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f5175616c7669766f0a6c6f67696e"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f5175616c7669766f0a6c6f67696e">
+
+<dl class="portlet portletLogin">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="http://www.Qualvivo.eu/login_form"
+           class="tile">Log in</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+        <form action="http://www.Qualvivo.eu/login_form"
+              name="loginform" method="post">
+
+            <input type="hidden" name="form.submitted" value="1" />
+            <input type="hidden" name="came_from"
+                   value="http://www.Qualvivo.eu/" />
+            <input type="hidden" name="js_enabled" id="js_enabled" value="0" />
+            <input type="hidden" name="cookies_enabled" id="cookies_enabled" value="" />
+            <input type="hidden" name="login_name" id="login_name" value="" />
+            <input type="hidden" name="pwd_empty" id="pwd_empty" value="0" />
+
+            <div class="field">
+                <label for="__ac_name">Login Name</label>
+                <br />
+                <input type="text" size="10"
+                       alt="Login Name" name="__ac_name"
+                       value="" id="__ac_name" />
+            </div>
+            
+            <div class="field">
+                <label for="__ac_password">Password</label>
+                <br />
+                <input type="password" size="10"
+                       alt="Password" name="__ac_password"
+                       id="__ac_password" />
+            </div>
+
+            <div class="cookiesMessage portalMessage"
+                 style="display:none">
+                Cookies are not enabled. You must enable cookies before you
+                can log in.
+            </div>
+            
+            <div class="formControls">
+            
+                <input class="context" type="submit"
+                       name="submit" value="Log in"
+                       alt="Log in" />
+            </div>
+        </form>
+    </dd>
+    
+    <dd class="portletItem even">
+        <a href="http://www.Qualvivo.eu/mail_password_form"
+           class="tile">
+           <img src="http://www.Qualvivo.eu/info_icon.gif" alt="" title="" height="16" width="16" />
+           Forgot your password?
+        </a>
+    </dd>
+    
+    
+</dl>
+
+
+
+
+</div>
+
+
+
+
+                
+                &nbsp;
+              </div>
+            </td>
+            
+
+            
+            <td id="portal-column-content">
+
+              
+                <div class="">
+
+                  <div id="toolbar-holder" class="">
+  
+  
+</div>
+
+
+                  <div id="region-content" class="documentContent">
+
+                    <span id="contentTopLeft"></span>
+                    <span id="contentTopRight"></span>
+                    
+                    <a name="documentContent"></a>
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+                    
+                    <div id="viewlet-above-content"></div>
+
+                    
+                    <div id="content">
+                      
+                      
+    
+
+        
+
+        <h1 class="documentFirstHeading"> 
+            
+        <span class="" id="parent-fieldname-title">
+            Welcome to the Qualvivo Site
+        </span>
+    
+        </h1>
+
+        <div class="documentByLine" id="plone-document-byline">
+  
+
+  <div class="byLineAuthor">
+    <div class="byLineTitle">Author</div>
+    <span class="documentAuthor">
+      <a href="http://www.Qualvivo.eu/author/admin">admin</a>
+
+    </span>
+  </div>
+  <div class="byLineModified">
+    <div class="byLineTitle">
+      Last modified
+    </div>
+  <span class="documentModified">
+    Feb 26, 2010 09:14 PM
+  </span>
+</div>
+  
+
+  
+
+  
+
+</div>
+
+
+
+	<div id="docContent">
+          <div class="intranetRelatedItems">
+    
+        
+            
+        
+    
+</div>
+            <p class="documentDescription">
+              
+        <span class="" id="parent-fieldname-description">
+            
+        </span>
+    
+            </p>
+          
+
+
+
+          
+
+          
+        <div class="" id="parent-fieldname-text">
+            
+<h2>The development of a next generation probiotic supplement for
+treatment and prevention of antibiotic associated diarrhoea</h2>
+
+<table class="plain">
+<tbody>
+<tr>
+<td valign="top">
+<p>Antibiotic associated diarrhoea (AAD) and Clostridium difficile
+associated disease (CDAD) can be especially hazardous for people who
+are frail or immuno-compromised. Due to severe dehydration,&nbsp;
+antibiotic associated diarrhoea can be especially hazardous, leading to
+fatalities.</p>
+
+<p>The increase and spread of antimicrobial resistance is a rapidly
+growing global problem, following the antibiotic medication and
+over-consumption of antibiotics.&nbsp; At the EU-US summit on Tuesday 3
+November, 2009, EU and USA decided to establish a joint task force to
+combat antimicrobial resistance - "<em>The EU and the US will, along
+with the World Health Organisation, take the lead in dealing with the
+disastrous situation we find ourselves in.</em>"</p>
+
+<p>One in every 250 death certificates now cites <em>Clostridium
+difficile</em> as a contributory or main factor. The figure below
+indicates the significant increase in the last few years in the
+mortality rate in the England and Wales attributed to Clostridium
+difficile.</p>
+
+<p style="text-align: center;">&nbsp;<img class="image-inline" src="filestore/pictures/cdad_uk_1999-2007.jpg/image_preview" alt="cdad_uk-1999-2007" height="280" width="326" /></p>
+
+<p style="text-align: left;">&nbsp;</p>
+
+<p style="text-align: left;">The effects of antibiotic associated
+diarrhoea have a major detrimental socio-economic impact on the EU due
+to additional treatment costs, increased length of stay in hospital and
+the use of vancomycin, which is traditionally regarded as an antibiotic
+associated diarrhoea treatment of last resort.</p>
+
+<p style="text-align: left;">The rising occurrence and severity of
+antibiotic associated diarrhoea poses an increased risk for the
+European community. According to the Department of Health there were
+52,000 antibiotic associated diarrhoea cases in 2006 in the UK.</p>
+
+<p style="text-align: left;">&nbsp;</p>
+</td>
+<td valign="top">
+<p>Each patient suffering from antibiotic associated diarrhoea
+(<em>Clostridium difficile</em>) requires on average an extra 21 days
+in hospital, taking up hospital beds and requiring nursing care. The
+cost of using these resources and treating antibiotic associated
+diarrhoea has been estimated at €5,920 per patient.</p>
+
+<p>Qualvivo will develop a new generation of probiotic product that can
+be consumed not only when a person is already infected with antibiotic
+associated diarrhoea but also as a preventive measure. The lack of such
+product currently on the market that will have no side effects is
+believed by both the consortium partners and the EC evaluators to have
+the potential to create excellent business opportunities in a niche
+that is unexplored.</p>
+
+<p>The Qualvivo Project aims to apply a three-fold quality control
+strategy to the development of a next generation probiotic supplement,
+with no side or toxic effects, completely safe even for people with
+allergies and severely ill patients e.g. HIV patients.</p>
+
+<p>The Qualvivo product will be highly sophisticated synbiotic product,
+it will through dosage control and a target delivery mechanism deliver
+medicinal effects.</p>
+
+<p>The EU evaluation of the project was very positive with statements
+such as -<br />
+"<em>The proposal has the potential to make a large impact on the
+European economic performance as well as the health of its
+citizens.</em>".</p>
+
+<p>&nbsp;</p>
+
+<p>Sincerely,</p>
+
+<p><em>Mats Wallström<br />
+</em>Qualvivo Exploitation Manager</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+            
+        </div>
+    
+	  <div class="clear"></div>
+	</div>
+
+        
+
+<div class="visualClear"><!-- --></div>
+<div class="documentActions">
+    
+
+    <h5 class="hiddenStructure">Document Actions</h5>
+
+    <ul>
+    
+        <li id="document-action-sendto">
+            <a href="http://www.Qualvivo.eu/front-page/sendto_form"
+               title="">Send this</a>
+        </li>
+    
+    
+        <li id="document-action-print">
+            <a href="javascript:this.print();" title="">Print this</a>
+        </li>
+    
+
+    </ul>
+    
+
+    
+
+</div>
+
+
+    
+
+                    </div>
+                    
+
+                    
+                    
+                      
+    
+
+
+
+
+                    
+                    
+
+                    <span id="contentBottomLeft"></span>
+                    <span id="contentBottomRight"></span>
+
+                  </div>
+
+                </div>
+
+              
+            </td>
+            
+
+            
+            <td id="portal-column-two">
+              <div class="visualPadding">
+                
+                  
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f5175616c7669766f0a63616c656e646172"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f5175616c7669766f0a63616c656e646172"><dl class="portlet portletCalendar"
+    xmlns="http://www.w3.org/1999/xhtml">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="?searchterm=None&amp;amp&amp;amp&amp;amp&amp;amp&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;month:int=1&amp;year:int=2016&amp;orig_query=searchterm%3DNone%26amp%26amp%26amp%26amp%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B"
+           rel="nofollow" title="Previous month"
+           id="calendar-previous"
+           class="kssCalendarChange kssattr-year-2016 kssattr-month-1 calendarPrevious">&laquo;</a>
+
+        
+            February
+            2016
+        
+
+        <a href="?searchterm=None&amp;amp&amp;amp&amp;amp&amp;amp&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;month:int=3&amp;year:int=2016&amp;orig_query=searchterm%3DNone%26amp%26amp%26amp%26amp%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B%26amp%3B"
+           rel="nofollow" title="Next month"
+           id="calendar-next"
+           class="kssCalendarChange kssattr-year-2016 kssattr-month-3 calendarNext">&raquo;</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem">
+        <table class="ploneCalendar" summary="Calendar">
+            <caption class="hiddenStructure">February</caption>
+            <thead>
+                <tr class="weekdays"><th scope="col">Mo</th><th
+    scope="col">Tu</th><th scope="col">We</th><th
+    scope="col">Th</th><th scope="col">Fr</th><th
+    scope="col">Sa</th><th scope="col">Su</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td>
+                </tr>
+                <tr><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td>
+                </tr>
+                <tr><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td>
+                </tr>
+                <tr><td>22</td><td>23</td><td>24</td><td
+    class="todaynoevent"><strong>25</strong></td><td>26</td><td>27</td><td>28</td>
+                </tr>
+                <tr><td>29</td><td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            </tbody>
+
+        </table>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+</div>
+
+
+
+
+                
+                &nbsp;
+              </div>
+            </td>
+            
+          </tr>
+        </tbody>
+      </table>
+      
+
+      <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+      
+      
+
+      
+
+        <ul id="portal-siteactions">
+
+    <li id="siteaction-sitemap"><a
+    href="http://www.Qualvivo.eu/sitemap" accesskey="3"
+    title="Site Map">Site Map</a></li>
+    <li id="siteaction-accessibility"><a
+    href="http://www.Qualvivo.eu/accessibility-info"
+    accesskey="0" title="Accessibility">Accessibility</a></li>
+    <li id="siteaction-contact"><a
+    href="http://www.Qualvivo.eu/contact-info" accesskey="9"
+    title="Report">Report</a></li>
+
+</ul>
+
+
+
+      
+
+      <div class="visualClear"><!-- --></div>
+    </div>
+<div id="kss-spinner"><img alt=""
+                           src="http://www.Qualvivo.eu/spinner.gif" /></div>
+</body>
+</html>
+

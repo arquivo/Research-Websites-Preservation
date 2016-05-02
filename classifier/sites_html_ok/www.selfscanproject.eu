@@ -1,0 +1,222 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+    <script>
+        var active = "home";
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Page-specific styles -->
+    <link rel="stylesheet" type="text/css" href="/display/css/960.css" />
+    <link rel="stylesheet" type="text/css" href="/display/css/basic.css" />
+    <link rel="stylesheet" type="text/css" href="/css/project.css" />
+
+    <script type="text/javascript" src="/display/js/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="/display/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/display/js/general.js"></script>
+    <title>
+        Home - SELFSCAN
+    </title>
+    <meta name="DESCRIPTION" content="" />
+    <meta name="KEYWORDS" content="," />
+    <meta name="Date" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+</head>
+
+<body>
+<a name="top" id="top"></a>
+<noscript><div class="noscript">You may have javascript disabled on your browser - this site may not work properly for you.</div></noscript>
+<div id="wrap">
+    <div id="header">
+    <div id="logo"><a href="/home"> <img src="/img/project_logo.png" alt="SELFSCAN" /></a></div>
+    <div id="topMenu" class="hMenu">
+        <ul class="menu">
+             
+            <li><a href="/contact/">Contact Us</a></li>
+            <li class="last"><a href="/sitemap/">Sitemap</a></li>
+        </ul>
+    </div>
+</div>
+    <!--Menu-->
+    <div class="container_12" id="main">
+        <div class="grid_3">
+
+            <div id="siteMenu" class="vMenu">
+   
+    <ul class="menu">
+        <li class=" selected"><a href="/home/">
+            Home</a></li>
+
+        <li class=""><a href="/project/">Project Overview</a>
+          <ul class="subMenu">
+              <li><a href="/project/#overview">Project Overview</a></li>
+              <li><a href="/project/#technical">Technological Objectives</a></li>
+              <li><a href="/project/#goal">Project Goals</a></li>
+          </ul>
+        </li>
+        <li class=""><a href="/partners/">Partners</a>
+          <ul class="subMenu">
+            <li><a href="/partners/#p1">TWI Ltd (UK)</a></li>
+            <li><a href="/partners/#p2">Optel, Poland</a></li>
+            <li><a href="/partners/#p3">Phillips Consultants, UK</a></li>
+            <li><a href="/partners/#p4">Isotest, Italy</a></li>
+            <li><a href="/partners/#p5">Smart Materials, Germany</a></li>
+            <li><a href="/partners/#p6">Cereteth, Greece</a></li>
+            <li><a href="/partners/#p7">NDT-Expert, France</a></li>
+          </ul>
+
+        </li>
+        <li class="publication"><a href="/publication/">Publications</a></li>
+
+        <li class="news"><a href="/news/">News &amp; Events</a></li>
+        
+    </ul>
+   </div>
+
+         <div id="sideLogin"><script type="text/javascript">
+   $(document).ready(function() {
+        $("#login").validate();
+        forgot_password = function(){
+
+            if ($("#j_username").val() == ""){
+                alert("Enter your username and click the link for a password reminder");
+            }else{
+                window.location.href="/signin/page_password.jsp?username="+document.getElementById("j_username").value;
+            }
+        }
+        
+    });
+
+</script>
+<form action='j_security_check' method="post" name="login" id="login" class="formBlock">
+    <h4>Partner Sign In</h4>
+        <div class="line"><label for="j_username">Username:</label><input type="text" name='j_username' id="j_username" class="txt required" value="" /></div>
+        <div class="line"><label for="j_password">Password:</label><input type="password" name='j_password' id="j_password"  class="txt required" value="" /></div>
+       <div class="line">
+               <input type="submit" name="submitButton" id="submitButton" class="submit" value="Sign In" />
+            </div>
+    <a href="#s" onMouseUp="forgot_password()" class="small">Forgot Password?</a>
+    <p class="message"></p>
+    
+    <input type='hidden' name='j_uri' value='/signin/index.jsp'/>
+</form>
+
+</div>
+    
+
+
+            
+        </div>
+        <!-- Main -->
+<div id="content" class="grid_9">
+   <h1>SELFSCAN</h1>
+
+
+
+
+<p style="font-weight: bold; color:#ff0000;">Latest News</p>
+<p><b>On 19th April 2012 the SelfScan Project will be holding a half day Webcast. <a href="http://www.selfscanproject.eu/common/jsp/news/page_read.jsp?n_id=63">more info..</a></b></p>
+
+<hr>
+
+<p>This project will develop an integrated system to monitor continuously the condition of aircraft components, using a
+    novel integrated transducers for improved long range ultrasonic technique (LRUT) optimised to maximise UT
+    wave-defect interaction in order to boost sensitivity The project will:
+<ul>
+    <li>Boost the defect detection capabilities of guided waves by generating / selecting wavemodes on the basis
+        optimised wave-defect interaction, rather than selecting one non-dispersive mode facilitating visual signal
+        interpretation, as is the current practise.
+    </li>
+    <li>Utilise Neural Nets for data interpretation and defect classification. Neural Nets are, in a monitoring type
+        system, ideally suited to detect minute changes in signals, caused by defect initiation and subsequent growth.
+    </li>
+    <li>Develop and validate novel flexible MFC transducers / magnetostrictive transducers suitable to be bonded to /
+        integrated aircraft components with LRU capability enabling detection, localisation and sizing of flaws.
+    </li>
+    <li>Develop and validate the first Neural Net defect detection system using LRU technology for aircraft components
+        Monitoring. This advanced signal analysis sytem will improve the propability of defect detection and enhance the
+        signal to noise ratio.
+    </li>
+    <li>Undertake modular integrations of the sensors/transducers, signal processing and software functionalities to
+        develop the prototypes and demonstrate its the capability to monitor, to reduce the maintenance costs and
+        increase the safety of aircraft component.
+    </li>
+</ul>
+</p>
+
+</div>
+
+<div class="clear"></div>
+</div>
+
+
+
+<div id="footer" class="hMenu">
+    <ul class="menu">
+        <li class="home"><a href="/home/">Home</a></li>
+        <li class="project"><a href="/project/">Project Outline</a></li>
+        <li class="partners"><a href="/partners/">Partners</a></li>
+        <li class="publication"><a href="/publication/">Publications</a></li>
+        <li class="news"><a href="/news/">News &amp; Events</a></li>
+        
+
+
+    </ul>
+
+    <div class="copy">
+        <div class="right supporters">
+            <a href="http://ec.europa.eu/research/fp7/index_en.cfm"><img src="/common/img/euroLogo.png" alt="http://www.twi.co.uk" title="http://www.twi.co.uk" /> </a>
+        </div>
+        <p>SELFSCAN project has received funding from the European Unions  Seventh Framework Programme managed by REA - Research Executive Agency <a href="http://ec.europa.eu/research/rea">http://ec.europa.eu/research/rea</a> [FP7/2007-2013] under grant agreement number: 232212</p>
+    </div>
+    
+   
+</div>
+</div>
+
+<!-- SelfScan Google Analytics --> 
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1417917-32']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</body>
+</html>
+
+
+
+
+

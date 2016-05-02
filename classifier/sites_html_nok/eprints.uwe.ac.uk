@@ -1,0 +1,479 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, minimum-scale=1.0" />
+<title> MOBISERV: An integrated intelligent home environment for the provision of health, nutrition and mobility services to the elderly  - UWE Research Repository</title>
+<link rel="shortcut icon" href="/favicon.gif" type="image/gif" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="Top" href="http://eprints.uwe.ac.uk/" />
+<link rel="Search" href="http://eprints.uwe.ac.uk/cgi/search" />
+
+
+<!-- UWE TEMPLATE 01 Stylesheets -->
+<link rel="stylesheet" href="//style.uwe.ac.uk/branding/betteria/engine/css/uwemaster.css" type="text/css" />
+<link rel="stylesheet" href="//style.uwe.ac.uk/branding/betteria/custom/css/content-1column.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="//style.uwe.ac.uk/branding/betteria/engine/css/uwePrinter.css" type="text/css" media="print" />    
+<!-- /UWE TEMPLATE 01 Stylesheets -->
+
+<script type="text/javascript" src="//components.uwe.ac.uk/jquery/1.4.2/jquery.min.js">// <!-- No script --></script>
+
+<style type="text/css" media="print">@import url(/style/print.css);</style>
+
+<!-- epc:pin head START -->
+<meta name="eprints.eprintid" content="16102" />
+<meta name="eprints.rev_number" content="27" />
+<meta name="eprints.eprint_status" content="archive" />
+<meta name="eprints.userid" content="831" />
+<meta name="eprints.dir" content="disk0/00/01/61/02" />
+<meta name="eprints.datestamp" content="2011-12-05 14:20:29" />
+<meta name="eprints.lastmod" content="2014-05-30 11:52:05" />
+<meta name="eprints.status_changed" content="2011-12-05 14:20:29" />
+<meta name="eprints.type" content="conference_item" />
+<meta name="eprints.metadata_visibility" content="show" />
+<meta name="eprints.creators_name" content="Nani, Maria" />
+<meta name="eprints.creators_name" content="Caleb-Solly, Praminda" />
+<meta name="eprints.creators_name" content="Dogramadzi, Sanja" />
+<meta name="eprints.creators_name" content="Fear, Tina" />
+<meta name="eprints.creators_name" content="van den Heuvel, Herjan" />
+<meta name="eprints.creators_id" />
+<meta name="eprints.creators_id" content="praminda.caleb-solly@uwe.ac.uk" />
+<meta name="eprints.creators_id" content="sanja.dogramadzi@uwe.ac.uk" />
+<meta name="eprints.creators_id" content="christine.fear@uwe.ac.uk" />
+<meta name="eprints.creators_id" />
+<meta name="eprints.title" content="MOBISERV: An integrated intelligent home environment for the provision of health, nutrition and mobility services to the elderly" />
+<meta name="eprints.ispublished" content="pub" />
+<meta name="eprints.full_text_status" content="public" />
+<meta name="eprints.pres_type" content="paper" />
+<meta name="eprints.keywords" content="MOBISERV, home environment, health, nutrition, mobility, elderly" />
+<meta name="eprints.abstract" content="Life expectancy increases and the wish to prolong independent living remains strong. To stay as independent as possible gives satisfaction to the individual and reduces costs for society. With advances in information and communication technologies, service robotics becomes important means for assisting older persons in their daily living. In this paper we introduce MOBISERV, a project aiming to develop proactive personal service robotics that will be integrated with innovative wireless (bio-) sensors, localisation and communication technologies, smart textiles and clothing and a wearable solution hosting monitoring equipment for supporting independent living for elderly. Health and wellness, nutrition and mobility but also social interaction, safety, security and privacy are examples of assistance that MOBISERV will provide to older people." />
+<meta name="eprints.date" content="2010-09-30" />
+<meta name="eprints.date_type" content="published" />
+<meta name="eprints.event_title" content="4th Companion Robotics Workshop in Brussels" />
+<meta name="eprints.event_location" content="Brussels" />
+<meta name="eprints.event_dates" content="30th September 2010" />
+<meta name="eprints.event_type" content="workshop" />
+<meta name="eprints.refereed_as_submitted" content="yes" />
+<meta name="eprints.refereed_as_published" content="yes" />
+<meta name="eprints.licence_acknowledged" content="yes" />
+<meta name="eprints.related_url_url" content="http://www.mobiserv.eu/index.php?option=com_content&amp;view=article&amp;id=55&amp;Itemid=12&amp;lang=en" />
+<meta name="eprints.funders" content="European Commission, MOBISERV project" />
+<meta name="eprints.funder_project_code" content="N/A" />
+<meta name="eprints.uwe_centres" content="cen_hcr_2012" />
+<meta name="eprints.uwe_centres" content="ins_brl_2012" />
+<meta name="eprints.uwe_centres" content="grp_aig_2012" />
+<meta name="eprints.uwe_show_in_profile" content="yes" />
+<meta name="eprints.uwe_ref_2009" content="no" />
+<meta name="eprints.citation" content="  Nani, M., Caleb-Solly, P., Dogramadzi, S., Fear, T. and van den Heuvel, H.  (2010)  MOBISERV: An integrated intelligent home environment for the provision of health, nutrition and mobility services to the elderly.  In:  4th Companion Robotics Workshop in Brussels, Brussels, 30th September 2010.     Available from: http://eprints.uwe.ac.uk/16102 " />
+<meta name="eprints.document_url" content="http://eprints.uwe.ac.uk/16102/1/MOBISERV_WorkshopPaper.pdf" />
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
+<meta name="DC.relation" content="http://eprints.uwe.ac.uk/16102/" />
+<meta name="DC.title" content="MOBISERV: An integrated intelligent home environment for the provision of health, nutrition and mobility services to the elderly" />
+<meta name="DC.creator" content="Nani, M." />
+<meta name="DC.creator" content="Caleb-Solly, P." />
+<meta name="DC.creator" content="Dogramadzi, S." />
+<meta name="DC.creator" content="Fear, T." />
+<meta name="DC.creator" content="van den Heuvel, H." />
+<meta name="DC.description" content="Life expectancy increases and the wish to prolong independent living remains strong. To stay as independent as possible gives satisfaction to the individual and reduces costs for society. With advances in information and communication technologies, service robotics becomes important means for assisting older persons in their daily living. In this paper we introduce MOBISERV, a project aiming to develop proactive personal service robotics that will be integrated with innovative wireless (bio-) sensors, localisation and communication technologies, smart textiles and clothing and a wearable solution hosting monitoring equipment for supporting independent living for elderly. Health and wellness, nutrition and mobility but also social interaction, safety, security and privacy are examples of assistance that MOBISERV will provide to older people." />
+<meta name="DC.date" content="2010-09-30" />
+<meta name="DC.type" content="Conference or Workshop Item" />
+<meta name="DC.type" content="NonPeerReviewed" />
+<meta name="DC.format" content="application/pdf" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" />
+<meta name="DC.identifier" content="http://eprints.uwe.ac.uk/16102/1/MOBISERV_WorkshopPaper.pdf" />
+<meta name="DC.identifier" content="  Nani, M., Caleb-Solly, P., Dogramadzi, S., Fear, T. and van den Heuvel, H.  (2010)  MOBISERV: An integrated intelligent home environment for the provision of health, nutrition and mobility services to the elderly.  In:  4th Companion Robotics Workshop in Brussels, Brussels, 30th September 2010.     Available from: http://eprints.uwe.ac.uk/16102 " />
+<meta name="eprints.eprintid" content="16102" />
+<meta name="eprints.rev_number" content="27" />
+<meta name="eprints.eprint_status" content="archive" />
+<meta name="eprints.userid" content="831" />
+<meta name="eprints.dir" content="disk0/00/01/61/02" />
+<meta name="eprints.datestamp" content="2011-12-05 14:20:29" />
+<meta name="eprints.lastmod" content="2014-05-30 11:52:05" />
+<meta name="eprints.status_changed" content="2011-12-05 14:20:29" />
+<meta name="eprints.type" content="conference_item" />
+<meta name="eprints.metadata_visibility" content="show" />
+<meta name="eprints.creators_name" content="Nani, Maria" />
+<meta name="eprints.creators_name" content="Caleb-Solly, Praminda" />
+<meta name="eprints.creators_name" content="Dogramadzi, Sanja" />
+<meta name="eprints.creators_name" content="Fear, Tina" />
+<meta name="eprints.creators_name" content="van den Heuvel, Herjan" />
+<meta name="eprints.creators_id" />
+<meta name="eprints.creators_id" content="praminda.caleb-solly@uwe.ac.uk" />
+<meta name="eprints.creators_id" content="sanja.dogramadzi@uwe.ac.uk" />
+<meta name="eprints.creators_id" content="christine.fear@uwe.ac.uk" />
+<meta name="eprints.creators_id" />
+<meta name="eprints.title" content="MOBISERV: An integrated intelligent home environment for the provision of health, nutrition and mobility services to the elderly" />
+<meta name="eprints.ispublished" content="pub" />
+<meta name="eprints.full_text_status" content="public" />
+<meta name="eprints.pres_type" content="paper" />
+<meta name="eprints.keywords" content="MOBISERV, home environment, health, nutrition, mobility, elderly" />
+<meta name="eprints.abstract" content="Life expectancy increases and the wish to prolong independent living remains strong. To stay as independent as possible gives satisfaction to the individual and reduces costs for society. With advances in information and communication technologies, service robotics becomes important means for assisting older persons in their daily living. In this paper we introduce MOBISERV, a project aiming to develop proactive personal service robotics that will be integrated with innovative wireless (bio-) sensors, localisation and communication technologies, smart textiles and clothing and a wearable solution hosting monitoring equipment for supporting independent living for elderly. Health and wellness, nutrition and mobility but also social interaction, safety, security and privacy are examples of assistance that MOBISERV will provide to older people." />
+<meta name="eprints.date" content="2010-09-30" />
+<meta name="eprints.date_type" content="published" />
+<meta name="eprints.event_title" content="4th Companion Robotics Workshop in Brussels" />
+<meta name="eprints.event_location" content="Brussels" />
+<meta name="eprints.event_dates" content="30th September 2010" />
+<meta name="eprints.event_type" content="workshop" />
+<meta name="eprints.refereed_as_submitted" content="yes" />
+<meta name="eprints.refereed_as_published" content="yes" />
+<meta name="eprints.licence_acknowledged" content="yes" />
+<meta name="eprints.related_url_url" content="http://www.mobiserv.eu/index.php?option=com_content&amp;view=article&amp;id=55&amp;Itemid=12&amp;lang=en" />
+<meta name="eprints.funders" content="European Commission, MOBISERV project" />
+<meta name="eprints.funder_project_code" content="N/A" />
+<meta name="eprints.uwe_centres" content="cen_hcr_2012" />
+<meta name="eprints.uwe_centres" content="ins_brl_2012" />
+<meta name="eprints.uwe_centres" content="grp_aig_2012" />
+<meta name="eprints.uwe_show_in_profile" content="yes" />
+<meta name="eprints.uwe_ref_2009" content="no" />
+<meta name="eprints.citation" content="  Nani, M., Caleb-Solly, P., Dogramadzi, S., Fear, T. and van den Heuvel, H.  (2010)  MOBISERV: An integrated intelligent home environment for the provision of health, nutrition and mobility services to the elderly.  In:  4th Companion Robotics Workshop in Brussels, Brussels, 30th September 2010.     Available from: http://eprints.uwe.ac.uk/16102 " />
+<meta name="eprints.document_url" content="http://eprints.uwe.ac.uk/16102/1/MOBISERV_WorkshopPaper.pdf" />
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
+<meta name="DC.relation" content="http://eprints.uwe.ac.uk/16102/" />
+<meta name="DC.title" content="MOBISERV: An integrated intelligent home environment for the provision of health, nutrition and mobility services to the elderly" />
+<meta name="DC.creator" content="Nani, M." />
+<meta name="DC.creator" content="Caleb-Solly, P." />
+<meta name="DC.creator" content="Dogramadzi, S." />
+<meta name="DC.creator" content="Fear, T." />
+<meta name="DC.creator" content="van den Heuvel, H." />
+<meta name="DC.description" content="Life expectancy increases and the wish to prolong independent living remains strong. To stay as independent as possible gives satisfaction to the individual and reduces costs for society. With advances in information and communication technologies, service robotics becomes important means for assisting older persons in their daily living. In this paper we introduce MOBISERV, a project aiming to develop proactive personal service robotics that will be integrated with innovative wireless (bio-) sensors, localisation and communication technologies, smart textiles and clothing and a wearable solution hosting monitoring equipment for supporting independent living for elderly. Health and wellness, nutrition and mobility but also social interaction, safety, security and privacy are examples of assistance that MOBISERV will provide to older people." />
+<meta name="DC.date" content="2010-09-30" />
+<meta name="DC.type" content="Conference or Workshop Item" />
+<meta name="DC.type" content="NonPeerReviewed" />
+<meta name="DC.format" content="application/pdf" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" />
+<meta name="DC.identifier" content="http://eprints.uwe.ac.uk/16102/1/MOBISERV_WorkshopPaper.pdf" />
+<meta name="DC.identifier" content="  Nani, M., Caleb-Solly, P., Dogramadzi, S., Fear, T. and van den Heuvel, H.  (2010)  MOBISERV: An integrated intelligent home environment for the provision of health, nutrition and mobility services to the elderly.  In:  4th Companion Robotics Workshop in Brussels, Brussels, 30th September 2010.     Available from: http://eprints.uwe.ac.uk/16102 " />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/UWE_DC/uweresearch-eprint-16102.txt" type="text/plain; charset=utf-8" title="Dublin Core" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/RDFXML/uweresearch-eprint-16102.rdf" type="application/rdf+xml" title="RDF+XML" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/BibTeX/uweresearch-eprint-16102.bib" type="text/plain" title="BibTeX" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/RIOXX2/uweresearch-eprint-16102.xml" type="text/xml; charset=utf-8" title="RIOXX2 XML" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/RDFNT/uweresearch-eprint-16102.nt" type="text/plain" title="RDF+N-Triples" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/UWERoMEO/uweresearch-eprint-16102.csv" type="text/csv" title="UWE RoMEO PDF version permissions" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/JSON/uweresearch-eprint-16102.js" type="application/json; charset=utf-8" title="JSON" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/RefWorks/uweresearch-eprint-16102.ref" type="text/plain" title="RefWorks" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/DC/uweresearch-eprint-16102.txt" type="text/plain; charset=utf-8" title="Dublin Core" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/Atom/uweresearch-eprint-16102.xml" type="application/atom+xml;charset=utf-8" title="Atom" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/Simple/uweresearch-eprint-16102.txt" type="text/plain; charset=utf-8" title="Simple Metadata" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/Refer/uweresearch-eprint-16102.refer" type="text/plain" title="Refer" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/METS/uweresearch-eprint-16102.xml" type="text/xml; charset=utf-8" title="METS" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/HTML/uweresearch-eprint-16102.html" type="text/html; charset=utf-8" title="HTML Citation" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/Text/uweresearch-eprint-16102.txt" type="text/plain; charset=utf-8" title="ASCII Citation" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/ContextObject/uweresearch-eprint-16102.xml" type="text/xml; charset=utf-8" title="OpenURL ContextObject" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/EndNote/uweresearch-eprint-16102.enw" type="text/plain; charset=utf-8" title="EndNote" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/COinS/uweresearch-eprint-16102.txt" type="text/plain; charset=utf-8" title="OpenURL ContextObject in Span" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/MODS/uweresearch-eprint-16102.xml" type="text/xml; charset=utf-8" title="MODS" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/DIDL/uweresearch-eprint-16102.xml" type="text/xml; charset=utf-8" title="MPEG-21 DIDL" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/XML/uweresearch-eprint-16102.xml" type="application/vnd.eprints.data+xml; charset=utf-8" title="EP3 XML" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/RIS/uweresearch-eprint-16102.ris" type="text/plain" title="Reference Manager" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/RDFN3/uweresearch-eprint-16102.n3" type="text/n3" title="RDF+N3" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/Grid/uweresearch-eprint-16102.txt" title="Grid (abstract)" />
+<link rel="alternate" href="http://eprints.uwe.ac.uk/cgi/export/eprint/16102/CSV/uweresearch-eprint-16102.csv" type="text/csv; charset=utf-8" title="Multiline CSV" />
+<link rel="Top" href="http://eprints.uwe.ac.uk/" />
+    <link rel="Sword" href="https://eprints.uwe.ac.uk/secure/sword-app/servicedocument" />
+    <link rel="SwordDeposit" href="https://eprints.uwe.ac.uk/secure/id/contents" />
+    <link rel="Search" type="text/html" href="http://eprints.uwe.ac.uk/cgi/search" />
+    <link rel="Search" type="application/opensearchdescription+xml" href="http://eprints.uwe.ac.uk/cgi/opensearchdescription" />
+    <script type="text/javascript" src="http://www.google.com/jsapi"><!--padder--></script><script type="text/javascript">
+// <![CDATA[
+google.load("visualization", "1", {packages:["corechart", "geochart"]});
+// ]]></script><script type="text/javascript">
+// <![CDATA[
+var eprints_http_root = "http:\/\/eprints.uwe.ac.uk";
+var eprints_http_cgiroot = "http:\/\/eprints.uwe.ac.uk\/cgi";
+var eprints_oai_archive_id = "eprints.uwe.ac.uk";
+var eprints_logged_in = false;
+// ]]></script>
+    <style type="text/css">.ep_logged_in { display: none }</style>
+    <link rel="stylesheet" type="text/css" href="/style/auto-3.3.12.css" />
+    <script type="text/javascript" src="/javascript/auto-3.3.12.js"><!--padder--></script>
+    <!--[if lte IE 6]>
+        <link rel="stylesheet" type="text/css" href="/style/ie6.css" />
+   <![endif]-->
+    <meta name="Generator" content="EPrints 3.3.12" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="en" />
+    
+<!-- epc:pin head END -->
+
+<style type="text/css" media="screen">@import url(/style/nojs.css);</style>
+<script type="text/javascript" src="/javascript/jscss.js"><!-- padder --></script>
+
+<!-- Google Analytics -->
+<script type="text/javascript"><!-- Google Analytics - cross subdomain with www1.uwe.ac.uk -->
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-651638-9']);
+  _gaq.push(['_setDomainName', 'uwe.ac.uk']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+<body>
+
+
+<!-- UWE TEMPLATE 02 Header -->
+<div id="container">
+	<ul id="skip">
+		<li><a href="#content" title="skip to the main content of page" tabindex="1">Skip to main content</a></li>
+	</ul>
+
+	<div id="header">
+		<a href="http://www.uwe.ac.uk/aboutus/websiteinformation/login" class="login" tabindex="3">Login to UWE</a>
+		<a id="uweTop"></a>
+		<a href="http://www.uwe.ac.uk" title="Home page of UWE Bristol" tabindex="2"><img alt="Home page of UWE Bristol" src="//style.uwe.ac.uk/branding/betteria/engine/images/uwe-logo.png" height="62" width="158" class="logo" /></a>
+		<img src="//style.uwe.ac.uk/branding/betteria/engine/images/search-button15.png" width="26" height="26" alt="Search UWE" class="mobileSB" />
+		<form method="get" action="//info.uwe.ac.uk/search/results.aspx">
+			<div>
+				<label for="search" class="searchLabel">Search UWE</label>
+				<input type="text" name="words" class="inputText" value="Search UWE" id="search" tabindex="4" />
+				<input type="submit" name="submit" value="" class="submit" tabindex="5" />
+			</div>
+		</form>
+	</div>
+			
+	<div id="globalNav">
+	<ul id="menubar">
+		<li id="about-us-global" class="first"><a href="http://www.uwe.ac.uk/aboutus" tabindex="0">About us</a></li>
+		<li id="why-global"><a href="http://www.uwe.ac.uk/whyuwe" tabindex="0">Why UWE?</a></li>
+		<li id="what-global"><a href="http://www.uwe.ac.uk/whatcanistudy" tabindex="0">What can I study?</a></li>
+		<li id="coming-global"><a href="http://www.uwe.ac.uk/comingtouwe" tabindex="0">Coming to UWE</a></li>
+		<li id="whats-on-global"><a href="http://www.uwe.ac.uk/whatson" tabindex="0">What's on</a></li>
+		<li id="students-global"><a href="http://www1.uwe.ac.uk/students" tabindex="0">Students</a></li>
+		<li id="research-global"><a href="http://www1.uwe.ac.uk/research.aspx" tabindex="0">Research</a></li>
+		<li id="business-global"><a href="http://www1.uwe.ac.uk/business.aspx" tabindex="0">Business</a></li>
+		<li id="alumni-global"><a href="http://www.uwe.ac.uk/alumni" tabindex="0">Alumni</a></li>	  
+		<li id="press-global" class="last"><a href="http://www.uwe.ac.uk/press" tabindex="0">Press</a></li>							
+	</ul> 	<!-- #menubar -->
+	</div> 	<!-- #globalNav -->
+
+	<div id="mobile-header">
+    <a id="simple-menu"><img src="//style.uwe.ac.uk/branding/betteria/engine/images/menu-icon.png" width="30" height="26" alt="Menu" /></a>
+	</div>
+	<div id="sidr">
+	<a href="http://www.uwe.ac.uk/aboutus/websiteinformation/login" class="loginM" tabindex="3">Login to UWE</a>
+	<ul>
+    	<li><a href="http://www.uwe.ac.uk/aboutus">About us</a></li>
+        <li><a href="http://www.uwe.ac.uk/whyuwe">Why UWE?</a></li>
+        <li><a href="http://www.uwe.ac.uk/whatcanistudy">What can I study?</a></li>
+        <li><a href="http://www.uwe.ac.uk/comingtouwe">Coming to UWE</a></li>
+        <li><a href="http://www.uwe.ac.uk/whatson">What's on</a></li>
+        <li><a href="http://www.uwe.ac.uk/students">Students</a></li>
+        <li><a href="http://www.uwe.ac.uk/research">Research</a></li>
+        <li><a href="http://www.uwe.ac.uk/business">Business</a></li>
+        <li><a href="http://www.uwe.ac.uk/alumni">Alumni</a></li>
+        <li><a href="http://www.uwe.ac.uk/press">Press</a></li>
+    </ul>
+	</div> 	<!-- #mobile-header -->
+
+<div id="contentwrapper">
+
+<ul id="breadcrumb">
+	<li><a href="http://www.uwe.ac.uk/">Home</a> /</li>
+	<li><a href="http://www1.uwe.ac.uk/library/">Library</a> /</li>
+	<li><a href="http://www1.uwe.ac.uk/library/usingthelibrary.aspx">Using the Library</a> /</li>
+	<li><a href="http://www1.uwe.ac.uk/library/usingthelibrary/searchforthingsa-z.aspx">Search for things: A-Z</a> /</li> 
+	<li><a href="http://eprints.uwe.ac.uk/">UWE Research Repository</a></li>
+</ul>
+		    
+<div id="content">
+<!-- /UWE TEMPLATE 02 Header -->
+
+
+<table class="ep_tm_main">
+  <tr>
+	  <td class="uwe_tm_login_status" align="left">
+	  <a href="http://eprints.uwe.ac.uk/cgi/users/home">Login</a></td>
+  </tr>
+</table>
+
+<form method="get" accept-charset="utf-8" action="http://www1.uwe.ac.uk/library/usingthelibrary/searchforthingsa-z/uweresearchrepository/searchresults.aspx" id="eprints_search_form">
+	<input type="text" name="q" id="eprints_search_box" value="Search the repository" />
+	<input type="submit" name="_action_search" id="eprints_search_button" value="Go" />
+</form>
+	
+<h1>
+
+MOBISERV: An integrated intelligent home environment for the provision of health, nutrition and mobility services to the elderly
+
+</h1>
+
+<div id="leftcol">
+
+
+<table class="ep_tm_main uwe_tm_main_space">
+	<tr>
+		<td align="left"><div class="ep_summary_content"><div class="ep_summary_content_left"></div><div class="ep_summary_content_right"></div><div class="ep_summary_content_top"></div><div class="ep_summary_content_main"><p class="ep_block" style="margin-bottom: 1em">
+
+
+    <span class="person_name">Nani, M.</span>, <span class="person_name">Caleb-Solly, P.</span>, <span class="person_name">Dogramadzi, S.</span>, <span class="person_name">Fear, T.</span> and <span class="person_name">van den Heuvel, H.</span>
+  
+
+(2010)
+
+
+
+MOBISERV: An integrated intelligent home environment for the provision of health, nutrition and mobility services to the elderly.
+
+
+      In: 
+      <em>4th Companion Robotics Workshop in Brussels</em>, Brussels, 30th September 2010.
+  
+
+
+  
+
+
+Available from: http://eprints.uwe.ac.uk/16102
+
+</p><p class="ep_block" style="margin-bottom: 1em"></p><table class="ep_block" style="margin-bottom: 1em"><tr><td valign="top" style="text-align:center"><a onmouseover="EPJS_ShowPreview( event, 'doc_preview_18957' );" href="http://eprints.uwe.ac.uk/16102/1/MOBISERV_WorkshopPaper.pdf" onmouseout="EPJS_HidePreview( event, 'doc_preview_18957' );" class="ep_document_link"><img class="ep_doc_icon" alt="[img]" src="http://eprints.uwe.ac.uk/16102/1.hassmallThumbnailVersion/MOBISERV_WorkshopPaper.pdf" border="0" /></a><div id="doc_preview_18957" class="ep_preview"><table><tr><td><img class="ep_preview_image" alt="" src="http://eprints.uwe.ac.uk/16102/1.haspreviewThumbnailVersion/MOBISERV_WorkshopPaper.pdf" border="0" /><div class="ep_preview_title">Preview</div></td></tr></table></div></td><td valign="top">
+
+<!-- document citation -->
+
+
+<span class="ep_document_citation">
+<a class="ep_document_link" href="http://eprints.uwe.ac.uk/16102/1/MOBISERV_WorkshopPaper.pdf">PDF</a>
+ - Published Version
+
+
+</span>
+
+<br />1MB</td></tr></table><div class="ep_block"><h2>Abstract/Description</h2><p style="white-space: pre-line;">Life expectancy increases and the wish to prolong independent living remains strong. To stay as independent as possible gives satisfaction to the individual and reduces costs for society. With advances in information and communication technologies, service robotics becomes important means for assisting older persons in their daily living. In this paper we introduce MOBISERV, a project aiming to develop proactive personal service robotics that will be integrated with innovative wireless (bio-) sensors, localisation and communication technologies, smart textiles and clothing and a wearable solution hosting monitoring equipment for supporting independent living for elderly. Health and wellness, nutrition and mobility but also social interaction, safety, security and privacy are examples of assistance that MOBISERV will provide to older people.</p></div><table class="ep_block" style="margin-bottom: 1em" border="0" cellpadding="3"><tr><th valign="top" class="ep_row">Item Type:</th><td valign="top" class="ep_row">Conference or Workshop Item (Paper)</td></tr><tr><th valign="top" class="ep_row">Uncontrolled Keywords:</th><td valign="top" class="ep_row">MOBISERV, home environment, health, nutrition, mobility, elderly</td></tr><tr><th valign="top" class="ep_row">ID Code:</th><td valign="top" class="ep_row">16102</td></tr><tr><th valign="top" class="ep_row">Deposited By:</th><td valign="top" class="ep_row">
+      
+
+<span class="ep_name_citation"><span class="person_name">Dr S. Dogramadzi</span></span>
+
+
+</td></tr><tr><th valign="top" class="ep_row">Deposited On:</th><td valign="top" class="ep_row">05 Dec 2011 14:20</td></tr><tr><th valign="top" class="ep_row">Last Modified:</th><td valign="top" class="ep_row">30 May 2014 11:52</td></tr></table><p align="right"><a href="http://eprints.uwe.ac.uk/cgi/users/home?screen=EPrint::View&amp;eprintid=16102">Request a change to this item</a></p><div class="ep_block"><h2>Total Document Downloads in Past 12 Months</h2><div id="irstats_graph3"></div></div><script type="text/javascript">
+// <![CDATA[
+
+        function js_irstats_load_stats(div_id,params)
+        {
+
+                new Ajax.Request(
+                        eprints_http_cgiroot+"/irstats.cgi",
+                        {
+                                method: "post",
+                                onFailure: function() {
+                                        //alert( "AJAX request failed..." );
+                                },
+                                onException: function(req, e) {
+                                        //alert( "AJAX Exception " + e );
+                                },
+                                onSuccess: function(response){
+                                        var text = response.responseText;
+                                        if( text.length == 0 )
+                                        {
+                                                //alert( "No response from server..." );
+                                        }
+                                        else
+                                        {
+                                                $(div_id).innerHTML = response.responseText;
+                                        }
+                                },
+                                parameters: params
+                        }
+                );
+        }
+// ]]></script><div class="ep_block"><h2>Document Downloads</h2><div id="irstats_graph1"></div><div id="irstats_graph2"></div><script type="text/javascript">
+// <![CDATA[
+
+
+        Event.observe(window,'load',function () {
+                        js_irstats_load_stats( 'irstats_graph2', { IRS_epchoice : 'EPrint' , period : '-12m' , IRS_datechoice : 'period' , page : 'get_view2' , view : 'MonthlyDownloadsGraph' , eprint : '16102' } );
+                });
+	
+// ]]></script><script type="text/javascript">
+// <![CDATA[
+
+
+        Event.observe(window,'load',function () {
+                        js_irstats_load_stats( 'irstats_graph1', { IRS_epchoice : 'EPrint' , period : '-1m' , IRS_datechoice : 'period' , page : 'get_view2' , view : 'DailyDownloadsGraph' , eprint : '16102' } );
+                });
+	
+// ]]></script><h2>Total Document Downloads</h2><script type="text/javascript">
+// <![CDATA[
+
+
+        Event.observe(window,'load',function () {
+                        js_irstats_load_stats( 'irstats_graph3', { IRS_epchoice : 'EPrint' , period : '-12m' , IRS_datechoice : 'period' , page : 'get_view2' , view : 'DownloadCountHTML' , eprint : '16102' } );
+                });
+	
+// ]]></script><a href="/cgi/irstats.cgi?IRS_epchoice=EPrint&amp;page=dashboard&amp;eprint=16102">More statistics for this item...</a></div></div><div class="ep_summary_content_bottom"></div><div class="ep_summary_content_after"></div></div></td>
+	</tr>
+</table>
+
+</div> <!-- #leftcol -->
+
+
+<!-- UWE TEMPLATE 03 Footer -->
+<div id="socialFooterWrap">
+	<div id="socialFooter">
+	<p> </p>
+	<ul>
+		<li class="addThis"><a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4cd18503102186c3&amp;u508=true" class="addthis_button_compact"><img src="//cache.addthiscdn.com/icons/v1/thumbs/menu.gif" alt="Bookmark or share this page" /> Share</a></li>
+		<li class="printPage"> </li>
+	</ul>
+	</div> 
+</div> 
+
+</div> <!-- #content -->
+</div> 	<!-- #contentwrapper -->
+
+<div id="mainNav">
+<h2 class="noshow">Main menu</h2>
+<ul>
+	<li><a href="http://eprints.uwe.ac.uk/">UWE Research Repository</a>
+	<ul>
+		<li><a href="http://www1.uwe.ac.uk/library/usingthelibrary/searchforthingsa-z/uweresearchrepository/search.aspx">Search</a></li>
+		<li><a href="http://www1.uwe.ac.uk/library/usingthelibrary/searchforthingsa-z/uweresearchrepository/browse.aspx">Browse</a></li>
+		<li><a href="http://www1.uwe.ac.uk/library/usingthelibrary/searchforthingsa-z/uweresearchrepository/howtodeposit.aspx">How to deposit</a></li>
+		<li><a href="http://www1.uwe.ac.uk/library/usingthelibrary/searchforthingsa-z/uweresearchrepository/statistics.aspx">Statistics</a></li>
+		<li><a href="http://www1.uwe.ac.uk/library/usingthelibrary/searchforthingsa-z/uweresearchrepository/blog.aspx">Blog</a></li>
+		<li><a href="http://www1.uwe.ac.uk/library/usingthelibrary/searchforthingsa-z/uweresearchrepository/help.aspx">Help</a></li>
+	</ul>
+</li>
+</ul>
+</div>  <!-- #mainNav -->
+
+
+
+
+<div id="footer">
+    <div id="follow">
+	<h2><a href="http://www.uwe.ac.uk/whatson/followus"><img src="//style.uwe.ac.uk/branding/betteria/engine/images/follow-us-icons.png" alt="Follow us" /> Follow us  </a></h2>
+    </div>
+    <div style="clear:both"> </div>
+</div> <!-- #footer -->
+
+<div id="underfooter">
+    <ul>
+		<li><a href="http://www.uwe.ac.uk/?page=1">Intranet</a></li>
+		<li><a href="http://www.uwe.ac.uk/displayoptions.php">Display options</a></li>
+		<li><a href="http://www.uwe.ac.uk/aboutus/contactuwe">Contact UWE</a></li>
+		<li><a href="http://www.uwe.ac.uk/aboutus/websiteinformation/sitemap">Site map</a></li>
+		<li><a href="http://www.uwe.ac.uk/aboutus/websiteinformation/accessibility">Accessibility</a></li>
+		<li class="last"><a href="http://www.uwe.ac.uk/aboutus/websiteinformation/privacy">Privacy</a></li>
+    </ul>
+    <span id="copyright">Copyright 2016 © UWE</span>
+    <a href="http://www.uwe.ac.uk/aboutus/thepartnershipuniversity"><img src="//style.uwe.ac.uk/branding/betteria/engine/images/bettertogether.gif" alt="better together" /></a>
+	
+</div> <!-- #underfooter -->
+</div> <!-- #container -->
+
+<!-- Sitestat Analytics -->
+<script type="text/javascript" src="//components.uwe.ac.uk/nedstat/nslog.js">// <!-- No script --></script>     
+<script type="text/javascript" src="//components.uwe.ac.uk/nedstat/nslog.aspx">// <!-- No script --></script>
+<noscript>
+	<div><img src="//uk.sitestat.com/uwe/uwe-int/s?noscript" width="1" height="1" alt="" /></div>
+</noscript>
+     
+<!-- /UWE TEMPLATE 03 Footer -->
+
+</body>
+</html>

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WhiteFish | WhiteFish</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.whitefishproject.org/wp-content/themes/white_fish_responsive/style.css" />
+<link rel="pingback" href="http://www.whitefishproject.org/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="http://www.whitefishproject.org/wp-content/themes/white_fish_responsive/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="WhiteFish &raquo; Feed" href="http://www.whitefishproject.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="WhiteFish &raquo; Comments Feed" href="http://www.whitefishproject.org/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.whitefishproject.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.whitefishproject.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.whitefishproject.org/wp-includes/wlwmanifest.xml" /> 
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<style type="text/css">
+
+		html{ margin-top:0px!important}
+
+</style>
+
+
+<style type="text/css">
+/* menu styles */
+#jsddm
+{	margin: 0;
+	padding: 0}
+
+	#menu-main-menu li
+	{	
+		list-style: none;
+		 position:relative;}
+
+	#menu-main-menu li a
+	{	display: block; float:left; line-height:51px;
+		text-decoration: none;
+		white-space: nowrap}
+
+	#menu-main-menu li a:hover
+	{}
+		
+		#menu-main-menu li ul
+		{	margin: 0;
+			padding: 0; top:52px;
+			position: absolute;
+			visibility: hidden; background:#ececec; border:1.5px solid #e7e7e7; opacity:0.8; width:134px; padding-left:5px; padding-right:5px; padding-bottom:8px;
+			}
+		
+			#menu-main-menu li ul li
+			{	
+				 background:none; padding-left:2px; padding-right:15px; border-bottom:1px dotted #c8c8c8; width:79%;}
+			
+			#menu-main-menu li ul li a
+			{	width: auto; line-height:30px!important; font-family: Verdana, Arial, Helvetica, sans-serif; font-size:13px;
+}
+			
+			#menu-main-menu li ul li a:hover
+			{}
+</style>
+
+<script src="http://www.whitefishproject.org/wp-content/themes/white_fish_responsive/js/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+function jsddm_open(){
+        jsddm_canceltimer();
+	jsddm_close();
+	ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');
+	};
+
+function jsddm_close()
+{	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');}
+
+function jsddm_timer()
+{	closetimer = window.setTimeout(jsddm_close, timeout);}
+
+function jsddm_canceltimer()
+{	if(closetimer)
+	{	window.clearTimeout(closetimer);
+		closetimer = null;}}
+
+$(document).ready(function()
+{	$('#menu-main-menu > li').bind('mouseover', jsddm_open);
+	$('#menu-main-menu > li').bind('mouseout',  jsddm_timer);
+        $('#menu_toggle a').click(function(e){
+		e.preventDefault();
+		$('#manu').slideToggle(300);
+		});
+});
+
+document.onclick = jsddm_close;
+	
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20223523-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div class="logo">
+		<a href="http://www.whitefishproject.org/"><img src="http://www.whitefishproject.org/wp-content/themes/white_fish_responsive/images/Logo.jpg" alt="Logo" /></a>
+		<div class="clr"></div>
+		</div>
+		<div id="menu_toggle">
+		<a href=""><img src="http://www.whitefishproject.org/wp-content/themes/white_fish_responsive/images/menu-toggle.png" width="40" /></a>
+		</div>
+		<div id="manu">
+		<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-72" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-72"><a href="/">Home</a></li>
+<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-73"><a href="http://www.whitefishproject.org/sample-page/">About WhiteFish</a>
+<ul class="sub-menu">
+	<li id="menu-item-118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118"><a href="http://www.whitefishproject.org/sample-page/project-objectives/">Project objectives</a></li>
+	<li id="menu-item-117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-117"><a href="http://www.whitefishproject.org/sample-page/project-structure/">Project structure</a></li>
+</ul>
+</li>
+<li id="menu-item-506" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-506"><a href="http://www.whitefishproject.org/results/">Results</a></li>
+<li id="menu-item-509" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-509"><a href="http://www.whitefishproject.org/sample-page/participants/">Participants</a></li>
+<li id="menu-item-510" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-510"><a href="http://www.whitefishproject.org/sample-page/definitions/">Definitions</a></li>
+<li id="menu-item-507" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-507"><a href="http://www.whitefishproject.org/contact-us/">Contact</a></li>
+<li id="menu-item-508" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-508"><a href="http://www.whitefishproject.org/links/">Links</a></li>
+</ul></div>		</div>
+		<div class="clr"></div>
+				<div id="banner">
+						<a href="http://www.whitefishproject.org/">
+									<img src="http://www.whitefishproject.org/wp-content/uploads/2012/03/home-banner.jpg" width="962" height="383" alt="" />
+							</a>
+					<div class="clr"></div>
+		</div>
+				
+	<div class="clr"></div>	
+	</div>
+	<div id="main">
+<div id="inner-content">
+		<div class="inner-content-top">
+				<div class="reserch">
+				<div class="research-top">
+					<h2>THE WHITEFISH PROJECT</h2>
+				</div>
+				<div class="research-inner">
+				<ul>
+				<li>WhiteFish is the short title for the "Automated and differentiated calculation of sustainability for cod and haddock products" project which is running from January 1st 2011 to December 31st 2014. It is a "Research for the Benefit of SME Associations" project funded by the European Commission under the Seventh Framework Programme (FP7).
+				</ul>
+				<div class="clr"></div>	
+				</div>
+				
+			<div class="clr"></div>
+			</div>
+			
+			<div class="reserch">
+				<div class="research-top">
+					<h2>WHITEFISH NEWS</h2>
+				</div>
+				<div class="news-inner">
+									<ul>
+					 						<li><a href="http://www.whitefishproject.org/whitefish-video/">WhiteFish video</a><div class="clr"></div></li>
+											<li><a href="http://www.whitefishproject.org/new-article-variability-in-fuel-efficiency-of-a-north-east-atlantic-dermersal-trawl-fishery/">New article: Variability in fuel efficiency of a north east Atlantic dermersal trawl fishery</a><div class="clr"></div></li>
+											<li><a href="http://www.whitefishproject.org/new-article-the-tracefood-framework-principles-and-guidelines-for-implementing-traceability-in-food-value-chains/">New article: The TraceFood Framework – Principles and guidelines for implementing traceability in food value chains</a><div class="clr"></div></li>
+											<li><a href="http://www.whitefishproject.org/new-article-literature-review-does-a-common-theoretical-framework-to-implement-food-traceability-exist/">New article: Literature review: Does a common theoretical framework to implement food traceability exist?</a><div class="clr"></div></li>
+											<li><a href="http://www.whitefishproject.org/new-article-how-to-define-traceability/">New article: How to define traceability</a><div class="clr"></div></li>
+											<li><a href="http://www.whitefishproject.org/new-article-granularity-and-its-role-in-implementation-of-seafood-traceability/">New article: Granularity and its role in implementation of seafood traceability</a><div class="clr"></div></li>
+											<li><a href="http://www.whitefishproject.org/new-report-supply-chain-expectations-for-tool-to-calculate-sustainability-of-white-fish-products-at-a-batch-level/">New report: Supply chain expectations for tool to calculate sustainability of white fish products at a batch level</a><div class="clr"></div></li>
+											<li><a href="http://www.whitefishproject.org/article-the-wider-uses-of-traceability/">New article: The Wider Uses of Traceability</a><div class="clr"></div></li>
+											<li><a href="http://www.whitefishproject.org/press-release/">Press release</a><div class="clr"></div></li>
+									</ul>
+			
+				<div class="clr"></div>	
+				</div>
+			<div class="clr"></div>
+			</div>
+			
+			<div class="reserch video">
+				<div class="research-top">
+					<h2>EVENTS</h2>
+				</div>
+				<div class="news-inner">
+									<ul>
+											<li><a href="http://www.whitefishproject.org/3rd-whitefish-plenary-meeting-iceland/">3rd WhiteFish plenary meeting, Iceland, 2014</a><div class="clr"></div></li>
+											<li><a href="http://www.whitefishproject.org/upcoming-activity-the-2nd-whitefish-plenary-meeting-june-2014/">2nd WhiteFish plenary meeting, Norway, 2014</a><div class="clr"></div></li>
+											<li><a href="http://www.whitefishproject.org/scientific-meeting-grimsby-uk-september-17th-2013/">Scientific meeting, Grimsby, UK, September 17th 2013</a><div class="clr"></div></li>
+											<li><a href="http://www.whitefishproject.org/whitefish-flyer/">The 1st WhiteFish Workshop, Iceland 13th March 2013 &#8211; Flyer</a><div class="clr"></div></li>
+											<li><a href="http://www.whitefishproject.org/scientific-meeting-wur-wageningen-netherlands-november-13th-to-15th-2012/">Scientific meeting, WUR, Wageningen, Netherlands, November 13th to 15th 2012</a><div class="clr"></div></li>
+											<li><a href="http://www.whitefishproject.org/scientific-meeting-sik-gothenburg-sweden-september-25th-2012/">Scientific meeting, SIK, Gothenburg, Sweden, September 25th 2012</a><div class="clr"></div></li>
+											<li><a href="http://www.whitefishproject.org/the-1st-whitefish-workshop-reykjavik-iceland-march-13th-2013/">1st WhiteFish plenary meeting, Iceland, 2013</a><div class="clr"></div></li>
+											<li><a href="http://www.whitefishproject.org/scientific-meeting-in-sweden-4/">Scientific meeting in Sweden, March 2012</a><div class="clr"></div></li>
+											<li><a href="http://www.whitefishproject.org/seftaweg/">Kick-off meeting in UK, February 2012</a><div class="clr"></div></li>
+											<li><a href="http://www.whitefishproject.org/xdgfdh/">Kick-off meeting in Iceland, February 2012</a><div class="clr"></div></li>
+										</ul>
+
+				<div class="clr"></div>	
+				</div>
+			<div class="clr"></div>
+			</div>
+			
+			
+			<div class="clr"></div>
+			<div class="clr"></div>
+</div>
+
+
+<div class="clr"></div>
+<div class="bottom-content">
+			<div class="left-content">
+												<img src="http://www.whitefishproject.org/wp-content/uploads/2012/03/say-hello.jpg" alt="Image" /> 
+				  
+			<div class="clr"></div>
+			</div>
+			
+			<div class="rite-content">
+				<h4>We’re always looking to work with innovating and aspiring stakeholders whose passion equals our own</h4>
+				<div class="contact-listing">
+<ul>
+<li class="mail">Petter Olsen, coordinator</li>
+<li class="tweet"><a href="mailto:whitefish@nofima.no">whitefish@nofima.no</a></li>
+</ul>
+<div class="clr"> </div>
+</div>
+				<!--<div class="contact-listing">
+					<ul>
+						<li class="mail">whitefishproject.org</li>
+						<li class="phone">0044 123 4567</li>
+						<li class="tweet">@whitefish</li>
+					</ul>
+				<div class="clr"></div>
+				</div>
+				<div class="social-listing">
+					<ul>
+						<li><a href="#"><img src="images/rs.jpg" /></a></li>
+						<li><a href="#"><img src="images/tweet-small.jpg" /></a></li>
+						<li><a href="#"><img src="images/linked-in.jpg" /></a></li>
+					</ul>
+				</div>
+				-->
+			<div class="clr"></div>
+			</div>
+				<div class="clr"></div>
+		</div>
+<div class="clr"></div>
+</div>	
+	
+<div id="footer">
+		<div id="footer-menu">
+		<ul id="footer_nav" class="menu"><li id="menu-item-42" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-42"><a href="/">Home</a></li>
+<li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://www.whitefishproject.org/sample-page/">About WhiteFish</a></li>
+<li id="menu-item-375" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-375"><a href="http://www.whitefishproject.org/results/">Results</a></li>
+<li id="menu-item-309" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309"><a href="http://www.whitefishproject.org/sample-page/participants/">Participants</a></li>
+<li id="menu-item-310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310"><a href="http://www.whitefishproject.org/sample-page/definitions/">Definitions</a></li>
+<li id="menu-item-196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-196"><a href="http://www.whitefishproject.org/contact-us/">Contact</a></li>
+<li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="http://www.whitefishproject.org/links/">Links</a></li>
+</ul>		
+			<!--<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About WhiteFish</a></li>
+				<li><a href="#">Results</a></li>
+				<li><a href="#">Dissemination</a></li>
+				<li><a href="#">Training</a></li>
+				<li class="lst-mst"><a href="#">Links</a></li>
+			</ul>-->
+		<div class="clr"></div>
+		</div>
+		<p><span>Copyright &copy; 2012 WhiteFish, All Rights Reserved</span></p>
+	<div class="clr"></div>
+	</div>	
+	
+	
+ </body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk
+Page Caching using disk
+
+ Served from: www.whitefishproject.org @ 2016-02-25 12:40:00 by W3 Total Cache -->

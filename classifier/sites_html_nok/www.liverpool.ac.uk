@@ -1,0 +1,559 @@
+
+<!doctype html>  
+
+<!--[if lt IE 7 ]>             <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>                <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>                <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>                <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+
+<head>
+  
+	<meta charset="utf-8">
+	
+	<!-- force latest IE rendering engine (even in intranet) and Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Research - Rasmita Raval - Chemistry - University of Liverpool </title>   
+	
+	<meta name="Author" content="" />
+	<meta name="Creator" content="The_CMS_Team_Owner" />
+	<meta name="Contributor" content="Unknown" />
+	<meta name="Publisher" content="University of Liverpool" />
+	<!--keywords-->
+	<meta name="Description" content="" />
+	<!--date--><meta name="Date" content="Mon, Mar 26, 2012" />
+
+	<!--last updated--><meta name="Last updated" content="Mon, Mar 26, 2012" />
+
+	<meta name="Type" content="University of Liverpool Web Site" />
+	<meta name="Format" content="text/html" />
+	<meta name="Rights" content="Copyright University of Liverpool" />
+	<meta name="Identifier" content="http://www.liverpool.ac.uk/" />
+	<meta name="Language" content="en-uk" />
+     
+<link rel="canonical" href="https://www.liverpool.ac.uk/chemistry/staff/rasmita-raval/research" />  
+          
+	<!--  Mobile viewport optimized: j.mp/bplateviewport  -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+          
+        <!-- Modernizr which enables HTML5 elements & feature detects -->
+	<script src="//www.liverpool.ac.uk/scripts/modernizr-1.6.min.js"></script> 
+    
+          <!-- favicon.ico & apple-touch-icon.png  -->
+	<link rel="shortcut icon" href="//www.liverpool.ac.uk/images/favicon.ico">
+	<link rel="apple-touch-icon" href="//www.liverpool.ac.uk/images/apple-touch-icon.png">
+	
+	<!-- CSS : implied media="all" -->
+          
+        <link rel="stylesheet" href="//www.liverpool.ac.uk/files/css/global-2013.css" media="screen, projection">
+        <link rel="stylesheet" href="//www.liverpool.ac.uk/files/css/services-2013.css" media="screen, projection">
+        <link rel="stylesheet" href="//www.liverpool.ac.uk/files/css/departments-2013.css" media="screen, projection">
+        <link rel="stylesheet" type="text/css" href="//www.liverpool.ac.uk/files/css/print-2013.css" media="print"/>
+          
+        <!--[if IE 8]>
+ <link rel="stylesheet" type="text/css" href="//www.liverpool.ac.uk/files/css/staff-profiles/ie8.css">
+<![endif]-->
+  <!--[if IE 7]>
+ <link rel="stylesheet" type="text/css" href="//www.liverpool.ac.uk/files/css/staff-profiles/ie7.css">
+<![endif]-->
+  
+  <!-- Symbolset -->  
+  <!-- Link to ss-social.css in T4 -->
+          <link rel="stylesheet" type="text/css" media="" href="/media/livacuk/styleassets/css/ss-social.css" />
+          <script type="text/javascript" src="//www.liverpool.ac.uk/files/js/ss-social.js"></script>
+          
+          <!-- Typekit -->
+<script type="text/javascript" src="//use.typekit.net/nsk6wbr.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+          
+          <!-- Responsive Nav for Mobiles -->
+          <script type="text/javascript" src="//www.liverpool.ac.uk/files/js/responsive-nav.js"></script>
+          
+         <!-- JS -->
+          
+    <link rel="stylesheet" href="//www.liv.ac.uk/files/css/s-and-e/chemistry-sota.css">
+    <!--<script src="//csdsite.liv.ac.uk/js/libs/modernizr-2.0.6.min.js"></script>-->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="//www.liverpool.ac.uk/scripts/jquery-1.4.2.js"><\/script>')</script>
+  <script src="//www.liverpool.ac.uk/files/js/script.js"></script>
+   
+  <!-- Ipad portrait fix -->
+<script type="text/javascript" charset="utf-8">
+if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
+    var viewportmeta = document.querySelector('meta[name="viewport"]');
+    if (viewportmeta) {
+        viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0';
+        document.body.addEventListener('gesturestart', function () {
+            viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.6';
+        }, false);
+    }
+}
+</script>
+  
+ <script>
+$(function() {
+
+	// grab the initial top offset of the navigation 
+	var sticky_navigation_offset_top = $('#mobile-sticky-header').offset().top;
+	
+	// our function that decides weather the navigation bar should have "fixed" css position or not.
+	var sticky_navigation = function(){
+		var scroll_top = $(window).scrollTop(); // our current vertical position from the top
+		
+		// if we've scrolled more than the navigation, change its position to fixed to stick to top, otherwise change it back to relative
+		if (scroll_top > sticky_navigation_offset_top) { 
+			$('#mobile-sticky-header').css({ 'position': 'fixed', 'top':0, 'left':0, 'width': '100%', 'z-index': '500' });
+		} else {
+			$('#mobile-sticky-header').css({ 'position': 'relative' }); 
+		}   
+	};
+	
+	// run our function on load
+	sticky_navigation();
+	
+	// and run it again every time you scroll
+	$(window).scroll(function() {
+		 sticky_navigation();
+	});
+	
+	// NOT required:
+	// for this demo disable all links that point to "#"
+	$('a[href="#"]').click(function(event){ 
+		event.preventDefault(); 
+	});
+	
+});
+</script>
+ 
+</head>
+<body class="school hss chemistry" id="sota-department">
+  
+  <!-- Corp Comms Tracker -->
+  <!-- navigation object : Google Analytics code --><!-- Google Tag Manager - new nav object code -->
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P4FCNF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P4FCNF');</script>
+
+<!-- End Google Tag Manager -->
+  
+  <!-- Staging Server banner -->
+  
+  <!-- navigation object : Mothballed Website -->
+  
+
+ <!--noindex-->
+  
+<div id="top-tier">
+ <div class="container">
+    <div class="inner">
+      <nav id="country-pages">
+        <ul>
+          <li class="home-link"><a href="//www.liverpool.ac.uk/">University home</a></li>
+          <li>Welcome:</li>
+            <li><a href="//www.liverpool.ac.uk/cn/">中文</a></li>
+          <li><a href="//www.liverpool.ac.uk/ara/">عربي</a></li>
+          <li><a href="//www.liverpool.ac.uk/esp/">Español</a></li>
+        </ul>
+      </nav>
+      <nav id="global-nav">
+        <ul>
+          <li class="a-z"><a href="//www.liverpool.ac.uk/a-z/">Site A-to-Z</a></li>
+          <li>Login:</li>
+          <li class="staff-login"><a href="//staff.liverpool.ac.uk">Staff</a></li>
+          <li class="student-login"><a href="//student.liverpool.ac.uk/">Students</a></li>
+        </ul>
+      </nav>
+      <div style="clear:both"></div>
+    </div>
+  </div>
+</div>
+<div class="standard">
+<div id="container">
+<header id="masthead" role="banner">
+  <nav id="mobile-sticky-header" class="color-base-plus-black-50 clearfix">
+    <div id="sticky-logo"><a id="uni-home-link" href="//www.liverpool.ac.uk" title="University of Liverpool Home">University of Liverpool</a></div>
+    <div class="sticky-dept-link"><a href="/chemistry/">Chemistry</a></div>
+    <a href="#nav" id="toggle">Menu</a>
+    <div role="navigation" id="nav">
+      <ul>
+        <!-- navigation object : top level site nav for mobiles -->
+        <li><a href="/chemistry/">Chemistry</a></li>
+          <li><a href="/chemistry/about-us/">About us</a></li><li><span class="currentbranch0"><a href="/chemistry/staff/">Staff</a></span></li><li><a href="/chemistry/undergraduate/">Undergraduate</a></li><li><a href="/chemistry/postgraduate/">Postgraduate</a></li><li><a href="/chemistry/research/">Research</a></li><li><a href="/chemistry/analytical-facilities/">Analytical Facilities</a></li><li><a href="/chemistry/outreach/">Outreach</a></li><li><a href="/chemistry/alumni/">Alumni</a></li><li><a href="/chemistry/opportunities/">Opportunities</a></li><li><a href="/chemistry/news/">News</a></li><li><a href="/chemistry/events/">Events</a></li><li><a href="/chemistry/contacts-and-directions/">Contacts and Directions</a></li><li><a href="/chemistry/chemistry-health-and-safety/">Health &amp; Safety Intranet</a></li><li><a href="/chemistry/chemistry-intranet/">Chemistry Intranet</a></li>
+           
+            </ul>
+	
+	 </div>
+  </nav>
+  
+		<a href="#main-content" title="Skip Navigation" id="skip-nav" class="visuallyhidden">Skip navigation</a>
+        <div id="logo"><h2><a id="uni-home-link" href="//www.liverpool.ac.uk" title="University of Liverpool Home">University of Liverpool - </a></h2></div>
+  <div id="dept-link-holder">
+    <div id="dept-link"><h2><a href="/chemistry/">Chemistry</a></h2></div>
+ </div>
+	
+    	<div id="global-and-search" class="different combined-search">
+          
+          <form id="search" class="funnelback" action="//www.liverpool.ac.uk/chemistry/search/results/index.php" method="get">
+                                <div class="field-wrap clearfix">
+                                  <label>
+                                       <input maxlength="256" name="query" size="32" type="text" class="search-input" placeholder="Search" />
+                                        <input type="hidden" name="start_rank" value="1" />
+                                        <input type="hidden" name="page" value="1" />
+                                  <input type="hidden" name="collection" value="chemistry" />
+                                        
+                                </label>
+                               <input value="Search" type="image" src="//www.liverpool.ac.uk/files/2012-working-demo/search-button.gif" class="search-button"/>
+            </div>
+                            <input type="hidden" name="as_sfid" value="AAAAAAXVqSIzkpHbTlkaZaO-p6BTzywcAuhl95k6BYueyKohvNhfEtpvxqJCP8cQRTv_Qh5tMrN-OLUGKBKSn0SnPK4MFi1VsigaKzFZEbXdH9MOOw==" /><input type="hidden" name="as_fid" value="3XN_7OovkSmwsO_Vj1GF" /></form>
+		
+	</div>
+ </header>
+<div role="navigation" id="nav">
+      <ul>
+        <!-- navigation object : top level site nav for mobiles -->
+        <li><a href="/chemistry/">Chemistry</a></li>
+          <li><a href="/chemistry/about-us/">About us</a></li><li><span class="currentbranch0"><a href="/chemistry/staff/">Staff</a></span></li><li><a href="/chemistry/undergraduate/">Undergraduate</a></li><li><a href="/chemistry/postgraduate/">Postgraduate</a></li><li><a href="/chemistry/research/">Research</a></li><li><a href="/chemistry/analytical-facilities/">Analytical Facilities</a></li><li><a href="/chemistry/outreach/">Outreach</a></li><li><a href="/chemistry/alumni/">Alumni</a></li><li><a href="/chemistry/opportunities/">Opportunities</a></li><li><a href="/chemistry/news/">News</a></li><li><a href="/chemistry/events/">Events</a></li><li><a href="/chemistry/contacts-and-directions/">Contacts and Directions</a></li><li><a href="/chemistry/chemistry-health-and-safety/">Health &amp; Safety Intranet</a></li><li><a href="/chemistry/chemistry-intranet/">Chemistry Intranet</a></li>
+           
+            </ul>
+	
+	 </div>
+  
+<div id="responsive-container">	
+	
+
+	<hr>
+	
+	<nav id="site-navigation" role="navigation">
+        <ul id="navigation" class="clearfix">
+			<!-- navigation object : Site home link -->
+			<li><a href="/chemistry/">Chemistry</a></li>
+			<!-- navigation object : Top Level Site Navigation -->
+			<li><a href="/chemistry/about-us/">About us</a></li><li><span class="currentbranch0"><a href="/chemistry/staff/">Staff</a></span></li><li><a href="/chemistry/undergraduate/">Undergraduate</a></li><li><a href="/chemistry/postgraduate/">Postgraduate</a></li><li><a href="/chemistry/research/">Research</a></li><li><a href="/chemistry/analytical-facilities/">Analytical Facilities</a></li><li><a href="/chemistry/outreach/">Outreach</a></li><li><a href="/chemistry/alumni/">Alumni</a></li><li><a href="/chemistry/opportunities/">Opportunities</a></li><li><a href="/chemistry/news/">News</a></li><li><a href="/chemistry/events/">Events</a></li><li><a href="/chemistry/contacts-and-directions/">Contacts and Directions</a></li><li><a href="/chemistry/chemistry-health-and-safety/">Health &amp; Safety Intranet</a></li><li><a href="/chemistry/chemistry-intranet/">Chemistry Intranet</a></li>
+        </ul>
+          <!-- navigation object : Faculty home link -->
+        <a id="faculty-link" href="https://www.liv.ac.uk/physical-sciences/">Part of the School of Physical Sciences</a>
+          <!-- navigation object : Mobile select menu -->
+        
+          <!-- navigation object : Extra Navigation -->
+        
+	</nav>
+          
+        
+	<nav id="breadcrumb"  class="clearfix">
+		<!-- navigation object : Breadcrumb -->
+		<ul><li><a href="https://www.liverpool.ac.uk">University home</a>&nbsp;>&nbsp;</li><li><a href="/chemistry/">Chemistry</a>&nbsp;>&nbsp;</li><li><a href="/chemistry/staff/">Staff</a>&nbsp;>&nbsp;</li><li>Rasmita Raval</li></ul>
+	</nav>
+<!--endnoindex-->
+	<section id="main-content" class="clearfix" role="main">
+          <article id="staff-profile">
+<!--main profile acticle-->
+
+<!-- Staff profile JS -->
+<script src="//www.liv.ac.uk/files/js/staff-profiles.js"></script>
+
+<header id="staff-id" class="vcard clearfix">
+<!--header container-->
+<figure class="photo">
+<!--staff photo-->
+<img src="https://www.liv.ac.uk/media/livacuk/chemistry/gallery/raval.jpg" alt="Photo of Prof Rasmita Raval"/>
+</figure>
+
+<div class="information">
+<!--ACADEMIC TITLE FOLLOWED BY FULL NAME AND DEGREES AND LETTERS-->
+	<div id="name-role">
+		<h1 class="n">
+			<span class="honorific-prefix">Prof</span>
+			<span class="given-name">Rasmita</span>
+			<span class="family-name">Raval</span>
+			<span class="honorific-suffix"></span>
+		</h1>
+<!--ROLE AND DEPARTMENT-->
+	<h2>
+		<span class="role">Professor</span>
+		<span class="org">Chemistry</span>
+	</h2>
+	</div>
+	<div id="communications" class="clearfix">
+		<div id="phone-email-web">
+<!--PHONE NUMBER / EMAIL ADDRESS / PERSONAL WEBSITE ADDRESS-->
+		<ul><li class='tel'>+44 (0)151 794 6981</li><li class="email">
+			<span class="type">Work email</span>
+			<a href="mailto:R.Raval@liverpool.ac.uk">R.Raval@liverpool.ac.uk</a>
+			</li><li class="url">
+			<span class="type">Personal Website</span><a href="http://www.liverpool.ac.uk/antimicrobial-surfaces/">Open Innovation Hub for Antimicrobial Surfaces</a></li>
+		</ul>
+	</div>
+	<div id="social-media">
+	<!--SOCIAL MEDIA LINKS-->
+		<ul></ul>
+	</div>
+    </div>
+</div>
+</header>
+	<!--TABS GO HERE-->
+	<div id="tabs" class="clearfix">
+		<nav class="tabbed-navigation">
+		  <ul class="tabs-nav"><li><a href="../">Biography</a></li>
+<li class="active">Research</li>
+<li><a href="../publications/">Publications</a></li>
+<li><a href="../teaching-and-learning/">Teaching and learning</a></li>
+<li><a href="../external-engagement/">External engagement</a></li>
+</ul>
+		</nav>
+	</div>	
+	<!--RESEARCH-->
+	<div id="research" class="clearfix">
+		<aside class="sidebar" id="sidebar">
+		  <nav class="research-navigation">
+			<ul><li><a href="#research-interest-1"></a></li><li><a href="#research-interest-2"></a></li><li><a href="#research-interest-3"></a></li><li><a href="#research-group-membership">Research Groups</a></li><li><a href="#research-grants">Grants</a></li><li><a class="top" href="#top-tier">Top</a></li>
+			</ul>
+		  </nav>
+		</aside>
+		<div class="research-information content">
+		  <h2>Research</h2>
+	<div id="research-group-membership">
+	<!--RESEARCH GROUP MEMBERSHIP-->
+		<h2><a href="#" id="research-group-membership-toggle" class="toggle-heading">Research Group Membership</a></h2>
+		<div id="research-group-membership-toggle-box">
+		<ul><li><a href="https://www.liverpool.ac.uk/chemistry/research/energy-and-catalysis/">Energy and Catalysis</a></li><li><a href="https://www.liverpool.ac.uk/chemistry/research/functional-interfaces/">Functional Interfaces</a></li></ul>
+		</div>
+	</div>
+              <div id="research-grants">
+<!--RESEARCH GRANTS-->
+                <h2><a href="#" id="research-grants-toggle" class="toggle-heading">Research Grants</a></h2>
+                <div id="research-grants-toggle-box">
+                  <ul><li>Study of the mechanisms of oxide growth on silicon surfaces during atomic layer deposition.</li><li>Creation and application of novel symmetry surfaces (CANSS).</li><li>Studies on chiral systems using the techniques of circular dichroism and spin-polarised electron spectroscopy.</li><li>Chemisorption at metal nanostructures created with size-selected cluster beams.</li><li>Directed Reconfigurable Nanomachines (DRN)
+
+
+
+
+
+
+
+
+
+
+
+</li><li>Measuring Molecular Electronic Transport at Surfaces
+
+
+
+
+</li><li>NW Centre for Bio Array Innovation</li><li>KEL09/06 - Surfaces for Novel Chiral Separations</li><li>Far-IR RAIRS of metal-molecule bonding: realistic models of technologically important interfaces.</li><li>Tailoring nanomagnetism via symmetry - breaking at surfaces (TANSAS). </li><li>Core Capability for Chemistry Research at the University of Liverpool.</li><li>Mechanisms and consequences of chirally selective processes at mineral surfaces.</li><li>Bottom-up resolution of functional enantiomers from self-organised monolayers (RESOLVE)
+</li><li>Control of 2-Dimensional Molecular Self-Organisation: Towards Designed Surfaces</li><li>Liverpool BioAFM: an integrated optical and atomic force microscope for research across the life sciences</li><li>Chiral expression and transfer at the nanoscale (CHEXTAN).                                                    </li><li>Giants of the Infinitesimal</li></ul>
+                </div>
+              </div>
+	</div>
+	<hr/>
+</div>
+<!--TABS GO HERE-->
+<div id="tabs" class="clearfix mobile-tabs">
+	<nav class="tabbed-navigation">
+		<ul class="tabs-nav"><li><a href="../">Biography</a></li>
+<li><a class="active">Research</a></li>
+<li><a href="../publications/">Publications</a></li>
+<li><a href="../teaching-and-learning/">Teaching and learning</a></li>
+<li><a href="../external-engagement/">External engagement</a></li>
+</ul>
+	</nav>
+</div><footer id="quick-contact-reference">
+<!--PHONE NUMBER / EMAIL ADDRESS / PERSONAL WEBSITE ADDRESS-->
+          <ul class="vcard">
+            <li class='tel'>+44 (0)151 794 6981</li'><li class="email"><span class="type">Work email</span><a href="mailto:R.Raval@liverpool.ac.uk">R.Raval@liverpool.ac.uk</a></li><li class="url">
+			<span class="type">Personal Website</span><a href="http://www.liverpool.ac.uk/antimicrobial-surfaces/">Open Innovation Hub for Antimicrobial Surfaces</a></li>
+          </ul>
+        </footer></article><!-- navigation object : Sponsors strip -->
+
+</section>
+</div>
+<hr>
+</div>
+</div>
+<!--noindex-->
+<div id="mobile-navigation" class="clearfix">
+  <div class="container">
+    <div class="inner">
+<nav id="mobile-site-navigation">
+<h2>Other sections in: <a href="/chemistry/">Chemistry</a></h2>
+<ul>	
+<!-- navigation object : site navigation -->
+<li><a href="/chemistry/about-us/">About us</a></li><li><span class="currentbranch0"><a href="/chemistry/staff/">Staff</a></span></li><li><a href="/chemistry/undergraduate/">Undergraduate</a></li><li><a href="/chemistry/postgraduate/">Postgraduate</a></li><li><a href="/chemistry/research/">Research</a></li><li><a href="/chemistry/analytical-facilities/">Analytical Facilities</a></li><li><a href="/chemistry/outreach/">Outreach</a></li><li><a href="/chemistry/alumni/">Alumni</a></li><li><a href="/chemistry/opportunities/">Opportunities</a></li><li><a href="/chemistry/news/">News</a></li><li><a href="/chemistry/events/">Events</a></li><li><a href="/chemistry/contacts-and-directions/">Contacts and Directions</a></li><li><a href="/chemistry/chemistry-health-and-safety/">Health &amp; Safety Intranet</a></li><li><a href="/chemistry/chemistry-intranet/">Chemistry Intranet</a></li>
+</ul>
+</nav> 
+<div id="mobile-faculty-link">
+<ul><!-- Faculty link -->
+<a id="faculty-link" href="https://www.liv.ac.uk/physical-sciences/">Part of the School of Physical Sciences</a>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="current-tier clearfix color-base-plus-black-75">
+  <div class="container">
+    <div class="inner">
+     <!-- navigation object : 2013 Standard current students content -->
+      <div id="current-tier-left"><!--
+<span style="display:none;visibility:hidden;">
+-->
+<ul>
+<li class="lead">Department Intranets:</li>
+<li> <a href='https://www.liv.ac.uk/intranet/chemistry/'>Chemistry Intranet</a></li>
+<li>| <a href='https://www.liv.ac.uk/intranet/chemistry-health-and-safety/'>Chemistry Health and Safety Intranet</a></li>
+
+
+
+</ul>
+<!--
+</span>
+-->
+
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>     
+<footer role="contentinfo">
+  <div class="container">
+    <div class="inner">
+		<div id="address">
+			<p class="vcard">
+	<span class="fn org">Department of Chemistry,&nbsp;University of Liverpool</span><br />
+	<span class="adr">
+    <span class='street-address'>Crown Street,&nbsp;</span>
+    <span class='locality'>Liverpool</span>
+    <span class='postal-code'>L69 7ZD,&nbsp;</span> 
+    <span class='country-name'>United Kingdom</span><br />
+	</span>
+	<span class="tel">+44 (0)151 794 3500</span>
+</p>
+		</div>
+		
+  </div>
+    </div>
+    <div class="container ">
+    <div class="inner copy-legal">
+      <nav id="copyright">
+        <ul>
+          <li>&copy; University of Liverpool - a member of <a href="//www.russellgroup.ac.uk/" target="_blank">The Russell Group</a></li>
+        </ul>
+      </nav>
+      <nav id="legal">
+        <ul>
+          <li><a href="//www.liverpool.ac.uk/maps/">Map</a> </li>
+          <li><a href="//www.liverpool.ac.uk/legal/">Terms and Conditions</a></li>
+          <li><a href="//www.liverpool.ac.uk/accessibility/">Accessibility</a> </li>
+        </ul>
+      </nav>
+      <div style="clear:both"></div>
+  </div>
+      <span id="direct-edit-link"><a class="t4Edit-page" href="https://cms.liv.ac.uk/terminalfour/SiteManager?ctfn=publish&amp;fnno=31&amp;sid=62039&amp;chid=108&amp;lang=en&amp;ede=true">Direct Edit</a></span>
+	</footer>
+<!--endnoindex-->       
+   
+
+    
+<!-- container div closes -->
+
+
+
+
+
+	
+
+
+<!-- custom javascript -->
+<!-- Site specific JavaScript files, including sifr config --><script>
+/*$(document).ready(function() {
+	$(".org-chart a, #research-groups a").each(function(){
+		var url = $(this).attr("href").split("http://www.liv");
+		$(this).attr("href", "http://cms.liv" + url[1]);
+	});
+});*/
+</script>
+
+<script defer src="https://www.liv.ac.uk/files/js/jquery.flexslider.js"></script>
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
+
+<script>
+$(document).ready(function() {
+        $('.hide-section').hide();
+        $('h4').toggle(
+           function(){
+              $(this).next('.hide-section').slideDown();
+              $(this).text("Read less...");
+        },
+           function(){
+              $(this).next('.hide-section').slideUp();
+              $(this).text("Read more...");
+        }
+        );
+});
+</script>
+<script>
+      var navigation = responsiveNav("#nav", {customToggle: "#toggle"});
+    </script>
+    
+  <script>
+  
+/* If the URL contains "Intranet" do the intranet search box, else do the normal one */
+if (window.location.href.indexOf("intranet") >= 0) {
+
+	$('#search').attr('action','https://www.liverpool.ac.uk/search/results/index.php');
+	$('#search input[name=query]').attr('placeholder','Search the University');
+	
+	$('#search input[name=site]').attr('value','default_collection');
+	$('#search input[name=proxystylesheet]').attr('value','default09');
+	
+	$('#search input[name=collection]').attr('value','main-collection');
+
+}
+else {
+ $('<div class="search-select color-base"><label><input name="search-select" type="radio" id="search-select_0" value="radio" checked="checked" />Chemistry</label><label><input type="radio" name="search-select" value="radio" id="search-select_1" />University of Liverpool</label></div>').appendTo('#search');
+	$('.search-input').focus(function() {
+		if (screen.width > 700){
+			$('div.search-select').slideDown('medium');
+			$(document).bind('focusin.search-select click.search-select',function(e) {
+				if ($(e.target).closest('.search-select, .search-input').length) return;
+				$(document).unbind('.search-select');
+				$('div.search-select').slideUp('medium');
+			});
+		}
+	});
+	$('div.search-select').hide();
+	
+	//when a user selects either CSD or the whole site update the search form properties
+	$('#search-select_0').click(function(){
+		$('#search').attr('action','//www.liverpool.ac.uk/chemistry/search/results/index.php')
+		$('#search input[name=site]').attr('value','chemistry');
+		$('#search input[name=proxystylesheet]').attr('value','default_frontend');
+		$('#search input[name=collection]').attr('value','chemistry');
+	});
+	$('#search-select_1').click(function(){
+		$('#search').attr('action','//www.liverpool.ac.uk/search/results/index.php')
+		$('#search input[name=site]').attr('value','default_collection');
+		$('#search input[name=proxystylesheet]').attr('value','default09');
+		$('#search input[name=collection]').attr('value','main-collection');
+	});
+}
+
+  </script>
+    
+
+
+    
+</body>
+</html>

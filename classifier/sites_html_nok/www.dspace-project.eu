@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+
+
+
+
+
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>.:: dspace-project.eu ::.</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
+</head>
+
+<script type="text/javascript">
+ function changeMenu(obj_index,type) {
+	 for(var index=1; index<8; index++)
+		if(document.getElementById("li_"+index).className  == "important")  
+			document.getElementById("li_"+index).className = "";
+	 document.getElementById("li_"+obj_index).setAttribute("class","important");
+	 if(type == 'load') 
+		document.getElementById("iframe_sites").src = "php/home.php";
+	 document.getElementById("iframe_box").src = "php/news.php";
+ }
+ 
+ function sendPwd(type) {
+	if(type == 'request') {
+		document.forms['newpwd_form'].submit();
+		document.getElementById('mail').value = "";
+	}
+	else {
+		document.forms['changepwd_form'].submit();
+		document.getElementById('pwd_new').value = "";
+	}
+ }
+</script>
+
+<body onLoad="javascript:changeMenu(1,'load');" style="background:#9AA1A7 url(css/images/page_bg_color.jpg) repeat-x;color:#74653D;">
+
+
+
+
+  <div id="wrapper">
+    <div id="header"></div>
+    <div id="left">
+      <div id="logo">
+        
+      </div>
+     <div id="nav">
+        <ul>
+          <li id="li_1" onClick="changeMenu(1,'manual');"><a href="php/home.php" target="iframe_sites">HOME</a></li>
+          <li id="li_2" onClick="changeMenu(2,'manual');"><a href="php/objectives.php" target="iframe_sites">OBJECTIVES</a></li>
+          <li id="li_3" onClick="changeMenu(3,'manual');"><a href="php/consortium.php" target="iframe_sites">CONSORTIUM</a></li>
+          <li id="li_4" onClick="changeMenu(4,'manual');"><a href="php/c_contacts.php" target="iframe_sites">CONTACTS</a></li>
+          <li id="li_5" onClick="changeMenu(5,'manual');" style="display:none"><a href="php/private.php" target="iframe_sites">PRIVATE AREA</a></li>
+          <li id="li_5_d"><span>PRIVATE AREA</span></li>
+          <li id="li_6" onClick="changeMenu(6,'manual');" style="display:none"><a href="">RESULTS</a></li>
+          <li id="li_7" onClick="changeMenu(7,'manual');"><a href="php/material.php" target="iframe_sites">DISSEMINATION MATERIAL</a></li>
+          <li><a href="Dolce-Gabbana-bleu-nouvelle-collection-2012-Dolce-Gabbana-achat-contrefacon-t-shirt-lakers-france.html">Dolce Gabbana bleu nouvelle collection 2012 Dolce Gabbana achat contrefacon t shirt lakers france</a>
+<a href="polo-Dolce-Gabbana-pas-cher-paris-robe-Dolce-Gabbana-sans-manches-t-shirt-Dolce-Gabbana-homme.html">polo Dolce Gabbana pas cher paris robe Dolce Gabbana sans manches t shirt Dolce Gabbana homme</a>
+<a href="polo-Dolce-Gabbana-a-vendre-neuf-chemise-Dolce-Gabbana-slim-fit-pas-cher-Dolce-Gabbana-a-prix-d-usine.html">polo Dolce Gabbana a vendre neuf chemise Dolce Gabbana slim fit pas cher Dolce Gabbana a prix d usine</a>
+<a href="polo-solde-homme-polo-Dolce-Gabbana-homme-carreaux-lot-de-t-shirt-Dolce-Gabbana.html">polo solde homme polo Dolce Gabbana homme carreaux lot de t shirt Dolce Gabbana</a>
+<a href="sitemaps.asp">sitemap</a><br>
+</li>
+        </ul>
+     </div>
+       <div id="news">
+	    <form name="logout_form" action="php/logout.php" method="POST" target="server_elab"></form> 
+        <br />
+        <h2>User Login</h2>
+        <form name="login_form" action="php/login.php" method="POST" target="server_elab"> 
+         <h3><input type="text" name="username" id="username"> Username</h3>
+         <h3><input type="password" name="pwd" id="pwd"> Password</h3>
+        </form>
+		<div class="hr-dots"></div>
+		<h2><input type="button" id="login" onClick="javascript:document.forms['login_form'].submit();" value="Login"></h2> 
+		<h2><input type="button" id="logout" onClick="javascript:document.forms['logout_form'].submit();" value="Logout" style="display:none"></h2>
+	   </div>
+       <div id="support_request">
+	    <form name="newpwd_form" action="php/request_pwd.php" method="POST" target="server_elab">
+		 <p>Request new password</p>
+		 <h3><input type="text" name="mail" id="mail"><span id="txt_pwd">E-mail new password</span></h3>
+		 <h3><input type="button" id="send_mail" value="Send" onClick="javascript: sendPwd('request')"></h3>
+		</form>
+	   </div>
+	   <div id="support_change" style="display:none">	
+	    <form name="changepwd_form" action="php/change_pwd.php" method="POST" target="server_elab">
+		 <p>Change password</p>
+		 <h3><input type="text" name="pwd_new" id="pwd_new"> New password</h3>
+		 <h3><input type="button" id="send_mail" value="Send" onClick="javascript: sendPwd('change')"></h3>
+		</form>
+       </div>
+	   <div style="margin-top:6px; position:absolute; margin-left:70px">
+	    <img src="css/images/FP7-gen-RGB.gif" width="98px" height="80px">
+
+	   </div>
+    </div>
+    <div id="right_iframe">
+     <iframe name="iframe_sites" id="iframe_sites" style="overflow:hidden" src="php/home.php" frameborder="0" SCROLLING="NO"></iframe>
+    </div>
+	<div id="news_iframe">
+	 <iframe name="iframe_box" id="iframe_box" frameborder="0"></iframe>
+	</div>
+    <div class="clear"></div>
+    <div id="spacer"></div>
+    <div id="footer">
+      <div id="copyright">
+	    <table align="center" style="margin-top:-16px">
+		 <tr>
+		  <td><img src="css/images/EU_flag.png" width="30px" height="20px"></td>
+		  <td>&nbsp;</td>
+		  <td><p>The DSPACE project is funded from the European Community's Seventh<br> 
+				Framework Programme([FP7/2007-2013]) under grant agreement n°262798</p>
+	      </td>
+		 </tr>
+		</table>
+      </div>
+	  <div id="footerline"></div>
+    </div>
+	
+  </div>
+  
+  <iframe name="server_elab" id="server_elab" style="display:none" height="0px" width="0px"></iframe>
+
+  </body>
+</html>
+
+
+
+
+
+
+

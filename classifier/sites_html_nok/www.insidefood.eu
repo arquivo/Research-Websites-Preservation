@@ -1,0 +1,366 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><!-- Home 26/06/2013 10:06 WebDev 16 16.0.81.8 --><HTML><HEAD><title>Welcome to InsideFood : Integrated sensing and imaging devices for designing, monitoring and controlling microstructure of foods </title><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="GENERATOR" content="WEBDEV">
+<META HTTP-EQUIV="" CONTENT="">
+<META NAME="Description" lang="en" CONTENT="Welcome to InSideFood The EU FP7 project with the acronym InsideFood (‘Integrated sensing and imaging devices for designing, monitoring and controlling microstructure of foods’) aims to  ">
+<META NAME="keywords" lang="en" CONTENT="InSideFood,Inside food,fish food,canned food shelf life,food products,food shelf life,fresh food,food processing,food,EU FP7,Integrated sensing and imaging devices,microstructure of foods,Tomography ,foams,X-ray nano,spectroscoppy,monitoring and controlling microstructure of foods">
+<script type="text/javascript">var _bUTF8_=0;</script>
+<script type="text/javascript" src="../res/WWConstante3.js"></script>
+<script type="text/javascript" src="../res/StdAction.js" charset="ISO-8859-1"></script>
+<script type="text/javascript" src="../res/WDUtil.js" charset="ISO-8859-1"></script>
+<script type="text/javascript" src="../res/WDChamp.js" charset="ISO-8859-1"></script>
+<script type="text/javascript" src="../res/WDXML.js" charset="ISO-8859-1"></script>
+<script type="text/javascript" src="../res/WDDrag.js" charset="ISO-8859-1"></script>
+<script type="text/javascript" src="../res/WDAJAX.js" charset="ISO-8859-1"></script>
+<script type="text/javascript" src="../res/WDTable.js" charset="ISO-8859-1"></script>
+<script type="text/javascript" src="../res/WDZR.js" charset="ISO-8859-1"></script>
+<script type="text/javascript" src="../res/Global_Procedures_of_Insidefood_Browser.js"></script>
+<script type="text/javascript">
+var _SI_="Insidefood";
+var _NA_=3;
+var _AWPID_P_="";
+var _AWPID_A_="";
+var _DO_=null;var _PAGE_=null;var _f=null;var _a=null;var _t=null;var _m=null
+function _JCIR(c){if (bIE){return c.innerText}else{var f = c.firstChild;var t = [];while (f){if (f.nodeName == "#text"){t.push(f.textContent)}else if (clWDUtil.bBaliseEstTag(f,"br")){t.push("\r\n")}f = f.nextSibling}return t.join("")}}
+function _JGCS(e){if(e.currentStyle) return e.currentStyle;var d = e.ownerDocument;if (!d){d = document}var w = d.defaultView;if (w.getComputedStyle){if (e.nodeName == "#text"){e = e.parentNode}return w.getComputedStyle(e, null)}return new Object()}
+function _NAO(p){if(p==0||p>127)return "toolbar=0,location=0,status=0,scrollbars=0,directories=0,menubar=0,resizable=0";var o="";if(p&1)o+="toolbar=1,";if(p&2)o+="location=1,";if(p&4)o+="status=1,";if(p&8)o+="menubar=1,";if(p&16)o+="scrollbars=1,"
+if(p&32)o+="resizable=1,";if(p&64)o+="directories=1,";if(o.length>0)o=o.substr(0, o.length-1);return o}
+function _SDA(s,f,p,t,n,o){if(s=="")s=_SI_;if(p!="")p="&"+p;if(f!="")p="&_WW1STPAGE_="+f+p;p="?_WWREFERER_="+escape(document.referrer)+"&_WWNATION_="+_NA_+p;var a=_PAGE_.action;if(a.indexOf("://")==-1)a=document.URL
+_JCL(a.substring(0,a.indexOf("/",a.indexOf("://")+3))+"/WD160AWP/WD160Awp.exe/CONNECT/"+s+p,t,n,o)}
+function _JSU(p,u,m,t,n,o){u=_CFI(u);if(t=="_blank"&&o){var d=new Date();var e=(n!=""?n.toUpperCase():"_BLANK_"+Math.abs(Date.UTC(d.getYear(),d.getMonth(),d.getDay(),d.getHours(),d.getMinutes(),d.getSeconds())));if(o)open("",e,o);else open("",e);t=e
+}else if(t!="_blank"&&t!="_self"&&t!="_top"&&t!="_parent")t=t.toUpperCase();_f=p;_a=p.action;p.action=u;_t=p.target;p.target=t;_m=p.method;p.method=m;p.submit();setTimeout("_JRU",1)}
+function _JRU(){_f.action=_a;_f.target=_t;_f.method=_m;}
+function PDF_WWW(){{if((_JCIR(_JGE("M47",document))>"")){_JCL(("/INSIDEFOOD_WEB/UK/PDF-Bestanden/"+_JCIR(_JGE("M47",document))),"_blank","");_JGE("M47",document).innerHTML=clWDEncode.sEncodeInnerHTML(("")+"",true,false)}}}
+function _HOME_LOD_0(event){{setInterval("PDF_WWW()",(50)*10)}}
+function _M15_CLI(event){{_JSL(_PAGE_,"M15","_self","","")}}
+function _M7_LOD_0(event){}
+function _M7_CLI_0(event){}
+function _HOME_LOD(event,_WW_ACTION_SPEC_){_LOD_COM(event);_HOME_LOD_0(event);{}}
+function _T0(event,_WW_ACTION_SPEC_){{_PAGE_.M59.value=""}}
+function _T1(event,_WW_ACTION_SPEC_){{var VNKEY=event.keyCode;if((VNKEY==13)){_M15_CLI(event)}}}
+function _T2(event,_WW_ACTION_SPEC_){{_M15_CLI(event)}}
+function _T3(event,_WW_ACTION_SPEC_){{_SDA("Insidefood","login","","_blank","",_NAO(127)+",width="+1175+",height="+725)}{_JSL(_PAGE_,"M39","_top","","");}}
+function _M7_CLI(event,_WW_ACTION_SPEC_){{_M7_CLI_0(event)}}
+function _M7_LOD(event,_WW_ACTION_SPEC_){{_M7_LOD_0(event)}}
+function _LOD_COM(event){}
+function _UNL_COM(event){}
+</script>
+
+<Link rel="icon" href="favicon.ico" type="image/x-icon" /> 
+<Link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="verify-v1" content="NAFukoJBDRdogd0Obhuo+/BPEg+3PvgBzBYKKjdxvh8=">
+
+<script type="text/javascript">var clM18=new WDZR("M18",1,84,2,4,["l-0","l-0",""],1);</script><script type="text/javascript">function FinInitJS(){clM18.Init(-1);}</script><link rel=stylesheet type="text/css" href="Insidefood.css">
+<STYLE TYPE="text/css">
+body{margin:0}.l-0{}.l-1{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#FFFFFF;text-align:center;text-decoration:none ;vertical-align:middle;}.l-1:hover{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#E8F5F6;text-decoration:none ;vertical-align:middle;}.l-1:active{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#FFFFFF;text-decoration:none ;vertical-align:middle;}.l-1:link{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#FFFFFF;text-decoration:none ;vertical-align:middle;}.l-1:visited{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#FFFFFF;text-decoration:none ;vertical-align:middle;}.l-2{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:7pt;color:#444444;}.l-3{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:9px;color:#FFFFFF;text-align:center;text-decoration:none ;vertical-align:middle;background-color:#444444;}.l-3:hover{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:9px;color:#FFFFFF;text-decoration:none ;}.l-3:active{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:9px;color:#FFFFFF;text-decoration:none ;}.l-3:link{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:9px;color:#FFFFFF;text-decoration:none ;}.l-3:visited{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:9px;color:#FFFFFF;text-decoration:none ;}.l-4{background-image:url(Grijsbalk.jpeg);background-repeat:repeat-y;}.l-5{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:8pt;color:#FFFFFF;text-decoration:none ;vertical-align:bottom;}.l-5:hover{color:#00407A;text-decoration:none ;}.l-5:active{color:#FFFFFF;text-decoration:none ;}.l-5:link{color:#FFFFFF;text-decoration:none ;}.l-5:visited{color:#FFFFFF;text-decoration:none ;}.l-5:first-child{}.l-5:first-letter{}.l-5:first-line{}.l-6{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;font-style:normal;color:#FFFFFF;text-decoration:none ;vertical-align:middle;}.l-6:hover{font-size:11px;}.l-6:active{font-size:11px;}.l-6:link{font-size:11px;}.l-6:visited{font-size:11px;}.l-7{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;font-weight:normal;color:#444444;}.l-8{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#00407A;vertical-align:middle;}.A2-1{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:8px;color:#00407A;text-decoration:none ;text-transform:uppercase;vertical-align:top;}.A2-2{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:8px;color:#72AABE;text-decoration:none ;text-transform:uppercase;vertical-align:top;}.A2-0{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:8px;color:#00407A;text-transform:uppercase;vertical-align:top;}.A2-0:link{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:8px;color:#00407A;text-transform:uppercase;vertical-align:top;}.A2-0:visited{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:8px;color:#00407A;text-transform:uppercase;vertical-align:top;}.l-12{}.HTMSTCSTATIC1-0{font-size:12pt;font-weight:400;}.l-14{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#FFFFFF;text-align:center;text-decoration:none ;vertical-align:middle;}.l-14:hover{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#00407A;text-decoration:none ;vertical-align:middle;}.l-14:active{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#FFFFFF;text-decoration:none ;vertical-align:middle;}.l-14:link{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#FFFFFF;text-decoration:none ;vertical-align:middle;}.l-14:visited{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#FFFFFF;text-decoration:none ;vertical-align:middle;}.l-15{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;color:#FFFFFF;text-align:center;vertical-align:middle;}.l-16{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;font-weight:normal;color:#FFFFFF;letter-spacing:2px;text-align:center;vertical-align:middle;background-color:#00407A;}
+#M6,#tzM6{}
+#M59{width:120;height:17;}
+#M15,#tzM15{}
+#M1{}
+#M10{}
+#M39,#tzM39{}
+#M40,#tzM40{}
+#M41,#tzM41{}
+#M21,#tzM21{}
+#con-M18{width:193;}#dzcon-M18{}
+#dzcon-M18{width:193;;overflow:auto}
+#izM23{ ; ;}
+#M45,#tzM45{}
+#M19,#tzM19{}
+#fzM47,#tzM47{width:19;height:20;}
+#dzM47{width:19;height:20;;overflow:hidden}
+#A3,#tzA3{}
+#A2,#A2 .A2-0{}
+#M46{}
+#M48{}
+#M7{}
+#M30,#tzM30{}
+#M5,#tzM5{}
+#M31,#tzM31{}
+#M11,#tzM11{}
+#M33,#tzM33{}
+#M12,#tzM12{}
+#M4,#tzM4{}
+#M13,#tzM13{}
+#M35,#tzM35{}
+#M14,#tzM14{}
+#M37,#tzM37{}
+#M34{}
+#M22,#tzM22{}</STYLE></HEAD><BODY bgcolor="#FFFFFF" onload="FinInitJS();;_HOME_LOD(event)" onunload="_UNL_COM(event);"><table align=center width=947><tr align=left valign=top><td><div style="position:relative">
+<FORM NAME=HOME ACTION="" target=_self METHOD=POST><script type="text/javascript">_DO_=((document.divform!=null)&&(document.divform.document!=null))?document.divform.document:document;_PAGE_=_DO_.HOME</script>
+<div class=h-0><INPUT TYPE=HIDDEN NAME=WD_BUTTON_CLICK_><INPUT TYPE=HIDDEN NAME=WD_ACTION_></div><div style="position:absolute;left:0;top:0;z-index:0;width:947"><TABLE STYLE="position:relative;left:0;">
+<TR><TD width=191><img src="logo.gif" width=188 height=100 hspace=0 vspace=0 border=0 alt="InsideFood Logo" name=M1 id="M1" CLASS=l-0></TD><TD COLSPAN=2 width=756><img src="topbanner.jpg" width=754 height=100 hspace=0 vspace=0 border=0 alt="InsideFood Banner" name=M10 id="M10" CLASS=l-0></TD><TD height=103/>
+<TR><TD width=191><table id=M2 bgcolor="#444444">
+<tr><td height=25 width=188 bgcolor="#444444" valign=top><div style="position:relative;"><DIV id="dwwM6" STYLE="position:absolute;left:51;top:2;width:86;height:21;z-index:0;"><table width=86><tr><td CLASS=l-1 valign=middle id="tzM6"><a name=M6 href="Home.awp" target="_self" id="M6" CLASS=l-1>HOME</a></td></tr></table></DIV></div></td></tr></table></TD><TD width=550><table id=M29 bgcolor="#72AABE">
+<tr><td height=25 width=547 bgcolor="#72AABE" valign=top><div style="position:relative;"><DIV id="dwwM30" STYLE="position:absolute;left:4;top:3;width:86;height:21;z-index:0;"><table width=86><tr><td CLASS=l-14 valign=middle id="tzM30"><A HREF="http://www.insidefood.eu/INSIDEFOOD_WEB/UK/Relevance.awp"></A><a name=M30 href="javascript:_JSU(_PAGE_,'Relevance'+'.awp'+'','post','_self','','')" id="M30" CLASS=l-14>DESCRIPTION</a></td></tr></table></DIV><DIV id="dwwM5" STYLE="position:absolute;left:91;top:3;width:22;height:21;z-index:1;"><table width=22><tr><td CLASS=l-15 valign=top id="tzM5">|</td></tr></table></DIV><DIV id="dwwM31" STYLE="position:absolute;left:114;top:3;width:62;height:21;z-index:2;"><table width=62><tr><td CLASS=l-14 valign=middle id="tzM31"><A HREF="http://www.insidefood.eu/INSIDEFOOD_WEB/UK/Partners_Index.awp"></A><a name=M31 href="javascript:_JSU(_PAGE_,'Partners_Index'+'.awp'+'','post','_self','','')" id="M31" CLASS=l-14>PARTNERS</a></td></tr></table></DIV><DIV id="dwwM11" STYLE="position:absolute;left:177;top:3;width:22;height:21;z-index:3;"><table width=22><tr><td CLASS=l-15 valign=top id="tzM11">|</td></tr></table></DIV><DIV id="dwwM33" STYLE="position:absolute;left:200;top:3;width:40;height:21;z-index:4;"><table width=40><tr><td CLASS=l-14 valign=middle id="tzM33"><A HREF="http://www.insidefood.eu/INSIDEFOOD_WEB/UK/WP_Index.awp"></A><a name=M33 href="javascript:_JSU(_PAGE_,'WP_Index'+'.awp'+'','post','_self','','')" id="M33" CLASS=l-14>R &amp; D</a></td></tr></table></DIV><DIV id="dwwM12" STYLE="position:absolute;left:235;top:3;width:22;height:21;z-index:5;"><table width=22><tr><td CLASS=l-15 valign=top id="tzM12">|</td></tr></table></DIV><DIV id="dwwM4" STYLE="position:absolute;left:253;top:3;width:147;height:21;z-index:6;"><table width=147><tr><td CLASS=l-14 valign=middle id="tzM4"><A HREF="http://www.insidefood.eu/INSIDEFOOD_WEB/UK/Technology_Index.awp"></A><a name=M4 href="javascript:_JSU(_PAGE_,'Technology_Index'+'.awp'+'','post','_self','','')" id="M4" CLASS=l-14>TECHNOLOGY TRANSFER</a></td></tr></table></DIV><DIV id="dwwM13" STYLE="position:absolute;left:395;top:4;width:22;height:21;z-index:7;"><table width=22><tr><td CLASS=l-15 valign=top id="tzM13">|</td></tr></table></DIV><DIV id="dwwM35" STYLE="position:absolute;left:418;top:4;width:39;height:21;z-index:8;"><table width=39><tr><td CLASS=l-14 valign=middle id="tzM35"><A HREF="http://www.insidefood.eu/INSIDEFOOD_WEB/UK/News.awp"></A><a name=M35 href="javascript:_JSU(_PAGE_,'News'+'.awp'+'','post','_self','','')" id="M35" CLASS=l-14>NEWS</a></td></tr></table></DIV><DIV id="dwwM14" STYLE="position:absolute;left:458;top:4;width:22;height:21;z-index:9;"><table width=22><tr><td CLASS=l-15 valign=top id="tzM14">|</td></tr></table></DIV><DIV id="dwwM37" STYLE="position:absolute;left:481;top:4;width:61;height:21;z-index:10;"><table width=61><tr><td CLASS=l-14 valign=middle id="tzM37"><A HREF="http://www.insidefood.eu/INSIDEFOOD_WEB/UK/Contact.awp"></A><a name=M37 href="javascript:_JSU(_PAGE_,'Contact'+'.awp'+'','post','_self','','')" id="M37" CLASS=l-14>CONTACT</a></td></tr></table></DIV></div></td></tr></table></TD><TD width=206><table id=M3 bgcolor="#AAAAAA">
+<tr><td height=25 width=205 bgcolor="#AAAAAA" valign=top><TABLE>
+<TR><TD COLSPAN=4 HEIGHT=2/></TR><TR><TD ROWSPAN=3 WIDTH=20/><TD ROWSPAN=2 width=120 height=19><INPUT TYPE=TEXT SIZE=13 NAME=M59 VALUE="Website Search" onclick="_T0(event)" onkeypress="_T1(event)" onchange="_T2(event)" id="M59" CLASS=l-2 TITLE="Zoek in de website" style="visibility:hidden;"></TD><TD width=45/><TD height=2/>
+<TR><TD CLASS=l-3 valign=middle id="tzM15" style="visibility:hidden;" WIDTH=45><a name=M15 href="javascript:_M15_CLI()" id="M15" CLASS=l-3>Search</a></TD><TD height=17/>
+<TR><TD width=120/><TD width=45/><TD/>
+</TABLE></td></tr></table></TD><TD height=28/>
+<TR><TD COLSPAN=3 width=947><table id=M38>
+<tr><td height=447 width=947 CLASS=l-4 valign=top><div style="position:relative;"><TABLE STYLE="position:relative;left:0;">
+<TR><TD COLSPAN=11 HEIGHT=22/></TR><TR><TD COLSPAN=6 ROWSPAN=2 width=213 height=102/><TD CLASS=A2-0 valign=middle id="tzA2" width=515><span class="A2-2">Home</span></TD><TD ROWSPAN=9 width=13 height=419/><TD ROWSPAN=9 width=205 height=419><table id=M17>
+<tr><td height=400 width=205 valign=top><div style="position:relative;"><TABLE STYLE="position:relative;left:0;">
+<TR><TD width=205/><TD height=28/>
+<TR><TD width=205><table id=M20 bgcolor="#E8F5F6">
+<tr><td height=372 width=205 bgcolor="#E8F5F6" valign=top><TABLE style="height:100%">
+<TR><TD ROWSPAN=3 WIDTH=1/><TD width=193/><TD height=9/>
+<TR><TD width=193><div id="dzcon-M18"><input type=hidden name=M18 value="0"><input type=hidden name=M18_DEB value=1><input type=hidden name=_M18_OCC value=7><table id=con-M18>
+<tr><td><div style="overflow-y:hidden;width:193px;position:relative"><div style="position:relative" id="M18_POS"><table border=0 cellpadding=0 cellspacing=0 id="M18_TB" height=84 width=100%><!-- <tr id="M18_[%_INDICE_%]" style="visibility:hidden"><td style="width:100%"><div id="M18_[%_INDICE_%]_0" style="width:100%;[%_CSS_HEIGHT_%]:84px"></div></td></tr> --></table></div><table style="position:absolute;width:100%;border:solid 2 #FF3300;height:100%;visibility:hidden;z-index:100" id="M18_MASQUE"><tr><td align=center valign=middle><img src="res/TableAttente.gif"></td></tr></table><table style="position:absolute;width:100%;height:100%;visibility:hidden;z-index:101" id="M18_MASQUETR"><tr><td><!-- --></td></tr></table></div></td></tr></table></div></TD><TD height=84/>
+<TR><TD width=193/><TD height="100%"/>
+</TABLE></td></tr></table></TD><TD height=372/>
+<TR class=d-0><TD width=205/><TD/>
+</TABLE><DIV id="dwwM9" STYLE="position:absolute;left:0;top:0;width:205;height:25;z-index:0;"><table id=M9 bgcolor="#00407A">
+<tr><td height=25 width=205 bgcolor="#00407A" valign=top><TABLE>
+<TR><TD COLSPAN=3 HEIGHT=2/></TR><TR><TD ROWSPAN=2 WIDTH=76/><TD CLASS=l-6 valign=middle id="tzM21" WIDTH=52><a name=M21 href="javascript:{_JSL(_PAGE_,'M21','_self','','')}" id="M21" CLASS=l-6>NEWS</a></TD><TD height=22/>
+<TR><TD width=52/><TD/>
+</TABLE></td></tr></table></DIV></div></td></tr></table></TD><TD height=20/>
+<TR><TD ROWSPAN=6 CLASS=l-0 valign=top id="A1" WIDTH=515 HEIGHT=367><base target="_self"><html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<base target="_self">
+<title>Welcome to InsideFood : Integrated sensing and imaging devices for
+designing, monitoring and controlling microstructure of foods </title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+h1
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:15.0pt;
+	font-family:"Verdana","sans-serif";
+	color:#6DA73A;
+	font-weight:normal;}
+h2
+	{mso-style-link:"Kop 2 Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	color:#324C1B;}
+h3
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	color:#324C1B;}
+a:link, span.MsoHyperlink
+	{font-family:"Verdana","sans-serif";
+	color:#72B3BE;
+	border:none;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{font-family:"Verdana","sans-serif";
+	color:#72AABE;
+	text-decoration:underline;}
+p.bulletstyle, li.bulletstyle, div.bulletstyle
+	{mso-style-name:"bullet style";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:1.0cm;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.subbullet, li.subbullet, div.subbullet
+	{mso-style-name:"sub bullet";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.35pt;
+	margin-bottom:.0001pt;
+	text-indent:-17.0pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.Kop2Insidefood, li.Kop2Insidefood, div.Kop2Insidefood
+	{mso-style-name:"Kop 2 Insidefood";
+	mso-style-link:"Kop 2 Insidefood Char Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:8.0pt;
+	font-family:"Verdana","sans-serif";
+	color:#72AABE;
+	font-weight:bold;}
+span.Kop2Char
+	{mso-style-name:"Kop 2 Char";
+	mso-style-link:"Kop 2";
+	font-family:"Verdana","sans-serif";
+	color:#324C1B;
+	font-weight:bold;}
+span.Kop2InsidefoodCharChar
+	{mso-style-name:"Kop 2 Insidefood Char Char";
+	mso-style-link:"Kop 2 Insidefood";
+	font-family:"Verdana","sans-serif";
+	color:#72AABE;
+	font-weight:bold;}
+p.KopInsidefood, li.KopInsidefood, div.KopInsidefood
+	{mso-style-name:"Kop  Insidefood";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:15.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:15.0pt;
+	font-family:"Verdana","sans-serif";
+	color:#00407A;}
+@page WordSection1
+	{size:533.0pt 842.0pt;
+	margin:0cm 1.4pt 3.0cm 0cm;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link="#72B3BE" vlink="#72AABE">
+
+<div class=WordSection1>
+
+<p class=KopInsidefood><span lang=EN-GB>Welcome</span></p>
+
+<p class=KopInsidefood><span lang=EN-GB style='font-size:8.0pt;color:windowtext'>The
+EU FP7 project with the acronym</span><span lang=EN-GB style='font-size:8.0pt'>
+</span><span class=Kop2InsidefoodCharChar><span style='font-size:8.0pt'>InsideFood</span></span><i><span
+style='font-size:8.0pt;color:windowtext'> </span></i><span lang=EN-GB
+style='font-size:8.0pt;color:windowtext'>(‘Integrated sensing and imaging
+devices for designing, monitoring and controlling microstructure of foods’)
+aims to </span></p>
+
+<p class=bulletstyle><span lang=EN-GB style='font-size:14.0pt;font-family:"Verdana","sans-serif"'>&#9642;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-GB style='font-size:8.0pt;font-family:"Verdana","sans-serif"'>Develop
+novel instruments and software for inspecting food microstructure,</span></p>
+
+<p class=bulletstyle><span lang=EN-GB style='font-size:14.0pt;font-family:"Verdana","sans-serif"'>&#9642;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-GB style='font-size:8.0pt;font-family:"Verdana","sans-serif"'>Use them
+to improve our understanding of process-structure-property relationships
+through advanced mathematical models,</span></p>
+
+<p class=bulletstyle><span lang=EN-GB style='font-size:14.0pt;font-family:"Verdana","sans-serif"'>&#9642;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-GB style='font-size:8.0pt;font-family:"Verdana","sans-serif"'>Implement
+them in food processing plants. </span><img width=205 height=153
+src="/INSIDEFOOD_WEB/UK/WORD/Home/Home_bestanden/image001.jpg" align=right hspace=12 alt=Appel></p>
+
+<p class=MsoNormal style='margin-left:1.0cm'><span lang=EN-GB style='font-size:
+8.0pt;font-family:"Verdana","sans-serif"'>In the framework of <i>InsideFood</i>,
+we will focus on both food model systems (multiphase gels, foams) as well as
+actual foods (cereal products, fresh and dried fruit). Further, we will use the
+following non-invasive sensors for characterising food microstructure</span></p>
+
+<p class=MsoNormal><span lang=EN-GB style='font-size:8.0pt;font-family:"Verdana","sans-serif"'>&nbsp;</span></p>
+
+<p class=bulletstyle><span lang=EN-GB style='font-size:14.0pt;font-family:"Verdana","sans-serif"'>&#9642;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-GB style='font-size:8.0pt;font-family:"Verdana","sans-serif"'>Tomography:
+magnetic resonance (micro)imaging (MRI), X-ray nano and micro computed
+tomography (mCT), and high-resolution optical coherence tomography (OCT)</span></p>
+
+<p class=bulletstyle><span lang=EN-GB style='font-size:14.0pt;font-family:"Verdana","sans-serif"'>&#9642;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-GB style='font-size:8.0pt;font-family:"Verdana","sans-serif"'>Spectroscopy:
+time and space resolved NIR spectroscopy, NMR spectroscopy and multidimensional
+relaxation and diffusion methods</span></p>
+
+<p class=MsoNormal style='margin-left:17.85pt;text-align:justify'><span
+lang=EN-GB style='font-size:8.0pt;font-family:"Verdana","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-GB style='font-size:8.0pt;font-family:"Verdana","sans-serif"'>The
+microstructure will be related to food quality attributes (texture as measured
+by compression, penetrometry and acoustic emission, water status, absence of
+internal defects) and safety aspects (absence of foreign materials) of the
+selected foods and food model systems. Further, the aforementioned
+microstructure sensors will be used to improve nutritional aspects of food
+through the optimisation of <span style='color:black'>sugar- and gluten-free
+cereal products</span>. </span></p>
+
+<p class=MsoNormal><span lang=EN-GB style='font-size:8.0pt;font-family:"Verdana","sans-serif"'>Since
+we are dealing with products of important EU-dimension, and to cover the range
+of expertise to achieve integration of knowledge and methodologies, an EU-scale
+approach is necessary. The project will be carried out by a consortium
+including 6 research institutes, 4 SMEs and 2 large companies.</span><span
+class=MsoHyperlink><span lang=EN-GB style='font-size:8.0pt;border:none'><span
+style='border:none'> </span></span></span></p>
+
+<p class=MsoNormal><span class=MsoHyperlink><span style='font-size:8.0pt;
+border:none'><span style='text-decoration:none'>&nbsp;</span></span></span></p>
+
+<p class=MsoNormal><span class=MsoHyperlink><span style='font-size:8.0pt;
+border:none'><img width=510 height=296 src="/INSIDEFOOD_WEB/UK/WORD/Home/Home_bestanden/image002.jpg"></span></span></p>
+
+</div>
+
+</body>
+
+</html>
+<base target="_self"></TD><TD height=82/>
+<TR><TD COLSPAN=5 width=194><a href="http://www.insidefood.eu/symposium.awp" target="_blank"><img src="InsideFoodSymposium.jpg" hspace=0 vspace=0 border=0 alt="" name=M7 onclick="_M7_CLI(event)" onload="_M7_LOD(event)" id="M7" CLASS=l-0 TITLE="Insidefood syposium 2013"></a></TD><TD ROWSPAN=6 width=19 height=291/><TD height=218/>
+<TR><TD COLSPAN=2 ROWSPAN=3 width=13 height=35/><TD WIDTH=19><div id="dzM47"><table><tr><td width=19 CLASS=Titel-Sub valign=top bgcolor="#AAAAAA" id="tzM47"></td></tr></table></div></TD><TD COLSPAN=2 ROWSPAN=2 width=162 height=29/><TD height=20/>
+<TR><TD ROWSPAN=2 width=19 height=15/><TD height=9/>
+<TR><TD width=64/><TD ROWSPAN=4 width=98 height=70><a href="http://cordis.europa.eu/fp7/" target="_blank"><img src="FP7-coo-Small.gif" width=86 height=70 hspace=0 vspace=0 border=0 alt="http://cordis.europa.eu/fp7/" name=M48 id="M48" CLASS=l-0></a></TD><TD height=6/>
+<TR><TD ROWSPAN=3 width=4 height=64/><TD COLSPAN=3 ROWSPAN=3 width=92 height=64><a href="http://ec.europa.eu/index_en.htm" target="_blank"><img src="EUflag_small.jpg" width=86 height=58 hspace=0 vspace=0 border=0 alt="http://ec.europa.eu/index_en.htm" name=M46 id="M46" CLASS=l-0></a></TD><TD height=32/>
+<TR><TD width=515/><TD height=6/>
+<TR><TD COLSPAN=2 CLASS=l-0 valign=top id="tzA3" width=534></TD><TD height=26/>
+<TR><TD width=4/><TD width=9/><TD width=19/><TD width=64/><TD width=98/><TD width=19/><TD width=515/><TD width=13/><TD width=205/><TD/>
+</TABLE><DIV id="dwwM16" STYLE="position:absolute;left:38;top:22;width:150;height:73;z-index:0;"><table id=M16>
+<tr><td height=73 width=150 valign=top><TABLE>
+<TR><TD COLSPAN=2 CLASS=l-5 valign=middle id="tzM39" WIDTH=150><a name=M39 href="javascript:_T3()" id="M39" CLASS=l-5>InsideFood Login</a></TD><TD height=20/>
+<TR><TD COLSPAN=2 width=150/><TD height=1/>
+<TR><TD COLSPAN=2 CLASS=l-5 valign=middle id="tzM40" WIDTH=150><A HREF="http://www.insidefood.eu/INSIDEFOOD_WEB/UK/Agenda.awp"></A><a name=M40 href="javascript:_JSU(_PAGE_,'Agenda'+'.awp'+'','post','_self','','')" id="M40" CLASS=l-5>Agenda</a></TD><TD height=20/>
+<TR><TD CLASS=l-5 valign=middle id="tzM41" WIDTH=149><a name=M41 href="javascript:_JSU(_PAGE_,'Publications'+'.awp'+'','post','_self','','')" id="M41" CLASS=l-5>Publicatons</a></TD><TD width=1/><TD height=20/>
+<TR><TD width=149/><TD width=1/><TD/>
+</TABLE></td></tr></table></DIV></div></td></tr></table></TD><TD height=447/>
+<TR><TD COLSPAN=3 width=947><table id=M32>
+<tr><td height=43 width=947 valign=top><TABLE>
+<TR><TD COLSPAN=2 width=946><img src="Lijn3pixelwit.jpeg" width=942 height=3 hspace=0 vspace=0 border=0 alt="" name=M34 id="M34" CLASS=l-0></TD><TD height=3/>
+<TR><TD width=191><table id=M36 bgcolor="#72AABE">
+<tr><td height=25 width=188 bgcolor="#72AABE" valign=top></td></tr></table></TD><TD CLASS=l-16 valign=top id="tzM22" WIDTH=755>&nbsp;</TD><TD height=25/>
+<TR><TD width=191/><TD width=755/><TD/>
+</TABLE></td></tr></table></TD><TD height=43/>
+<TR><TD width=191/><TD width=550/><TD width=206/><TD/>
+</TABLE></div>
+
+</FORM>
+</div></td></tr></table></BODY></HTML><!--331062-->

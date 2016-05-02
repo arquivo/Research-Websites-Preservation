@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+<link rel="shortlink" href="/node/1" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/front" />
+  <title>EPISECC | EPISECC</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="cleartype" content="on">
+
+  <style>
+@import url("https://episecc.eu/modules/system/system.base.css?o31h2m");
+</style>
+<style>
+@import url("https://episecc.eu/modules/book/book.css?o31h2m");
+@import url("https://episecc.eu/modules/comment/comment.css?o31h2m");
+@import url("https://episecc.eu/sites/all/modules/date/date_api/date.css?o31h2m");
+@import url("https://episecc.eu/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?o31h2m");
+@import url("https://episecc.eu/modules/field/theme/field.css?o31h2m");
+@import url("https://episecc.eu/modules/node/node.css?o31h2m");
+@import url("https://episecc.eu/modules/search/search.css?o31h2m");
+@import url("https://episecc.eu/modules/user/user.css?o31h2m");
+@import url("https://episecc.eu/sites/all/modules/views/css/views.css?o31h2m");
+</style>
+<style>
+@import url("https://episecc.eu/sites/all/modules/ctools/css/ctools.css?o31h2m");
+@import url("https://episecc.eu/sites/all/modules/panels/css/panels.css?o31h2m");
+@import url("https://episecc.eu/modules/flexslider-7.x-2.0-rc1/flexslider/assets/css/flexslider_img.css?o31h2m");
+@import url("https://episecc.eu/sites/all/libraries/flexslider/flexslider.css?o31h2m");
+@import url("https://episecc.eu/modules/responsive_menus-7.x-1.5/responsive_menus/styles/responsive_menus_simple/css/responsive_menus_simple.css?o31h2m");
+</style>
+<style>
+@import url("https://episecc.eu/themes/pointnet_red_sun_responsive_theme/css/styles.css?o31h2m");
+</style>
+  <script src="https://episecc.eu/misc/jquery.js?v=1.4.4"></script>
+<script src="https://episecc.eu/misc/jquery.once.js?v=1.2"></script>
+<script src="https://episecc.eu/misc/drupal.js?o31h2m"></script>
+<script src="https://episecc.eu/sites/all/modules/panels/js/panels.js?o31h2m"></script>
+<script src="https://episecc.eu/sites/all/libraries/flexslider/jquery.flexslider-min.js?o31h2m"></script>
+<script src="https://episecc.eu/modules/responsive_menus-7.x-1.5/responsive_menus/styles/responsive_menus_simple/js/responsive_menus_simple.js?o31h2m"></script>
+<script src="https://episecc.eu/sites/default/files/twitter_block/widgets.js?o31h2m"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"pointnet_red_sun","theme_token":"JPiAGbH3SfTMPBvZsUzLRa6UpcvD2KAIkSFJCDiObm4","js":{"modules\/flexslider-7.x-2.0-rc1\/flexslider\/assets\/js\/flexslider.load.js":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/libraries\/flexslider\/jquery.flexslider-min.js":1,"modules\/responsive_menus-7.x-1.5\/responsive_menus\/styles\/responsive_menus_simple\/js\/responsive_menus_simple.js":1,"https:\/\/episecc.eu\/sites\/default\/files\/twitter_block\/widgets.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"modules\/flexslider-7.x-2.0-rc1\/flexslider\/assets\/css\/flexslider_img.css":1,"sites\/all\/libraries\/flexslider\/flexslider.css":1,"modules\/responsive_menus-7.x-1.5\/responsive_menus\/styles\/responsive_menus_simple\/css\/responsive_menus_simple.css":1,"themes\/pointnet_red_sun_responsive_theme\/system.menus.css":1,"themes\/pointnet_red_sun_responsive_theme\/system.messages.css":1,"themes\/pointnet_red_sun_responsive_theme\/system.theme.css":1,"themes\/pointnet_red_sun_responsive_theme\/css\/styles.css":1}},"flexslider":{"optionsets":{"ssfp_settings":{"namespace":"flex-","selector":".slides \u003E li","easing":"swing","direction":"horizontal","reverse":false,"smoothHeight":false,"startAt":0,"animationSpeed":600,"initDelay":0,"useCSS":true,"touch":true,"video":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":0,"controlsContainer":".flex-control-nav-container","sync":"","asNavFor":"","itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"animation":"fade","slideshow":true,"slideshowSpeed":"7000","directionNav":true,"controlNav":true,"prevText":"Previous","nextText":"Next","pausePlay":false,"pauseText":"Pause","playText":"Play","randomize":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"animationLoop":true,"pauseOnAction":true,"pauseOnHover":false,"manualControls":""}},"instances":{"flexslider-1":"ssfp_settings"}},"responsive_menus":[{"toggler_text":"\u2630 Menu","selectors":["#main-menu"],"media_size":768,"absolute":true,"remove_attributes":true,"responsive_menus_style":"responsive_menus_simple"}]});</script>
+      <!--[if lt IE 9]>
+    <script src="/themes/zen/js/html5-respond.js"></script>
+    <![endif]-->
+  </head>
+<body class="html front not-logged-in two-sidebars page-node page-node- page-node-1 node-type-page" >
+      <p id="skip-link">
+      <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
+    </p>
+      <div id="pointnet_red_sun_container">
+    <div id="page">
+
+        <header class="header" id="header" role="banner">
+
+                        <a href="/" title="Home" rel="home" class="header__logo" id="logo"><img src="https://episecc.eu/sites/default/files/EPISECC_Logo_shadows.jpg" alt="Home" class="header__logo-image" /></a>
+            
+            
+        
+  </header>
+  
+    <div id="navigation">
+        <div class="region region-navigation">
+    <div id="block-system-main-menu" class="block block-system block-menu first last odd" role="navigation">
+
+        <h2 class="block__title block-title">Main menu</h2>
+    
+  <ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/" class="menu__link active">Home</a></li>
+<li class="menu__item is-expanded expanded"><a href="/aims" class="menu__link">Project</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/aims" class="menu__link">Aims and objectives</a></li>
+<li class="menu__item is-expanded last expanded"><a href="/workplan" class="menu__link">Workplan and methodology</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/wp1" title="" class="menu__link">WP 1 - Coordination and Management</a></li>
+<li class="menu__item is-leaf leaf"><a href="/wp2" title="" class="menu__link">WP 2 - Analysis of the crisis management approaches</a></li>
+<li class="menu__item is-leaf leaf"><a href="/wp3" class="menu__link">WP 3 - Pan European Inventory of events/disasters</a></li>
+<li class="menu__item is-leaf leaf"><a href="/wp4" class="menu__link">WP 4 - Taxonomy building</a></li>
+<li class="menu__item is-leaf leaf"><a href="/wp5" class="menu__link">WP 5 - Architecture of Common Information space</a></li>
+<li class="menu__item is-leaf leaf"><a href="/wp6" title="" class="menu__link">WP 6 - Proof of concept &amp; Validation</a></li>
+<li class="menu__item is-leaf leaf"><a href="/wp7" title="" class="menu__link">WP 7 - Legal &amp; Ethic aspects</a></li>
+<li class="menu__item is-leaf leaf"><a href="/wp8" title="" class="menu__link">WP 8 - Dissemination</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/wp9" class="menu__link">WP 9 - Exploitation &amp; Standardisation</a></li>
+</ul></li>
+</ul></li>
+<li class="menu__item is-expanded expanded"><a href="/partners" class="menu__link">Consortium</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/ait" class="menu__link">AIT - Austrian Institute of Technology GmbH</a></li>
+<li class="menu__item is-leaf leaf"><a href="/casfi" title="" class="menu__link">ADS OY - Airbus Defence and Space OY</a></li>
+<li class="menu__item is-leaf leaf"><a href="/csd" class="menu__link">ADS SAS - Airbus DS SAS</a></li>
+<li class="menu__item is-leaf leaf"><a href="/unist" class="menu__link">UNIST - Sveuciliste u Splitu (University of Split)</a></li>
+<li class="menu__item is-leaf leaf"><a href="/psce" title="" class="menu__link">PSCE - Public Safety Communication Europe Forum AISBL</a></li>
+<li class="menu__item is-leaf leaf"><a href="/hitec" title="" class="menu__link">HITEC - HITEC Luxembourg S.A.</a></li>
+<li class="menu__item is-leaf leaf"><a href="/frq" title="" class="menu__link">FRQ - Frequentis AG</a></li>
+<li class="menu__item is-leaf leaf"><a href="/dlr" title="" class="menu__link">DLR - Deutsches Zentrum für Luft- und Raumfahrt EV</a></li>
+<li class="menu__item is-leaf leaf"><a href="/hwc" title="" class="menu__link">HWC - HW Communications Limited</a></li>
+<li class="menu__item is-leaf leaf"><a href="/tcca" title="" class="menu__link">TCCA - TETRA MoU Association Ltd</a></li>
+<li class="menu__item is-leaf leaf"><a href="/kuleuven" title="" class="menu__link">KULeuven - Katholieke Universiteit Leuven</a></li>
+<li class="menu__item is-leaf leaf"><a href="/ies" title="" class="menu__link">IES - IES Solutions SRL</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/tug" title="" class="menu__link">TUG - Technische Universität Graz</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf"><a href="/contact" title="Contact" class="menu__link">Contact</a></li>
+<li class="menu__item is-expanded expanded"><a href="/results" title="Documents" class="menu__link">Results</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/result_publications" title="" class="menu__link">Publications</a></li>
+<li class="menu__item is-leaf leaf"><a href="/presentations" title="" class="menu__link">Presentations</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/deliverables" title="" class="menu__link">Public deliverables</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf"><a href="/events" title="" class="menu__link">News and events</a></li>
+<li class="menu__item is-leaf leaf"><a href="/related" class="menu__link">Related links</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/user" title="" class="menu__link">Login</a></li>
+</ul>
+</div>
+  </div>
+    </div>
+    <div id="pointnet_red_sun_breadcrumb">
+        </div>
+  <div id="main">
+    <div class="region region-home-slider">
+    <div id="block-views-slideshow-block" class="block block-views first last odd">
+
+      
+  <div class="view view-slideshow view-id-slideshow view-display-id-block view-dom-id-b424cdaabd30c004eabd223c3bedf47a">
+        
+  
+  
+      <div class="view-content">
+      <div  id="flexslider-1" class="flexslider">
+  <ul class="slides"><li>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><img typeof="foaf:Image" src="https://episecc.eu/sites/default/files/styles/ssfp_slide/public/dollarphotoclub_2684491.jpg?itok=u42Joqja" width="1500" height="500" alt="" /></div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><img typeof="foaf:Image" src="https://episecc.eu/sites/default/files/styles/ssfp_slide/public/dollarphotoclub_57917172.jpg?itok=9QrDkStG" width="1500" height="500" alt="" /></div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><img typeof="foaf:Image" src="https://episecc.eu/sites/default/files/styles/ssfp_slide/public/dollarphotoclub_67291290.jpg?itok=dHHNxvNq" width="1500" height="500" alt="" /></div>  </div></li>
+<li>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><img typeof="foaf:Image" src="https://episecc.eu/sites/default/files/styles/ssfp_slide/public/dollarphotoclub_70250573.jpg?itok=wrevcb_c" width="1500" height="500" alt="" /></div>  </div></li>
+</ul></div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+  </div>
+    <div id="content" class="column" role="main">
+            
+      <a id="main-content"></a>
+                    <h1 class="page__title title" id="page-title">EPISECC</h1>
+                                          
+
+
+<article class="node-1 node node-page view-mode-full clearfix" about="/front" typeof="foaf:Document">
+
+      <header>
+                  <span property="dc:title" content="EPISECC" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      
+          </header>
+  
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h3><span style="color:#0e4194"><strong>Facts:</strong></span></h3>
+<blockquote><p>Project start: <strong><span style="color:#0e4194">01.06.2014</span></strong><br />
+			Project duration: <strong><span style="color:#0e4194">3 years</span></strong><br />
+			Funding: <span style="color:#0e4194"><strong>EU FP-7 Security</strong></span><br />
+			Coordinator: <span style="color:#0e4194"><strong>Georg Neubaur, AIT Austrian Institute of Technology</strong></span><br />
+			Consortium: <span style="color:#0e4194"><strong>13 partners</strong></span></p>
+</blockquote>
+<p><em><span style="font-size:22px;">“EPISECC is a Collaborative Project which will <b>E</b>stablish a <b>P</b>an-European <b>I</b>nformation <b>S</b>pace to <b>E</b>nhance se<b>C</b>urity of <b>C</b>itizens." </span></em></p>
+<h3><strong>Concept</strong></h3>
+<blockquote><p>Disaster affected people need information as much as water, food, medicine or shelter: accurate, timely information can save lives. The right information helps aid organizations to understand better the needs of affected communities and ways to meet those needs. Today's information technology presents new possibilities, but has not been fully exploited by humanitarian organization. Lack of information can make people victims of disaster.</p>
+</blockquote>
+<p>Source: World Disaster Report, International Federation of Red Cross</p>
+<h3><strong>Background and motivations</strong></h3>
+<p>Efficient communication and access to critical information is a key requirement for the operations of public safety and security services in disasters. Inter-connectedness and cooperation between different rescue teams is essential for saving lives and protecting assets. However, the communication capabilities are often compromised or destroyed, either by the catastrophe itself or its aftermath. In these cases, new communication systems must be deployed to re-establish communication.</p>
+<p>The project EPISECC is aiming at developing a concept of a common “European Information Space”. This information space is dedicated to become the key element in a future integrated pan-European crisis and disaster response capacity. Besides the development of a common Taxonomy and an ontology model, aimed at addressing the Semantic Interoperability issue, EPISECC will focus on the establishment of Interoperability at Physical (i.e. network) and Syntactical (i.e. automated information exchange) levels. One of the main purposes of the EPISECC approach, is to allow analysis of interoperability at all levels.</p>
+</div></div></div>
+  
+  
+</article>
+    </div>
+
+
+
+    
+          <aside class="sidebars">
+          <section class="region region-sidebar-first column sidebar">
+    <div id="block-block-2" class="block block-block first odd">
+
+        <h2 class="block__title block-title">Information material</h2>
+    
+  <ul><li><a href="https://episecc.eu/sites/default/files/documents/episecc_brochoure_A4.pdf">EPISECC Brochure</a></li>
+<li><a href="https://episecc.eu/sites/default/files/documents/episecc_flyer_A5.pdf">EPISECC Flyer</a></li>
+<li><a href="http://episecc.eu/sites/default/files/documents/episecc_poster_A2.pdf">EPISECC Poster</a></li>
+</ul>
+</div>
+<div id="block-twitter-block-1" class="block block-twitter-block even">
+
+        <h2 class="block__title block-title">Episecc Twitter</h2>
+    
+  <a href="https://twitter.com/EPISECC_FP7" class="twitter-timeline" data-widget-id="628941306438549508" data-tweet-limit="3" data-aria-polite="polite">Tweets by EPISECC_FP7</a>
+</div>
+<div id="block-views-result-publications-block-1" class="block block-views last odd">
+
+        <h2 class="block__title block-title">Latest Publications</h2>
+    
+  <div class="view view-result-publications view-id-result_publications view-display-id-block_1 view-dom-id-45f1c1f2d22f461a51bf4247090d65a6">
+        
+  
+  
+      <div class="view-content">
+      <ol>
+  <li class="view_list">
+  <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/node/107">The application of the General Data Protection Regulation to the Processing of Personal Data in Public Protection and Disaster Relief</a></span>  </span>  </div>
+  </li>
+  <li class="view_list">
+  <div class="views-row views-row-2 views-row-even">
+      
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/node/104">Efficient Communication &amp; Access to Critical Information in Disaster Management</a></span>  </span>  </div>
+  </li>
+  <li class="view_list">
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/node/103">EPISECC in a Nutshell</a></span>  </span>  </div>
+  </li>
+</ol>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+  </section>
+          <section class="region region-sidebar-second column sidebar">
+    <div id="block-imageblock-1" class="block block-imageblock first odd">
+
+        <h2 class="block__title block-title">Funded</h2>
+    
+    <div class="block-image">
+    <img class="imageblock-image" typeof="foaf:Image" src="https://episecc.eu/sites/default/files/styles/medium/public/imageblock/euu.png?itok=Ec3gxwuR" alt="" title="Funding" />  </div>
+
+  <div class="block-body">
+    <p>EPISECC is co-financed from the EU funds under grant agreement no. 607078 within the Seventh Framework Programme.</p>
+<p>Facts of EPISECC project on<br /><a href="http://cordis.europa.eu/project/rcn/188573_en.html">Cordis Website</a></p>
+  </div>
+
+</div>
+<div id="block-views-events-block-1" class="block block-views last even">
+
+        <h2 class="block__title block-title">Latest News &amp; Events</h2>
+    
+  <div class="view view-events view-id-events view-display-id-block_1 view-dom-id-cc7fe90efa9409ca7f3c9ea09c452f75">
+        
+  
+  
+      <div class="view-content">
+      <ol>
+  <li class="view_list">
+  <div class="views-row views-row-1 views-row-odd views-row-first">
+    <article class="node-108 node node-events node-promoted node-teaser clearfix" about="/node/108" typeof="sioc:Item foaf:Document">
+
+      <header>
+                    <h2 class="node__title node-title"><a href="/node/108">The application of the General Data Protection Regulation</a></h2>
+            <span property="dc:title" content="The application of the General Data Protection Regulation" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      
+          </header>
+  
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Lina Jasmontaite presented results from EPISECC at the Computers, Privacy &amp; Data Protection Know Right Conference (<a href="http://www.cpdpconferences.org/">http://www.cpdpconferences.org/</a>).<br />
+The presentation is available under: <a href="https://episecc.eu/sites/default/files/EPISECC_CPDP_KnowRights_L%20J.final_.pdf">https://episecc.eu/sites/default/files/EPISECC_CPDP_KnowRights_L%20J.fin...</a></p>
+</div></div></div>
+  <ul class="links inline"><li class="node-readmore first last"><a href="/node/108" rel="tag" title="The application of the General Data Protection Regulation">Read more<span class="element-invisible"> about The application of the General Data Protection Regulation</span></a></li>
+</ul>
+  
+</article>
+  </div>
+  </li>
+  <li class="view_list">
+  <div class="views-row views-row-2 views-row-even views-row-last">
+    <article class="node-106 node node-events node-promoted node-teaser clearfix" about="/node/106" typeof="sioc:Item foaf:Document">
+
+      <header>
+                    <h2 class="node__title node-title"><a href="/node/106">Science of Flooding Explained at Briefing at Lancaster University</a></h2>
+            <span property="dc:title" content="Science of Flooding Explained at Briefing at Lancaster University" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      
+          </header>
+  
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>At the beginning of January, Lancaster University’s Centre for Ecology &amp; Hydrology hosted a briefing on the science of flooding, presenting journalists and interested stakeholders to question flood science experts. The Centre of Ecology &amp; Hydrology is one of the largest hydrological research centres in the UK, with broad experience in the area of flood research.<br />
+Several interesting conclusions were drawn at the end of the day. Of these, the most notable are listed below.<br />
+-	Heavy rainfall and snow are the drivers of flooding;<br /></p></div></div></div>
+  <ul class="links inline"><li class="node-readmore first last"><a href="/node/106" rel="tag" title="Science of Flooding Explained at Briefing at Lancaster University">Read more<span class="element-invisible"> about Science of Flooding Explained at Briefing at Lancaster University</span></a></li>
+</ul>
+  
+</article>
+  </div>
+  </li>
+</ol>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/events">
+    more  </a>
+</div>
+  
+  
+  
+</div>
+</div>
+  </section>
+      </aside>
+    
+  </div>
+
+
+</div><!-- /#page -->
+    
+ <div id="footer-wrapper"><div class="section">
+
+    
+          <footer id="footer" role="contentinfo" class="clearfix">
+          <footer id="footer" class="region region-footer">
+    <div id="block-block-1" class="block block-block first last odd">
+
+      
+  <p><a href="http://www.ait.ac.at/meta-menu/impressum/?L=1">© AIT - Austrian Institute of Technology GmbH. Impressum </a></p>
+
+</div>
+  </footer>
+        <div id="PointNet_credits"><a href="http://www.web-design.pointnet.it" title="Siti internet toscana Lucca" target="_blank"><h3>web & design</h3></a> by <a href="http://www.pointnet.it" title="Pagine web Toscana Lucca" target="_blank"><h3>PointNet</h3></a></div>
+      </footer> <!-- /#footer -->
+    
+  </div></div> <!-- /.section, /#footer-wrapper --> 
+</div><!-- /#pointnet_red_sun_container -->
+  <script src="https://episecc.eu/modules/flexslider-7.x-2.0-rc1/flexslider/assets/js/flexslider.load.js?o31h2m"></script>
+</body>
+</html>

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="content-language" content="eu" />
+<meta name="description" content="" />
+<meta name="author" content="iametza interaktiboa" />
+<meta name="copyright" content="2015 iametza interaktiboa" />
+<meta name="keywords" content="" />
+<meta name="Distribution" content="Global" />
+<meta name="Revisit" content="7 days" />
+<meta name="Robots" content="All" />
+<link rel="author" href="mailto:info@iametza.eus" title="iametza interaktiboarekin harremanetan jarri" />
+
+<title>iametza interaktiboa</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="http://www.iametza.eus/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="http://www.iametza.eus/js/colorbox/colorbox.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="http://www.iametza.eus/css/cookiecuttr.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://www.iametza.eus/css/estiloak.css" />
+        
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="http://www.iametza.eus/js/html5shiv.min.js"></script>
+<script type="text/javascript" src="http://www.iametza.eus/js/respond.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="http://www.iametza.eus/js/jquery.min.js"></script></head>
+
+<body>
+	
+<nav class="navbar navbar-default">
+	<div class="container">
+		<div class="row clearfix">
+			<div class="col-sm-6 column" id="logoa">
+				<h1><a href="http://www.iametza.eus/euskara/"><img src="http://www.iametza.eus/images/iametza.png" alt="iametza interaktiboa" /></a></h1>
+			</div>
+			
+			<div class="col-sm-6 column" id="hizkuntzak">
+					<ul>
+												<li class="aktibo">
+														euskara													</li>
+						<li>|</li>
+						<li>
+							<a href="http://www.iametza.eus/espanol">							español							</a>						</li>
+												<li><a href="https://www.facebook.com/iametza" target="_blank"><img src="http://www.iametza.eus/images/ikonoak/facebook.png" alt="facebook" /></a></li>
+						<li><a href="https://www.youtube.com/user/iametzainteraktiboa/" target="_blank"><img src="http://www.iametza.eus/images/ikonoak/youtube.png" alt="youtube" /></a></li>
+						<li><a href="https://twitter.com/iametza" target="_blank"><img src="http://www.iametza.eus/images/ikonoak/twitter.png" alt="twitter" /></a></li>
+						<li><a href="https://es.linkedin.com/company/iametza-interaktiboa-s-l-" target="_blank"><img src="http://www.iametza.eus/images/ikonoak/linkedin.png" alt="linkedin" /></a></li>
+						<li><a href="http://instagram.com/iametza/" target="_blank"><img src="http://www.iametza.eus/images/ikonoak/instagram.png" alt="vimeo" /></a></li>
+						<li><a href="https://github.com/iametza" target="_blank"><img src="http://www.iametza.eus/images/ikonoak/github.png" alt="vimeo" /></a></li>
+						
+					</ul>
+			</div>
+		</div>
+		
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-nagusia">
+				<span class="sr-only">menua</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		
+		<div class="collapse navbar-collapse" id="menu-nagusia">
+			<ul class="nav navbar-nav menua">
+				<li class="active"><a href="http://www.iametza.eus/euskara/">Hasiera</a></li>
+				<li class="dot">&middot;</li>
+				<li><a href="http://www.iametza.eus/euskara/nor-gara">Nor gara</a></li>
+				<li class="dot">&middot;</li>
+				<li><a href="http://www.iametza.eus/euskara/gure-eskaintza">Gure eskaintza</a></li>
+				<li class="dot">&middot;</li>
+				<li><a href="http://www.iametza.eus/euskara/egindako-lanak">Egindako lanak</a></li>
+				<li class="dot">&middot;</li>
+				<li><a href="http://www.iametza.eus/euskara/ig">I+G</a></li>
+				<li class="dot">&middot;</li>
+				<li><a href="http://www.iametza.eus/euskara/gurekin-lanean">Gurekin lanean</a></li>
+				<li class="dot">&middot;</li>
+				<li><a href="http://www.iametza.eus/euskara/bloga">Bloga</a></li>
+				<li class="dot">&middot;</li>
+				<li><a href="http://www.iametza.eus/euskara/harremanetarako">Harremanetarako</a></li>
+			</ul>
+			
+			<div id="bilatzailea">
+				<form class="navbar-form navbar-right" role="search" method="get" action="http://www.iametza.eus/euskara/bilatzailea">
+					<input class="form-control" type="text" name="q" placeholder="idatzi bilatu nahi duzuna" value="" />
+					
+					<button type="submit" class="btn btn-default">Bilatu</button>
+				</form>
+			</div>
+			
+			<div class="lupa"><a href="http://www.iametza.eus/euskara/bilatzailea" id="bila_klik"><img src="http://www.iametza.eus/images/search.png" alt="lupa" /></a></div>
+		</div><!--/#menu-nagusia -->
+	</div><!--/.container -->
+</nav>
+<div id="edukia">
+		
+		<link rel="stylesheet" type="text/css" href="http://www.iametza.eus/js/owl-carousel/owl.carousel.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="http://www.iametza.eus/js/owl-carousel/owl.theme.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="http://www.iametza.eus/css/karrusela-hasiera.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="http://www.iametza.eus/css/mailchimp.css" media="screen" />
+
+<script type="text/javascript" src="http://www.iametza.eus/js/owl-carousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="http://www.iametza.eus/js/jquery.hasiera.js"></script>
+
+<div class="container-fluid">
+	<h2 style="display:none;">Hasiera</h2>
+	<div class="row clearfix karrusela-hasiera-osoa">
+        <div class="container">
+            <div class="row clearfix">
+                <div class="col-sm-12 column">
+                                        
+                    <div id="karrusela-hasiera" class="owl-carousel owl-theme karrusela-hasiera">
+                                                <div class="item">
+							<div class="testua">
+								                                <h3 class="karrusela-h3">Iametza Interaktiboak programatzaile bat behar du</h3>
+																
+								                                <div class="karrusela-testua"><p>Eskaintzen dena, lan talde gazte batean integratzea eta interneteko proiektuen eta app-en garapenean parte hartzea da.</p>
+</div>
+																
+								                                <div class="text-center"><a href="http://www.iametza.eus/euskara/bloga/iametza-interaktiboak-programatzaile-bat-behar-du" target="_self" class="botoi-berdea">ESKAINTZA IKUSI</a></div>
+																
+                            </div>
+							
+							<div class="multimedia">
+																<img src="http://www.iametza.eus/fitxategiak/irudiak/solteak/2016/02/banner.jpg" alt="" />
+															</div>
+                        </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+	<div class="row clearfix lerro-margina">
+				<div class="col-sm-3 column text-center lerro-salto">
+						<img src="http://www.iametza.eus/fitxategiak/irudiak/ikonoak/estrategia.png" alt="Estrategia eta aholkularitza" />
+						
+			<h3 class="eskaintza">Estrategia eta aholkularitza</h3>
+			
+						<p class="altura">Komunikazio estrategia, marketina, social media, SEO, SEM, analitika (Analytics), diru-laguntzen kudeaketa...</p>
+						
+			<a href="http://www.iametza.eus/euskara/gure-eskaintza/estrategia-eta-aholkularitza" class="botoi-beltza">Gehiago jakin nahi dut</a>
+		</div>
+				<div class="col-sm-3 column text-center lerro-salto">
+						<img src="http://www.iametza.eus/fitxategiak/irudiak/ikonoak/komunikazioa.png" alt="Komunikazioa eta zabalkundea" />
+						
+			<h3 class="eskaintza">Komunikazioa eta zabalkundea</h3>
+			
+						<p class="altura">Komunikazio planak eta kanpainak, markak sortzea, ekitaldien kudeaketa, ikus-entzunezkoen produkzioa, edukien sorkuntza eta eguneratzea...</p>
+						
+			<a href="http://www.iametza.eus/euskara/gure-eskaintza/komunikazioa-eta-zabalkundea" class="botoi-beltza">Zabalkundea lortu nahi?</a>
+		</div>
+				<div class="col-sm-3 column text-center lerro-salto">
+						<img src="http://www.iametza.eus/fitxategiak/irudiak/ikonoak/garapena.png" alt="Web garapenak" />
+						
+			<h3 class="eskaintza">Web garapenak</h3>
+			
+						<p class="altura">Neurrira egindako garapenak, web aplikazioak, CMS-ak, E-commerce, webmaster zerbitzuak...</p>
+						
+			<a href="http://www.iametza.eus/euskara/gure-eskaintza/web-garapenak" class="botoi-beltza">Ikusi gure lanak</a>
+		</div>
+				<div class="col-sm-3 column text-center lerro-salto">
+						<img src="http://www.iametza.eus/fitxategiak/irudiak/ikonoak/app.png" alt="Mugikorretarako aplikazioak" />
+						
+			<h3 class="eskaintza">Mugikorretarako aplikazioak</h3>
+			
+						<p class="altura">Android, IOS, aplikazio hibridoak...</p>
+						
+			<a href="http://www.iametza.eus/euskara/gure-eskaintza/mugikorretarako-aplikazioak" class="botoi-beltza">Ikusi gure lanak</a>
+		</div>
+		<div style="clear:both;"></div>	</div>
+</div>
+
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-sm-9 column">
+            
+			<div class="h2-div">
+				<h2><a href="http://www.iametza.eus/euskara/bloga">Gure blogetik</a></h2>
+			</div>
+            
+            <div class="row clearfix">
+								<div class="col-sm-4 column lerro-salto">
+										<a href="http://www.iametza.eus/euskara/bloga/iametza-interaktiboak-programatzaile-bat-behar-du"><img src="http://www.iametza.eus/fitxategiak/irudiak/solteak/2016/02/mini_banner.jpg" alt="iametza interaktiboak programatzaile bat behar du" class="irudia" /></a>
+										
+					<h3 class="albistea-h3"><a href="http://www.iametza.eus/euskara/bloga/iametza-interaktiboak-programatzaile-bat-behar-du">iametza interaktiboak programatzaile bat behar du</a></h3>
+					
+					<p class="data">2016/02/10					
+										
+					<p>Eskaintzen dena, lan talde gazte batean integratzea eta interneteko proiektuen eta app-en garapenean parte hartzea da.</p>
+				</div>
+								<div class="col-sm-4 column lerro-salto">
+										<a href="http://www.iametza.eus/euskara/bloga/iametza-interaktiboak-programatzaile-lan-poltsa-osatu-nahi-du"><img src="http://www.iametza.eus/fitxategiak/irudiak/solteak/2016/01/mini_banner.jpg" alt="Iametza Interaktiboak programatzaile lan poltsa osatu nahi du" class="irudia" /></a>
+										
+					<h3 class="albistea-h3"><a href="http://www.iametza.eus/euskara/bloga/iametza-interaktiboak-programatzaile-lan-poltsa-osatu-nahi-du">Iametza Interaktiboak programatzaile lan poltsa osatu nahi du</a></h3>
+					
+					<p class="data">2016/01/21					
+										<span class="autorea"> · <a href="http://www.iametza.eus/euskara/bloga/elisabeth-pombo">Elisabeth Pombo</a></span></p>
+										
+					<p>Eskaintzen dena, programazio beharren arabera, lan talde gazte batean integratzea eta interneteko proiektuen eta app-en garapenean parte hartzea da.</p>
+				</div>
+								<div class="col-sm-4 column lerro-salto">
+										<a href="http://www.iametza.eus/euskara/bloga/deutchland-83-telesailean-keinua-programatzaileei"><img src="http://www.iametza.eus/fitxategiak/irudiak/solteak/2016/01/mini_deutchland83-basic.png" alt="Deutchland 83 telesailean keinua programatzaileei" class="irudia" /></a>
+										
+					<h3 class="albistea-h3"><a href="http://www.iametza.eus/euskara/bloga/deutchland-83-telesailean-keinua-programatzaileei">Deutchland 83 telesailean keinua programatzaileei</a></h3>
+					
+					<p class="data">2016/01/18					
+										<span class="autorea"> · <a href="http://www.iametza.eus/euskara/bloga/asier-iturralde">Asier Iturralde</a></span></p>
+										
+					<p>Asteburuan Deutchland 83 telesail alemaniarra ikusi dut. 80. hamarkadako Alemania banatuan kokatua dago, Mendebaldearen eta Sobietar Batasunaren arteko tentsioa puri-purian zegoen garaian. Ez dizuet spoilerrik egin nahi baina 3. ataleko eszena batek atentzioa deitu zidan. Telesail askok oso modu traketsean irudikatzen dituzte programazioarekin erlazionaturiko kontuak baina kasu honetan programatzaileei egindako keinu bat dago ;)</p>
+				</div>
+							</div>
+        </div>
+        <div class="col-sm-3 column">
+			<div class="buletina">
+				<img class="ampolleta" src="http://www.iametza.eus/images/ampolleta.png" alt="" />
+				
+				<p class="pad">Jarrai dezagun harremanetan!</p>
+				
+				<!-- Begin MailChimp Signup Form -->
+				<div id="mc_embed_signup">
+					<form action="//iametza.us10.list-manage.com/subscribe/post?u=1f581a414fac3736536a0512d&amp;id=79b2215532" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							<div id="mc_embed_signup_scroll">
+								<p>Gure BULETINERA harpidetu eta gure informazioa jarraituko duzu:</p>
+								<div class="mc-field-group">
+									<label for="mce-EMAIL">Idatzi zure eposta helbidea:</label>
+									<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+									
+									<input type="submit" value="Alta eman!" name="subscribe" id="mc-embedded-subscribe" class="button">
+								</div>
+								
+								<div id="mce-responses" class="clear">
+									<div class="response" id="mce-error-response" style="display:none"></div>
+									<div class="response" id="mce-success-response" style="display:none"></div>
+								</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+								
+							<div style="position: absolute; left: -5000px;"><input type="text" name="b_1f581a414fac3736536a0512d_79b2215532" tabindex="-1" value=""></div>
+						</div>
+					</form>
+				</div>
+				
+				<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+				<!--End mc_embed_signup-->
+				
+				<p class="pad2">Zure ideiak errealitate bihurtzea nahi duzu? <a href="http://www.iametza.eus/euskara/harremanetarako" class="botoi-beltza">KONTATU ZURE IDEIA</a></p>
+			</div>
+		</div>
+	</div>
+</div>		
+	</div>
+
+
+<div class="hutsa"></div>
+
+<!-- Oina -->
+<div class="container-fluid">
+	<div class="row clearfix oina">
+	<div class="container">
+		<div class="row clearfix">
+			<div class="col-sm-6 column">
+				<img src="http://www.iametza.eus/images/iametza-oina.png" alt="iametza interaktiboa" />
+				
+				<p>Zirkuitu ibilbidea 2 - 1. pabiloia<br />
+Lasarte-Oria (Gipuzkoa)</p>
+
+<p>T (+34) 943 376 716<br />
+F (+34) 943 372 772</p>
+
+<p><a href="mailto:kaixo@iametza.eus">kaixo@iametza.eus</a></p>
+				
+				<ul class="lista_oina">
+					<li><a href="http://www.iametza.eus/euskara/irisgarritasuna">Irisgarritasuna</a></li>
+					<li>&middot;</li>
+					<li><a href="http://www.iametza.eus/euskara/lege-oharra">Lege oharra</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-6 column oineko-destakatuak">
+			<a href="http://www.euskarabildua.eus" target="_blank"><img src="http://www.iametza.eus/images/euskarabildua.png" alt="Euskarabildua" /></a>
+				<a href="http://www.domeinuak.eus/eu/" target="_blank"><img src="http://www.iametza.eus/images/puntu-eus.png" alt="Puntu eus" /></a>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+	
+<div class="container">
+	<div class="row clearfix oina2">
+		<div class="col-sm-12 column">
+			<a href="http://www.ametza.com" target="_blank" rel="nofollow"><img src="http://www.iametza.eus/images/oina/ametzagaina.png" alt="iametza interaktiboa" /></a>
+			<img src="http://www.iametza.eus/images/oina/separa-oina.png" alt="iametza interaktiboa" />
+			<a href="http://www.adur.com" target="_blank" rel="nofollow"><img src="http://www.iametza.eus/images/oina/adur.png" alt="iametza interaktiboa" /></a>
+			<a href="http://www.antza.com" target="_blank" rel="nofollow"><img src="http://www.iametza.eus/images/oina/antza.png" alt="iametza interaktiboa" /></a>
+			<a href="http://www.argia.eus" target="_blank" rel="nofollow"><img src="http://www.iametza.eus/images/oina/argia.png" alt="iametza interaktiboa" /></a>
+			<a href="http://www.iametza.eus/euskara/harremanetarako"><img src="http://www.iametza.eus/images/oina/iametza-oina.png" alt="iametza interaktiboa" /></a>
+			<hr />
+			
+			<div class="text-center">&copy;2015 iametza interaktiboa</div>
+		</div>
+	</div>
+</div>
+<!-- /Oina -->
+
+<script type="text/javascript" src="http://www.iametza.eus/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://www.iametza.eus/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="http://www.iametza.eus/js/jquery.cookiecuttr.js"></script>
+<script type="text/javascript" src="http://www.iametza.eus/js/colorbox/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="http://www.iametza.eus/euskara/jquery/orokorra.js"></script>
+<script type="text/javascript" src="http://www.iametza.eus/euskara/jquery/cookie.js"></script>
+
+</body>
+</html>

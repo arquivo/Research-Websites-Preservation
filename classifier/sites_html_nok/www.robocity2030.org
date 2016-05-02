@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en-GB"> <!--<![endif]-->
+<head>
+
+<!-- Basic Page Needs 
+========================================================= -->
+<title>TIRAMISU &#8211; Toolbox implementation for removal of anti-personnel mines, submunitions and UXO  |  Robocity2030 - </title>
+<meta charset="UTF-8">
+
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- Mobile Specific Metas & Favicons
+========================================================= -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<link rel="shortcut icon" href="http://www.robocity2030.org/wp-content/uploads/2015/06/favicon.png">
+
+<!-- WordPress Stuff
+========================================================= -->
+<link rel="pingback" href="http://www.robocity2030.org/xmlrpc.php" />
+<link rel="alternate" type="application/rss+xml" title="Robocity2030 &raquo; Feed" href="http://www.robocity2030.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Robocity2030 &raquo; Comments Feed" href="http://www.robocity2030.org/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.robocity2030.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.2"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='jobman-display-css'  href='http://www.robocity2030.org/wp-content/plugins/job-manager/css/display.css?ver=0.7.22' type='text/css' media='all' />
+<link rel='stylesheet' id='FontAwesome-css'  href='http://www.robocity2030.org/wp-content/themes/richer/framework/css/font-icons/awesome-font/css/font-awesome.min.css?ver=4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://www.robocity2030.org/wp-content/plugins/revslider/rs-plugin/css/settings.css?ver=4.6.3' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+</style>
+<link rel='stylesheet' id='stylesheet-css'  href='http://www.robocity2030.org/wp-content/themes/richer-child/style.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='SosaIcons-css'  href='http://www.robocity2030.org/wp-content/themes/richer/framework/css/font-icons/sosa-font/style.min.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='skeleton-css'  href='http://www.robocity2030.org/wp-content/themes/richer/framework/css/grid.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='http://www.robocity2030.org/wp-content/themes/richer/framework/css/responsive.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.robocity2030.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='icons-css'  href='http://www.robocity2030.org/wp-content/plugins/download-manager/css/front.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpdm-bootstrap-css'  href='http://www.robocity2030.org/wp-content/plugins/download-manager/bootstrap/css/bootstrap.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://www.robocity2030.org/wp-content/plugins/js_composer/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.4.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='events-maker-front-css'  href='http://www.robocity2030.org/wp-content/plugins/events-maker/css/front.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mytheme-googlefonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:100&#044;100italic&#044;200&#044;200italic&#044;300&#044;300italic&#044;400&#044;400italic&#044;600&#044;600italic&#044;700&#044;700italic&#044;800&#044;800italic|Roboto:100&#044;100italic&#044;200&#044;200italic&#044;300&#044;300italic&#044;400&#044;400italic&#044;600&#044;600italic&#044;700&#044;700italic&#044;800&#044;800italic&#038;subset=latin&#044;latin-ext&#044;cyrillic&#044;cyrillic-ext&#044;greek-ext&#044;greek&#044;vietnamese' type='text/css' media='all' />
+<link rel='stylesheet' id='style.owl.carousel-css'  href='http://www.robocity2030.org/wp-content/plugins/owl-carousel/css/owl.carousel.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='style.owl.carousel.theme-css'  href='http://www.robocity2030.org/wp-content/plugins/owl-carousel/css/owl.theme.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='style.owl.carousel.transitions-css'  href='http://www.robocity2030.org/wp-content/plugins/owl-carousel/css/owl.transitions.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='style.owl.carousel.styles-css'  href='http://www.robocity2030.org/wp-content/plugins/owl-carousel/css/styles.css?ver=4.2.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.robocity2030.org/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-content/plugins/job-manager/js/display.js?ver=0.7.22'></script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-content/plugins/download-manager/bootstrap/js/bootstrap.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-content/plugins/download-manager/js/front.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-content/plugins/download-manager/js/chosen.jquery.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-content/plugins/events-maker/js/front-sorting.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js?ver=4.6.3'></script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?ver=4.6.3'></script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-content/plugins/owl-carousel/js/owl.carousel.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-content/plugins/owl-carousel/js/script.js?ver=4.2.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.robocity2030.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.robocity2030.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='RHEA &#8211; Robots fleets for highly effective crop management in Mediterranean agriculture' href='http://www.robocity2030.org/?portfolio=proyecto-01-3-2-2-3-2-2-2' />
+<link rel='next' title='HEPHESTOS &#8211; Hard Material Small-Batch Industrial Machining Robot' href='http://www.robocity2030.org/?portfolio=proyecto-01-3-2-2-3-2-2-2-2-2-2-2' />
+<meta name="generator" content="WordPress 4.2.2" />
+<link rel='canonical' href='http://www.robocity2030.org/?portfolio=proyecto-01-3-2-2-3-2-2-2-2' />
+<link rel='shortlink' href='http://www.robocity2030.org/?p=2407' />
+		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				// CUSTOM AJAX CONTENT LOADING FUNCTION
+				var ajaxRevslider = function(obj) {
+				
+					// obj.type : Post Type
+					// obj.id : ID of Content to Load
+					// obj.aspectratio : The Aspect Ratio of the Container / Media
+					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
+					
+					var content = "<h2>THIS IS SOME TITLE</h2><br/>";
+
+					content += "Type:"+obj.type+"</br>";
+					content += "ID:"+obj.id+"</br>";        
+					content += "Aspect Ratio:"+obj.aspectratio+"</br>";  
+					
+					data = {};
+					
+					data.action = 'revslider_ajax_call_front';
+					data.client_action = 'get_slider_html';
+					data.token = '0f3f941b70';
+					data.type = obj.type;
+					data.id = obj.id;
+					data.aspectratio = obj.aspectratio;
+					
+					// SYNC AJAX REQUEST
+					jQuery.ajax({
+						type:"post",
+						url:"http://www.robocity2030.org/wp-admin/admin-ajax.php",
+						dataType: 'json',
+						data:data,
+						async:false,
+						success: function(ret, textStatus, XMLHttpRequest) {
+							if(ret.success == true)
+								content = ret.data;								
+						},
+						error: function(e) {
+							console.log(e);
+						}
+					});
+					
+					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
+					 return content;						 
+				};
+				
+				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
+				var ajaxRemoveRevslider = function(obj) {
+					return jQuery(obj.selector+" .rev_slider").revkill();
+				}
+
+				// EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
+				var extendessential = setInterval(function() {
+					if (jQuery.fn.tpessential != undefined) {
+						clearInterval(extendessential);
+						if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined')
+							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});   
+							// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
+							// func: the Function Name which is Called once the Item with the Post Type has been clicked
+							// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
+							// openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
+					}
+				},30);
+			});
+		</script>
+			<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="http://www.robocity2030.org/wp-content/plugins/js_composer/assets/css/vc-ie8.css" media="screen"><![endif]-->
+<!-- Custom CSS Codes
+========================================================= -->
+	
+<style id="custom-style">
+	body{ 
+		font-family: Roboto, Arial, Helvetica, sans-serif; font-size: 13px; line-height: 24px; font-weight: 300; color: #676767; text-transform: none;
+					}
+	h1{ font-family: Roboto, Arial, Helvetica, sans-serif; font-size: 46px; line-height: 1.6em; text-transform: uppercase; font-weight: 300; color: #0473ff; }
+	h2{ font-family: Roboto, Arial, Helvetica, sans-serif; font-size: 30px; line-height: 1.6em; text-transform: uppercase; font-weight: 300; color: #0473ff; }
+	h3{ font-family: Roboto, Arial, Helvetica, sans-serif; font-size: 24px; line-height: 1.6em; text-transform: uppercase; font-weight: 300; color: #0473ff; }
+	h4{ font-family: Roboto, Arial, Helvetica, sans-serif; font-size: 18px; line-height: 1.6em; text-transform: uppercase; font-weight: 300; color: #0473ff; }
+	h5{ font-family: Roboto, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 1.6em; text-transform: uppercase; font-weight: 300; color: #0473ff; }
+	h6{ font-family: Roboto, Arial, Helvetica, sans-serif; font-size: 13px; line-height: 1.6em; text-transform: uppercase; font-weight: 300; color: #0a0000; }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited  { font-weight: inherit; color: inherit; }
+	h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
+	a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 { color: #89c603; }
+	
+	#header .logo a img { max-width: 343px; }
+	a, a:visited{ color: #43b4f9; }
+	a:hover,  a:focus{ color: #89c603;}
+	
+	/* Header ------------------------------------------------------------------------ */  
+	#header:not(.fixed_header){ 
+	background-color: rgba(255,255,255, 0.3) !important; 
+	background-image: url(""); 
+	background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: scroll;
+		background-size: cover;	?>
+	color:#3b3f42; 
+	}
+	#header .logo,
+	#header .logo .logo_text {color:#3b3f42; }
+	#header { border-bottom: 1px solid rgba(216,216,216, 0.3);}
+	#top-bar{ background: #fafafa; color: #3b3f42; font-size: 12px;}
+	#top-bar .social-icons ul li a {color: #3b3f42;}
+	#top-bar .call-us a{ color: #3b3f42;}	
+	#header .select-menu{ background: #ffffff; }	
+	#navigation ul.menu > li.menu-item {line-height: 100px;}
+	#header.header1 .my-table,
+	#header.header2 .my-table { height: 100px;}
+	#header.header-scrolled {background-color: rgba(255,255,255,0.9); }
+	/* Top sliding area  ------------------------------------------------------------------------ */
+	.toparea-sliding-area { 
+		background-color: rgba(248,248,248,1);  
+		color: #4c4c4c;
+		border-bottom: 3px solid #f0f0f0;
+		border-top: 0px solid #f0f0f0;
+	}
+	.toparea-sliding-area a {color: #43b4f9;}
+	.toparea-sliding-area a:hover {color: #000000;}		
+	
+	.toparea-sliding-area .widget h3 { font-family: Roboto, Arial, Helvetica, sans-serif; line-height: 1.6em; font-size: 16px; font-weight: normal !important; text-transform: uppercase; color: #ffffff !important; }
+	.toparea-sliding-area .widget {color: #4c4c4c;}
+	.toparea-sliding-area .widget .separator {
+		height: 0px;
+		border-bottom:0px solid #777777;
+		margin-bottom:0px; margin-top: 15px;	}
+	.toparea-sliding-area .widget .separator .separator_line {height:0px;}
+	.toparea-sb {background-color: rgba(248,248,248,1);}
+	/*Sidebar navigation ------------------------------------------------------------------*/
+	body.side-navigation-enabled aside.side-navigation { 
+	background-color: #ffffff; 
+	background-image: url(""); 
+	background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: scroll;
+			color:#babdbf; 
+	}
+
+	body.side-navigation-enabled aside.side-navigation .logo h1 a {color: #3b3f42}
+	body.side-navigation-enabled aside.side-navigation .logo .site-description,
+	body.side-navigation-enabled aside.side-navigation .social-icons ul li a {color:#babdbf;}
+	body.side-navigation-enabled aside.side-navigation {text-align:left}
+	ul#side-nav.sf-vertical li ul {background-color: #ffffff;}
+	ul#side-nav > li > a,
+	ul#side-nav-toggle > li > a { 
+		font-family: Open Sans, Arial, Helvetica, sans-serif;
+		line-height: 36px; 
+		font-size: 12px; 
+		text-transform: uppercase; 
+		color: #3b3f42; 
+		font-weight: 600;	}
+	ul#side-nav-toggle li ul li a,
+	ul#side-nav.sf-vertical li ul li a {
+		font-family: Open Sans, Arial, Helvetica, sans-serif;
+		font-size: 13px;
+		line-height: 36px; 
+		text-transform: lowercase;
+		color: #3b3f42;
+			}
+	aside.side-navigation.side-navigation-toggle .toggleMenu {color: #3b3f42;}
+
+	ul#side-nav.show-indicator > li > a .sf-sub-indicator:before {color: #3b3f42;}
+	ul#side-nav.show-indicator > li ul a .sf-sub-indicator:before {color: #3b3f42;}
+	ul#side-nav.show-indicator li.sfHover > a .sf-sub-indicator:before {color: #43b4f9;}
+	ul#side-nav.show-indicator ul li.sfHover > a .sf-sub-indicator:before {color: #43b4f9;}
+	ul#side-nav li.current-menu-ancestor > a,
+	ul#side-nav li.current-menu-item > a,
+	ul#side-nav li.current_page_ancestor > a,
+	ul#side-nav li > a:hover,
+	ul#side-nav-toggle li.current-menu-ancestor > a,
+	ul#side-nav-toggle li.current-menu-item > a,
+	ul#side-nav-toggle li.current_page_ancestor > a,
+	ul#side-nav-toggle li > a:hover {color: #43b4f9;}
+	ul#side-nav li.current-menu-ancestor > a .sf-sub-indicator:before,
+	ul#side-nav li.current-menu-item > a .sf-sub-indicator:before,
+	ul#side-nav li.current_page_ancestor > a .sf-sub-indicator:before,
+	ul#side-nav li > a:hover {color: #43b4f9;}
+
+	ul#side-nav-toggle li ul li.current-menu-ancestor > a,
+	ul#side-nav-toggle li ul li.current-menu-item > a,
+	ul#side-nav-toggle li ul li.current_page_ancestor > a,
+	ul#side-nav-toggle li ul li > a:hover,
+	ul#side-nav li ul li.current-menu-ancestor > a,
+	ul#side-nav li ul li.current-menu-item > a,
+	ul#side-nav li ul li.current_page_ancestor > a,
+	ul#side-nav li ul li > a:hover {color: #43b4f9;}
+	ul#side-nav li ul li.current-menu-ancestor > a .sf-sub-indicator:before,
+	ul#side-nav li ul li.current-menu-item > a .sf-sub-indicator:before,
+	ul#side-nav li ul li.current_page_ancestor > a .sf-sub-indicator:before,
+	ul#side-nav li ul li > a:hover {color: #43b4f9;}
+
+	ul#side-nav li.sfHover > a {color: #43b4f9;}
+	ul#side-nav li ul li.sfHover > a {color: #43b4f9;}
+	aside.side-navigation.side-navigation-toggle .navbar-menu,
+	aside.side-navigation.side-navigation-toggle .toggleMenu {
+		background-color: #ffffff;
+	}
+	/*---------------------------------*/
+	/* Navigation ------------------------------------------------------------------------ */ 
+	#navigation ul.menu > li.menu-item {margin:0 0 0 25px;}
+	#header.header2 #navigation ul.menu > li,
+	#header.header3 #navigation ul.menu > li,
+	#header.header4 #navigation ul.menu > li {padding-right:12.5px; padding-left:12.5px;}
+	#navigation ul.menu > li.menu-item > a { font-family: Open Sans, Arial, Helvetica, sans-serif; font-size: 13px; text-transform: uppercase; color: #3b3f42; font-weight: 600;}
+	#navigation ul.menu > li.sfHover > a,
+			#navigation ul.menu > li.sfHover > a:hover,
+			#navigation ul.menu li.menu-item a:hover { color: #43b4f9; }
+			#navigation ul.menu > li.current-menu-item > a:hover,
+			#navigation ul.menu > li.current-menu-item > a,
+			#navigation ul.menu > li.current-menu-ancestor > a:hover,
+			#navigation ul.menu > li.current-menu-ancestor > a,
+			#navigation ul.menu > li.current-menu-parent > a:hover,
+			#navigation ul.menu > li.current-menu-parent > a { color: #43b4f9; }
+
+	#header.header3 #navigation {background-color: #ecf0f1;}
+	#header.header3 #navigation {border-color: #d8d8d8;}
+	#header.header3 #navigation ul.menu > li {border-color: #ffffff;}
+	#header.header4 #navigation {background-color: #ecf0f1;}
+	#header.header4 #navigation {border-color: #d8d8d8;}
+	#header.header4 #navigation ul.menu > li {border-color: #ffffff;}
+
+	#navigation .sub-menu{
+		background: #f4f4f4 !important; 
+	}
+	#navigation ul.menu > li > .sub-menu {
+		border-top: 3px solid #43b4f9; 
+	}
+	#navigation .sub-menu:before {border-bottom-color: #43b4f9;}
+	#navigation .sub-menu li a,
+	html body #navigation .sub-menu li .sub-menu li a,
+	html body #navigation .sub-menu li .sub-menu li .sub-menu li a { font-family: Open Sans, Arial, Helvetica, sans-serif; color: #3b3f42; }
+	
+	#navigation .sub-menu li,
+	#navigation ul.menu > li.megamenu > ul > li,
+	#navigation ul.menu > li.megamenu > ul > li > a { border-color: #dde2e5; }
+
+	#navigation .sub-menu li a:hover,
+	#navigation .sub-menu li.sfHover > a,
+	#navigation .sub-menu li.current-menu-parent > a,
+	#navigation .sub-menu li .sub-menu li a:hover,
+	#navigation .sub-menu li.current-menu-item a,
+	#navigation .sub-menu li.current-menu-item a:hover,
+	#navigation .sub-menu li.current_page_item a,
+	#navigation .sub-menu li.current_page_item a:hover { color: #43b4f9 !important; background-color: #fafafa; }
+	#navigation .menu > li > .sub-menu:before { border-bottom-color:  #43b4f9}
+	#navigation .menu > li .sub-menu > li.sfHover:after {border-left-color:  #43b4f9;}
+	#navigation .menu > li .sub-menu > li.sfHover:before {background-color: #43b4f9;}
+	
+	#navigation ul.menu > li.megamenu > ul > li > a:hover, #navigation ul.menu > li.megamenu > ul > li.sfHover > a, 
+	#navigation ul.menu > li.megamenu > ul > li.current-menu-item > a, 
+	#navigation ul.menu > li.megamenu > ul > li.current-menu-parent > a {
+	    color: #43b4f9 !important;
+	}
+	.search-area, .search-area:before,
+	.cart-main .cart-content a, .cart-main .cart-contents:before, .cart-main .cart-contents, .cart-main .cart-checkout{ 
+		background: #f4f4f4 !important; 
+		border-color: #dde2e5;
+	}
+	#title {
+		background-image: url("");
+		background-color: #f6f6f6;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: scroll;
+		background-size: cover;	   	border-bottom: 1px solid #d8d8d8;
+	    border-top: 0px solid #d8d8d8;
+		padding: 0px 0px 0px 0px;
+	}
+	#alt-title {
+	    background-image: url("");
+	    border-bottom: 1px solid #d8d8d8;
+	    border-top: 0px solid #d8d8d8;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	#title h1, #alt-title h1 { font-family: Open Sans, Arial, Helvetica, sans-serif; line-height: 1.6em; text-transform: uppercase; font-size: 18px; font-weight: 600; color: #333333; }
+	#title h2, #alt-title h2, 
+	#title #breadcrumbs, #no-title #breadcrumbs, 
+	#alt-title #breadcrumbs, #no-title { font-family: Open Sans, Arial, Helvetica, sans-serif; line-height: 1.6em; font-size: 13px; font-weight: normal; color: #999999; }
+	#title #breadcrumbs, 
+	#alt-title #breadcrumbs { color: #999999; }
+	#title #breadcrumbs a, 
+	#alt-title #breadcrumbs a, 
+	#no-title #breadcrumbs a { color: #999999; }
+	#title #breadcrumbs a:hover, 
+	#alt-title #breadcrumbs a:hover, 
+	#no-title #breadcrumbs a:hover { color: #333333; }
+	#title h1, #title h2 {}
+	#title #breadcrumbs {}
+	#sidebar .widget h3 { font-style: 600; font-size: 16px; line-height: 1.6em; font-family: Open Sans, Arial, Helvetica, sans-serif; color: #333333; text-transform: uppercase; font-weight: 600;}
+	
+	#alt-title .grid, #title .inner {
+		padding: 25px 0px 25px 0px;
+        background-color: rgba(246,246,246, 1);    }
+    #main.boxed {max-width : 1240px;}
+    #main {
+    	background: rgba(255,255,255, 1);
+    }
+    .container {max-width : 1196px;}
+    /* Top navigatio sub-menu -------------------------------------------------------- */
+    #topnav.menu li  a { 
+    	font-family: Open Sans, Arial, Helvetica, sans-serif; 
+    	font-size: 12px; 
+    	text-transform: none; 
+    	color: #3b3f42;     }
+    #topnav li a:hover,
+    #topnav li.current-menu-item a,
+	#topnav li.current-menu-item a:hover,
+	#topnav li.current-page-ancestor a,
+	#topnav li.current-page-ancestor a:hover,
+	#topnav li.current-menu-ancestor a,
+	#topnav li.current-menu-ancestor a:hover,
+	#topnav li.current-menu-parent a,
+	#topnav li.current-menu-parent a:hover,
+	#topnav li.current_page_ancestor a,
+	#topnav li.current_page_ancestor a:hover { color: #43b4f9; }
+	#topnav .sub-menu, .cart .cart-content a, .cart .cart-content:before, .cart .cart-contents, .cart .cart-checkout { 
+		background: #f4f4f4 !important; 
+		border-color: #e8e8e8; 
+	}
+	#topnav .sub-menu li a,
+	#topnav .sub-menu li .sub-menu li a,
+	#topnav .sub-menu li .sub-menu li .sub-menu li a {color: #333333; }
+	#topnav .sub-menu li{ border-color: #e8e8e8; }
+	#topnav .sub-menu li a:hover,
+	#topnav .sub-menu li.sfHover > a,
+	#topnav .sub-menu li.current-menu-parent > a,
+	#topnav .sub-menu li .sub-menu li a:hover,
+	#topnav .sub-menu li.current-menu-item a,
+	#topnav .sub-menu li.current-menu-item a:hover,
+	#topnav .sub-menu li.current_page_item a,
+	#topnav .sub-menu li.current_page_item a:hover { color: #43b4f9 !important; }
+
+	/* Footer ------------------------------------------------------------------------ */  
+ 
+	#footer{ 
+	border-top: 0px solid #142b3a; 
+	background-color: #006cff; 
+	background-image: url(""); 
+	background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: scroll;
+		background-size: cover;	?>
+
+	color:#ffffff; 
+	}
+	#footer a { color:#ffffff; }
+	#footer a:hover{ color:#ffffff; }
+	#footer ul li a {color:#ffffff}
+	#footer .twitter-list a {color:#ffffff;}
+	#footer .widget h3 { font-family: Roboto, Arial, Helvetica, sans-serif; line-height: 1.6em; font-size: 12px; font-weight: 300 !important; text-transform: uppercase; color: #ffffff !important; #ffffff; }
+	#footer .widget {color: #ffffff;}
+	#footer .widget .separator {
+		border-bottom:1px solid #ffffff;
+		margin-bottom:;
+	}
+	#footer .widget .separator .separator_line {height:3px;}
+	/* Copyright ------------------------------------------------------------------------ */  
+	        
+	#copyright { background: #142b3a; color: #ffffff; }
+	#copyright a { color: #ffffff; }
+	#copyright a:hover { color: #ffffff; }
+	#copyright .menu li a {
+		font-family: Open Sans, Arial, Helvetica, sans-serif; 
+    	font-size: 12px; 
+    	text-transform: none; 
+    	color: #ffffff;     }
+
+    #copyright .menu li.current-menu-item a,
+	#copyright .menu li.current-menu-item a:hover,
+	#copyright .menu li.current-page-ancestor a,
+	#copyright .menu li.current-page-ancestor a:hover,
+	#copyright .menu li.current-menu-ancestor a,
+	#copyright .menu li.current-menu-ancestor a:hover,
+	#copyright .menu li.current-menu-parent a,
+	#copyright .menu li.current-menu-parent a:hover,
+	#copyright .menu li.current_page_ancestor a,
+	#copyright .menu li.current_page_ancestor a:hover { color: #ffffff;}
+	    
+	/* Forms ------------------------------------------------------------------------ */  
+	    
+	input, input[type="text"], input[type="url"], input[type="date"], input[type="password"], input[type="email"], textarea, select, button, input[type="submit"], input[type="reset"], input[type="button"] { font-family: Roboto, Arial, Helvetica, sans-serif; font-size: 13px; }
+	    
+	/* Accent Color ------------------------------------------------------------------------ */ 
+	.social-icon a:hover, .social-icons a:hover{background-color: #43b4f9 !important;}
+	.images.bordered div.item:hover,
+	.images.without-border div.item:hover {border-color: #43b4f9;}
+	::selection { background: #43b4f9 !important; }
+	::-moz-selection { background: #43b4f9 }
+	.title a:hover, .post-meta span a:hover { color: #43b4f9 }
+	.separator_line {background: #43b4f9;}
+	#filters ul li a.active, #filters ul li a:hover {border-color:#43b4f9; color:#43b4f9;}
+	.projects-nav a:hover { background-color: #43b4f9 }
+	blockquote, .pullquote.align-right, .pullquote.align-left {border-color:#43b4f9;}
+	.accordion.style1 .accordion-title.active i,
+	.sidenav li a:hover, 
+	.sidenav li.current_page_item > a, 
+	.sidenav li.current_page_item > a:hover,
+	.toggle.style1 .toggle-title.active i { color: #43b4f9 }
+	.accordion.style2 .accordion-title.active .acc-icon, .accordion.style3 .accordion-title.active .acc-icon,
+	.toggle.style2 .toggle-title.active .status-icon, .toggle.style3 .toggle-title.active .status-icon,
+	.accordion.style4 .accordion-title.active, .toggle.style4 .toggle-title.active {background-color: #43b4f9}
+	.blog-item  .author .name { color: #43b4f9 }
+	#back-to-top a:hover { background-color: #43b4f9 }
+	.widget_tag_cloud a:hover { background: #43b4f9; border-color: #43b4f9; }
+	.widget_portfolio .portfolio-widget-item .portfolio-pic:hover { background: #43b4f9; border-color: #43b4f9; }
+	#footer .widget_tag_cloud a:hover,
+	#footer .widget_flickr #flickr_tab a:hover,
+	#footer .widget_portfolio .portfolio-widget-item .portfolio-pic:hover,
+	.flex-direction-nav a:hover { background-color: #43b4f9 }
+	.flex-control-nav li a:hover, .flex-control-nav li a.flex-active{ background: #43b4f9 }
+	.gallery img:hover { background: #43b4f9; border-color: #43b4f9 !important; }
+	.skillbar .skill-percentage { background: #43b4f9 }
+	.latest-blog .blog-item:hover h4 { color: #43b4f9 }
+	.tp-caption.big_colorbg{ background: #43b4f9; }
+	.tp-caption.medium_colorbg{ background: #43b4f9; }
+	.tp-caption.small_colorbg { background: #43b4f9; }
+	.tp-caption.customfont_color{ color: #43b4f9; }
+	.tp-caption a { color: #43b4f9; }
+	.widget_categories ul li a:hover, #related-posts ul li h5 a:hover { color: #43b4f9; }
+	.portfolio-item .portfolio-page-item .portfolio-title a:hover { color: #43b4f9;}
+	a.more,
+	#sidebar .widget ul:not(.unstyled) li a:hover,
+	#related-posts ul li:before {color: #43b4f9;}
+	.counter-value .value {color: #43b4f9;}
+	.callout, .description.style-2 {border-left-color:#43b4f9;}
+	.tabset .tab a.selected i, .tabset .tab a:hover i, .tabset .tab a.selected h6, .tabset .tab a:hover h6 { color:#43b4f9;}
+	.shop_table .product-remove a:hover {color: #43b4f9;}
+	.testimonial-author .featured-thumbnail:after {border-left-color:#43b4f9;}
+	#header.header6 .logo_bg {background-color: #43b4f9;}
+	#pagination a:hover, #pagination span.current {background-color: #43b4f9;}
+	.iconlist:hover .icon.circle {
+		color: #43b4f9;
+		border-color: #43b4f9;
+	}
+	.iconbox:hover .top_icon_circle .icon,
+	.iconbox:hover .aside_rounded_icon .icon,
+	.iconbox:hover .aside_circle_icon .icon {
+		background-color: #43b4f9 !important;
+		border-color: #43b4f9 !important;
+		color:#fff !important;
+	}
+	.portfolio-item:hover .portfolio-title {
+		background-color: #43b4f9 ;
+	}
+	.portfolio-item .portfolio-terms a {background-color: #43b4f9 ;}
+	.cart-loading,
+	.portfolio-item .portfolio-pic .portfolio-overlay .overlay-link,
+	.portfolio-item-one .portfolio-pic .portfolio-overlay .overlay-link {
+	    background-color: rgba(67,180,249,0.8);
+	}
+	.testimonial.thumb-side .testimonial-author .featured-thumbnail {
+		border-color:#43b4f9;
+	}
+	.testimonial.thumb-side .testimonial-author .featured-thumbnail:after {
+		border-left-color:#43b4f9;
+	}
+	.iconbox:hover .top_icon_standard .icon {
+		color:#43b4f9 !important;
+	}
+	.sidenav .children li:hover a::after,
+	.sidenav .children > li.current_page_item > a::after{background-color: #43b4f9;}
+	/**** buttons accent color *****/
+	.button, .button.default, input.button, input[type=submit], .loadmore.default {
+		font-family: Open Sans, Arial, Helvetica, sans-serif; 
+		font-size: 11px; 
+		font-weight: normal !important; 
+		text-transform: uppercase; 
+		color: #ffffff !important;
+		background-color: #43b4f9;
+	}
+	.button:hover, .button.gradient.default:hover, .button.default:hover, input.button:hover, .loadmore.default:hover {background-color: #333333 !important; color: #fff !important; ?>;}
+	.add_to_cart_button.lightgray.button:hover {
+		background-color: #43b4f9 !important;
+	} 
+	.ui-slider .ui-slider-range {background-color: #43b4f9 !important;}
+	.products .product {
+		background-color: #ffffff;
+	}
+	#footer .widget ul li:before, #infobar .widget ul li:before {background-color: #43b4f9 !important;}
+	.product .price,
+	.product_list_widget li .amount,
+	.product_list_widget li .amount,
+	.product_list_widget li del {color:#e52626}
+	.onsale {background-color:#e52626}
+	.button.gradient.default {
+		background-color: #43b4f9;
+		background-image: linear-gradient(bottom, rgb(52,165,234) 44%, rgb(82,195,264) 90%);
+		background-image: -o-linear-gradient(bottom, rgb(52,165,234) 44%, rgb(82,195,264) 90%);
+		background-image: -moz-linear-gradient(bottom, rgb(52,165,234) 44%, rgb(82,195,264) 90%);
+		background-image: -webkit-linear-gradient(bottom, rgb(52,165,234) 44%, rgb(82,195,264) 90%);
+		background-image: -ms-linear-gradient(bottom, rgb(52,165,234) 44%, rgb(82,195,264) 90%);
+		background-image: -webkit-gradient(
+			linear,
+			left bottom,
+			left top,
+			color-stop(0.44, rgb(52,165,234)),
+			color-stop(0.9, rgb(82,195,264))
+		);
+	}
+	.widget ul:not(.unstyled) li:before {
+		background-color: #43b4f9;
+	}
+	.widget_shopping_cart_content .buttons a.button:hover {
+		color: #43b4f9 !important;
+	}
+	.boton_formacion{
+width:100%;
+padding-right:0px !important;
+padding-left:0px !important;
+}
+#navigation .sub-menu {
+width:215px;
+}
+
+.etiqueta-link {
+  margin-bottom: 0px;
+  display: block;
+  text-transform: uppercase;
+}
+.etiqueta-link a {
+font-size: 16px;
+}
+.etiqueta-link i {
+  font-size: 16px;
+  position: relative;
+  top: 2px;
+}
+
+.widget_text .fc-right{
+display:none;
+}
+.widget_text .fc-toolbar h2 {
+font-size:18px !important;
+}
+.widget_text  .fc-scroller{
+height: 274px !important;
+overflow-y: hidden !important;
+
+}
+.fc-time{
+display:none !important;
+}
+
+.nomargintop {margin-top:0px !important}
+
+#navigation .sub-menu li a, #navigation .sub-menu li .sub-menu li a, #navigation .sub-menu li .sub-menu li .sub-menu li a {
+line-height:20px;
+padding:11px 15px;
+}
+
+.wpb_single_image.wpb_content_element.vc_align_center {margin-bottom:15px;}
+.widget ul:not(.slides, .flex-direction-nav) li:before {width:0px !important; height:0px !important;}
+.post-meta {display:none !important;}
+
+@media (min-width: 768px) {
+
+.carefull_with_images .wp-post-image {width: 118px !important;}
+.carefull_image_workshops img {max-width: 200px !important;}
+
+}
+@media (max-width: 768px) {
+
+.carefull_with_images .wp-post-image {width: 100% !important;}
+.content-area-info img { display:none;}
+.carefull_image_workshops img {max-width: 200px !important;}
+
+}	
+</style>
+</head>
+<body class="single single-portfolio postid-2407  sidenav-left wpb-js-composer js-comp-ver-4.4.2 vc_responsive">
+	
+		
+<div id="main" class="wide">
+		<div class="toparea-sliding-area">
+			<div class="toparea-content container">
+				<div class="span12">
+				<div class="row-fluid">
+					<div id="polylang-2" class="widget widget_polylang span12"><ul>
+	<li class="lang-item lang-item-4 lang-item-es no-translation"><a hreflang="es" href="http://www.robocity2030.org/home/">Español</a></li>
+	<li class="lang-item lang-item-7 lang-item-en current-lang"><a hreflang="en" href="http://www.robocity2030.org/?portfolio=proyecto-01-3-2-2-3-2-2-2-2">English</a></li>
+</ul>
+</div>				</div>
+				</div>
+			</div>
+			<a href="javascript:void(0);" class="toparea-sb"><i class="fa fa-plus"></i></a>
+		</div>
+		<header id="header" class="header1 fixed_header">
+	<div class="container">
+		<div class="span12">
+			<div class="my-table">
+				<div class="my-td"><div class="logo">
+											<a href="http://www.robocity2030.org/"><img src="http://www.robocity2030.org/wp-content/uploads/2015/07/robocity2030.png" alt="Robocity2030" class="logo_standard" /></a>
+									</div></div>
+				<div class="my-td"><div id="navigation">
+					<ul id="nav" class="menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1625"><a href="http://www.robocity2030.org/">HOME</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-851"><a href="#">ROBOCITY2030</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-616"><a href="http://www.robocity2030.org/robocity2030/">ABOUT US</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="http://www.robocity2030.org/mission/">MISSION</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-853"><a href="http://www.robocity2030.org/robocity2030/objetives-of-robocity/">OBJETIVES</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1603"><a href="#">CONSORTIUM</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-629"><a href="http://www.robocity2030.org/partners/">PARTNERS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1608"><a href="http://www.robocity2030.org/structure/">STRUCTURE</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18"><a href="#">RESEARCH</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1640"><a href="http://www.robocity2030.org/eu-projects/">EU PROJECTS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1639"><a href="http://www.robocity2030.org/research/">RESEARCH RESULTS</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-19"><a href="#">ACADEMICS</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1552"><a href="http://www.robocity2030.org/phd-programs/">PhD PROGRAMS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1571"><a href="http://www.robocity2030.org/master-programs/">MASTER PROGRAMS</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1717"><a href="#">ACTIVITIES</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1718"><a href="http://www.robocity2030.org/calendar/">EVENTS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1724"><a href="http://www.robocity2030.org/workshops/">WORKSHOPS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2445"><a href="http://www.robocity2030.org/branches/">STUDENT BRANCHES</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-20"><a href="#">SERVICES</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1665"><a href="http://www.robocity2030.org/services/">SERVICES</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1664"><a href="http://www.robocity2030.org/infraestructures/">INFRASTRUCTURES</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1663"><a href="http://www.robocity2030.org/entrepreneurship/">ENTREPRENEURSHIP</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2394"><a href="http://www.robocity2030.org/news-2/">NEWS</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2255"><a href="http://www.robocity2030.org/blog-2/">BLOG</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a href="http://www.robocity2030.org/contact/">CONTACT</a></li>
+	<li class="search-link menu-item">
+		<a href="javascript:void(0);"><i class="fa fa-search"></i></a>
+		<div class="search-area">
+			<form action="http://www.robocity2030.org/" id="header-searchform" method="get">
+			        <input type="text" id="header-s" name="s" value="" autocomplete="off" />
+			        <button type="submit" id="header-searchsubmit" class="button default medium"><i class="fa fa-search"></i></button>
+			</form>
+		</div>
+	</li>
+</ul>				</div></div>
+			</div>
+		</div>
+	</div>
+</header><header id="header" class="header4 clearfix">
+	<div class="container">
+		<div class="span12">
+			<div class="my-table">
+				<div class="my-td"><div class="logo">
+													<a href="http://www.robocity2030.org/"><img src="http://www.robocity2030.org/wp-content/uploads/2015/07/robocity2030.png" alt="Robocity2030" class="logo_standard" /></a>
+											</div>
+				</div>
+								<div class="my-td">
+					<div class="content-area-info">
+						<img src="http://www.robocity2030.org/wp-content/uploads/2015/05/logos-header-test2.png"/>					</div>
+				</div>
+							</div>
+		</div>
+	</div>
+	<div id="navigation">
+		<div class="container">
+			<div class="span12">
+				<ul id="nav" class="menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1625"><a href="http://www.robocity2030.org/">HOME</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-851"><a href="#">ROBOCITY2030</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-616"><a href="http://www.robocity2030.org/robocity2030/">ABOUT US</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="http://www.robocity2030.org/mission/">MISSION</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-853"><a href="http://www.robocity2030.org/robocity2030/objetives-of-robocity/">OBJETIVES</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1603"><a href="#">CONSORTIUM</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-629"><a href="http://www.robocity2030.org/partners/">PARTNERS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1608"><a href="http://www.robocity2030.org/structure/">STRUCTURE</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18"><a href="#">RESEARCH</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1640"><a href="http://www.robocity2030.org/eu-projects/">EU PROJECTS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1639"><a href="http://www.robocity2030.org/research/">RESEARCH RESULTS</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-19"><a href="#">ACADEMICS</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1552"><a href="http://www.robocity2030.org/phd-programs/">PhD PROGRAMS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1571"><a href="http://www.robocity2030.org/master-programs/">MASTER PROGRAMS</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1717"><a href="#">ACTIVITIES</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1718"><a href="http://www.robocity2030.org/calendar/">EVENTS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1724"><a href="http://www.robocity2030.org/workshops/">WORKSHOPS</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2445"><a href="http://www.robocity2030.org/branches/">STUDENT BRANCHES</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-20"><a href="#">SERVICES</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1665"><a href="http://www.robocity2030.org/services/">SERVICES</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1664"><a href="http://www.robocity2030.org/infraestructures/">INFRASTRUCTURES</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1663"><a href="http://www.robocity2030.org/entrepreneurship/">ENTREPRENEURSHIP</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2394"><a href="http://www.robocity2030.org/news-2/">NEWS</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2255"><a href="http://www.robocity2030.org/blog-2/">BLOG</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a href="http://www.robocity2030.org/contact/">CONTACT</a></li>
+	<li class="search-link menu-item">
+		<a href="javascript:void(0);"><i class="fa fa-search"></i></a>
+		<div class="search-area">
+			<form action="http://www.robocity2030.org/" id="header-searchform" method="get">
+			        <input type="text" id="header-s" name="s" value="" autocomplete="off" />
+			        <button type="submit" id="header-searchsubmit" class="button default medium"><i class="fa fa-search"></i></button>
+			</form>
+		</div>
+	</li>
+</ul>			</div>
+		</div>
+	</div>
+</header>			
+	 		
+			<div id="title">
+				<div class="inner">
+					<div class="container">
+						<div class="span7">
+														<h1>TIRAMISU &#8211; Toolbox implementation for removal of anti-personnel mines, submunitions and UXO</h1>
+													</div>
+						<div class="span5">
+															<div id="breadcrumbs">
+									<div id="crumbs"><a href="http://www.robocity2030.org">Home</a>  /  <a href="http://www.robocity2030.org//">Portfolio Item</a>  /  <span class="current">TIRAMISU &#8211; Toolbox implementation for removal of anti-personnel mines, submunitions and UXO</span></div>								</div>
+													</div>
+					</div>
+				</div>
+			</div>
+					
+		
+	
+<div id="page-wrap" class="container portfolio-detail">
+	
+	<div id="content">
+	
+				
+		<div id="portfolio-content" class="portfolio-wide clearfix">
+	<div class="span12">
+					<div class="portfolio-pic"><img width="886" height="420" src="http://www.robocity2030.org/wp-content/uploads/2015/11/TIRAMISU-886x420.png" class="attachment-span12 wp-post-image" alt="TIRAMISU" /></div>			    
+		</div>
+	<div class="span2 offset"></div>
+	<div class="portfolio-detail-description span12">
+		<div class="portfolio-detail-description-text"><h3>TIRAMISU</h3>
+<h4>Toolbox implementation for removal of anti-personnel mines, submunitions and UXO</h4>
+<p><strong>Periodo:</strong> 2012-2016</p>
+<p>Anti-personnel landmines and unexploded ordnance (UXOs) present an important obstacle to the transition from crisis to peace for war-affected countries. They threaten post-conflict development and welfare. The objective of the TIRAMISU project is to provide the Mine Action community with a toolbox to assist in addressing the many issues related to Humanitarian Demining, thus promoting peace, national and regional security, conflict prevention, social and economic rehabilitation and post-conflict reconstruction. The tools in development are divided into three main categories:</p>
+<p>1)    Demining planning tools, which will help to locate landmines and UXOs, and define contaminated areas.</p>
+<p>2)    Detection and disposal tools, which will neutralise mines and UXOs and safeguard the lives of operators.</p>
+<p>3)    Training and Mine Risk education tools.</p>
+<p>These tools will be tested and validated in mine-affected countries and will also be enhanced by state-of-the-art technologies (robots, UAVs, etc.).</p>
+</div>
+				<div class="portfolio-detail-attributes">
+													<div class="row sharebox">
+	<div class="span12">
+		Share this:		<br />
+		<div class="social-icons clearfix">
+			<ul>
+					
+				<li class="social-facebook">
+					<a href="http://www.facebook.com/sharer.php?u=http://www.robocity2030.org/?portfolio=proyecto-01-3-2-2-3-2-2-2-2&t=TIRAMISU &#8211; Toolbox implementation for removal of anti-personnel mines, submunitions and UXO" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+				</li>
+									
+				<li class="social-twitter">
+					<a href="http://twitter.com/home?status=TIRAMISU &#8211; Toolbox implementation for removal of anti-personnel mines, submunitions and UXO http://www.robocity2030.org/?portfolio=proyecto-01-3-2-2-3-2-2-2-2" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+				</li>
+									
+				<li class="social-linkedin">
+					<a href="http://linkedin.com/shareArticle?mini=true&amp;url=http://www.robocity2030.org/?portfolio=proyecto-01-3-2-2-3-2-2-2-2&amp;title=TIRAMISU &#8211; Toolbox implementation for removal of anti-personnel mines, submunitions and UXO" title="LinkedIn" target="_blank"><i class="fa fa-linkedin"></i></a>
+				</li>
+									
+				<li class="social-reddit">
+					<a href="http://www.reddit.com/submit?url=http://www.robocity2030.org/?portfolio=proyecto-01-3-2-2-3-2-2-2-2&amp;title=TIRAMISU+%26%238211%3B+Toolbox+implementation+for+removal+of+anti-personnel+mines%2C+submunitions+and+UXO" title="Reddit" target="_blank"><i class="fa fa-reddit"></i></a>
+				</li>
+									
+				<li class="social-digg">
+					<a href="http://digg.com/submit?phase=2&amp;url=http://www.robocity2030.org/?portfolio=proyecto-01-3-2-2-3-2-2-2-2&amp;bodytext=&amp;tags=&amp;title=TIRAMISU+%26%238211%3B+Toolbox+implementation+for+removal+of+anti-personnel+mines%2C+submunitions+and+UXO" target="_blank" title="Digg"><i class=" fa fa-digg"></i></a>
+				</li>
+									
+				<li class="social-delicious">
+					<a href="http://www.delicious.com/post?v=2&amp;url=http://www.robocity2030.org/?portfolio=proyecto-01-3-2-2-3-2-2-2-2&amp;notes=&amp;tags=&amp;title=TIRAMISU+%26%238211%3B+Toolbox+implementation+for+removal+of+anti-personnel+mines%2C+submunitions+and+UXO" title="Delicious" target="_blank"><i class=" fa fa-delicious"></i></a>
+				</li>
+									
+				<li class="social-googleplus">
+					<a href="http://plus.google.com/share?url=http://www.robocity2030.org/?portfolio=proyecto-01-3-2-2-3-2-2-2-2&amp;title=TIRAMISU+&#8211;+Toolbox+implementation+for+removal+of+anti-personnel+mines,+submunitions+and+UXO" title="Google+" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+				</li>
+									
+				<li class="social-email">
+					<a href="mailto:?subject=TIRAMISU &#8211; Toolbox implementation for removal of anti-personnel mines, submunitions and UXO&amp;body=http://www.robocity2030.org/?portfolio=proyecto-01-3-2-2-3-2-2-2-2" title="E-Mail" target="_blank"><i class="fa fa-envelope"></i></a>
+				</li>
+							</ul>
+		</div>
+	</div>
+</div>					</div>
+			<div class="portfolio-comments"><div id="comments">
+		
+		
+					<p class="hidden">Comments are closed.</p>
+	
+				
+			
+		
+
+</div></div>
+	</div>
+	<div class="clear"></div>
+	
+</div> <!-- end of portfolio-wide -->		<div class="clear"></div>
+			</div> <!-- end of content -->
+</div> <!-- end of page-wrap -->
+
+	<footer id="footer" role="contentinfo">
+		<div class="container">
+			<div class="span12">
+				<div class="row">
+					<div id="nav_menu-3" class="widget widget_nav_menu span3"><div class="separator_block left"><h3>Navigation</h3><div class="separator"><div class="separator_line"></div></div><div class="clearfix"></div></div><div class="menu-footer-english-container"><ul id="menu-footer-english" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2307"><a href="http://www.robocity2030.org/robocity2030/">Robocity2030</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2308"><a href="http://www.robocity2030.org/partners/">Consortium</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2309"><a href="http://www.robocity2030.org/eu-projects/">Research</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2310"><a href="http://www.robocity2030.org/phd-programs/">Academics</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2311"><a href="http://www.robocity2030.org/calendar/">Activities</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2312"><a href="http://www.robocity2030.org/services/">Services</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2313"><a href="http://www.robocity2030.org/news/">News</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2314"><a href="http://www.robocity2030.org/blog-2/">Blog</a></li>
+</ul></div></div><div id="text-2" class="widget widget_text span3"><div class="separator_block left"><h3>About Us</h3><div class="separator"><div class="separator_line"></div></div><div class="clearfix"></div></div>			<div class="textwidget">RoboCity2030 is the biggest robotic long term cluster in Europe working since 2006. The consortium is formed by the six leading R&D centres of Madrid with more than 100 researchers in the field, half of them being PhDs. It is funded by the Community of Madrid and cofunded by Structural Funds of the European Union.
+<br><br>
+<a href="http://www.robocity2030.org/legal-advice/">Legal advice</a></div>
+		</div><div id="latestposts-3" class="widget widget_latestposts span3"><div class="separator_block left"><h3>Latest posts</h3><div class="separator"><div class="separator_line"></div></div><div class="clearfix"></div></div>		<ul class="list-latestposts">
+						<li class="post-item">
+            <a href="http://www.robocity2030.org/2016/01/29/global-robot-expo-2/" title="RoboCity2030, partner with Global Robot Expo">RoboCity2030, partner with Global Robot Expo</a>
+       </li>
+				<li class="post-item">
+            <a href="http://www.robocity2030.org/2016/01/08/outstanding-thesis-award/" title="Miguel González-Fierro granted with the Oustanding Thesis Award">Miguel González-Fierro granted with the Oustanding Thesis Award</a>
+       </li>
+				<li class="post-item">
+            <a href="http://www.robocity2030.org/2015/12/16/13th-ws-cdti-en/" title="Opportunities in Horizon 2020 showecased on the last workshop">Opportunities in Horizon 2020 showecased on the last workshop</a>
+       </li>
+				</ul>
+
+		</div><div id="text-3" class="widget widget_text span3"><div class="separator_block left"><h3>Location</h3><div class="separator"><div class="separator_line"></div></div><div class="clearfix"></div></div>			<div class="textwidget"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.421707465539!2d-3.765246999999954!3d40.3329902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41898b2a00186d%3A0x99bb83fa92c87e40!2sUniversidad+Carlos+III+de+Madrid%2C+Universidad+Carlos+III%2C+UC3M+-+Campus+de+Legan%C3%A9s%2C+Av.+de+la+Universidad%2C+30%2C+28911+Legan%C3%A9s%2C+Madrid!5e0!3m2!1ses!2ses!4v1432401735565" width="100%" height="120" frameborder="0" style="border:0"></iframe>
+<div style="text-align:right;">
+Avda. Universidad, 30 
+28911 Leganés, Madrid 
+SPAIN 
+Tel: (+34) 916 245 968 
+<a href="mailto:robocity2030@gmail.com">robocity2030@gmail.com</a>
+</div></div>
+		</div>	
+				</div>	
+			</div>
+		</div>
+	</footer>
+		
+	<div id="copyright" role="contentinfo">
+		<div class="container">
+			<div class="span3"><img style="vertical-align:middle;" src="http://www.robocity2030.org/wp-content/uploads/2015/05/logo-footer.png"/></div>
+
+<div class="span6"><p  style="vertical-align:middle; text-align:center;margin-top:20px;">Copyright © 2015 - Robocity2030.</p></div>
+
+<div class="span3"><ul class="socialist" style="margin-top:12px;">
+	<!-- <li><a href="#" target="_blank"><img src="http://www.robocity2030.org/wp-content/uploads/2015/05/icon-gplus.png" alt="" /></a></li>
+	<li><a href="#" target="_blank"><img src="http://www.robocity2030.org/wp-content/uploads/2015/05/icon-facebook.png" alt="" /></a></li> -->
+	<li><a href="https://twitter.com/RoboCity2030" target="_blank"><img src="http://www.robocity2030.org/wp-content/uploads/2015/05/icon-twitter.png" alt="" /></a></li>
+	<!-- <li><a href="#" target="_blank"><img src="http://www.robocity2030.org/wp-content/uploads/2015/05/icon-linkedin.png" alt="" /></a></li> -->
+	<li><a href="https://www.youtube.com/user/RoboCity2030" target="_blank"><img src="http://www.robocity2030.org/wp-content/uploads/2015/05/icon-youtube.png" alt="" /></a></li>
+	<!-- <li><a href="#" target="_blank"><img src="http://www.robocity2030.org/wp-content/uploads/2015/05/icon-sharethis.png" alt="" /></a></li> -->
+</ul></div>					</div>
+	</div><!-- end copyright -->
+		
+	<div class="clear"></div>
+	</div> <!-- end boxed -->
+
+	<div id="back-to-top"><a href="#"><i class="fa fa-long-arrow-up"></i></a></div>
+	
+		</div>
+	<script type='text/javascript' src='http://www.robocity2030.org/wp-content/themes/richer/framework/js/jflickrfeed.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-includes/js/comment-reply.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.robocity2030.org\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.1.2'></script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-content/themes/richer/framework/js/shortcodes.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-content/themes/richer/framework/js/plugins.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-content/themes/richer/framework/js/superfish.js?ver=1.4'></script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-content/themes/richer/framework/js/jquery.flexslider-min.js?ver=2.2.0'></script>
+<script type='text/javascript' src='http://www.robocity2030.org/wp-content/themes/richer/framework/js/functions.js?ver=1.0'></script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function($){
+    
+	    /* ------------------------------------------------------------------------ */
+		/* Add PrettyPhoto */
+		/* ------------------------------------------------------------------------ */
+		
+		var lightboxArgs = {			
+						animation_speed: 'fast',
+						overlay_gallery: true,
+			autoplay_slideshow: false,
+						slideshow: 5000, /* light_rounded / dark_rounded / light_square / dark_square / facebook */
+									theme: 'pp_default', 
+									opacity: 0.8,
+						show_title: true,
+			social_tools: false,			deeplinking: false,
+			allow_resize: true, 			/* Resize the photos bigger than viewport. true/false */
+			counter_separator_label: '/', 	/* The separator for the gallery counter 1 "of" 2 */
+			default_width: 940,
+			default_height: 529
+		};
+
+		 
+			$('a[href$=jpg], a[href$=JPG], a[href$=jpeg], a[href$=JPEG], a[href$=png], a[href$=gif], a[href$=bmp]:has(img), a[class^="prettyPhoto"], a[rel^="prettyPhoto"]').prettyPhoto(lightboxArgs);
+				
+				
+	});
+</script>
+	
+</body>
+
+</html>

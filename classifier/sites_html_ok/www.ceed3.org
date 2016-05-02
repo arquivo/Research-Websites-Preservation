@@ -1,0 +1,572 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>CEED3 | CEED3</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/all/themes/acquia_marina/favicon.ico" type="image/x-icon" />
+  <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?K" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?K" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?K" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?K" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?K" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?K" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?K" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?K" />
+<link type="text/css" rel="stylesheet" media="all" href="/misc/farbtastic/farbtastic.css?K" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/calendar/calendar.css?K" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?K" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?K" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/fusion/fusion_core/css/style.css?K" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/fusion/fusion_core/css/typography.css?K" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/fusion/fusion_core/css/superfish.css?K" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/fusion/fusion_core/css/superfish-navbar.css?K" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/fusion/fusion_core/css/superfish-vertical.css?K" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/acquia_marina/css/fusion-acquia-marina-style.css?K" />
+  <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/fusion/fusion_core/css/grid16-fluid.css" />
+  <!--[if IE 8]>
+  <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/fusion/fusion_core/css/ie8-fixes.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/acquia_marina/css/ie8-fixes.css" />
+  <![endif]-->
+  <!--[if IE 7]>
+  <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/fusion/fusion_core/css/ie7-fixes.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/acquia_marina/css/ie7-fixes.css" />
+  <![endif]-->
+  <!--[if lte IE 6]>
+  <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/fusion/fusion_core/css/ie6-fixes.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/acquia_marina/css/ie6-fixes.css" />
+  <![endif]-->
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/acquia_marina/css/local.css" />
+    <script type="text/javascript" src="/misc/jquery.js?K"></script>
+<script type="text/javascript" src="/misc/drupal.js?K"></script>
+<script type="text/javascript" src="/sites/all/themes/fusion/fusion_core/js/jquery.bgiframe.min.js?K"></script>
+<script type="text/javascript" src="/sites/all/themes/fusion/fusion_core/js/hoverIntent.js?K"></script>
+<script type="text/javascript" src="/sites/all/themes/fusion/fusion_core/js/supposition.js?K"></script>
+<script type="text/javascript" src="/sites/all/themes/fusion/fusion_core/js/supersubs.js?K"></script>
+<script type="text/javascript" src="/sites/all/themes/fusion/fusion_core/js/superfish.js?K"></script>
+<script type="text/javascript" src="/sites/all/themes/fusion/fusion_core/js/script.js?K"></script>
+<script type="text/javascript" src="/sites/all/themes/acquia_marina/js/jquery.corner.js?K"></script>
+<script type="text/javascript" src="/sites/all/themes/acquia_marina/js/acquia-marina-script.js?K"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/" });
+//--><!]]>
+</script>
+</head>
+
+<body id="pid-home" class="front not-logged-in page-node node-type-page no-sidebars i18n-en full-node layout-first-main-last sidebars-split font-size-12 grid-type-fluid grid-width-16 fluid-85">
+  <div id="page" class="page">
+    <div id="page-inner" class="page-inner">
+      <div id="skip">
+        <a href="#main-content-area">Skip to Main Content Area</a>
+      </div>
+
+      <!-- header-top row: width = grid_width -->
+      <div id="header-top-wrapper" class="header-top-wrapper full-width">
+<div id="header-top" class="header-top row grid16-16">
+<div id="header-top-inner" class="header-top-inner inner clearfix">
+
+<div id="block-block-5" class="block block-block odd first last grid16-16">
+  <div class="inner">
+    <div class="corner-top"><div class="corner-top-right corner"></div><div class="corner-top-left corner"></div></div>
+      	<div class="inner-wrapper">
+      <div class="inner-inner">
+                <div class="content clearfix">
+          <p>&gt;&gt;&nbsp; &nbsp; <a href="http://www.ceed3.org/en/home"><strong>Home</strong></a> | <a href="http://www.ceed3.org/en/node/24"><strong>Partner Login</strong></a></p>
+        </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+    <div class="corner-bottom"><div class="corner-bottom-right corner"></div><div class="corner-bottom-left corner"></div></div>
+  </div><!-- /inner -->
+</div><!-- /block --></div><!-- /header-top-inner -->
+</div><!-- /header-top -->
+</div><!-- /header-top-wrapper -->
+
+      <!-- header-group row: width = grid_width -->
+      <div id="header-group-wrapper" class="header-group-wrapper full-width">
+        <div id="header-group" class="header-group row grid16-16">
+          <div id="header-group-inner" class="header-group-inner inner clearfix">
+                        <div id="header-group-inner-top" class="clearfix">
+                            <div id="secondary-menu" class="secondary-menu block">
+<div id="secondary-menu-inner" class="secondary-menu-inner inner clearfix">
+<ul class="links"><li class="menu-153 active-trail first active"><a href="/en/home" title="EU Link and Legal Statement" class="active">Home</a></li>
+<li class="menu-152 last"><a href="/en/node/24" title="Partner Login">Partner Login</a></li>
+</ul></div><!-- /secondary-menu-inner -->
+</div><!-- /secondary-menu -->
+            </div>
+                                    <div id="header-group-inner-inner" class="clearfix">
+                            
+<div id="block-block-1" class="block block-block odd first last grid16-16">
+  <div class="inner">
+    <div class="corner-top"><div class="corner-top-right corner"></div><div class="corner-top-left corner"></div></div>
+      	<div class="inner-wrapper">
+      <div class="inner-inner">
+                <div class="content clearfix">
+          <p>&nbsp;</p>
+<p style="color: #00008b; font-size: 32px; font-family: Arial,sans-serif; font-weight: bold; line-height: 20px; margin: 0px; padding: 0px 0px 10px; text-align: center;"><a href="http://www.ceed3.org/"><span style="color: #2b2587;">CEED3</span></a></p>
+<p style="color: #00008b; font-size: 22px; font-family: Arial,sans-serif; font-weight: bold; line-height: 24px; margin: 0px; padding: 0px; text-align: center;"><span style="color: #2b2587;">Collaborative European Effort to Develop Diabetes Diagnostics</span></p>
+        </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+    <div class="corner-bottom"><div class="corner-bottom-right corner"></div><div class="corner-bottom-left corner"></div></div>
+  </div><!-- /inner -->
+</div><!-- /block -->            </div>
+                        <div id="primary-menu" class="primary-menu block">
+<div id="primary-menu-inner" class="primary-menu-inner inner clearfix">
+<ul class="menu sf-menu"><li class="expanded first"><a href="/en/node/1" title="Aims of CEED3">About CEED3</a><ul class="menu"><li class="leaf first"><a href="http://www.ceed3.org/en/node/1" title="">About CEED3</a></li>
+<li class="leaf"><a href="/en/node/20" title="Mission / aims / objectives">Aims</a></li>
+<li class="leaf"><a href="/en/node/84" title="">Objectives</a></li>
+<li class="expanded"><a href="/en/node/21" title="Partners (contact details and links)">Partners</a><ul class="menu"><li class="leaf first"><a href="/en/node/87" title="">University of Exeter</a></li>
+<li class="leaf"><a href="/en/node/88" title="">University of Oxford</a></li>
+<li class="leaf"><a href="/en/node/89" title="">Lund University Hospital</a></li>
+<li class="leaf"><a href="/en/node/90" title="">Jagiellonian University Medical College</a></li>
+<li class="leaf"><a href="/en/node/91" title="">Fundacío Clínic per a la Recerca Biomèdica</a></li>
+<li class="leaf"><a href="/en/node/92" title="">Université Libre de Bruxelles</a></li>
+<li class="leaf"><a href="/en/node/93" title="">ETH-Zurich</a></li>
+<li class="leaf"><a href="/en/node/94" title="">Proteomika</a></li>
+<li class="leaf"><a href="/en/node/95" title="">University of Helsinki</a></li>
+<li class="leaf"><a href="/en/node/96" title="">Technical University Dresden</a></li>
+<li class="leaf last"><a href="/en/node/97" title="">CEA-CNG</a></li>
+</ul></li>
+<li class="leaf"><a href="/en/node/86" title="">Work Packages</a></li>
+<li class="leaf"><a href="/en/node/23" title="Funding and links to EU">FP7 Funding</a></li>
+<li class="leaf last"><a href="/en/node/168" title="">Links to IMI SUMMIT project</a></li>
+</ul></li>
+<li class="expanded"><a href="/en/node/9" title="Introduction to project">Diabetes Information</a><ul class="menu"><li class="leaf first"><a href="http://www.ceed3.org/en/node/9" title="">Diabetes Information</a></li>
+<li class="leaf"><a href="/en/node/167" title="">Diabetes information - sites in Partner languages</a></li>
+<li class="collapsed"><a href="/en/node/129" title="">What is Monogenic Diabetes?</a></li>
+<li class="expanded"><a href="/en/node/132" title="">Maturity-Onset Diabetes of the Young (MODY)</a><ul class="menu"><li class="leaf first"><a href="/en/node/159" title="">HNF1A</a></li>
+<li class="leaf"><a href="/en/node/161" title="">Glucokinase</a></li>
+<li class="leaf last"><a href="/en/node/160" title="">HNF4A</a></li>
+</ul></li>
+<li class="leaf"><a href="/en/node/151" title="">Making a diagnosis of Monogenic Diabetes</a></li>
+<li class="leaf"><a href="/en/node/158" title="">Monogenic Diabetes in Children - ISPAD Guidelines</a></li>
+<li class="leaf"><a href="/en/node/10" title="Links to professional diabetes resources">Neonatal Diabetes (Kir6.2)</a></li>
+<li class="leaf"><a href="/en/node/85" title="">Renal Cysts and Diabetes (HNF1B)</a></li>
+<li class="leaf"><a href="/en/node/152" title="">Other Types of Monogenic Diabetes</a></li>
+<li class="leaf last"><a href="/en/node/13" title="Guidelines">Best Practice Guidelines</a></li>
+</ul></li>
+<li class="expanded"><a href="/en/node/148" title="">Genetic Testing</a><ul class="menu"><li class="leaf first"><a href="/en/node/148" title="">Genetic Testing</a></li>
+<li class="leaf"><a href="/en/node/154" title="">Genetic Testing across Europe</a></li>
+<li class="leaf last"><a href="/en/node/156" title="">European Assurance Scheme</a></li>
+</ul></li>
+<li class="expanded"><a href="/en/recentnews" title="">News &amp; Events</a><ul class="menu"><li class="leaf first"><a href="http://www.ceed3.org/en/recentnews" title="">News &amp; Events</a></li>
+<li class="leaf last"><a href="/en/node/16" title="Course May 2011">Differential Diabetes Diagnostics course</a></li>
+</ul></li>
+<li class="expanded"><a href="/en/recentpublications" title="">Research &amp; Publications</a><ul class="menu"><li class="leaf first last"><a href="http://www.ceed3.org/en/recentpublications" title="">Reseach &amp; Publications</a></li>
+</ul></li>
+<li class="expanded"><a href="/en/node/3" title="Links">Links</a><ul class="menu"><li class="leaf first last"><a href="http://www.ceed3.org/en/node/3" title="">Links</a></li>
+</ul></li>
+<li class="expanded last"><a href="/en/node/2" title="Contact Us">Contact Us</a><ul class="menu"><li class="leaf first last"><a href="http://www.ceed3.org/en/node/2" title="">Contact Us</a></li>
+</ul></li>
+</ul></div><!-- /primary-menu-inner -->
+</div><!-- /primary-menu -->
+          </div><!-- /header-group-inner -->
+        </div><!-- /header-group -->
+      </div><!-- /header-group-wrapper -->
+
+      <!-- preface-top row: width = grid_width -->
+        
+            <div id="preface-top-wrapper" class="preface-top-wrapper full-width">
+        <div id="preface-top" class="preface-top row grid16-16">
+          <div id="preface-top-inner" class="preface-top-inner inner clearfix">
+          </div><!-- /preface-top-inner -->
+        </div><!-- /preface-top -->
+      </div><!-- /preface-top-wrapper -->
+      
+    <!-- main row: width = grid_width -->
+    <div id="main-wrapper" class="main-wrapper full-width">
+      <div id="main" class="main row grid16-16">
+        <div id="main-inner" class="main-inner inner clearfix">
+          <div id="sidebar-first" class="sidebar-first row nested grid16-3">
+<div id="sidebar-first-inner" class="sidebar-first-inner inner clearfix">
+
+<div id="block-block-10" class="block block-block odd first grid16-16">
+  <div class="inner">
+    <div class="corner-top"><div class="corner-top-right corner"></div><div class="corner-top-left corner"></div></div>
+      	<div class="inner-wrapper">
+      <div class="inner-inner">
+                <div class="content clearfix">
+          <p><strong><span style="font-family: arial,helvetica,sans-serif; font-size: large;"><a href="http://www.ceed3.org/">HOME </a></span></strong></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: small;"><strong><a href="http://www.ceed3.org/en/node/21">About Us<br /></a><a href="http://www.ceed3.org/en/node/167">Links in Other Languages</a><a href="http://www.ceed3.org/en/node/21"><br />Partners</a><br /><a href="http://www.ceed3.org/recentpublications/">CEED3 Publications</a></strong></span><br /><a href="http://www.ceed3.org/en/node/16"><span style="font-family: arial, helvetica, sans-serif; font-size: small;"><strong>Differential Diabetes Course</strong></span></a><strong><span style="font-family: verdana,geneva;"><a href="http://www.ceed3.org/en/node/2"><span style="font-family: arial, helvetica, sans-serif; font-size: small;"><br /></span></a><a href="http://www.imi-summit.eu/"><span style="font-family: arial, helvetica, sans-serif; font-size: small;">IMI SUMMIT Project</span></a><a href="http://www.ceed3.org/en/node/2"><span style="font-family: arial, helvetica, sans-serif; font-size: small;"><br />Contact Us</span><br /></a></span></strong></p>
+        </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+    <div class="corner-bottom"><div class="corner-bottom-right corner"></div><div class="corner-bottom-left corner"></div></div>
+  </div><!-- /inner -->
+</div><!-- /block -->
+<div id="block-block-8" class="block block-block even  grid16-16">
+  <div class="inner">
+    <div class="corner-top"><div class="corner-top-right corner"></div><div class="corner-top-left corner"></div></div>
+      	<div class="inner-wrapper">
+      <div class="inner-inner">
+                <div class="content clearfix">
+          <p><span style="color: rgb(255, 255, 255);">-</span></p>
+        </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+    <div class="corner-bottom"><div class="corner-bottom-right corner"></div><div class="corner-bottom-left corner"></div></div>
+  </div><!-- /inner -->
+</div><!-- /block -->
+<div id="block-views-News_list-block_1" class="block block-views odd  last grid16-16">
+  <div class="inner">
+    <div class="corner-top"><div class="corner-top-right corner"></div><div class="corner-top-left corner"></div></div>
+      	<div class="inner-wrapper">
+      <div class="inner-inner">
+                <div class="block-icon pngfix"></div>
+        <h2 class="title block-title">Recent News</h2>
+                <div class="content clearfix">
+          <div class="view view-News-list view-id-News_list view-display-id-block_1 view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field-created">
+                <span class="field-content">03/02/2013</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/en/node/165">CEED3 Final Report 2008 - 2012</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field-created">
+                <span class="field-content">31/01/2013</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/en/node/164">CEED3 third report</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field-created">
+                <span class="field-content">30/04/2012</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/en/node/166">CEED3 Annual Meeting 2012</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field-created">
+                <span class="field-content">01/02/2012</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/en/node/163">CEED3 second report</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field-created">
+                <span class="field-content">23/03/2011</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/en/node/99">CEED3 Annual Meeting 2011</a></span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <p><br />See <a href="/beta/recentnews/">all news stories</a><br /><br /><br /></p>
+    </div>
+  
+  
+</div>         </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+    <div class="corner-bottom"><div class="corner-bottom-right corner"></div><div class="corner-bottom-left corner"></div></div>
+  </div><!-- /inner -->
+</div><!-- /block --></div><!-- /sidebar-first-inner -->
+</div><!-- /sidebar-first -->
+
+          <!-- main group: width = grid_width - sidebar_first_width -->
+          <div id="main-group" class="main-group row nested grid16-13">
+            <div id="main-group-inner" class="main-group-inner inner clearfix">
+              
+              <div id="main-content" class="main-content row nested">
+                <div id="main-content-inner" class="main-content-inner inner clearfix">
+                  <!-- content group: width = grid_width - (sidebar_first_width + sidebar_last_width) -->
+                    <div id="content-group" class="content-group row nested " style="width:61.54%">
+                      <div id="content-group-inner" class="content-group-inner inner clearfix">
+                        
+                        
+                        <div id="content-region" class="content-region row nested">
+                          <div id="content-region-inner" class="content-region-inner inner clearfix">
+                            <a name="main-content-area" id="main-content-area"></a>
+                                                        <div id="content-inner" class="content-inner block">
+                              <div id="content-inner-inner" class="content-inner-inner inner clearfix">
+                                                                <h1 class="title">CEED3</h1>
+                                                                                                <div id="content-content" class="content-content">
+                                  
+<div id="node-25" class="node odd full-node node-type-page">
+  <div class="inner">
+    
+    
+    
+    
+    <div class="content clearfix">
+      <p><img style="float: left; margin-left: 10px; margin-right: 10px;" src="/beta/sites/default/files/uploads/Picture1.jpg" alt="" width="102" height="148" /></p>
+<p>&nbsp;</p>
+<p><span style="font-family: verdana,geneva;"><span style="font-family: arial,helvetica,sans-serif;">The Collaborative European Effort to Develop Diabetes Diagnostics is a health research project funded by the European Commission. By developing diagnostic tools to diferentiate diabetic subgroups we aim to improve the diagnosis and treatment of those with diabetes.</span></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<table style="width: 356px; height: 162px; margin-left: auto; margin-right: auto;" border="0">
+<tbody>
+<tr>
+<td><img src="/beta/sites/default/files/uploads/Arrow.jpg" alt="" width="36" height="36" /><br /></td>
+<td><span style="font-family: arial,helvetica,sans-serif;">&nbsp;CEED3 project<a href="http://www.ceed3.org/en/node/20"> aims </a>and <a href="http://www.ceed3.org/en/node/84">objectives</a></span></td>
+</tr>
+<tr>
+<td><img src="/beta/sites/default/files/uploads/Arrow.jpg" alt="" width="36" height="36" /><br /></td>
+<td><span style="font-family: arial,helvetica,sans-serif;"><a href="http://www.ceed3.org/en/node/21">CEED3 Partners </a></span></td>
+</tr>
+<tr>
+<td><img src="/beta/sites/default/files/uploads/Arrow.jpg" alt="" width="36" height="36" /><br /></td>
+<td><span style="font-family: arial,helvetica,sans-serif;"><a href="http://www.ceed3.org/en/node/11">Current diabetes research</a> and <a href="http://www.ceed3.org/en/node/11">recent CEED3 papers </a></span></td>
+</tr>
+<tr>
+<td><img src="/beta/sites/default/files/uploads/Arrow.jpg" alt="" width="36" height="36" /><br /></td>
+<td><span style="font-family: arial,helvetica,sans-serif;">Diabetes information for <a href="http://www.ceed3.org/en/node/6">patients </a>and <a href="http://www.ceed3.org/en/node/9">professionals</a><br /></span></td>
+</tr>
+<tr>
+<td><br /></td>
+<td><br /></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-family: arial,helvetica,sans-serif;"><a href="http://www.ceed3.org/en/node/1">More about CEED3</a></span></p>
+    </div>
+
+    
+      </div><!-- /inner -->
+
+  </div><!-- /node-25 -->
+                                                                  </div><!-- /content-content -->
+                                                              </div><!-- /content-inner-inner -->
+                            </div><!-- /content-inner -->
+                          </div><!-- /content-region-inner -->
+                        </div><!-- /content-region -->
+
+                        <div id="content-bottom" class="content-bottom row nested ">
+<div id="content-bottom-inner" class="content-bottom-inner inner clearfix">
+
+<div id="block-block-6" class="block block-block odd first last grid16-16">
+  <div class="inner">
+    <div class="corner-top"><div class="corner-top-right corner"></div><div class="corner-top-left corner"></div></div>
+      	<div class="inner-wrapper">
+      <div class="inner-inner">
+                <div class="content clearfix">
+          <p style="text-align: center;"><a href="http://cordis.europa.eu/"><img style="float: left; padding-right: 10px;" src="http://www.ceed3.org/beta/sites/default/files/sitemain/eu_logo_blue.png" alt="" height="39" width="65" /></a><a href="http://cordis.europa.eu/"><img style="float: right;" src="http://www.ceed3.org/beta/sites/default/files/sitemain/fp7-small_en.gif" alt="" height="50" width="54" /></a><span style="font-size: x-small;">This website has been produced with the assistance of the European Union. The content of this website is the sole responsibility of the CEED3 partnership and can in no way be taken to reflect the views of the European Union.</span></p>
+<p style="text-align: left;"><span style="font-size: x-small;"><a href="http://cordis.europa.eu/home_en.html">European Research &amp; Development Information&nbsp; &nbsp;</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://cordis.europa.eu/fp7/home_en.html">&nbsp; FP7 Information </a><br /></span></p>
+        </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+    <div class="corner-bottom"><div class="corner-bottom-right corner"></div><div class="corner-bottom-left corner"></div></div>
+  </div><!-- /inner -->
+</div><!-- /block --></div><!-- /content-bottom-inner -->
+</div><!-- /content-bottom -->
+                      </div><!-- /content-group-inner -->
+                    </div><!-- /content-group -->
+
+                    <div id="sidebar-last" class="sidebar-last row nested " style="width:38.46%">
+<div id="sidebar-last-inner" class="sidebar-last-inner inner clearfix">
+
+<div id="block-block-9" class="block block-block odd first grid16-16">
+  <div class="inner">
+    <div class="corner-top"><div class="corner-top-right corner"></div><div class="corner-top-left corner"></div></div>
+      	<div class="inner-wrapper">
+      <div class="inner-inner">
+                <div class="content clearfix">
+          <p><!--[if gte mso 9]><xml> <w:WordDocument> <w:View>Normal</w:View> <w:Zoom>0</w:Zoom> <w:TrackMoves ></w> <w:TrackFormatting ></w> <w:DoNotShowRevisions ></w> <w:DoNotPrintRevisions ></w> <w:DoNotShowMarkup ></w> <w:DoNotShowComments ></w> <w:DoNotShowInsertionsAndDeletions ></w> <w:DoNotShowPropertyChanges ></w> <w:PunctuationKerning ></w> <w:ValidateAgainstSchemas ></w> <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid> <w:IgnoreMixedContent>false</w:IgnoreMixedContent> <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText> <w:DoNotPromoteQF ></w> <w:LidThemeOther>EN-GB</w:LidThemeOther> <w:LidThemeAsian>X-NONE</w:LidThemeAsian> <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript> <w:Compatibility> <w:BreakWrappedTables ></w> <w:SnapToGridInCell ></w> <w:WrapTextWithPunct ></w> <w:UseAsianBreakRules ></w> <w:DontGrowAutofit ></w> <w:SplitPgBreakAndParaMark ></w> <w:DontVertAlignCellWithSp ></w> <w:DontBreakConstrainedForcedTables ></w> <w:DontVertAlignInTxbx ></w> <w:Word11KerningPairs ></w> <w:CachedColBalance ></w> </w:Compatibility> <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel> <m:mathPr> <m:mathFont m:val="Cambria Math" ></m> <m:brkBin m:val="before" ></m> <m:brkBinSub m:val="&#45;-" ></m> <m:smallFrac m:val="off" ></m> <m:dispDef ></m> <m:lMargin m:val="0" ></m> <m:rMargin m:val="0" ></m> <m:defJc m:val="centerGroup" ></m> <m:wrapIndent m:val="1440" ></m> <m:intLim m:val="subSup" ></m> <m:naryLim m:val="undOvr" ></m> </m:mathPr></w:WordDocument> </xml><![endif]--><!--[if gte mso 9]><xml> <w:WordDocument> <w:View>Normal</w:View> <w:Zoom>0</w:Zoom> <w:TrackMoves ></w> <w:TrackFormatting ></w> <w:DoNotShowRevisions ></w> <w:DoNotPrintRevisions ></w> <w:DoNotShowMarkup ></w> <w:DoNotShowComments ></w> <w:DoNotShowInsertionsAndDeletions ></w> <w:DoNotShowPropertyChanges ></w> <w:PunctuationKerning ></w> <w:ValidateAgainstSchemas ></w> <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid> <w:IgnoreMixedContent>false</w:IgnoreMixedContent> <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText> <w:DoNotPromoteQF ></w> <w:LidThemeOther>EN-GB</w:LidThemeOther> <w:LidThemeAsian>X-NONE</w:LidThemeAsian> <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript> <w:Compatibility> <w:BreakWrappedTables ></w> <w:SnapToGridInCell ></w> <w:WrapTextWithPunct ></w> <w:UseAsianBreakRules ></w> <w:DontGrowAutofit ></w> <w:SplitPgBreakAndParaMark ></w> <w:DontVertAlignCellWithSp ></w> <w:DontBreakConstrainedForcedTables ></w> <w:DontVertAlignInTxbx ></w> <w:Word11KerningPairs ></w> <w:CachedColBalance ></w> </w:Compatibility> <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel> <m:mathPr> <m:mathFont m:val="Cambria Math" ></m> <m:brkBin m:val="before" ></m> <m:brkBinSub m:val="&#45;-" ></m> <m:smallFrac m:val="off" ></m> <m:dispDef ></m> <m:lMargin m:val="0" ></m> <m:rMargin m:val="0" ></m> <m:defJc m:val="centerGroup" ></m> <m:wrapIndent m:val="1440" ></m> <m:intLim m:val="subSup" ></m> <m:naryLim m:val="undOvr" ></m> </m:mathPr></w:WordDocument> </xml><![endif]--><!--[if gte mso 9]><xml> <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"   DefSemiHidden="true" DefQFormat="false" DefPriority="99"   LatentStyleCount="267"> <w:LsdException Locked="false" Priority="0" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Normal" ></w> <w:LsdException Locked="false" Priority="9" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="heading 1" ></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2" ></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3" ></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4" ></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5" ></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6" ></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7" ></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8" ></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9" ></w> <w:LsdException Locked="false" Priority="39" Name="toc 1" ></w> <w:LsdException Locked="false" Priority="39" Name="toc 2" ></w> <w:LsdException Locked="false" Priority="39" Name="toc 3" ></w> <w:LsdException Locked="false" Priority="39" Name="toc 4" ></w> <w:LsdException Locked="false" Priority="39" Name="toc 5" ></w> <w:LsdException Locked="false" Priority="39" Name="toc 6" ></w> <w:LsdException Locked="false" Priority="39" Name="toc 7" ></w> <w:LsdException Locked="false" Priority="39" Name="toc 8" ></w> <w:LsdException Locked="false" Priority="39" Name="toc 9" ></w> <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption" ></w> <w:LsdException Locked="false" Priority="10" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Title" ></w> <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font" ></w> <w:LsdException Locked="false" Priority="11" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Subtitle" ></w> <w:LsdException Locked="false" Priority="22" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Strong" ></w> <w:LsdException Locked="false" Priority="20" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Emphasis" ></w> <w:LsdException Locked="false" Priority="59" SemiHidden="false"    UnhideWhenUsed="false" Name="Table Grid" ></w> <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text" ></w> <w:LsdException Locked="false" Priority="1" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="No Spacing" ></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading" ></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List" ></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid" ></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1" ></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2" ></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1" ></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2" ></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1" ></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2" ></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3" ></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List" ></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading" ></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List" ></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid" ></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 1" ></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 1" ></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 1" ></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1" ></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1" ></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 1" ></w> <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision" ></w> <w:LsdException Locked="false" Priority="34" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="List Paragraph" ></w> <w:LsdException Locked="false" Priority="29" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Quote" ></w> <w:LsdException Locked="false" Priority="30" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Intense Quote" ></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 1" ></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1" ></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1" ></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1" ></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 1" ></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 1" ></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 1" ></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 1" ></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 2" ></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 2" ></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 2" ></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2" ></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2" ></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 2" ></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 2" ></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2" ></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2" ></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2" ></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 2" ></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 2" ></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 2" ></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 2" ></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 3" ></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 3" ></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 3" ></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3" ></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3" ></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 3" ></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 3" ></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3" ></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3" ></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3" ></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 3" ></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 3" ></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 3" ></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 3" ></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 4" ></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 4" ></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 4" ></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4" ></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4" ></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 4" ></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 4" ></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4" ></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4" ></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4" ></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 4" ></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 4" ></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 4" ></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 4" ></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 5" ></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 5" ></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 5" ></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5" ></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5" ></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 5" ></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 5" ></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5" ></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5" ></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5" ></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 5" ></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 5" ></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 5" ></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 5" ></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 6" ></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 6" ></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 6" ></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6" ></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6" ></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 6" ></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 6" ></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6" ></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6" ></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6" ></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 6" ></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 6" ></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 6" ></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 6" ></w> <w:LsdException Locked="false" Priority="19" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis" ></w> <w:LsdException Locked="false" Priority="21" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis" ></w> <w:LsdException Locked="false" Priority="31" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference" ></w> <w:LsdException Locked="false" Priority="32" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Intense Reference" ></w> <w:LsdException Locked="false" Priority="33" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Book Title" ></w> <w:LsdException Locked="false" Priority="37" Name="Bibliography" ></w> <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading" ></w> </w:LatentStyles> </xml><![endif]--><!--[if gte mso 9]><xml> <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"   DefSemiHidden="true" DefQFormat="false" DefPriority="99"   LatentStyleCount="267"> <w:LsdException Locked="false" Priority="0" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Normal" ></w> <w:LsdException Locked="false" Priority="9" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="heading 1" ></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2" ></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3" ></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4" ></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5" ></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6" ></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7" ></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8" ></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9" ></w> <w:LsdException Locked="false" Priority="39" Name="toc 1" ></w> <w:LsdException Locked="false" Priority="39" Name="toc 2" ></w> <w:LsdException Locked="false" Priority="39" Name="toc 3" ></w> <w:LsdException Locked="false" Priority="39" Name="toc 4" ></w> <w:LsdException Locked="false" Priority="39" Name="toc 5" ></w> <w:LsdException Locked="false" Priority="39" Name="toc 6" ></w> <w:LsdException Locked="false" Priority="39" Name="toc 7" ></w> <w:LsdException Locked="false" Priority="39" Name="toc 8" ></w> <w:LsdException Locked="false" Priority="39" Name="toc 9" ></w> <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption" ></w> <w:LsdException Locked="false" Priority="10" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Title" ></w> <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font" ></w> <w:LsdException Locked="false" Priority="11" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Subtitle" ></w> <w:LsdException Locked="false" Priority="22" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Strong" ></w> <w:LsdException Locked="false" Priority="20" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Emphasis" ></w> <w:LsdException Locked="false" Priority="59" SemiHidden="false"    UnhideWhenUsed="false" Name="Table Grid" ></w> <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text" ></w> <w:LsdException Locked="false" Priority="1" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="No Spacing" ></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading" ></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List" ></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid" ></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1" ></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2" ></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1" ></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2" ></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1" ></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2" ></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3" ></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List" ></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading" ></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List" ></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid" ></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 1" ></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 1" ></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 1" ></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1" ></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1" ></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 1" ></w> <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision" ></w> <w:LsdException Locked="false" Priority="34" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="List Paragraph" ></w> <w:LsdException Locked="false" Priority="29" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Quote" ></w> <w:LsdException Locked="false" Priority="30" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Intense Quote" ></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 1" ></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1" ></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1" ></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1" ></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 1" ></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 1" ></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 1" ></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 1" ></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 2" ></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 2" ></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 2" ></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2" ></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2" ></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 2" ></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 2" ></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2" ></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2" ></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2" ></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 2" ></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 2" ></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 2" ></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 2" ></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 3" ></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 3" ></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 3" ></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3" ></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3" ></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 3" ></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 3" ></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3" ></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3" ></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3" ></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 3" ></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 3" ></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 3" ></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 3" ></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 4" ></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 4" ></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 4" ></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4" ></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4" ></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 4" ></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 4" ></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4" ></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4" ></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4" ></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 4" ></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 4" ></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 4" ></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 4" ></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 5" ></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 5" ></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 5" ></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5" ></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5" ></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 5" ></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 5" ></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5" ></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5" ></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5" ></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 5" ></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 5" ></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 5" ></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 5" ></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 6" ></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 6" ></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 6" ></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6" ></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6" ></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 6" ></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 6" ></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6" ></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6" ></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6" ></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 6" ></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 6" ></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 6" ></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 6" ></w> <w:LsdException Locked="false" Priority="19" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis" ></w> <w:LsdException Locked="false" Priority="21" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis" ></w> <w:LsdException Locked="false" Priority="31" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference" ></w> <w:LsdException Locked="false" Priority="32" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Intense Reference" ></w> <w:LsdException Locked="false" Priority="33" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Book Title" ></w> <w:LsdException Locked="false" Priority="37" Name="Bibliography" ></w> <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading" ></w> </w:LatentStyles> </xml><![endif]--><!--[if gte mso 10]> <mce:style><!   /* Style Definitions */  table.MsoNormalTable 	{mso-style-name:"Table Normal"; 	mso-tstyle-rowband-size:0; 	mso-tstyle-colband-size:0; 	mso-style-noshow:yes; 	mso-style-priority:99; 	mso-style-qformat:yes; 	mso-style-parent:""; 	mso-padding-alt:0cm 5.4pt 0cm 5.4pt; 	mso-para-margin:0cm; 	mso-para-margin-bottom:.0001pt; 	mso-pagination:widow-orphan; 	font-size:11.0pt; 	font-family:"Calibri","sans-serif"; 	mso-ascii-font-family:Calibri; 	mso-ascii-theme-font:minor-latin; 	mso-fareast-font-family:"Times New Roman"; 	mso-fareast-theme-font:minor-fareast; 	mso-hansi-font-family:Calibri; 	mso-hansi-theme-font:minor-latin; 	mso-bidi-font-family:"Times New Roman"; 	mso-bidi-theme-font:minor-bidi;} --><!--[if gte mso 10]> <mce:style><!   /* Style Definitions */  table.MsoNormalTable 	{mso-style-name:"Table Normal"; 	mso-tstyle-rowband-size:0; 	mso-tstyle-colband-size:0; 	mso-style-noshow:yes; 	mso-style-priority:99; 	mso-style-qformat:yes; 	mso-style-parent:""; 	mso-padding-alt:0cm 5.4pt 0cm 5.4pt; 	mso-para-margin:0cm; 	mso-para-margin-bottom:.0001pt; 	mso-pagination:widow-orphan; 	font-size:11.0pt; 	font-family:"Calibri","sans-serif"; 	mso-ascii-font-family:Calibri; 	mso-ascii-theme-font:minor-latin; 	mso-fareast-font-family:"Times New Roman"; 	mso-fareast-theme-font:minor-fareast; 	mso-hansi-font-family:Calibri; 	mso-hansi-theme-font:minor-latin; 	mso-bidi-font-family:"Times New Roman"; 	mso-bidi-theme-font:minor-bidi;} --><!--[endif]--><!--[endif]--></p>
+<p><!--[if gte mso 9]><xml> <w:WordDocument> <w:View>Normal</w:View> <w:Zoom>0</w:Zoom> <w:TrackMoves></w> <w:TrackFormatting></w> <w:DoNotShowRevisions></w> <w:DoNotPrintRevisions></w> <w:DoNotShowMarkup></w> <w:DoNotShowComments></w> <w:DoNotShowInsertionsAndDeletions></w> <w:DoNotShowPropertyChanges></w> <w:PunctuationKerning></w> <w:ValidateAgainstSchemas></w> <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid> <w:IgnoreMixedContent>false</w:IgnoreMixedContent> <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText> <w:DoNotPromoteQF></w> <w:LidThemeOther>EN-GB</w:LidThemeOther> <w:LidThemeAsian>X-NONE</w:LidThemeAsian> <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript> <w:Compatibility> <w:BreakWrappedTables></w> <w:SnapToGridInCell></w> <w:WrapTextWithPunct></w> <w:UseAsianBreakRules></w> <w:DontGrowAutofit></w> <w:SplitPgBreakAndParaMark></w> <w:DontVertAlignCellWithSp></w> <w:DontBreakConstrainedForcedTables></w> <w:DontVertAlignInTxbx></w> <w:Word11KerningPairs></w> <w:CachedColBalance></w> </w:Compatibility> <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel> <m:mathPr> <m:mathFont m:val="Cambria Math"></m> <m:brkBin m:val="before"></m> <m:brkBinSub m:val="&#45;-"></m> <m:smallFrac m:val="off"></m> <m:dispDef></m> <m:lMargin m:val="0"></m> <m:rMargin m:val="0"></m> <m:defJc m:val="centerGroup"></m> <m:wrapIndent m:val="1440"></m> <m:intLim m:val="subSup"></m> <m:naryLim m:val="undOvr"></m> </m:mathPr></w:WordDocument> </xml><![endif]--><!--[if gte mso 9]><xml> <w:WordDocument> <w:View>Normal</w:View> <w:Zoom>0</w:Zoom> <w:TrackMoves></w> <w:TrackFormatting></w> <w:DoNotShowRevisions></w> <w:DoNotPrintRevisions></w> <w:DoNotShowMarkup></w> <w:DoNotShowComments></w> <w:DoNotShowInsertionsAndDeletions></w> <w:DoNotShowPropertyChanges></w> <w:PunctuationKerning></w> <w:ValidateAgainstSchemas></w> <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid> <w:IgnoreMixedContent>false</w:IgnoreMixedContent> <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText> <w:DoNotPromoteQF></w> <w:LidThemeOther>EN-GB</w:LidThemeOther> <w:LidThemeAsian>X-NONE</w:LidThemeAsian> <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript> <w:Compatibility> <w:BreakWrappedTables></w> <w:SnapToGridInCell></w> <w:WrapTextWithPunct></w> <w:UseAsianBreakRules></w> <w:DontGrowAutofit></w> <w:SplitPgBreakAndParaMark></w> <w:DontVertAlignCellWithSp></w> <w:DontBreakConstrainedForcedTables></w> <w:DontVertAlignInTxbx></w> <w:Word11KerningPairs></w> <w:CachedColBalance></w> </w:Compatibility> <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel> <m:mathPr> <m:mathFont m:val="Cambria Math"></m> <m:brkBin m:val="before"></m> <m:brkBinSub m:val="&#45;-"></m> <m:smallFrac m:val="off"></m> <m:dispDef></m> <m:lMargin m:val="0"></m> <m:rMargin m:val="0"></m> <m:defJc m:val="centerGroup"></m> <m:wrapIndent m:val="1440"></m> <m:intLim m:val="subSup"></m> <m:naryLim m:val="undOvr"></m> </m:mathPr></w:WordDocument> </xml><![endif]--><!--[if gte mso 9]><xml> <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"   DefSemiHidden="true" DefQFormat="false" DefPriority="99"   LatentStyleCount="267"> <w:LsdException Locked="false" Priority="0" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Normal"></w> <w:LsdException Locked="false" Priority="9" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="heading 1"></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"></w> <w:LsdException Locked="false" Priority="39" Name="toc 1"></w> <w:LsdException Locked="false" Priority="39" Name="toc 2"></w> <w:LsdException Locked="false" Priority="39" Name="toc 3"></w> <w:LsdException Locked="false" Priority="39" Name="toc 4"></w> <w:LsdException Locked="false" Priority="39" Name="toc 5"></w> <w:LsdException Locked="false" Priority="39" Name="toc 6"></w> <w:LsdException Locked="false" Priority="39" Name="toc 7"></w> <w:LsdException Locked="false" Priority="39" Name="toc 8"></w> <w:LsdException Locked="false" Priority="39" Name="toc 9"></w> <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"></w> <w:LsdException Locked="false" Priority="10" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Title"></w> <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"></w> <w:LsdException Locked="false" Priority="11" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Subtitle"></w> <w:LsdException Locked="false" Priority="22" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Strong"></w> <w:LsdException Locked="false" Priority="20" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Emphasis"></w> <w:LsdException Locked="false" Priority="59" SemiHidden="false"    UnhideWhenUsed="false" Name="Table Grid"></w> <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"></w> <w:LsdException Locked="false" Priority="1" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="No Spacing"></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading"></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List"></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid"></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1"></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2"></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1"></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2"></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1"></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2"></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3"></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List"></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading"></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List"></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid"></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 1"></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 1"></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 1"></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 1"></w> <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"></w> <w:LsdException Locked="false" Priority="34" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"></w> <w:LsdException Locked="false" Priority="29" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Quote"></w> <w:LsdException Locked="false" Priority="30" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 1"></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 1"></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 1"></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 1"></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 1"></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 2"></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 2"></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 2"></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 2"></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 2"></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 2"></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 2"></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 2"></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 2"></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 3"></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 3"></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 3"></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 3"></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 3"></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 3"></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 3"></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 3"></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 3"></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 4"></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 4"></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 4"></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 4"></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 4"></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 4"></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 4"></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 4"></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 4"></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 5"></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 5"></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 5"></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 5"></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 5"></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 5"></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 5"></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 5"></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 5"></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 6"></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 6"></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 6"></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 6"></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 6"></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 6"></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 6"></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 6"></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 6"></w> <w:LsdException Locked="false" Priority="19" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"></w> <w:LsdException Locked="false" Priority="21" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"></w> <w:LsdException Locked="false" Priority="31" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"></w> <w:LsdException Locked="false" Priority="32" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"></w> <w:LsdException Locked="false" Priority="33" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Book Title"></w> <w:LsdException Locked="false" Priority="37" Name="Bibliography"></w> <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"></w> </w:LatentStyles> </xml><![endif]--><!--[if gte mso 9]><xml> <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"   DefSemiHidden="true" DefQFormat="false" DefPriority="99"   LatentStyleCount="267"> <w:LsdException Locked="false" Priority="0" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Normal"></w> <w:LsdException Locked="false" Priority="9" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="heading 1"></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"></w> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"></w> <w:LsdException Locked="false" Priority="39" Name="toc 1"></w> <w:LsdException Locked="false" Priority="39" Name="toc 2"></w> <w:LsdException Locked="false" Priority="39" Name="toc 3"></w> <w:LsdException Locked="false" Priority="39" Name="toc 4"></w> <w:LsdException Locked="false" Priority="39" Name="toc 5"></w> <w:LsdException Locked="false" Priority="39" Name="toc 6"></w> <w:LsdException Locked="false" Priority="39" Name="toc 7"></w> <w:LsdException Locked="false" Priority="39" Name="toc 8"></w> <w:LsdException Locked="false" Priority="39" Name="toc 9"></w> <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"></w> <w:LsdException Locked="false" Priority="10" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Title"></w> <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"></w> <w:LsdException Locked="false" Priority="11" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Subtitle"></w> <w:LsdException Locked="false" Priority="22" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Strong"></w> <w:LsdException Locked="false" Priority="20" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Emphasis"></w> <w:LsdException Locked="false" Priority="59" SemiHidden="false"    UnhideWhenUsed="false" Name="Table Grid"></w> <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"></w> <w:LsdException Locked="false" Priority="1" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="No Spacing"></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading"></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List"></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid"></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1"></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2"></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1"></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2"></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1"></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2"></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3"></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List"></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading"></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List"></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid"></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 1"></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 1"></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 1"></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 1"></w> <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"></w> <w:LsdException Locked="false" Priority="34" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"></w> <w:LsdException Locked="false" Priority="29" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Quote"></w> <w:LsdException Locked="false" Priority="30" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 1"></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 1"></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 1"></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 1"></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 1"></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 2"></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 2"></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 2"></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 2"></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 2"></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 2"></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 2"></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 2"></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 2"></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 3"></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 3"></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 3"></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 3"></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 3"></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 3"></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 3"></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 3"></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 3"></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 4"></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 4"></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 4"></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 4"></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 4"></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 4"></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 4"></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 4"></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 4"></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 5"></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 5"></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 5"></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 5"></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 5"></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 5"></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 5"></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 5"></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 5"></w> <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 6"></w> <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 6"></w> <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 6"></w> <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"></w> <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"></w> <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 6"></w> <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 6"></w> <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"></w> <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"></w> <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"></w> <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 6"></w> <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 6"></w> <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 6"></w> <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 6"></w> <w:LsdException Locked="false" Priority="19" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"></w> <w:LsdException Locked="false" Priority="21" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"></w> <w:LsdException Locked="false" Priority="31" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"></w> <w:LsdException Locked="false" Priority="32" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"></w> <w:LsdException Locked="false" Priority="33" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Book Title"></w> <w:LsdException Locked="false" Priority="37" Name="Bibliography"></w> <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"></w> </w:LatentStyles> </xml><![endif]--><!--[if gte mso 10]> <mce:style><!   /* Style Definitions */  table.MsoNormalTable 	{mso-style-name:"Table Normal"; 	mso-tstyle-rowband-size:0; 	mso-tstyle-colband-size:0; 	mso-style-noshow:yes; 	mso-style-priority:99; 	mso-style-qformat:yes; 	mso-style-parent:""; 	mso-padding-alt:0cm 5.4pt 0cm 5.4pt; 	mso-para-margin:0cm; 	mso-para-margin-bottom:.0001pt; 	mso-pagination:widow-orphan; 	font-size:10.0pt; 	font-family:"Arial","sans-serif"; 	mso-fareast-language:EN-US;} --><!--[if gte mso 10]> <mce:style><!   /* Style Definitions */  table.MsoNormalTable 	{mso-style-name:"Table Normal"; 	mso-tstyle-rowband-size:0; 	mso-tstyle-colband-size:0; 	mso-style-noshow:yes; 	mso-style-priority:99; 	mso-style-qformat:yes; 	mso-style-parent:""; 	mso-padding-alt:0cm 5.4pt 0cm 5.4pt; 	mso-para-margin:0cm; 	mso-para-margin-bottom:.0001pt; 	mso-pagination:widow-orphan; 	font-size:10.0pt; 	font-family:"Arial","sans-serif"; 	mso-fareast-language:EN-US;} --><!--[endif] --><!--[endif] --></p>
+        </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+    <div class="corner-bottom"><div class="corner-bottom-right corner"></div><div class="corner-bottom-left corner"></div></div>
+  </div><!-- /inner -->
+</div><!-- /block -->
+<div id="block-views-Publications_list-block_1" class="block block-views even  last grid16-16">
+  <div class="inner">
+    <div class="corner-top"><div class="corner-top-right corner"></div><div class="corner-top-left corner"></div></div>
+      	<div class="inner-wrapper">
+      <div class="inner-inner">
+                <div class="block-icon pngfix"></div>
+        <h2 class="title block-title">Latest Publications</h2>
+                <div class="content clearfix">
+          <div class="view view-Publications-list view-id-Publications_list view-display-id-block_1 view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <span class="views-field-field-date-published-value">
+                <span class="field-content"><span class="date-display-single">11/2012</span></span>
+  </span>
+  
+  <span class="views-field-title">
+                <span class="field-content"><a href="/en/node/169">Apolipoprotein M can discriminate HNF1A-MODY from...</a></span>
+  </span>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <span class="views-field-field-date-published-value">
+                <span class="field-content"><span class="date-display-single">10/2012</span></span>
+  </span>
+  
+  <span class="views-field-title">
+                <span class="field-content"><a href="/en/node/173">HbA1c-based diabetes diagnosis among patients...</a></span>
+  </span>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <span class="views-field-field-date-published-value">
+                <span class="field-content"><span class="date-display-single">10/2012</span></span>
+  </span>
+  
+  <span class="views-field-title">
+                <span class="field-content"><a href="/en/node/170">Common variant in the HMGA2 gene increases...</a></span>
+  </span>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <span class="views-field-field-date-published-value">
+                <span class="field-content"><span class="date-display-single">10/2012</span></span>
+  </span>
+  
+  <span class="views-field-title">
+                <span class="field-content"><a href="/en/node/175">Pancreatic β-cell transcriptome analysis reveals...</a></span>
+  </span>
+  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <span class="views-field-field-date-published-value">
+                <span class="field-content"><span class="date-display-single">10/2012</span></span>
+  </span>
+  
+  <span class="views-field-title">
+                <span class="field-content"><a href="/en/node/172">Circulating Very-Low-Density Lipoprotein from...</a></span>
+  </span>
+  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <span class="views-field-field-date-published-value">
+                <span class="field-content"><span class="date-display-single">10/2012</span></span>
+  </span>
+  
+  <span class="views-field-title">
+                <span class="field-content"><a href="/en/node/174">Human β cell transcriptome analysis uncovers...</a></span>
+  </span>
+  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <span class="views-field-field-date-published-value">
+                <span class="field-content"><span class="date-display-single">10/2012</span></span>
+  </span>
+  
+  <span class="views-field-title">
+                <span class="field-content"><a href="/en/node/171">Assessment of Small Fiber Neuropathy through a...</a></span>
+  </span>
+  </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+  <span class="views-field-field-date-published-value">
+                <span class="field-content"><span class="date-display-single">09/2012</span></span>
+  </span>
+  
+  <span class="views-field-title">
+                <span class="field-content"><a href="/en/node/177">Monogenic models: what have the single gene...</a></span>
+  </span>
+  </div>
+  <div class="views-row views-row-9 views-row-odd">
+      
+  <span class="views-field-field-date-published-value">
+                <span class="field-content"><span class="date-display-single">09/2012</span></span>
+  </span>
+  
+  <span class="views-field-title">
+                <span class="field-content"><a href="/en/node/176">Effect of a common variant of the PCSK2 gene on...</a></span>
+  </span>
+  </div>
+  <div class="views-row views-row-10 views-row-even views-row-last">
+      
+  <span class="views-field-field-date-published-value">
+                <span class="field-content"><span class="date-display-single">08/2012</span></span>
+  </span>
+  
+  <span class="views-field-title">
+                <span class="field-content"><a href="/en/node/178">Large-scale association analyses identify new...</a></span>
+  </span>
+  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <p><br />See <a href="/beta/recentpublications/">all publications</a><br /><br /><br /></p>
+    </div>
+  
+  
+</div>         </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+    <div class="corner-bottom"><div class="corner-bottom-right corner"></div><div class="corner-bottom-left corner"></div></div>
+  </div><!-- /inner -->
+</div><!-- /block --></div><!-- /sidebar-last-inner -->
+</div><!-- /sidebar-last -->
+                  </div><!-- /main-content-inner -->
+                </div><!-- /main-content -->
+
+                              </div><!-- /main-group-inner -->
+            </div><!-- /main-group -->
+          </div><!-- /main-inner -->
+        </div><!-- /main -->
+      </div><!-- /main-wrapper -->
+
+      <!-- postscript-bottom row: width = grid_width -->
+      <div id="postscript-bottom-wrapper" class="postscript-bottom-wrapper full-width">
+<div id="postscript-bottom" class="postscript-bottom row grid16-16">
+<div id="postscript-bottom-inner" class="postscript-bottom-inner inner clearfix">
+
+<div id="block-block-2" class="block block-block odd first last grid16-16">
+  <div class="inner">
+    <div class="corner-top"><div class="corner-top-right corner"></div><div class="corner-top-left corner"></div></div>
+      	<div class="inner-wrapper">
+      <div class="inner-inner">
+                <div class="content clearfix">
+          <p style="text-align: center;">ceed3.org is managed by the <a href="http://www.exeter.crf.nihr.ac.uk/">Exeter NIHR Clinical Research Facility.</a></p>
+        </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+    <div class="corner-bottom"><div class="corner-bottom-right corner"></div><div class="corner-bottom-left corner"></div></div>
+  </div><!-- /inner -->
+</div><!-- /block --></div><!-- /postscript-bottom-inner -->
+</div><!-- /postscript-bottom -->
+</div><!-- /postscript-bottom-wrapper -->
+
+      <!-- footer row: width = grid_width -->
+      
+      <!-- footer-message row: width = grid_width -->
+      <div id="footer-message-wrapper" class="footer-message-wrapper full-width">
+        <div id="footer-message" class="footer-message row grid16-16">
+          <div id="footer-message-inner" class="footer-message-inner inner clearfix">
+                      </div><!-- /footer-message-inner -->
+        </div><!-- /footer-message -->
+      </div><!-- /footer-message-wrapper -->
+
+    </div><!-- /page-inner -->
+  </div><!-- /page -->
+  </body>
+</html>

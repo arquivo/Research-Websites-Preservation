@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>URB-Grade Project | Decision Support in the Cloud</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://urb-grade.eu/xmlrpc.php">
+
+<script type="text/javascript">
+  WebFontConfig = {"typekit":{"id":"rnz2fzy"}};
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'http://s1.wp.com/wp-content/plugins/custom-fonts/js/webfont.js?m=1438023897g';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+	})();
+</script><style id="jetpack-custom-fonts-css">.wf-active body, .wf-active button, .wf-active input, .wf-active select, .wf-active textarea{font-family:"museo-sans-1","museo-sans-2",sans-serif;font-size:15.8px}.wf-active blockquote{font-family:"museo-sans-1","museo-sans-2",sans-serif}.wf-active sub, .wf-active sup{font-size:66%}.wf-active small{font-size:66%}.wf-active big{font-size:110%}.wf-active table{font-size:14.1px}.wf-active button, .wf-active input, .wf-active select, .wf-active textarea{font-size:88%}.wf-active button, .wf-active input[type="button"], .wf-active input[type="reset"], .wf-active input[type="submit"]{font-family:"museo-sans-1","museo-sans-2",sans-serif}.wf-active .main-navigation li:before{font-size:14.1px}.wf-active .main-navigation a, .wf-active .main-navigation a:visited{font-size:11.4px}.wf-active .main-navigation a{font-size:11.4px}.wf-active .site-main .comment-navigation, .wf-active .site-main .paging-navigation, .wf-active .site-main .post-navigation{font-size:14.1px}.wf-active .widget{font-size:14.1px}.wf-active .widget_search .search-field{font-family:"museo-sans-1","museo-sans-2",sans-serif}.wf-active .widget_search .search-submit{font-family:"museo-sans-1","museo-sans-2",sans-serif}.wf-active .entry-meta{font-size:12.3px}.wf-active .featured-image .flag{font-size:10.6px}.wf-active .entry-tags a{font-size:10.6px}.wf-active #infinite-handle span{font-family:"museo-sans-1","museo-sans-2",sans-serif;font-size:14.1px}.wf-active .wp-caption-text{font-size:12.3px}.wf-active .site-info{font-size:12.3px}.wf-active .comment-metadata{font-size:12.3px}.wf-active .comment-metadata .edit-link a{font-size:10.6px}.wf-active .comment-author{font-size:17.6px}.wf-active .comment-actions a{font-size:10.6px}.wf-active .pingback .comment-edit-link, .wf-active .trackback .comment-edit-link{font-size:10.6px}.wf-active h1{font-family:"museo-sans-1","museo-sans-2",sans-serif;font-size:38.2px;font-weight:300;font-style:normal}.wf-active h2{font-family:"museo-sans-1","museo-sans-2",sans-serif;font-size:31.8px;font-weight:300;font-style:normal}.wf-active h3{font-family:"museo-sans-1","museo-sans-2",sans-serif;font-size:28.6px;font-weight:300;font-style:normal}.wf-active h4{font-family:"museo-sans-1","museo-sans-2",sans-serif;font-size:23.3px;font-style:normal;font-weight:300}.wf-active h5{font-family:"museo-sans-1","museo-sans-2",sans-serif;font-size:21.2px;font-style:normal;font-weight:300}.wf-active h6{font-family:"museo-sans-1","museo-sans-2",sans-serif;font-size:17px;font-weight:300;font-style:normal}.wf-active .widget-title{font-family:"museo-sans-1","museo-sans-2",sans-serif;font-size:14.8px;font-weight:300;font-style:normal}.wf-active .entry-title{font-family:"museo-sans-1","museo-sans-2",sans-serif;font-size:47.7px;font-weight:300;font-style:normal}.wf-active .page-title{font-size:17px;font-weight:300;font-style:normal}.wf-active .format-aside .entry-title, .wf-active .format-quote .entry-title{font-size:19.1px;font-style:normal;font-weight:300}.wf-active .site-title{font-weight:300;font-size:31.8px;font-family:"museo-sans-1","museo-sans-2",sans-serif;font-style:normal}.wf-active .site-description{font-family:"museo-sans-1","museo-sans-2",sans-serif;font-size:19.1px;font-weight:300;font-style:normal}.wf-active .comments-title{font-size:31.8px;font-weight:300;font-style:normal}</style>
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=urb-grade.eu&amp;id=43323877&amp;t=1456406794&amp;back=http%3A%2F%2Furb-grade.eu%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel="alternate" type="application/rss+xml" title="URB-Grade Project &raquo; Feed" href="http://urb-grade.eu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="URB-Grade Project &raquo; Comments Feed" href="http://urb-grade.eu/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<link rel='stylesheet' id='all-css-0' href='https://s0.wp.com/_static/??-eJx9jUEOgkAMAD9kLSIxejC+ZVkbWdguDe2G71tIvBkuTdvMZHAViHMxKoZcQXL9pKKY00SKI5mEOMF+naPqCf/jcV7I/yzBNoLpnQJlYseONJbbz9rWwVuHmVWchr6XhVTBJ6fKYIOHdu/Fz0t3bR9t092b8QtnYFC+' type='text/css' media='all' />
+<link rel='stylesheet' id='hemingway-rewritten-fonts-css'  href='https://fonts.googleapis.com/css?family=Raleway%3A400%2C300%2C700%7CLato%3A400%2C700%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-2' href='https://s1.wp.com/_static/??-eJyFjtEKwjAMRX/IGsSx4YP4LVuJNdImpc0o+/tVijAR59u53JwkUKKxwoqsoA8MmCHOE1QidmVcTMKSSGsPWRePR5vzATZSmE30syPO4JAxUS1+4Jf75yCxbUdNiVZC0wlYtG1+w/5PYrzYUUn4I5i7HyntqQknL66igzq1iS/pFq6nrrv056EfuucK8Kh6/A==' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-3' href='https://s1.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1444132114g' type='text/css' media='print' />
+<link rel='stylesheet' id='all-css-4' href='https://s0.wp.com/wp-content/themes/h4/global.css?m=1420737423g' type='text/css' media='all' />
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyFztEKwjAMBdAfsqvT+bAH8VtqjSN1SWuTbujX24E+CEMhEMg9XGLnZJD9WC4gNtS5F8iP92qCbOwvYAiH7BQaQv5gH1mBdbEUzziCKQLZDfVWi65xxaUoSiBS0Ur6/RLyhDD/ZQE0OX8zGQSfS+uJjm237w/tdtd34QU0IVvQ'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://urbgrade.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="http://urb-grade.eu/" />
+<link rel='shortlink' href='http://wp.me/P2VMwd-S' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=http%3A%2F%2Furb-grade.eu%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=http%3A%2F%2Furb-grade.eu%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="URB-Grade Project" />
+<meta property="og:description" content="Decision Support in the Cloud" />
+<meta property="og:url" content="http://urb-grade.eu/" />
+<meta property="og:site_name" content="URB-Grade Project" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<meta name="twitter:card" content="summary" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png" />
+<link rel='openid.server' href='http://urbgrade.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='http://urbgrade.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="http://urb-grade.eu/osd.xml" title="URB-Grade Project" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="theme-color" content="#ffffff" />
+		<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="URB-Grade Project" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Decision Support in the Cloud" /><meta name="msapplication-task" content="name=Subscribe;action-uri=http://urb-grade.eu/feed/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="title" content="HOME | URB-Grade Project on WordPress.com" />
+<meta name="description" content="Welcome to URB-Grade project URB-Grade: Decision Support Tool for Retrofitting a District, Towards the District as a Service The URB‐Grade project designs, develops and validates a Platform for Decision Support that will allow the city authorities and utilities to promote and choose the correct actions to upgrade a district to become more energy efficient, cost&hellip;" />
+	<style type="text/css">
+			.site-title a,
+		.site-description {
+			color: #ffffff;
+		}
+				.site-header-image {
+			background-image: url(http://urbgrade.files.wordpress.com/2013/09/cropped-istock_000011357349medium.jpg);
+		}
+		</style>
+	<style type="text/css" id="syntaxhighlighteranchor"></style>
+<style type="text/css" id="custom-colors-css">.comment-metadata a{color:#6d6d6d}.sep{color:#6d6d6d}th,td{border-color:#ddd}th,td{border-color:rgba(221,221,221,.5)}.format-aside .entry-content,blockquote,pre{background-color:#eee}.format-aside .entry-content,blockquote,pre{background-color:rgba(238,238,238,.2)}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],textareali>article.comment,.hentry,.widget ul li,.widget,.site-main .comment-navigation,.site-main .paging-navigation,.site-main .post-navigation,.comment-list>li:first-child>article.comment:first-child,.page-title{border-color:#eee}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],textareali>article.comment,.hentry,.widget ul li,.widget,.site-main .comment-navigation,.site-main .paging-navigation,.site-main .post-navigation,.comment-list>li:first-child>article.comment:first-child,.page-title{border-color:rgba(238,238,238,.5)}.site-title a,.site-title a:visited{color:#fff}.entry-tags a,.entry-tags a:visited{color:#6d6d6d}.entry-tags a:hover{color:#fff}.featured-image .flag{color:#fff}.site-footer button,.site-footer input[type="button"],.site-footer input[type="reset"],.site-footer input[type="submit"],.widget_search .search-submit{color:#fff}.site-footer button:hover,.site-footer input[type="button"]:hover,.site-footer input[type="reset"]:hover,.site-footer input[type="submit"]:hover,.widget_search .search-submit:hover{color:#fff}button:hover,input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover{color:#fff}#header-search .search-submit{color:#fff}address{background-color:#f1f1f1}address{background-color:rgba(241,241,241,.2)}.entry-content table tbody>tr:nth-child(odd)>td{background-color:#f9f9f9}.entry-content table tbody>tr:nth-child(odd)>td{background-color:rgba(249,249,249,.2)}blockquote{color:#000}.entry-title,.entry-title a,.entry-title a:visited,.comments-title{color:#2d2d2d}.format-quote .entry-content{background-color:#262626}.format-quote .entry-content{background-color:rgba(38,38,38,.2)}body,button,input,textarea{color:#444}.widget-title,th{color:#444}.comment-author a,.comment-author a:visited{color:#444}mark,ins{color:#444}.widget{color:#555}.jetpack-recipe{border-color:#666}.jetpack-recipe{border-color:rgba(102,102,102,.3)}blockquote cite{color:#666}.entry-tags a,.entry-tags a:visited{background-color:#767676}.entry-tags a,.entry-tags a:visited{background-color:rgba(118,118,118,.4)}.entry-tags a:after{border-right-color:#767676}.entry-tags a:after{border-right-color:rgba(118,118,118,.4)}.entry-categories:before{color:#6d6d6d}.wp-caption-text{color:#6d6d6d}.entry-meta,.entry-meta a,.entry-meta a:visited,.page-title,.no-comments{color:#6d6d6d}body,#infinite-footer .container,.entry-tags a:before{background-color:#fff}.site-footer button,.site-footer input[type="button"],.site-footer input[type="reset"],.site-footer input[type="submit"],.widget_search .search-submit{background-color:#cf9e38}button:hover,input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover{background-color:#cf9e38}.widget_search .search-submit{border-color:#cf9e38}.site-footer button:hover,.site-footer input[type="button"]:hover,.site-footer input[type="reset"]:hover,.site-footer input[type="submit"]:hover,.widget_search .search-submit:hover{background-color:#ac8329}.widget_search .search-submit:hover{border-color:#ac8329}.featured-image .flag{background-color:#cf9e38}.jetpack-recipe-title{border-color:#cf9e38}.entry-tags a:hover{background-color:#cf9e38}.entry-tags a:hover:after{border-right-color:#cf9e38}#header-search .search-submit{border-color:#cf9e38}#header-search .search-submit{background-color:#cf9e38}#header-search .search-submit:hover{background-color:#ac8329}#header-search .search-submit:hover{border-color:#ac8329}a,a:visited,a:hover,a:focus,a:active,.entry-title a:hover{color:#8b681c}.site-title a:hover,.site-title a:focus{color:#cf9e38}.site-footer a,.site-footer a:visited,.site-footer a:hover,.site-footer a:focus,.site-footer a:active{color:#cf9e38}.widget-areas a,.widget-areas a:visited,.widget-areas a:hover,.widget-areas a:focus,.widget-areas a:active{color:#cf9e38}</style>
+		<link rel="stylesheet" id="custom-css-css" type="text/css" href="https://s0.wp.com/?custom-css=1&#038;csblog=2VMwd&#038;cscache=6&#038;csrev=12" />
+		</head>
+
+<body class="home page page-id-54 page-template-default mp6 customizer-styles-applied group-blog highlander-enabled highlander-light custom-colors">
+<div id="page" class="hfeed site">
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-header-image">
+			<div class="site-branding-wrapper">
+				<div class="site-branding">
+					<h1 class="site-title"><a href="http://urb-grade.eu/" rel="home">URB-Grade Project</a></h1>
+					<h2 class="site-description">Decision Support in the Cloud</h2>
+				</div>
+			</div>
+		</div>
+	</header><!-- #masthead -->
+	<nav id="site-navigation" class="main-navigation clear" role="navigation">
+		<h1 class="menu-toggle" title="Menu"><span class="screen-reader-text">Menu</span></h1>
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<div class="menu-menu-container"><ul id="menu-menu" class="menu"><li id="menu-item-652" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-54 current_page_item menu-item-652"><a href="http://urb-grade.eu/">HOME</a></li>
+<li id="menu-item-653" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-653"><a href="http://urb-grade.eu/summary/">SUMMARY</a>
+<ul class="sub-menu">
+	<li id="menu-item-654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-654"><a href="http://urb-grade.eu/summary/objectives-2/">Objectives</a></li>
+	<li id="menu-item-655" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-655"><a href="http://urb-grade.eu/summary/pilot-validation-sites/">Pilot Validation Sites</a></li>
+</ul>
+</li>
+<li id="menu-item-656" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-656"><a href="http://urb-grade.eu/consortium/">CONSORTIUM</a></li>
+<li id="menu-item-657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-657"><a href="http://urb-grade.eu/project-results/">PROJECT RESULTS</a></li>
+<li id="menu-item-662" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-662"><a href="http://urb-grade.eu/related-projects/">RELATED PROJECTS</a></li>
+<li id="menu-item-659" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-659"><a href="http://urb-grade.eu/media/">MEDIA</a>
+<ul class="sub-menu">
+	<li id="menu-item-661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-661"><a href="http://urb-grade.eu/media/newspress-releases-2/">Press Releases</a></li>
+	<li id="menu-item-660" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-660"><a href="http://urb-grade.eu/media/gallery/">Gallery</a></li>
+</ul>
+</li>
+<li id="menu-item-658" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-658"><a href="http://urb-grade.eu/download/">DOWNLOADS</a></li>
+<li id="menu-item-663" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-663"><a href="http://urb-grade.eu/contact/">CONTACT</a></li>
+<li id="menu-item-664" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-664"><a href="http://urb-grade.eu/review/">Review</a></li>
+</ul></div>		<div id="header-search-toggle">
+			<span class="screen-reader-text">Search</span>
+		</div>
+		<div id="header-search">
+			<form role="search" method="get" class="search-form" action="http://urb-grade.eu/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>		</div>
+	</nav><!-- #site-navigation -->
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+			
+				
+<article id="post-54" class="post-54 page type-page status-publish hentry">
+	<header class="entry-header">
+		<h1 class="entry-title">HOME</h1>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p style="text-align:justify;">Welcome to URB-Grade project</p>
+<p style="text-align:justify;">URB-Grade: Decision Support Tool for Retrofitting a District, Towards the District as a Service</p>
+<p style="text-align:justify;">The <strong>URB‐Grade</strong> project designs, develops and validates a Platform for Decision Support that will allow the city authorities and utilities to promote and choose the correct actions to upgrade a district to become more <strong>energy efficient</strong>, <strong>cost effective</strong> and to <strong>increase comfort</strong> for its citizens in a District as a Service Platform  approach.</p>
+<p style="text-align:justify;">URB‐Grade project is coordinated by Mirko Presser, Alexandra Institute of Denmark. The project duration is 39 months starting from 1st November 2012.</p>
+<p style="text-align:justify;">
+<p>(<a href="http://urb-grade.eu/privacy-policy">Privacy Policy</a>)</p>
+			</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+
+				
+			
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	<div id="secondary" class="widget-area" role="complementary">
+				<aside id="recent-posts-2" class="widget widget_recent_entries">		<h1 class="widget-title">News and Events</h1>		<ul>
+					<li>
+				<a href="http://urb-grade.eu/2015/11/06/urb-grade-at-smart-city-world-expo-2015/">URB-Grade at Smart City World Expo&nbsp;2015</a>
+						</li>
+					<li>
+				<a href="http://urb-grade.eu/2015/10/13/urb-grade-at-ict-2015/">URB-Grade at ICT-2015</a>
+						</li>
+					<li>
+				<a href="http://urb-grade.eu/2015/05/04/urb-grade-at-kalundborg-smart-energy-2015/">URB-Grade at Kalundborg, Smart Energy&nbsp;2015</a>
+						</li>
+					<li>
+				<a href="http://urb-grade.eu/2015/05/04/urb-grade-at-impact-workshop/">URB-Grade at Impact&nbsp;Workshop</a>
+						</li>
+					<li>
+				<a href="http://urb-grade.eu/2014/12/15/urb-grade-project-video/">URB-Grade Project Video</a>
+						</li>
+				</ul>
+		</aside>		<aside id="rss_links-2" class="widget widget_rss_links"><p class="size-small"><a class="feed-image-link" href="http://urb-grade.eu/feed/" title="Subscribe to Posts"><img src="http://urb-grade.eu/i/rss/green-small.png" alt="RSS Feed" /></a>&nbsp;<a href="http://urb-grade.eu/feed/" title="Subscribe to Posts">RSS - Posts</a></p>
+</aside><aside id="facebook-likebox-2" class="widget widget_facebook_likebox">		<div id="fb-root"></div>
+		<div class="fb-page" data-href="https://www.facebook.com/home.php#!/UrbGradeProject" data-width="200"  data-height="130" data-hide-cover="false" data-show-facepile="false" data-show-posts="false">
+		<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/home.php#!/UrbGradeProject"><a href="https://www.facebook.com/home.php#!/UrbGradeProject"></a></blockquote></div>
+		</div>
+		<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = '//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=249643311490&version=v2.3'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+		</aside>	</div><!-- #secondary -->
+
+	</div><!-- #content -->
+	<footer id="colophon" class="site-footer" role="contentinfo">
+				<div class="site-info">
+			<a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a>
+			<span class="sep"> | </span>
+			<a href="https://wordpress.com/themes/hemingway-rewritten/" title="Learn more about this theme">The Hemingway Rewritten Theme</a>.		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!-- wpcom_wp_footer -->
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201608y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781g'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<link rel='stylesheet' id='all-css-0' href='https://s2.wp.com/wp-content/mu-plugins/widgets/facebook-likebox/style.css?m=1436472654g' type='text/css' media='all' />
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJydj7EOgzAMRH+oroNEB4aKbwnBUIfiRNiQ9u8LWweWdjvd0zvpsGQISYzEMCr2tHGg/LpGveAXsgfNpJjXDvfEMhb/hoXKwrbzwzypfx8Rv/HojdMfrk6c4ckywZDCqjDw8aKd71V9c41rKlfHD3r1WTo='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script src="//stats.wp.com/w.js?51" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'43323877','blog_tz':'1','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'43323877','v':'wpcom','tz':'1','user_id':'0','post':'54','subd':'urbgrade'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhmcmw0bWUwNiVnR3N1V2dDZTM4MGFxVndRQl1HNkJtOEQ0dVBbbk9jP2g4T29lWFFNWUI5OF1sdURfejNaTkYrbHAubzArW0NVMWhLdzBWYmJoSHIybFpVcFlSXW0zOXV3MUIlMXVWOT9xUWpZbzV+Q3pPanBQMCtkUVJfLDEyLCYxdXw1Vlt1NUFDeEYxRE44cV1bYTBwfkNxQTlQWm1iZD1FeTA/N1dZZjk3Y2pSRElxLj8lNn5UTithQ0NMRkl6JWE5SCxFZCVwb0Z0aV8lU3R2ck1CZl9EJWZNc24ld3hXRWU2ZzRvTUo0X1U2T1lRVFVnVnNjYTlddF1rfmxvaXNVeFAuV0J+WEtvWE8xd2stS2ZrbzR3UX5pajM='}]);
+_stq.push([ 'clickTrackerInit', '43323877', '54' ]);
+	</script>
+<noscript><img src="http://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>

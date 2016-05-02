@@ -1,0 +1,571 @@
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head id="ctl00_Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>
+	HOME - NU-AGE
+</title>
+     
+	
+	
+	<script src="/sources/js/jquery-1.4.3.min.js" type="text/javascript"></script>
+    <script src="/sources/js/jquery-ui-1.8.11.custom.min.js" type="text/javascript"></script>
+    <link href="/sources/css/jquery-ui-1.8.11.custom.css" rel="stylesheet" type="text/css" /><link id="ctl00_dynamic_css" rel="stylesheet" type="text/css" media="screen, print" href="/sources/css/site.css" /><link rel="stylesheet" type="text/css" media="print" href="/sources/css/print.css" /> 
+	<script type="text/javascript" src="/sources/js/jquery.cookie.js"></script>
+	<script src="/sources/js/site.js" type="text/javascript"></script> 	
+	<link href="/sources/css/wysiwyg.css" rel="stylesheet" type="text/css" /><meta name="description" content="NU-AGE home" /></head>
+<body>
+
+    <form name="aspnetForm" method="post" action="default.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE0NTYyNTE5NTMPZBYCZg9kFgICAQ9kFgQCAQ8WAh4Kb25LZXlQcmVzcwVYaWYoZXZlbnQua2V5Q29kZT09MTMpIHtkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnY3RsMDBfYnRuU2VhcmNoJykuY2xpY2soKTsgcmV0dXJuIGZhbHNlfWQCDA9kFgICAQ8WBB4JaW5uZXJodG1sBQpEaXNjbGFpbWVyHgRocmVmBQsvZGlzY2xhaW1lcmRk4hVNvOYGY8YvhSaDHahQGu0XHu0=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBwKr0qOoBQLE5ML0AgL9n+COAgL02/OMAgKA7cu2DQLa65TzAQLb/ZfkDb72wncOzrM1iKYvzlByPYUNNGvw" />
+    <a name="top"></a>
+    
+	<div id="header_home">
+    	<div class="page"> 
+    	
+  			<div class="logo left"><a href="/"><img src="/sources/img/logo_home.jpg" width="250" height="185" border="0" /></a></div>  
+  			             
+            <div class="toolbox right">
+            	<div class="searchbox">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                    	<tr>
+                        	<td><input name="ctl00$txtSearch" type="text" id="ctl00_txtSearch" class="searchbox" onKeyPress="if(event.keyCode==13) {document.getElementById('ctl00_btnSearch').click(); return false}" /></td>
+                            <td><a id="ctl00_btnSearch" class="whitebold" href="javascript:__doPostBack('ctl00$btnSearch','')">Search</a></td>
+                        </tr>
+                    </table>
+                </div>                
+                <!-- Extranet login -->
+                <div class="loginbox">
+                    
+                 
+                          <table border="0" cellpadding="0" cellspacing="0">
+                              <tr>
+                                  <td class="fieldspace"><input name="ctl00$txtusername" type="text" id="ctl00_txtusername" class="loginbox" />                             
+                                  <td class="fieldspace"></td>
+                              </tr>
+                              <tr>
+                                  <td class="fieldspace"> <input name="ctl00$txtpassword" type="password" id="ctl00_txtpassword" class="loginbox" /></td>
+                                  <td class="fieldspace"><a id="ctl00_loginbutton" class="whitebold" href="javascript:__doPostBack('ctl00$loginbutton','')"> Login</a></td>
+                                      
+                              </tr>
+                          </table>
+                                                          <table border="0" cellpadding="0" cellspacing="0">
+                      	<tr>
+                        	<td><a href="#" class="white forgotpasswordlink">Forgotten password?</a></td>
+                       
+                        </tr>
+                        <tr><td>
+                          <b></b></td></tr>
+                      </table>                     
+                 
+                   
+                </div>
+                <!-- Extranet login ends-->              
+            </div>
+   
+        	<div class="rss right"><a href="/rss-subscribe" id="ctl00_lnkRSSSubscribe" class="blue"><img src="/sources/img/rss.jpg" width="18" height="18" border="0"></a></div>
+            
+            <div class="font-size right header_subitem">
+            	<table border="0" cellpadding="0" cellspacing="0">
+                	<tr>
+                    	<td><a href="#" class="font01" rel="/sources/css/site_small.css"><img src="/sources/img/font_small.jpg" width="17" height="12" border="0"></a></td>
+                    	<td><img src="/sources/img/font_line.jpg" width="2" height="12"></td>
+                    	<td><a href="#" class="font02" rel="/sources/css/site.css"><img src="/sources/img/font_normal.jpg" width="17" height="12" border="0"></a></td>
+                    	<td><img src="/sources/img/font_line.jpg" width="2" height="12"></td>
+                    	<td><a href="#"  class="font03" rel="/sources/css/site_large.css">
+                    	<img src="/sources/img/font_big.jpg" width="17" height="12" border="0"></a></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="forgotpasswordcontainer" title="Forgotten your password?" style="display:none">
+                <div class="entryform">
+                    <label for="email">Enter your email address here to receive it by email : </label> <br />
+                    <input name="ctl00$txtEmailAddress" type="text" id="ctl00_txtEmailAddress" class="text ui-widget-content ui-corner-all" />
+                </div>
+                <div id="forgottenPasswordFailureText" style="color: red">
+                </div>
+            </div>
+              
+ <div class="baseline_home right"></div>
+   <div class="clear"></div>
+ 
+       
+        </div>
+    </div>
+    
+    <div id="nav">
+    	<div class="page">      
+            <div class="nav">  	
+             
+                        <div class="menuitem topmenu">                                            
+                                    <a id="lnkMenuTop" href='/home' target='' enableviewstate="false"
+                                        class='nav_sel'>
+                                        HOME</a>                                      
+                                    
+                    </div>                                           
+                    
+                        <div class="menuitem topmenu">                                            
+                                    <a id="lnkMenuTop" href='/about-project' target='' enableviewstate="false"
+                                        class='nav'>
+                                        ABOUT NU-AGE</a>                                      
+                                    
+                    </div>                                           
+                    
+                        <div class="menuitem topmenu">                                            
+                                    <a id="lnkMenuTop" href='/Research' target='' enableviewstate="false"
+                                        class='nav'>
+                                        WORK PACKAGES & DELIVERABLES</a>                                      
+                                    
+                                        <div class="menuitemwrapper topmenuwrapper" style="display:none">
+                                        
+                                            <div class="menuitem">
+                                                <a href="/coordination-management" id="ctl00_rptMenuTop_ctl02_rptSubmenu_ctl01_lnkSubmenu" class="nav subnav">
+                                                    WP 1: Coordination and Management</a>
+                                                    <div class="menuseperator"></div>        
+                                                
+                                            </div>                                                           
+                                        
+                                            <div class="menuitem">
+                                                <a href="/sops" id="ctl00_rptMenuTop_ctl02_rptSubmenu_ctl02_lnkSubmenu" class="nav subnav">
+                                                    WP 2: SOPs for recruitment and characterisation of elderly subjects</a>
+                                                    <div class="menuseperator"></div>        
+                                                
+                                            </div>                                                           
+                                        
+                                            <div class="menuitem">
+                                                <a href="/design-execution" id="ctl00_rptMenuTop_ctl02_rptSubmenu_ctl03_lnkSubmenu" class="nav subnav">
+                                                    WP 3: Design and execution of dietary intervention</a>
+                                                    <div class="menuseperator"></div>        
+                                                
+                                            </div>                                                           
+                                        
+                                            <div class="menuitem">
+                                                <a href="/coordination-execution" id="ctl00_rptMenuTop_ctl02_rptSubmenu_ctl04_lnkSubmenu" class="nav subnav">
+                                                    WP 4: Coordination and execution of the non "omics" analyses on biological samples</a>
+                                                    <div class="menuseperator"></div>        
+                                                
+                                            </div>                                                           
+                                        
+                                            <div class="menuitem">
+                                                <a href="/cellular-molecular-effects" id="ctl00_rptMenuTop_ctl02_rptSubmenu_ctl05_lnkSubmenu" class="nav subnav">
+                                                    WP 5: Cellular and molecular effects of whole diet</a>
+                                                    <div class="menuseperator"></div>        
+                                                
+                                            </div>                                                           
+                                        
+                                            <div class="menuitem">
+                                                <a href="/data-management-systems-biology" id="ctl00_rptMenuTop_ctl02_rptSubmenu_ctl06_lnkSubmenu" class="nav subnav">
+                                                    WP 6: Data management and systems biology</a>
+                                                    <div class="menuseperator"></div>        
+                                                
+                                            </div>                                                           
+                                        
+                                            <div class="menuitem">
+                                                <a href="/socio-economic-determinants" id="ctl00_rptMenuTop_ctl02_rptSubmenu_ctl07_lnkSubmenu" class="nav subnav">
+                                                    WP 7: Socio-economic determinants of food choices</a>
+                                                    <div class="menuseperator"></div>        
+                                                
+                                            </div>                                                           
+                                        
+                                            <div class="menuitem">
+                                                <a href="/industry-led-business-plan" id="ctl00_rptMenuTop_ctl02_rptSubmenu_ctl08_lnkSubmenu" class="nav subnav">
+                                                    WP 8: Industry-led business plan to deliver innovative food products for the elderly population</a>
+                                                    <div class="menuseperator"></div>        
+                                                
+                                            </div>                                                           
+                                        
+                                            <div class="menuitem">
+                                                <a href="/design-advanced-traditional-food" id="ctl00_rptMenuTop_ctl02_rptSubmenu_ctl09_lnkSubmenu" class="nav subnav">
+                                                    WP 9: Design of advanced traditional food tailored</a>
+                                                    <div class="menuseperator"></div>        
+                                                
+                                            </div>                                                           
+                                        
+                                            <div class="menuitem">
+                                                <a href="/industrial-design-production" id="ctl00_rptMenuTop_ctl02_rptSubmenu_ctl10_lnkSubmenu" class="nav subnav">
+                                                    WP 10: Industrial design and production of elderly</a>
+                                                    <div class="menuseperator"></div>        
+                                                
+                                            </div>                                                           
+                                        
+                                            <div class="menuitem">
+                                                <a href="/legislative-economic-knowledge-transfer-framework" id="ctl00_rptMenuTop_ctl02_rptSubmenu_ctl11_lnkSubmenu" class="nav subnav">
+                                                    WP 11: Legislative, economical & knowledge transfer framework</a>
+                                                    <div class="menuseperator"></div>        
+                                                
+                                            </div>                                                           
+                                        
+                                            <div class="menuitem">
+                                                <a href="/training-dissemination" id="ctl00_rptMenuTop_ctl02_rptSubmenu_ctl12_lnkSubmenu" class="nav subnav">
+                                                    WP 12: Communication, Training and Dissemination</a>
+                                                    <div class="menuseperator"></div>        
+                                                
+                                            </div>                                                           
+                                        
+                                        </div>                                                           
+                                        
+                    </div>                                           
+                    
+                        <div class="menuitem topmenu">                                            
+                                    <a id="lnkMenuTop" href='/Partners' target='' enableviewstate="false"
+                                        class='nav'>
+                                        CONSORTIUM</a>                                      
+                                    
+                    </div>                                           
+                    
+                        <div class="menuitem topmenu">                                            
+                                    <a id="lnkMenuTop" href='/Join-the-Industrial-platform' target='' enableviewstate="false"
+                                        class='nav'>
+                                        JOIN THE INDUSTRIAL PLATFORM</a>                                      
+                                    
+                    </div>                                           
+                    
+                        <div class="menuitem topmenu">                                            
+                                    <a id="lnkMenuTop" href='/Advisory-board' target='' enableviewstate="false"
+                                        class='nav'>
+                                        ADVISORY BOARD</a>                                      
+                                    
+                    </div>                                           
+                    
+                        <div class="menuitem topmenu">                                            
+                                    <a id="lnkMenuTop" href='/news' target='' enableviewstate="false"
+                                        class='nav'>
+                                        NEWS</a>                                      
+                                    
+                    </div>                                           
+                    
+                        <div class="menuitem topmenu">                                            
+                                    <a id="lnkMenuTop" href='/science_publications' target='' enableviewstate="false"
+                                        class='nav'>
+                                        SCIENCE PUBLICATIONS</a>                                      
+                                    
+                    </div>                                           
+                      
+            </div>              
+        </div>
+    </div>    
+    <div class="clear"></div>
+    
+     
+    <div id="content">
+        <div class="page">
+            
+  
+	
+			
+    <div><div class="left column">
+<div class="dashboard">
+<div id="ctl00_cphBody_ctl02_singleDashboardHeader" class="dashboard_header bg_yellow">
+            About the project
+    </div>
+
+
+        
+        
+
+<div class="dashboard_content bg_white">
+	<p><IMG style="WIDTH: 250px; HEIGHT: 375px" src="/Upload/Images/8%20Couple%20shoppingiStock_000016557575Small.jpg"><BR>
+New dietary strategies addressing the specific needs of elderly population for a healthy ageing in Europe. <BR>
+NU-AGE is a large multidisciplinary consortium with 30 partners, from 16 EU countries, involving nutritionists, biogerontologists, immunologists and molecular biologists from the most prestigious institutions in Europe. <BR>
+</p>  
+</div>
+
+<div id="ctl00_cphBody_ctl02_rptDashboards_ctl00_ctl00_readmorecontainer" class="dashboard_link bg_white">
+    <div align="right">
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td><a href="/about-project" id="ctl00_cphBody_ctl02_rptDashboards_ctl00_ctl00_lnkReadMorePage" class="db_link bg_blue">Read more ››</a></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+    
+
+
+</div>
+<div class="clear"></div></div><div class="left column">
+<div class="dashboard">
+<div id="ctl00_cphBody_ctl05_singleDashboardHeader" class="dashboard_header bg_green">
+            Workplan/Research
+    </div>
+
+
+        
+        
+
+<div class="dashboard_content bg_white">
+	<p>Through its research work, NU-AGE will seek to fill the current lack of knowledge on how the whole diet can impact on and counteract age-related disease and functional decline. This will contribute to improved health and quality of life in the ageing population in Europe.<BR>
+<BR>
+NU-AGE starts by designing a food pyramid for those over 65 years old. This will be developed from food based dietary guidelines, illustrating the proportions of different foods that should be included in a balanced diet. The NU-AGE food pyramid will be designed to meet the nutritional needs of the elderly by emphasising nutrient-density, water, dietary fibre, vitamin D and vitamin B12.<BR>
+</p>  
+</div>
+
+<div id="ctl00_cphBody_ctl05_rptDashboards_ctl00_ctl00_readmorecontainer" class="dashboard_link bg_white">
+    <div align="right">
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td><a href="/Research" id="ctl00_cphBody_ctl05_rptDashboards_ctl00_ctl00_lnkReadMorePage" class="db_link bg_blue">Read more ››</a></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+    
+
+
+</div>
+<div class="clear"></div>
+<div class="dashboard">
+<div id="ctl00_cphBody_ctl07_singleDashboardHeader" class="dashboard_header bg_blue">
+            Join the project
+    </div>
+
+
+        
+        
+
+<div class="dashboard_content bg_white">
+	<p>If you are an industrial company, it is possible for you to express an interest in the
+project. This can be achieved by joining the Industrial Platform!
+</p>  
+</div>
+
+<div id="ctl00_cphBody_ctl07_rptDashboards_ctl00_ctl00_readmorecontainer" class="dashboard_link bg_white">
+    <div align="right">
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td><a href="/Join-the-Industrial-platform" id="ctl00_cphBody_ctl07_rptDashboards_ctl00_ctl00_lnkReadMorePage" class="db_link bg_blue">Read more ››</a></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+    
+
+
+</div>
+<div class="clear"></div></div><div class="left column">
+<div class="dashboard">
+<div id="ctl00_cphBody_ctl10_singleDashboardHeader" class="dashboard_header bg_yellow">
+             Publication
+    </div>
+
+
+        
+        
+
+<div class="dashboard_content bg_white">
+	<p>See the NU-AGE publication in <STRONG>Nature</STRONG>, the leading weekly, international scientific journal, founded in 1869.&nbsp;<BR>
+<A href="/Upload/Media/Hughes_Nature_Perspective_Ageing_2012 copia.pdf" target=_blank>Click here for the publication</A>
+</p>  
+</div>
+
+
+
+
+    
+
+
+</div>
+<div class="clear"></div>
+<div class="dashboard">
+<div id="ctl00_cphBody_ctl12_singleDashboardHeader" class="dashboard_header bg_yellow">
+            Podcast
+    </div>
+
+
+        
+        
+
+<div class="dashboard_content bg_white">
+	<p><span style="font-size: 9pt; font-family: 'Arial','sans-serif'; color: rgb(102, 102, 102);">&nbsp;</span><span style="font-size: 9pt; font-family: 'Arial','sans-serif'; color: rgb(102, 102, 102);"><img alt="" src="/Upload/Images/podcast.jpg">&nbsp;<span style="font-size: 9pt; font-family: 'Arial','sans-serif'; color: rgb(102, 102, 102);">&nbsp;</span></span><br>
+<span id="BugEvents">In a <strong>podcast interview</strong> with EUFIC, NU-AGE coordinator, <strong>Professor Claudio Franceschi</strong> and the project research manager <strong>Dr Aurelia Santoro</strong> from the University of Bologna, outline the key aims and objectives of this important research programme.<br>
+Listen to the podcast: </span><strong><a target="_blank" href="/Upload/Media/nuage1.mp3">click here</a></strong><br>
+</p>  
+</div>
+
+
+
+
+    
+
+
+</div>
+<div class="clear"></div>
+<div class="dashboard">
+<div id="ctl00_cphBody_ctl14_singleDashboardHeader" class="dashboard_header bg_yellow">
+            Video
+    </div>
+
+
+        
+        
+
+<div class="dashboard_content bg_white">
+	<p>Watch the <STRONG>NU-AGE</STRONG> research project on the French TV (not subtitled)<BR>
+<IFRAME height=200 src="http://www.youtube.com/embed/okKFARLOYF8" frameBorder=0 width=270 allowfullscreen=""></IFRAME>
+</p>  
+</div>
+
+
+
+
+    
+
+
+</div>
+<div class="clear"></div></div></div><div class="clear"></div>
+		
+        </div>
+    </div>
+	
+    
+
+<!-- Footer -->	
+<div id="footer">
+    <div class="page">
+        <div class="left partner_logo"><a href="#"><img src="/sources/img/partner_logo01.jpg" width="46" height="30" border="0"></a></div>
+        <div class="left partner_logo"><a href="#"><img src="/sources/img/partner_logo02.jpg" width="46" height="30" border="0"></a></div>
+        <div class="left partner_text">
+            This project is supported by the European Commission under the Food, Agriculture and Fisheries, and Biotechnology Theme of the 7th Framework Programme for Research and Technological Development.
+        </div>
+            
+        <div class="right extra_button_box"> <a href="/disclaimer" id="ctl00_footer1_lnkDisclaimer" class="extra">Disclaimer</a></div>
+        <div class="right extra_button_box"><a href="/sitemap" id="ctl00_footer1_lnkSitemap" class="extra">Sitemap</a></div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	    try {
+	        var pageTracker = _gat._getTracker("UA-444788-45");
+	        pageTracker._trackPageview();
+	    } catch (err) { }
+	</script>
+
+
+    <script language="javascript" type="text/javascript">
+
+        var UsernameWaterMarkText = 'User Name... ';
+        var UserTextBoxClientId = '#ctl00_txtusername';
+        var PasswordTextBoxClientId = '#ctl00_txtpassword';
+
+
+        function watermark(id, watermarkText, watermarkColor, activeColor) {
+            $(id).val(watermarkText).css('color', watermarkColor).focus(function () {
+                if ($(this).val() == watermarkText) {
+                    $(this).val('');
+                    $(this).css('color', activeColor);
+                }
+            }).blur(function () {
+                if (!$(this).val()) {
+                    $(this).val(watermarkText).css('color', watermarkColor);
+                }
+            });
+        }
+
+        jQuery(document).ready(function () {
+            var emailSent = false;
+            $("#forgotpasswordcontainer").dialog({ autoOpen: false, resizable: false, width: 360, modal: true, buttons: {
+                Ok: function () {
+                    if (emailSent) {
+                        $(this).dialog("close");
+                    }
+                    var emailId = $('#ctl00_txtEmailAddress').val();
+                    var jsonText = JSON.stringify({ email: { Value: emailId} });
+                    if (jQuery.trim(emailId).length > 0) {
+                        $.ajax({
+                            type: "POST",
+                            url: '/forgottenpassword.aspx/ForgotenPassword',
+                            contentType: "application/json; charset=utf-8",
+                            data: jsonText,
+                            dataType: "json",
+                            success: function (data) {
+                                emailSent = true;
+                                $('#forgottenPasswordFailureText').html(data.d);
+                                $(".entryform").hide();
+                            },
+                            error: function (data) {
+                                $('#forgottenPasswordFailureText').html(data.d);
+                            }
+                        });
+                    } else {
+                        $('#forgottenPasswordFailureText').html("Email should not be empty");
+                    }
+                }
+            }
+            });
+
+            if ($.cookie("css")) {
+                swithFontSizeSpecificCss($.cookie("css"));
+
+            }
+
+            watermark(UserTextBoxClientId, UsernameWaterMarkText, '#ccc', '#000');
+            watermark(PasswordTextBoxClientId, 'Password ', '#ccc', '#000');
+
+            $(".header_subitem a").click(function () {
+                var currentItem = $(this);
+                var cssStylePath = currentItem.attr('rel');
+                swithFontSizeSpecificCss(cssStylePath);
+                $.cookie("css", cssStylePath);
+                return false;
+            });
+
+
+            function swithFontSizeSpecificCss(cssPath) {
+                var sizeCssLink = $('head link[name="sizecss"]');
+                if (cssPath == "") {
+                    if (sizeCssLink.length > 0) {
+                        sizeCssLink.remove();
+                    }
+                } else {
+                    if (sizeCssLink.length == 0) {
+                        var cssLink = "<link name=\"sizecss\" rel=\"stylesheet\" type=\"text/css\" media=\"screen, print\" href=\"" + cssPath + "\" />";
+                        $('head').append(cssLink);
+                    } else {
+                        sizeCssLink.attr("href", cssPath);
+                    }
+                }
+            }
+
+            $(".forgotpasswordlink").click(function () {
+                $(".entryform").show();
+                $('#forgottenPasswordFailureText').html("");
+                $('#ctl00_txtEmailAddress').val("");
+                $("#forgotpasswordcontainer").dialog('open');
+            });          
+        });
+
+
+        // This will be invoked before form submit. Method registered using the Script manager
+        function beforeFormSubmit() {
+            var username = $(UserTextBoxClientId);
+             if (username.length > 0 && (username.val() == UsernameWaterMarkText || username.val().length == 0)) {
+                 username.val('');
+                 $(PasswordTextBoxClientId).val('');
+             }
+
+             return true;
+        }
+
+     
+	</script>
+
+    </form>	
+    <!-- Version : 1.0.0.5474 -->
+</body>
+</html>

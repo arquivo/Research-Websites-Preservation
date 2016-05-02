@@ -1,0 +1,200 @@
+<!doctype html>   
+<html lang="eng">
+<head>
+<meta charset="UTF-8" />
+<title>Recyval-Nano</title>
+<meta name="robots" content="no-cache" />
+<meta name="title" content="Recyval-Nano" />
+<meta name="description" content="Recyval-Nano" />
+<meta name="keywords" content="Recyval-Nano" />
+<link rel="stylesheet" href="http://www.recyval-nano.eu/css/reset.css" type="text/css" />
+<link href="http://www.recyval-nano.eu/css/estilosrecyval.css" rel="stylesheet" type="text/css">
+<script src="http://www.recyval-nano.eu/js/jquery-1.7.2.min.js"></script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript">
+   document.createElement("nav");
+   document.createElement("header");
+   document.createElement("footer");
+   document.createElement("section");
+   document.createElement("article");
+   document.createElement("aside");
+   document.createElement("hgroup");
+</script>
+<![endif]-->
+<script>
+$(document).ready(function() {
+
+	function comprobar() {
+		
+	
+		//Obtenemos el valor del campo nombre
+		var name = $("input#name").val();
+
+		//Validamos el campo nombre, simplemente miramos que no est vaco
+		if (name == "") {
+			$("label#name_error").show();
+			$("input#name").focus();
+			return false;
+		}
+
+		//Obtenemos el valor del campo password
+		var password = $("input#password").val();
+
+		//Validamos el campo password, simplemente miramos que no est vaco
+		if (password == "") {
+			$("label#pass_error").show();
+			$("input#password").focus();
+			return false;
+		}
+		
+		//Construimos la variable que se guardar en el data del Ajax para pasar al archivo php que procesar los datos
+		var dataString = 'user=' + name + '&password=' + password;
+		
+		function colaEfectos(){
+
+			capa = $(".formember");
+			capatexto = $(".titulobarra");
+			botonbarra = $(".botonbarra");
+			bname = $("#name");
+			bpassword = $("#password");
+			blabel = $(".user");
+			bname.fadeTo(500, 0.0);	
+			bpassword.fadeTo(500, 0.0);		
+			blabel.fadeTo(500, 0.0);
+			botonbarra.fadeTo(500, 0.0);
+			capatexto.animate({
+				'width': '175px'
+			}, { duration: 1000, queue: false });
+
+		}
+		
+		$.ajax({
+			type: "POST",
+			url: "http://www.recyval-nano.eu/login",
+			data: dataString,
+			success: function(valorhtml) {
+			//alert(valorhtml);
+			if (valorhtml=='false')
+			{
+
+				$('.iconoloading').html('<img src="http://www.recyval-nano.eu/imagenes/error.png">');
+
+			} else {
+
+				colaEfectos();		
+				
+				$(".campobarra").fadeTo(500, 0.0, function(){
+					$(".barramenuprivado").html(valorhtml);
+				});
+
+			}
+
+
+		    },
+            beforeSend:function()
+            {	
+				$('.iconoloading').html('<img src="http://www.recyval-nano.eu/imagenes/loading.gif">');
+            }
+
+
+		});
+		return false;
+	}
+	
+	$(".botonbarra").click(function() {comprobar();});
+	$('#password').bind('keyup', function (e) {
+	  var key = e.keyCode || e.which;
+	  if (key === 13) {
+		comprobar();  
+	  };
+	});  
+	
+	
+ });
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1194092-38', 'recyval-nano.eu');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+
+<body>
+
+<header class="cabecera">
+  <div class="centrar">
+  	<a href="http://www.recyval-nano.eu/"><h1 class="logo">Recyval-Nano</h1></a>
+    <nav class="menu">
+      
+	  		
+		<div class="barramenuprivado">
+		<div class="iconoloading"></div>
+        <form action="" method="post" id="form_test" class="formember">
+		<fieldset>
+			<legend class="areaprivada">Member Area</legend>
+			
+			<label for="nombre" class="user">User</label>
+			<input type="text" name="name" id="name" title="user" class="campobarra"/>
+			
+			<label for="password" class="user">Password</label>
+			<input type="password" name="password" id="password" title="password" class="campobarra"/>
+			
+			<div class="botonbarra"></div>
+		
+		</fieldset>
+		</form>
+      
+      </div>
+	  
+
+		      
+	  <ul class="menupublico">
+      <li><a href="http://www.recyval-nano.eu/web/content/40_About-the-project" class="elementomenupu">About the project</a></li><li class="rayamenupu"></li><li><a href="http://www.recyval-nano.eu/web/content/44_Project-partners" class="elementomenupu">Project partners</a></li><li class="rayamenupu"></li><li><a href="http://www.recyval-nano.eu/web/content/45_news" class="elementomenupu">News</a></li><li class="rayamenupu"></li><li><a href="http://www.recyval-nano.eu/web/content/46_documents" class="elementomenupu">Documents</a></li>	  </ul>
+
+    </nav>
+  </div>
+</header>
+<div class="franjatitulo">
+			<div class="centrar">
+			  <div class="titulogeneral">Development of recovery processes<br/> 
+for recycling of valuable components from FPDs (In, Y, Nd) <br/> 
+for the production of high added value NPs. (RECYVAL-NANO)</div>
+			</div>
+		</div>
+
+	<!-- Contenido -->
+
+		<div class="centrar">
+		<img src="http://www.recyval-nano.eu/assets/galeria/0db8662a7b573411f59fb05198037c69.png" alt="recyval-nano"> 
+		</div>
+    
+	<!-- Fin contenido -->
+<!-- inicio footer -->
+
+<footer class="pie">
+  <div class="logos"></div>
+  <div class="pieizq">
+  <span class="destacadopie">RECYVAL-NANO<br/>
+NMP2-SE-2012-310312</span><br/>
+    The project is funded by the Seventh Framework Programme for Research and Technological Development (FP7), the European Union main instrument for funding research over the period 2007 to 2013
+</div>
+<div class="pieder">
+  <span class="destacadopie">Coordinator:</span><br/>
+    Centro tecnológico L´Urederra<br/>
+Área Industrial “Perguita” C/ A nº1, 31210 Los Arcos, Navarra (Spain)<br/>
+Tf: +34 948640318<br/>
+<a href="http://www.lurederra.es" target="_blank" class="pieder">www.lurederra.es</a><br/>
+    <a href="mailto:info@recyval-nano.eu" class="pieder">info@recyval-nano.eu</a> 
+  </div>
+</footer>
+
+
+</body>
+</html>

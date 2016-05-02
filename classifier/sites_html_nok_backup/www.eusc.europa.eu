@@ -1,0 +1,224 @@
+﻿<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+<head>
+	<!-- <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>SATCEN - European Union Satellite Centre</title>
+	<meta name="description" content="SATCEN - European Union Satellite Centre." />
+	<meta name="Title" content="SATCEN - European Union Satellite Centre">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/SatCen.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/1140.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/funciones.js"></script>
+	
+	
+		
+
+</head>
+
+<body>
+
+<!--//BLOQUE COOKIES-->
+<div style="display: block;" id="barraaceptacion">
+    <div class="inner">
+        <strong>
+		<p>You are informed that the SatCen website uses proprietary and third party cookies to compile information in order to optimise certain browsing dynamics. These cookies are not used to gather personal information. By continuing to browse the website you implicitly accept the use of said cookies.</p> 
+
+        <a href="javascript:void(0);" class="ok" onclick="PonerCookie();"><b>OK</b></a> |
+        <a href="http://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm" target="_blank" class="info">More information</a>
+    </div>
+</div>
+
+<script>
+<!--//BLOQUE COOKIES-->
+function getCookie(c_name){
+	var c_value = document.cookie;
+	var c_start = c_value.indexOf(" " + c_name + "=");
+	if (c_start == -1){
+		c_start = c_value.indexOf(c_name + "=");
+	}
+	if (c_start == -1){
+		c_value = null;
+	}else{
+		c_start = c_value.indexOf("=", c_start) + 1;
+		var c_end = c_value.indexOf(";", c_start);
+		if (c_end == -1){
+			c_end = c_value.length;
+		}
+		c_value = unescape(c_value.substring(c_start,c_end));
+	}
+	//alert(c_value);
+	return c_value;
+}
+
+function setCookie(c_name,value,exdays){
+	var exdate=new Date();
+	exdate.setDate(exdate.getDate() + exdays);
+	var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+	document.cookie=c_name + "=" + c_value;
+}
+
+if(getCookie('tiendaaviso')==1){
+	document.getElementById("barraaceptacion").style.display="none";
+}
+function PonerCookie(){
+	setCookie('tiendaaviso','1',365);
+	document.getElementById("barraaceptacion").style.display="none";
+}
+
+<!--//FIN BLOQUE COOKIES-->
+
+
+</script>
+
+<!--Structure for 12 columns based layout-->
+<div id="contenedor" class="container12">
+    
+	<div id="cabecera" class="cabecera">
+		<div class="logo_top"><a href="index.php"><img src="images/logo_top.png" title="Home"></a></div>
+	
+	</div>	
+	
+	<div class="column12 cuadro_primera_home" >
+				<h1>News, publications and events</h1>
+		<div class="column3"><h3 style="text-align: center;">
+	2016 Conference on Big Data from Space</h3>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p style="text-align: center;">
+	<a href="https://www.satcen.europa.eu/programmes-link.php?section=11&amp;principal=9"><img alt="" src="http://www.satcen.europa.eu/userfiles/images/20150226_135746.jpg" style="width: 225px; height: 163px;" /></a></p>
+<p style="text-align: center;">
+	&nbsp;</p>
+<p style="text-align: center;">
+	15-17 March 2016, Santa Cruz de Tenerife, Spain</p>
+<p>
+	&nbsp;</p>
+</div>
+		<div class="column3"><h3 style="text-align: center;">
+	Mr Michael Linhart, Federal MFA of Austria, visits the SatCen</h3>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" src="http://www.satcen.europa.eu/userfiles/images/20151120002.jpg" style="width: 230px; height: 162px;" /></p>
+<p style="text-align: center;">
+	&nbsp;</p>
+<p style="text-align: center;">
+	Please click <a href="https://www.satcen.europa.eu/see_event.php?event=13">here</a> to read more.</p>
+<p style="text-align: center;">
+	&nbsp;</p>
+<p style="text-align: center;">
+	&nbsp;</p>
+</div>
+		<div class="column3 alpha"><h3 style="text-align: center;">
+	Representatives of the Polish Embassy in Madrid visit the SatCen</h3>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" src="http://www.satcen.europa.eu/userfiles/images/20160224001.jpg" style="width: 240px; height: 160px;" /></p>
+<p>
+	&nbsp;</p>
+<p style="text-align: center;">
+	Please click <a href="https://www.satcen.europa.eu/see_event.php?event=15">here</a> to read more.</p>
+</div>
+		<div class="column3 alpha"><h3 style="text-align: center;">
+	Visit of students from the Spanish and Portuguese Diplomatic Schools</h3>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" src="http://www.satcen.europa.eu/userfiles/images/20160218003.jpg" style="width: 237px; height: 157px;" /></p>
+<p>
+	&nbsp;</p>
+<p style="text-align: center;">
+	Please click <a href="https://www.satcen.europa.eu/see_event.php?event=14">here</a> to read more.</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+</div>
+		
+		
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div class="column3 cuadro_segunda_home cuadro_seccion" >
+		<h2>About the EU SatCen</h2>
+		<div class="espacio_foto"><img src="fotos_destacados_home/FOTO3_400px.jpg" class="img_total" /></div>
+		<p class=" enlace_Azul_celeste">
+			<ul>
+				<li><a href="centre.php?menu=1">The Centre</a></li>
+				<li><a href="structure.php?menu=2">Structure</a></li>
+				<li><a href="key.php?menu=3">Key documents and publications</a></li>
+				<li><a href="events.php?menu=4">Events</a></li>
+				<li><a href="links.php?menu=5">CSDP links</a></li>
+				<li><a href="gallery.php?menu=6">Photos and videos</a></li>
+			</ul>
+		</p>
+	</div>
+	<div class="column3 cuadro_segunda_home cuadro_seccion" >
+		<h2>Services</h2>
+		<p class="top_space_0">
+			<ul>
+				<li><a href="geospatial-Intelligence.php?menu=1">Geospatial Intelligence</a></li>
+				<li><a href="training.php?menu=2">Training</a></li>
+				<li><a href="programmes.php">Capability development initiatives</a></li>
+			</ul>
+			
+		</p>
+		<div class="espacio_foto"><img src="fotos_destacados_home/FOTO4_400px.jpg" class="img_total" /></div>
+	</div>
+	<div class="column3 cuadro_segunda_home cuadro_seccion" >
+		<h2>Recruitment & Procurement</h2>
+		<div class="espacio_foto"><img src="fotos_destacados_home/FOTO6_400px.jpg" class="img_total" /></div>
+		<p>
+			
+			<ul>
+			<li><a href="recruitment.php?menu=1">Recruitment procedures</a></li>
+			<li><a href="recruitment.php?menu=2">Secondment of experts</a></li>
+			<li><a href="recruitment.php?menu=3">Traineeship programmes</a></li>
+			<li><a href="vacancies.php?menu=4">Vacancies</a></li>
+			<li><a href="more_information.php?info=4">Procurement</a></li>
+			</ul>
+	
+		</p>
+		</div>
+	<div class="column3 cuadro_segunda_home cuadro_seccion" >
+		
+		<h2>Contact us</h2>
+		
+		<p >You can contact the SatCen either via our Brussels Office or by sending an email to info@satcen.europa.eu <br /><br />
+		<span class="enlace_Azul_celeste"><a href="contacto.php">More contact information &rsaquo;&rsaquo;</a></span></p>
+		<div class="espacio_foto centrar_elemento"><a href="contacto.php"><img src="fotos_destacados_home/FOTO7.jpg" class="sin_borde centrar_elemento"  /></a></div>
+		
+	</div>
+	
+		
+	
+</div>
+
+
+<div id="pie">
+	<div class="container12">
+		<div class="column9"><span class="pie">European Union Satellite Centre Tel. +34 91 678 60 00 Fax: +34 91 678 60 06 Apdo. de Correos 511 E-28850 Torrejón de Ardoz. Madrid</span></div>
+		<div class="column3"><span class="firma">SatCen 2015 © All rights reserved</span></div>
+	</div>	
+
+</div>
+ 
+
+</body>
+</html>

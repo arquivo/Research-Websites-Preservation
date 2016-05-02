@@ -1,0 +1,90 @@
+ 			<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head><title>SECURENV</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+<script src="securenv.js" type="text/javascript"></script>
+<link href="securenv.css" type="text/css" rel="stylesheet">
+<script language="Javascript">
+var t=new Array();
+function showsm(id) {
+ clearTimeout(t[id]);
+ document.getElementById('submenu'+id).style.display='block'; 
+}
+function showssm(id) {
+ clearTimeout(t[id]);
+ document.getElementById('submenu'+id).style.display='block';
+}
+function hidesm(id) { t[id]=setTimeout("hide("+id+")",100); }
+function hide(id) { document.getElementById('submenu'+id).style.display='none'; }
+</script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+<div id="container">
+ <div id="header"><table cellpadding="0" cellspacing="0" align="center">
+  <tr><td rowspan="2"><img src="images/logo.png" border="0" usemap="#mainpic"></td><td colspan="6"><img src="images/header.png" border="0" usemap="#headpic"></td></tr>
+  <tr><td><a href="home.php"><img src="images/home_b.png" width="78" height="19" alt="Home" border="0" onmouseover="this.src='images/home_ba.png'" onmouseout="this.src='images/home_b.png'" style="cursor:pointer;"></a></td>
+   <td><a href="about.php" onmouseover="showsm(1);" onmouseout="hidesm(1);"><img src="images/about_b.png" width="164" height="19" alt="About the project" border="0" onmouseover="this.src='images/about_ba.png'" onmouseout="this.src='images/about_b.png'" style="cursor:pointer;"></a></td>
+   <td><a href="partners.php"><img src="images/partners_b.png" width="122" height="19" alt="Partners area" border="0" onmouseover="this.src='images/partners_ba.png'" onmouseout="this.src='images/partners_b.png'" style="cursor:pointer;"></a></td>
+   <td><a href="downloads.php"><img src="images/downloads_b.png" width="116" height="19" alt="Downloads" border="0" onmouseover="this.src='images/downloads_ba.png'" onmouseout="this.src='images/downloads_b.png'" style="cursor:pointer;"></a></td>   
+   <td><a href="database.php"><img src="images/database_b.png" width="116" height="19" alt="Database" border="0" onmouseover="this.src='images/database_ba.png'" onmouseout="this.src='images/database_b.png'" style="cursor:pointer;"></a></td>
+   
+   <td style="background:#0f4d2a;"><img src="images/spacer.gif" width="129" height="19"></td></tr>
+   
+  </table> 
+ </div>
+ <div id="submenu1" onmouseover="showssm(1);" onmouseout="hidesm(1);"><table cellpadding="0" cellspacing="0">
+ <!--tr><td><a href="background.php"><img src="images/background_b.png" width="164" height="19" alt="Background" border="0" onmouseover="this.src='images/background_ba.png'" onmouseout="this.src='images/background_b.png'" style="cursor:pointer;"></a></td></tr-->
+ <tr><td><a href="objectives.php"><img src="images/objectives_b.png" width="164" height="19" alt="Objectives" border="0" onmouseover="this.src='images/objectives_ba.png'" onmouseout="this.src='images/objectives_b.png'" style="cursor:pointer;"></a></td></tr>
+ <!--tr><td><a href="reports.php"><img src="images/reports_b.png" width="164" height="19" alt="Reports" border="0" onmouseover="this.src='images/reports_ba.png'" onmouseout="this.src='images/reports_b.png'" style="cursor:pointer;"></a></td></tr-->
+ <tr><td><a href="news.php"><img src="images/news_b.png" width="164" height="19" alt="News" border="0" onmouseover="this.src='images/news_ba.png'" onmouseout="this.src='images/news_b.png'" style="cursor:pointer;"></a></td></tr>
+ <tr><td><a href="events.php"><img src="images/events_b.png" width="164" height="19" alt="Events" border="0" onmouseover="this.src='images/events_ba.png'" onmouseout="this.src='images/events_b.png'" style="cursor:pointer;"></a></td></tr>
+ <tr><td><a href="links.php"><img src="images/links_b.png" width="164" height="19" alt="Links" border="0" onmouseover="this.src='images/links_ba.png'" onmouseout="this.src='images/links_b.png'" style="cursor:pointer;"></a></td></tr>
+ <tr><td><a href="consortium.php"><img src="images/consortium_b.png" width="164" height="19" alt="Consortium" border="0" onmouseover="this.src='images/consortium_ba.png'" onmouseout="this.src='images/consortium_b.png'" style="cursor:pointer;"></a></td></tr>
+</table></div>
+ <div id="main"><table cellpadding="0" cellspacing="0" align="center">
+  <td valign="top">
+<div id="content"><h1>Introduction</h1><br><img src="images/homepic.png" align="left" style="padding-right:5px;">This is a research project that is financed by the EU Seventh Framework Program for Security Research. It will run from April 2009 to March 2011 and has three partners from Hungary, Germany and Sweden.<br><br>Environmental security is becoming an important issue for the future development of the European Union. New threats and the potential consequences of these are becoming more difficult to predict so that authorities can be well-prepared. SECURENV is part of the EU FP7 Security Research that aims to develop technologies and knowledge needed to ensure the security of citizens from threats from non-state actors, natural disasters and industrial accidents while respecting fundamental human rights.<br><br>Developments during recent years have shown that industrial accidents and natural disasters are still of major concern for the EU and the international community. The future developments concerning such risks and how human actions of various types may affect them is not well understood.<br><br>Industrial accidents and natural disasters have repeatedly shown how sensitive the environment is to human negligence. Despite all efforts and advances in security and civil protection, the human habitat remains most vulnerable. The overall objective of the project is to increase the knowledge base needed to ensure the security of the natural environment. The project will analyse major industrial and environmental accidents from a security perspective using foresight methods and scenario-building techniques to give end-users a better understanding of future risks. Natural phenomena (fires, floods), industrial accidents (chemical, biological etc.) and other possible threats in a broad perspective will be investigated. The project will directly contribute to the implementation and planning of the future Security theme of the 7th Framework Programme and it will also help shaping EU policies in related fields.
+</div>  
+  <div id="footer"><img src="images/logos.jpg" border="0" usemap="#logopic"><br>Securenv 2009</div></td>
+  <td valign="top"><div id="sidebar">
+   <div id="login">
+    
+   <form action="/index.php" method="post">
+    <table cellspacing="0" cellpadding="1" style="padding-top:7px;">
+     <tr><td colspan="2" class="lerror" align="center">&nbsp;</td></tr>
+     <tr><td class="ltext">Username:</td><td><input type="text" name="liuser" class="loginbox"></td></tr>
+     <tr><td class="ltext">Password:</td><td><input type="password" name="lipassw" class="loginbox"></td></tr>
+     <tr><td></td><td><input type="image" src="images/login_btn.png" onclick="this.submit();"></td></tr>
+	 <tr><td colspan="2" style="padding:5px 0 0 8px; text-align:left;"><a href="reminder.php" class="rem">Forgot your password?</b></td></tr>
+    </table>
+   </form>
+   </div>    
+   <div style="padding-top:8px;"><a href="registration.php"><img src="images/registration_b.png" width="201" height="25" alt="Registration" border="0" onmouseover="this.src='images/registration_ba.png'" onmouseout="this.src='images/registration_b.png'" style="cursor:pointer;"></a></div>
+   <div style="padding-top:8px;"><iframe src="mq_news.php" width="199" height="201" scrolling="no" frameborder="0" style="border:1px solid #003f2d; background:#ffffff;"></iframe></div>
+   <div style="padding-top:8px;"><a href="contact.php"><img src="images/contact_b.png" width="201" height="24" alt="Contact" border="0" onmouseover="this.src='images/contact_ba.png'" onmouseout="this.src='images/contact_b.png'" style="cursor:pointer;"></a></div>
+   <!--div style="padding:0 0 8px 65px;">
+    <table width="135" border="0" cellpadding="2" cellspacing="0" title="Click to Verify - This site chose VeriSign SSL for secure e-commerce and confidential communications.">
+<tr>
+<td width="135" align="right"><script src="https://seal.verisign.com/getseal?host_name=www.securenv.eu&size=S&use_flash=NO&use_transparent=NO&lang=en"></script><br />
+<a href="http://www.verisign.com/ssl-certificate/" target="_blank"  style="color:#000000; text-decoration:none; font:bold 7px verdana,sans-serif; letter-spacing:.5px; text-align:center; margin:0px; padding:0px;">ABOUT SSL CERTIFICATES</a></td>
+</tr>
+</table></div-->
+  </div></td>
+ </table></div>
+</div>
+<map id="mainpic" name="mainpic">
+ <area shape="rect" coords="10,10,73,72" href="index.php">
+</map>
+<map id="headpic" name="headpic">
+ <area shape="rect" coords="655,8,714,56" href="http://cordis.europa.eu/fp7" target="_blank">
+</map>
+<map id="logopic" name="logopic">
+ <area shape="rect" coords="23,10,70,54" href="http://www.adelphi-research.org" target="_blank">
+ <area shape="rect" coords="155,6,227,56" href="http://www.foi.se" target="_blank">
+ <area shape="rect" coords="307,16,460,47" href="http://geonardo.com" target="_blank">
+ <area shape="rect" coords="533,16,585,50" href="http://ec.europa.eu" target="_blank">
+</map>
+</body>
+</html>

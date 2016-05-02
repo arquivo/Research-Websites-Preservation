@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it"> 
+
+	<head>
+		<meta name="description" content="" />	
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="author" content="C.S.I. - Ufficio Applicazioni" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+		<base href="http://www.eumet.unisa.it" /> 
+
+<title>EUMET</title>
+<link href="styles/base.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="styles/page.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="styles/rubrica.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="modules/photogallery/front/styles/colorbox.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="modules/photogallery/front/styles/style.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="modules/link/front/styles/style.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="modules/channel/front/styles/style.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="modules/download/front/styles/style.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="modules/text/front/styles/style.css" media="screen" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/unisa.js"></script>
+<script type="text/javascript" src="modules/photogallery/front/scripts/init.js"></script>
+<script type="text/javascript" src="modules/photogallery/front/scripts/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="modules/photogallery/front/scripts/jquery.jDiaporama.js"></script>
+
+	</head>
+	
+	<body>
+	
+		<div id="wrapper">
+
+		<div id="sup-top">
+<a href="http://www.unisa.it" title="italiano"><img src="images/it.png" alt="unisa ITA" /></a>&nbsp;
+<a href="http://www.unisa.it/english/index" title="english"><img src="images/en.png" alt="unisa ENG" /></a>
+</div>
+		
+		
+		<div id="page">
+		<div id="top">
+
+    <div id="logo">
+        <a href="http://www.unisa.it">
+            <img src="http://www.unisa.it/images/logo.gif?a=123" alt="Home Unisa" id="logo-unisa" /></a>
+        <img src="http://www.unisa.it/images/campusvivendi.gif" alt="titolo" />
+    </div>
+
+    <div id="top-forms">
+        <form class="top-form" action="http://google.com/cse">
+            <div>
+                <input type="hidden" name="cx" value="011700611093762809659:xgtzmh7kiyg" />
+                <input type="hidden" name="cof" value="FORID:0" />
+                <input type="hidden" name="ie" value="UTF-8" />
+                <label for="cerca">Cerca</label><input id="cerca" class="input-text" type="text" name="q" /><input type="image" src="http://www.unisa.it/images/search.png" value="Submit" alt="Submit"/>
+            </div>
+        </form>
+        <br /><br />
+        <form class="top-form" action="http://www.unisa.it/quick-links" method="get">
+            <div>
+                <label for="link-rapidi">LINK RAPIDI</label>
+                <select id="link-rapidi" name='quicklinks' class="select-text" >
+                    <option value="http://www.unisa.it">Seleziona il link</option>
+                    <option value="http://web.unisa.it/home/news">Bacheca</option>
+                    <option value="http://web.unisa.it/home/eventi">Agenda Eventi</option>
+                    <option value="http://esse3web.unisa.it/unisa/Guide/ListaFacoltaCorsi.do">Didattica a.a. 2015/16</option>
+                    <option value="http://web.unisa.it/didattica/segreteria/servizi?servizio=28">Diploma Supplement</option>
+                    <option value="http://web.unisa.it/ateneo/strutture/dipartimenti">Dipartimenti</option>
+                    <option value="http://www.biblioteche.unisa.it">Biblioteche</option>
+                    <option value="http://www.unisa.it/ateneo/amministrazione/index">Uffici</option>
+                    <option value="http://web.unisa.it/ateneo/strutture/centri">Centri</option>
+                    <!-- <option value="http://www.unisa.it/ateneo/commissionestatuto/index">Commissione Statuto</option> -->
+                    <option value="http://comunicazione.unisa.it/index">Rassegna stampa e Comunicazione</option>
+                    <option value="http://www.unisa.it/AREAII/uff_relazioniconilpubblico/index">Relazioni con il pubblico</option>
+                    <option value="http://www.orientamento.unisa.it/">Orientamento</option>
+                    <option value="http://www.supportosegreterie.unisa.it/index">Servizi on line studenti</option>
+                    <option value="http://esse3web.unisa.it/unisa/Start.do">Servizi on line docenti</option>
+                    <option value="http://www.unisa.it/personale/servizi_informatici">Servizi informatici</option>
+                    <option value="http://wifi.unisa.it">Wifi Unisa</option>
+                    <option value="http://www.unisa.it/AREAVI/meteo/index">Stazione Meteo di Ateneo</option>
+                    <option value="http://www.unisa.it/albo">Bandi concorsi e avvisi</option>
+                    <option value="http://gareonline.unisa.it/Portale/index.asp">Gare on line</option>
+                    <!-- <option value="http://www.unisa.it/bandi_concorsi_e_gare/index.php">Concorsi bandi e gare</option> -->
+                    <option value="http://web.unisa.it/didattica/post-laurea">Formazione Post Laurea</option>
+                    <!-- <option value="http://www.unisa.it/ricerca/trasferimentotecnologico/index">Trasferimento tecnologico</option> -->
+                    <option value="http://www.unisa.it/qualita/index">Qualit&agrave; e valutazione in Ateneo</option>
+                    <option value="http://www.unisa.it/centri_e_vari/presidioqualita/index">Presidio Qualit&agrave; di Ateneo</option>
+					<option value="http://www.giovani.unisa.it/">Osservatorio Culture Giovanili</option>
+                    <option value="http://www.unisa.it/AREAIII/uff_dirittoallostudio/servizio_civile/index">Servizio Civile</option>
+                  <!--  <option value="http://www.unisa.it/personale/trasparenza/privacy">Privacy</option>
+                    <option value="http://www.unisa.it/personale/trasparenza/notelegali">Note legali</option>
+                    <option value="http://www.unisa.it/personale/trasparenza/sititematici">Elenco siti tematici</option>
+                    <option value="http://www.unisa.it/personale/trasparenza/obiettivi">Obiettivi di accessibilità</option>-->
+                    <!--<option value="http://www.unisa.it/AREAII/uff_coordinamentoaffarigenerali/uff_archiviogeneralediateneo/albo/index">Albo ufficiale di Ateneo</option>-->	
+                    <option value="http://www.unisa.it/centri_e_vari/placement/index">Servizio di Placement</option>
+                </select><input type="image" src="images/go.png" value="Submit" alt="Submit"/>
+            </div>
+        </form>
+
+        <ul>
+            <li><a href="http://www.unisa.it/contatti" title="Contatti">Contatti</a></li>
+            <li><a href="http://rubrica.unisa.it/" title="Rubrica">Rubrica</a></li>
+            <li><a href="http://www.unisa.it/webmail" title="Webmail">Webmail</a></li>
+        </ul>
+
+
+    </div>
+
+</div>
+
+<ul id="sup-header" class="channels" >
+	<li><a href="http://web.unisa.it/servizi-on-line" style="background:#325d88" title="Servizi on Line">Servizi on Line</a></li>
+    <li><a href="http://www.international.unisa.it/" style="background:#325d88" title="International">International</a></li>
+    <li><a href="http://www.unisa.it/vivere_il_campus/index" style="background:#325d88" title="Vivere il Campus">Vivere il Campus</a></li>
+    <li><a href="http://www.unisa.it/ricerca/index"  style="background:#325d88" title="Dipartimenti e Ricerca">Ricerca</a></li>
+    <li><a href="http://web.unisa.it/didattica"  style="background:#325d88" title="Facolt&agrave; e Didattica">Didattica</a></li>
+    <li><a href="http://www.unisa.it/ateneo/index" style="background:#325d88" title="Ateneo">Ateneo</a></li>
+</ul>
+
+		
+		<div id="top-page"> 
+			<div id="image-header">
+						</div> 
+			
+			<h1 id="structure-title">
+			EUMET			</h1> 
+
+			<h5 id="breadcrumb">
+			<strong>Home</strong> | <a href="http://www3.unisa.it/centri_e_vari/index">centri_e_vari</a> | <a href="http://www3.unisa.it/centri_e_vari/eumet/index">eumet</a>			</h5> 
+			
+		</div> 		
+
+		<div id="sub-header"> 
+			<div id="channel-title">
+			<span>EuMet</span>			</div> 
+			<ul id="channels" class='channels'>
+			<li><a href='http://www.eumet.unisa.it/reserved/reserved' title='Reserved Area'>Reserved Area</a><ul>
+<li><a href='http://www.eumet.unisa.it/reserved/reserved'>Reserved</a></li>
+</ul></li><li><a href='http://www.eumet.unisa.it/publications/publications' title='publications'>publications</a><ul>
+<li><a href='http://www.eumet.unisa.it/publications/publications'>Eumet Publications</a></li>
+</ul></li><li><a href='http://www.eumet.unisa.it/partners/index' title='Partners'>Partners</a><ul>
+<li><a href='http://www3.unisa.it/centri_e_vari/eumet/partners/index'>Partners</a></li>
+</ul></li><li class="current-channel"><a href='http://www.eumet.unisa.it/index' title='EuMet'>EuMet</a><ul>
+<li><a href='http://www3.unisa.it/centri_e_vari/eumet/index'>EUMET</a></li>
+<li><a href='http://www3.unisa.it/centri_e_vari/eumet/partners/index'>Partners</a></li>
+<li><a href='http://www3.unisa.it/centri_e_vari/eumet/newsletter/index'>Newsletter</a></li>
+<li><a href='http://www.eumet.unisa.it/publications/publications'>Eumet Publications</a></li>
+<li><a href='http://www.eumet.unisa.it/reserved/reserved'>Reserved</a></li>
+</ul></li>			</ul> 
+		</div>
+			
+		<div id="middle-page"> 
+			<div id="left-navigator">
+			<ul class='links'>
+<li  class="current-link"><a href='http://www3.unisa.it/centri_e_vari/eumet/index'>EUMET</a></li>
+<li ><a href='http://www3.unisa.it/centri_e_vari/eumet/partners/index'>Partners</a></li>
+<li ><a href='http://www3.unisa.it/centri_e_vari/eumet/newsletter/index'>Newsletter</a></li>
+<li ><a href='http://www.eumet.unisa.it/publications/publications'>Eumet Publications</a></li>
+<li ><a href='http://www.eumet.unisa.it/reserved/reserved'>Reserved</a></li>
+</ul>			</div>			
+		
+			
+			<div id="wrapper-page"> 
+				<div id="content-page" class="layout3">
+					<div id="column-c1" class="column">
+						<div class="wrapper">
+							<div class="text">
+<h2>Welcome message</h2>
+<p>Welcome to the EUMET !</p>
+<p>Here you can find the last info about the progress of the EuMet project.</p>
+<p>New developments will be posted shortly</p>
+<p>&#160;</p></div>
+<div class="detail">
+<img src="/uploads/5172/eumet.jpg" title="Logo EUMET" alt="Logo EUMET" />
+</div>
+												
+						</div>
+					</div> 
+					<div id="column-c2" class="column">
+						<div class="wrapper">
+							<div class="text">
+<h2>The EuMet official webpage</h2>
+<p>EUMET: Design, Development, Utilization and Commercialization Of Olefin Metathesis<br /> Catalysts<br /><br /> This server and the research leading to the results presented here have  received funding from the European Community's Seventh Framework  Programme (FP7/2007-2013) under grant agreement n&#176; CP-FP 211468-</p>
+<p>&#160;</p></div>
+						</div>
+					</div> 					
+				</div> 
+			</div> 
+
+		
+		<div id="footer">
+<div id="content-footer">
+<dl class='results'>
+<dt>Università degli Studi di Salerno</dt>
+<dd>Via Giovanni Paolo II, 132 - 84084 - Fisciano (SA)</dd></dl>
+</div>
+<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+    <script type="text/javascript">
+try {
+  var pageTracker = _gat._getTracker("UA-6301633-9");
+  pageTracker._setDomainName(".unisa.it");
+  pageTracker._trackPageview();
+} catch(err) {}
+</script>
+</div>
+		
+		</div> 		
+
+		</div>
+		
+		<!--
+<div id="bottom" style="text-align:left">
+<a href="https://www.facebook.com/unisalerno" title="UniSA Facebook"><img src="http://193.205.160.20/images/facebook.gif" style="width:100px" alt="UniSA Facebook"></a>
+</div>
+-->		
+
+		</div>		
+	</body>
+
+</html>
+

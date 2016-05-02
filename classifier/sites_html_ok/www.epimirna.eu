@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!--
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2013 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/
+	-->
+	<base href="http://www.epimirna.eu/">
+	<link rel="shortcut icon" href="http://www.epimirna.eu/favicon.ico" type="image/x-ico; charset=binary">
+	<link rel="icon" href="http://www.epimirna.eu/favicon.ico" type="image/x-ico; charset=binary">
+	<meta name="description" content="The European collaborative project EpimiRNA aims to understand molecular mechanisms, diagnostics and develop novel therapeutics for epilepsy.">
+	<meta name="keywords" content="EpimiRNA, Epilepsy, Epilepsie, miRNA">
+	<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_65ed2cc546.css?1448011237" media="all">
+	<link rel="stylesheet" type="text/css" href="typo3conf/ext/powermail/Resources/Public/Css/jquery.ui.theme.css?1393408836" media="all">
+	<link rel="stylesheet" type="text/css" href="typo3conf/ext/powermail/Resources/Public/Css/jquery.ui.datepicker.css?1431682577" media="all">
+	<link rel="stylesheet" type="text/css" href="typo3conf/ext/powermail/Resources/Public/Css/CssBasic.css?1393408836" media="all">
+	<link rel="stylesheet" type="text/css" href="fileadmin/templates/css/style.css?1448281276" media="all" title="default">
+	<link rel="stylesheet" type="text/css" href="fileadmin/templates/css/mobile.css?1446111943" media="all">
+	<link rel="stylesheet" type="text/css" href="fileadmin/templates/css/epimirna/common.less?1455088754" media="all">
+	<script src="fileadmin/templates/scripts/jquery-1.10.x.min.js?1387182776" type="text/javascript"></script>
+	<script src="fileadmin/templates/scripts/jquery.columnizer.js?1391070246" type="text/javascript"></script>
+	<script src="fileadmin/templates/scripts/utils.js?1455096449" type="text/javascript"></script>
+	<script src="typo3temp/javascript_9a38f34785.js?1394193723" type="text/javascript"></script>
+	<meta property="og:image" content="http://www.epimirna.eu/fileadmin/websites/epimirna/social-media/logo_og_epimirna-1200x630.png">
+	<meta name="viewport" content="width=device-width">
+	<script src="fileadmin/templates/scripts/responsive-imagemap/ml.responsive.imagemap.js" type="text/javascript"></script>
+	<style type=text/css>
+	@import url(fileadmin/templates/css/epimirna/mobile.css);
+	</style>
+	<!--[if lte IE 8]> <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+	<!--[if IE 8]>
+	<style type=text/css>
+	@import url(fileadmin/templates/css/style-ie8.css);
+	</style>
+	<![endif]-->
+	<!-- RAD 2014-04-22: ga.js Google Analytics START -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-52323011-1', 'epimirna.eu');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+	</script>
+	<!-- RAD 2014-04-22: ga.js Google Analytics END -->
+	<meta name="msapplication-TileColor" content="#b91d47">
+	<link rel="apple-touch-icon" sizes="57x57" href="/fav/apple-touch-icon-57x57.png"/>
+	<link rel="apple-touch-icon" sizes="114x114" href="/fav/apple-touch-icon-114x114.png"/>
+	<link rel="apple-touch-icon" sizes="72x72" href="/fav/apple-touch-icon-72x72.png"/>
+	<link rel="apple-touch-icon" sizes="144x144" href="/fav/apple-touch-icon-144x144.png"/>
+	<link rel="apple-touch-icon" sizes="60x60" href="/fav/apple-touch-icon-60x60.png"/>
+	<link rel="apple-touch-icon" sizes="120x120" href="/fav/apple-touch-icon-120x120.png"/>
+	<link rel="apple-touch-icon" sizes="76x76" href="/fav/apple-touch-icon-76x76.png"/>
+	<link rel="apple-touch-icon" sizes="152x152" href="/fav/apple-touch-icon-152x152.png"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon-180x180.png"/>
+	<link rel="icon" type="image/png" href="/fav/favicon-96x96.png" sizes="96x96"/>
+	<link rel="icon" type="image/png" href="/fav/favicon.ico" sizes="16x16"/>
+	<link rel="icon" type="image/png" href="/fav/favicon-32x32.png" sizes="32x32"/>
+	<meta name="msapplication-TileImage" content="/fav/mstile-144x144.png"/>
+	<meta name="robots" content="index,follow">
+	<meta name="revisit-after" content="7 days">
+	<!--[if lte IE 10]>
+	<script type="text/javascript" src="/fileadmin/templates/scripts/respond/respond.min.js"></script>
+	<![endif]-->
+	<title>EpimiRNA is an European Union Seven Framework Programme</title>
+	<meta name="dc.created" content="2016-02-10" />
+	<link rel="canonical" href="http://www.epimirna.eu/" />
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://www.epimirna.eu/">
+	<meta property="og:title" content="EpimiRNA is an European Union Seven Framework Programme">
+	<meta property="og:description" content="The European collaborative project EpimiRNA aims to understand molecular mechanisms, diagnostics and develop novel therapeutics for epilepsy.">
+	<script src="typo3conf/ext/imagecycle/res/jquery/js/jquery.cycle.all-3.0.3.min.js" type="text/javascript"></script>
+	<script src="typo3conf/ext/imagecycle/res/jquery/js/jquery.easing-1.3.js" type="text/javascript"></script>
+</head>
+<body><a name="ontop"></a>
+	<div id="top_out">
+		<div id="top" class="clearfix">
+			<div id="breadcrumbs"> <span class="current">Home</span> </div>
+			<div id="homelink"> <a href=""><img src="fileadmin/templates/images/home_icon.gif" alt="Home - EpimiRNA" title="Home - EpimiRNA"/></a> </div>
+			<div id="topmenu">
+				<nav>
+				<ul>
+					<li><a href="contact/" title="Contact" >Contact</a></li>
+					<li class="separator">&#124;</li>
+					<li><a href="sitemap/" title="Sitemap" >Sitemap</a></li>
+					<li class="separator">&#124;</li>
+					<li><a href="login/login/" title="Login" >Login</a></li>
+					<li class="separator">&#124;</li>
+					<li><a href="news/" title="News" >News</a></li>
+					<li class="separator">&#124;</li>
+					<li><a title="EpimiRNA on @twitter" target="_blank" href="https://twitter.com/epimirna"><img width="25" border="0" height="25" alt="EpimiRNA on @twitter" src="fileadmin/websites/epimirna/social-media/icons-sm-twitter.png"></a></li>
+					<li class="separator">&#124;</li>
+				</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div id="navigation_out">
+		<div id="navigation" class="clearfix">
+			<div id="searchicon"> <img id="loupe" src="fileadmin/templates/images/search_icon.gif" alt="search" title="search"/> </div>
+			<div id="mainmenu" class="clearfix">
+				<nav>
+				<ul class="level1">
+					<li><a href="media/" title="Media" >Media</a>
+					<ul class="level2">
+						<li><a href="media/press-releases/" title="Press releases" >Press releases</a></li>
+						<li><a href="media/flyer-and-factsheet/" title="Flyer and factsheet" >Flyer and factsheet</a></li>
+						<li><a href="media/videos/" title="Videos" >Videos</a></li>
+					</ul>
+					</li>
+					<li><a href="investors/" title="For Investors" >Investors</a></li>
+					<li><a href="for-patients/" title="For Patients" >For Patients</a></li>
+					<li><a href="the-project/" title="The Project" >The Project</a>
+					<ul class="level2">
+						<li><a href="the-project/the-team/" title="The Team" >The Team</a>
+						<ul class="level3">
+							<li><a href="the-project/the-team/project-coordinator-royal-college-of-surgeons-in-ireland/" title="Project Coordinator: Royal College of Surgeons in Ireland" >Project Coordinator: Royal College of Surgeons in Ireland</a></li>
+							<li><a href="the-project/the-team/philipps-universitaet-marburg/" title="Philipps Universität Marburg" >Philipps Universität Marburg</a></li>
+							<li><a href="the-project/the-team/universitair-medisch-centrum-utrecht-umcu/" title="Universitair Medisch Centrum Utrecht - UMCU" >Universitair Medisch Centrum Utrecht - UMCU</a></li>
+							<li><a href="the-project/the-team/university-college-london/" title="University College London" >University College London</a></li>
+							<li><a href="the-project/the-team/university-of-verona/" title="University of Verona" >University of Verona</a></li>
+							<li><a href="the-project/the-team/universitaetsklinikum-erlangen/" title="Universitätsklinikum Erlangen" >Universitätsklinikum Erlangen</a></li>
+							<li><a href="the-project/the-team/university-of-campinas/" title="University of Campinas" >University of Campinas</a></li>
+							<li><a href="the-project/the-team/university-of-aarhus-inano/" title="University of Aarhus / iNANO" >University of Aarhus / iNANO</a></li>
+							<li><a href="the-project/the-team/university-of-southern-denmark/" title="University of Southern Denmark" >University of Southern Denmark</a></li>
+							<li><a href="the-project/the-team/dixi-microtechniques/" title="Dixi Microtechniques" >Dixi Microtechniques</a></li>
+							<li><a href="the-project/the-team/cerbomed-gmbh/" title="Cerbomed GmbH" >Cerbomed GmbH</a></li>
+							<li><a href="the-project/the-team/interna-technologies-bv/" title="Interna Technologies BV" >Interna Technologies BV</a></li>
+							<li><a href="the-project/the-team/bicoll-gmbh/" title="Bicoll GmbH" >Bicoll GmbH</a></li>
+							<li><a href="the-project/the-team/bc-platforms/" title="BC Platforms" >BC Platforms</a></li>
+							<li><a href="the-project/the-team/gabomi/" title="GABO:mi" >GABO:mi</a></li>
+							<li><a href="the-project/the-team/columbia-university-institute-for-genomic-medicine/" title="Columbia University - Institute for Genomic Medicine" >Columbia University - Institute for Genomic Medicine</a></li>
+						</ul>
+						</li>
+						<li><a href="the-project/work-plan/" title="Work Plan" >Work Plan</a>
+						<ul class="level3">
+							<li><a href="the-project/work-plan/main-results-achieved-so-far/" title="Work performed since the beginning of the project and the main results achieved so far" >Main results achieved so far</a></li>
+							<li><a href="the-project/work-plan/impact-of-the-results/" title="The expected final results and their potential impact and use" >Impact of the results</a></li>
+							<li><a href="the-project/work-plan/consortium-publications/" title="Consortium Publications" >Consortium Publications</a></li>
+						</ul>
+						</li>
+						<li><a href="the-project/work-packages/" title="Work packages" >Work packages</a>
+						<ul class="level3">
+							<li><a href="the-project/work-packages/wp1-experimental-epileptogenesis/" title="WP1: miRNA Signature of Experimental Epileptogenesis" >WP1: Experimental Epileptogenesis</a></li>
+							<li><a href="the-project/work-packages/wp2-human-epilepsy/" title="WP2: miRNA Signature of Human Epilepsy" >WP2: Human Epilepsy</a></li>
+							<li><a href="the-project/work-packages/wp3-therapeutic-efficacy/" title="WP3: The Role of miRNA in the Therapeutic Efficacy of Brain Stimulation" >WP3: Therapeutic Efficacy</a></li>
+							<li><a href="the-project/work-packages/wp4-mirna-mechanisms/" title="WP4: Integrated miRNA Mechanisms in Epileptogenesis" >WP4: miRNA Mechanisms</a></li>
+							<li><a href="the-project/work-packages/wp5-mirna-genetic-variation/" title="WP5: miRNA Genetic Variation in Human Epilepsy" >WP5: miRNA Genetic Variation</a></li>
+							<li><a href="the-project/work-packages/wp6-mirna-bioinformatics/" title="WP6: Integrated miRNA Bioinformatics for Understanding Epileptogenesis and Biomarker Identification" >WP6: miRNA Bioinformatics</a></li>
+							<li><a href="the-project/work-packages/wp7-systems-biology/" title="WP7: Systems Biology Integration and Multiple-Scale Modelling of miRNA to Understand Epileptogenesis" >WP7: Systems Biology</a></li>
+							<li><a href="the-project/work-packages/wp8-therapeutics/" title="WP8: miRNA-Based Therapeutics for Epilepsy" >WP8: Therapeutics</a></li>
+							<li><a href="the-project/work-packages/wp9-chemical-entities/" title="WP9: New miRNA-Modulating Chemical Entities for the Treatment of Epilepsy" >WP9: Chemical Entities</a></li>
+							<li><a href="the-project/work-packages/wp10-dissemination/" title="WP10: Dissemination, Training &amp; Exploitation" >WP10: Dissemination</a></li>
+							<li><a href="the-project/work-packages/wp11-management/" title="WP11: Project management" >WP11: Management</a></li>
+						</ul>
+						</li>
+						<li><a href="the-project/advisory-boards/" title="Advisory Boards" >Advisory Boards</a></li>
+						<li><a href="the-project/meetings/" title="Meetings" >Meetings</a></li>
+						<li><a href="the-project/job-vacancies/" title="Job vacancies" >Job vacancies</a></li>
+					</ul>
+					</li>
+				</ul>
+				</nav>
+			</div>
+			<div id="projectlogo">
+				<!--img src="fileadmin/templates/images/logo.png" alt="projectlogo" title="projectlogo"-->
+			<a href="/" title="Home"><img src="fileadmin/templates/images/epimirna/logo.png" alt="EpimiRNA" title="EpimiRNA" width="230" height="81" /></a> </div>
+		</div>
+	</div>
+	<div id="header_out">
+		<div id="headerimg" class="clearfix headerimg1">
+			<div id="c1478" class="csc-default">
+				<div class="csc-textpic csc-textpic-center csc-textpic-above csc-textpic-equalheight">
+					<div class="csc-textpic-imagewrap">
+						<div class="csc-textpic-center-outer">
+							<div class="csc-textpic-center-inner">
+								<div class="csc-textpic-image csc-textpic-last"><img src="fileadmin/websites/epimirna/Fotos_Mitglieder/Header/let__s_have_a_look_Kopie.jpg" width="986" height="270" border="0" alt="Bicoll © Kai Lamottke" title="Bicoll © Kai Lamottke"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="header2img" class="clearfix headerimg2">
+			<div id="c4608" class="csc-default">
+				<div class="csc-textpic csc-textpic-center csc-textpic-above csc-textpic-equalheight">
+					<div class="csc-textpic-imagewrap">
+						<div class="csc-textpic-center-outer">
+							<div class="csc-textpic-center-inner">
+								<div class="csc-textpic-image csc-textpic-last"><img src="fileadmin/websites/gabomi-assets/header/header_microscope_850px_x_270px.png" width="850" height="270" border="0" alt="Bicoll © Kai Lamottke" title="Bicoll © Kai Lamottke"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="header3img" class="clearfix headerimg3">
+			<div id="c4609" class="csc-default">
+				<div class="csc-textpic csc-textpic-center csc-textpic-above csc-textpic-equalheight">
+					<div class="csc-textpic-imagewrap">
+						<div class="csc-textpic-center-outer">
+							<div class="csc-textpic-center-inner">
+								<div class="csc-textpic-image csc-textpic-last"><img src="fileadmin/websites/gabomi-assets/header/header_microscope_600px_x_270px.png" width="600" height="270" border="0" alt="Bicoll © Kai Lamottke" title="Bicoll © Kai Lamottke"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="header" class="clearfix">
+			<div id="searchbox">
+				<form action="search/" method="post" id="indexedsearch"><input name="tx_indexedsearch[sword]" value="" id="inputText" type="text" />
+				<button class="submit" name="tx_indexedsearch[submit_button]" type="submit" value="search">search</button>
+				<input type="hidden" name="tx_indexedsearch[sections]" value="0" /></form>
+			</div>
+		</div>
+	</div>
+	<div id="content_out">
+		<div id="content" class="clearfix">
+			<div id="maincol">
+				<!--TYPO3SEARCH_begin-->
+				<div id="c10016" class="csc-default">
+					<div class="liststyle2">
+						<h1><b>Welcome to the EpimiRNA Website!</b></h1>
+						<p style="text-align:justify; line-height:115%; text-autospace:none" class="bodytext"><span lang="EN-GB" style="font-size:11.0pt; line-height:115%; font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;"></span></p>
+						<p class="bodytext">With over 50 Millionen patients across the world, epilepsy is the most common neurological disorders worldwide. Despite its frequent occurrence its cause and development is still insufficiently understood and therapeutic options are limited. The EU-funded project EpimiRNA with 16 partners from eight European countries, the USA and Brazil, is aiming to generate the necessary biomedical, clinical and industrial research data to improve treatment of epilepsy. <br /><br /></p>
+						<p class="bodytext"><b>microRNAs in the brain - the key to future success?</b></p>
+						<p class="bodytext"><br />A major breakthrough in the study of epilepsy was the discovery of microRNAs, small cell molecules which may be critical to controlling the changes in brain chemistry that accompany the development and course of epilepsy. The EpimiRNA consortium undertakes an interdisciplinary effort to systematically investigate the occurrence and effects of this molecule in humans and mice and will explore the potential of targeting microRNAs using designer drug-like molecules. </p>
+						<p class="bodytext">We will determine whether variation in the genetic code for these molecules is present in patients with epilepsy and aim to understand the molecular mechanism and the causes of epileptic seizures. Finally, we want to develop a novel microRNA-based therapy, which prevents the development of epilepsy, the occurrence of seizures and maybe even reverse epilepsy once established.</p>
+						<p style="text-align:justify; line-height:115%; text-autospace:none" class="bodytext"><span lang="EN-GB" style="font-size:11.0pt; line-height:115%; font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;"></span></p>
+						<p class="bodytext">&nbsp;</p>
+						<p class="bodytext">&nbsp;</p>
+						<p class="bodytext">On these pages EpimiRNA presents the project <b><a href="the-project/the-team/" title="Opens internal link in current window" class="internal-link" >consortium</a></b> and its <b><a href="the-project/work-plan/" title="Opens internal link in current window" class="internal-link" >scientific objectives and work plan</a></b>. You may also find information on EpimiRNA <b><a href="the-project/meetings/" title="Opens internal link in current window" class="internal-link" >meetings and publications</a></b>, as well as the latest <b><a href="news/" title="Opens internal link in current window" class="internal-link" >news</a></b> about EpimiRNA.</p>
+						<p class="bodytext">&nbsp;</p>
+						<p class="bodytext">&nbsp;</p>
+						<p>&nbsp;</p>
+					</div>
+				</div>
+				<div id="c3721" class="csc-default">
+					<div class="csc-header csc-header-n2">
+						<h1>Short Facts </h1>
+					</div>
+					<div class="csc-textpic-text">
+						<p class="bodytext"><b>EpimiRNA -&nbsp;</b><b>MicroRNAs in the pathogenesis, treatment and prevention of epilepsy under an epileptogenic insult <br /><br /></b> </p>
+						<div class="liststyle2">
+							<ul>
+								<li>Collaborative Project: 7th Framework Programme</li>
+								<li>Coordinator: Prof. David Henshall, Royal College of Surgeons in Ireland</li>
+								<li>Project start: September 1, 2013</li>
+								<li>Funding period: 5 years</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--TYPO3SEARCH_end-->
+			</div>
+			<div id="rightcol">
+				<div id="c3750" class="csc-default">
+					<div class="csc-header csc-header-n1">
+						<h1 class="csc-firstHeader">EpimiRNA Team</h1>
+					</div>
+					<div class="csc-textpic-text">
+						<p class="bodytext"><a href="http://www.epimirna.eu/the-project/the-team/" title="Opens external link in new window" target="_blank" class="external-link-new-window" ><img src="uploads/RTEmagicC_consortium-epimirna_with-CU_1500x1307_10.png" title="http://www.epimirna.eu/the-project/the-team/" data-htmlarea-file-uid="2220" data-htmlarea-file-table="sys_file" height="174" width="200" alt="" /></a></p>
+					</div>
+				</div>
+				<div id="c4093" class="csc-default">
+					<div class="csc-header csc-header-n2">
+						<h1>EpimiRNA flyer</h1>
+					</div>
+					<div class="csc-textpic csc-textpic-intext-right">
+						<div class="csc-textpic-imagewrap">
+							<div class="csc-textpic-image csc-textpic-last"><img src="fileadmin/_processed_/csm_Projektflyer_Epimirna_final_2b58d2c42d.gif" width="300" height="213" border="0" alt="(c) EpimiRNA" title="(c) EpimiRNA"></div>
+						</div>
+						<div class="csc-textpic-text">
+							<p class="bodytext"><a href="fileadmin/websites/epimirna/Projektflyer_Epimirna_final.pdf" title="Initiates file download" class="download" >Click here for the&nbsp;EpimiRNA flyer</a></p>
+						</div>
+					</div>
+				</div>
+				<div id="c10216" class="csc-default">
+					<div class="csc-header csc-header-n3">
+						<h1>EpimiRNA factsheet</h1>
+					</div>
+					<div class="csc-textpic csc-textpic-intext-right">
+						<div class="csc-textpic-imagewrap">
+							<div class="csc-textpic-image csc-textpic-last"><img src="fileadmin/_processed_/csm_Factsheet_EpimiRNA_final_ce8540320a.gif" width="300" height="212" border="0" alt="(c) EpimiRNA" title="(c) EpimiRNA"></div>
+						</div>
+						<div class="csc-textpic-text">
+							<p class="bodytext"><a href="fileadmin/websites/epimirna/Factsheet_EpimiRNA_final.pdf" title="Initiates file download" class="download" >Click here for the&nbsp;EpimiRNA factsheet</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="bottom_out">
+		<div id="service" class="clearfix">
+			<div id="service_menu">
+				<div id="c4610" class="csc-default">
+					<div class="csc-textpic csc-textpic-center csc-textpic-above">
+						<div class="csc-textpic-imagewrap">
+							<div class="csc-textpic-center-outer">
+								<div class="csc-textpic-center-inner">
+									<div class="csc-textpic-imagerow">
+										<div class="csc-textpic-imagecolumn csc-textpic-firstcol">
+											<div class="csc-textpic-image csc-textpic-last"><a href="/" title="Home"><img src="fileadmin/templates/images/lena/icon_home.gif" width="26" height="26" border="0" alt="Home"></a></div>
+										</div>
+										<div class="csc-textpic-imagecolumn csc-textpic-lastcol">
+											<div class="csc-textpic-image csc-textpic-last"><img src="fileadmin/templates/images/lena/icon_menu.gif" width="26" height="26" border="0" alt="" title="Menu"></div>
+										</div>
+									</div>
+									<div class="csc-textpic-imagerow csc-textpic-imagerow-last">
+										<div class="csc-textpic-imagecolumn csc-textpic-firstcol">
+											<div class="csc-textpic-image csc-textpic-last"><a href="search/" title="Search"><img src="fileadmin/templates/images/lena/search_icon.png" width="23" height="26" border="0" alt=""></a></div>
+										</div>
+										<div class="csc-textpic-imagecolumn csc-textpic-lastcol">
+											<div class="csc-textpic-image csc-textpic-last"><a href="/#ontop" title="Top"><img src="fileadmin/templates/images/lena/icon_top.png" width="10" height="12" border="0" alt="Top"></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="csc-textpic-text">
+							<p class="bodytext"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="bottom" class="clearfix">
+			<div id="bottom_newsletter">
+				<div id="c1477" class="csc-default">
+					<div class="csc-header csc-header-n1">
+						<h1 class="csc-firstHeader">Newsletter Subscription</h1>
+					</div>
+					<div class="csc-mailform">
+						<form action="/" enctype="multipart/form-data" method="post">
+						<ol>
+						<li class="csc-form-2 csc-form-element csc-form-element-textline"> <input id="field-2" name="tx_form[nl_email]" type="text"/> </li>
+						<li class="csc-form-3 csc-form-element csc-form-element-submit"> <input id="field-3" name="tx_form[nl_submit]" type="submit" value="subscribe"/> </li>
+						</ol>
+						</form>
+					</div>
+				</div>
+				<div id="c10968" class="csc-default">
+					<div class="csc-header csc-header-n1">
+						<h1 class="csc-firstHeader">EpimiRNA on @twitter</h1>
+					</div>
+					<a class="twitter-timeline" href="https://twitter.com/EpimiRNA" data-widget-id="697045892424167424" data-tweet-limit="3">Tweets by @EpimiRNA</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+			</div>
+			<div id="bottom_news">
+				<div id="c1476" class="csc-default">
+					<div class="csc-header csc-header-n1">
+						<h1 class="csc-firstHeader">News Section</h1>
+					</div>
+					<div class="news">
+						<div class="news-list-view">
+							<!--
+							=====================
+							Partials/List/Item.html
+							-->
+							<div class="article articletype-0">
+								<!-- header -->
+								<div class="header">
+									<h3> <a title="Work supported by EpimiRNA now published in Nature Scientific Reports" href="news/news-detail/tx_news/work-supported-by-epimirna-now-published-in-nature-scientific-reports/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=c4bbf96da5d7e088bc7bbd3d72175e07"> Work supported by EpimiRNA now published in Nature Scientific Reports </a> </h3>
+								</div>
+								<!-- teas=ser text -->
+								<div class="teaser-text"> David Henshall and colleagues unravel the role of miRNA 22. It targets a... <a class="more" title="Work supported by EpimiRNA now published in Nature Scientific Reports" href="news/news-detail/tx_news/work-supported-by-epimirna-now-published-in-nature-scientific-reports/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=c4bbf96da5d7e088bc7bbd3d72175e07"> Read more </a> </div>
+								<!-- footer information -->
+								<div class="footer">
+									<p>
+									<!-- date -->
+									<span class="news-list-date"> 03/12/2015 </span>
+									<!-- author -->
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="bottom_social">
+				<div id="c1475" class="csc-default">
+					<h1>Social Media</h1>
+				<a href=""><img src="fileadmin/templates/images/twitter_grey.gif" alt="Twitter" title="Twitter" /></a> <a href=""><img src="fileadmin/templates/images/gplus_grey.gif" alt="Google Plus" title="Google Plus" /></a> <a href=""><img src="fileadmin/templates/images/facebook_grey.gif" alt="Facebook" title="Facebook" /></a></div>
+				<div id="c4610" class="csc-default">
+					<div class="csc-textpic csc-textpic-center csc-textpic-above">
+						<div class="csc-textpic-imagewrap">
+							<div class="csc-textpic-center-outer">
+								<div class="csc-textpic-center-inner">
+									<div class="csc-textpic-imagerow">
+										<div class="csc-textpic-imagecolumn csc-textpic-firstcol">
+											<div class="csc-textpic-image csc-textpic-last"><a href="/" title="Home"><img src="fileadmin/templates/images/lena/icon_home.gif" width="26" height="26" border="0" alt="Home"></a></div>
+										</div>
+										<div class="csc-textpic-imagecolumn csc-textpic-lastcol">
+											<div class="csc-textpic-image csc-textpic-last"><img src="fileadmin/templates/images/lena/icon_menu.gif" width="26" height="26" border="0" alt="" title="Menu"></div>
+										</div>
+									</div>
+									<div class="csc-textpic-imagerow csc-textpic-imagerow-last">
+										<div class="csc-textpic-imagecolumn csc-textpic-firstcol">
+											<div class="csc-textpic-image csc-textpic-last"><a href="search/" title="Search"><img src="fileadmin/templates/images/lena/search_icon.png" width="23" height="26" border="0" alt=""></a></div>
+										</div>
+										<div class="csc-textpic-imagecolumn csc-textpic-lastcol">
+											<div class="csc-textpic-image csc-textpic-last"><a href="/#ontop" title="Top"><img src="fileadmin/templates/images/lena/icon_top.png" width="10" height="12" border="0" alt="Top"></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="csc-textpic-text">
+							<p class="bodytext"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer_out">
+		<div id="footer" class="clearfix">
+			<div id="footer_in">
+				<div id="proglogo"> <img src="fileadmin/templates/images/program_logo.gif" alt="programm" /> </div>
+				<div id="progtext"> EpimiRNA is a Collaboration Project funded by the European Union under the 7<sup>th</sup> Framework Programme under grant agreement n° 602130. </div>
+				<div id="footermenu">
+					<nav>
+					<ul>
+						<li><a href="copyright/" title="Copyright" >Copyright</a></li>
+						<li class="separator">&#124;</li>
+						<li><a href="imprint/?no_cache=1" title="Imprint" >Imprint</a></li>
+						<li class="separator">&#124;</li>
+					</ul>
+					</nav>
+				</div>
+				<div id="euflag"> <img src="fileadmin/templates/images/eu_flag.gif" alt="EpimiRNA is a Collaboration Project funded by the European Union under the 7th Framework Programme under grant agreement n° 602130." title="EpimiRNA is a Collaboration Project funded by the European Union under the 7th Framework Programme under grant agreement n° 602130."/> </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">var JsValidationCheckCheckboxes = 'Please check min. 1';var JsValidationCheckInteger = 'Not a valid number';var JsValidationCheckRequired = 'This field is required';var JsValidationCheckRequiredOption = 'Please select an option';var JsValidationCheckEmail = 'Invalid Email';var JsValidationCheckUrl = 'Invalid URL';var JsValidationCheckPhone = 'Invalid Phone No';var JsValidationCheckLetters = 'Only Letters allowed';</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="typo3conf/ext/powermail/Resources/Public/Js/jquery.ui.datepicker.min.js?1393408836" type="text/javascript"></script>
+	<script src="typo3conf/ext/powermail/Resources/Public/Js/jquery.validationEngine-en.js?1393408836" type="text/javascript"></script>
+	<script src="typo3conf/ext/powermail/Resources/Public/Js/jquery.validationEngine.js?1393408836" type="text/javascript"></script>
+	<script src="typo3conf/ext/powermail/Resources/Public/Js/tabs.js?1393408836" type="text/javascript"></script>
+	<script src="typo3conf/ext/powermail/Resources/Public/Js/form.js?1393408836" type="text/javascript"></script>
+	<script src="typo3conf/ext/powermail/Resources/Public/Js/powermail_frontend.js?1393408836" type="text/javascript"></script>
+	<script type="text/javascript">
+	jQuery(document).ready(function($) {
+	var mapElement = document.getElementsByTagName("map")[0];
+	if(mapElement)
+	mlResizeMap();
+	});
+	</script>
+</body>
+</html>

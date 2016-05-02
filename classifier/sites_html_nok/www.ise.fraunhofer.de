@@ -1,0 +1,951 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head><style type="text/css">@import url(https://www.ise.fraunhofer.de/portal_css/ise.theme/ploneglossary_popup-cachekey3724.css);</style><style type="text/css" media="screen">@import url(https://www.ise.fraunhofer.de/portal_css/ise.theme/resourcejquery-ui-themessunburstjqueryui-cachekey4980.css);</style><style type="text/css" media="all">@import url(https://www.ise.fraunhofer.de/portal_css/ise.theme/solgema_contextualcontentmenu-cachekey7073.css);</style><style type="text/css" media="screen">@import url(https://www.ise.fraunhofer.de/portal_css/ise.theme/resourceise.policy.stylesheetsmain-cachekey4562.css);</style><style type="text/css" media="screen">@import url(https://www.ise.fraunhofer.de/portal_css/ise.theme/resourcecollective.flowplayer.cssflowplayer-cachekey2002.css);</style><style type="text/css" media="screen">@import url(https://www.ise.fraunhofer.de/portal_css/ise.theme/resourceplonetruegallery-portlet-cachekey4664.css);</style><style type="text/css" media="screen">@import url(https://www.ise.fraunhofer.de/portal_css/ise.theme/resourceeasyslider-portlet-cachekey5220.css);</style><style type="text/css" media="screen">@import url(https://www.ise.fraunhofer.de/portal_css/ise.theme/resourceise.theme.stylesheetsmain-cachekey5381.css);</style><style type="text/css" media="screen">@import url(https://www.ise.fraunhofer.de/portal_css/ise.theme/++resource++ise.policy.stylesheets/collapsible.css);</style><style type="text/css" media="screen">@import url(https://www.ise.fraunhofer.de/portal_css/ise.theme/resourcevs.contentnavigationnavigation-cachekey8987.css);</style><style type="text/css" media="screen">@import url(https://www.ise.fraunhofer.de/portal_css/ise.theme/resourcevs.jquerybookmarks.stylesheetsjquery.bookmark-cachekey9530.css);</style><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><!-- Forces IE8+ into newest rendering engine even if on an intranet. This has to be defined before any script/style tags. --><meta http-equiv="X-UA-Compatible" content="IE=edge" /><title>iNSPiRe &#8211; Development of Systematic Packages for Deep Energy Renovation of Residential and Tertiary Buildings Including Envelope and Systems &#8212; Fraunhofer ISE</title><link rel="icon" href="https://www.ise.fraunhofer.de/favicon.ico" type="image/x-icon" /><link rel="shortcut icon" href="https://www.ise.fraunhofer.de/favicon.ico" type="image/x-icon" /><link rel="stylesheet" type="text/css" media="screen" href="https://www.ise.fraunhofer.de/static/css/member-plone.css" /><link rel="stylesheet" type="text/css" media="all" href="https://www.ise.fraunhofer.de/static/css/base-plone.css" /><link rel="stylesheet" type="text/css" media="screen" href="https://www.ise.fraunhofer.de/static/css/fraunhofer.css" /><!--[if lt IE 8]>    
+    <link rel="stylesheet" type="text/css" media="screen" href="css/IEFixes-plone.css" />
+    <![endif]--><script type="text/javascript">
+            // <![CDATA[
+            var FHGCSS = {
+                load: function( type ) {
+                    var scriptStyles = document.createElement('link');
+                    scriptStyles.rel = 'stylesheet';
+                    scriptStyles.type = 'text/css';
+                    scriptStyles.href = 'css/fraunhofer-dyn.css';
+                    if (head = document.getElementsByTagName('head')[0]) {
+                        head.appendChild(scriptStyles);
+                    }
+                }
+            }
+            FHGCSS.load( 'dynamicCSS' );
+            // ]]>
+    </script><link rel="stylesheet" type="text/css" href="https://www.ise.fraunhofer.de/static/css/fraunhofer-dyn.css" /><base href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/research-topics/solar-thermal-facades/projects/current-projects/inspire" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="DC.creator" content="mkarl" /><meta name="DC.format" content="text/html" /><meta name="DC.language" content="en" /><meta name="DC.date.modified" content="2016-01-19T17:58:57+01:00" /><meta name="DC.date.created" content="2015-10-06T15:03:15+01:00" /><meta name="DC.distribution" content="Global" /><meta name="description" content="Project in the business areas of Solar Thermal Technology and Energy Efficient Buildings, Topics: Solar Thermal Fa&#231;ades and Lighting Technology; Duration: 01.10.2013 - 31.08.2016" /><meta name="keywords" content="Energy Efficient Buildings, Lightning Technology, Solar Thermal Technology, Solar Thermal Fa&#231;ades, Current Projects" /><meta name="robots" content="ALL" /><meta name="distribution" content="Global" /><meta name="viewport" content="width=device-width; initial-scale=0.6666; maximum-scale=1.0; minimum-scale=0.6666" /><meta name="generator" content="Plone - http://plone.org" /><link rel="canonical" href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/research-topics/solar-thermal-facades/projects/current-projects/inspire" /><script type="text/javascript" src="https://www.ise.fraunhofer.de/portal_javascripts/ise.theme/jquery-cachekey6497.js"></script><script type="text/javascript" src="https://www.ise.fraunhofer.de/portal_javascripts/ise.theme/table_sorter-cachekey8022.js"></script><script type="text/javascript" src="https://www.ise.fraunhofer.de/portal_javascripts/ise.theme/ploneglossary-cachekey0806.js"></script><script type="text/javascript">
+/* - ploneglossary_definitions.js - */
+// https://www.ise.fraunhofer.de/portal_javascripts/ploneglossary_definitions.js?original=1
+
+</script><script type="text/javascript" src="https://www.ise.fraunhofer.de/portal_javascripts/ise.theme/resourcejquery-ui.min-cachekey2422.js"></script><script type="text/javascript" src="https://www.ise.fraunhofer.de/portal_javascripts/ise.theme/ise_reiter-cachekey1158.js"></script><script type="text/javascript" src="https://www.ise.fraunhofer.de/portal_javascripts/ise.theme/resourcecollective.flowplayerflowplayer.min-cachekey0539.js"></script><script type="text/javascript" src="https://www.ise.fraunhofer.de/portal_javascripts/ise.theme/resourceeasyslider-portlet-cachekey2092.js"></script><script type="text/javascript" src="https://www.ise.fraunhofer.de/portal_javascripts/ise.theme/ise_image_fullscreen.js"></script><script type="text/javascript" src="https://www.ise.fraunhofer.de/portal_javascripts/ise.theme/ise_collapsible-cachekey8090.js"></script><script type="text/javascript" src="https://www.ise.fraunhofer.de/portal_javascripts/ise.theme/jquery.collapsible-cachekey4206.js"></script><script type="text/javascript" src="https://www.ise.fraunhofer.de/portal_javascripts/ise.theme/++resource++vs.contentnavigation/navigation.js"></script><script type="text/javascript" src="https://www.ise.fraunhofer.de/portal_javascripts/ise.theme/++resource++vs.contentpopup/contentpopup.js"></script><script type="text/javascript" src="https://www.ise.fraunhofer.de/portal_javascripts/ise.theme/resourcevs.jquerybookmarks.javascriptsjquery.bookmark.min-cachekey6619.js"></script><script type="text/javascript" src="https://www.ise.fraunhofer.de/portal_javascripts/ise.theme/resourcevs.jquerybookmarks.javascriptsjquery.bookmark.ext.min-cachekey2493.js"></script><script type="text/javascript" src="https://wwwstatic.ise.fraunhofer.de/js-fraunhofer/greentec_fix.js"></script><script type="text/javascript" src="https://wwwstatic.ise.fraunhofer.de/js-fraunhofer/extend_nav.js"></script></head><body class="template-document_view portaltype-document section-en object-id-inspire" dir="ltr">
+  <div id="popup-space"><!-- --></div>
+<div id="visual-portal-wrapper">
+	<div id="page">
+    <div id="portal-top" class="row">
+		<div class="cell width-full position-0"> <!-- TODO: Temporary, this one should be in the template that is inserted -->
+    <div id="portal-header">
+    
+<p class="hiddenStructure">
+  <a accesskey="2" href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/research-topics/solar-thermal-facades/projects/current-projects/inspire#content">Skip to content.</a> |
+
+  <a accesskey="6" href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/research-topics/solar-thermal-facades/projects/current-projects/inspire#portlet-navigation-tree">Skip to navigation</a>
+</p>
+
+
+
+
+<div class="section">
+<!--
+<div id="portal-personaltools-wrapper">
+<h5 class="hiddenStructure">Benutzerspezifische Werkzeuge</h5>
+<dl class="actionMenu deactivated" id="portal-personaltools"> 
+  <dt class="actionMenuHeader">
+    <a id="user-name" href="dashboard">manager</a>
+  </dt>
+  <dd class="actionMenuContent">
+    <ul>
+        <li id="personaltools-dashboard">
+            <a href="/dashboard">Pers&#246;nliche Seite</a>
+        </li>
+        <li id="personaltools-preferences">
+            <a href="@@personal-preferences">Meine Einstellungen</a>
+        </li>
+        <li id="personaltools-plone_setup">
+            <a href="plone_control_panel">Konfiguration</a>
+        </li>
+        <li id="personaltools-logout">
+            <a href="logout">Abmelden</a>
+        </li>
+    </ul>
+  </dd>  
+</dl>
+</div>
+-->
+<ul id="portal-languageselector"><li class="language-de">
+        <a href="https://www.ise.fraunhofer.de/de?set_language=de" title="Deutsch">Deutsch</a>
+    </li>
+    
+    
+    
+    
+</ul><ul id="portal-siteactions"><li id="siteaction-sitemap"><a href="https://www.ise.fraunhofer.de/en/sitemap" accesskey="3" title="Site Map">Site Map</a></li>
+    <li id="siteaction-print"><a href="javascript:this.print();" accesskey="" title="Print this">Print this</a></li>
+</ul><div id="portal-searchbox">
+    <form name="searchform" id="nolivesearchGadget_form" action="https://www.ise.fraunhofer.de/en/search">
+
+        <div class="LSBox">
+        <label class="hiddenStructure" for="nolivesearchGadget">Search</label>
+
+        <input name="SearchableText" type="text" size="30" title="Search" accesskey="4" class="searchField inputLabel" id="nolivesearchGadget" /><input class="searchButton" type="submit" value="" /><div class="searchSection">
+            <input id="searchbox_currentfolder_only" class="noborder" type="checkbox" name="path" value="/isesite/en/business-areas/solar-thermal-technology/research-topics/solar-thermal-facades/projects/current-projects" /><label for="searchbox_currentfolder_only" style="cursor: pointer">
+                only in current section
+            </label>
+        </div>
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="https://www.ise.fraunhofer.de/en/search_form" accesskey="5">
+            Advanced Search&#8230;
+        </a>
+    </div>
+
+</div>
+    <h5 class="hiddenStructure">Sektionen</h5>
+    </div> <!--  End: section -->
+</div><!-- End:portal-header -->
+
+</div>
+</div><!-- End: portal-top -->
+ <div class="visualClear" id="clear-space-portal-top"><!-- --></div>
+
+<div id="doc">
+<div>
+	<a id="portal-logo" href="https://www.ise.fraunhofer.de/en" accesskey="1" title="Fraunhofer Institute for Solar Energy Systems ISE">
+    <img src="https://www.ise.fraunhofer.de/logo-fraunhofer.gif" alt="" title="" height="52" width="190" /></a>
+</div>
+	<img src="https://www.ise.fraunhofer.de/static/img/bg-vorlage.jpg" id="doc-bg" alt="" width="996" height="400" role="presentation" /><div id="portal-columns" class="row">
+        <div id="portal-column-content" class="cell width-1:2 position-1:2">
+            <div id="viewlet-above-content">
+            <div id="portal-breadcrumbs">
+
+    
+    <span id="breadcrumbs-home">
+        <a href="https://www.ise.fraunhofer.de/en">Home</a>
+        <span class="breadcrumbSeparator">
+            &#8250;
+            
+        </span>
+    </span>
+    <span id="breadcrumbs-1" dir="ltr">
+        
+            <a href="https://www.ise.fraunhofer.de/en/business-areas">Business Areas</a>
+            <span class="breadcrumbSeparator">
+                &#8250;
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-2" dir="ltr">
+        
+            <a href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology">Solar Thermal Technology</a>
+            <span class="breadcrumbSeparator">
+                &#8250;
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-3" dir="ltr">
+        
+            <a href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/research-topics">Research Topics</a>
+            <span class="breadcrumbSeparator">
+                &#8250;
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-4" dir="ltr">
+        
+            <a href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/research-topics/solar-thermal-facades">Solar Thermal Fa&#231;ades</a>
+            <span class="breadcrumbSeparator">
+                &#8250;
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-5" dir="ltr">
+        
+            <a href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/research-topics/solar-thermal-facades/projects">Projects</a>
+            <span class="breadcrumbSeparator">
+                &#8250;
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-6" dir="ltr">
+        
+            <a href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/research-topics/solar-thermal-facades/projects/current-projects">Current Projects</a>
+            <span class="breadcrumbSeparator">
+                &#8250;
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-7" dir="ltr">
+        
+            
+            
+            <span id="breadcrumbs-current">iNSPiRe &#8211; Development of Systematic Packages for Deep Energy Renovation of Residential and Tertiary Buildings Including Envelope and Systems</span>
+         
+    </span>
+
+</div>
+			<div id="plone-lock-status"></div>
+			</div>
+ <div class="documentEditable">
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display: none;"><dt>Info</dt>
+        <dd></dd>
+    </dl><div class="imagegallery"></div>
+    
+  <div id="content">
+
+                            
+
+                                                                                        
+
+                                                          
+                                                           
+                                 
+                                 
+            
+                
+            
+            
+                                                                                            
+                                                                                                            
+                             
+
+
+    <div class="header">
+        <h1 class="header">Current Projects</h1>
+        <div class="publisher">Fraunhofer-Institut f&#252;r Solare Energiesysteme ISE</div>
+    </div>
+
+
+
+    
+
+
+
+
+
+    
+            
+        <div class="folder-subnavigation"><div id="subnavigation-sitemap"><div class="collapsible-item initiallyOpen">
+<h3 class="navTreeLevel0 ">
+<a href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/research-topics/solar-thermal-facades/projects">Projects</a> <span class="has-children"></span>
+</h3>
+<div class="collapsible-children">
+<div class="collapsible-item initiallyOpen">
+<h3 class="navTreeLevel1 ">
+<a href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/research-topics/solar-thermal-facades/projects/current-projects">Current Projects</a> <span class="has-children"></span>
+</h3>
+<div class="collapsible-children">
+<div class="collapsible-item ">
+<h3 class="navTreeLevel2 ">
+<a href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/research-topics/solar-thermal-facades/projects/current-projects/aktifas">Aktifas</a> <span class="no-children"></span>
+</h3>
+</div>
+<div class="collapsible-item ">
+<h3 class="navTreeLevel2 ">
+<a href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/research-topics/solar-thermal-facades/projects/current-projects/retrokit">RetroKit</a> <span class="no-children"></span>
+</h3>
+</div>
+<div class="collapsible-item ">
+<h3 class="navTreeLevel2 ">
+<a href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/research-topics/solar-thermal-facades/projects/current-projects/retrokit-2013-toolboxes-for-systemic-retrofitting">RetroKit &#8211; Toolboxes for Systemic Retrofitting</a> <span class="no-children"></span>
+</h3>
+</div>
+<div class="collapsible-item ">
+<h3 class="navTreeLevel2 current-node">
+<a href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/research-topics/solar-thermal-facades/projects/current-projects/inspire">iNSPiRe &#8211; Development of Systematic Packages for Deep Energy Renovation of Residential and Tertiary Buildings Including Envelope and Systems</a> <span class="no-children"></span>
+</h3>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+
+</div>
+    
+
+                             
+
+                                               
+                                 
+                                 
+            
+                
+            
+            
+                                                                                             
+                                                                                                      
+
+                             
+
+    
+
+
+
+                              
+                             <div id="content-core">                                                                      
+                                 
+    
+        
+        <div class="" id="parent-fieldname-text">
+            <div documentroot="1" documentuid="e3ee88c7c0000b3999383286d184280b">
+<h2 id="ff7c220f-5118-474c-afa3-25e46ee2a641">iNSPiRe</h2>
+<h3 id="7ed0a58c-78f6-4bf2-b06d-0505f4dbbdf9">Developme<span style="text-decoration: underline;">n</span>t of <span style="text-decoration: underline;">S</span>ystematic <span style="text-decoration: underline;">P</span>ackages for Deep Energy <span style="text-decoration: underline;">Re</span>novation of Residential and Tertiary Buildings Including Envelope and Systems</h3>
+<div>
+<table class="ise-listing" id="cdaf0479-34f2-4b26-9759-1aa97b41526b"><tbody><tr class="odd"><td><b>Duration:<br /></b></td>
+<td>01.10.2013 - 31.08.2016</td>
+</tr><tr><td><b>Contracting Authority / Sponsors: </b></td>
+<td>European Union<br /></td>
+</tr><tr><td><b>Project Partners:</b></td>
+<td>Gruppo Industriale Tosoni, Gumpp&amp;Maier, Climatewell, Bartenbach, Tripan, Siko, Vaillant, Acciona<br /></td>
+</tr><tr><td><b>Projektwebsite:</b></td>
+<td><a class="external-link" href="http://www.inspirefp7.eu/about-inspire/" target="_blank">www.inspirefp7.eu/about-inspire/</a></td>
+</tr></tbody></table><p>The European Union has announced ambitious targets for the reduction of energy consumption of buildings in Europe. In recognition of the potential for energy savings in existing building stock, the Energy Performance of Buildings Directive recast (EBPD recast, 2010) states that, alongside its target to construct zero-energy new buildings by 2020, renovation targets should aim to transform existing buildings into nearly zero-energy buildings, too. A bold target requires an equally aspirant project and iNSPiRe has set its sights on finding solutions to help meet the EU&#8217;s energy-consumption reduction goals in existing building stock across Europe.</p>
+<p>iNSPiRe is a four-year long, EC-funded project that will see the collaboration of 24 partners across nine work packages from the combined fields of research and development, industry, small business and not-for-profit organizations. The objective of iNSPiRe is to tackle the problem of high-energy consumption by producing systemic renovation packages that can be applied to residential and tertiary buildings. The renovation packages developed by iNSPiRe aim to reduce the primary energy consumption of a building to lower than 50 kWh/m2/year. The packages need to be suitable to a variety of climates while ensuring optimum comfort for the building users.</p>
+<p>One of the renovation packages of the project Inspire, the EnergyBox, consists of a facade-integrated air handling unit connected to a ventilated window with a switchable shading device. The EnergyBox  is able to operate in many modes do that energy efficiency can be maximize. For example, it is able to preheat the air through the ventilated window in winter and cool down the window in summer. At Fraunhofer ISE, we develop an optimized control strategy for the EnergyBox, and evaluate the integrated performance of the fa&#231;ade system, accounting the energy and daylighting interactions.</p>
+<p>Another research topic within iNSPiRe is the integration of solar thermal collectors into the building envelope. The collector is developed especially for building integration and different integration variants are being analyzed. Measurements of large solar thermal facade sample are performed on the OFREE test facility and the collectors are also integrated into the roof and the wall of a small demonstration object.</p>
+</div>
+</div>
+            
+        </div>
+    
+    
+                                                                            
+                             </div>                                                                                       
+                             
+
+
+
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+
+        
+
+    </div>
+
+
+                              
+
+                            
+                        </div>
+                    
+
+                    
+                <div id="collage-wrapper">   
+  <div class="collagenews"></div>
+  </div>  
+               </div><!-- End: documentEditable -->
+            
+        
+<div id="viewlet-below-content">
+
+
+
+
+
+    
+
+
+
+    <div id="jquery-bookmark">
+      <!-- placeholder for bookmarks -->
+    </div> 
+
+    <script type="text/javascript">
+        (function($) {
+            $(document).ready(function() {
+                $('#jquery-bookmark').bookmark({sites:['facebook', 'twitter', 'google', 
+                                                       'delicious', 'webnews', 'linkarena', 'misterwong', 'stumbleupon', 'yigg']});
+            });
+        })(jQuery);
+    </script></div>
+        <!-- end: viewlet-below-content -->
+</div><!-- end: portal-column-content -->
+
+        
+<div id="portal-column-one" class="cell width-1:4 position-0">           
+                
+<div id="" class="portletWrapper">
+<dl class="portlet portletNavigationTree"><dt class="portletHeader hiddenStructure">
+        <span class="portletTopLeft"></span>
+        <a href="https://www.ise.fraunhofer.de/en/sitemap" class="tile">Navigation</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem lastItem">
+        <ul class="navTree navTreeLevel0"><li class="navTreeItem visualNoMarker navTreeFolderish section-about-us">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/about-us" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>About Us</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeItemInPath navTreeFolderish section-business-areas">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/business-areas" class="state-published navTreeItemInPath navTreeFolderish contenttype-folder" title="">
+            
+            <span>Business Areas</span>
+        </a>
+
+    <ul class="navTree navTreeLevel1"><li class="navTreeItem visualNoMarker navTreeFolderish section-silicon-photovoltaics">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/business-areas/silicon-photovoltaics" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Silicon Photovoltaics</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-iii-v-and-concentrator-photovoltaics">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/business-areas/iii-v-and-concentrator-photovoltaics" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>III-V and Concentrator Photovoltaics</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-dye-organic-and-novel-solar-cells">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/business-areas/dye-organic-and-novel-solar-cells" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Dye, Organic and Novel Solar Cells</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-photovoltaic-modules-and-power-plants">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/business-areas/photovoltaic-modules-and-power-plants" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Photovoltaic Modules and Power Plants</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeItemInPath navTreeFolderish section-solar-thermal-technology">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology" class="state-published navTreeItemInPath navTreeFolderish contenttype-folder" title="">
+            
+            <span>Solar Thermal Technology</span>
+        </a>
+
+    <ul class="navTree navTreeLevel2"><li class="navTreeItem visualNoMarker section-profile">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/profile" class="state-published contenttype-collage" title="">
+            
+            <span>Profile</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeItemInPath navTreeFolderish section-research-topics">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/research-topics" class="state-published navTreeItemInPath navTreeFolderish contenttype-folder" title="">
+            
+            <span>Research Topics</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-expertise">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/expertise" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Expertise</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-contacts">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/contacts" class="state-published contenttype-contactinforeferences" title="">
+            
+            <span>Contacts</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-publications">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/publications" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Publications</span>
+        </a>
+
+    
+    
+</li>
+
+
+
+
+    </ul></li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-energy-efficient-buildings">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/business-areas/energy-efficient-buildings" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Energy Efficient Buildings</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-storage-technologies">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/business-areas/storage-technologies" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Storage Technologies</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-hydrogen-and-fuel-cell-technology">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/business-areas/hydrogen-and-fuel-cell-technology" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Hydrogen and Fuel Cell Technology</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-energy-efficient-power-electronics">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/business-areas/energy-efficient-power-electronics" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Energy Efficient Power Electronics</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-zero-emission-mobility">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/business-areas/zero-emission-mobility" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Zero-Emission Mobility</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-system-integration-and-grids-electricity-heat-gas">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/business-areas/system-integration-and-grids-electricity-heat-gas" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>System Integration and Grids &#8211; Electricity, Heat, Gas</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-energy-system-analysis">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/business-areas/energy-system-analysis" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Energy System Analysis</span>
+        </a>
+
+    
+    
+</li>
+
+
+
+
+    </ul></li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-fields-of-expertise">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/fields-of-expertise" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Fields of Expertise</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-service-units">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/service-units" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Service Units</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-news">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/news" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>News</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-renewable-energy-data">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/renewable-energy-data" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Renewable Energy Data</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-press-and-media">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/press-and-media" class="state-published navTreeFolderish contenttype-institution" title="">
+            
+            <span>Press / Media</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-study-jobs-and-career">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/study-jobs-and-career" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Study / Jobs / Career</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-events-and-trade-fairs">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/events-and-trade-fairs" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Events / Trade Fairs</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-publications">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/publications" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Publications</span>
+        </a>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-fraunhofer-gesellschaft-1">
+
+    
+
+
+        <a href="https://www.ise.fraunhofer.de/en/fraunhofer-gesellschaft-1" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Fraunhofer-Gesellschaft </span>
+        </a>
+
+    
+    
+</li>
+
+
+
+
+        </ul><span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl></div>
+</div> <!--  End:portal- column-one -->
+
+<div id="portal-column-two" class="cell width-1:4 position-1:4">
+<div id="servicenav">
+             <div id="wrapper-vignettes"><div id="vignettes">
+            
+                <!-- customized portlet renderer related to 
+     handling of vignette-style portlets.
+     See comments in browser/portlets.py
+-->
+
+
+
+
+    
+        
+        
+            <div id="portletwrapper-contact" class="portletWrapper kssattr-portlethash-contact">
+    </div>
+        
+    
+
+
+
+
+            
+            </div>
+        </div>
+                <!--<div id="vignettes">
+              
+                <div class="vignette first top corporategreen-wai">
+                <h3> </h3>
+                <span> </span>
+                </div>
+                
+                <div class="vignette second bottom corporategreen-wai">
+                <h3></h3>
+                <span> </span>
+                </div>
+                
+                </div>
+                -->  
+                <div id="contentboxes">
+                
+                <dl class="portlet portletContactInfoPortlet"><dt class="portletHeader">
+            <span class="portletTopLeft"></span>
+            <span>Contact</span>
+            <span class="portletTopRight"></span>
+        </dt>
+
+        <dd class="portletItem odd">
+            
+                <div><div class="contact-info-item">
+                
+
+     
+        <div class="image">
+            <img src="https://www.ise.fraunhofer.de/bilder/portraits/portrait-christoph-mauerer/@@images/cc5fb886-131e-4248-8b23-ce099e1a9159.jpeg" alt="Portrait Christoph Mauerer" title="Portrait Christoph Mauerer" height="120" width="90" /></div>
+     
+
+     <div class="name"> Dr Christoph  Maurer</div>
+     <div class="position">Solar Thermal Fa&#231;ades</div>
+     
+     <div class="institution">Fraunhofer ISE</div>
+
+     <div class="related-items field" id="dringchristophmaurergebaeudeintegrationfassadenkollektorenen">
+        <label class="collapser">further Information</label>
+         <div class="collapse">
+             <div class="address">
+                 <div class="street">Heidenhofstra&#223;e 2</div>
+                 <div class="zip-city">
+                     <span>79110</span>
+                     <span>Freiburg</span>
+                </div>
+             </div>
+
+             <div class="numbers">
+                 <div class="phone">
+                     <span>Phone</span> +49 761 4588-5667
+                 </div>
+                 
+             </div>
+
+             <ul class="links"><li>
+                     <a class="link-contact-form" href="https://www.ise.fraunhofer.de/en/contact-form?source_title=iNSPiRe%20%E2%80%93%20Development%20of%20Systematic%20Packages%20for%20Deep%20Energy%20Renovation%20of%20Residential%20and%20Tertiary%20Buildings%20Including%20Envelope%20and%20Systems&amp;uid=ba692a49b292e174e82b8f0ab2866888&amp;source_url=https%3A//www.ise.fraunhofer.de/en/business-areas/solar-thermal-technology/research-topics/solar-thermal-facades/projects/current-projects/inspire">send an e-mail</a> 
+                 </li>
+
+                 <!-- employee url -->
+                 
+
+                <!-- team urls -->
+             </ul></div>
+     </div>
+     <script type="text/javascript">jq('#dringchristophmaurergebaeudeintegrationfassadenkollektorenen').do_search_collapse()</script></div>
+</div>
+                        
+        </dd>
+
+    </dl></div>  <!-- end: contentboxes -->
+
+    </div>
+</div><!-- End:portal-column-two -->
+        
+</div><!-- End: portal-columns -->
+</div><!-- End:doc -->  
+</div><!-- End:page -->
+
+ <div class="visualClear" id="clear-space-portal-columns"><!-- --></div>
+<div class="row">
+    <div class="cell width-full position-0">
+        <div id="portal-footer">
+            <div class="wrapper">
+            <p>
+               <acronym title="Copyright">&#169;</acronym>
+                2016
+                Fraunhofer ISE
+            <a href="https://www.ise.fraunhofer.de/en/contact-info" accesskey="9" title="Contact">Contact</a><a href="https://www.ise.fraunhofer.de/en/publishing-notes.html" accesskey="" title="Publishing Notes">Publishing Notes</a><a href="https://www.ise.fraunhofer.de/de/datenschutzerklaerung.html" accesskey="" title="Data Protection Policy">Data Protection Policy</a></p>
+        </div> <!-- end wrapper -->
+        </div>
+    </div>
+</div>
+
+</div><!-- end: visual-portal-wrapper -->
+
+<!-- SCRIPTS include start -->
+<!--
+    <script type="text/javascript" src="js-fraunhofer/fraunhofer.js"></script>
+-->
+    <script type="text/javascript" src="https://www.ise.fraunhofer.de/static/js-fraunhofer/fraunhofer.min.js"></script><script type="text/javascript" src="https://www.ise.fraunhofer.de/static/javascripts/mark_special_links.js"></script><!-- SCRIPTS include end --><!-- Piwik --><script type="text/javascript">
+var pkBaseURL = (("https:" == "https:") ? "https://stats.ise.fraunhofer.de/" : "http://stats.ise.fraunhofer.de/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://stats.ise.fraunhofer.de/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</body></html>

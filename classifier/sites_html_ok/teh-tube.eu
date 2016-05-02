@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+	<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+	<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+	<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+	<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>TEH-TUBE - Index</title>
+	<meta name="description" content="TEH-TUBE is a European R&D project providing improved treatment options for congenital heart defects in children through the development of innovative biomaterials" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="keywords" content="congenital cardiac abnormality, congenital heart disease, chd, congenital heart failure, bioresorbable polymer, biomimicry, electrospinning, mesenchymal stem cell, stem cell, biomimetic peptide, polymer functionalisation, tissue engineering, atmp, medical science, cardiology, medicine, biology, teh-tube, teh tube" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<link rel="stylesheet" href="http://euram.ltd.uk/teh-tube/css/normalize.css">
+	<link rel="stylesheet" href="http://euram.ltd.uk/teh-tube/css/main2.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	
+	<script script="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script script="text/javascript" src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<link rel="stylesheet" href="http://euram.ltd.uk/teh-tube/css/jquery-ui.css">
+
+	<script>
+		$(function() {
+			$( "#accordion" ).accordion({
+				collapsible: true,
+				alwaysopen: false,
+				active: false,
+				heightStyle: "content"
+			});
+		});
+	</script>
+	<script>
+		$(document).ready(function() {
+			$(".show-option").tooltip({
+				/*show: {
+					effect: "slideDown",
+					delay: 250
+				}*/
+			});
+		});
+	</script>
+	<style>
+		.ui-tooltip {
+			border-radius: 10px;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
+		}
+	</style>
+</head>
+    <body>
+       <!--[if lt IE 7]>
+	<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+			<header>
+	<img id="logo" src="img/teh-tube_logo.png" />
+	<h1>
+		Tissue Engineering of the Right Heart Outflow Tract by a Biofunctionalized Bioresorbable Polymeric Valved Tube
+	</h1>
+</header>
+			<nav>
+	<ul class="menu">
+		<li class="item"><a href="index" id="first-menu">Home</a></li>
+		<li class="item"><a href="press/">Project News &amp; Press</a></li>
+		<li class="topitem"><a href="#">Patients</a></li>
+			<ul class="subitem">
+				<li><a href="patients/clinical_issue">The Clinical Issue</a></li>
+				<li><a href="patients/rvot">Current Management of RVOT Operations</a></li>
+				<li><a href="patients/teh-tube_innovation">The TEH-TUBE Innovation</a></li>
+				<li><a href="patients/patient_links">Useful Links</a></li>
+			</ul>
+		<li class="topitem"><a href="#">Scientists and Clinicians</a></li>
+			<ul class="subitem">
+				<li><a href="scientists_and_clinicians/teh-tube_concept">Project Overview / Concept</a></li>
+				<li><a href="scientists_and_clinicians/work_programme">Work Programme</a></li>
+				<li><a href="scientists_and_clinicians/consortium">The Project Consortium</a></li>
+				<li><a href="scientists_and_clinicians/publications">Scientific Publications</a></li>
+				<li><a href="scientists_and_clinicians/meeting_news">Meeting News</a></li>
+			</ul>
+		<li class="topitem"><a href="#">Community</a></li>
+			<ul class="subitem">
+				<li><a href="community/chd_impacts">Healthcare and Financial Impacts of CHD</a></li>
+				<li><a href="community/teh-tube_impacts">Healthcare and Financial Impact of TEH-TUBE</a></li>
+			</ul>
+		<li class="item"><a href="contact_us/">Contact Us</a></li>
+		<li class="item"><a href="private/" id="last-menu">Log In to Private Area</a></li>
+	</ul>
+</nav>
+			<main>
+				<article>
+					<h2>The TEH-TUBE Project</h2>
+					<section>
+						<p>
+							TEH-TUBE is an international collaborative research and development project between seven European organisations 
+							and funded via the EU's FP7 scheme, focused on addressing the limitations in current treatment options for congenital
+							heart defects in children and young adults.
+						</p>
+						<p>
+							Approximately 42% of infants' mortality around the world is related to congenital heart defects (CHDs) and with a diagnoses 
+							prevalence of 8-12 per 1000 births.
+						</p>
+						<p>
+							Over one-third of all congenital heart defects require surgical reconstruction of the area of the heart known as the
+							<span class="show-option tooltip" title="A portion of the right ventricle of the heart through which blood passes to the pulmonary artery">
+							right ventricular outflow tract (RVOT)</span> in order to allow for the heart to function in an optimal manner. 
+							However, this procedure currently relies on the application of materials that are unable to grow along with the individual, which is
+							of particular concern considering the prevalence of treatment in the young. This restriction means that patients must undergo
+							multiple reoperations with an associated risk of mortality and long-term health concerns.
+						</p>
+						<p>
+							The TEH-TUBE project seeks to provide a novel biomaterial for use in the treatment of congenital heart abnormalities
+							in children and young adults which will grow along with the patient. Through an innovative application of tissue
+							engineering and bioabsorbable materials, TEH-TUBE seeks to decrease the need for repeated reoperative surgeries in
+							vulnerable individuals and their associated impact, ultimately providing them with a greater quality of life beyond their 
+							illness.
+						</p>
+					</section>
+				</article>
+			</main>
+			<footer>
+					<img src="img/flag_yellow_high.jpg" />
+	<p>The TEH-TUBE project has been partially funded by the European Commission Seventh Framework Programme (FP7)<br /><br />
+	&copy; Copyright Euram Ltd 2014</p>
+			</footer>
+			<script type="text/javascript">
+$(function() {
+ 
+    var menu_subitem = $('.subitem'),
+    	menu_topitem = $('.topitem'),
+        menu_item = $('.item');
+     
+    menu_subitem.hide();
+    
+    menu_topitem.click(function(e) {
+        e.preventDefault();
+        if(!$(this).hasClass('active')) {
+            menu_topitem.removeClass('active');
+            menu_subitem.filter(':visible').slideUp('normal');
+            $(this).addClass('active').next().stop(true,true).slideDown('normal');
+        } else {
+            $(this).removeClass('active');
+            $(this).next().stop(true,true).slideUp('normal');
+        }
+    });
+ 
+});
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+    </body>
+</html>

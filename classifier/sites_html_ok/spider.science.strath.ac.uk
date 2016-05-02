@@ -1,0 +1,1067 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="eng">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>SeaBioTech: Home</title> 
+    <link rel="stylesheet" type="text/css" media="screen,projection,tv"  href="http://spider.science.strath.ac.uk/seabiotech//include/inc_style_main.php" /> 
+    <script language="JavaScript" type="text/javascript">
+<!--
+
+	 
+// swap images on mouseOvers
+function swapOn(imgName,imgSrc)
+ {
+ if (document.images) 
+     {document[imgName].src=imgSrc;
+     }
+  }
+function swapOff(imgName,imgSrc)
+ {
+  if (document.images) 
+     {document[imgName].src=imgSrc;
+     }
+ }
+
+function show_info(page,x,y)
+ {
+ // opens a new browser window with relevant information 
+ // page = html page; x,y = width,height of window
+
+ option = "toolbar=no,scrollbars=yes,width="+ x + ",height=" + y + "top=0,left=0,resizable"
+ msgWindow=window.open(page,"popup",option)
+ }
+ 
+function blockOn(onBlock)
+ {// show a div block
+ var objOn = document.getElementById(onBlock).style;
+ objOn.display="block"
+ } 
+ 
+function blockTimer(offBlock)
+ {myTime=1000;
+ setTimeout("blockOff('about_div')",myTime);
+ } 
+ 
+function blockOff(offBlock)
+ {// hide a div block
+  var objOff= document.getElementById(offBlock).style;
+	objOff.display="none";
+ }  
+
+function swapBlock(onBlock, offBlock)	// swap between blocks
+    {
+    // script to swap div "blocks" on page	
+    if (document.getElementById(onBlock).style != null )
+	{
+	blockOn(onBlock);
+	blockOff(offBlock);
+	}
+    }		 
+ 
+ 
+function hideSubs(subs,n,skip)
+ {
+ for(i=1;i<=n;i++)
+    {thisSub=subs+i;
+     if (i!=skip) document.getElementById(thisSub).style.display = 'none';
+    }
+ } 
+ 
+ 
+ function toggleBlock(myBlock)	// show block
+    {
+    // script to toglle block visibility - hides it if visible, and vice versa		
+    if (document.getElementById(myBlock).style != null )
+	{var obj = document.getElementById(myBlock).style;
+	if(obj.display=="block")
+	    {obj.display="none";
+	    } 
+	else
+	    {obj.display="block";
+	    } 					 
+	}
+    }		
+
+ 
+    
+function swapTabs(onBlock, numTabs, tabName)	// show onBlock, hide the rest
+    {
+// script to swap div "blocks" on page	
+// calls blockOn and blockOff from inc_javascript
+
+	var tabnumber = onBlock.slice(-1); // last character
+	if( document.getElementById("currenttab"))
+	  {
+	  	document.getElementById("currenttab").value = tabnumber; 
+	  	// this is for a hidden so form submits to same tab
+	  }
+    if (document.getElementById(onBlock).style != null )
+	{
+	for (i=0;i<numTabs;i++)
+	    {var thisBlock=tabName + "_" + i;   // hide all blocks
+	    blockOff(thisBlock);
+	    }
+	blockOn(onBlock);                  // show selected block
+	}
+    }
+
+function swapTabColours(onBlock, numTabs, tabName)	// show onBlock, hide the rest
+    {
+// script to swap background colours of div "blocks" on page	
+    if (document.getElementById(onBlock).style != null )
+	{
+	for (i=0;i<numTabs;i++)
+	    {var thisBlock=tabName + "_" + i;   
+	    var objOff= document.getElementById(thisBlock).style;
+	    objOff.backgroundColor= "#49A1CD";//"#002383"; // make all div tabs row colour
+	    objOff.border="solid 2px #49A1CD";
+	    }
+	var objOn = document.getElementById(onBlock).style;		
+	objOn.backgroundColor="#FFFFFF"; 
+	objOn.borderBottom="solid 2px #FFFFFF";
+	}
+    }
+    
+    
+    
+// -->
+</script>
+
+</head>
+<body>		
+
+<div id='wrapper'>
+    <div id="header-wrapper">
+	<div id='header'><img src='http://spider.science.strath.ac.uk/seabiotech//files/media/logo_03.png' /></div>
+   </div>
+        <ul id="menu-nav" >
+     <li class='parent'><a href='http://spider.science.strath.ac.uk/seabiotech/index.php'><span><strong>home</strong></span></a></li> <li class='parent'><a href='http://spider.science.strath.ac.uk/seabiotech/The Coordinating Team.htm'><span><strong>The Coordinating Team</strong></span></a></li> <li class='parent'><a href='http://spider.science.strath.ac.uk/seabiotech/PARTNERS.htm'><span><strong>PARTNERS</strong></span></a></li> <li class='parent'><a href='http://spider.science.strath.ac.uk/seabiotech/FP7 Thematic  .htm'><span><strong>Other FP7 Thematic Area</strong></span></a></li> <li class='parent'><a href='http://spider.science.strath.ac.uk/seabiotech/showNews.php'><span><strong>news</strong></span></a></li> <li class='parent'><a href='http://spider.science.strath.ac.uk/seabiotech/members.php'><span><strong>members</strong></span></a>	<ul class='sub-menu'>
+<li class=''><a href='http://spider.science.strath.ac.uk/seabiotech/SAB.htm'><span> Advisory Board</span></a></li></ul>
+</li> <li class='parent'><a href='http://spider.science.strath.ac.uk/seabiotech/links_view.php'><span><strong>links</strong></span></a></li> <li class='parent'><a href='http://spider.science.strath.ac.uk/seabiotech/Photo Gallery.htm'><span><strong>Photo Gallery</strong></span></a>	<ul class='sub-menu'>
+<li class=''><a href='http://spider.science.strath.ac.uk/seabiotech/Images of Research.htm'><span>Images of Research</span></a></li><li class=''><a href='http://spider.science.strath.ac.uk/seabiotech/Annual Meetings.htm'><span>Annual Meetings</span></a></li><li class=''><a href='http://spider.science.strath.ac.uk/seabiotech/Glasgow Science Festival.htm'><span>Science Festival</span></a></li><li class=''><a href='http://spider.science.strath.ac.uk/seabiotech/Milos.htm'><span>Milos</span></a></li><li class=''><a href='http://spider.science.strath.ac.uk/seabiotech/Isle of Gigha.htm'><span>Isle of Gigha</span></a></li></ul>
+</li> <li class='parent'><a href='http://spider.science.strath.ac.uk/seabiotech/Dissemination platform.htm'><span><strong>Dissemination platform</strong></span></a>	<ul class='sub-menu'>
+<li class=''><a href='http://spider.science.strath.ac.uk/seabiotech/Publications.htm'><span>Publications</span></a></li><li class=''><a href='http://spider.science.strath.ac.uk/seabiotech/Press Release.htm'><span>Press Release</span></a></li><li class=''><a href='http://spider.science.strath.ac.uk/seabiotech/Conferences.htm'><span>Conferences</span></a></li></ul>
+</li> <li class='parent'><a href='http://spider.science.strath.ac.uk/seabiotech/contact.htm'><span><strong>contact</strong></span></a></li>    
+    </ul>
+    <!--<div style='clear: both;'> &nbsp; </div>-->
+            
+    <div id="splash-wrapper">
+	<div id="splash">
+	<!--
+		<h2>Nullam pretium nibh ut turpis</h2>
+
+		<p>Lorem ipsum daolor sit amet, consectetur adipiscing elit. Nulla quis orci ut erat iaculis posuere in consequat nulla. Cras vel nisl ipsum, nec tincidunt nunc. Sed egestas lorem nisl, sed dignissim quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce tristique dui sit amet mauris.</p>
+		-->
+	</div>
+</div>
+    
+    <div id='page'>
+    	<div id="page-bgtop">
+	    <div id="page-bgbtm"> <div style="float: left; width: 690px; padding: 2px 20px 2px 8px;">
+ <h1>
+<div style="text-align: center">
+<img style="width: 147px; height: 90px" src="files/media/EU.jpg_tmp" alt="EU logo" title="EU logo" width="147" height="90" /> <img style="width: 98px; height: 78px" src="files/media/FP7-gen-RGB.jpg_tmp" alt="FP7 logo" title="FP7 logo" width="98" height="78" /> 
+</div>
+<div style="text-align: center">
+&nbsp;<img style="width: 327px; height: 75px" src="files/media/SeaBioTech.PNG" alt="Seabiotech logo" title="Seabiotech logo" width="327" height="75" />&nbsp; 
+</div>
+<div style="text-align: center">
+</div>
+</h1>
+<h1 style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal">
+<span style="font-size: 14pt">From sea-bed to test-bed: </span>
+<span style="font-size: 14pt">harvesting the potential of marine biodiversity for industrial biotechnology </span>
+<span style="font-size: 14pt">
+<h1>
+<font face="Arial" size="3">
+<font face="Arial" size="3">SeaBioTech is an EU-FP7 project designed and driven by SMEs to create innovative marine biodiscovery pipelines as a means to convert the potential of marine biotechnology into novel industrial products for the pharmaceutical (human and aquaculture), cosmetic, functional food and industrial chemistry sectors. To achieve its goals, SeaBioTech brings together complementary and world-leading experts, integrating biology, genomics, natural product chemistry, bioactivity testing, industrial bioprocessing, legal aspects, market analysis and knowledge exchange. </font>
+</font>
+</h1>
+<h1>
+<font face="Arial" size="3">
+</font>
+</h1>
+<font face="Arial" size="3">
+<font face="Arial" size="3">
+<h1 align="right">
+<table border="1" cellspacing="0" cellpadding="0" width="89%" class="MsoNormalTable" style="margin: auto auto auto 10px; border-collapse: collapse; border: medium none">
+	<tbody>
+		<tr>
+			<td width="197" valign="top" style="border-width: 1pt medium medium 1pt; border-style: solid none none solid; border-color: rgb(79, 129, 189) rgb(212, 208, 200) rgb(212, 208, 200) rgb(79, 129, 189); padding: 0cm 5.4pt; width: 147.95pt; background: none repeat scroll 0% 0% #4f81bd">
+			<p align="left">
+			<strong>
+			<span style="font-family: 'Calibri','sans-serif'; color: white">
+			<font size="3">Organisation&nbsp;</font> </span>
+			</strong>
+			</p>
+			</td>
+			<td width="98" valign="top" style="border-width: 1pt medium medium; border-style: solid none none; border-color: rgb(79, 129, 189) rgb(212, 208, 200) rgb(212, 208, 200); padding: 0cm 5.4pt; width: 73.45pt; background: none repeat scroll 0% 0% #4f81bd">&nbsp;</td>
+			<td width="70" valign="top" style="border-width: 1pt medium medium; border-style: solid none none; border-color: rgb(79, 129, 189) rgb(212, 208, 200) rgb(212, 208, 200); padding: 0cm 5.4pt; width: 52.65pt; background: none repeat scroll 0% 0% #4f81bd">
+			<strong>
+			<span style="font-family: 'Calibri','sans-serif'; color: white">
+			<font size="3">Country </font>
+			</span>
+			</strong>
+			</td>
+			<td width="184" valign="top" style="border-width: 1pt 1pt medium medium; border-style: solid solid none none; border-color: rgb(79, 129, 189) rgb(79, 129, 189) rgb(212, 208, 200) rgb(212, 208, 200); padding: 0cm 5.4pt; width: 138.05pt; background: none repeat scroll 0% 0% #4f81bd">
+			<strong>
+			<span style="font-family: 'Calibri','sans-serif'; color: white">
+			<font size="3">Type of organisation </font>
+			</span>
+			</strong>
+			</td>
+		</tr>
+		<tr>
+			<td width="197" style="border-width: 1pt medium 1pt 1pt; border-style: solid none solid solid; border-color: rgb(79, 129, 189) rgb(212, 208, 200) rgb(79, 129, 189) rgb(79, 129, 189); padding: 0cm 5.4pt; background-color: transparent; width: 147.95pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">
+			<a href="https://pure.strath.ac.uk/portal/en/projects/seabiotech(94377f4a-8041-41ab-9c42-854115bc294e).html" target="_blank" title="SIPBS team">Strathclyde University</a> </font>
+			</span>
+			</p>
+			</td>
+			<td width="98" style="border-width: 1pt medium; border-style: solid none; border-color: rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 73.45pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">SIPBS </font>
+			</span>
+			</p>
+			</td>
+			<td width="70" style="border-width: 1pt medium; border-style: solid none; border-color: rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 52.65pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">UK </font>
+			</span>
+			</p>
+			</td>
+			<td width="184" style="border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-color: rgb(79, 129, 189) rgb(79, 129, 189) rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 138.05pt">
+			<p align="left">
+			<strong>
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Education establishment </font>
+			</span>
+			</strong>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="197" style="border-width: medium medium medium 1pt; border-style: none none none solid; border-color: rgb(212, 208, 200) rgb(212, 208, 200) rgb(212, 208, 200) rgb(79, 129, 189); padding: 0cm 5.4pt; background-color: transparent; width: 147.95pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Ingenza </font>
+			</span>
+			</p>
+			</td>
+			<td width="98" style="padding: 0cm 5.4pt; background-color: transparent; width: 73.45pt; border: medium none #d4d0c8">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">IGZ </font>
+			</span>
+			</p>
+			</td>
+			<td width="70" style="padding: 0cm 5.4pt; background-color: transparent; width: 52.65pt; border: medium none #d4d0c8">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">UK </font>
+			</span>
+			</p>
+			</td>
+			<td width="184" style="border-width: medium 1pt medium medium; border-style: none solid none none; border-color: rgb(212, 208, 200) rgb(79, 129, 189) rgb(212, 208, 200) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 138.05pt">
+			<p align="left">
+			<strong>
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">SME </font>
+			</span>
+			</strong>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="197" style="border-width: 1pt medium 1pt 1pt; border-style: solid none solid solid; border-color: rgb(79, 129, 189) rgb(212, 208, 200) rgb(79, 129, 189) rgb(79, 129, 189); padding: 0cm 5.4pt; background-color: transparent; width: 147.95pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Prokazyme </font>
+			</span>
+			</p>
+			</td>
+			<td width="98" style="border-width: 1pt medium; border-style: solid none; border-color: rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 73.45pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">PKZ </font>
+			</span>
+			</p>
+			</td>
+			<td width="70" style="border-width: 1pt medium; border-style: solid none; border-color: rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 52.65pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">IS </font>
+			</span>
+			</p>
+			</td>
+			<td width="184" style="border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-color: rgb(79, 129, 189) rgb(79, 129, 189) rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 138.05pt">
+			<p align="left">
+			<strong>
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">SME </font>
+			</span>
+			</strong>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="197" style="border-width: medium medium medium 1pt; border-style: none none none solid; border-color: rgb(212, 208, 200) rgb(212, 208, 200) rgb(212, 208, 200) rgb(79, 129, 189); padding: 0cm 5.4pt; background-color: transparent; width: 147.95pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Marine Biopolymers </font>
+			</span>
+			</p>
+			</td>
+			<td width="98" style="padding: 0cm 5.4pt; background-color: transparent; width: 73.45pt; border: medium none #d4d0c8">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">MBL </font>
+			</span>
+			</p>
+			</td>
+			<td width="70" style="padding: 0cm 5.4pt; background-color: transparent; width: 52.65pt; border: medium none #d4d0c8">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">UK </font>
+			</span>
+			</p>
+			</td>
+			<td width="184" style="border-width: medium 1pt medium medium; border-style: none solid none none; border-color: rgb(212, 208, 200) rgb(79, 129, 189) rgb(212, 208, 200) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 138.05pt">
+			<p align="left">
+			<strong>
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">SME </font>
+			</span>
+			</strong>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="197" style="border-width: 1pt medium 1pt 1pt; border-style: solid none solid solid; border-color: rgb(79, 129, 189) rgb(212, 208, 200) rgb(79, 129, 189) rgb(79, 129, 189); padding: 0cm 5.4pt; background-color: transparent; width: 147.95pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Pharmaq </font>
+			</span>
+			</p>
+			</td>
+			<td width="98" style="border-width: 1pt medium; border-style: solid none; border-color: rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 73.45pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">PHARMAQ </font>
+			</span>
+			</p>
+			</td>
+			<td width="70" style="border-width: 1pt medium; border-style: solid none; border-color: rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 52.65pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">NO </font>
+			</span>
+			</p>
+			</td>
+			<td width="184" style="border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-color: rgb(79, 129, 189) rgb(79, 129, 189) rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 138.05pt">
+			<p align="left">
+			<strong>
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">SME </font>
+			</span>
+			</strong>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="197" style="border-width: medium medium medium 1pt; border-style: none none none solid; border-color: rgb(212, 208, 200) rgb(212, 208, 200) rgb(212, 208, 200) rgb(79, 129, 189); padding: 0cm 5.4pt; background-color: transparent; width: 147.95pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Axxam </font>
+			</span>
+			</p>
+			</td>
+			<td width="98" style="padding: 0cm 5.4pt; background-color: transparent; width: 73.45pt; border: medium none #d4d0c8">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">AXXAM </font>
+			</span>
+			</p>
+			</td>
+			<td width="70" style="padding: 0cm 5.4pt; background-color: transparent; width: 52.65pt; border: medium none #d4d0c8">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">IT </font>
+			</span>
+			</p>
+			</td>
+			<td width="184" style="border-width: medium 1pt medium medium; border-style: none solid none none; border-color: rgb(212, 208, 200) rgb(79, 129, 189) rgb(212, 208, 200) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 138.05pt">
+			<p align="left">
+			<strong>
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">SME </font>
+			</span>
+			</strong>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="197" style="border-width: 1pt medium 1pt 1pt; border-style: solid none solid solid; border-color: rgb(79, 129, 189) rgb(212, 208, 200) rgb(79, 129, 189) rgb(79, 129, 189); padding: 0cm 5.4pt; background-color: transparent; width: 147.95pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Horizon Discovery Ltd. </font>
+			</span>
+			</p>
+			</td>
+			<td width="98" style="border-width: 1pt medium; border-style: solid none; border-color: rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 73.45pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">HDL </font>
+			</span>
+			</p>
+			</td>
+			<td width="70" style="border-width: 1pt medium; border-style: solid none; border-color: rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 52.65pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">UK </font>
+			</span>
+			</p>
+			</td>
+			<td width="184" style="border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-color: rgb(79, 129, 189) rgb(79, 129, 189) rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 138.05pt">
+			<p align="left">
+			<strong>
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">SME </font>
+			</span>
+			</strong>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="197" style="border-width: medium medium medium 1pt; border-style: none none none solid; border-color: rgb(212, 208, 200) rgb(212, 208, 200) rgb(212, 208, 200) rgb(79, 129, 189); padding: 0cm 5.4pt; background-color: transparent; width: 147.95pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Matis </font>
+			</span>
+			</p>
+			</td>
+			<td width="98" style="padding: 0cm 5.4pt; background-color: transparent; width: 73.45pt; border: medium none #d4d0c8">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">MATIS </font>
+			</span>
+			</p>
+			</td>
+			<td width="70" style="padding: 0cm 5.4pt; background-color: transparent; width: 52.65pt; border: medium none #d4d0c8">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">IS </font>
+			</span>
+			</p>
+			</td>
+			<td width="184" style="border-width: medium 1pt medium medium; border-style: none solid none none; border-color: rgb(212, 208, 200) rgb(79, 129, 189) rgb(212, 208, 200) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 138.05pt">
+			<p align="left">
+			<strong>
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Non Profit Organization </font>
+			</span>
+			</strong>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="197" style="border-width: 1pt medium 1pt 1pt; border-style: solid none solid solid; border-color: rgb(79, 129, 189) rgb(212, 208, 200) rgb(79, 129, 189) rgb(79, 129, 189); padding: 0cm 5.4pt; background-color: transparent; width: 147.95pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Lund University </font>
+			</span>
+			</p>
+			</td>
+			<td width="98" style="border-width: 1pt medium; border-style: solid none; border-color: rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 73.45pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">LU </font>
+			</span>
+			</p>
+			</td>
+			<td width="70" style="border-width: 1pt medium; border-style: solid none; border-color: rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 52.65pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">SE </font>
+			</span>
+			</p>
+			</td>
+			<td width="184" style="border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-color: rgb(79, 129, 189) rgb(79, 129, 189) rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 138.05pt">
+			<p align="left">
+			<strong>
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Education establishment </font>
+			</span>
+			</strong>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="197" style="border-width: medium medium medium 1pt; border-style: none none none solid; border-color: rgb(212, 208, 200) rgb(212, 208, 200) rgb(212, 208, 200) rgb(79, 129, 189); padding: 0cm 5.4pt; background-color: transparent; width: 147.95pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Wuerzburg University </font>
+			</span>
+			</p>
+			</td>
+			<td width="98" style="padding: 0cm 5.4pt; background-color: transparent; width: 73.45pt; border: medium none #d4d0c8">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">UWUERZ </font>
+			</span>
+			</p>
+			</td>
+			<td width="70" style="padding: 0cm 5.4pt; background-color: transparent; width: 52.65pt; border: medium none #d4d0c8">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">DE </font>
+			</span>
+			</p>
+			</td>
+			<td width="184" style="border-width: medium 1pt medium medium; border-style: none solid none none; border-color: rgb(212, 208, 200) rgb(79, 129, 189) rgb(212, 208, 200) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 138.05pt">
+			<p align="left">
+			<strong>
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Education establishment </font>
+			</span>
+			</strong>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="197" style="border-width: 1pt medium 1pt 1pt; border-style: solid none solid solid; border-color: rgb(79, 129, 189) rgb(212, 208, 200) rgb(79, 129, 189) rgb(79, 129, 189); padding: 0cm 5.4pt; background-color: transparent; width: 147.95pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Hellenic Center for Marine Research </font>
+			</span>
+			</p>
+			</td>
+			<td width="98" style="border-width: 1pt medium; border-style: solid none; border-color: rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 73.45pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">HCMR </font>
+			</span>
+			</p>
+			</td>
+			<td width="70" style="border-width: 1pt medium; border-style: solid none; border-color: rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 52.65pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">GR </font>
+			</span>
+			</p>
+			</td>
+			<td width="184" style="border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-color: rgb(79, 129, 189) rgb(79, 129, 189) rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 138.05pt">
+			<p align="left">
+			<strong>
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Research Organisation </font>
+			</span>
+			</strong>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="197" style="border-width: medium medium medium 1pt; border-style: none none none solid; border-color: rgb(212, 208, 200) rgb(212, 208, 200) rgb(212, 208, 200) rgb(79, 129, 189); padding: 0cm 5.4pt; background-color: transparent; width: 147.95pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Scottish Association for Marine Science </font>
+			</span>
+			</p>
+			</td>
+			<td width="98" style="padding: 0cm 5.4pt; background-color: transparent; width: 73.45pt; border: medium none #d4d0c8">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">SAMS </font>
+			</span>
+			</p>
+			</td>
+			<td width="70" style="padding: 0cm 5.4pt; background-color: transparent; width: 52.65pt; border: medium none #d4d0c8">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">UK </font>
+			</span>
+			</p>
+			</td>
+			<td width="184" style="border-width: medium 1pt medium medium; border-style: none solid none none; border-color: rgb(212, 208, 200) rgb(79, 129, 189) rgb(212, 208, 200) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 138.05pt">
+			<p align="left">
+			<strong>
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Research Organisation </font>
+			</span>
+			</strong>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="197" style="border-width: 1pt medium 1pt 1pt; border-style: solid none solid solid; border-color: rgb(79, 129, 189) rgb(212, 208, 200) rgb(79, 129, 189) rgb(79, 129, 189); padding: 0cm 5.4pt; background-color: transparent; width: 147.95pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Technical Research Centre of Finland </font>
+			</span>
+			</p>
+			</td>
+			<td width="98" style="border-width: 1pt medium; border-style: solid none; border-color: rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 73.45pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">VTT </font>
+			</span>
+			</p>
+			</td>
+			<td width="70" style="border-width: 1pt medium; border-style: solid none; border-color: rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 52.65pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">FI </font>
+			</span>
+			</p>
+			</td>
+			<td width="184" style="border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-color: rgb(79, 129, 189) rgb(79, 129, 189) rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 138.05pt">
+			<p align="left">
+			<strong>
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Research Organisation </font>
+			</span>
+			</strong>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="197" style="border-width: medium medium 1pt 1pt; border-style: none none solid solid; border-color: rgb(212, 208, 200) rgb(212, 208, 200) rgb(79, 129, 189) rgb(79, 129, 189); padding: 0cm 5.4pt; background-color: transparent; width: 147.95pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">Novamen </font>
+			</span>
+			</p>
+			</td>
+			<td width="98" style="border-width: medium medium 1pt; border-style: none none solid; border-color: rgb(212, 208, 200) rgb(212, 208, 200) rgb(79, 129, 189); padding: 0cm 5.4pt; background-color: transparent; width: 73.45pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">NOVAMEN </font>
+			</span>
+			</p>
+			</td>
+			<td width="70" style="border-width: medium medium 1pt; border-style: none none solid; border-color: rgb(212, 208, 200) rgb(212, 208, 200) rgb(79, 129, 189); padding: 0cm 5.4pt; background-color: transparent; width: 52.65pt">
+			<p align="left">
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">FR </font>
+			</span>
+			</p>
+			</td>
+			<td width="184" style="border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: rgb(212, 208, 200) rgb(79, 129, 189) rgb(79, 129, 189) rgb(212, 208, 200); padding: 0cm 5.4pt; background-color: transparent; width: 138.05pt">
+			<p align="left">
+			<strong>
+			<span style="font-family: 'Calibri','sans-serif'">
+			<font size="3">SME </font>
+			</span>
+			</strong>
+			</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</h1>
+<h1 align="right">
+</h1>
+<h1 align="center">&nbsp;The Work Packages</h1>
+</font>
+</font>
+<font face="Arial" size="3">
+<font face="Arial" size="3">
+<h1 align="center">&nbsp; 
+<div style="text-align: center">
+<img style="width: 517px; height: 474px" src="files/media/WPs.png" alt="work packages" title="work packages" width="517" height="474" /> 
+</div>
+</h1>
+<h1 align="center">
+<font face="Arial" size="3">
+<font face="Arial" size="3">
+</font>
+</font>
+</h1>
+<h1 align="center">
+<font face="Arial" size="3">
+<font face="Arial" size="3">
+</font>
+</font>
+</h1>
+<h1 align="center">
+<font face="Arial" size="3">
+<font face="Arial" size="3">
+</font>
+</font>
+</h1>
+<h1 align="center">
+<font face="Arial" size="3">
+<font face="Arial" size="3">
+</font>
+</font>
+</h1>
+<h1 align="center">
+<font face="Arial" size="3">
+<font face="Arial" size="3">
+</font>
+</font>
+</h1>
+<h1 align="center">
+<font face="Arial" size="3">
+<font face="Arial" size="3">
+</font>
+</font>
+</h1>
+<h1 align="center">
+<font face="Arial" size="3">
+<font face="Arial" size="3">
+</font>
+</font>
+</h1>
+<h1 align="center">
+<font face="Arial" size="3">
+<font face="Arial" size="3">
+</font>
+</font>
+</h1>
+<h1 align="center">
+<font face="Arial" size="3">
+<font face="Arial" size="3">
+</font>
+</font>
+</h1>
+<h1 align="center">
+<font face="Arial" size="3">
+<font face="Arial" size="3">
+</font>
+</font>
+</h1>
+<h1 align="center">
+<font face="Arial" size="3">
+<font face="Arial" size="3">
+</font>
+</font>
+</h1>
+<h1 align="center">
+<font face="Arial" size="3">
+<font face="Arial" size="3">
+</font>
+</font>
+</h1>
+<h1 align="center">
+<font face="Arial" size="3">
+<font face="Arial" size="3">
+</font>
+</font>
+</h1>
+<h1 align="center">
+<font face="Arial" size="3">
+<font face="Arial" size="3">
+</font>
+</font>
+</h1>
+<h1 align="center">
+<font face="Arial" size="3">
+<font face="Arial" size="3">
+</font>
+</font>
+</h1>
+<p align="center">
+<img style="width: 729px; height: 415px" src="files/media/WP_interaction.png" alt="interactions" title="interactions" width="729" height="415" /> 
+</p>
+<p align="center">
+&nbsp;
+</p>
+</font>
+</font>
+</span>
+</h1>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+<span style="color: windowtext; font-size: 10pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</span>
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+<span style="color: windowtext; font-size: 10pt">
+<span style="color: windowtext; font-size: 10pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</span>
+</span>
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+<span style="color: windowtext; font-size: 10pt">
+<span style="color: windowtext; font-size: 10pt">
+<span style="color: windowtext; font-size: 10pt">
+<span style="color: windowtext; font-size: 10pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</span>
+</span>
+</span>
+</span>
+</span>
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+<span style="color: windowtext; font-size: 10pt">
+<span style="color: windowtext; font-size: 10pt">
+<span style="color: windowtext; font-size: 10pt">
+<span style="color: windowtext; font-size: 10pt">
+<span style="color: windowtext; font-size: 10pt">
+<span style="color: windowtext; font-size: 10pt">
+<span style="color: windowtext; font-size: 10pt">
+<span style="color: windowtext; font-size: 10pt">
+<img style="width: 353px; height: 336px" src="files/media/Figure1.png" alt="challenges" title="challenges" width="353" height="336" align="left" /> </span>
+</span>
+</span>
+</span>
+</span>
+</span>
+</span>
+</span>&nbsp;</span> </address>
+<address class="Default" style="text-align: center; margin: 0cm 0cm 0pt">
+<span style="color: windowtext; font-size: 10pt">
+</span>
+</address>
+<h1 style="text-align: center; margin: 0cm 0cm 0pt; font-size: large" class="Default">
+<span style="color: windowtext; font-size: 10pt">
+<em style="font-size: x-large">Concept of SeaBioTech</em> </span>&nbsp;</h1>
+<p>
+&nbsp;
+</p>
+<p align="justify">
+<span style="color: windowtext; font-size: 10pt">SeaBioTech, an<span> <span>integrated approach on marine biodiscovery pipelines:</span> </span>
+<span>the project&rsquo;s innovation is at two levels. The first level corresponds to scientific, technical and technological challenges, and includes: </span>
+</span>
+</p>
+<p align="justify">
+<span style="color: windowtext; font-size: 10pt"><span><strong><em>Challenge 1:</em> </strong>
+</span>
+<span>The&nbsp;approach to resource quality will begin by standardizing the sampling process from unique and previously untapped habitats, including geothermal intertidal biotopes in Iceland, hydrothermal vent fields and deep sea oligotrophic basins of the Eastern Mediterranean Sea, and unsampled areas of Scottish coasts that are likely to be highly productive sources of new bioactive compounds.&nbsp;The SeaBioTech sampling process will guarantee the quality of marine resources for further industrial development, including identification of marine microorganisms and their variability based on genomics and metagenomics. This project will also integrate the critical aspect of the maintenance of the sampled species with their intrinsic quality and their secondary metabolites, by developing special cultivation media and storage conditions. </span>
+<span>
+<span>&nbsp;</span> </span>
+</span>
+</p>
+<p align="justify">
+<span style="color: windowtext; font-size: 10pt"><span><span><em><strong>Challenge 2:</strong> </em>
+</span>
+<span>The improvement in technical aspects: to improve marine biodiscovery and reassure industries about its feasibility, SeaBioTech will perfectly combine metabolomics assisted by systems biology and functional bioassays to increase the ability to uncover positive hits with a cheaper and faster approach: an affordable, innovative and efficient method to separate, elucidate the structure, and identify the bioactive metabolites.</span></span></span><span> </span>
+</p>
+<p style="font-size: 12px" align="justify">
+<span><em><strong>Challenge 3</strong></em>: 
+</span>
+<span>Sustainable modes of supply</span> <span>of raw materials for the industries: The last technical brick for industries is the sustainability of these newly discovered raw materials not only at lab scale but also at industrial scale. Thus, SeaBioTech will benefit from the power of well-controlled metabolic engineering of interesting organisms (bacteria, microalgae, cyanobacteria) to increase the yield of bioactive metabolites at lab scale and multiply this yield through fermentation technology at industrial scale to deliver promising enzymes, polymers and small molecules as industries need. </span>
+</p>
+<p style="font-size: 12px" align="justify">
+<span>
+<strong>
+<em>Challenge 4:</em> </strong>
+</span>
+<span>The whole biodiscovery process is completed by the clarification of all legal aspects to gain visibility and efficiency for industries. SeaBioTech will perfectly coordinate the legal procedures with national, European and international authorities/stakeholders to propose harmonization of the legal process related to marine bioprospecting, biodiscovery and marine biotechnology for commercial purposes. </span>
+</p>
+<p>
+<span style="color: windowtext; font-size: 10pt"><span><span><span><span><strong><em>Challenge 5:</em> </strong>
+</span>
+<span>
+</span>
+<span>To crystalize this innovative approach, SeaBiotech will create a centralized tool to describe the whole marine biodiscovery pipeline including available biobanks, the identified marine organisms, compounds and extracts, the cutting-edge methods in identification, elucidation, metabolic engineering to be further used for industrial purposes with all related procedures on legal process for companies, academia, and legal authorities. 
+</span>
+</span>
+</span>
+</span>
+</span>
+</p>
+<span style="color: windowtext; font-size: 10pt">
+<span>
+<span>
+<span>
+<span>
+<p>
+&nbsp;
+</p>
+</span>
+</span>
+</span>
+</span>
+</span>
+<p>
+&nbsp;
+</p>
+<p>
+SeaBioTech is funded by the European Commission within its FP7 Programme, under the thematic area KBBE.2012.3.2-01 with Grant Number 311932.
+</p>
+<p>
+&nbsp;
+</p>
+ </div>
+
+    <div style="float: left; width: 150px;  margin: 8px 2px 0px 8px; padding: 0px 0px; border-left: solid 1px #eeeeee;" > 
+<div class='div_news_column'>
+<h3>News</h3>
+<div class='news_side_item'>
+<p><strong>Congratulations to SeaBioTech for hosting the 9th ECMNP in Glasgow</strong><br /><span class='small grey'> <br />.... <a href='showNews.php?ID=32'>more</a></span></p></div>
+
+<div class='news_side_item'>
+<p><strong>ECMNP 2015 - Registration Now Open!</strong><br /><span class='small grey'>Glasgow will host the 9th European Marine Natural Products Conference from Sunday 30th August-Wednesday 2nd September 2015 at the newly built Technology and Innovation Centre (TIC), University of Strathclyde. .... <a href='showNews.php?ID=31'>more</a></span></p></div>
+
+</div>
+<div class='div_news_column'>
+<h3>Meetings</h3>
+<div class='news_side_item'>
+<p><strong>Glasgow hosts 9th ECMNP in 2015</strong><br /><span class='small grey'>SeaBioTech along with PharmaSea and Bluegenics won the bid to host the 9th ECMNP 2015 in Glasgow. ECMNP2015 will be organised by four Scottish Universities along with the Phytochemical Society of Europe.... <a href='showNews.php?m=1&ID=27'>more</a></span></p></div>
+
+<div class='news_side_item'>
+<p><strong>SeaBioTech 2014 Annual Meeting</strong><br /><span class='small grey'>Matis will be hosting the 2014 General Assembly in Reykjavik,  Iceland.... <a href='showNews.php?m=1&ID=30'>more</a></span></p></div>
+
+</div>
+        
+    </div>
+    <div style='clear: both;'>&nbsp;</div>
+</div>
+
+<br />
+
+
+
+
+
+	</div>
+    </div>
+
+    
+   
+         <div id='footer'>
+	    <p class='centered_text white'>    
+	    &copy; SeaBioTech 2016 | 
+	    <a class='white' href="http://spider.science.strath.ac.uk/seabiotech/index.php">home</a> | 
+	    <a class='white' href="http://spider.science.strath.ac.uk/seabiotech/showPage.php?page=contact">contact</a> 
+	    
+	    	    
+	    </p>
+	</div>
+    
+
+</div>
+
+   
+
+
+
+<br />
+</body>
+</html>
+ 
+
+ 
+

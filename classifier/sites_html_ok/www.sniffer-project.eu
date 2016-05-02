@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<title>SNIFFER Project - A bio-mimicry enabled artificial sniffer </title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="The SNIFFER RTD European Project aims at leveraging sniffer dogs capabilities by designing a one shop solution device relying on innovative technologies and focusing on end-user cases." />
+	<meta name="keywords" content="SNIFFER, artificial sniffer, bio-mimicry, explosive detection, drug detection, sampling, pre-concentration, diamond sensor, protein engineering, border security, odour, biosensor, multi-parametric training" />
+    <meta name="author" content="xipix">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->	
+<!-- begin frontend modules files -->
+<!-- end frontend modules files -->
+  <link rel="stylesheet" type="text/css" href="http://www.sniffer-project.eu/css/bootstrap.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="http://www.sniffer-project.eu/templates/xipix/css/styles.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="http://www.sniffer-project.eu/modules/activecalendar/frontend.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="http://www.sniffer-project.eu/modules/..//ui/jquery-ui.custom.css" media="screen" />
+  <script type="text/javascript" src="http://www.sniffer-project.eu/modules/lib_jquery/jquery-core/jquery-core.min.js"></script>
+  <script type="text/javascript" src="http://www.sniffer-project.eu/js/bootstrap.js"></script>
+  <script type="text/javascript" src="http://www.sniffer-project.eu/js/jquery.fontscale.js"></script>
+  <script type="text/javascript" src="http://www.sniffer-project.eu/js/jquery.cookie.js"></script>
+  <script type="text/javascript" src="http://www.sniffer-project.eu/modules/droplets/js/mdcr.js"></script>
+  <script type="text/javascript" src="http://www.sniffer-project.eu/modules/..//ui/jquery-ui.custom.min.js"></script>
+  <script type="text/javascript" src="http://www.sniffer-project.eu/modules/..//js/jquery.corner.js"></script>
+  <script type="text/javascript" src="http://www.sniffer-project.eu/modules/..//js/custom.js"></script>
+</head>
+<body>
+<div class="container">
+	<!--START header -->
+	<div id="header" class="row">
+		<div class="span4">
+			<h1 id="header-logo">SNIFFER Project</h1>
+			<a href="http://www.sniffer-project.eu" title="SNIFFER Project" id="linkLogo"></a>
+		</div>	
+		<div class="span3 offset5">
+				<div id="toolLinks" class="btn gradient pull-right">
+					<a title="SNIFFER Project - Contact us" href="http://www.sniffer-project.eu/page/contact.php" class=""><i class="icon-add icon-contact"></i></a>
+					<a title=" SNIFFER Project - Sitemap" href="http://www.sniffer-project.eu/page/sitemap.php" class=""><i class="icon-add icon-sitemap"></i></a>
+					<a target="_blank" title="SNIFFER Project - Feed RSS" href="http://www.sniffer-project.eu/rss.php" class=""><i class="icon-add icon-rss"></i></a>
+				</div>
+                            <div id="searchFormGeneral">
+                    <form action="http://www.sniffer-project.eu/search/index.php" method="get" class="pull-right">
+                        <fieldset>
+                            <input type="hidden" name="referrer" value="2" />
+                            <input type="text" name="string"  class="search-query " placeholder="Search" value="Search"/>
+							<input type="submit" value="" class="search-query-submit"/>
+                        </fieldset>
+                    </form>
+                </div>
+                	    </div>
+	</div>
+	<!--END header -->
+	<!--START menu -->
+	<div class="row">
+		<div class="span12">
+			<div class="navbar cornerAll">
+				<div class="border">
+					<div class="navbar-inner2 gradient ">
+						<div class="container">
+					  <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+					  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </a>
+					  <div class="nav-collapse">
+<!-- show_menu2 -->
+ <ul class="menu-top ">
+    <li ><a href="http://www.sniffer-project.eu"  title="A bio-mimicry enabled artificial sniffer " class="">Homepage</a>    </li>
+    <li ><a href="http://www.sniffer-project.eu/page/about-the-sniffer-project.php"  title="About the SNIFFER Project" class="">About the SNIFFER Project</a>
+     <ul class=" ">
+        <li ><a href="http://www.sniffer-project.eu/page/about-the-sniffer-project/concept-and-usage-cases.php"  title="Concept and Usage Cases" class="">Concept and Usage Cases</a>        </li>
+        <li ><a href="http://www.sniffer-project.eu/page/about-the-sniffer-project/objectives-and-strategic-impact.php"  title="Objectives and Strategic impact" class="">Objectives and Strategic impact</a>        </li>
+        <li ><a href="http://www.sniffer-project.eu/page/about-the-sniffer-project/project-structure.php"  title="Project Structure" class="">Project Structure</a>        </li>
+        <li ><a href="http://www.sniffer-project.eu/page/about-the-sniffer-project/key-figures.php"  title="Key figures" class="">Key figures</a>        </li>
+        <li ><a href="http://www.sniffer-project.eu/page/about-the-sniffer-project/dissemination-and-exploitation.php"  title="Dissemination and Exploitation" class="">Dissemination and Exploitation</a>        </li>
+     </ul>
+    </li>
+    <li ><a href="http://www.sniffer-project.eu/page/bookmarks.php"  title="Partners" class="">Partners</a>    </li>
+    <li ><a href="http://www.sniffer-project.eu/page/news-and-events.php"  title="News &amp; Events" class="">News &amp; Events</a>
+     <ul class=" ">
+        <li ><a href="http://www.sniffer-project.eu/page/news-events/news.php"  title="News" class="">News</a>        </li>
+        <li ><a href="http://www.sniffer-project.eu/page/news-events/sniffer-events.php"  title="Sniffer Events" class="">Sniffer Events</a>        </li>
+        <li ><a href="http://www.sniffer-project.eu/page/news-events/external-events.php"  title="External events" class="">External events</a>        </li>
+     </ul>
+    </li>
+    <li ><a href="http://www.sniffer-project.eu/page/media.php"  title="Media" class="">Media</a>
+     <ul class=" ">
+        <li ><a href="http://www.sniffer-project.eu/page/media/articles.php"  title="Articles" class="">Articles</a>        </li>
+        <li ><a href="http://www.sniffer-project.eu/page/media/downloads.php"  title="Downloads" class="">Downloads</a>        </li>
+     </ul>
+    </li>
+    <li ><a href="http://www.sniffer-project.eu/page/the-sniffer-project-environement.php"  title="The SNIFFER Project Environement" class="">The SNIFFER Project Environement</a>
+     <ul class=" ">
+        <li ><a href="http://www.sniffer-project.eu/page/the-sniffer-project-environement/related-european-projects-and-synergies.php"  title="Related European Projects and synergies" class="">Related European Projects and synergies</a>        </li>
+        <li ><a href="http://www.sniffer-project.eu/page/the-sniffer-project-environement/user-advisory-group.php"  title="User Advisory Group" class="">User Advisory Group</a>        </li>
+     </ul>
+    </li>
+    <li ><a href="http://www.sniffer-project.eu/page/contact.php"  title="Contact" class="">Contact</a>    </li>
+ </ul>
+					  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END menu -->
+	<div class="row">
+				<!-- Left Column -->
+		<div class="span3" id="col_l">
+			<!--START subnav -->
+			<!--START subnav -->
+			<div class="hideOrNot">
+				<div class="box box-menu cornerTop">
+					<div class="box-title gradient ">
+						<h3>Homepage							<span class="childTitle">A bio-mimicry enabled artificial sniffer </span>
+						</h3>
+					</div>
+					<div class="box-content cornerBottom">
+<!-- show_menu2 -->
+					</div>
+				</div>
+			</div>
+			<!--END subnav -->
+			<!--START logos -->
+			<div id="euFp7Logos">
+				<a id="eu" target="_blank" class="logos" href="http://ec.europa.eu/index_en.htm"></a>
+				<a id="fp7" class="logos float_right" target="_blank" href="http://cordis.europa.eu/fp7/"></a>
+			</div>
+			<!--END logos -->
+					
+					<div class="box box-articles cornerTop">
+				<div class="box-title gradientGrey">
+					<h3>Latest Articles</h3>
+				</div>
+				<div class="box-content gradientGreyToWhite"><div class="blog_item"><h4><a href="http://www.sniffer-project.eu/page/media_items/sniffer-ended-31-may---lets-keep-in-touch11.php" title="SNIFFER ended 31 May - Let's keep in touch!">SNIFFER ended 31 May - Let's keep in touch!<i class="icon-add icon-grey-right"></i></a></h4></div><div class="blog_item"><h4><a href="http://www.sniffer-project.eu/page/media_items/sniffer-final-public-workshop10.php" title="SNIFFER Final Public Workshop">SNIFFER Final Public Workshop<i class="icon-add icon-grey-right"></i></a></h4></div><div class="blog_item"><h4><a href="http://www.sniffer-project.eu/page/media_items/sniffer-presents-at-frontex-ed4bg9.php" title="SNIFFER presents at FRONTEX ED4BG">SNIFFER presents at FRONTEX ED4BG<i class="icon-add icon-grey-right"></i></a></h4></div></div>
+				<a class="allItem"  href="http://www.sniffer-project.eu/page/media/articles.php" title="">See all Articles<i class="icon-add icon-grey-right"></i></a>
+			</div>
+			<div class="box box-news cornerTop">
+				<div class="box-title gradientBlue">
+					<h3>News & Events</h3>
+				</div>
+				<div class="box-content gradientBlueToWhite">
+					<div id="news_box"><ul class="no_bullet"><li><span class="lien_news"> No news at this moment</span></li></ul></div>
+				</div>
+				<a class="allItem" href="http://www.sniffer-project.eu/page/news-events/news.php" title="">See all News and Events<i class="icon-add icon-blue-right"></i></a>
+			</div>
+		</div>   
+		<!-- END left column -->
+		<!-- Content -->		
+		<div id="container" class="span9">
+			<div class="box">
+				<div class="box-title gradient cornerAll">
+					<h2 class="pageTitle">
+						<a class="float_left" title="SNIFFER Project - A bio-mimicry enabled artificial sniffer " href="#">SNIFFER Project - A bio-mimicry enabled artificial sniffer </a>
+						<span class=" pull-right">
+							<a title="Zoom plus" id="fontplus" href="#" class="btnSniffer"><i class="icon-add-big icon-zoom-in"></i></a>
+							<a title="Zoom minus" id="fontminus" href="#" class="btnSniffer"><i class="icon-add-big icon-zoom-out"></i></a>
+							<a title="Zoom reset" id="fontreset" href="#" class="btnSniffer"><i class="icon-add-big icon-refresh"></i></a>
+							<a title="Print page" href="javascript:window.print()" class="btnSniffer"><i class="icon-add-big icon-print"></i></a>
+						</span>
+					</h2>
+				</div>
+			</div>
+			<div class="contenu" id="content-principal">
+				<a class="section_anchor" id="lep_2"></a><p><strong>Welcome to the SNIFFER Project website &ndash; a pan-European research collaboration funded by the European Union.</strong></p>
+<h3 style="text-align: center;">SNIFFER : a bio-mimicry enabled artificial sniffer</h3>
+<p>Launched in February 2012, the SNIFFER project deals with the capture and analysis of odours as it offers significant potential for border security applications related to the detection and analysis of persons, illegal substances and in particular explosives. Dogs can only be trained for a small sample of odours, get easily tired and are often perceived as intrusive by the public.</p>
+<p style="text-align: center;"><em>The SNIFFER project proposes a highly innovative one-stop shop approach to complement dogs and leverage their capabilities.</em></p>
+<p>This approach is based on state-of-the-art technologies centred on a new generation of olfactory biosensors. The SNIFFER devices to be developed combine in a one-stop shop sampling, pre-concentration and pre-treatment with bio-mimicry, synthetic diamond sensor technology and multi-parametric training software. This will enable the detection of odours arising out of security threats which may occur in a panel of border security applications. <br /><br />Gathering 14 partners and following a multidisciplinary collaboration of several years between international research teams, the SNIFFER Project will hence open the road towards a promising market place for "artificial sniffing" centred border security solutions and for olfactory applications in general.<br /><br /></p>
+<p>&nbsp;<object style="display: block; margin-left: auto; margin-right: auto;" width="450" height="338" data="http://www.sniffer-project.eu/modules/tiny_mce_jq/tiny_mce/plugins/media/moxieplayer.swf" type="application/x-shockwave-flash"><param name="src" value="http://www.sniffer-project.eu/modules/tiny_mce_jq/tiny_mce/plugins/media/moxieplayer.swf" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="true" /><param name="quality" value="high" /><param name="wmode" value="transparent" /><param name="flashvars" value="url=/media/videos/SNIFFER_Project%20video.flv&amp;poster=/" /></object></p>	
+			</div>			
+					</div>
+	</div>
+	<div id="footer" class="row">
+		<div class="span5 offset3">
+			The research leading to these results has received funding from the European Community's Seventh Framework Programme (FP7/2007-2013) under grant agreement n°285203.		</div>
+		<div class="span3 offset1">
+			<div class="" id="links">&copy; Copyright 2012 SNIFFER.<br><a href="http://www.sniffer-project.eu/page/legal-mentions.php" >Legal mentions</a></div>
+		</div>
+	</div>
+</div>
+<div id="frontediter" style="width:80px;margin:auto;">
+	 
+</div>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33998078-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>

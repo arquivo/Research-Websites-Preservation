@@ -1,0 +1,395 @@
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+
+  
+    
+    
+    
+    
+
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    
+      <base href="http://www.monfispol.eu/monfispol-project" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    
+        <meta content="Monetary and Fiscal Policy FP7 Project" name="description" />
+
+  
+    <link rel="stylesheet" type="text/css" media="screen" href="http://www.monfispol.eu/portal_css/Plone%20Classic%20Theme/reset-cachekey-55f18997ac52f3b6593c0a32bdd8d17b.css" />
+    <style type="text/css" media="screen">@import url(http://www.monfispol.eu/portal_css/Plone%20Classic%20Theme/base-cachekey-c9ebc21e2ddf716dbc062a3bbe907c49.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="http://www.monfispol.eu/portal_css/Plone%20Classic%20Theme/resourcetinymce.stylesheetstinymce-cachekey-13ab55601c41f97fba770bab565aadaa.css" />
+    <style type="text/css">@import url(http://www.monfispol.eu/portal_css/Plone%20Classic%20Theme/print-cachekey-d9d7813fd1dbdb3b28dd2895e887bdc2.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="http://www.monfispol.eu/portal_css/Plone%20Classic%20Theme/resourceplone.app.discussion.stylesheetsdiscussion-cachekey-15858c31927439e266afdf4f73eaa9eb.css" />
+    <style type="text/css" media="all">@import url(http://www.monfispol.eu/portal_css/Plone%20Classic%20Theme/ploneCustom-cachekey-4742c77820208bcefea310d95de024a1.css);</style>
+    <style type="text/css">@import url(http://www.monfispol.eu/portal_css/Plone%20Classic%20Theme/kupustyles-cachekey-976b26ffe06c72b12beed9be632c3717.css);</style>
+
+  
+  
+    <script type="text/javascript" src="http://www.monfispol.eu/portal_javascripts/Plone%20Classic%20Theme/resourceplone.app.jquery-cachekey-d2f5a8e06a458f4a097e6fdb05bb8d24.js"></script>
+    <script type="text/javascript" src="http://www.monfispol.eu/portal_javascripts/Plone%20Classic%20Theme/kupunoi18n-cachekey-aa12645d66d40a91fe2a7d0158b65c10.js"></script>
+    <script type="text/javascript" src="http://www.monfispol.eu/portal_javascripts/Plone%20Classic%20Theme/kss-bbb-cachekey-58d174d8538fa831854a87fe14a10044.js"></script>
+
+
+<title>MONFISPOL &mdash; Monetary and Fiscal Policy FP7 Project</title>
+
+        
+    <link rel="canonical" href="http://www.monfispol.eu" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="http://www.monfispol.eu/favicon.ico" />
+    <link rel="apple-touch-icon" href="http://www.monfispol.eu/touch_icon.png" />
+
+
+
+
+
+    <link rel="alternate" href="http://www.monfispol.eu/RSS" title="Monetary and Fiscal Policy FP7 Project - RSS 1.0" type="application/rss+xml" />
+
+    <link rel="alternate" href="http://www.monfispol.eu/rss.xml" title="Monetary and Fiscal Policy FP7 Project - RSS 2.0" type="application/rss+xml" />
+
+    <link rel="alternate" href="http://www.monfispol.eu/atom.xml" title="Monetary and Fiscal Policy FP7 Project - Atom" type="application/rss+xml" />
+
+
+    <link rel="search" href="http://www.monfispol.eu/@@search" title="Search this site" />
+
+
+
+
+        
+        
+
+        
+        
+
+        
+        
+
+        
+        
+    
+
+  </head>
+
+  <body class="template-document_view portaltype-document site-monfispol section-monfispol-project icons-on userrole-anonymous" dir="ltr">
+    <div id="visual-portal-wrapper">
+
+      <div id="portal-top">
+        <div id="portal-header">
+    <p class="hiddenStructure">
+  <a accesskey="2" href="http://www.monfispol.eu/#content">Skip to content.</a> |
+
+  <a accesskey="6" href="http://www.monfispol.eu/#portal-globalnav">Skip to navigation</a>
+</p>
+
+<ul id="portal-siteactions">
+
+    <li id="siteaction-sitemap"><a href="http://www.monfispol.eu/sitemap" accesskey="3" title="Site Map">Site Map</a></li>
+    <li id="siteaction-accessibility"><a href="http://www.monfispol.eu/accessibility-info" accesskey="0" title="Accessibility">Accessibility</a></li>
+</ul>
+
+<div id="portal-searchbox">
+
+    <form id="searchGadget_form" action="http://www.monfispol.eu/@@search">
+
+        <div class="LSBox">
+        <label class="hiddenStructure" for="searchGadget">Search Site</label>
+
+        <input name="SearchableText" type="text" size="18" title="Search Site" placeholder="Search Site" accesskey="4" class="searchField" id="searchGadget" />
+
+        <input class="searchButton" type="submit" value="Search" />
+
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only" class="noborder" type="checkbox" name="path" value="/monfispol" />
+            <label for="searchbox_currentfolder_only" style="cursor: pointer">
+                only in current section
+            </label>
+        </div>
+
+        <div class="LSResult" id="LSResult"><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="http://www.monfispol.eu/@@search" accesskey="5">
+            Advanced Search&hellip;
+        </a>
+    </div>
+
+</div>
+
+<a id="portal-logo" title="Monetary and Fiscal Policy FP7 Project" accesskey="1" href="http://www.monfispol.eu">
+    <img src="http://www.monfispol.eu/monfispol.png" alt="Monetary and Fiscal Policy FP7 Project" title="Monetary and Fiscal Policy FP7 Project" height="85" width="628" /></a>
+
+
+    <p class="hiddenStructure">Navigation</p>
+
+    <ul id="portal-globalnav"><li id="portaltab-index_html" class="selected"><a href="http://www.monfispol.eu" title="">Home</a></li><li id="portaltab-events" class="plain"><a href="http://www.monfispol.eu/events" title="Site Events">Events</a></li><li id="portaltab-consortium" class="plain"><a href="http://www.monfispol.eu/consortium" title="">Consortium</a></li><li id="portaltab-reports" class="plain"><a href="http://www.monfispol.eu/reports" title="">Reports</a></li><li id="portaltab-software" class="plain"><a href="http://www.monfispol.eu/software" title="">Software</a></li><li id="portaltab-related-papers" class="plain"><a href="http://www.monfispol.eu/related-papers" title="List of publications">Related Papers</a></li><li id="portaltab-presentations" class="plain"><a href="http://www.monfispol.eu/presentations" title="">Presentations</a></li><li id="portaltab-press" class="plain"><a href="http://www.monfispol.eu/press" title="">Press</a></li></ul>
+
+
+</div>
+
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Personal tools</h5>
+
+<ul id="portal-personaltools" class="visualInline">
+    
+
+    
+        <li id="personaltools-login">
+            <a href="http://www.monfispol.eu/login_form">Administrator log in</a>
+        </li>
+    
+
+</ul>
+</div>
+
+
+
+<div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">You
+are here:</span>
+    <span id="breadcrumbs-home">
+        <a href="http://www.monfispol.eu">Home</a>
+        
+    </span>
+
+</div>
+
+      </div>
+
+      <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+
+      <table id="portal-columns">
+        <tbody>
+          <tr>
+            
+                
+                
+                
+            
+
+            
+            <td id="portal-column-content">
+
+              <div id="viewlet-above-content"></div>
+
+              
+                <div class="">
+
+                    
+
+                    <span id="contentTopLeft"></span>
+                    <span id="contentTopRight"></span>
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+
+                    
+                    <div id="content">
+                      
+                      
+
+                        
+                            
+                            
+                                
+                                
+            
+                <h1 id="parent-fieldname-title" class="documentFirstHeading">
+                    MONFISPOL
+                </h1>
+            
+            
+        
+                            
+                            
+
+
+
+
+                            
+                                
+                                
+            
+                <div id="parent-fieldname-description" class="documentDescription">
+                   Monetary and Fiscal Policy FP7 Project
+                </div>
+            
+            
+        
+                            
+
+                            
+
+
+                            <div id="content-core">
+                                
+    
+        
+        <div class="" id="parent-fieldname-text-05e961a5840b0752471993752e343e55">
+            
+<p align="justify">
+This
+project foresees to contribute to the evaluation of macroeconomic
+policy by advancing the analysis of optimal fiscal and monetary
+policy in monetary union such as the European one. This work will
+result in the addition of new numerical tools, specially designed for
+the computation of optimal policy in large macroeconometric models.
+Such multicountry models are necessary to take into account the
+diversity of the countries making now the European Union.</p>
+<p align="justify">These new
+tools for the computation of optimal policy will be added to <a class="external-link" href="http://www.dynare.org">DYNARE</a>,
+a public domain platform for the simulation and estimation of
+dynamic stochastic general equilibrium models (DSGE), that is
+increasingly used in policy making institution and in academic
+research alike.</p>
+<p align="justify"> New model developments are focused around the
+contribution of optimal fiscal policy to smooth shocks in a union of
+heterogeneous countries with rigidities in labor and financial
+markets. Special attention is given to the dynamics of public debt in
+such environment.</p>
+<p align="justify">Systematic models comparison will be made possible
+through the building of a database of macroeconomic models currently
+in use in policy making institutions around the world.</p>
+<p align="justify">New numerical
+tools will be added to <a class="external-link" href="http://www.dynare.org">DYNARE </a>that provide for the computation of optimal
+policy, either under commitment, in a timeless perspective or under
+discretion, for a very general class of nonlinear models. Particular
+attention will be given to correct linear quadratic approximation of
+these problems. Extensions will be made to the partial information
+case. These tools shall also permit to perform Bayesian estimation of
+these models under the assumption that the policies followed were
+optimal. Special emphasis is placed on the definition of priors.Given the complexity of the numerical computations, increasing the speed of computation and the development of parallel
+algorithms. is an important part of the project .</p>
+<p align="justify">Altogether, this project should represent a very
+significant step forward towards better models and better tools for
+the formulation of macroeconomic policies.</p>
+
+            
+        </div>
+    
+    
+
+                            </div>
+                            
+
+
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+
+            <p class="hiddenStructure">
+              Document Actions
+            </p>
+
+            <ul>
+                  <li id="document-action-sendto">
+                      <a href="http://www.monfispol.eu/monfispol-project/sendto_form" title="">Send this</a>
+                  </li>
+            </ul>
+        
+
+        
+
+    </div>
+
+
+                        
+
+                      
+                    </div>
+                    
+
+                    
+
+                    <span id="contentBottomLeft"></span>
+                    <span id="contentBottomRight"></span>
+
+                </div>
+              
+
+              <div id="viewlet-below-content">
+
+
+
+</div>
+
+            </td>
+            
+
+            
+                
+                
+                
+            
+          </tr>
+        </tbody>
+      </table>
+      
+
+      <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+
+      
+
+        <div id="portal-footer">
+          <p>
+               
+               The
+               <a href="http://plone.org">Plone<sup>&reg;</sup> Open Source CMS/WCM</a>
+               is
+               <abbr title="Copyright">&copy;</abbr>
+               2000-2016
+               by the
+               <a href="http://plone.org/foundation">Plone Foundation</a>
+               and friends.
+               
+
+               
+               Distributed under the
+                    <a href="http://creativecommons.org/licenses/GPL/2.0/">GNU GPL license</a>.
+               
+          </p>
+
+</div>
+
+<div id="portal-colophon">
+<div class="colophonWrapper">
+<ul>
+  <li>
+    <a href="http://plone.org" title="This site was built using the Plone Open Source CMS/WCM.">
+      Powered by Plone &amp; Python</a>
+  </li>
+</ul>
+</div>
+</div>
+
+
+
+      
+
+      <div class="visualClear"><!-- --></div>
+    </div>
+</body>
+</html>
+
+

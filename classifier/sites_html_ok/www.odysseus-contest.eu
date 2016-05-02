@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>   <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
+<!--[if IE 7]>		<html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>		<html class="no-js lt-ie9 ie8" lang="en-US"> <![endif]-->
+<!--[if IE 9]>		<html class="ie9" lang="en-US"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en-US"><!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/favicon.png" type="image/x-icon">
+	
+	<link href='http://www.odysseus-contest.eu/wp-content/themes/odysseus2/js/pace/pace.css' rel='stylesheet'>
+	<script data-pace-options='{ "ajax": false, "document": true }' src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/js/pace/pace.min.js"></script>	
+	
+	<script src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/js/modernizr.js"></script>
+	
+	<link rel="alternate" hreflang="en-US" href="http://www.odysseus-contest.eu/" />
+<link rel="alternate" hreflang="bg-BG" href="http://www.odysseus-contest.eu/bg/" />
+<link rel="alternate" hreflang="cs-CZ" href="http://www.odysseus-contest.eu/cs/" />
+<link rel="alternate" hreflang="da-DK" href="http://www.odysseus-contest.eu/da/" />
+<link rel="alternate" hreflang="de-DE" href="http://www.odysseus-contest.eu/de/" />
+<link rel="alternate" hreflang="el" href="http://www.odysseus-contest.eu/el/" />
+<link rel="alternate" hreflang="fr-FR" href="http://www.odysseus-contest.eu/fr/" />
+<link rel="alternate" hreflang="it-IT" href="http://www.odysseus-contest.eu/it/" />
+<link rel="alternate" hreflang="nl-NL" href="http://www.odysseus-contest.eu/nl/" />
+<link rel="alternate" hreflang="pl-PL" href="http://www.odysseus-contest.eu/pl/" />
+<link rel="alternate" hreflang="pt-PT" href="http://www.odysseus-contest.eu/pt-pt/" />
+<link rel="alternate" hreflang="sk-SK" href="http://www.odysseus-contest.eu/sk/" />
+<link rel="alternate" hreflang="es-ES" href="http://www.odysseus-contest.eu/es/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.odysseus-contest.eu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='dashicons-css'  href='http://www.odysseus-contest.eu/wp-includes/css/dashicons.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpml-cms-nav-css-group-css' href='http://www.odysseus-contest.eu/wp-content/plugins/bwp-minify/min/?f=wp-content/plugins/wpml-cms-nav/res/css/navigation.css,wp-content/themes/odysseus2/css/bootstrap.min.css,wp-content/themes/odysseus2/style.css,wp-content/themes/odysseus2/lang.css,wp-includes/js/thickbox/thickbox.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cms-navigation-style-base-group-css' href='http://www.odysseus-contest.eu/wp-content/plugins/bwp-minify/min/?f=wp-content/plugins/wpml-cms-nav/res/css/cms-navigation-base.css,wp-content/plugins/wpml-cms-nav/res/css/cms-navigation.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='opensans-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A400italic%2C600italic%2C700italic%2C400%2C800%2C700%2C600&#038;subset=latin%2Cgreek&#038;ver=4.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.odysseus-contest.eu/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.odysseus-contest.eu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel='https://api.w.org/' href='http://www.odysseus-contest.eu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.odysseus-contest.eu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.odysseus-contest.eu/wp-includes/wlwmanifest.xml" /> 
+<link rel="canonical" href="http://www.odysseus-contest.eu/" />
+<link rel='shortlink' href='http://www.odysseus-contest.eu/' />
+<meta name="generator" content="WPML ver:3.3.6 stt:12,39,1,4,3,27,2,7,9,13,42,43,10;" />
+	
+	<title>ODYSSEUS II </title>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-27897571-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	
+	<script>
+		(function() {
+			var _fbq = window._fbq || (window._fbq = []);
+			if (!_fbq.loaded) {
+			var fbds = document.createElement('script');
+			fbds.async = true;
+			fbds.src = '//connect.facebook.net/en_US/fbds.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(fbds, s);
+			_fbq.loaded = true;
+			}
+		})();
+		window._fbq = window._fbq || [];
+		window._fbq.push(['track', '6029378720505', {'value':'0.00','currency':'EUR'}]);
+	</script>
+	<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6029378720505&amp;cd[value]=0.00&amp;cd[currency]=EUR&amp;noscript=1" /></noscript>
+
+</head>
+<body class="home page page-id-2 page-template page-template-template_home page-template-template_home-php lang-en">
+
+<!--[if lt IE 10]>
+<p class="browsehappy">
+	You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to be able to experience this site.</p><![endif]-->
+<no-script>
+ <p id="no-js-warning">
+	 It seems you have <strong>disabled</strong> javascript. Please <strong><a href="http://www.enable-javascript.com/">enable javascript</a></strong> for this site to function properly.  </p>
+</no-script>
+<div id="odysseusCarousel" class="carousel slide ">
+	
+	<div class="carousel-inner">
+		<div class="item active">
+			<img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/home-slider-1.jpg" alt="Odysseus Contest" />
+		</div>
+		<div class="item">
+			<img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/home-slider-2.jpg" alt="Odysseus Contest" />
+		</div>
+		<div class="item">
+			<img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/home-slider-3.jpg" alt="Odysseus Contest" />
+		</div>
+		<div class="item">
+			<img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/home-slider-4.jpg" alt="Odysseus Contest" />
+		</div>
+	</div>
+
+	<a class="left carousel-control" href="#odysseusCarousel" data-slide="prev">
+		<span class="ody-icon-prev"></span>
+	</a>
+	<a class="right carousel-control" href="#odysseusCarousel" data-slide="next">
+		<span class="ody-icon-next"></span>
+	</a>
+
+</div>
+
+<div class="odysseus_moto">
+
+	<div class="moto_2" style="display:none;">
+		<span>SPACE ... BE INSPIRED!</span>
+	</div>
+
+	<div class="moto_1"  style="display:none;">
+		<span>The Odysseus space science challenge</span><br />
+		<span>For learners between the ages of 7 and 22</span>
+	</div>
+		
+</div>	<header id="odhead">
+	
+				
+		
+		<div class="container">
+			<div class="col-md-12 lang">
+								
+				<a href="http://www.odysseus-contest.eu/" id="langpicker">
+				LANGUAGE<img style="margin:0px 8px;" src="http://www.odysseus-contest.eu/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" />				<img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/menu.png"></a>
+				<div id="langer" style=" display: none;"><a id="lang-sk" href="http://www.odysseus-contest.eu/sk/"><img src="http://www.odysseus-contest.eu/wp-content/plugins/sitepress-multilingual-cms/res/flags/sk.png" />Slovenčina</a><a id="lang-pt-pt" href="http://www.odysseus-contest.eu/pt-pt/"><img src="http://www.odysseus-contest.eu/wp-content/plugins/sitepress-multilingual-cms/res/flags/pt-pt.png" />Português</a><a id="lang-pl" href="http://www.odysseus-contest.eu/pl/"><img src="http://www.odysseus-contest.eu/wp-content/plugins/sitepress-multilingual-cms/res/flags/pl.png" />Polski</a><a id="lang-nl" href="http://www.odysseus-contest.eu/nl/"><img src="http://www.odysseus-contest.eu/wp-content/plugins/sitepress-multilingual-cms/res/flags/nl.png" />Nederlands</a><a id="lang-it" href="http://www.odysseus-contest.eu/it/"><img src="http://www.odysseus-contest.eu/wp-content/plugins/sitepress-multilingual-cms/res/flags/it.png" />Italiano</a><a id="lang-fr" href="http://www.odysseus-contest.eu/fr/"><img src="http://www.odysseus-contest.eu/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png" />Français</a><a id="lang-es" href="http://www.odysseus-contest.eu/es/"><img src="http://www.odysseus-contest.eu/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png" />Español</a><a id="lang-el" href="http://www.odysseus-contest.eu/el/"><img src="http://www.odysseus-contest.eu/wp-content/plugins/sitepress-multilingual-cms/res/flags/el.png" />Ελληνικα</a><a id="lang-de" href="http://www.odysseus-contest.eu/de/"><img src="http://www.odysseus-contest.eu/wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png" />Deutsch</a><a id="lang-da" href="http://www.odysseus-contest.eu/da/"><img src="http://www.odysseus-contest.eu/wp-content/plugins/sitepress-multilingual-cms/res/flags/da.png" />Dansk</a><a id="lang-cs" href="http://www.odysseus-contest.eu/cs/"><img src="http://www.odysseus-contest.eu/wp-content/plugins/sitepress-multilingual-cms/res/flags/cs.png" />Čeština</a><a id="lang-bg" href="http://www.odysseus-contest.eu/bg/"><img src="http://www.odysseus-contest.eu/wp-content/plugins/sitepress-multilingual-cms/res/flags/bg.png" />Bulgarian</a></div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="col-md-3 logo">
+				<a href="http://www.odysseus-contest.eu/" title="ODYSSEUS II">	
+					<img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/logo.png" alt="ODYSSEUS II" title="ODYSSEUS II" class="pull-left" />
+				</a>
+			</div>
+			<div class="col-md-9 text-right">
+				<nav class="navbar ody-main-menu upper" role="navigation">
+					<ul id="menu-top-menu" class="nav navbar-nav pull-right"><li id="menu-item-158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-158 dropdown"><a title="About the Contest" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">About the Contest </a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-159"><a title="General Info" href="http://www.odysseus-contest.eu/about/general-info/">General Info</a></li>
+	<li id="menu-item-160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-160"><a title="Rules" href="http://www.odysseus-contest.eu/rules/">Rules</a></li>
+	<li id="menu-item-161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-161"><a title="Prizes" href="http://www.odysseus-contest.eu/prizes/">Prizes</a></li>
+	<li id="menu-item-163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163"><a title="Events" href="http://www.odysseus-contest.eu/about/events/">Events</a></li>
+</ul>
+</li>
+<li id="menu-item-152" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-152 dropdown"><a title="Resources" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Resources </a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-6633" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6633"><a title="Templates" href="http://www.odysseus-contest.eu/resources/templates/">Templates</a></li>
+	<li id="menu-item-153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-153"><a title="Library" href="http://www.odysseus-contest.eu/library/">Library</a></li>
+	<li id="menu-item-154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154"><a title="Submitted Entries" href="http://www.odysseus-contest.eu/resources/submitted-entries/">Submitted Entries</a></li>
+	<li id="menu-item-155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"><a title="Network of Mentors" href="http://www.odysseus-contest.eu/resources/network-of-mentors/">Network of Mentors</a></li>
+	<li id="menu-item-156" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156"><a title="Evaluators" href="http://www.odysseus-contest.eu/resources/evaluators/">Evaluators</a></li>
+	<li id="menu-item-157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-157"><a title="Evaluators Registration" href="http://www.odysseus-contest.eu/resources/evaluators-registration/">Evaluators Registration</a></li>
+</ul>
+</li>
+<li id="menu-item-146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-146 dropdown"><a title="Media" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Media </a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a title="Media Resources" href="http://www.odysseus-contest.eu/media/media-resources/">Media Resources</a></li>
+	<li id="menu-item-148" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-148"><a title="In the News" href="http://www.odysseus-contest.eu/media/in-the-news/">In the News</a></li>
+	<li id="menu-item-149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-149"><a title="Press Releases" href="http://www.odysseus-contest.eu/media/press-releases/">Press Releases</a></li>
+	<li id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a title="Media Gallery" href="http://www.odysseus-contest.eu/media/media-gallery/">Media Gallery</a></li>
+</ul>
+</li>
+<li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-151"><a title="Contact Us" href="http://www.odysseus-contest.eu/odysseus-ii/contact-us/">Contact Us</a></li>
+</ul>				</nav>
+			</div>
+		</div>
+	</header>
+		<section>
+		
+
+<div class="registration">
+	<div class="container">
+		<a href="http://www.odysseus-contest.eu/" id="showreg"></a>
+					<div class="col-md-4">
+				<h2>LOGIN/REGISTER</h2>
+			</div>
+			<div class="col-md-5">
+				<form method="post" class="form-horizontal" action="http://www.odysseus-contest.eu/wp-login.php" id="loginform" name="loginform">
+					
+					<div class="formelements">
+						<div class="inputset">
+							<label for="user_login">Username</label>  
+							<input id="user_login" name="log" type="text" placeholder="Username" >
+						</div>
+						<div class="inputset">
+							<label for="user_pass">Password</label>  
+							<input id="user_pass" name="pwd" type="password" placeholder="Password" >
+						</div>
+					</div>
+					<input type="hidden" value="http://www.odysseus-contest.eu/profile/" name="redirect_to">
+					
+					<input type="submit" value="Enter"  id="wp-submit" name="wp-submit">
+				</form>
+			</div>
+			<div class="col-md-3 text-center">
+				<p><strong>NOT REGISTERED?</strong></p>
+				<p><a href="http://www.odysseus-contest.eu/user/" class="registerhere">REGISTER HERE</a>
+			</div> 
+			</div>
+</div>
+
+<div class="choose_team">
+	<div class="container text-center">
+		<h2>Choose your group</h2>
+		<h4>and get ready for an exciting adventure to space!</h4>
+		<div class="col-md-4 text-right">
+			<a href="http://www.odysseus-contest.eu/skywalkers/" title="Skywalkers" class="skywalkers">&nbsp;</a>
+		</div>
+		<div class="col-md-4">
+			<a href="http://www.odysseus-contest.eu/pioneers/" title="Pioneers" class="pioneers">&nbsp;</a>
+		</div>
+		<div class="col-md-4 text-left">
+			<a href="http://www.odysseus-contest.eu/explorers/" title="Explorers" class="explorers">&nbsp;</a>
+		</div>
+	</div>
+</div>
+
+<div class="ody-progress">
+	<img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-bg-steady.png" class="foot-bg-bottom" />
+	<div class="container text-center">
+		<h2>Contest Progress</h2>
+		<div class="col-md-12">
+			<div class="timeliner first-timeliner">
+				<div class="timeline_bg"></div>
+				<div class="stimeline">
+					<div class="timeline_month">1 Sep.</div>
+					<div class="timeline_year">2015</div>
+				</div>
+				<div class="htimeline">
+					<div class="timeline_date">1 September 2015</div>
+					<div class="timeline_text">Registrations Open</div>
+				</div>
+			</div>
+			<div class="timeliner">
+				<div class="timeline_bg"></div>
+				<div class="stimeline">
+					<div class="timeline_month">29 Jan.</div>
+					<div class="timeline_year">2016</div>
+				</div>
+				<div class="htimeline">
+					<div class="timeline_date">29 January 2016</div>
+					<div class="timeline_text">
+						Submissions Deadline						<span>(Pioneers/Explorers)</span>
+					</div>
+				</div>
+			</div>
+			<div class="timeliner">
+				<div class="timeline_bg"></div>
+				<div class="stimeline">
+					<div class="timeline_month">28 Feb.</div>
+					<div class="timeline_year">2016</div>
+				</div>
+				<div class="htimeline">
+					<div class="timeline_date">28 February 2016</div>
+					<div class="timeline_text">
+						National Winners Announced						<span>(Pioneers/Explorers)</span>
+					</div>
+				</div>
+			</div>
+			<div class="timeliner">
+				<div class="timeline_bg"></div>
+				<div class="stimeline">
+					<div class="timeline_month">15 Mar.-26 Apr.</div>
+					<div class="timeline_year">2016</div>
+				</div>
+				<div class="htimeline">
+					<div class="timeline_date">15.3 - 26.4.2016</div>
+					<div class="timeline_text">
+						Regional Semi Finals					</div>
+				</div>
+			</div>
+			<div class="timeliner">
+				<div class="timeline_bg"></div>
+				<div class="stimeline">
+					<div class="timeline_month">31 Mar.</div>
+					<div class="timeline_year">2016</div>
+				</div>
+				<div class="htimeline">
+					<div class="timeline_date">31 March 2016</div>
+					<div class="timeline_text">
+						Skywalkers Submissions Deadline					</div>
+				</div>
+			</div>
+			<div class="timeliner">
+				<div class="timeline_bg"></div>
+				<div class="stimeline">
+					<div class="timeline_month">3 Jun.</div>
+					<div class="timeline_year">2016</div>
+				</div>
+				<div class="htimeline">
+					<div class="timeline_date">3 June 2016</div>
+					<div class="timeline_text">
+						Skywalkers National Winners Announced					</div>
+				</div>
+			</div>
+			<div class="timeliner">
+				<div class="timeline_bg"></div>
+				<div class="stimeline">
+					<div class="timeline_month">4-7 Jul.</div>
+					<div class="timeline_year">2016</div>
+				</div>
+				<div class="htimeline">
+					<div class="timeline_date">4-7 July 2016</div>
+					<div class="timeline_text">
+						International Final					</div>
+				</div>
+			</div>
+			<div class="timeliner last-timeliner">
+				<div class="timeline_bg"></div>
+				<div class="stimeline">
+					<div class="timeline_month">7 Jul.</div>
+					<div class="timeline_year">2016</div>
+				</div>
+				<div class="htimeline">
+					<div class="timeline_date">7 July 2016</div>
+					<div class="timeline_text">Award Ceremony</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+<div class="video_area">
+	<div class="container video_container">
+		<div class="videowrapper">
+			<iframe width="853" height="480" src="https://www.youtube.com/embed/WTkjk-VEjmM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+</div>
+
+	
+<div class="twitterhome">
+	<img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-bg.jpg" class="foot-bg"/>
+	<div class="container">
+		<div class="col-md-3 text-center">
+			<a href="https://twitter.com/OdysseusContest" title="Odysseus Contest on Twitter" class="twitt" target="_blank">
+				<img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/twitter.png" alt="OdysseusContest"/>
+			</a>
+		</div>
+		<div class="col-md-9">
+			
+			<div id="odysseusTweetCarousel" class="carousel slide ">
+	
+				<div class="carousel-inner">
+					<div class="item active"><a href="http://fb.me/zxQ21Kxl" target="_blank">http://fb.me/zxQ21Kxl</a></div><div class="item">Check out all Explorers entries in the Odysseus Contest site... <a href="http://fb.me/7JJCsJJLi" target="_blank">http://fb.me/7JJCsJJLi</a></div><div class="item">Check out the fantastic entries received in the first round of the Odysseus II Contest!! Congratulations to all... <a href="http://fb.me/4NJF8GTJw" target="_blank">http://fb.me/4NJF8GTJw</a></div><div class="item">Odysseus II Contestants: View submitted project here:
+
+<a href="http://www.odysseus-contest.eu/pioneers/submitted-entries/..." target="_blank">http://www.odysseus-contest.eu/pioneers/submitted-entries/...</a> <a href="https://t.co/ab5qAe8NZr" target="_blank">https://t.co/ab5qAe8NZr</a></div><div class="item">Submissions for the Pioneers and Explorers categories have  closed as of midnight today!   Congratulations for... <a href="http://fb.me/23Aay5Uk2" target="_blank">http://fb.me/23Aay5Uk2</a></div>				</div>
+				
+				<div class="tweet-nav">
+					<a class="left carousel-control" href="#odysseusTweetCarousel" data-slide="prev">
+						<span class="tweet-icon-prev"></span>
+					</a>
+					<a class="right carousel-control" href="#odysseusTweetCarousel" data-slide="next">
+						<span class="tweet-icon-next"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="prizes_home">
+	<div class="container text-center">
+		<img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/moon-icon.png" alt="Prizes & Rules" />
+		<h2>Prizes & Rules</h2>
+		<h4>Find out more</h4>
+		<div class="col-md-2 hidden-sm"></div>
+		<div class="col-md-4">
+			<a href="http://www.odysseus-contest.eu/prizes/" title="Prizes" class="prizes_link">
+				<img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/prizes.jpg" alt="Prizes" />
+				<span class="contentlink">Top pupils and students win a wealth of prizes, including a paid trip to the Guiana Space Centre.</span>
+				<span class="readmore">Read more</span>
+			</a>
+		</div>
+		<div class="col-md-4">
+			<a href="http://www.odysseus-contest.eu/rules/" title="Rules" class="rules_link">
+				<img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/rules.jpg" alt="Rules" />
+				<span class="contentlink">Please read the contest rules carefully before registering to the contest and submitting your entry.</span>
+				<span class="readmore">Read more</span>
+			</a>
+		</div>
+		<div class="col-md-2 hidden-sm"></div>
+	</div>
+</div>
+
+
+		
+
+	
+			</section>
+	
+	<footer>
+		<img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-bg.jpg" class="foot-bg"/>
+		<img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-bg-steady.png" class="foot-bg-bottom" />
+		<div class="container foot-menu">
+			<div class="col-md-3">
+				<h4 class="upper">About</h4>
+				<ul id="menu-about-menu" class="nav footer-nav"><li id="menu-item-174" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174"><a href="http://www.odysseus-contest.eu/about/general-info/">General Info</a></li>
+<li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a href="http://www.odysseus-contest.eu/rules/">Rules</a></li>
+<li id="menu-item-176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176"><a href="http://www.odysseus-contest.eu/prizes/">Prizes</a></li>
+<li id="menu-item-178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-178"><a href="http://www.odysseus-contest.eu/about/events/">Events</a></li>
+<li id="menu-item-179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a href="http://www.odysseus-contest.eu/about/winners/">Winners</a></li>
+</ul>			</div>
+			<div class="col-md-3">
+				<h4 class="upper">Resources</h4>
+				<ul id="menu-resources" class="nav footer-nav"><li id="menu-item-180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-180"><a href="http://www.odysseus-contest.eu/library/">Library</a>
+<ul class="sub-menu">
+	<li id="menu-item-207" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207"><a href="http://www.odysseus-contest.eu/library/solar-system-and-space-science/">Solar System and Space Science</a></li>
+	<li id="menu-item-208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-208"><a href="http://www.odysseus-contest.eu/library/europe-in-space-missions/">Europe in space missions</a></li>
+	<li id="menu-item-209" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209"><a href="http://www.odysseus-contest.eu/library/human-beings-on-mars/">Human beings on Mars</a></li>
+	<li id="menu-item-210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-210"><a href="http://www.odysseus-contest.eu/library/astrobiology-the-search-for-life-in-the-universe/">Astrobiology &#8211; The search for life in the universe</a></li>
+	<li id="menu-item-211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-211"><a href="http://www.odysseus-contest.eu/library/galileo-daily-benefits-of-space-applications/">Galileo: daily benefits of space applications</a></li>
+	<li id="menu-item-212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-212"><a href="http://www.odysseus-contest.eu/library/copernicus-earth-observations/">Copernicus: Earth observations</a></li>
+	<li id="menu-item-213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-213"><a href="http://www.odysseus-contest.eu/library/rosetta-mission-space-exploration/">Rosetta mission: Space Exploration</a></li>
+	<li id="menu-item-214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-214"><a href="http://www.odysseus-contest.eu/library/200-2/">Gaia Mission: Watching the stars</a></li>
+	<li id="menu-item-215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-215"><a href="http://www.odysseus-contest.eu/library/more-general/">More general</a></li>
+</ul>
+</li>
+</ul>			</div>
+			<div class="col-md-3">
+				<h4 class="upper">&nbsp;</h4>
+				<ul id="menu-resources-two" class="nav footer-nav"><li id="menu-item-181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><a href="http://www.odysseus-contest.eu/resources/submitted-entries/">Submitted Entries</a></li>
+<li id="menu-item-182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><a href="http://www.odysseus-contest.eu/resources/network-of-mentors/">Network of Mentors</a></li>
+<li id="menu-item-183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"><a href="http://www.odysseus-contest.eu/resources/evaluators/">Evaluators</a></li>
+<li id="menu-item-184" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-184"><a href="http://www.odysseus-contest.eu/resources/evaluators-registration/">Evaluators Registration</a></li>
+</ul>			</div>
+			<div class="col-md-3">
+				<h4 class="upper">Media</h4>
+				<ul id="menu-media-footer" class="nav footer-nav"><li id="menu-item-172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172"><a href="http://www.odysseus-contest.eu/media/media-gallery/">Media Gallery</a></li>
+<li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="http://www.odysseus-contest.eu/media/press-releases/">Press Releases</a></li>
+<li id="menu-item-170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170"><a href="http://www.odysseus-contest.eu/media/in-the-news/">In the News</a></li>
+<li id="menu-item-169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-169"><a href="http://www.odysseus-contest.eu/media/media-resources/">Media Resources</a></li>
+</ul>				<h4 class="upper">Odysseus II Project</h4>
+				<ul id="menu-odysseus-ii" class="nav footer-nav"><li id="menu-item-168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a href="http://www.odysseus-contest.eu/odysseus-ii/the-project/">The Odysseus II Project</a></li>
+<li id="menu-item-167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"><a href="http://www.odysseus-contest.eu/odysseus-ii/partners/">Partners</a></li>
+<li id="menu-item-166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-166"><a href="http://www.odysseus-contest.eu/odysseus-ii/supporters/">Supporters</a></li>
+<li id="menu-item-165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-165"><a href="http://www.odysseus-contest.eu/odysseus-ii/advisory-board/">Advisory Board</a></li>
+<li id="menu-item-164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-164"><a href="http://www.odysseus-contest.eu/odysseus-ii/contact-us/">Contact Us</a></li>
+<li id="menu-item-465" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-465"><a href="http://www.odysseus-contest.eu/team/">Partners Area</a></li>
+</ul>			</div>
+		</div>
+		<div class="foot-eu-social">
+			<div class="container">
+				<div class="col-md-4 flag-eu">
+					<img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/eu-flag.jpg" class="pull-left" />
+					The Odysseus II Project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 640218				</div>
+				<div class="col-md-4">
+					
+				</div>
+				<div class="col-md-3">
+					<ul class="social-channels">
+						<li><a href="https://www.facebook.com/OdysseusContest" class="fb" target="_blank">&nbsp;</a></li>
+						<li><a href="https://plus.google.com/103165206956034020067" class="gplus" target="_blank">&nbsp;</a></li>
+						<li><a href="https://twitter.com/OdysseusContest" class="tw" target="_blank">&nbsp;</a></li>
+						<li><a href="https://www.youtube.com/channel/UC8tQcXhjRleXSDtdWD3bkBw" class="yt" target="_blank">&nbsp;</a></li>
+						<li><a href="https://instagram.com/Odysseus_contest" class="in" target="_blank">&nbsp;</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<div class="legal">
+		<div class="container">
+			<div class="col-md-12 text-center">
+				<a href="http://www.odysseus-contest.eu/legal-notice/">Legal Notice</a> | 
+				<a href="http://www.odysseus-contest.eu/legal-notice/">Privacy Policy</a> | 
+				Photos: ESA				<div class="supporters text-center">
+					<p>Partners</p>
+				
+					<div class="part-list">
+						<a href="https://www.gov.uk/government/organisations/uk-space-agency" target="_blank"><img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-logos/pt/ukspace.png" class="img-responsive" /></a>
+						<a href="http://www.czechspace.cz/" target="_blank"><img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-logos/pt/cso.png" class="img-responsive" /></a>
+						<a href="http://www.spia-europa.de/aboutus.html" target="_blank"><img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-logos/pt/spia.png" class="img-responsive" /></a>
+						<a href="http://www.polito.it/" target="_blank"><img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-logos/pt/torino.png" class="img-responsive" /></a>
+						<a href="http://www.devil-hop.fr/" target="_blank"><img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-logos/pt/dv.png" class="img-responsive" /></a>
+						<a href="http://www.inta.es/Default.aspx" target="_blank"><img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-logos/pt/unv.png" class="img-responsive" /></a>
+						<a href="http://physik.uni-graz.at/de/astrophysik/forschen/" target="_blank"><img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-logos/pt/graz.png" class="img-responsive" /></a>
+						
+						<br />
+						
+						<a href="http://www.eurospacecenter.be/esc/" target="_blank"><img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-logos/pt/esc.png" class="img-responsive" /></a>
+						<a href="http://www.altecspace.it/en/" target="_blank"><img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-logos/pt/altec.png" class="img-responsive" /></a>
+						<a href="http://www.signosis.eu/" target="_blank"><img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-logos/pt/signosis.png" class="img-responsive" /></a>
+						<a href="http://www.space.dtu.dk/english/About_NSI" target="_blank"><img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-logos/pt/dtu.png" class="img-responsive" /></a>
+						<a href="http://www.noesis.edu.gr/" target="_blank"><img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-logos/pt/neosis.png" class="img-responsive" /></a>
+						<a href="http://www.cite-espace.com/#accueil" target="_blank"><img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-logos/pt/cite.png" class="img-responsive" /></a>
+						<a href="http://www.cbk.waw.pl/en/" target="_blank"><img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-logos/pt/cbk.png" class="img-responsive" /></a>
+					
+					</div>
+					
+					<p>Supporters</p>
+					<div class="part-list">
+						<a href="http://www.eaae-astronomy.org/" target="_blank"><img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-logos/eaee.png" class="img-responsive" /></a>
+						<a href="http://airbusdefenceandspace.com/" target="_blank"><img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-logos/airbus.png" class="img-responsive" /></a>
+						<a href="https://www.thalesgroup.com/en/worldwide/space" target="_blank"><img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-logos/thales.png" class="img-responsive" /></a>
+						<a href="https://cnes.fr/" target="_blank"><img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-logos/cnes.png" class="img-responsive" /></a>
+						<a href="http://www.eurospace.org/" target="_blank"><img src="http://www.odysseus-contest.eu/wp-content/themes/odysseus2/img/footer-logos/eurospace.png" class="img-responsive" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/www.odysseus-contest.eu\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var icl_vars = {"current_language":"en","icl_home":"http:\/\/www.odysseus-contest.eu\/","ajax_url":"http:\/\/www.odysseus-contest.eu\/wp-admin\/admin-ajax.php","url_type":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.odysseus-contest.eu/wp-content/plugins/bwp-minify/min/?f=wp-content/themes/odysseus2/js/bootstrap.min.js,wp-content/themes/odysseus2/js/ie10-viewport-bug-workaround.js,wp-content/themes/odysseus2/js/jquery.placeholder.min.js,wp-content/themes/odysseus2/js/general.js,wp-content/themes/odysseus2/js/home.js,wp-includes/js/thickbox/thickbox.js,wp-includes/js/wp-embed.min.js,wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js'></script>
+	
+	<script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+	<script type="text/javascript">twttr.conversion.trackPid('l6umu', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+	<noscript>
+	<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l6umu&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+	<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l6umu&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+	</noscript>
+	
+
+</body>
+</html>

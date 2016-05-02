@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"><head><meta http-equiv="Content-Type" content="text/html" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width" /><meta name="description" content="Ecopas" /><meta name="keywords" content="Ecopas" /><meta name="language" content="English" /><meta name="author" content="Laurent Dousset (via CREDO, via Ecopas)" /><meta name="copyright" content="Ecopas and CREDO" /><link href="/css/ecopas_style.css" rel="styleSheet" type="text/css" /><script type="text/javascript" src="/highslide/highslide.packed.js"></script><script type="text/javascript" src="/highslide/highslide-html.packed.js"></script><script type="text/javascript">    
+                            hs.graphicsDir = '/highslide/graphics/';
+                            hs.outlineType = 'rounded-white';
+                            hs.outlineWhileAnimating = true;
+                            </script><script src="/ajax_lib/prototype.js" type="text/javascript"></script><script type="text/javascript">function ajaxUpdater(id,url) { new Ajax.Updater(id,url,{asynchronous:true}); }function loading(load) { var numi = document.getElementById(load);var newHTML = "<img src='/images/icons/loading.gif' alt='' />";document.getElementById(load).innerHTML = newHTML;}function switchTab(tab_id){
+	//hide all tabs
+	$$('ul.tabcontent').invoke('hide');
+	$$('h3.tabheading').invoke('setStyle','z-index: 0; background: lightgrey');
+        $$('h3.tabheading').invoke('setStyle','z-index: 0; color: #888888');
+	//show requested tab
+	$(tab_id).down('h3').setStyle({'z-index': '3', background: '#E9E9E9'});
+        $(tab_id).down('h3').setStyle({'z-index': '3', color: 'black'});
+	$(tab_id).down('ul').show();
+        } </script><title>Welcome to the pacific-studies.eu database</title></head><body><div class='header'><div class='header_text'>pacific-studies.net</div></div><div class="menu">&nbsp;&nbsp;&nbsp;<a href="/index.php">Home</a><a href="/competences/">Expertise</a><a href="/geobrowse.php?a=mapbrowse">Pacific Places</a><a href="/searchengine.php">Pacific Resources</a><a href="/conferences">Pacific Conferences</a><a href="http://www.ecopas.info" target="_blank">ECOPAS</a><a href="/credits.php">Credits</a><a href="/disclaimer.php">Disclaimer</a></div><script type="text/javascript">
+    function change_search_help()
+    {
+        if (search.boolean.checked)
+            {
+                searchHelp.style.visibility='visible';
+            } else {
+                searchHelp.style.visibility='hidden';
+            }
+    }
+    
+</script>
+<div class="ariane"><a href="index.php">Home</a> >
+  <!-- <form class="search_box" method="post" action="searchengine.php" name="search">
+            <input type="hidden" name="action" value="search">
+            <input type="hidden" name="place" value="">
+            <input type="text" name="searchTerm" value="">
+            <button value="submit" type="submit">search</button>
+  </form>
+  -->
+    
+</div>
+
+
+<div class="centralWrapper">
+<table width="100%" class='semicompact'><tr>
+        <td width="22%">
+            <div class="block_left" style="letter-spacing: 0.5px;">
+    <h2>About Pacific-Studies.Net</h2>
+    <strong>Pacific-studies.net</strong> is a European-based (but not European-exclusive) network and platform of 
+    and for researchers and students in the <strong>social sciences and humanities in and on the Pacific region</strong>. 
+    The network also hosts the <strong><a href="http://esfo-org.eu" target="_blank">ESfO (European Society for Oceanists)</a></strong> membership database and its 
+    regular conferences.
+    <br><br>
+    The start of pacific-studies.net was made by the <strong><a href="http://www.ecopas.info" target="_blank">ECOPAS</a></strong> project, 
+    which is dedicated to networking and supporting activities related to 
+    Pacific studies, while establishing a durable dialogue between research institutions and 
+    the local, national and international policymaking agencies. 
+    <br><br>
+    It includes the building of this digital platform that gives access, for each country of the 
+    Pacific region, to general information, to the professional profile of experts, and to a virtual 
+    library of resources (publications, archives, maps, visual and audio materials).
+    <br><br>
+    Please note that this platform is a <strong><i>constant work in progress</i></strong>.
+<br><br>
+            </div>
+<br>
+<div class="block_left">
+        <h2>Some other websites of interest</h2>[ Also see the section <a href="centers.php">Pacific Research Centers</a> ]<br><br><ul style="line-height:13px;font-size:90%;margin:4px;padding:0;margin-left:15px;"><li><a href="http://www.sopac.org/" target="_blank">Applied Geoscience and Technology Division of SPC ...</a></li></ul><ul style="line-height:13px;font-size:90%;margin:4px;padding:0;margin-left:15px;"><li><a href="http://www.apccsec.org/" target="_blank">Asian and Pacific Coconut Community (APCC)...</a></li></ul><ul style="line-height:13px;font-size:90%;margin:4px;padding:0;margin-left:15px;"><li><a href="http://aid.dfat.gov.au/countries/pacific/rp/Pages/home.aspx" target="_blank">Australian Government, Department of Foreign Affai...</a></li></ul><ul style="line-height:13px;font-size:90%;margin:4px;padding:0;margin-left:15px;"><li><a href="http://www.spc.int/fpocc/" target="_blank">Forum Presiding Officers and Clerks (FPOC)...</a></li></ul><ul style="line-height:13px;font-size:90%;margin:4px;padding:0;margin-left:15px;"><li><a href="http://www.ocosec.org/" target="_blank">Oceania Customs Organisation Secretariat...</a></li></ul><ul style="line-height:13px;font-size:90%;margin:4px;padding:0;margin-left:15px;"><li><a href="http://www.pacificarts.org/node/619" target="_blank">Pacific Arts Association...</a></li></ul><ul style="line-height:13px;font-size:90%;margin:4px;padding:0;margin-left:15px;"><li><a href="http://www.pacificclimatechange.net/" target="_blank">Pacific Climate Change Portal...</a></li></ul><ul style="line-height:13px;font-size:90%;margin:4px;padding:0;margin-left:15px;"><li><a href="http://pacificidf.org/" target="_blank">Pacific Islands Development Forum (PIDP)...</a></li></ul><ul style="line-height:13px;font-size:90%;margin:4px;padding:0;margin-left:15px;"><li><a href="http://www.ffa.int/" target="_blank">Pacific Islands Forum Fisheries Agency (FFA)...</a></li></ul><ul style="line-height:13px;font-size:90%;margin:4px;padding:0;margin-left:15px;"><li><a href="http://www.forumsec.org/" target="_blank">Pacific Islands Forum Secretariat (PIFS)...</a></li></ul><ul style="line-height:13px;font-size:90%;margin:4px;padding:0;margin-left:15px;"><li><a href="http://pacifictradeinvest.com/" target="_blank">Pacific Islands Trade & Invest...</a></li></ul><ul style="line-height:13px;font-size:90%;margin:4px;padding:0;margin-left:15px;"><li><a href="http://www.pacmas.org/" target="_blank">Pacific Media Assistance Scheme (PACMAS)...</a></li></ul><ul style="line-height:13px;font-size:90%;margin:4px;padding:0;margin-left:15px;"><li><a href="http://www.spc.int/ppapd/" target="_blank">Pacific Parliamentary Assembly on Population and D...</a></li></ul><ul style="line-height:13px;font-size:90%;margin:4px;padding:0;margin-left:15px;"><li><a href="http://www.ppa.org.fj/" target="_blank">Pacific Power Association (PPA)...</a></li></ul><ul style="line-height:13px;font-size:90%;margin:4px;padding:0;margin-left:15px;"><li><a href="http://www.paclii.org/databases.html" target="_blank">PacLII Databases - Pacific Legal Information Insti...</a></li></ul><ul style="line-height:13px;font-size:90%;margin:4px;padding:0;margin-left:15px;"><li><a href="http://www.spc.int/" target="_blank">Secretariat of the Pacific Community (SPC)...</a></li></ul><ul style="line-height:13px;font-size:90%;margin:4px;padding:0;margin-left:15px;"><li><a href="http://www.sprep.org/" target="_blank">Secretariat of the Pacific Regional Environment Pr...</a></li></ul><ul style="line-height:13px;font-size:90%;margin:4px;padding:0;margin-left:15px;"><li><a href="http://spto.org/" target="_blank">South Pacific Tourism Organisation (SPTO)...</a></li></ul></div>       
+        
+            
+</td><td>
+    <div class='block_center'>
+            <h2 style='font-size:160%;padding-bottom:15px'>Experts in Pacific Studies</h2><fieldset style='background-color:#F7F7F7;'>
+        <form method='get' action='/competences/index.php' name='search_experts'>
+        <input type='hidden' name='action' value='searchExperts'>
+        <input onClick='this.select();' style='padding:3px;margin:5px;margin-left:0;font-weight:bold;font-size:110%;color:#6C576D;' name='searchExperts' size='40' value='Search for experts...'> 
+        <button style='padding:4px;font-size:110%' value='submit' name='submit'>search</button><br>
+        <p style='margin-left:-10;font-size:90%'>Enter a phrase like <span style='font-style: italic;'>climate change in Kiribati</span>, or 
+        <span style='font-style: italic;'>governance and land tenure in Vanuatu</span>.</p>
+        </form></fieldset><br>See <a href="centers.php">Pacific Research Centers</a><br>Search for <a href="/competences/index.php?action=browse_profiles"> experts</a>, <a href="/competences/index.php?action=browse_keywords"> research topics</a> or <a href="/competences/index.php?action=browse_experiences">experiences</a><br><br>&nbsp;&nbsp;<span class="lighttext">Recently updated profiles...</span><span style="float:right;padding-right:20px"><strong>[ <a href="competences/">see more profiles</a> ]</strong></span><br><br>
+<fieldset  class='members_presentation'><p><img height="60" style="margin-right:10px;margin-bottom:10px;" align="left" src="/portraits/119.jpg"><strong><a href="/competences/index.php?action=profile&id=119" style='font-size:120%'>Anne-Sylvie MALBRANCKE</a></strong> <span style='font-family: Verdana, Geneva, sans-serif;font-size:95%;color:#333333'><br>Adjunct/associate Researcher, CREDO - Centre de Recherche et de Documentation sur l'Océanie at EHESS - Ecole des Hautes Etudes en Sciences Sociales, France<br><br><strong>Administrative areas:</strong> <a href="/geodetail.php?id=21">Papua New Guinea</a>, <a href="/geodetail.php?id=164">Eastern Highlands</a> (Papua New Guinea)<br><strong>Places:</strong> Melanesia<br><strong>Keywords:</strong> <a href="/competences/index.php?action=search_keyword&keyword_id=26">Kinship</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=43">Social Change</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=11">Development</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=75">Christianisation</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=151">Great-men Societies</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=153">Gender Violence</a></span></fieldset>
+
+<fieldset  class='members_presentation'><p><img height="60" style="margin-right:10px;margin-bottom:10px;" align="left" src="/portraits/692.jpg"><strong><a href="/competences/index.php?action=profile&id=692" style='font-size:120%'>Ornella SEIGNEURY</a></strong> <span style='font-family: Verdana, Geneva, sans-serif;font-size:95%;color:#333333'><br>PhD Student, LARJE (Research Centre on Economics and Law) at University of New Caledonia, New Caledonia<br><br><strong>Administrative areas:</strong> <a href="/geodetail.php?id=14">New Caledonia</a>, <a href="/geodetail.php?id=2">Australia</a><br><strong>Places:</strong> Melanesia<br><strong>Keywords:</strong> <a href="/competences/index.php?action=search_keyword&keyword_id=472">Comparative Studies</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=474">Sustainable Development</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=33">Public Policies</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=477">Constitutional Environmental Rights</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=478">Human Rights And Environmental Studies</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=479">Individual Rights To Environmental Protection</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=481"> Human Right To A Healthy Environment</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=469">Rights Of The Unborn And Future Generations</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=482">Environmental Jurisprudence Of Supreme Courts</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=483">Intergenerational Equity</a></span></fieldset>
+
+<fieldset  class='members_presentation'><p><img height="60" style="margin-right:10px;margin-bottom:10px;" align="left" src="/portraits/726.jpg"><strong><a href="/competences/index.php?action=profile&id=726" style='font-size:120%'>Upolu Luma VAAI</a></strong> <span style='font-family: Verdana, Geneva, sans-serif;font-size:95%;color:#333333'><br>Senior Lecturer, HoD Theology and Ethics Department at Pacific Theological College, Fiji<br><br><strong>Administrative areas:</strong> <a href="/geodetail.php?id=8">Fiji</a>, <a href="/geodetail.php?id=30">Samoa</a>, <a href="/geodetail.php?id=1">American Samoa</a>, <a href="/geodetail.php?id=24">Tokelau</a>, <a href="/geodetail.php?id=23">Solomon Islands</a>, <a href="/geodetail.php?id=21">Papua New Guinea</a>, <a href="/geodetail.php?id=28">Vanuatu</a>, <a href="/geodetail.php?id=11">Kiribati</a>, <a href="/geodetail.php?id=26">Tuvalu</a>, <a href="/geodetail.php?id=5">Cook Islands</a><br><strong>Places:</strong> Polynesia, Melanesia<br><strong>Keywords:</strong> <a href="/competences/index.php?action=search_keyword&keyword_id=106">Christianity</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=509">Pacific Relational Hermeneutics</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=510">Relational Theology</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=511">Relational Ethics</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=512">Pacific Epistemology</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=7">Climate Change</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=305">Colonialism</a>, <a href="/competences/index.php?action=search_keyword&keyword_id=513">Economy And Justice</a></span></fieldset>
+            <br>
+            
+            <br>
+            <!--
+            <fieldset>
+            <h4>Some general topics (automated search)</h4>
+            <p>
+            <a href="searchengine.php?action=search&searchTerm=+Climate +Change&boolean=1">Climate Change</a><br><a href="searchengine.php?action=search&searchTerm=migrat* displace*&boolean=1">Migration and Displacement</a><br><a href="searchengine.php?action=search&searchTerm=developm*&boolean=1">Development</a><br><a href="searchengine.php?action=search&searchTerm=naviga* canoes rafting&boolean=1">Navigation</a><br><a href="searchengine.php?action=search&searchTerm=politic*&boolean=1">Politics</a><br><a href="searchengine.php?action=search&searchTerm=emotion*&boolean=1">Emotions</a><br><a href="searchengine.php?action=search&searchTerm=music*&boolean=1">Music</a><br>            </p>
+            </fieldset>
+            -->
+            
+            
+    </div>  
+</td>
+<td>
+    <div class='block_right'>
+        <h2>Pacific Resources</h2>
+        <div class="smallListWhite">
+            The database currently holds information on 35481 books, 3888 archival records, 2783 video recordings, 3969 audio recordings, 23180 maps, and 21759 pictures on the Pacific.<br><br>        </div>
+        <a href="searchengine.php">Search the resources database</a>
+    </div><br>
+    <div class='block_right'>
+            <h2>Pacific Countries</h2>
+      
+            <a href="geobrowse.php?a=mapbrowse">Browse the Map</a><br><br>
+            <!-- <a href="geobrowse.php?a=mapbrowse">Browse interactively</a><br><br> -->
+            
+                <span style="white-space: nowrap;">American Samoa <a href="geodetail.php?id=1"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Australia <a href="geodetail.php?id=2"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Clipperton Island (France) <a href="geodetail.php?id=4"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Cook Islands <a href="geodetail.php?id=5"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Federated States of Micronesia <a href="geodetail.php?id=9"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Fiji <a href="geodetail.php?id=8"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">French Polynesia <a href="geodetail.php?id=22"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Galapagos (Ecuador) <a href="geodetail.php?id=69"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Guam <a href="geodetail.php?id=10"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Hawaii <a href="geodetail.php?id=260"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Indonesia <a href="geodetail.php?id=283"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Kiribati <a href="geodetail.php?id=11"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Marshall Islands <a href="geodetail.php?id=12"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Nauru <a href="geodetail.php?id=17"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">New Caledonia <a href="geodetail.php?id=14"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">New Zealand <a href="geodetail.php?id=18"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Niue <a href="geodetail.php?id=16"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Norfolk Island <a href="geodetail.php?id=15"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Northern Mariana Islands <a href="geodetail.php?id=13"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Palau <a href="geodetail.php?id=20"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Papua New Guinea <a href="geodetail.php?id=21"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Pitcairn Islands <a href="geodetail.php?id=19"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Rapa Nui - Easter Island (Chile) <a href="geodetail.php?id=317"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Samoa <a href="geodetail.php?id=30"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Solomon Islands <a href="geodetail.php?id=23"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Tokelau <a href="geodetail.php?id=24"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Tonga <a href="geodetail.php?id=25"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Tuvalu <a href="geodetail.php?id=26"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">USA Minor Islands <a href="geodetail.php?id=318"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Vanuatu <a href="geodetail.php?id=28"><img src="/images/icons/link_right.png"></a><br><span style="white-space: nowrap;">Wallis and Futuna <a href="geodetail.php?id=29"><img src="/images/icons/link_right.png"></a><br>        
+        </div>
+</td><td>
+    <div class='members_corner'>
+    <h2>Members' Corner</h2>
+            <div class=loginarea><form method="post" name="login" action="/index.php"><input type='hidden' name='action' value="login"/>
+         <input type='hidden' name='requestURL' value='/index.php'>
+         <input type='text' name='email' value='Email address'/><br>
+         <input type='password' name='passwd' value='Password'/><br>
+         <input type='submit' value='Log in'/><br><br>
+         <div id="forgotten">
+            <p><a href="#" onclick="loading('forgotten');ajaxUpdater('forgotten','/ajax_actions.php?action=forgotten');">I forgot my password</a></p>
+         </div>
+         </form>
+         <div id="createAccount">
+         <span class="lighttext">Scholars and specialists on Pacific Studies are invited to create an account and make their profile and  expertise available to the public.</span>
+            <p><a href="#" onclick="loading('createAccount');ajaxUpdater('createAccount','/ajax_actions.php?action=createAccount');">Create an account</a></p>
+            
+        </div></div>    
+    </div><br>
+    
+    <br><div class='members_corner'><h2>Past Events</h2><strong>10th ESfO Conference</strong><br>24 June 2015 to 27 June 2015 in Brussels. <a href="/conferences/public.php?confID=1">Conference website</a><br><br></div>    
+
+
+        </td></tr></table>   
+</div>  
+  </p>
+  
+<p><div class="footer"><div class="ec_logo_footer"><img src="/images/logos/EU_ECOPAS_logo_tiny.png"></div>- Copyright by <a href="http://www.ecopas.info">ECOPAS</a> and team members, 2012-2016 -<br />It is a condition of use that you read the <a href="/disclaimer.php">Disclaimer notice</a>.<br>This project has received funding from the European Union’s Seventh Framework Programme under grant agreement no 320298</div></p></body>

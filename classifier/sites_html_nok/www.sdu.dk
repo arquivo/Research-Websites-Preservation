@@ -1,0 +1,1280 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="da-DK"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="da-DK"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="da-DK"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="da-DK">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="srv" content="VSCD02" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/resources/images/sdu/icon57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/resources/images/sdu/icon72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/resources/images/sdu/icon76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/resources/images/sdu/icon114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/resources/images/sdu/icon120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/resources/images/sdu/icon144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/resources/images/sdu/icon152.png">
+    <link rel="shortcut icon" href="/resources/images/sdu/favicon.ico" />
+    <title> - Syddansk Universitet</title>
+    
+    
+<meta name="VIcurrentDateTime" content="635920046810294602" />
+<script type="text/javascript" src="/layouts/system/VisitorIdentification.js"></script>
+
+        <link rel="stylesheet" href="/Resources/css/sdu/app.089f8421-5b3e-40ed-e1aa-c29f48442901.css">
+</head>
+<body class="theme1">
+
+	<!--[if lt IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+	
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NCMMM8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NCMMM8');</script>
+<!-- End Google Tag Manager -->
+
+	<div class="off-canvas-wrap" data-offcanvas>
+		<div class="inner-wrap">
+
+			<!-- Off Canvas Menu -->
+			<aside class="right-off-canvas-menu offcanvas">
+				<div class="offcanvas__top">
+					<a href="#" class="logo">
+						<svg width="83" height="22" viewBox="0 0 83 22" xmlns="http://www.w3.org/2000/svg"><g fill="#000" fill-rule="evenodd"><path d="M2.38 16.65c1.085 1.142 2.74 2 4.474 2 1.63 0 2.77-.962 2.77-2.286 0-2.342-3.528-2.627-6.078-4.056C2.054 11.476.86 10.228.86 8.176c0-3.25 3.12-5.123 6.266-5.123 1.927 0 3.718.443 5.508 1.716l-1.9 2.6C9.975 6.692 8.7 6.17 7.453 6.17c-1.383 0-2.93.573-2.93 1.976 0 2.937 8.763 2.03 8.763 8.163 0 3.225-3.012 5.46-6.43 5.46-2.55 0-4.91-1.014-6.863-2.73l2.387-2.39M22.372 3.313c3.01 0 4.99.624 6.538 1.716 2.332 1.663 3.77 4.366 3.77 7.382 0 3.015-1.438 5.72-3.77 7.382-1.547 1.092-3.527 1.717-6.538 1.717h-5.97V3.314h5.97zm5.262 5.147c-1.06-1.273-2.604-2.027-4.856-2.027h-2.712V18.39h2.712c2.252 0 3.797-.753 4.856-2.026.868-1.042 1.384-2.445 1.384-3.952 0-1.508-.516-2.912-1.384-3.952zM38.103 19.898c-1.573-1.352-2.44-3.275-2.44-6.056V3.312h3.66v10.79c0 1.662.464 2.677 1.25 3.378.813.754 1.952 1.17 3.228 1.17 1.275 0 2.414-.416 3.23-1.17.785-.7 1.246-1.716 1.246-3.38V3.314h3.662v10.53c0 2.78-.867 4.703-2.44 6.055-1.466 1.248-3.555 1.872-5.697 1.872-2.143 0-4.232-.624-5.697-1.872M70.653 10.864c.243 1.148 1.184 2.75 4.212 3.18 1.82.255 6.052-.317 8.026-.774-1.31-2.193-3.69-4.636-6.636-5.307-2.963-.673-4.92.19-5.605 1.966M65.927 13.815s-.217-.182-.96-.19c-1.31-.015-2.224.56-2.86 1.923-.614 1.317-.19 3.387.64 4.583.47.674 1.29 1.52 2.27 1.52s1.257-.49 1.6-.49c.346 0 .664.478 1.683.478 1.02 0 1.825-.907 2.163-1.42.785-1.183 1.18-3.33.61-4.637-.494-1.135-1.337-1.925-2.422-1.937-.778-.01-1.527.272-1.527.272" /><path d="M71.1 10.875L71.1 9.94c-1.747-.367-4.8-.333-7.66.342-1.66.392-4.993 1.337-8.213 3.542l.743.997c2.335-1.845 4.64-2.787 6.466-3.224 2.425-.58 3.71.977 3.57 2.56l1.184-.002c-.192-1.955-.98-3.002-2.352-3.293 1.47-.318 4.696-.523 6.265.015M66.412 4.234C69.21 1.43 74.742.39 74.742.39c-2.596 1.984-2.65 4.423-5.236 6.43-1.637 1.27-4.02 1.758-5.283 1.835.074-.767.142-2.367 2.19-4.42" /></g></svg>
+					</a>
+					<span class="right-off-canvas-toggle offcanvas__toggle close">
+						<span></span>
+					</span>
+				</div>
+				
+    <section class="sidenav">
+        <h6><a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci">Institut for Fysik, Kemi og Farmaci</a></h6>
+                <ul id="main-menu" class="sm sm-vertical sm-sdu">
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/aktuelt">Aktuelt</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning">Forskning</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/centre">Centre</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsprojekter">Forskningsprojekter</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsprojekter/farmaci">Omr&#229;der inden for farmaci</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsprojekter/fysik">Omr&#229;der inden for fysik</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsprojekter/kemi">Omr&#229;der inden for kemi</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsprojekter/kemi/kemisk_krystallografi">Kemisk krystallografi</a>
+                            
+                        </li>
+        </ul>
+
+                        </li>
+        </ul>
+
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsenheder">Forskningsenheder</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsenheder/mm">Materialer og milj&#248;</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsenheder/mks">Modellering og komplekse systemer</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsenheder/mft">Medicinalkemi og farmaceutisk teknologi</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsenheder/ltb">Levende teknologi og biofysik</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsenheder/tf">Teoretisk fysik</a>
+                            
+                        </li>
+        </ul>
+
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsgrupper">FKF Forskningsgrupper</a>
+                                    <ul >
+                            <li>
+                                <a href="http://www.sdu.dk/en/Om_SDU/Institutter_centre/C_CHART" target="_blank">CHART</a>
+                                
+                            </li>
+                            <li>
+                                <a href="http://cp3-origins.dk/" target="_blank">CP3 Origins</a>
+                                
+                            </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsgrupper/drugtransportanddelivery">Drug Transport and Delivery</a>
+                            
+                        </li>
+                            <li>
+                                <a href="http://www.sdu.dk/en/Om_SDU/Institutter_centre/C_Evolna" target="">EVOLNA</a>
+                                
+                            </li>
+                            <li>
+                                <a href="http://www.sdu.dk/en/Om_SDU/Institutter_centre/C_Ffarmed" target="">FFARMED</a>
+                                
+                            </li>
+                            <li>
+                                <a href="http://flint.sdu.dk/" target="">FLinT</a>
+                                
+                            </li>
+                            <li>
+                                <a href="http://www.memphys.sdu.dk/" target="_blank">MEMPHYS</a>
+                                
+                            </li>
+                            <li>
+                                <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/nac" target="">NAC</a>
+                                
+                            </li>
+                            <li>
+                                <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/c_spse" target="">SPSE</a>
+                                
+                            </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsgrupper/kira_astakhova">Kira Astakhova</a>
+                            
+                        </li>
+                            <li>
+                                <a href="http://www.jojgroup.sdu.dk/" target="_blank">Jan O. Jeppesen</a>
+                                
+                            </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsgrupper/himanshu_khandelia">Himanshu Khandelia</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsgrupper/himanshu_khandelia/publications">Publications</a>
+                            
+                        </li>
+        </ul>
+
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsgrupper/christine_mckenzie">Christine McKenzie</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsgrupper/poul_nielsen">Poul Nielsen</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsgrupper/raewyn_m_town">Raewyn M. Town</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsgrupper/raewyn_m_town/biospec">BIOSPEC</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsgrupper/raewyn_m_town/ecodis">ECODIS</a>
+                            
+                        </li>
+        </ul>
+
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsgrupper/trond_ulven">Trond Ulven</a>
+                            
+                        </li>
+        </ul>
+
+                        </li>
+                            <li>
+                                <a href="http://findresearcher.sdu.dk:8080/portal/da/organisations/institut-for-fysik-kemi-og-farmaci(39c04782-9099-4ffd-bed3-73f4fdcee114)/publications.html?filter=research" target="">Forskningspublikationer</a>
+                                
+                            </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsaktiviteter">Forskningsaktiviteter</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskeruddannelsesprogrammer">Forskeruddannelsesprogrammer</a>
+                            
+                        </li>
+        </ul>
+
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/uddannelse">Uddannelse</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/uddannelse/bachelor_udd">Bachelor</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/uddannelse/tilvalgsidefag">Sidefag</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/uddannelse/kandidat_udd">Kandidat</a>
+                            
+                        </li>
+                            <li>
+                                <a href="http://www.sdu.dk/da/forskning/phd/phd_skoler/naturvidenskabelig_phd_uddannelse" target="">Ph.d.</a>
+                                
+                            </li>
+        </ul>
+
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/studerende">Til studerende</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/studerende/bachelor">Bachelor</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/studerende/tilvalg">Tilvalg og sidefag</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/studerende/kandidat">Kandidat</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/studerende/phd">Ph.d.-uddannelsen</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/studerende/it">IT faciliteter</a>
+                            
+                        </li>
+        </ul>
+
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/gymnasiesamarbejde">Til Gymnasier</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/gymnasiesamarbejde/til_nye_studerende">Aktiviteter p&#229; Instituttet</a>
+                            
+                        </li>
+        </ul>
+
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde">Samarbejde</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/erhvervssamarbejde_og_faciliteter">Erhvervssamarbejde</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/pressesamarbejde">Pressesamarbejde</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/pressesamarbejde/artikler">Artikler</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/pressesamarbejde/tvindslag">Radio/TV-indslag og videoer</a>
+                            
+                        </li>
+        </ul>
+
+                        </li>
+                            <li>
+                                <a href="http://www.sdu.dk/da/om_sdu/fakulteterne/naturvidenskab/forskning/sos" target="">Support Office, Science (SOS)</a>
+                                
+                            </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/udenlandske_partneruniversiteter">Udenlandske partneruniversiteter</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/diverse_services">Services og faciliteter</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/diverse_services/massespektre">Massespektre</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/diverse_services/massespektre/ferie">Ferie&#229;ret i Masse-lab</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/diverse_services/massespektre/qionizationmethod">Bestem ioniseringsmetode</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/diverse_services/massespektre/vejledningrekvisition">Vejledning til udfyldelse af rekvisition</a>
+                            
+                        </li>
+        </ul>
+
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/diverse_services/nmr">NMR-service</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/diverse_services/nmr/til+gymnasier">Til gymnasier</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/diverse_services/nmr/ekstern_service">Ekstern service</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/diverse_services/nmr/nmr_apparater">NMR Apparater</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/diverse_services/nmr/nmr_apparater/200mhz">Varian 200MHz</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/diverse_services/nmr/nmr_apparater/200mhz/kalender">Kalender 200 MHz</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/diverse_services/nmr/nmr_apparater/200mhz/winscp">WinSCP 200 MHz</a>
+                            
+                        </li>
+        </ul>
+
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/diverse_services/nmr/nmr_apparater/400mhz">Bruker 400MHz</a>
+                            
+                        </li>
+        </ul>
+
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/diverse_services/nmr/teori">Teori</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/samarbejde/diverse_services/nmr/kontakt">Kontakt</a>
+                            
+                        </li>
+        </ul>
+
+                        </li>
+        </ul>
+
+                        </li>
+        </ul>
+
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration">Ledelse og administration</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/arbejdsmiljo">Arbejdsmilj&#248;</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/arbejdsmiljo/sikkerhedsfolder">Sikkerhedsfolder</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/arbejdsmiljo/beredskabsplan">Beredskabsplan</a>
+                            
+                        </li>
+                            <li>
+                                <a href="http://www.sdu.dk/da/information_til/studerende_ved_sdu/campusguide/sikkerhed/atex" target="">Eksplosionsfarlig atmosf&#230;re, ATEX</a>
+                                
+                            </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/arbejdsmiljo/arbejdsmiljoeoplysninger">Arbejdsmilj&#248;oplysninger</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/arbejdsmiljo/kemibrug">Kemikaliedatabasen Kemibrug</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/arbejdsmiljo/laboratoriepraksis">Laboratoriepraksis</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/arbejdsmiljo/links">Links om arbejdsmilj&#248;</a>
+                            
+                        </li>
+        </ul>
+
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/institutstruktur">Institutstruktur</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/intern_information">Intern information FKF</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/intern_information/dagsordener_referater">Dagsordener og referater</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/intern_information/dagsordener_referater/undervisningsudvalg+for+farmaci">Undervisningsudvalg for Farmaci</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/intern_information/dagsordener_referater/undervisningsudvalg+for+farmaci/tidligere">Tidligere</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/intern_information/dagsordener_referater/undervisningsudvalg+for+farmaci/tidligere/2014">2014</a>
+                            
+                        </li>
+        </ul>
+
+                        </li>
+        </ul>
+
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/intern_information/dagsordener_referater/arbejdsmiljoeudvalg">Arbejdsmilj&#248;udvalg</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/intern_information/dagsordener_referater/arbejdsmiljoeudvalg/tidligere">Dagsordener og referater fra tidligere &#229;r</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/intern_information/dagsordener_referater/arbejdsmiljoeudvalg/tidligere/2014">2014</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/intern_information/dagsordener_referater/arbejdsmiljoeudvalg/tidligere/2013">2013</a>
+                            
+                        </li>
+        </ul>
+
+                        </li>
+        </ul>
+
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/intern_information/dagsordener_referater/institutforum">Institutforum</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/intern_information/dagsordener_referater/institutforum/tidligere">Dagsordener og referater fra tidligere &#229;r</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/intern_information/dagsordener_referater/institutforum/tidligere/2014">2014</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/intern_information/dagsordener_referater/institutforum/tidligere/2013">2013</a>
+                            
+                        </li>
+        </ul>
+
+                        </li>
+        </ul>
+
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/intern_information/dagsordener_referater/institutraad">Institutr&#229;d</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/intern_information/dagsordener_referater/institutraad/tidligere">Dagsordener og referater fra tidligere &#229;r</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/intern_information/dagsordener_referater/institutraad/tidligere/2014">2014</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/intern_information/dagsordener_referater/institutraad/tidligere/2013">2013</a>
+                            
+                        </li>
+        </ul>
+
+                        </li>
+        </ul>
+
+                        </li>
+        </ul>
+
+                        </li>
+        </ul>
+
+                        </li>
+                            <li>
+                                <a href="http://www.sdu.dk/da/beredskab/fkf" target="">Beredskab</a>
+                                
+                            </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/vision_mission">Mission &amp; vision</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/raad_naevn_udvalg">R&#229;d, n&#230;vn og udvalg</a>
+                                    <ul >
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/raad_naevn_udvalg/nuuf">NUUF</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/raad_naevn_udvalg/aftagerpaneler">Aftagerpaneler</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/raad_naevn_udvalg/arbejdsmiljoeudvalg">Arbejdsmilj&#248;udvalg</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/raad_naevn_udvalg/fagraad">Fagr&#229;d</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/raad_naevn_udvalg/institutforum">Institutforum</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/raad_naevn_udvalg/institutraad">Institutr&#229;d</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/raad_naevn_udvalg/laborantudvalg">Laborantudvalg</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/raad_naevn_udvalg/ph,-d-,d,-d-,-studieudvalg">Ph.d.-studieudvalg</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/ledelse_administration/raad_naevn_udvalg/undervisningsudvalg">Undervisningsudvalg</a>
+                            
+                        </li>
+        </ul>
+
+                        </li>
+        </ul>
+
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/medarbejdere">Medarbejdere</a>
+                            
+                        </li>
+                        <li class="">
+                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/arrangementer">Arrangementer</a>
+                            
+                        </li>
+        </ul>
+
+    </section>
+
+			</aside>
+
+			<!-- Rest of the page -->
+			<section class="main">
+				<header class="header">
+    <div class="header__logo">
+        <a href="/da/">SDU</a>
+        <svg width="83" height="22" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 83 22" xml:space="preserve">                        
+        <g fill="#000" fill-rule="evenodd"><path d="M2.38 16.65c1.085 1.142 2.74 2 4.474 2 1.63 0 2.77-.962 2.77-2.286 0-2.342-3.528-2.627-6.078-4.056C2.054 11.476.86 10.228.86 8.176c0-3.25 3.12-5.123 6.266-5.123 1.927 0 3.718.443 5.508 1.716l-1.9 2.6C9.975 6.692 8.7 6.17 7.453 6.17c-1.383 0-2.93.573-2.93 1.976 0 2.937 8.763 2.03 8.763 8.163 0 3.225-3.012 5.46-6.43 5.46-2.55 0-4.91-1.014-6.863-2.73l2.387-2.39M22.372 3.313c3.01 0 4.99.624 6.538 1.716 2.332 1.663 3.77 4.366 3.77 7.382 0 3.015-1.438 5.72-3.77 7.382-1.547 1.092-3.527 1.717-6.538 1.717h-5.97V3.314h5.97zm5.262 5.147c-1.06-1.273-2.604-2.027-4.856-2.027h-2.712V18.39h2.712c2.252 0 3.797-.753 4.856-2.026.868-1.042 1.384-2.445 1.384-3.952 0-1.508-.516-2.912-1.384-3.952zM38.103 19.898c-1.573-1.352-2.44-3.275-2.44-6.056V3.312h3.66v10.79c0 1.662.464 2.677 1.25 3.378.813.754 1.952 1.17 3.228 1.17 1.275 0 2.414-.416 3.23-1.17.785-.7 1.246-1.716 1.246-3.38V3.314h3.662v10.53c0 2.78-.867 4.703-2.44 6.055-1.466 1.248-3.555 1.872-5.697 1.872-2.143 0-4.232-.624-5.697-1.872M70.653 10.864c.243 1.148 1.184 2.75 4.212 3.18 1.82.255 6.052-.317 8.026-.774-1.31-2.193-3.69-4.636-6.636-5.307-2.963-.673-4.92.19-5.605 1.966M65.927 13.815s-.217-.182-.96-.19c-1.31-.015-2.224.56-2.86 1.923-.614 1.317-.19 3.387.64 4.583.47.674 1.29 1.52 2.27 1.52s1.257-.49 1.6-.49c.346 0 .664.478 1.683.478 1.02 0 1.825-.907 2.163-1.42.785-1.183 1.18-3.33.61-4.637-.494-1.135-1.337-1.925-2.422-1.937-.778-.01-1.527.272-1.527.272" /><path d="M71.1 10.875L71.1 9.94c-1.747-.367-4.8-.333-7.66.342-1.66.392-4.993 1.337-8.213 3.542l.743.997c2.335-1.845 4.64-2.787 6.466-3.224 2.425-.58 3.71.977 3.57 2.56l1.184-.002c-.192-1.955-.98-3.002-2.352-3.293 1.47-.318 4.696-.523 6.265.015M66.412 4.234C69.21 1.43 74.742.39 74.742.39c-2.596 1.984-2.65 4.423-5.236 6.43-1.637 1.27-4.02 1.758-5.283 1.835.074-.767.142-2.367 2.19-4.42" /></g>
+        </svg>
+    </div>
+    <span class="right-off-canvas-toggle offcanvas__toggle">
+        <span></span>
+    </span>
+                <nav class="header__nav">
+                <ul>
+                            <li>
+                                    <a href="http://www.sdu.dk/da/uddannelse" class="">Uddannelse</a>
+                                                                                                        <ul id="d_1073F72826BD42B6B203FEB2B71BF590"  class="header__dropdown">
+                                                    <li>
+                                                        <!--
+                                                            {EF818250-B5EB-40F4-B407-991A70BD40C7}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/uddannelse/optagelse">Optagelse</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {0F8E7B55-0A1E-49E0-8828-03C522282EA8}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/uddannelse/uddannelsesguide">Uddannelsesguide</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {44902E10-1B6D-4356-A112-2348ECB2D8E8}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/uddannelse/bachelor">Bacheloruddannelser</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {4A04638D-7144-420F-92A5-1A3A99147F82}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/uddannelse/diplomingenioer">Diplomingeni&#248;r</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {06270761-8AC6-42B8-B201-0D4BB1463BBB}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/uddannelse/kandidat">Kandidatuddannelser</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {7AA2158D-B95A-4EC8-874F-4B6DDC31EDD6}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/uddannelse/sommerkurser">Sommerkurser</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {271EC3B3-AD48-4016-A56D-2CB63BF92DE3}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/uddannelse/adgangskursus_supplering">Adgangskurser</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {8E1B96B2-F146-447A-9CAA-C2B0F8E90E95}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/uddannelse/tilvalg_sidefag">Tilvalg/Sidefag</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {AB3A0F3D-15C0-4710-88AD-B5532DA75AA1}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/uddannelse/i_byerne">Uddannelser i byerne</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {E63DDDC5-482C-49BE-A7BC-F36BDA0F2DD9}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/uddannelse/brobygning">Brobygning</a>
+                                                                                                            </li>
+                                        </ul>
+                            </li>
+                            <li>
+                                    <a href="http://www.sdu.dk/da/efter_videreuddannelse" class="">Efteruddannelse</a>
+                                                                                                        <ul id="d_0DEFD9BFEAAA42CBA7E7FAD5D56E97B7"  class="header__dropdown">
+                                                    <li>
+                                                        <!--
+                                                            {B8D275EE-304A-48A2-A1DA-EC8DFEE3768C}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/efter_videreuddannelse/katalogbestilling_ny+version">Bestil materiale </a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {2E27672B-31C5-4ADB-B2DF-F6CFCFE9F54D}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/efter_videreuddannelse/efteruddannelsesguide">Efteruddannelsesguide</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {6D85AE3D-B7F9-4029-849E-5FBDA0753FFE}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/efter_videreuddannelse/master">Masteruddannelser</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {7258DE3A-73F8-432B-8C67-3A35ADBE9043}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/efter_videreuddannelse/diplom">Diplomuddannelser</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {320C6173-CE3D-4A89-B8F9-34DB1149F625}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/efter_videreuddannelse/deltid">Uddannelser p&#229; deltid</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {5955C010-9A37-4853-B6D0-7681D7B88B65}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/efter_videreuddannelse/enkeltfag">Enkeltfag </a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {5E75D6D9-FC5F-4FD9-A26D-D70C90EFB447}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/efter_videreuddannelse/tompladsordningen">Tompladsordningen</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {853EFB61-B13C-4BF8-A87A-1C5B64A04A3B}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/efter_videreuddannelse/korte_kurser">Kurser og konferencer</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {ACBD6C43-FE5D-40A6-92C4-86E08285A295}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/efter_videreuddannelse/generelle_informationer">V&#230;rd at vide </a>
+                                                                                                            </li>
+                                        </ul>
+                            </li>
+                            <li>
+                                    <a href="http://www.sdu.dk/da/forskning" class="">Forskning</a>
+                                                                                                        <ul id="d_9BAD9285AA2F4E009D5B7D5F452FB19E"  class="header__dropdown">
+                                                    <li>
+                                                        <!--
+                                                            {EB083EB3-5497-4956-B50F-FE1CA0D29B4C}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/forskning/partnerskab">Partnerskab</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {D5BD6B3A-4BC7-4C1A-A4E7-9959C09AC8DB}
+                                                        -->
+                                                                                                                        <a href="http://findresearcher.sdu.dk/portal/da/organisations/search.html" target="">Forskningsenheder</a>
+                                                    </li>
+                                                    <li>
+                                                        <!--
+                                                            {C530EEE0-14FE-4DE1-888F-FB39084CE513}
+                                                        -->
+                                                                                                                        <a href="http://findresearcher.sdu.dk/portal/da/persons/search.html?current=true" target="">Find en forsker</a>
+                                                    </li>
+                                                    <li>
+                                                        <!--
+                                                            {33C60827-6AF8-4B9F-BA6F-818506AF3C0B}
+                                                        -->
+                                                                                                                        <a href="http://findresearcher.sdu.dk/portal/da/publications/search.html" target="">Find publikation</a>
+                                                    </li>
+                                                    <li>
+                                                        <!--
+                                                            {0BB5C0D9-78A5-44D9-9187-53C119FC2280}
+                                                        -->
+                                                                                                                        <a href="http://findresearcher.sdu.dk/portal/da/publications/search.html" target="">Find aktiviteter</a>
+                                                    </li>
+                                                    <li>
+                                                        <!--
+                                                            {921FF498-DABD-48C5-8157-F875D4B179E3}
+                                                        -->
+                                                                                                                        <a href="http://findresearcher.sdu.dk/portal/da/clippings/search.html" target="">Find presseklip</a>
+                                                    </li>
+                                                    <li>
+                                                        <!--
+                                                            {7821410D-E747-44AB-8CA1-6286759EB54A}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/forskning/forskningsformidling">Forskningsformidling</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {F995EFA2-1500-4C43-B90F-12258083EEC6}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/forskning/forskningspublicering">Forskningspublicering</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {FF7BDDC0-2373-4765-BCE0-60A1C1E38733}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/forskning/forskerstoette">Forskerst&#248;tte</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {0C7E364A-D746-49EE-8391-36EF86B23A40}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/forskning/phd">Ph.d.</a>
+                                                                                                            </li>
+                                        </ul>
+                            </li>
+                            <li>
+                                    <a href="http://www.sdu.dk/da/aktuelt" class="">Aktuelt</a>
+                                                                                                        <ul id="d_BD27A2F345DB400C9234131830566AD0"  class="header__dropdown">
+                                                    <li>
+                                                        <!--
+                                                            {E0A38B95-FD58-4907-936B-B1B26CE608E8}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/aktuelt/nyt_fra_sdu">Nyt fra SDU</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {90BDB34A-7645-464B-B023-8AE735F5E169}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/aktuelt/nyt_om_navne">Nyt om navne</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {14FBBC87-5BE1-4FE3-9D0B-D4916F371DA9}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/aktuelt/nyviden">Ny Viden</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {5D0C84F4-EC74-401E-BB3A-C39BA8BDA33D}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/aktuelt/lokalenyheder">Lokale Nyheder</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {54E847CB-DE49-4547-AE07-59196CCD84F7}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/aktuelt/presserummet">Presserummet</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {98438DBB-FE4B-4793-922A-D546A82371AF}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/aktuelt/tidsskrifter">Tidsskrifter</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {FEEBB43E-1DC4-4D9A-A254-F43DE0160CE4}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/aktuelt/nyhedsarkiv">Arkiv</a>
+                                                                                                            </li>
+                                        </ul>
+                            </li>
+                            <li>
+                                    <a href="http://www.sdu.dk/da/samarbejde" class="">Samarbejde</a>
+                                                                                                        <ul id="d_BB84C777FDD548808318863FC4FD26A7"  class="header__dropdown">
+                                                    <li>
+                                                        <!--
+                                                            {D9E00274-61F9-4C9C-BF68-CF3D3E95186B}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/samarbejde/hoejtuddannet+arbejdskraft">H&#248;jtuddannet arbejdskraft</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {FE6DA9F7-12A0-4354-BE67-6AB49C21A2E6}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/samarbejde/partnerskab">Partnerskab</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {7809F87D-04DF-4C6E-BCDB-D6279F477100}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/samarbejde/entreprenoerskab">Entrepren&#248;rskab</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {E806776C-D12D-4C2C-8D05-BEAE7C346B52}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/samarbejde/eksempler_samarbejde">Eksempler p&#229; samarbejde</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {A1F0980E-69EF-4AD9-A918-5549DCD602BD}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/samarbejde/internationalt_samarbejde">Internationalt samarbejde</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {C822D2E1-4E85-4F5C-AF6F-36B53EAB62B0}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/samarbejde/indkoeb">Indk&#248;b og udbud</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {3F8D7215-6C19-4628-B32F-11468C25AEC6}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/samarbejde/konferencefaciliteter">Konferencefaciliteter</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {B2810853-20E3-447A-8336-2AEE6D8DF53C}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/samarbejde/salgsbetingelser">Salgsbetingelser</a>
+                                                                                                            </li>
+                                        </ul>
+                            </li>
+                            <li>
+                                    <a href="http://www.sdu.dk/da/bibliotek" class="">Bibliotek</a>
+                                                                                                        <ul id="d_64C57A506F464469AEB58C68762BC9E9"  class="header__dropdown">
+                                                    <li>
+                                                        <!--
+                                                            {EB9014BC-701E-4C95-BA21-1E07EC2255A1}
+                                                        -->
+                                                                                                                        <a href="http://syddansk.summon.serialssolutions.com" target="_blank">S&#248;g</a>
+                                                    </li>
+                                                    <li>
+                                                        <!--
+                                                            {A758DC51-6A6C-4848-B6D2-1187787771A6}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/bibliotek/materialer">Materialer</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {B7BF55D4-51C1-42AA-AE6F-0F1B893C46C2}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/bibliotek/vejledninger">Vejledninger</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {651064B5-99A7-45C9-8861-7F148609C83D}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/bibliotek/kontakt">Kontakt | Sp&#248;rg os</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {E68854EC-1BD3-4FD0-AC70-5DEE0EF237D7}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/bibliotek/dit+bibliotek">Dit bibliotek | &#197;bningstider</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {E9C4AE02-B988-4DC4-A2B8-CA77762AEB14}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/bibliotek/faciliteter">Faciliteter</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {5F16F0B4-0EFB-4572-B2C8-738FB5787AF2}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/bibliotek/kurser+og+events">Kurser og events</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {EE99DB99-798C-418B-A37B-4B664161E844}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/bibliotek/om+biblioteket">Om biblioteket</a>
+                                                                                                            </li>
+                                        </ul>
+                            </li>
+                            <li>
+                                    <a href="http://www.sdu.dk/da/om_sdu" class="active">Om SDU</a>
+                                                                                                        <ul id="d_FB2CE2CE49074500B165258722AD2D69"  class="header__dropdown">
+                                                    <li>
+                                                        <!--
+                                                            {D99C74A1-761D-469D-A410-DF9365F04CBD}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/om_sdu/sdu50">SDU 50 &#229;r</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {73B69E6F-3869-438D-AAB8-B650C3178EFD}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/om_sdu/organisationen">Organisationen</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {20F070C3-B32B-470E-A668-8FAA6CAADE11}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/om_sdu/fakulteterne">Fakulteterne</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {71F09267-77AD-4654-A984-8F5B02517826}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/om_sdu/institutter_centre">Institutter og centre</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {B5664CB3-E1F6-43C0-A432-5BB54BFFE584}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/om_sdu/faellesomraadet">F&#230;llesomr&#229;det</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {CB69FA52-2F42-48A5-9B33-1472C9A284C0}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/om_sdu/aarets_gang">&#197;rets gang</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {2991A067-F992-4C07-BB1C-EEAABF29D9EF}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/om_sdu/historie">SDU’s historie</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {3D1AB08F-4BF3-42DD-93B4-00E786225865}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/om_sdu/byerne">Byerne</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {67CDF870-F824-46C4-B23D-BEA201064604}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/om_sdu/priser_haeder">Priser og h&#230;der</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {81C643C9-6739-47BC-8B27-8A0AA3F7F0B0}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/om_sdu/dokumentation_tal">Kvalitet, dokumentation og tal</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {CED6323E-765B-4E55-94CD-AFC92BB7058C}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/om_sdu/konferencefaciliteter">Konferencefaciliteter</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {17CA266D-65AD-4595-A65F-A0966D6520BB}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/om_sdu/kantine">Kantine</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {2387B19D-8FDD-4AE3-A2D0-EBD71FA688BE}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/om_sdu/beredskab_paa_sdu">Beredskab p&#229; SDU</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {B9A464B3-12EA-4CF9-BA24-629259632F1F}
+                                                        -->
+                                                                                                                        <a href="http://studenterboghandel.dk/" target="_blank">Merchandise</a>
+                                                    </li>
+                                                    <li>
+                                                        <!--
+                                                            {55D1CDAE-A5EF-4AA7-9927-A0016B1274F8}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/om_sdu/om_dette_websted">Om dette websted</a>
+                                                                                                            </li>
+                                        </ul>
+                            </li>
+                            <li>
+                                    <a href="http://www.sdu.dk/da/information_til" class="">Information til...</a>
+                                                                                                        <ul id="d_90541E24534441EABDA24683DC7B1AB3"  class="header__dropdown">
+                                                    <li>
+                                                        <!--
+                                                            {C934ACF2-41A3-4EC9-AA6E-CC65A6B4F197}
+                                                        -->
+                                                                                                                        <a href="http://www.sdu.dk/da/uddannelse" target="">Kommende studerende</a>
+                                                    </li>
+                                                    <li>
+                                                        <!--
+                                                            {6B72349B-DE98-4948-B33E-07D63CA6FF25}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/information_til/studerende_ved_sdu">Studerende ved SDU</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {7C57C8C9-F540-4889-9ACD-AF2C6AD19CBA}
+                                                        -->
+                                                                                                                        <a href="http://sdunet.dk" target="_blank">Ansatte (SDUnet)</a>
+                                                    </li>
+                                                    <li>
+                                                        <!--
+                                                            {0D50A513-58A2-42C5-A659-6F434DDA288D}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/information_til/alumner">Alumner</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {C5FB2F66-5966-4087-81C7-2688D8A6C47E}
+                                                        -->
+                                                            <a href="http://www.sdu.dk/da/information_til/erhvervslivet">Erhvervslivet</a>
+                                                                                                            </li>
+                                                    <li>
+                                                        <!--
+                                                            {25E42183-1789-4B46-B103-683E21869F78}
+                                                        -->
+                                                                                                                        <a href="http://www.sdu.dk/da/uddannelse/brobygning" target="">Skoler og gymnasier</a>
+                                                    </li>
+                                                    <li>
+                                                        <!--
+                                                            {F9446F16-92EA-47FE-9381-7B08C4F787C1}
+                                                        -->
+                                                                                                                        <a href="http://www.sdu.dk/da/aktuelt/presserummet" target="">Pressen</a>
+                                                    </li>
+                                        </ul>
+                            </li>
+                </ul>
+
+            </nav>
+
+    <div class="header__search" data-dropdown-click>
+        <em><i class="icon-search"></i><span>S&#248;g</span></em>
+        <ul class="header__dropdown header__dropdown--search header__dropdown--compact">
+            <li>
+                <input type="search" placeholder="Søg..." />
+                <span></span>
+            </li>
+        </ul>
+    </div>
+    <div class="header__login">
+        <em><i class="icon-profile"></i><span>Log ind</span></em>
+        
+<ul class="header__dropdown header__dropdown--login">
+    <li>
+            <h6>Studerende</h6>
+            <ul>
+
+                            <li>
+                                <a href="https://sso.sdu.dk/" target="">
+                                    <span>Blackboard mm.</span>
+                                    <span>E-mail, selvbetjening og e-l&#230;ring</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://alvis-bib.sdu.dk/uhtbin/cgisirsi/X/0/0/1/69/X/" target="_blank">
+                                    <span>Biblioteket</span>
+                                    <span>Se l&#229;nerstatus, reservationer &amp; forny l&#229;n</span>
+                                </a>
+                            </li>
+            </ul>
+            <h6>Ansatte</h6>
+            <ul>
+
+                            <li>
+                                <a href="http://www.wayf.dk/en/component/content/article/332-adobe-connect-tilsluttet-wayf" target="_blank">
+                                    <span>Adobe Connect</span>
+                                    <span>Webkonferencesystemet via WAYF</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://e-learn.sdu.dk/" target="_blank">
+                                    <span>e-learn.sdu.dk</span>
+                                    <span>E-l&#230;ring (Blackboard)</span>
+                                </a>
+                            </li>
+            </ul>
+            <h6>Alumner</h6>
+            <ul>
+
+                            <li>
+                                <a href="https://alumnet.sdu.dk/faces/frontend/login.xhtml;jsessionid=0375450033DD1319C77F24DE7DC01A59" target="">
+                                    <span>Alumnet</span>
+                                    <span>Netv&#230;rk for alumner</span>
+                                </a>
+                            </li>
+            </ul>
+    </li>
+</ul> 
+    </div> 
+    <div class="header__lang">
+        <a href="?sc_lang=en" ><i class="icon-english"></i><span>english</span></a>
+</div>   
+</header>
+				<article class="article">
+	
+
+
+
+
+    <div class="article__image">
+        <div class="row">
+            <div class="large-8 columns">
+                <img src='http://www.sdu.dk/-/media/images/nytsdu_billeder2016/automatisk_top_770x330/arkitektur8_770x330.jpg?h=330&amp;w=770&amp;la=da&hash=8C96236D31043FD9FDF244796D2A9D03D52C13E5' />
+            </div>
+        </div>
+    </div>
+
+<div class="row">
+
+	<div class="large-6 large-offset-1 columns">
+	</div>
+
+</div>
+
+	<div class="row">
+		<div class="large-6 large-offset-1 columns">
+			<div class="article__body">
+				
+			</div>
+			<div class="article__share">
+    <h4>Del siden p&#229;</h4>
+    <a class="button" href="javascript:Cabana.Share('facebook');"><i class="icon-facebook"></i>Facebook</a>
+    <a class="button" href="javascript:Cabana.Share('twitter');"><i class="icon-twitter"></i>Twitter</a>
+</div>
+		</div>
+	</div>
+</article>
+
+    <aside class="article-bottom">
+
+
+
+
+            <div class="row">
+                <div class="large-8 columns">
+                    <div class="fakultet-info">
+
+</div>
+                </div>
+                <div class="large-4 columns">
+                    
+<div class="last-updated">
+    <small>Sidst opdateret: 11.2.2016</small>
+</div>
+                </div>
+            </div>
+
+
+
+    </aside>
+
+				<footer class="footer">
+
+
+    <div class="footer__breadcrumbs">
+        <div class="row">
+            <div class="large-12 columns">
+                <nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
+                    <li role="menuitem"><a href="/"><img src="/resources/images/sdu/logo-white.png" /></a></li>
+                        <li role="menuitem"><a href="http://www.sdu.dk/da/om_sdu">Om SDU</a></li>
+                        <li role="menuitem"><a href="http://www.sdu.dk/da/om_sdu/institutter_centre">Institutter og centre</a></li>
+                        <li role="menuitem"><a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci">Institut for Fysik, Kemi og Farmaci</a></li>
+                        <li role="menuitem"><a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning">Forskning</a></li>
+                        <li role="menuitem"><a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsgrupper">FKF Forskningsgrupper</a></li>
+                        <li role="menuitem"><a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsgrupper/raewyn_m_town">Raewyn M. Towns forskningsgruppe</a></li>
+                        <li role="menuitem"><a href="http://www.sdu.dk/da/om_sdu/institutter_centre/fysik_kemi_og_farmaci/forskning/forskningsgrupper/raewyn_m_town/biomonar"></a></li>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer__service-info">
+        <div class="row">            
+            <div class="large-4 large-push-8 columns">
+                <div class="footer__social">
+                    <ul>
+                            <li><a href="http://www.facebook.com/syddansk" target="_blank"><i class="icon-facebook"></i></a></li>
+                                                    <li><a href="http://twitter.com/SyddanskUniv" target="_blank"><i class="icon-twitter"></i></a></li>
+                                                    <li><a href="http://www.instagram.com/sdustudieliv" target="_blank"><i class="icon-instagram"></i></a></li>
+                                                    <li><a href="http://www.youtube.com/syddanskuniversitet" target="_blank"><i class="icon-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="large-4 columns">
+                    <div class="footer__contact">
+                        <p>TLF: 6550 1000 · <a href="mailto:SDU@SDU.DK">SDU@SDU.DK</a> · CVR-NR: 29283958 · <a href="http://www.sdu.dk/da/samarbejde/indkoeb/elektroniske_fakturaer">EAN</a></p>
+                    </div>
+            </div>            
+            <div class="large-4 large-pull-8 columns">
+                    <nav class="footer__menu">
+                        <dl class="sub-nav" role="menu" title="Footer Menu">
+                                        <dd role="menuitem"><a href="http://www.sdu.dk/da/service/vejviser">Vejviser</a></dd>
+                                        <dd role="menuitem"><a href="http://www.sdu.dk/da/service/kontakt">Kontakt</a></dd>
+                                        <dd role="menuitem"><a href="http://www.sdu.dk/da/service/ledige_stillinger">Ledige stillinger</a></dd>
+                                        <dd role="menuitem"><a href="http://www.sdu.dk/da/service/findperson">Find person</a></dd>
+                        </dl>
+                    </nav>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<section class="notification closed" data-notification="accept-cookies">
+    <div class="row">
+        <div class="large-12 columns">
+            <p>
+                Vi samler statistik ved hj&#230;lp af cookies for at forbedre brugeroplevelsen.&nbsp;<a href="/Om_SDU/Om_dette_websted/Brug_af_cookies">L&#230;s mere om cookies</a>
+            </p>
+            <a class="button right" id="accept-cookies" href="#" data-notification-interval="30" data-notification-set="true">Accept&#233;r cookies</a>
+        </div>
+    </div>
+</section>
+			</section>
+
+		</div>
+	</div>
+
+	
+
+    <script type="text/javascript" src="/Resources/js/sdu/app.089f8421-5b3e-40ed-e1aa-c29f48442901.js"></script>
+
+<script type="text/javascript" src="http://ssl.siteimprove.com/js/siteanalyze_11185.js">//</script><script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+</body>
+</html>

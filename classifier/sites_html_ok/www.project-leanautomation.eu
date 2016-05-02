@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2013 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/
+-->
+
+
+<link rel="shortcut icon" href="http://www.project-leanautomation.eu/fileadmin/favicon/icon.ico" type="image/x-ico; charset=binary">
+<link rel="icon" href="http://www.project-leanautomation.eu/fileadmin/favicon/icon.ico" type="image/x-ico; charset=binary">
+<title>LIAA Project: Home</title>
+<meta name="generator" content="TYPO3 4.5 CMS">
+
+<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_f8394d6bf2.css?1396106291" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/bootstrap.css?1376646000" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/basic.css?1402664146" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/custom.css?1382115965" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/feature-carousel.css?1375267492" media="all">
+
+
+<script src="typo3conf/ext/socialshareprivacy/jquery-1.7.2.min.js?1377601130" type="text/javascript"></script>
+<script src="typo3conf/ext/socialshareprivacy/socialshareprivacy/jquery.socialshareprivacy.min.js?1377601130" type="text/javascript"></script>
+<script src="typo3temp/javascript_a708894199.js?1402646927" type="text/javascript"></script>
+
+
+<link href="index.php1&type=100" rel="alternate" title="RSS-Feed" type="application/rss+xml"></link><link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<!--[if lte IE 9]>
+    <link rel="stylesheet" href="/fileadmin/template/css/basicielte9.css" type="text/css" media="all" />
+    <![endif]-->
+
+
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="/fileadmin/template/css/basicielte8.css" type="text/css" media="all" />
+    <![endif]-->
+    <!--[if lte IE 7]>
+    <link rel="stylesheet" href="/fileadmin/template/css/basicielte7.css" type="text/css" media="all" />
+    <![endif]-->
+    <!--[if lte IE 6]>
+    <link rel="stylesheet" href="/fileadmin/template/css/basicielte6.css" type="text/css" media="all" />
+    <![endif]-->
+
+
+<script type="text/javascript" src="t3lib/jsfunc.updateform.js?1375188184"></script>
+</head>
+<body>
+
+<div id="top"></div>
+   <!--TYPO3SEARCH_begin-->   
+        <div class="topMenuWrapper">
+            <div class="container">
+                <div class="topMenu">
+             
+               
+  <div class="formSubscriptContainer">
+    
+    <form class="form-inline"  name="tt_address_form" method="post" action="index.php?id=liaa_home">
+<font face="verdana" size=2 color=black>
+</font>
+<font face="verdana" size=1 color=black>
+
+
+  
+      <i style="color:#fff;  float:left; margin-right:5px; margin-top:3px; font-size:18px; "class="fa fa-envelope"></i>
+      <input id="emailInput" type="text" value="newsletter" name="FE[tt_address][email]" id="fe_ttaddress_email_input"/>
+
+
+  
+
+<input type="submit" id="submitFormButton" name="whatever" class="btn" value="Subscribe" />
+
+</form>
+</font>
+  
+  </div>
+<script type="text/javascript">
+	/*<![CDATA[*/ 
+	updateForm('tt_address_form','FE[tt_address][pid]','');
+	updateForm('tt_address_form','FE[tt_address][hidden]','');
+	updateForm('tt_address_form','FE[tt_address][gender]','');
+	updateForm('tt_address_form','FE[tt_address][name]','');
+	updateForm('tt_address_form','FE[tt_address][first_name]','');
+	updateForm('tt_address_form','FE[tt_address][middle_name]','');
+	updateForm('tt_address_form','FE[tt_address][last_name]','');
+	updateForm('tt_address_form','FE[tt_address][title]','');
+	updateForm('tt_address_form','FE[tt_address][address]','');
+	updateForm('tt_address_form','FE[tt_address][building]','');
+	updateForm('tt_address_form','FE[tt_address][room]','');
+	updateForm('tt_address_form','FE[tt_address][birthday]','');
+	updateForm('tt_address_form','FE[tt_address][phone]','');
+	updateForm('tt_address_form','FE[tt_address][fax]','');
+	updateForm('tt_address_form','FE[tt_address][mobile]','');
+	updateForm('tt_address_form','FE[tt_address][www]','');
+	updateForm('tt_address_form','FE[tt_address][email]','');
+	updateForm('tt_address_form','FE[tt_address][city]','');
+	updateForm('tt_address_form','FE[tt_address][zip]','');
+	updateForm('tt_address_form','FE[tt_address][company]','');
+	updateForm('tt_address_form','FE[tt_address][region]','');
+	updateForm('tt_address_form','FE[tt_address][country]','');
+	updateForm('tt_address_form','FE[tt_address][image]','');
+	updateForm('tt_address_form','FE[tt_address][description]','');
+	updateForm('tt_address_form','FE[tt_address][module_sys_dmail_category]','');
+	updateForm('tt_address_form','FE[tt_address][module_sys_dmail_html]','1');
+	updateForm('tt_address_form','FE[tt_address][tx_directmailsubscription_localgender]','');
+	/*]]>*/
+</script>
+
+              </div>
+
+</div>
+<!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <div class=" header">
+  
+        <div class="container">
+        <div class="logo">
+        <a href="index.php">
+        
+	<!--  CONTENT ELEMENT, uid:149/text [begin] -->
+		<div id="c149" class="csc-default" >
+		<!--  Text: [begin] -->
+			<p class="bodytext"><img src="/fileadmin/img/LIAALogo/LIAA.jpg" data-htmlarea-file-uid="167"  border="1" width="300" alt="" /></p>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:149/text [end] -->
+		
+        </a>
+        </div>
+        </div>
+        <div class="slider">
+      
+
+
+	<!--
+
+		BEGIN: Content of extension "t3s_headerslider", plugin "tx_t3sheaderslider_pi1"
+
+	-->
+	<div class="tx-t3sheaderslider-pi1">
+		<img src="typo3temp/pics/1db21bb7b9.jpg" width="1800" height="220" border="0" alt="" />
+	</div>
+	
+	<!-- END: Content of extension "t3s_headerslider", plugin "tx_t3sheaderslider_pi1" -->
+
+	
+      </div>
+    </div>
+  <div class=navi>
+  <div class="container">
+  <div class="span12 mainMenu">
+        <ul class="mainNavi"><li class="active" id="navi-no-1"><a href="index.php?id=liaa_home" onfocus="blurLink(this);"  >Home</a></li><li id="navi-no-2"><a href="index.php?id=liaa_project" onfocus="blurLink(this);"  >Project</a></li><li id="navi-no-30"><a href="index.php?id=consortium" onfocus="blurLink(this);"  >Consortium</a></li><li id="navi-no-9"><a href="index.php?id=pilotcases" onfocus="blurLink(this);"  >Pilot Cases</a></li><li id="navi-no-61"><a href="index.php?id=technology" onfocus="blurLink(this);"  >Technology</a></li><li id="navi-no-10"><a href="index.php?id=liaa_publicrelations" onfocus="blurLink(this);"  >Public Relations</a></li><li id="navi-no-50"><a href="index.php?id=relatedactivities" onfocus="blurLink(this);"  >Related Activities</a></li></ul> 
+
+      </div>
+  </div>
+  </div>
+    <div class=" main">
+  <div class="page container shadow">
+    
+
+      
+
+      <div class="span9">
+        <div class="mainFull">
+        <div class="rowOne">
+          
+	<!--  CONTENT ELEMENT, uid:1/text [begin] -->
+		<div id="c1" class="csc-default" >
+		<!--  Header: [begin] -->
+			<div class="csc-header csc-header-n1"><h2 class="csc-firstHeader">Welcome to the LIAA Project</h2></div>
+		<!--  Header: [end] -->
+			
+		<!--  Text: [begin] -->
+			<p align="Center" class="biggerText">&quot;LIAA aims to keep assembly jobs in Europe by creating and implementing a framework that enables humans and robots to truly work together in assembly tasks.&quot;</p><div class="clear"></div>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:1/text [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:128/text [begin] -->
+		<div id="c128" class="csc-default" >
+		<!--  Text: [begin] -->
+			<p class="bodytext"><a rel="lightbox" href="fileadmin/img/websiteImages/home/LIAA_Configurations.jpg" title="Example configurations: lean, one or two-armed robot, workplace-sharing system"></a></p>
+<p class="bodytext"><img data-htmlarea-file-table="sys_file" data-htmlarea-file-uid="148" border="0" src="fileadmin/img/websiteImages/home/LIAA_Configurations.jpg" class="img-polaroid" width="100%" alt="" /></p>
+<p class="bodytext"><b>Example configurations: lean, one or two-armed robot, workplace-sharing System</b></p>
+<p class="bodytext">&nbsp;</p>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:128/text [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:2532/text [begin] -->
+		<div id="c2532" class="csc-default" >
+		<!--  Header: [begin] -->
+			<div class="csc-header csc-header-n3"><h2>Announcements</h2></div>
+		<!--  Header: [end] -->
+			
+		<!--  Text: [begin] -->
+			<div style="background-color:#eeeeee"><ul> <li><i class="icon-circle-arrow-right"></i><b>2014-10-13: </b><span>The D11.21 Dissemination Report M12 is now online and can be downloaded <a href="index.php?id=29" title="Opens internal link in current window" class="internal-link" >here</a>.</span></li><li><i class="icon-circle-arrow-right"></i><b>2014-10-01: </b><span>The following Deliverables are now online and can be downloaded <a href="index.php?id=29" title="Opens internal link in current window" class="internal-link" >here</a>.</span> <ul> <li><i class="icon-circle-arrow-right"></i>D01.10 Pilot Cases Definitions</li> <li><i class="icon-circle-arrow-right"></i>D02.10 Requirements &amp; Specifications</li> <li><i class="icon-circle-arrow-right"></i>D08.20 Roadmap towards LIAA Framework and Development Infrastructure</li></ul> </li> <li><i class="icon-circle-arrow-right"></i><b>2014-03-16: </b><span>The presentations of the &quot;Hybrid Production Systems&quot; workshop at the ERF 2014 are online, see <a href="http://www.project-leanautomation.eu/index.php?id=96&amp;tx_ttnews[tt_news]=66&amp;cHash=76b2f171cdd74a9032f0ba21569d4569" title="Opens external link in new window" target="_blank" class="external-link-new-window" >link</a>.</span></li></ul></div>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:2532/text [end] -->
+		
+          
+            
+            <!-- Subpart ###BLOGFULL### begin -->
+          
+            <!-- Subpart ###BLOGFULL### end -->
+          </div>
+          <div class="row twoCol">
+            <div class="span4">
+              
+	<!--  CONTENT ELEMENT, uid:20/textpic [begin] -->
+		<div id="c20" class="csc-default" >
+		<!--  Image block: [begin] -->
+			<div class="csc-textpic-text">
+		<!--  Text: [begin] -->
+			<h4>Robotics and Lean Production</h4>
+<p align="justify" class="bodytext"> Robotic systems are still used almost exclusively in high-volume production. Most initiatives started to make the use of robots more attractive for SMEs focused on the intuitive programming of the robot for completely automated solutions or on engineering complex automation solutions to replace human workers.</p>
+<p class="bodytext"><b><i>"There is a definite lack of applying lean approaches towards human-robot-cooperation solutions!"</i></b></p>
+<p align="justify" class="bodytext"> While available commercial robot solutions are incompatible with lean production principles, LIAA aims at overcoming precisely that by adopting the traditional Japanese lean principle of Jidoka, which translates to “automation with a human touch”; not in its traditional meaning of the human operator controlling the automation, but rather in the meaning of incorporating the human as part of the automation loop.</p>
+		<!--  Text: [end] -->
+			</div>
+		<!--  Image block: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:20/textpic [end] -->
+		
+
+            </div>
+            <div class="span4">
+              
+	<!--  CONTENT ELEMENT, uid:3/textpic [begin] -->
+		<div id="c3" class="csc-default" >
+		<!--  Image block: [begin] -->
+			<div class="csc-textpic-text">
+		<!--  Text: [begin] -->
+			<h4>Pilot Cases</h4>
+<p align="justify" class="bodytext">The outcome of the project will be applicable in many market sectors. However, it is not possible to develop working methods and tools for the whole manufacturing spectrum from the get-go. Consequently, the advancement of the project will be mainly driven by the five pilot cases defined by the industrial users' needs. Nevertheless, the method and tool developers will consider generality and openness as critical characteristics of the development, so that the framework may be later on efficiently transferred to other industrial applications. The pilot cases will provide the opportunity for the LIAA framework to be used in a set of real industrial scenarios. </p>
+<p align="justify" class="bodytext"> Five very distinct pilot cases from different market sectors, as well as different players in the value-chain are included within LIAA.</p>
+<p class="bodytext"><a href="index.php?id=pilotcases" title="Opens internal link in current window" class="internal-link" >read more</a></p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext">&nbsp;</p>
+		<!--  Text: [end] -->
+			</div>
+		<!--  Image block: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:3/textpic [end] -->
+		
+
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span3">
+            
+          </div>
+          <div class="span3">
+            
+          </div>
+          <div class="span3">
+            
+          </div>
+        </div>
+
+      </div>
+       <!--TYPO3SEARCH_end-->   
+      <div class="span3 modules">
+        <div class="content">
+        
+	<!--  CONTENT ELEMENT, uid:67/list [begin] -->
+		<div id="c67" class="csc-default" >
+		<!--  Plugin inserted: [begin] -->
+			
+
+
+	<!--
+
+		BEGIN: Content of extension "macina_searchbox", plugin "tx_macinasearchbox_pi1"
+
+	-->
+	<div class="tx-macinasearchbox-pi1">
+		
+  <form action="index.php?id=results&L=0" method="post" name="searchform" id="searchform" style="margin:0px; height:40px; padding:0px; ">
+    <table style="margin-top:-5px;" height="14" width="220" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td valign="top">search & find<br/>
+        <div class="input-append">
+   <input name="tx_indexedsearch[sword]" value="searchterm..." type="text" style="height:18; width:130; font-size:11" />
+    <button class="btn" name="tx_indexedsearch[submit_button]" type="submit" ><i class="icon-search"></i></button>
+    </div>
+    
+    </td>
+    <td>
+        <input type="hidden" name="tx_indexedsearch[_sections]" value="0" />
+        <input type="hidden" name="tx_indexedsearch[pointer]" value="0" />
+        <input type="hidden" name="tx_indexedsearch[ext]" value="0" />
+        <input type="hidden" name="tx_indexedsearch[lang]" value="0" />
+      </td>
+    </tr>
+   
+  </table>
+</form>
+
+	</div>
+	
+	<!-- END: Content of extension "macina_searchbox", plugin "tx_macinasearchbox_pi1" -->
+
+	
+		<!--  Plugin inserted: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:67/list [end] -->
+		
+           <!-- Subpart  begin -->
+          <!-- Subpart  end -->
+          
+	<!--  CONTENT ELEMENT, uid:418/text [begin] -->
+		<div id="c418" class="csc-default" >
+		<!--  Text: [begin] -->
+			<h2 style="margin-top:40px;">News<a class="rssIcon" href="http://www.project-leanautomation.eu/?id=|,0,,0,,0,&amp;type=100" rteerror="No page found: 0" ><img src="http://www.project-leanautomation.eu/uploads/RTEmagicC_rss.png.png" height="24" width="24" /></a></h2>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:418/text [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:247/list [begin] -->
+		<div id="c247" class="csc-default" >
+		<!--  Plugin inserted: [begin] -->
+			
+<div class="news-list-container">
+
+	
+			<div class="news-list-item">
+			  <span class="news-list-date">15.02.2016</span>
+			  <h2>LIAA@ERF2016</h2>
+			  <a href="index.php?id=96&amp;tx_ttnews%5Btt_news%5D=94&amp;cHash=634a5aa83a6f2451305f39ed13e8368f" title="LIAA@ERF2016"><img src="typo3temp/pics/af80b2572e.png" width="120" height="35" border="0" alt="" /></a>
+			 <p class="bodytext"><p>2016-02-15 08:00 CET</p>
+<p class="bodytext">The seventh edition of the European Robotics Forum will take place in Ljubljana, Slovenia from the 21st till the 23rd of March 2016 (www.erf2016.eu). Within this context the 3rd...<span class="news-list-morelink"><a href="index.php?id=96&amp;tx_ttnews%5Btt_news%5D=94&amp;cHash=634a5aa83a6f2451305f39ed13e8368f" title="LIAA@ERF2016">read more</a></span></p></p>
+			<div class="news-list-category"> Category: news  </div>
+
+<hr class="clearer" /></div>
+		
+			<div class="news-list-item">
+			  <span class="news-list-date">11.03.2015</span>
+			  <h2>LIAA result presented at ERF2015</h2>
+			  <a href="index.php?id=96&amp;tx_ttnews%5Btt_news%5D=83&amp;cHash=cff6eee0d89a2af176ed41f4ad3b6929" title="LIAA result presented at ERF2015"><img src="typo3temp/pics/c4afb0af0c.jpg" width="120" height="60" border="0" alt="" /></a>
+			 <p class="bodytext"><p> 2015-03-23 08:00 CET</p>
+<p class="bodytext">European robotics Forum was held in Vienna, Austria from March 11-13, 2015. The sixth edition of this event was a meeting point for not less than 350 scientists, companies and...<span class="news-list-morelink"><a href="index.php?id=96&amp;tx_ttnews%5Btt_news%5D=83&amp;cHash=cff6eee0d89a2af176ed41f4ad3b6929" title="LIAA result presented at ERF2015">read more</a></span></p></p>
+			<div class="news-list-category"> Category: news  </div>
+
+<hr class="clearer" /></div>
+		
+<div class="news-list-browse"><div class="showResultsWrap">Displaying results 1 to 2 out of 14</div><div class="browseLinksWrap"><span class="disabledLinkWrap">&lt;&lt; First</span>
+<span class="disabledLinkWrap">&lt; Previous</span>
+<span class="activeLinkWrap">1-2</span>
+<a href="index.php?id=liaa_home&amp;tx_ttnews%5Bpointer%5D=1&amp;cHash=b0d1d9a196f7ec86ad4170aefd7a6db9" >3-4</a>
+<a href="index.php?id=liaa_home&amp;tx_ttnews%5Bpointer%5D=2&amp;cHash=20fcf8e09a5c3544c4cfe06966f960d1" >5-6</a>
+<a href="index.php?id=liaa_home&amp;tx_ttnews%5Bpointer%5D=3&amp;cHash=6c33eb3c3bc56fdcd1e14af02e333645" >7-8</a>
+<a href="index.php?id=liaa_home&amp;tx_ttnews%5Bpointer%5D=4&amp;cHash=5a8866d486adeb0ab0da2cfb330974a1" >9-10</a>
+<a href="index.php?id=liaa_home&amp;tx_ttnews%5Bpointer%5D=5&amp;cHash=c3dbf0cf06f3d4a826536665e4d2ef9f" >11-12</a>
+<a href="index.php?id=liaa_home&amp;tx_ttnews%5Bpointer%5D=6&amp;cHash=b65a79de584c78cbd6691c954a6789ba" >13-14</a>
+<a href="index.php?id=liaa_home&amp;tx_ttnews%5Bpointer%5D=1&amp;cHash=b0d1d9a196f7ec86ad4170aefd7a6db9" >Next &gt;</a>
+<a href="index.php?id=liaa_home&amp;tx_ttnews%5Bpointer%5D=6&amp;cHash=b65a79de584c78cbd6691c954a6789ba" >Last &gt;&gt;</a></div></div>
+</div>
+
+		<!--  Plugin inserted: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:247/list [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:269/text [begin] -->
+		<div id="c269" class="csc-default" >
+		<!--  Text: [begin] -->
+			<div class="archiveLink"><p class="bodytext"><a href="index.php?id=44" title="Opens internal link in current window" class="internal-link" ><img alt="Opens internal link in current window" src="typo3/sysext/rtehtmlarea/res/accessibilityicons/img/internal_link.gif" data-htmlarea-file-uid="115" data-htmlarea-file-table="sys_file" />go to news archive</a></p></div>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:269/text [end] -->
+		
+          <!-- Subpart ###EVENTS### begin -->
+        
+          <!-- Subpart ###EVENTS### end -->
+          
+	<!--  CONTENT ELEMENT, uid:97/text [begin] -->
+		<div id="c97" class="csc-default" >
+		<!--  Header: [begin] -->
+			<div class="csc-header csc-header-n1"><h2 class="csc-firstHeader">Events</h2></div>
+		<!--  Header: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:97/text [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:290/list [begin] -->
+		<div id="c290" class="csc-default" >
+		<!--  Plugin inserted: [begin] -->
+			
+
+
+	<!--
+
+		BEGIN: Content of extension "ttnews_calendar", plugin "tx_ttnewscalendar_pi1"
+
+	-->
+	<div class="tx-ttnewscalendar-pi1">
+		
+
+  <div class="tx-ttnewscalendar-pi1-calendar">
+
+   
+    <div class="tx-ttnewscalendar-pi1-calendar-header">February 2016</div>
+
+    
+      <div class="tx-ttnewscalendar-pi1-calendar-row tx-ttnewscalendar-pi1-calendar-row-dow">
+
+        
+          <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-dow">Mo</div>
+        
+          <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-dow">Tu</div>
+        
+          <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-dow">We</div>
+        
+          <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-dow">Th</div>
+        
+          <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-dow">Fr</div>
+        
+          <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-dow">Sa</div>
+        
+          <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-dow">Su</div>
+        
+
+      </div>
+    
+
+    
+      <div class="tx-ttnewscalendar-pi1-calendar-row">
+
+        
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              1
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              2
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              3
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              4
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              5
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              6
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              7
+            </div>
+          
+
+      </div>
+    
+      <div class="tx-ttnewscalendar-pi1-calendar-row">
+
+        
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              8
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              9
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              10
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              11
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              12
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              13
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              14
+            </div>
+          
+
+      </div>
+    
+      <div class="tx-ttnewscalendar-pi1-calendar-row">
+
+        
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              15
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              16
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              17
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              18
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              19
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              20
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              21
+            </div>
+          
+
+      </div>
+    
+      <div class="tx-ttnewscalendar-pi1-calendar-row">
+
+        
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              22
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-past">
+              23
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-today">
+              24
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-future">
+              25
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-future">
+              26
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-future">
+              27
+            </div>
+          
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-future">
+              28
+            </div>
+          
+
+      </div>
+    
+      <div class="tx-ttnewscalendar-pi1-calendar-row">
+
+        
+            <div class="tx-ttnewscalendar-pi1-calendar-item tx-ttnewscalendar-pi1-calendar-item-future">
+              29
+            </div>
+          
+
+      </div>
+    
+
+  </div>
+
+
+	</div>
+	
+	<!-- END: Content of extension "ttnews_calendar", plugin "tx_ttnewscalendar_pi1" -->
+
+	
+		<!--  Plugin inserted: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:290/list [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:284/list [begin] -->
+		<div id="c284" class="csc-default" >
+		<!--  Plugin inserted: [begin] -->
+			
+<div class="news-list-container">
+
+	
+			<div class="news-list-item">
+			  <span class="news-list-date">18.02.2015</span>
+			  <h2>LIAA 4th General Assembly</h2>
+			  <a href="index.php?id=100&amp;tx_ttnews%5Btt_news%5D=75&amp;cHash=dbcef71994258a3992f77ba4d222d38a" title="LIAA 4th General Assembly"><img src="typo3temp/pics/5318ede621.png" width="120" height="63" border="0" alt="" /></a>
+			 <p class="bodytext"><p></p>
+<p class="bodytext">Date: 2015-02-18 to 2015-02-19</p>
+<p class="bodytext">Type: internal meeting</p>
+<p class="bodytext">Venue: OPEL, Rüsselsheim, Germany</p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext"><span class="news-list-morelink"><a href="index.php?id=100&amp;tx_ttnews%5Btt_news%5D=75&amp;cHash=dbcef71994258a3992f77ba4d222d38a" title="LIAA 4th General Assembly">read more</a></span></p></p>
+			<div class="news-list-category"> Category: futureEvents, Events  </div>
+
+<hr class="clearer" /></div>
+		
+			<div class="news-list-item">
+			  <span class="news-list-date">11.03.2015</span>
+			  <h2>Workshop: Hybrid Production Systems</h2>
+			  <a href="index.php?id=100&amp;tx_ttnews%5Btt_news%5D=74&amp;cHash=911f1d89ba648de8f2be997c4a14a199" title="Workshop: Hybrid Production Systems"><img src="typo3temp/pics/84bf75eff7.png" width="120" height="58" border="0" alt="" /></a>
+			 <p class="bodytext"><p></p>
+<p class="bodytext">Date: 2015-03-11 </p>
+<p class="bodytext">Type: Workshop </p>
+<p class="bodytext">Venue: European Robotics Forum 2015 in Vienna, Austria</p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext"><span class="news-list-morelink"><a href="index.php?id=100&amp;tx_ttnews%5Btt_news%5D=74&amp;cHash=911f1d89ba648de8f2be997c4a14a199" title="Workshop: Hybrid Production Systems">read more</a></span></p></p>
+			<div class="news-list-category"> Category: futureEvents, Events  </div>
+
+<hr class="clearer" /></div>
+		
+<div class="news-list-browse"><div class="showResultsWrap">Displaying results 1 to 2 out of 7</div><div class="browseLinksWrap"><span class="disabledLinkWrap">&lt;&lt; First</span>
+<span class="disabledLinkWrap">&lt; Previous</span>
+<span class="activeLinkWrap">1-2</span>
+<a href="index.php?id=liaa_home&amp;tx_ttnews%5Bpointer%5D=1&amp;cHash=b0d1d9a196f7ec86ad4170aefd7a6db9" >3-4</a>
+<a href="index.php?id=liaa_home&amp;tx_ttnews%5Bpointer%5D=2&amp;cHash=20fcf8e09a5c3544c4cfe06966f960d1" >5-6</a>
+<a href="index.php?id=liaa_home&amp;tx_ttnews%5Bpointer%5D=3&amp;cHash=6c33eb3c3bc56fdcd1e14af02e333645" >7-7</a>
+<a href="index.php?id=liaa_home&amp;tx_ttnews%5Bpointer%5D=1&amp;cHash=b0d1d9a196f7ec86ad4170aefd7a6db9" >Next &gt;</a>
+<a href="index.php?id=liaa_home&amp;tx_ttnews%5Bpointer%5D=3&amp;cHash=6c33eb3c3bc56fdcd1e14af02e333645" >Last &gt;&gt;</a></div></div>
+</div>
+
+		<!--  Plugin inserted: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:284/list [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:291/text [begin] -->
+		<div id="c291" class="csc-default" >
+		<!--  Text: [begin] -->
+			<div class="eventArchiveLink"><p class="bodytext"><a href="index.php?id=93" title="Opens internal link in current window" class="internal-link" ><img alt="Opens internal link in current window" src="typo3/sysext/rtehtmlarea/res/accessibilityicons/img/internal_link.gif" data-htmlarea-file-uid="115" data-htmlarea-file-table="sys_file" />go to events archive</a></p></div>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:291/text [end] -->
+		
+          <!-- Subpart ###MINICAL### begin -->
+          <!-- Subpart ###MINICAL### end -->
+        </div>
+      </div>
+  <div class="topLinkContainer">
+  <a href="#top" id="topScroll"><i class="icon-circle-arrow-up"></i>  top</a>
+  </div>
+    </div>
+
+
+
+  </div>
+  <div class="span12  footer">
+  <div class="container">
+      <div class="span3">
+        
+	<!--  CONTENT ELEMENT, uid:30/textpic [begin] -->
+		<div id="c30" class="csc-default" >
+		<!--  Header: [begin] -->
+			<div class="csc-header csc-header-n1"><h2 class="csc-firstHeader">7th framework</h2></div>
+		<!--  Header: [end] -->
+			
+		<!--  Image block: [begin] -->
+			<div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap csc-textpic-single-image" style="width:211px;"><img src="typo3temp/pics/b3ba71db31.jpg" width="211" height="140" border="0" class="img-polaroid" alt="" /></div><div class="csc-textpic-text">
+		<!--  Text: [begin] -->
+			<p style="font-family:Arial;" class="bodytext"><strong>LIAA</strong> has received funding from the <strong>European Union’s Seventh Framework Programme</strong> for <br />research, technological develop-<br />ment and demonstration under grant agreement&nbsp; <strong>no. 608604</strong>. <br /><br />Project runtime:<br /> 02.09.2013 - 31.08.2017. </p>
+<p align="justify" class="bodytext">&nbsp;</p>
+		<!--  Text: [end] -->
+			</div></div><div class="csc-textpic-clear"><!-- --></div>
+		<!--  Image block: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:30/textpic [end] -->
+		
+
+      </div>
+      <div class="span3">
+        
+	<!--  CONTENT ELEMENT, uid:121/text [begin] -->
+		<div id="c121" class="csc-default" >
+		<!--  Header: [begin] -->
+			<div class="csc-header csc-header-n1"><h2 class="csc-firstHeader">Legal</h2></div>
+		<!--  Header: [end] -->
+			
+		<!--  Text: [begin] -->
+			<p class="bodytext">&nbsp;<a href="index.php?id=imprint" title="Opens internal link in current window" class="internal-link" ><img src="typo3/sysext/rtehtmlarea/res/accessibilityicons/img/internal_link.gif" alt="Opens internal link in current window" />Impressum</a></p>
+<p class="bodytext">&nbsp;<a href="index.php?id=privacypolicy" title="Opens internal link in current window" class="internal-link" ><img src="typo3/sysext/rtehtmlarea/res/accessibilityicons/img/internal_link.gif" alt="Opens internal link in current window" />Privacy Policy</a></p>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:121/text [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:453/text [begin] -->
+		<div id="c453" class="csc-default" >
+		<!--  Header: [begin] -->
+			<div class="csc-header csc-header-n2"><h2>Services</h2></div>
+		<!--  Header: [end] -->
+			
+		<!--  Text: [begin] -->
+			<ul style="margin-left:10px"><li><a href="index.php?id=sitemap" class="internal-link" ><img alt="Opens internal link in current window" src="typo3/sysext/rtehtmlarea/res/accessibilityicons/img/internal_link.gif" data-htmlarea-file-uid="115" data-htmlarea-file-table="sys_file" />Sitemap</a></li>
+<li><a href="http://www.project-leanautomation.eu/?id=|,0,,0,,0,&type=100"><img alt="Opens internal link in current window" src="typo3/sysext/rtehtmlarea/res/accessibilityicons/img/internal_link.gif" data-htmlarea-file-uid="115" data-htmlarea-file-table="sys_file" />Newsfeed</a></li>
+<li><a href="http://www.project-leanautomation.eu/index.php?id=285"><img  src="typo3/sysext/rtehtmlarea/res/accessibilityicons/img/internal_link.gif" data-htmlarea-file-uid="115" data-htmlarea-file-table="sys_file" />Newsletter</a></li>
+ </ul>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:453/text [end] -->
+		
+
+      </div>
+      <div class="span3">
+        
+	<!--  CONTENT ELEMENT, uid:27/textpic [begin] -->
+		<div id="c27" class="csc-default" >
+		<!--  Header: [begin] -->
+			<div class="csc-header csc-header-n1"><h2 class="csc-firstHeader">Contact</h2></div>
+		<!--  Header: [end] -->
+			
+		<!--  Image block: [begin] -->
+			<div class="csc-textpic-text">
+		<!--  Text: [begin] -->
+			<p class="bodytext"><a href="index.php?id=contact" title="Opens internal link in current window" class="internal-link" ><img alt="Opens internal link in current window" src="typo3/sysext/rtehtmlarea/res/accessibilityicons/img/internal_link.gif" data-htmlarea-file-uid="115" data-htmlarea-file-table="sys_file" />Contact</a></p>
+		<!--  Text: [end] -->
+			</div>
+		<!--  Image block: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:27/textpic [end] -->
+		
+      </div>
+      
+
+      <div class="span3">
+        
+	<!--  CONTENT ELEMENT, uid:29/textpic [begin] -->
+		<div id="c29" class="csc-default" >
+		<!--  Header: [begin] -->
+			<div class="csc-header csc-header-n1"><h2 class="csc-firstHeader">Internal</h2></div>
+		<!--  Header: [end] -->
+			
+		<!--  Image block: [begin] -->
+			<div class="csc-textpic-text">
+		<!--  Text: [begin] -->
+			<ul><li><a href="https://publicwiki-01.fraunhofer.de/LIAA/index.php/Main_Page" title="internal wiki" target="_blank" class="external-link-new-window" ><img alt="Opens external link in new window" src="typo3/sysext/rtehtmlarea/res/accessibilityicons/img/external_link_new_window.gif" />internal wiki</a></li></ul>
+		<!--  Text: [end] -->
+			</div>
+		<!--  Image block: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:29/textpic [end] -->
+		
+
+      </div>
+    </div>
+</div>
+  <script
+    src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>
+    window.jQuery
+        || document
+            .write('<script src="js/vendor/jquery-1.8.1.min.js"><\/script>')
+  </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44416583-1', 'project-leanautomation.eu');
+  ga('send', 'pageview');
+
+</script>
+ 
+<link rel="stylesheet" href="typo3conf/ext/perfectlightbox/res/css/slightbox.css" type="text/css" media="screen,projection" /><script type="text/javascript" src="typo3conf/ext/perfectlightbox/res/js/jquery.1.5.1.min.js"></script><script type="text/javascript" src="typo3conf/ext/perfectlightbox/res/js/slimbox.2.0.4.yui.js"></script><script type="text/javascript">
+	SlimboxOptions.resizeSpeed = 400;
+	SlimboxOptions.overlayOpacity = 0.8;
+	SlimboxOptions.loop = true;
+	SlimboxOptions.allowSave = false;
+	SlimboxOptions.slideshowAutoplay = false;
+	SlimboxOptions.slideshowInterval = 5000;
+	SlimboxOptions.slideshowAutoclose = true;
+	SlimboxOptions.counterText = 'Image ###x### of ###y###';</script>
+
+<script src="fileadmin/template/js/scrollTop.js?1373964688" type="text/javascript"></script>
+<script src="fileadmin/template/js/jquery.featureCarousel.js?1375260931" type="text/javascript"></script>
+<script src="fileadmin/template/js/customSlider.js?1375262006" type="text/javascript"></script>
+<script src="fileadmin/template/js/vendor/jquery-ui-1.10.3.custom.min.js?1377602429" type="text/javascript"></script>
+<script src="fileadmin/template/js/stringReplace.js?1376999333" type="text/javascript"></script>
+<script src="fileadmin/template/js/vendor/jquery.treeview-1.5.js?1377606655" type="text/javascript"></script>
+<script src="fileadmin/template/js/vendor/jquery.cookie.js?1377608201" type="text/javascript"></script>
+<script src="fileadmin/template/js/vendor/plusOne.js?1377612715" type="text/javascript"></script>
+<script src="fileadmin/templateEuroc/js/errorClose.js?1394025848" type="text/javascript"></script>
+
+
+</body>
+</html>

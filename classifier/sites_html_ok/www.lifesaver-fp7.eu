@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<!--[if IE]><![endif]-->
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<title>LifeSaver Project | Context sensitive monitoring of energy consumption to support energy savings and emissions trading in industry</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" href="http://www.lifesaver-fp7.eu/wordpress/wp-content/themes/presswork/style.css" type="text/css" media="screen" />
+<!-- PressWork Theme Option CSS -->
+<style type="text/css">
+	body { font-family: Open Sans; font-size: 12px; }
+	h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-family: Quattrocento; }
+	#body-wrapper { color: #444444; width: 830px; padding: 0px; background-color: #FFFFFF; }
+	#headerbanner, #footer { width: 830px; }
+	#headerbanner li.mainl#header_image { background-size: 830px; }
+	#main-wrapper > li { margin: 0 15px; }
+	#main-wrapper .el3 { *margin-left: 30px; }
+	#firstsidebar { width: 300px; }
+	#secondsidebar { width: 300px; }
+	#maincontent { width: 500px; }
+	body.fullwidth #maincontent { width: 830px; }
+	.siteheader a { color: #2B904E; }
+	.siteheader a:hover { color: #444444; }
+	#description { color: #444444; }
+	a { color: #2b904e; }
+	a:hover { color: #4fb859; }
+	#nav nav ul { background: #FFFFFF; }
+	#nav nav a { color: #222222 }
+	#nav nav a:hover, #nav nav .sub-menu li, #nav nav li:hover { color: #444444; background: #EEEEEE; }
+	#subnav nav ul  { background: #FFFFFF; }
+	#subnav nav a { color: #222222 }
+	#subnav nav a:hover, #subnav nav .sub-menu li, #subnav nav li:hover { color: #222222; background: #EEEEEE; }
+	#footer nav ul  { background: #FFFFFF; }
+	#footer nav a { color: #222222 }
+	#footer nav a:hover, #footer nav .sub-menu li, #footer nav li:hover { color: #222222; background: #EEEEEE; }
+	h1.catheader { color: #222222; }
+	article .meta { color: #888888; }
+	article .posttitle, article .posttitle a { color: #222222; }
+	article .posttitle a:hover { color: #222222; }
+	article .content-col { padding-left: 165px; }
+	@media only screen and (max-device-width: 768px), only screen and (max-width: 768px) {
+		#body-wrapper { width: 720px !important; padding: 0 10px; }
+		body.fullwidth #maincontent, #headerbanner, #footer { width: 720px !important; }
+		#header_image { background-size: 720px !important; height: 138.795180723px !important; }
+		#maincontent { width: 423.734939759px !important; }
+		#firstsidebar { width: 260.240963855px !important; }
+		#secondsidebar { width: 245.240963855px !important; }
+	}
+	@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+		#body-wrapper { width: 420px !important; padding: 0 10px; }
+		body.fullwidth #maincontent, #headerbanner, #footer { width: 420px !important; }
+		#maincontent { width: 420px !important; }
+		#header_image { background-size: 420px !important; height: 80.9638554217px !important; }
+		.home article { width: 100%; }
+		#firstsidebar, #secondsidebar { float: none; width: 100% !important; }
+		#main-wrapper > li { margin: 0 !important; }
+		#extendedfooter .bottom-widget { width: 100%; margin: 0 0 20px; }
+	}	
+</style>
+<!-- eof PressWork Theme Option CSS -->
+	<link rel="pingback" href="http://www.lifesaver-fp7.eu/wordpress/xmlrpc.php" />
+<link rel="shortcut icon" type="image/x-icon" href="http://www.lifesaver-fp7.eu/images/lifesaver.ico" />
+<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width" />
+<link rel="alternate" type="application/rss+xml" title="LifeSaver Project &raquo; Feed" href="http://www.lifesaver-fp7.eu/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="LifeSaver Project &raquo; Comments Feed" href="http://www.lifesaver-fp7.eu/?feed=comments-rss2" />
+<link rel='stylesheet' id='pw_google_font-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%7CQuattrocento&#038;ver=4.1.10' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.lifesaver-fp7.eu/wordpress/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://www.lifesaver-fp7.eu/wordpress/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.lifesaver-fp7.eu/wordpress/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.lifesaver-fp7.eu/wordpress/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.1.10" />
+<link rel='canonical' href='http://www.lifesaver-fp7.eu/' />
+<link rel='shortlink' href='http://www.lifesaver-fp7.eu/' />
+</head>
+
+<!--[if lt IE 7 ]> <body class="home page page-id-5 page-template-default ie6"> <![endif]-->
+<!--[if IE 7 ]>    <body class="home page page-id-5 page-template-default ie7"> <![endif]-->
+<!--[if IE 8 ]>    <body class="home page page-id-5 page-template-default ie8"> <![endif]-->
+<!--[if IE 9 ]>    <body class="home page page-id-5 page-template-default ie9"> <![endif<]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <body class="home page page-id-5 page-template-default"> <!--<![endif]-->
+
+<div id="body-wrapper" class="clearfix">
+    <header id="header-main" role="banner"> <!-- begin header -->
+		    <ul id="headerbanner" class="clearfix">
+       		   	<li id="header_logo" class="mainl">
+                        <div id="site-logo" class="siteheader"><h1>LifeSaver Project</h1><a href="http://www.lifesaver-fp7.eu/"><img src="http://www.lifesaver-fp7.eu/images/banner_logo_top.jpg" alt="LifeSaver Project" /></a></div>
+        </li>
+		<li id="nav" class="mainl"><nav class="clear fl" role="navigation"><h3 class="assistive-text">Main menu</h3><ul id="menu-lsmenu" class="menu"><li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item menu-item-21"><a href="http://www.lifesaver-fp7.eu/">Home</a></li>
+<li id="menu-item-212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-212"><a href="http://www.lifesaver-fp7.eu/?page_id=211">Press Room</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://www.lifesaver-fp7.eu/?page_id=13">Events</a></li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-23"><a href="http://www.lifesaver-fp7.eu/?page_id=11">Project</a>
+<ul class="sub-menu">
+	<li id="menu-item-225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-225"><a href="http://www.lifesaver-fp7.eu/?page_id=218">Projecto (PT)</a></li>
+	<li id="menu-item-227" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-227"><a href="http://www.lifesaver-fp7.eu/?page_id=220">Projekt (DE)</a></li>
+	<li id="menu-item-226" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226"><a href="http://www.lifesaver-fp7.eu/?page_id=223">Projekt (SI)</a></li>
+</ul>
+</li>
+<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24"><a href="http://www.lifesaver-fp7.eu/?page_id=7">Partners</a>
+<ul class="sub-menu">
+	<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="http://www.lifesaver-fp7.eu/?page_id=18">UNINOVA</a></li>
+	<li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="http://www.lifesaver-fp7.eu/?page_id=37">ATB</a></li>
+	<li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="http://www.lifesaver-fp7.eu/?page_id=41">JSI</a></li>
+	<li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="http://www.lifesaver-fp7.eu/?page_id=44">SOLVERA</a></li>
+	<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="http://www.lifesaver-fp7.eu/?page_id=47">JWO</a></li>
+	<li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="http://www.lifesaver-fp7.eu/?page_id=49">OAS</a></li>
+	<li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a href="http://www.lifesaver-fp7.eu/?page_id=51">SALONIT</a></li>
+	<li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a href="http://www.lifesaver-fp7.eu/?page_id=52">AMESEIXAL</a></li>
+</ul>
+</li>
+<li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100"><a href="http://www.lifesaver-fp7.eu/?page_id=98">Downloads</a></li>
+<li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="http://www.lifesaver-fp7.eu/?page_id=143">Private Area</a></li>
+<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="http://www.lifesaver-fp7.eu/?page_id=15">Contact</a></li>
+</ul></nav></li>    </ul> <!-- end headerbanner -->
+	<div id="social-icons" class=""><a href="http://facebook.com/pages/LifeSaver-Project/327006590644122" class="facebook-icon"></a><a href="http://www.linkedin.com/in/groups?gid=5119025" class="linkedin-icon"></a></div>    </header> <!-- end header -->
+    <ul id="main-wrapper">
+			    <li id="maincontent" role="main"> <!-- begin maincontent -->
+    	
+
+    <article id="post-5" class="post-5 page type-page status-publish hentry">
+			<header>
+		<hgroup>
+			<h1 class="posttitle"><a href="http://www.lifesaver-fp7.eu/" title="Permalink to Home" rel="bookmark">Home</a></h1>
+					</hgroup>
+	</header>
+	    <div class="storycontent">
+        <p><strong>Welcome to LifeSaver project!</strong></p>
+<p>Energy efficiency in industrial context is not a new theme, especially in energy intensive sectors of industry. Companies seek to<strong> reduce production costs</strong> and, in the last decades, the share relative to energy has gained significance. Trying to solve this important part of the problem, companies have been making  a considerable investment replacing obsolete equipment by more energy efficient one.</p>
+<p><img class="aligncenter size-full wp-image-215" alt="FB-Banner-500" src="http://www.lifesaver-fp7.eu/wordpress/wp-content/uploads/2011/12/FB-Banner-500.jpg" width="500" height="238" /></p>
+<p>On the other hand, from the current state of the global energy system, energy consumption in its various form</p>
+<p>s is always associated with corresponding<strong> CO2 emissions</strong>. With the entry into force of new European legislation that penalizes carbon emissions, the industry has an additional economic motivation to lean their processes concerning energy consumption in production.</p>
+<p>The <strong>LifeSaver project</strong> will support the analysis and <strong>decision making</strong> processes in industry to achieve additional gains by <strong>reducing energy consumption and related emissions</strong>. Furthermore, the project aims to support the purchase and sale decisions in the <strong>emissions market</strong>, enabling  to adjust these financial operations to the foreseen production needs of each firm, and consequently minimizing costs.</p>
+<p><strong>This is the time to unleash the energy efficiency potential in your company!</strong></p>
+<p>&nbsp;</p>
+    </div> 
+	     <footer class="clearfix fl">
+	    	</footer> 
+	    </article>
+    	</li> <!-- end #maincontent -->
+    	<li id="firstsidebar" role="complementary" class="el2"> <!-- begin firstsidebar -->
+		<aside id="recent-posts-2" class="side-widget widget_recent_entries">		<header><h3>Recent Posts</h3></header>		<ul>
+					<li>
+				<a href="http://www.lifesaver-fp7.eu/?p=290">inknow solutions is on the market</a>
+						</li>
+					<li>
+				<a href="http://www.lifesaver-fp7.eu/?p=286">2nd LifeSaver Workshop at AMESeixal</a>
+						</li>
+					<li>
+				<a href="http://www.lifesaver-fp7.eu/?p=249">1st LifeSaver Workshop at AMESEIXAL</a>
+						</li>
+					<li>
+				<a href="http://www.lifesaver-fp7.eu/?p=257">LifeSaver at SDEWES 13</a>
+						</li>
+					<li>
+				<a href="http://www.lifesaver-fp7.eu/?p=261">LifeSaver’s 5th General Meeting</a>
+						</li>
+				</ul>
+		</aside><aside id="text-3" class="side-widget widget_text"><header><h3>EU FP7 Funded Project</h3></header>			<div class="textwidget"><a href="http://cordis.europa.eu/fp7/home_en.html" target="_blank">
+<img src="http://www.lifesaver-fp7.eu/images/fp7_logo.jpg" width="200"/></a></div>
+		</aside><aside id="search-2" class="side-widget widget_search"><form role="search" method="get" id="searchform" action="http://www.lifesaver-fp7.eu/" >
+	    <label class="assistive-text" for="s">Search for:</label>
+	    <input type="search" placeholder="Search..." value="" name="s" id="s" />
+	    </form></aside></li> <!-- end firstsidebar -->
+   	</ul> <!-- end #main-wrapper ul -->
+	<footer id="footer-main" class="clearfix fl" role="contentinfo"> <!-- begin footer -->
+		    <ul id="footer" class="clearfix">
+       	<li id="extendedfooter" class="foot" role="complementary"><aside id="text-5" class="widget1 bottom-widget widget_text">			<div class="textwidget"><p>LifeSaver is financially supported by the European Commission under the Seventh Framework Programme (2007-2013)</p>
+</div>
+		</aside><aside id="text-4" class="widget2 bottom-widget widget_text">			<div class="textwidget"></div>
+		</aside><aside id="text-6" class="widget3 bottom-widget widget_text"><h3>Visitants:</h3>			<div class="textwidget"><a href="http://www.easycounter.com/">
+<img src="http://www.easycounter.com/counter.php?lifesaverfp7"
+border="0" alt="Hit Counter"></a></div>
+		</aside></li><li id="copyright" class="foot">&copy; 2016 <a href="http://www.lifesaver-fp7.eu">LifeSaver Project</a>. All Rights Reserved. Created using <a href="http://presswork.me">PressWork</a>.</li>    </ul> <!-- end #footer -->
+		</footer> <!-- end footer -->
+</div> <!-- end #body-wrapper -->
+<script type='text/javascript' src='http://www.lifesaver-fp7.eu/wordpress/wp-includes/js/comment-reply.min.js?ver=4.1.10'></script>
+
+<!-- PressWork Video Resizer Script -->
+<script type="text/javascript">
+/* <![CDATA[ */
+(function($) {
+	$("object, embed, .format-video iframe").each(function() {
+		var origVideo = $(this),
+			aspectRatio = origVideo.attr("height") / origVideo.attr("width"),
+			wrapWidth = origVideo.parents().find("p:last").width();
+		if(origVideo.attr("width") > wrapWidth) {
+			origVideo
+				.attr("width", wrapWidth)
+				.attr("height", (wrapWidth * aspectRatio));
+		}
+	});
+})(jQuery);
+/* ]]> */
+</script>
+<!-- eof PressWork Video Resizer Script -->	
+	<!-- PressWork framework created by c.bavota & Brendan Sera-Shriar - http://presswork.me -->
+</body>
+</html>

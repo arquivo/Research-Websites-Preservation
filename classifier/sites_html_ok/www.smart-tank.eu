@@ -1,0 +1,474 @@
+
+
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en">
+
+  
+    
+    
+    
+    
+    
+
+  
+
+  <head>
+
+    <meta http-equiv="Content-Type"
+          content="text/html;charset=utf-8" />
+
+    
+      <base href="http://www.smart-tank.eu/welcome-to-smart-tank-1" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    <link rel="kss-base-url" href="http://www.smart-tank.eu/welcome-to-smart-tank-1" />
+
+  
+  
+    
+    
+    
+      <style type="text/css">@import url(http://www.smart-tank.eu/portal_css/Plone%20Default/base-cachekey6537.css);</style>
+    
+    
+    
+  
+
+  
+    
+    
+    
+      <style type="text/css" media="all">@import url(http://www.smart-tank.eu/portal_css/Plone%20Default/ploneCustom-cachekey5622.css);</style>
+    
+    
+    
+  
+
+
+  
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.smart-tank.eu/portal_javascripts/Plone%20Default/jquery-cachekey0705.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.smart-tank.eu/portal_javascripts/Plone%20Default/resourcebase2-dom-fp-cachekey4501.js">
+      </script>
+    
+    
+    
+  
+
+
+  
+  <link rel="kinetic-stylesheet" type="text/css"
+        href="http://www.smart-tank.eu/portal_kss/Plone%20Default/at-cachekey9918.kss" />
+
+
+
+<title>Welcome to Smart Tank &mdash; smartank</title>
+
+
+    <!-- Internet Explorer Fixes -->
+    <!--[if IE]>
+        <style type="text/css" media="all">@import url(http://www.smart-tank.eu/IEFixes.css);</style>
+        
+        <script type="text/javascript"
+                src="http://www.smart-tank.eu/iefixes.js">
+        </script>
+        
+    <![endif]-->
+
+    
+
+    <link rel="shortcut icon" type="image/x-icon"
+          href="http://www.smart-tank.eu/favicon.ico" />
+
+
+
+    <link rel="home" href="http://www.smart-tank.eu"
+          title="Front page" />
+
+    <link rel="contents"
+          href="http://www.smart-tank.eu/sitemap"
+          title="Site Map" />
+
+
+
+
+
+
+    <link rel="search"
+          href="http://www.smart-tank.eu/search_form"
+          title="Search this site" />
+
+
+
+    <!-- Disable IE6 image toolbar -->
+    <meta http-equiv="imagetoolbar" content="no" />
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+  </head>
+
+  <body class="section-welcome-to-smart-tank-1 template-noH1_view"
+        dir="ltr">
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr><td align="center">
+<table class="restrict-width" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr><td align="left">
+    <div id="visual-portal-wrapper">
+
+      <div id="portal-top">
+        <div id="portal-header">
+<p class="hiddenStructure">
+  <a accesskey="2"
+     href="http://www.smart-tank.eu/#documentContent">Skip to content.</a> |
+
+  <a accesskey="6"
+     href="http://www.smart-tank.eu/#portlet-navigation-tree">Skip to navigation</a>
+</p>
+
+<ul id="portal-siteactions">
+<li><a href="sitemap">sitemap</a></li>
+<li><a href="contact-info">contact</a></li>
+</ul>
+
+<div id="portal-searchbox">
+    <form name="searchform"
+          action="http://www.smart-tank.eu/search">
+
+        <label for="searchGadget" class="hiddenStructure">Search Site</label>
+
+        <div class="LSBox">
+        <input name="SearchableText" type="text" size="18"
+               title="Search Site" accesskey="4"
+               class="inputLabel" id="searchGadget" />
+
+        <input class="searchButton" type="submit"
+               value="Search" />
+    
+<!--        <div class="searchSection">
+            <input id="searchbox_currentfolder_only" 
+                   class="noborder"
+                   type="checkbox" 
+                   name="path" 
+                   tal:attributes="value view/folder_path"
+                   />
+            <label for="searchbox_currentfolder_only" 
+                   i18n:translate="label_searchbox_currentfolder_only"
+                   style="cursor: pointer">
+                only in current section
+            </label>
+        </div>
+-->
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="http://www.smart-tank.eu/search_form"
+           accesskey="5">
+            Advanced Search&hellip;
+        </a>
+    </div>
+
+</div>
+
+<a id="portal-logo" accesskey="1"
+   href="http://www.smart-tank.eu">
+    <img src="http://www.smart-tank.eu/logo.jpg" alt="" title="logo.jpg" height="73" width="255" /></a>
+
+
+    <h5 class="hiddenStructure">Sections</h5>
+
+    <ul id="portal-globalnav">
+        <li id="portaltab-index_html" class="selected"><a
+    href="http://www.smart-tank.eu" title="">Home</a></li>
+        <li id="portaltab-the-project" class="plain"><a
+    href="http://www.smart-tank.eu/the-project"
+    title="EU farmers face significant costs related to the management and disposal of on-farm organic waste arisings such as manures and slurries through having to comply with specific EU legislation such as the Nitrates Directive and the Landfill Directive. Rising waste disposal costs have been cited as a contributing factor to the estimated closure of 7,000 EU farms per annum.">The Project</a></li>
+        <li id="portaltab-news" class="plain"><a
+    href="http://www.smart-tank.eu/news" title="Site News">News</a></li>
+        <li id="portaltab-consortium-partners" class="plain"><a
+    href="http://www.smart-tank.eu/consortium-partners"
+    title="">Consortium Partners</a></li>
+    </ul>
+
+</div>
+
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Personal tools</h5>
+
+<ul id="portal-personaltools" class="visualInline">
+   
+
+    
+        <li>
+            <a href="http://www.smart-tank.eu/login_form">Log in</a>
+        </li>
+    
+
+</ul>
+</div>
+
+
+    
+
+
+      </div>
+
+      <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+
+      
+      <table id="portal-columns">
+        <tbody>
+          <tr>
+            
+            
+            
+
+            
+            <td id="portal-column-content">
+
+              
+                <div class="">
+
+                  
+
+
+                  <div id="region-content" class="documentContent">
+
+                    <span id="contentTopLeft"></span>
+                    <span id="contentTopRight"></span>
+                    
+                    <a name="documentContent"></a>
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+                    
+                    <div id="viewlet-above-content"></div>
+
+                    
+                    
+                    <div id="content">
+                      
+                      
+    
+
+        
+
+
+        
+
+
+
+
+        <p class="documentDescription">
+            
+        <span class="" id="parent-fieldname-description">
+            
+        </span>
+    
+        </p>
+
+        
+
+
+
+        
+
+        
+        <div class="" id="parent-fieldname-text">
+            
+<div class="negmargin"><img src="welcome-smart-tank.jpg" alt="welcome to Smart Tank" height="218" width="959" /></div>
+
+<div class="main-col">
+<h1 class="homepage">The Development Project for a Farm and Agriculture
+Stabilised Thermophilic Anaerobic Digestion System</h1>
+
+<p>The Smart-Tank Project consists of five SME's who manufacture and
+supply a range of equipment for anaerobic digestion (AD) systems.
+Whilst AD-based markets are growing and are expected to continue to
+grow over the next five years they are dominated by larger enterprises
+which makes competion on a cost basis difficult.</p>
+
+<p>Existing technologies for the anaerobic digestion of agricultural
+waste at the farm-scale are based on mesophilic processes and have a
+number of associated limitations.</p>
+
+<p>The Smart-Tank project will develop a reliable thermophilic AD
+system with closed-loop control that will give a clear technology
+differentiated product and offer many benefits to farmers.</p>
+
+<p>&nbsp;</p>
+</div>
+
+<div class="rh-col">
+<div class="portletHeader">Contact us</div>
+
+<div class="contact-bg">
+<p><strong>Project Co-ordinator:</strong><br />
+Mr Saqlain Ali<br />
+Research &amp; Development Manager<br />
+Permastore Ltd<br />
+E-mail: <a href="mailto:s.ali@permastore.com">s.ali@permastore.com</a><br />
+Tel: +44 (0) 1379-870723</p>
+
+<p>&nbsp;</p>
+</div>
+
+<p>&nbsp;</p>
+</div>
+
+            
+        </div>
+    
+
+        <div class="relatedItems">
+    
+        
+            
+        
+    
+</div>
+    
+        
+
+<div class="visualClear"><!-- --></div>
+<div class="documentActions">
+    
+
+    <h5 class="hiddenStructure">Document Actions</h5>
+
+    <ul>
+    
+        <li id="document-action-sendto">
+            <a href="http://www.smart-tank.eu/welcome-to-smart-tank-1/sendto_form"
+               title="">Send this</a>
+        </li>
+    
+    
+        <li id="document-action-print">
+            <a href="javascript:this.print();" title="">Print this</a>
+        </li>
+    
+
+    </ul>
+    
+
+    
+
+</div>
+
+
+
+    
+
+                    </div>
+                    
+
+                    
+                    
+                      
+    
+
+
+
+
+                    
+                    
+
+                    <span id="contentBottomLeft"></span>
+                    <span id="contentBottomRight"></span>
+
+                  </div>
+
+                </div>
+
+              
+            </td>
+            
+
+            
+            
+            
+          </tr>
+        </tbody>
+      </table>
+      
+
+      <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+      
+      
+
+      
+
+        <div id="portal-footer">
+
+<img src="fp7-logos.jpg" alt="Seventh Framework Logo" />
+<p>© Smart-Tank<br /> The Smart-Tank project receives funding from the EU's Seventh Framework Programme (FP7/2007-2013) under grant agreement n° 262241</p>
+</div>
+
+
+
+      
+
+      <div class="visualClear"><!-- --></div>
+    </div>
+<div id="kss-spinner"><img alt=""
+                           src="http://www.smart-tank.eu/spinner.gif" /></div>
+
+
+</td></tr></table>
+</td></tr></table>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-995570-40']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

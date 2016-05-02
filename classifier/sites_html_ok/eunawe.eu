@@ -1,0 +1,547 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Strict//EN">
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='/news/feed/' rel="alternate" type="application/rss+xml" title='UNAWE Latest News' />
+<!-- <link href='http://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css' /> -->
+<link href='http://fonts.googleapis.com/css?family=Signika&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Dosis:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/Amaranth.css" />
+<title>UNAWE</title>
+<meta name="Keywords" content="astronomy, kids, educational material, images, news, video, goodies, wallpaper, calendar, posters" />
+<meta name="description" content="Universe Awareness: inspiring every child with our wonderful cosmos." />
+
+<link rel="SHORTCUT ICON" href="/static/favicon.ico" />
+<link href="/static/favicons/apple-touch-icon.png" rel="apple-touch-icon" />
+<link href="/static/favicons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+<link href="/static/favicons/icon-hires.png" rel="icon" sizes="192x192" />
+<link href="/static/favicons/icon-normal.png" rel="icon" sizes="128x128" />
+<link href="/static/favicons/icon-32.png" rel="icon" sizes="32x32" />
+
+<link rel="stylesheet" href="/static/css/reset.css" />
+<link rel="stylesheet" href="/static/css/layout.css" />
+<!--
+<link rel="stylesheet" href="/static/css/layout.css" media="screen" />
+<link rel="stylesheet" href="/static/css/layout-print.css" media="print" />
+-->
+
+<link rel="stylesheet" href="/static/css/main.css" />
+<link rel="stylesheet" href="/static/css/local.css" />
+<!--[if IE]><link rel="stylesheet" href="/static/css/iefixes.css" /><![endif]-->
+<link href="/static/djangoplicity/shadowbox3/shadowbox.css" rel="stylesheet" type="text/css" media="screen"/>
+<link rel="stylesheet" href="/static/css/icons.css" />
+
+
+<script src="/static/js/jquery-1.6.min.js"></script>
+<script src="/static/js/main.js"></script>
+
+<script type="text/javascript">var MEDIA_URL = "/static/"</script>
+<script src="/static/djangoplicity/shadowbox3/shadowbox.js"></script>
+<script src="/static/djangoplicity/js/shadowbox_conf.js"></script>
+
+<style type="text/css">
+#unawe_logo {
+	width: 137px; height: 146px;
+	background-image: url('/static/designimages/logo.png');
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+
+#unawe_logo {
+	background-image: url('/static/designimages/logo_2x.png');
+	background-size: 137px 146px;
+}
+
+
+}
+
+</style>	
+
+<style>
+
+.newstitle {
+	margin-left:-2px; 
+	padding-bottom: 6px;
+}
+.newstitle a {
+	color: #ADADA1;
+	font-size: 32px;
+	text-decoration: none;
+}
+.newstitle a:hover {
+	color: #0086C6;
+}
+.newstitle img {
+	float:right; 
+	padding-top: 11px; 
+	padding-right: 50px; 
+}
+.newstitle .subtitle {
+	vertical-align:text-bottom;
+	float: right;
+	font-size: 16px;
+	color: #ADADA1;
+	margin-right: 20px;
+	padding-top: 15px; 
+}
+
+.newsfooter {
+	font-size: 14px; 
+	text-align: right;
+	padding-top: 4px;
+	padding-bottom: 14px;
+	padding-right: 50px; 
+}
+.newsfooter a { color: #ADADA1; text-decoration: none; }
+.newsfooter a:hover { color: #0086C6; }
+
+.imagerow {
+	padding-bottom: 0;
+}
+
+</style>
+
+<!--[if IE]>
+<script type="text/javascript" src="/static/js/excanvas.js"></script>
+<![endif]-->
+<script src="/static/js/worldmap.js"></script>
+
+<script>
+$(document).ready(function(){
+	
+	// draw world map
+	WorldMap({
+		id: "worldmap",
+		bgcolor: "#F1F1EF",
+		fgcolor: "#DDDDDD",
+		bordercolor: "#ADADA1",
+		borderwidth: 0.5,
+		padding: 10,
+		zoom: "",
+		detail: {
+			"dz": "#E59E00","ar": "#E59E00","aw": "#E59E00","au": "#E59E00","bd": "#E59E00","be": "#E59E00","bj": "#E59E00","ba": "#E59E00","br": "#E59E00","bg": "#E59E00","ca": "#E59E00","cv": "#E59E00","cl": "#E59E00","cn": "#E59E00","co": "#E59E00","cg": "#E59E00","hr": "#E59E00","eg": "#E59E00","et": "#E59E00","fr": "#E59E00","de": "#E59E00","gh": "#E59E00","gr": "#E59E00","gt": "#E59E00","hu": "#E59E00","is": "#E59E00","in": "#E59E00","id": "#E59E00","ir": "#E59E00","ie": "#E59E00","il": "#E59E00","it": "#E59E00","jp": "#E59E00","ke": "#E59E00","mt": "#E59E00","mx": "#E59E00","mn": "#E59E00","ma": "#E59E00","mz": "#E59E00","np": "#E59E00","nl": "#E59E00","ng": "#E59E00","pk": "#E59E00","ps": "#E59E00","ph": "#E59E00","pl": "#E59E00","pt": "#E59E00","ro": "#E59E00","sa": "#E59E00","rs": "#E59E00","sg": "#E59E00","si": "#E59E00","za": "#E59E00","es": "#E59E00","lk": "#E59E00","tz": "#E59E00","th": "#E59E00","tl": "#E59E00","tn": "#E59E00","tr": "#E59E00","ua": "#E59E00","gb": "#E59E00","us": "#E59E00","uy": "#E59E00","ve": "#E59E00","vn": "#E59E00","zw": "#E59E00",
+			"":""
+		}
+	});
+
+});
+</script>
+
+<script src="/static/js/jquery.cycle.min.js"></script>
+
+<script>
+$(document).ready(function(){
+
+	// slideshow
+	$('#slideshow').cycle({
+		// see other options at http://jquery.malsup.com/cycle/options.html
+		fx: 'fade', // name of transition effect (or comma separated names, ex: fade,scrollUp,shuffle)
+		timeout: 6000,  // milliseconds between slide transitions (0 to disable auto advance)
+		random: 0,  // true for random, false for sequence (not applicable to shuffle fx)
+		pause: 1, // pause on hover
+		pager:  '#slideshow-nav',
+		pagerAnchorBuilder: function(idx, slide) { 
+			//return '<li><a href="#"><img src="' + $(slide).find('img').eq(0).attr('src') + '" width="50" height="50" />' + idx + '</a></li>'; 
+			//return '<a href="#"></a>';
+			return '<a href="#">&nbsp;</a>'; //&nbsp; needed for IE fix
+		} 
+	});
+
+	// display message that if local websites exist!
+	var localsites_notices = {
+		'uk': 'For the UK EU-UNAWE website, please visit <a target="_blank" href="http://uk.unawe.org">uk.unawe.org</a>',
+		'za': 'For the South African EU-UNAWE website, please visit <a target="_blank" href="http://za.unawe.org">za.unawe.org</a>',
+		'nl': 'Voor de Nederlandse EU-UNAWE website kunt u terecht op <a target="_blank" href="http://nl.unawe.org">nl.unawe.org</a>',
+		'es': 'Para ir a la página del proyecto EU-UNAWE en español, por favor visite <a target="_blank" href="http://es.unawe.org">es.unawe.org</a>', 
+		'de': 'Die deutsche EU-UNAWE Website finden Sie unter <a target="_blank" href="http://de.unawe.org">de.unawe.org</a>',
+		'it': 'Per il sito italiano EU-UNAWE, potete visitare <a target="_blank" href="http://it.unawe.org">it.unawe.org</a>',
+		// 'test': 'Hello visitor!'
+	};
+	localsites_mapping = {
+		// see http://dev.maxmind.com/geoip/legacy/codes/iso3166
+		'GB': 'uk',
+		'ZA': 'za',
+		'NL': 'nl',
+		'ES': 'es', 
+		'AD': 'es', // Andorra
+		'AR': 'es', // Argentina
+		'BO': 'es', // Bolivia
+		'CL': 'es', // Chile
+		'CO': 'es', // Colombia
+		'CR': 'es', // Costa Rica
+		'DO': 'es', // Dominican Republic
+		'EC': 'es', // Ecuador
+		'SV': 'es', // El Salvador
+		'GQ': 'es', // Equatorial Guinea
+		'HN': 'es', // Honduras
+		'MX': 'es', // Mexico
+		'NI': 'es', // Nicaragua
+		'PA': 'es', // Panama
+		'PY': 'es', // Paraguay
+		'UY': 'es', // Uruguay
+		'VE': 'es', // Venezuela
+		'DE': 'de',
+		'AT': 'de', // Austria
+		'CH': 'de', // Switzerland
+		'IT': 'it',
+		// 'HU': 'test',
+	}
+	$.getJSON('/api/request/?callback=?',
+        function(data){
+        	var notice = localsites_notices[localsites_mapping[data.country_code]];
+        	if (notice) {
+        		$('body.www .noticelocalsite').html(notice).fadeIn();
+        	}
+        });
+	
+
+
+});
+</script>
+
+
+
+
+
+</head>
+<body class="www" style="background-color: white;">
+
+<div class="noticelocalsite" style="display: none; border-bottom: solid thin gray; background-color: #f1f1ef; border-radius: 0em; padding: 0.4em; padding-left: 1em; margin-bottom: 0em; text-align: center; font-size: small;"></div>
+
+<div class="layout_container">
+	<div class="background-top"></div>
+	<div class="background">
+
+		<!-- LEFT COLUMN -->
+		<div class="layout_left">
+			<!-- LOGO -->
+			<div id="logo">
+				<a href="/"><div id="unawe_logo"></div><!-- <img src="/static/designimages/logo.png" width="137" height="146" /> --></a>
+				<p>Inspiring every child with our wonderful cosmos</p>
+			</div>
+			<div><img src="/static/designimages/leftmenu-separator.png" /></div>
+			<div id="localbar"> 
+				<a href="http://www.unawe.org/" target="_blank"><span id="unawe-icon" title="EU-UNAWE International"></span></a>
+				<a href="http://de.unawe.org/" target="_blank"><span id="germany-icon" title="EU-UNAWE Germany"></span></a>
+				<a href="http://it.unawe.org/" target="_blank"><span id="italy-icon" title="EU-UNAWE Italy"></span></a>
+				<a href="http://nl.unawe.org/" target="_blank"><span id="netherlands-icon" title="EU-UNAWE Netherlands"></span></a>
+				<a href="http://za.unawe.org/" target="_blank"><span id="south-africa-icon" title="EU-UNAWE South Africa"></span></a>
+				<a href="http://es.unawe.org/" target="_blank"><span id="spain-icon" title="EU-UNAWE Spain"></span></a>
+				<a href="http://uk.unawe.org/" target="_blank"><span id="uk-icon" title="EU-UNAWE United Kingdom"></span></a>
+				<!--<a href="http://pl.unawe.org/" target="_blank"><span id="poland-icon" title="EU-UNAWE Poland"></span></a>-->
+			</div>		 
+			<div class="clear"></div>
+
+			<!-- SEARCH -->
+			<div id="searchbox">
+				<!-- Google CSE Search Box Begins  -->
+				<form action="/search/" id="cse-search-box"><img src="/static/designimages/searchbox-icon.png" />
+					<div style="display: none">
+						<input type="hidden" name="cx" value="014475329783738650447:r6st75p-wo4" />
+						<input type="hidden" name="cof" value="FORID:11" />
+						<input type="hidden" name="ie" value="UTF-8" />
+					</div>
+					<input type="text" name="q" placeholder="Search" />
+				</form>
+				<!-- Google CSE Search Box Ends -->
+			</div>
+			<!-- LEFT MENU -->
+			<div id="leftmenu">
+				
+			</div>
+
+			<div><img src="/static/designimages/leftmenu-separator.png" /></div>
+			<div id="socialbar"> 
+			      	<div class="caption">Find Us Online At</div>
+			      	<a href="http://www.facebook.com/unawe" target="_blank"><span id="facebook-icon"></span></a>
+			      	<a href="http://twitter.com/unawe" target="_blank"><span id="twitter-icon"></span></a>
+			      	<a href="https://plus.google.com/u/0/113037634284984793803" target="_blank"><span id="googleplus-icon"></span></a>
+			      	<a href="http://www.flickr.com/photos/58769261@N08/" target="_blank"><span id="flickr-icon"></span></a>
+			      	<a href="http://vimeo.com/unawe" target="_blank"><span id="vimeo-icon"></span></a>
+			      	<a href="http://www.youtube.com/user/unawe" target="_blank"><span id="youtube-icon"></span></a>
+			      	<a href="http://soundcloud.com/universe-awareness" target="_blank"><span id="soundcloud-icon"></span></a>
+			      	<a href="http://issuu.com/unawe" target="_blank"><span id="issuu-icon"></span></a>
+			      	<a href="http://www.slideshare.net/unawe" target="_blank"><span id="slideshare-icon"></span></a>
+			      	<a href="http://www.oercommons.org/courses/collection/eu-universe-awareness" target="_blank"><span id="cc-icon"></span></a>
+			      	<a href="http://pinterest.com/unawe/" target="_blank"><span id="pinterest-icon"></span></a>
+			      	<a href="https://diy.org/unawe" target="_blank"><span id="diy-icon"></span></a>
+			      	<a href="http://www.scientix.eu/web/guest/projects/project-detail?p_p_id=SearchResultsScx_WAR_eunlreportlet_INSTANCE_6EUr&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_pos=1&p_p_col_count=2&_SearchResultsScx_WAR_eunlreportlet_INSTANCE_6EUr_paramForcedCurrentView=view-detail&_SearchResultsScx_WAR_eunlreportlet_INSTANCE_6EUr_groupId=10137&_SearchResultsScx_WAR_eunlreportlet_INSTANCE_6EUr_articleId=42901" target="_blank"><span id="scientix-icon"></span></a>
+			      	<a href="http://www.tes.co.uk/mypublicprofile.aspx?uc=2808632" target="_blank"><span id="tes-icon"></span></a>
+			      	<a href="http://365daysofastronomy.org/tag/space-scoop/" target="_blank"><span id="cosmoquest-icon"></span></a>
+			</div>		 
+
+			<div style="clear: both; padding-top: 10px;">
+				<a href=" https://itunes.apple.com/us/book/into-a-black-hole/id715460197?ls=1" target="_blank">
+				  <img alt="iBookstore" title="'Into a Black Hole' by Maria Hammerstrøm" style="width: 129px; "
+				       src="/static/designimages/ibookstore_badge.svg" />
+				</a>
+			</div>
+			
+			<div style="clear: both; padding-top: 10px;">
+				<a href="https://play.google.com/store/apps/details?id=com.gdogaru.spacescoop" target="_blank">
+				  <img alt="Android app on Google Play" title="Space Scoop Android app"
+				       src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+				</a>
+			</div>
+			
+			<div><img src="/static/designimages/leftmenu-separator.png" /></div>
+			<div id="likesbar">
+				<div class="caption">Like Us</div>
+				<!-- +1 --><script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script><div style="float: left; "><g:plusone size="small" href="http://www.unawe.org/"></g:plusone></div>
+	            <!-- facebook --><div style="float: left; "><iframe src="http://www.facebook.com/plugins/like.php?app_id=118550151572752&amp;href=https%3A%2F%2Fwww.facebook.com%2Funawe&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe></div>
+			</div>
+
+			<div><img src="/static/designimages/leftmenu-separator.png" /></div>
+			<div id="fundedby">
+				<div class="caption">A programme by</div>
+				<img src="/static/designimages/logos/logo-leiden-large.png" />
+				
+				<!--<img src="/static/designimages/logos/logo-eu-small.png" />
+				<img src="/static/designimages/logos/logo-fp7-small.png" />-->
+			</div>
+			
+		</div>
+		<!-- RIGHT COLUMN -->
+		<div class="layout_main">
+			<!-- <div style="background-image: url(/static/designimages/header-background.png); height: 32px;"></div> -->
+			<div class="layout_main_inside">
+				<div class="layout_mainmenu">
+					<!-- Main Menu -->
+					<ul id="mainmenu"><li><a href='/about/' >About</a><div><ul><li><a href='/about/background/' >Background Information</a></li><li><a href='/about/vision/' >Vision</a></li><li><a href='/about/goals/' >Goals</a></li><li><a href='/about/team/' >Team</a></li><li><a href='/about/name/' >UNAWE or EU-UNAWE?</a></li><li><a href='/about/audience/' >Too Young to Learn?</a></li><li><a href='/about/endorsements/' >Endorsements</a></li><li><a href='/about/IYA2009/' >IYA2009 Involvement</a></li><li><a href='/about/foundation/' >UNAWE Foundation</a></li><li><a href='http://www.unawe.org/about/MDG/' >Millennium Develop. Goals</a></li><li><a href='/about/jobs/' >Job Opportunities </a></li><li><a href='/about/evaluation/' >Evaluation</a></li></ul></div></li><li><a href='/news/' >News</a><div><ul><li><a href='/updates/' >Updates</a></li><li><a href='/kids/' >Space Scoop</a></li><li><a href='/press/' >Press releases</a></li></ul></div></li><li><a href='/network/' >Network</a><div><ul><li><a href='/network/national/' >National programmes</a></li><li><a href='/network/projects/' >International projects</a></li></ul></div></li><li><a href='/resources/' >Resources</a><div><ul><li><a href='/resources/brochures/' >Brochures</a></li><li><a href='/activity/' >Activities</a></li><li><a href='/resources/education/' >Educational materials</a></li><li><a href='/resources/guides/' >Guides and guidelines</a></li><li><a href='/resources/images/' >Images</a></li><li><a href='/resources/videos/' >Videos</a></li><li><a href='/resources/posters/' >Posters</a></li><li><a href='/resources/presentations/' >Presentations</a></li><li><a href='/resources/books/' >Books</a></li><li><a href='/resources/reports/' >Reports</a></li><li><a href='/resources/links/' >Useful links</a></li><li><a href='/resources/universebox/' >Universe in a Box</a></li><li><a href='/awesome/' >The Awesome Astronomer</a></li><li><a href='/resources/spacescoop/' >About Space Scoop</a></li></ul></div></li><li><a href='/events/' >Events</a><div><ul><li><a href='/events/submit/' >Submit your event</a></li><li><a href='/events/workshop2013/' >EU-UNAWE Workshop 2013</a></li><li><a href='/events/workshop2015/' >UNAWE Workshop 2015</a></li></ul></div></li><li><a href='/getinvolved/' >Get involved</a><div><ul><li><a href='/contact/info/' >Request information</a></li><li><a href='/getinvolved/donate/' >Donate</a></li><li><a href='/ambassadors/' >Ambassador Programme</a></li><li><a href='http://www.unawe.org/getinvolved/socialmedia/' >Social Media</a></li><li><a href='/getinvolved/amateurs/' >Amateur Astronomers</a></li><li><a href='/getinvolved/join/' >How To Join UNAWE</a></li></ul></div></li><li><a href='/subscribe/' >Subscribe</a></li><li><a href='/contact/' >Contact</a><div><ul><li><a href='/contact/info/' >Request information</a></li></ul></div></li></ul>
+					<div class="clear"></div>
+					<!-- Breadcrumbs -->
+					<div id="breadcrumb">
+					<a href="/">Home</a> 
+ &nbsp;
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+				
+			<!-- Slideshow -->
+			<div class="layout_slideshow" >
+				<div id="slideshow-nav" style="position:absolute; top:207px; left: 560px; z-index:1;" ></div>
+				<div id="slideshow" style="z-index:0;">
+				
+					<div><a href="/press/unawe-press-2016-01/"><div style="background: url(/static/archives/images/newsfeature/oad.jpg) no-repeat; ">
+						<div class="layout_slideshow_caption"><div class="caption">
+							<div class="title">Astronomy for Development Receives Prestigious Edinburgh Medal</div>
+							<div class="date">18 February 2016</div>
+						</div></div>
+					</div></a></div>
+				
+					<div style="display:none"><a href="/updates/unawe-update-2016-06/"><div style="background: url(/static/archives/images/newsfeature/unaweukraine.jpg) no-repeat; ">
+						<div class="layout_slideshow_caption"><div class="caption">
+							<div class="title">Welcoming UNAWE Ukraine!</div>
+							<div class="date">17 February 2016</div>
+						</div></div>
+					</div></a></div>
+				
+					<div style="display:none"><a href="/kids/unawe1605/"><div style="background: url(/static/archives/images/newsfeature/Grav_Waves.jpg) no-repeat; ">
+						<div class="layout_slideshow_caption"><div class="caption">
+							<div class="title">Black Holes Make Waves Across The Universe</div>
+							<div class="date">15 February 2016</div>
+						</div></div>
+					</div></a></div>
+				
+					<div style="display:none"><a href="/updates/unawe-update-2016-05/"><div style="background: url(/static/archives/images/newsfeature/asteroidday2.jpg) no-repeat; ">
+						<div class="layout_slideshow_caption"><div class="caption">
+							<div class="title">Universe Awareness is a Global Educational Partner of Asteroid Day</div>
+							<div class="date">9 February 2016</div>
+						</div></div>
+					</div></a></div>
+				
+				</div>
+			</div>
+
+
+				<div class="layout_maincontent">
+				
+			<!-- News -->
+				<div class="newstitle">
+					<a href="/news/" style="float: left;">News</a>
+					<a href="/news/feed/" title='UNAWE Latest news'><img src="/static/designimages/icons/rss_24x24.png" /></a>
+				</div>
+				<div class="clear"></div>
+				
+
+
+
+<div class="imagerow">
+	
+	<a href="/press/unawe-press-2016-01/"><img class="newsmini" src="/static/archives/images/newsmini/oad.jpg" /></a> 
+	<div class='info withimg'>
+		<div class='caption'><a href="/press/unawe-press-2016-01/">Astronomy for Development Receives Prestigious Edinburgh Medal</a></div>
+		<div class='date'>18 February 2016</div>
+	</div>
+</div>
+
+
+<div class="imagerow">
+	
+	<a href="/updates/unawe-update-2016-06/"><img class="newsmini" src="/static/archives/images/newsmini/unaweukraine.jpg" /></a> 
+	<div class='info withimg'>
+		<div class='caption'><a href="/updates/unawe-update-2016-06/">Welcoming UNAWE Ukraine!</a></div>
+		<div class='date'>17 February 2016</div>
+	</div>
+</div>
+
+
+<div class="imagerow">
+	
+	<a href="/updates/unawe-update-2016-05/"><img class="newsmini" src="/static/archives/images/newsmini/asteroidday2.jpg" /></a> 
+	<div class='info withimg'>
+		<div class='caption'><a href="/updates/unawe-update-2016-05/">Universe Awareness is a Global Educational Partner of Asteroid Day</a></div>
+		<div class='date'>9 February 2016</div>
+	</div>
+</div>
+<div class="clear"></div>
+
+
+
+
+
+				<div class="clear"></div>
+				<div class="newsfooter"><a href="/news/">+ News</a></div>
+				<div class="clear"></div>
+				<div class="newstitle">
+					<a href="/kids/" style="float: left;">Space Scoop</a>
+					<a href="/kids/feed/" title='UNAWE Space Scoop'><img src="/static/designimages/icons/rss_24x24.png" /></a>
+					<div class="subtitle">Astro News for Children</div>
+				</div>
+				<div class="clear"></div>
+				
+
+
+
+<div class="imagerow">
+	
+	<a href="/kids/unawe1605/"><img class="newsmini" src="/static/archives/images/newsmini/Grav_Waves.jpg" /></a> 
+	<div class='info withimg'>
+		<div class='caption'><a href="/kids/unawe1605/">Black Holes Make Waves Across The Universe</a></div>
+		<div class='date'>15 February 2016</div>
+	</div>
+</div>
+
+
+<div class="imagerow">
+	
+	<a href="/kids/unawe1604/"><img class="newsmini" src="/static/archives/images/newsmini/eso1604a.jpg" /></a> 
+	<div class='info withimg'>
+		<div class='caption'><a href="/kids/unawe1604/">Baby Pictures of a Solar System</a></div>
+		<div class='date'>8 February 2016</div>
+	</div>
+</div>
+
+
+<div class="imagerow">
+	
+	<a href="/kids/unawe1603/"><img class="newsmini" src="/static/archives/images/newsmini/eso1602a.jpg" /></a> 
+	<div class='info withimg'>
+		<div class='caption'><a href="/kids/unawe1603/">The Brightest Galaxy in the Universe is Tearing Itself Apart</a></div>
+		<div class='date'>25 January 2016</div>
+	</div>
+</div>
+<div class="clear"></div>
+
+
+
+
+
+				<div class="clear"></div>
+				<div class="newsfooter"><a style="font-size: 10pt;" href="/kids/">+ Space Scoop</a></div>
+				<div class="clear"></div>
+
+
+				</div>
+				
+				<!-- Ramdom image/video -->
+				<div class="layout_right">
+					
+					<p>&nbsp;</p>
+<p><strong><a href="http://www.unawe.org/press/UNAWE1103/"><img src="/static/images/spore-award-banner.png" border="0" title="Science SPORE Award" /></a></strong></p>
+<p><strong> </strong></p>
+<p>&nbsp;</p>
+					<!--<div><a href="/resources/images/spore_deadlymoons/"><img src="/static/archives/images/potw/spore_deadlymoons.jpg" title="Picture of the Day" /></a></div>
+					<div style="font-size: 14px; padding-left: 20px; padding-right: 10px; padding-top: 13px; padding-bottom: 20px;">
+						Deadly Moons Workshop
+						<div><a href="/resources/images/">See more pictures</a></div>
+					</div>-->
+				</div>
+
+				<div class="clear"></div>
+			</div>
+			
+			<!-- Footer -->
+			
+			<!-- World map -->
+			<div style="padding-left: 20px;">
+				<div onclick="location.href='/network/';" style="cursor: pointer;">
+					<div style="color: #ADADA1; font-size: 23px; margin-left:20px; padding-top: 22px; padding-bottom: 6px; ">National Programmes</div>
+					<div style="padding-left:20px; float: left">
+						<div style="padding-bottom:20px; width: 520px;">
+	<noscript><img src="/static/designimages/worldmap.png" width="510" height="270"/></noscript>
+	<script>document.write('<canvas id="worldmap" width="510" height="270" ></canvas>');</script>
+</div>
+
+					</div>
+					<!-- Statistics -->
+					<div class="" style="float: left; width: 240px"><div style="padding-left:20px;padding-right:10px;">
+						<ul id="statistics">
+<li> Countries with<a href="/network/national/"> UNAWE programmes</a>:<span class="number">&nbsp;61</span></li>
+<br />
+<li>Number of astronomers, educators and communicators involved:<span class="number">&nbsp;1,000+</span></li>
+<br />
+<li>Number of teachers trained by <a href="/about/name/" target="_self">EU-UNAWE</a> (Since 2011): 5,564</li>
+<br />
+<li>Number of children reached by&nbsp;<a href="/about/name/" target="_self">EU-UNAWE</a>&nbsp;(Since 2011): 201,270</li>
+</ul>
+					</div></div>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			
+			<div id="footer">
+				<ul class='level'><li><a href="/copyright/">Copyright</a></li><li><a href="/about/team/">Credit</a></li><li><a href="/technology/">Technology</a></li><li><a href="/sitemap/">Sitemap</a></li></ul>
+				<div style="padding-top: 24px; background-color: black; ">
+					<p><a href="http://www.iau.org" target="_blank"><img src="/static/designimages/logos/unesco_astronomy2009.png" border="0" width="84" height="50" /></a>&nbsp;<a href="http://www.astronomy2009.org" target="_blank"><img src="/static/designimages/logos/iya_logo_beyond.png" border="0" width="40" height="70" /></a>&nbsp;<a href="http://europa.eu/" target="_blank"><img src="/static/designimages/logos/logo-eu.png" border="0" width="50" /></a><a href="http://www.leiden.edu/"><img src="/static/designimages/logos/logo-leiden.png" border="0" width="40" /></a>&nbsp;Space Scoop is supported by: &nbsp;<a href="http://www.eso.org" target="_blank"><img src="http://www.unawe.org/static/designimages/originalnewssource/eso.png" border="0" width="46" height="60" /></a><a href="http://www.nao.ac.jp/en/" target="_blank"><img src="http://www.unawe.org/static/designimages/originalnewssource/naoj.png" border="0" width="99" height="60" /></a>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="font-size: 10px;">The EU-UNAWE website was produced by funding from the European Community's Seventh Framework Programme ([FP7/2007-2013]) under grant agreement n&deg; 263325</p>
+				</div>
+			</div>
+			<div class="clear"></div>
+			
+
+
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>	
+
+
+<!--<script type="text/javascript">var MEDIA_URL = "/static/"</script>-->
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24035435-1']);
+  _gaq.push(['_setDomainName', '.unawe.org']);
+  //_gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

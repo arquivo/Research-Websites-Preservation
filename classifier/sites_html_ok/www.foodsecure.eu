@@ -1,0 +1,470 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/DXR.axd?r=1_10-Xyhm9" /><link rel="stylesheet" type="text/css" href="/DXR.axd?r=1_12-Xyhm9" /><link rel="stylesheet" type="text/css" href="/DXR.axd?r=1_1-Xyhm9" /><title>
+
+</title><link href="Style/styleSheet.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+.eo_tag_style{}
+</style>
+<style type="text/css">
+table.eo_no_border_spacing { border-spacing: 0; border-collapse: collapse; }
+table.eo_td_no_padding td {padding: 0px;}
+table.eo_border_collapse { border-collapse: collapse; }
+.eo_align_center { text-align: center;}
+.eo_align_left { text-align: left;}
+.eo_transparent { filter:alpha(opacity=0);-moz-opacity:0.0;opacity:0.0; }
+.eo_fullheight { height: 100%; }
+a.eo_plain_link.link { border: none; }
+a.eo_plain_link.visited { border: none; }
+a.eo_plain_link.hover { border: none; }
+a.eo_plain_link.active { border: none; }
+ul.eo_list { list-style-type: none; margin: 0px; padding: 0px; }
+ul.eo_list li { list-style: none; margin: 0px; padding: 0px; white-space: nowrap; }
+.eo_text { font-family: Verdana; font-size: 10px; }
+
+</style>
+</head>
+<body style="margin:0; background-color:White;height:100%">
+    <form method="post" action="./" id="form1">
+<input type="hidden" name="__eo_obj_states" id="__eo_obj_states" value="" />
+<input type="hidden" name="__eo_sc" id="__eo_sc" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjI2ODcxNTI1D2QWAmYPZBYCAgMPZBYEAgMPZBYCZg88KwAJAgAPFgIeDl8hVXNlVmlld1N0YXRlZ2QGD2QQFgFmFgE8KwAMAQAWAh4IU2VsZWN0ZWRnZGQCBQ9kFgoCAQ8PFgIeBFRleHQFIUFncmljdWx0dXJlIGlzIGF0IGEgdHVybmluZyBwb2ludGRkAgMPDxYCHwIFdVRhc3NvcyBIYW5pb3RpcywgRGlyZWN0b3IgZm9yIEVjb25vbWljIGFuYWx5c2lzLCBwZXJzcGVjdGl2ZXMgYW5kIGV2YWx1YXRpb25zIGF0IERHIEFncmljdWx0dXJlIGFuZCBSdXJhbCBEZXZlbG9wbWVudGRkAgUPDw8WAh4LX2l0ZW1fY291bnQCBmRkFgxmD2QWAmYPZBYCZg8VBEZodHRwOi8vd3d3My5sZWkud3VyLm5sL0Zvb2RTZWN1cmVJbWFnZXMvc2xpZGVyLzEgRVUgZXhwZXJ0IG1lZXRpbmcuSlBHREVVIGV4cGVydCBtZWV0aW5nIOKAnEZvb2QgU2VjdXJpdHk6IHRvd2FyZHMgcG9saWNpZXMgdGhhdCBtYXR0ZXLigJ0gb0ZPT0RTRUNVUkUgdGVhbSBtZWV0cyB0aGUgRXVyb3BlYW4gQ29tbWlzc2lvbiB0byBkaXNjdXNzIEV1cm9wZWFuIHJlc2VhcmNoIG5lZWRzIG9uIGZvb2QgYW5kIG51dHJpdGlvbiBzZWN1cml0eSo8YSBocmVmID0gLi4vTmV3cy5hc3B4P2l0ZW09MjA+TW9yZS4uLjwvYT5kAgEPZBYCZg9kFgJmDxUERWh0dHA6Ly93d3czLmxlaS53dXIubmwvRm9vZFNlY3VyZUltYWdlcy9zbGlkZXIvMiBLaWNrIG9mZiBtZWV0aW5nLkpQRxlSZXNlYXJjaCBjb21tdW5pdHkgbWVldHMgP0ZPT0RTRUNVUkUga2ljay1vZmYgbWVldGluZyBpbiBUaGUgTmV0aGVybGFuZHM6IGFsbCBzeXN0ZW1zIGdvISo8YSBocmVmID0gLi4vTmV3cy5hc3B4P2l0ZW09MTY+TW9yZS4uLjwvYT5kAgIPZBYCZg9kFgJmDxUES2h0dHA6Ly93d3czLmxlaS53dXIubmwvRm9vZFNlY3VyZUltYWdlcy9zbGlkZXIvZ2VuZXRpc2NoZV9kaXZlcnNpdGVpdF9ILmpwZ2pJbiB0aGUgMjFzdCBjZW50dXJ5LCBhZ3JpY3VsdHVyYWwgdHJhZGUgd2lsbCBuZWVkIHRvIGNvbnRyaWJ1dGUgdG8gZm9vZCBzZWN1cml0eSBpbiBhIG1vcmUgc2lnbmlmaWNhbnQgd2F5dEZvb2RTZWN1cmUgcmVzZWFyY2hlciBTw6liYXN0aWFuIEplYW4gcGFydGljaXBhdGVzIGluIHRoZSBJUEMtSUNUU0QgRXhwZXJ0IEdyb3VwIERpYWxvZ3VlIG9uIHRyYWRlIGFuZCBmb29kIHNlY3VyaXR5AGQCAw9kFgJmD2QWAmYPFQRAaHR0cDovL3d3dzMubGVpLnd1ci5ubC9Gb29kU2VjdXJlSW1hZ2VzL3NsaWRlci9sYW5kZ2VicnVpa19ILmpwZzhMYW5kIHVzZSBtdXN0IGJlIG9wdGltaXplZCBmb3IgZm9vZCBzZWN1cml0eSBlbmhhbmNlbWVudGZDb21wbGV4IGVjb25vbWljIG1vZGVscyB3aWxsIGJlIHVzZWQgaW4gRm9vZFNlY3VyZSB0byBpbnZlc3RpZ2F0ZSB0aGUgY29uc2VxdWVuY2VzIG9mIGxhbmQgdXNlIGNoYW5nZXMAZAIED2QWAmYPZBYCZg8VBEVodHRwOi8vd3d3My5sZWkud3VyLm5sL0Zvb2RTZWN1cmVJbWFnZXMvc2xpZGVyL3ZvZWRzZWxsb2dpc3RpZWtfSC5qcGdOQWdyaWN1bHR1cmFsIGxvZ2lzdGljcyBtdXN0IHN1cHBvcnQgZ2xvYmFsIGZvb2Qgc2VjdXJpdHkgbW9yZSB0aGFuIGV2ZXIgYmVmb3JldEZvb2RTZWN1cmUgcmVzZWFyY2hlciBTw6liYXN0aWFuIEplYW4gcGFydGljaXBhdGVzIGluIHRoZSBJUEMtSUNUU0QgRXhwZXJ0IEdyb3VwIERpYWxvZ3VlIG9uIHRyYWRlIGFuZCBmb29kIHNlY3VyaXR5AGQCBQ9kFgJmD2QWAmYPFQRHaHR0cDovL3d3dzMubGVpLnd1ci5ubC9Gb29kU2VjdXJlSW1hZ2VzL3NsaWRlci9mYXJtZXJfZW1wb3dlcm1lbnRfSC5qcGdHIkFmcmljYSBpcyBub3QgdGFraW5nIGVub3VnaCBkaXZpZGVuZHMgZnJvbSBpdHMgaHVnZSBuYXR1cmFsIHJlc291cmNlcyJiQXNzZWZhIEFkbWFzc2llLCBEaXJlY3RvciBvZiB0aGUgRXRoaW9waWFuIEVjb25vbWljcyBBc3NvY2lhdGlvbiBhbmQgbWVtYmVyIG9mIHRoZSBGb29kU2VjdXJlIHRlYW0AZAIJDxQrAAsPFgIfAGdkZGRkFCsAAmRkZA9kEBYCZgIBFgIUKwACFgYeBERhdGUGAMBFcK080wgeCkhlYWRlclRleHQFiAE8c3BhbiBjbGFzcz0nc3BlY2lhbExpbmsnPjxhIGhyZWY9bmV3c0RldGFpbC5hc3B4P2lkPTU0PkZPT0RTRUNVUkUgYnJpZWZlZCBtYWluIEV1cm9wZWFuIENvbW1pc3Npb24gc3Rha2Vob2xkZXJzIGluIEJydXNzZWxzIDwvYT48L3NwYW4+Hg5SdW50aW1lQ3JlYXRlZGdkFCsAAhYGHwQGAMD3HGQ20wgfBQWHATxzcGFuIGNsYXNzPSdzcGVjaWFsTGluayc+PGEgaHJlZj1uZXdzRGV0YWlsLmFzcHg/aWQ9NTM+Rk9PRFNFQ1VSRSBmaW5hbCBzdGFrZWhvbGRlcnMgd29ya3Nob3AgaW4gQnJ1c3NlbHMsIEp1bmUgMjMtMjQsIDIwMTY8L2E+PC9zcGFuPh8GZ2RkZGRkZGQCDQ8UKwALDxYCHwBnZGRkZBQrAAJkZGQPZBAWAmYCARYCFCsAAhYGHwQGAACO8po10wgfBQXkATxzcGFuIGNsYXNzPSdzcGVjaWFsTGluayc+PGEgaHJlZj1wdWJsaWNhdGlvbkRldGFpbC5hc3B4P2lkPTIxNT7igJhHSU9WQU5OSSBBTkFOSUHigJkgU1VNTUVSIFNDSE9PTCBPTiBFVklERU5DRS1CQVNFRCBQT0xJQ1kgTUFLSU5HDQrigJxSZWdpb25hbCB0cmFkZSBhZ3JlZW1lbnRzOiBpbXBsaWNhdGlvbnMgZm9yIC4uLjwvYT48L3NwYW4+PHNwYW4gY2xhc3M9Zm9udFdoaXRlPi4gQnkgPC9zcGFuPh8GZ2QUKwACFgYfBAYAgNCjLCHTCB8FBbgBPHNwYW4gY2xhc3M9J3NwZWNpYWxMaW5rJz48YSBocmVmPXB1YmxpY2F0aW9uRGV0YWlsLmFzcHg/aWQ9MjE0PkNsaW1hdGUsIFNob2NrcywgV2VhdGhlciBhbmQgTWFpemUgSW50ZW5zaWZpY2F0aW9uIERlY2lzaW9ucyBpbiBSdXJhbCBLZW55YTwvYT48L3NwYW4+PHNwYW4gY2xhc3M9Zm9udFdoaXRlPi4gQnkgPC9zcGFuPh8GZ2RkZGRkZGQYAwUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgMFGGN0bDAwJFdVQ01lbnUxJEFTUHhNZW51MQUqY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRBU1B4TmV3c0NvbnRyb2wxBS1jdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJEFTUHhOZXdzQ29udHJvbFB1YnMFLWN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkQVNQeE5ld3NDb250cm9sUHVicw8UKwAHZGZmZmZmaGQFKmN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkQVNQeE5ld3NDb250cm9sMQ8UKwAHZGZmZmZmaGRBvdZzo81gfOyeTbaCneKxVkBH6p56ClLDM3dH8j+/fA==" />
+
+
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(EO1040)=='undefined'){EO1040=new Object();EO1040.f=new Object();EO1040.g=new Object();EO1040.r=new Object();EO1040.g.a=EO1040.r;EO1040.r.getVersion=function(){return "10.40";};EO1040.r.getLoader=function(){return typeof(EO1040.g.d)!='undefined'?EO1040.g.d:null;};EO1040.r.getNS=function(){return "EO1040";};};
+EO1040.r.product='EO.Web';
+EO1040.r.form='form1';
+EO1040.r.autoInit=false;
+EO1040.r.handlerUrl='/eo_web.ashx';
+
+//]]>
+</script>
+<script type="text/javascript" src="/eo_web.ashx?id=1e8193b4-a83c-4fdf-ab89-d0540fc6e719"></script>
+<script type="text/javascript" src="/eo_web.ashx?id=f8ca44c5-e9ee-44d6-b8fc-7faebfe17b1f"></script>
+<script type="text/javascript" src="/eo_web.ashx?id=a234220c-0dbf-4a59-aed0-9d5ac774d83d"></script>
+<script type="text/javascript" src="/eo_web.ashx?id=bd190836-11eb-4571-9c55-0e6cbd31344e"></script>
+<script type="text/javascript" src="/eo_web.ashx?id=663b7e33-c469-408d-aba9-24733d62ff59"></script>
+<script type="text/javascript" src="/eo_web.ashx?id=61933d77-35b4-4510-8893-e7c08f123ca9"></script>
+<script type="text/javascript" src="/eo_web.ashx?id=810b2407-b463-4087-827f-3e5371edb5f9"></script><div id="eo_root"></div>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAARqWfVkMp2L+xo9cSR3JfCjKxMt0zOBWrois691d7CfdIY6pGTLmacmS6eeBo6YmQKMO7fmjkJSfq6Zbgk2kTWnYjpxl6Zm80H8fRIjzxGaTSllxawArkf4QpK8qM9IznU=" />
+    <div class="fontNormal">
+    <table style="width: 100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+    <td style="width: 15%;background-image:url(Images/bgright.jpg);background-repeat:repeat-y; background-position:right" 
+            ></td>
+    <td style="width: 70%; border:0" align="left"  >
+      
+
+      <img id="Image3" src="Images/header.jpg" border="0" height="100%" width="100%" />
+                            
+        </td>
+        <td style="width: 15%;background-image:url(Images/bgleft.jpg);background-repeat:repeat-y; background-position:left"></td>
+        </tr>
+
+        <tr>
+        <td  style="width: 15%;background-image:url(Images/bgright.jpg);background-repeat:repeat-y; background-position:right"></td>
+         <td  style="width: 70%;border: 0px">
+        <input type="hidden" id="WUCMenu1_ASPxMenu1SI" name="WUCMenu1_ASPxMenu1SI" value="0" /><input type="hidden"/><script id="dxis_2052236455" src="/DXR.axd?r=1_171-Xyhm9" type="text/javascript"></script><script id="dxis_1345510493" src="/DXR.axd?r=1_94-Xyhm9" type="text/javascript"></script><script id="dxis_24369718" src="/DXR.axd?r=1_164-Xyhm9" type="text/javascript"></script><script id="dxis_1080844884" src="/DXR.axd?r=1_91-Xyhm9" type="text/javascript"></script><script id="dxis_1451221553" src="/DXR.axd?r=1_156-Xyhm9" type="text/javascript"></script><script id="dxis_930751946" src="/DXR.axd?r=1_162-Xyhm9" type="text/javascript"></script><script id="dxis_295495744" src="/DXR.axd?r=1_147-Xyhm9" type="text/javascript"></script><script id="dxis_1071914447" src="/DXR.axd?r=1_152-Xyhm9" type="text/javascript"></script><script id="dxis_962428942" src="/DXR.axd?r=1_97-Xyhm9" type="text/javascript"></script><script id="dxis_1655038513" src="/DXR.axd?r=1_150-Xyhm9" type="text/javascript"></script><div class="dxmLite dxm-ltr">
+	<div class="dxm-main dxm-horizontal dxm-autoWidth" id="WUCMenu1_ASPxMenu1"><font face="Arial" color="White">
+		<ul class="dx dxm-image-l dxm-noImages">
+			<li class="dxm-item"><a class="dxm-content dxm-hasText dx" href="Default.aspx"><font face="Arial" color="White"><span class="dx-vam">Home</span></font></a></li><li class="dxm-spacing"></li><li class="dxm-item"><a class="dxm-content dxm-hasText dx" href="WhatIsFoodSecure.aspx"><font face="Arial" color="White"><span class="dx-vam">What is FOODSECURE</span></font></a></li><li class="dxm-spacing"></li><li class="dxm-item"><a class="dxm-content dxm-hasText dx" href="News.aspx"><font face="Arial" color="White"><span class="dx-vam">News</span></font></a></li><li class="dxm-spacing"></li><li class="dxm-item"><a class="dxm-content dxm-hasText dx" href="Events.aspx"><font face="Arial" color="White"><span class="dx-vam">Events</span></font></a></li><li class="dxm-spacing"></li><li class="dxm-item"><a class="dxm-content dxm-hasText dx" href="Publications.aspx"><font face="Arial" color="White"><span class="dx-vam">Publications</span></font></a></li><li class="dxm-spacing"></li><li class="dxm-item"><a class="dxm-content dxm-hasText dx" href="About.aspx"><font face="Arial" color="White"><span class="dx-vam">About us</span></font></a></li><li class="dxm-spacing"></li><li class="dxm-item"><a class="dxm-content dxm-hasText dx" href="Login.aspx"><font face="Arial" color="White"><span class="dx-vam">Log in</span></font></a></li>
+		</ul>
+	</font></div><b class="dx-clear"></b>
+</div><script id="dxss_1820428824" type="text/javascript">
+<!--
+aspxAddHoverItems('WUCMenu1_ASPxMenu1',[[['dxm-hovered',''],['background-color:#EDC503;',''],['DXI0_','DXI1_','DXI2_','DXI3_','DXI4_','DXI5_','DXI6_'],['','T']]]);
+aspxAddSelectedItems('WUCMenu1_ASPxMenu1',[[['dxm-selected',''],['color:#EDC503;background-color:#612D15;font-weight:bold;',''],['DXI0_','DXI1_','DXI2_','DXI3_','DXI4_','DXI5_','DXI6_'],['','T']]]);
+
+var dxo = new ASPxClientMenu('WUCMenu1_ASPxMenu1');
+window['WUCMenu1_ASPxMenu1'] = dxo;
+dxo.uniqueID = 'ctl00$WUCMenu1$ASPxMenu1';
+dxo.renderIFrameForPopupElements = true;
+dxo.renderData={'':[[0],[1],[2],[3],[4],[5],[6]]};
+dxo.createIFrames=true;
+dxo.allowSelectItem=true;
+dxo.AfterCreate();
+
+//-->
+</script>
+
+
+
+         </td>
+          <td  style="width: 15%;background-image:url(Images/bgleft.jpg);background-repeat:repeat-y; background-position:left"></td>
+        </tr>
+
+
+         <tr>
+    <td style="width: 15%;background-image:url(Images/bgright.jpg);background-repeat:repeat-y; background-position:right">
+    
+    </td>
+    <td style="width: 70%">
+  
+    <table style="width: 100%;background-color:#FFFFFF" cellpadding="0" cellspacing="0" >
+    <tr>
+    <td  colspan="2">
+           
+
+            
+ 
+    
+
+    <script type="text/javascript">
+     !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs");
+ </script>
+
+
+    <table style="width:100%" cellpadding=12 cellspacing=0>
+<tr>
+<td style="width:60%" valign="top" align="center">
+<br />
+
+
+ <blockquote><span class="bqstart">"</span><i><span id="ContentPlaceHolder1_LblQuote">Agriculture is at a turning point</span></i><span class="bqend">"</span></blockquote>
+ <br /><br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="ContentPlaceHolder1_LblAuthor">Tassos Haniotis, Director for Economic analysis, perspectives and evaluations at DG Agriculture and Rural Development</span>
+<br />
+<br />
+<br />
+    
+<!-- Begin EO.Web Slide Slide1.  -->
+<div style="position:absolute; top:-1000px;"><input type="hidden" name="eo_version" value="10.0.40.2" /><input type="hidden" name="eo_style_keys" value="/wFk" /></div>
+<script type="text/javascript">
+//<![CDATA[
+EO1040.r.product='EO.Web';
+EO1040.r.debug=-1;
+EO1040.r.aspnet11=0;
+var eo_culture_i=eval('({"name":"","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":".","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":",","CurrencySymbol":"\u00A4","NaNSymbol":"NaN","CurrencyNegativePattern":0,"NumberNegativePattern":1,"PercentPositivePattern":0,"PercentNegativePattern":0,"NegativeInfinitySymbol":"-Infinity","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":".","NumberGroupSeparator":",","CurrencyPositivePattern":0,"PositiveInfinitySymbol":"Infinity","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":".","PercentGroupSeparator":",","PercentSymbol":"%","PerMilleSymbol":"\u2030","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"AM","Calendar":{"MinSupportedDateTime":"@-62135568000000@","MaxSupportedDateTime":"@253402300799999@","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":true},"DateSeparator":"/","FirstDayOfWeek":0,"CalendarWeekRule":0,"FullDateTimePattern":"dddd, dd MMMM yyyy HH:mm:ss","LongDatePattern":"dddd, dd MMMM yyyy","LongTimePattern":"HH:mm:ss","MonthDayPattern":"MMMM dd","PMDesignator":"PM","RFC1123Pattern":"ddd, dd MMM yyyy HH\':\'mm\':\'ss \'GMT\'","ShortDatePattern":"MM/dd/yyyy","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\'-\'MM\'-\'dd\'T\'HH\':\'mm\':\'ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\'-\'MM\'-\'dd HH\':\'mm\':\'ss\'Z\'","YearMonthPattern":"yyyy MMMM","AbbreviatedDayNames":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"ShortestDayNames":["Su","Mo","Tu","We","Th","Fr","Sa"],"DayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"AbbreviatedMonthNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"MonthNames":["January","February","March","April","May","June","July","August","September","October","November","December",""],"IsReadOnly":true,"NativeCalendarName":"Gregorian Calendar","AbbreviatedMonthGenitiveNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"MonthGenitiveNames":["January","February","March","April","May","June","July","August","September","October","November","December",""]}})');//eo_culture_i
+var eo_culture=eval('({"name":"en-US","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":".","IsReadOnly":false,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":",","CurrencySymbol":"$","NaNSymbol":"NaN","CurrencyNegativePattern":0,"NumberNegativePattern":1,"PercentPositivePattern":0,"PercentNegativePattern":0,"NegativeInfinitySymbol":"-Infinity","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":".","NumberGroupSeparator":",","CurrencyPositivePattern":0,"PositiveInfinitySymbol":"Infinity","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":".","PercentGroupSeparator":",","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"AM","Calendar":{"MinSupportedDateTime":new Date(-62135568000000),"MaxSupportedDateTime":new Date(253402300799999),"AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":false},"DateSeparator":"/","FirstDayOfWeek":0,"CalendarWeekRule":0,"FullDateTimePattern":"dddd, MMMM dd, yyyy h:mm:ss tt","LongDatePattern":"dddd, MMMM dd, yyyy","LongTimePattern":"h:mm:ss tt","MonthDayPattern":"MMMM dd","PMDesignator":"PM","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"M/d/yyyy","ShortTimePattern":"h:mm tt","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM, yyyy","AbbreviatedDayNames":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"ShortestDayNames":["Su","Mo","Tu","We","Th","Fr","Sa"],"DayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"AbbreviatedMonthNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"MonthNames":["January","February","March","April","May","June","July","August","September","October","November","December",""],"IsReadOnly":false,"NativeCalendarName":"Gregorian Calendar","AbbreviatedMonthGenitiveNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"MonthGenitiveNames":["January","February","March","April","May","June","July","August","September","October","November","December",""]}})');//eo_culture
+
+//]]>
+</script>
+<table cellspacing="0" cellpadding="0" border="0"><tr><td class='slide_big_item_panel'><div id='ctl00_ContentPlaceHolder1_Slide1_divB' style='width:470px;height:470px;overflow-x:hidden;position:relative;'><table id="ctl00_ContentPlaceHolder1_Slide1_itemTableB" cellspacing="0" cellpadding="0" border="0" style="position:relative;"><tr><td><div id='ctl00_ContentPlaceHolder1_Slide1_bi0' style='width:470px;height:470px;overflow:hidden;'>
+            <div>
+                <img src='http://www3.lei.wur.nl/FoodSecureImages/slider/1 EU expert meeting.JPG' width="468px" height="327px" alt="" />
+            </div>
+            <div style="padding: 5px">
+                <div style="font-family: Arial; font-size: 14px; color: #602C14; font-weight: bold">
+                    EU expert meeting “Food Security: towards policies that matter” 
+                </div>
+                <div style="font-family: Arial; font-size: 13px; color: #602C14">
+                    FOODSECURE team meets the European Commission to discuss European research needs on food and nutrition security<br /> <a href = ../News.aspx?item=20>More...</a>
+                </div>
+            </div>
+        </div></td><td><div id='ctl00_ContentPlaceHolder1_Slide1_bi1' style='width:470px;height:470px;overflow:hidden;'>
+            <div>
+                <img src='http://www3.lei.wur.nl/FoodSecureImages/slider/2 Kick off meeting.JPG' width="468px" height="327px" alt="" />
+            </div>
+            <div style="padding: 5px">
+                <div style="font-family: Arial; font-size: 14px; color: #602C14; font-weight: bold">
+                    Research community meets 
+                </div>
+                <div style="font-family: Arial; font-size: 13px; color: #602C14">
+                    FOODSECURE kick-off meeting in The Netherlands: all systems go!<br /> <a href = ../News.aspx?item=16>More...</a>
+                </div>
+            </div>
+        </div></td><td><div id='ctl00_ContentPlaceHolder1_Slide1_bi2' style='width:470px;height:470px;overflow:hidden;'>
+            <div>
+                <img src='http://www3.lei.wur.nl/FoodSecureImages/slider/genetische_diversiteit_H.jpg' width="468px" height="327px" alt="" />
+            </div>
+            <div style="padding: 5px">
+                <div style="font-family: Arial; font-size: 14px; color: #602C14; font-weight: bold">
+                    In the 21st century, agricultural trade will need to contribute to food security in a more significant way
+                </div>
+                <div style="font-family: Arial; font-size: 13px; color: #602C14">
+                    FoodSecure researcher Sébastian Jean participates in the IPC-ICTSD Expert Group Dialogue on trade and food security<br /> 
+                </div>
+            </div>
+        </div></td><td><div id='ctl00_ContentPlaceHolder1_Slide1_bi3' style='width:470px;height:470px;overflow:hidden;'>
+            <div>
+                <img src='http://www3.lei.wur.nl/FoodSecureImages/slider/landgebruik_H.jpg' width="468px" height="327px" alt="" />
+            </div>
+            <div style="padding: 5px">
+                <div style="font-family: Arial; font-size: 14px; color: #602C14; font-weight: bold">
+                    Land use must be optimized for food security enhancement
+                </div>
+                <div style="font-family: Arial; font-size: 13px; color: #602C14">
+                    Complex economic models will be used in FoodSecure to investigate the consequences of land use changes<br /> 
+                </div>
+            </div>
+        </div></td><td><div id='ctl00_ContentPlaceHolder1_Slide1_bi4' style='width:470px;height:470px;overflow:hidden;'>
+            <div>
+                <img src='http://www3.lei.wur.nl/FoodSecureImages/slider/voedsellogistiek_H.jpg' width="468px" height="327px" alt="" />
+            </div>
+            <div style="padding: 5px">
+                <div style="font-family: Arial; font-size: 14px; color: #602C14; font-weight: bold">
+                    Agricultural logistics must support global food security more than ever before
+                </div>
+                <div style="font-family: Arial; font-size: 13px; color: #602C14">
+                    FoodSecure researcher Sébastian Jean participates in the IPC-ICTSD Expert Group Dialogue on trade and food security<br /> 
+                </div>
+            </div>
+        </div></td><td><div id='ctl00_ContentPlaceHolder1_Slide1_bi5' style='width:470px;height:470px;overflow:hidden;'>
+            <div>
+                <img src='http://www3.lei.wur.nl/FoodSecureImages/slider/farmer_empowerment_H.jpg' width="468px" height="327px" alt="" />
+            </div>
+            <div style="padding: 5px">
+                <div style="font-family: Arial; font-size: 14px; color: #602C14; font-weight: bold">
+                    "Africa is not taking enough dividends from its huge natural resources"
+                </div>
+                <div style="font-family: Arial; font-size: 13px; color: #602C14">
+                    Assefa Admassie, Director of the Ethiopian Economics Association and member of the FoodSecure team<br /> 
+                </div>
+            </div>
+        </div></td><td><div id='ctl00_ContentPlaceHolder1_Slide1_bi6' style='width:470px;height:470px;overflow:hidden;'>
+            <div>
+                <img src='http://www3.lei.wur.nl/FoodSecureImages/slider/1 EU expert meeting.JPG' width="468px" height="327px" alt="" />
+            </div>
+            <div style="padding: 5px">
+                <div style="font-family: Arial; font-size: 14px; color: #602C14; font-weight: bold">
+                    EU expert meeting “Food Security: towards policies that matter” 
+                </div>
+                <div style="font-family: Arial; font-size: 13px; color: #602C14">
+                    FOODSECURE team meets the European Commission to discuss European research needs on food and nutrition security<br /> <a href = ../News.aspx?item=20>More...</a>
+                </div>
+            </div>
+        </div></td></tr></table></div></td></tr><tr><td><div class="slide_nav_panel"><div style="float:right;"><img id="ctl00_ContentPlaceHolder1_Slide1_left" src="/WebResource.axd?d=9IT5xsOFWKK91uU93aCa5be3oisSld1_DSmktQ6_3opWxjXMw9ku9Zm_qGEJOt5FhQ_1YYFLZe_Kti0tNLQkburz5dbhb8NXaRkaYuVSHB_cvagiXJsNb4CGefQb9HX86z3uG8DJgg-YMhnXyt5C8g2&t=634842671940000000" /><img id="ctl00_ContentPlaceHolder1_Slide1_right" src="/WebResource.axd?d=MFlcx_V0Nbuh9bVEujeTYE8pXi_eRqqKJ-HvSj4wRI3VvmNFIIHqvLQLFNzsvGbaPuwixv7zaHpbpQgdAneiKgQOqxita8u1yrOe5RCRO1PV3RJgKJVPEep_db-upRks9Osx7wzRrTvJmH1tJDu1Jg2&t=634842671940000000" /></div><span id="ctl00_ContentPlaceHolder1_Slide1_text" class="slide_item_number">1 of 6</span></div></td></tr></table>
+<script type="text/javascript">
+//<![CDATA[
+EO1040.g.d.k("ldr|i|fmt|u|ei|e|sd", function(){EO1040.g.b.ctl00_ContentPlaceHolder1_Slide1=1;EO1040.r._o_ctl00_ContentPlaceHolder1_Slide1=EO1040.f.aby(EO1040.r._o_ctl00_ContentPlaceHolder1_Slide1,"Slide1",new EO1040.f.admo([[[,"ctl00_ContentPlaceHolder1_Slide1","Slide","ctl00$ContentPlaceHolder1$Slide1",,,,,,,"__doPostBack(\'ctl00$ContentPlaceHolder1$Slide1\',\'_eo_arg_\')"],,,,,,,,,[]],470,470,,,6,,,,,,,1,1,5000]),"Slide");EO1040.f.ahe(EO1040.r._o_ctl00_ContentPlaceHolder1_Slide1,1,null, 0);});
+//]]>
+</script>
+
+<!-- End EO.Web Slide Slide1.  -->
+
+</td>
+<td style="width:20%; background-color:#EDC503" valign="top" rowspan="2">
+    &nbsp;&nbsp;<span><b>Newsletters</b><br /><br />&nbsp;&nbsp;<span class='specialLink'><a href=http://www.foodsecure.eu/documents/FOODSECURE_e-newsletter_7.htm target=_blank>Latest edition(7/27/2015)</a></span><br />&nbsp;&nbsp;<span class='specialLink'><a href=publications.aspx?pubtype=8 target=_blank>Archive</a></span><br /><br /></span><br />
+&nbsp;&nbsp;<b>Latest news</b>
+<br />
+<script id="dxss_551566057" type="text/javascript">
+<!--
+var __dxLastScrollY = -1;
+function backtotop(anchorStr, offsetY){
+  scrollY = (document.documentElement.scrollTop || document.body.scrollTop);
+  if (__dxLastScrollY != scrollY){
+    location.href=anchorStr;
+    scrollX = (document.documentElement.scrollLeft || document.body.scrollLeft);
+    scrollY = (document.documentElement.scrollTop || document.body.scrollTop);
+    __dxLastScrollY = scrollY - offsetY;
+    window.scrollTo(scrollX, __dxLastScrollY);
+  }
+}
+
+//-->
+</script><div style="padding:0px;">
+	<a name="ContentPlaceHolder1_ASPxNewsControl1_BT"><font size="1"></font></a>
+</div><input id="ContentPlaceHolder1_ASPxNewsControl1_S" name="ctl00$ContentPlaceHolder1$ASPxNewsControl1" type="hidden" value="0;3;1;0" /><table class="dxncControl" cellspacing="0" cellpadding="0" id="ContentPlaceHolder1_ASPxNewsControl1" bgcolor="#EDC503" width="100%">
+	<tr>
+		<td id="ContentPlaceHolder1_ASPxNewsControl1_CCell" class="dxncCtrl" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;vertical-align:top;"><table cellspacing="0" cellpadding="0" width="100%" style="border-collapse:separate;">
+			<tr>
+				<td id="ContentPlaceHolder1_ASPxNewsControl1_ICell" class="dxncContent"><table cellspacing="0" cellpadding="0" height="100%" width="100%">
+					<tr>
+						<td class="dxncItem" align="left" style="vertical-align:Top;"><table class="dxhlControl" cellspacing="0" cellpadding="0" id="ContentPlaceHolder1_ASPxNewsControl1_ctl09" width="100%" style="border-collapse:separate;">
+							<tr>
+								<td valign="top" width="100%"><div class="dxhlDate" style="margin-bottom:4px;"><i><font color="#602C14">
+									2/24/2016
+								</font></i></div><div class="dxhlHeader" style="margin-bottom:4px;">
+									<span class='specialLink'><a href=newsDetail.aspx?id=54>FOODSECURE briefed main European Commission stakeholders in Brussels </a></span>
+								</div><div class="dxhlContent" style="vertical-align:Top;">
+									
+								</div></td>
+							</tr>
+						</table></td>
+					</tr><tr>
+						<td class="dxncItem" align="left" style="vertical-align:Top;"><table class="dxhlControl" cellspacing="0" cellpadding="0" id="ContentPlaceHolder1_ASPxNewsControl1_ctl11" width="100%" style="border-collapse:separate;">
+							<tr>
+								<td valign="top" width="100%"><div class="dxhlDate" style="margin-bottom:4px;"><i><font color="#602C14">
+									2/16/2016
+								</font></i></div><div class="dxhlHeader" style="margin-bottom:4px;">
+									<span class='specialLink'><a href=newsDetail.aspx?id=53>FOODSECURE final stakeholders workshop in Brussels, June 23-24, 2016</a></span>
+								</div><div class="dxhlContent" style="vertical-align:Top;">
+									
+								</div></td>
+							</tr>
+						</table></td>
+					</tr>
+				</table></td>
+			</tr>
+		</table></td>
+	</tr>
+</table><table id="ContentPlaceHolder1_ASPxNewsControl1_LP" class="dxncLoadingPanel dxlpLoadingPanel" cellspacing="0" cellpadding="0" style="left:0px;top:0px;z-index:30000;display:none;">
+	<tr>
+		<td class="dx" style="padding-right:0px;"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="/DXR.axd?r=1_15-Xyhm9" alt="" align="middle" /></td><td class="dx" style="padding-left:0px;"><span id="ContentPlaceHolder1_ASPxNewsControl1_TL">Loading&hellip;</span></td>
+	</tr>
+</table><div id="ContentPlaceHolder1_ASPxNewsControl1_LD" class="dxncLoadingDiv dxlpLoadingDiv dx-ft" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+</div><script id="dxss_1822331948" type="text/javascript">
+<!--
+
+var dxo = new ASPxClientNewsControl('ContentPlaceHolder1_ASPxNewsControl1');
+window['ContentPlaceHolder1_ASPxNewsControl1'] = dxo;
+dxo.encodeHtml = false;
+dxo.callBack = function(arg) { WebForm_DoCallback('ctl00$ContentPlaceHolder1$ASPxNewsControl1',arg,aspxCallback,'ContentPlaceHolder1_ASPxNewsControl1',aspxCallbackError,true); };
+dxo.uniqueID = 'ctl00$ContentPlaceHolder1$ASPxNewsControl1';
+dxo.renderIFrameForPopupElements = true;
+dxo.AfterCreate();
+
+//-->
+</script>
+     &nbsp;&nbsp;<span><br />&nbsp;&nbsp;<b>Latest publications</b><br /></span>
+    <div style="padding:0px;">
+	<a name="ContentPlaceHolder1_ASPxNewsControlPubs_BT"><font size="1"></font></a>
+</div><input id="ContentPlaceHolder1_ASPxNewsControlPubs_S" name="ctl00$ContentPlaceHolder1$ASPxNewsControlPubs" type="hidden" value="0;3;1;0" /><table class="dxncControl" cellspacing="0" cellpadding="0" id="ContentPlaceHolder1_ASPxNewsControlPubs" bgcolor="#EDC503" width="100%">
+	<tr>
+		<td id="ContentPlaceHolder1_ASPxNewsControlPubs_CCell" class="dxncCtrl" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;vertical-align:top;"><table cellspacing="0" cellpadding="0" width="100%" style="border-collapse:separate;">
+			<tr>
+				<td id="ContentPlaceHolder1_ASPxNewsControlPubs_ICell" class="dxncContent"><table cellspacing="0" cellpadding="0" height="100%" width="100%">
+					<tr>
+						<td class="dxncItem" align="left" style="vertical-align:Top;"><table class="dxhlControl" cellspacing="0" cellpadding="0" id="ContentPlaceHolder1_ASPxNewsControlPubs_ctl09" width="100%" style="border-collapse:separate;">
+							<tr>
+								<td valign="top" width="100%"><div class="dxhlDate" style="margin-bottom:4px;"><i><font color="#602C14">
+									2/15/2016
+								</font></i></div><div class="dxhlHeader" style="margin-bottom:4px;">
+									<span class='specialLink'><a href=publicationDetail.aspx?id=215>‘GIOVANNI ANANIA’ SUMMER SCHOOL ON EVIDENCE-BASED POLICY MAKING
+“Regional trade agreements: implications for ...</a></span><span class=fontWhite>. By </span>
+								</div><div class="dxhlContent" style="vertical-align:Top;">
+									
+								</div></td>
+							</tr>
+						</table></td>
+					</tr><tr>
+						<td class="dxncItem" align="left" style="vertical-align:Top;"><table class="dxhlControl" cellspacing="0" cellpadding="0" id="ContentPlaceHolder1_ASPxNewsControlPubs_ctl11" width="100%" style="border-collapse:separate;">
+							<tr>
+								<td valign="top" width="100%"><div class="dxhlDate" style="margin-bottom:4px;"><i><font color="#602C14">
+									1/20/2016
+								</font></i></div><div class="dxhlHeader" style="margin-bottom:4px;">
+									<span class='specialLink'><a href=publicationDetail.aspx?id=214>Climate, Shocks, Weather and Maize Intensification Decisions in Rural Kenya</a></span><span class=fontWhite>. By </span>
+								</div><div class="dxhlContent" style="vertical-align:Top;">
+									
+								</div></td>
+							</tr>
+						</table></td>
+					</tr>
+				</table></td>
+			</tr>
+		</table></td>
+	</tr>
+</table><table id="ContentPlaceHolder1_ASPxNewsControlPubs_LP" class="dxncLoadingPanel dxlpLoadingPanel" cellspacing="0" cellpadding="0" style="left:0px;top:0px;z-index:30000;display:none;">
+	<tr>
+		<td class="dx" style="padding-right:0px;"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="/DXR.axd?r=1_15-Xyhm9" alt="" align="middle" /></td><td class="dx" style="padding-left:0px;"><span id="ContentPlaceHolder1_ASPxNewsControlPubs_TL">Loading&hellip;</span></td>
+	</tr>
+</table><div id="ContentPlaceHolder1_ASPxNewsControlPubs_LD" class="dxncLoadingDiv dxlpLoadingDiv dx-ft" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+</div><script id="dxss_440683704" type="text/javascript">
+<!--
+
+var dxo = new ASPxClientNewsControl('ContentPlaceHolder1_ASPxNewsControlPubs');
+window['ContentPlaceHolder1_ASPxNewsControlPubs'] = dxo;
+dxo.encodeHtml = false;
+dxo.callBack = function(arg) { WebForm_DoCallback('ctl00$ContentPlaceHolder1$ASPxNewsControlPubs',arg,aspxCallback,'ContentPlaceHolder1_ASPxNewsControlPubs',aspxCallbackError,true); };
+dxo.uniqueID = 'ctl00$ContentPlaceHolder1$ASPxNewsControlPubs';
+dxo.renderIFrameForPopupElements = true;
+dxo.AfterCreate();
+
+//-->
+</script>
+</td>
+<td style="width:20%" valign="top" align=center rowspan="2">
+<div align="right">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.foodsecure.eu" data-text="FOODSECURE – An interdisciplinary research project to explore the future of global food and nutrition security" data-size="large" data-count="none">
+<img id="ContentPlaceHolder1_Image6" title="Share on Twitter" src="Images/twitter.png" border="0" />
+</a>
+<a href=http://www.linkedin.com/shareArticle?mini=true&url=http://www.foodsecure.eu&title=FOODSECURE&summary=An%20interdisciplinary%20research%20project%20to%20explore%20the%20future%20of%20global%20food%20and%20nutrition%20security&source=www.FOODSECURE.eu target=_blank>
+<img id="ContentPlaceHolder1_Image3" title="Share on LinkedIn" src="Images/linkedin.jpg" border="0" /></a>
+<a href=http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.foodsecure.eu target=_blank>
+<img id="ContentPlaceHolder1_Image4" title="Share on facebook" src="Images/facebook.png" border="0" /></a></div>
+    
+
+
+<br />
+<br />
+    <a href="http://foodsecureblog.wordpress.com/" target=_blank><img id="ContentPlaceHolder1_Image5" title="Click here to go to the blog" src="Images/blog.jpg" border="0" /></a>
+    <br />
+<br />
+
+<a href="Documents/flyer.PDF" target=_blank><img id="ContentPlaceHolder1_Image1" src="Images/flyer.jpg" border="0" /></a>
+<br />
+<span class=fontSmall>Click here tot download our flyer</span>
+<br />
+
+    <br />
+    <input type="submit" name="ctl00$ContentPlaceHolder1$Button1" value="Subscribe to our newsletter" id="ContentPlaceHolder1_Button1" />
+    <br /><br />
+    <img id="ContentPlaceHolder1_Image2" src="Images/envelope.jpg" />
+    <br />
+    <a href=Contact.aspx>Contact</a><br />
+    <br /><br /><br />
+</td>
+    
+   </tr>
+<tr>
+<td style="width:60%" valign="top" align="left">
+   <p>The  objective of the FOODSECURE project is to design effective and sustainable strategies for assessing and addressing the challenges of food and nutrition security. 
+    <br />
+<br />
+The project will provide a set of analytical instruments to experiment, analyse, and coordinate the effects of short and long term policies related to achieving food security. The purpose is to support stakeholders in the design of consistent, coherent, long-term FNS strategies.<br />
+<a href="WhatIsFoodSecure.aspx">Read more</a></p>
+
+   
+   </td>
+    
+   </tr>
+    </table>
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-44970229-1', 'foodsecure.eu');
+        ga('send', 'pageview');
+
+</script>
+
+        
+        
+
+        </td>
+        </tr>
+         <tr>
+    <td  colspan="2" align="right" style="background-color:#612D15">
+           
+        <br />
+            <img id="Image5" src="Images/imagesCAVDLYLG.jpg" width="200" />       
+        <br />
+        </td>
+        </tr>
+        
+        </table>
+    </td>
+     <td style="width: 15%;background-image:url(Images/bgleft.jpg);background-repeat:repeat-y; background-position:left"></td>
+     </tr>
+          
+        </table>
+      
+    </div>
+        
+    </form>
+   <script type="text/javascript">
+       (function (i, s, o, g, r, a, m) {
+           i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+               (i[r].q = i[r].q || []).push(arguments)
+           }, i[r].l = 1 * new Date(); a = s.createElement(o),
+           m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+       })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+       ga('create', 'UA-44970229-1', 'foodsecure.eu');
+       ga('send', 'pageview');
+
+</script>
+</body>
+</html>

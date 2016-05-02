@@ -1,0 +1,331 @@
+<!doctype html>
+<html>
+<head>
+	<title>Home</title>
+	<meta charset="utf-8" />
+	<meta name='description' content='' />
+	<meta name='keywords' content='' />
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+	<meta http-equiv='Content-Language' content='nl' />
+	<meta http-equiv='Content-Style-Type' content='text/css' />
+	<meta http-equiv='imagetoolbar' content='false' />
+    <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<style type='text/css' media='screen'>@import '/templates/lipse/style.css';</style>
+	<style type='text/css' media='screen'>@import '/templates/lipse/styleflex.css';</style>
+	<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+	<script type='text/javascript'>
+		function setClass(element, className) {
+			document.getElementById('menucontainer').classList.toggle('open');
+		}
+		var activeMenu = null;
+		function setActive(obj) {
+		    if (activeMenu) activeMenu.classList.toggle('open');
+		    if (activeMenu == obj) {
+			    activeMenu = null;
+		    	return;
+		    }
+		    activeMenu = obj;
+			activeMenu.classList.toggle('open');
+		}
+		function toggleSearch() {
+			var o = document.getElementById("searchpopup");
+			o.style.display = (o.style.display == 'none') ? 'block' : 'none';
+		}
+	</script>
+</head>
+<body>
+<div id='menucontainer'>
+	<div class='button menuswitch openmenu' onclick="setClass(this, 'menuopen');"></div>
+	<div class='button menuswitch closemenu' onclick="setClass(this, 'menuclose');"></div>
+	<div class='strook' id='menu'>
+		<div class='strip'>
+			
+
+	<a href='/home'>Home</a>
+
+
+
+	<a href='/news'>News & Events</a>
+
+
+
+	<a href='/blogs'>Blogs</a>
+
+
+
+	<a href='/publications'>Publications</a>
+
+
+
+	<div class='item' onclick='setActive(this);'>
+		<div class='itemtext'>LIPSE</div>
+		<div class='sub'>
+			
+	<a href='/about'>About LIPSE</a>
+
+	<a href='/people'>People</a>
+
+	<a href='/partners'>Partners</a>
+
+	<a href='/themes'>Themes</a>
+
+		</div>
+	</div>
+
+
+
+	<a href='/contact'>Contact</a>
+
+ 
+			 
+		</div>				
+	</div>
+</div>
+<a href='#' class='button up'></a>		
+<div id='searchpopup' class='strook search' style='display: none;'>
+	<div class='strip'>
+		<div class='button menuswitch closemenu' onclick="toggleSearch();"></div>
+		<h1>Search</h1>
+		<form method='post' action='/search'>
+			<div class='form'>
+				<input type='text' name='keywords'>
+			</div>
+			<div class='form'>
+				<input type='submit' value='Send'>
+			</div>
+		</form> 
+		        	
+	</div>				
+</div>
+<div class='strook header'>
+	<div class='strip'>
+	
+		<div class='headercontainer'>
+			<div class='sm'>
+				<div class='button buttonsearch' onclick='toggleSearch();'></div>
+				<a href='newsletter' class='button newsletter'></a>
+				<a target='_blank' href='https://twitter.com/EULIPSE' class='button twitter'></a>
+				<a target='_blank' href='https://www.facebook.com/pages/LIPSE/137238749766992' class='button facebook'></a>
+				<a target='_blank' href='https://www.linkedin.com/groups?gid=4787939&trk=myg_ugrp_ovr' class='button linkedin'></a>
+			</div>
+		</div>
+		<a href='/'>
+			<img src='/templates/lipse/images/logo.png' class='logo' alt='logo LIPSE'/>
+		</a>
+		
+		<h1>Learning from Innovation in Public Sector&nbsp;Environments</h1>
+	</div>
+</div>
+<div class='strook' id='home01'>
+	<div class='strip'>
+	
+		<div class='flexcontainer'>
+			<div class='flexdiv' style="background-image: url('/userfiles/image/news/8785443736_c5fa058230_h.jpg');">
+				<div class='headline'>
+					<a href='/newspage/item/116'>
+						
+						<h6>5 february 2016</h6>
+						<h5>Roadshow Milan: Evidences and the way forward</h5>
+					</a>
+				</div>
+			</div>
+
+ 
+		</div>
+	
+	</div>
+</div>
+<div class='strook columns' id='home02'>
+	<div class='strip'>
+		<div class='homecontainer'>
+							<div class='headline'>
+					<a href='/newspage/item/117'>
+						<img src='/userfiles/image/news/regular/Broken_Bulb.jpg' alt='title'/>
+						
+						<h6>28 january 2016</h6>
+						<h5>New blogpost: Start-up Governments?</h5>
+					</a>
+				</div>
+
+				<div class='headline'>
+					<a href='/newspage/item/112'>
+						<img src='/userfiles/image/news/regular/eur01.jpg' alt='title'/>
+						
+						<h6>7 december 2015</h6>
+						<h5>Article 'Innovation in the Public Sector: A Systematic Review and Future Research Agenda' now online available </h5>
+					</a>
+				</div>
+
+ 
+		</div>
+		
+		<div class='leftcolumn'>
+			<div class='box'>
+								<div class='headline'>
+					<a href='/newspage/item/109'>
+						<img src='/userfiles/image/news/small/image3.jpg' alt='title'/>
+						
+						<h6>1 december 2015</h6>
+						<h5>New blog post on stability and innovation </h5>
+					</a>
+				</div>
+
+				<div class='headline announcement'>
+					<a href='/newspage/item/107'>
+						
+						<h6>22 october 2015</h6>
+						<h5>New LIPSE newsletter online</h5>
+					</a>
+				</div>
+
+				<div class='headline'>
+					<a href='/newspage/item/106'>
+						<img src='/userfiles/image/news/small/Hong_Kong_Island_Skyline_2009.jpg' alt='title'/>
+						
+						<h6>3 october 2015</h6>
+						<h5>Call for papers IRSPM</h5>
+					</a>
+				</div>
+
+				<div class='headline'>
+					<a href='/newspage/item/104'>
+						
+						<h6>30 september 2015</h6>
+						<h5>Systematic Review on Co-Creation and Co-Production published in  Public Management Review</h5>
+					</a>
+				</div>
+
+ 
+				<a href='/news'><h5 class='more'>More News &map;</h5></a>
+			</div>
+			<div class='box blog'>
+				
+			<div class='box blog'>
+				<h1>Blogs</h1>
+
+				<div class='headline'>
+					<a href='/blogpost/item/4'>
+						<h6>28 january 2016</h6>
+						<h5>Start-up Governments?</h5>
+					</a>
+				</div>
+
+
+				<div class='headline'>
+					<a href='/blogpost/item/3'>
+						<h6>1 december 2015</h6>
+						<h5>Stability and Innovation: a balancing act</h5>
+					</a>
+				</div>
+
+
+				<div class='headline'>
+					<a href='/blogpost/item/2'>
+						<h6>30 october 2015</h6>
+						<h5>Innovation Units in Executive Government (part I)</h5>
+					</a>
+				</div>
+
+
+				<div class='headline'>
+					<a href='/blogpost/item/1'>
+						<h6>15 october 2015</h6>
+						<h5>Word Class Workshop on Co-production of public services: design and innovation</h5>
+					</a>
+				</div>
+
+
+				<div class='headline'>
+					<a href='/blogpost/item/6'>
+						<h6>15 september 2015</h6>
+						<h5>How to empower co-creation: participatory budgeting</h5>
+					</a>
+				</div>
+
+
+			</div>
+ 
+				<a href='/blogs'><h5 class='more'>More Blogs &map;</h5></a>
+			</div>
+		</div>
+		
+		<div class='rightcolumn'>
+			<div class='box'>
+				<h1>LIPSE</h1>
+LIPSE or &#39;Learning from Innovation in Public Sector Evironments&#39; is a research project studying the drivers and barriers of successful social innovation in the public sector. With a budget of 2.5 Million Euros - funded by the 7th Framework Programme of the European Union - it is one of the largest projects on social innovation in the public sector. The research is being conducted by EU researchers from 12 different universities in 11 countries. The project starts on 1 Feb. 2013 and will run for 3,5 years. It is coordinated by the Erasmus University Rotterdam. 
+				<a href='/about'><h5 class='more'>More About LIPSE &map;</h5></a>
+			</div>
+			<a href='/socialinnovationgame' class='box game'>
+				<h1>Let's Play the Innovation Game!</h1>
+				<img src='/userfiles/image/Social-Innovation-Game.jpg' alt='LIPSE Social Innovation Game' />
+			</a>	
+		
+			
+			<div class='box'>
+				<h1>Events</h1>
+
+				<div class='headline'>
+					<a href='eventpage/item/31'>
+						<h6>13 april 2016</h6>
+						<h5>IRSPM conference, Hong Kong</h5>
+					</a>
+				</div>
+
+
+			</div>
+ 
+			<div class='box'>
+				<h1>Tweets <a href='https://twitter.com/search?q=%23eulipse&src=typd' target='_blank'>#eulipse</a></h1>
+				<a class="twitter-timeline" id="tfeed" href="https://twitter.com/search?q=%23lipse"  height='250' data-widget-id="347338923862790146">#lipse</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+		
+		</div>
+	
+	</div>
+</div>
+<div class='strook footerwhite buttons'>
+	<div class='strip'>
+		<a href='/news' class='news'>News &amp; Events</a>	
+		<a href='/blogs' class='blogs'>Blogs</a>	
+		<a href='/publications' class='publications'>Publications</a>	
+			
+	</div>
+</div>
+<div class='strook footerwhite'>
+	<div class='strip'>
+		<h1>Learning from Innovation in Public Sector Environments</h1>	
+	
+		<div class='footercontainer'>
+			<img src='/templates/lipse/images/eursp7.png' alt='Seventh Framework Programme' />
+			<img src='/templates/lipse/images/eurflag.png' alt='Flag Europe' />
+		</div>
+			
+	</div>
+</div>
+<div class='strook footer'></div>
+									
+<script>            
+	jQuery(document).ready(function() {
+		var offset = 220;
+		var duration = 500;
+		jQuery(window).scroll(function() {
+			if (jQuery(this).scrollTop() > offset) {
+				jQuery('.up').fadeIn(duration);
+			} else {
+				jQuery('.up').fadeOut(duration);
+			}
+		});
+		
+		jQuery('.up').click(function(event) {
+			event.preventDefault();
+			jQuery('html, body').animate({scrollTop: 0}, duration);
+			return false;
+		})
+	});
+</script>
+
+
+</body>
+</html>

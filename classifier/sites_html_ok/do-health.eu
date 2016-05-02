@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title></title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://do-health.eu/wordpress/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="http://do-health.eu/wordpress/wp-content/themes/esplanade/scripts/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="DO-HEALTH &raquo; Feed" href="http://do-health.eu/wordpress/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DO-HEALTH &raquo; Comments Feed" href="http://do-health.eu/wordpress/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/do-health.eu\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.2"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='esplanade-css'  href='http://do-health.eu/wordpress/wp-content/themes/esplanade/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='colorbox-css'  href='http://do-health.eu/wordpress/wp-content/themes/esplanade/styles/colorbox.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://do-health.eu/wordpress/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://do-health.eu/wordpress/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://do-health.eu/wordpress/wp-content/themes/esplanade/scripts/jquery.flexslider-min.js'></script>
+<script type='text/javascript' src='http://do-health.eu/wordpress/wp-content/themes/esplanade/scripts/fitvids.js'></script>
+<script type='text/javascript' src='http://do-health.eu/wordpress/wp-includes/js/swfobject.js?ver=2.2-20120417'></script>
+<script type='text/javascript' src='http://do-health.eu/wordpress/wp-content/themes/esplanade/scripts/audio-player.js'></script>
+<script type='text/javascript' src='http://do-health.eu/wordpress/wp-content/themes/esplanade/scripts/colorbox.js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://do-health.eu/wordpress/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://do-health.eu/wordpress/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.2.2" />
+<link rel='canonical' href='http://do-health.eu/wordpress/' />
+<link rel='shortlink' href='http://do-health.eu/wordpress/' />
+<script>
+/* <![CDATA[ */
+	jQuery(document).ready(function($) {
+		$('.nav-toggle').click(function() {
+			$('#access div ul:first-child').slideToggle(250);
+			return false;
+		});
+		if( ($(window).width() > 640) || ($(document).width() > 640) ) {
+							$('#access li').mouseenter(function() {
+					$(this).children('ul').css('display', 'none').stop(true, true).slideToggle(250).css('display', 'block').children('ul').css('display', 'none');
+				});
+				$('#access li').mouseleave(function() {
+					$(this).children('ul').stop(true, true).fadeOut(250).css('display', 'block');
+				})
+					} else {
+			$('#access li').each(function() {
+				if($(this).children('ul').length)
+					$(this).append('<span class="drop-down-toggle"><span class="drop-down-arrow"></span></span>');
+			});
+			$('.drop-down-toggle').click(function() {
+				$(this).parent().children('ul').slideToggle(250);
+			});
+		}
+				$(".entry-attachment, .entry-content").fitVids({ customSelector: "iframe, object, embed"});
+	});
+	jQuery(window).load(function() {
+					jQuery('.entry-content a[href$=".jpg"],.entry-content a[href$=".jpeg"],.entry-content a[href$=".png"],.entry-content a[href$=".gif"],a.colorbox').colorbox();
+			});
+	AudioPlayer.setup("http://do-health.eu/wordpress/wp-content/themes/esplanade/audio-player/player.swf", {  
+		width: 320  
+	});
+/* ]]> */
+</script>
+<style type="text/css">
+													#content {
+				width:76.5%;
+			}
+			#sidebar {
+				width:20.73%;
+			}
+			@media screen and (max-width: 960px) {
+				#content,
+				#sidebar {
+					width:auto;
+				}
+			}
+									.blog #content {
+			box-shadow:none;
+			background:none;
+		}
+		.blog .post {
+			padding:2.7%;
+			margin-bottom:2.7%;
+			box-shadow:0 0 3px #999;
+			background:#fff;
+		}
+		.blog #posts-nav {
+			padding:20px;
+			margin-bottom:20px;
+			box-shadow:0 0 3px #999;
+			background:#fff;
+			border-top:none;
+		}
+		.paged #content {
+			margin-bottom:1.76%;
+			box-shadow:0 0 3px #999;
+			background:#fff;
+		}
+		.paged .post {
+			padding:4.28% 0;
+			margin:0 20px;
+			box-shadow:none;
+			background:none;
+			border-top:#eee 1px solid;
+		}
+		.paged #posts-nav {
+			padding:20px 0 0;
+			margin:20px;
+			margin-top:0;
+			box-shadow:none;
+			background:none;
+			border-top:#eee 1px solid;
+		}
+				body {
+			font-family:"Lucida Grande", "Lucida Sans Unicode", "Bitstream Vera Sans", sans-serif;
+		}
+		h1, h2, h3, h4, h5, h6,
+		#site-title,
+		#site-description,
+		.entry-title,
+		#comments-title,
+		#reply-title,
+		.widget-title {
+			font-family:"Lucida Grande", "Lucida Sans Unicode", "Bitstream Vera Sans", sans-serif;
+		}
+		.entry-content {
+			font-family:"Lucida Grande", "Lucida Sans Unicode", "Bitstream Vera Sans", sans-serif;
+		}
+											body {
+			color:#004a99;
+		}
+		h1, h2, h3, h4, h5, h6,
+		.entry-title,
+		.entry-title a {
+			color:#004a99;
+		}
+		.entry-content {
+			color:#333;
+		}
+				a {
+			color:#4a9ef8;
+		}
+								.widget-title {
+			color:#333;
+		}
+				.widget-area a {
+			color:#004a99;
+		}
+						h4 {margin-top:4em;}
+.wp-caption-text { font-size:110%;}
+
+/* Fit the four boxes in a line on 1024-wide windows */
+
+.home .entry-content img {padding:2px; margin:2px;}</style>
+<style type="text/css">
+	#site-title,
+	#site-description {
+		position:absolute !important;
+		clip:rect(1px 1px 1px 1px); /* IE6, IE7 */
+		clip:rect(1px, 1px, 1px, 1px);
+	}
+	#header-image {
+		margin:1.76% 0;
+	}
+</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #8ccbcb; background-image: url('http://do-health.eu/wordpress/wp-content/uploads/2014/04/BGut-2012-08-02-5437_sml.jpg'); background-repeat: no-repeat; background-position: top center; background-attachment: scroll; }
+</style>
+</head>
+
+<body class="home page page-id-7 page-template page-template-template-content-sidebar page-template-template-content-sidebar-php custom-background">
+	<div id="wrapper">
+		<header id="header">
+			<div id="site-title"><a href="http://do-health.eu/wordpress/" rel="home">DO-HEALTH</a></div>
+							<div id="site-description">Vitamin D3 – Omega3 – Home Exercise – HeALTHy Ageing and Longevity Trial</div>
+									<div class="clear"></div>
+							<a href="http://do-health.eu/wordpress/" rel="home">
+					<img id="header-image" src="http://do-health.eu/wordpress/wp-content/uploads/2014/04/cropped-DO-H_header_pic_02_288.jpg" alt="DO-HEALTH" width="1082" height="280" />
+				</a>
+						<nav id="access">
+				<a class="nav-toggle" href="#">Navigation</a>
+				<div class="menu"><ul><li class="page_item page-item-7 current_page_item"><a href="http://do-health.eu/wordpress/">Home</a></li><li class="page_item page-item-91 page_item_has_children"><a href="http://do-health.eu/wordpress/aging/">Aging</a><ul class='children'><li class="page_item page-item-1188"><a href="http://do-health.eu/wordpress/aging/alter-werden/">Älter werden</a></li><li class="page_item page-item-1289"><a href="http://do-health.eu/wordpress/aging/alter-werden-2/">Le Vieillissement</a></li><li class="page_item page-item-1204"><a href="http://do-health.eu/wordpress/aging/envelhecimento/">Envelhecimento</a></li></ul></li><li class="page_item page-item-58 page_item_has_children"><a href="http://do-health.eu/wordpress/project/">Project</a><ul class='children'><li class="page_item page-item-596"><a href="http://do-health.eu/wordpress/project/ec-framework-7/">EC Framework 7</a></li><li class="page_item page-item-60"><a href="http://do-health.eu/wordpress/project/study-description/">Project Description</a></li><li class="page_item page-item-64"><a href="http://do-health.eu/wordpress/project/study-centers/">Recruitment Centers</a></li><li class="page_item page-item-610"><a href="http://do-health.eu/wordpress/project/work-packages/">Work Packages</a></li><li class="page_item page-item-615 page_item_has_children"><a href="http://do-health.eu/wordpress/project/endpoints/">Endpoints</a><ul class='children'><li class="page_item page-item-617"><a href="http://do-health.eu/wordpress/project/endpoints/primary-endpoints/">Primary Endpoints</a></li><li class="page_item page-item-627"><a href="http://do-health.eu/wordpress/project/endpoints/secondary-endpoints/">Secondary Endpoints</a></li><li class="page_item page-item-635"><a href="http://do-health.eu/wordpress/project/endpoints/exploratory-endpoints/">Exploratory Endpoints</a></li><li class="page_item page-item-1058"><a href="http://do-health.eu/wordpress/project/endpoints/biomarker-study/">Biomarker Study</a></li></ul></li><li class="page_item page-item-796"><a href="http://do-health.eu/wordpress/project/interventions/">Interventions</a></li><li class="page_item page-item-1126"><a href="http://do-health.eu/wordpress/project/biobank/">Biobank</a></li><li class="page_item page-item-673"><a href="http://do-health.eu/wordpress/project/do-health-vital/">DO-HEALTH &#8212; VITAL</a></li><li class="page_item page-item-565"><a href="http://do-health.eu/wordpress/project/coordinator/">Coordinator</a></li></ul></li><li class="page_item page-item-96 page_item_has_children"><a href="http://do-health.eu/wordpress/coordinating-team/">Coordination</a><ul class='children'><li class="page_item page-item-572"><a href="http://do-health.eu/wordpress/coordinating-team/team/">Coordinating Team</a></li><li class="page_item page-item-659"><a href="http://do-health.eu/wordpress/coordinating-team/advisorscollaborators/">Advisors</a></li><li class="page_item page-item-1083"><a href="http://do-health.eu/wordpress/coordinating-team/do-health-exercise-expert/">Exercise Expert</a></li><li class="page_item page-item-1176"><a href="http://do-health.eu/wordpress/coordinating-team/do-health-laboratory/">DO-HEALTH Laboratory</a></li><li class="page_item page-item-1486"><a href="http://do-health.eu/wordpress/coordinating-team/do-health-boston/">DO-HEALTH Boston</a></li></ul></li><li class="page_item page-item-1794 page_item_has_children"><a href="http://do-health.eu/wordpress/do-health-schweiz-2/">DO-HEALTH Schweiz</a><ul class='children'><li class="page_item page-item-1718"><a href="http://do-health.eu/wordpress/do-health-schweiz-2/do-health-schweiz/">Was ist DO-HEALTH?</a></li><li class="page_item page-item-1778"><a href="http://do-health.eu/wordpress/do-health-schweiz-2/uber-do-health/">Über DO-HEALTH</a></li><li class="page_item page-item-1761"><a href="http://do-health.eu/wordpress/do-health-schweiz-2/medien-schweiz/">Medien Schweiz</a></li><li class="page_item page-item-1746"><a href="http://do-health.eu/wordpress/do-health-schweiz-2/1746-2/">Öffentlichkeitsanlässe 2013 / 2014</a></li><li class="page_item page-item-2252"><a href="http://do-health.eu/wordpress/do-health-schweiz-2/hausarzte/">Hausärzte</a></li><li class="page_item page-item-1748"><a href="http://do-health.eu/wordpress/do-health-schweiz-2/1748-2/">SVGO &#8212; DO-HEALTH</a></li><li class="page_item page-item-1849"><a href="http://do-health.eu/wordpress/do-health-schweiz-2/offene-stellen/">Offene Stellen</a></li></ul></li><li class="page_item page-item-701 page_item_has_children"><a href="http://do-health.eu/wordpress/participate-2/">Participate</a><ul class='children'><li class="page_item page-item-126"><a href="http://do-health.eu/wordpress/participate-2/english/">Participate</a></li><li class="page_item page-item-706"><a href="http://do-health.eu/wordpress/participate-2/german/">Teilnehmen</a></li><li class="page_item page-item-711"><a href="http://do-health.eu/wordpress/participate-2/french/">Participer</a></li><li class="page_item page-item-757"><a href="http://do-health.eu/wordpress/participate-2/portuguese/">Participar</a></li></ul></li><li class="page_item page-item-12 page_item_has_children"><a href="http://do-health.eu/wordpress/partners/">Partners</a><ul class='children'><li class="page_item page-item-422 page_item_has_children"><a href="http://do-health.eu/wordpress/partners/recruitment-partners/">Recruitment Partners</a><ul class='children'><li class="page_item page-item-424"><a href="http://do-health.eu/wordpress/partners/recruitment-partners/zurich/">Zurich</a></li><li class="page_item page-item-430"><a href="http://do-health.eu/wordpress/partners/recruitment-partners/geneva/">Geneva</a></li><li class="page_item page-item-438"><a href="http://do-health.eu/wordpress/partners/recruitment-partners/basel/">Basel</a></li><li class="page_item page-item-459"><a href="http://do-health.eu/wordpress/partners/recruitment-partners/innsbruck/">Innsbruck</a></li><li class="page_item page-item-465"><a href="http://do-health.eu/wordpress/partners/recruitment-partners/toulouse/">Toulouse</a></li><li class="page_item page-item-471"><a href="http://do-health.eu/wordpress/partners/recruitment-partners/coimbra/">Coimbra</a></li><li class="page_item page-item-477"><a href="http://do-health.eu/wordpress/partners/recruitment-partners/berlin/">Berlin</a></li></ul></li><li class="page_item page-item-494 page_item_has_children"><a href="http://do-health.eu/wordpress/partners/other-partners/">Other Partners</a><ul class='children'><li class="page_item page-item-496"><a href="http://do-health.eu/wordpress/partners/other-partners/manchester/">Manchester</a></li><li class="page_item page-item-503"><a href="http://do-health.eu/wordpress/partners/other-partners/sheffield/">Sheffield</a></li><li class="page_item page-item-510"><a href="http://do-health.eu/wordpress/partners/other-partners/karlsruhe/">Karlsruhe</a></li><li class="page_item page-item-515"><a href="http://do-health.eu/wordpress/partners/other-partners/toronto-zurich/">Maetzel</a></li><li class="page_item page-item-522"><a href="http://do-health.eu/wordpress/partners/other-partners/dresden/">Dresden</a></li></ul></li><li class="page_item page-item-535 page_item_has_children"><a href="http://do-health.eu/wordpress/partners/impact-partners/">Impact Partners</a><ul class='children'><li class="page_item page-item-528"><a href="http://do-health.eu/wordpress/partners/impact-partners/impact-partner/">IOF</a></li></ul></li><li class="page_item page-item-540 page_item_has_children"><a href="http://do-health.eu/wordpress/partners/industry-partners/">Industry Partners</a><ul class='children'><li class="page_item page-item-550"><a href="http://do-health.eu/wordpress/partners/industry-partners/dnp/">DNP</a></li><li class="page_item page-item-542"><a href="http://do-health.eu/wordpress/partners/industry-partners/nestec/">Nestlé</a></li><li class="page_item page-item-559"><a href="http://do-health.eu/wordpress/partners/industry-partners/roche-diagnostics/">Roche Diagnostics</a></li><li class="page_item page-item-2173"><a href="http://do-health.eu/wordpress/partners/industry-partners/pfizer-consumer-health-care/">PFIZER Consumer Healthcare</a></li></ul></li><li class="page_item page-item-393 page_item_has_children"><a href="http://do-health.eu/wordpress/partners/sme-partners/">SME Partners</a><ul class='children'><li class="page_item page-item-395"><a href="http://do-health.eu/wordpress/partners/sme-partners/ferrari-data-solutions/">Ferrari Data Solutions</a></li><li class="page_item page-item-399"><a href="http://do-health.eu/wordpress/partners/sme-partners/gut-pictures/">gut pictures</a></li><li class="page_item page-item-415"><a href="http://do-health.eu/wordpress/partners/sme-partners/novamen/">NOVAMEN</a></li><li class="page_item page-item-410"><a href="http://do-health.eu/wordpress/partners/sme-partners/pharmalys/">Pharmalys</a></li></ul></li></ul></li><li class="page_item page-item-1047"><a href="http://do-health.eu/wordpress/news/">News</a></li><li class="page_item page-item-1572"><a href="http://do-health.eu/wordpress/do-health-in-the-media/">DO-HEALTH in the media</a></li><li class="page_item page-item-1245 page_item_has_children"><a href="http://do-health.eu/wordpress/contacts/">Contacts</a><ul class='children'><li class="page_item page-item-775"><a href="http://do-health.eu/wordpress/contacts/contact-coordinator/">Contact Coordinator</a></li><li class="page_item page-item-783"><a href="http://do-health.eu/wordpress/contacts/contact-manager/">Contact Manager</a></li><li class="page_item page-item-789"><a href="http://do-health.eu/wordpress/contacts/contact-recruitment-centers/">Contact Recruitment</a></li><li class="page_item page-item-3124"><a href="http://do-health.eu/wordpress/contacts/imprint/">Imprint</a></li></ul></li></ul></div>
+				<form role="search" method="get" id="searchform" action="http://do-health.eu/wordpress//" >
+	<input type="text" value="" placeholder="Search this website&#8230;" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+</form>				<div class="clear"></div>
+			</nav><!-- #access -->
+		</header><!-- #header -->	<div id="container">
+		<section id="content">
+							<article class="post-7 page type-page status-publish hentry" id="post-7">
+					<div class="entry">
+													<div id="location">
+									<div id="breadcrumbs">
+	<span class="prefix-text">You are here:</span>
+	<a href="http://do-health.eu/wordpress/" rel="home">Home</a>
+		</div>
+							</div><!-- #location -->
+												<header class="entry-header">
+							<h1 class="entry-title">Home</h1>
+						</header><!-- .entry-header -->
+						<div class="entry-content">
+							<div class="page-restrict-output"><div style="overflow: hidden; width: 100%;">
+<h3><span style="color: #993300;">What is DO-HEALTH?</span></h3>
+</div>
+<p><strong>DO-HEALTH is a clinical trial designed to </strong></p>
+<ul>
+<li>To support healthy aging in European seniors</li>
+</ul>
+<ul>
+<li>To establish whether vitamin D, omega-3 fatty acids, and a simple home exercise program will prevent disease at older age and thereby prolong healthy life expectancy</li>
+</ul>
+<p>To achieve these aims, DO-HEALTH will enroll 2152 community-dwelling men and women who are 70 years and older, an age when chronic diseases increase substantially. The DO-HEALTH seniors will be recruited from 7 European cities (Zurich, Basel, Geneva, Toulouse, Berlin, Innsbruck and Coimbra) and will be randomized in a 2x2x2 factorial design trial to a simple home exercise program and/or vitamin D, and/or omega-3 fatty acids, over a 3 year period. This will allow to test the benefit of the interventions in the prevention of 5 primary endpoints: the risk of incident non-vertebral fractures; the risk of functional decline; the risk of blood pressure increase; the risk of cognitive decline; and the rate of any infection. Key secondary endpoints include risk of hip fracture, rate of falls, pain in symptomatic knee osteoarthritis, gastro-intestinal symptoms, mental and oral health, quality of life, and life-expectancy. DO-HEALTH seniors will be followed for 3 years, in-person, and in 3-monthly intervals (4 clinical visits and 9 phone calls) at the 7 recruitment centers.</p>
+<h3><strong>Can I still participate in DO-HEALTH?</strong></h3>
+<p><strong></strong>At this point all DO-HEALTH participants have been recruited. Thus, we cannot offer further participation spots to seniors. However, this website will inform you on the progress of DO-HEALTH.</p>
+<h3><strong>Where is DO-HEALTH today?</strong></h3>
+<p>DO-HEALTH started in December 2012, and by November 28th 2014, DO-HEALTH has recruited 2158 seniors age 70+ and thereby reached its 100% recruitment target successfully. DO-HEALTH is unique to date, and defines the most comprehensively assessed and largest cohort of community-dwelling seniors in Europe. DO-HEALTH will be ongoing till 2017.</p>
+<p><em>Follow the news about DO-HEALTH</em>  &#8212; See our post on the 3rd DO-HEALTH Annual Meeting on February 5th 2015.</p>
+<p><a href="http://www.iofbonehealth.org/news/do-health-study-meets-recruitment-target-begins-baseline-assessment">Click here for IOF newsletter and interview with DO-HEALTH researchers</a></p>
+<p><a href="http://do-health.eu/wordpress/wp-content/uploads/2012/08/20150205-DO_HEALTH_meeting-10-GLontro_cropped.jpg"><img class="alignnone size-full wp-image-3329" alt="Annual DO-HEALTH partners meeting" src="http://do-health.eu/wordpress/wp-content/uploads/2012/08/20150205-DO_HEALTH_meeting-10-GLontro_cropped.jpg" width="1190" height="523" /></a></p>
+<div>
+<h3><span style="color: #993300;">Why DO-HEALTH?</span></h3>
+<p>As the European population is aging rapidly, <strong>health at older age has become a central concern</strong>:</p>
+</div>
+<p><strong>To the individual</strong> who wants to stay active and independent at older age, <strong>to the society</strong> who will increasingly depend on the productivity of the senior population, and <strong>to health care providers</strong> who are challenged by the marked increase in age-related chronic diseases.</p>
+<p><strong>To address this concern,</strong> effective, affordable, and well-tolerated strategies that prevent or delay chronic disease at older age and prolong healthy life expectancy are urgently needed.  These strategies, if proven effective, will have an outstanding impact at the individual, economic, and public health level.</p>
+<p><strong>Among the most promising strategies that meet these requirements are vitamin D, marine omega-3 fatty acids and physical exercise</strong>. However, their individual and combined effects have yet to be confirmed in a large clinical trial.</p>
+<p><strong>DO-HEALTH will close this knowledge gap in a</strong> <strong>large multi-centre clinical trial</strong> that will define the role of vitamin D, omega-3 fatty acids and a simple home exercise program in extending healthy life expectancy and improving quality of life in European seniors.</p>
+<dl id="attachment_224">
+<dt></dt>
+</dl>
+</div>							<div class="clear"></div>
+						</div><!-- .entry-content -->
+											</div><!-- .entry -->
+					
+
+				</article><!-- .post -->
+					</section><!-- #content -->
+		<div id="sidebar">
+		<div id="sidebar-top" class="widget-area" role="complementary">
+				<aside id="recent-posts-3" class="widget widget_recent_entries">		<h3 class="widget-title">Recent news:</h3>		<ul>
+					<li>
+				<a href="http://do-health.eu/wordpress/christmas-card-design-do-health-2015/">Christmas Card Design DO-HEALTH 2015</a>
+						</li>
+					<li>
+				<a href="http://do-health.eu/wordpress/2015-3rd-annual-meeting-do-health/">2015 &#8211; 3rd Annual Meeting DO-HEALTH</a>
+						</li>
+					<li>
+				<a href="http://do-health.eu/wordpress/do-health-epidemiologist-position-open/">DO-HEALTH epidemiologist position open</a>
+						</li>
+					<li>
+				<a href="http://do-health.eu/wordpress/advanced-geriatric-program-zurich/">DO-HEALTH Advanced Geriatric Curriculum University of Zurich</a>
+						</li>
+					<li>
+				<a href="http://do-health.eu/wordpress/do-health-public-event-zurich/">2014 &#8211; DO-HEALTH Public Event Zurich</a>
+						</li>
+					<li>
+				<a href="http://do-health.eu/wordpress/2014-annual-meeting-do-health/">2014 &#8211; Annual Meeting DO-HEALTH</a>
+						</li>
+					<li>
+				<a href="http://do-health.eu/wordpress/do-health-partners-build-clinical-network-geriatric-traumatology/">DO-HEALTH partners build clinical network  &#8212; Geriatric Traumatology</a>
+						</li>
+					<li>
+				<a href="http://do-health.eu/wordpress/do-health-recruits-fallers-and-seniors-age-80/">DO-HEALTH recruits seniors with a recent fall and seniors age 80+</a>
+						</li>
+					<li>
+				<a href="http://do-health.eu/wordpress/iof1309/">IOF press release on DO-HEALTH</a>
+						</li>
+					<li>
+				<a href="http://do-health.eu/wordpress/european-commission-flyer-do-health/">European Commission Fact-Sheet for DO-HEALTH</a>
+						</li>
+				</ul>
+		</aside><!-- .widget --><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives:</h3>		<ul>
+	<li><a href='http://do-health.eu/wordpress/2015/12/'>December 2015</a></li>
+	<li><a href='http://do-health.eu/wordpress/2015/02/'>February 2015</a></li>
+	<li><a href='http://do-health.eu/wordpress/2014/11/'>November 2014</a></li>
+	<li><a href='http://do-health.eu/wordpress/2014/03/'>March 2014</a></li>
+	<li><a href='http://do-health.eu/wordpress/2014/02/'>February 2014</a></li>
+	<li><a href='http://do-health.eu/wordpress/2014/01/'>January 2014</a></li>
+	<li><a href='http://do-health.eu/wordpress/2013/09/'>September 2013</a></li>
+	<li><a href='http://do-health.eu/wordpress/2013/08/'>August 2013</a></li>
+	<li><a href='http://do-health.eu/wordpress/2013/03/'>March 2013</a></li>
+	<li><a href='http://do-health.eu/wordpress/2013/02/'>February 2013</a></li>
+	<li><a href='http://do-health.eu/wordpress/2012/10/'>October 2012</a></li>
+	<li><a href='http://do-health.eu/wordpress/2012/09/'>September 2012</a></li>
+	<li><a href='http://do-health.eu/wordpress/2012/07/'>July 2012</a></li>
+	<li><a href='http://do-health.eu/wordpress/2012/01/'>January 2012</a></li>
+	<li><a href='http://do-health.eu/wordpress/2011/12/'>December 2011</a></li>
+		</ul>
+</aside><!-- .widget --><aside id="text-4" class="widget widget_text"><h3 class="widget-title">Supported by:</h3>			<div class="textwidget"> <br>
+<a href="http://ec.europa.eu/research/health/medical-research/human-development-and-ageing/projects/do-health_en.html" target="_blank"><img class="alignnone size-full wp-image-597" title="images-33" src="http://do-health.eu/wordpress/wp-content/uploads/2012/10/eu_fp7_logos_02.jpg" alt="" width="251" height="201" /></a>
+
+<div style="font-size:x-small;">
+THEME [HEALTH.2011.2.2.2-1]<br/>
+[Investigator-driven clinical trials for therapeutic interventions in elderly populations]<br/>
+Project no: 278588-2
+</div>
+
+</div>
+		</aside><!-- .widget -->		<div class="clear"></div>
+	</div><!-- #sidebar-top -->
+				<div id="sidebar-bottom" class="widget-area" role="complementary">
+		<aside id="text-3" class="widget widget_text"><h3 class="widget-title">Coordinating University:</h3>			<div class="textwidget"><a href="http://www.uzh.ch/index_en.html">
+ <br> 
+<img class="alignnone size-full" src="http://do-health.eu/wordpress/wp-content/uploads/2012/10/uzh_logo_d_pos_web_main.jpg" alt="" width="251" height="201" /></a>
+
+</a></div>
+		</aside><!-- .widget -->		<div class="clear"></div>
+	</div><!-- #sidebar-bottom -->
+</div><!-- #sidebar -->	</div><!-- #container -->
+		<div id="footer">
+						<div id="copyright">
+				<p class="copyright">© 2016 DO-HEALTH</p>
+									<p class="credits">
+																															Powered by <a href="http://do-health.eu/wordpress/imprint/" title="Imprint">Imprint</a>											</p>
+								<div class="clear"></div>
+			</div><!-- #copyright -->
+		</div><!-- #footer -->
+	</div><!-- #wrapper -->
+<script type='text/javascript' src='http://do-health.eu/wordpress/wp-includes/js/comment-reply.min.js?ver=4.2.2'></script>
+</body>
+</html>

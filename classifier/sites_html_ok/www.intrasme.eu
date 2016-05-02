@@ -1,0 +1,676 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="icon" type="image/png" href="/templates/intrasmetemplate/img/favicon.png" />
+<!--[if IE]>
+<link rel="shortcut icon" type="image/x-icon" href="/templates/intrasmetemplate/img/favicon.ico" />
+<![endif]-->
+<link href="/templates/intrasmetemplate/css/template.css" rel="stylesheet" type="text/css" />
+  <base href="http://www.intrasme.eu/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Altitude" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Intrasme - Home</title>
+  <link href="/index.php/component/fpss/module/91?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="Slideshow RSS Feed" />
+  <link href="/index.php/component/fpss/module/91?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Slideshow Atom Feed" />
+  <link rel="stylesheet" href="http://www.intrasme.eu/modules/mod_jw_srfr/tmpl/compact/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.intrasme.eu/modules/mod_rseventspro_calendar/style.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_fpss/tmpl/Uncut/css/template.css.php?width=660&amp;height=200&amp;sidebarWidth=0&amp;timer=1&amp;thumbnailViewportWidth=65&amp;thumbnailViewportHeight=40&amp;mid=91" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_showplus/css/slideshow.min.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.intrasme.eu/modules/mod_bt_login/tmpl/css/style2.0.css" type="text/css" />
+  <style type="text/css">
+#showplus_images_banners_all { height:150px; width:1000px; }
+#showplus_images_banners_all .showplus, .showplus-images { height:150px; width:1000px; }
+
+  </style>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="http://www.intrasme.eu/components/com_rseventspro/assets/js/scripts.js" type="text/javascript"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js" type="text/javascript"></script>
+  <script src="/modules/mod_fpss/includes/js/jquery.fpss.js" type="text/javascript"></script>
+  <script src="/modules/mod_showplus/js/slideshow.min.js" type="text/javascript"></script>
+  <script src="http://www.intrasme.eu/modules/mod_bt_login/tmpl/js/jquery.simplemodal.js" type="text/javascript"></script>
+  <script src="http://www.intrasme.eu/modules/mod_bt_login/tmpl/js/default.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});window.addEvent('domready', function() {
+			$$('.hasTip').each(function(el) {
+				var title = el.get('title');
+				if (title) {
+					var parts = title.split('::', 2);
+					el.store('tip:title', parts[0]);
+					el.store('tip:text', parts[1]);
+				}
+			});
+			var JTooltips = new Tips($$('.hasTip'), { maxTitleChars: 50, fixed: false});
+		});
+		/* Frontpage Slideshow v3.2.0 */
+		$FPSS(document).ready(function(){
+			$FPSS('#fpssContainer91').fpss( {
+				autoStart: 1,
+				transitionTime: 1000,
+				interval: 6000,
+				timer: 1,
+				effect: 'crossfade',
+				event: 'click',
+				textEffect: 1,
+				lavalamp: 1,
+				playLabel: 'Play',
+				pauseLabel: 'Pause'
+			});
+		});
+		window.addEvent("load", function () { new Slideshow(document.id("showplus_images_banners_all").removeClass("showplus-noscript").getElement("div"), {"\/images\/banners\/all\/banner1.jpg":{"caption":false,"href":"http:\/\/www.intrasme.eu\/","target":"_self"},"\/images\/banners\/all\/banner2.jpg":{"caption":false,"href":"http:\/\/www.intrasme.eu\/","target":"_self"},"\/images\/banners\/all\/banner3.jpg":{"caption":false,"href":"http:\/\/www.intrasme.eu\/","target":"_self"},"\/images\/banners\/all\/banner4.jpg":{"caption":false,"href":"http:\/\/www.intrasme.eu\/","target":"_self"}}, Object.append({"width":1000,"height":150,"thumbsize":[60,40],"captions":false,"controller":false,"delay":4000,"duration":1500,"overlay":false,"transition":"linear","loader":true}, {classes:["showplus"],replace:[/\/([^\/]+)$/, "/thumbs/$1"]})); });
+  </script>
+  <!--[if lt IE 8]><link rel="stylesheet" href="/modules/mod_showplus/css/slideshow.ie7.css" type="text/css" /><![endif]-->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37205284-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<div id='container'>
+  <div id='top'>
+    		<div class="moduletable">
+					<div id="btl">
+	<!-- Panel top -->	
+	<div class="btl-panel">
+					<!-- Login button -->
+			<span id="btl-panel-login" class="btl-modal">Log in</span>
+			
+			<!-- Registration button -->
+						
+			
+			</div>
+	<!-- content dropdown/modal box -->
+	<div id="btl-content">
+			
+		<!-- Form login -->	
+		<div id="btl-content-login" class="btl-content-block">
+						
+			<!-- if not integrated any component -->
+						<form name="btl-formlogin" class="btl-formlogin" action="/index.php" method="post">
+				<div id="btl-login-in-process"></div>	
+				<h3>Login to your account</h3>
+								<div class="btl-error" id="btl-login-error"></div>
+				<div class="btl-field">
+					<div class="btl-label">Username</div>
+					<div class="btl-input">
+						<input id="btl-input-username" type="text" name="username"	/>
+					</div>
+				</div>
+				<div class="btl-field">
+					<div class="btl-label">Password *</div>
+					<div class="btl-input">
+						<input id="btl-input-password" type="password" name="password" alt="password" />
+					</div>
+				</div>
+				<div class="clear"></div>
+								<div class="btl-field">				
+					
+					<div class="btl-input" id="btl-input-remember">
+						<input id="btl-checkbox-remember"  type="checkbox" name="remember"
+							value="yes" />
+							Remember Me					</div>	
+				</div>
+				<div class="clear"></div>
+								<div class="btl-buttonsubmit">
+					<input type="submit" name="Submit" class="btl-buttonsubmit" onclick="return loginAjax()" value="Log in" /> 
+					<input type="hidden" name="option" value="com_users" />
+					<input type="hidden" name="task" value="user.login" /> 
+					<input type="hidden" name="return" id="btl-return"	value="aW5kZXgucGhwP0l0ZW1pZD0xMDE=" />
+					<input type="hidden" name="9faa785be0bffb97eebc0967ae83588c" value="1" />				</div>
+			</form>	
+			<ul id ="bt_ul">
+				<li>
+					<a href="/index.php/innovation-networks-platform/register?view=reset">
+					Forgot your password?</a>
+				</li>
+				<li>
+					<a href="/index.php/innovation-networks-platform/register?view=remind">
+					Forgot your username?</a>
+				</li>				
+			</ul>
+			
+		<!-- if integrated with one component -->
+						
+		</div>
+		
+				
+	</div>
+	<div class="clear"></div>
+</div>
+
+<script type="text/javascript">
+	var btlOpt = 
+		{
+			REQUIRED_FILL_ALL		: 'Please enter data in all fields.',
+			BT_AJAX					: 'http://www.intrasme.eu/',
+			BT_RETURN				: '/',
+			E_LOGIN_AUTHENTICATE	: "Username and password do not match or you do not have an account yet.",
+			REQUIRED_NAME			:'Please enter your name!',
+			REQUIRED_USERNAME		: 'Please enter your username!',
+			REQUIRED_PASSWORD		:'Please enter your password!',
+			REQUIRED_VERIFY_PASSWORD:'Please re-enter your password!',
+			PASSWORD_NOT_MATCH		:'Password does not match the verify password!',
+			REQUIRED_EMAIL			:'Please enter your email!',
+			EMAIL_INVALID			:'Please enter a valid email!',	
+			REQUIRED_VERIFY_EMAIL	:'Please re-enter your email!',
+			EMAIL_NOT_MATCH			:'Email does not match the verify email!',
+			RECAPTCHA				:'none',
+			LOGIN_TAGS				:'',
+			REGISTER_TAGS			:'',
+			EFFECT					:'btl-modal',
+			ALIGN					:'right',
+			WIDTH_REGISTER_PANEL	: BTLJ("#btl-content-registration").outerWidth(),
+			BG_COLOR				:'#F9F9F9',
+			MOUSE_EVENT				:'click',
+			TEXT_COLOR				:'#0a86a2'
+		}
+		if(btlOpt.ALIGN == "center"){
+			BTLJ(".btl-panel").css('textAlign','center');
+			BTLJ("#btl-content #btl-content-login,#btl-content #btl-content-registration, #btl-content #btl-content-profile").each(function(){
+				var panelid = "#"+this.id.replace("content","panel");
+				var content = this;
+				BTLJ(window).load(function(){
+				var left =	BTLJ(panelid).offset().left - jQuery('#btl').offset().left - (BTLJ(content).outerWidth()/2)+ (BTLJ(panelid).outerWidth()/2);
+					BTLJ(content).css('left',left );
+				})
+			})
+		}else{
+			BTLJ(".btl-panel").css('float',btlOpt.ALIGN);
+			BTLJ("#btl-content #btl-content-login,#btl-content #btl-content-registration, #btl-content #btl-content-profile").css(btlOpt.ALIGN,0);
+			BTLJ("#btl-content #btl-content-login,#btl-content #btl-content-registration, #btl-content #btl-content-profile").css('top',BTLJ(".btl-panel").height()+1);
+		}
+		BTLJ("input.btl-buttonsubmit,button.btl-buttonsubmit, #btl .btl-panel > span")
+		.css("background-color",btlOpt.BG_COLOR)
+		.css("color",btlOpt.TEXT_COLOR);
+		BTLJ("#btl .btl-panel > span").css("border",btlOpt.TEXT_COLOR);
+</script>
+
+		</div>
+			<div class="moduletable">
+					
+<ul class="menu">
+<li class="item-143"><a href="/index.php/contact" >Contact</a></li><li class="item-179"><a href="/index.php/disclaimer" >Disclaimer</a></li></ul>
+		</div>
+	
+    </div>
+    <div id='header'>
+      <div id='banner'>
+      		<div class="moduletable">
+					<div id="showplus_images_banners_all" class="showplus-noscript showplus-center"><div class="showplus"><ul class="showplus-images"><li><a href="http://www.intrasme.eu/"><img src="/images/banners/all/banner1.jpg" alt="" /></a></li><li><a href="http://www.intrasme.eu/"><img src="/images/banners/all/banner2.jpg" alt="" /></a></li><li><a href="http://www.intrasme.eu/"><img src="/images/banners/all/banner3.jpg" alt="" /></a></li><li><a href="http://www.intrasme.eu/"><img src="/images/banners/all/banner4.jpg" alt="" /></a></li></ul></div></div>		</div>
+	
+      </div>
+    </div>
+    <div id='menu'>
+    		<div class="moduletable_menu">
+					
+<ul class="menu">
+<li class="item-101 current active"><a href="/" ><img src="/images/home.png" alt="Home" /><span class="image-title">Home</span> </a></li><li class="item-137 deeper parent"><a href="/index.php/about-the-project" >About the Project</a><ul><li class="item-146"><a href="/index.php/about-the-project/objectives-activities" >Objectives &amp; Activities</a></li><li class="item-147"><a href="/index.php/about-the-project/strategic-impact" >Strategic Impact</a></li><li class="item-193"><a href="/index.php/about-the-project/other-eu-related-projects" >Other EU related projects</a></li></ul></li><li class="item-138 deeper parent"><a href="/index.php/work-packages" >Work Packages</a><ul><li class="item-152"><a href="/index.php/work-packages/wp1" >WP1</a></li><li class="item-153"><a href="/index.php/work-packages/wp2" >WP2</a></li><li class="item-154"><a href="/index.php/work-packages/wp3" >WP3</a></li><li class="item-155"><a href="/index.php/work-packages/wp4" >WP4</a></li><li class="item-156"><a href="/index.php/work-packages/wp5" >WP5</a></li><li class="item-157"><a href="/index.php/work-packages/wp6" >WP6</a></li><li class="item-158"><a href="/index.php/work-packages/wp7" >WP7</a></li></ul></li><li class="item-139 deeper parent"><a href="/index.php/partners" >Partners</a><ul><li class="item-159"><a href="/index.php/partners/consortium" >Consortium</a></li></ul></li><li class="item-178 deeper parent"><a href="/index.php/newsevents" >News &amp; Events</a><ul><li class="item-140"><a href="/index.php/newsevents/news" >News</a></li><li class="item-177"><a href="/index.php/newsevents/events" >Events</a></li><li class="item-231"><a href="/index.php/newsevents/events-list" >Events List</a></li><li class="item-201"><a href="/index.php/newsevents/past-events" >Past Events</a></li></ul></li><li class="item-141 deeper parent"><a href="/index.php/publications-links" >Publications &amp; Links</a><ul><li class="item-161"><a href="/index.php/publications-links/intrasme-publications" >INTRASME Publications</a></li><li class="item-162"><a href="/index.php/publications-links/other-publications" >Other Publications</a></li><li class="item-163"><a href="/index.php/publications-links/useful-links" >Useful Links</a></li><li class="item-164"><a href="/index.php/publications-links/glossary" >Glossary</a></li></ul></li><li class="item-142 deeper parent"><a href="/index.php/innovation-networks-platform" >Innovation Networks Platform</a><ul><li class="item-191"><a href="/index.php/innovation-networks-platform/login" >Login</a></li><li class="item-326"><a href="/index.php/innovation-networks-platform/register" >Register</a></li></ul></li></ul>
+		</div>
+	
+    </div>
+    <div id='content'>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tbody>
+              <tr>
+                              <td id='center' valign="top" >
+                                            		<div class="moduletable">
+					
+
+<!-- JoomlaWorks "Frontpage Slideshow" (v3.2.0) starts here -->
+
+<div id="fpssContainer91" class="fpss-container fpss-template-uncut textEffectSlideUp">
+	<div class="slides-wrapper">
+		<div class="slide-loading"></div>
+		<div class="slides">
+						<div class="slide">
+				<a href="/index.php/component/fpss/track/10/aHR0cDovL2ludHJhc21lLmV1L2luZGV4LnBocC9uZXdzZXZlbnRzL2V2ZW50cy9ldmVudC83MC1uZXctdHJhbnNwb3J0LXRlY2hub2xvZ2llcy1hbmQtb3Bwb3J0dW5pdGllcy1mb3Itc21lcw,," class="slide-link">
+					<span style="background:url(/media/com_fpss/cache/10_e31ace2a15a7c70645ad83df9ecd43b0_m.jpg?t=1404742882) no-repeat;">
+						<img src="/media/com_fpss/cache/10_e31ace2a15a7c70645ad83df9ecd43b0_m.jpg?t=1404742882" alt="Events 2014" />
+					</span>
+				</a>
+								<div class="slidetext">
+					
+					
+					
+					
+										<p><p><span style="font-size: large;"><strong>09 September 2014 INTRASME final event: NEW TRANSPORT TECHNOLOGIES &amp; OPPORTUNITIES FOR SMEs </strong></span></p>
+<p><span style="font-size: large;"><strong>REGISTER NOW FOR FREE</strong></span></p></p>
+					
+										<a href="/index.php/component/fpss/track/10/aHR0cDovL2ludHJhc21lLmV1L2luZGV4LnBocC9uZXdzZXZlbnRzL2V2ZW50cy9ldmVudC83MC1uZXctdHJhbnNwb3J0LXRlY2hub2xvZ2llcy1hbmQtb3Bwb3J0dW5pdGllcy1mb3Itc21lcw,," class="fpssReadMore" title="Read more about Events 2014">More...</a>
+									</div>
+							</div>
+						<div class="slide">
+				<a href="/index.php/component/fpss/track/5/aHR0cDovL3d3dy5pbnRyYXNtZS5ldS9pbmRleC5waHAvbmV3c2V2ZW50cy9uZXdzLzk2LWludHJhc21lLW9ubGluZS1wbGF0Zm9ybS1oYXZlLXlvdS1yZWdpc3RlcmVkLXlldA,," class="slide-link">
+					<span style="background:url(/media/com_fpss/src/5_ffee2447b152494b43d9816faaea83c8_s.jpg?t=1404743046) no-repeat;">
+						<img src="/media/com_fpss/src/5_ffee2447b152494b43d9816faaea83c8_s.jpg?t=1404743046" alt="Map" />
+					</span>
+				</a>
+								<div class="slidetext">
+					
+					
+					
+					
+										<p><p><span style="color: #000000; font-size: x-large;">INTRASME Innovation Network Platform is now available online! Have you registered yet?</span></p></p>
+					
+										<a href="/index.php/component/fpss/track/5/aHR0cDovL3d3dy5pbnRyYXNtZS5ldS9pbmRleC5waHAvbmV3c2V2ZW50cy9uZXdzLzk2LWludHJhc21lLW9ubGluZS1wbGF0Zm9ybS1oYXZlLXlvdS1yZWdpc3RlcmVkLXlldA,," class="fpssReadMore" title="Read more about Map">More...</a>
+									</div>
+							</div>
+						<div class="slide">
+				<a href="/index.php/component/fpss/track/7/aHR0cDovL3d3dy5pbnRyYXNtZS5ldS9pbmRleC5waHAvcHVibGljYXRpb25zLWxpbmtzL2ludHJhc21lLXB1YmxpY2F0aW9ucw,," class="slide-link">
+					<span style="background:url(/media/com_fpss/src/7_9caa2793658f3cc387f216157300b1ce_s.png?t=1404742907) no-repeat;">
+						<img src="/media/com_fpss/src/7_9caa2793658f3cc387f216157300b1ce_s.png?t=1404742907" alt=" Workshops PPT" />
+					</span>
+				</a>
+								<div class="slidetext">
+					
+					
+					
+					
+										<p><p><span style="color: #ff6600; font-size: large;"><strong><span style="color: #000000;">INTRASME WORKHOPs and ROADSHOWs&nbsp;PRESENTATIONS&nbsp;ARE AVAILABLE TO DOWNLOAD</span> </strong></span></p></p>
+					
+										<a href="/index.php/component/fpss/track/7/aHR0cDovL3d3dy5pbnRyYXNtZS5ldS9pbmRleC5waHAvcHVibGljYXRpb25zLWxpbmtzL2ludHJhc21lLXB1YmxpY2F0aW9ucw,," class="fpssReadMore" title="Read more about  Workshops PPT">More...</a>
+									</div>
+							</div>
+					</div>
+	</div>
+	<div class="navigation-wrapper">
+		<div class="navigation-background"></div>
+		<ul class="navigation">
+						<li class="navigation-button">
+				<a href="/index.php/component/fpss/track/10/aHR0cDovL2ludHJhc21lLmV1L2luZGV4LnBocC9uZXdzZXZlbnRzL2V2ZW50cy9ldmVudC83MC1uZXctdHJhbnNwb3J0LXRlY2hub2xvZ2llcy1hbmQtb3Bwb3J0dW5pdGllcy1mb3Itc21lcw,," title="Events 2014">
+					<span class="navigation-info">
+																	</span>
+				</a>
+			</li>
+						<li class="navigation-button">
+				<a href="/index.php/component/fpss/track/5/aHR0cDovL3d3dy5pbnRyYXNtZS5ldS9pbmRleC5waHAvbmV3c2V2ZW50cy9uZXdzLzk2LWludHJhc21lLW9ubGluZS1wbGF0Zm9ybS1oYXZlLXlvdS1yZWdpc3RlcmVkLXlldA,," title="Map">
+					<span class="navigation-info">
+																	</span>
+				</a>
+			</li>
+						<li class="navigation-button">
+				<a href="/index.php/component/fpss/track/7/aHR0cDovL3d3dy5pbnRyYXNtZS5ldS9pbmRleC5waHAvcHVibGljYXRpb25zLWxpbmtzL2ludHJhc21lLXB1YmxpY2F0aW9ucw,," title=" Workshops PPT">
+					<span class="navigation-info">
+																	</span>
+				</a>
+			</li>
+					</ul>
+	</div>
+	<div class="fpssTimer"></div>
+</div>
+<div style="display:none;">Frontpage Slideshow | Copyright &copy; 2006-2011 JoomlaWorks Ltd.</div>
+<!-- JoomlaWorks "Frontpage Slideshow" (v3.2.0) ends here -->
+
+		</div>
+	
+                                              
+                      
+<div id="system-message-container">
+</div>
+              <div class="item-page">
+
+
+
+
+
+
+
+
+
+<table style="margin: 0 -4px;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="padding: 14px 14px 0; width: 300px; background-image: url('/images/home/box1.jpg'); background-repeat: no-repeat;" valign="top">
+<h3>Mission</h3>
+<p>INTRASME aims at improving the capacity and capability of European SMEs to more rapidly develop and implement products and services in the low carbon transportation and smart mobility sectors focusing on the changing role that SMEs have on innovation mechanisms for the transport sector.</p>
+<p style="text-align: right;"><a href="/index.php/about-the-project/strategic-impact"><em>Read More...</em></a></p>
+</td>
+<td width="12px;">&nbsp;</td>
+<td style="padding: 14px 14px 0; background-image: url('/images/home/box2.jpg'); background-repeat: no-repeat;" valign="top" width="300px">
+<h3>Main objective</h3>
+<p>A new “fast and furious” paradigm is needed, by which new transport concepts can be quickly conceived and manufactured to address both niche and large-market needs. The emerging low carbon transport market will be used as the vehicle to examine the barriers to innovation and develop mechanisms to support the potential of SMEs in bringing innovations to the market quickly. (link to objectives)</p>
+<p style="text-align: right;"><a href="/index.php/about-the-project/objectives-activities"><em>Read More...</em></a></p>
+</td>
+</tr>
+<tr>
+<td style="padding: 14px 14px 0; background-image: url('/images/home/box3.jpg'); background-repeat: no-repeat;" valign="top" width="300px">
+<h3>Activities</h3>
+<p>INTRASME will&nbsp; target a sub-set of EU R&amp;D projects with significant involvement of SMEs in the low carbon transportation and smart mobility sectors. Exploitation plans will be developed for these projects, as well as guidelines for exploitation plans for other projects. Support mechanisms will be developed and opportunities identified for SMEs to rapidly bring their innovations to market in the above sectors. Three Thematic Innovation Networks will be established to create a fervent environment for entrepreneurship and innovation in those European regions where innovation links are weak.</p>
+<p style="text-align: right;"><a href="/index.php/work-packages"><em>Read More...</em></a></p>
+</td>
+<td width="12px;">&nbsp;</td>
+<td style="padding: 14px 14px 0; background-image: url('/images/home/box4.jpg'); background-repeat: no-repeat;" valign="top" width="300px">
+<h3>Focus</h3>
+<p>INTRASME focus is on electric land vehicles, electric water vehicles, light aircraft and smart mobility sectors as they are all areas which are rapidly growing and need high levels of innovation and –due to the lower level of complexity- offer great opportunities to SMES because they require new supply chain models. Project activities will be piloted in the UK/West Midlands, Italy/Piedmont, Poland/Warsaw, and Bulgaria/ Northern and Eastern regions which are developing innovation links but have significant identified barriers for innovative SMEs.</p>
+</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="3" style="padding: 14px 14px 0;" valign="top" width="300px">
+<div class="moduletable">
+<div class="custom">
+<p style="text-align: center;"><img alt="eu-flag" src="/images/home/eu-flag.jpg" height="55" width="83" /></p>
+<p><span style="font-size: 8pt;">This project has received funding from the European Union’s Seventh Framework Programme for research, technological development and demonstration under grant agreement n° 314587</span></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+	
+</div>
+
+                    </td>
+                              <td id='right' valign="top" >
+            		<div class="moduletable">
+					<h3>What's New</h3>
+					<div class="aidanews2" style="clear: both;"><div class="aidanews2_art aidacat_8  odd first" style="clear: both;"><div class="aidanews2_positions"><div class="aidanews2_head" style="clear: both;"><h2 class="aidanews2_title"><a href="/index.php/newsevents/news/125-new-transport-technologies-and-opportunities-for-smes-presentaions-available-to-download">New Transport Technologies and Opportunities for SMEs, presentaions available to download</a></h2></div><div class="aidanews2_top" style="clear: both;"><div class="aidanews2_topL"><span class="aidanews2_date" style = "font-size: 10px;
+margin-bottom: 3px;
+color: #999999;">08/11/2014</span></div><div style="clear: both; width: 100%; padding: 0;"></div></div><div class="aidanews2_main" style="clear: both;"><div class="aidanews2_mainC"><a class="aidanews2_img1" href="/index.php/newsevents/news/125-new-transport-technologies-and-opportunities-for-smes-presentaions-available-to-download"><img src="/cache/mod_aidanews2/thumbs/125-new-transport-technologies-and-opportunities-for-smes-presentaions-available-to-download-1-default.jpg" width="60" height="60" alt="new-transport-technologies-and-opportunities-for-smes-presentaions-available-to-download"/></a><span class="aidanews2_text">NEW TRANSPORT TECHNOLOGIES AND OPPORTUNITIES FOR SMES - 9th September 2014 – MIRA Ltd, United Kingdom
+Scene Setting (Chair...</span></div></div><div class="aidanews2_bot" style="clear: both;"><div class="aidanews2_botR"><a href="/index.php/newsevents/news/125-new-transport-technologies-and-opportunities-for-smes-presentaions-available-to-download" class="readon"><span class="aidanews2_readmore">Read More</span></a></div></div></div><div class="aidanews2_line" style="clear: both; padding: 0;"></div></div><div class="aidanews2_art aidacat_8  even last" style="clear: both;"><div class="aidanews2_positions"><div class="aidanews2_head" style="clear: both;"><h2 class="aidanews2_title"><a href="/index.php/newsevents/news/117-electric-cars-in-the-driving-seat">Electric cars in the driving seat </a></h2></div><div class="aidanews2_top" style="clear: both;"><div class="aidanews2_topL"><span class="aidanews2_date" style = "font-size: 10px;
+margin-bottom: 3px;
+color: #999999;">19/09/2014</span></div><div style="clear: both; width: 100%; padding: 0;"></div></div><div class="aidanews2_main" style="clear: both;"><div class="aidanews2_mainC"><a class="aidanews2_img1" href="/index.php/newsevents/news/117-electric-cars-in-the-driving-seat"><img src="/cache/mod_aidanews2/thumbs/117-electric-cars-in-the-driving-seat-1-first.jpg" width="60" height="60" alt="electric-cars-in-the-driving-seat"/></a><span class="aidanews2_text">
+An Italian-led European consortium is piloting an assembly line for a small electric car developed in an EU-funded...</span></div></div><div class="aidanews2_bot" style="clear: both;"><div class="aidanews2_botR"><a href="/index.php/newsevents/news/117-electric-cars-in-the-driving-seat" class="readon"><span class="aidanews2_readmore">Read More</span></a></div></div></div><div class="aidanews2_line" style="clear: both; padding: 0;"></div></div></div><div style="clear: both;"></div>		</div>
+			<div class="moduletable">
+					<h3>IDTechEx News</h3>
+					
+
+<!-- JoomlaWorks "Simple RSS Feed Reader" Module (v2.3) starts here -->
+
+
+<div class="srfrContainer ">
+
+		
+	<ul class="srfrList">
+				<li class="srfrRow0">
+			<a target="_blank" href="http://www.electricvehiclesresearch.com/articles/9127/one-million-pounds-to-industrialise-switched-reluctance-48v-hybrid?rsst2id=3%2C82%2C85%2C81">
+								One million pounds to industrialise switched-reluctance 48V hybrid								
+							</a>
+						<div class="srfrFeedDetails">
+				
+								
+								<span class="srfrFeedItemDate">25/02/2016</span>
+							</div>
+					</li>
+			
+	</ul>
+	
+		
+	</div>
+
+<div class="clr"></div>
+
+<!-- JoomlaWorks "Simple RSS Feed Reader" Module (v2.3) ends here -->
+
+		</div>
+			<div class="moduletable">
+					
+<div id="rs_calendar_module97" class="rs_calendar_module">
+
+	<table cellpadding="0" cellspacing="2" border="0" width="100%" class="rs_table" style="width:100%;">
+		<tr>
+			<td align="left">
+								<a rel="nofollow" href="javascript:void(0);" onclick="rs_calendar('01','2016','97')" class="rs_calendar_arrows_module" id="rs_calendar_arrow_left_module">&laquo;</a>
+			</td>
+			<td align="center">
+																				<span id="rscalendarmonth97">February 2016</span>
+				<img id="rscalendar97" src="http://www.intrasme.eu/components/com_rseventspro/assets/images/loader.gif" alt="" style="vertical-align:middle; display:none;" />
+			</td>
+			<td align="right">
+								<a rel="nofollow" href="javascript:void(0);" onclick="rs_calendar('03','2016','97')" class="rs_calendar_arrows_module" id="rs_calendar_arrow_right_module">&raquo;</a>
+			</td>
+		</tr>
+	</table>
+	
+	<div class="rs_clear"></div>
+	
+	<table class="rs_calendar_module rs_table" cellpadding="0" cellspacing="0" width="100%">
+		<thead>
+			<tr>
+								<th>Mo</th>
+								<th>Tu</th>
+								<th>We</th>
+								<th>Th</th>
+								<th>Fr</th>
+								<th>Sa</th>
+								<th>Su</th>
+							</tr>
+		</thead>
+		<tbody>
+													<tr>
+						<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-01-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">1</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-02-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">2</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-03-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">3</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-04-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">4</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-05-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">5</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-06-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">6</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-07-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">7</span>
+					</a>
+				</td>
+			</tr>														<tr>
+						<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-08-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">8</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-09-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">9</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-10-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">10</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-11-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">11</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-12-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">12</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-13-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">13</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-14-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">14</span>
+					</a>
+				</td>
+			</tr>														<tr>
+						<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-15-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">15</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-16-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">16</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-17-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">17</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-18-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">18</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-19-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">19</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-20-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">20</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-21-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">21</span>
+					</a>
+				</td>
+			</tr>														<tr>
+						<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-22-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">22</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-23-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">23</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-24-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">24</span>
+					</a>
+				</td>
+																		<td class="curr-month curr-day">
+					<a href="/index.php/newsevents/events/day/02-25-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">25</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-26-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">26</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-27-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">27</span>
+					</a>
+				</td>
+																		<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-28-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">28</span>
+					</a>
+				</td>
+			</tr>														<tr>
+						<td class="curr-month">
+					<a href="/index.php/newsevents/events/day/02-29-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">29</span>
+					</a>
+				</td>
+																		<td class="next-month">
+					<a href="/index.php/newsevents/events/day/03-01-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">1</span>
+					</a>
+				</td>
+																		<td class="next-month">
+					<a href="/index.php/newsevents/events/day/03-02-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">2</span>
+					</a>
+				</td>
+																		<td class="next-month">
+					<a href="/index.php/newsevents/events/day/03-03-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">3</span>
+					</a>
+				</td>
+																		<td class="next-month">
+					<a href="/index.php/newsevents/events/day/03-04-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">4</span>
+					</a>
+				</td>
+																		<td class="next-month">
+					<a href="/index.php/newsevents/events/day/03-05-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">5</span>
+					</a>
+				</td>
+																		<td class="next-month">
+					<a href="/index.php/newsevents/events/day/03-06-2016/97" class="hasTip" title="No events::  ">
+						<span class="rs_calendar_date">6</span>
+					</a>
+				</td>
+			</tr>					</tbody>
+	</table>
+	
+</div>
+<div class="rs_clear"></div>		</div>
+			<div class="moduletable">
+					<h3>Follow us</h3>
+					
+
+<div class="custom"  >
+	<a class="twitter-timeline"  href="https://twitter.com/INTRASME"  data-widget-id="351599976037638144">Tweets by @INTRASME</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+		</div>
+			<div class="moduletable">
+					
+
+<div class="custom"  >
+	<p style="text-align: center;"><a target="_blank" href="https://twitter.com/INTRASME"><img style="margin: 0 20px 0;" alt="twitter 32" src="/images/home/twitter_32.png" height="32" width="32" /></a><a target="_blank" href="http://www.linkedin.com/groups/INNOVATIVE-TRANSPORT-SME-SUPPORT-ACTION-4771316/about?trk=anet_ug_grppro"><img style="margin: 0 20px 0;" alt="twitter 32" src="/images/home/linkedin_32.png" height="32" width="32" /></a></p></div>
+		</div>
+	
+                    </td>
+                          </tr>
+                            </tbody>
+        </table>
+    </div>
+    <div id='footer'>
+    		<div class="moduletable">
+					
+
+<div class="custom"  >
+	<p>Copyright Intrasme 2012 © | Designed by <a target="_blank" href="http://www.altitude-design.be">Altitude</a></p></div>
+		</div>
+	
+    </div>
+</div>
+<div id="preload">
+  <img src="/templates/intrasmetemplate/img/home-on.png" />
+</div>
+</body>
+</html>

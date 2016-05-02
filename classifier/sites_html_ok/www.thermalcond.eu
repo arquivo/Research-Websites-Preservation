@@ -1,0 +1,674 @@
+	
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>THERMALCOND</title>
+<meta name="description" content="THERMALCOND is a European collaborative project aiming to develop a NOVEL COLLECTOR containing plastic 
+components with high efficiency, low cost and less weight structures compared with metallic collectors. These collectors will have an improved design due to the use of plastic materials, high thermal conductive nanoparticles modified with SAM technology, and a flexible absorber coating based on nanometallic oxides." />
+<link rel='Shortcut Icon' href='./imagenes/thermalcond.ico' type='image/x-icon' />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery-1.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+<script>
+var dom = {};
+dom.query = jQuery.noConflict(true);
+dom.query(document).ready(function() {
+
+	//if mouse over and mouse out
+	dom.query('.eff').hover(
+	function () {
+
+		value = dom.query(this).find('img').outerHeight() * -1;
+
+		dom.query(this).find('img').stop().animate({bottom: value} ,{duration:1200, easing: 'easeOutBounce'});	
+		
+	},
+	function () {
+		
+
+		dom.query(this).find('img').stop().animate({bottom:0} ,{duration:1200, easing: 'easeOutBounce'});	
+	
+	});
+
+	dom.query('.eff').click(function () {	
+
+	});
+	
+});
+
+</script>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/easySlider1.5.js"></script>
+<script type="text/javascript" charset="utf-8">
+// <![CDATA[
+		
+$(document).ready(function(){	
+	$("#slider").easySlider({
+		controlsBefore:	'<p id="controls">',
+		controlsAfter:	'</p>',
+		auto: true, 
+		continuous: true
+	});	
+});
+// ]]>
+</script>
+
+<style type="text/css">
+#slider { margin:0; padding:0; list-style:none; }
+#slider ul,
+#slider li { margin:0; padding:0; list-style:none; }
+/* 
+    define width and height of list item (slide)
+    entire slider area will adjust according to the parameters provided here
+*/
+#slider li { width:850px; height:200px; overflow:hidden; padding:0; margin:0; }
+p#controls { margin:0; position:relative; }
+#prevBtn,
+#nextBtn { display:block; margin:0; overflow:hidden; width:29px; height:29px; position:absolute; left:-35px; top:-120px; }
+#nextBtn { left:855px; }
+#prevBtn a { display:block; width:29px; height:29px; background:url(imagenes/l_arrow.png) no-repeat 0 0; }
+#nextBtn a { display:block; width:29px; height:29px; background:url(imagenes/r_arrow.png) no-repeat 0 0; }
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31919966-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div class="main">
+  
+	<div class='header'>
+    <div class='block_header'>
+      <div class='logo'><a href='./index.php'><img src='imagenes/logo.png' border='0' alt='logo' style='margin-top:7px' /></a></div>
+      <div class='menu'>
+        <ul>
+          <li><a href='index.php'class='active'>Home</a></li>
+          <li><a href='about_project.php'>About the Project</a></li>
+          <li><a href='objectives.php'>Objectives</a></li>
+          <li><a href='partners.php'>Partners</a></li>
+          <li><a href='publications.php'>Intranet</a></li>
+		  <li><a href='dissemination.php'>Dissemination</a></li>
+          <li><a href='tw_service.php'>TW Service</a></li>
+          <li><a href='contact.php'>Contact</a></li>
+        </ul>
+      </div>
+      <div class='clr'> </div>
+    </div>
+  </div>
+  <div class='slider'>
+    <div class='slice1'>
+      <div class='slice2' id='slider'>
+        <ul><li class='slide'>
+            <div>
+              <p class='img'><img src='./ficheros/noticias/116121259IMG_9285.JPG' style='widht:370px; height:160px' align='right' /></p>
+              <h4><a href='./detalle_noticia.php?no_id=1319' style='padding:0px; text-decoration:none; color:#fff'>FINAL MEETING & DEMO.</a></h4>
+              <a href='./detalle_noticia.php?no_id=1319' style='padding:0px; text-decoration:none; color:#fff'><p>The Final Meeting was held on 27th of November 2012 by Smithers RAPRA &amp; Smithers PIRA in Shrewsbury, United Kingdom.</p></a>
+              <!--<p><a href='./newsletter_subscribe.php' style='padding-left:100px'><img src='imagenes/newsletter.png'  border='0' alt='view' /></a></p>-->
+            </div>
+          </li><li class='slide'>
+            <div>
+              <p class='img'><img src='./ficheros/noticias/126125041imagen_18mm.png' style='widht:370px; height:160px' align='right' /></p>
+              <h4><a href='./detalle_noticia.php?no_id=881' style='padding:0px; text-decoration:none; color:#fff'>18 month meeting</a></h4>
+              <a href='./detalle_noticia.php?no_id=881' style='padding:0px; text-decoration:none; color:#fff'><p><span style=\"text-align: justify;\">The 18 month meeting was held on 2</span><sup>nd</sup><span style=\"text-align: justify;\"> and 3</span><sup>th</sup><span style=\"text-align: justify;\"> May 2012 by AVANZARE in Logro&ntilde;o, Spain.</span></p></a>
+              <!--<p><a href='./newsletter_subscribe.php' style='padding-left:100px'><img src='imagenes/newsletter.png'  border='0' alt='view' /></a></p>-->
+            </div>
+          </li><li class='slide'>
+            <div>
+              <p class='img'><img src='./ficheros/noticias/125125602cabecera_down_servi.jpg' style='widht:370px; height:160px' align='right' /></p>
+              <h4><a href='./detalle_noticia.php?no_id=744' style='padding:0px; text-decoration:none; color:#fff'>Resenergie - Active projects</a></h4>
+              <a href='./detalle_noticia.php?no_id=744' style='padding:0px; text-decoration:none; color:#fff'><p>&nbsp;</p>
+<p style=\"margin-top: 0px; margin-bottom: 1em; text-align: justify; line-height: 18px; font-family: \'Trebuchet MS\', Arial, Helvetica, sans-serif; font-size: 13px; color: #9d9d9d;\">&nbsp;</p>
+<p>&nbsp;</p></a>
+              <!--<p><a href='./newsletter_subscribe.php' style='padding-left:100px'><img src='imagenes/newsletter.png'  border='0' alt='view' /></a></p>-->
+            </div>
+          </li><li class='slide'>
+            <div>
+              <p class='img'><img src='./ficheros/noticias/126110308second.jpg' style='widht:370px; height:160px' align='right' /></p>
+              <h4><a href='./detalle_noticia.php?no_id=586' style='padding:0px; text-decoration:none; color:#fff'>Review Meeting in Brussels</a></h4>
+              <a href='./detalle_noticia.php?no_id=586' style='padding:0px; text-decoration:none; color:#fff'><p class=\"MsoNormal\" style=\"text-align: justify; margin: 0cm 0cm 10pt;\"><span style=\"mso-ansi-language: EN-US;\" lang=\"EN-US\"><span style=\"font-size: small;\"><span style=\"font-family: Calibri;\">During the Review Meeting held in Brussels, the 16<sup>th</sup> of November 2011, the results of the first period were shown...</span></span></span></p></a>
+              <!--<p><a href='./newsletter_subscribe.php' style='padding-left:100px'><img src='imagenes/newsletter.png'  border='0' alt='view' /></a></p>-->
+            </div>
+          </li><li class='slide'>
+            <div>
+              <p class='img'><img src='./ficheros/noticias/113100848IMG_1826.png' style='widht:370px; height:160px' align='right' /></p>
+              <h4><a href='./detalle_noticia.php?no_id=194' style='padding:0px; text-decoration:none; color:#fff'>6 MONTH MEETING</a></h4>
+              <a href='./detalle_noticia.php?no_id=194' style='padding:0px; text-decoration:none; color:#fff'><p>The 6 Month Meeting was held on 10th &amp; 11th May 2011 by Smithers RAPRA&nbsp; in Shrewsbury, United Kingdom. During the meeting, <span id=\"result_box\" lang=\"en\"><span class=\"hps\" title=\"Haz clic
+          para obtener otras posibles traducciones\">the</span> <span class=\"hps\" title=\"Haz clic para obtener otras posibles
+          traducciones\">Consortium</span> <span class=\"hps\" title=\"Haz
+          clic para obtener otras posibles traducciones\">discussed</span> <span class=\"hps\" title=\"Haz clic para obtener otras posibles
+          traducciones\">about</span></span><span class=\"hps\" title=\"Haz clic para obtener otras posibles
+          traducciones\">..</span><span title=\"Haz clic para obtener otras posibles traducciones\">.</span></p></a>
+              <!--<p><a href='./newsletter_subscribe.php' style='padding-left:100px'><img src='imagenes/newsletter.png'  border='0' alt='view' /></a></p>-->
+            </div>
+          </li></ul>
+      </div>
+    </div>
+  </div>  <div class="clr"></div>
+    <!--<div class="bloga_resize">
+  <div class="bloga_resizee">
+      <div class="bloga">
+        <h2><img src="imagenes/about_icon_peq.png" style="padding:0px; margin-left:10px; margin-top:0px" /> About Thermalcond</h2>
+        
+        <p style="padding-left:0px">All information about THERMALCOND (objectives, tasks, results, etc.) .<br /></p>
+        <p class="flecha" id="flecha"><a href="#"><strong><img src="./imagenes/arrow_right.png" border="0" class="flecha" align="absmiddle" /> About the project</strong></a> <a href="#" style="padding-left:20px"><strong><img src="./imagenes/arrow_right.png" border="0" class="flecha" align="absmiddle" /> Objectives</strong></a></p>
+      </div>
+      <div class="bloga">
+        <h2><img src="imagenes/partners_icon_peq.png" style="padding:0px; margin-left:10px; margin-top:0px" /> Partners</h2>
+        
+        <p style="padding-left:0px"> 8 partners from 5 different european countries. <br /><br /></p>
+        <p class="flecha" id="flecha"><a href="#"><strong><img src="./imagenes/arrow_right.png" border="0" class="flecha" align="absmiddle" /> View Partners</strong></a></p>
+      </div>
+      <div class="bloga">
+        <h2><img src="imagenes/publications_icon_peq.png" style="padding:0px; margin-left:10px; margin-top:0px" /> Publications</h2>
+        <p style="padding-left:0px">Access to documents edited by the consortium. <br /><br /></p>
+        <p class="flecha" id="flecha"><a href="#"><strong><img src="./imagenes/arrow_right.png" border="0" class="flecha" align="absmiddle" /> Public</strong></a> <a href="#" style="padding-left:50px"><strong><img src="./imagenes/arrow_right.png" border="0" class="flecha" align="absmiddle" /> Partners</strong></a></p>
+      </div>
+    </div>
+    <div class="clr"></div>
+  </div>-->
+  <div class="clr"></div>
+  <div class="body">
+    <div class="body_resize">
+      <div class="right" style="float:left; position:relative">
+            <p style="font-size:11px; color:#06C; padding-left:5px; font-weight:bold; padding-top:0px">February 25, 2016</p>
+        <h2>Welcome to Thermalcond</h2>
+        <p class="grey" align="justify">Polymeric composite materials with enhanced thermal conductivity properties for heat exchangers applications. </p>
+        <p>THERMALCOND is a European collaborative project aiming to develop a NOVEL COLLECTOR containing plastic 
+components with high efficiency, low cost and less weight structures compared with metallic collectors.
+<br /><br />
+These collectors will have an improved design due to the use of plastic materials, high thermal conductive 
+nanoparticles modified with SAM technology, and a flexible absorber coating based on nanometallic oxides.
+</p>
+        <h2>Partners</h2>
+        <p class="grey" align="justify">8 partners from 5 different european countries. </p>
+<div class="eff" style="margin-left:40px"> <img src="./imagenes/aimplas_logohome.png" alt="AIMPLAS" title="AIMPLAS" />
+                            <div class="caption"><a href="./partners.php?partner=aimplas" class="header">
+                                    <div align="center" style="font-size:11px">AIMPLAS</div>
+                                    <p style="color:#FFF">Instituto Tecnol&oacute;gico del Pl&aacute;stico</p>
+                                    <p style="color:#FFF">Spain</p></a>
+                                  </div>
+                                </div>
+                                <div class="eff"> <img src="./imagenes/arch.png" alt="ARCH" title="ARCH" />
+                                  <div class="caption"><a href="./partners.php?partner=arch" class="header">
+                                    <div align="center" style="font-size:11px">ARCH</div>
+                                    <p style="color:#FFF">A.P.T Archimedes Polymer Technologies LTD</p>
+                                    <p style="color:#FFF">Cyprus</p></a>
+                                  </div>
+                                </div>
+                                <div class="eff"> <img src="./imagenes/colorex.png" alt="COLOREX" title="COLOREX" />
+                                  <div class="caption"><a href="./partners.php?partner=colorex" class="header">
+                                    <div align="center" style="font-size:11px">COLOREX</div>
+                                    <p style="color:#FFF">Colorex Master Batch BV (COLOREX)</p>
+                                    <p style="color:#FFF">Netherlands</p></a>
+                                  </div>
+                                </div>
+                                <div class="eff"> <img src="./imagenes/grupo_abn.png" alt="GRUPO ABN" title="GRUPO ABN" />
+                            <div class="caption"><a href="./partners.php?partner=abn" class="header">
+                                    <div align="center" style="font-size:11px">GRUPO ABN</div>
+                                    <p style="color:#FFF">ABN Pipe Systems </p>
+                                    <p style="color:#FFF">Spain</p></a>
+                                  </div>
+        </div> 
+                                  <div class="eff" style="margin-left:40px">
+                                    <img src="./imagenes/resenergie.png" alt="RESENERGIE" title="RESENERGIE" />
+                                    <div class="caption" ><a href="./partners.php?partner=resenergie" class="header">
+                                    <div align="center" style="font-size:11px">Resenergie</div>
+                                    <p style="color:#FFF">Resenergie, S.L. </p>
+                                    <p style="color:#FFF">Spain</p></a>
+                                  </div>
+                                  </div>
+                                  
+                                  <div class="eff"> <img src="./imagenes/pro_form.png" alt="GRUPO ABN" title="GRUPO ABN" />
+                            <div class="caption"><a href="./partners.php?partner=pro_form" class="header">
+                                    <div align="center" style="font-size:11px">Pro-form </div>
+                                    <p style="color:#FFF">Pro-form Industrial and Commercial Limited Company </p>
+                                    <p style="color:#FFF">Hungary</p></a>
+                                  </div>
+                                  </div>
+                                  
+                                  <div class="eff"> <img src="./imagenes/avanzare.png" alt="AVANZARE" title="AVANZARE" />
+                            <div class="caption"><a href="./partners.php?partner=avanzare" class="header">
+                                    <div align="center" style="font-size:11px">Avanzare </div>
+                                    <p style="color:#FFF">Avanzare Innovaci&oacute;n Tecnol&oacute;gica S.L.  </p>
+                                    <p style="color:#FFF">Spain</p></a>
+                                  </div>
+                                  </div>
+                                  
+                                  <div class="eff"> <img src="./imagenes/rapra.png" alt="RAPRA" title="RAPRA" />
+                            <div class="caption"><a href="./partners.php?partner=rapra" class="header">
+                                    <div align="center" style="font-size:11px">Rapra </div>
+                                    <p style="color:#FFF">RAPRA Technology Limited  </p>
+                                    <p style="color:#FFF">UK</p></a>
+                                  </div>
+                                  </div>
+        </div>                      
+
+      <div class="left" style="position:relative">
+        <div class="cajon_user">
+          <div class="cajon_user_footer">
+            <div class="cajon_user_top">
+            <div style="background:url('./imagenes/cajon_datos2.png') center no-repeat; width:306px; height:100px;">
+            <p style="font-size:11px; color:#333; padding-left:10px; padding-top:10px">
+            Contract Number: <font style="color:#06C; font-weight:bold">FP7-SME-2010-1-262647</font><br />
+            Programme area: <font style="color:#06C; font-weight:bold">FP7</font><br />
+			Subprogramme: <font style="color:#06C; font-weight:bold">CAPACITIES</font><br />
+            Area: <font style="color:#06C; font-weight:bold">R4SMEs</font>
+            </p>
+            </div>
+              <div style="background:url('./imagenes/cajon_vt1.png') center no-repeat; width:306px; height:21px;"></div>
+              <div style="background:url('./imagenes/cajon_vt2.png') center repeat-y; width:306px; font-size:12px; font-weight:bold; color:#333">
+              	<div id="newsticker-demo">    
+    <div class="title">TECHNOLOGY WATCH SERVICE <a href="http://www.softvt.com" target="_blank"><img src="./imagenes/softvt2.png" align="right" border="0" style="margin:0; padding:0px; float:right" /></a></div>
+    <div class="newsticker-jcarousellite">
+		<ul>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/noticias_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_noticia.php?no_id=3777">Graphene Patterns Created in Plastic Sheets with a Laser</a>
+                    <span class="cat">14/12/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/noticias_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_noticia.php?no_id=3776">RF transistors made of films of black phosphorus</a>
+                    <span class="cat">14/12/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/noticias_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_noticia.php?no_id=3775">Is Hazard-Based Sustainable Product Analysis Hazardous to Your Company's Health?</a>
+                    <span class="cat">14/12/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/noticias_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_noticia.php?no_id=3774">Flexible transparent electrodes made from nanowire networks</a>
+                    <span class="cat">14/12/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/noticias_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_noticia.php?no_id=3773">Madico Recognizes Sonoco as Supplier of the Year for Tinted Window Films Packaging</a>
+                    <span class="cat">14/12/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+        			
+                    <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/eventos_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_evento.php?ev_id=84">HVM GRAPHENE 2015</a></a>
+                    <span class="cat">11/12/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/eventos_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_evento.php?ev_id=83">International Conference on Sustainability in Energy and Buildings 2015</a></a>
+                    <span class="cat">01/12/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/eventos_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_evento.php?ev_id=82">International Conference on Nanotechnology (ICNT - 2015)</a></a>
+                    <span class="cat">13/11/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/eventos_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_evento.php?ev_id=81">ICE USA 2015</a></a>
+                    <span class="cat">13/11/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/eventos_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_evento.php?ev_id=80">Polymers in Photovoltaics 2015</a></a>
+                    <span class="cat">02/10/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+            
+            <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/articulos_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_articulo.php?ar_id=4508">Development of in situ generated graphene/benzoxazine&#8208;epoxy nanocomposite for...</a></a>
+                    <span class="cat">14/12/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/articulos_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_articulo.php?ar_id=4507">Preparation and properties of &beta;&#x2010;phase graphene oxide/PVDF composite films</a></a>
+                    <span class="cat">14/12/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/articulos_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_articulo.php?ar_id=4506">Graphene oxide used as a surfactant to induce the flower&#x2010;like ZnO microstructures:...</a></a>
+                    <span class="cat">14/12/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/articulos_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_articulo.php?ar_id=4505">Time-dependent protection of ground and polished Cu using graphene film</a></a>
+                    <span class="cat">14/12/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/articulos_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_articulo.php?ar_id=4504">Catalyst&#x2010;free Growth Mechanism and Structure of Graphene&#x2010;like Nanosheets...</a></a>
+                    <span class="cat">14/12/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+            
+        
+            <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/ayudas_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_ayuda.php?ay_id=22">RESOLUCIÓN de 26 de noviembre de 2014, del presidente del Instituto Valenciano de...</a></a>
+                    <span class="cat">09/12/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/ayudas_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_ayuda.php?ay_id=21">ORDEN de 24 de julio de 2013, de la Consejera de Medio Ambiente y Política Territorial,...</a></a>
+                    <span class="cat">02/09/2013</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/ayudas_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_ayuda.php?ay_id=20">RESOLUCIÓN de 28 de junio de 2013, del presidente del Instituto Valenciano de...</a></a>
+                    <span class="cat">08/07/2013</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/ayudas_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_ayuda.php?ay_id=19">Resolución nº 161, de 17 de junio de 2011, del Consejero de Industria, Innovación y...</a></a>
+                    <span class="cat">13/07/2011</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/ayudas_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_ayuda.php?ay_id=18">Resolución nº 158, de 17 de junio de 2011, del Consejero de Industria, Innovación y...</a></a>
+                    <span class="cat">13/07/2011</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+            
+            <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/normativa_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_normativa.php?no_id=57">F2686 Standard Specification for  Glass Fiber Reinforced Thermoplastic Pipe 		has been...</a></a>
+                    <span class="cat">10/12/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/normativa_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_normativa.php?no_id=56">C1549 Standard Test Method for  Determination of Solar Reflectance Near Ambient...</a></a>
+                    <span class="cat">17/11/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/normativa_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_normativa.php?no_id=55">C1696 Standard Guide for  Industrial Thermal Insulation Systems 																			has...</a></a>
+                    <span class="cat">11/11/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/normativa_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_normativa.php?no_id=54">IEC/NP 62565-3-1 - Nanomanufacturing -- Material specifications -- Part 3-1: Graphene --...</a></a>
+                    <span class="cat">13/10/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/normativa_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_normativa.php?no_id=53">C1696 Standard Guide for  Industrial Thermal Insulation Systems 		has been revised to...</a></a>
+                    <span class="cat">13/10/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+            
+             <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/oferta_demanda_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_oferta_demanda.php?of_id=109">Innovative technology for the simultaneous production of electricity, hot water and...</a></a>
+                    <span class="cat">21/11/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/oferta_demanda_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_oferta_demanda.php?of_id=108">A Dutch developer of a unique solar water heater system with a compact plastic storage...</a></a>
+                    <span class="cat">21/11/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/oferta_demanda_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_oferta_demanda.php?of_id=107">Modificación molecular de la conductividad del grafeno</a></a>
+                    <span class="cat">17/11/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/oferta_demanda_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_oferta_demanda.php?of_id=106">New photocatalytic materials based on graphene and titania</a></a>
+                    <span class="cat">14/07/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/oferta_demanda_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_oferta_demanda.php?of_id=105">Rigid polymer foams with good electrical conductivity</a></a>
+                    <span class="cat">24/06/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+            
+            <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/patentes_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_patente.php?pa_id=640">GRAPHENE OXIDE POLYMER WITH NONLINEAR RESISTIVITY</a></a>
+                    <span class="cat">22/10/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/patentes_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_patente.php?pa_id=639">RESIN COMPOSITION FOR EMI SHIELDING, COMPRISING CARBON HYDRIDE COMPOSITE</a></a>
+                    <span class="cat">22/10/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/patentes_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_patente.php?pa_id=638">COMPOSITE GRAPHENE STRUCTURES</a></a>
+                    <span class="cat">22/10/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/patentes_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_patente.php?pa_id=637">GRAPHENE OXIDE POLYMER WITH NONLINEAR RESISTIVITY</a></a>
+                    <span class="cat">22/10/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+                <li>
+				<div class="thumbnail" align="center">
+					<img src="imagenes/patentes_blue.png" style="margin:0px; padding:0px">
+				</div>
+				<div class="info" style="text-align:justify">
+					<a href="./detalle_patente.php?pa_id=636">RESIN COMPOSITION FOR EMI SHIELDING, COMPRISING CARBON HYDRIDE COMPOSITE</a></a>
+                    <span class="cat">22/10/2014</span>
+				</div>
+				<div class="clear"></div>
+			</li>
+            
+                
+        </ul>
+    </div>
+    
+</div>
+			<p align="center"><a href="./tw_service.php">View All</a></p>	
+              </div>
+              <div style="background:url('./imagenes/cajon_vt3.png') center repeat-y; width:306px; height:13px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+</div>
+
+	<div class='footer'>
+  <div class='footer_resize'>
+  <div align='center'>
+  <div style='float:left'><img src='./imagenes/logo_ue.png' align='absmiddle' /> <img src='./imagenes/logo_7.png' align='absmiddle' /> <img src='./imagenes/rea_logo.png' align='absmiddle' /></div><div style='float:left; color:#333; font-weight:bold; padding-left:5px; font-size:11px; text-align:justify; color:#666; width:690px'>&quot;The research leading to these results has received funding from the European Union Seventh Framework Programme (FP7/2007-2013) under grant agreement n° 262647&quot;<br /><br /><a href='mailto:dit@aimplas.es' style='text-decoration:none; color:#06F'>Webmaster Contact</a><img src='./imagenes/provided.png' align='right' style='margin-left:0px; margin-top:0px' /></div></p>
+   </div>
+   </div>
+</div></body>
+<script src="js/jquery-latest.pack.js" type="text/javascript"></script>
+<script src="js/jcarousellite_1.0.1c4.js" type="text/javascript"></script>
+<script type="text/javascript">
+jQuery.noConflict();
+jQuery(function() {
+	jQuery(".newsticker-jcarousellite").jCarouselLite({
+		vertical: true,
+		hoverPause:true,
+		visible: 4,
+		auto:2000,
+		speed:1000
+	});
+});
+</script>
+</html>

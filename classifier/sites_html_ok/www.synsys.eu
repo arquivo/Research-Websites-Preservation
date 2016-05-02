@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--BEGIN html-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!-- Built on WP Framework (http://wpframework.com) - Powered by WordPress (http://wordpress.org) -->
+
+<!--BEGIN head-->
+<head profile="http://purl.org/uF/hAtom/0.1/ http://purl.org/uF/2008/03/">
+
+	<title>synsys - A European expertise Network on building the synapse</title>
+
+	<!-- Meta Tags -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="generator" content="WordPress" />
+	<meta name="framework" content="WP Framework" />
+
+	<!-- Favicon: Browser + iPhone Webclip -->
+	<link rel="shortcut icon" href="http://www.synsys.eu/wp-content/themes/synsys/library/media/images/favicon.ico" />
+	<link rel="apple-touch-icon" href="http://www.synsys.eu/wp-content/themes/synsys/library/media/images/iphone.png" />
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="http://www.synsys.eu/wp-content/themes/synsys/style.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="http://www.synsys.eu/wp-content/themes/synsys/library/media/css/print.css" type="text/css" media="print" />
+
+  	<!-- Links: RSS + Atom Syndication + Pingback etc. -->
+	<link rel="alternate" type="application/rss+xml" title="synsys RSS Feed" href="http://www.synsys.eu/feed" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="http://www.synsys.eu/feed/rss" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.synsys.eu/feed/atom" />
+	<link rel="pingback" href="http://www.synsys.eu/xmlrpc.php" />
+
+	<!-- Theme Hook -->
+    	<link rel="alternate" type="application/rss+xml" title="synsys &raquo; Home Comments Feed" href="http://www.synsys.eu/home/feed" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.synsys.eu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='cptch_stylesheet-css'  href='http://www.synsys.eu/wp-content/plugins/captcha/css/style.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://www.synsys.eu/wp-includes/css/dashicons.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='cptch_desktop_style-css'  href='http://www.synsys.eu/wp-content/plugins/captcha/css/desktop_style.css?ver=4.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.synsys.eu/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.synsys.eu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.synsys.eu/wp-content/themes/synsys/library/media/js/supersubs.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.synsys.eu/wp-content/themes/synsys/library/media/js/jquery.bgiframe.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.synsys.eu/wp-content/themes/synsys/library/media/js/superfish.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.synsys.eu/wp-content/themes/synsys/library/media/js/screen.js?ver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cptch_vars = {"nonce":"1f96d2e2fb","ajaxurl":"http:\/\/www.synsys.eu\/wp-admin\/admin-ajax.php","enlarge":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.synsys.eu/wp-content/plugins/captcha/js/front_end_script.js?ver=4.4.2'></script>
+<link rel='https://api.w.org/' href='http://www.synsys.eu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.synsys.eu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.synsys.eu/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="http://www.synsys.eu/" />
+<link rel='shortlink' href='http://www.synsys.eu/' />
+<meta name="robots" content="index, follow" />
+<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+<!--END head-->
+</head>
+
+<!--BEGIN body-->
+<body class="home singular y2016 m02 d25 h12 page pageid-4 page-author-annemieke_syn page-template page-template-tpl-home-php unknown-os unknown-browser">
+
+	<!--BEGIN #container-->
+	<div id="container1">
+	<div id="container">
+	
+	
+		<!--BEGIN .header-->
+		<div id="header">
+			<div id="logo"><a href="http://www.synsys.eu">synsys</a></div>
+			<p id="tagline">A European expertise Network on building the synapse</p>
+            
+            <div class="ec-logo"></div>	
+		
+		<div class="service">
+<ul class="nav-service">
+					<li class="page_item page-item-45"><a href="http://www.synsys.eu/partner-login">Partner login</a></li>
+<li class="page_item page-item-47"><a href="http://www.synsys.eu/contact">Contact</a></li>
+<li class="page_item page-item-49"><a href="http://www.synsys.eu/links">Links</a></li>
+				</ul>
+
+		</div><!--END .service-->
+
+<!--END .header-->
+		</div>
+
+<div class="menu">
+<ul class="nav">
+					<li class="page_item page-item-4 current_page_item"><a href="http://www.synsys.eu/">Home</a></li>
+<li class="page_item page-item-7 page_item_has_children"><a href="http://www.synsys.eu/general-public">General public</a></li>
+<li class="page_item page-item-19 page_item_has_children"><a href="http://www.synsys.eu/for-scientists">For scientists</a></li>
+<li class="page_item page-item-39 page_item_has_children"><a href="http://www.synsys.eu/partners">Partners</a></li>
+				</ul>
+
+		</div><!--END .menu-->
+		
+
+
+     
+		<!--BEGIN #wrapper-->
+	<div id="wrapper">
+
+<!--BEGIN #content-->
+		<div id="content">
+					
+							
+				<!--BEGIN .hentry-->
+				<div id="post-4" class="post-4 page type-page status-publish hentry p publish first-page author-annemieke_syn untagged y2011 m04 d08 h08">
+					<h1 class="entry-title">Home</h1>
+                    
+					<!--BEGIN .entry-content .article-->
+					<div class="entry-content article">
+						<h1><img class="size-full wp-image-421 alignnone" title="computer-picture" src="http://www.synsys.eu/wp-content/uploads/2010/02/computer-picture.jpg" alt="" width="488" height="200" />The SynSys Project</h1>
+<p>SynSys stands for ‘Synaptic Systems’. SynSys aims at molecular analysis of synapse function and dynamic modeling. The perspective is to generate a blueprint for the discovery of novel pathways and targets that enable rational strategies to design therapies for human brain disease.<br />
+Read more <a href="http://www.synsys.eu/for-scientists" target="_self">&gt; scientific</a> or for the <a href="http://www.synsys.eu/general-public" target="_self">&gt; general public</a></p>
+					<!--END .entry-content .article-->
+						 <img class="progress" src="http://www.synsys.eu/wp-content/uploads/2013/06/synsys-progress-three-quarter.png" alt="progress" />
+						 </div>
+
+					<!-- Auto Discovery Trackbacks
+					<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://www.synsys.eu/"
+    dc:identifier="http://www.synsys.eu/"
+    dc:title="Home"
+    trackback:ping="http://www.synsys.eu/trackback" />
+</rdf:RDF>					-->
+				<!--END .hentry-->
+			</div>
+				
+
+					
+		
+			</div>	<!--END #content-->
+			
+			</div><!--END #wrapper-->
+
+<div class="column" id="column1" ><h2><a href="http://www.synsys.eu/general-public">General Public</a></h2>
+<ul class="nav-home">
+					<li class="page_item page-item-45"><a href="http://www.synsys.eu/partner-login">Partner login</a></li>
+<li class="page_item page-item-7 page_item_has_children"><a href="http://www.synsys.eu/general-public">General public</a>
+<ul class='children'>
+	<li class="page_item page-item-12"><a href="http://www.synsys.eu/general-public/science-explained">Science explained</a></li>
+	<li class="page_item page-item-14"><a href="http://www.synsys.eu/general-public/about-the-partners">About the partners</a></li>
+</ul>
+</li>
+</ul></div>
+<div  class="column" id="column2" ><h2><a href="http://www.synsys.eu/scientists">Scientific</a></h2>
+<ul class="nav-home"><li class="page_item page-item-19 page_item_has_children"><a href="http://www.synsys.eu/for-scientists">For scientists</a>
+<ul class='children'>
+	<li class="page_item page-item-21 page_item_has_children"><a href="http://www.synsys.eu/for-scientists/workflow">Workflow</a></li>
+	<li class="page_item page-item-31"><a href="http://www.synsys.eu/for-scientists/goals">Goals</a></li>
+	<li class="page_item page-item-33 page_item_has_children"><a href="http://www.synsys.eu/for-scientists/meetings">Meetings</a></li>
+	<li class="page_item page-item-225"><a href="http://www.synsys.eu/for-scientists/publications">Publications</a></li>
+	<li class="page_item page-item-228"><a href="http://www.synsys.eu/for-scientists/databases">Databases</a></li>
+	<li class="page_item page-item-37"><a href="http://www.synsys.eu/for-scientists/progress">Progress</a></li>
+</ul>
+</li>
+</ul></div>
+<div  class="column" id="column3" ><h2><a href="http://www.synsys.eu/partners">Partners</a></h2>
+<ul class="nav-home"><li class="page_item page-item-45 page_item_has_children"><a href="http://www.synsys.eu/partner-login">Partner login</a>
+<ul class='children'>
+	<li class="page_item page-item-470"><a href="http://www.synsys.eu/partner-login/contact-information">Contact information</a></li>
+	<li class="page_item page-item-465"><a href="http://www.synsys.eu/partner-login/reporting">Reporting</a></li>
+	<li class="page_item page-item-475"><a href="http://www.synsys.eu/partner-login/publication-instructions">Publications</a></li>
+</ul>
+</li>
+<li class="page_item page-item-39"><a href="http://www.synsys.eu/partners">Partners</a></li>
+</ul></div>
+<div  class="column" id="column4" ><div id="text-3" class="widget widget_text"><h3 class="widget-title"> 4th European Synapse Meeting</h3>			<div class="textwidget"><strong><a href="http://esm-bordeaux2013.risc.cnrs.fr/" target="_blank">28 - 30 August 2013</a></strong>
+<br>
+Bordeaux, France</div>
+		</div>	        <div id="wp-cumulus" class="widget wp_cumulus_widget">							<h3 class="widget-title">Tagcloud</h3>						<!-- SWFObject embed by Geoff Stearns geoff@deconcept.com http://blog.deconcept.com/swfobject/ --><script type="text/javascript" src="http://www.synsys.eu/wp-content/plugins/wp-cumulus/swfobject.js"></script><div id="wpcumuluswidgetcontent6975402"><p><a href='http://www.synsys.eu/archives/tag/adhd' class='tag-link-22' title='1 topic' style='font-size: 8pt;'>ADHD</a>
+<a href='http://www.synsys.eu/archives/tag/analysis' class='tag-link-16' title='2 topics' style='font-size: 14.3pt;'>Analysis</a>
+<a href='http://www.synsys.eu/archives/tag/biofarmatics' class='tag-link-17' title='1 topic' style='font-size: 8pt;'>Biofarmatics</a>
+<a href='http://www.synsys.eu/archives/tag/brain' class='tag-link-23' title='1 topic' style='font-size: 8pt;'>Brain</a>
+<a href='http://www.synsys.eu/archives/tag/database' class='tag-link-18' title='2 topics' style='font-size: 14.3pt;'>Database</a>
+<a href='http://www.synsys.eu/archives/tag/depression' class='tag-link-24' title='1 topic' style='font-size: 8pt;'>Depression</a>
+<a href='http://www.synsys.eu/archives/tag/design-drugs' class='tag-link-8' title='1 topic' style='font-size: 8pt;'>design drugs</a>
+<a href='http://www.synsys.eu/archives/tag/disease' class='tag-link-9' title='2 topics' style='font-size: 14.3pt;'>Disease</a>
+<a href='http://www.synsys.eu/archives/tag/dynamic-models' class='tag-link-25' title='1 topic' style='font-size: 8pt;'>Dynamic models</a>
+<a href='http://www.synsys.eu/archives/tag/europe' class='tag-link-4' title='1 topic' style='font-size: 8pt;'>Europe</a>
+<a href='http://www.synsys.eu/archives/tag/general-public' class='tag-link-10' title='1 topic' style='font-size: 8pt;'>General public</a>
+<a href='http://www.synsys.eu/archives/tag/genes' class='tag-link-26' title='1 topic' style='font-size: 8pt;'>Genes</a>
+<a href='http://www.synsys.eu/archives/tag/interactome' class='tag-link-13' title='4 topics' style='font-size: 22pt;'>Interactome</a>
+<a href='http://www.synsys.eu/archives/tag/migraine' class='tag-link-27' title='1 topic' style='font-size: 8pt;'>Migraine</a>
+<a href='http://www.synsys.eu/archives/tag/modelling' class='tag-link-28' title='1 topic' style='font-size: 8pt;'>Modelling</a>
+<a href='http://www.synsys.eu/archives/tag/nervous-system' class='tag-link-11' title='1 topic' style='font-size: 8pt;'>Nervous System</a>
+<a href='http://www.synsys.eu/archives/tag/neural-network' class='tag-link-20' title='1 topic' style='font-size: 8pt;'>Neural network</a>
+<a href='http://www.synsys.eu/archives/tag/phosphoproteome' class='tag-link-14' title='1 topic' style='font-size: 8pt;'>Phosphoproteome</a>
+<a href='http://www.synsys.eu/archives/tag/protein' class='tag-link-12' title='1 topic' style='font-size: 8pt;'>Proteïn</a>
+<a href='http://www.synsys.eu/archives/tag/schizophrenia' class='tag-link-29' title='1 topic' style='font-size: 8pt;'>Schizophrenia</a>
+<a href='http://www.synsys.eu/archives/tag/scientists' class='tag-link-5' title='1 topic' style='font-size: 8pt;'>Scientists</a>
+<a href='http://www.synsys.eu/archives/tag/synapse' class='tag-link-6' title='4 topics' style='font-size: 22pt;'>Synapse</a>
+<a href='http://www.synsys.eu/archives/tag/synaptic-physiology' class='tag-link-21' title='1 topic' style='font-size: 8pt;'>Synaptic physiology</a>
+<a href='http://www.synsys.eu/archives/tag/synaptic-proteins' class='tag-link-19' title='1 topic' style='font-size: 8pt;'>Synaptic proteins</a>
+<a href='http://www.synsys.eu/archives/tag/synaptic-proteomics' class='tag-link-15' title='1 topic' style='font-size: 8pt;'>Synaptic proteomics</a>
+<a href='http://www.synsys.eu/archives/tag/synsys' class='tag-link-7' title='2 topics' style='font-size: 14.3pt;'>Synsys</a></p><p>WP Cumulus Flash tag cloud by <a href="http://www.roytanck.com" rel="nofollow">Roy Tanck</a> requires <a href="http://www.macromedia.com/go/getflashplayer">Flash Player</a> 9 or better.</p></div><script type="text/javascript">var widget_so4386596 = new SWFObject("http://www.synsys.eu/wp-content/plugins/wp-cumulus/tagcloud.swf?r=3224182", "tagcloudflash", "235", "235", "9", "#ffffff");widget_so4386596.addParam("allowScriptAccess", "always");widget_so4386596.addVariable("tcolor", "0x333333");widget_so4386596.addVariable("tcolor2", "0x333333");widget_so4386596.addVariable("hicolor", "0x000000");widget_so4386596.addVariable("tspeed", "100");widget_so4386596.addVariable("distr", "true");widget_so4386596.addVariable("mode", "tags");widget_so4386596.addVariable("tagcloud", "%3Ctags%3E%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fadhd%27+class%3D%27tag-link-22%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3EADHD%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fanalysis%27+class%3D%27tag-link-16%27+title%3D%272+topics%27+style%3D%27font-size%3A+14.3pt%3B%27%3EAnalysis%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fbiofarmatics%27+class%3D%27tag-link-17%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3EBiofarmatics%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fbrain%27+class%3D%27tag-link-23%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3EBrain%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fdatabase%27+class%3D%27tag-link-18%27+title%3D%272+topics%27+style%3D%27font-size%3A+14.3pt%3B%27%3EDatabase%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fdepression%27+class%3D%27tag-link-24%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3EDepression%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fdesign-drugs%27+class%3D%27tag-link-8%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3Edesign+drugs%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fdisease%27+class%3D%27tag-link-9%27+title%3D%272+topics%27+style%3D%27font-size%3A+14.3pt%3B%27%3EDisease%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fdynamic-models%27+class%3D%27tag-link-25%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3EDynamic+models%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Feurope%27+class%3D%27tag-link-4%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3EEurope%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fgeneral-public%27+class%3D%27tag-link-10%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3EGeneral+public%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fgenes%27+class%3D%27tag-link-26%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3EGenes%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Finteractome%27+class%3D%27tag-link-13%27+title%3D%274+topics%27+style%3D%27font-size%3A+22pt%3B%27%3EInteractome%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fmigraine%27+class%3D%27tag-link-27%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3EMigraine%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fmodelling%27+class%3D%27tag-link-28%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3EModelling%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fnervous-system%27+class%3D%27tag-link-11%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3ENervous+System%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fneural-network%27+class%3D%27tag-link-20%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3ENeural+network%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fphosphoproteome%27+class%3D%27tag-link-14%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3EPhosphoproteome%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fprotein%27+class%3D%27tag-link-12%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3EProte%C3%AFn%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fschizophrenia%27+class%3D%27tag-link-29%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3ESchizophrenia%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fscientists%27+class%3D%27tag-link-5%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3EScientists%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fsynapse%27+class%3D%27tag-link-6%27+title%3D%274+topics%27+style%3D%27font-size%3A+22pt%3B%27%3ESynapse%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fsynaptic-physiology%27+class%3D%27tag-link-21%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3ESynaptic+physiology%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fsynaptic-proteins%27+class%3D%27tag-link-19%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3ESynaptic+proteins%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fsynaptic-proteomics%27+class%3D%27tag-link-15%27+title%3D%271+topic%27+style%3D%27font-size%3A+8pt%3B%27%3ESynaptic+proteomics%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.synsys.eu%2Farchives%2Ftag%2Fsynsys%27+class%3D%27tag-link-7%27+title%3D%272+topics%27+style%3D%27font-size%3A+14.3pt%3B%27%3ESynsys%3C%2Fa%3E%3C%2Ftags%3E");widget_so4386596.write("wpcumuluswidgetcontent6975402");</script>	        </div>		<div id="text-4" class="widget widget_text"><h3 class="widget-title">News</h3>			<div class="textwidget"><ul>
+<li><strong><a href="http://esm-bordeaux2013.risc.cnrs.fr/" target="_blank">28 - 30 August 2013</a></strong></li>
+<li> 4th European Synapse Meeting</li>
+<li> Bordeaux, France</li></div>
+		</div></div>
+		
+		
+				</div> <!--END #container-->
+			
+		<!--BEGIN #footer-->
+		<div id="footer">
+			<div id="footer-c">
+			
+			<p id="copyright">&copy; 2011 <a href="http://www.synsys.eu">Synaptologics.com</a> | Website made by <a href="http://www.karenfolkertsma.nl/">Karen Folkertsma</a> and <a href="http://www.alva-design.com/">Alva Design</a> in <a href="http://wordpress.org">WordPress</a> | <a href="http://www.synsys.eu">Home</a> | <a href="http://www.synsys.eu/contact">Contact</a></p>
+		
+
+	</div> <!--END #footer-c-->
+	</div> <!--END #footer-->
+	
+</div> <!--END #container1-->
+
+</body><!--END body-->
+<!--END html(kthxbye)-->
+</html>

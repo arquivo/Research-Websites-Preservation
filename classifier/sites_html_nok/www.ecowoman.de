@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>eco woman das große eco-Lifestyle-Magazin für Nachhaltigkeit</title>
+<meta name="robots" content="index,follow" />
+<meta name="description" content="Ecowoman, Nachhaltig Leben, das große eco-Lifestyle-Magazin mit vielen Tipps und Ratschlägen für ein nachhaltiges Leben und eine bessere Zunkunft." />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<link rel="stylesheet" href="/css/ecowoman.0215.css">
+<link rel="canonical" href="http://www.ecowoman.de/" />
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="content-language" content="de">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-59158384-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<script type="text/javascript">
+WebFontConfig={google:{families:['Cabin::latin','Playfair+Display::latin','Open+Sans::latin','Montserrat:400,700:latin']}};
+(function(){var wf=document.createElement('script');wf.src=('https:'==document.location.protocol?'https':'http')+'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';wf.type='text/javascript';wf.async='true';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(wf,s)})();
+</script>
+<!--[if lt IE 9]>
+<script src="/js/ie9.js"></script>
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel="stylesheet" href="/css/ie7.css">
+<![endif]-->
+<script type="text/javascript">
+function bindEvent(element, type, handler) {
+   if(element.addEventListener) {
+      element.addEventListener(type, handler, false);
+   } else {
+      element.attachEvent('on'+type, handler);
+   }
+}
+
+var adition = adition || {};
+adition.srq = adition.srq || [];
+// Load |srp|
+(function() {
+var script = document.createElement("script");
+script.type = "text/javascript";
+script.src = (document.location.protocol === "https:" ?
+"https:" : "http:") + "//imagesrv.adition.com/js/srp.js";
+script.charset = "utf-8";
+script.async = true;
+var firstScript = document.getElementsByTagName("script")[0];
+firstScript.parentNode.insertBefore(script, firstScript);
+})();
+var width = window.innerWidth && document.documentElement.clientWidth ? Math.min(window.innerWidth, document.documentElement.clientWidth) : window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+var device = 'desktop';
+if (width <= 480) {
+	device = 'phone';
+} else if (width <= 959) {
+	device = 'tablet';
+}
+adition.srq.push(function(api) {
+    api.modules.setLoadingTimeout(2000);
+    api.registerAdfarm("adfarm1.adition.com");
+    api.setProfile("device", device);
+    api.configureRenderSlot("renderSlot_banderole").setContentunitId(3422326);
+	api.configureRenderSlot("renderSlot_bigsizebanner").setContentunitId(3422330);
+	api.configureRenderSlot("renderSlot_billboard").setContentunitId(3422329);
+	api.configureRenderSlot("renderSlot_contentad1").setContentunitId(3422328);
+	api.configureRenderSlot("renderSlot_contentad2").setContentunitId(3422327);
+	api.configureRenderSlot("renderSlot_layer").setContentunitId(3422331);
+	
+	 if (width >= 960) { api.configureRenderSlot("renderSlot_footer").setContentunitId(3422333);
+	api.configureRenderSlot("renderSlot_skyscraper_left").setContentunitId(3422335);
+	api.configureRenderSlot("renderSlot_skyscraper_right").setContentunitId(3422334);
+	
+	 } 
+		api.configureRenderSlot("renderSlot_bigsizebanner").events.onPreRender(
+			function(renderSlotElement, bannerDescriptionApi, renderControlApi) {
+				var leaderboardHeight = parseInt(bannerDescriptionApi.getHeight());
+				if (width < 960 && leaderboardHeight > 0) {
+					document.getElementById('header').style.top = (leaderboardHeight)+'px';
+				}
+			}
+		);
+		if (width >= 1276) {
+			var skyleftwidth = 0;
+			api.configureRenderSlot("renderSlot_skyscraper_left").events.onPreRender(
+				function(renderSlotElement, bannerDescriptionApi, renderControlApi) {
+					var skywidth = parseInt(bannerDescriptionApi.getWidth());
+					if (skywidth > 0 && bannerDescriptionApi.getBannerCode() != '') {
+						skyleftwidth = skywidth;
+					}
+				}
+			);
+			api.configureRenderSlot("renderSlot_skyscraper_right").events.onPreRender(
+				function(renderSlotElement, bannerDescriptionApi, renderControlApi) {
+					var skyrightwidth = parseInt(bannerDescriptionApi.getWidth());
+					if (skyrightwidth > 0 && skyleftwidth == 0) {
+						var classlist = document.getElementsByClassName('mainsize');
+						var classlist_length = classlist.length;
+						for (var i=0;i<=classlist_length;i++) {
+							var e = classlist[i];
+							if (e !== undefined) {
+								e.style.maxWidth=(skyrightwidth+1180)+'px';
+							}
+						}
+					}
+				}
+			);
+		}
+
+
+        api.load().completeRendering();
+})
+</script>
+<script type="text/javascript">
+var Ads_BA_ADIDsite = "ecowoman.de";
+var Ads_BA_ADIDsection = "test"; 
+var Ads_BA_keyword = ""; 
+</script>
+<script type="text/javascript" src="/js/ecw_adlib_r2.js"></script>
+</head>
+<body>
+<div class="mainsize">
+<div id="wrapper" class="ct"><div id="leaderboard"><div id="renderSlot_bigsizebanner">
+        <script type="text/javascript">
+        
+        adition.srq.push(function(api) {
+        api.renderSlot("renderSlot_bigsizebanner");
+        })
+        
+        </script>
+    </div>
+</div>
+<div id="header">
+<header class="ct">
+    <div class="mp">        
+        <div id="logo">
+            <a href="/"><img src="/images/static/ecowoman-logo.png" alt="ecowoman.de" title="ecowoman.de" /></a>
+        </div>
+        
+        <div id="nltop">
+            <a href="/newsletter/archiv">Newsletter Abo</a>
+        </div><div id="nav-menu"></div>
+    </div>  
+</header><nav class="ct" id="nav">
+    <div class="mp">
+        <div id="skyscraperleft">
+            <div id="skyfixleft">
+                <div id="renderSlot_skyscraper_left">
+        <script type="text/javascript">
+         var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+					if (width >= 960) { 
+        adition.srq.push(function(api) {
+        api.renderSlot("renderSlot_skyscraper_left");
+        })
+         } 
+        </script>
+    </div>
+
+            </div>
+        </div>
+        <ul id="nav-main">
+            <li>
+                <a href="/nachhaltige-nachrichten/" class="nav-mainlink">News <span class="nav-subnavviewer"></span></a>
+                <div class="subnav">
+                    <div class="subnav-left">
+                        <ul>
+                            <li><a href="/1-blog/">Blog</a></li>
+                            <li><a href="/special/">Special</a></li>
+                            <li><a href="/gaesteblog/">G&auml;steblog</a></li>
+                        </ul>
+                    </div>
+                    <div class="subnav-right">
+                        <ul class="subnavlist" ><li><a href="/nachhaltige-nachrichten/jungunternehmer-im-nachhaltigen-traditionsunternehmen-fuer-naturholzmoebel-2146"><img src="http://www.ecowoman.de/images/stories/Nachrichten/Allnatura_Gesch%C3%A4ftsf%C3%BChrer_320.jpg" alt="Nachfolge bei Traditionsunternehmen gesichert" title="Nachfolge bei Traditionsunternehmen gesichert" width="280" height="184" />Nachfolge bei Traditionsunternehmen gesichert</a></li><li><a href="/nachhaltige-nachrichten/bienensterben-projekt-frankfurt-biene-retter-biodiversitaet-bienenschutz-2143"><img src="http://www.ecowoman.de/images/stories/Nachrichten/Blumen_Bienen_320.jpg" alt="Qualitätssiegel für die Bienenretter" title="Qualitätssiegel für die Bienenretter" width="280" height="184" />Qualitätssiegel für die Bienenretter</a></li><li class="nmr"><a href="/nachhaltige-nachrichten/fuenf-jahre-fukushima-die-atomare-katastrophe-darf-nicht-vergessen-werden-2140"><img src="http://www.ecowoman.de/images/stories/Nachrichten/Fukushima-5-Jahre_320.jpg" alt="Fukushima darf nicht vergessen werden" title="Fukushima darf nicht vergessen werden" width="280" height="184" />Fukushima darf nicht vergessen werden</a></li></ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="/themen/" class="nav-mainlink">Magazin <span class="nav-subnavviewer"></span></a>
+                <div class="subnav">
+                    <div class="subnav-left">
+                        <ul>
+                            <li><a href="/20-essen-trinken/">Essen &amp; Trinken</a></li>
+                            <li><a href="/21-mode-kosmetik/">Mode &amp; Kosmetik</a></li>
+                            <li><a href="/30-wohnen-haushalt/">Wohnen &amp; Haushalt</a></li>
+                            <li><a href="/51-familie/">Kinder &amp; Familie</a></li>
+                            <li><a href="/34-gesundheit/">Gesundheit &amp; Wellness</a></li>
+                            <li><a href="/25-haus-garten/">Haus &amp; Garten</a></li>
+                            <li><a href="/29-freizeit-reisen/">Freizeit &amp; Reisen</a></li>
+                            <li><a href="/24-natur-umwelt/">Natur &amp; Umwelt</a></li>
+                            <li><a href="/23-finanzen/">Versicherung &amp; Finanzen</a></li>
+                        </ul>
+                    </div>
+                    <div class="subnav-right">
+                        <ul class="subnavlist" ><li><a href="http://www.ecowoman.de/29-freizeit-reisen/4624-biofach-und-vivaness-diese-neuen-eco-produkte-sind-jetzt-unverzichtbar"><img src="http://www.ecowoman.de/images/stories/Ferien__Freizeit/Biofach-Vivaness-Neuheiten_320.jpg" alt="Biofach 2016: Diese Eco Produkte sind unverzichtbar" title="Biofach 2016: Diese Eco Produkte sind unverzichtbar" width="280" height="184" />Biofach 2016: Diese Eco Produkte sind unverzichtbar</a></li><li><a href="http://www.ecowoman.de/24-natur-umwelt/4594-was-ist-pfc-ungesund-und-umweltschaedlich-wir-erklaeren-wo-es-drin-ist"><img src="http://www.ecowoman.de/images/stories/Natur_und_Umwelt/PFC-outdoorkleidung_320.jpg" alt="Wie gefährlich ist PFC und wo ist es drin" title="Wie gefährlich ist PFC und wo ist es drin" width="280" height="184" />Wie gefährlich ist PFC und wo ist es drin</a></li><li class="nmr"><a href="http://www.ecowoman.de/24-natur-umwelt/4610-dirk-steffens-living-planet-tour-report-2016-tickets-termine-artenschutz"><img src="http://www.ecowoman.de/images/stories/Natur_und_Umwelt/Dirk-Steffens-Kaenguru_320.jpg" alt="Living Planet - Wir alle können die Welt retten!" title="Living Planet - Wir alle können die Welt retten!" width="280" height="184" />Living Planet - Wir alle können die Welt retten!</a></li></ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="/1-blog/" class="nav-mainlink">Blog <span class="nav-subnavviewer"></span></a>
+                <div class="subnav">
+                    <div class="subnav-left">
+                        <ul>
+                            <li><a href="/nachhaltige-nachrichten/">News</a></li>
+                            <li><a href="/gaesteblog/">G&auml;steblog</a></li>
+                            <li><a href="/janine-steeger-blog/">Janine Steeger</a></li>
+                        </ul>
+                    </div>
+                    <div class="subnav-right">
+                        <ul class="subnavlist" ><li><a href="http://www.ecowoman.de/1-blog/4620-trinkwasser-handel-brutales-geschaeft-der-privatisierung-wasserversorgung"><img src="http://www.ecowoman.de/images/stories/Focus/Brunne-Frau-Afrika_320.jpg" alt="Wasser wird in Europa immer mehr zur Handelsware" title="Wasser wird in Europa immer mehr zur Handelsware" width="280" height="184" />Wasser wird in Europa immer mehr zur Handelsware</a></li><li><a href="http://www.ecowoman.de/1-blog/4605-uno-fluechtlingshilfe-unterstuetzt-licht-fuer-die-alle-fluechtlingslager"><img src="http://www.ecowoman.de/images/stories/Blog/Gefluechtetes-Maedchen-Zeltstadt_320.jpg" alt="Kampagne für nachhaltige Flüchtlingshilfe" title="Kampagne für nachhaltige Flüchtlingshilfe" width="280" height="184" />Kampagne für nachhaltige Flüchtlingshilfe</a></li><li class="nmr"><a href="http://www.ecowoman.de/34-gesundheit/4536-kurkuma-gewuerz-alte-wunderknolle-neu-entdeckte-kurkuma-und-seine-wirkung"><img src="http://www.ecowoman.de/images/stories/Gesundheit/Kurkuma-Knolle_320.jpg" alt="Kurkuma: Alte Wunderknolle neu entdeckt" title="Kurkuma: Alte Wunderknolle neu entdeckt" width="280" height="184" />Kurkuma: Alte Wunderknolle neu entdeckt</a></li></ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="/berlin/" class="nav-mainlink">Regional <span class="nav-subnavviewer"></span></a>
+                <div class="subnav">
+                    <div class="subnav-left">
+                        <ul>
+                            <li><a href="/berlin/">Berlin</a></li>
+                            <li><a href="/muenchen/">M&uuml;nchen</a></li>
+                            <li><a href="/mainz/">Mainz</a></li>
+                            <li><a href="/frankfurt/">Frankfurt</a></li>
+                            <li><a href="/koeln/">K&ouml;ln</a></li>
+                            <li><a href="/hamburg/">Hamburg</a></li>
+                        </ul>
+                    </div>
+                    <div class="subnav-right">
+                        <ul class="subnavlist" ><li><a href="http://www.ecowoman.de/20-essen-trinken/4511-meet-eat-der-koelner-wochenmarkt-fuer-gourmets"><img src="http://www.ecowoman.de/images/stories/Essen_und_Trinken/meet-and-eat_320.jpg" alt="Meet &amp; Eat: Der Kölner Wochenmarkt für Gourmets" title="Meet &amp; Eat: Der Kölner Wochenmarkt für Gourmets" width="280" height="184" />Meet &amp; Eat: Der Kölner Wochenmarkt für Gourmets</a></li><li><a href="http://www.ecowoman.de/1-blog/4593-vegetarismus-sport-wandern-und-fotografie-der-ecolifestyle-des-mohrblogs"><img src="http://www.ecowoman.de/images/stories/Blog/Mohrblog-collage_320.jpg" alt="Mohrblog: Tofu, Tatzen, Trainingsläufe" title="Mohrblog: Tofu, Tatzen, Trainingsläufe" width="280" height="184" />Mohrblog: Tofu, Tatzen, Trainingsläufe</a></li><li class="nmr"><a href="/nachhaltige-nachrichten/fahrradflohmarkt-in-muenchen-guenstige-fahrraeder-fuer-alle-2137"><img src="http://www.ecowoman.de/images/stories/Nachrichten/Fahrrad-Frau_320.jpg" alt="Verkaufen Sie jetzt Ihr altes Fahrrad" title="Verkaufen Sie jetzt Ihr altes Fahrrad" width="280" height="184" />Verkaufen Sie jetzt Ihr altes Fahrrad</a></li></ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="/unternehmensprofile/" class="nav-mainlink">Unternehmen <span class="nav-subnavviewer"></span></a>
+                <div class="subnav">
+                    <div class="subnav-left">
+                        <ul>
+                            <li><a href="/firmenuebersicht/">Firmen</a></li>
+                            <li><a href="/unternehmensprofile/">Unternehmen</a></li>
+                            <li><a href="#">Freunde Partner Unterst&uuml;tzer</a></li>
+                        </ul>
+                    </div>
+                    <div class="subnav-right">
+                        <ul class="subnavlist" ><li><a href="/unternehmensprofile/28-lanius"><img src="http://www.ecowoman.de/images/unternehmensprofil/lanius-frau-shirt_320.jpg" alt="LANIUS - Nachhaltige Mode aus Köln" title="LANIUS - Nachhaltige Mode aus Köln" width="280" height="184" />LANIUS - Nachhaltige Mode aus Köln</a></li><li><a href="/unternehmensprofile/33-auro"><img src="http://www.ecowoman.de/images/unternehmensprofil/Gebinde_Wandlasur-Wachs_320.jpg" alt="AURO-natürlich meine Welt" title="AURO-natürlich meine Welt" width="280" height="184" />AURO-natürlich meine Welt</a></li><li class="nmr"><a href="/unternehmensprofile/34-speick-naturkosmetik"><img src="http://www.ecowoman.de/images/stories/Mode_und_Kosmetik/Speick-Pflanze_320.jpg" alt="SPEICK Naturkosmetik" title="SPEICK Naturkosmetik" width="280" height="184" />SPEICK Naturkosmetik</a></li></ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="/grueneprodukte/" class="nav-mainlink">Shopping <span class="nav-subnavviewer"></span></a>
+                <div class="subnav">
+                    <div class="subnav-left">
+                        <ul>
+                            <li><a href="/8-nachhaltige-produkte/">Produkte</a></li>
+                            <li><a href="/karte/">Ladensuche</a></li>
+                            <li><a href="#">Greenshopper</a></li>
+                            <li><a href="/unternehmensprofile/">Unternehmen</a></li>
+                            <li><a href="/firmenuebersicht/">Firmen</a></li>
+                        </ul>
+                    </div>
+                    <div class="subnav-right">
+                        <ul class="subnavlist" ><li><a href="http://www.ecowoman.de/8-nachhaltige-produkte/4517-holzbetten-schraenke-und-nachttische-ein-schlafzimmer-aus-gutem-zirbenholz"><img src="http://www.ecowoman.de/images/stories/Produkte/Schlafzimmer_Cervino_Bett_320.jpg" alt="Gesunder Schlaf im pfiffigen Schwebebett" title="Gesunder Schlaf im pfiffigen Schwebebett" width="280" height="184" />Gesunder Schlaf im pfiffigen Schwebebett</a></li><li><a href="http://www.ecowoman.de/8-nachhaltige-produkte/4516-wintergrillen-leicht-gemacht-mit-diesem-induktionsherd-gelingt-das-jedem"><img src="http://www.ecowoman.de/images/stories/Produkte/Winter-Lebenswelten_320.jpg" alt="Grillen auch im Winter? Na klar, mit Induktion" title="Grillen auch im Winter? Na klar, mit Induktion" width="280" height="184" />Grillen auch im Winter? Na klar, mit Induktion</a></li><li class="nmr"><a href="http://www.ecowoman.de/30-wohnen-haushalt/4578-putzen-mit-der-kraft-der-natur-wir-verraten-ihnen-die-besten-putztipps"><img src="http://www.ecowoman.de/images/stories/Haus%20und%20Garten/natuerlich-putzen_320.jpg" alt="So putzen Sie mit der Kraft der Natur" title="So putzen Sie mit der Kraft der Natur" width="280" height="184" />So putzen Sie mit der Kraft der Natur</a></li></ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="/bildergallery/" class="nav-stdlink">Galerie</a>
+            </li>
+			<li>
+				<a href="/62-fit-fuers-leben/" class="nav-stdlink">Fit f&uuml;rs Leben</a>
+			</li>
+            <li id="nav-main-right" class="nmr">
+                <div id="site-search">
+                    <div class="search-form">
+                        <form action="/search.php" method="get">
+                            <input type="text" name="searchword" value="" placeholder="Suchen" />
+                            <input type="submit" name="submit" value=" " />
+                        </form>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div id="skyscraper">
+            <div id="skyfix">
+                <div id="renderSlot_skyscraper_right">
+        <script type="text/javascript">
+         var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+					if (width >= 960) { 
+        adition.srq.push(function(api) {
+        api.renderSlot("renderSlot_skyscraper_right");
+        })
+         } 
+        </script>
+    </div>
+
+            </div>
+        </div>
+    </div>
+</nav>
+</div>
+<div id="content" class="ct">
+    <div class="mp">
+        <div id="widebanner"><div id="renderSlot_billboard">
+        <script type="text/javascript">
+        
+        adition.srq.push(function(api) {
+        api.renderSlot("renderSlot_billboard");
+        })
+        
+        </script>
+    </div>
+</div>
+        <div id="maincontent"><div class="main-item main-single-full mb0"><div class="main-slider-full"><div class="main-slider-full-prev"></div><div class="main-slider-full-next"></div><ul><li><a href="http://www.ecowoman.de/24-natur-umwelt/4625-prominente-fuer-den-umweltschutz-das-sind-ihre-nachhaltigkeitskampagnen"><img src="http://www.ecowoman.de/images/stories/Natur_und_Umwelt/Prominente-nachhltig_1140.jpg" alt="Diese 10 Promis engagieren sich nachhaltig" title="Diese 10 Promis engagieren sich nachhaltig" width="1140" height="520" /><span class="article-list-topline">Die grünen Projekte der Stars</span><span class="article-list-articletitle">Zehn Promis mit Ihren Nachhaltigkeitskampagnen</span></a><p>Stars haben nur Mode im Kopf? Diese zehn Promis engagieren sich in besonderer Weise für mehr Nachhaltigkeit.</p></li><li><a href="http://www.ecowoman.de/29-freizeit-reisen/4621-stadtradeln-2016-wettbewerb-anmeldung-klimaschutz-klima-buendnis-kampagne"><img src="http://www.ecowoman.de/images/stories/Focus/Stadtradeln_1140.jpg" alt="Hier radeln Sie für den Klimaschutz" title="Hier radeln Sie für den Klimaschutz" width="1140" height="520" /><span class="article-list-topline">Stadtradeln 2016</span><span class="article-list-articletitle">Mitmachen radeln Sie für den Klimaschutz</span></a><p>Stadtradeln statt Auto ? so können Sie mit Ihrer Kommune am diesjährigen Wettbewerb teilnehmen.</p></li><li><a href="http://www.ecowoman.de/25-haus-garten/4607-es-geht-auch-ohne-torf-blumenerde-ohne-torf-darauf-muessen-sie-achten"><img src="http://www.ecowoman.de/images/stories/Garten/Torffreieerde_1140.jpg" alt="Ein schöner Garten ganz ohne Torf" title="Ein schöner Garten ganz ohne Torf" width="1140" height="520" /><span class="article-list-topline">Umweltbewusstes Gärtnern</span><span class="article-list-articletitle">Warum Sie auf Torf verzichten sollten</span></a><p>ecowoman erklärt, warum Sie auf torfhaltige Erde verzichten sollten und zeigt Ihnen, wie Alternativen aussehen</p></li></ul></div></div><div class="main-seperater"></div><div class="main-item"><div class="main-medium mr60"><div class="main-medium-left"><a href="http://www.ecowoman.de/1-blog/4593-vegetarismus-sport-wandern-und-fotografie-der-ecolifestyle-des-mohrblogs"><div class="pr"><img src="http://www.ecowoman.de/images/stories/Blog/Mohrblog-wandern_360.jpg" alt="Mohrblog: Tofu, Tatzen, Trainingsläufe" title="Mohrblog: Tofu, Tatzen, Trainingsläufe" width="360" height="360" /></div></a></div><div class="main-medium-right"><a href="http://www.ecowoman.de/1-blog/4593-vegetarismus-sport-wandern-und-fotografie-der-ecolifestyle-des-mohrblogs"><span class="article-list-articletitle">Von Vegetarismus bishin zur Fotografie</span></a>
+                        <div class="social-list">
+                            <ul>
+                                <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.ecowoman.de%2F1-blog%2F4593-vegetarismus-sport-wandern-und-fotografie-der-ecolifestyle-des-mohrblogs" target="_blank" rel="nofollow"><img src="/images/static/icons/social-icon-facebook-darkgrey.png" alt="" title="" width="15" height="15"></a></li>
+                                <li><a href="https://twitter.com/intent/tweet?original_referer=&amp;source=tweetbuttont&amp;url=http%3A%2F%2Fwww.ecowoman.de%2F1-blog%2F4593-vegetarismus-sport-wandern-und-fotografie-der-ecolifestyle-des-mohrblogs" target="_blank" rel="nofollow"><img src="/images/static/icons/social-icon-twitter-darkgrey.png" alt="" title="" width="15" height="15"></a></li>
+                                <li><a href="https://de.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.ecowoman.de%2F1-blog%2F4593-vegetarismus-sport-wandern-und-fotografie-der-ecolifestyle-des-mohrblogs&amp;media=" target="_blank" rel="nofollow"><img src="/images/static/icons/social-icon-pininterest-darkgrey.png" alt="" title="" width="15" height="15"></a></li>
+                                <li><a href="https://plusone.google.com/_/+1/confirm?hl=de&amp;url=http%3A%2F%2Fwww.ecowoman.de%2F1-blog%2F4593-vegetarismus-sport-wandern-und-fotografie-der-ecolifestyle-des-mohrblogs" target="_blank" rel="nofollow"><img src="/images/static/icons/social-icon-google+-darkgrey.png" alt="" title="" width="15" height="15"></a></li>
+                                <li><a href="http://www.ecowoman.de/1-blog/4593-vegetarismus-sport-wandern-und-fotografie-der-ecolifestyle-des-mohrblogs#comments"><img src="/images/static/icons/social-icon-comments-darkgrey.png" alt="Kommentare" title="Kommentare" width="15" height="15"></a></li>
+                                <li class="social-list-counter"><a href="http://www.ecowoman.de/1-blog/4593-vegetarismus-sport-wandern-und-fotografie-der-ecolifestyle-des-mohrblogs#comments">0</a></li>
+                            </ul></div><p>Ein Blog für Katzengeschichten, Veggierezepte, Fotokunst, D.I.Y.-Kultur, Wanderstories und Crosscountry-Laufreports...</p></div></div><div class="main-rectangle-top"><span class="ad-info">Anzeige</span><div id="renderSlot_contentad1">
+        <script type="text/javascript">
+        
+        adition.srq.push(function(api) {
+        api.renderSlot("renderSlot_contentad1");
+        })
+        
+        </script>
+    </div>
+</div></div><div class="main-seperater"></div><div class="main-item"><div class="main-medium mr60"><a href="http://www.ecowoman.de/30-wohnen-haushalt/4604-haushaltscheck-welcher-kaffee-ist-der-beste-mit-yvonne-willicks"><div class="pr"><span class="main-ov">TV TIPP</span><img src="http://www.ecowoman.de/images/stories/Blog/Yvonne_Willicks_Kaffee_720.jpg" alt="Haushaltscheck: Welcher Kaffee ist der Beste?" title="Haushaltscheck: Welcher Kaffee ist der Beste?" width="720" height="360" /></div><span class="article-list-topline">Haushaltscheck mit Yvonne Willicks</span><span class="article-list-articletitle">Haushaltscheck: Welcher Kaffee ist der beste?</span></a><p>Filter, Kapseln oder Pads? Wie schmeckt der Kaffee am besten? Yvonne Willicks geht im Haushalts-Check dieser Frage nach und untersucht Kapseln, Filtermaschinen &amp; Co</p></div><div class="hidden-seperater main-seperater"></div><div class="main-small"><a href="/nachhaltige-nachrichten/der-wolf-wie-gefaehrlich-ist-er-wirklich-infos-ueber-woelfe-im-beratungszentrum-2142"><div class="pr"><img src="http://www.ecowoman.de/images/stories/Nachrichten/Der-Wolf_360.jpg" alt="Wie gefährlich ist der Wolf ?" title="Wie gefährlich ist der Wolf ?" width="360" height="360" /></div><span class="article-list-topline">Wolf-Beratungszentrum gegründet</span><span class="article-list-articletitle">Wie gefährlich ist der Wolf?</span></a><p>Nach einer langen Periode der annähernden Ausrottung gibt es derzeit wieder 31 Wolfsrudel in Deutschland, Tendenz steigend.</p></div></div><div class="main-seperater"></div><div class="main-item"><div class="main-small mr60"><a href="http://www.ecowoman.de/25-haus-garten/4574-led-konzept-led-leuchte-farbtemperatur-sonnenlicht-lampe-lichtarchitektur"><div class="pr"><img src="http://www.ecowoman.de/images/stories/Focus%20Rechts/Treppenaufgang_360.jpg" alt="Innovatives Eco Lichtkonzept - Einleuchtend gesund" title="Innovatives Eco Lichtkonzept - Einleuchtend gesund" width="360" height="360" /></div><span class="article-list-topline">Ganzheitliches Wohnen</span><span class="article-list-articletitle">Eco Lichtkonzept für ein gesundes Wohnen</span></a><p>Licht beeinflusst Seele und Geist. Wie Sie mit Lichtquellen nach dem Vorbild der Sonne wohlig wohnen können...</p></div><div class="hidden-seperater main-seperater"></div><div class="main-medium"><a href="http://www.ecowoman.de/30-wohnen-haushalt/4611-putzmittel-gewinnspiel-reinigungsset-gewinnen-reinigungsmittel-oekologisch"><div class="pr"><span class="main-ov">Gewinnspiel</span><img src="http://www.ecowoman.de/images/stories/Focus/natuerlich-putzen_720(1).jpg" alt="Gewinnspiel: Frühjahrsputz mit Eco Reinigern" title="Gewinnspiel: Frühjahrsputz mit Eco Reinigern" width="720" height="360" /></div><span class="article-list-topline">Gewinnspiel</span><span class="article-list-articletitle">Frühjahrsputz mit natürlichen Reinigern</span></a><p>Nutzen Sie die Kraft der Natur und holen Sie sich mit diesen Reinigungsmitteln Frühlingsfrische ins Haus.</p></div></div><div class="main-seperater"></div><div class="main-item"><div class="main-slider-text plr70"><div class="main-slider-text-prev"></div><div class="main-slider-text-next"></div><ul><li><a href="http://www.ecowoman.de/24-natur-umwelt/4533-gruener-salat-koennte-schuld-am-klimawandel-haben-wir-klaeren-auf"><span class="article-list-topline">Gemüse als Umweltsünder</span><span class="article-list-articletitle">Salat ist schuld am Klimawandel</span></a><div class="social-list">
+                                <ol>
+                                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank" rel="nofollow"><img src="/images/static/icons/social-icon-facebook-darkgrey.png" alt="" title="" width="15" height="15"></a></li>
+                                    <li><a href="https://twitter.com/intent/tweet?original_referer=&amp;source=tweetbuttont&amp;url=" target="_blank" rel="nofollow"><img src="/images/static/icons/social-icon-twitter-darkgrey.png" alt="" title="" width="15" height="15"></a></li>
+                                    <li><a href="https://de.pinterest.com/pin/create/button/?url=&amp;media=" target="_blank" rel="nofollow"><img src="/images/static/icons/social-icon-pininterest-darkgrey.png" alt="" title="" width="15" height="15"></a></li>
+                                    <li><a href="https://plusone.google.com/_/+1/confirm?hl=de&amp;url=" target="_blank" rel="nofollow"><img src="/images/static/icons/social-icon-google+-darkgrey.png" alt="" title="" width="15" height="15"></a></li>
+                                    <li><a href="http://www.ecowoman.de/24-natur-umwelt/4533-gruener-salat-koennte-schuld-am-klimawandel-haben-wir-klaeren-auf#comments"><img src="/images/static/icons/social-icon-comments-darkgrey.png" alt="Kommentare" title="Kommentare" width="15" height="15"></a></li>
+                                    <li class="social-list-counter"><a href="http://www.ecowoman.de/24-natur-umwelt/4533-gruener-salat-koennte-schuld-am-klimawandel-haben-wir-klaeren-auf#comments">37</a></li>
+                                </ol></div><p>Dass es gesund ist, viel Obst und Gem&uuml;se zu essen, steht au&szlig;er Frage. Aber ist es auch gut f&uuml;r die Umwelt? Eine neue Studie aus den USA stellt das infrage. Die Behauptung der Forscher: Salat ist deutlich umweltsch&auml;dlicher als Speck.&nbsp;</p></li><li><a href="http://www.ecowoman.de/34-gesundheit/4534-kurkuma-wirkung-macht-gesund-und-schoen-kurkuma-staerkt-das-immunsystem"><span class="article-list-topline">Natürlicher Gesundmacher</span><span class="article-list-articletitle">Kurkuma macht Sie gesund und schön</span></a><div class="social-list">
+                                <ol>
+                                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank" rel="nofollow"><img src="/images/static/icons/social-icon-facebook-darkgrey.png" alt="" title="" width="15" height="15"></a></li>
+                                    <li><a href="https://twitter.com/intent/tweet?original_referer=&amp;source=tweetbuttont&amp;url=" target="_blank" rel="nofollow"><img src="/images/static/icons/social-icon-twitter-darkgrey.png" alt="" title="" width="15" height="15"></a></li>
+                                    <li><a href="https://de.pinterest.com/pin/create/button/?url=&amp;media=" target="_blank" rel="nofollow"><img src="/images/static/icons/social-icon-pininterest-darkgrey.png" alt="" title="" width="15" height="15"></a></li>
+                                    <li><a href="https://plusone.google.com/_/+1/confirm?hl=de&amp;url=" target="_blank" rel="nofollow"><img src="/images/static/icons/social-icon-google+-darkgrey.png" alt="" title="" width="15" height="15"></a></li>
+                                    <li><a href="http://www.ecowoman.de/34-gesundheit/4534-kurkuma-wirkung-macht-gesund-und-schoen-kurkuma-staerkt-das-immunsystem#comments"><img src="/images/static/icons/social-icon-comments-darkgrey.png" alt="Kommentare" title="Kommentare" width="15" height="15"></a></li>
+                                    <li class="social-list-counter"><a href="http://www.ecowoman.de/34-gesundheit/4534-kurkuma-wirkung-macht-gesund-und-schoen-kurkuma-staerkt-das-immunsystem#comments">31</a></li>
+                                </ol></div><p>Ob als heilende Gesichtsmaske bei unreiner Haut und Augenringen oder als immunst&auml;rkendes Detox-Getr&auml;nk f&uuml;r die kalte Jahreszeit &ndash; Kurkuma ist universell einsetzbar und in seiner Wirkung kaum zu &uuml;bertreffen.</p></li><li><a href="http://www.ecowoman.de/24-natur-umwelt/4555-baum-pflanzen-reicht-nicht-junger-mann-verbessert-welt-mit-moosbaeumen"><span class="article-list-topline">Junger Dresdner ist Weltverbesserer</span><span class="article-list-articletitle">Eine grüne Stadt nur aus Moosbäumen</span></a><div class="social-list">
+                                <ol>
+                                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank" rel="nofollow"><img src="/images/static/icons/social-icon-facebook-darkgrey.png" alt="" title="" width="15" height="15"></a></li>
+                                    <li><a href="https://twitter.com/intent/tweet?original_referer=&amp;source=tweetbuttont&amp;url=" target="_blank" rel="nofollow"><img src="/images/static/icons/social-icon-twitter-darkgrey.png" alt="" title="" width="15" height="15"></a></li>
+                                    <li><a href="https://de.pinterest.com/pin/create/button/?url=&amp;media=" target="_blank" rel="nofollow"><img src="/images/static/icons/social-icon-pininterest-darkgrey.png" alt="" title="" width="15" height="15"></a></li>
+                                    <li><a href="https://plusone.google.com/_/+1/confirm?hl=de&amp;url=" target="_blank" rel="nofollow"><img src="/images/static/icons/social-icon-google+-darkgrey.png" alt="" title="" width="15" height="15"></a></li>
+                                    <li><a href="http://www.ecowoman.de/24-natur-umwelt/4555-baum-pflanzen-reicht-nicht-junger-mann-verbessert-welt-mit-moosbaeumen#comments"><img src="/images/static/icons/social-icon-comments-darkgrey.png" alt="Kommentare" title="Kommentare" width="15" height="15"></a></li>
+                                    <li class="social-list-counter"><a href="http://www.ecowoman.de/24-natur-umwelt/4555-baum-pflanzen-reicht-nicht-junger-mann-verbessert-welt-mit-moosbaeumen#comments">92</a></li>
+                                </ol></div><p>300 junge F&uuml;hrungskr&auml;fte tauchen verteilt auf zehn Kategorien auf der &bdquo;30 &nbsp;under 30 Europe&ldquo;-Liste auf. Sie alle h&auml;tten laut Forbes das Potential, die Welt zu ver&auml;ndern. Mit dabei ist auch ein junger Dresdner mit einer Klimal&ouml;sung f&uuml;r bessere Stadtluft.</p></li></ul></div></div><div class="main-seperater"></div><div class="main-item tc"><a href="http://www.ecowoman.de/20-essen-trinken/4595-lebensmittel-fuer-ein-langes-leben-nach-doktor-greger-gesund-ernaehren"><img src="http://www.ecowoman.de/images/stories/Essen_und_Trinken/Lebensmittel-lange-leben_1140.jpg" alt="Sechs Lebensmittel für ein langes Leben" title="Sechs Lebensmittel für ein langes Leben" width="1140" height="520" /><span class="article-list-topline">Natürlich lange Leben</span><span class="article-list-articletitle">Mit diesen sechs Lebensmitteln werden Sie 100 Jahre alt</span></a><p>Eine ausgewogenen Ernährung kann viel für unsere Gesundheit tun. Diese sechs Lebensmittel verlängern unser Leben...</p></div><div class="main-seperater"></div><div class="main-item"><div class="main-small mr60"><a href="/nachhaltige-nachrichten/fahrradflohmarkt-in-muenchen-guenstige-fahrraeder-fuer-alle-2137"><div class="pr"><img src="http://www.ecowoman.de/images/stories/Nachrichten/Fahrrad-Frau_360.jpg" alt="Verkaufen Sie jetzt Ihr altes Fahrrad" title="Verkaufen Sie jetzt Ihr altes Fahrrad" width="360" height="360" /></div><span class="article-list-topline">Ecowoman Veranstaltungstipp</span><span class="article-list-articletitle">Großer Radflohmarkt in München</span></a><p>Der diesjährige Münchner Radflohmarkt findet am 17. April im Zenith statt. Neben der Möglichkeit, Räder zu kaufen und zu verkaufen...</p></div><div class="hidden-seperater main-seperater"></div><div class="main-rectangle mr60"><span class="ad-info">Anzeige</span><div id="renderSlot_contentad2">
+        <script type="text/javascript">
+        
+        adition.srq.push(function(api) {
+        api.renderSlot("renderSlot_contentad2");
+        })
+        
+        </script>
+    </div>
+</div><div class="hidden-seperater main-seperater"></div><div class="main-small"><a href="http://www.ecowoman.de/24-natur-umwelt/4594-was-ist-pfc-ungesund-und-umweltschaedlich-wir-erklaeren-wo-es-drin-ist"><div class="pr"><img src="http://www.ecowoman.de/images/stories/Natur_und_Umwelt/PFC-outdoorkleidung_360.jpg" alt="Wie gefährlich ist PFC und wo ist es drin" title="Wie gefährlich ist PFC und wo ist es drin" width="360" height="360" /></div><span class="article-list-topline">Gefährliches PFC</span><span class="article-list-articletitle">Gefährdet Outdoor-Kleidung die Umwelt?</span></a><p>Outdoor Kleidung gefährlich? Eine neue Studie zeigt: So gelangen gefährliche Stoffe in entfernte Winkel unserer Erde.</p></div></div><div class="main-seperater"></div><div class="main-item"><div class="main-medium mr60"><a href="http://www.ecowoman.de/34-gesundheit/4623-fastenkur-mit-obst-und-gemuese-ohne-heilfasten-ein-gesundes-leben-fuehren"><div class="pr"><img src="http://www.ecowoman.de/images/stories/Gesundheit/Obst-Fasten_720.jpg" alt="Heilfasten war gestern: Mit Obst und Gemüse entgiften" title="Heilfasten war gestern: Mit Obst und Gemüse entgiften" width="720" height="360" /></div><span class="article-list-topline">Heilfasten war gestern</span><span class="article-list-articletitle">Mit Obst und Gemüse gegen den Zucker</span></a><p>Für viele ist die Fastenzeit eine Gelegenheit, sich endlich gesünder zu ernähren. So gelingt dies auch ohne Heilfasten...</p></div><div class="hidden-seperater main-seperater"></div><div class="main-small"><a href="http://www.ecowoman.de/20-essen-trinken/4612-gewinnspiel-vegane-burger-vegetarische-ernaehrung-foodtrends-2016-veggie"><div class="pr"><span class="main-ov">Gewinnspiel</span><img src="http://www.ecowoman.de/images/stories/Focus%20Rechts/vegane-Burger_360.jpg" alt="Gewinnspiel: Vegane Hamburger" title="Gewinnspiel: Vegane Hamburger" width="360" height="360" /></div><span class="article-list-topline">Köstliches Gewinnspiel</span><span class="article-list-articletitle">Leckere Fleisch- und Fischalternativen</span></a><p>Vegane Burger sind in. ecowoman verlost fünf Fleisch- und Fischalternativen als Basis für veganes Fastfood....</p></div></div><div class="main-seperater"></div><div class="main-item"><div class="aside-rightheader">Top 5 meistgelesene Artikel</div><div class="main-slider"><div class="main-slider-prev"></div><div class="main-slider-next"></div><ul><li><a href="http://www.ecowoman.de/30-wohnen-haushalt/2308-fuer-ostern-basteln-lustige-dekohuehner-aus-filz"><img src="http://www.ecowoman.de/images/stories/Focus/Osterkuecken1_720(1).jpg" alt="Schnell gebastelt: Bunte, lustige Hühner aus Filz" title="Schnell gebastelt: Bunte, lustige Hühner aus Filz" width="250" height="250" /><span>Schnell gebastelt: Bunte, lustige Hühner aus Filz</span></a></li><li><a href="http://www.ecowoman.de/29-freizeit-reisen/3917-ostern-basteln-deko-fuer-ostern-mit-kindern-selber-machen"><img src="http://www.ecowoman.de/images/stories/Focus/Ei-Vasen-fokus_720.jpg" alt="Buntes Osternest, Bastelspaß für Ostern" title="Buntes Osternest, Bastelspaß für Ostern" width="250" height="250" /><span>Buntes Osternest, Bastelspaß für Ostern</span></a></li><li><a href="http://www.ecowoman.de/20-essen-trinken/4595-lebensmittel-fuer-ein-langes-leben-nach-doktor-greger-gesund-ernaehren"><img src="http://www.ecowoman.de/images/stories/Essen_und_Trinken/Lebensmittel-lange-leben_720.jpg" alt="Sechs Lebensmittel für ein langes Leben" title="Sechs Lebensmittel für ein langes Leben" width="250" height="250" /><span>Sechs Lebensmittel für ein langes Leben</span></a></li><li><a href="http://www.ecowoman.de/29-freizeit-reisen/3032-ostern-basteln-lustige-upcycling-eierbecher-aus-klopapierrollen-hase"><img src="http://www.ecowoman.de/images/stories/Ferien__Freizeit/eierbecher_ostern_580x380.jpg" alt="Lustige Eierbecher für Ostern basteln" title="Lustige Eierbecher für Ostern basteln" width="250" height="250" /><span>Lustige Eierbecher für Ostern basteln</span></a></li><li><a href="http://www.ecowoman.de/43-janine-steeger-blog/2561-bluehendes-gift-gesundheitsgefahren-durch-nichtfairtradeblumen"><img src="http://www.ecowoman.de/images/blog/steeger_fairtrade_blumen_350.JPG" alt="Gesundheitsgefahren durch Nicht-FairTrade-Blumen" title="Gesundheitsgefahren durch Nicht-FairTrade-Blumen" width="250" height="250" /><span>Gesundheitsgefahren durch Nicht-FairTrade-Blumen</span></a></li></ul></div></div><div class="main-seperater"></div><div class="main-item"><div class="main-small mr60"><a href="http://www.ecowoman.de/25-haus-garten/4602-sieben-heilpflanzen-die-wirklich-helfen-naturheilmittel-und-phytotherapie"><div class="pr"><img src="http://www.ecowoman.de/images/stories/Focus%20Rechts/Kr%C3%A4uter-Sack-Tee_360.jpg" alt="Superfoods - Die Apotheke im eigenen Garten" title="Superfoods - Die Apotheke im eigenen Garten" width="360" height="360" /></div><span class="article-list-topline">Superfoods aus dem Garten</span><span class="article-list-articletitle">Sieben unglaubliche Unkräuter und ihre Wirkung</span></a><p>Löwenzahn und Co -  Unkraut? Von wegen -  ecowoman über die natürliche Kraft der heimischen Heilkräuter.</p></div><div class="hidden-seperater main-seperater"></div><div class="main-medium"><a href="http://www.ecowoman.de/1-blog/4620-trinkwasser-handel-brutales-geschaeft-der-privatisierung-wasserversorgung"><div class="pr"><img src="http://www.ecowoman.de/images/stories/Focus/Trinkwasser-Kind_720.jpg" alt="Wasser wird in Europa immer mehr zur Handelsware" title="Wasser wird in Europa immer mehr zur Handelsware" width="720" height="360" /></div><span class="article-list-topline">Die Ware Trinkwasser</span><span class="article-list-articletitle">Verlieren wir das Recht auf unser Wasser?</span></a><p>Wasser als Kapital - Italien und Portugal machen es vor.  ecowoman über die Folgen der Wasserprivatisierung...</p></div></div><div class="main-seperater"></div><div class="main-item"><div class="main-service-small mr60">
+                    <div class="main-service-title aside-header">Galerien</div>
+                    <div class="main-service-content">
+                        <a href="http://www.ecowoman.de/bildergallery/166-oekohaus-traumhaus-nullenergiehaus-energiesparhaus-seattle-eco-architektur"><img src="http://www.ecowoman.de/images/gallery/166/front/eco-haus_310.jpg" alt="Kluges Haus mit ökologischer Weitsicht" title="Kluges Haus mit ökologischer Weitsicht" width="340" height="194" />
+                        <div class="main-service-title-small article-list-articletitle">Kluges Haus mit ökologischer Weitsicht</div></a>
+                        <p>Der Traum vom smarten Eco-Haus ist längst Wirklichkeit</p>
+                        <a href="http://www.ecowoman.de/bildergallery/166-oekohaus-traumhaus-nullenergiehaus-energiesparhaus-seattle-eco-architektur" class="btn">Mehr Bilder</a>
+                    </div>
+                </div><div class="main-service-small mr60">
+                    <div class="main-service-title aside-header">Einkaufen</div>
+                    <div class="main-service-content">
+                        <img src="/images/static/einkaufen-berlin.png" alt="Nachhaltig einkaufen" title="Nachhaltig einkaufen" width="340" height="194" />
+                        <div class="main-form">
+                            <form action="/karte/" method="post">
+                                <div class="form-element">
+                                    <label for="">Kategorie:</label>
+                                    <select name="category[]">
+                                        <optgroup label="Essen &amp; Trinken"><option value="1">Läden &amp; Reformhäuser</option><option value="2">Cafes &amp; Restaurants</option><option value="3">Hersteller &amp; Großhändler</option><option value="4">Lebensmittel</option><option value="5">Bio-Höfe &amp; Hofläden</option><option value="6">Märkte</option><option value="7">Fair Trade</option><option value="8">Metzgereien</option><option value="9">Bäckereien</option><option value="10">Getränke</option><option value="11">Dienstleistungen</option></optgroup><optgroup label="Mode &amp; Kosmetik"><option value="12">Einzelhandel</option><option value="13">Schuhe</option><option value="14">KosmetikerInnen</option><option value="15">Schmuck &amp; Accessoires</option><option value="16">Mode &amp; Textilien</option><option value="17">Hersteller &amp; Großhändler</option><option value="18">Stoffe &amp; Garne</option></optgroup><optgroup label="Freizeit &amp; Reisen"><option value="19">Tagungshäuser</option><option value="20">Reisebüros</option><option value="21">Campingplätze</option><option value="22">Spielwaren</option><option value="23">Urlaub auf dem Bauernhof</option><option value="24">Hotels &amp; Pensionen</option></optgroup><optgroup label="Wellness &amp; Gesundheit"><option value="25">Alternative Medizin</option><option value="26">Kliniken &amp; Beratung</option><option value="27">Produkte</option><option value="28">Methoden</option><option value="29">Entspannung</option></optgroup><optgroup label="Finanzen"><option value="30">Banken</option><option value="31">Finanzdienstleister</option></optgroup><optgroup label="Energie &amp; Klima"><option value="32">Solarstrom &amp; Solarwärme</option><option value="33">Energiegewinnung</option><option value="34">Biogas</option><option value="35">Beratung</option><option value="36">Windenergie</option><option value="37">Heizen &amp; Wärmepumpen</option></optgroup><optgroup label="Bauen &amp; Sanieren"><option value="38">Wasser &amp; Abwasser</option><option value="39">Holzbau</option><option value="40">Planen &amp; Beraten</option><option value="41">Lehmbau</option><option value="42">Lüftung</option><option value="43">Farben &amp; Maler</option><option value="44">Analyse &amp; Messung</option><option value="45">Fenster &amp; Dächer</option><option value="46">Böden &amp; Innenausbau</option><option value="47">Baustoffe &amp; Baumärkte</option></optgroup><optgroup label="Wohnen &amp; Haushalt"><option value="48">Ausstattung</option><option value="49">Garten</option><option value="50">Haustiere</option><option value="51">Reinigung</option><option value="52">Baby &amp; Kinder</option><option value="53">Schöne Dinge</option><option value="54">Abfall &amp; Recycling</option></optgroup><optgroup label="Mobilit&auml;t"><option value="55">Mobilität</option><option value="56">Car-Sharing</option><option value="57">Elektrotankstellen</option><option value="58">Elektroautos</option><option value="59">Fahrräder</option><option value="60">Elektrozweiräder</option></optgroup>
+                                    </select>
+                                </div>
+                                <div class="form-element">
+                                    <label for="">Stadt / PLZ:</label>
+                                    <input type="text" name="city" value="" />
+                                </div>
+                                <div class="float_left col50">
+                                    <div class="col100 clear">
+                                        <label for="map-radius" class="col50 float_left">Radius:</label><div class="float_right"><input type="text" value="5" name="radius" id="map-radius"> km</div>
+                                     </div>
+                                     <div class="col100 clear">
+                                         <div id="slider-range-max" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
+                                            <div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-max"></div>
+                                            <a class="ui-slider-handle ui-state-default ui-corner-all" href="#"></a>
+                                         </div>
+                                    </div>
+                                </div>
+                                <input type="submit" name="submit" value="Entdecken" class="btn float_right" />
+                            </form>
+                        </div>
+                    </div>
+                </div><div class="main-service-small">
+                    <div class="main-service-title aside-header lh0"><img src="/images/static/greenshopper-logo.png" alt="Greenshopper" title="Greenshopper" height="34" width="126" class="rsi" /></div>
+                    <div class="main-service-content">
+                        <a href="#"><img src="/images/gallery/149/FreeSpiritSphereBaumhaus14080.jpg" alt="Einzigartiger Schmuck für Naturliebhaber" title="Einzigartiger Schmuck für Naturliebhaber" width="340" height="194" />
+                        <div class="main-service-title-small article-list-articletitle">Einzigartiger Schmuck für Naturliebhaber</div></a>
+                        <p>Wie oft findet man auf Spaziergängen durch Wald und Felder, am Strand oder in den Bergen kleine Wunder</p>
+                        <a href="#" class="btn">Mehr Details</a>
+                    </div>
+                </div></div><div class="main-seperater"></div><div class="main-item tc mb0"><a href="http://www.ecowoman.de/20-essen-trinken/4622-kaffe-kochen-wird-mit-diesen-tipps-von-yvonne-willicks-nachhaltig-lecker"><img src="http://www.ecowoman.de/images/stories/Essen_und_Trinken/Kaffe-kochenKaffeemaschinen_1140.jpg" alt="10 Kaffee-Tipps von Yvonne Willicks" title="10 Kaffee-Tipps von Yvonne Willicks" width="1140" height="520" /><span class="article-list-topline">Köstlicher Kaffee</span><span class="article-list-articletitle">Die zehn besten Kaffee-Tipps von Yvonne Willicks</span></a><p>Kaffee ist das Lieblingsgetränk der Deutschen. Doch wie gelingt köstlicher und nachhaltiger Kaffee? Was müssen Sie beim Einkauf, bei der Zubereitung und unterwegs beachten?</p></div>
+        </div>      
+    </div>
+</div>
+<aside id="partner-service" class="ct">
+    <div class="mp">
+        <div id="partner"><div class="aside-header">Partner</div><ul><li class="npl"><a href="http://www.speick.de/de/start.html" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/logos/Speick_Logo_80_2.jpg" alt="Speick Naturkosmetik" title="Speick Naturkosmetik" /></a></li><li><a href="https://shop.lanius-koeln.de/?refID=ECOW15" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/logos/Logo-Lanius_2.jpg" alt="Lanius" title="Lanius" /></a></li><li><a href="http://www.green-petfood.de/?utm_source=ecowoman&amp;utm_medium=partner&amp;utm_campaign=futterprobe" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/stories/logos/green%20petfood%20137%2080.png" alt="green petfood" title="green petfood" /></a></li><li><a href="http://www.grandel.de/?H=eco_logo" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/partner/Dr-Grandel-Logo_80.jpg" alt="Dr.Grandel" title="Dr.Grandel" /></a></li><li><a href="https://www.allnatura.de/" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/logos/allnatura-logo_80.jpg" alt="Allnatura" title="Allnatura" /></a></li><li><a href="https://www.baufritz.com/de/" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/logos/Baufritz_Logo_80.jpg" alt="Baufritz" title="Baufritz" /></a></li><li><a href="http://www.umwelthauptstadt.de/jobverde"><img src="http://www.ecowoman.de/images/logos/jobverde.png" alt="Jobverde" title="Jobverde" /></a></li><li><a href="http://www.memolife.de/willkommen" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/banners/memolife.jpg" alt="memo lifeFair einkaufen" title="memo lifeFair einkaufen" /></a></li><li><a href="http://www.dm.de/de_homepage/" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/logos/dm.png" alt="dm" title="dm" /></a></li><li><a href="http://www.wikinger-reisen.de/" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/logos/wikinger%20reisen.jpg" alt="Wikinger Reisen" title="Wikinger Reisen" /></a></li><li><a href="https://www.mcbrikett.de/" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/logos/mcbrikett_logo-en_h80.jpg" alt="Mc Brikett" title="Mc Brikett" /></a></li><li><a href="https://www.cotonea.de/" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/stories/logos/cotonea%20Loga%20153.png" alt="Cotonea gesunde Baumwolle" title="Cotonea gesunde Baumwolle" /></a></li><li><a href="http://www.voelkeljuice.de/startseite.html" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/logos/voelkel-naturkostsafterei.jpg" alt="Voelkel - Die Naturkostsafterei" title="Voelkel - Die Naturkostsafterei" /></a></li><li><a href="http://www.byodo.de" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/stories/Focus%20Rechts/Byodo_140x80.jpg" alt="Byodo Bio vom Feinsten" title="Byodo Bio vom Feinsten" /></a></li><li><a href="http://www.auro.de/" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/logos/AURO_Logo_80.jpg" alt="Auro Naturfarben" title="Auro Naturfarben" /></a></li><li><a href="http://www.schott-ceran.com/german/?dimsdetected=1&amp;ref=http%3A%2F%2Fwww.ecowoman.de%2Funternehmensprofile%2F27-schott-ceran" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/logos/schott_ceran_logo.jpg" alt="Schott Ceran" title="Schott Ceran" /></a></li><li><a href="http://www.hessnatur.com/de/" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/logos/hessnatur.png" alt="Hessnatur Naturmode Biomode" title="Hessnatur Naturmode Biomode" /></a></li><li><a href="http://products.boerlind.com/" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/logos/LOGO-B%C3%B6rlind_80.jpg" alt="Börlind" title="Börlind" /></a></li><li><a href="http://www.soebbeke.de/" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/logos/soebbeke.jpg" alt="Söbbeke Biomolkerei" title="Söbbeke Biomolkerei" /></a></li><li><a href="http://www.oekoland.de/" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/logos/Oekoland_Logo_h80.jpg" alt="Oekoland Nord" title="Oekoland Nord" /></a></li><li><a href="http://www.dm.de/de_homepage/alverde_home/" target="_blank" rel="nofollow"><img src="http://next.ecowoman.de/images/partner/alverde.png" alt="Alverde Naturkosmetik" title="Alverde Naturkosmetik" /></a></li><li><a href="http://www.umwelthauptstadt.de/"><img src="http://www.ecowoman.de/images/logos/Umwelthauptstadt.jpg" alt="Umwelthauptstadt" title="Umwelthauptstadt" /></a></li><li><a href="http://www.naturenergieplus.de/" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/stories/logos/naturenergieplus.jpg" alt="Naturenergie" title="Naturenergie" /></a></li><li class="npr"><a href="http://www.primaveralife.com/" target="_blank" rel="nofollow"><img src="http://www.ecowoman.de/images/logos/Primavera_Logo_ecowoman.jpg" alt="Primavera life" title="Primavera life" /></a></li></ul></div>
+        <div id="service">
+            <div class="aside-header">Service</div>
+            <ul>
+                <li class="npl"><a href="/bildergallery/"><span class="service-icon s-galerie"></span><h4>Galerie</h4><p>Bilder und Geschichten die uns den Tag verzaubern</p></a></li>
+                <li><a href="/karte/"><span class="service-icon s-ladensuche"></span><h4>Ladensuche</h4><p>Einkaufen in der Region, entdecken Sie Hofl&auml;den Biol&auml;den Restaurants und mehr.</p></a></li>
+                <li><a href="/8-nachhaltige-produkte/"> <span class="service-icon s-produktinformationen"></span><h4>Produktinformationen</h4><p>Wir stellen Ihnen hier tolle innovative Produkte vor. Praktisches n&uuml;tzliches f&uuml;r den Alltag</p></a></li>
+                <li><a href="/grueneprodukte/"><span class="service-icon s-shopping"></span><h4>Shopping</h4><p>Hier finden Sie ausgew&auml;hlte nachhaltige gr&uuml;ne Produkte</p></a></li>
+                <li><a href="/unternehmensprofile/"><span class="service-icon s-unternehmen"></span><h4>Unternehmen</h4><p>Unternehmen stellen sich mit Ihren Konzepten vor.</p></a></li>
+                <li class="npr"><a href="/newsletter/archiv"><span class="service-icon s-newsletter"></span><h4>Newsletter</h4><p>Immer informiert sein. Jetzt zum Newsletter anmelden</p></a></li>
+            </ul>
+        </div>
+    </div>
+</aside>
+</div>
+</div>
+<footer>
+	<div class="mainsize">
+    <div class="ct">
+        <div class="mp">
+            <div id="footer-logo">
+                <a href="/"><img src="/images/static/ecowoman-logo.png" alt="ecowoman.de" title="ecowoman.de" /></a>
+            </div>
+            <div id="footer-nav">
+                <ul>
+                    <li><a href="/ueber-uns">&Uuml;ber uns</a></li>
+                    <li><a href="/werbung">Werbung</a></li>
+                    <li><a href="/impressum">Impressum</a></li>
+                    <li><a href="/nutzungsbedingungen">Nutzungsbedingungen</a></li>
+                    <li><a href="/agb">AGB</a></li>
+                    <li><a href="/kontakt">Kontakt</a></li>
+                    <li class="nmr"><a href="/3264-datenschutz-nachhaltigleben-deutschland">Datenschutz</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+	</div>
+</footer>
+<script>
+(function(){var jq=document.createElement('script');jq.type='text/javascript';jq.async=true;jq.src='/js/ecowoman.0207.js';var s1=document.getElementsByTagName('script')[0];s1.parentNode.insertBefore(jq, s1)})();
+</script>
+<div id="renderSlot_footer">
+        <script type="text/javascript">
+         var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+					if (width >= 960) { 
+        adition.srq.push(function(api) {
+        api.renderSlot("renderSlot_footer");
+        })
+         } 
+        </script>
+    </div>
+
+<div id="renderSlot_banderole">
+        <script type="text/javascript">
+        
+        adition.srq.push(function(api) {
+        api.renderSlot("renderSlot_banderole");
+        })
+        
+        </script>
+    </div>
+
+<div id="renderSlot_layer">
+        <script type="text/javascript">
+        
+        adition.srq.push(function(api) {
+        api.renderSlot("renderSlot_layer");
+        })
+        
+        </script>
+    </div>
+
+</body>
+</html><!-- custom not found -->

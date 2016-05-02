@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/vorlage.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title></title>
+<link href="_css/style.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="slider/nivo-slider.css" type="text/css" media="screen" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<script src="slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider({
+		effect: 'fade',
+		controlNav: false,
+		directionNav: false,
+		startSlide: 1, // Set starting Slide (0 index)
+		pauseTime: 5500,
+		animSpeed: 1000,
+	});
+});
+</script>
+
+</head>
+
+<body>
+	<div id="hauptcontainer"><!-- InstanceBeginEditable name="Logo" -->
+	 <div id="header"> <div id="Logo">	   <img src="_bilder/VITRUV_seventh_framework_logo.jpg" width="320" height="150" border="0" usemap="#Map" />
+         <map name="Map" id="Map">
+           <area shape="rect" coords="168,-6,322,151" href="http://cordis.europa.eu/fp7/home_en.html" target="_blank" />
+           <area shape="rect" coords="161,103,177,104" href="#" />
+       </map>
+	 </div>
+	   <span class="überschrift_weiss">VITRUV</span><span class="h3">
+      </span><span class="überschrift_weiss_dünn"><br />
+      Vulnerability Identification Tools
+      for Resilience <br />
+	      Enhancements 
+of Urban Environments</span></div>
+	<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Navigation" -->
+	<div id="content_left">
+	  <ul id="Navigation">
+	    <li><a href="../index.html">HOME</a></li>
+        <li><a href="project.html">PROJECT</a></li>
+		<li><a href="consortium.html">CONSORTIUM</a></li>
+		<li><a href="usecases.html">USE CASES</a></li>
+        <li><a href="downloads.html">LINKS / DOWNLOADS</a></li>
+	    <li><a href="https://sharepoint.vitruv-project.eu" target="_new">SHAREPOINT LOGIN</a></li>
+      </ul>
+    </div>
+	<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Content" -->
+	<div id="content">
+      
+    <div id="text">
+    <p class="h3"><span class="h3">THE URBAN PLANNERS' CHALLENGE</span> </p>
+	    <p>The vulnerability of urban environments remains an underdeveloped theme. The issue of security
+      and citizen safety is of paramount importance and a growing concern with  half of the world's population currently living in urban centres and with this  figure set to increase to two-thirds by 2050.</p>
+        <p>In order to effectively face these challenges, urban planning teams need tools that fully encompass the pre-application process with developers/designers
+        and that facilitate flexible solutions to potential  security issues, rather than impose measures. These tools would ideally offer integrated and comprehensive support throughout all levels of the planning process, including the conceptual level (that pivots around the  birth of a plan), the plan level (that deals with establishing a viable outline) and the detail level (that concerns all specifications needed to realize the plan).</p>
+        <p><span class="h4">VITRUV's answer</span><br />
+The objective of VITRUV is the development of these tools to support urban planners to consistently integrate security issues into the considerations made in the long and complex process which makes up urban planning. The following tools will be developed for use by the urban planner:<br />
+</p>
+      <p><strong>Concept level tools</strong><br />
+        Goal of the concept-level tool is to provide easy-to-use, computer assisted support for city planners in order to systematically include security considerations in a conceptual stage of their planning. The Concept Tool is composed of two inter-related components: a Knowledge Base (Securipedia) and a Risk Assessment (Securban) component. The use of the tools will enable planners to make an initial assessment of the relative importance of security and any specific issues in general terms connected with a planning concept. <br />
+        More information about the concept level tools can be found <a href="http://securipedia.eu/mediawiki/index.php/Concept_level_tools"><u>here</u></a>. </p>
+        <p><strong>Plan level tool</strong><br />
+          The goal of the plan level tool is to provide an initial identification of &ldquo;Hotspots-at-Risk&rdquo; (visualised as simple blocks) during the planning stage. It is achieved by analysing the plan together with historic data on previous global terrorist attacks i.e. frequency, types of attacks, amounts of damage measured and types of buildings. The use of the tool will provide planners with the possibility to consider different configurations of urban spaces and the impact of the configuration on security.<br />
+More information about the plan level tool can be found <a href="http://securipedia.eu/mediawiki/index.php/Plan_level_tools"><u>here</u></a><u>.</u><u> </u></p>
+        <p><strong>Detail level tool</strong> <br />
+          The goal of the detail level tool is to perform a detailed analysis of the identified &ldquo;Hotspots-at-Risk&rdquo; within an urban space with engineering models which consider multiple embedded potential terrorist attack scenarios in connection with the specific building designs, their resistance and use in the urban space in order to identify any potential weak points. Hazard and damage models will describe structural damage, air-dispersed hazards, traffic disruption and their impact on individual and collective measures of risk. Methods for resilience enhancement are proposed to the urban planner and their quantitative effect demonstrated. <br />
+          More information about the detail level tool can be found <a href="http://securipedia.eu/mediawiki/index.php/Detail_level_tools"><u>here</u></a><u>.</u></p>
+        <p>Importantly, it will not be possible to misuse any of the tools to identify optimal attack methods or locations.<u> </u></p>
+        <p>This suite of tools and it application in the various stages of urban planning is depicted graphically in the illustration below.<br />
+           </p>
+<ul><li>
+            <p><img src="_bilder/VITRUV-Levels_Website01.png" alt="Vitruv Levels" name="" width="670" height="350" usemap="#Map2" border="0" />
+              <map name="Map2" id="Map2">
+                <area shape="poly" coords="583,151,489,152,490,216,642,218,644,152" href="http://securipedia.eu/mediawiki/index.php/Plan_level_tools" target="_blank" alt="Plan Level" />
+                <area shape="poly" coords="478,19,651,21,650,96,477,96" href="http://securipedia.eu/mediawiki/index.php/Concept_level_tools" target="_blank" alt="Concept Level" />
+                <area shape="poly" coords="489,226,642,227,643,295,489,296" href="http://securipedia.eu/mediawiki/index.php/Detail_level_tools" target="_blank" alt="Detail Level" />
+              </map>
+            </p>
+          </li>
+        </ul>
+        <p>All levels  will contribute to enabling the development of more robust and resilient structures with respect to urban (re)planning, (re)design and/or (re)engineering. Planners who use VITRUV's tools will be able to
+          deliver urban space less prone to and less affected by attacks and disasters,  sustainably improving the
+      security of citizens.</p>
+        VITRUV is funded under the 7th Framework Programme for research and  technological development under the Security theme and the specific activity of increasing  the security of infrastructures and utilities.<br />
+<br />
+<table width="628">
+<tr>
+	        <td width="66">&nbsp;</td>
+	        <td width="480"><div align="center"></div></td>
+	        <td width="66">&nbsp;</td>
+          </tr>
+  </table>
+	    </div>
+	  </div>
+	<!-- InstanceEndEditable -->
+	<div id="content_footer"></div></div>
+
+<div id="footer">
+    	<ul>
+        <li><a href="http://ec.europa.eu/" target="_blank"><img src="_bilder/eu_logo.jpg" width="45" height="30" vspace="5" align="absmiddle" /></a></li>
+    	  <li><a href="impressum.html">Publishing Notes</a>
+        	</li><li><a href="contact.html">Contact</a>
+  </li>
+        	<li>&copy; Fraunhofer EMI 2014</li></ul>
+	</div>
+</body>
+<!-- InstanceEnd --></html>

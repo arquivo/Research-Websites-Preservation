@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr"><!--<![endif]-->
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function c(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),c=a.length,u=0;c>u;u++)a[u].apply(i,r);return i}function u(t,e){p[t]=f(t).concat(e)}function f(t){return p[t]||[]}function s(){return r(c)}var p={};return{on:u,emit:c,create:s,listeners:f,context:e,_events:p}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!v++){var t=l.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(p,function(e,n){t[e]||(t[e]=n)});var n="https"===s.split(":")[0]||t.sslForHttp;l.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=l.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),c=t(1),u=window,f=u.document;t(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),l=e.exports={offset:i(),origin:s,features:{},xhrWrappable:d};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var v=0},{1:12,2:3,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],12:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],13:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}]},{},["G9z0Bl"]);</script>
+<link rel="shortcut icon" href="http://www.ceu.edu/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="/node/11341" />
+<link rel="canonical" href="/project/europolis-deliberative-polity-making-project" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>EUROPOLIS: A deliberative polity-making project | Central European University</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="cleartype" content="on">
+
+  <link type="text/css" rel="stylesheet" href="http://www.ceu.edu/sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.ceu.edu/sites/default/files/css/css_dGYDLbc-S6u7-47scH4T23mAMlhJc2u-kQAy1pGqLjw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.ceu.edu/sites/default/files/css/css_RKPAXkgl00HN6iNgOt8X7Qju5-rAW-vL2_v6GSZPBPw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.ceu.edu/sites/default/files/css/css_qYY8LixFz0MhbZ36N30ljmu2_P1x4RP_z3M-AYRn35U.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.ceu.edu/sites/default/files/css/css_fb3LXtGeIu77saGWyJofr5y1YqndylV5TkyhMJE5UrA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.ceu.edu/sites/default/files/css/css_eDhK8UaV6ptzvDums1SN_sjxXZ2_8VgKBwBWSMyJVo8.css" media="all" />
+  <script src="http://www.ceu.edu/sites/default/files/js/js_0gj6QcpfRH2jzTbCQqf7kEkm4MXY0UA_sRhwPc8jC1o.js"></script>
+<script src="http://www.ceu.edu/sites/default/files/js/js_ZpJJbWcnnM1coYfZHlZbonoPG7yc97Gp-EA83pwd1VI.js"></script>
+<script src="http://www.ceu.edu/sites/default/files/js/js_zm3CYfY1pTRjdHnIaUKuUbBPfnNpAwR2oIakfGBlJiM.js"></script>
+<script src="http://www.ceu.edu/sites/default/files/js/js_-SgMH-pKktY7cgdHaqv5lP4lzwPgFE7z5OCbjEx-v6k.js"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-10012426-1"]);_gaq.push(['_setCustomVar', 1, "network", "non-ceu", 2]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="http://www.ceu.edu/sites/default/files/js/js_hcC07YuESrnSS41rGC5bEj_hdFp6kg8mTuwN6eU84JI.js"></script>
+<script src="http://www.ceu.edu/sites/default/files/js/js_1QDJ_KRhwXD6Km7u4GZysanSl6iTo7deCx8xQxU1zvY.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"ceupoly","theme_token":"lVgGMxta8EyjeViit15cubQeqU8atbsVG2d4fsiELb0","js":{"sites\/all\/modules\/contrib\/chosen\/chosen.js":1,"profiles\/panopoly\/modules\/panopoly\/panopoly_widgets\/panopoly-widgets.js":1,"profiles\/panopoly\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/panopoly\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"profiles\/panopoly\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"profiles\/panopoly\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js":1,"profiles\/panopoly\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"profiles\/panopoly\/modules\/panopoly\/panopoly_admin\/panopoly-admin.js":1,"profiles\/panopoly\/modules\/panopoly\/panopoly_magic\/panopoly-magic.js":1,"profiles\/panopoly\/modules\/panopoly\/panopoly_theme\/js\/panopoly-accordion.js":1,"profiles\/panopoly\/modules\/contrib\/caption_filter\/js\/caption-filter.js":1,"sites\/all\/libraries\/chosen\/chosen\/chosen.jquery.min.js":1,"sites\/all\/modules\/contrib\/konamicode\/konamicode.js":1,"sites\/all\/modules\/custom\/ceu_konami\/js\/thankyousybil.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sfsmallscreen.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/modules\/contrib\/superfish\/superfish.js":1,"sites\/all\/themes\/ceupoly\/js\/retina.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.tabs.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"profiles\/panopoly\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/panopoly\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"profiles\/panopoly\/modules\/panopoly\/panopoly_admin\/panopoly-admin.css":1,"profiles\/panopoly\/modules\/panopoly\/panopoly_admin\/panopoly-admin-navbar.css":1,"profiles\/panopoly\/modules\/panopoly\/panopoly_core\/css\/panopoly-dropbutton.css":1,"profiles\/panopoly\/modules\/panopoly\/panopoly_magic\/css\/panopoly-magic.css":1,"profiles\/panopoly\/modules\/panopoly\/panopoly_magic\/css\/panopoly-modal.css":1,"profiles\/panopoly\/modules\/panopoly\/panopoly_theme\/css\/panopoly-featured.css":1,"profiles\/panopoly\/modules\/panopoly\/panopoly_theme\/css\/panopoly-accordian.css":1,"profiles\/panopoly\/modules\/panopoly\/panopoly_theme\/css\/panopoly-layouts.css":1,"profiles\/panopoly\/modules\/panopoly\/panopoly_widgets\/panopoly-widgets.css":1,"profiles\/panopoly\/modules\/panopoly\/panopoly_wysiwyg\/panopoly-wysiwyg.css":1,"profiles\/panopoly\/modules\/contrib\/radix_layouts\/radix_layouts.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/panopoly\/modules\/contrib\/views\/css\/views.css":1,"profiles\/panopoly\/modules\/contrib\/caption_filter\/caption-filter.css":1,"sites\/all\/libraries\/chosen\/chosen\/chosen.css":1,"sites\/all\/modules\/contrib\/chosen\/css\/chosen-drupal.css":1,"profiles\/panopoly\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/panopoly\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/panopoly\/modules\/contrib\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"public:\/\/ctools\/css\/4b99c31c3e5065885d0b6c87f10ab5b3.css":1,"profiles\/panopoly\/modules\/contrib\/panels\/plugins\/layouts\/twocol_bricks\/twocol_bricks.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/themes\/ceupoly\/system.menus.css":1,"sites\/all\/themes\/ceupoly\/css\/normalize.css":1,"sites\/all\/themes\/ceupoly\/css\/wireframes.css":1,"sites\/all\/themes\/ceupoly\/css\/layouts\/responsive-sidebars.css":1,"sites\/all\/themes\/ceupoly\/css\/page-backgrounds.css":1,"sites\/all\/themes\/ceupoly\/css\/tabs.css":1,"sites\/all\/themes\/ceupoly\/css\/pages.css":1,"sites\/all\/themes\/ceupoly\/css\/blocks.css":1,"sites\/all\/themes\/ceupoly\/css\/navigation.css":1,"sites\/all\/themes\/ceupoly\/css\/views-styles.css":1,"sites\/all\/themes\/ceupoly\/css\/calendar.css":1,"sites\/all\/themes\/ceupoly\/css\/nodes.css":1,"sites\/all\/themes\/ceupoly\/css\/comments.css":1,"sites\/all\/themes\/ceupoly\/css\/forms.css":1,"sites\/all\/themes\/ceupoly\/css\/tables.css":1,"sites\/all\/themes\/ceupoly\/css\/fields.css":1,"sites\/all\/themes\/ceupoly\/css\/panels.css":1,"sites\/all\/themes\/ceupoly\/css\/print.css":1,"sites\/all\/themes\/ceupoly\/css\/accordion.css":1,"sites\/all\/themes\/ceupoly\/css\/webforms.css":1,"profiles\/panopoly\/modules\/panopoly\/panopoly_images\/panopoly-images.css":1}},"chosen":{"selector":"div.form-field-name-field-term-unit select:visible","minimum":"0","minimum_width":"300","search_contains":true,"placeholder_text_multiple":"Choose some options","placeholder_text_single":"Choose an option","no_results_text":"No results match"},"konamicodeThankYouSybilSlideSource":"\/sites\/all\/modules\/custom\/ceu_konami\/images\/","konamicodeThankYouSybilSlideTitle":"Thank you Sybil!","konamicodeThankYouSybilSlideDesc":"Best wishes from the web team. We\u0027ll miss you.","konamicode":{"thankyousybil":[84,72,65,78,75,83,83,89,66,73,76]},"CToolsModal":{"modalSize":{"type":"scale","width":".9","height":".9","addWidth":0,"addHeight":0,"contentRight":25,"contentBottom":75},"modalOptions":{"opacity":".55","background-color":"#FFF"},"animationSpeed":"fast","modalTheme":"CToolsModalDialog","throbberTheme":"CToolsModalThrobber"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show","height":"show"},"speed":200,"autoArrows":false,"dropShadows":false,"disableHI":false},"plugins":{"smallscreen":{"mode":"window_width","breakpoint":640,"addSelected":false,"menuClasses":false,"hyperlinkClasses":false,"title":"Main menu"},"supposition":true,"bgiframe":false}}}});</script>
+      <!--[if lt IE 9]>
+    <script src="/sites/all/themes/zen/js/html5-respond.js"></script>
+    <![endif]-->
+  </head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-11341 node-type-project region-content section-project ceu-25" >
+      <p id="skip-link">
+      <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
+    </p>
+      <div id="page-outer">
+<div id="header-outer">
+  <header id="header" role="banner">
+
+          <a href="/" title="Home" rel="home" id="logo"><img src="http://www.ceu.edu/sites/all/themes/ceupoly/images/ceu_25_logo.png" alt="Home" /></a>
+    
+    
+    
+      <div class="region region-header">
+    <div id="block-menu-menu-header-left" class="block block-menu first odd" role="navigation">
+
+      
+  <ul class="menu"><li class="first leaf"><a href="http://library.ceu.edu/">CEU Library</a></li>
+<li class="leaf"><a href="/calendar" title="CEU Academic Calendar">Academic Calendar</a></li>
+<li class="last leaf"><a href="/oo">Online Orientation</a></li>
+</ul>
+</div><!-- /.block -->
+<div id="block-menu-menu-header-center" class="block block-menu even" role="navigation">
+
+      
+  <ul class="menu"><li class="first leaf"><a href="https://people.ceu.edu">People Directory</a></li>
+<li class="leaf"><a href="http://alumnicareer.ceu.edu">Alumni &amp; Career</a></li>
+<li class="last leaf"><a href="http://ceulearning.ceu.hu" title="CEU e-learning website">Moodle/E-learning</a></li>
+</ul>
+</div><!-- /.block -->
+<div id="block-search-form" class="block block-search odd" role="search">
+
+      
+  <form action="/project/europolis-deliberative-polity-making-project" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-wP99d1dBlqmtBmJGSrwr9OH-A7JEOqB503ij7oWkRa8" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>
+</div><!-- /.block -->
+<div id="block-block-2" class="block block-block last even">
+
+      
+  <a href="/" title="Home" rel="home" class="ceu-logo"><img src="/sites/all/themes/ceupoly/logo.png" alt="Home"></a>
+
+</div><!-- /.block -->
+  </div><!-- /.region -->
+
+  </header>
+</div>
+<div id="page">
+  <div id="main">
+    
+    
+    <div id="content" class="column" role="main">
+      <nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="/">Home</a> › </li><li><a href="/research/projects">Projects</a> › </li><li><span >EUROPOLIS: A deliberative polity-making project</span> › </li></ol></nav>      <a id="main-content"></a>
+                    <h1 class="title" id="page-title">EUROPOLIS: A deliberative polity-making project</h1>
+                                          
+
+
+<div class="panel-display panel-2col-bricks clearfix" >
+  <div class="panel-panel panel-col-top">
+    <div class="inside"><div class="panel-pane pane-entity-field pane-node-field-related-link" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-related-link field-type-link-field field-label-above"><div class="field-label">Link:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://europolis-project.eu">http://europolis-project.eu</a></div><div class="field-item odd"><a href="http://ec.europa.eu/research/social-sciences/projects/386_en.html">http://ec.europa.eu/research/social-sciences/projects/386_en.html</a></div></div></div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+  <div class="center-wrapper">
+    <div class="panel-panel panel-col-first">
+      <div class="inside"><div class="panel-pane pane-entity-field pane-node-field-project-researcher" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-project-researcher field-type-link-field field-label-above"><div class="field-label">Main researcher(s) at CEU:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://people.ceu.hu/node/1661">Gabor Toka</a></div></div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-entity-field pane-node-field-term-unit" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-term-unit field-type-taxonomy-term-reference field-label-above"><div class="field-label">Unit:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/unit/polsci">Department of Political Science</a></div></div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-entity-field pane-node-field-term-academic-area" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-term-academic-area field-type-taxonomy-term-reference field-label-above"><div class="field-label">Research Area:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/research-area/political-science">Political Science</a></div><div class="field-item odd"><a href="/research-area/international-relations">International Relations</a></div></div></div>  </div>
+
+  
+  </div>
+</div>
+    </div>
+
+    <div class="panel-panel panel-col-last">
+      <div class="inside"><div class="panel-pane pane-entity-field pane-node-field-project-duration" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-project-duration field-type-datetime field-label-above"><div class="field-label">Duration:&nbsp;</div><div class="field-items"><div class="field-item even"><span class="date-display-start">September, 2008</span> to <span class="date-display-end">September, 2010</span></div></div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-entity-field pane-node-field-term-project-funding" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-term-project-funding field-type-taxonomy-term-reference field-label-above"><div class="field-label">Funding:&nbsp;</div><div class="field-items"><div class="field-item even">EU FP7 - Socio-economic Sciences and Humanities</div></div></div>  </div>
+
+  
+  </div>
+</div>
+    </div>
+  </div>
+  <div class="panel-panel panel-col-middle">
+    <div class="inside"><div class="panel-pane pane-entity-field pane-node-body" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>The project intends to test whether deliberative democracy can contribute to address the democratic deficit in Europe, with particular reference to the next European parliamentary elections. EuroPolis is a carefully designed experiment that assesses how political and social attitudes toward EU issues change as a result of exposure to information, and what implications this has for political participation and voter turnout.</p>
+</div></div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-node-links link-wrapper" >
+  
+      
+  
+  <div class="pane-content">
+      </div>
+
+  
+  </div>
+</div>
+  </div>
+  <div class="center-wrapper">
+    <div class="panel-panel panel-col-first">
+      <div class="inside"></div>
+    </div>
+
+    <div class="panel-panel panel-col-last">
+      <div class="inside"></div>
+    </div>
+  </div>
+  <div class="panel-panel panel-col-bottom">
+    <div class="inside"></div>
+  </div>
+</div>
+<!-- block__no_wrapper -->
+<!-- region__no_wrapper -->
+          </div><!-- /#content -->
+
+    <div id="navigation">
+
+      
+        <div class="region region-navigation">
+    <div id="block-superfish-1" class="block block-superfish first last odd">
+
+      
+  <ul id="superfish-1" class="menu sf-menu sf-main-menu sf-horizontal sf-style-none sf-total-items-8 sf-parent-items-7 sf-single-items-1"><li id="menu-991-1" class="first odd sf-item-1 sf-depth-1 sf-total-children-7 sf-parent-children-5 sf-single-children-2 menuparent"><a href="/about" class="sf-depth-1 menuparent">About</a><ul><li id="menu-1002-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/about/rector" class="sf-depth-2">From the President and Rector</a></li><li id="menu-1000-1" class="middle even sf-item-2 sf-depth-2"><a href="/about/open-society-mission" class="sf-depth-2">Open Society Mission</a></li><li id="menu-1875-1" class="middle odd sf-item-3 sf-depth-2"><a href="/partnerships" class="sf-depth-2">Partnerships</a></li><li id="menu-1004-1" class="middle even sf-item-4 sf-depth-2"><a href="/about/community-engagement" class="sf-depth-2">Community Engagement</a></li><li id="menu-1628-1" class="middle odd sf-item-5 sf-depth-2"><a href="/about/facts-figures" class="sf-depth-2">Facts and Figures</a></li><li id="menu-1938-1" class="middle even sf-item-6 sf-depth-2"><a href="/giving" class="sf-depth-2">Giving to CEU</a></li><li id="menu-1468-1" class="last odd sf-item-7 sf-depth-2 sf-no-children"><a href="/contact" class="sf-depth-2">Contacts</a></li></ul></li><li id="menu-69422-1" class="middle even sf-item-2 sf-depth-1 sf-total-children-5 sf-parent-children-5 sf-single-children-0 menuparent"><a href="/admissions/find-out-more" class="sf-depth-1 menuparent">Admissions</a><ul><li id="menu-69423-1" class="first odd sf-item-1 sf-depth-2"><a href="/admissions/find-out-more" class="sf-depth-2">Find Out More</a></li><li id="menu-69433-1" class="middle even sf-item-2 sf-depth-2"><a href="/admissions/who-can-apply" class="sf-depth-2">Who Can Apply</a></li><li id="menu-69430-1" class="middle odd sf-item-3 sf-depth-2"><a href="/admissions/funding-fees" class="sf-depth-2">Funding and Fees</a></li><li id="menu-69431-1" class="middle even sf-item-4 sf-depth-2"><a href="/apply" class="sf-depth-2">How To Apply</a></li><li id="menu-69432-1" class="last odd sf-item-5 sf-depth-2"><a href="/admissions/after-you-apply" class="sf-depth-2">After You Apply</a></li></ul></li><li id="menu-1029-1" class="middle odd sf-item-3 sf-depth-1 sf-total-children-8 sf-parent-children-5 sf-single-children-3 menuparent"><a href="/academics" class="sf-depth-1 menuparent">Academics</a><ul><li id="menu-1030-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/academics/schools-departments" class="sf-depth-2">Schools and Departments</a></li><li id="menu-1031-1" class="middle even sf-item-2 sf-depth-2"><a href="/academics/degrees" class="sf-depth-2">Degree Programs</a></li><li id="menu-1036-1" class="middle odd sf-item-3 sf-depth-2"><a href="/academics/non-degree" class="sf-depth-2">Non-degree/ Exchange Programs</a></li><li id="menu-1041-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/academics/advanced-certificate-programs" class="sf-depth-2">Advanced Certificate Programs</a></li><li id="menu-2042-1" class="middle odd sf-item-5 sf-depth-2"><a href="/humanities-initiative" class="sf-depth-2">The CEU Humanities Initiative</a></li><li id="menu-78232-1" class="middle even sf-item-6 sf-depth-2"><a href="/academics/awards" class="sf-depth-2">Academic Awards</a></li><li id="menu-1042-1" class="middle odd sf-item-7 sf-depth-2"><a href="/academics/facilities-support" class="sf-depth-2">Academic Facilities and Support</a></li><li id="menu-1048-1" class="last even sf-item-8 sf-depth-2 sf-no-children"><a href="/academics/ias" class="sf-depth-2">Institute for Advanced Study at CEU</a></li></ul></li><li id="menu-1049-1" class="middle even sf-item-4 sf-depth-1 sf-total-children-10 sf-parent-children-2 sf-single-children-8 menuparent"><a href="/research" class="sf-depth-1 menuparent">Research</a><ul><li id="menu-1052-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/research/areas" class="sf-depth-2">Research Areas</a></li><li id="menu-1053-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/research/centers" class="sf-depth-2">CEU Research Centers</a></li><li id="menu-1054-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/research/groups" class="sf-depth-2">CEU Research Groups</a></li><li id="menu-142399-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="http://acro.ceu.edu" target="_blank" class="sf-depth-2">The Academic Cooperation and Research Support Office (ACRO)</a></li><li id="menu-1612-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="http://www.osaarchivum.org/" target="_blank" class="sf-depth-2">Vera and Donald Blinken Open Society Archives</a></li><li id="menu-1623-1" class="middle even sf-item-6 sf-depth-2"><a href="/research/visiting" class="sf-depth-2">Visiting Research and Teaching Opportunities</a></li><li id="menu-1051-1" class="middle odd sf-item-7 sf-depth-2"><a href="/research/projects" class="sf-depth-2">Research Projects</a></li><li id="menu-1874-1" class="middle even sf-item-8 sf-depth-2 sf-no-children"><a href="/category/research-focus" class="sf-depth-2">Research Focus</a></li><li id="menu-1050-1" class="middle odd sf-item-9 sf-depth-2 sf-no-children"><a href="/research/doctoral-programs" class="sf-depth-2">CEU Doctoral Programs</a></li><li id="menu-2078-1" class="last even sf-item-10 sf-depth-2 sf-no-children"><a href="/publications-repository" class="sf-depth-2">Publications Repository</a></li></ul></li><li id="menu-1058-1" class="middle odd sf-item-5 sf-depth-1 sf-total-children-5 sf-parent-children-3 sf-single-children-2 menuparent"><a href="/studentlife" class="sf-depth-1 menuparent">Student Life</a><ul><li id="menu-1079-1" class="first odd sf-item-1 sf-depth-2"><a href="/studentlife/services" class="sf-depth-2">Dean of Students</a></li><li id="menu-1059-1" class="middle even sf-item-2 sf-depth-2"><a href="/studentlife/events" class="sf-depth-2">Annual Events</a></li><li id="menu-1246-1" class="middle odd sf-item-3 sf-depth-2"><a href="/studentlife/clubs-activities" class="sf-depth-2">Clubs and Activities</a></li><li id="menu-1922-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="http://www.ceu.edu/node/9597" class="sf-depth-2">Online Orientation</a></li><li id="menu-1267-1" class="last odd sf-item-5 sf-depth-2 sf-no-children"><a href="/calendar" class="sf-depth-2">Academic Calendar</a></li></ul></li><li id="menu-1080-1" class="middle even sf-item-6 sf-depth-1 sf-total-children-9 sf-parent-children-3 sf-single-children-6 menuparent"><a href="/campus" class="sf-depth-1 menuparent">Campus</a><ul><li id="menu-2081-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/campus/hours-access" class="sf-depth-2">Opening Hours and Access</a></li><li id="menu-93884-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="http://www.ceu.edu/node/13566" class="sf-depth-2">Campus Redevelopment Project</a></li><li id="menu-2083-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/campus/bmg" class="sf-depth-2">Building Maintenance Group (BMG)</a></li><li id="menu-2084-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/campus/csg" class="sf-depth-2">Campus Services Group (CSG)</a></li><li id="menu-2079-1" class="middle odd sf-item-5 sf-depth-2"><a href="/campus/facilities" class="sf-depth-2">Facilities</a></li><li id="menu-2080-1" class="middle even sf-item-6 sf-depth-2"><a href="/campus/health-safety" class="sf-depth-2">Health, Fire and Safety, Security</a></li><li id="menu-1931-1" class="middle odd sf-item-7 sf-depth-2"><a href="/campus/sustainable" class="sf-depth-2">Sustainable CEU</a></li><li id="menu-1221-1" class="middle even sf-item-8 sf-depth-2 sf-no-children"><a href="/campus/residence-center" class="sf-depth-2">CEU Residence and Conference Center</a></li><li id="menu-1598-1" class="last odd sf-item-9 sf-depth-2 sf-no-children"><a href="/campus/facilities/guesthouse" class="sf-depth-2">Raoul Wallenberg Guesthouse</a></li></ul></li><li id="menu-1005-1" class="middle odd sf-item-7 sf-depth-1 sf-total-children-8 sf-parent-children-1 sf-single-children-7 menuparent"><a href="/administration" class="sf-depth-1 menuparent">Administration</a><ul><li id="menu-1071-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/administration/board-of-trustees" class="sf-depth-2">Board of Trustees</a></li><li id="menu-1075-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/administration/senior-staff" class="sf-depth-2">Senior Staff</a></li><li id="menu-1076-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/administration/central-administration" class="sf-depth-2">Central Administration</a></li><li id="menu-1097-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/administration/units" class="sf-depth-2">Academic, Research, Administrative and Academic Support Units</a></li><li id="menu-1073-1" class="middle odd sf-item-5 sf-depth-2"><a href="/administration/senate" class="sf-depth-2">Senate</a></li><li id="menu-1072-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a href="/administration/academic-forum" class="sf-depth-2">Academic Forum</a></li><li id="menu-1077-1" class="middle odd sf-item-7 sf-depth-2 sf-no-children"><a href="/administration/accreditation" class="sf-depth-2">Accreditation</a></li><li id="menu-1078-1" class="last even sf-item-8 sf-depth-2 sf-no-children"><a href="/administration/policies" class="sf-depth-2">Policies</a></li></ul></li><li id="menu-34351-1" class="last even sf-item-8 sf-depth-1 sf-no-children"><a href="https://giving.ceu.edu/" class="sf-depth-1">Giving</a></li></ul>
+</div><!-- /.block -->
+  </div><!-- /.region -->
+
+    </div><!-- /#navigation -->
+
+    
+    
+  </div><!-- /#main -->
+
+    <footer id="footer" class="region region-footer">
+    <div id="block-block-1" class="block block-block first odd">
+
+      
+  <p>Copyright © 2016 Central European University // Postal Address: Central European University, Nador u. 9, 1051 Budapest, Hungary</p>
+</div><!-- /.block -->
+<div id="block-menu-menu-footer" class="block block-menu last even" role="navigation">
+
+      
+  <ul class="menu"><li class="first leaf"><a href="http://www.osaarchivum.org/">Vera and Donald Blinken Open Society Archives</a></li>
+<li class="leaf"><a href="http://hro.ceu.edu/find-job">Work at CEU</a></li>
+<li class="leaf"><a href="http://www.ceu.edu/giving">Give to CEU</a></li>
+<li class="leaf"><a href="http://www.ceu.edu/sites/default/files/attachment/basic_page/15089/ceucatalogue2015-16.pdf">CEU Catalog</a></li>
+<li class="leaf"><a href="https://documents.ceu.edu">University Policies</a></li>
+<li class="leaf"><a href="http://www.ceupress.com">CEU Press</a></li>
+<li class="last leaf"><a href="http://www.ceu.edu/hu/kee">Magyarul</a></li>
+</ul>
+</div><!-- /.block -->
+  </footer><!-- region__footer -->
+
+</div><!-- /#page -->
+</div><!-- /#page-outer -->
+
+  <script src="http://www.ceu.edu/sites/default/files/js/js_QI1lZI4H0Dko_K9cGEygEDb3EqzbPto4_h1yrHyRF_s.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"4993a75a91","applicationID":"14243735","transactionName":"MwRSZktVWxACUUwNXgpOcVFNXVoNTEJZA1Q7DFFcWFNQETxcVwBUOxdZV05rRQIEVw==","queueTime":0,"applicationTime":277,"atts":"H0NREANPSB4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

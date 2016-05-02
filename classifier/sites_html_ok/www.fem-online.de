@@ -1,0 +1,221 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de" dir="ltr">
+
+<!html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<meta name="keywords" content="">
+	<title>INTOGOLD</title>
+</head>
+
+<style>
+/*Algemeines*/
+body {background-color: #E7E8E9; font-family: Arial, Helvetica, Sans-Serife; font-size: 12px; line-height: 15px; color: #231F20; margin: 0px;}
+td {font-family: Arial, Helvetica, Sans-Serife; font-size: 12px; line-height: 15px; color: #231F20; vertical-align: top;}
+td.unten {vertical-align: bottom;}
+td.mitte {vertical-align: middle; text-align: center;}
+div.xToolbar {position: absolute; top: 0px; left: 197px; width: 823px; height: 60px;}
+.mini {font-size: 4px; line-height: 4px;}
+
+
+/*Menue*/
+div.MenueHintergrund {position: absolute; top: 0px; left: 0px; width: 195px; height: 100%; background-color: #E1DFDE;}
+div.HauptLogo {position: absolute; top: 37px; left: 26px; width: 169px;}
+div.Suche {position: absolute; top: 500px; left: 27px; width: 168px;}
+div.Sprache {position: absolute; bottom: 6px; left: 27px; width: 168px; font-family: Arial, Helvetica, Sans-Serife; font-size: 13px; color: #000000; font-weight: bold;}
+div.Menue {position: absolute; top: 193px; left: 29px; width: 166px; font-family: Arial, Helvetica, Sans-Serife; font-size: 13px; line-height: 22px; color: #69706B; font-weight: bold; z-index: 2;}
+div.MenueHinten {position: absolute; top: 195px; left: 29px; width: 166px; font-family: Arial, Helvetica, Sans-Serife; font-size: 13px; line-height: 22px; color: #69706B; font-weight: bold; z-index:1;}
+div.MenueTest {position: absolute; top: 193px; left: 229px; font-family: Arial, Helvetica, Sans-Serife; font-size: 13px; line-height: 22px; color: #69706B;}
+div.SubMenue1 {position: absolute; top: 193px; left: 197px; width: 200px; font-family: Arial, Helvetica, Sans-Serife; font-size: 12px; line-height: 22px; color: #69706B; font-weight: bold; z-index: 2;}
+div.SubMenue1Hinten {position: absolute; top: 195px; left: 195px; width: 200px; font-family: Arial, Helvetica, Sans-Serife; font-size: 12px; line-height: 22px; color: #69706B; font-weight: bold; z-index: 1;}
+//div.SubMenue2 {position: absolute; top: 229px; left: 287px; font-family: Arial, Helvetica, Sans-Serife; font-size: 12px; line-height: 22px; color: #69706B; font-weight: bold; z-index: 2;}
+div.SubMenue2 {position: absolute; top: 150px; left: 401px; height: 87px; width: 200px; font-family: Arial, Helvetica, Sans-Serife; font-size: 12px; line-height: 22px; color: #69706B; font-weight: bold; z-index: 2;}
+//div.SubMenue2Hinten {position: absolute; top: 231px; left: 285px; font-family: Arial, Helvetica, Sans-Serife; font-size: 12px; line-height: 22px; color: #69706B; font-weight: bold; z-index: 1;}
+div.SubMenue2Hinten {position: absolute; top: 153px; left: 401px; height: 87px; width: 200px; font-family: Arial, Helvetica, Sans-Serife; font-size: 12px; line-height: 22px; color: #69706B; font-weight: bold; z-index: 1;}
+div.QuickFinder {position: absolute; top: 300px; left: 167px; width: 200px; height: 223px; padding-left: 6px; padding-top: 3px; background-color: #F7F8F9; overflow: auto; z-index: 10; visibility:hidden}
+div.QuickFinderHintergrund {position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; vertical-align: middle; z-index: 10; visibility:hidden}
+
+
+
+
+/*auch f&uuml;r Seiten*/
+td {font-family: Arial, Helvetica, Sans-Serife; font-size: 12px; line-height: 15px; color: #231F20; vertical-align: top;}
+td.unten {vertical-align: bottom;}
+div.Seite {position: absolute; top: 61px; left: 400px;}
+div.SeiteUnten {position: absolute; bottom: 6px; left: 600px;}
+ul {padding-left: 10px; padding-bottom: 0px; margin-left: 10px; margin-bottom: 0px;}
+</style><script>
+MenueWahl=1;
+SubMenue1Wahl=0;
+SubMenue2Wahl=0;
+MenuePunkt=0;
+function zeige(Zahl){
+    if ((Zahl!=MenueWahl)||(Zahl==0&&MenueWahl==0)){
+    if (MenuePunkt){
+        document.getElementById("MenuePunkt"+MenuePunkt).src="bilder/blank.gif";
+    }
+    if (Zahl){
+        document.getElementById("MenuePunkt"+Zahl).src="bilder/hell.gif";
+    }
+    MenuePunkt=Zahl;
+    }
+}
+SubMenue1Punkt=0;
+function zeige1(Zahl){
+    if ((Zahl!=SubMenue1Wahl)||(Zahl==0&&SubMenue1Wahl==0)){
+    if (SubMenue1Punkt){
+        document.getElementById("SubMenue1Punkt"+SubMenue1Punkt).src="bilder/blank.gif";
+    }
+    if (Zahl){
+        document.getElementById("SubMenue1Punkt"+Zahl).src="bilder/dunkel.gif";
+    }
+    SubMenue1Punkt=Zahl;
+    }
+}
+SubMenue2Punkt=0;
+function zeige2(Zahl){
+    if ((Zahl!=SubMenue2Wahl)||(Zahl==0&&SubMenue2Wahl==0)){
+    if (SubMenue2Punkt){
+        document.getElementById("SubMenue2Punkt"+SubMenue2Punkt).src="bilder/blank.gif";
+    }
+    if (Zahl){
+        document.getElementById("SubMenue2Punkt"+Zahl).src="bilder/dunkel.gif";
+    }
+    SubMenue2Punkt=Zahl;
+    }
+}
+function waehle(Zahl,Zahl1){
+    document.forms['menue'].MenueWahl.value=Zahl;
+    document.forms['menue'].MenueReihe.value=Zahl1;
+    document.forms['menue'].SubMenue1Wahl.value=0;
+    document.forms['menue'].SubMenue1Reihe.value=0;
+    document.forms['menue'].SubMenue2Wahl.value=0;
+    document.forms['menue'].SubMenue2Reihe.value=0;
+    document.forms['menue'].submit();
+}
+function waehle1(Zahl,Zahl1){
+    document.forms['menue'].SubMenue1Wahl.value=Zahl;
+    document.forms['menue'].SubMenue1Reihe.value=Zahl1;
+    document.forms['menue'].SubMenue2Wahl.value=0;
+    document.forms['menue'].SubMenue2Reihe.value=0;
+    document.forms['menue'].submit();
+}
+function waehle2(Zahl,Zahl1){
+    document.forms['menue'].SubMenue2Wahl.value=Zahl;
+    document.forms['menue'].SubMenue2Reihe.value=Zahl1;
+    document.forms['menue'].submit();
+}
+function sprache(){
+    document.forms['menue'].Sprache.value=1;
+    document.forms['menue'].submit();
+}
+function SetQuickFinder(Wert){
+    if (Wert){
+        document.getElementById("QuickFinderHintergrund").style.visibility="visible";
+        document.getElementById("QuickFinder").style.visibility="visible";
+    }else{
+        document.getElementById("QuickFinder").style.visibility="hidden";
+        document.getElementById("QuickFinderHintergrund").style.visibility="hidden";
+    }
+}
+</script>
+
+<body>
+
+<div class="MenueHintergrund">&nbsp;</div>
+<div class="Sprache"></div>
+<div class="Sprache"></div>
+<div class="HauptLogo"><img src="bilder/hauptlogo.gif" onClick="waehle(1);"></div>
+<div class="Suche"></div>
+
+<div class="Menue">
+<font color="#000000">Home</font><br>
+Partners<br>
+Contact<br>
+</div>
+<div class="Menue">
+<img src="bilder/blank.gif" border="0" width="165" height="17" align="left" hspace="0" vspace="0" onMouseOver="zeige(1);" onMouseOut="zeige(0);" onClick="waehle(1,1);"><br>
+<img src="bilder/blank.gif" border="0" width="165" height="17" align="left" hspace="0" vspace="0" onMouseOver="zeige(2);" onMouseOut="zeige(0);" onClick="waehle(2,2);"><br>
+<img src="bilder/blank.gif" border="0" width="165" height="17" align="left" hspace="0" vspace="0" onMouseOver="zeige(3);" onMouseOut="zeige(0);" onClick="waehle(3,3);"><br>
+</div>
+<div class="MenueHinten">
+<img src="bilder/hell.gif" border="0" width="167" height="17" align="left" hspace="0" vspace="0" id="MenuePunkt1"><br>
+<img src="bilder/blank.gif" border="0" width="167" height="17" align="left" hspace="0" vspace="0" id="MenuePunkt2"><br>
+<img src="bilder/blank.gif" border="0" width="167" height="17" align="left" hspace="0" vspace="0" id="MenuePunkt3"><br>
+</div>
+
+<div class="SubMenue1">
+</div>
+<div class="SubMenue1">
+</div>
+<div class="SubMenue1Hinten">
+</div>
+
+<div style="position: absolute; top: 390px; left: 14px;">
+<img src="bilder/login.gif">
+</div>
+<div style="position: absolute; top: 390px; left: 14px; z-index: 5;">
+<form action="http://www.fem-online.de/intogold/" method="post" id="login">
+<table border="0" cellpadding="0" cellspacing="0" width="151">
+<tr><td class="mini" height="15" colspan="2"></td></tr>
+<tr><td class="mini" width="15" rowspan="3">&nbsp;</td><td><font style="font-size: 13px; font-weight: bold; color: #69706B; text-decoration:">Login Form</font><br><img src="bilder/ganzdunkel.gif" width="130" height="1"></td></tr>
+<tr><td height="73" class="unten">Username<br><input type="text" name="Name" value="" style="width: 130px; height: 20px;"><br>Password<br><input type="password" name="PWD" value="" style="width: 130px; height: 20px;"></td></tr>
+<tr><td><input type="checkbox" name="RemMe"> &nbsp; Remember me<br><input type="hidden" name="MenueWahl" value="4"><input type="submit" value="Login"><br>Lost Password?</td></tr>
+</table>
+</form>
+</div>
+<div style="position: absolute; top: 61px; left: 300px; width: 600px;">
+<style type="text/css">body {background-color: #E7E8E9; font-family: Arial, Helvetica, Sans-Serife; font-size: 12px; line-height: 15px; color: #231F20; margin: 0px;}
+a {font-family: Arial, Helvetica, Sans-Serife; font-size: 12px; line-height: 15px; color: #231F20;}
+td {font-family: Arial, Helvetica, Sans-Serife; font-size: 12px; line-height: 15px; color: #231F20; vertical-align: top;}
+td.unten {vertical-align: bottom;}
+ul {padding-left: 10px; padding-bottom: 0px;; margin-left: 10px; margin-bottom: 0px;}</style>
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td height="19" width="200">&nbsp;</td>
+            <td height="19" width="200">&nbsp;</td>
+            <td height="19" width="200">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="unten" height="135" colspan="3"><b style="line-height: 20px; color: #69706b; font-size: 18px">Welcome to the EU Research Project INTOGOLD</b></td>
+        </tr>
+        <tr>
+            <td height="19" colspan="3">&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="3">Intogold is a European research project which has the aim to reach optmimum surface quality in investment casting (with particular focus on direct resin casting) approaching the problem from different angles: investment and alloy data measurement, resin properties characterisation, computer simulation, casting trials with different parameters, and final evaluation of the results to optimize the process.<br />
+            <br />
+            The two posters here provided summarize the activity conducted in the project focusing on material properties: the first one on alloys and investment, the second on resin and waxes:<br />
+            <br />
+            <a target="_blank" href="http://www.fem-online.de/bilder/file/INTOGOLD_D6.4.pdf">Alloy and Investment Properties</a> (PDF, 2 MB)<br />
+            <br />
+            <a target="_blank" href="http://www.fem-online.de/bilder/file/INTOGOLD_D6.5.pdf">Resin and Waxes Properties</a> (PDF, 2 MB)<br />
+            &nbsp;</td>
+        </tr>
+    </tbody>
+</table></div>
+
+
+<form action="http://www.fem-online.de/intogold/" method="post" id="menue">
+    <input type="hidden" name="MenueWahl" value="1">
+    <input type="hidden" name="MenueReihe" value="1">
+    <input type="hidden" name="SubMenue1Wahl" value="0">
+    <input type="hidden" name="SubMenue1Reihe" value="0">
+    <input type="hidden" name="SubMenue2Wahl" value="0">
+    <input type="hidden" name="SubMenue2Reihe" value="0">
+    <input type="hidden" name="SeitenWahl" value="1">
+    <input type="hidden" name="Verw" value="0">
+    <input type="hidden" name="Anm" value="0">
+    <input type="hidden" name="Anm1" value="0">
+    <input type="hidden" name="Sprache" value="0">
+    <input type="hidden" name="time" value="1456408195">
+    <input type="hidden" name="Zusatz" value="">
+    <input type="hidden" name="Zusatz1" value="">
+</form>
+
+<div style="position: absolute; bottom: 6px; right: 10px;">
+</div>
+</body>
+</html>

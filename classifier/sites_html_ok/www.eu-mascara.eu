@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>EU-MASCARA</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="eu_mascara.css" rel="stylesheet" type="text/css" />
+<meta name="description" content="EU-Mascara - Homepage" />
+<meta name="keywords" content="eu-mascara, cardiovascular, biomarkers" />
+<link rel="shortcut icon" href="images/favicon.ico" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/easySlider1.5.js"></script>
+<script type="text/javascript" charset="utf-8">
+// <![CDATA[
+$(document).ready(function(){	
+	$("#slider").easySlider({
+		controlsBefore:	'<p id="controls">',
+		controlsAfter:	'</p>',
+		auto: true, 
+		continuous: true
+	});	
+});
+// ]]>
+</script>
+<style type="text/css">
+#slider { width:932px; height:153px; margin:0 auto; padding:0; }
+#slider ul,
+#slider li { margin:0; padding:0; list-style:none; }
+/* 
+    define width and height of list item (slide)
+    entire slider area will adjust according to the parameters provided here
+*/
+#slider li { width:932px; height:233px; overflow:hidden; }
+p#controls { margin:0; position:relative; }
+
+</style>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="top_menu"><a href="https://mascara.emergentec.com" title="EU-Mascara Members Only Area" target="_blank">MEMBERS AREA</a></div>
+    <div class="clr"></div>
+    <div class="logo"><a href="/index.php"><img src="/images/logo.gif" width="250" height="80" border="0" alt="logo" /></a></div>
+    <div class="menu">
+      <ul>
+        <li><a href="/index.php" class="active"><span>Home</span></a></li>
+        <li><a href="/project.shtml"><span>The Project</span></a></li>
+        <li><a href="/partners.shtml"><span>The Partners</span></a></li>
+        <li><a href="/pubs.shtml"><span>Publications and Presentations</span></a></li>
+        <li><a href="/links.shtml"><span>Useful Links</span></a></li>
+        <li><a href="/contact.shtml"><span>Contact Us</span></a></li>
+      </ul>
+    </div>
+    <div class="clr"></div>    <div class="clr"></div>
+  </div>
+  <div class="clr"></div>
+  <div class="block_header">
+    <div class="slider">
+      <div id="slider">
+        <ul>
+          <li>
+            <div><a href="project.html"></a>
+              <h2>EU-MASCARA</h2>
+              <p>EU-MASCARA is a collaborative project that aims to improve diagnosis of cardiovascular diseases and prediction of cardiovascular risk by analysing a panel of biomarkers. </p>
+            </div>
+          </li>
+          <li>
+            <div><a href="project.html"></a>
+              <h2>Aims of the Project</h2>
+              <p>To examine genetic, proteomic and metabolomic markers together with markers of inflammation, oxidative stress and cardiac remodelling to study their incremental diagnostic and predictive value over and above existing diagnostic and predictive algorithms.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+<h2>Project Funding</h2>
+              <p>Funded under 7th FWP (Seventh Framework Programme)</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="body">
+    <div class="body_t">
+      <div class="body_b">
+        <div class="body_left">
+          <h2>News</h2>
+          <p>&nbsp;</p>
+
+        <table width="100%">
+            <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+            <tr>
+                <td>
+                    <p><a href="http://www.eu-mascara.eu/news/preview.php?id=19">EUMACARA Presentations at the "Future of Biomedicine Industry Day" - University of Glasgow College of Medical, Veterinary and Life Sciences</a></p>
+                </td>
+            </tr>
+            <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+            <tr>
+                <td>
+                    <p><a href="http://www.eu-mascara.eu/news/preview.php?id=17">EU-MASCARA WORKSHOP at the 25th ESH MEETING!</a></p>
+                </td>
+            </tr>
+            <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+            <tr>
+                <td>
+                    <p><a href="http://www.eu-mascara.eu/news/preview.php?id=18">The 3rd newsletter is released by EUMASCARA</a></p>
+                </td>
+            </tr>
+            
+        </table>
+          
+<p><a href="/news/news.php">read all news &gt;&gt;</a><br /><br /></p>
+ <h2>&nbsp;</h2>
+<a class="twitter-timeline" href="https://twitter.com/EUMASCARA" data-widget-id="368420830402719746">Tweets by @EUMASCARA</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 2,
+  interval: 30000,
+  width: 275,
+  height: 250,
+  theme: {
+    shell: {
+      background: '#333333',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#000000',
+      color: '#ffffff',
+      links: '#adadad'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('EUMASCARA').start();
+</script> 
+        </div>
+        <div class="body_right">
+          <h2>What is EU-MASCARA?</h2>
+          <img src="images/funding.png" alt="Framework 7 and EU Logos" hspace="10" vspace="30" align="left" />
+          <p>EU-MASCARA is a collaborative project that aims to improve diagnosis of cardiovascular diseases and prediction of cardiovascular risk by analysing a panel of biomarkers, including genetic, proteomic and metabolomic markers together with markers of inflammation, oxidative stress and cardiac
+remodelling. EU-MASCARA will rigorously validate biomarkers that have been proposed to be associated with cardiovascular disease and risk across different disease entities and also in independent general population samples. The most robust biomarkers will be implemented in novel biochip based assays for clinical use. The consortium has partners based in the UK, Austria, Belgium, Germany, Italy, the Netherlands and Spain (total 15) and the project is due to last for 4 years.</p>
+          <p><a href="project.html"><img src="images/but_read_more.gif" alt="picture" width="94" height="16" border="0" /></a></p>
+         <img src="images/eu-mascara_kickoff-group.png" width="580" height="281" alt="EU-Mascara - Kick-off meeting - Group Photo" />
+          
+        </div>
+        <div class="clr"></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <ul>
+      <li><p>&copy; Copyright 2012. EU-MASCARA. All Rights Reserved</p></li>
+      <li><a href="/index.php">home</a></li>
+      <li><a href="/contact.shtml">contact</a></li>
+      <li><a href="/news/rss.php">rss feed</a></li>
+      <li><a href="https://twitter.com/#!/EUMASCARA" target="_blank"><img src="/images/icon_follow_me.gif" alt="EU_Mascara Twitter feed" width="80" height="15" border="0" align="middle" /></a></li>
+    </ul>
+    <p>&nbsp;<a href="http://www.webzpage.net" target="_blank">&nbsp;Site by WebzPage.NET</a></p>
+  </div>
+  
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31572706-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></div>
+</body>
+</html>

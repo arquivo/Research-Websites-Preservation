@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta name="robots" content="index">
+<meta name="keywords" content="Particoat Project">
+<meta name="description" content="Particoat Consortium">
+<meta name="author" content="Particoat Consortium">
+<title>Particoat Project</title>
+<link rel="SHORTCUT ICON" href="particoat.ico">
+</head>
+<frameset ROWS="400*,40" framespacing=0 frameborder=0 border=0>
+	<frameset cols="90*,878,80*" border=0 frameborder=0 framespacing=0>
+		<frame src="/frames/1links.html" name="11" noresize scrolling="No" marginwidth=0 marginheight=0>
+		<frameset rows="151,*" border=0 frameborder=0 framespacing=0>
+			<frame src="/frames/1mitte.html" name="21" noresize scrolling="No" marginwidth=0 marginheight=0>
+			<frame src="/frames/content.html" name="Welcome"  noresize target="Welcome" scrolling="No" marginwidth=0 marginheight=0>
+		</frameset>
+		<frame src="/frames/1rechts.html" name="31" noresize scrolling="No" marginwidth=0 marginheight=0>
+	</frameset>
+	<frameset cols="90*,878,80*" border=0 frameborder=0 framespacing=0>
+		<frame src="/frames/2links.html" name="11" noresize scrolling="No" marginwidth=0 marginheight=0>
+		<frame src="/frames/2unten.html" name="23" noresize scrolling="No" marginwidth=0 marginheight=0>
+		<frame src="/frames/2rechts.html" name="31" noresize scrolling="No" marginwidth=0 marginheight=0>
+	</frameset>
+	<NOFRAMES>
+	<BODY>
+	<P>We need a browser which can handle frames</P>
+	</BODY>
+	</NOFRAMES>
+</frameset>
+</html>
