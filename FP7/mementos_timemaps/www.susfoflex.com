@@ -1,0 +1,56 @@
+{"original_uri":"http://www.susfoflex.com/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.susfoflex.com/",
+"mementos": {
+"list": [
+{"datetime":"2013-02-09T21:07:10Z",
+"uri":"http://web.archive.org/web/20130209210710/http://www.susfoflex.com/"
+},
+{"datetime":"2013-03-13T04:08:31Z",
+"uri":"http://web.archive.org/web/20130313040831/http://www.susfoflex.com/"
+},
+{"datetime":"2013-04-23T08:26:31Z",
+"uri":"http://web.archive.org/web/20130423082631/http://susfoflex.com"
+},
+{"datetime":"2013-12-10T19:39:53Z",
+"uri":"http://web.archive.org/web/20131210193953/http://www.susfoflex.com/"
+},
+{"datetime":"2014-01-11T03:33:25Z",
+"uri":"http://web.archive.org/web/20140111033325/http://www.susfoflex.com/"
+},
+{"datetime":"2014-02-13T03:25:20Z",
+"uri":"http://web.archive.org/web/20140213032520/http://www.susfoflex.com/"
+},
+{"datetime":"2014-04-27T22:55:45Z",
+"uri":"http://web.archive.org/web/20140427225545/http://www.susfoflex.com/"
+},
+{"datetime":"2014-06-05T05:05:56Z",
+"uri":"http://web.archive.org/web/20140605050556/http://www.susfoflex.com/"
+},
+{"datetime":"2014-07-06T11:54:22Z",
+"uri":"http://web.archive.org/web/20140706115422/http://www.susfoflex.com/"
+},
+{"datetime":"2014-08-18T07:40:04Z",
+"uri":"http://web.archive.org/web/20140818074004/http://www.susfoflex.com/"
+},
+{"datetime":"2014-08-19T10:37:25Z",
+"uri":"http://web.archive.org/web/20140819103725/http://www.susfoflex.com/"
+},
+{"datetime":"2014-12-18T09:40:13Z",
+"uri":"http://web.archive.org/web/20141218094013/http://susfoflex.com/"
+},
+{"datetime":"2015-09-25T22:45:00Z",
+"uri":"http://web.archive.org/web/20150925224500/http://susfoflex.com/"
+},
+{"datetime":"2016-01-12T05:04:30Z",
+"uri":"http://web.archive.org/web/20160112050430/http://susfoflex.com/"
+},
+{"datetime":"2016-01-16T06:37:55Z",
+"uri":"http://web.archive.org/web/20160116063755/http://susfoflex.com/"
+},
+{"datetime":"2016-03-06T00:18:55Z",
+"uri":"http://web.archive.org/web/20160306001855/http://susfoflex.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.susfoflex.com/"}
+ }

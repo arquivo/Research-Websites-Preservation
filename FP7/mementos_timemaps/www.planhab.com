@@ -1,0 +1,53 @@
+{"original_uri":"http://www.planhab.com/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.planhab.com/",
+"mementos": {
+"list": [
+{"datetime":"2013-05-06T03:14:58Z",
+"uri":"http://web.archive.org/web/20130506031458/http://planhab.com"
+},
+{"datetime":"2013-05-06T03:15:00Z",
+"uri":"http://web.archive.org/web/20130506031500/http://www.planhab.com/"
+},
+{"datetime":"2013-09-26T22:07:59Z",
+"uri":"http://web.archive.org/web/20130926220759/http://www.planhab.com/"
+},
+{"datetime":"2013-09-28T06:11:52Z",
+"uri":"http://web.archive.org/web/20130928061152/http://www.planhab.com/"
+},
+{"datetime":"2013-10-28T19:39:09Z",
+"uri":"http://web.archive.org/web/20131028193909/http://www.planhab.com/"
+},
+{"datetime":"2013-11-27T18:01:16Z",
+"uri":"http://web.archive.org/web/20131127180116/http://www.planhab.com/"
+},
+{"datetime":"2013-12-01T13:06:00Z",
+"uri":"http://web.archive.org/web/20131201130600/http://www.planhab.com/"
+},
+{"datetime":"2014-05-18T10:12:59Z",
+"uri":"http://web.archive.org/web/20140518101259/http://www.planhab.com/"
+},
+{"datetime":"2014-07-18T09:36:57Z",
+"uri":"http://web.archive.org/web/20140718093657/http://www.planhab.com/"
+},
+{"datetime":"2014-12-17T23:31:59Z",
+"uri":"http://web.archive.org/web/20141217233159/http://planhab.com/"
+},
+{"datetime":"2014-12-21T07:14:39Z",
+"uri":"http://web.archive.org/web/20141221071439/http://www.planhab.com/"
+},
+{"datetime":"2015-04-23T17:14:29Z",
+"uri":"http://web.archive.org/web/20150423171429/http://www.planhab.com/"
+},
+{"datetime":"2016-01-09T16:02:21Z",
+"uri":"http://web.archive.org/web/20160109160221/http://planhab.com/"
+},
+{"datetime":"2016-01-14T00:04:01Z",
+"uri":"http://web.archive.org/web/20160114000401/http://www.planhab.com/"
+},
+{"datetime":"2016-03-06T15:16:31Z",
+"uri":"http://web.archive.org/web/20160306151631/http://planhab.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.planhab.com/"}
+ }

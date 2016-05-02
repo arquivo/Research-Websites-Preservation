@@ -1,0 +1,65 @@
+{"original_uri":"http://www.endure-fp7.com/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.endure-fp7.com/",
+"mementos": {
+"list": [
+{"datetime":"2011-01-28T17:54:51Z",
+"uri":"http://web.archive.org/web/20110128175451/http://endure-fp7.com/"
+},
+{"datetime":"2012-06-16T19:10:32Z",
+"uri":"http://web.archive.org/web/20120616191032/http://www.endure-fp7.com/"
+},
+{"datetime":"2013-05-30T20:21:00Z",
+"uri":"http://web.archive.org/web/20130530202100/http://endure-fp7.com/"
+},
+{"datetime":"2013-09-10T20:02:22Z",
+"uri":"http://web.archive.org/web/20130910200222/http://endure-fp7.com/"
+},
+{"datetime":"2013-10-12T01:37:30Z",
+"uri":"http://web.archive.org/web/20131012013730/http://endure-fp7.com/"
+},
+{"datetime":"2013-11-12T11:42:08Z",
+"uri":"http://web.archive.org/web/20131112114208/http://endure-fp7.com/"
+},
+{"datetime":"2013-12-13T19:20:31Z",
+"uri":"http://web.archive.org/web/20131213192031/http://endure-fp7.com/"
+},
+{"datetime":"2014-01-07T11:53:44Z",
+"uri":"http://web.archive.org/web/20140107115344/http://endure-fp7.com/"
+},
+{"datetime":"2014-01-14T21:54:11Z",
+"uri":"http://web.archive.org/web/20140114215411/http://endure-fp7.com/"
+},
+{"datetime":"2014-01-16T03:38:38Z",
+"uri":"http://web.archive.org/web/20140116033838/http://endure-fp7.com/"
+},
+{"datetime":"2014-02-16T08:32:28Z",
+"uri":"http://web.archive.org/web/20140216083228/http://endure-fp7.com/"
+},
+{"datetime":"2014-03-19T15:50:38Z",
+"uri":"http://web.archive.org/web/20140319155038/http://endure-fp7.com/"
+},
+{"datetime":"2014-03-20T16:29:10Z",
+"uri":"http://web.archive.org/web/20140320162910/http://endure-fp7.com/"
+},
+{"datetime":"2014-04-20T12:08:25Z",
+"uri":"http://web.archive.org/web/20140420120825/http://endure-fp7.com/"
+},
+{"datetime":"2014-05-17T06:33:19Z",
+"uri":"http://web.archive.org/web/20140517063319/http://endure-fp7.com/"
+},
+{"datetime":"2014-12-17T09:01:35Z",
+"uri":"http://web.archive.org/web/20141217090135/http://endure-fp7.com/"
+},
+{"datetime":"2015-08-01T10:05:54Z",
+"uri":"http://web.archive.org/web/20150801100554/http://endure-fp7.com/"
+},
+{"datetime":"2016-01-11T17:14:47Z",
+"uri":"http://web.archive.org/web/20160111171447/http://endure-fp7.com/"
+},
+{"datetime":"2016-03-11T04:56:58Z",
+"uri":"http://web.archive.org/web/20160311045658/http://endure-fp7.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.endure-fp7.com/"}
+ }

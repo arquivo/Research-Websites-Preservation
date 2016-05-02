@@ -1,0 +1,50 @@
+{"original_uri":"http://espace.oma.be/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://espace.oma.be/",
+"mementos": {
+"list": [
+{"datetime":"2012-12-22T05:19:54Z",
+"uri":"http://web.archive.org/web/20121222051954/http://espace.oma.be/"
+},
+{"datetime":"2013-01-22T06:35:14Z",
+"uri":"http://web.archive.org/web/20130122063514/http://espace.oma.be/"
+},
+{"datetime":"2013-02-23T05:13:30Z",
+"uri":"http://web.archive.org/web/20130223051330/http://espace.oma.be/"
+},
+{"datetime":"2013-03-26T01:20:26Z",
+"uri":"http://web.archive.org/web/20130326012026/http://espace.oma.be/"
+},
+{"datetime":"2013-04-26T09:36:05Z",
+"uri":"http://web.archive.org/web/20130426093605/http://espace.oma.be/"
+},
+{"datetime":"2013-05-05T14:48:58Z",
+"uri":"http://web.archive.org/web/20130505144858/http://www.espace.oma.be"
+},
+{"datetime":"2013-05-27T12:44:57Z",
+"uri":"http://web.archive.org/web/20130527124457/http://espace.oma.be/"
+},
+{"datetime":"2013-06-23T22:25:30Z",
+"uri":"http://web.archive.org/web/20130623222530/http://espace.oma.be"
+},
+{"datetime":"2013-07-21T04:05:20Z",
+"uri":"http://web.archive.org/web/20130721040520/http://espace.oma.be"
+},
+{"datetime":"2013-08-26T00:20:02Z",
+"uri":"http://web.archive.org/web/20130826002002/http://espace.oma.be"
+},
+{"datetime":"2014-03-13T13:22:54Z",
+"uri":"http://web.archive.org/web/20140313132254/http://espace.oma.be/"
+},
+{"datetime":"2014-04-14T07:54:42Z",
+"uri":"http://web.archive.org/web/20140414075442/http://espace.oma.be/"
+},
+{"datetime":"2014-05-15T14:55:18Z",
+"uri":"http://web.archive.org/web/20140515145518/http://espace.oma.be/"
+},
+{"datetime":"2014-06-17T17:09:12Z",
+"uri":"http://web.archive.org/web/20140617170912/http://espace.oma.be/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://espace.oma.be/"}
+ }
