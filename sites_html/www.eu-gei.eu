@@ -1,0 +1,380 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>EU-GEI</title>
+    <meta http-equiv="Content-type" content="text/html;charset=ISO-8859-1" />
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="http://www.eu-gei.eu/css/global.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.eu-gei.eu/css/li-scroller.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.eu-gei.eu/css/jquery.treeview.css" />
+<style type="text/css">
+  .slideshow { height:256px; width: 317px; overflow:hidden;}
+  .slideshow img { border: 0px solid #ccc;  }
+</style>
+    <!--[if lt IE 7]><script type="text/javascript" src="http://www.eu-gei.eu/js/IE7.js">IE7_PNG_SUFFIX=".png";</script><![endif]-->
+<script type="text/javascript" src='http://www.eu-gei.eu/admin/extern/scripts/jquery/jquery.js'></script>
+<script type="text/javascript" src='http://www.eu-gei.eu/admin/extern/scripts/jquery/jquery.media.js'></script>
+<script type="text/javascript" src='http://www.eu-gei.eu/js/flowplayer-3.2.4.min.js'></script>
+<script type="text/javascript" src='http://www.eu-gei.eu/js/resizeManager.js'></script>
+<script type="text/javascript" src='http://www.eu-gei.eu/js/slideshow.js'></script>
+<script type="text/javascript" src='http://www.eu-gei.eu/admin/extern/scripts/jquery/jquery.cookie.js'></script>
+<script type="text/javascript" src='http://www.eu-gei.eu/admin/extern/scripts/jquery/jquery.treeview.js'></script>
+<script type="text/javascript" src='http://www.eu-gei.eu/admin/extern/scripts/jquery/jquery.li-scroller.1.0.js'></script>
+<script type="text/javascript" src='http://www.eu-gei.eu/js/jyoutube.js'></script>
+
+<script type="text/javascript" src="http://www.eu-gei.eu/js/jquery.validate.js"></script>
+<script type='text/javascript'>
+  var cURL = 'http://www.eu-gei.eu/';
+  var objID = '-1';
+  var newsletterID = '8778859';
+  var movieID = '-1';
+  var movieURL = '';
+  
+    var ed_adminURL = cURL+'admin/';
+    var ed_editorPrefix = cURL+'merlin/editor?'
+    var ed_windowID = 'maastrichtuni_13';
+    
+</script>
+<script type='text/javascript' src='http://www.eu-gei.eu/admin/extern/gui/scripts/editbuttons.js'></script>
+<script type="text/javascript" src="http://www.eu-gei.eu/js/global.js "></script>
+<script type="text/javascript">
+  function showSubMenu(objectID)
+  {
+    
+      $(".contentSubMenuLinks").hide();
+      $(".homeSubMenuLinks").hide();
+      $("#contentSubMenu").css("height",$("#homeSubMenu_" + objectID).height() + "px");
+      if ($("#homeSubMenu_" + objectID).length) $("#homeSubMenu_" + objectID).show();
+      
+  }
+  
+</script>
+<script type="text/javascript">
+  function ed_goURLpa(url) {
+    var anchor = location.href.replace(/.*?(#|$)/,'');
+    url += anchor!=''?'#'+anchor:'';
+    location.href = url;
+  }
+</script>
+
+  </head>
+  <body>
+    
+    <div id='mainContainer'>
+      <div id='EUGEILogo'><img class='EUGEILogo' src='http://www.eu-gei.eu/images/EUGEILogo.png' alt='' /></div>
+      <div id='line'></div>
+      <div id='topMenuLeft'>
+        <div id='seventhFrameWorkLogo'><img class='seventhFrameWorkLogo' src='http://www.eu-gei.eu/images/fp7-gen-rgb.gif' alt='' /></div>
+        <div id='fundedBy'>
+          The project is funded by the European Community’s <br/>Seventh Framework Programme under grant agreement <br/>No. HEALTH-F2-2010-241909 (Project EU-GEI).
+        </div>
+        <div id='europeanCommisionLogo'><img class='europeanCommissionLogo' src='http://www.eu-gei.eu/images/EuropeanCommission.png' alt='' /></div>
+        <div id='europeanCommissionLogoText'>
+          
+        </div>
+        <div id='topMenu' >
+          
+          <span class='topMenuItem'><a href='http://www.eu-gei.eu/'>home</a></span>
+          <span class='topMenuItemSeperator'></span>
+          
+            <span class='topMenuItem'>
+              
+              
+              <a href='http://www.eu-gei.eu/contact'>contact</a>
+              
+            </span>
+            <span class='topMenuItemSeperator'></span>
+            
+            <span class='topMenuItem'>
+              
+              
+              <a href='http://www.eu-gei.eu/disclaimer'>disclaimer</a>
+              
+            </span>
+            <span class='topMenuItemSeperator'></span>
+            
+        </div>
+        <img class='topMenuLeft' src='http://www.eu-gei.eu/images/menuTopLeftSquares5.png' alt='' />
+        <div id='TICKER'>
+          <ul class='newsticker' id="ticker01"><li><span style='cursor:pointer' onclick='location.href="http://www.eu-gei.eu/news/two-new-eu-gei-tools-available"' >Two new EU-GEI tools available</span>&nbsp;&nbsp;-&nbsp;&nbsp;<span style='cursor:pointer' onclick='location.href="http://www.eu-gei.eu/news/12365/final-eu-gei-newsletter-available"' >FINAL EU-GEI NEWSLETTER available</span></li></ul>
+        </div>
+        <img id='topMenuLeftTitle' src='http://www.eu-gei.eu/images/menuTopLeftTitle.png' alt='' />
+        <div id='topMenuLeftInput'>
+          <form id="loginForm" method="post" action="http://www.eu-gei.eu/merlin/login">
+            <div>
+              <input type="hidden" name="context" value="eugei" />
+              <input type="hidden" name="edit" value="false" />
+              <input type="hidden" name="goto" value="http://www.eu-gei.eu/members/restricted-area" />
+              <input type="hidden" name="login" value="true" />
+              <input id='username' name='username' class='topMenuLeftInput username' type='text' onfocus='this.value=""' value='username' />
+              <input class='topMenuLeftInput password' type='password' id='password' name='password' onfocus='this.value=""' onkeypress="return submitenter(this,event)" value='password' />
+              <input type='submit' style='display:none' />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div id='homeMenuContainer'>
+  
+    <div class='homeMenuBoxContainer'>
+      <div class='homeMenuBox ' onmouseover='showSubMenu(55)'>
+        <div onclick='location.href="http://www.eu-gei.eu/about-the-project"'>
+          <div style='height:90%;width:90%;position:absolute;'>
+            
+            <div style='height:33px;position:relative;'></div>
+            <div style='height:66px;position:relative;text-align:center;'>
+              <div style='width:100%;'>
+                <div style='width:60px;margin-left:auto;margin-right:auto;'>
+                  <a href='http://www.eu-gei.eu/about-the-project'>
+                    
+                    About the project
+                    
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class='homeMenuBoxContainer'>
+      <div class='homeMenuBox ' onmouseover='showSubMenu(25)'>
+        <div onclick='location.href="http://www.eu-gei.eu/news"'>
+          <div style='height:90%;width:90%;position:absolute;'>
+            
+            <div style='height:33px;position:relative;'></div>
+            <div style='height:66px;position:relative;text-align:center;'>
+              <div style='width:100%;'>
+                <div style='width:60px;margin-left:auto;margin-right:auto;'>
+                  <a href='http://www.eu-gei.eu/news'>
+                    
+                    News
+                    
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class='homeMenuBoxContainer'>
+      <div class='homeMenuBox ' onmouseover='showSubMenu(28)'>
+        <div onclick='location.href="http://www.eu-gei.eu/annual-newsletter"'>
+          <div style='height:90%;width:90%;position:absolute;'>
+            
+            <div style='height:33px;position:relative;'></div>
+            <div style='height:66px;position:relative;text-align:center;'>
+              <div style='width:100%;'>
+                <div style='width:60px;margin-left:auto;margin-right:auto;'>
+                  <a href='http://www.eu-gei.eu/annual-newsletter'>
+                    
+                    Annual Newsletter
+                    
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class='homeMenuBoxContainer'>
+      <div class='homeMenuBox ' onmouseover='showSubMenu(630)'>
+        <div onclick='location.href="http://www.eu-gei.eu/publications"'>
+          <div style='height:90%;width:90%;position:absolute;'>
+            
+            <div style='height:33px;position:relative;'></div>
+            <div style='height:66px;position:relative;text-align:center;'>
+              <div style='width:100%;'>
+                <div style='width:60px;margin-left:auto;margin-right:auto;'>
+                  <a href='http://www.eu-gei.eu/publications'>
+                    
+                    Publications
+                    
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class='homeMenuBoxContainer'>
+      <div class='homeMenuBox ' onmouseover='showSubMenu(9060)'>
+        <div onclick='location.href="http://www.eu-gei.eu/training-videos"'>
+          <div style='height:90%;width:90%;position:absolute;'>
+            
+            <div style='height:33px;position:relative;'></div>
+            <div style='height:66px;position:relative;text-align:center;'>
+              <div style='width:100%;'>
+                <div style='width:60px;margin-left:auto;margin-right:auto;'>
+                  <a href='http://www.eu-gei.eu/training-videos'>
+                    
+                    Training Videos
+                    
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class='homeMenuBoxContainer'>
+      <div class='homeMenuBox ' onmouseover='showSubMenu(787)'>
+        <div onclick='location.href="http://www.eu-gei.eu/links"'>
+          <div style='height:90%;width:90%;position:absolute;'>
+            
+            <div style='height:33px;position:relative;'></div>
+            <div style='height:66px;position:relative;text-align:center;'>
+              <div style='width:100%;'>
+                <div style='width:60px;margin-left:auto;margin-right:auto;'>
+                  <a href='http://www.eu-gei.eu/links'>
+                    
+                    Links
+                    
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+</div>
+<div id='producedByMM'>
+  <a href='http://www.mediamens.nl'>
+    <img style='border:0px;' class='producedByMM' src='http://www.eu-gei.eu/images/producedByMM.png' alt='' />
+  </a>
+</div>
+<div id='homeContentContainer'>
+  <div id='homeSubMenu' style='position:relative;'>
+    
+      <div id='homeSubMenu_55' class='homeSubMenuLinks' style='display:none;'>
+        <span style='float:left;'>
+          
+              <a href='http://www.eu-gei.eu/about-the-project/research-programme'>
+                
+                Research Programme
+                
+              </a>
+              
+            
+              <a href='http://www.eu-gei.eu/about-the-project/psymate'>
+                
+                &nbsp; - &nbsp;Psymate
+                
+              </a>
+              
+            
+              <a href='http://www.eu-gei.eu/about-the-project/partners'>
+                
+                &nbsp; - &nbsp;Partners
+                
+              </a>
+              
+            
+              <a href='http://www.eu-gei.eu/about-the-project/esab'>
+                
+                &nbsp; - &nbsp;ESAB
+                
+              </a>
+              
+            
+              <a href='http://www.eu-gei.eu/about-the-project/tools'>
+                
+                &nbsp; - &nbsp;Tools
+                
+              </a>
+              
+            
+              <a href='http://www.eu-gei.eu/about-the-project/recruitment'>
+                
+                &nbsp; - &nbsp;Recruitment
+                
+              </a>
+              
+            
+        </span>
+        <span style='float:right;'></span>
+      </div>
+      
+      <div id='homeSubMenu_25' class='homeSubMenuLinks' style='display:none;'>
+        <span style='float:left;'>
+          
+              <a href='http://www.eu-gei.eu/news/final-eu-gei-newsletter-available'>
+                
+                FINAL EU-GEI NEWSLETTER available
+                
+              </a>
+              
+            
+        </span>
+        <span style='float:right;'></span>
+      </div>
+      
+      <div id='homeSubMenu_28' class='homeSubMenuLinks' style='display:none;'>
+        <span style='float:left;'>
+          
+        </span>
+        <span style='float:right;'></span>
+      </div>
+      
+      <div id='homeSubMenu_630' class='homeSubMenuLinks' style='display:none;'>
+        <span style='float:left;'>
+          
+        </span>
+        <span style='float:right;'></span>
+      </div>
+      
+      <div id='homeSubMenu_9060' class='homeSubMenuLinks' style='display:none;'>
+        <span style='float:left;'>
+          
+        </span>
+        <span style='float:right;'></span>
+      </div>
+      
+      <div id='homeSubMenu_787' class='homeSubMenuLinks' style='display:none;'>
+        <span style='float:left;'>
+          
+        </span>
+        <span style='float:right;'></span>
+      </div>
+      
+  </div>
+  <div id='homeContent'>
+    <div style='position:absolute;top:30px;left:40px;height:300px;width:470px;z-index:900;font-size:11px;'>
+      <p style="margin: 0cm 0cm 0pt;"><span><strong>EU-GEI Introduction</strong></span></p>
+<p style="margin: 0cm 0cm 0pt;">&nbsp;</p>
+<p style="margin: 0cm 0cm 0pt;"><span>The EU-GEI project has aimed to identify, over a 5-year period, the interactive genetic, clinical and environmental determinants, involved in the development, severity and outcome of schizophrenia. The partners in EU-GEI represent the nationally funded schizophrenia / mental health networks of the UK, Netherlands, France, Spain, Turkey and Germany, as well as other research institutes and a number of SME’s in Austria, Belgium, Ireland, Italy, Switzerland, and outside the EU in Hong Kong/China and Australia.</span></p>
+<p style="margin: 0cm 0cm 0pt;"><span>The project started on May 1, 2010 and has run until May 1, 2015.</span></p>
+<p style="margin: 0cm 0cm 0pt;">&nbsp;</p>
+<p><em><span style="color: #0033cc;"><a href="http://www.eu-gei.eu/about-the-project">[more information]</a></span></em></p>
+    </div>
+    <div id='homePageImage'>
+      
+      <div class="slideshow">
+        <img style='height:256px;width:317px;' src='http://www.eu-gei.eu/files/2649/w317h256b1/mensen.jpg' alt='' /><img style='height:256px;width:317px;' src='http://www.eu-gei.eu/files/2651/w317h256b1/cannabis.jpg' alt='' /><img style='height:256px;width:317px;' src='http://www.eu-gei.eu/files/2650/w317h256b1/etnisch.jpg' alt='' /><img style='height:256px;width:317px;' src='http://www.eu-gei.eu/files/2648/w317h256b1/platteland.jpg' alt='' /><img style='height:256px;width:317px;' src='http://www.eu-gei.eu/files/2652/w317h256b1/bellen.jpg' alt='' /><img style='height:256px;width:317px;' src='http://www.eu-gei.eu/files/35/w317h256b1/HomePageImage.png' alt='' />
+      </div>
+    </div>
+    <div style='position:absolute;top:0px;left:0px;'>
+      <img src='http://www.eu-gei.eu/images/ContentSquaresTop.png' alt='' />
+    </div>
+    <div style='position:absolute;top:0px;left:0px;width:40px;height:120px;overflow:hidden;'>
+      <img class='ContentSquares' src='http://www.eu-gei.eu/images/ContentSquaresLeft.png' alt='' />
+    </div>
+  </div>
+</div>
+    </div>
+  </body>
+</html>

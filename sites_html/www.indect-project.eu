@@ -1,0 +1,687 @@
+
+
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+  
+    
+    
+    
+    
+
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+      <base href="http://www.indect-project.eu/front-page" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    
+        
+<link rel="kss-base-url" href="http://www.indect-project.eu/front-page/" />
+
+  
+    <style type="text/css" media="screen">@import url(http://www.indect-project.eu/portal_css/Keep%20it%20Simple/base-cachekey5306.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="http://www.indect-project.eu/portal_css/Keep%20it%20Simple/resourcetinymce.stylesheetstinymce-cachekey6634.css" />
+    <style type="text/css">@import url(http://www.indect-project.eu/portal_css/Keep%20it%20Simple/print-cachekey8754.css);</style>
+        <!--[if lt IE 8]>    
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="http://www.indect-project.eu/portal_css/Keep%20it%20Simple/IEFixes-cachekey2210.css" />
+        <![endif]-->
+    
+    <style type="text/css">@import url(http://www.indect-project.eu/portal_css/Keep%20it%20Simple/ploneday_site2010-cachekey8137.css);</style>
+
+  
+    <link rel="kinetic-stylesheet" type="text/css" href="http://www.indect-project.eu/portal_kss/Keep%20it%20Simple/resourcetinymce.ksstinymce-cachekey7588.kss" />
+    <link rel="kinetic-stylesheet" type="text/css" href="http://www.indect-project.eu/portal_kss/Keep%20it%20Simple/at-cachekey4238.kss" />
+  
+    <script type="text/javascript" src="http://www.indect-project.eu/portal_javascripts/Keep%20it%20Simple/jquery-cachekey5260.js"></script>
+    <script type="text/javascript" src="http://www.indect-project.eu/portal_javascripts/Keep%20it%20Simple/resourcekukit-cachekey5858.js"></script>
+    <script type="text/javascript" src="http://www.indect-project.eu/portal_javascripts/Keep%20it%20Simple/resourcekukit-devel-cachekey2602.js"></script>
+       <!--[if lt IE 8]>
+     
+    <script type="text/javascript" src="http://www.indect-project.eu/portal_javascripts/Keep%20it%20Simple/iefixes-cachekey2193.js"></script>
+       <![endif]-->
+     
+
+
+<title>Welcome to INDECT homepage &mdash; indect-home</title>
+
+        
+
+    <link rel="shortcut icon" type="image/x-icon" href="http://www.indect-project.eu/favicon.ico" />
+    <link rel="apple-touch-icon" href="http://www.indect-project.eu/touch_icon.png" />
+
+
+
+    <link rel="home" href="http://www.indect-project.eu" title="Front page" />
+
+    <link rel="contents" href="http://www.indect-project.eu/sitemap" title="Site Map" />
+
+
+
+
+
+
+    <link rel="search" href="http://www.indect-project.eu/search_form" title="Search this site" />
+
+
+
+        <!-- Disable IE6 image toolbar -->
+        <meta http-equiv="imagetoolbar" content="no" />
+
+        
+        
+
+        
+        
+
+        
+        
+
+        
+        
+    
+
+  </head>
+
+  <body class="template-document_view portaltype-document section-front-page icons-on" dir="ltr">
+    <div id="visual-portal-wrapper">
+
+      <div id="portal-top">
+        <div id="portal-header">
+    <p class="hiddenStructure">
+  <a accesskey="2" href="http://www.indect-project.eu/#content">Skip to content.</a> |
+
+  <a accesskey="6" href="http://www.indect-project.eu/#portlet-navigation-tree">Skip to navigation</a>
+</p>
+
+<div id="portal-searchbox">
+    <form name="searchform" action="http://www.indect-project.eu/search">
+
+        <label for="searchGadget" class="hiddenStructure">Search Site</label>
+
+        <div class="LSBox">
+        <input name="SearchableText" type="text" size="25" title="Search Site" accesskey="4" class="inputLabel" id="searchGadget" />
+
+        <input class="searchButton" type="submit" value="Search" />
+    
+<!--        <div class="searchSection">
+            <input id="searchbox_currentfolder_only" 
+                   class="noborder"
+                   type="checkbox" 
+                   name="path" 
+                   tal:attributes="value view/folder_path"
+                   />
+            <label for="searchbox_currentfolder_only" 
+                   i18n:translate="label_searchbox_currentfolder_only"
+                   style="cursor: pointer">
+                only in current section
+            </label>
+        </div> -->
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="http://www.indect-project.eu/search_form" accesskey="5">
+            Advanced Search&hellip;
+        </a>
+    </div>
+
+</div>
+
+
+    <h5 class="hiddenStructure">Sections</h5>
+
+    <ul id="portal-globalnav"><li id="portaltab-index_html" class="selected"><a href="http://www.indect-project.eu" title="">Home</a></li><li id="portaltab-approach-to-ethical-issues" class="plain"><a href="http://www.indect-project.eu/approach-to-ethical-issues" title="INDECT approach to ethical issues">Ethical Issues</a></li><li id="portaltab-faq" class="plain"><a href="http://www.indect-project.eu/faq" title="Frequently Asked Questions">FAQ</a></li><li id="portaltab-indect-partners" class="plain"><a href="http://www.indect-project.eu/indect-partners" title="The list of the INDECT partners.">Partners</a></li><li id="portaltab-events" class="plain"><a href="http://www.indect-project.eu/events" title="A folder for storing news and event information related to the project.">News and Events</a></li><li id="portaltab-public-deliverables" class="plain"><a href="http://www.indect-project.eu/public-deliverables" title="A List of publicly available deliverables.">Public Deliverables</a></li><li
+    id="portaltab-contact" class="plain"><a href="http://www.indect-project.eu/contact" title="Please address all inquiries and requests concerning press-related issues to the spokesman of AGH - University of Science and Technology.">Contact</a></li></ul>
+
+<div id="portal-intro">
+<div class="introText">
+   <h1 class="headerText"><a href="http://www.indect-project.eu">INDECT</a></h1>
+   <p class="phraseText">For the Security of Citizens</p>
+</div>
+
+</div>
+
+
+
+</div>
+
+<div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">You
+are here:</span>
+    <span id="breadcrumbs-home">
+        <a href="http://www.indect-project.eu">Home</a>
+        
+    </span>
+
+</div>
+
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Personal tools</h5>
+
+<ul id="portal-personaltools" class="visualInline">
+    
+
+    
+        <li id="personaltools-login">
+            <a href="http://www.indect-project.eu/login_form">Log in</a>
+        </li>
+    
+
+</ul>
+</div>
+
+      </div>
+
+      <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+
+      <table id="portal-columns">
+        <tbody>
+          <tr>
+            
+            <td id="portal-column-content">
+
+              <div id="viewlet-above-content"><div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">You
+are here:</span>
+    <span id="breadcrumbs-home">
+        <a href="http://www.indect-project.eu">Home</a>
+        
+    </span>
+
+</div>
+</div>
+
+              
+                <div class="">
+
+                    
+
+                    <span id="contentTopLeft"></span>
+                    <span id="contentTopRight"></span>
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+
+                    
+                    <div id="content">
+                      
+                      
+
+                        
+                            
+                            
+                                
+                                
+            
+                <h1 id="parent-fieldname-title" class="documentFirstHeading">
+                    Welcome to INDECT homepage
+                </h1>
+            
+            
+        
+                            
+                            
+
+
+                            
+                                
+                                
+            
+                
+            
+            
+        
+                            
+
+                            
+
+
+                            <div id="content-core">
+                                
+    
+        
+        <div class="" id="parent-fieldname-text">
+            <p class="kssattr-atfieldname-text kssattr-templateId-widgets/rich kssattr-macro-rich-field-view" id="parent-fieldname-text"><span style="text-align: justify; ">The purpose of the INDECT project is to involve European scientists and researchers in the development of solutions to and tools for automatic threat detection.</span></p>
+<p class="MsoNormal" style="text-align:justify; "><span>The primary objective is to develop advanced and innovative algorithms for human decision support in combating terrorism and other criminal activities, such as human trafficking, child pornography, detection of dangerous situations (e.g. robberies) and the use of dangerous objects (e.g. knives or guns) in public spaces. Efficient tools for dealing with such situations are crucial to ensuring the safety of citizens. </span></p>
+<p class="MsoNormal" style="text-align:justify; "><span>A significant part of the project is dedicated to the development of tools and methods for data and privacy protection. The processed information is protected before its transmission or storage to prevent any attempts at unauthorized access. Dedicated tools are being developed to protect citizens’ privacy in areas covered by visual monitoring systems.</span></p>
+<p class="MsoNormal"><span>The main tasks of INDECT can be divided into 3 categories as shown below.</span></p>
+<p style="text-align: center; "><a class="internal-link" href="files/public-stories/indect-homepage/06DiagramEN.png" target="_blank"><img alt="06Diagram-en.png" class="image-inline" src="files/public-stories/indect-homepage/06DiagramEN.png/image_preview" /></a></p>
+<li style="text-align: justify; ">The first category, <strong>“Intelligent Monitoring for Threat Detection”</strong>, is dedicated to the automatic detection of real world threats (video analytics).</li>
+<p style="text-align: center; "><a class="internal-link" href="files/public-stories/indect-homepage/07DiagramEN.png" target="_blank"><img alt="07DiagramEN.png" class="image-inline" src="files/public-stories/indect-homepage/07DiagramEN.png/image_mini" /></a></p>
+<p class="Akapitzlist1">Contemporary CCTV monitoring systems are mainly based on the continuous observation approach, where the monitored area is under constant supervision by the operator. If the operator is dishonest, this can potentially lead to privacy abuse.</p>
+<p class="Akapitzlist1">The INDECT project adopts a new approach based on <strong>threat monitoring</strong> (also known as “black/dark screen monitoring”). In contrast to the traditional approach, it focuses on potentially threatening situations, and gives the operator access to the video only when his attention is actually needed. The system automatically detects dangerous events and alerts the operator, who makes the final decision about the action that needs to be taken. The process is carried out in accordance with all relevant regulations.</p>
+<p class="Akapitzlist1">The research conducted within the project aims to improve the efficiency and accuracy of existing video monitoring systems.<strong></strong></p>
+<p><strong>INDECT is not installing any cameras in the EU; nor is it filming people at random.</strong> It is not connected to any existing database or social network.</p>
+<li style="text-align: justify; ">In the area of <strong>“Threat Detection in Computer Networks”</strong> the research focuses on identification of sources which distribute child pornography, or information related to the illegal trade in human organs.</li>
+<p style="text-align: center; "><a class="internal-link" href="files/public-stories/indect-homepage/08DiagramEN.png" style="text-align: center; " target="_blank"><img alt="08DiagramEN.png" class="image-inline" src="files/public-stories/indect-homepage/08DiagramEN.png/image_mini" /></a></p>
+<p style="text-align: left; ">One of the main tools developed within this category is INACT, a system for rapid detection of child pornography on storage devices (mainly hard drives) captured by police forces on the basis of a warrant. INACT is especially useful if the illegal content is hidden in large data volumes.</p>
+<li style="text-align: justify; ">The final category focuses on the development of<strong> “Data and Privacy Protection”</strong> techniques.,</li>
+<p style="text-align: center; "><a class="internal-link" href="files/public-stories/indect-homepage/09DiagramEN.png" style="text-align: center; " target="_blank"><img alt="09DiagramEN.png" class="image-inline" src="files/public-stories/indect-homepage/09DiagramEN.png/image_mini" /></a></p>
+<p class="Akapitzlist1" style="text-align:justify; "><span>There are two main research directions related to this category – development of digital watermarking, and cryptographic algorithms. The digital watermarks are used to secure multimedia content against malicious tampering, and to provide a novel privacy protection mechanism. The approach adopted enables sensitive information, such as faces or license number plates, to be collected and displayed to authorized system users only. </span></p>
+<p class="Akapitzlist1" style="text-align:justify; "><span>The development of new cryptographic algorithms delivers enhanced security for both data transmission and storage. A modern symmetric cipher has been designed, verified, and implemented both in software and hardware. This research also addresses the potential of adopting quantum cryptography to further improve the security of the solutions developed.</span></p>
+<div class="kssattr-atfieldname-text kssattr-templateId-widgets/rich kssattr-macro-rich-field-view" style="text-align: justify; ">For more information on INDECT tools and methods please visit the “<a class="internal-link" href="benefits-for-the-security-of-citizens-selected-tools-and-applications">INDECT – Benefits for Security of Citizens</a>” and  <a class="internal-link" href="faq">“Frequently Asked Questions”</a> sections as well as <a class="external-link" href="http://ec.europa.eu/enterprise/policies/security/indect/index_en.htm" target="_blank">“The INDECT project – improving accuracy of existing video surveillance”</a> European Commission webpage.</div>
+            
+        </div>
+    
+    
+
+                            </div>
+                            
+
+
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+
+            <h5 class="hiddenStructure">
+              Document Actions
+            </h5>
+
+            <ul>
+                  <li id="document-action-print">
+                      <a href="javascript:this.print();" title="">Print this</a>
+                  </li>
+            </ul>
+        
+
+        
+
+    </div>
+
+                        
+
+                      
+                    </div>
+                    
+
+                    
+
+                    <span id="contentBottomLeft"></span>
+                    <span id="contentBottomRight"></span>
+
+                </div>
+              
+
+              <div id="viewlet-below-content">
+
+
+
+
+
+    
+
+</div>
+
+            </td>
+            
+
+	    
+                
+                <td id="portal-column-one">
+                  <div class="visualPadding">
+                    
+                      
+<div id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f696e646563742d686f6d650a6e6577732d616e642d6576656e7473" class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f696e646563742d686f6d650a6e6577732d616e642d6576656e7473"><dl class="portlet portletCollection">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="http://www.indect-project.eu/events-1">
+            <span>News and Events</span>
+        </a>
+        <span class="portletTopRight"></span>
+    </dt>
+    
+    
+    <dd class="portletItem odd">
+        <a href="http://www.indect-project.eu/events/global/new-indect-prototype-demonstrations" class="tile" title="">
+            
+            New INDECT prototype demonstrations
+            <span class="portletItemDetails">Jun 10, 2014</span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem even">
+        <a href="http://www.indect-project.eu/events/global/award-on-201cparis-international-concours-lepine-2014201d-30th-april-11th-may-2014-paris" class="tile" title="">
+            
+            Award on “Paris International Concours Lépine 2014”, 30th  April-11th May  2014, Paris
+            <span class="portletItemDetails">Jun 02, 2014</span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem odd">
+        <a href="http://www.indect-project.eu/events/global/more-security-in-krakow-conference-12-may-krakow-poland" class="tile" title="">
+            
+            More Security in Krakow, Conference, 12 May, Krakow (Poland)
+            <span class="portletItemDetails">May 28, 2014</span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem even">
+        <a href="http://www.indect-project.eu/events/global/modern-technologies-in-the-criminal-process-conference-31-march-bialystok-poland" class="tile" title="">
+            
+            Modern Technologies in the Criminal Process, Conference , 31 March, Białystok (Poland)
+            <span class="portletItemDetails">May 16, 2014</span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem odd">
+        <a href="http://www.indect-project.eu/events/global/agh-university-of-science-and-technology-awarded-by-the-polish-ministry-of-science-and-higher-education-for-promotion-of-polish-inventions" class="tile" title="">
+            
+            AGH University of Science and Technology awarded by the Polish Ministry of Science and Higher Education for promotion of Polish inventions
+            <span class="portletItemDetails">Mar 03, 2014</span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem even">
+        <a href="http://www.indect-project.eu/events/global/award-for-most-active-participants-of-the-7th-framework-programme-southern-poland-province-of-malopolska-and-podkarpackie-poland" class="tile" title="">
+            
+            Award for Most Active Participants of the 7th Framework Programme (Southern Poland: Province of Malopolska and Podkarpackie, Poland)
+            <span class="portletItemDetails">Feb 27, 2014</span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem odd">
+        <a href="http://www.indect-project.eu/events/global/eurosymbol-2013-prize" class="tile" title="">
+            
+            EuroSymbol 2013 Prize
+            <span class="portletItemDetails">Feb 21, 2014</span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem even">
+        <a href="http://www.indect-project.eu/events/global/brussels-innova-2013-2013-world-exhibition-on-innovation-research-and-new-technologies" class="tile" title="">
+            
+            BRUSSELS INNOVA 2013 – World Exhibition on Innovation Research and New Technologies
+            <span class="portletItemDetails">Feb 21, 2014</span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem odd">
+        <a href="http://www.indect-project.eu/events/global/ict-2013-conference-6-8-november-2013-vilnius" class="tile" title="">
+            
+            ICT 2013 Conference, 6-8 November 2013, Vilnius
+            <span class="portletItemDetails">Nov 26, 2013</span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem even">
+        <a href="http://www.indect-project.eu/events/wp1/end-users-reviewing-wp1-and-wp7-results" class="tile" title="WP1 and WP7 INDECT meeting, dedicated to End-User review of developed prototypes was held at Gdansk University of Technology, September, 26-27, 2013.">
+            
+            End-Users reviewing WP1 and WP7 results
+            <span class="portletItemDetails">Nov 06, 2013</span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletFooter">
+        <span class="portletBottomLeft"></span>
+        <span>
+        <a href="http://www.indect-project.eu/events-1">
+             More&hellip;
+             </a>
+        </span>
+        <span class="portletBottomRight"></span>
+    </dd>
+
+</dl>
+</div>
+
+
+
+
+                    
+                    &nbsp;
+                  </div>
+                </td>
+                
+	    
+
+            
+                
+                <td id="portal-column-two">
+                  <div class="visualPadding">
+                    
+                      
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f696e646563742d686f6d650a696d706f7274616e742d6661637473" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f696e646563742d686f6d650a696d706f7274616e742d6661637473"><dl class="portlet portletCollection">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="http://www.indect-project.eu/all-events">
+            <span>Important Facts</span>
+        </a>
+        <span class="portletTopRight"></span>
+    </dt>
+    
+    
+    <dd class="portletItem odd">
+        <a href="http://www.indect-project.eu/events/global/to-euro-2012-and-indect" class="tile" title="">
+            
+            To EURO 2012 and INDECT
+            <span class="portletItemDetails">Dec 06, 2011</span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem even">
+        <a href="http://www.indect-project.eu/events/global/supermodern-2011" class="tile" title="One of the INDECT research groups, a team from the Department of Computer Science of AGH - University of Science and Technology, won second prize at the SUPERMODERN 2011 Contest for the integrated environment LINK/MAMUT designed to support crime analysts.">
+            
+            SUPERMODERN 2011
+            <span class="portletItemDetails">Aug 25, 2011</span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem odd">
+        <a href="http://www.indect-project.eu/events/global/indect-presentation-1" class="tile" title="Professor Andrzej Dziech, the Project Coordinator, took part in the 5th International Police Conference - Science and Innovation vs. the State Security System">
+            
+            INDECT Presentation
+            <span class="portletItemDetails">May 05, 2011</span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem even">
+        <a href="http://www.indect-project.eu/events/global/exhibitions-and-prizes" class="tile" title="We would like to boast that INDECT is already successful in the international arena, and we are just before the middle of the project. INDECT has received three prizes in 2010.">
+            
+            Exhibitions and Prizes
+            <span class="portletItemDetails">Apr 11, 2011</span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem odd">
+        <a href="http://www.indect-project.eu/events/global/indect-2010-summary" class="tile" title="The year 2010 was a year of close cooperation between INDECT partners. During this period 25 meetings involving 15 partners were organized. ">
+            
+            INDECT 2010 Meetings Summary
+            <span class="portletItemDetails">Mar 12, 2011</span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletFooter">
+        <span class="portletBottomLeft"></span>
+        <span>
+        <a href="http://www.indect-project.eu/all-events">
+             More&hellip;
+             </a>
+        </span>
+        <span class="portletBottomRight"></span>
+    </dd>
+
+</dl>
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f696e646563742d686f6d650a63616c656e6461722d31" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f696e646563742d686f6d650a63616c656e6461722d31">
+<dl class="portlet portletCalendar">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="http://www.indect-project.eu/?month:int=1&amp;year:int=2016&amp;orig_query=" rel="nofollow" title="Previous month" id="calendar-previous" class="kssCalendarChange kssattr-year-2016 kssattr-month-1 calendarPrevious">&laquo;</a>
+
+        
+            February
+            2016
+        
+
+        <a href="http://www.indect-project.eu/?month:int=3&amp;year:int=2016&amp;orig_query=" rel="nofollow" title="Next month" id="calendar-next" class="kssCalendarChange kssattr-year-2016 kssattr-month-3 calendarNext">&raquo;</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem">
+        <table class="ploneCalendar" summary="Calendar">
+            <caption class="hiddenStructure">February</caption>
+            <thead>
+                <tr class="weekdays"><th scope="col">Mo</th><th scope="col">Tu</th><th scope="col">We</th><th scope="col">Th</th><th scope="col">Fr</th><th scope="col">Sa</th><th scope="col">Su</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td>
+                </tr>
+                <tr><td class="todaynoevent"><strong>8</strong></td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td>
+                </tr>
+                <tr><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td>
+                </tr>
+                <tr><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td>
+                </tr>
+                <tr><td>29</td><td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            </tbody>
+
+        </table>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f696e646563742d686f6d650a63616c656e6461722d68656c70" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f696e646563742d686f6d650a63616c656e6461722d68656c70"><div class="portletStaticText portlet-static-calendar-help"><p>You can use this calendar to browse through INDECT events.</p></div>
+
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f696e646563742d686f6d650a6f74686572" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f696e646563742d686f6d650a6f74686572"><div class="portletStaticText portlet-static-social-networking"><p style="text-align: center; "><a href="http://www.twitter.com/INDECT"> <img alt="Twitter Widgets" src="http://www.vistaprint.com/vp/images/b09/misc-graphics/social_networking/Twitter-234x60-001.png" /> </a> <br /> <a href="http://www.facebook.com/pages/Indect-Project/155807197782595"> <img alt="Facebook Widgets" src="http://www.vistaprint.com/vp/images/b09/misc-graphics/social_networking/Facebook-234x60-001.png" /> </a></p></div>
+
+</div>
+
+
+
+
+                    
+                    &nbsp;
+                  </div>
+                </td>
+                
+            
+          </tr>
+        </tbody>
+      </table>
+      
+
+      <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+
+      
+
+        <div class="row">
+    <div class="cell width-full position-0">
+
+        <div id="portal-footer">
+            <p>
+                
+                The
+                <a href="http://plone.org">Plone<sup>&reg;</sup> Open Source CMS/WCM</a>
+                is
+                <acronym title="Copyright">&copy;</acronym>
+                2000-2016
+                by the
+                <a href="http://plone.org/foundation">Plone Foundation</a>
+                and friends.
+                
+
+                
+                Distributed under the
+                    <a href="http://creativecommons.org/licenses/GPL/2.0/">GNU GPL license</a>.
+                
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<div id="portal-colophon">
+
+<div class="colophonWrapper">
+<ul>
+  <li>
+    <a href="http://plone.org" title="This site was built using Plone CMS, the Open Source Content Management System. Click for more information.">
+      Powered by Plone</a>
+  </li>
+  <li>
+	Design by : 
+    <a href="http://www.styleshout.com/" title="Design by : ">
+      styleshout</a>
+  </li>
+</ul>
+</div>
+</div>
+
+<ul id="portal-siteactions">
+
+    <li id="siteaction-sitemap"><a href="http://www.indect-project.eu/sitemap" accesskey="3" title="Site Map">Site Map</a></li>
+    <li id="siteaction-accessibility"><a href="http://www.indect-project.eu/accessibility-info" accesskey="0" title="Accessibility">Accessibility</a></li>
+</ul>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7835235-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+      
+
+      <div class="visualClear"><!-- --></div>
+    </div>
+<div id="kss-spinner"><img alt="" src="http://www.indect-project.eu/spinner.png" /></div>
+</body>
+</html>
+
+

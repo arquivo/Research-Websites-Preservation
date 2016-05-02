@@ -1,0 +1,717 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<script type="text/javascript" language="JavaScript">
+var jahiaMainServletPath="/cms";
+var jahiaContextPath ="";
+var jahiaCoreWebdavPath ="/webdav";
+</script>
+
+<title>Home</title>
+                <!--googleoff: index-->
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<meta name="headerversion" content="2.7"/>
+    <meta name="headerdate" content="2015-04-29"/>
+    <link rel="shortcut icon" href="//www.epfl.ch/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="//www.epfl.ch/css/print.css" type="text/css" media="print" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+
+
+<link href="//www.epfl.ch/css/epfl.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="/templates/epfl/styles/homePortal.css" media="screen" rel="stylesheet" type="text/css"/>
+<link href="/templates/epfl/css/jahia.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="//www.epfl.ch/css/print.css" media="print" rel="stylesheet" type="text/css" />
+
+<!-- homeLayoutValue is  -->
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery||document.write(unescape("%3Cscript src='/templates/epfl/js/jquery.js' type='text/javascript'%3E%3C/script%3E"))</script>
+<script type="text/javascript" src="/templates/epfl/js/jquery.plugins.js"></script>
+<script type="text/javascript">var epflJ = jQuery.noConflict();</script>
+<script type="text/javascript" src="/templates/epfl/js/epfl.js"></script>
+<script src="/templates/epfl/js/socialshare.js"></script>
+
+
+
+
+<!-- cache:include src="http://www.ga-project.eu/cms/site/guardians-angels-neutre/home?ctnid=301671&cacheKey=head58782-html___absolute___" --><link rel="icon" href="http://www.ga-project.eu/files/content/sites/guardians-angels-neutre/files/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://www.ga-project.eu/files/content/sites/guardians-angels-neutre/files/images/favicon.ico" type="image/x-icon">
+<style>
+	body {
+	color: #7a7a7c;
+	background-color:#f1f1f1;
+	font-size: 12px; 
+	line-height: 16px;
+	color: #7a7a7c;
+	text-align:justify;
+	}
+	h1{
+	font-size:0px;
+	line-height:0px;
+	color:#FFFFFF;
+	padding: 0px;
+	}
+	h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	color: #789622;
+	letter-spacing: 0;
+	line-height: 28px;
+	padding-bottom: 10px;
+	font-style:italic;
+	}
+	h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #789622;
+	font-size:18px;
+	letter-spacing:1px;
+	line-height:22px;
+	padding-bottom:0;
+	margin-bottom:0;
+	}
+	.content h3 { margin: 20px 35px 4px 0;}
+	h4 { color: #666666; font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold; font-size: 15px; margin-bottom: 0;
+	line-height: 10px; padding-bottom:0;}
+	.content h4 { margin-top:15px; }
+	h5 { color: #000; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 13px; margin-top: 5px;}
+	h6 { color: #000; font-weight: bold;}
+	h1 a { background: none; text-decoration: none; }
+	h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { background: none; color:#ae0010;}
+	h3 a { background-position: 0 22px; }
+	h4 a { background-position: 0 16px; }
+	a {
+	text-decoration:none;
+	color:#8bad23;
+	background:none;
+	}
+	a:hover {
+	text-decoration:none;
+	color:#97c62c;
+	background:none;
+	}
+	#header {
+	background-color:#f1f1f1;
+	}
+	h1 a:hover {color:#a8cf36;
+	}
+	acronym {
+	color:#a8cf36;
+	}
+	.box {
+	background-color:#f1f1f1;
+	}
+	#header {
+	height:135px;
+	overflow:hidden;
+	}
+	#breadcrumbs, #languages{
+	padding: 0px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
+	letter-spacing: 1px;
+	font-size: 0px;
+	font-weight: normal;
+	line-height:0px;
+	}
+	#breadcrumbs li{ padding-right: 0px;font-size: 0px;}
+	#breadcrumbs a { color: #fff; background: none;font-size: 0px;}
+	#breadcrumbs a:hover, #languages a:hover { text-decoration: none;font-size: 0px;}
+	#breadcrumbs .last a {color:#fff; font-size: 0px;}
+	#breadcrumbs .last {color:#fff; font-size: 0px;}
+	#languages { float:right; background:none;font-size: 0px; }
+	#languages li { background:none; display:inline; padding:0px; font-size: 0px;}
+	#languages .current { font-weight:bold; color:#fff; font-size: 0px;}
+	#languages a { background:none; font-size: 0px;}
+	.navigation-bar {
+	width: 980px;
+	height:50px;
+	margin: 0px;
+	color: #fff;
+	font-weight: normal;
+	}
+	.navigation-bar .group { float: left; margin: 0 24px 0 8px;}
+	ul.topnav{ float: left; position: relative; padding: 0; z-index: 3000;}
+	ul.topnav li{ list-style-type: none; position: relative; display: inline; float: left; }
+	#main-navigation { 
+	border-radius: 0px;
+	background-image:url(http://www.ga-project.eu/files/content/sites/guardians-angels-neutre/files/images/bg_menu.jpg);
+	padding-top:10px;
+	line-height:35px;
+	letter-spacing:0.1em;
+	}
+	#main-navigation li {
+	border: none;
+	border-left: 0px solid #a8cf36;
+	border-right: 5px solid none;
+	font-size: 14px;
+	}
+	#main-navigation a {
+	color : #000; display: block;
+	padding: 0px 8px 2px 8px;
+	background: none;}
+	#main-navigation .dropdown {
+	top: 0; height: 35px;
+	margin-right: 0; padding: 4px 8px 0 8px;
+	background: none; 
+	}
+	#main-navigation .dropdown:hover { border-bottom: 0px solid #fff; margin-bottom: -1px;} /* bug FF4 */
+	#main-navigation:first-child .dropdown { border-left: none; }
+	#main-navigation li:hover { border-color: #666666; background-color:#666666; border-radius: 10px; }
+	#main-navigation .dropdown.inpath, #main-navigation .dropdown.current { border-color: #d5e79a; background-color: #d5e79a; border-radius: 10px; }
+	#main-navigation .dropdown a{padding: 0; color: #fff; }
+	#main-navigation .dropdown:hover a{ color: #fff;  }
+	#main-navigation .dropdown .menu {left: 0; top: 39px; padding-bottom: 4px; padding-top:10px; width: 220px; border-color: #666666; border-top: none; background-color:#666666; border-radius: 10px;}
+	#main-navigation .dropdown .menu li {border: none; margin-bottom:5px; font-size: 12px;}
+	#main-navigation .dropdown .menu li:hover {background: none;}
+	#main-navigation .dropdown .menu li.current a { color: #fff; background-color: #000;}
+	#main-navigation .dropdown .menu.hidden {left: -999em;}
+	#main-navigation .dropdown .menu a { padding-left: 7px; display: block; color: #fff; font-weight: normal; }
+	#main-navigation .dropdown .menu ul a { color: #fff; font-weight: normal; }
+	#main-navigation .dropdown .menu ul {margin-bottom: 12px;}
+	#main-navigation .dropdown .menu a:hover { color: #fff; background-color: #cfd0ca;}
+	.link-list a {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #7a7a7c;
+	text-decoration:none;
+	background-position: 0 16px;}
+	.content{
+	float: left; width: 672px; overflow: hidden; clear: left;
+	margin-right:4px; margin-bottom: 20px;
+	border-top: 0px solid #fff; padding-top: 0;
+	min-height: 500px;
+	}
+	.right-col{ width: 304px; float:left; padding: 0;}
+	.box{ margin-bottom: 40px; margin-right: 4px; width: 304px; }
+	.fullbox{ margin-bottom: 40px; margin-right: 4px; width: 664px; }
+	.home-navpanel a { background-image:none; color:#789622;}
+	#footer{
+	background-color:#FFFFFF;
+	color: #000;
+	width: 980px;
+	margin: 0 auto 0 auto;
+	border-bottom: 0px solid #f1f1f1;
+	font-family: Arial, 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-size: 11px;
+	line-height:20px;
+	letter-spacing: 1px;
+	padding-bottom: 0;
+	border-top: 5px solid #97c62c; 
+	}
+	#footer a{ color: #000; background: none; font-weight: normal;
+	}
+	#footer a:hover { text-decoration: underline}
+	#footer ul{  padding: 0; margin: 0; }
+	#footer li { list-style: none; display: inline; margin-right: 16px; }
+	.copyright { color:#454545}
+	#footer li.login {
+	float: right;
+	margin-right: 0;
+	padding-left: 12px;
+	background: url(../img/arrow-login.png) no-repeat center left;
+	}
+	/* Fixing the edition interface */
+	#edit-content .navigation-bar { width: 1010px; }
+	#edit-content .right-col { width: 334px; }
+	#edit-content #breadcrumbs,
+	#edit-content #languages { height: 0; overflow: hidden; }
+	#edit-content #footer { width: 1010px; }
+	#imap {display:block; width:640px; height:625px; background-image:url(http://www.ga-project.eu/files/content/sites/guardians-angels-neutre/files/images/GA_Project/GA_at_the_edge_of_the_Cloud_simple.png); }
+	#imap a#titlex {display:block; width:640px; height:0; padding-top:625px; overflow:hidden; position:absolute; left:0; top:0; background:transparent cursor:default;}
+	#imap a#titlex:hover {background-image:url(http://www.ga-project.eu/files/content/sites/guardians-angels-neutre/files/images/GA_Project/GA_at_the_edge_of_the_Cloud_simple.png) no-repeat 0 0;}
+	a#skin {display:block;  width:250px; height:0px; padding-top:220px; overflow:hidden; position:relative; left:30px; top:150px; background:transparent}
+	a#skin:hover {background:#fff url(http://www.ga-project.eu/files/content/sites/guardians-angels-neutre/files/images/GA_Project/Electronic_skin_250_220.png) no-repeat 0 0;}
+	a#interface {display:block; width:250px; height:0px; padding-top:220px; overflow:hidden; position:relative; left:70px; top:-230px; background:transparent}
+	a#interface:hover {background:#fff url(/files/content/sites/guardians-angels-neutre/files/images/GA_Project/Man_Machine_Interface_250_220.png) no-repeat 0 0;}
+	a#smartdrive {display:block; width:250px; height:0px; padding-top:220px; overflow:hidden; position:relative; left:270px; top:-450px; background:transparent}
+	a#smartdrive:hover {background:#fff url(/files/content/sites/guardians-angels-neutre/files/images/GA_Project/Smart_drive_250_220.png) no-repeat 0 0;}
+	a#health {display:block; width:250px; height:0px; padding-top:220px; overflow:hidden; position:relative; left:400px; top:-600px; background:transparent}
+	a#health:hover {background:#fff url(/files/content/sites/guardians-angels-neutre/files/images/GA_Project/Health_fitness_250_220.png) no-repeat 0 0;}
+	a#environmental {display:block; width:250px; height:0px; padding-top:220px; overflow:hidden; position:relative; left:400px; top:-650px; background:transparent}
+	a#environmental:hover {background:#fff url(/files/content/sites/guardians-angels-neutre/files/images/GA_Project/Environmental_monitoring_250_220.png) no-repeat 0 0;}
+	a#autonomous {display:block; width:250px; height:0px; padding-top:220px; overflow:hidden; position:relative; left:400px; top:-700px; background:transparent}
+	a#autonomous:hover {background:#fff url(/files/content/sites/guardians-angels-neutre/files/images/GA_Project/Autonomous_robots_250_220.png) no-repeat 0 0;}
+	/*Section Edge of the Cloud*/
+	#imappo {display:block; width:640px; height:625px; background-image:url(http://www.ga-project.eu/files/content/sites/guardians-angels-neutre/files/images/GA_Project/GA_at_the_edge_of_the_Cloud_simple.png); }
+	#imappo a#titlex {display:block; width:640px; height:0; padding-top:625px; overflow:hidden; position:absolute; left:0; top:0; background:transparent cursor:default;}
+	#imappo a#titlex:hover {background-image:url(http://www.ga-project.eu/files/content/sites/guardians-angels-neutre/files/images/GA_Project/GA_at_the_edge_of_the_Cloud_simple.png) no-repeat 0 0;}
+	a#Metabolic {display:block;  width:200px; height:0px; padding-top:139px; overflow:hidden; position:relative; left:0px; top:300px; background:transparent}
+	a#Metabolic:hover {background:#fff url(http://www.ga-project.eu/files/content/sites/guardians-angels-neutre/files/images/GA_Project/Metabolic_Manager.png) no-repeat 0 0;}
+	a#Patient {display:block;  width:200px; height:0px; padding-top:136px; overflow:hidden; position:relative; left:0px; top:-20px; background:transparent}
+	a#Patient:hover {background:#fff url(http://www.ga-project.eu/files/content/sites/guardians-angels-neutre/files/images/GA_Project/Patient_Assistant.png) no-repeat 0 0;}
+	a#Stress {display:block; width:200px; height:0px; padding-top:136px; overflow:hidden; position:relative; left:80px; top:-300px; background:transparent}
+	a#Stress:hover {background:#fff url(/files/content/sites/guardians-angels-neutre/files/images/GA_Project/stress_assistant.png) no-repeat 0 0;}
+	a#Drive {display:block; width:200px; height:0px; padding-top:135px; overflow:hidden; position:relative; left:285px; top:-450px; background:transparent}
+	a#Drive:hover {background:#fff url(/files/content/sites/guardians-angels-neutre/files/images/GA_Project/Drive_Assistant.png) no-repeat 0 0;}
+	a#Health {display:block; width:200px; height:0px; padding-top:140px; overflow:hidden; position:relative; left:440px; top:-480px; background:transparent}
+	a#Health:hover {background:#fff url(/files/content/sites/guardians-angels-neutre/files/images/GA_Project/Health_Manager.png) no-repeat 0 0;}
+	a#Air {display:block; width:200px; height:0px; padding-top:140px; overflow:hidden; position:relative; left:440px; top:-380px; background:transparent}
+	a#Air:hover {background:#fff url(/files/content/sites/guardians-angels-neutre/files/images/GA_Project/Air_companion.png) no-repeat 0 0;}
+	a#Disaster {display:block; width:200px; height:0px; padding-top:141px; overflow:hidden; position:relative; left:300px; top:-380px; background:transparent}
+	a#Disaster:hover {background:#fff url(/files/content/sites/guardians-angels-neutre/files/images/GA_Project/Disaster_Manager.png) no-repeat 0 0;}
+	/* Section for Impact */
+	#imappi {display:block; width:650px; height:919px; background-image:url(http://www.ga-project.eu/files/content/sites/guardians-angels-neutre/files/images/GA_Project/GA_Impact/GA_Impacts.png); }
+	#imappi a#imPACT {display:block; width:650px; height:0; padding-top:919px; overflow:hidden; position:relative; left:0; top:0; background:transparent cursor:default;}
+	#imappi a#imPACT:hover {background-image:url(http://www.ga-project.eu/files/content/sites/guardians-angels-neutre/files/images/GA_Project/GA_Impact/GA_Impacts.png) no-repeat 0 0;}
+	a#Impact_a {display:block; width:650px; height:0px; padding-top:211px; overflow:hidden; position:relative; left:0px; top:120px; background:transparent}
+	a#Impact_a:hover {background:#fff url(http://www.ga-project.eu/files/content/sites/guardians-angels-neutre/files/images/GA_Project/GA_Impact/Impact_a.png) no-repeat 0 0;}
+	a#Impact_b {display:block; width:650px; height:0px; padding-top:225px; overflow:hidden; position:relative; left:0px; top:100px; background:transparent}
+	a#Impact_b:hover {background:#fff url(http://www.ga-project.eu/files/content/sites/guardians-angels-neutre/files/images/GA_Project/GA_Impact/Impact_b.png) no-repeat 0 0;}
+	a#Impact_c {display:block; width:650px; height:0px; padding-top:271px; overflow:hidden; position:relative; left:0px; top:60px; background:transparent}
+	a#Impact_c:hover {background:#fff url(http://www.ga-project.eu/files/content/sites/guardians-angels-neutre/files/images/GA_Project/GA_Impact/Impact_c.png) no-repeat 0 0;}
+	a#Impact_d {display:block; width:650px; height:0px; padding-top:214px; overflow:hidden; position:relative; left:0px; top:1px; background:transparent}
+	a#Impact_d:hover {background:#fff url(http://www.ga-project.eu/files/content/sites/guardians-angels-neutre/files/images/GA_Project/GA_Impact/Impact_d.png) no-repeat 0 0;}
+</style><!-- /cache:include -->
+<script type="text/javascript">
+    var _wt = 'adf600';
+    (function () {
+        if (document.cookie.indexOf('VISITED_3931') < 0) {
+            var ws = document.createElement('script'); ws.type = 'text/javascript'; ws.async = true;
+            ws.src = ('https:' == document.location.protocol ? 'https://ssl.' : 'http://') + 'survey.webstatus.v2.userneeds.dk/wsi.ashx?t=' + _wt + (location.href.indexOf('wsiNoCookie') >= 0 ? '&nc=1' : '');
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ws, s);
+        }})();
+</script>
+<!-- googleon: index-->
+        </head>
+<body>	<div id="actualContent">
+<!--googleoff: index-->
+            <div id="accessibility" class="visuallyhidden" role="navigation">
+  <ul>
+    <li><a accesskey="0" href="http://www.epfl.ch/accessibility.en.shtml" title="Specific informations for persons with disabilities">Accessibility</a></li>
+    <li><a accesskey="1" href="#content" title="Skip the header and jump to the page content">Skip to content</a></li>
+    <li><a accesskey="2" href="#search" title="Jump to the search field" id="searchlink">Jump to search field</a></li>
+    <li><a accesskey="3" href="#main-navigation" title="Jump to the navigation within this site">Site navigation</a></li>
+    <li><a accesskey="4" href="#navigation" title="Jump to the navigation within EPFL sites">EPFL navigation</a></li>
+    <li><a accesskey="5" href="#breadcrumbs" title="Jump to the breadcrumbs navigation">Breadcrumbs navigation</a></li>
+    <li><a accesskey="6" href="#languages" title="Jump to the language selector">Language switcher</a></li>
+    <li><a accesskey="8" href="/sitemap" title="Go to the sitemap">Sitemap</a></li>
+    <li><a accesskey="9" href="mailto:webmaster@epfl.ch" title="Send an email to the technical contact">Technical contact</a></li>
+  </ul>
+</div>
+<div id="header" style="overflow-x:hidden" role="banner">
+                
+<!-- cache:include src="http://www.ga-project.eu/cms/site/guardians-angels-neutre/home?ctnid=343555&cacheKey=___absolute___" --><a class="hidden" id="ctn134583_343555" name="ctn134583_343555"></a><p style="background-color: rgb(241, 241, 241); margin: 0px; text-align: left;"><a href="http://www.ga-project.eu" style="border:none"><img width="260" height="77" align="middle" alt="GA-logo" src="/files/content/sites/guardians-angels-neutre/files/logo/logo.jpg" /></a><img width="210" height="66" align="middle" alt="GA-slogan" src="/files/content/sites/guardians-angels-neutre/files/logo/slogan.png" style="padding-left: 100px; padding-right:50px;" /> <img align="middle" alt="GA-rond" src="/files/content/sites/guardians-angels-neutre/files/logo/bg_search.jpg" /></p><!-- /cache:include -->
+</div>
+
+            <!--googleon: index-->
+            
+
+<!-- cache:include src="http://www.ga-project.eu/cms/site/guardians-angels-neutre/home?ctnid=301671&cacheKey=themeSetting58782___absolute___" --><div id="main-content" class=" theme-epfl page-58782"><!-- /cache:include -->
+
+<!-- cache:include src="http://www.ga-project.eu/cms/site/guardians-angels-neutre/home?ctnid=301671&cacheKey=siteName58782___absolute___" --><h1>
+                    <a href="/home" title="Home ">
+                        <span>Guardian Angels European Flagship</span>&nbsp;<acronym title="Guardian Angels European Flagship" class="local-color-text">GA</acronym></a>
+
+                    </h1><!-- /cache:include -->
+<div class="clear"></div>
+            <h2 class="visuallyhidden">Breadcrumb navigation</h2>
+            <ul id="breadcrumbs" title="EPFL breadcrumb" role="navigation">
+    
+<!-- cache:include src="http://www.ga-project.eu/cms/site/guardians-angels-neutre/home?ctnid=0&cacheKey=breadcrumb-noedit___absolute___" -->
+
+<!-- /cache:include -->
+<li
+             class="last">
+            Home</li>
+            </ul>
+<script type="text/javascript">
+    epflJ(document).ready(function() {
+        epflJ("#dropdown0").addClass("inpath");
+        if (58782 == 0) {
+            epflJ("#dropdown0").addClass("current");
+        }
+        epflJ("#updatesubmenu").addClass("inpath");
+        epflJ("#deletesubmenu").addClass("inpath");
+    });
+</script>
+<div id="level2PageId" style="display:none"></div>
+<!--googleoff: index-->
+            <h2 class="visuallyhidden">Language switcher</h2>
+            <ul id="languages" title="Choose language">
+   <li class='current'>
+            <span>English</span>
+                </li>
+    </ul>
+<div class="clear"></div>
+
+            <h2 class="visuallyhidden">Go to</h2>
+            <div id="main-navigation" class="navigation-bar">
+                <a class="visuallyhidden" href="/" title="Go to the site homepage">Site homepage</a>
+                <!-- cache:include src="http://www.ga-project.eu/cms/site/guardians-angels-neutre/home?ctnid=0&cacheKey=topnav_siteId_10637_ctnListName_navigationList_maxDepth_4_mode_normal" --><ul class="topnav" role="navigation">
+    <li class="homeLink">
+            <a href="/home" title="Home "><span>Home</span></a>
+        </li>
+    <li id="dropdown66173" class="dropdown"><a  title="Go to level 1 page: HOME" href="http://www.ga-project.eu/home">HOME</a></li><li id="dropdown66169" class="dropdown"><a  title="Go to level 1 page: GA PROJECT" href="/project">GA PROJECT</a><ul class="menu hidden" style="padding-top:0">
+                    <li class="level1">
+                        <a href="/project">GA PROJECT</a>
+                    </li>
+            <li id="dropdown77846"><a  title="Go to page: GA Zero Power Technology" href="/zero_power">GA Zero Power Technology</a></li><li id="dropdown79555"><a  title="Go to page: GA Smart Autonomous Systems" href="/SAS">GA Smart Autonomous Systems</a></li><li id="dropdown79536"><a  title="Go to page: GA at the Edge of the Cloud" href="/Edge">GA at the Edge of the Cloud</a></li><li id="dropdown86519"><a  title="Go to page: GA Impacts" href="/Impact">GA Impacts</a></li><li id="dropdown81155"><a  title="Go to page: GA Ethics" href="/ethics">GA Ethics</a></li><li id="dropdown76695"><a  title="Go to page: GA in video" href="/video">GA in video</a></li></ul></li><li id="dropdown66354" class="dropdown"><a  title="Go to level 1 page: SCIENCE & TECHNOLOGY" href="/science">SCIENCE & TECHNOLOGY</a><ul class="menu hidden" style="padding-top:0">
+                    <li class="level1">
+                        <a href="/science">SCIENCE & TECHNOLOGY</a>
+                    </li>
+            <li id="dropdown66362"><a  title="Go to page: Computation" href="/science/computation">Computation</a></li><li id="dropdown66421"><a  title="Go to page: Communication" href="/communication">Communication</a></li><li id="dropdown66420"><a  title="Go to page: Sensing" href="/science/sensors">Sensing</a></li><li id="dropdown77202"><a  title="Go to page: Energy Harvesting" href="/energy_harvesting">Energy Harvesting</a></li><li id="dropdown66422"><a  title="Go to page: Heterogeneous Integration" href="/science/integration">Heterogeneous Integration</a></li><li id="dropdown80664"><a  title="Go to page: Software" href="/science/software">Software</a></li><li id="dropdown87005"><a  title="Go to page: Interoperability" href="/interoperability">Interoperability</a></li><li id="dropdown66360"><a  title="Go to page: Publications" href="/publications">Publications</a></li></ul></li><li id="dropdown66356" class="dropdown"><a  title="Go to level 1 page: PARTNERS" href="/partners">PARTNERS</a><ul class="menu hidden" style="padding-top:0">
+                    <li class="level1">
+                        <a href="/partners">PARTNERS</a>
+                    </li>
+            <li id="dropdown66427"><a  title="Go to page: Institutional Partners" href="/partners/institutional">Institutional Partners</a></li><li id="dropdown66428"><a  title="Go to page: Industrial Partners" href="/partners/industrial">Industrial Partners</a></li><li id="dropdown76061"><a  title="Go to page: International Advisory Board" href="/partners/international">International Advisory Board</a></li><li id="dropdown86424"><a  title="Go to page: GA Workplan & Cooperation" href="/workplan">GA Workplan & Cooperation</a></li><li id="dropdown86486"><a  title="Go to page: GA Club for Entrepreneurship" href="/GA_Club">GA Club for Entrepreneurship</a></li></ul></li><li id="dropdown66357" class="dropdown"><a  title="Go to level 1 page: MEDIA & NEWS" href="/media">MEDIA & NEWS</a><ul class="menu hidden" style="padding-top:0">
+                    <li class="level1">
+                        <a href="/media">MEDIA & NEWS</a>
+                    </li>
+            <li id="dropdown77663"><a  title="Go to page: Events" href="/events">Events</a></li><li id="dropdown77662"><a  title="Go to page: News" href="/news">News</a></li><li id="dropdown68612"><a  title="Go to page: Press Coverage" href="/media/presscoverage">Press Coverage</a></li><li id="dropdown66430"><a  title="Go to page: Press Kit" href="/media/press_kit">Press Kit</a></li></ul></li><li id="dropdown86887" class="dropdown"><a  title="Go to level 1 page: ABOUT US" href="/organization_1">ABOUT US</a><ul class="menu hidden" style="padding-top:0">
+                    <li class="level1">
+                        <a href="/organization_1">ABOUT US</a>
+                    </li>
+            <li id="dropdown68625"><a  title="Go to page: CONTACT" href="/contact">CONTACT</a></li></ul></li><li id="dropdown66353" class="dropdown"><a  title="Go to level 1 page: INTRANET" href="http://intra.epfl.ch/flagship">INTRANET</a></li></ul>
+    <script>
+        jQuery(".level1").hover(
+                function () {
+                    jQuery(this).addClass('to');
+                },
+                function () {
+                    jQuery(this).removeClass('to');
+                }
+        );
+    </script>
+
+    <!-- /cache:include -->
+<div class="clear"></div>
+            </div>
+            <noscript>
+                <style type="text/css">
+                    /* Hoverintent fallback for main navigation */
+                    #main-navigation .dropdown:hover .menu.hidden{left:0}
+                </style>
+            </noscript>
+
+            <div id="tools" role="toolbar">
+                <div class="socialshare" style="float: left;">
+                        <span class="label"
+                              style="background: none;position: relative;top: 3px;padding-right: 10px;">
+                            Share:
+                        </span>
+                </div>
+                <img src="/templates/epfl/img/socialshare-icons/grey-facebook-round.png" class="icon-facebook social-icon" title="Share on Facebook" alt="Share on Facebook">
+                <img src="/templates/epfl/img/socialshare-icons/grey-twitter-round.png" class="icon-twitter social-icon" title="Share on Twitter" alt="Share on Twitter">
+                <img src="/templates/epfl/img/socialshare-icons/grey-linkedin-round.png" class="icon-linkedin social-icon" title="Share on LinkedIn" alt="Share on LinkedIn">
+                <img src="/templates/epfl/img/socialshare-icons/grey-googleplus-round.png" class="icon-googleplus social-icon" title="Share on Google+" alt="Share on Google+">
+                <img src="/templates/epfl/img/socialshare-icons/grey-mail-round.png" class="icon-email social-icon" title="Share by mail" alt="Share on Google+">
+                <a id="social-share-email-link" class='hidden' href="mailto:?subject=">Home</a>
+            </div>
+
+            <!-- googleon: index-->
+            <div id="content" class="content" role="main">
+                            
+<!-- cache:include src="http://www.ga-project.eu/cms/site/guardians-angels-neutre/home?ctnid=470380&cacheKey=box-" --><div class="  textBox" style="">
+               <h3>
+
+                                The Guardian Angels Quest for Zero Power Sensor Systems Continues</h3>
+                        
+<p><strong>"The Guardian Angels project, one of four finalists in the European FET Flagship initiative, will live on thanks to continued support from the partner institutions. The Zero-power technologies it develops will become a key innovation platform for European industry, large component manufacturers, system integrators, service providers and SMEs. It will act as a generator of start-up companies and new services for health, the environment, the ageing society, intelligent transportation, energy and human interaction."</strong></p>
+<table width="500" height="307" cellspacing="1" cellpadding="1" border="0">
+	<tbody>
+		<tr>
+			<td>
+				<p>"The Guardian Angels Project is the most innovative and comprehensive  project I have been in contact with these past years. It is much more  than continuing excellent research. It is indeed something unique with  great potential for a technical and social revolution."</p>
+				<p style="text-align: right;"><strong><em>Gerd Binnig,</em></strong><em><br />
+					1986 Nobel Prize in Physics. <br />
+					Inventor of the scanning tunneling microscope.</em>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+				<p>"The potential created by Guardian Angels to collect real-time,  real-world data from the environment and patients simultaneously has the  power to revolutionize brain health care as we know it."</p>
+				<p style="text-align: right;"><strong><em>Magali Haas,</em></strong><em> <br />
+					Chief Science &amp; Technology Officer. <br />
+					One Mind for Research, USA.</em>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+				<p>"The research towards the development of Guardian Angels as being the  future zero-power intelligent autonomous systems that will actively  assist humans from their infancy to old age, will in my view contribute  to addressing grand challenges Europe will face in the coming years."</p>
+				<p style="text-align: right;"><strong><em>Luc Van den hove,  </em></strong><em> <br />
+					CEO of IMEC,Belgium.</em>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+				<p>&ldquo;This project addresses crucial social issues such as health, safety, security and mobility. As an industrial partner, we strongly believe that Guardian Angels will promote the competitiveness of European industrial players, by offering them the opportunity to develop a wide range of applications for everyday life.&rdquo;</p>
+				<p style="text-align: right;"><strong><em>Sylvain Allano,  </em></strong><em> <br />
+					Scientific director of PSA Peugeot Citro&euml;n</em>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+				<p>&ldquo;This project is of great importance in our society with big demographic changes. The elderly population needs assistive devices in mobility, health care and home services e.g. One of the aims of &ldquo;Guardian Angels&rdquo; is to maintain the standard of living of older people with respect to economical, sanitary and social factors.&rdquo;</p>
+				<p style="text-align: right;"><strong><em>Annette Gr&uuml;ters-Kieslich,  </em></strong><em> <br />
+					Dean, Charit&eacute;-Universit&auml;tsmedizin Berlin</em>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+<p><a href="http://www.ga-project.eu/media/press_kit" target="_blank">To the press release [English, French and German]</a></p>
+<hr style="height: 1px;" />
+<div class="clear"></div>
+            
+<div class="clear"></div>
+            
+<div class="clear"></div>
+</div><!-- /cache:include -->
+<!-- cache:include src="http://www.ga-project.eu/cms/site/guardians-angels-neutre/home?ctnid=348156&cacheKey=box-" --><div class="  textBox" style="">
+               <h3>
+
+                                GUARDIAN ANGELS FOR A SMARTER LIFE</h3>
+                        
+<p>The "Guardian Angels for a Smarter Life" FET Flagship project final proposal was submitted to the Call of the European Commission on October 23rd, 2012. The GA Consortium is composed of 66 partners: <a href="/cms/site/guardians-angels-neutre/lang/en/partners/institutional" target="_blank">29 universities, 16 research organisations</a>, and <a href="/cms/site/guardians-angels-neutre/lang/en/partners/industrial">21 industrial companies (large industries and SMEs)</a>. The GA project's <a href="/cms/site/guardians-angels-neutre/lang/en/workplan" target="_blank">work plan</a> consists of 7 <a href="/cms/site/guardians-angels-neutre/lang/en/zero_power" target="_blank">Zero-Power</a> Projects (Technology Roadmaps), 3 <a href="/cms/site/guardians-angels-neutre/lang/en/SAS" target="_blank">Systems </a> Projects (Smart Systems Roadmaps) and 4 Transversal Projects (<a href="/cms/site/guardians-angels-neutre/lang/en/ethics" target="_blank">Societal Awareness and Ethics</a>, <a target="_blank" href="/cms/site/guardians-angels-neutre/lang/en/GA_Club">Innovation</a>, <a target="_blank" href="/cms/site/guardians-angels-neutre/lang/en/events">Dissemination, Networking &amp; Training</a>, <a href="/cms/site/guardians-angels-neutre/lang/en/organization_1" target="_blank">and Management</a>).  Cooperation between the GA Project and other initiatives has been developed, such as with ENIAC, EPOSS and other <a href="/cms/site/guardians-angels-neutre/lang/en/workplan" target="_blank">European projects</a>. Coordination with global initiatives such as Greentouch and <a href="/cms/site/guardians-angels-neutre/lang/en/media" target="_blank">One Mind for Research</a> has been initiated.</p>
+<div class="clear"></div>
+            
+<div class="clear"></div>
+            
+<div class="clear"></div>
+<div style="margin-top: 20px;margin-bottom: 20px; margin-right: 30px; background-color: rgb(151, 198, 44); padding:20px 20px 20px ; color: rgb(255, 255, 255);">
+	<p><strong style="color: rgb(255, 255, 255);">Interested in joining the GA&nbsp;Club of Entrepreneurs&nbsp; [<a target="_blank" href="http://www.ga-project.eu/GA_Club">more ... </a>]</strong></p>
+	<p><strong style="color: rgb(255, 255, 255);">GA Partners behind the Project, in video [<a target="_blank" href="http://www.ga-project.eu/video">more video... </a>]</strong></p>
+</div>
+<div class="clear"></div>
+            
+<div class="clear"></div>
+            
+<div class="clear"></div>
+</div><!-- /cache:include -->
+<!-- cache:include src="http://www.ga-project.eu/cms/site/guardians-angels-neutre/home?ctnid=402228&cacheKey=box-" --><div class="  textBox" style="">
+               
+<p style="text-align: center;"><iframe width="640" height="380" frameborder="0" allowfullscreen="" marginheight="0" marginwidth="0" src="http://ditwww.epfl.ch/cgi-perl/EPFLTV/home.pl?page=get_video_embed_code&amp;id=1592&amp;content_type=1"></iframe></p>
+<div class="clear"></div>
+            
+<div class="clear"></div>
+            
+<div class="clear"></div>
+</div><!-- /cache:include -->
+<!-- cache:include src="http://www.ga-project.eu/cms/site/guardians-angels-neutre/home?ctnid=421354&cacheKey=box-" --><div class="  textBox" style="">
+               <h3>
+
+                                Guardian Angels Vision and Mission</h3>
+                        
+<p>The &ldquo;Guardian Angels for a Smarter Life&rdquo; (GA) FET Flagship project addresses challenges which are of utmost importance for Europe&rsquo;s society, economy and environment and which will have to be tackled in the next 10-15 years. <em>Health </em>and an <em>ageing society</em>, <em>safety </em>and <em>security</em>, and <em>transportation</em>, will all be addressed by the energy-efficient systems of the <a href="/cms/site/guardians-angels-neutre/lang/en/project" target="_blank">GA project</a>.</p>
+<div class="clear"></div>
+            
+<div class="clear"></div>
+            
+<div class="clear"></div>
+<p>The GA FET Flagship project will develop technologies for extremely <a target="_blank" href="/cms/site/guardians-angels-neutre/lang/en/zero_power">energy-efficient</a>, smart, electronic personal companions that will assist humans from infancy to old age. These devices will be private and secure systems featuring sensing beyond human capabilities, computation, and communication. The ethical aspects of GA applications will be assessed from the beginning of the project, through interactions between researchers, an ethics board of experts and end users, and privacy and security will be the highest priorities. Three pre-defined families of demonstrators will show the feasibility and functionality of the systems:</p>
+<table width="100%" cellspacing="1" cellpadding="1" border="0">
+	<tbody>
+		<tr>
+			<td width="20"><img width="12" height="12" src="/files/content/sites/guardians-angels-neutre/files/logo/logoBullet.gif" alt="" /></td>
+			<td>
+				<h5><a href="/cms/site/guardians-angels-neutre/op/edit/lang/en/SAS#Physical" target="_blank"> Physical Smart Autonomous Systems </a></h5>
+				<p>Physical GAs will have the capacity to monitor the physical /   physiological status of individuals in health care, rehabilitation, and   sports, with an awareness of the context of activity of these   individuals. With a strong focus on prevention and early diagnosis,   these devices will help keep healthcare affordable and accessible to all.</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="20"><img width="12" height="12" src="/files/content/sites/guardians-angels-neutre/files/logo/logoBullet.gif" alt="" /></td>
+			<td>
+				<h5><a target="_blank" href="/cms/site/guardians-angels-neutre/op/edit/lang/en/SAS#Environmental">Environmental Smart Autonomous Systems</a></h5>
+				<p>Environmental GAs will observe ambient conditions for environmental   threats and communicate with each other to expand their information   base. In combination with functionality from Physical GAs, it will be   possible to correlate a person&rsquo;s physical state with the environmental   context.</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="20"><img width="12" height="12" src="/files/content/sites/guardians-angels-neutre/files/logo/logoBullet.gif" alt="" /></td>
+			<td>
+				<h5><a target="_blank" href="/cms/site/guardians-angels-neutre/op/edit/lang/en/SAS#Emotional">Emotional Smart Autonomous Systems</a></h5>
+				<p>Emotional GAs will be able to perceive emotional or affective   conditions, and will both support patients and enhance the performance   of healthy people, such as with smart-drive assistants for improved   safety.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<div class="clear"></div>
+            
+<div class="clear"></div>
+            
+<div class="clear"></div>
+</div><!-- /cache:include -->
+<!-- cache:include src="http://www.ga-project.eu/cms/site/guardians-angels-neutre/home?ctnid=402230&cacheKey=box-" --><div class="  textBox" style="">
+               
+</div><!-- /cache:include -->
+<div class="clear"></div>
+    <div class="clear"></div>
+                        </div>
+                    <div class="right-col" role="complementary">
+                            
+<!-- cache:include src="http://www.ga-project.eu/cms/site/guardians-angels-neutre/home?ctnid=301669&cacheKey=box-" --><div class="box box-flat-panel home-navpanel local-color  coloredTextBox" style="">
+               
+<p style="text-align: center;"><a href="/cms/site/guardians-angels-neutre/lang/en/partners" target="_blank"><img width="200" height="181" alt="europe-map" src="/files/content/sites/guardians-angels-neutre/files/logo/europe_map.png" /></a><br />
+	<br />
+	&nbsp;
+</p>
+<div class="clear"></div>
+            
+<div class="clear"></div>
+            
+<div class="clear"></div>
+<div style="margin: 20px; background-color: rgb(151, 198, 44); padding: 10px 20px; color: rgb(255, 255, 255);"><strong>ESSDERC&nbsp; 20<sup>th</sup> September 2013 <br />
+	In the Quest for Zero Power: Technologies and Applications </strong><br />
+	<a href="/cms/site/guardians-angels-neutre/lang/en/events">Program and Keynote Speaker...</a><br />
+	[<a target="_blank" href="http://www.ga-project.eu/events">other events</a>]
+</div>
+<div class="clear"></div>
+            
+<div class="clear"></div>
+            
+<div class="clear"></div>
+<div style="margin: 20px; background-color: rgb(151, 198, 44); padding: 10px 20px; color: rgb(255, 255, 255);">
+	<p style="text-align: left;"><strong style="color: rgb(255, 255, 255);">"Guardian Angels" </strong>28.01.2013 Press Release is available: <strong>[<a target="_blank" href="http://www.ga-project.eu/media/press_kit">here... </a><strong>] <br />
+		Latest Press Coverage [<a target="_blank" href="http://www.ga-project.eu/media/presscoverage">more... </a>] 	</strong></strong>
+	</p>
+	<strong> <strong style="color: rgb(255, 255, 255);"> </strong></strong>
+</div>
+<p><strong> </strong></p>
+<p><strong><strong style="color: rgb(255, 255, 255);"> </strong></strong></p>
+<p><strong> </strong></p>
+<p>&nbsp;</p>
+<div class="clear"></div>
+            
+<div class="clear"></div>
+            
+<div class="clear"></div>
+<div style="margin: 20px; background-color: rgb(151, 198, 44); padding: 10px 20px 10px; color: rgb(255, 255, 255);"><strong style="color: rgb(255, 255, 255);">Nature's Silicon Issue</strong><br />
+	Guardian Angels partners EPFL, IBM Z&uuml;rich and CEA-Leti in France have published their research on tunnel FETs in a recent edition of Nature. 	<br />
+	<br />
+	[<a href="http://www.ga-project.eu/op/edit/media#Nature" target="_blank">more</a>]
+</div>
+<div class="clear"></div>
+            
+<div class="clear"></div>
+            
+<div class="clear"></div>
+<p style="color:#7a7a7c; margin: 20px;"><b>FET Flagships, a definition</b><br />
+	<br />
+	<a target="_blank" href="http://cordis.europa.eu/fp7/ict/programme/fet/flagship/home_en.html"><img width="70" height="70" alt="" style="float:left; padding-right:8px; padding-bottom:3px" src="/files/content/sites/guardians-angels-neutre/files/images/logo-fet-flagship.jpg" /></a>Future and Emerging Technologies (FET) is the EU incubator in information technologies. Its mission is to promote high risk research, offset by potential breakthroughs with high technological or societal impact. <br />
+	Leading the charge, the FET Flagships are large-scale and science-driven initiatives that aim to achieve a visionary goal. The scale of ambition is over 10 years of coordinated effort, and a budget of up to one billion &euro;. Six Pilot Actions were funded for a 12-month period starting in May 2011. In the second half of 2012, two of the Pilots will be selected, and then launched as full FET Flagship Initiatives in 2013.<br />
+	<a target="_blank" href="http://cordis.europa.eu/fp7/ict/programme/fet/flagship/home_en.html">Learn more about FET Flagships</a>
+</p>
+<div class="clear"></div>
+            
+<div class="clear"></div>
+            
+<div class="clear"></div>
+</div><!-- /cache:include -->
+<div class="clear"></div>
+    <div class="clear"></div>
+                        </div>
+                    <div class="clear"></div>
+
+            </div>
+
+            <!--googleoff: index-->
+
+            <div class="clear"></div>
+            <div id="footer" role="contentinfo">
+                <h2 class="visuallyhidden">Footer links</h2>
+                <ul>
+
+<li class="sitemap">
+    <a title="Go to page: Sitemap" href="/site/guardians-angels-neutre/sitemap">Sitemap</a>
+        </li>
+
+<li>
+    <a title="Go to page: Accessibility" href="http://www.epfl.ch/accessibility.en.shtml">Accessibility</a>
+</li>
+
+<li class="visuallyhidden"><a title="Jump to: Top of the page" href="#top">Top of the page</a></li>
+
+
+<!-- cache:include src="http://www.ga-project.eu/cms/site/guardians-angels-neutre/home?ctnid=0&cacheKey=site-footer-links___absolute___" -->
+
+<!-- /cache:include -->
+
+<li>
+            <meta itemprop="datePublished" content="2013-09-10T17:01:57"/>
+            Updated&nbsp;10.09.2013</li>
+    <li class="login">
+    <a title="Login" href="/cms/engineName/tequila_login/site/guardians-angels-neutre/pid/58782">Login</a>
+        </li>
+
+</ul>
+
+<script type="text/javascript">
+    epflJ(document).ready(function() {
+        epflJ("#header2013").on("change", "input[type='radio']", function() {
+            epflJ('#header_searchform').attr('action', epflJ(this).is('#search-engine-local') ? '/engineName/search/site/guardians-angels-neutre/lang/en' : '//search.epfl.ch/process_web2010');
+        });
+    });
+    </script>
+
+<script src='http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4c1a9d5b3161cf7a&async=1' type='text/javascript'></script>
+<script type="text/javascript">
+    var addthis_config = {
+        ui_language: "en",
+        ui_508_compliant: true,
+        ui_click: true
+    };
+    addthis.init();
+</script>
+
+
+<!-- cache:include src="http://www.ga-project.eu/cms/site/guardians-angels-neutre/home?ctnid=301671&cacheKey=footer___absolute___" --><div>&nbsp;<br/></div>
+<div style="background-color:#f1f1f1;">&nbsp;<br/><img align="middle" src="/files/content/sites/guardians-angels-neutre/files/images/GA_footer_1.png" alt="GA-partners" /></div>
+<script type="text/javascript">
+	jQuery("#tools").hide();
+	
+</script>
+<script type="text/javascript">
+	jQuery(".right-col .tree").hide();	
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-32126187-1']);
+	_gaq.push(['_trackPageview']);
+	
+	(function() {
+	  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	
+</script><!-- /cache:include -->
+</div>
+
+            <!-- googleon: index-->
+
+            
+	</div>
+<script type='text/javascript'>
+</script>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ACTION Home Page</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/custom.css" rel="stylesheet" type="text/css">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60726456-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="home">
+	<div id="container">
+    	
+        <div id="top">
+        	<div id="header">
+            	<a href="http://www.action-acp.eu/">
+                	<div id="header-logo"></div>
+                </a>
+            </div>
+            <div id="mainmenu">
+            	<ul id="menu-main-menu" class="menu">
+                	<li><a href="project/background.php">PROJECT</a></li>
+                    <li><a href="work-packages/index.php">WORK PACKAGES</a></li>
+                    <li><a href="documents/index.php">DOCUMENTS</a></li>
+                    <li><a href="news/index.php">NEWS</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                    <li><a href="links.php">LINKS</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="main">
+            <div id="leftnav">
+                <div class="menu">
+                    <ul id="menu-home-menu" class="menu">
+                      <li class="page_item"><a href="project/background.php">Background</a></li>
+                      <li class="page_item"><a href="project/objectives.php">Objectives</a></li>
+                      <li class="page_item"><a href="project/team.php">Who we are</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <a class="twitter-timeline" href="https://twitter.com/ACPinscience" data-widget-id="689107633127698432">Tweets by @ACPinscience</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>                
+                </div>
+            </div>
+            <div id="content">
+            	<img src="images/action-world.jpg" alt="image of Action logo atop a map of the world" />
+                <div id="quote">
+                	<p>&#8220;The objectives of ACTION are excellent, and the project goes beyond the state of the art in adapting the program to be culturally appropriate for cancer patients in various European countries.</p>
+                    <p>The results of this potentially landmark study can have considerable impact on the management of cancer patients worldwide.&#8221;</p>
+                </div>
+                    <p class="docdate">(Source: EU evaluation of research proposal)</p>
+            </div>
+            <div id="right">
+            	            	<div id="sidebar-login">
+                	<h2>Member Login</h2>
+						                        <p class="warning"></p>
+                        <form name="siteloklogin" action="/" method="POST" onSubmit="return validatelogin()">
+                        <script type="text/javascript">
+function validatelogin(form)
+{
+  var loginmessage=document.getElementById('loginmessage')
+  if (loginmessage!=null)
+    loginmessage.innerHTML=''
+  if (document.siteloklogin.username.value=="")
+  {
+    if (loginmessage==null)
+      alert("Please enter your username")
+    else
+      loginmessage.innerHTML='Please enter your username'
+    document.siteloklogin.username.focus()
+    return(false)
+  }
+  if (document.siteloklogin.password.value=="")
+  {
+    if (loginmessage==null)
+      alert("Please enter your password")
+    else
+      loginmessage.innerHTML='Please enter your password'
+    document.siteloklogin.password.focus()
+    return(false)
+  }
+  var LoginType="NORMAL";
+  if (LoginType=="NORMAL")
+    return(true);
+  document.siteloklogin.sitelokhash.value=MD5(document.siteloklogin.password.value+document.siteloklogin.loginkey.value)
+  document.siteloklogin.password.value="********"
+  return(true)
+}
+function forgotpw(form)
+{
+  var loginmessage=document.getElementById('loginmessage')
+  if (loginmessage!=null)
+    loginmessage.innerHTML=''
+  if (document.siteloklogin.username.value=="")
+  {
+    if (loginmessage==null)
+    alert("Please enter your username or email address")
+    else
+      loginmessage.innerHTML='Please enter your username or email address'
+    document.siteloklogin.username.focus()
+    return(false)
+  }
+  document.siteloklogin.forgotpassword.value="forgotten-it"
+  document.siteloklogin.submit()
+  return(true)
+}
+
+
+</script>
+<input type="hidden" name="loginformused" value="1">
+<input type="hidden" name="forgotpassword" value="">
+                        <label for "username">Username</label><br />
+                        <input type="text" name="username" value="" maxlength="50" size="20"><br>
+                        <label for "password">Password</label><br />
+                        <input type="password" name="password" value="" maxlength="50" size="20"><br />
+                        <p><input type="Submit" name="login" value="Login"></p>
+                        <p><a href="javascript: void forgotpw()"
+                        title="Forgot your password? Enter username or email &amp; click link" style="color: #C8C4C4; font-weight: bold">
+                        Forgot your password?</a></p>
+                        </form>
+                                                                </div>
+                <p>The ACTION project is funded by the European Union under the FP7 Health Programme.</p>
+                <p><img src="http://action-acp.eu/images/eufp7.gif" alt="EU and FP7 logos" /></p>
+            </div>
+        </div>
+    </div>
+        <div id="bottom">
+    	<div id="footer-1">
+        	<div class="menu">
+                <ul class="menu">
+                    <li><a href="http://action-acp.eu/project/background.php">Project</a></li>
+                    <li><a href="http://action-acp.eu/work-packages/index.php">Work Packages</a></li>
+                    <li><a href="http://action-acp.eu/documents/index.php">Documents</a></li>
+                    <li><a href="http://action-acp.eu/news/index.php">News</a></li>
+                    <li><a href="http://www.action-acp.eu/sitemap.php">Sitemap</a></li>
+                    <li><a href="http://action-acp.eu/contact.php">Contact</a></li>
+                </ul>            
+            </div>
+        </div>
+        <div id="footer-separator"></div>
+        <div id="footer-2">
+        	<div class="disclaimer">
+            	<p><strong>DISCLAIMER</strong></p>
+                <p>We make every attempt to ensure that the information on the ACTION website is accurate and that the resources available for use are fit for purpose. However, we cannot guarantee accuracy or utility in all respects, or that the website will always be up to date and available.</p>
+            </div>
+        </div>
+    </div></body>
+</html>

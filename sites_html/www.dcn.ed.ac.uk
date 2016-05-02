@@ -1,0 +1,236 @@
+<!DOCTYPE   html>
+<html>
+
+    <head>
+        <title>Welcome to Multi-PART
+        </title>
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+		<meta name="description" content="Multi-PART, A new paradigm for translational medicine">
+		<meta name="keywords" content="Multi-PART, NEROSCIENCE, RESEARCH, UNIVERSITY OF EDINBURGH, NEROSCIENCE, MALCOLM MACLEOD, EMILY SENA ">
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/camarades_style.css" rel="stylesheet" media="screen">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+                <link rel="shortcut icon" type="image/x-icon" href="images/multipart.ico">
+                                                     <!--[if lt IE 9]>
+ <script src="js/html5shiv.js" type="text/javascript"></script>
+ <script src="js/respond.src.js" type="text/javascript"></script>
+ <script>document.createElement('footer');</script>
+<![endif]-->
+    </head>
+
+    <body>
+        
+        <div class="navbar navbar-inverse navbar-fixed-top " role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" id="menu"> 
+                       <span class="sr-only">Toggle navigation</span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                    </button>
+                    <div class="item active">	<a class="navbar-brand" href="default.htm">Multi-PART 	</a>	
+                    </div>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="http://www.dcn.ed.ac.uk/camarades/">CAMARADES	</a> </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+  <!--    <li> <a href="default.htm#about">	About	</a></li>  --> 
+                    	<li> <a href="research.html">	Research	</a></li>
+                    	<li> <a href="people.html">	Collaborations	</a></li>
+                    	<!--<li> <a href="meetings.html"> Meetings</a></li>-->
+			     <li> <a href="member/logon.asp"> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      
+ <div id="carousel-example-generic" class="carousel slide">
+  <br>
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
+                    </li>   
+                </ol>
+                <div class="carousel-inner">
+                	<div class="item active">
+                        <a href="default.htm">
+                            <img src="images/multipart_banner.png" alt="multipart banner">
+                        </a>
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    	<span class="icon-prev">						
+					</span>	
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    	<span class="icon-next">						
+					</span>	
+                </a>
+            </div>
+
+        <div class="container theme-showcase"> 
+            <div class="jumbotron">
+                 <h1 id="slogan">A new paradigm for translational medicine</h1> 
+                 <p>An international collaborative approach to overcoming the translational roadblock in neuroprotection and neuroregeneration research... </p>
+                <ul id="jumbotronbutton">
+                    <li><a class="btn btn-warning btn jumbotronbuttontext" href="#about">About Multi-PART  &raquo;</a>
+                    </li>
+                    <li><a class="btn btn-warning btn jumbotronbuttontext" href="research.html"> Publications  &raquo;</a>
+                    </li>
+                    <li><a class="btn btn-warning btn jumbotronbuttontext" href="people.html">The Team  &raquo;</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="section" >
+            
+                    <div class="frontpage-menu">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h3 class="frontsmalltitle"><a href="#about"><i class="fa fa-info"></i> About Multi-PART</a></h3> 
+                                <ul class="frontpage-list">
+                                        <li><a href="#about">The Scientific Question  </a></li>                                          
+                                        <li><a href="#approach">The Multi-PART Approach</a></li>
+                                        <li><a href="#funding"> Funding under FP7</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <h3 class="frontsmalltitle"> <a href="research.html"><i class="fa fa-book"></i> Research Documentation</a></h3> 
+                                <ul class="frontpage-list">
+                                        <li><a href="research.html">Publications</a></li>
+                                        <li><a href="research.html#proposals">Proposals</a></li>
+                                        <li><a href="research.html#presentations">Presentations </a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <h3 class="frontsmalltitle"><a href="people.html"><i class="fa fa-users"></i> Collaborations </a></h3> 
+                                <ul class="frontpage-list">                                  
+                                    <li><a href="people.html">Collaborators</a></li>
+                                    <li><a href="people.html#getinvolved">Get involved</a></li>
+                                    <li><a href="people.html#contactus">Contact Us </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+         
+            </div>
+<!--about-->
+            <div id="about">
+            <br>
+            <hr>
+<h1>About Multi-PART <br><small><span>Multi</span>centre <span>P</span>reclinical <span>A</span>nimal <span>R</span>esearch <span>T</span>eam is an international collaborative approach to overcoming the translational roadblock in neuroprotection and neuroregeneration research. 
+          </small>
+        </h1>
+      </div>
+      <div class="row">
+      <div class="col-md-8">
+        <h2>	Problem statement	</h2>
+        
+        <p> Worldwide, stroke is among the costliest diseases from human, family and societal perspectives. Due to the aging of societies the burden of stroke will increase even further. Besides tPA, for which only a small percentage of patients is eligible, no specific treatment exists - stroke is an area of tremendous unmet medical need.
+        </p>
+        <p>Over the last decades, immense progress has been made in our understanding of the pathophysiological mechanisms leading to brain tissue injury after ischemic stroke. This research has identified numerous potential targets to intercept the cascades of ischemic damage, and even to foster recovery. However, so far every attempt to translate this preclinical success into clinically effective therapies has failed. Translational stroke research is in a crisis, and pharmaceutical companies continue to exit the field. Many reasons for the apparently insurmountable barrier between the bench and bedside in stroke drug development have been identified. These include (among others) quality problems in preclinical research, bias towards the inclusion of young, healthy animals, small studies and hence low positive predictive value, and strong negative publication bias. 
+        </p>
+        <p>At present, no systematic or evidence based criteria exist to inform the decision to venture from preclinical testing into clinical development. In most prior translational stroke research programs the decision to proceed was based on limited experimental evidence and personal opinions of stakeholders in the process.
+        </p>
+      </div>
+      
+      <div id="approach" class="col-md-4">
+        <h2>	Our proposal	</h2>
+     	<p>Preclinical stroke research should learn from the experience of clinical stroke research by seeking a firmer evidence base to inform the process of translation. In recent decades the quality of clinical trials and hence the robustness of their results, not only in stroke but in many other therapeutic areas, has improved tremendously. This was the result of a complementary range of measures including strategies to minimize bias, biostatistical advances, data monitoring and auditing, among others. We propose the development and implementation of a similar international, multicenter 'phase III'-type preclinical trials of promising, novel ischemic stroke therapies to inform the possible transition from animal modeling to clinical trial.
+        </p>
+      </div>            
+</div>
+<div class="row">
+      <div class="col-md-8"> 
+        <h2>Key Objective</h2>              
+	<p>Establish and implement a platform for international multicenter preclinical stroke trials using the repertoire of randomized clinical trial design and the complexities of a multicenter multimodel paradigm.</p>
+<div class="row">
+	<div class="col-md-6">
+          <h2>Benefit from </br>international partnership	</h2>		
+	  <p> It is unlikely that one country or region has sufficient resource to deliver such a program on its own. Central provision of study platforms (randomization, data management, outcome adjudication, statistical analysis) would reduce the associated costs for each national or regional funding agency and would allow new centres or countries to join in a supported, mentored and monitored way. There is therefore the potential to increase high quality research capacity by reducing entry costs. This approach might be seen as the national equivalent of pre-competitive partnership, creating tools to bring about health gains for all.
+	  </p>
+        </div>
+	
+        <div class="col-md-6">
+          <h2>Potential impact </br> on other fields and the  Pharmaceutical Industry</h2>		
+          <p>Due to the high prevalence of stroke, addressing the huge and completely unmet medical need of stroke poses tremendous commercial opportunities. In addition, demonstrating neuroprotection and/or neurorepair in this prototypical acute CNS disorder would have vast implications for the development of treatments in many other acute and chronic neurological and neuropsychiatric diseases. Furthermore, such a trial paradigm could serve as a blueprint to overcome similar translational roadblocks in many other disease areas.
+          </p>
+	</div>
+
+      </div>
+</div>
+      <div class="col-md-4">
+        <h2>Key Deliverables</h2>              
+        <p> Development of a trial design which exploits the potential for randomised stratification to enhance generalisability. Establishment of a steering committee (including  both preclinical clinical researchers), selection of participating academic and industrial laboratories. Selection of 2 - 3 candidate drugs (systematic review, review by experts). Selection of clinically relevant short and long term endpoints (outcomes), such as mortality, infarct size and behavioral/functional deficit. Inclusion of biomarkers, including imaging, to inform subsequent clinical trials. Biostatistical apriori analysis. Inclusion of animals with clinically relevant comorbidities and advanced age. Prospectively planned subgroup analyses. Training of raters. Independent data monitoring , auditing. Public registration (analogous to clinicaltrials.gov). Ultimately the demonstration that preclinical, randomized, multicenter trials can expeditiously eliminate major hurdles of bench to bedside translation and provide a robust basis for decisions on whether to enter clinical development of novel treatments.
+        </p>
+      </div>
+      
+      <!--funding-->
+      <div id="funding" class="col-md-12">
+	<h2>Funding</h2>
+
+	<div class="row">
+	  <div class="col-md-2">
+	    <img  src=images/FP7-gen-RGB.jpg width=100px height=100px alt="FP7 logo"> 
+	  </div>
+	  <div class="col-md-10">  	
+	    <p>We are pleased to announce that the Multi-PART consortium has been awarded funding under <strong> FP7 (Grant Agreement HEALTH-F2-2013-603043)</strong> to support the development of working arrangements and infrastructure of multi centre animal studies. The grant runs from 2 years from 1st September 2013.
+	    </p>
+	  </div>
+	</div>
+</div>
+</br>
+	<p><em> *If you are interested in supporting the work of Multi-PART, please contact the project coordinator <a href="mailto:emily.sena@ed.ac.uk">Emily Sena</a>.</em></p>
+      </div>
+            <!-- 
+            <hr>
+            <ul >
+                <li> We are pleased to announce that the Multi-PART consortium has been awarded funding under <strong>FP7 (Grant Agreement HEALTH-F2-2013-603043)</strong> to support the development of working arrangements and infrastructure of multi centre animal studies. The grant runs from 2 years from 1st September 2013.
+            	</li>
+            	<li hidden>The Multi-PART collaborators met in Edinburgh in September, 2013 for a kick-off meeting. As part of our committment to openness and transparency and in support of pre-competitive partnerships we are making the <a href="research.html#proposals">text of the application</a> available. We would be delighted to have your feedback, or expressions of interest in being part of Multi-PART, and these should be sent to <a href="mailto:emily.sena@ed.ac.ukmailto:">Emily Sena</a>, the project coordinator.</li >
+            
+                <li>If you are interested in <strong>supporting</strong> the work of MultiPART, please contact the project coordinator <a href="mailto:emily.sena@ed.ac.ukmailto:"><em>Emily Sena</em> </a>
+                </li>
+            </ul>
+            -->
+            <footer class="cite-footer">
+                <hr>
+                <p>Copyright &copy; 2014 Multi-PART. All Rights Reserved.
+                </p>
+                <ul>
+                    <li><a href="about.html">About</a>
+                    </li>
+<!--                    <li><a href="license.html">License</a>
+                    </li>-->
+                    <li><a href="people.html#contactus">Contact</a>
+                    </li>
+                    <li>
+                        	<a class="btn btn-primary btn-xs" href="https://www.facebook.com/camarades.info"><i class="fa fa-facebook fa-2x"></i></a>
+                        	<a class="btn btn-info btn-xs" href="https://twitter.com/CAMARADES_"><i class="fa fa-twitter fa-2x"></i></a>
+                        	<a class="btn btn-danger btn-xs" href="https://www.youtube.com/channel/UCXCC8cqm-CL3_LFNdJ0Df8g"><i class="fa fa-youtube fa-2x"></i></a>	
+                    </li>
+                    <li>
+                        
+                        <div class="fb-like" data-href="http://www.dcn.ed.ac.uk/multipart/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+                    </li>
+
+                </ul>
+
+            </footer>
+
+        </div>
+        <script src="//code.jquery.com/jquery.js">            
+        </script>
+        <script src="js/bootstrap.min.js">
+        </script>
+		<script src="js/camaradesjs.js">           
+        </script>
+    </body>
+
+</html>

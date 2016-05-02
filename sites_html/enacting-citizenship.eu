@@ -1,0 +1,474 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ENACT - Enacting European Citizenship</title>
+<link rel="stylesheet" type="text/css" media="all" href="http://www.enacting-citizenship.eu/index.php?css=global/mainstyles" />
+<script type="text/javascript" src="/scripts/mootools.js"></script>
+<script type="text/javascript" src="/scripts/menustart.js"></script>
+<script type="text/javascript" src="/scripts/slimbox.js"></script>
+<link rel="stylesheet" href="/css/slimbox.css" type="text/css" />
+</head>
+<body marginwidth=0 marginheight=0>
+    <!-- begin topbar -->
+			<div id="topbar">
+			 You are not logged in&nbsp;&nbsp;·&nbsp;&nbsp;<a href="#" class="toggle">Login</a>
+						</div>
+    <!-- end topbar -->
+
+<!-- begin wrapper+inner -->
+  <div id="wrapper">
+		<div id="hlogin" style="visibility:hidden;">
+			<div class="dashbox" style="padding-bottom: 0px;">
+<form method="post" action="http://www.enacting-citizenship.eu/index.php"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="9" />
+<input type="hidden" name="RET" value="http://www.enacting-citizenship.eu/" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+<p>
+<label>Username</label><br />
+<input type="text" name="username" value="" maxlength="32" class="flatinput" size="20" /><br/>
+<label>Password</label><br />
+<input type="password" name="password" value="" maxlength="32" class="flatinput" size="20" /><br/>
+
+
+<input class='checkbox' type='checkbox' name='auto_login' value='1' /> Auto-login on future visits<br/>
+
+
+<input type="hidden" name='anon' value='1'  /> 
+<input type="submit" class="flatsubmit" name="submit" value="Submit" /></p>
+</form> 
+<p align="right">[<a href="#" class="toggle">close</a>]</p>
+</div>
+		</div>
+  <div id="inner">
+  
+
+  	<!-- begin header -->
+		<div id="header">
+			        <a href="http://www.enacting-citizenship.eu/index.php/site/"><img src="/images/site/header.gif" width="960" height="112" border="0"/></a>
+			 
+				
+				<!-- begin navigation -->
+				<div id="navigation">
+					<ul id="nav">
+	<li><a href="#" onclick="javascript:return false;">Work Packages</a>
+		<ul>
+			
+           <li><a href="http://www.enacting-citizenship.eu/index.php/sections/work/cat/wp1_directing_research/">1. Directing research</a></li>
+      
+           <li><a href="http://www.enacting-citizenship.eu/index.php/sections/work/cat/wp2_framing_research/">2. Framing research</a></li>
+      
+           <li><a href="http://www.enacting-citizenship.eu/index.php/sections/work/cat/wp3_enacting_mobility/">3. Enacting mobility: a more democratic European citizenship?</a></li>
+      
+           <li><a href="http://www.enacting-citizenship.eu/index.php/sections/work/cat/wp4_depriving_citizenship/">4. State acts of depriving citizenship</a></li>
+      
+           <li><a href="http://www.enacting-citizenship.eu/index.php/sections/work/cat/wp5_acts_of_citizenship/">5. Acts of citizenship and the expansion of the political</a></li>
+      
+           <li><a href="http://www.enacting-citizenship.eu/index.php/sections/work/cat/wp6_eu_citizenship_in_turkey/">6. Enacting European citizenship in Turkey</a></li>
+      
+           <li><a href="http://www.enacting-citizenship.eu/index.php/sections/work/cat/wp7_eu_court_of_justice/">7. European Court of Justice and enacting citizenship</a></li>
+      
+           <li><a href="http://www.enacting-citizenship.eu/index.php/sections/work/cat/wp8_eu_citizenship_in_latvia/">8. Enacting European citizenship in Latvia</a></li>
+      
+		</ul>
+	</li>
+         <li><a href="#" onclick="javascript:return false;">Blogs</a>
+
+<ul>
+<li><a href="http://www.enacting-citizenship.eu/index.php/sections/blog/blog_1/">1. Directing research</a></li>
+<li><a href="http://www.enacting-citizenship.eu/index.php/sections/blog/blog_2/">2. Framing research</a></li>
+<li><a href="http://www.enacting-citizenship.eu/index.php/sections/blog/blog_3/">3. Enacting mobility</a></li>
+<li><a href="http://www.enacting-citizenship.eu/index.php/sections/blog/blog_4/">4. State acts of depriving citizenship</a></li>
+<li><a href="http://www.enacting-citizenship.eu/index.php/sections/blog/blog_5/">5. Acts of citizenship and the expansion of the political</a></li>
+<li><a href="http://www.enacting-citizenship.eu/index.php/sections/blog/blog_6/">6. Enacting European citizenship in Turkey</a></li>
+<li><a href="http://www.enacting-citizenship.eu/index.php/sections/blog/blog_7/">7. European Court of Justice and enacting citizenship</a></li>
+<li><a href="http://www.enacting-citizenship.eu/index.php/sections/blog/blog_8/">8. Enacting European citizenship in Latvia</a></li>
+</ul>
+
+        </li>
+
+<li><a href="#" onclick="javascript:return false;">Documents</a>
+<ul style="width:100px;">
+<li><a href="http://www.enacting-citizenship.eu/index.php/sections/deliverables/">Deliverables</a></li>
+<li><a href="http://www.enacting-citizenship.eu/index.php/sections/library/">Library</a></li>
+</ul>
+</li>
+
+	<li ><a href="http://www.enacting-citizenship.eu/index.php/sections/news/">News</a></li>
+	<li ><a href="http://www.enacting-citizenship.eu/index.php/sections/events/">Events</a></li>
+        <li ><a href="http://www.enacting-citizenship.eu/index.php/forums/">Forums</a></li>
+	<li id="lastnavitem"><a href="http://www.enacting-citizenship.eu/index.php/contact/">Contact</a></li>
+
+</ul>
+
+
+                                        <!-- begin searchbox -->
+					<div id="searchbox">
+						 <form method="post" action="http://www.enacting-citizenship.eu/index.php"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="19" />
+<input type="hidden" name="XID" value="" />
+<input type="hidden" name="RP" value="search&amp;#47;results" />
+<input type="hidden" name="NRP" value="search&amp;#47;noresults" />
+<input type="hidden" name="RES" value="20" />
+<input type="hidden" name="status" value="" />
+<input type="hidden" name="weblog" value="not general|work" />
+<input type="hidden" name="search_in" value="entries" />
+<input type="hidden" name="where" value="all" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+	                                             <input type="text" name="keywords" id="keywords" value="" size="30" /> <input type="image" src="/images/site/search_grey.gif" value="submit" name="submit" id="submit"/>
+	                                         </form>
+					</div>
+					<!-- end searchbox -->
+    	 
+				</div>
+				<!-- end navigation -->
+				
+				
+					
+
+				
+		</div>
+		<!-- end header -->
+<br clear="all"/>
+    <!--Breadcrumb -->
+    
+
+
+    
+                
+
+	<script type="text/javascript" src="/scripts/carousel.js"></script>
+	<script type="text/javascript">
+			window.addEvent('domready', function(){
+					if(window.ie) { new CNETcarousel($('simpleCarousel'), {slideInterval: 6000, rotateAction: 'mouseover', rotateActionDuration: 0, transitionDuration: 0}); }
+                                        else { new CNETcarousel($('simpleCarousel'), {slideInterval: 6000, rotateAction: 'mouseover', rotateActionDuration: 100, transitionDuration: 700});}
+			});
+	</script>
+	<style>
+			#simpleCarousel {
+		    height: 250px;
+		    padding: 5px;
+		    background-color: #fff;
+		    border: 1px solid #ddd;
+        margin-top: 10px;
+		  }
+		  
+		  #simpleCarousel div.slides {
+			  /*height: 20px;*/
+			  height: 230px;
+			  width: 550px;
+			  overflow: hidden;
+			}
+			#simpleCarousel div.slide {
+			  /*height: 20px;*/
+			  position:absolute;
+			  width: 550px;
+			  height: 230px;
+        visibility: hidden;
+			}
+			
+		  
+		  #simpleCarousel .sCimage {
+		    float: left;
+		    margin: 8px 20px 0px 5px;
+		    height:230px;
+		  }
+
+      #simpleCarousel .sCimage img {
+      border: 1px solid #ddd;
+      }
+		  
+		  #simpleCarousel .sCtext {
+		    float: left;
+		    width: 200px;
+		  }
+		  
+		  #simpleCarousel #buttons {
+		    position:absolute;
+		    margin-left: 44px;
+		    height: 80px;
+		    width: 190px;
+				margin-top:-60px;
+		  }
+
+			#simpleCarousel div.button {
+			  padding: 1px 3px;
+			  background-color: #8c6e1b;
+				margin-bottom: 3px; 
+				text-align: center;
+				cursor: pointer;
+				font-weight: bold; 
+				color: #ddd;
+				font-size: 15px;
+				border: 1px solid #777;
+				width: 15px; float: left;
+				margin-right: 5px;
+			}
+
+			#buttonlabel {
+				float: left;
+				width: 112px; 
+				font-weight: bold;
+				color: #666;
+				margin-top: 3px;
+			}
+			#simpleCarousel div.selected {
+			  font-weight: bold;
+			  background-color: #eeeeee; color: #444;
+			}
+
+
+	
+
+	</style>
+		<!-- begin contents -->
+		<div id="contents">
+			
+				<!-- begin leftcol -->
+				<div id="leftcol">
+					
+					<!-- begin carousel -->
+		 			<div id="simpleCarousel">
+		 				<div class="slides">
+		 					<!-- begin individual slides -->
+		 					
+		 					<div class="slide">
+		 						<div class="sCimage">
+		 						<img src="/images/uploads/cache/clay_4115322_200x133.jpg" width="200" height="133"alt="" />
+		 						</div>
+
+		 						<h4>1. Directing research</h4>
+                                                                <div id="sCtext">
+						                This work package provides intellectual leadership on reassessing European citizenship by focusing on its key concepts 'acts of citizenship' and 'enacting citizenship'.<br />
+<i>The Open University: Prof. Engin Isin</i><br/><a href="http://www.enacting-citizenship.eu/index.php/sections/work/cat/wp1_directing_research/">Read more ></a>
+		 						</div>
+
+		 					</div>
+		 					
+		 					<div class="slide">
+		 						<div class="sCimage">
+		 						<img src="/images/uploads/cache/clay_5494071_200x133.jpg" width="200" height="133"alt="" />
+		 						</div>
+
+		 						<h4>2. Framing research</h4>
+                                                                <div id="sCtext">
+						                <p>Integrates the findings across the ENACT programme, fostering consistency in the framing and presentation of the research. Pinpoints comparative and  theoretical innovations. Directs research dissemination, from scholarly books to EU policy briefings and media presentations.
+<br />
+<i>The Open University: Prof. Michael Saward</i>
+</p><br/><a href="http://www.enacting-citizenship.eu/index.php/sections/work/cat/wp2_framing_research/">Read more ></a>
+		 						</div>
+
+		 					</div>
+		 					
+		 					<div class="slide">
+		 						<div class="sCimage">
+		 						<img src="/images/uploads/cache/clay_1812023_200x151.jpg" width="200" height="151"alt="" />
+		 						</div>
+
+		 						<h4>3. Enacting mobility: a more democratic European citizenship?</h4>
+                                                                <div id="sCtext">
+						                While European citizenship is modelled upon national ideas of citizenship, the EU as a multi-level project questions the primacy of the national. This work package challenges the value-oriented concept of European citizenship derived from national models, investigating acts of mobile citizens and their potential for constituting a democratic European citizenship.<br />
+<i>The Open University: Dr. Jef Huysmans, Dr. Claudia Aradau, Dr. Vicki Squire</i><br/><a href="http://www.enacting-citizenship.eu/index.php/sections/work/cat/wp3_enacting_mobility/">Read more ></a>
+		 						</div>
+
+		 					</div>
+		 					
+		 					<div class="slide">
+		 						<div class="sCimage">
+		 						<img src="/images/uploads/cache/clay_1640946_200x133.jpg" width="200" height="133"alt="" />
+		 						</div>
+
+		 						<h4>4. State acts of depriving citizenship</h4>
+                                                                <div id="sCtext">
+						                The formal enactment of citizenship in a number of member states through the deprivation of citizenship is the focus. Compares legal and political obligations of states regarding the enactment of  citizenship by their nationals in EU and international law and<br />
+practice, and analyses the meaning of state practices of deprivation of citizenship with respect to belonging and difference.<br />
+<i>Radboud University: Prof. Elspeth Guild</i><br/><a href="http://www.enacting-citizenship.eu/index.php/sections/work/cat/wp4_depriving_citizenship/">Read more ></a>
+		 						</div>
+
+		 					</div>
+		 					
+		 					<div class="slide">
+		 						<div class="sCimage">
+		 						<img src="/images/uploads/cache/clay_4083857_200x133.jpg" width="200" height="133"alt="" />
+		 						</div>
+
+		 						<h4>5. Acts of citizenship and the expansion of the political</h4>
+                                                                <div id="sCtext">
+						                Performative politics by excluded groups in Hungary and Germany<br />
+Investigates how those excluded by EU citizenship schemes, mainly third country nationals and undocumented migrants, become claimants of rights and pose challenges to the boundaries of political community and political space envisaged by the EU. <br />
+<i>Central European University: Prof. Ayse Caglar, Dr. Prem Kumar Rajaram</i><br />
+<br/><a href="http://www.enacting-citizenship.eu/index.php/sections/work/cat/wp5_acts_of_citizenship/">Read more ></a>
+		 						</div>
+
+		 					</div>
+		 					
+		 					<div class="slide">
+		 						<div class="sCimage">
+		 						<img src="/images/uploads/cache/clay_5626044_200x133.jpg" width="200" height="133"alt="" />
+		 						</div>
+
+		 						<h4>6. Enacting European citizenship in Turkey</h4>
+                                                                <div id="sCtext">
+						                Identifies the ways in which specific groups of Turkish citizens enact European citizenship, and analyzes the similarities and differences in their acts. To understand how Turkey's EU candidacy and accession process have shaped the ways in which Turkish citizens &lsquo;enact European citizenship&rsquo;', the research examines the impact of these practices on EU policies towards Turkey, and on Turkish domestic politics. <br />
+<i>Koc University: Prof. Fuat Keyman, Ass. Prof. Bahar Rumelili</i><br/><a href="http://www.enacting-citizenship.eu/index.php/sections/work/cat/wp6_eu_citizenship_in_turkey/">Read more ></a>
+		 						</div>
+
+		 					</div>
+		 					
+		 					<div class="slide">
+		 						<div class="sCimage">
+		 						<img src="/images/uploads/cache/clay_1640934_200x133.jpg" width="200" height="133"alt="" />
+		 						</div>
+
+		 						<h4>7. European Court of Justice and enacting citizenship</h4>
+                                                                <div id="sCtext">
+						                Council Directive 2003/109/EC of November 2003 has officially recognised and covered the legal status of those non-EU nationals who have resided for a long period of time in the territory of a member state. This work package addresses the vulnerabilities inherent in using 'nationality' and 'residence' as the linking factors determining and giving access to certain acts of citizenship in the European Union.<br />
+<i>The Centre for European Policy Studies: Mr Sergio Carrera</i><br/><a href="http://www.enacting-citizenship.eu/index.php/sections/work/cat/wp7_eu_court_of_justice/">Read more ></a>
+		 						</div>
+
+		 					</div>
+		 					
+		 					<div class="slide">
+		 						<div class="sCimage">
+		 						<img src="/images/uploads/cache/clay_4288453_200x133.jpg" width="200" height="133"alt="" />
+		 						</div>
+
+		 						<h4>8. Enacting European citizenship in Latvia</h4>
+                                                                <div id="sCtext">
+						                The focus on national, minority and civic youth discourses enables us to analyse how the process of Latvia becoming a member of the EU changed the ways Latvian citizens enact European citizenship. We examine the relationship between policy approaches of the EU institutions (before and after enlargement) and specific groups in Latvia.<br />
+<i>Riga Graduate School of Law: Kristine Kruma</i><br/><a href="http://www.enacting-citizenship.eu/index.php/sections/work/cat/wp8_eu_citizenship_in_latvia/">Read more ></a>
+		 						</div>
+
+		 					</div>
+		 					
+		 					<!-- end individual slides -->
+		 				</div>
+		 				<div id="buttons">
+                                                        <div id="buttonlabel">Work Packages</div>
+		 					<div class="button"> 1 </div>
+		 					<div class="button"> 2 </div>
+		 					<div class="button"> 3 </div>
+		 					<div class="button"> 4 </div>
+		 					<div class="button"> 5 </div>
+		 					<div class="button"> 6 </div>
+		 					<div class="button"> 7 </div>
+		 					<div class="button"> 8 </div>
+		 				</div>
+		 			</div>
+		 			<!-- end carousel -->	
+		 			
+					<br/>	
+					
+					<h3>About</h3>
+					<div class="indent">
+						<b>The ENACT project was completed in January 2011 and is now closed</b>. 
+ENACT  was a consortium which brought together researchers from three member states of the European Union (UK, Belgium and the Netherlands), two new member states (Hungary and Latvia) and a candidate state (Turkey) to explore in depth how European citizenship is claimed, disputed, built -- in short, enacted. 
+						<a href="http://www.enacting-citizenship.eu/index.php/about/">Read more ></a>
+					</div>
+					
+					<br/><br/>
+					
+					<h3>Partners</h3>	
+						<div class="whitebox" style="padding: 10px 0px; width: 100%">
+							
+							<table boder=0 cellpadding=0 cellspacing=0>
+<tr>
+<td><a href="http://www.rgsl.edu.lv/" target="_blank"><img src="/images/site/partnerlogo1.gif" border=0 hspace=4></a></td>
+<td><a href="http://www.ceu.hu/home" target="_blank"><img src="/images/site/partnerlogo2.gif" border=0 hspace=4></a></td>
+<td><a href="http://www.ceps.be/index3.php" target="_blank"><img src="/images/site/partnerlogo3.gif" border=0 hspace=4></a></td>
+<td><a href="http://www.ru.nl/law/cmr/" target="_blank"><img src="/images/site/partnerlogo4.gif" border=0 hspace=4></a></td>
+<td><a href="http://www.open.ac.uk/ccig/index.shtml" target="_blank"><img src="/images/site/partnerlogo5.gif" border=0 hspace=4></a></td>
+<td><a href="http://www.ku.edu.tr/main.php" target="_blank"><img src="/images/site/partnerlogo6.gif" border=0 hspace=4></a></td>
+</tr>
+</table>
+
+							
+						</div>
+		 
+		 
+				</div>
+				<!-- end leftcol -->
+				
+				<!-- begin rightcol -->
+				<div id="rightcol">
+					
+					 		<h3>News</h3>
+					 		<div class="indent">
+					 		  
+					 				<h5>Do we really know who can act as a European citizen?</h5>
+					 				The new book <i>Enacting European Citizenship</i> does a curious thing: it questions the very ownership of the idea of citizenship.  
+<br/>
+					 				<a href="http://www.enacting-citizenship.eu/index.php/sections/news_item/429/">Read more ></a>
+					 			
+					 				<h5>Negotiating otherness: Mozaika and sexual citizenship</h5>
+					 				The article uses the case study of Mozaika, a youth NGO, to look at trajectories of enactment of citizenship. Mozaika brings together people who act to support and raise awareness of the LGBT community in Latvia. Using the theoretical framework of the ENACT project, we ask to what extent trajectories of assertion and extension are interlinked, overlapping and complementary of each other. <br/>
+					 				<a href="http://www.enacting-citizenship.eu/index.php/sections/news_item/428/">Read more ></a>
+					 			
+					 				<h5>Enacting European Citizenship in 2013: Geographies of belonging</h5>
+					 				In geographical literature, interest in practices denoted as citizenship takes a particular focus on the various spaces in which citizenship is fostered, practiced and contested. Such approaches underline and discuss the social-cultural processes and practices which recast “citizenship” and its multiple geographies, often as a criticism to a definition of the concept in exclusively political terms and at the scale of the nation-state. However, in our times of globalisation and transnational migration, citizenship is often not bounded by the territory of one nation-state. <br/>
+					 				<a href="http://www.enacting-citizenship.eu/index.php/sections/news_item/427/">Read more ></a>
+					 			
+					 		</div>
+					 		<h5><a href="http://www.enacting-citizenship.eu/index.php/sections/news/">More news</a></h5>
+					 		<br/><br/>
+					 		
+					 		
+					 		<h3>Events</h3>
+					 		<ul class="eventlist">
+					 			
+										<li>No events forthcoming</li>
+									
+					 		</ul>
+		 
+		 
+				</div>
+				<!-- end rightcol -->
+			
+		</div>
+		<!-- end contents -->
+		<!-- begin footer -->	
+		<div id="footer">
+			<div style="margin-left: 30px; width: 550px; height:50px;"><img src="/images/site/7logo.gif" style="margin: 0px 10px 5px 0px;" align="left"/>The project ENACT is a ‘Socio-economic Sciences and Humanities’ Programme with the call FP7-SSH-2007-1 by the European Commission.</div>			    
+		</div>
+		<!-- end footer -->	
+			
+	</div>
+	</div>
+	<!-- end wrapper+inner -->
+        <div id="base">&nbsp;</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-877323-2";
+urchinTracker();
+</script>	
+
+<script type="text/javascript" src="http://www.enacting-citizenship.eu/clickheat/js/clickheat.js"></script>
+
+<script type="text/javascript"><!--
+clickHeatSite = 'enacting-citizenship'; clickHeatGroup = 'other';
+clickHeatGroup = 'home';
+clickHeatServer = 'http://www.enacting-citizenship.eu/clickheat/click.php';initClickHeat(); 
+//-->
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

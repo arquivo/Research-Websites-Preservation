@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head">
+<!--**********************************************************************************-->
+<!-- DotNetNuke� - http://www.dotnetnuke.com                                          -->
+<!-- Copyright (c) 2002-2010                                                          -->
+<!-- by DotNetNuke Corporation                                                        -->
+<!--**********************************************************************************-->
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta content="text/javascript" http-equiv="Content-Script-Type" /><meta content="text/css" http-equiv="Content-Style-Type" /><meta id="MetaDescription" name="DESCRIPTION" content="development of new ecological pesticides by incorporation of synergic bio molecules" /><meta id="MetaKeywords" name="KEYWORDS" content="pesticides, development, ecological, synergic, bio,DotNetNuke,DNN" /><meta id="MetaCopyright" name="COPYRIGHT" content="Copyright 2010 by Bimosyn" /><meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke " /><meta id="MetaAuthor" name="AUTHOR" content="BIMOSYN" /><meta name="RESOURCE-TYPE" content="DOCUMENT" /><meta name="DISTRIBUTION" content="GLOBAL" /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><meta name="REVISIT-AFTER" content="1 DAYS" /><meta name="RATING" content="GENERAL" /><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" /><style id="StylePlaceholder" type="text/css"></style><link id="APortals__default_" rel="stylesheet" type="text/css" href="/Portals/_default/default.css" /><link id="APortals_0_" rel="stylesheet" type="text/css" href="/Portals/0/portal.css" /><link id="style" rel="stylesheet" type="text/css" href="/Portals/0/Skins/Bimosyn_v2/style.css" /><!--[if IE 6]><link id="styleIE6" rel="stylesheet" type="text/css" href="/Portals/0/Skins/Bimosyn_v2/style.ie6.css" /><![endif]--><!--[if IE 7]><link id="styleIE7" rel="stylesheet" type="text/css" href="/Portals/0/Skins/Bimosyn_v2/style.ie7.css" /><![endif]--><script type="text/javascript" src="/Resources/Shared/Scripts/jquery/jquery.min.js" ></script><link href="/Portals/_default/Skins/_default/WebControlSkin/Default/TabStrip.Default.css" rel="stylesheet" type="text/css" /><title>
+	BIMOSYN > Home
+</title></head>
+<body id="Body">
+    <form name="Form" method="post" action="/default.aspx" id="Form" enctype="multipart/form-data">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2NDIyOTEzMjkPZBYGZg8WAh4EVGV4dAV5PCFET0NUWVBFIGh0bWwgUFVCTElDICItLy9XM0MvL0RURCBYSFRNTCAxLjAgVHJhbnNpdGlvbmFsLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL1RSL3hodG1sMS9EVEQveGh0bWwxLXRyYW5zaXRpb25hbC5kdGQiPmQCAQ9kFg4CBA8WAh4HVmlzaWJsZWhkAgUPFgIeB2NvbnRlbnQFU2RldmVsb3BtZW50IG9mIG5ldyBlY29sb2dpY2FsIHBlc3RpY2lkZXMgYnkgaW5jb3Jwb3JhdGlvbiBvZiBzeW5lcmdpYyBiaW8gbW9sZWN1bGVzZAIGDxYCHwIFQXBlc3RpY2lkZXMsIGRldmVsb3BtZW50LCBlY29sb2dpY2FsLCBzeW5lcmdpYywgYmlvLERvdE5ldE51a2UsRE5OZAIHDxYCHwIFGUNvcHlyaWdodCAyMDEwIGJ5IEJpbW9zeW5kAggPFgIfAgULRG90TmV0TnVrZSBkAgkPFgIfAgUHQklNT1NZTmQCDA8WAh8CBQ1JTkRFWCwgRk9MTE9XZAICD2QWAgIBD2QWBAIED2QWAmYPZBYmZg9kFgJmD2QWAmYPFgIfAWgWBAIBD2QWCAIDDxBkZBYAZAIHDxYCHwFoZAIJDxYCHwFoZAILD2QWAmYPDxYGHghJbWFnZVVybAUUL2ltYWdlcy9jb2xsYXBzZS5naWYeDUFsdGVybmF0ZVRleHQFCE1pbmltaXplHgdUb29sVGlwBQhNaW5pbWl6ZWRkAgMPZBYEAgEPFCsAAhQrAAJkEBYEZgIBAgICAxYEFCsAAmRkFCsAAmRkFCsAAg8WAh8BaGRkFCsAAg8WAh8BaGRkDxYEZmZmZhYBBW5UZWxlcmlrLldlYi5VSS5SYWRUYWIsIFRlbGVyaWsuV2ViLlVJLCBWZXJzaW9uPTIwMTAuMi45MjkuMzUsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNGQWBAICDw8WAh8BaGRkAgMPDxYCHwFoZGQCAw8UKwACZBUECFBhZ2VIb21lC1BhZ2VDdXJyZW50CFBhZ2VTaXRlDlBhZ2VIb3N0U3lzdGVtFgQCAg8PFgIfAWhkZAIDDw8WAh8BaGRkAgEPZBYKZg8WAh8ABaEHPGRpdiBjbGFzcz0iYXJ0LW5hdiI+PGRpdiBjbGFzcz0ibCI+PC9kaXY+PGRpdiBjbGFzcz0iciI+PC9kaXY+PGRpdiBjbGFzcz0iYXJ0LW5hdi1jZW50ZXIiPjx1bCBjbGFzcz0iYXJ0LW1lbnUiPg0KPGxpPjxhIGhyZWY9Imh0dHA6Ly9iaW1vc3luLmV1L0hvbWUuYXNweCIgY2xhc3M9IiBhY3RpdmUiPjxzcGFuIGNsYXNzPSJsIj48L3NwYW4+PHNwYW4gY2xhc3M9InIiPjwvc3Bhbj48c3BhbiBjbGFzcz0idCI+SG9tZTwvc3Bhbj48L2E+PC9saT48bGk+PGEgaHJlZj0iaHR0cDovL2JpbW9zeW4uZXUvT2JqZWN0aXZlcy5hc3B4Ij48c3BhbiBjbGFzcz0ibCI+PC9zcGFuPjxzcGFuIGNsYXNzPSJyIj48L3NwYW4+PHNwYW4gY2xhc3M9InQiPk9iamVjdGl2ZXM8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGhyZWY9Imh0dHA6Ly9iaW1vc3luLmV1L0NvbnNvcnRpdW0uYXNweCI+PHNwYW4gY2xhc3M9ImwiPjwvc3Bhbj48c3BhbiBjbGFzcz0iciI+PC9zcGFuPjxzcGFuIGNsYXNzPSJ0Ij5Db25zb3J0aXVtPC9zcGFuPjwvYT48L2xpPjxsaT48YSBocmVmPSJodHRwOi8vYmltb3N5bi5ldS9OZXdzRXZlbnRzLmFzcHgiPjxzcGFuIGNsYXNzPSJsIj48L3NwYW4+PHNwYW4gY2xhc3M9InIiPjwvc3Bhbj48c3BhbiBjbGFzcz0idCI+TmV3cyAmIEV2ZW50czwvc3Bhbj48L2E+PC9saT48bGk+PGEgaHJlZj0iaHR0cDovL2JpbW9zeW4uZXUvUmVzdWx0cy5hc3B4Ij48c3BhbiBjbGFzcz0ibCI+PC9zcGFuPjxzcGFuIGNsYXNzPSJyIj48L3NwYW4+PHNwYW4gY2xhc3M9InQiPlJlc3VsdHM8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGhyZWY9Imh0dHA6Ly9iaW1vc3luLmV1L0NvbnRhY3QuYXNweCI+PHNwYW4gY2xhc3M9ImwiPjwvc3Bhbj48c3BhbiBjbGFzcz0iciI+PC9zcGFuPjxzcGFuIGNsYXNzPSJ0Ij5Db250YWN0PC9zcGFuPjwvYT48L2xpPjxsaT5kAgIPZBYCZg8PFgIfAAVKPHNwYW4gY2xhc3M9ImwiPjwvc3Bhbj48c3BhbiBjbGFzcz0iciI+PC9zcGFuPjxzcGFuIGNsYXNzPSJ0Ij5Mb2dpbjwvc3Bhbj5kZAIEDxYEHwAFCTwvbGk+PGxpPh8BZ2QCBg9kFgJmDw8WBB8ABUU8c3BhbiBjbGFzcz0ibCI+PC9zcGFuPjxzcGFuIGNsYXNzPSJyIj48L3NwYW4+PHNwYW4gY2xhc3M9InQiPjwvc3Bhbj4fAWhkZAIIDxYCHwAFFjwvbGk+PC91bD48L2Rpdj48L2Rpdj5kAgIPFgIeBWNsYXNzBQxETk5FbXB0eVBhbmVkAgMPFgIfBgUMRE5ORW1wdHlQYW5lZAIEDxYCHwYFDEROTkVtcHR5UGFuZWQCBQ8WAh8GBQxETk5FbXB0eVBhbmVkAgYPFgIfBgUMRE5ORW1wdHlQYW5lZAIHDxYCHwYFDEROTkVtcHR5UGFuZWQCCA8WAh8GBQxETk5FbXB0eVBhbmVkAgkPFgIfBgUMRE5ORW1wdHlQYW5lZAIKD2QWBGYPZBYCAgEPZBYOAgEPZBYCAgIPFgIfAWgWBmYPFgIfBQUERWRpdGQCAQ8WAh8FBQZVcGRhdGVkAgIPFgIfBQUGQ2FuY2VsZAIDDw8WAh8BaGRkAgUPZBYCZg8PFgIfAWhkZAIHD2QWAmYPDxYCHwFoZGQCCQ9kFgICAQ8PZBYCHwYFC01vZEROTkhUTUxDFgICAQ9kFgICAg8WAh8BaGQCCw9kFgJmDw8WAh8BaGRkAg0PZBYCZg8PFgIfAWhkZAIBD2QWAgIBD2QWDgIBD2QWAgICDxYCHwFoFgZmDxYCHwUFBEVkaXRkAgEPFgIfBQUGVXBkYXRlZAICDxYCHwUFBkNhbmNlbGQCAw8PFgIfAWhkZAIFD2QWAmYPDxYCHwFoZGQCBw9kFgJmDw8WAh8BaGRkAgkPZBYCAgEPD2QWAh8GBQtNb2RETk5IVE1MQxYCAgEPZBYCAgIPFgIfAWhkAgsPZBYCZg8PFgIfAWhkZAIND2QWAmYPDxYCHwFoZGQCCw8WAh8GBQxETk5FbXB0eVBhbmVkAgwPFgIfBgUMRE5ORW1wdHlQYW5lZAINDxYCHwYFDEROTkVtcHR5UGFuZWQCDg8WAh8GBQxETk5FbXB0eVBhbmVkAg8PFgIfBgUMRE5ORW1wdHlQYW5lZAIQDxYCHwYFDEROTkVtcHR5UGFuZWQCEQ8WAh8GBQxETk5FbXB0eVBhbmVkAhIPFgIfBgUMRE5ORW1wdHlQYW5lZAIKDxQrAAIUKwADZGRkZGRkrSAFW95JSecZO/9fz16g69cTVCs=" />
+</div>
+
+
+<script src="/js/dnncore.js" type="text/javascript"></script>
+<script src="/Portals/0/Skins/Bimosyn_v2/script.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=SugRbajfeEAgkNRDkuvhXfGPG5whWxWG7XWs7wgapPxRT6_of0CJGy1-zzLdK9dnmqta8LLdHNaoQESZJ6V_uFcVldSX_VEWSoO-5ODyFskkXg-SD2fA64r9oYHEEpo1PyTEjcHTB7XiPY_2dUpTnfdwU2U1&amp;t=218dd34d" type="text/javascript"></script>
+        
+        
+
+<div id="art-page-background-simple-gradient">
+</div>
+<div id="art-main">
+<div class="art-Sheet">
+    <div class="art-Sheet-tl"></div>
+    <div class="art-Sheet-tr"></div>
+    <div class="art-Sheet-bl"></div>
+    <div class="art-Sheet-br"></div>
+    <div class="art-Sheet-tc"></div>
+    <div class="art-Sheet-bc"></div>
+    <div class="art-Sheet-cl"></div>
+    <div class="art-Sheet-cr"></div>
+    <div class="art-Sheet-cc"></div>
+    <div class="art-Sheet-body">
+        <div id="dnn_ControlPanel">
+
+</div>
+        <div class="art-Header">
+    <div class="art-Header-jpeg"></div>
+
+</div>
+<div class="art-nav"><div class="l"></div><div class="r"></div><div class="art-nav-center"><ul class="art-menu">
+<li><a href="http://bimosyn.eu/Home.aspx" class=" active"><span class="l"></span><span class="r"></span><span class="t">Home</span></a></li><li><a href="http://bimosyn.eu/Objectives.aspx"><span class="l"></span><span class="r"></span><span class="t">Objectives</span></a></li><li><a href="http://bimosyn.eu/Consortium.aspx"><span class="l"></span><span class="r"></span><span class="t">Consortium</span></a></li><li><a href="http://bimosyn.eu/NewsEvents.aspx"><span class="l"></span><span class="r"></span><span class="t">News & Events</span></a></li><li><a href="http://bimosyn.eu/Results.aspx"><span class="l"></span><span class="r"></span><span class="t">Results</span></a></li><li><a href="http://bimosyn.eu/Contact.aspx"><span class="l"></span><span class="r"></span><span class="t">Contact</span></a></li><li>
+	<a id="dnn_ArtMenu1_dnnLogin_cmdLogin" href="javascript:__doPostBack('dnn$ArtMenu1$dnnLogin$cmdLogin','')"><span class="l"></span><span class="r"></span><span class="t">Login</span></a>
+	</li><li>
+	
+	</li></ul></div></div>
+      <table class="position" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr valign="top">
+          <td id="dnn_Top1" width="33%" class="DNNEmptyPane"></td>
+
+          <td id="dnn_Top2" width="33%" class="DNNEmptyPane"></td>
+
+          <td id="dnn_Top3" class="DNNEmptyPane"></td>
+
+        </tr>
+      </table><div class="art-contentLayout">
+<div class="art-content">
+
+<table class="position" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr valign="top">
+          <td id="dnn_User1" width="50%" class="DNNEmptyPane"></td>
+
+          <td id="dnn_User2" class="DNNEmptyPane"></td>
+
+        </tr>
+      </table>
+
+<div id="dnn_ContentPane"><div><a id="381" name="381"></a>
+
+<div class="art-Block">
+    <div class="art-Block-tl"></div>
+    <div class="art-Block-tr"></div>
+    <div class="art-Block-bl"></div>
+    <div class="art-Block-br"></div>
+    <div class="art-Block-tc"></div>
+    <div class="art-Block-bc"></div>
+    <div class="art-Block-cl"></div>
+    <div class="art-Block-cr"></div>
+    <div class="art-Block-cc"></div>
+    <div class="art-Block-body">
+
+<div class="art-BlockHeader">
+    <div class="l"></div>
+    <div class="r"></div>
+    <div class="art-header-tag-icon">
+        <div class="t"><span id="dnn_ctr381_BlockTitle_lblTitle" class="Head">HOME</span>
+
+
+</div>
+    </div>
+</div>
+          <div align="right">
+          
+                  
+                  
+              </div>
+<div class="art-BlockContent">
+    <div class="art-BlockContent-tl"></div>
+    <div class="art-BlockContent-tr"></div>
+    <div class="art-BlockContent-bl"></div>
+    <div class="art-BlockContent-br"></div>
+    <div class="art-BlockContent-tc"></div>
+    <div class="art-BlockContent-bc"></div>
+    <div class="art-BlockContent-cl"></div>
+    <div class="art-BlockContent-cr"></div>
+    <div class="art-BlockContent-cc"></div>
+    <div class="art-BlockContent-body">
+
+<div id="dnn_ctr381_ContentPane"><!-- Start_Module_381 --><div id="dnn_ctr381_ModuleContent" class="ModDNNHTMLC">
+	<div id="dnn_ctr381_HtmlModule_lblContent" class="Normal">
+	<p style="text-align: justify; line-height: 120%; margin: 6pt 0cm 0pt;">This project attempts to investigate the degree of synergy between antioxidant bioactive substances and conventional biocides in order to develop more environmentally-friendly pesticide products. The aim is to use natural extracts from plant sources with the potential to be used as biocide adjuvants for the chemical sector.</p>
+<p style="text-align: justify; line-height: 120%; margin: 6pt 0cm 0pt;">The study will focus on the inclusion of adjuvants of an antioxidant nature of synthetic and natural origin in commercially-available formulations of domestic insecticidal and/or fungicidal products, and industrial pesticide products. Natural adjuvants will be those deriving from plant, fruit and vegetable residues such as pine bark and grape seeds and from medicinal plant extracts. The inclusion of these adjuvants will enable the percentage of customarily-used biocide to be reduced in formulations so as to thus obtain pest-control substances of a more environmentally-friendly nature. The two areas of application will be against urban pest insects and for wood preservation against xylophagous insects and fungi. </p>
+<p style="text-align: justify; line-height: 120%; margin: 6pt 0cm 0pt;">&nbsp;</p>
+<p style="text-align: justify;">The main objective of this project involves studying the synergism between antioxidant bioactive molecules of different types and synthetic biocides included within the new European Biocide Directive 98/8/CE (BPD), for the development of new pesticide products whose performance features may clearly help to distinguish them from other products available on the market. Using this strategy, the aim is for the resulting anti-pest product to be competitive both economically and effectively with regard to those existing on the market whose biocidal characteristics are unquestionable, albeit problematical due to their high level of toxicity.<br />
+<br />
+<br />
+</p>
+<p style="text-align: center;"><img alt="" width="584" height="255" src="/Portals/0/Iconos/Img1_Home.jpg" /></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: center;"><img alt="" width="500" height="340" src="/Portals/0/Iconos/Img2_Home.jpg" /></p>
+</div>
+
+</div><!-- End_Module_381 --></div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+
+              <div align="right">
+                  
+                  
+              </div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+
+
+</div><div><a id="420" name="420"></a>
+
+<div class="art-Block">
+    <div class="art-Block-tl"></div>
+    <div class="art-Block-tr"></div>
+    <div class="art-Block-bl"></div>
+    <div class="art-Block-br"></div>
+    <div class="art-Block-tc"></div>
+    <div class="art-Block-bc"></div>
+    <div class="art-Block-cl"></div>
+    <div class="art-Block-cr"></div>
+    <div class="art-Block-cc"></div>
+    <div class="art-Block-body">
+
+<div class="art-BlockHeader">
+    <div class="l"></div>
+    <div class="r"></div>
+    <div class="art-header-tag-icon">
+        <div class="t"><span id="dnn_ctr420_BlockTitle_lblTitle" class="Head">Funding</span>
+
+
+</div>
+    </div>
+</div>
+          <div align="right">
+          
+                  
+                  
+              </div>
+<div class="art-BlockContent">
+    <div class="art-BlockContent-tl"></div>
+    <div class="art-BlockContent-tr"></div>
+    <div class="art-BlockContent-bl"></div>
+    <div class="art-BlockContent-br"></div>
+    <div class="art-BlockContent-tc"></div>
+    <div class="art-BlockContent-bc"></div>
+    <div class="art-BlockContent-cl"></div>
+    <div class="art-BlockContent-cr"></div>
+    <div class="art-BlockContent-cc"></div>
+    <div class="art-BlockContent-body">
+
+<div id="dnn_ctr420_ContentPane"><!-- Start_Module_420 --><div id="dnn_ctr420_ModuleContent" class="ModDNNHTMLC">
+	<div id="dnn_ctr420_HtmlModule_lblContent" class="Normal">
+	<div style="text-align: center;"><img alt="" width="156" height="52" src="/Portals/0/Iconos/Logo_Rea.jpg" /><br />
+<div style="text-align: left;">
+<p style="text-align: justify;">The research leading to these results has received funding from the European Union`s Seventh Framework Programme managed by REA-Research Executive Agency.</p>
+<p style="text-align: justify;"><a href="http://ec.europa.eu/research/rea">http://ec.europa.eu/research/rea</a> (FP7/2007-2013) under grant agreement n&ordm; [262402]</p>
+</div>
+</div>
+</div>
+
+</div><!-- End_Module_420 --></div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+
+              <div align="right">
+                  
+                  
+              </div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+
+
+</div></div>
+
+<table class="position" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr valign="top">
+          <td id="dnn_User3" width="50%" class="DNNEmptyPane"></td>
+
+          <td id="dnn_User4" class="DNNEmptyPane"></td>
+
+        </tr>
+      </table>
+
+</div>
+
+</div>
+<div class="cleared"></div>
+<table class="position" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr valign="top">
+          <td id="dnn_Bottom1" width="33%" class="DNNEmptyPane"></td>
+
+          <td id="dnn_Bottom2" width="33%" class="DNNEmptyPane"></td>
+
+          <td id="dnn_Bottom3" class="DNNEmptyPane"></td>
+
+        </tr>
+      </table>
+      <div class="art-Footer">
+    <div class="art-Footer-inner">
+        <div class="art-Footer-text">
+<p><a id="dnn_dnnTerms_hypTerms" class="SkinObject" rel="nofollow" href="http://bimosyn.eu/terms.aspx">Terms Of Use</a>
+    | <a id="dnn_dnnPrivacy_hypPrivacy" class="SkinObject" rel="nofollow" href="http://bimosyn.eu/privacy.aspx">Privacy Statement</a><br />
+    <span id="dnn_dnnCopyright_lblCopyright" class="SkinObject">Copyright 2010 by Bimosyn</span>
+</p>
+
+        </div>
+    </div>
+    <div class="art-Footer-background"></div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+<div class="cleared"></div>
+</div>
+
+
+
+
+
+
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" />
+        
+    
+<script type="text/javascript" src="/Resources/Shared/scripts/initWidgets.js" ></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+</body>
+</html>

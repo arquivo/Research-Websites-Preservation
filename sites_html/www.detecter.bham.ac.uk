@@ -1,0 +1,395 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	
+	
+
+
+
+
+
+
+	<!-- $Header: /data/repos/CWT/LCMS/template\040development/templates33CSS/LIVE/standard/template_landing.jsp,v 1.3 2009/08/04 13:10:32 winterjp Exp $ -->
+	<meta name="keywords" content="" />
+	<meta name="author" content="University of Birmingham" />
+	<meta name="description" content="" />
+	<meta name="language" content="en" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<title>DETECTER Home</title>
+
+	<!-- RSS Elements - begin -->
+
+
+
+
+	<!-- RSS Elements - end  -->
+	
+	<!-- revised style elements -->
+	
+		<link href="shared/shared_rootsite/UniversityComponents/css/standard/standard33.css" rel="stylesheet" type="text/css" />
+		<link href="shared/shared_rootsite/UniversityComponents/css/standard/standard33_social.css" rel="stylesheet" type="text/css" />
+		<link href="shared/shared_rootsite/UniversityComponents/css/standard/standard33_rss.css" rel="stylesheet" type="text/css" />
+		<link href="shared/shared_rootsite/UniversityComponents/css/standard/standard33_sctcssnav.css" rel="stylesheet" type="text/css" />
+		<!--[if lte IE 6]>
+    		<link href="shared/shared_rootsite/UniversityComponents/css/standard/standard33_IE6.css" rel="stylesheet" type="text/css" />
+		<![endif]-->
+		<link href="shared/shared_rootsite/UniversityComponents/css/standard/standard33_news_listing.css" rel="stylesheet" type="text/css" />
+		<link href="shared/shared_rootsite/UniversityComponents/css/standard/standard33_print.css" rel="stylesheet" type="text/css" media="print"/>
+	
+		
+	
+	<!-- colour swatch -->
+	<style type="text/css">
+		<!--
+
+/* $Header: /data/repos/CWT/LCMS/template\040development/components/colours/brickRed.xhtml,v 1.6 2009/07/22 13:53:43 nixonm Exp $ */
+
+.middlecolumn a:link, .middlecolumnwide a:link, .lpmiddlecolumn a:link, .lpmiddlecolumnwide a:link,
+.middlecolumn ul li a:link, .middlecolumnwide ul li a:link, .lpmiddlecolumn ul li a:link, .lpmiddlecolumnwide ul li a:link,
+.middlecolumn a:visited, .middlecolumnwide a:visited, .lpmiddlecolumn a:visited, .lpmiddlecolumnwide a:visited, 
+.middlecolumn ul li a:visited, .middlecolumnwide ul li a:visited, .lpmiddlecolumn ul li a:visited, .lpmiddlecolumnwide ul li a:visited{
+	color: #7C1324;
+}
+
+.middlecolumn ul li, .middlecolumnwide ul li,
+.lpmiddlecolumn ul li, .lpmiddlecolumnwide ul li {
+	background-image: url('shared/shared_rootsite/UniversityImages/template/bullet-points/7C1324bullet.gif');
+}
+
+.lpimglinktxt {
+	background-color: #7C1324;
+}
+
+.newsdetailmiddlecolumntext ul li, .eventsmiddlecolumntext ul li {
+	background-image: url('shared/shared_rootsite/UniversityImages/template/bullet-points/7C1324bullet.gif');
+}
+
+.newsandeventstitle, .newsandeventstitle a, .newseventstitle, newseventstitle a, .newsmiddlecolumntop, .newsdetailmiddlecolumntext * a, .eventsmiddlecolumntext * a {
+	color: #7C1324;
+}
+
+.newsdetailmiddlecolumntext ul li, .eventsmiddlecolumntext ul li {
+	background-image: url('shared/shared_rootsite/UniversityImages/template/bullet-points/7C1324bullet.gif');
+}
+
+.portalLogin {
+	background-color: #F4E7E8;
+}
+
+.lprightcolumntxt a {
+	color: #7C1324;
+}
+
+.contentrssitemtitle, .rss_divitemtitle a{
+	color: #7C1324;
+}
+-->
+	</style>
+	
+	<!-- Check for Flash Banner -->
+	
+
+				
+
+
+
+
+
+
+
+	
+				
+</head>
+<body >
+
+
+
+
+
+
+
+
+	<a name="top" />
+	<div class="header">
+	
+	<!--
+	JPW 2006-06-15
+	This next section gives users the chance to configure their page between 2/3 columns.
+	-->
+	
+	
+	
+ 	<a href="wsdindex.html#content" title="Skip" class="skiplink" accesskey="S">Skip logo, search and navigation. Go to the Content</a>
+	<div class="wordmarque"><a href="http://www.bham.ac.uk/" accesskey="1" title="Go to University of Birmingham Homepage"><img src="shared/shared_rootsite/UniversityImages/template/University-of-Birmingham-logo.gif" alt="University of Birmingham" width="141" height="34" /></a></div>	
+	<div class="currentareaandbreadcrumb">
+		<div class="currentareaandsearch">
+	    	<div class="currentarea"><h1><img alt="Detecter" src="shared/shared_rootsite/UniversityImages/CurrentAreaImages/detecter-title.gif" /><!-- sct_document -->
+</h1></div>
+<!-- uni supplied searchboxandbtn information -->
+	<div class="searchboxandbtn">
+    <form action="http://www.search.bham.ac.uk/search" method="get">
+<input name="site" type="hidden" value="default_collection" /><input name="client" type="hidden" value="default_frontend" /><input name="output" type="hidden" value="xml_no_dtd" /><input name="proxystylesheet" type="hidden" value="default_frontend" /><input name="proxycustom" type="hidden" value="3CHOME/%3E" />
+        <div class="search"><label for="q" class="skiplink">Search</label> <input name="q" value="Search" onfocus="if(this.value=='Search') {this.value='';}" id="q" onblur="if(this.value=='') {this.value='Search';}" /></div>
+        <div class="searchbtn"><input accesskey="4" type="image" alt="Do the search" src="shared/shared_rootsite/UniversityImages/template/search-btn.gif" /></div>
+    </form>
+</div>
+
+<!-- end uni supplied searchboxandbtn information -->
+		</div>  
+		<div class="clear"></div>
+
+
+
+		
+ 		<div class="breadcrumb"><!-- site supplied breadcrumb information -->
+	<!-- sct_document --><a href="http://www.bham.ac.uk/schools.shtml">Schools and Departments</a>&nbsp;&raquo;&nbsp;&nbsp;<a href="wsdindex.html">Detecter</a>&nbsp;&raquo;&nbsp;&nbsp;
+
+<!-- end site supplied breadcrumb information -->
+		<!-- Begin topBreadcrumb Breadcrumb --> <div id="sct_bc_div_topBreadcrumb"> 
+
+
+
+
+
+
+
+
+<ul id='topBreadcrumb' class='cssbreadcrumb'><li class='topBreadcrumb_selected' ><a class='topBreadcrumb_selected'  href='index.shtml'  >DETECTER homepage </a></li></ul>
+ 
+</div><!-- End topBreadcrumb Breadcrumb --> 
+
+ 	</div>
+
+
+
+
+	</div>  
+</div>
+
+
+
+
+
+
+
+
+<div class="clear"></div>
+
+<div class="lpthreecolumns">  
+
+
+
+
+
+
+
+
+
+	<div class="leftcolumn">
+		<h2 class="offscreen">Navigation Section</h2>
+<!-- uni supplied fastfindandbutton information -->
+	<div class="fastfindandbutton">
+<a name="subnav" class="skiplink" id="subnav"></a> <a href="wsdindex.html#content" class="skiplink">Skip fast find section and go to the main content</a>
+    <form name="fastfindmenu" action="http://www.template.bham.ac.uk/fast_find_bounce.jsp" method="post">
+<span class="invisible"><label for="fastfind">Fast find</label></span> <select name="fastfind" onchange="if(this.selectedIndex &gt; 0){this.form.submit()}" class="fastfind" id="fastfind"> <option value=""> &nbsp;&nbsp;Fast find </option> <option value="http://www.bham.ac.uk/schools.shtml"> &nbsp;&nbsp;Schools and departments </option> <option value="http://www.location.bham.ac.uk"> &nbsp;&nbsp;Maps and directions </option> <option value="http://www.studyhere.bham.ac.uk/courses/"> &nbsp;&nbsp;Courses </option> <option value="http://www.staff.bham.ac.uk/jobs/jobs.shtml"> &nbsp;&nbsp;Job opportunities </option> <option value="http://www.staff.bham.ac.uk/supportresources/corporateoffices.shtml"> &nbsp;&nbsp;Corporate services </option> <option value="http://www.bham.ac.uk/about/siteindex.shtml"> &nbsp;&nbsp;Site index </option> <option value="http://www.emaildirectory.bham.ac.uk"> &nbsp;&nbsp;Email directory </option> <option value="http://www.phonedirectory.bham.ac.uk"> &nbsp;&nbsp;Telephone directory </option> <option value="http://www.shop.bham.ac.uk"> &nbsp;&nbsp;Online Shop </option> </select>
+        <noscript><br /> <input name="go" type="submit" value="Go" /></noscript>
+    </form>
+</div>
+
+<!-- end uni supplied fastfindandbutton information -->
+	
+<!--Local LH Navigation-->
+	
+<div id="nonhpleftmenu">
+
+	
+
+
+
+
+
+
+
+<ul id='leftMenu' class='menulevel1'><li class='navListPrimary_selected' ><a class='navListPrimary_selected'  href='index.shtml'  >DETECTER homepage </a></li><li class='navListPrimary' ><a class='navListPrimary'  href='about.shtml'  >About DETECTER </a></li><li class='navListPrimary' ><a class='navListPrimary'  href='blog.shtml'  >DETECTER blog</a></li><li class='navListPrimary' ><a class='navListPrimary'  href='events.shtml'  >Events</a></li><li class='navListPrimary' ><a class='navListPrimary'  href='partners.shtml'  >Partners</a></li><li class='navListPrimary' ><a class='navListPrimary'  href='advisory.shtml'  >Advisory board</a></li><li class='navListPrimary' ><a class='navListPrimary'  href='research.shtml'  >Research themes</a></li><li class='navListPrimary' ><a class='navListPrimary'  href='documents.shtml'  >Public documents</a></li><li class='navListPrimary' ><a class='navListPrimary'  href='https://www.intranet.bham.ac.uk/detecter'  >Secure area </a></li><li class='navListPrimary' ><a class='navListPrimary'  href='contact.shtml'  >Contact</a></li><li class='navListPrimary' ><a class='navListPrimary'  href='links.shtml'  >Links</a></li></ul>
+ 
+ 	
+
+</div>
+	
+ </div>
+<!-- Local LH Navigation End -->
+
+
+
+
+
+
+
+
+<!-- Main Content Area -->
+<!-- swapped out for landing page <div class="middleandrightcolumnsforpage">-->
+<div class="middleandrightcolumns">
+
+<div class="bigimagecaption">
+
+	
+
+	
+	<!-- Check for Flash Version -->
+
+		<img src="images/detecter-banner.gif" width="569" title="Detecter banner" alt="Detecter banner" />
+
+
+</div>
+
+
+<!-- swapped out for landing page <div class="middlecolumnwide">-->
+<div class="lpmiddlecolumnwide">
+
+
+<!-- swapped out for landing page <div class="middlecolumnintro"> -->
+<div class="lpmiddlecolumnintro">
+	<a name="content" class="skiplink"></a>
+	
+	
+	
+	<h2 class="offscreen">Content Section</h2>
+	
+	<p><!-- not for landing <strong> --><a target="_blank" href="http://feeds.feedburner.com/~r/Detecter/~6/1" style=";"><img width="380" src="http://feeds.feedburner.com/Detecter.1.gif" alt="DETECTER" style="border:0;" /></a>
+
+				<!-- not for landing </strong> --></p>
+</div>
+<hr class="clear" />
+
+
+	
+		<div class="lpmiddlecolumntextwide">
+	
+<!--<div class="middlecolumntext">-->
+
+
+				
+
+
+
+<!-- News / Events Feeds -->
+
+
+
+
+
+				<blockquote style=";">
+    <p style='margin-right:0cm; margin-left:0cm; font-size:12pt; font-family:"Times New Roman", "serif"; '><strong style=";"><span style="text-decoration:underline;"><span style="font-size:16.0pt;">The DETECTER Project</span></span></strong></p>
+    <p style=";"></p>
+    <p style=";"></p>
+    <p style='margin-right:0cm; margin-left:0cm; font-size:12pt; font-family:"Times New Roman", "serif"; '><span style="font-size:16.0pt;">DETECTER (Detection Technologies, Counter-Terrorism Ethics, and Human Rights) is a three-year Collaborative Research Project under the European Union Framework 7 Security programme to co-ordinate and contribute work on detection technologies, counter-terrorism, ethics and human rights.&nbsp;</span></p>
+    <p style='margin-right:0cm; margin-left:0cm; font-size:16pt; font-family:"Times New Roman", "serif"; '>The DETECTER website is currently being revamped.&nbsp; There may be some disruption while content is imported to the new location.&nbsp; If you cannot find the DETECTER content you are looking for please email us at <a href="mailto:detecter@contacts.bham.ac.uk" style="color:blue; text-decoration:underline; ">detecter@contacts.bham.ac.uk</a>.</p>
+    <p style=";"></p>
+    <p style=";"><span style='font-size:16.0pt;line-height:115%;font-family:"Times New Roman","sans-serif";'>To find out more about DETECTER, <a href="about.shtml" style=";"><strong style=";"><span style='font-family:"Times New Roman","sans-serif";color:blue;'>click here</span></strong></a>, or go&nbsp;to the <a href="http://detecterfp7.blogspot.com/" style=";"><strong style=";"><span style='font-family:"Times New Roman","sans-serif";color:blue;'>DETECTER blog</span></strong></a></span></p>
+    <p style=";"></p>
+    <hr style=";" />
+    <p style='margin-right:0cm; margin-left:0cm; font-size:12pt; font-family:"Times New Roman", "serif"; '></p>
+    <p style='margin-right:0cm; margin-left:0cm; font-size:12pt; font-family:"Times New Roman", "serif"; '><span style="font-size:16.0pt;">For DETECTER Latest News click <a href="DetecterNews.shtml" style="color:blue; text-decoration:underline; ">here</a></span></p>
+    <p style=";"></p>
+    <hr style=";" />
+    <p style=";"><span style='font-size:16.0pt;line-height:115%; font-family:"Times New Roman","sans-serif";'>For more information on the DETECTER project, the partners, advisory group, research themes or any other information, please contact us at <a href="mailto:detecter@contacts.bham.ac.uk" style="color:blue; text-decoration:underline; ">detecter@contacts.bham.ac.uk</a>&nbsp; or on 0121 414 8442.</span></p>
+</blockquote>
+
+</div>
+</div>
+<!-- end Main Content Area -->
+   
+<!-- links and docs area on rhs -->
+
+
+</div>
+</div>
+<div class="clear"></div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- added to aid validation 2008-02-27 -->
+</div>
+<div class="clear"></div>
+
+
+
+
+
+
+
+<!-- footer -->
+<div class="footer">
+<h2 class="offscreen">Footer Section</h2>
+<!--<span class="invisible"><a name="footer"></a></span>-->
+
+<!-- site supplied footer information -->
+	<!-- sct_document -->
+University of Birmingham, Edgbaston, Birmingham, B15 2TT, UK<br /><strong>Tel:</strong> +44 (0)121 414 3344
+<!-- end site supplied footer information -->
+<!-- uni supplied footer information -->
+	<div class="footeretc">
+    <hr class="footerhorizontalseparator" />
+<a href="http://www.bham.ac.uk/legal.shtml" accesskey="8" title="University of Birmingham Legal Guidelines">Legal</a><span class="footerverticalseparator"><img height="8" width="1" alt="" src="shared/shared_rootsite/UniversityImages/template/footer-vertical-separator.gif" /></span><span class="invisible">|</span><a href="http://www.bham.ac.uk/legal.shtml#privacy" title="University of Birmingham Privacy Statement">Privacy</a><span class="footerverticalseparator"><img height="8" width="1" alt="" src="shared/shared_rootsite/UniversityImages/template/footer-vertical-separator.gif" /></span><span class="invisible">|</span><a href="http://www.webteam.bham.ac.uk/accessibility/" accesskey="0" title="University of Birmingham Website Accessibility">Accessibility</a><span class="footerverticalseparator"><img height="8" width="1" alt="" src="shared/shared_rootsite/UniversityImages/template/footer-vertical-separator.gif" /></span><span class="invisible">|</span><a href="http://www.about.bham.ac.uk/contact.shtml" title="University of Birmingham Contact Details">University contacts</a><br />
+    <hr class="footerhorizontalseparator" />
+</div>
+
+<!-- end uni supplied footer information -->
+<!--
+Last edited: 01/06/2010 13:44:22
+Expiration Date: nulldate
+Version: 1.107,CURRENT,WIP,Staging,Approved,Active
+-->
+
+<span class="invisible">Sunday, 29-Aug-2010 12:39:22 BST</span>
+
+<br />
+
+</div>
+<!-- end footer -->
+
+
+
+
+
+
+
+
+
+
+ </body>
+</html>
+
+
+

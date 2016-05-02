@@ -1,0 +1,355 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><title>
+	EUMAGINE :
+</title><link href="css/eumagine.css" media="screen" rel="Stylesheet" /><link href="css/menu.css" media="screen" rel="Stylesheet" />
+    <script type="text/javascript" src="../js/jquery-1.4.1.min.js" ></script>
+    <script type="text/javascript" src="../js/eumagine.js" ></script>
+    <script type="text/javascript" src="../js/analytics.js"></script>
+    
+    <script type="text/javascript" src="js/PeopleSlide.js" ></script>
+</head>
+<body>
+    
+    <form method="post" action="" id="form1">
+<input type="hidden" name="ToolkitScriptManager2_HiddenField" id="ToolkitScriptManager2_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE5MTgzMDk4MDMPZBYCZg9kFgICAw9kFgQCBQ9kFgJmDzwrAA0CAA8WAh4LXyFEYXRhQm91bmRnZAwUKwAOBTYwOjAsMDoxLDA6MiwwOjMsMDo0LDA6NSwwOjYsMDo3LDA6OCwwOjksMDoxMCwwOjExLDA6MTIUKwACFhAeBFRleHQFBEhvbWUeBVZhbHVlBQRIb21lHgtOYXZpZ2F0ZVVybAUNL2RlZmF1bHQuYXNweB4HVG9vbFRpcAUfYmFjayB0byB0aGUgZXVtYWdpbmUgZnJvbnQgcGFnZR4HRW5hYmxlZGceClNlbGVjdGFibGVnHghEYXRhUGF0aAUNL2RlZmF1bHQuYXNweB4JRGF0YUJvdW5kZ2QUKwACFg4fAQURQWJvdXQgdGhlIHByb2plY3QfAgURQWJvdXQgdGhlIHByb2plY3QfAwUaL3BhZ2VzL2V1bWFnaW5lX2Fib3V0LmFzcHgfBWcfBmcfBwUaL3BhZ2VzL2V1bWFnaW5lX2Fib3V0LmFzcHgfCGdkFCsAAhYOHwEFCk5ld3NsZXR0ZXIfAgUKTmV3c2xldHRlch8DBScvcGFnZXMvZXVtYWdpbmVfbmV3c2xldHRlcl9kaXNwbGF5LmFzcHgfBWcfBmcfBwUnL3BhZ2VzL2V1bWFnaW5lX25ld3NsZXR0ZXJfZGlzcGxheS5hc3B4HwhnZBQrAAIWEB8BBQhQYXJ0bmVycx8CBQhQYXJ0bmVycx8DBSIvcGFnZXMvZXVtYWdpbmVfcGFydG5lcnNfbGlzdC5hc3B4HwQFDVBhcnRuZXJzIGxpc3QfBWcfBmcfBwUiL3BhZ2VzL2V1bWFnaW5lX3BhcnRuZXJzX2xpc3QuYXNweB8IZ2QUKwACFhAfAQUGUGVvcGxlHwIFBlBlb3BsZR8DBSAvcGFnZXMvZXVtYWdpbmVfcGVvcGxlX2xpc3QuYXNweB8EBQtQZW9wbGUgTGlzdB8FZx8GZx8HBSAvcGFnZXMvZXVtYWdpbmVfcGVvcGxlX2xpc3QuYXNweB8IZ2QUKwACFhAfAQUJQ291bnRyaWVzHwIFCUNvdW50cmllcx8DBQIvIx8EBQlDb3VudHJpZXMfBWcfBmcfBwUCLyMfCGdkFCsAAhYQHwEFB01vcm9jY28fAgUHTW9yb2Njbx8DBSovcGFnZXMvZXVtYWdpbmVfY291bnRyeV9kZXRhaWxzLmFzcHg/Y2lkPTEfBAUHTW9yb2Njbx8FZx8GZx8HBSovcGFnZXMvZXVtYWdpbmVfY291bnRyeV9kZXRhaWxzLmFzcHg/Y2lkPTEfCGdkFCsAAhYQHwEFB1NlbmVnYWwfAgUHU2VuZWdhbB8DBSovcGFnZXMvZXVtYWdpbmVfY291bnRyeV9kZXRhaWxzLmFzcHg/Y2lkPTIfBAUHU2VuZWdhbB8FZx8GZx8HBSovcGFnZXMvZXVtYWdpbmVfY291bnRyeV9kZXRhaWxzLmFzcHg/Y2lkPTIfCGdkFCsAAhYQHwEFBlR1cmtleR8CBQZUdXJrZXkfAwUqL3BhZ2VzL2V1bWFnaW5lX2NvdW50cnlfZGV0YWlscy5hc3B4P2NpZD0zHwQFBlR1cmtleR8FZx8GZx8HBSovcGFnZXMvZXVtYWdpbmVfY291bnRyeV9kZXRhaWxzLmFzcHg/Y2lkPTMfCGdkFCsAAhYQHwEFB1VrcmFpbmUfAgUHVWtyYWluZR8DBSovcGFnZXMvZXVtYWdpbmVfY291bnRyeV9kZXRhaWxzLmFzcHg/Y2lkPTQfBAUHVWtyYWluZR8FZx8GZx8HBSovcGFnZXMvZXVtYWdpbmVfY291bnRyeV9kZXRhaWxzLmFzcHg/Y2lkPTQfCGdkFCsAAhYQHwEFDVdvcmsgcGFja2FnZXMfAgUNV29yayBwYWNrYWdlcx8DBSUvcGFnZXMvZXVtYWdpbmVfd29ya3BhY2thZ2VfbGlzdC5hc3B4HwQFDXdvcmsgcGFja2FnZXMfBWcfBmcfBwUlL3BhZ2VzL2V1bWFnaW5lX3dvcmtwYWNrYWdlX2xpc3QuYXNweB8IZ2QUKwACFhAfAQUOUHJvamVjdCBwYXBlcnMfAgUOUHJvamVjdCBwYXBlcnMfAwUqL3BhZ2VzL2V1bWFnaW5lX291dHB1dF9saXN0LmFzcHg/dHlwZT10cnVlHwQFDnByb2plY3QgcGFwZXJzHwVnHwZnHwcFKi9wYWdlcy9ldW1hZ2luZV9vdXRwdXRfbGlzdC5hc3B4P3R5cGU9dHJ1ZR8IZ2QUKwACFhAfAQUST3RoZXIgcHVibGljYXRpb25zHwIFEk90aGVyIHB1YmxpY2F0aW9ucx8DBSsvcGFnZXMvZXVtYWdpbmVfb3V0cHV0X2xpc3QuYXNweD90eXBlPWZhbHNlHwQFDG90aGVyIHBhcGVycx8FZx8GZx8HBSsvcGFnZXMvZXVtYWdpbmVfb3V0cHV0X2xpc3QuYXNweD90eXBlPWZhbHNlHwhnZGQCCQ9kFgYCAQ9kFgICAQ9kFgICAw8UKwACDxYEHwBnHgtfIUl0ZW1Db3VudAICZGQWAmYPZBYCAgEPZBYEAgEPZBYCZg8VAwowNC4wNC4yMDEyNS9uZXdzbGV0dGVyL0VVTUFHSU5FIE5ld3NsZXR0ZXIgMiAtIEZlYnJ1YXJ5IDIwMTIucGRmFUVVTUFHSU5FIE5ld3NsZXR0ZXIgMmQCAw9kFgJmDxUDCjAxLjAyLjIwMTE1L25ld3NsZXR0ZXIvRVVNQUdJTkUgTmV3c2xldHRlciAxIC0gRmVicnVhcnkgMjAxMS5wZGYVRVVNQUdJTkUgTmV3c2xldHRlciAxZAIDD2QWAgIDD2QWBAIBD2QWBAIBDzwrABEDAA8WBB8AZx8JAgVkARAWABYAFgAMFCsAABYCZg9kFg5mDw8WAh4HVmlzaWJsZWhkZAIBD2QWAmYPZBYEAgEPDxYEHwEFJUVVTUFHSU5FIGRhdGEgbm93IHB1YmxpY2x5IGFjY2Vzc2libGUfAwUkL3BhZ2VzL2V1bWFnaW5lX2FjdGl2aXR5LmFzcHg/YWlkPTg5ZGQCAg8VAQsxMiBva3QgMjAxNWQCAg9kFgJmD2QWBAIBDw8WBB8BBR1Sb3VuZCBVcCAgTWVldGluZyBpbiBCcnVzc2Vscx8DBSQvcGFnZXMvZXVtYWdpbmVfYWN0aXZpdHkuYXNweD9haWQ9NDFkZAICDxUBCzIzIGphbiAyMDEzZAIDD2QWAmYPZBYEAgEPDxYEHwEFJVBQIDE0IDogUG9saWN5IHJlY29tbWFuZGF0aW9ucyAoV1AxMCkfAwUkL3BhZ2VzL2V1bWFnaW5lX2FjdGl2aXR5LmFzcHg/YWlkPTQyZGQCAg8VAQszMCBub3YgMjAxMmQCBA9kFgJmD2QWBAIBDw8WBB8BBRRQb2xpY3kgQnJpZWZzIChXUDExKR8DBSQvcGFnZXMvZXVtYWdpbmVfYWN0aXZpdHkuYXNweD9haWQ9ODhkZAICDxUBCzMwIG5vdiAyMDEyZAIFD2QWAmYPZBYEAgEPDxYEHwEFIjV0aCBDb25zb3J0aXVtIG1lZXRpbmcgaW4gQW50d2VycCAfAwUkL3BhZ2VzL2V1bWFnaW5lX2FjdGl2aXR5LmFzcHg/YWlkPTgwZGQCAg8VAQswOSBub3YgMjAxMmQCBg8PFgIfCmhkZAIDDw9kDxAWAWYWARYCHg5QYXJhbWV0ZXJWYWx1ZWQWAQIDZGQCAw9kFgQCAQ88KwARAwAPFgQfAGcfCWZkARAWABYAFgAMFCsAAGQCAw8PZA8QFgFmFgEWAh8LZBYBAgNkZAIFD2QWAgIBDzwrABECARAWABYAFgAMFCsAAGQYBQUhY3RsMDAkbWFpbl9wYW5lbCRSZWNlbnRBY3Rpdml0aWVzDzwrAAwBCAIBZAUfY3RsMDAkbWFpbl9wYW5lbCRBY3Rpdml0aWVzTGlzdA9nZAUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgIFHWN0bDAwJG1lbnUkTG9naW5TdGF0dXMxJGN0bDAxBR1jdGwwMCRtZW51JExvZ2luU3RhdHVzMSRjdGwwMwUjY3RsMDAkbWFpbl9wYW5lbCRVcGNvbWluZ0FjdGl2aXRpZXMPPCsADAEIZmQFMmN0bDAwJG1haW5fcGFuZWwkTmV3c2xldHRlclN1YnNjcmlwdGlvbjEkTGlzdFZpZXcxDxQrAA5kZGRkZGRkFCsAAmRkAgJkZGRmAv////8PZNGc5iYMQPtUcr1ksrhk1zyFyBnRmlQaiE3LJpfv+a1+" />
+
+
+<script src="/WebResource.axd?d=0tkoIDsgnxToaQvkFUGIA86amS64SzixyRPEkJ-POJyBfgmccL-jb3nhEi5SZ5ym1FF_BQVt0vpdkYQdUFvFO9IeTVOuMZqLUhG-LrKCH801&amp;t=635370214285126825" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"nb-NO","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":" ","CurrencySymbol":"kr","NaNSymbol":"NaN","CurrencyNegativePattern":12,"NumberNegativePattern":1,"PercentPositivePattern":0,"PercentNegativePattern":0,"NegativeInfinitySymbol":"-INF","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":" ","CurrencyPositivePattern":2,"PositiveInfinitySymbol":"INF","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":" ","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402297199999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":true},"DateSeparator":".","FirstDayOfWeek":1,"CalendarWeekRule":2,"FullDateTimePattern":"d. MMMM yyyy HH:mm:ss","LongDatePattern":"d. MMMM yyyy","LongTimePattern":"HH:mm:ss","MonthDayPattern":"d. MMMM","PMDesignator":"","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd.MM.yyyy","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["søn","man","tir","ons","tor","fre","lør"],"ShortestDayNames":["sø","ma","ti","on","to","fr","lø"],"DayNames":["søndag","mandag","tirsdag","onsdag","torsdag","fredag","lørdag"],"AbbreviatedMonthNames":["jan","feb","mar","apr","mai","jun","jul","aug","sep","okt","nov","des",""],"MonthNames":["januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember",""],"IsReadOnly":true,"NativeCalendarName":"Gregoriansk kalender","AbbreviatedMonthGenitiveNames":["jan","feb","mar","apr","mai","jun","jul","aug","sep","okt","nov","des",""],"MonthGenitiveNames":["januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember",""]},"eras":[1,"e.Kr.",null,0]};//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=xIQ9_Pb7QoDpq7Q6beXAIS-o5c8fiDdz_zkG8L8U3Z0KmzyuGrE-vxqoGWS5Ks7OYmyNWgTbTVCLodBVHkay8TbmNM9JUTSycOUUWHkBS04z-DynVNqK3YcMBb7BkwFj0&amp;t=3f0ccc7f" type="text/javascript"></script>
+<script src="/default.aspx?_TSM_HiddenField_=ToolkitScriptManager2_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.50927.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a4a126967-c4d4-4d5c-8f94-b4e3e72d7549%3a475a4ef5%3aeffe2a26%3a7e63a579" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAfFubDUxzDgIq9moamLtM0dWFG4SOGaCFu+w9Zkmg48JndYD7NmMpDwEt4DNv+dutIJnMVA4WpesTHmogGJwqRtJOkUr6XXhAEvp4xoQ2wwDGbJKiNEuN4Tie3OaCqrx8BprWHAicItFJZLePdIPuVxsJIIZ6x/SFD6PufkwGdlIjv4nN8HwpQwvxOOdqCo31g=" />
+    
+    <div id="body">
+        <div id="top">
+            <img src="../images/eumagine_banner_top.jpg" />
+            
+
+        </div>
+        <div id="main">
+        
+            
+            <div id="left">
+                <a href="#menu_Menu_SkipLink"><img alt="Skip Navigation Links" src="/WebResource.axd?d=ru6sakK3UFFEPp5RF_H57CoaBrc5XKR3tadGKAth59Uj0glqrVVedp2ddUs7pDwnP6uFUNrqSluvfcp-dlRGolXwkKvsGbPuLTAT1mBoA8Y1&amp;t=635370214285126825" width="0" height="0" border="0" /></a><table id="menu_Menu" class="left_menu" cellpadding="0" cellspacing="0" border="0">
+	<tr onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" title="back to the eumagine front page" id="menu_Menun0">
+		<td><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td width="100%"><a href="/default.aspx">Home</a></td>
+			</tr>
+		</table></td>
+	</tr><tr onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="menu_Menun1">
+		<td><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td width="100%"><a href="/pages/eumagine_about.aspx">About the project</a></td>
+			</tr>
+		</table></td>
+	</tr><tr onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="menu_Menun2">
+		<td><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td width="100%"><a href="/pages/eumagine_newsletter_display.aspx">Newsletter</a></td>
+			</tr>
+		</table></td>
+	</tr><tr onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" title="Partners list" id="menu_Menun3">
+		<td><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td width="100%"><a href="/pages/eumagine_partners_list.aspx">Partners</a></td>
+			</tr>
+		</table></td>
+	</tr><tr onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" title="People List" id="menu_Menun4">
+		<td><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td width="100%"><a href="/pages/eumagine_people_list.aspx">People</a></td>
+			</tr>
+		</table></td>
+	</tr><tr onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" title="Countries" id="menu_Menun5">
+		<td><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td width="100%"><a href="/#">Countries</a></td>
+			</tr>
+		</table></td>
+	</tr><tr onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" title="Morocco" id="menu_Menun6">
+		<td><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td width="100%"><a href="/pages/eumagine_country_details.aspx?cid=1">Morocco</a></td>
+			</tr>
+		</table></td>
+	</tr><tr onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" title="Senegal" id="menu_Menun7">
+		<td><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td width="100%"><a href="/pages/eumagine_country_details.aspx?cid=2">Senegal</a></td>
+			</tr>
+		</table></td>
+	</tr><tr onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" title="Turkey" id="menu_Menun8">
+		<td><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td width="100%"><a href="/pages/eumagine_country_details.aspx?cid=3">Turkey</a></td>
+			</tr>
+		</table></td>
+	</tr><tr onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" title="Ukraine" id="menu_Menun9">
+		<td><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td width="100%"><a href="/pages/eumagine_country_details.aspx?cid=4">Ukraine</a></td>
+			</tr>
+		</table></td>
+	</tr><tr onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" title="work packages" id="menu_Menun10">
+		<td><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td width="100%"><a href="/pages/eumagine_workpackage_list.aspx">Work packages</a></td>
+			</tr>
+		</table></td>
+	</tr><tr onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" title="project papers" id="menu_Menun11">
+		<td><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td width="100%"><a href="/pages/eumagine_output_list.aspx?type=true">Project papers</a></td>
+			</tr>
+		</table></td>
+	</tr><tr onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" title="other papers" id="menu_Menun12">
+		<td><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td width="100%"><a href="/pages/eumagine_output_list.aspx?type=false">Other publications</a></td>
+			</tr>
+		</table></td>
+	</tr>
+</table><a id="menu_Menu_SkipLink"></a>
+
+<div id="menu_LoginPanel" class="left_menu">
+	
+    <a id="menu_LoginStatus1" href="javascript:__doPostBack(&#39;ctl00$menu$LoginStatus1$ctl02&#39;,&#39;&#39;)">Login</a>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+       
+                
+
+            </div>
+            
+            <div id="right">
+                
+
+
+    <div id="main_panel_header">
+	
+        <div id="introduction">The EUMAGINE project involves more than thirty researchers in seven countries who work to understand how people in Morocco, Senegal, Turkey and Ukraine relate to the possibility of migration. We specifically explore how perceptions of human rights and democracy affect migration aspirations.</div>
+
+        <div id="illustration">
+            <img src="images/illustrations/frontpage-illustration.jpg"  width="250px"/>
+        </div>
+
+        <div id="newslettersBox">
+            
+
+<div id="newslettersBox" style="width:100%">
+    <div id="main_panel_NewsletterSubscription1_Panel5" class="heading">
+		
+        <span>Newsletter</span>
+    
+	</div><br />
+
+
+
+        <ul id="main_panel_NewsletterSubscription1_ListView1_itemPlaceholderContainer" style="font-family: Verdana, Arial, Helvetica, sans-serif;">
+            
+        <li >
+            <em class="italic-date">04.04.2012</em>                        
+            <a href='/newsletter/EUMAGINE Newsletter 2 - February 2012.pdf' >EUMAGINE Newsletter 2</a>                        
+        </li>
+    <hr />
+        <li >
+            <em class="italic-date">01.02.2011</em>                        
+            <a href='/newsletter/EUMAGINE Newsletter 1 - February 2011.pdf' >EUMAGINE Newsletter 1</a>                        
+        </li>
+    
+        </ul>
+        <div style="text-align: center;background-color: #5D7B9D;font-family: Verdana, Arial, Helvetica, sans-serif;color: #FFFFFF;">
+        </div>
+    
+
+<hr />
+<div style="font-size: 13px;">If you wish to receive the upcoming EUMAGINE newsletters, please insert your email address here.</div>
+<input name="ctl00$main_panel$NewsletterSubscription1$TextBox1" type="text" id="main_panel_NewsletterSubscription1_TextBox1" />
+    
+<input type="submit" name="ctl00$main_panel$NewsletterSubscription1$Button1" value="Subscribe" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$main_panel$NewsletterSubscription1$Button1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="main_panel_NewsletterSubscription1_Button1" /> 
+
+
+<input type="hidden" name="ctl00$main_panel$NewsletterSubscription1$TextBox1_TextBoxWatermarkExtender_ClientState" id="main_panel_NewsletterSubscription1_TextBox1_TextBoxWatermarkExtender_ClientState" />
+
+&nbsp;
+</div>
+
+
+
+
+
+        
+        </div>
+            
+
+          
+        
+           
+        
+        <br class="clear" />
+    
+</div>
+    
+    <hr />
+    <div>General enquiries about the project should be directed to project manager Roos Willems at the University of Antwerp (<a href="maito:Roos.Willems@ua.ac.be">Roos.Willems@ua.ac.be</a>). </div>
+
+
+    <div id="main_panel_timeLineWrapper">
+	
+        <div id="main_panel_Panel1" class="ActivityHeading">
+		
+            <span>Project timeline</span>
+        
+	</div>
+        
+        <div id="main_panel_Panel2" class="activitiesWrapper">
+		
+            <div id="main_panel_Panel3" class="activityPanel morePanel">
+			
+                <div class="ActivitiySubHeading"><h2>Recent activities</h2></div>
+                <div>
+				<table cellspacing="0" cellpadding="0" id="main_panel_RecentActivities" width="100%">
+					<tr bgcolor="#F7F6F3">
+						<td><font color="#333333">
+                                <h3><a href="/pages/eumagine_activity.aspx?aid=89">EUMAGINE data now publicly accessible</a></h3>
+                                12 okt 2015
+                            </font></td>
+					</tr><tr bgcolor="White">
+						<td><font color="#284775">
+                                <h3><a href="/pages/eumagine_activity.aspx?aid=41">Round Up  Meeting in Brussels</a></h3>
+                                23 jan 2013
+                            </font></td>
+					</tr><tr bgcolor="#F7F6F3">
+						<td><font color="#333333">
+                                <h3><a href="/pages/eumagine_activity.aspx?aid=42">PP 14 : Policy recommandations (WP10)</a></h3>
+                                30 nov 2012
+                            </font></td>
+					</tr><tr bgcolor="White">
+						<td><font color="#284775">
+                                <h3><a href="/pages/eumagine_activity.aspx?aid=88">Policy Briefs (WP11)</a></h3>
+                                30 nov 2012
+                            </font></td>
+					</tr><tr bgcolor="#F7F6F3">
+						<td><font color="#333333">
+                                <h3><a href="/pages/eumagine_activity.aspx?aid=80">5th Consortium meeting in Antwerp </a></h3>
+                                09 nov 2012
+                            </font></td>
+					</tr>
+				</table>
+			</div>
+                
+            
+		</div>
+            
+            
+            <div id="main_panel_Panel4" class="activityPanel morePanel">
+			
+                <div class="ActivitiySubHeading"><h2>Upcoming activities</h2></div>
+                
+                <div>
+
+			</div>
+                
+            
+		</div>
+            
+            <br />
+            
+        
+	</div>
+        
+        <div id="main_panel_MoreActivities" class="activitiesWrapper">
+		
+            <div id="main_panel_MoreRecent" class="morePanel">
+			
+                <a id="main_panel_RecentLink" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$main_panel$RecentLink&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">More past activities</a>
+            
+		</div>
+            <div id="main_panel_MoreUpcoming" class="morePanel">
+			
+                <a id="main_panel_UpcomingLink" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$main_panel$UpcomingLink&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">More future activities</a> 
+            
+		</div>
+            <br />
+        
+	</div>
+    
+</div> 
+    
+    
+    <div id="main_panel_ActivitiesListWrapper" class="ActivitiesListWrapper">
+	
+    
+        <div>
+
+	</div>
+    
+</div>
+    
+
+
+            </div>
+            <br style="clear:both;" />
+        </div>
+        <div id="bottom">
+            <img src="../images/eumagine_banner_bottom.jpg" />
+            
+
+        </div>
+    </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("ToolkitScriptManager2_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();var menu_Menu_Data = new Object();
+menu_Menu_Data.disappearAfter = 500;
+menu_Menu_Data.horizontalOffset = 0;
+menu_Menu_Data.verticalOffset = 0;
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"main_panel_NewsletterSubscription1_TextBox1_TextBoxWatermarkExtender_ClientState","WatermarkCssClass":"Watermark","WatermarkText":"type your email","id":"main_panel_NewsletterSubscription1_TextBox1_TextBoxWatermarkExtender"}, null, null, $get("main_panel_NewsletterSubscription1_TextBox1"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>

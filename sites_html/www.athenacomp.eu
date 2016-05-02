@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="html"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <link rel="stylesheet" href="http://www.athenacomp.eu/css/athena.css" type="text/css" media="screen" charset="utf-8" />
+    <link rel="stylesheet" href="http://www.athenacomp.eu/css/jquery-ui-1.7.2.custom.css" type="text/css" charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <title>Athena EU-India Project </title>
+    <script type="text/javascript" src="http://www.athenacomp.eu/javascript/jquery-1.3.2.min.js">
+			//static comment
+		</script>
+    <script type="text/javascript" src="http://www.athenacomp.eu/javascript/login.js">
+			//static comment
+		</script>
+    <script type="text/javascript">
+					var changesMade = 0;	// will become 1 when edit-button is pressed and 0 when Apply all changes was pressed
+					var editable = 0;	// will be 1 IFF there is any field editable 
+								// (saving the data should be avoided in this case)
+					var current_page = ./Welcome.xml;	// for example: 
+												// ./welcome.xml
+					//window.onBeforeUnload = askForApplyingChanges(current_page);
+					history.navigationMode = 'compatible';	// should cause Opera to recognize the onBeforeUnload event - may not work
+				</script>
+  </head>
+  <body>
+    <div class="dialog">
+				a
+			</div>
+    <div style="display:none" id="jqDialog">
+				a
+			</div>
+    <div id="boxOverEverything">
+      <div id="headerBox">
+        <span class="head_thing">Athena-Project</span>
+      </div>
+      <div id="navBox">
+        <img src="http://www.athenacomp.eu/images/dotted-arrow.jpg" alt="arrow" class="navArrow" />
+        <a type="navLink" href="http://www.athenacomp.eu/./Welcome.xml">Welcome</a>
+        <br />
+        <img src="http://www.athenacomp.eu/images/nav-shadow.jpg" alt="image" class="navShadow" />
+        <br />
+        <img src="http://www.athenacomp.eu/images/dotted-arrow.jpg" alt="arrow" class="navArrow" />
+        <a type="navLink" href="http://www.athenacomp.eu/./Private-Area.xml">Private-Area</a>
+        <br />
+        <img src="http://www.athenacomp.eu/images/nav-shadow.jpg" alt="image" class="navShadow" />
+        <br />
+        <img src="http://www.athenacomp.eu/images/dotted-arrow.jpg" alt="arrow" class="navArrow" />
+        <a type="navLink" href="http://www.athenacomp.eu/./Material.xml">Material</a>
+        <br />
+        <img src="http://www.athenacomp.eu/images/nav-shadow.jpg" alt="image" class="navShadow" />
+        <br />
+      </div>
+      <div id="contentBox">
+        <div id="staticBox">
+          <h1>Home</h1>
+          <div id="editstatic">
+            <div class="text" id="staticCont"><a href="#" onclick="return false;" class="notLink"></a><a href="#" onclick="return false;" class="notLink"></a><a href="#" onclick="return false;" class="notLink"></a><a href="#" onclick="return false;" class="notLink"></a><a href="#" onclick="return false;" class="notLink"></a><a href="#" onclick="return false;" class="notLink"></a><a href="#" onclick="return false;" class="notLink"></a><a href="#" onclick="return false;" class="notLink"></a><a href="#" onclick="return false;" class="notLink"></a><a href="#" onclick="return false;" class="notLink"></a><a href="#" onclick="return false;" class="notLink"></a><a href="#" onclick="return false;" class="notLink"></a><a href="#" onclick="return false;" class="notLink"></a><a href="#" onclick="return false;" class="notLink"></a><a href="#" onclick="return false;" class="notLink"><h1 align="center">EU &amp; India Collaborative project</h1><h1 align="center"><img src="material/EU_flag_small.jpg" /><img src="material/india-flag.jpg" /></h1><h2>Welcome statement</h2>
+
+The overall aim of the ATHENA (Advanced Theories for functional oxides: new routes to handle the devices of the future) project is the investigation, through a synergy of advanced First-Principles, density-functional based methods, and Model Hamiltonian calculations suited for strong-correlated systems, of the properties and functionalities of transition metal oxides that may be viable candidates as building blocks of future micro- and nanoelectronic devices with enhanced capabilities. Despite the huge amount of work already accomplished in the field, a deep and complete understanding of these systems is still lacking. This is due on the one hand to the complexity inherent to the physics of strong-correlated electrons, which includes a plethora of fascinating but overtly complex phenomena (e.g. charge and orbital ordering, polaronic formation, spin-charge separation, non-Fermi liquid behaviour, to name just few). 
+
+The project is a collaboration between 6 University partners forming two consortia one based in Europe and the other in India. 
+
+<h2>News</h2><h3>Third EU-Indian Joint Meeting: Bangalore February 2011</h3><img src="material/Bangalore2011_small.jpg" /><h3>Second EU-Indian Joint Meeting: Brussels January 2011</h3><img src="material/brussels2011_small.jpg" /><h3>First EU-Indian Joint Meeting: Allahabad January 2010</h3><img src="media/2010_athena-hri-small.jpg" /><h3>Kick off meeting Indian Consortium (1 August 2009)</h3><h3>Kick off meeting European Consortium (22 June 2009)</h3><p>The kickoff meeting of the EU side of the ATHENA consortium took place in Dublin on June the 22nd. The Indian partners took part in telephone-conference. The presentations of the various groups are available in the private area of the web-site or upon request.</p><h3>Start of the ATHENA project (28 May 2009)</h3><p>On May 28th the ATHEMA project has officially begin.</p><h2>The ATHENA partners</h2></a><a href="http://www.spincomp.eu">Trinity College Dublin, Ireland</a> Prof. Stefano Sanvito (European Coordinator)
+<a href="http://www.slacs.it">University of Cagliari, Italy</a> Prof. Alessio Filippetti
+<a href="http://www.cms.tuwien.ac.at">University of Vienna, Austria</a> Prof. Cesare Franchini
+
+<a href="http://www.bose.res.in">S. N. Bose national Center for Basic Sciences, Kolkata</a> Prof. Priya Mahadevan (Indian Coordinator)
+<a href="http://www.hri.res.in/%7Epinaki/index.html">Harish-Chandra Research Institute, Allahabad</a>   Prof. Pinaki Majumdar
+<a href="http://www.jncasr.ac.in/waghmare">Jawaharlal Nehru Centre for Advanced Scientific Research, Bangalore</a>   Prof. Umesh Waghmare
+
+<h2></h2></div>
+          </div>
+          <br />
+        </div>
+      </div>
+      <div id="footerBox">
+        <img src="http://www.athenacomp.eu/images/dts.jpg" />
+        <img src="http://www.athenacomp.eu/images/FP7.jpg" />
+        <br />
+        <div id="foot">
+          <a href="javascript:toggleLogin();">login</a>
+          <form id="login" action="http://www.athenacomp.eu/login.php" method="POST" style="display:none">
+            <div id="loginDialogue">
+              <table border="0" margin-bottom="30px" align="center" cellpadding="3px">
+                <tr>
+                  <td> username: </td>
+                  <td>
+                    <input type="text" name="user" length="20" />
+                  </td>
+                </tr>
+                <tr>
+                  <td> password: </td>
+                  <td>
+                    <input type="password" name="pass" length="20" />
+                  </td>
+                </tr>
+              </table>
+              <br />
+              <input type="submit" value="submit" />
+            </div>
+          </form>
+        </div>
+        <div id="copyRight">&copy; Invitronic GmbH  2010</div>
+      </div>
+    </div>
+  </body>
+</html>

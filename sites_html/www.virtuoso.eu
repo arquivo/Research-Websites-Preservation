@@ -1,0 +1,590 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+<html>
+    <head>
+        <title>VIRTUOSO</title>
+        <meta http-equi="Content-Type" content="text/html; charset=iso-8859-1">       
+            <!--link rel="stylesheet" href="/VIRTUOSO/VIRTUOSO.css" type="text/css"-->
+            <link rel="stylesheet" href="/VIRTUOSO/estilos1.css" type="text/css"/>
+            <script type="text/javascript" src="/VIRTUOSO/manager/document/edit.js"></script>
+            <script type="text/javascript" src="/VIRTUOSO/public/login.js"></script>
+            <!--link rel="stylesheet" href="/VIRTUOSO/estilos2.css" type="text/css"-->
+            <script type="text/javascript" >
+                function descargar_(id, name){
+                    ACTION.addData("id", id);
+                    ACTION.setTarget("_blank");
+                    ACTION.send("servlet/document.fileView/"+name);
+                }
+            </script>
+
+    </head>
+    <body  leftmargin="0" topmargin="0" bgcolor="#FFFFFF" onload="MM_preloadImages('images/about-on.jpg','images/consortium-on.jpg','images/events-on.jpg','images/links-on.jpg','images/documentation-on.jpg','images/PrivateArea-on.jpg','images/contact_us_on.jpg')">
+        
+<table width="81%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+    <tr>
+        <td style="font: 10px Arial,Helvetica,sans-serif;height: auto;">          
+            <img src="/VIRTUOSO/images/bandera.jpg" align="left" height="23" alt="EU" border="0"/></td>
+        <td style="font: 10px Arial,Helvetica,sans-serif;
+            height: auto;" >
+            This project has received funding from European Union Seventh Framework Programme FP7/2007 - 2013 under grant agreement nº SEC-GA-2009-242352.
+            No part of this website may be used, reproduced and/or disclosed in any form or by any means without the prior written permission of the VIRTUOSO project partners.© 2010 – All rights reserved.
+            Please read the <a href="javascript:openLegal();">Legal Notice</a> </td>
+    </tr>
+</table>
+
+        <!-- %@page contentType="text/html" pageEncoding="windows_1252"%-->
+<script type="text/javascript" src="/VIRTUOSO/funcionesmenu.js"></script>
+<script type="text/javascript" src="/VIRTUOSO/acciones.js"></script>
+<script type="text/javascript" src="/VIRTUOSO/library.js"></script>
+<script type="text/javascript" src="/VIRTUOSO/public/login.js"></script>
+<table  border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr><td  align="center" style="cursor:pointer" onclick="javascript:home()"><img src="/VIRTUOSO/images/fondoCabecera.jpg" border="0">
+        </td></tr>
+    <tr><td>
+            <a href="javascript:cargaPagina('/VIRTUOSO/servlet/index');" onmouseover="MM_nbGroup('over','about','/VIRTUOSO/images/about_on.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="/VIRTUOSO/images/about_off.jpg" alt="" name="about" border="0" id="announcement" onload="" /><a href="javascript:cargaPagina('/VIRTUOSO/resources.jsp');" onmouseover="MM_nbGroup('over','about','/VIRTUOSO/images/resources_on.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="/VIRTUOSO/images/resources_off.jpg" alt="" name="about" border="0" id="announcement" onload="" /><a href="javascript:cargaPagina('/VIRTUOSO/servlet/news.listPublic');" onmouseover="MM_nbGroup('over','news','/VIRTUOSO/images/news_on.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="/VIRTUOSO/images/news_off.jpg" alt="" name="news" border="0" id="announcement" onload="" /></a><a href="javascript:cargaPagina('/VIRTUOSO/consortium.jsp')"  onmouseover="MM_nbGroup('over','consortium','/VIRTUOSO/images/consortium_on.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="/VIRTUOSO/images/consortium_off.jpg" alt="" name="consortium" border="0" id="generalinformation" /></a><a href="javascript:cargaPagina('/VIRTUOSO/servlet/event.listPublic');" onmouseover="MM_nbGroup('over','events','/VIRTUOSO/images/events_on.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="/VIRTUOSO/images/events_off.jpg" alt="" name="events" border="0" id="accomodation"/></a><a href="javascript:cargaPagina('/VIRTUOSO/servlet/link.listPublic');" onmouseover="MM_nbGroup('over','links','/VIRTUOSO/images/links_on.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="/VIRTUOSO/images/links_off.jpg" alt="" name="links" border="0" id="registration" onload="" /></a><a href="javascript:cargaPagina('/VIRTUOSO/servlet/document.listPublic');" onmouseover="MM_nbGroup('over','documentation','/VIRTUOSO/images/documentation_on.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="/VIRTUOSO/images/documentation_off.jpg" alt="" name="documentation" border="0" id="programme" /></a><a href="/VIRTUOSO/servlet/user.check?resource=servlet/user.start" target="VIRTUOSO_HIDE"  onmouseover="MM_nbGroup('over','parea','/VIRTUOSO/images/private_area_on.jpg','',1)" onMouseOut="MM_nbGroup('out')"><img name="parea" src="/VIRTUOSO/images/private_area_off.jpg" border="0" alt=""/></a><a href="/VIRTUOSO/contacto.jsp" onmouseover="MM_nbGroup('over','contact','/VIRTUOSO/images/contact_us_on.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="/VIRTUOSO/images/contact_us_off.jpg" alt="" name="contact" border="0" /></a>
+        </td>
+    </tr>
+</table>
+        <div id="contenedor">
+            <div id="contenidoIzda">
+
+                <div class="Subtitulo"><span class="resalte">V</span>ersatile <span class="resalte">I</span>nfo<span class="resalte">R</span>mation <span class="resalte">T</span>oolkit for end-<span class="resalte">U</span>sers oriented <span class="resalte">O</span>pen-<span class="resalte">S</span>ources expl<span class="resalte">O</span>itations<br />
+                    <img src="/VIRTUOSO/imagenes/about.jpg" alt="about" width="646" height="260" vspace="4" /></div>
+
+                <p class="justificar"><img src="/VIRTUOSO/imagenes/7frameworkProgramme.png" alt="Seventh Framework Programme" width="99" height="80" class="ImgDcha" />Sponsored by the European Commission as part of EC Security Research Call 2 of 7th Framework Programme, specifically for activity 10.3 &quot;Intelligent surveillance and enhancing border security&quot;, Virtuoso aims to provide the security authorities with an advanced integrated toolkit, developed around an &quot;open&quot; architecture to exploit open source information for decision support . Providing at each step actionable, rated, validated information.Integrated in an open framework in order to accept existing or future tools. Compliant with legal and ethical issues.</p>
+                <p class="justificar"> The VIRTUOSO toolkit will be the association of several components that can be grouped into two classes: infrastructural components and functional components. The functional components constitute the core of the VIRTUOSO toolkit and include all the data processing components that will involve in finding, selecting, and acquiring information from public sources and analyzing it to provide relevant information useful to the decision-maker. The infrastructural components will be developed to ensure the interactivity and the collaboration between the functional components to accomplish a given user need.</p>
+                <p class="justificar">The main functional components of the VIRTUOSO system are: Information Gathering components (Acquisition), Information Extraction and Structuring components (Processing), Knowledge Acquisition components (knowledge management), Decision support and visualization components.</p>
+                <p class="justificar"><img src="/VIRTUOSO/imagenes/esquema.png" width="600" height="309" /></p>
+                <p class="justificar"><em>Therefore, the VIRTUOSO project is composed of 11 Work Packages, a management Work Package (WP0), a user requirement Work Package (WP1), an evaluation Work Package (WP9), a Work Package dedicated to dissemination activities (WP10) and seven technical Work Packages. WP2 and WP8 will be dedicated to development of the infrastructural components and will contribute mainly to the development of the framework. The other WPs will be dedicated to the development of the functional components.</em></p>
+            </div>          
+
+            <div id="contenidoDcha">
+                <div class="bordeCaja" style="height:66px" id="products">
+                    <h1 class="cajaMorada">VIRTUOSO RESULTS: PRODUCTS AND SERVICES</h1>      
+                    <p>For more information click <a href="/VIRTUOSO/results.jsp">here</a></p>
+                </div>
+                <div class="bordeCaja" id="resources">
+                    <h1 class="caja">Resources</h1>   
+                    <p><a href="/VIRTUOSO/resources/privacy.jsp">Privacy Statement</a></p>
+                    <p id="doc"><a href="Virtuoso_flyer_6.4.pdf" target="_blank">Flyer</a></p>
+                    <p><a href="/VIRTUOSO/resources/presentations.jsp">VIRTUOSO Presentations</a></p>
+                </div>
+ 
+                <div class="bordeCaja" id="documents">
+                    <h1 class="caja">Documents</h1>            
+                    
+                    <p>D10.5 - EXPLOITATION MODEL (FINAL)</p>
+                    
+                    <p>D10 6 Linking with on-going initiative and impact creation report </p>
+                                        
+                    <p><a href="javascript:descargar_('1370818058656033','Virtuoso-EISICpaper_130501.pdf');">Scientific paper - Semi-automatic ontology maintenance in the Virtuoso news monitoring system </a></p>
+                                        
+                    <p><a href="javascript:descargar_('1370817882953032','FUSION2013_Laudy_Deparis_Lortal_Mattioli_vfinale_04.pdf');">Scientific paper - Multi-granular Fusion for Social Data Analysis </a></p>
+                                        
+                    <p><a href="javascript:descargar_('1370817732390031','Lortal_Deparisetal_IC2013_v2_3p.pdf');">Scientific paper - Un bouquet de théories pour une plateforme de décision stratégique à base de réseaux sociaux </a></p>
+                                 
+                </div>                
+               
+                <div class="bordeCaja" id="video">
+                    <h1 class="caja">Virtuoso demonstration</h1>            
+                    <p style="padding-top: 2px"><a href="/VIRTUOSO/Video/Virtuoso.html" target="_blank"><img src="/VIRTUOSO/images/video2.png" width="288" height="150" style="cursor:pointer" ></a></p>
+
+
+
+
+                </div>  
+
+                <div class="bordeCaja" id="video">
+                    <h1 class="caja">Virtuoso Onto Maintenance</h1>            
+                    <p style="padding-top: 2px"><a href="/VIRTUOSO/video.html" target="_blank"><img src="/VIRTUOSO/images/video.png" width="288" height="150" style="cursor:pointer" ></a></p>
+
+
+
+
+                </div>  
+
+             <script language="JavaScript">
+                    // months as they appear in the calendar's title
+                    var ARR_MONTHS = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"];
+                    // week day titles as they appear on the calendar
+                    var ARR_WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+                    // day week starts from (normally 0-Mo or 1-Su)
+                    var NUM_WEEKSTART = 0;
+
+                    var re_url = new RegExp('datetim e=(\\d+)');
+                    var fecha="08/02/2016".split("/",3);
+                    //var dt_current = (re_url.exec(String(window.location)) ? new Date(new Number(RegExp.$1)) : new Date());
+                    var dt_current=new Date(fecha[2],fecha[1]-1,fecha[0]);
+
+                    var re_id = new RegExp('id=(\\d+)');
+                    var num_id = (re_id.exec(String(window.location)) ? new Number(RegExp.$1) : 0) ;
+
+                    //var obj_caller = (window.opener ? window.opener.calendars[num_id] : null);
+                    var obj_caller = null;
+
+                    //if (obj_caller && obj_caller.year_scroll) {
+                    // get same date in the previous year
+                    var dt_prev_year = new Date(dt_current);
+                    dt_prev_year.setFullYear(dt_prev_year.getFullYear() - 1);
+                    if (dt_prev_year.getDate() != dt_current.getDate())
+                        dt_prev_year.setDate(0);
+
+                    // get same date in the next year
+                    var dt_next_year = new Date(dt_current);
+                    dt_next_year.setFullYear(dt_next_year.getFullYear() + 1);
+                    if (dt_next_year.getDate() != dt_current.getDate())
+                        dt_next_year.setDate(0);
+
+                    //}
+
+                    // get same date in the previous month
+                    var dt_prev_month = new Date(dt_current);
+                    dt_prev_month.setMonth(dt_prev_month.getMonth() - 1);
+                    if (dt_prev_month.getDate() != dt_current.getDate())
+                        dt_prev_month.setDate(0);
+
+                    // get same date in the next month
+                    var dt_next_month = new Date(dt_current);
+                    dt_next_month.setMonth(dt_next_month.getMonth() + 1);
+                    if (dt_next_month.getDate() != dt_current.getDate())
+                        dt_next_month.setDate(0);
+
+                    // get first day to display in the grid for current month
+                    var dt_firstday = new Date(dt_current);
+                    dt_firstday.setDate(1);
+                    dt_firstday.setDate(1 - (7 + dt_firstday.getDay() - NUM_WEEKSTART) % 7);
+
+                    // function passing selected date to calling window
+                    function set_datetime(n_datetime, b_close) {
+                        if (!obj_caller) return;
+
+                        var dt_datetime = obj_caller.prs_time(
+                        (document.cal ? document.cal.time.value : ''),
+                        new Date(n_datetime)
+                    );
+
+                        if (!dt_datetime) return;
+                        obj_caller.target.value = (document.cal
+                            ? obj_caller.gen_tsmp(dt_datetime)
+                        : obj_caller.gen_date(dt_datetime)
+                    );
+                        if (b_close) window.close();
+                        else obj_caller.popup(dt_datetime.valueOf());
+                    }
+
+                    var primerBgColor = "" ;
+                    var dt_current_day = new Date(dt_firstday);
+
+                    if (dt_current_day.getDay() == 0 || dt_current_day.getDay() == 6)
+                        primerBgColor = "#dbeaf5" ;
+
+                    var miBgColor = "" ;
+                </script>          
+                               <div class="bordeCaja" id="news">
+                    <h1 class="caja">News</h1>
+                    
+                    <!-- p class="displayRight">< %= fechaN%></p -->
+                                                
+                    <p class="destacado">27-06-2013&nbsp; &nbsp; <b>VIRTUOSO, partner of the SecDef&#39;13 conference </b>&nbsp;                        
+                        <a href="javascript:verNoticia('1372754626812119')">
+                            As part of its dissemination act ...
+                        </a>
+                    </p>
+                                                
+                    <p class="destacado">24-06-2013&nbsp; &nbsp; <b>Presentation of the final version of the demonstrator and final conference (18-19-20 June 2013) </b>&nbsp;                        
+                        <a href="javascript:verNoticia('1372751445890117')">
+                            On 18 and 19 June 2013, CEIS Eur ...
+                        </a>
+                    </p>
+                                                
+                    <p class="destacado">23-05-2013&nbsp; &nbsp; <b>Presentation of the VIRTUOSO project at the NATO OSINT Group </b>&nbsp;                        
+                        <a href="javascript:verNoticia('1372753488546118')">
+                            On 23 May 2013, CEIS presented t ...
+                        </a>
+                    </p>
+                    
+                </div>    
+                <div class="bordeCaja" id="calendar">
+                    <h1 class="caja">Calendar of events</h1>            
+                    <form name="frm_principal">
+                        <div id="calendario"></div>
+                        <input type="hidden" name="miAnio" value=""/>
+                        <input type="hidden" name="miMes" value=""/>
+                        <input type="hidden" name="miDia"/>
+                        <input type="hidden" name="seleccion"/>
+                    </form>
+                    <form id="defaultForm"><input type="hidden" name="xmldata"></form>
+                </div>    
+
+            </div>
+        </div>
+        <form id="defaultForm"><input type="hidden" name="xmldata"></form>
+        <script language="JavaScript">
+            <!--//
+            function seleccionar(fecha) {
+                if(fecha.length==1)
+                    fecha="0"+fecha;
+                mes=document.frm_principal.miMes.value;
+                if(mes.length==1)
+                    mes="0"+mes;
+                fecha=fecha+"/"+mes+"/"+document.frm_principal.miAnio.value;
+                ACTION.addData("dia","");
+                ACTION.addData("fecha",fecha);        
+                ACTION.send("/VIRTUOSO/servlet/event.listByFecha");
+
+            }
+            function enviar() {
+                var MiForm = document.frm_principal ;
+                var miAnio = MiForm.miAnio.value ;
+                var miMes = parseInt(MiForm.miMes.value,10) ;
+                if (miMes<10) {
+                    miMes = miMes.toString();
+                    miMes = "0" + miMes ;
+                } else {
+                    miMes = miMes.toString();
+                }
+                var miDia = parseInt(MiForm.miDia.value,10) ;
+                if (miDia<10) {
+                    miDia = miDia.toString();
+                    miDia = "0" + miDia ;
+                } else {
+                    miDia = miDia.toString();
+                }
+                //var fecha = miDia + "/" + miMes + "/" + miAnio ;
+                var fecha = miDia + "/" + miMes + "/" + miAnio ;
+                var miObjeto = eval('window.opener.'+'null') ;
+                miObjeto.value = fecha ;
+                window.close();
+                //window.opener.HallarSemana(fecha);
+            }
+
+            function borrar() {
+                var miObjeto = eval('window.opener.'+'null') ;
+                miObjeto.value = "" ;
+                window.close();
+            }
+            function verEventos(fecha) {     
+                ACTION.addData("fecha",fecha);
+                ACTION.setTarget("window");
+                ACTION.send("/VIRTUOSO/servlet/event.listByFecha");
+            }
+
+            function verNoticia(id) {
+                ACTION.addData("id",id);
+                ACTION.send("/VIRTUOSO/servlet/news.view");
+            }
+
+            function pintarOtroCalendario(fecha) {        
+                ACTION.addData("fecha",fecha);
+                ACTION.send("/VIRTUOSO/servlet/index");
+
+
+            }
+
+            function pintarCalendario() {
+                MiForm = document.frm_principal ;
+                var miCalendario = "" ;
+                miCalendario = miCalendario + "<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"100%\">";
+                miCalendario = miCalendario + "<tr><td colspan=\"7\" valign=\"top\">";
+                miCalendario = miCalendario + "    <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"100%\" >";
+                miCalendario = miCalendario + "    <tr>";
+                MiForm.miAnio.value = dt_current.getFullYear() ;
+                MiForm.miMes.value = dt_current.getMonth() + 1 ;
+                MiForm.miDia.value = dt_current.getDate() ;
+                var mesAnterior = dt_current.getMonth()-1;
+                if (mesAnterior<0) mesAnterior = 11;
+                var mesPosterior = dt_current.getMonth()+1;
+                if (mesPosterior>11) mesPosterior = 0;
+                miCalendario = miCalendario + "    <th class=\"mes\"><a href=\"javascript:pintarOtroCalendario('"+dt_prev_year.valueOf()+"');\" class=\"calendario\" title=\""+ (dt_current.getFullYear()-1) +"\">&laquo;&nbsp;</a></th>";
+                miCalendario = miCalendario + "    <th class=\"mes\"><a href=\"javascript:pintarOtroCalendario('"+dt_prev_month.valueOf()+"');\" class=\"calendario\" title=\""+ ARR_MONTHS[mesAnterior] +"\">&laquo;</a></th>";
+                miCalendario = miCalendario + "    <th align=\"center\" width=\"100%\" class=\"mes\" width=\"100%\">"+ARR_MONTHS[dt_current.getMonth()]+" "+dt_current.getFullYear() + "</th>";
+                miCalendario = miCalendario + "    <th class=\"mes\"><a href=\"javascript:pintarOtroCalendario('"+dt_next_month.valueOf()+"');\" class=\"calendario\" title=\""+ ARR_MONTHS[mesPosterior] +"\">&raquo;&nbsp;</a></th>";
+                miCalendario = miCalendario + "    <th class=\"mes\"><a href=\"javascript:pintarOtroCalendario('"+dt_next_year.valueOf()+"');\" class=\"calendario\" title=\""+ (dt_current.getFullYear()+1) +"\">&raquo;</a></th>";
+                miCalendario = miCalendario + "    </tr>";
+                miCalendario = miCalendario + "    </table>";
+                miCalendario = miCalendario + "</td></tr>";
+                miCalendario = miCalendario + "<tr >";
+
+                var dt_current_day = new Date(dt_firstday);
+
+                // print weekdays titles
+                for (var n=0; n<7; n++)
+                    miCalendario = miCalendario + "<th align=\"center\">"+ARR_WEEKDAYS[(NUM_WEEKSTART+n)%7]+"</th>";
+                miCalendario = miCalendario + "</tr>";
+
+                // print calendar table
+                var dt_current_day = new Date(dt_firstday);
+                while (dt_current_day.getMonth() == dt_current.getMonth() || dt_current_day.getMonth() == dt_firstday.getMonth()) {
+                    // print row heder
+                    miCalendario = miCalendario + "<tr >" ;
+                    for (var n_current_wday=0; n_current_wday<7; n_current_wday++) {
+
+                        if (dt_current_day.getDate() == dt_current.getDate() &&	dt_current_day.getMonth() == dt_current.getMonth()) {
+                            // print current date
+                            document.frm_principal.seleccion.value = dt_current.getDate() ;
+                            miBgColor = "" ;
+                            if (dt_current_day.getDay() == 0 || dt_current_day.getDay() == 6) {
+                                // weekend days
+                                primerBgColor = "" ;
+                            }
+                        }
+                        else if (dt_current_day.getDay() == 0 || dt_current_day.getDay() == 6) {
+                            // weekend days
+                            miBgColor = "" ;
+                        }
+                        else {
+                            // print working days of current month
+                            //	miBgColor = "#ffffff" ;
+                            miBgColor="";
+                        }
+
+
+                        // print days of current month
+                        if (dt_current_day.getMonth() == this.dt_current.getMonth()) {
+                            var cmp = comparaFechas(""+dt_current_day.getDate());
+                            if(cmp !=null){
+                                miBgColor=" #A0C8B2";                    
+                                miCalendario = miCalendario + "<td bgcolor=\"" + miBgColor + "\" id=\"casilla" + dt_current_day.getDate() + " align=\"center\" width=\"14%\" title=\""+cmp+"\"  class=\"selected\">";
+                            }else{
+                                miCalendario = miCalendario + "<td bgcolor=\"" + miBgColor + "\" id=\"casilla" + dt_current_day.getDate() + " align=\"center\" width=\"14%\"  class=\"textoNormalN\">";
+                            }
+                            miCalendario = miCalendario + "<a class='numero' href=\"javascript:seleccionar('" + dt_current_day.getDate()+ "');\">" ;
+                            miCalendario = miCalendario + dt_current_day.getDate()  ;
+                            miCalendario = miCalendario + "</a>" ;
+                        }
+                        else { // print days of other months
+                            miCalendario = miCalendario + "<td bgcolor=\"" + miBgColor + "\" align=\"center\" width=\"14%\" >";
+                            //miCalendario = miCalendario + "<font color=\"#606060\">" + dt_current_day.getDate() + "</font>" ;
+                        }
+                        miCalendario = miCalendario + "</td>" ;
+                        dt_current_day.setDate(dt_current_day.getDate()+1) ;
+                    }
+                    // print row footer
+                    miCalendario = miCalendario + "</tr>" ;
+                }
+                // LINEA DE BOTONES
+
+                miCalendario = miCalendario + "</table>";
+                document.frm_principal.miMes.value=fecha[1];
+                document.frm_principal.miAnio.value=fecha[2];
+                function comparaFechas(fecha){
+                    if(fecha.length==1)
+                        fecha="0"+fecha;
+                    mes=document.frm_principal.miMes.value;
+                    if(mes.length==1)
+                        mes="0"+mes;
+                    fecha=fecha+"/"+mes+"/"+document.frm_principal.miAnio.value;
+
+                    var fechas=new Array(44);
+                    var tooltips=new Array(44);
+                    var i=0;
+            
+                            fechas[i++]="20/02/2011";
+            
+                            fechas[i++]="08/02/2011";
+            
+                            fechas[i++]="20/06/2013";
+            
+                            fechas[i++]="20/06/2012";
+            
+                            fechas[i++]="07/11/2012";
+            
+                            fechas[i++]="07/03/2011";
+            
+                            fechas[i++]="13/02/2011";
+            
+                            fechas[i++]="25/02/2011";
+            
+                            fechas[i++]="06/02/2011";
+            
+                            fechas[i++]="11/02/2011";
+            
+                            fechas[i++]="18/02/2011";
+            
+                            fechas[i++]="05/03/2011";
+            
+                            fechas[i++]="18/06/2013";
+            
+                            fechas[i++]="23/02/2011";
+            
+                            fechas[i++]="04/02/2011";
+            
+                            fechas[i++]="10/03/2011";
+            
+                            fechas[i++]="16/02/2011";
+            
+                            fechas[i++]="03/03/2011";
+            
+                            fechas[i++]="28/02/2011";
+            
+                            fechas[i++]="21/02/2011";
+            
+                            fechas[i++]="09/02/2011";
+            
+                            fechas[i++]="21/06/2012";
+            
+                            fechas[i++]="14/02/2011";
+            
+                            fechas[i++]="08/03/2011";
+            
+                            fechas[i++]="01/03/2011";
+            
+                            fechas[i++]="07/02/2011";
+            
+                            fechas[i++]="26/02/2011";
+            
+                            fechas[i++]="06/11/2012";
+            
+                            fechas[i++]="19/02/2011";
+            
+                            fechas[i++]="06/03/2011";
+            
+                            fechas[i++]="12/02/2011";
+            
+                            fechas[i++]="19/06/2013";
+            
+                            fechas[i++]="24/02/2011";
+            
+                            fechas[i++]="05/02/2011";
+            
+                            fechas[i++]="11/03/2011";
+            
+                            fechas[i++]="24/04/2013";
+            
+                            fechas[i++]="17/02/2011";
+            
+                            fechas[i++]="10/02/2011";
+            
+                            fechas[i++]="04/03/2011";
+            
+                            fechas[i++]="22/02/2011";
+            
+                            fechas[i++]="15/02/2011";
+            
+                            fechas[i++]="09/03/2011";
+            
+                            fechas[i++]="02/03/2011";
+            
+                            fechas[i++]="27/02/2011";
+            
+                        i=0;        
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="WP10 VIRTUOSO - Dissemination workshop  ";
+            
+                            tooltips[i++]="Presentation of the version V1.0 of the VIRTUOSO  ";
+            
+                            tooltips[i++]="WP9 - WS 7+8 WP9-WS legal &amp; ethical aspects, visualization &amp; de ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="WP9 - Demonstrator V2 Presentation ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="VIRTUOSO Dissemination Workshop ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="WP9 - WS 7+8 WP9-WS legal &amp; ethical aspects, visualization &amp; de ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="WP10 VIRTUOSO - Dissemination workshop  WP9 - Demonstrator V2 Presentation ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Ethical and legal issues in the analysis of open s ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+                            tooltips[i++]="Survey about privacy ";
+            
+            
+                        for(i=0;i<fechas.length;i++){
+                            if(fechas[i]==fecha)
+                                return tooltips[i];
+                        }
+                        return null;
+                    }
+
+                    document.getElementById('calendario').innerHTML = miCalendario;
+                }
+                //-->
+        </script>            
+
+
+        <script>pintarCalendario();</script>
+        <div id="pie"></div>
+        <table>
+            <tr style="display:none;">
+                <td>
+                    <iframe name="VIRTUOSO_HIDE"  id="VIRTUOSO_HIDE"></iframe>
+                </td>
+            </tr>
+        </table>                                        
+    </body>
+
+</html>

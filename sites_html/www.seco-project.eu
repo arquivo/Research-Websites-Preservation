@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>SECO Project</title>
+
+<meta name="Keywords" content="Seco" />
+<meta name="description" content="Seco Project" />
+
+
+
+<!--base href="http://127.0.0.1/seco/" /-->
+<base href="http://www.seco-project.eu/" />
+<style type="text/css">
+<!--
+@import url("css/style_seco_all.css");
+@import url("css/style_seco_2col.css");
+-->
+
+</style>
+
+<script language="javascript" type="text/javascript"
+src="js/mm_valeurs_menu.php">
+</script>
+
+<script language="javascript1.2" type="text/javascript" 
+src="js/mm_menu.js">
+</script>
+<script language="javascript1.2" type="text/javascript" 
+src="js/tools.js">
+</script>
+
+
+<script src="js/AC_RunActiveContent.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="page_conteneur">
+
+
+
+	<div class="page_bg">
+		
+		<div class="header">
+		<table width="968" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="222" valign="top">
+
+	<div class="logo_titre">Self-Constructing<br>Computing Systems</div>
+
+	<div class="logo">
+	  <a href="."><img src="img/logo_SECO.gif" alt="SECO" width="222" height="80" border="0" /></a> </div>
+
+	</td>
+    <td width="746" valign="top">
+
+	<div class="visuel_top"><img src="img/visuel_top_03.jpg" alt="SECO Project" /></div>
+
+
+
+	<!-- ///////////// NAV TOP //////////////// -->	
+
+	<div class="nav_top">
+
+		<ul>	 
+			<li>
+<a href="." id="Project" onmouseover="MM_showMenu(window.mm_menu_1,3,32,null,'Project')" onmouseout="MM_startTimeout()">Project</a></li>
+			<li>
+<a href="#" id="News" onmouseover="MM_showMenu(window.mm_menu_2,3,32,null,'News')" onmouseout="MM_startTimeout()">News</a></li>
+			<li style="display:none;">
+<a href="forum-seco/"id="Blog" onmouseover="MM_showMenu(window.mm_menu_3,3,32,null,'Blog')" onmouseout="MM_startTimeout()">Forum </a></li>
+			<li style="display:none;">
+<a href="wps/"id="Wp" onmouseover="MM_showMenu(window.mm_menu_4,3,32,null,'Wp')" onmouseout="MM_startTimeout()">WorkPlan </a></li>
+			<li>
+<a href="members/"id="Members">Members</a></li>
+			<li>
+<a href="news/careers.html"id="Careers">Careers</a></li>
+			<li>
+<a href="contact.html"id="Contact">Contact</a></li>
+
+</ul>
+
+	</div>
+
+
+	</td>
+  </tr>
+</table>
+		</div>
+
+		<div class="conteneur_global">
+
+			<!-- ///////////// COLONNE GAUCHE //////////////// -->	
+				
+			<div class="conteneur_nav_gauche">
+				
+				<table style="background-color:#FFF" width="100%">
+				<tr>
+					<td><img src="img/fp7.gif" /></td>
+					<td><img src="img/eu.gif" /></td>
+				</tr>
+				</table>
+				
+								<div class="block_log">						<div class="log_titre">Private Web</div>					<div class="log_contenu">					  <form id="form1" name="form1" method="post" action=".">						<table width="100%" border="0" cellpadding="0" cellspacing="5">                        <tr>                          <td>                          User:<br />                          <input name="log" type="text" size="21" />						</td>                        </tr>                        <tr>                          <td>Password:<br />                            <input name="pass" type="password" size="21" /></td>                        </tr>                        <tr>                          <td><table width="100%" border="0" cellpadding="0" cellspacing="0">                            <tr>                              <td width="74%"></td>                              <td width="26%"><input name="image" type="image" value="Envoyer" src="img/bt_form_ok.gif" border="0" /></td>                            </tr>							<tr>                              <td colspan="2"><a href="index.php?page=nouveau_membre">Not yet a member ?</a></td>                            </tr>                          </table></td>                        </tr>                      </table>					</form>					</div>				</div>
+
+				<div class="block_nav_g">				
+					<table width="100%" border="0" cellpadding="0" cellspacing="0">
+					  <tr>
+						<td><img src="img/top_nav_g.gif" width="155" height="8" /></td>
+					  </tr>
+					  <tr>
+						<td>
+							<ul>
+								<li><a href="index.php?page=liste_docs">DOCUMENTS</a></li>
+								<!--li><a href="questions.html">QUESTIONS?</a></li-->
+								<li><a href="publications/">PUBLICATIONS</a></li>
+							</ul>
+						</td>
+					  </tr>
+					  <tr>
+						<td><img src="img/bottom_nav_g.gif" width="155" height="17" /></td>
+					  </tr>
+				  </table>
+
+
+				</div>
+				
+			</div>
+
+		
+
+
+
+
+
+
+
+			
+			<div class="conteneur_centre">
+
+
+
+
+
+
+
+					<!-- ///////////// COLONNE DROITE //////////////// -->	
+
+			<div class="bg_top_colonne_droite">
+
+
+
+			<!--div class="block_colonne_droite_questions"><a href="questions.html"><img src="img/flash_questions.jpg" width="217" height="179" /></a></div-->
+			
+			
+			<div class="block_colonne_droite">
+
+				<div class="col_droite_titre"><img src="img/puce_jaune_titre.gif" hspace="7" />NEWS</div>
+
+					<div class="col_droite_contenu">
+						<p><a href="news/events.html" class="col_droite_lien_bleu">Events</a><br />
+						Capo caccia 2013</p>
+						<p><a href="news/events.html" class="col_droite_lien_bleu">Events</a><br />
+						SECO Final review</p>
+						<p><a href="news/member-news-2.html" class="col_droite_lien_bleu">Member news</a><br />
+						New papers published by IGI</p>
+						<p><a href="news/events.html" class="col_droite_lien_bleu">Events</a><br />
+						2011 Capo Caccia seminar</p>
+						<p><a href="news/news.html" class="col_droite_lien_bleu">News</a><br />
+						British publishers Article</p>
+
+					</div>
+
+				    <!--a href="#" class="col_droite_lien_more">+&nbsp;more</a-->
+
+			</div>
+						<img src="img/fets.jpg" style="display:block; margin-left:17px;">
+			<!-- Fin block colonne_droite -->	
+
+
+<!--
+			<div class="block_colonne_droite">
+
+				<div class="col_droite_titre"><img src="img/puce_jaune_titre.gif" hspace="7" />CAREERS</div>
+
+					<div class="col_droite_contenu">
+						<p><a href="#" class="col_droite_lien_bleu">Est igitur ambulantibus<br />
+						</a>Vituperare, secundo id populo facere possit, vel si in eam quam nos maxime</p>
+						<p><a href="#" class="col_droite_lien_bleu">Est igitur ambulantibus Vituperare</a>, secundo id populo facere possit, vel si in eam quam nos maxime </p>
+					</div>
+
+				    <a href="#" class="col_droite_lien_more">+&nbsp;more</a>
+			</div>
+-->
+			<!-- Fin block colonne_droite -->	
+	</div>
+			<!-- / Fin bg_top_colonne_droite / -->	
+			
+			
+			<!-- ///////////// CENTRE //////////////// -->	
+
+			  <div class="block_contenu" style="width:540px">
+
+				<h1 class="titre_page">SECO <span>Project</span><img src="img/puce_jaune_titre.gif" width="10" height="10" hspace="7" /></h1>
+
+				<div class="encart_contenu">
+
+				 <div class="visuel_gauche" >
+					<img src="img/visuel_boules.gif" width="238" height="277"/>
+					<span>3D simulation of the sequential development<br>of a laminated cortical structure</span>
+				</div>
+			    
+					<p><span style="font-size: 10pt;">SECO is a
+four-year project funded by the </span><span style="font-size: 10pt;"><a href="http://cordis.europa.eu/fp7/home_en.html" title="FP7"><span>Seventh Research Program (FP7)</span></a></span><span style="font-size: 10pt;"> <span>of the
+European Union. It involves 7 research groups in 5 countries. SECO is one of
+several projects funded under the FP7 initiative on </span></span><span style="font-size: 10pt;"><a href="http://www.bio-ict.org/" title="BIO-ICT"><span>BIO-ICT Convergence</span></a></span><span style="font-size: 10pt;">.<br /> <br /> SECO (short for Self Construction) will propose methods for designing and
+implementing self-constructing systems. It will begin by examining existing
+self-constructing systems such as the mammalian neocortex, and move towards a
+theoretical framework for abstract specification of arbitrary self-constructing
+systems.<br /> <br /><br /> <br /> PROJECT<br /> <br /> As circuits get exponentially smaller and faster, we face exponential increases
+in their production cost. Current hardware methodologies demand extremely low
+failure rates for individual components, yet when fabricating huge circuits,
+yields are still low.<br /> <br /> Nature has solved these problems. Our neocortex, a cellular computer that
+generates intelligent behavior, constructs and configures itself starting from
+a single precursor cell, based on genetic information and interactions with its
+environment. Understanding this process would revolutionize computer
+technology.<br /> <br /> Progress in developmental neuroscience now permits a reverse-engineering
+approach, abstracting nature's principles into systems of our own design. Here
+we propose some first steps towards understanding these developmental
+construction mechanisms so that we can transpose them into novel software
+design technologies.<br /> <br /> We will demonstrate, by a fusion of experimental neuroscience, detailed
+physical simulation, and theoretical analysis, the principles by which a
+population of real or artificial neurons can grow and assemble themselves into
+functioning circuits.</span></p>
+  
+			      <p><br />
+                  </p>
+				  <p></p>
+				</div>
+				
+			  </div>
+				<!-- Fin block contenu -->	
+				
+
+
+
+
+
+			
+		</div><!-- Fin conteneur_centre -->
+		<div class="block_bottom_centre">&nbsp;</div>	
+
+		</div>
+		<!-- Fin conteneur_global -->
+
+
+
+
+	</div><!-- Fin page_bg -->
+
+
+
+
+
+	<!-- ///////////// FOOTER //////////////// -->	
+
+	<div class="block_footer">
+	<a href="#">Mentions legales</a> - <a href="#">Cr&eacute;dits</a>
+	</div>
+
+</div><!-- Fin page_conteneur -->
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-1062333-20");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<script language="JavaScript1.2" type="text/javascript" >mmLoadMenus();</script><!-- script à placer en fin de page -->
+
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Maitre Homepage | Maitre Project</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/default/files/maitre_favicon_0.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/default/files/css/css_6ae4268857bf767428f0e8dd2b64d134.css" />
+    <script type="text/javascript" src="/sites/default/files/js/js_8f6cddd7a3f4ae6670a84f6019ce394c.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "cron": { "basePath": "/poormanscron", "runNext": 1454958181 } });
+//--><!]]>
+</script>
+            <script src="/sites/all/themes/maitre/js/jquery-1.6.1.min.js" type="text/javascript" charset="utf-8"></script>
+
+            <script type="text/javascript" src="/sites/all/themes/maitre/js/jquery.jcarousel.min.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/maitre/js/jquery.cycle.lite.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/maitre/js/jquery-func.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/maitre/js/jqueries.js"></script>
+     	<!--[if IE 6]>
+		<script src="/sites/all/themes/maitre/js/png-fix.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/sites/all/themes/maitre/js/png-fix-calling.js" type="text/javascript" charset="utf-8"></script>
+	<![endif]-->
+</head>
+<body>
+	<!-- Top Bar -->
+	<div id="top-bar">
+		<!-- shell -->
+		<div class="shell">
+		    			<a href="/registration" class="signup-btn right">Sign Up</a>
+                            <form method='post' name='loginBoxForm' class="right" accept-charset='UTF-8' action='?q=user/login'>
+                <span class="field left">
+    					<input type="text" name="name" class="blink" title="Username" value="Username" />
+                </span>
+    			<span class="field left">
+    				<input class="blink" title="Password" type="password" name="pass" value="Password" />
+    			</span>
+            <input type="hidden" name="form_id" id="edit-user-login" value="user_login"  />
+<input type="hidden" name="form_build_id" id="form-bab8b52b0eba169b08afa90e72a5373b" value="form-bab8b52b0eba169b08afa90e72a5373b"  />
+<input type="submit" class="btn left" value="LOG IN" /></form>        		</div>
+		<!-- /shell -->
+	</div>
+	<!-- END Top Bar -->
+	<!-- Shell -->
+	<div class="shell">
+<!-- Header -->
+		<div id="header" class="home-header">
+			<h1 id="logo" class="notext left"><a href="/">Maitre</a></h1>
+			<!-- Navigation -->
+			<ul id="navigation" class="left">
+				<li class="home"><!--<a href="/"></a>--></li>
+				<!--<li><a href="#">ABOUT</a></li>
+				<li><a href="#">TRAINING</a></li>
+				<li><a href="#">RESOURCES</a></li>
+				<li><a href="#">MEDIA CORNER</a></li>
+				<li><a href="#">NEWS</a></li>
+				<li><a href="#">CONTACT</a></li>-->
+			</ul>
+     		<div id="block-menu-primary-links" class="block block-menu">
+
+  <div class="content">
+    <ul class="menu"><li class="expanded first"><a href="http://none.com" title="">About</a><ul class="menu"><li class="leaf first"><a href="/about/rationale" title="Rationale">Rationale</a></li>
+<li class="leaf"><a href="/about/objectives" title="Objectives">Objectives</a></li>
+<li class="leaf last"><a href="/about/partners" title="Partners">Partners</a></li>
+</ul></li>
+<li class="expanded"><a href="http://none.com" title="">Seminars</a><ul class="menu"><li class="leaf first"><a href="/seminars/themes" title="Themes">Themes</a></li>
+<li class="leaf"><a href="/seminars/why-register" title="Why register">Why register</a></li>
+<li class="leaf"><a href="/seminars" title="">Calendar</a></li>
+<li class="leaf"><a href="/user/register/profileresearcher" title="">Registration form</a></li>
+<li class="leaf"><a href="/seminars/european-food-organisations" title="European Food Organisations">European Food Organisations</a></li>
+<li class="leaf last"><a href="/node/283" title="Useful guidelines">Suggested reading</a></li>
+</ul></li>
+<li class="expanded"><a href="http://none.com" title="">Journalists&#039; Corner</a><ul class="menu"><li class="leaf first"><a href="/about/projectnews" title="Activities">Project News</a></li>
+<li class="leaf"><a href="/media-corner/why-register" title="Interact with researchers">Interact with researchers</a></li>
+<li class="leaf last"><a href="/user/register/profilejournalist" title="">Sign up</a></li>
+</ul></li>
+<li class="expanded"><a href="http://none.com" title="">Platform</a><ul class="menu"><li class="leaf first"><a href="/platform/what-is-it" title="About the MAITRE platform">What is it</a></li>
+<li class="leaf"><a href="/platform/food-web-media" title="Food Web Media">Sources of Research News</a></li>
+<li class="leaf"><a href="/platform/journalist%E2%80%99s-associations" title="Journalist’s associations">Science Journalists Associations</a></li>
+<li class="leaf last"><a href="/seminars/links" title="Useful Links">Links</a></li>
+</ul></li>
+<li class="expanded last"><a href="http://none.com" title="">Good Practices</a><ul class="menu"><li class="leaf first"><a href="/media-best-practices/online-examples" title="Online Examples">Online Examples</a></li>
+<li class="leaf"><a href="/media-best-practices/print-media-examples" title="Print media examples">Print media examples</a></li>
+<li class="leaf"><a href="/media-best-practices/broadcast-tv-and-radio" title="Broadcast (TV and radio)">Broadcast (TV and radio)</a></li>
+<li class="leaf last"><a href="/media-best-practices/others" title="Others">Others</a></li>
+</ul></li>
+</ul>  </div>
+</div>
+			<!-- END Navigation -->
+			<div class="cl">&nbsp;</div>
+		</div>
+		<!-- END Header -->
+				<!-- Slider -->
+		<div class="slider">
+			<div class="shadow"></div>
+			<div class="slider-carousel">
+				<ul>
+				                                    <li>
+	                    <img src="sites/all/themes/maitre/css/images/slides/5.jpg" alt="Maitre Homepage" />
+
+	                    <!--<p></p>-->
+	                    <!--<a href="home" class="button">More info</a>-->
+                    </li>
+                				</ul>
+			</div>
+			<!-- Slider-Nav -->
+			<div class="slider-nav">
+						</div>
+			<!-- END Slider-Nav -->
+		</div>
+		<!-- END Slider -->
+		
+		<!-- Main -->
+		<div class="main-top"  >&nbsp;</div>
+		<div id="main" >
+			
+			<!-- Content -->
+             
+                <div id="content">
+				<!--<div class="view view-locationbox view-id-locationbox view-display-id-block_1 view-dom-id-2">-->
+    
+  
+  
+      <!--<div class="view-content">-->
+        <!--<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">-->
+    <div class="locationLogosContainer">
+<p style="text-align: center;"><span style="font-size:14px;"><span style="color: rgb(105, 105, 105);">MAITRE gives research centres and universities located in Europe and <u><a href="ftp://ftp.cordis.europa.eu/pub/fp7/docs/third_country_agreements_en.pdf" target="_blank">Associated countries</a></u> the opportunity to </span><span style="color:#b70000;"><strong>HOST A PROFESSIONAL MEDIA TRAINING</strong></span><br /><span style="color: rgb(105, 105, 105);">for its researchers completely </span><span style="color:#b70000;"><strong>free of charge</strong></span></span></p>
+<p style="text-align: center;"><br /><span style="font-size:14px;"><span style="color: rgb(105, 105, 105);">If you are a member of a </span><span style="color:#b70000;"><strong>research centre or university</strong></span><span style="color: rgb(105, 105, 105);">, please contact the </span><u><span style="color:#b70000;"><strong><a href="mailto:maitre@maitreproject.eu" style="color:#b70000;">MAITRE team</a></strong></span></u><span style="color: rgb(255, 0, 0);"> </span></span><span style="color: rgb(105, 105, 105);"><span style="font-size:14px;">for more information<br />&nbsp;<br />Don’t miss out on this special opportunity to host a MAITRE media training session<br />and improve the communication skills of your researchers!</span></span><br style="clear:both;" /><br style="clear:both;" /><span style="font-size:12px;"><em>Here is a list of research centres that have hosted a MAITRE seminar in the past</em></span></p>
+<ul class="locationLogos">
+<li><img alt="" src="/sites/default/files/locationlogos/AZTI_tecnalia.jpg" style="width: 93px; height: 40px;" /><img alt="" src="/sites/default/files/locationlogos/CGSA.i.png" style="width: 94px; height: 50px;" /><img alt="" src="/sites/default/files/locationlogos/escola_superior_de_biotecnologia_portugal.jpg" style="width: 120px; height: 34px;" /><img alt="" src="/sites/default/files/locationlogos/IBA.jpg" style="width: 70px; height: 49px;" /><img alt="" src="/sites/default/files/locationlogos/INRAN.png" style="width: 50px; height: 50px;" /></li>
+<li><img alt="" src="/sites/default/files/locationlogos/Ipimar.jpg" style="width: 262px; height: 50px;" /><img alt="" src="/sites/default/files/locationlogos/IRTA.JPG" style="width: 92px; height: 44px;" /><img alt="" src="/sites/default/files/locationlogos/ISPA.jpg" style="width: 56px; height: 50px;" /><img alt="" src="/sites/default/files/locationlogos/UnivClujNapoca.png" style="width: 49px; height: 50px;" /></li>
+<li><img alt="" src="/sites/default/files/locationlogos/Matis.jpg" style="width: 50px; height: 50px;" /><img alt="" src="/sites/default/files/locationlogos/ONIRIS.jpg" style="width: 105px; height: 50px;" /><img alt="" src="/sites/default/files/locationlogos/PAN.png" style="width: 50px; height: 50px;" /><img alt="" src="/sites/default/files/FINS%20Serbia.png" style="width: 47px; height: 60px;" /><img alt="" src="/sites/default/files/Athens-logo-en.png" style="width: 175px; height: 59px;" /></li>
+<li><img alt="" src="/sites/default/files/campden%20BRI%20Hungary.png" style="width: 159px; height: 60px;" /><img alt="" src="/sites/default/files/teagasc_0.jpg" style="width: 172px; height: 60px;" /><img alt="" src="/sites/default/files/locationlogos/UnivBonn.jpg" style="width: 68px; height: 50px;" /><img alt="" src="/sites/default/files/locationlogos/TUBITAK.jpg" style="width: 44px; height: 50px;" /></li>
+<li><img alt="" src="/sites/default/files/Lubijana.jpg" style="width: 159px; height: 60px;" /><img alt="" src="/sites/default/files/Estonia_0.png" style="width: 247px; height: 50px;" /><img alt="" src="/sites/default/files/locationlogos/UnivBologna.png" style="width: 50px; height: 50px;" /></li>
+</ul>
+<p><br style="clear:both;" /><br style="clear:both;" /><br style="clear:both;" />&nbsp;</p></div>
+<p>&nbsp;</p>
+  <!--</div>-->
+
+    <!--</div>-->
+  
+  
+  
+  
+  
+  <!-- </div> -->
+ 
+				<div class="title" style="border:0px;">
+                                        <img src="/sites/all/themes/maitre/css/images/locationborder.png" />
+					<!--<h2 style="border:0px;">What is Maitre?</h2>-->
+					<div class="cl">&nbsp;</div>
+					<!--<img src="/sites/all/themes/maitre/css/images/icon.png" alt="" />-->
+				</div>
+				<div class="article"  style="border-bottom: 0px;padding-top:15px;">
+					<!--<img src="/sites/all/themes/maitre/css/images/img1.jpg" class="article-img" alt="" />-->
+					<!--<p class="date" >21 May 2011</p>-->
+					<!--<h4>Science may be a universal language...</h4>-->
+					<div class="homeContent"><table border="0" cellpadding="1" cellspacing="0" style="width: 609px; height: 400px;">
+<tbody>
+<tr>
+<td>
+<p><span style="color: rgb(183, 0, 0);"><span style="font-size: x-large;line-height:30px;">Science may be a universal language...</span></span></p>
+<p>...but communicating results can get lost in translation. The question that follows is how to solve this? The problem stems from the media's over-simplification of a given subject or insufficient involvement from scientists when communicating to the public at large.</p>
+<div class="videoEmbed" style="margin-left: 10px; background: none repeat scroll 0% 0% rgb(229, 229, 229); border: 1px solid rgb(211, 211, 211); padding: 10px; width: 560px; margin-top: 5px;">
+<div style="font-size: 11pt; font-weight: bold; text-align: left;">Featured Video</div>
+<p><iframe allowfullscreen="" frameborder="0" height="315" src="//www.youtube.com/embed/DzckLnU1OCc?vq=hd720" width="560"></iframe>
+</p><p><span style="font-size: 8pt; line-height: 10pt;"><span style="font-weight: bold; font-size: 9pt; line-height: 16pt;">MAITRE project video</span></span></p>
+</div>
+<p><br />Since September 2011, the EU funded project MAITRE has been running 50 training seminars in several EU and associated countries, where journalists and media experts will train a target group of roughly 600 researchers from organisations involved in food science.<br /><br />How will this initiative tackle the issue at hand? MAITRE aims at transferring the special expertise and knowledge of journalists on to researchers, in order to increase the willingness of researchers to interact with the media and to properly communicate scientific information to the public.
+</p><p>Each attendant will be provided with the <strong>MAITRE guidelines </strong>at the end of the seminar. For more information, please visit the <a href="http://www.maitreproject.eu/node/283" target="_blank"><strong>Seminar -</strong> <strong>Suggested Reading</strong></a> section on MAITRE website</p>
+</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+           				<a href="/about/projectnews" class="button" style="float:right;margin-top:0px;">VIEW ALL NEWS ITEMS</a>
+       				</div>
+				    <div class="cl">&nbsp;</div>
+				</div>
+				<!--<div class="title icon">
+					<h2>Whats happening today?</h2>
+					<a href="#" class="link" >View all articles</a>
+					<div class="cl">&nbsp;</div>
+					<img src="/sites/all/themes/maitre/css/images/icon.png" alt="" />
+				</div>
+				<div class="cols">
+					<div class="col">
+						<div class="img">
+							<img src="/sites/all/themes/maitre/css/images/img.jpg" alt="" />
+						</div>
+						<p>21 May 2011</p>
+						<h5><a href="#">Broccoli anti-cancer effects explained</a></h5>
+						<p>McDonalds begins throughout  Europe the initiative "Talk to the Hamburger", an initiative to explain the multiple benefits of fast food in schools and hospitals.</p>
+					</div>
+					<div class="col">
+						<div class="img">
+							<img src="/sites/all/themes/maitre/css/images/img2.jpg" alt="" />
+						</div>
+						<p>21 May 2011</p>
+						<h5><a href="#">Broccoli anti-cancer effects explained</a></h5>
+						<p>McDonalds begins throughout  Europe the initiative "Talk to the Hamburger", an initiative to explain the multiple benefits of fast food in schools and hospitals.</p>
+					</div>
+					<div class="col col-last">
+						<div class="img">
+							<img src="/sites/all/themes/maitre/css/images/img3.jpg" alt="" />
+						</div>
+						<p>21 May 2011</p>
+						<h5><a href="#">Broccoli anti-cancer effects explained</a></h5>
+						<p>McDonalds begins throughout  Europe the initiative "Talk to the Hamburger", an initiative to explain the multiple benefits of fast food in schools and hospitals.</p>
+					</div>
+					<div class="cl">&nbsp;</div>
+				</div>-->
+			</div>
+			
+						<!-- END Content -->
+        <!-- Sidebar -->
+			<div id="sidebar">
+                <div class="box"><a href="/registration" class="button" >JOIN MAITRE</a></div>								<div class="box">
+					<h4>Keep up-to-date</h4>
+					<p>Keep track of all the latest Maitre news, press releases and seminars by following us on Facebook or Twitter.</p>
+					<a href="http://www.facebook.com/pages/Maitre-Project/148762715192250" target="_blank" class="box-button" >FOLLOW US ON: <img src="/sites/all/themes/maitre/css/images/box-icon1.jpg" alt="" /></a>
+					<div class="cl">&nbsp;</div>
+					<a href="http://twitter.com/#!/maitreproject" target="_blank" class="box-button" >FOLLOW US ON: <span><img src="/sites/all/themes/maitre/css/images/box-icon2.jpg" alt="" /></span></a>
+					<!--<a href="#" class="box-button box-icon" >SUBSCRIBE TO RSS FEEDS <span><img src="/sites/all/themes/maitre/css/images/rss.jpg" alt="" /></span></a>-->
+					<h4 style="border-top:1px solid #B2B2B2;padding-top:20px;">Newsletter</h4>
+					<p>You can subscribe to our monthly newsletter by entering your email address below!</p>
+					<div id="block-simplenews-1" class="block block-simplenews">
+  <h2>Maitre Project newsletter old</h2>
+
+  <div class="content">
+      
+      <form action="/"  accept-charset="UTF-8" method="post" id="simplenews-block-form-1" class="simplenews-subscribe">
+<div><div class="form-item" id="edit-mail-wrapper">
+ <label for="edit-mail">Email: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="128" name="mail" id="edit-mail" size="20" value="" class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Subscribe"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-93651d6c3939ca78948fa2a244fd86c3" value="form-93651d6c3939ca78948fa2a244fd86c3"  />
+<input type="hidden" name="form_id" id="edit-simplenews-block-form-1" value="simplenews_block_form_1"  />
+
+</div></form>
+  
+  
+  
+    </div>
+</div>
+					<!--<form action="" method="get" id="form-box" >
+						<span class="field">
+							<input type="text" name="email" value="Email" title="Email" class="blink" />
+						</span>
+						<input type="submit" name="submit" value="SUBSCRIBE TO NEWSLETTER" class="button" />
+					</form>-->
+					<a href="/newsletters-archive" id="newsletters-archive-link">Newsletters' archive</a>
+				</div>
+				<div style="margin:12px;">
+
+				<a target="_blank" href="http://ec.europa.eu/index_en.htm" style="display:block;float:right;text-align:center;"><img style="margin-bottom:2px;"src="/sites/all/themes/maitre/css/images/logos/eu_logo.png" alt="" style="width:65px;" />
+				    <span style="color:#004494;font-size:7pt;line-height:8pt;"><br />EU project funded by the<br /> European Commission</span>
+				</a>
+				<a target="_blank" href="http://cordis.europa.eu/fp7/home_en.html" style="display:block;float:left;"><img src="/sites/all/themes/maitre/css/images/logos/FP7-88.png" alt=""  style="width:65px;"  /></a>
+				</div>
+			</div>
+			<!-- END Sidebar -->
+			<div class="cl">&nbsp;</div>
+		</div>
+		<!-- END Main -->
+		<!-- Footer -->
+		<div id="footer">
+			<div class="socials right">
+				<a href="mailto:maitre@maitreproject.eu" target="_blank" class="envelope"></a>
+				<a href="http://www.facebook.com/pages/Maitre-Project/148762715192250" target="_blank" class="facebook"></a>
+				<a href="http://twitter.com/#!/maitreproject" target="_blank" class="twitter"></a>
+			</div>
+			<ul class="nav right">
+				<!--<li><a href="#">ABOUT</a></li>
+				<li><a href="#">TRAINING</a></li>
+				<li><a href="#">RESOURCES</a></li>
+				<li><a href="#">MEDIA CORNER</a></li>
+				<li><a href="#">NEWS</a></li>
+				<li class="last"><a href="#">CONTACT</a></li>-->
+			</ul>
+			<a href="#" class="logo left"></a>
+		</div>
+		<!-- END Footer -->
+	
+	</div>
+	<!-- END Shell -->
+	
+	<!-- Bottom Bar -->
+	<div id="bottom-bar">
+		<!-- Shell -->
+		<div class="shell">
+			<p class="copyrights"><span class="right">&copy; MAITRE 2011-2012</span>MAITRE is a project funded by the European Commission under the 7th Framework Programme and it will run until March 2014.</p>
+		</div>
+		<!-- END Shell -->
+	</div>
+	<!-- END Bottom Bar -->
+<script type="text/javascript">
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4786246-9']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
+</script>
+</body>
+</html>

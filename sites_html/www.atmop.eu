@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	  <base href="http://www.atmop.eu/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Super User" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>ATMOP - Home</title>
+  <link href="http://www.atmop.eu/index.php" rel="canonical" />
+  <link href="/templates/protostar/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/protostar/css/template.css" type="text/css" />
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="/media/jui/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/media/system/js/modal.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($$('a.modal'), {
+				parse: 'rel'
+			});
+		});function keepAlive() {	var myAjax = new Request({method: "get", url: "index.php"}).send();} window.addEvent("domready", function(){ keepAlive.periodical(840000); });jQuery(document).ready(function()
+				{
+					jQuery('.hasTooltip').tooltip({});
+				});
+  </script>
+
+			<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+		<style type="text/css">
+			h1,h2,h3,h4,h5,h6,.site-title{
+				font-family: 'Open Sans', sans-serif;
+			}
+		</style>
+			<style type="text/css">
+		body.site
+		{
+			border-top: 3px solid #08C;
+			background-color: #F4F6F7		}
+		a
+		{
+			color: #08C;
+		}
+		.navbar-inner, .nav-list > .active > a, .nav-list > .active > a:hover, .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover, .btn-primary
+		{
+			background: #08C;
+		}
+		.navbar-inner
+		{
+			-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .25), inset 0 -1px 0 rgba(0, 0, 0, .1), inset 0 30px 10px rgba(0, 0, 0, .2);
+			-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .25), inset 0 -1px 0 rgba(0, 0, 0, .1), inset 0 30px 10px rgba(0, 0, 0, .2);
+			box-shadow: 0 1px 3px rgba(0, 0, 0, .25), inset 0 -1px 0 rgba(0, 0, 0, .1), inset 0 30px 10px rgba(0, 0, 0, .2);
+		}
+	</style>
+		<!--[if lt IE 9]>
+		<script src="/media/jui/js/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body class="site com_content view-article no-layout no-task itemid-435">
+
+	<!-- Body -->
+	<div class="body">
+		<div class="container">
+			<!-- Header -->
+			<div class="header">
+				<div class="header-inner clearfix">
+					<a class="brand pull-left" href="/">
+						<img src="http://www.atmop.eu/images/atmop-banner940x180.png" alt="ATMOP" /> 					</a>
+					<div class="header-search pull-right">
+						
+					</div>
+				</div>
+			</div>
+						<div class="navigation">
+				<ul class="nav menu nav-pills">
+<li class="item-435 current active"><a href="/" >Home</a></li><li class="item-465"><a href="/index.php/wp-structure" >WP Structure</a></li><li class="item-466"><a href="/index.php/wp-leaders" >WP leaders</a></li><li class="item-467"><a href="/index.php/partners" >Partners</a></li><li class="item-473"><a href="/index.php/public-documents" >Public Documents</a></li><li class="item-468 parent"><a href="/index.php/models" >Models</a></li><li class="item-480"><a href="/index.php/news" >News</a></li><li class="item-475"><a href="/index.php/conferences" >Conferences</a></li><li class="item-496"><a href="/index.php/downloads" >Downloads</a></li></ul>
+
+			</div>
+						
+			<div class="row-fluid">
+								<div id="content" class="span9">
+					<!-- Begin Content -->
+					
+					
+<div id="system-message-container">
+<div id="system-message">
+</div>
+</div>
+					<div class="item-page">
+								
+		
+								<h3>Advanced Thermosphere Modelling for Orbit Prediction (ATMOP)</h3>
+<h3>Call identifier: FP7-SPACE-2010-1</h3>
+<h3>Project number: 261948</h3>
+<h3> </h3>
+<div class="text">The ATMOP research project aims at building a new thermosphere model with the potential to spawn an operational version. It will enable precise air drag computation which is mandatory for improved survey and precise tracking of space objects in Low Earth Orbit and the initiation of appropriate measures to minimise risks to satellites (track loss, collisions) and ground assets (re-entry zone). The state of the thermosphere can vary rapidly and significantly in response to solar and geomagnetic activity (space weather), i.e., accurate orbit prediction requires accurate space-time nowcast and forecast of the thermosphere. Despite the presence in Europe of one of the three groups that have the capability to develop and maintain an operational semi-empirical thermosphere model (CNES/CNRS, the other two are in the US), and of one of the world leading teams in the field of physical modelling of the atmosphere (UCL), Europe has currently neither a near-real-time thermosphere prediction model nor operational services to provide regular thermosphere nowcast and forecast. The ATMOP project is designed to fill this gap through: Defining and assessing new proxies to describe the external forcing of the thermosphere; Developing an advanced semi-empirical Drag Temperature Model (DTM) that meets the requirements for operational orbit computations; Improving physical modelling of the thermosphere to assist the development of the advanced DTM and of a global physical model with data assimilation capabilities which may ultimately become the successor to semi-empirical models; and Developing schemes for near-real-time assimilation of thermospheric and ionospheric data into an advanced predictive DTM and into the physical Coupled Middle Atmosphere-Thermosphere (CMAT2) model. ATMOP therefore contributes to ensuring the security of space assets from space weather events (SPA.2010.2.3-01) and the development of the European capability to reduce dependence of space operations on the US.</div>
+<div class="text"> </div>
+<h3>Main Objectives of ATMOP</h3>
+<p> </p>
+<p>Former purpose is translated into four main scientific objectives. Six <a href="/index.php/wp-structure" target="_self">work packages</a> have been defined to address those objectives.</p>
+<table class="category table table-striped table-bordered table-hover">
+<thead>
+<tr><th align="center" valign="middle"><strong> Scientific Objectives </strong></th><th align="center" valign="middle"><strong> Objectives </strong></th></tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" valign="middle">DTM</td>
+<td align="left" valign="middle">Development of an advanced semi-empirical Drag Temperature Model (DTM) that is accurate enough to meet the requirements set by space agencies for orbit computations.</td>
+</tr>
+<tr>
+<td align="center" valign="middle">PROX</td>
+<td align="left" valign="middle">Define and assess new proxies to describe the external (EUV and geomagnetic) forcing of the Thermosphere by the Sun.</td>
+</tr>
+<tr>
+<td align="center" valign="middle">PHMOD</td>
+<td align="left" valign="middle">Physical modelling of the thermosphere</td>
+</tr>
+<tr>
+<td align="center" valign="middle">THERM</td>
+<td align="left" valign="middle">Support European research activities on forecasting techniques by upgrading assimilation of thermospheric data into an existing semi-empirical model for near-real time prediction and developing thermospheric data assimilation based on a global physical thermosphere-ionosphere coupled model.</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table class="category table table-striped table-bordered table-hover">
+<thead>
+<tr><th align="center" valign="middle"><strong> Work Package </strong></th><th align="center" valign="middle"><strong> Main WP Objective </strong></th><th align="center" valign="middle"><strong> WP Leader </strong></th><th align="center" valign="middle"><strong> Contributing Partners </strong></th><th align="center" valign="middle"><strong> ATMOP Scientific Objectives </strong></th></tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" valign="middle">WP1</td>
+<td align="left" valign="middle">Project Management</td>
+<td align="center" valign="middle">DMS</td>
+<td align="center" valign="middle"> </td>
+<td align="center" valign="middle">-</td>
+</tr>
+<tr>
+<td align="center" valign="middle">WP2</td>
+<td align="left" valign="middle">Forcing the thermosphere: physical processes and proxies for semi-empirical modelling</td>
+<td align="center" valign="middle">CNRS</td>
+<td align="center" valign="middle">DMS, CNES</td>
+<td align="center" valign="middle">PROX, DTM, PHMOD</td>
+</tr>
+<tr>
+<td align="center" valign="middle">WP3</td>
+<td align="left" valign="middle">Physical Modelling of thermospheric drag processes</td>
+<td align="center" valign="middle">UCL</td>
+<td align="center" valign="middle">DMS, CNRS, CLS, CNES</td>
+<td align="center" valign="middle">PHMOD, DTM</td>
+</tr>
+<tr>
+<td align="center" valign="middle">WP4</td>
+<td align="left" valign="middle">Semi-empirical modelling of the thermosphere</td>
+<td align="center" valign="middle">CNES</td>
+<td align="center" valign="middle">DMS, CNRS, CLS</td>
+<td align="center" valign="middle">DTM</td>
+</tr>
+<tr>
+<td align="center" valign="middle">WP5</td>
+<td align="left" valign="middle">Data assimilation for global analysis and near-real time prediction</td>
+<td align="center" valign="middle">MET</td>
+<td align="center" valign="middle">DMS, CNRS, CLS, CNES, UCL</td>
+<td align="center" valign="middle">THERM, DTM, PHMOD</td>
+</tr>
+<tr>
+<td align="center" valign="middle">WP6</td>
+<td align="left" valign="middle">Dissemination</td>
+<td align="center" valign="middle">CNRS</td>
+<td align="center" valign="middle">All</td>
+<td align="center" valign="middle">-</td>
+</tr>
+</tbody>
+</table> 
+	
+						 </div>
+
+					
+					<!-- End Content -->
+				</div>
+								<div id="aside" class="span3">
+					<!-- Begin Right Sidebar -->
+					<div class="well "><h3 class="page-header">Latest News</h3><div class="newsflash">
+
+	<h5 class="newsflash-title">
+			<a href="/index.php/news/50-atmop-splinter-at-esww10">
+			ATMOP splinter at ESWW10</a>
+		</h5>
+
+
+
+
+<p>During 10th European Space Weather Week, the ATMOP team will hold a splinter meeting to summarise the project objects and achievements.</p>
+<p>We wait you all on Friday 22nd November, at 13:30, more information at <a href="http://www.stce.be/esww10/splinters/atmop.php" style="line-height: 1.3em;">http://www.stce.be/esww10/splinters/atmop.php</a></p>
+
+	<h5 class="newsflash-title">
+			<a href="/index.php/news/49-new-dtm-2013-model-released">
+			New DTM 2013 model released</a>
+		</h5>
+
+
+
+
+<p>Updated DTM model has been released and it is available through the ATMOP Web interface. You can now download the updated model or run it through the web site.</p>
+
+	<h5 class="newsflash-title">
+			<a href="/index.php/news/48-atmop-at-fall-agu-meeting">
+			ATMOP at Fall AGU meeting</a>
+		</h5>
+
+
+
+
+<p>Two papers relateed to ATMOP activities have been acceepted for the fall AGU meeting: </p>
+<ul>
+<li><span style="line-height: 1.3em;">Synoptic radio observations as proxies for upper atmospheric modelling , by </span><span style="line-height: 1.3em;">T. Dudok de Wit &amp; S. Bruinsma &amp; K. Shibasaki </span></li>
+<li><span style="line-height: 1.3em;">Making of solar irradiance composite records out of multiple </span><span style="line-height: 1.3em;">observations (invited), by </span><span style="line-height: 1.3em;">T. Dudok de Wit &amp; M. Schoell </span></li>
+</ul>
+</div>
+</div><div class="well "><form action="/index.php" method="post" id="login-form" class="form-inline">
+		<div class="userdata">
+		<div id="form-login-username" class="control-group">
+			<div class="controls">
+									<div class="input-prepend input-append">
+						<span class="add-on">
+							<span class="icon-user tip" title="User Name"></span>
+							<label for="modlgn-username" class="element-invisible">User Name</label>
+						</span>
+						<input id="modlgn-username" type="text" name="username" class="input-small" tabindex="0" size="18" placeholder="User Name" />
+					</div>
+							</div>
+		</div>
+		<div id="form-login-password" class="control-group">
+			<div class="controls">
+									<div class="input-prepend input-append">
+						<span class="add-on">
+							<span class="icon-lock tip" title="Password">
+							</span>
+								<label for="modlgn-passwd" class="element-invisible">Password							</label>
+						</span>
+						<input id="modlgn-passwd" type="password" name="password" class="input-small" tabindex="0" size="18" placeholder="Password" />
+				</div>
+				
+			</div>
+		</div>
+				<div id="form-login-remember" class="control-group checkbox">
+			<label for="modlgn-remember" class="control-label">Remember Me</label> <input id="modlgn-remember" type="checkbox" name="remember" class="inputbox" value="yes"/>
+		</div>
+				<br />
+		<div id="form-login-submit" class="control-group">
+			<div class="controls">
+				<button type="submit" tabindex="0" name="Submit" class="btn btn-primary btn">Log in</button>
+			</div>
+		</div>
+					<ul class="unstyled">
+				<li>
+					<a href="/index.php/component/users/?view=registration">
+					Create an account <span class="icon-arrow-right"></span></a>
+				</li>
+				<li>
+					<a href="/index.php/component/users/?view=remind">
+					  Forgot your username?</a>
+				</li>
+				<li>
+					<a href="/index.php/component/users/?view=reset">Forgot your password?</a>
+				</li>
+
+			</ul>
+				<input type="hidden" name="option" value="com_users" />
+		<input type="hidden" name="task" value="user.login" />
+		<input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD00MzU=" />
+		<input type="hidden" name="c3e539345e17e2ddb150b813063eaebd" value="1" />	</div>
+	</form>
+</div>
+					<!-- End Right Sidebar -->
+				</div>
+							</div>
+			<!-- Footer -->
+			<hr />
+			
+			<p class="pull-right"><a href="#top" id="back-top">Back to Top</a></p>
+			<p>&copy; DEIMOS Space 2016</p>
+		</div>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/default/files/sungreen_favicon.png" type="image/x-icon" />
+  <title>SUNGREEN</title>
+  <link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/contrib/block_edit/block_edit.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/tagadelic/tagadelic.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/contrib/cck/theme/content-module.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/contrib/collapsiblock/collapsiblock.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/contrib/ctools/css/ctools.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/contrib/filefield/filefield.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/contrib/lightbox2/css/lightbox_alt.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/contrib/panels/css/panels.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/contrib/cck/modules/fieldgroup/fieldgroup.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/contrib/views/css/views.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/themes/adriart/layouts/adriart_cols/adriart_cols.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/themes/adriart/css/reset.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/themes/adriart/css/layout.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/themes/adriart/css/styles.css?d" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/themes/sungreen/css/sungreen.css?d" />
+  <script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?d"></script>
+<script type="text/javascript" src="/misc/drupal.js?d"></script>
+<script type="text/javascript" src="/sites/default/modules/contrib/block_edit/block_edit.js?d"></script>
+<script type="text/javascript" src="/sites/default/modules/contrib/jstools/jstools.js?d"></script>
+<script type="text/javascript" src="/sites/default/modules/contrib/collapsiblock/collapsiblock.js?d"></script>
+<script type="text/javascript" src="/sites/default/modules/contrib/jstools/jquery.cookie.js?d"></script>
+<script type="text/javascript" src="/sites/default/modules/contrib/lightbox2/js/lightbox.js?d"></script>
+<script type="text/javascript" src="/sites/default/modules/contrib/panels/js/panels.js?d"></script>
+<script type="text/javascript" src="/sites/default/modules/contrib/poormanscron/poormanscron.js?d"></script>
+<script type="text/javascript" src="/sites/default/themes/adriart/js/scripts.js?d"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "block_edit": { "hover_links": 1 }, "jstools": { "cleanurls": true, "basePath": "/" }, "collapsiblock": { "blocks": { "block-menu-primary-links": "2", "block-locale-0": "2", "block-nodeblock-75": "2", "block-nodeblock-76": "2", "block-adriart_gluecode-0": "2", "block-adriart_gluecode-1": "2", "block-tagadelic-2": "2", "block-nodeblock-200": "2" }, "default_state": 1, "slide_type": 1, "slide_speed": 200, "block_title": ":header:first", "block": "div.block", "block_content": "div.content" }, "lightbox2": { "rtl": "0", "file_path": "/(\\w\\w/)sites/default/files", "default_image": "/sites/default/modules/contrib/lightbox2/images/brokenimage.jpg", "border_size": 10, "font_color": "000", "box_color": "fff", "top_position": "", "overlay_opacity": "0.8", "overlay_color": "000", "disable_close_click": 1, "resize_sequence": 0, "resize_speed": 400, "fade_in_speed": 400, "slide_down_speed": 600, "use_alt_layout": 1, "disable_resize": 0, "disable_zoom": 0, "force_show_nav": 0, "show_caption": 1, "loop_items": 0, "node_link_text": "", "node_link_target": 0, "image_count": "!current of !total", "video_count": "", "page_count": "!current of !total", "lite_press_x_close": "press \x3ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\x3e\x3ckbd\x3ex\x3c/kbd\x3e\x3c/a\x3e to close", "download_link_text": "", "enable_login": false, "enable_contact": false, "keys_close": "c x 27", "keys_previous": "p 37", "keys_next": "n 39", "keys_zoom": "z", "keys_play_pause": "32", "display_image_size": "original", "image_node_sizes": "()", "trigger_lightbox_classes": "", "trigger_lightbox_group_classes": "", "trigger_slideshow_classes": "", "trigger_lightframe_classes": "", "trigger_lightframe_group_classes": "", "custom_class_handler": 0, "custom_trigger_classes": "", "disable_for_gallery_lists": true, "disable_for_acidfree_gallery_lists": true, "enable_acidfree_videos": true, "slideshow_interval": 5000, "slideshow_automatic_start": true, "slideshow_automatic_exit": true, "show_play_pause": true, "pause_on_next_click": false, "pause_on_previous_click": true, "loop_slides": false, "iframe_width": 600, "iframe_height": 400, "iframe_border": 1, "enable_video": 0 }, "cron": { "basePath": "/poormanscron", "runNext": 1454828153 } });
+//--><!]]>
+</script>
+  <script type="text/javascript"> </script>
+</head>
+<body class="front not-logged-in page-front-page one-sidebar sidebar-left i18n-en">
+  <div id="page">
+    <div id="header">
+
+      
+    </div> <!-- /header -->
+
+    <div id="container" class="clear-block">
+
+        <div id="sidebar-left" class="column sidebar">
+          <div id="logo-title">
+    
+                          <a href="/" title="Home" rel="home" id="logo">
+                <img src="/sites/default/themes/sungreen/logo.png" alt="Home" />
+              </a>
+                
+            <div id="name-and-slogan" class="element-invisible">
+                              <h1 id="site-name">
+                  <a href="/" title="Home" rel="home"><span>SUNGREEN</span></a>
+                </h1>
+                          </div> <!-- /name-and-slogan -->
+          </div> <!-- /logo-title -->
+          <div id="block-menu-primary-links" class="block block-menu">
+  <div class="block-title-wrapper">
+      <h2 class="block-title">Primary links</h2>
+    </div>
+
+  <div class="block-content-wrapper">
+    <div class="content">
+      <ul class="menu"><li class="leaf first"><a href="/about" title="About">About</a></li>
+<li class="leaf"><a href="/university-nova-gorica" title="">University of Nova Gorica</a></li>
+<li class="leaf"><a href="/partnering-organisations" title="">Partnering organisations</a></li>
+<li class="leaf"><a href="/sem-tem" title="">SEM &amp; TEM</a></li>
+<li class="leaf"><a href="/organisation-international-conferences-and-workshops" title="">Conferences and workshops</a></li>
+<li class="leaf"><a href="/recruitment" title="">Recruitment</a></li>
+<li class="leaf"><a href="/networking-innovation" title="">Networking</a></li>
+<li class="leaf"><a href="/news" title="">News</a></li>
+<li class="leaf last"><a href="/contact" title="">Contact</a></li>
+</ul>    </div>
+  </div>
+</div><div id="block-nodeblock-200" class="block block-nodeblock">
+  <div class="block-title-wrapper">
+      <h2 class="block-title">Partners</h2>
+    </div>
+
+  <div class="block-content-wrapper">
+    <div class="content">
+      <div id="node-200" class="node clear-block">
+
+
+
+  <div class="nodeblock-content">
+    
+    
+                  
+    <p><a href="http://www.tudelft.nl"><img alt="" src="/sites/default/files/imce/TU_d_stack_P1_color.png" style="float: left; width: 80px;" /></a>&nbsp; <a href="http://www.epfl.ch"><img alt="" src="http://www.epfl.ch/img/epfl.png" style="float: left; width: 85px; margin:5px;" /></a>&nbsp;&nbsp;<a href="http://www.elettra.trieste.it"><img alt="" src="/sites/default/files/imce/logo_elettra-600px.jpg" style="float: left; width: 50px; height: 51px; margin:5px;" /></a>&nbsp;&nbsp;<a href="http://www.imperial.ac.uk"><img alt="" src="/sites/default/files/imce/Imperial_1_Pantone_and_tint.jpg" style="float: left; width: 90px; height: 24px; margin:10px;" /></a></p>
+
+      </div>
+</div>    </div>
+  </div>
+</div><div id="block-tagadelic-2" class="block block-tagadelic">
+  <div class="block-title-wrapper">
+      <h2 class="block-title">Tags in Tags</h2>
+    </div>
+
+  <div class="block-content-wrapper">
+    <div class="content">
+      <a href="/category/tags/art" class="tagadelic level6" rel="tag">art</a> 
+<a href="/category/tags/award" class="tagadelic level3" rel="tag">award</a> 
+<a href="/category/tags/conference" class="tagadelic level6" rel="tag">conference</a> 
+<a href="/category/tags/ilo" class="tagadelic level1" rel="tag">ILO</a> 
+<a href="/category/tags/microscopy-and-spectroscopy-centre" class="tagadelic level1" rel="tag">Microscopy and Spectroscopy Centre</a> 
+<a href="/taxonomy/term/12" class="tagadelic level6" rel="tag">SEM</a> 
+<a href="/category/tags/software-engineering" class="tagadelic level1" rel="tag">software engineering</a> 
+<a href="/category/tags/sungreen" class="tagadelic level6" rel="tag">SUNGREEN</a> 
+<a href="/category/tags/tam-2013" class="tagadelic level1" rel="tag">TAM 2013</a> 
+<a href="/taxonomy/term/14" class="tagadelic level5" rel="tag">web</a> 
+<a href="/category/tags/workshop" class="tagadelic level3" rel="tag">workshop</a> 
+<a href="/taxonomy/term/7" class="tagadelic level3" rel="tag">WP7</a> 
+<div class='more-link'><a href="/tagadelic/chunk/2">more tags</a></div>    </div>
+  </div>
+</div>        </div> <!-- /sidebar-left -->
+
+
+      <div id="main" class="column"><div id="main-squeeze">
+        <div id="content">
+                                                  <div id="content-content" class="clear-block">
+            
+<div class="panel-display panel-adriart-cols clear-block" >
+
+  <div class="panel-panel panel-col-main">
+    <div class="inside"></div>
+  </div>
+
+  <div class="panel-panel panel-col-main-secondary">
+    <div class="inside"></div>
+    <div class="clear"></div>
+  </div>
+
+  <div class="clear-block panel-cols-two">
+    <div class="panel-panel panel-col-middle-left">
+      <div class="inside"></div>
+    </div>
+  
+    <div class="panel-panel panel-col-middle-right">
+      <div class="inside"></div>
+    </div>
+  </div>
+
+  <div class="clear-block panel-cols-three">
+    <div class="two-thirds-container">
+            
+      <div class="panel-panel panel-col-first panel-cols-three-left">
+        <div class="inside"><div class="panel-pane pane-block pane-nodeblock-104" >
+    
+  <div class="panel-title-wrapper">
+    </div>
+
+  
+  <div class="pane-content content">
+    <div id="node-104" class="node clear-block">
+
+
+
+  <div class="nodeblock-content">
+    
+    
+          <a href="http://sungreen.ung.si/sem-tem" target=""><div class="field field-type-filefield field-field-main-image">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <img src="http://sungreen.ung.si/sites/default/files/imagecache/200_width/nano3.png" alt="" title="" width="200" height="148" class="imagecache imagecache-200_width imagecache-default imagecache-200_width_default"/>        </div>
+        </div>
+</div>
+</a>        
+    <h3>&nbsp;</h3>
+<h3>Welcome to SUNGREEN</h3>
+<p>The SUNGREEN project seeks to reinforce the University of Nova Gorica, strengthening its innovative approach to research and development of new knowledge in environmental science and novel nano-structured materials.</p>
+<p>For more go to <a href="/about">About SUNGREEN</a>. Download <a href="http://sabotin.ung.si/%7Eavaupotic/sungreen/SUNGREENweb_REDUCED.pdf">SUNGREEN Brochure</a>.</p>
+<p><img src="http://sabotin.ung.si/~avaupotic/sungreen/flag_yellow_low.jpg" style="width: 95px;" /> <img src="http://sabotin.ung.si/~avaupotic/sungreen/FP7-cap-RGB.jpg" style="width: 80px;" /></p>
+
+      </div>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-block pane-nodeblock-203" >
+    
+  <div class="panel-title-wrapper">
+    </div>
+
+  
+  <div class="pane-content content">
+    <div id="node-203" class="node clear-block">
+
+
+
+  <div class="nodeblock-content">
+    
+    
+                  
+    <h3>Organisation</h3>
+<p>Organisation of international conferences and workshops on topics related to the field of environmental sciences and novel nanomaterials. <a href="/organisation-international-conferences-and-workshops">More</a></p>
+<h3>Recruitment</h3>
+<p>The experienced researchers will be recruited and employed to increase knowledge in research themes related to environmental sciences and novel nanomaterials. <a href="/recruitment">More</a></p>
+
+      </div>
+</div>  </div>
+
+  
+  </div>
+</div>
+      </div>
+    
+      <div class="panel-panel panel-col panel-cols-three-middle">
+        <div class="inside"><div class="panel-pane pane-block pane-nodeblock-201" >
+    
+  <div class="panel-title-wrapper">
+    </div>
+
+  
+  <div class="pane-content content">
+    <div id="node-201" class="node clear-block">
+
+
+
+  <div class="nodeblock-content">
+    
+    
+          <a href="http://www.ung.si" target=""><div class="field field-type-filefield field-field-main-image">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <img src="http://sungreen.ung.si/sites/default/files/imagecache/200_width/uni-ng_en_bw100px.png" alt="" title="" width="90" height="92" class="imagecache imagecache-200_width imagecache-default imagecache-200_width_default"/>        </div>
+        </div>
+</div>
+</a>        
+    <h3><br />University of Nova Gorica</h3>
+<p>The University of Nova Gorica is a higher education institution offering undergraduate and graduate study programmes and conducting scientific research.</p>
+<p><a href="/university-nova-gorica">More</a></p>
+
+      </div>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-block pane-nodeblock-202" >
+    
+  <div class="panel-title-wrapper">
+    </div>
+
+  
+  <div class="pane-content content">
+    <div id="node-202" class="node clear-block">
+
+
+
+  <div class="nodeblock-content">
+    
+    
+                  
+    <h3>Networking for innovation</h3>
+<p><a href="http://www.ung.si/en/industrial-liaison-office">Industrial Liaison Office at the University of Nova Gorica</a></p>
+<p>The objective of this work package is to enhance the efforts of the University of Nova Gorica in establishing links with the socioeconomic environment and industry in the region, with the institutions of the European Union, National and local government, different agencies, networks and the collective organisations of the industrial sector and creating conditions for the development of knowledge based clusters. <a href="/networking-innovation">More</a></p>
+
+      </div>
+</div>  </div>
+
+  
+  </div>
+</div>
+      </div>
+    </div>
+  
+    <div class="panel-panel panel-col-last panel-cols-three-right">
+      <div class="inside"><div class="panel-pane pane-views-panes pane-featured-news-post-panel-pane-1 section-news" >
+    
+  <div class="panel-title-wrapper">
+      <h2 class="pane-title">Featured news</h2>
+    </div>
+
+  
+  <div class="pane-content content">
+    <div class="view view-featured-news-post view-id-featured_news_post view-display-id-panel_pane_1 view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/measurements-art-exhibition-vanja-mervi%C4%8D-narvika-bovcon-and-ale%C5%A1-vaupoti%C4%8D-ljubljana"><h2>Measurements, an art exhibition by Vanja Mervič, Narvika Bovcon, and Aleš Vaupotič in Ljubljana</h2></a></span>
+  </div>
+  
+  <div class="views-field-teaser">
+                <div class="field-content"><p>Galerija Društva likovnih umetnikov Ljubljana (DLUL), Breg 22, Ljubljana, 28 May–7 June 2015, <strong>opening 28 May at 7 PM</strong>.<br /><em>Opening times: Monday closed; Tuesday-Friday 16h–20h; Saturday-Sunday 10h–14h.</em></p>
+<p><a href="http://black.fri.uni-lj.si/measurements">http://black.fri.uni-lj.si/measurements </a></p></div>
+  </div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/video-and-digital-prints-vanja-mervi%C4%8D-have-won-award-majski-salon-2015-air-0"><h2>Video and digital prints by Vanja Mervič have won an award at the Majski salon 2015 - Air</h2></a></span>
+  </div>
+  
+  <div class="views-field-teaser">
+                <div class="field-content"><p>The video and digital prints created using the SUNGREEN scanning electron microscope at the Microscopy and Spectroscopy Centre in Ajdovščina has won an award at this year's Majski salon, which takes place from 18 May till 11 June 2015 in Lokarjeva galerija in Ajdovščina (Prešernova cesta 15). The exhibition of the award winning works will open in Vienna, in the Slovenian cultural centre Korotan, on 18 July 2015. <a href="http://www.zdslu.si/application/zdslu/upload/files/Izjava_za_javnost_MS_2015_nagrajenci.pdf">Link&gt;&gt;</a></p>
+<p>Title: <a href="http://vimeo.com/97215857"><b><span>Blowing</span> <span>bubbles</span> on a micro scale</b></a></p></div>
+  </div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/image-cucl-made-sem-ung-receiwed-award-distinction-majski-salon-2014-ljubljana"><h2>The image of CuCl made with SEM at the UNG receiwed an Award of Distinction at the Majski salon 2014 (Ljubljana)</h2></a></span>
+  </div>
+  
+  <div class="views-field-teaser">
+                <div class="field-content"><p>The image was created in collaboratin between visual artists Narvika Bovcon and Aleš Vaupotic, SEM operator doc. dr. Mattia Fanetti, sample preparation doc. dr. Saim Emin. Thanks to prof. dr. Matjaž Valant and the SUNGREEN project.</p>
+<p><a href="http://zdslu.si/application/zdslu/upload/files/Izjava%20za%20medije.pdf">Press release (in Slovene) &gt;&gt;</a></p>
+<p><a href="http://www.zdslu.si/application/zdslu/upload/files/MS_2014_e%20(2).pdf">The "Majski salon 2014" e-catalogue&nbsp;&gt;&gt;</a></p></div>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+</div>
+    </div>
+  </div>
+  
+  
+</div>
+          </div> <!-- /content-content -->
+                  </div> <!-- /content -->
+
+      </div></div> <!-- /main-squeeze /main -->
+
+    </div> <!-- /container -->
+    
+  </div> <!-- /page -->
+
+</body>
+</html>

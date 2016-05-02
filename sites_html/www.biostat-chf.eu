@@ -1,0 +1,512 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>News</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="robots" content="index, follow" />
+		<meta name="author" content="Stoneart B.V." />
+		<meta http-equiv="content-language" content="nl" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta content="IE=8" http-equiv="X-UA-Compatible" />
+		<link rel="stylesheet" href="/css/default.css" type="text/css" media="screen, projection">
+		<script type="text/javascript" src="/js/jquery-1.4.2.js" charset="utf-8"></script>
+		<script ype="text/javascript" src="/js/jquery.maximage.js" t charset="utf-8"></script>
+	</head>
+	<body>
+	<table cellpadding="0" cellspacing="0">
+		<tr>
+			<td id="logo"><a href="/" title="home"><img src="/images/logo.gif" /></a></td>
+			<td id="control">
+			<table cellpadding="0" cellspacing="0" width="77%">
+				<tr>
+					<td colspan="4">
+					<table cellpadding="0" cellspacing="0">
+						<tr>
+							<td><div id="mainmenu">
+				<ul class="mainMenu">
+					<li class="active"><h5><a href="/news-/" title="News">News</a></h5>
+					<li><h5><a href="/the-consortium/" title="The Consortium">The Consortium</a></h5>
+					<li><h5><a href="/partners-/" title="Partners">Partners</a></h5>
+
+					<ul class="subMenu">
+					<li><a href="/partners-/partner-1-umcg/" title="Partner 1 - UMCG">Partner 1 - UMCG</a>
+					<li><a href="/partners-/partner-2-unibrescia/" title="Partner 2 - UNIBRESCIA">Partner 2 - UNIBRESCIA</a>
+					<li><a href="/partners-/partner-3-eddh/" title="Partner 3 - EDDH">Partner 3 - EDDH</a>
+					<li><a href="/partners-/partner-4-nkua/" title="Partner 4 - NKUA">Partner 4 - NKUA</a>
+					<li><a href="/partners-/partner-5-uhull/" title="Partner 5 - UHULL">Partner 5 - UHULL</a>
+					<li><a href="/partners-/partner-6-amc/" title="Partner 6 - AMC">Partner 6 - AMC</a>
+					<li><a href="/partners-/partner-7-am-wroclaw/" title="Partner 7 - AM WROCLAW">Partner 7 - AM WROCLAW</a>
+					<li><a href="/partners-/partner-8-charite/" title="Partner 8 - CHARITE">Partner 8 - CHARITE</a>
+					<li><a href="/partners-/partner-9-suh/" title="Partner 9 - SUH">Partner 9 - SUH</a>
+					<li><a href="/partners-/partner-10-uleic/" title="Partner 10 - ULEIC">Partner 10 - ULEIC</a>
+					<li><a href="/partners-/partner-11-univdun/" title="Partner 11 - UNIVDUN">Partner 11 - UNIVDUN</a>
+					</ul>
+
+					<li><h5><a href="/work-packages/" title="Work Packages">Work Packages</a></h5>
+
+					<ul class="subMenu">
+					<li><a href="/work-packages/wp-1-project-management/" title="WP 1 - Project Management">WP 1 - Project Management</a>
+					<li><a href="/work-packages/wp-2-protocols/" title="WP 2 - Protocols">WP 2 - Protocols</a>
+					<li><a href="/work-packages/wp-3-biomarkers-and-blood-bank/" title="WP 3 - Biomarkers and Blood Bank">WP 3 - Biomarkers and Blood Bank</a>
+					<li><a href="/work-packages/wp-4-genomics/" title="WP 4 - Genomics">WP 4 - Genomics</a>
+					<li><a href="/work-packages/wp-5-proteomics/" title="WP 5 - Proteomics">WP 5 - Proteomics</a>
+					<li><a href="/work-packages/wp-6-index-study/" title="WP 6 - Index Study">WP 6 - Index Study</a>
+					<li><a href="/work-packages/wp-7-systems-biology/" title="WP 7 - Systems Biology">WP 7 - Systems Biology</a>
+					<li><a href="/work-packages/wp-8-validation/" title="WP 8 - Validation">WP 8 - Validation</a>
+					<li><a href="/work-packages/wp-9-dissemination/" title="WP 9 - Dissemination">WP 9 - Dissemination</a>
+					<li><a href="/work-packages/wp-overview/" title="WP Overview">WP Overview</a>
+					</ul>
+
+					<li><h5><a href="/funding/" title="Funding">Funding</a></h5>
+
+					<ul class="subMenu">
+					<li><a href="/funding/european-union/" title="European Union">European Union</a>
+					</ul>
+
+					<li><h5><a href="/data-entry/" title="Date entry">Data entry</a></h5>
+
+					<ul class="subMenu">
+					<li><a href="/data-entry/ecrf-login/" title="eCRF login">eCRF login</a>
+					<li><a href="/data-entry/patient-registration/" title="Patient registration">Patient registration</a>
+					</ul>
+
+					<li><h5><a href="/contact/" title="Contact">Contact</a></h5>
+				</ul>
+
+							</div></td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+				<tr>
+					<td class="breadcrumbs" width="100%">U bent hier: 
+<a href="/">Home</a>
+<span class="bread_separate">&raquo;</span>News</td>
+					<td class="language" nowrap>Language: <strong>Select your language</strong>: <a href="/news-/" title="Nederlands">Nederlands</a>
+ - <a href="/" title="English">Engels</a>
+</td>
+					<td class="search_field" nowrap><input type="button" class="filemanagerButton" value="Login" onclick="window.location='/filemanager';" />&nbsp;</td>
+					<td class="search_field" nowrap><script type="text/javascript">
+	$(document).ready(function() {
+		$('.searchForm .search').focus( function() { 
+			if($(this).val() == "Search")
+				$(this).val("").css({ color: "black" });
+		 }).blur(function(){
+			if($(this).val() == "")
+				$(this).val("Zoeken").css({ color: "grey" });
+		 });
+	});
+</script>
+<form action="/index.php" method="GET" class="searchForm">
+	<input type="hidden" name="page" value="1">
+	<input type="hidden" name="lang" value="nl">
+	<input class="search" name="search" value="Zoeken" size="15" onfocus="this.value='';this.onfocus='';">
+	<input class="searchFormSubmit" type="submit" value="zoek">
+</form>
+</td>
+				</tr>
+			</table>
+			</td>
+			<td id="spacer_white"><img src="/images/spacer.gif" width="55px"></td>
+		</tr>
+	</table>
+	<table cellpadding="0" cellspacing="0">
+		<tr>
+			<td id="banner">
+				<img src="/images/header_01.png">
+			</td>
+		</tr>
+	</table>
+	<table cellpadding="0" cellspacing="0">
+		<tr>
+			<td class="left"><span>Menu</span></td>
+			<td class="middle">
+		<h1>News</h1>
+			</td>
+			<td class="right"></td>
+		</tr>
+		<tr>
+			<td id="menu">
+			<div class="newsathome">
+<div class="paragraph" id="p1">
+	<h2>eCRF</h2>
+
+		<span class="image_left">
+			
+			<span class="image_subtitle">
+				
+			</span>
+		</span>
+		
+	<p>
+		<script type="text/javascript">// <![CDATA[  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-33247551-1']);  _gaq.push(['_trackPageview']);  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();// ]]></script><p><a title="BIOSTAT eCRF" href="https://rdc.umcg.nl" target="_blank">Please click on this link to go to the eCRF login page.</a></p>
+	</p>
+
+
+</div><div class="paragraph" id="p2">
+	<h2>Patient registration</h2>
+
+		<span class="image_left">
+			
+			<span class="image_subtitle">
+				
+			</span>
+		</span>
+		
+	<p>
+		<script type="text/javascript">// <![CDATA[  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-33247551-1']);  _gaq.push(['_trackPageview']);  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();// ]]></script><p><a title="Patient registration module" href="https://applicaties.umcg.nl/tccweb/utopia/utopia.aspx" target="_blank">Please click on this link to login to the patient registration module.</a></p>
+	</p>
+
+
+</div>			</div>
+			<div class="paragraph">
+			</div><br clear="all">
+			</td>
+			<td id="content">
+				<div class="text">
+<div class="paragraph" id="p1">
+	<h2>Welcome</h2>
+
+		<span class="image_left">
+			
+			<span class="image_subtitle">
+				
+			</span>
+		</span>
+		
+	<p>
+		<script type="text/javascript">// <![CDATA[  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-33247551-1']);  _gaq.push(['_trackPageview']);  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();// ]]></script><p>Welcome to the BIOSTAT-CHF website. On our website we publish information regarding the BIOSTAT-CHF project, its progress and regularly we publish any&nbsp;news regarding the project.</p><p>Please read below the latest news, as well as a description of the project.</p>
+	</p>
+
+
+</div><div class="paragraph" id="p2">
+	<h2>Recruitment Completed!!</h2>
+
+		<span class="image_left">
+			
+			<span class="image_subtitle">
+				
+			</span>
+		</span>
+		
+	<p>
+		<p>Dear investigators of BIOSTAT-CHF,</p><p>It is with great pleasure that we can announce that on December 18 in the afternoon, patient number 2500 of the BIOSTAT-CHF index study was enrolled!!</p><p>The first patient was recruited on December 20<sup>th</sup>, 2010. Over the past weeks, months and for <span style="text-decoration: underline;">almost</span> 2 years you have all been so very important in this great success.</p><p>One practical remark; we realize that some of you may have already scheduled patients, so further patient recruitment can continue until tomorrow, Wednesday December 19<sup>th</sup> 2012, after which we will officially close our patient registration system.</p><p>The first part of our mission has now succeeded, and we thank all of you deeply, for all the efforts and help that you have given. The next steps will be focusing on data, samples and most importantly events. But we leave that for next year, for now please, just a big thank you for your efforts to date! Have a very Merry Christmas and a Happy New Year!</p><p>With best wishes,</p><p>Bart Scheerder</p><p>Project manager BIOSTAT-CHF index study</p>
+	</p>
+
+
+</div><div class="paragraph" id="p3">
+	<h2>Overall Top Recruiters - final status</h2>
+
+		<span class="image_left">
+			
+			<span class="image_subtitle">
+				
+			</span>
+		</span>
+		
+	<p>
+		<p>1&nbsp; - 157 patients - ITA&nbsp; - site 501 - Brescia - Prof.dr. M. Metra  <br />
+1&nbsp; - 157 patients - UK&nbsp;&nbsp; - site 801 - Hull - Prof.dr. J. Cleland&nbsp;  <br />
+3&nbsp; - 137 patients - NL&nbsp;&nbsp; - site 101 - Groningen - Prof.dr. D.J. van Veldhuisen  <br />
+4&nbsp; -&nbsp;116 patients - NL&nbsp;&nbsp; - site 103 - Breda - Dr. Dunselman&nbsp;&nbsp;  <br />
+5&nbsp; -&nbsp;104 patients - GRE&nbsp; - site 401 - Athens, Akkros - Prof.dr. F. Kolokatis&nbsp;&nbsp;&nbsp;  <br />
+6&nbsp; -&nbsp;100 patients - SER&nbsp; - site 310 - Belgrade - Prof.dr. Radovanovic&nbsp;&nbsp;  <br />
+7&nbsp; -&nbsp;95&nbsp; patients - POL&nbsp; - site 701 - Wroclaw - Prof.dr. P. Ponikowski&nbsp;&nbsp;&nbsp;&nbsp;  <br />
+8&nbsp; -&nbsp;91&nbsp; patients - GER&nbsp; - site 301 - Berlin - Dr.med. H.D. D&uuml;ngen&nbsp;  <br />
+9 &nbsp;-&nbsp;70&nbsp; patients - SER&nbsp; - site 306 - Usice - Dr. Trifunovic&nbsp;&nbsp;&nbsp;  <br />
+10&nbsp;-&nbsp;61&nbsp; patients - NL&nbsp;&nbsp;&nbsp; - site 107 - Deventer - Dr. Lok  <br />
+11 -&nbsp;59&nbsp; patients -&nbsp;POL&nbsp; - site&nbsp;704 -&nbsp;Walbrzych&nbsp;- Dr. A. Jurczyk  <br />
+12 -&nbsp;57&nbsp; patients - FRA&nbsp; - site 210 - Grenoble - Dr. Y. Neuder  <br />
+13 -&nbsp;54&nbsp; patients - NOR - site 601 - Stavanger - Prof.dr. K. Dickstein  <br />
+14 -&nbsp;52&nbsp; patients - SWE - site 602 - Link&ouml;ping - Dr. U. Dahlstr&ouml;m  <br />
+15 -&nbsp;51&nbsp; patients - POL&nbsp; - site 703 - Piotkow Trybunalski&nbsp;- Dr. Ogorek  <br />
+15 - 51 patients - SER - site 315 - Belgrade - Prof.dr. S. Dimkovic</p>
+	</p>
+
+
+</div><div class="paragraph" id="p4">
+	<h2>Final Recruitment Push - Top recruiters since September 2012!</h2>
+
+		<span class="image_left">
+			
+			<span class="image_subtitle">
+				
+			</span>
+		</span>
+		
+	<p>
+		<p>There is a final recruitment push since September. Below you can see the top 10 highest recruitment numbers since September:</p><p>1&nbsp; -&nbsp;35&nbsp; patients - GRE&nbsp; - site 401 - Athens, Akkros - Prof.dr. F. Kolokatis&nbsp;&nbsp;&nbsp;  <br />
+2&nbsp; -&nbsp;32&nbsp;&nbsp;patients - NL&nbsp;&nbsp; - site 103 - Breda - Dr. Dunselman&nbsp;&nbsp;&nbsp;&nbsp; <br />
+3&nbsp; -&nbsp;29&nbsp; patients - SER&nbsp; - site 310 -&nbsp;Belgrade - Prof.dr.&nbsp;Radovanovic&nbsp;&nbsp; <br />
+4&nbsp;&nbsp;-&nbsp;28&nbsp; patients -&nbsp;POL&nbsp; - site&nbsp;704 -&nbsp;Walbrzych&nbsp;- Dr. A. Jurczyk&nbsp;&nbsp;&nbsp; <br />
+4&nbsp; - 28&nbsp;&nbsp;patients - ITA&nbsp; - site 501 - Brescia - Prof.dr. M. Metra&nbsp;&nbsp;&nbsp; <br />
+6&nbsp; -&nbsp;27&nbsp;&nbsp;patients - UK&nbsp;&nbsp; - site 801 - Hull - Prof.dr. J. Cleland&nbsp;&nbsp;&nbsp;&nbsp; <br />
+7&nbsp; -&nbsp;26&nbsp; patients - SER&nbsp; - site 303 -&nbsp;Vrsac - Prof.dr. V. Petrovic&nbsp;&nbsp; <br />
+8&nbsp; -&nbsp;20&nbsp; patients - SER&nbsp; - site 306 -&nbsp;Usice - Dr. Trifunovic&nbsp;  <br />
+9&nbsp; -&nbsp;16&nbsp; patients -&nbsp;NL&nbsp; &nbsp; - site&nbsp;107 -&nbsp;Deventer - Dr.&nbsp;Lok&nbsp;  <br />
+10-&nbsp;15&nbsp; patients - POL&nbsp; - site 701 - Wroclaw - Prof.dr. P. Ponikowski  <br />
+10-&nbsp;15&nbsp; patients - SLO&nbsp; - site 311 -&nbsp;Golnik - Prof.dr. M. Lainscac  <br />
+10-&nbsp;15&nbsp; patients -&nbsp;ITA &nbsp; - site&nbsp;506 -&nbsp;Napoles - Dr. Limongelli <br />
+10-&nbsp;15&nbsp;&nbsp;patients -&nbsp;NL&nbsp; &nbsp; - site 101 -&nbsp;Groningen - Prof.dr. D.J. van Veldhuisen</p>
+	</p>
+
+
+</div><div class="paragraph" id="p5">
+	<h2>2000th Patient included!</h2>
+
+		<span class="image_left">
+			
+			<span class="image_subtitle">
+				
+			</span>
+		</span>
+		
+	<p>
+		<p>On September 11th, the 2000th BIOSTAT patient has been included by the team of site 401: Athens, Akkros of Dr. Fotis Kolokathis assisted by Dr. Giannis Alexanian. WELL DONE!</p>
+	</p>
+
+
+</div><div class="paragraph" id="p6">
+	<h2>The Netherlands first to reach official target!</h2>
+
+		<span class="image_left">
+			
+			<span class="image_subtitle">
+				
+			</span>
+		</span>
+		
+	<p>
+		<p>The BIOSTAT-CHF centers in the Netherlands have already reached their official target of 315 patients (18 June 2012). Even though we started two months later than anticipated, they still managed to include these patients four months ahead of schedule!</p><p><strong>CONGRATULATIONS TO ALL CENTERS !!!</strong></p><table style="width: 323pt; border-collapse: collapse;" border="0" cellspacing="0" cellpadding="0" width="431"><colgroup span="1"><col style="width: 323pt;" span="1" width="431"></col></colgroup><tbody><tr style="height: 15pt;" height="20"><td style="width: 323pt; height: 15pt;" width="431" height="20">Site 101 - Groningen - Prof.dr. D.J. van Veldhuisen - 115 patients</td></tr><tr style="height: 15pt;" height="20"><td style="height: 15pt;" height="20"><p>Site 103 - Breda - Dr. Dunselman - 78 patients</p></td></tr><tr style="height: 15pt;" height="20"><td style="height: 15pt;" height="20"><p>Site 107 - Deventer - Drs. Lok - 41 patients</p></td></tr><tr style="height: 15pt;" height="20"><td style="height: 15pt;" height="20"><p>Site 102 - Goes - Drs. Roeters van Lennep - 28 patients</p></td></tr><tr style="height: 15pt;" height="20"><td style="height: 15pt;" height="20">Site 104 - Meppel - Drs. Hoogslag - 21 patients</td></tr><tr style="height: 15pt;" height="20"><td style="height: 15pt;" height="20">Site 106 - Sneek - Dr. van Haelst - 20 patients</td></tr><tr style="height: 15pt;" height="20"><td style="height: 15pt;" height="20">Site 105 - Almelo - Dr. G. Linssen - 12 patients</td></tr></tbody></table><p><strong>PLEASE DON'T STOP!</strong></p><p>Because there are other countries which are struggling, we do ask that all sites continue recruiting until we reach the 2500th patient.</p>
+	</p>
+
+
+</div><div class="paragraph" id="p7">
+	<h2>Top Recruiters</h2>
+
+		<span class="image_left">
+			
+			<span class="image_subtitle">
+				
+			</span>
+		</span>
+		
+	<p>
+		<p>In June 2012 a new recruitment record was set by the site of Prof.dr. S. Dimkovic. The BIOSTAT-CHF team at his site recruited 20 patients in the month June. This is an exceptional achievement!</p><p>1&nbsp;&nbsp; - 20 patients - SER&nbsp; - Site 315 - Belgrade&nbsp;&nbsp;&nbsp; - Prof.dr. S. Dimkovic - jun-12  <br />
+2&nbsp;&nbsp; - 16 patients - ITA&nbsp;&nbsp; - Site 501 - Brescia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Prof.dr. M. Metra - sep-11  <br />
+3&nbsp;&nbsp; - 15 patients - UK&nbsp;&nbsp;&nbsp; - Site 801 - Hull&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Prof.dr. J. Cleland - nov-11&nbsp;  <br />
+3&nbsp;&nbsp; - 15 patients - POL&nbsp; - Site 704 - Walbrzych - Dr. A. Jurczyk - oct-12  <br />
+5&nbsp;&nbsp; - 14 patients - SER&nbsp; - Site 310 - Belgrade&nbsp;&nbsp;&nbsp; - Prof. Radovanovic - mar - 12&nbsp;  <br />
+5&nbsp;&nbsp; - 14 patients - POL&nbsp; - Site 701 - Wroclaw&nbsp;&nbsp; &nbsp;- Prof.dr. P.&nbsp;Ponikowski - oct-12  <br />
+7&nbsp;&nbsp; - 13 patients - UK&nbsp;&nbsp;&nbsp; - Site 801 - Hull&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Prof.dr. J. Cleland - jun-11&nbsp;  <br />
+7&nbsp;&nbsp; - 13 patients - NL&nbsp;&nbsp;&nbsp; - Site 103 - Breda&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Dr. Dunselman - jul-11&nbsp;  <br />
+7&nbsp;&nbsp; - 13 patients - SER&nbsp; - Site 310 - Belgrade&nbsp;&nbsp;&nbsp; - Prof. Radovanovic - jan-12&nbsp;  <br />
+7&nbsp;&nbsp; - 13 patients - NL&nbsp;&nbsp;&nbsp; - Site 103 - Breda&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Dr. Dunselman - oct-12&nbsp;  <br />
+11&nbsp; - 12 patients - SWE - Site 602 - Link&ouml;ping&nbsp;&nbsp; - Ulf Dahlstr&ouml;m - mrt-11&nbsp;  <br />
+11&nbsp; - 12 patients - ITA&nbsp; - Site 501 - Brescia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Prof.dr. M. Metra - jun-11&nbsp;  <br />
+11&nbsp; - 12 patients - POL&nbsp; - Site 704 - Walbrzych - Dr. A. Jurczyk - feb-12  <br />
+11&nbsp; -&nbsp;12&nbsp;patients - GRE&nbsp; - site 401 - Athens&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;- Prof.dr. F. Kolokatis&nbsp;</p>
+	</p>
+
+
+</div><div class="paragraph" id="p8">
+	<h2>1750 patients included!</h2>
+
+		<span class="image_left">
+			
+			<span class="image_subtitle">
+				
+			</span>
+		</span>
+		
+	<p>
+		<p>On June 19th the 1750th BIOSTAT patient has been included by the team of site 702: Dr. Berkowski of the SP ZOZ Kłodzko, Poland. This site has impressed the BIOSTAT study management with a very steady recruitment rate over the past year,&nbsp; WELL DONE! As recruitment for the study as a whole is behind, we continue to need more and more patients so we hope they will continue to enroll as many patients as they can!</p><p>For the remaining 750 patients the countdown to zero has now begun!</p>
+	</p>
+
+
+</div><div class="paragraph" id="p9">
+	<h2>1500 included, start of countdown</h2>
+
+		<span class="image_left">
+			
+			<span class="image_subtitle">
+				
+			</span>
+		</span>
+		
+	<p>
+		<p>The 1500th patient was included in the&nbsp;index&nbsp;study. We have now started our countdown. Only 1000 more to go!</p>
+	</p>
+
+
+</div><div class="paragraph" id="p10">
+	<h2>Brescia recruited 100th patient</h2>
+
+		<span class="image_left">
+			
+			<span class="image_subtitle">
+				
+			</span>
+		</span>
+		
+	<p>
+		<p>On Tuesday the 14th of February, 2012, the study team in Brescia (Italy) were the first to recruit 100 patients in their BIOSTAT-CHF site. This is a <span style="text-decoration: underline;">very significant achievement</span>.</p><p>The BIOSTAT-CHF Study Coordination Center would like to congratulate Prof.dr. Marco Metra and his entire study team with this achievement!</p>
+	</p>
+
+
+</div><div class="paragraph" id="p11">
+	<h2>1000th patient in</h2>
+
+		<span class="image_left">
+			
+			<span class="image_subtitle">
+				
+			</span>
+		</span>
+		
+	<p>
+		<p>2011 was a very succesful year. The recruitment target for that year&nbsp;was met and we nearly recruited a&nbsp;thousand patients in a single year.</p><p>As of January 5th 2012, the 1000th patient has been enrolled in Nancy, France.</p><p>All partners are thanked for their contribution!</p>
+	</p>
+
+
+</div><div class="paragraph" id="p12">
+	<h2>First samples up for analysis!</h2>
+
+		<span class="image_left">
+			
+			<span class="image_subtitle">
+				
+			</span>
+		</span>
+		
+	<p>
+		<p>The first samples were collected from different sites throughout Europe. In total samples were collected from 117 patients.</p><p>Part of these samples were already forwarded for analysis to the University of Leicester, to the team of Professor Ng.</p>
+	</p>
+
+
+</div><div class="paragraph" id="p13">
+	<h2>100 patients in !</h2>
+
+		<span class="image_left">
+			
+			<span class="image_subtitle">
+				
+			</span>
+		</span>
+		
+	<p>
+		<p>Already after a few months of recruitment, the 100th patient was enrolled.</p>
+	</p>
+
+
+</div><div class="paragraph" id="p14">
+	<h2>First patient recruited!</h2>
+
+		<span class="image_left">
+			
+			<span class="image_subtitle">
+				
+			</span>
+		</span>
+		
+	<p>
+		<script type="text/javascript">// <![CDATA[  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-33247551-1']);  _gaq.push(['_trackPageview']);  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();// ]]></script><p>In December 2010, in both The Netherlands (Groningen) and Norway (Stavanger) the first BIOSTAT-CHF patients were recruited! The study is now running!</p>
+	</p>
+
+
+</div><div class="paragraph" id="p15">
+	<h2>The project</h2>
+
+		<span class="image_left">
+			
+			<span class="image_subtitle">
+				
+			</span>
+		</span>
+		
+	<p>
+		<p>Heart Failure is common in Europe and its prevalence is increasing as our population ages. Despite major improvements in care since the early 90s, it is still related to poor prognosis, an impaired quality of life and high health care costs. Many new therapies have failed to further improve outcome. One obvious reason is that the response to treatment is not homogenous. Treatment may need to be tailored to the individual patient. BIOSTAT-CHF aims to identify patients with a poor outcome, despite currently recommended therapy using information on demographics, gender, existing biomarkers, genetics and proteomics. Both genomic and proteomic analyses recently underwent major technical improvements, resulting in genome-wide analyses and detection of low abundance proteins. In BIOSTAT-CHF an index cohort of 2500 patients with worsening heart failure, will be recruited. Treatment will be optimized according to the heart failure guidelines of the European Society of Cardiology with diuretics, ACE-inhibitors, betablockers and aldosterone antagonists. When patients are optimally treated, any change in symptoms and exercise tolerance will be evaluated. Patients will then be followed up for a mean of 18 months, and mortality and heart failure hospitalizations will be recorded. By using a systems biology approach, incorporating information from demographic, biomarker, genomic, proteomic and the initial response to therapy, a risk prediction model will be designed, identifying patients with a poor outcome on currently recommended therapy. This model will then be validated in a real-life cohort of 2500 heart failure patients. BIOSTAT-CHF will therefore be a major step towards personalized medicine. Identifying patients with a poor outcome on currently recommended therapy might lead to further development of targeted therapies, eventually leading to improvements in outcome for patients with heart failure in Europe.</p>
+	</p>
+
+
+</div><div class="paragraph" id="p16">
+	<h2>Funding</h2>
+
+		<span class="image_left">
+			<script type="text/javascript">
+	$(function() {
+		$( ".lightbox" ).lightbox();
+	});
+</script>
+<a class="lightbox" href="/data/imagecache/eu-flag_0_1.gif" title="">
+<img src="/data/imagecache/eu-flag_0_2.gif" alt="" title=""></a>
+
+			<span class="image_subtitle">
+				
+			</span>
+		</span>
+		
+	<p>
+		<p>The BIOSTAT-CHF study has become possible due to the FP7 Health grant that the European Union has made available.</p>
+	</p>
+
+
+</div><div class="paragraph" id="p17">
+	<h2>FP7</h2>
+
+		<span class="image_left">
+			<script type="text/javascript">
+	$(function() {
+		$( ".lightbox" ).lightbox();
+	});
+</script>
+<a class="lightbox" href="/data/imagecache/FP7-gen-RGB_0_0_1.jpg" title="">
+<img src="/data/imagecache/FP7-gen-RGB_0_0_2.jpg" alt="" title=""></a>
+
+			<span class="image_subtitle">
+				
+			</span>
+		</span>
+		
+	<p>
+		<p>The aim of the EU investment in Health research is to improve the health of European citizens, to address global health issues and to boost the competitiveness of European health-related industries. For detailed information, please refer to the <a title="Health Research website" href="http://ec.europa.eu/research/health/index_en.html" target="_blank">Health Research website</a>, or the <a title="CORDIS website" href="http://cordis.europa.eu/fp7/health/home_en.html" target="_blank">CORDIS website</a>.</p>
+	</p>
+
+
+</div>				</div>
+			</td>
+			<td id="spacer_blue"></td>
+		</tr>
+		<tr>
+			<td class="footer_corner_bg">
+			<p class="adress">
+				Trial Coordination Center<br>
+				Department of Epidemiology<br>
+				University medical Center Groningen<br>
+				Hanzeplein 1<br>
+				9713 GZ Groningen<br>
+				The Netherlands<br>
+				T: +31 - (0)50 - 361 8061<br>
+				F: +31 - (0)50 - 361 8062<br>
+				<a href="/nl/38/Contact.html" title="Neem contact op">E: info@biostat-chf.eu</a>
+			</p>
+			<img src="/images/footer_corner.gif" align="right" style="margin-right: -5px;"></td>
+			<td class="footer_bg" colspan="2">
+				<ul class="mainMenu">
+				</ul>
+			</td>
+		</tr>
+	</table>
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+	try {
+		var pageTracker = _gat._getTracker("UA-17431833-6");
+		pageTracker._trackPageview();
+	} catch(err) {}</script>
+	</body>
+</html>

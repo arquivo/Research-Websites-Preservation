@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html prefix="og: http://ogp.me/ns#" class="no-js lt-ie9 lt-ie8 lt-ie7"  lang="en-gb"> <![endif]-->
+<!--[if IE 7]>         <html prefix="og: http://ogp.me/ns#" class="no-js lt-ie9 lt-ie8"  lang="en-gb"> <![endif]-->
+<!--[if IE 8]>         <html prefix="og: http://ogp.me/ns#" class="no-js lt-ie9"  lang="en-gb"> <![endif]-->
+<!--[if gt IE 8]><!--> <html prefix="og: http://ogp.me/ns#" class="no-js" lang="en-gb"> <!--<![endif]-->
+    <head>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+          <base href="http://sandra.aero/2013/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>SANDRA Project</title>
+  <link href="http://sandra.aero/2013/index.php" rel="canonical" />
+  <link href="/2013/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/2013/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/2013/templates/roksmart_template/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/2013/plugins/editors/jckeditor/typography/typography2.php" type="text/css" />
+  <link rel="stylesheet" href="/2013/components/com_k2/css/k2.css" type="text/css" />
+  <link rel="stylesheet" href="/2013/plugins/system/rokbox/assets/styles/rokbox.css" type="text/css" />
+  <link rel="stylesheet" href="/2013/templates/roksmart_template/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="/2013/plugins/system/helix/css/font-awesome.css" type="text/css" />
+  <link rel="stylesheet" href="/2013/templates/roksmart_template/css/bootstrap-responsive.min.css" type="text/css" />
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400" type="text/css" />
+  <link rel="stylesheet" href="/2013/templates/roksmart_template/css/template.css" type="text/css" />
+  <link rel="stylesheet" href="/2013/templates/roksmart_template/css/presets/preset2.css" type="text/css" />
+  <link rel="stylesheet" href="/2013/modules/mod_sp_quickcontact/assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="http://sandra.aero/2013/media/com_uniterevolution/assets/rs-plugin/css/settings.css" type="text/css" />
+  <link rel="stylesheet" href="http://sandra.aero/2013/media/com_uniterevolution/assets/rs-plugin/css/captions.css" type="text/css" />
+  <style type="text/css">
+.container{max-width:960px}body, p, h1, h2, h3, h4, h5, h6{font-family:'PT Sans'; -webkit-font-smoothing: subpixel-antialiased !important;}
+  </style>
+  <script src="/2013/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/2013/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/2013/media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/2013/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="/2013/components/com_k2/js/k2.js?v2.6.6&amp;sitepath=/2013/" type="text/javascript"></script>
+  <script src="/2013/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/2013/plugins/system/rokbox/assets/js/rokbox.js" type="text/javascript"></script>
+  <script src="/2013/plugins/system/helix/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="/2013/plugins/system/helix/js/modernizr-2.6.2.min.js" type="text/javascript"></script>
+  <script src="/2013/plugins/system/helix/js/menu.js" type="text/javascript"></script>
+  <script src="/2013/plugins/system/helix/js/helix.core.js" type="text/javascript"></script>
+  <script src="/2013/modules/mod_sp_quickcontact/assets/js/script.js" type="text/javascript"></script>
+  <script src="/2013/modules/mod_imgscrawler/crawler.js" type="text/javascript"></script>
+  <script src="http://sandra.aero/2013/media/com_uniterevolution/assets/rs-plugin/js/jquery.themepunch.plugins.min.js" type="text/javascript"></script>
+  <script src="http://sandra.aero/2013/media/com_uniterevolution/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+if (typeof RokBoxSettings == 'undefined') RokBoxSettings = {pc: '100'}jQuery(function($){
+                        
+                        
+                        function mainmenu() {
+                            $('.sp-menu').spmenu({
+                                startLevel: 0,
+                                direction: 'ltr',
+                                initOffset: {
+                                    x: 0,
+                                    y: 0
+                                },
+                                subOffset: {
+                                    x: 0,
+                                    y: 0
+                                },
+                                center: 0
+                            });
+                        }
+						
+						
+						mainmenu();
+                        
+                        $(window).on('resize',function(){
+								mainmenu();
+                        });
+                        
+                        //Mobile Menu
+                        $('#sp-main-menu > ul').mobileMenu({
+                            defaultText:'--Navigate to--',
+                            appendTo: '#sp-moble-menu'
+                        });
+                        
+                    });function keepAlive() {	var myAjax = new Request({method: "get", url: "index.php"}).send();} window.addEvent("domready", function(){ keepAlive.periodical(840000); });function addLoadEvent(func){if(typeof window.addEvent=='function'){window.addEvent('load',function(){func()});}else if(typeof window.onload!='function'){window.onload=func;}else{var oldonload=window.onload;window.onload=function(){if(oldonload){oldonload();}func();}}}addLoadEvent(function(){marqueeInit({uniqueid: 'myimgscrawler-1',style:{'width':'100%','height':'50px'},inc:2,mouse:'pause',direction:'left',valign:'middle',moveatleast:1,neutral:50,savedirection:true});});
+  </script>
+
+
+            
+</head>
+    <body  class="category homepage  ltr preset2 responsive bg hfeed clearfix">
+        <!--[if lt IE 8]>
+        <div class="chromeframe alert alert-danger" style="text-align:center">You are using an <strong>outdated</strong> browser. Please <a target="_blank" href="http://browsehappy.com/">upgrade your browser</a> or <a target="_blank" href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</div>
+        <![endif]-->
+        <header id="sp-header-wrapper" class=" "><div class="container"><div class="row-fluid" id="header">
+<div id="sp-logo" class="span2"><div class="logo-wrapper"><a href="/2013"><img alt="" class="image-logo" src="/2013/images/logo.png" /></a></div></div>
+
+<div id="sp-menu" class="span10">	
+					<div class="mobile-menu pull-right btn hidden-desktop" id="sp-moble-menu">
+						<i class="icon-align-justify"></i>
+					</div>
+				
+					<div id="sp-main-menu" class="visible-desktop">
+						<ul class="sp-menu level-0"><li id='menu-item-101' class="menu-item active first"><a href="http://sandra.aero/2013/" class="menu-item active first" ><span class="menu"><span class="menu-title">Home</span></span></a></li><li id='menu-item-202' class="menu-item parent "><a href="/2013/index.php/about-sandra" class="menu-item parent " ><span class="menu"><span class="menu-title">About SANDRA</span></span></a><div class="sp-submenu"><div class="sp-submenu-wrap"><div class="sp-submenu-inner clearfix" style="width: 200px;"><div class="megacol col1 first" style="width: 200px;"><ul class="sp-menu level-1"><li id='menu-item-206' class="menu-item first"><a href="/2013/index.php/about-sandra/project-goals" class="menu-item first" ><span class="menu"><span class="menu-title">Project goals</span></span></a></li><li id='menu-item-207' class="menu-item"><a href="/2013/index.php/about-sandra/legal-information" class="menu-item" ><span class="menu"><span class="menu-title">Legal information</span></span></a></li><li id='menu-item-208' class="menu-item last"><a href="/2013/index.php/about-sandra/the-sandra-team" class="menu-item last" ><span class="menu"><span class="menu-title">The SANDRA team</span></span></a></li></ul></div></div></div></div></li><li id='menu-item-203' class="menu-item parent "><a href="/2013/index.php/project" class="menu-item parent " ><span class="menu"><span class="menu-title">Project</span></span></a><div class="sp-submenu"><div class="sp-submenu-wrap"><div class="sp-submenu-inner clearfix" style="width: 200px;"><div class="megacol col1 first" style="width: 200px;"><ul class="sp-menu level-1"><li id='menu-item-209' class="menu-item first"><a href="/2013/index.php/project/sub-projects" class="menu-item first" ><span class="menu"><span class="menu-title">Sub Projects</span></span></a></li><li id='menu-item-211' class="menu-item"><a href="/2013/index.php/project/scientific-publications" class="menu-item" ><span class="menu"><span class="menu-title">Scientific Publications</span></span></a></li><li id='menu-item-225' class="menu-item"><a href="/2013/index.php/project/downloads" class="menu-item" ><span class="menu"><span class="menu-title">Submitted Public Deliverables</span></span></a></li><li id='menu-item-257' class="menu-item"><a href="/2013/index.php/project/fuf-matl" class="menu-item" ><span class="menu"><span class="menu-title">Final User Forum material</span></span></a></li><li id='menu-item-248' class="menu-item last"><a href="/2013/index.php/project/upcoming-events" class="menu-item last" ><span class="menu"><span class="menu-title">Upcoming Events</span></span></a></li></ul></div></div></div></div></li><li id='menu-item-204' class="menu-item last parent "><a href="/2013/index.php/news-press" class="menu-item last parent " ><span class="menu"><span class="menu-title">News &amp; Press</span></span></a><div class="sp-submenu"><div class="sp-submenu-wrap"><div class="sp-submenu-inner clearfix" style="width: 200px;"><div class="megacol col1 first" style="width: 200px;"><ul class="sp-menu level-1"><li id='menu-item-277' class="menu-item first"><a href="/2013/index.php/news-press/fufg" class="menu-item first" ><span class="menu"><span class="menu-title">Final User Forum - Gallery</span></span></a></li></ul></div></div></div></div></li></ul>        
+					</div>  				
+				</div>
+</div></div></header><section id="sp-slider-wrapper" class=" "><div class="row-fluid" id="slider">
+<div id="sp-slides" class="span12">	
+				
+				<!-- START REVOLUTION SLIDER ver. 2.1.7 -->
+				
+				<div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;height:145px;width:1024px;direction:ltr;">
+					<div id="rev_slider_1_1" class="rev_slider" style="display:none;height:145px;width:1024px;">						
+										<ul>
+								
+					<li data-transition="fade" data-slotamount="7" data-masterspeed="300" > 
+					    
+						<img src="http://sandra.aero/2013/images/slidehows/sandra_header1.jpg" alt="sandra_header1" />
+						
+											</li>
+									
+					<li data-transition="fade" data-slotamount="7" data-masterspeed="300" > 
+					    
+						<img src="http://sandra.aero/2013/images/slidehows/sandra_header2.jpg" alt="sandra_header2" />
+						
+											</li>
+								</ul>
+														</div>
+				</div>
+							
+			<script type="text/javascript">
+				
+				var tpj=jQuery;
+				
+				
+				var revapi1;
+				
+				tpj(document).ready(function() {
+				
+				if (tpj.fn.cssOriginal != undefined)
+					tpj.fn.css = tpj.fn.cssOriginal;
+				
+				if(tpj('#rev_slider_1_1').revolution == undefined)
+					revslider_showDoubleJqueryError('#rev_slider_1_1',"joomla");
+				else				
+					revapi1 = tpj('#rev_slider_1_1').show().revolution(
+					 {
+						delay:9000,
+						startwidth:1024,
+						startheight:145,
+						hideThumbs:200,
+						
+						thumbWidth:100,
+						thumbHeight:50,
+						thumbAmount:2,
+						
+						navigationType:"bullet",
+						navigationArrows:"nexttobullets",
+						navigationStyle:"square-old",
+						
+						touchenabled:"on",
+						onHoverStop:"off",
+						
+						shadow:0,
+						fullWidth:"off",
+
+						navigationHAlign:"center",
+						navigationVAlign:"bottom",
+						navigationHOffset:0,
+						navigationVOffset:20,
+								
+						stopLoop:"off",
+						stopAfterLoops:-1,
+						stopAtSlide:-1,
+								
+						shuffle:"off",
+						
+						hideSliderAtLimit:0,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0					});
+				
+				});	//ready
+				
+			</script>
+			
+							<!-- END REVOLUTION SLIDER -->
+				</div>
+</div></section><section id="sp-main-body-wrapper" class=" "><div class="container"><div class="row-fluid" id="main-body">
+<div id="sp-message-area" class="span12">
+<div id="system-message-container">
+<div id="system-message">
+</div>
+</div><section id="sp-component-area-wrapper" class=" "><div class="row-fluid" id="component-area">
+<div id="sp-component-area" class="span12"><section id="sp-component-wrapper"><div id="sp-component">
+<section class="blog ">
+	
+	    
+    
+	    
+				
+					<section class="items-leading">
+						<div class="leading-1">
+				<article class="post-96 post hentry status-publish category-latest-news">
+
+            <header class="entry-header">
+            <h2 class="entry-title">
+                                    <a href="/2013/index.php/96-sandra-2nd-user-forum-2" rel="bookmark" title="SANDRA project successfully passed the Final Review with EC">
+                    SANDRA project successfully passed the Final Review with EC</a>
+                                </h2>
+        </header>
+    
+    
+            
+    <section class="entry-content">  
+
+		
+		
+				
+		<p style="text-align: justify;">
+	<img alt="" class="cke-resize cke-resize" src="/2013/images/sandra_pm_team_400x337(1).jpg" style="margin: 0px 10px 10px 0px; float: left; width: 400px; height: 337px;" /></p>
+<p style="text-align: justify;">
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;"><strong>Florence, 4<sup>th</sup> December 2013 –</strong> As a final step SANDRA project management has presented to the European Commission DG Research overall activities and final results.</span></span></p>
+<p style="text-align: justify;">
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">During 4<sup>th</sup> and Final Project Review, hosted by Selex ES in one of its Florence premises, EC Project Officer Hugues FELIX, assisted by three project reviewers, have received final presentations by project coordinator and SANDRA sub-project leaders of the overall technical advancements achieved within the project and its main outcomes.</span></span></p>
+<p style="text-align: justify;">
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">The Project Officer and reviewers expressed high appreciation of the work performed by the SANDRA consortium and the results obtained. It has been highlighted the importance of the “successful proof of concept” of the seamless networking in the sky, of the new concepts for communication avionics and of the innovative airport datalink. It was stressed the importance of the successful completion of the flight trials, representing a cornerstone for the future evolution of aeronautical communications. It has been recognized that the challenges dictated by the ambitious project objectives have been overcome also thanks to an extremely motivated and complementary consortium.</span></span></p>
+<div id="ckimgrsz" style="left: 8px; top: 13px;">
+	<div class="preview">
+		&nbsp;</div>
+</div>
+<div id="ckimgrsz" style="left: 8px; top: 13px;">
+	<div class="preview">
+		&nbsp;</div>
+</div>
+    </section>
+    
+    <footer class="entry-meta">
+	
+				
+			
+		    
+    </footer>
+	
+</article>			</div>
+			<div class="clearfix"></div>
+								</section>
+	<div class="clearfix"></div>
+			
+		
+						<section class="items-row cols-2 row-0 row-fluid">
+							<div class="span6">
+					<div class="item column-1">
+						<article class="post-97 post hentry status-publish category-latest-news">
+
+            <header class="entry-header">
+            <h2 class="entry-title">
+                                    <a href="/2013/index.php/97-sandra-2nd-user-forum-3" rel="bookmark" title="SESAR COM projects and SANDRA meet to discuss the future of aeronautical communications and to identify opportunities for future cooperation between the SESAR COM project and SANDRA partners">
+                    SESAR COM projects and SANDRA meet to discuss the future of aeronautical communications and to identify opportunities for future cooperation between the SESAR COM project and SANDRA partners</a>
+                                </h2>
+        </header>
+    
+    
+            
+    <section class="entry-content">  
+
+		
+		
+				
+		<p style="text-align: justify;">
+	<img alt="" class="cke-resize cke-resize" src="/2013/images/ssesar_400x269.jpg" style="margin: 0px 10px 10px 0px; width: 400px; height: 269px;" /></p>
+<p style="text-align: justify;">
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;"><strong>Florence, 15<sup>th</sup> November 2013 - </strong>At the conclusion of SANDRA project, SESAR and SANDRA Radio and Data Link experts have met in Florence, hosted by Selex ES, to discuss about the future of aeronautical communications and to identify opportunities for future cooperation between the SESAR COM project and SANDRA partners. Several SESAR projects are dealing with communications, investigating at how new Air Traffic Management requirements for the Single European Sky will be supported and working on diverse aspects and focusing on Future Mobile data Link system definition (P15.2.4), Future Mobile Satellite Communication (P15.2.6), New Communication Technology at Airport (P9.16 and P15.2.7) and Flexible Communication Avionics (P9.44). The objective of SANDRA &nbsp;has been to design and demonstrate a proof-of-concept test bed of future IPv6-based connectivity, which integrates cockpit communications with both passenger and non-operational airline communications into a common system architecture.</span></span></p>
+<div id="ckimgrsz" style="left: 8px; top: 13px;">
+	<div class="preview">
+		&nbsp;</div>
+</div>
+<div id="ckimgrsz" style="left: 8px; top: 13px;">
+	<div class="preview">
+		&nbsp;</div>
+</div>
+    </section>
+    
+    <footer class="entry-meta">
+	
+				
+			
+		    
+    </footer>
+	
+</article>					</div>									</div>											<div class="span6">
+					<div class="item column-2">
+						<article class="post-92 post hentry status-publish category-latest-news">
+
+            <header class="entry-header">
+            <h2 class="entry-title">
+                                    <a href="/2013/index.php/project/upcoming-events" rel="bookmark" title="Final User Forum - Project results presented to the aeronautical industry">
+                    Final User Forum - Project results presented to the aeronautical industry</a>
+                                </h2>
+        </header>
+    
+    
+            
+    <section class="entry-content">  
+
+		
+		
+				
+		<p style="text-align: justify;">
+	<img alt="" class="cke-resize cke-resize" src="/2013/images/Sandra_Forum_I_small.jpg" style="margin: 0px 10px 10px 0px; width: 400px; height: 265px;" /></p>
+<p style="text-align: justify;">
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;"><b><span lang="EN-US" style="line-height: 115%;">F</span></b></span></span><b style="font-family: arial, helvetica, sans-serif; font-size: 12px;"><span lang="EN-US" style="line-height: 115%;">lorence, 14<sup>th</sup> November 2013 –&nbsp;</span></b><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;">SANDRA FP7 project’s results have been presented and discussed with aeronautical industry stakeholders during SANDRA Final User Forum, hosted by Selex ES on the 14th of November, in “Il Fuligno”, a beautiful and historical location in the historical center of Florence (Italy).</span></p>
+<p style="text-align: justify;">
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">SANDRA (Seamless Aeronautical Networking through integration of Data links Radios and Antennas) is a large aeronautical research project, with 29 partners and a budget of 24 Meuro, partially funded by the EC, aiming at demonstrating in-flight an innovative multi-link communication system based on Internet Protocol and on a flexible and modular avionics architecture, enabling new Air Transport Management (ATM) services which envisage the exchange of vast amount of data, along with other communications required by other aircraft domains such as Airline communications and passenger communications.</span></span></p>
+    </section>
+    
+    <footer class="entry-meta">
+	
+		        <a class="readmore" href="/2013/index.php/project/upcoming-events">
+            Read more: Final User Forum - Project results presented to the aeronautical industry</a>
+        		
+			
+		    
+    </footer>
+	
+</article>					</div>									</div>							
+			</section>										<section class="items-row cols-2 row-1 row-fluid">
+							<div class="span6">
+					<div class="item column-1">
+						<article class="post-93 post hentry status-publish category-latest-news">
+
+            <header class="entry-header">
+            <h2 class="entry-title">
+                                    <a href="/2013/index.php/93-sandra-aeromacs-activities-and-results-presented-at-wimax-forum-aviation-event" rel="bookmark" title="SANDRA AeroMACS activities and results presented at WiMax Forum Aviation event">
+                    SANDRA AeroMACS activities and results presented at WiMax Forum Aviation event</a>
+                                </h2>
+        </header>
+    
+    
+            
+    <section class="entry-content">  
+
+		
+		
+				
+		<p style="text-align: justify;"><img style="margin: 0px 5px 5px 0px; float: left;" src="/2013/images/wimax.png" alt="" width="260" height="74" /><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Washington, 10-11 September 2013 – SANDRA partners have been invited by WiMax Forum to present SANDRA AeroMACS activities and results during the WMF Aviation 2013 event in Washington 10-11 Sept. WiMAX Aviation 2013 was a success! Collocated with the WiMAX Forum Member Conference at Hilton Crystal City in Washington, DC, USA, this first Aviation Event drew more than 100 attendees bringing together the key players of the Aviation Community and WiMAX ecosystem to discuss opportunities for WiMAX in the Aviation Community. Attendees were treated to a full two-day program, including speakers from WiMAX vendors, airlines, airport authorities, various government representatives from the United States, Europe and Asia, and other groups.</span></p>
+    </section>
+    
+    <footer class="entry-meta">
+	
+		        <a class="readmore" href="/2013/index.php/93-sandra-aeromacs-activities-and-results-presented-at-wimax-forum-aviation-event">
+            Read more: SANDRA AeroMACS activities and results presented at WiMax Forum Aviation event</a>
+        		
+			
+		    
+    </footer>
+	
+</article>					</div>									</div>											<div class="span6">
+					<div class="item column-2">
+						<article class="post-98 post hentry status-publish category-latest-news">
+
+            <header class="entry-header">
+            <h2 class="entry-title">
+                                    <a href="/2013/index.php/98-sandra-a-success-story-in-european-aeronautics-research-2" rel="bookmark" title="SANDRA joined the Researchers' Night in Pisa">
+                    SANDRA joined the Researchers' Night in Pisa</a>
+                                </h2>
+        </header>
+    
+    
+            
+    <section class="entry-content">  
+
+		
+		
+				
+		<p style="text-align: justify;">
+	<img alt="" src="/2013/images/resnight_400x268.jpg" style="width: 400px; height: 268px;" /></p>
+<p style="text-align: justify;">
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;"><strong>Pisa, 27 September 2013 -&nbsp;</strong>The researcher night is a mega event taking place every year on a single September night in about 300 cities all over Europe.&nbsp;</span></span><span style="font-size: 12px;"><span style="font-family:arial,helvetica,sans-serif;">As partner of the project FP7 SANDRA, the University of Pisa has invited Selex ES to show the main results of the project which has performed the flight trials onboard last June 2013.&nbsp;</span></span><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;">More than 500 people have visited the event: most of them were children, teenagers and general public.</span></p>
+<p style="text-align: justify;">
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">SANDRA has captured the attention of the visitors through the video of the flight trials and some explanations about the tangible results achieved: the system has been successfully implemented on an Airbus A320 providing wide band capabilities for general purposes even during the flight.</span></span></p>
+<p style="text-align: justify;">
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">People were favorably impressed by the fact that during the flight tests we succeeded in sending emails, browsing on the web, chatting via Skype etc. providing these features to all the people onboard (cabin crew included). Therefore the most frequently asked question has been: when this technology will be available for everyone?</span></span></p>
+    </section>
+    
+    <footer class="entry-meta">
+	
+				
+			
+		    
+    </footer>
+	
+</article>					</div>									</div>							
+			</section>								
+		
+			
+<section class="items-more">
+	<h3 class="item-title">More Articles...</h3>
+	<ul>
+			<li>
+			<a href="/2013/index.php/91-sandra-a-success-story-in-european-aeronautics-research">
+				SANDRA: a success story in European Aeronautics Research 			</a>
+		</li>
+			<li>
+			<a href="/2013/index.php/90-sandra-project-demonstrate-in-flight-new-ip-based-avionic-communication-system">
+				SANDRA project demonstrate in flight new IP based avionic communication system			</a>
+		</li>
+			<li>
+			<a href="/2013/index.php/89-icns">
+				SANDRA special session at ICNS conference			</a>
+		</li>
+			<li>
+			<a href="/2013/index.php/76-sandra-systems-passed-the-emi-laboratory-tests">
+				SANDRA systems passed the EMI laboratory tests			</a>
+		</li>
+			<li>
+			<a href="/2013/index.php/87-september-29-2012-1st-sandra-user-forum">
+				 September 29, 2012, 1st SANDRA User Forum			</a>
+		</li>
+			<li>
+			<a href="/2013/index.php/85-march-06-08-2012-atm-atc-global-2012">
+				March 06-08, 2012, ATM/ATC Global 2012			</a>
+		</li>
+			<li>
+			<a href="/2013/index.php/88-february-08-2012-2nd-audit">
+				 February 08, 2012, 2nd Audit			</a>
+		</li>
+			<li>
+			<a href="/2013/index.php/82-october-16-20-2011-dasc">
+				October 16-20, 2011, DASC			</a>
+		</li>
+			<li>
+			<a href="/2013/index.php/74-september-2011-book-release">
+				September, 2011, Book Release			</a>
+		</li>
+			<li>
+			<a href="/2013/index.php/75-sandra-user-forum">
+				SANDRA User Forum			</a>
+		</li>
+			<li>
+			<a href="/2013/index.php/79-sandra-on-sonntags-zeitung">
+				SANDRA on Sonntags Zeitung 			</a>
+		</li>
+			<li>
+			<a href="/2013/index.php/78-sandra-on-sueddeutsche-zeitung">
+				SANDRA on Süddeutsche Zeitung			</a>
+		</li>
+			<li>
+			<a href="/2013/index.php/83-march-30-2011-aerodays">
+				March 30, 2011, Aerodays			</a>
+		</li>
+			<li>
+			<a href="/2013/index.php/73-special-session-about-aeronautical-communications-for-air-traffic-at-psats-2011">
+				Special Session about Aeronautical Communications for Air Traffic at PSATS 2011			</a>
+		</li>
+			<li>
+			<a href="/2013/index.php/86-february-02-2011-1st-audit">
+				February 02, 2011, 1st Audit			</a>
+		</li>
+			<li>
+			<a href="/2013/index.php/84-march-09-11-2010-atm-atc-global-2010">
+				March 09-11, 2010, ATM/ATC Global 2010 			</a>
+		</li>
+			<li>
+			<a href="/2013/index.php/80-sandra-kick-off-meeting">
+				SANDRA Kick-Off Meeting			</a>
+		</li>
+		</ul>
+</section>		
+			
+		
+			<section class="pagination">
+						<p class="counter">
+				Page 1 of 5			</p>
+
+						<ul><li class="pagination-active"><a>1</a></li><li><a class="" href="/2013/index.php?start=5" title="2">2</a></li><li><a class="" href="/2013/index.php?start=10" title="3">3</a></li><li><a class="" href="/2013/index.php?start=15" title="4">4</a></li><li><a class="" href="/2013/index.php?start=20" title="5">5</a></li><li><a class="next" href="/2013/index.php?start=5" title="&raquo;">&raquo;</a></li><li><a class="" href="/2013/index.php?start=20" title="End">End</a></li></ul>		</section>
+		
+</section></div></section></div>
+</div></section></div>
+</div></div></section><section id="sp-clients-wrapper" class=" "><div class="container"><div class="row-fluid" id="clients">
+<div id="sp-clients" class="span12">	<div class="module ">	
+		<div class="mod-wrapper-flat clearfix">		
+						
+<div class="ic_marquee" id="myimgscrawler-1">
+	<img src="/2013/images/partner_logos/01 AIRTEL 05.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/Acreo.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/DFS.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/DLR copy.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/EADS.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/GateHouse.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/IMST.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/INTECS.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/LioniX.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/Logo-INRIA.png" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/LogoAltys-quadri-545x146 (2009).jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/LogoDA.png" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/LogoThalesAleniaSpace.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/NLR_logo.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/SITA.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/Slot logo.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/Thales.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/UNIPI.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/USBG_University_of_Salzburg_HD_logo.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/UT_Logo_Black.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/University logo.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/alenia.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/logo MonitorSoft copy.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/logoCynerFC(A5).jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/selexes_colore.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/triagnosys_logo_dreiecke.png" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/01 AIRTEL 05.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/Acreo.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/DFS.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/DLR copy.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/EADS.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/GateHouse.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/IMST.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/INTECS.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/LioniX.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/Logo-INRIA.png" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/LogoAltys-quadri-545x146 (2009).jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/LogoDA.png" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/LogoThalesAleniaSpace.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/NLR_logo.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/SITA.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/Slot logo.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/Thales.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/UNIPI.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/USBG_University_of_Salzburg_HD_logo.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/UT_Logo_Black.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/University logo.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/alenia.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/logo MonitorSoft copy.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/logoCynerFC(A5).jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/selexes_colore.jpg" alt="" style="margin-right:10px" height="44" /><img src="/2013/images/partner_logos/triagnosys_logo_dreiecke.png" alt="" style="margin-right:10px" height="44" />	
+</div>
+		</div>
+	</div>
+	<div class="gap"></div>
+	</div>
+</div></div></section><section id="sp-bottom-wrapper" class=" "><div class="container"><div class="row-fluid" id="bottom">
+<div id="sp-bottom1" class="span4">	<div class="module ">	
+		<div class="mod-wrapper-flat clearfix">		
+							<h3 class="header">			
+					<span>Feel free to contact us</span>				</h3>
+											<script type="text/javascript">
+window.addEvent('domready',function(){
+	var sp_sc154 = new sp_sc('sp_qc_submit', {
+		name: document.id('name'),
+		modId: 154,
+		email: document.id('email'),
+		subject: document.id('subject'),
+		message: document.id('message'),
+		status: document.id("sp_qc_status"),
+		name_text: "Name...",
+		email_text: "Email...",
+		msg_text: "Message...",
+		err_msg: "All highlighted fields are required.",
+		email_warn: "Please enter a valid Email.",
+		wait_text: "Please wait...",
+		failed_text: "Email not sent!",
+		ajax_url: "http://sandra.aero/2013/modules/mod_sp_quickcontact/helper.php"
+	});
+});
+</script>
+
+<div id="sp_quickcontact154" class="sp_quickcontact">
+	<div id="sp_qc_status"></div>
+	<div class="sp_qc_clr"></div>
+	<input type="text" name="name" id="name" onfocus="if (this.value=='Name...') this.value='';" onblur="if (this.value=='') this.value='Name...';" value="Name..." />
+	
+	<input type="text" name="email" id="email" onfocus="if (this.value=='Email...') this.value='';" onblur="if (this.value=='') this.value='Email...';" value="Email..." />
+	<div class="sp_qc_clr"></div>
+	<input type="text" name="subject" id="subject" onfocus="if (this.value=='Subject...') this.value='';" onblur="if (this.value=='') this.value='Subject...';" value="Subject..." />
+	<div class="sp_qc_clr"></div>
+	<textarea name="message" id="message" onfocus="if (this.value=='Message...') this.value='';" onblur="if (this.value=='') this.value='Message...';" cols="" rows="">Message...</textarea>	
+	<div class="sp_qc_clr"></div>
+	<input id="sp_qc_submit" class="button" type="submit" value="Send Message" />
+	<div class="sp_qc_clr"></div>
+</div>		</div>
+	</div>
+	<div class="gap"></div>
+	</div>
+
+<div id="sp-bottom2" class="span4">	<div class="module ">	
+		<div class="mod-wrapper-flat clearfix">		
+							<h3 class="header">			
+					<span>Login </span>				</h3>
+											
+
+<form action="https://sandra.aero/2013/index.php" method="post" id="login-form" class="form-inline">
+		<div class="userdata">
+		<div id="form-login-username" class="control-group">
+			<div class="controls">
+				<input id="modlgn-username" type="text" name="username" class="input-large" tabindex="1" size="18" placeholder="User Name" />
+			</div>
+		</div>
+		<div id="form-login-password" class="control-group">
+			<div class="controls">
+				<input id="modlgn-passwd" type="password" name="password" class="input-large" tabindex="2" size="18" placeholder="Password" />
+			</div>
+		</div>
+				<div id="form-login-remember" class="control-group checkbox">
+			<label for="modlgn-remember" class="control-label">Remember Me</label> <input id="modlgn-remember" type="checkbox" name="remember" class="inputbox" value="yes"/>
+		</div>
+				<div id="form-login-submit" class="control-group">
+			<div class="controls">
+				<button type="submit" tabindex="3" name="Submit">Log in</button>
+			</div>
+		</div>
+					<ul class="unstyled">
+				<li>
+					<a href="/2013/index.php/component/users/?view=reset">Forgot your password?</a>
+				</li>
+				<li>
+					<a href="/2013/index.php/component/users/?view=remind">Forgot your username?</a>
+				</li>
+				<li>
+					<a href="/2013/index.php/component/users/?view=registration">
+					Create an account</a>
+				</li>
+
+			</ul>
+				<input type="hidden" name="option" value="com_users" />
+		<input type="hidden" name="task" value="user.login" />
+		<input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD0xMDE=" />
+		<input type="hidden" name="ef823c3755d44139cf1e2c6251495e65" value="1" />	</div>
+	</form>
+		</div>
+	</div>
+	<div class="gap"></div>
+	</div>
+
+<div id="sp-bottom3" class="span4">	<div class="module ">	
+		<div class="mod-wrapper clearfix">		
+							<h3 class="header">			
+					<span>Funded by</span>				</h3>
+											<div class="mod-content clearfix">	
+				<div class="mod-inner clearfix">
+					
+
+<div class="custom"  >
+	<center style="color: #333333; font-family: Helvetica, Arial, sans-serif; font-size: 11px; line-height: 16px;"></center>
+<p style="color: #333333; font-family: Helvetica, Arial, sans-serif; font-size: 11px; line-height: 16px; text-align: justify;">&nbsp;</p>
+<table style="width: 100%;" border="0" cellpadding="3" align="center">
+<tbody>
+<tr>
+<td><img style="color: #333333; font-family: Helvetica, Arial, sans-serif; font-size: 11px; line-height: 16px; text-align: -webkit-center;" src="/2013/images/partner/FP7-logo.jpg" alt="FP7-logo" width="150" height="122" /><img style="color: #333333; font-family: Helvetica, Arial, sans-serif; font-size: 11px; line-height: 16px; text-align: -webkit-center;" src="/2013/images/partner/logoEU.jpg" alt="logoEU" width="150" height="102" /></td>
+<td style="text-align: justify;"><strong style="font-family: Helvetica, Arial, sans-serif; font-size: 11px; line-height: 16px; text-align: justify;"><span style="font-size: 10pt;">Project co-funded by the European Commission within the action 'Transport (including Aeronautics)' of the 'Cooperation' Programme GA No. FP7- 233679</span></strong></td>
+</tr>
+<tr>
+<td colspan="2">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="/2013/images/EmDesk.png" alt="" /></p>
+<p style="text-align: center;"><span style="font-size: 10pt;">FP7 MANAGEMENT PLATFORM<br /></span><a href="http://www.emdesk.com"><span style="font-size: 10pt;">www.emdesk.com</span></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="color: #333333; font-family: Helvetica, Arial, sans-serif; font-size: 11px; line-height: 16px; text-align: justify;"><span style="color: #000000;"><strong><span style="font-size: 10pt;">&nbsp;</span></strong></span></p>
+<p style="color: #333333; font-family: Helvetica, Arial, sans-serif; font-size: 11px; line-height: 16px; text-align: justify;"><span style="color: #000000;"><strong><span style="font-size: 10pt;">&nbsp;</span></strong></span></p></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="gap"></div>
+	</div>
+</div></div></section><footer id="sp-footer-wrapper" class=" "><div class="container"><div class="row-fluid" id="footer">
+<div id="sp-footer1" class="span8"><span class="copyright">Copyright ©  2016 SANDRA Project. All Rights Reserved.</span></div>
+
+<div id="sp-footer2" class="span4"><a class="sp-totop" href="javascript:;" title="Gotp Top" rel="nofollow"><small>Gotp Top </small><i class="icon-caret-up"></i></a></div>
+</div></div></footer><a style="font-size:0; height:0; width:0; opacity:0; position:absolute" target="_blank" href="http://www.joomshaper.com">JoomShaper</a>        
+    </body>
+</html>

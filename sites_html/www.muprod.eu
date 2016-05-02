@@ -1,0 +1,155 @@
+﻿<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+
+<title>MuProD</title>
+    
+    <!--[if lt IE 9]>
+    <script>
+      var e = ("abbr,article,aside,audio,canvas,datalist,details," +
+        "figure,footer,header,hgroup,mark,menu,meter,nav,output," +
+        "progress,section,time,video").split(',');
+      for (var i = 0; i < e.length; i++) {
+        document.createElement(e[i]);
+      }
+    </script>
+    <![endif]-->
+    
+    <link rel="stylesheet" type="text/css" media="screen" title="Reset Stylesheet" href="estilos/html5reset-1.6.1.css">
+    <link href="estilos/estilos.css" media="screen, print" rel="stylesheet" type="text/css">
+    <link href="estilos/menu.css" media="screen, print" rel="stylesheet" type="text/css">
+    <script src="js/funciones.js"></script>
+    <script type='text/javascript'>
+		var fadeimages_home=new Array()
+		//SET IMAGE PATHS. Extend or contract array as needed
+		fadeimages_home[0]=['fotos/home/home01.jpg', '', '']
+		fadeimages_home[1]=['fotos/home/home02.jpg', '', '']
+		fadeimages_home[2]=['fotos/home/home03.jpg', '', '']
+		fadeimages_home[3]=['fotos/home/home04.jpg', '', '']
+		</script>
+    <script src="js/animacion_fotos.js"></script>
+    
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <meta name="description" content="MuproD">
+    <meta name="keywords" content="MuproD">
+     
+     
+    <meta name="author" content="Anfora, anfora@anfora.net, www.anfora.net">
+    <meta name="rating" content="General">
+    <meta name="robots" content="index, follow">
+     
+    <link rel="shortcut icon" href="http://www.muprod.eu/favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="icon" href="http://www.muprod.eu/favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="shortcut icon" href="http://www.muprod.eu/images/favicon.gif" type="image/gif">
+    <link rel="icon" href="http://www.muprod.eu/images/favicon.gif" type="image/gif">
+
+</head>
+
+<body class="body_home">
+<section id="color_web_fondo"><h1 class="ayuda-acces">MuproD</h1>
+    <section id="web_marco">
+        <section id="web" class="clearfix">
+            <section id="cabecera">
+                <section id="logo"><a href="http://www.muprod.eu"><img src="images/logo.png" alt="Logo de MuProD"></a></section>
+                <section id="arriba_menu"><nav>
+	<section id="marco">
+		<!--MENU-->
+		<ul class="menu2">
+							<li class="top"><a href="objectives.php" class="top_link" accesskey="1"><span class="down">OBJECTIVES</span>
+				<!--[if gte IE 7]><!--></a><!--<![endif]-->
+					<!--[if lte IE 6]><table><tr><td><![endif]-->
+										<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+				</li>
+							<li class="top"><a href="partners.php" class="top_link" accesskey="2"><span class="down">PARTNERS</span>
+				<!--[if gte IE 7]><!--></a><!--<![endif]-->
+					<!--[if lte IE 6]><table><tr><td><![endif]-->
+										<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+				</li>
+							<li class="top"><a href="contact-us.php" class="top_link" accesskey="3"><span class="down">CONTACT US</span>
+				<!--[if gte IE 7]><!--></a><!--<![endif]-->
+					<!--[if lte IE 6]><table><tr><td><![endif]-->
+										<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+				</li>
+							<li class="top"><a href="publications.php" class="top_link" accesskey="4"><span class="down">PUBLICATIONS</span>
+				<!--[if gte IE 7]><!--></a><!--<![endif]-->
+					<!--[if lte IE 6]><table><tr><td><![endif]-->
+										<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+				</li>
+							<li class="top"><a href="news-events.php" class="top_link" accesskey="5"><span class="down">NEWS &amp; EVENTS</span>
+				<!--[if gte IE 7]><!--></a><!--<![endif]-->
+					<!--[if lte IE 6]><table><tr><td><![endif]-->
+										<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+				</li>
+							<li class="top"><a href="private-area.php" class="top_link" accesskey="6"><span class="down">PRIVATE AREA</span>
+				<!--[if gte IE 7]><!--></a><!--<![endif]-->
+					<!--[if lte IE 6]><table><tr><td><![endif]-->
+										<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+				</li>
+							<li class="top"><a href="cluster-4zdm.php" class="top_link" accesskey="7"><span class="down">CLÚSTER 4ZDM</span>
+				<!--[if gte IE 7]><!--></a><!--<![endif]-->
+					<!--[if lte IE 6]><table><tr><td><![endif]-->
+										<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+				</li>
+					</ul>
+	  <!-- FIN MENU-->
+	</section>
+</nav></section>
+            </section>
+            <section id="home_arriba_titulo"><img src="images/titulo_home.jpg" alt="Image about Innovative proactive Quality Control System for in –process multi-stage defect reduction" title="Innovative proactive Quality Control System for in –process multi-stage defect reduction"></section>
+            <section id="home_fotos">
+                <section id="arriba_fotos">
+                    <script type="text/javascript">
+                        //new fadeshow(IMAGES_ARRAY_NAME, slideshow_width, slideshow_height, borderwidth, delay, pause (0=no, 1=yes), optionalRandomOrder)
+                        new fadeshow(fadeimages_home, 570, 285, 0, 5000, 1, "R")
+                    </script>
+                </section>
+            </section>
+            <section id="contenido">
+                <article>
+                    <section id="contenido_izq">
+                        <p>Industry is demanding solutions to avoid End Of Line (EOL) failures, solutions able to predict the defects before they are generated and solutions to immediately react and act over the generated defects when they are detected, without having to wait until the final stage of the manufacturing chain.</p>
+                        <p>Industry must produce the high quality final products at reasonable price by a low scrap and low investment manufacturing. Therefore, industry is demanding the use of intelligent and integrated inprocess measurement techniques to continuously monitor their processes, ultimately obtaining safe and stable products.</p>
+                        <p>The new integrated quality control solution proposed by MuProD involves technological, modelling and methodological innovations thus leading to the development of new hardware and software solutions. This innovative Quality Control system approach will radically change the traditional off-line quality control techniques by offering an in-process solution that will reduce up to zero the defective parts and scrap amount produced in manufacturing, obtaining more stable, reliable, competitive and sustainable production processes.</p>
+                     </section>
+                     <section id="contenido_der">
+                        <section id="home_noticias_titulo_seccion">News</section>
+                                                     <section class="home_noticia">
+                                <section class="home_noticia_titulo"><span class="verde">20/04/2015</span>&nbsp;See more about Muprod project in the next video</section>
+                                <section class="home_noticia_foto_breve">
+                                                                            <section class="home_noticia_breve_sin_foto">https://www.youtube.com/watch?v=VJTowm0S37k<br /><a href="news-events.php?cod=20">Read more</a></section>
+                                                                    </section>
+                            </section>
+                            
+                                                    <section class="home_noticia">
+                                <section class="home_noticia_titulo"><span class="verde">2014-14-11</span>&nbsp;REGIONAL INDUSTRIAL WORKSHOP ON ZERO DEFECT MANUFACTURING</section>
+                                <section class="home_noticia_foto_breve">
+                                                                            <section class="home_noticia_foto"><img src="fotos/noticias/36 month meeting_gamesa peq.jpg" alt="Imagen sobre REGIONAL INDUSTRIAL WORKSHOP ON ZERO DEFECT MANUFACTURING"></section>
+                                        <section class="home_noticia_breve_con_foto">TECNALIA and IK4 work towards the zero defect manufacturing together with the consortiums of MUPROD and MIDEMMA that they respectively coordinate.<br /><a href="news-events.php?cod=19">Read more</a></section>
+                                                                    </section>
+                            </section>
+                            
+                                             </section>
+                </article>
+            </section>
+        </section>
+    </section>
+    <footer id="pie"><section id="pie_centrado">
+    <section id="pie_1">
+        <a href="http://www.tecnalia.com" target="_blank" title="This page will open in a new window" rel="external"><img src="images/tecnalia.png" alt="Image of logo Tecnalia" /></a>
+    </section>
+    <section id="pie_2">
+        <section class="pie_titu">PROJECT COORDINATOR</section>
+        Gorrotxategi Aldazabal, Ainhoa (Tecnalia)
+        <a href="mailto:ainhoa.gorrotxategi@tecnalia.com">ainhoa.gorrotxategi@tecnalia.com</a>
+    </section>
+    <section id="pie_3">
+        <img src="images/european-commision_pie.png" alt="Image of logo European Commission within the 7th Framework Programme" />
+        <a href="european_commision_fp7.php">European Commission within the 7th Framework Programme</a>
+    </section>
+</section></footer>
+</section>
+</body>
+</html>

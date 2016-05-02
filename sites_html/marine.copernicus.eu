@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+	<base href="http://marine.copernicus.eu/" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<title>Copernicus - Marine environment monitoring service</title>
+		<script type="text/javascript" src="/js/libs/jquery-1.10.2.min.js"></script>		
+		<script type="text/javascript" src="/js/libs/jquery-ui-1.10.4.custom.min.js"></script>
+		<script type="text/javascript" src="/js/libs/jquery.fancybox.pack.js"></script>
+		<script type="text/javascript" src="/js/myocean2/jquery.common.js"></script>
+				<link rel="stylesheet" type="text/css" href="/css/cssmanager.php?version=18d51d5dbcf41a9ba65c800f9ca28819&amp;files=/css/fluid960/reset.css,/css/fluid960/text.css,/css/fluid960/960.css,/css/fluid960/layout.css,/css/fluid960/nav.css,/css/myocean2/copernicus.css,/css/libs/jquery.fancybox.css,css/modules/pnewsflash.css" media="all" />
+
+		<link rel="stylesheet" type="text/css" href="/css/cssmanager.php?version=18d51d5dbcf41a9ba65c800f9ca28819&amp;files=/css/myocean2/print.css" media="print" />
+
+		<!--[if IE 6]><link rel="stylesheet" type="text/css" href="./css/fluid960/ie6.css" media="screen" /><![endif]-->
+		<!--[if IE 7]><link rel="stylesheet" type="text/css" href="./css/myocean2/ie7.css" media="screen" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="./css/myocean2/ie8.css" media="screen" /><![endif]-->
+		<!-- HTML5 shim IE8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+<script src="/js/libs/html5shiv.js"></script>
+<![endif]-->
+		
+		<link rel="icon" type="image/x-icon" href="http://marine.copernicus.eu/img/myocean2/favicon.ico" />
+	<meta name="description" content="MyOcean Follow-On is a project granted by the European Commission within the GMES Program. The areas of benefit are: Maritime Security, Oil Spill combat, Marine Resources management, Climate Change, Seasonal Forecast, Coastal Activities, Ice Survey and Water Quality and Pollution." />
+	<meta name="keywords" content="Maritime safety, Marine resources, Coastal environment, Offshore operations, Offshore energy, Climate and seasonal forecast, Environmental impact, Pollution response, Oil spill combat, Mediterranean Sea, Arctic Ocean, Baltic Ocean, Black Sea, Atlantic Ocean, Atlantic IBI Ocean, Atlantic NWS Ocean, Routing, Ice shipping route, Ship routing, Search and Rescue, Water quality monitoring, Water pollution, Weather forecasting, Climate change scenarios, Long time series, Sea State scenarios, Operational downscaling, Temperature, Salinity, Sea Level, Sea Ice, Currents, Observations, Analysis and Forecast" />
+	<meta name="generator" content="Automne (TM)" />
+	<script type="text/javascript" src="/js/CMS_functions.js"></script>
+
+	<link rel="search" href="http://marine.copernicus.eu/automne/ase/opensearch.php?website=1&amp;search=53" type="application/opensearchdescription+xml" title="CMEMS" />
+
+	<!-- load js file of pnewsflash module -->
+	<script type="text/javascript" src="js/modules/pnewsflash/pnewsflash.js"></script>
+
+		
+		<link rel="alternate" type="application/rss+xml" title="Copernicus MEMS - All RSS feeds" href="/rss/rss.php?id=4" />
+		<link rel="alternate" type="application/rss+xml" title="Copernicus MEMS - Events / Agenda" href="/rss/rss.php?id=1" />
+		<link rel="alternate" type="application/rss+xml" title="Copernicus MEMS - Focus on" href="/rss/rss.php?id=2" />
+		<link rel="alternate" type="application/rss+xml" title="Copernicus MEMS - Multimedia" href="/rss/rss.php?id=3" />
+		
+					<script>
+				/* Products parameters tabs */
+				$(function() {
+					$( "#productsselectcontent" ).tabs().addClass( "ui-tabs-parameters ui-helper-clearfix" );
+					$( "#productsselectcontent li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+					
+					/* Tabs ackground change on tab change */
+					$("#productsselectcontent").tabs({
+						activate: function (event, ui) {
+							var backgroundClassId=ui.newTab.index()+1;
+							var productTypeClassName = "product_type_" + backgroundClassId;
+							$("#productsselectbackground").removeClass();
+							$("#productsselectbackground").addClass(productTypeClassName);
+						}
+					});
+					
+					/* Tab change on mouse over */
+					$( "#productsselectcontent" ).tabs({
+						event: "mouseover"
+					});
+					
+				});	
+				
+				/* News Tabs rotate */
+				var n=4, //number of tabs
+						i=0; // current tab
+				$(document).ready(function() {
+					$( "#featured" ).tabs({
+						event: "mouseover",
+						show: {
+							effect: "fadeIn",
+							duration: 100,
+							delay: 100
+						},
+						hide: {
+							effect: "fadeOut",
+							duration: 100,
+							delay: 100
+						}
+					});
+					setInterval(function() {
+						i = (++i < n ? i : 0);
+						$( "#featured" ).tabs( "option", "active", i);
+					}, 10000);
+				});
+				
+				/* add target="_blank" to the external links of the navigation menu */
+				function addTargetBlank() {
+					$("a[href='http://marine.copernicus.eu/web/107-collaborative-forum.php']").attr('target','_blank'); /* Forum */
+				}
+				$(document).ready(addTargetBlank);
+			</script>
+				
+					<script type="text/javascript" src="/js/myocean2/ga.js?version=2"></script>
+			</head>
+	<body class="page_1 homepage">
+		<div id="page">
+			<!-- HEADER -->
+			<header>
+				<div id="header" class="container_12 clearfix">
+					<div class="grid_3" id="toplogo"><a href="/"><img src="img/myocean2/transp_logo.png" border="0" alt="European Commission" title="Copernicus Marine environment monitoring service homepage" /></a></div>
+					<div class="grid_6" id="bannertitle">
+						<div id="bannertitlecontent">
+							<h1>Copernicus</h1>
+							<h2>Marine environment monitoring service</h2>
+							<p>Providing <span class="uppercase">Products</span> and <span class="uppercase">Services</span> for all marine applications</p>
+						</div>
+					</div>
+					<div class="grid_3" id="bannertools">
+						<div id="searchengine">
+							<div id="searchengineForm">
+								<table cellspacing="0" cellpadding="0" border="0" class="template">
+									<form action="http://marine.copernicus.eu/web/53-search.php" method="get">										<tr>
+											<td width="130">
+												<input type="text" name="q" size="18" class="input" value="" placeholder="Search terms" />							
+											</td>
+											<td>
+												<input type="submit" value="OK" alt="Search" class="send" />
+											</td>
+										</tr>
+									</form>								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+				<!-- HORIZONTAL NAV -->
+				<div id="topmenu" class="container_12 clearfix">
+					<div class="grid_12">
+						<div id="horizontalnav">
+							<nav>
+								
+								<ul class="CMS_lvl2"><li class="CMS_lvl2 CMS_nosub"><a href="http://marine.copernicus.eu/web/6-about-us.php" class="">About us</a><ul class="CMS_lvl3"><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/111-about-copernicus.php" class="">About EU Copernicus</a></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/2-about-your-copernicus-marine-service.php" class="">About your Copernicus Marine Service</a></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/129-about-mercator-ocean.php" class="">About Mercator Ocean</a></li></ul></li><li class="CMS_lvl2 CMS_nosub"><a href="http://marine.copernicus.eu/web/70-benefits.php" class="">Benefits</a><ul class="CMS_lvl3"><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/113-benefits.php" class="">Benefits</a></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/71-maritime-safety.php" class="">Maritime safety</a><ul class="CMS_lvl4"><li class="CMS_lvl4 CMS_nosub"><a href="http://marine.copernicus.eu/web/72-marine-safety-description.php" class="">Description</a></li><li class="CMS_lvl4 CMS_nosub"><a href="http://marine.copernicus.eu/web/79-marine-safety-user-feedback.php" class="">User feedback</a></li><li class="CMS_lvl4 CMS_nosub"><a href="http://marine.copernicus.eu/web/87-downstream-use-cases.php" class="">Downstream use cases</a></li></ul></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/73-marine-resources.php" class="">Marine resources</a><ul class="CMS_lvl4"><li class="CMS_lvl4 CMS_nosub"><a href="http://marine.copernicus.eu/web/74-marine-resources-description.php" class="">Description</a></li><li class="CMS_lvl4 CMS_nosub"><a href="http://marine.copernicus.eu/web/80-marine-resources-user-feedback.php" class="">User feedback</a></li><li class="CMS_lvl4 CMS_nosub"><a href="http://marine.copernicus.eu/web/88-downstream-use-cases.php" class="">Downstream use cases</a></li></ul></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/75-coastal-marine-environment.php" class="">Coastal &amp; Marine environment</a><ul class="CMS_lvl4"><li class="CMS_lvl4 CMS_nosub"><a href="http://marine.copernicus.eu/web/76-coastal-marine-environment-description.php" class="">Description</a></li><li class="CMS_lvl4 CMS_nosub"><a href="http://marine.copernicus.eu/web/81-coastal-and-marine-environment-user-feedback.php" class="">User feedback</a></li><li class="CMS_lvl4 CMS_nosub"><a href="http://marine.copernicus.eu/web/89-downstream-use-cases.php" class="">Downstream use cases</a></li></ul></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/77-weather-climate-seasonal-forecasting.php" class="">Weather, Climate &amp; seasonal forecasting</a><ul class="CMS_lvl4"><li class="CMS_lvl4 CMS_nosub"><a href="http://marine.copernicus.eu/web/78-weather-climate-seasonal-forecasting-description.php" class="">Description</a></li><li class="CMS_lvl4 CMS_nosub"><a href="http://marine.copernicus.eu/web/82-weather-climate-seasonal-forecasting-user-feedback.php" class="">User feedback</a></li><li class="CMS_lvl4 CMS_nosub"><a href="http://marine.copernicus.eu/web/90-downstream-use-cases.php" class="">Downstream use cases</a></li></ul></li></ul></li><li class="CMS_lvl2 CMS_nosub"><a href="http://marine.copernicus.eu/web/15-news.php" class="">News</a><ul class="CMS_lvl3"><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/16-news-events.php" class="">Events / Agenda</a></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/97-partners-stakeholders-news.php" class="">Partners &amp; Stakeholders news</a></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/17-focus-on.php" class="">Focus on</a></li></ul></li><li class="CMS_lvl2 CMS_nosub"><a href="http://marine.copernicus.eu/web/101-science-and-learning.php" class="">Science &amp; Learning</a><ul class="CMS_lvl3"><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/55-scientific-publications.php" class="">Scientific publications</a></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/105-specific-scientific-developments.php" class="">Specific developments</a></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/22-education.php" class="">Education</a><ul class="CMS_lvl4"><li class="CMS_lvl4 CMS_nosub"><a href="http://marine.copernicus.eu/web/37-observation.php" class="">Observation</a><ul class="CMS_lvl5"><li class="CMS_lvl5 CMS_nosub"><a href="http://marine.copernicus.eu/web/40-satellites.php" class="">Satellites</a></li><li class="CMS_lvl5 CMS_nosub"><a href="http://marine.copernicus.eu/web/41-in-situ.php" class="">In situ</a></li></ul></li><li class="CMS_lvl4 CMS_nosub"><a href="http://marine.copernicus.eu/web/38-modelling.php" class="">Modelling</a></li><li class="CMS_lvl4 CMS_nosub"><a href="http://marine.copernicus.eu/web/39-ocean-parameters.php" class="">Ocean parameters</a><ul class="CMS_lvl5"><li class="CMS_lvl5 CMS_nosub"><a href="http://marine.copernicus.eu/web/42-temperature.php" class="">Temperature</a></li><li class="CMS_lvl5 CMS_nosub"><a href="http://marine.copernicus.eu/web/43-salinity.php" class="">Salinity</a></li><li class="CMS_lvl5 CMS_nosub"><a href="http://marine.copernicus.eu/web/44-currents.php" class="">Currents</a></li><li class="CMS_lvl5 CMS_nosub"><a href="http://marine.copernicus.eu/web/45-sea-ice.php" class="">Sea ice</a></li><li class="CMS_lvl5 CMS_nosub"><a href="http://marine.copernicus.eu/web/46-sea-level.php" class="">Sea level</a></li><li class="CMS_lvl5 CMS_nosub"><a href="http://marine.copernicus.eu/web/47-wind.php" class="">Wind</a></li><li class="CMS_lvl5 CMS_nosub"><a href="http://marine.copernicus.eu/web/48-biogeochemistry.php" class="">Biogeochemistry</a></li></ul></li></ul></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/18-multimedia.php" class="">Multimedia</a></li></ul></li><li class="CMS_lvl2 CMS_nosub"><a href="http://marine.copernicus.eu/web/109-training.php" class="">Training</a><ul class="CMS_lvl3"><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/99-next-sessions.php" class="">Next sessions</a></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/95-online-tutorials.php" class="">Online tutorials</a></li></ul></li><li class="CMS_lvl2 CMS_nosub"><a href="http://marine.copernicus.eu/web/19-products-and-services.php" class="">Services portfolio</a><ul class="CMS_lvl3"><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php" class="">Access to products</a></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/56-user-registration-form.php" class="">Register now!</a></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/27-service-commitments-and-licence.php" class="">Service Commitments and Licence</a></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/25-news-flash.php" class="">News Flash</a></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/103-validation-statistics.php" class="">Validation Statistics</a></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/35-product-improvements.php" class="">Product improvements</a></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/34-products-and-services-faq.php" class="">Technical FAQ</a></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/91-myocean-user-newsletter.php" class="">User newsletter</a></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/107-collaborative-forum.php" class="">Collaborative forum</a></li><li class="CMS_lvl3 CMS_nosub"><a href="http://marine.copernicus.eu/web/21-contact-us.php" class="">Contact us</a></li></ul></li></ul>
+															</nav>
+						</div>
+						<div id="fasttrackaccessbox">
+							<div id="fasttrackaccess">
+								<div id="fasttrackbtn" class="openedfasttrack">
+									<div>Short-cut<br />to services</div>
+								</div>
+								<div id="fasttrackcontent">
+									<div class="fasttrackitem">
+										<a href="http://marine.copernicus.eu/web/56-user-registration-form.php" class="fasttrackitembtn btnregister">Register<br />now</a>									</div>
+									<div class="fasttrackitem">
+										<a href="http://marine.copernicus.eu/web/103-validation-statistics.php" class="fasttrackitembtn btncalval">Validation<br />statistics</a>									</div>
+									<div class="fasttrackitem">
+										<a href="http://marine.copernicus.eu/web/95-online-tutorials.php" class="fasttrackitembtn btntutorials">Online<br />tutorials</a>									</div>
+									<div class="fasttrackitem">
+										<a href="http://forum.marine.copernicus.eu" target="myoceanforum" class="fasttrackitembtn btnforum">Collaborative<br />forum</a>
+									</div>
+									 
+									
+			<div id="fasttracknews">
+			<div id="fasttracknewsdate">
+			<div id="fasttracknewsdatecontent">
+			<div class="newsflashyear">2016</div><div class="newsflashday">05</div><div class="newsflashmonth">Feb</div>
+			</div>
+			</div>
+			<h3>Latest news flash</h3>
+			
+			<h4>CMEMS:3613</h4>
+			<p><a href="http://marine.copernicus.eu/web/25-news-flash.php?item=2674" title="OCEANCOLOR Products unavailability [GLO ATL OC | Delayed]">OCEANCOLOR Products unavailability [GLO ATL OC | Delayed]</a></p>
+			<p class="newsflashstatus">Information</p>
+			<p class="btnright"><a href="http://marine.copernicus.eu/web/25-news-flash.php" class="btn">All news flash</a></p>
+			</div>
+			<!--{elements:YToyOntzOjc6InBocG5vZGUiO2I6MTtzOjY6Im1vZHVsZSI7YToxOntpOjA7czoxMDoicG5ld3NmbGFzaCI7fX0=}-->	
+								</div>
+							</div>
+							<div id="fasttrackshadow"></div>
+						</div>
+					</div>
+				</div>
+			</header>
+			
+			
+			<!-- PRODUCTS -->
+			<div id="productsheader" class="container_12 clearfix">
+				<div class="grid_12">
+					<div id="productsheadercontent">
+						<div class="grid_4 alpha">
+							<h2>Access to products</h2>
+							<p>Search and download your datasets!</p>
+						</div>
+						<div class="grid_8 omega">
+							<a href="http://marine.copernicus.eu/web/2-about-your-copernicus-marine-service.php"><img src="img/myocean2/btn_firstvisit.png" border="0" alt="First visit?" title="" /></a>						</div>
+					</div>
+				</div>
+			</div>
+			
+			 
+			<div id="productsselect" class="container_12 clearfix">
+				<div class="grid_12">
+					<div id="productsselectbackground" class="product_type_1">
+						<div id="productsselectcontent">
+							<div class="grid_4 alpha">
+								<div id="productsselectleft">
+									<p>Select your:</p>
+									<ul id="productsparameterstype">
+										<li><a href="/#tab-area">Area</a></li>
+										<li><a href="/#tab-param">Parameters</a></li>
+										<li><a href="/#tab-time">Time coverage</a></li>
+										<li><a href="/#tab-obs">Observations/Models</a></li>
+									</ul>
+									<div id="productsselectbuttons">
+										
+	<p>
+	
+			<a href="http://marine.copernicus.eu/automne_modules_files/pmedia/public/r124_9_catalogue-cmems-v1.2.1.pdf" class="btn btn-rightmargin" target="myoceanpdfcatalogue" title="Download the catalogue (PDF - 2.53Mb)">PDF<br />catalogue</a>
+			
+			<a href="http://marine.copernicus.eu/automne_modules_files/pmedia/public/r2199_9_overview-observations-v1.2.1-web_eu.pdf" class="btn" target="myoceanobsoverview" title="Download the catalogue (PDF - 0.24Mb)">Observations<br />overview</a>
+			
+	</p>
+	<p>
+	<a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php" class="btn btn-rightmargin">Online<br />catalogue</a>
+	
+			<a href="http://marine.copernicus.eu/automne_modules_files/pmedia/public/r2201_9_overview-models-v1.1.1-web_eu.pdf" class="btn" target="myoceanmodelsoverview" title="Download the catalogue (PDF - 0.32Mb)">Models<br />overview</a>
+			
+	</p>
+	<!--{elements:YToxOntzOjY6Im1vZHVsZSI7YToyOntpOjA7czo4OiJzdGFuZGFyZCI7aToxO3M6NjoicG1lZGlhIjt9fQ==}-->		
+									
+								</div>
+								</div>
+							</div>
+							<div class="grid_8 omega">
+								<div id="productsselectright">
+																			<div id="tab-area">
+											<div class="productsparametersbloc">
+												<ul class="productsparameters">
+													<li><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-geographical_area[]=advancedsearch-geographical_area-global-ocean">Global ocean</a></li>
+													<li class="libg50"><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-geographical_area[]=advancedsearch-geographical_area-arctic">Arctic Ocean</a></li>
+													<li class="libg40"><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-geographical_area[]=advancedsearch-geographical_area-baltic-sea">Baltic Sea</a></li>
+													<li><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-geographical_area[]=advancedsearch-geographical_area-north-west-shelf-seas">European North West Shelf Seas</a></li>
+													<li class="libg50"><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-geographical_area[]=advancedsearch-geographical_area-iberian-biscay-irish-seas">Iberia-Biscay-Ireland Regional Seas</a></li>
+													<li class="libg40"><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-geographical_area[]=advancedsearch-geographical_area-mediterranean-sea">Mediterranean Sea</a></li>
+													<li><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-geographical_area[]=advancedsearch-geographical_area-black-sea">Black Sea</a></li>
+												</ul>
+											</div>
+										</div>
+										<div id="tab-param">
+											<div class="productsparametersbloc">
+												<ul class="productsparameters">
+													<li><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-ocean_variables[]=advancedsearch-ocean_variables-temperature">Temperature</a></li>
+													<li class="libg50"><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-ocean_variables[]=advancedsearch-ocean_variables-salinity">Salinity</a></li>
+													<li class="libg40"><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-ocean_variables[]=advancedsearch-ocean_variables-currents">Currents</a></li>
+													<li><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-ocean_variables[]=advancedsearch-ocean_variables-sea-ice">Sea Ice</a></li>
+													<li class="libg50"><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-ocean_variables[]=advancedsearch-ocean_variables-sea-level">Sea level</a></li>
+													<li class="libg40"><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-ocean_variables[]=advancedsearch-ocean_variables-wind">Wind</a></li>
+													<li><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-ocean_variables[]=advancedsearch-ocean_variables-ocean-optics">Optics</a></li>
+													<li class="libg50"><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-ocean_variables[]=advancedsearch-ocean_variables-ocean-chemistry">Chemistry</a></li>
+													<li class="libg40"><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-ocean_variables[]=advancedsearch-ocean_variables-ocean-biology">Biology</a></li>
+													<li><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-ocean_variables[]=advancedsearch-ocean_variables-ocean-chlorophyll">Chlorophyll</a></li>
+												</ul>
+											</div>
+										</div>
+										<div id="tab-time">
+											<div class="productsparametersbloc">
+												<ul class="productsparameters">
+													<li><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-temporal_scale[]=advancedsearch-temporal_scale-nrt-forecast">Forecast Products</a></li>
+													<li class="libg50"><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-temporal_scale[]=advancedsearch-temporal_scale-real-time">Near Real Time Products</a></li>
+													<li class="libg40"><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-temporal_scale[]=advancedsearch-temporal_scale-multi-year">Multi Year Products</a></li>
+													<li><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-temporal_scale[]=advancedsearch-temporal_scale-invariant">Time Invariant Products</a></li>
+												</ul>
+											</div>
+										</div>
+										<div id="tab-obs">
+											<div class="productsparametersbloc">
+												<ul class="productsparameters">
+													<li><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-mission_type[]=advancedsearch-mission_type-numerical-model">Model</a></li>
+													<li class="libg50"><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-mission_type[]=advancedsearch-mission_type-satellite-observation">Satellite Observations</a></li>
+													<li class="libg40"><a href="http://marine.copernicus.eu/web/69-interactive-catalogue.php?option=com_csw&task=results&simplesearch=ok&advancedsearch-mission_type[]=advancedsearch-mission_type-in-situ-observation">InSitu Observations</a></li>
+												</ul>
+											</div>
+										</div>
+																	</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+						
+			<!-- NEWS -->
+							<div id="newshome" class="container_12 clearfix">
+					<div class="grid_12">
+						<div id="newshomecontent">
+							<div class="grid_12 alpha omega">
+								<div id="featured">
+									<div id="newstabs">
+										<ul class="ui-tabs-nav">
+											<li class="ui-tabs-nav-item" id="nav-fragment-1"><a href="/#fragment-1"><span>Events<br />Agenda</span></a></li>
+											<li class="ui-tabs-nav-item" id="nav-fragment-2"><a href="/#fragment-2"><span>Partners and<br />Stakeholders</span></a></li>
+											<li class="ui-tabs-nav-item" id="nav-fragment-3"><a href="/#fragment-3"><span>Focus on</span></a></li>
+											<li class="ui-tabs-nav-item" id="nav-fragment-4"><a href="/#fragment-4"><span>Training<br /> agenda</span></a></li>
+										</ul>
+									</div>
+									
+									<!-- First Content: Events / Agenda -->
+									<div id="fragment-1" class="ui-tabs-panel" style="">
+										
+			<div class="info">
+			<h2><a href="http://marine.copernicus.eu/web/16-news-events.php?item=2672">Sentinel-3A launch date set for mid-February</a></h2>
+			<div class="newsintro">
+			<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+	<div class="field-items">
+		<div class="field-item even">
+			<p style="text-align: justify;">
+				The new date for Sentinel-3A satellite is 16 February 2016.</p>
+			<p style="text-align: justify;">
+				&nbsp;</p>
+		</div>
+	</div>
+</div>
+<p>
+	&nbsp;</p>
+			</div>
+			<p><a href="http://marine.copernicus.eu/web/16-news-events.php?item=2672" class="btn">Read more</a></p>
+			</div>
+			<div class="infoimg">
+			<div class="infoimgcontent">
+			<div class="infoimgshadowtop"></div>
+			<div class="infoimgborder">
+			
+						<img src="http://marine.copernicus.eu/automne_modules_files/pnews/public/r2672_4_sentinel-3_node_403px_thumbnail-289-189-c.jpg" alt="" />
+						
+			</div>
+			<div class="infoimgshadowbottom"></div>
+			</div>
+			</div>
+			<!--{elements:YToxOntzOjY6Im1vZHVsZSI7YToyOntpOjA7czo4OiJzdGFuZGFyZCI7aToxO3M6NToicG5ld3MiO319}-->	
+									</div>
+									
+									<!-- Second Content: Partners and Stakeholders -->
+									<div id="fragment-2" class="ui-tabs-panel ui-tabs-hide" style="">
+										
+			<div class="info">
+			<h2>Colloquium - 23/27 May 2016 - The 48th International Liège Colloquium on Ocean Dynamics</h2>
+			<div class="newsintro">
+			<h3>
+	Submesoscale Processes: Mechanisms, Implications and new Frontiers</h3>
+<p>
+	This colloquium aims to advance our collective understanding of submesoscale processes, their mechanistic functioning, relevance, and implications across a range of oceanic disciplines. Discussions will include observational, modeling and theoretical approaches for elucidating submesoscale phenomena. From this colloquium, its oral/poster presentations and scientific interactions, will emerge new cross-cutting themes for future research.</p>
+<h4>
+	Venue</h4>
+<p>
+	University of Liège, Place du 20-Août, 7 - 4000 Liège, Belgium</p>
+<h4>
+	Deadlines</h4>
+<ul>
+	<li>
+		30th January 2016: submission of abstracts&nbsp; (late contributions may still be considered as a poster)</li>
+	<li>
+		21th February 2016: decision of the Scientific organizing committee of accepted abstracts</li>
+	<li>
+		7th March 2016: the preliminary program will be made available</li>
+</ul>
+			</div>
+			
+					<p><a href="http://modb.oce.ulg.ac.be/colloquium/?page=colloquium" class="btn" target="_blank">Read more</a></p>
+					
+			</div>
+			<div class="infoimg">
+			<div class="infoimgcontent">
+			<div class="infoimgshadowtop"></div>
+			<div class="infoimgborder">
+			
+						<img src="http://marine.copernicus.eu/image-file.php?image=r2563_4_48col_thumbnail.jpg&amp;module=pnews&amp;x=289&amp;y=189&amp;crop=1" alt="" />
+						
+			</div>
+			<div class="infoimgshadowbottom"></div>
+			</div>
+			</div>
+			<!--{elements:YToxOntzOjY6Im1vZHVsZSI7YToxOntpOjA7czo1OiJwbmV3cyI7fX0=}-->	
+									</div>
+									
+									<!-- Third Content: Focus on -->
+									<div id="fragment-3" class="ui-tabs-panel ui-tabs-hide" style="">
+										
+			<div class="info">
+			<h2><a href="http://marine.copernicus.eu/web/17-focus-on.php?item=2579">Interview of Geoff Sawyer, Secretary General of EARSC</a></h2>
+			<div class="newsintro">
+			<p>
+	Geoff Sawyer, Secretary General of EARSC (European Association of Remote Sensing Companies) was a guest of honor at the Copernicus Marine Service User Workshop that took place in Brussels last September 8<sup>th</sup> 2015.</p>
+			</div>
+			<p><a href="http://marine.copernicus.eu/web/17-focus-on.php?item=2579" class="btn">Read more</a></p>
+			</div>
+			<div class="infoimg">
+			<div class="infoimgcontent">
+			<div class="infoimgshadowtop"></div>
+			<div class="infoimgborder">
+			
+						<img src="http://marine.copernicus.eu/automne_modules_files/pnews/public/r2579_4_logo-earsc-620-px_thumbnail-289-189-c.jpg" alt="Logo EARSC" />
+						
+			</div>
+			<div class="infoimgshadowbottom"></div>
+			</div>
+			</div>
+			<!--{elements:YToxOntzOjY6Im1vZHVsZSI7YToyOntpOjA7czo4OiJzdGFuZGFyZCI7aToxO3M6NToicG5ld3MiO319}-->	
+									</div>
+									
+									<!-- Fourth Content: Training agenda -->
+									<div id="fragment-4" class="ui-tabs-panel ui-tabs-hide" style="">
+										
+			<div class="info">
+			<h2><a href="http://marine.copernicus.eu/web/99-next-sessions.php?item=2441">SAVE THE DATE - NEXT TRAINING SESSIONS 2015: MED and IBI</a></h2>
+			<div class="newsintro">
+			<p>
+	The Copernicus Marine Service will organise two REGIONAL USER &amp; TRAINING WORKSHOPS in winter 2015, related to:</p>
+<p>
+	the MEDITERRANEAN SEA<br />
+	3-4 December 2015<br />
+	La Spezia, Italy<br />
+	&nbsp;</p>
+<p>
+	the IBI REGION (Atlantic-European South West Shelf-Ocean)<br />
+	10-11 December 2015<br />
+	Lisbon, Portugal</p>
+<p>
+	More information on this Websection soon.</p>
+			</div>
+			<p><a href="http://marine.copernicus.eu/web/99-next-sessions.php?item=2441" class="btn">Read more</a></p>
+			</div>
+			<div class="infoimg">
+			<div class="infoimgcontent">
+			<div class="infoimgshadowtop"></div>
+			<div class="infoimgborder">
+			
+						<img src="http://marine.copernicus.eu/automne_modules_files/pnews/public/r2441_4_montage_area_of_benefits-2_thumbnail-289-189-c.jpg" alt="" />
+						
+			</div>
+			<div class="infoimgshadowbottom"></div>
+			</div>
+			</div>
+			<!--{elements:YToxOntzOjY6Im1vZHVsZSI7YToyOntpOjA7czo4OiJzdGFuZGFyZCI7aToxO3M6NToicG5ld3MiO319}-->	
+									</div>
+									
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<div id="newshomebottom" class="container_12 clearfix">
+						<div class="grid_12">
+							<div id="newshomeshadow"></div>
+						</div>
+					</div>
+				</div>
+						<!-- BOTTOM LINKS -->
+			<div id="bottomlinks" class="container_12 clearfix">
+				<div class="grid_12">
+					<a href="http://marine.copernicus.eu/web/12-site-map.php">Site map</a> - <a href="http://marine.copernicus.eu/web/13-all-rights-reserved.php">All rights reserved</a>				</div>
+			</div>
+			<div id="bottomspace"></div>
+		</div>
+		
+		
+	<!-- FOOTER -->
+	<footer>
+		<div id="footer">
+			<div id="footercontent" class="container_12 clearfix">
+				<div class="grid_12">
+					<div class="footerseparator"></div>
+					<div id="copernicus-fp7">
+						<a href="http://marine.copernicus.eu/web/20-copernicus-fp7.php"><img src="img/myocean2/copernicus.png" border="0" alt="COPERNICUS" title="More information: COPERNICUS" /></a>					</div>
+					<div class="footerseparator"></div>
+					<div class="footerlink"><a href="http://marine.copernicus.eu/web/2-about-your-copernicus-marine-service.php">About<br />us</a></div>
+					<div class="footerseparator"></div>
+					<div class="footerlink"><a href="http://marine.copernicus.eu/web/97-partners-stakeholders-news.php">Partners &amp;<br />Stakeholders</a></div>
+					<div class="footerseparator"></div>
+					<div class="footerlink"><a href="http://marine.copernicus.eu/web/113-benefits.php">Benefits</a></div>
+					<div class="footerseparator"></div>
+					<div id="footerquestion">
+						<p><a href="http://marine.copernicus.eu/web/21-contact-us.php"><strong>Any question?</strong><br />
+							Get help from the Service Desk</a></p>
+						<div id="footerquestionpic"><a href="http://marine.copernicus.eu/web/21-contact-us.php"><img src="img/myocean2/footer_question.png" border="0" alt="" title="Get help from the Service Desk" /></a></div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</footer>
+
+		
+					<!-- Piwik -->
+			<script type="text/javascript">
+				var _paq = _paq || [];
+				_paq.push(['trackPageView']);
+				_paq.push(['enableLinkTracking']);
+				(function() {
+					var u="//www.mercator-ocean.fr/piwik/";
+					_paq.push(['setTrackerUrl', u+'piwik.php']);
+					_paq.push(['setSiteId', 4]);
+					var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+					g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+				})();
+			</script>
+			<noscript><p><img src="//www.mercator-ocean.fr/piwik/piwik.php?idsite=4" style="border:0;" alt="" /></p></noscript>
+			<!-- End Piwik Code -->
+			</body>
+</html>

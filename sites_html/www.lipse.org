@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>LIPSE | Home</title>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" media="all" href="/templates/lipse/style.css"/>
+    <link rel="stylesheet" media="all" href="/resources/core.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">var switchTo5x=false;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "1ff5e6b1-4bf2-47f8-b843-75f56482aca5"});</script>
+    <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37692052-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+    </script>
+	<script type='text/javascript'>core_CSS = '/templates/lipse/style.css';</script>
+	<script type='text/javascript' src='/core.js'></script>
+
+</head>
+<body>
+    <div id="home">
+        <div id="bground">
+            <div id="big">
+                <div id="header">
+                    <div class="blockl">
+                        <a href="/"><img src="/templates/lipse/images/logo.png" alt="logo LIPSE"/></a>
+                    </div>
+                    <div class="blockr">
+                        <div id="headertop">
+                            <div class="subl">
+                                <div class="newsletter"><a href="/newsletter">LIPSE Newsletter<br></a></div>
+                                <div class="social"><a href="https://twitter.com/EULIPSE" target="_blank"><img src="/templates/lipse/images/twitter.png" alt="twitter"/></a>
+<a href="https://www.facebook.com/pages/LIPSE/137238749766992" target="_blank"><img src="/templates/lipse/images/facebook.png" alt="facebook"/></a>
+<a href="https://www.linkedin.com/groups?gid=4787939&trk=myg_ugrp_ovr" target="_blank"><img src="/templates/lipse/images/linkedin.png" alt="linkedin"/></a></div>
+                            </div>
+                            <form method='post' action='/search'>
+                                <div class="subr"><div class="form"><input type="text" name="search" value="" /></div>
+                                <div class="formbutton"><input class="submit" name="send" type="submit" value="Search"/></div></div>
+                            </form>
+                        </div>
+                        <div id="headermotto">Learning from Innovation in Public Sector Environments</div>
+                        <div id="menu">
+                            <a href="/home">Home</a>
+<a href="/events">Events</a>
+<a href="/news">News</a>
+<a href="/about">About LIPSE</a>
+<a href="/work-packages">Work-packages</a>
+<a href="/Publications">Publications</a>
+<a href="/contact">Contact</a>
+
+                            
+                        </div>
+                    </div>
+                </div><!--end header-->
+
+                <div id="boxes">
+                    <div id="box12">
+                    <div id="box1">
+                        <div class="itemin">
+                            <h4>Latest news</h4>
+                            <div class='news'>
+<div onmouseout="this.className='item';" onmouseover="this.className='itemover';" class="item">
+    <a href="/newspage/item/113">
+        <span class='date'>5 february 2016</span>
+        Roadshow Milan: Evidences and the way forward
+        <span class="arrow">&nbsp;&rarr;</span>
+    </a>
+</div>
+<div onmouseout="this.className='item';" onmouseover="this.className='itemover';" class="item">
+    <a href="/newspage/item/114">
+        <span class='date'>5 february 2016</span>
+        New LIPSE newsletter
+        <span class="arrow">&nbsp;&rarr;</span>
+    </a>
+</div>
+<div onmouseout="this.className='item';" onmouseover="this.className='itemover';" class="item">
+    <a href="/newspage/item/109">
+        <span class='date'>7 december 2015</span>
+        New blog post on stability and innovation 
+        <span class="arrow">&nbsp;&rarr;</span>
+    </a>
+</div>
+<div onmouseout="this.className='item';" onmouseover="this.className='itemover';" class="item">
+    <a href="/newspage/item/112">
+        <span class='date'>7 december 2015</span>
+        Article 'Innovation in the Public Sector: A Systematic Review and Future Research Agenda' now online available 
+        <span class="arrow">&nbsp;&rarr;</span>
+    </a>
+</div>
+<div onmouseout="this.className='item';" onmouseover="this.className='itemover';" class="item">
+    <a href="/newspage/item/107">
+        <span class='date'>22 october 2015</span>
+        New LIPSE newsletter online
+        <span class="arrow">&nbsp;&rarr;</span>
+    </a>
+</div>
+</div>
+                            <span class="right"><a href="/news">More news &rarr;</a></span>
+                        </div>
+                    </div>
+                    <div id="box2">
+                        <div class="itemin">
+                            <h4>Next events</h4>
+                            <div class='news'>
+<div onmouseout="this.className='item';" onmouseover="this.className='itemover';" class="item">
+    <a href="/eventpage/item/31">
+        <span class='date'>13 april 2016</span>
+        IRSPM conference, Hong Kong
+        <span class="arrow">&nbsp;&rarr;</span>
+    </a>
+</div>
+</div>
+                            <span class="right"><a href="/events">More events &rarr;</a></span>
+                        </div>
+                    </div>
+                    </div>
+                    <div id="box3">
+                            <a class="twitter-timeline" id="tfeed" href="https://twitter.com/search?q=%23lipse"  height='250' data-widget-id="347338923862790146">#lipse</a>
+                            <a class="twitter-timeline" id="tfeed" href="https://twitter.com/EULIPSE"  height='250' data-widget-id="383346558797746176">Tweets van @EULIPSE</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    </div>
+                </div><!--end boxes-->
+                <div id="title">
+                     <div class="blockr">
+                        <div class="subl"><h1>Home</h1></div>
+                        <div class="subr">
+                            <div id="euro">
+                                <img src="/templates/lipse/images/eurflag.png" _fcksavedurl="/templates/lipse/images/eurflag.png" alt="logo European Union" class="flag">
+<img src="/templates/lipse/images/eursp7.png" _fcksavedurl="/templates/lipse/images/eursp7.png" alt="logo Seventh Framework Programme">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="content">
+                    <div class="blockr">
+                        <div class="subl">
+                            LIPSE or ''Learning from Innovation in Public Sector Evironments'' is a research project studying the drivers and barriers of successful social innovation in the public sector. With a budget of 2.5 Million Euros - funded by the 7th Framework Programme of the European Union - it is one of the largest projects on social innovation in the public sector. The research is being conducted by EU researchers from 12 different universities in 11 countries. The project starts on 1 Feb. 2013 and will run for 3,5 years. It is coordinated by the Erasmus University Rotterdam.
+                        </div>
+                        <div class="subr">
+                            <br>
+                        </div>
+                    </div>
+                </div><!--end content-->
+                <div id="share">
+                    <div class="blockr">
+                        <div class="subl">
+                                <span class="sharehead">Share this page:</span>
+                                <span class='st_email' displayText='Email'></span>
+                                <span class='st_twitter' displayText='Tweet'></span>
+                                <span class='st_facebook' displayText='Facebook'></span>
+                                <span class='st_sharethis' displayText='ShareThis'></span>
+                        </div>
+                    </div>
+                </div><!--end share-->
+
+            </div>
+        <!--debug-->
+        </div><!--end 2xb-->
+    </div><!--end home-->
+<script type='text/javascript'>
+	var a = document.getElementsByTagName('A');
+	var b;
+	for (var i=0; i<a.length; i++) {
+		if (!a[i].onclick) {
+			b = true;
+			if (a[i].href.indexOf('http://')==-1)
+				b = false;
+			if (b && a[i].href.indexOf(document.location.protocol+'//'+document.location.hostname)==0)
+				b = false;
+			if (b && a[i].className.indexOf('_ignoreOutgoing') > -1)
+				b = false;
+			if (b) {
+				if (a[i].title == '')
+					a[i].title = a[i].href.replace('http://', '');
+				a[i].innerHTML += ' <img border="0" title="Outgoing link"src="/resources/icons/outlink.gif" />';
+a[i].target = '_blank';
+			}
+		}
+	}
+</script>
+
+
+</body>
+
+</html>
+

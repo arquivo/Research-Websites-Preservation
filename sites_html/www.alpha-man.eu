@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+ <head>
+
+  <title>The ALPHA MAN Project</title>
+
+  <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> <!-- Wichtig, damit Umlaute richtig dargestellt werden. -->
+
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+
+   <meta name="Content-Language" content="de" />
+
+   <meta name="author" content="Jonas V&ouml;lcker, Michael Pachta" />
+
+   <meta name="KeyWords" content="ALPHA-MAN, EU" />
+
+   <meta name="Description" content="Das ALPHA-MAN-Projekt" />
+
+   <link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
+
+   <link href="css/screen.css" rel="stylesheet" type="text/css" media="screen, projection" />
+
+   <!--[if lte IE 6]><link rel="stylesheet" href="css/ielte6.css" type="text/css" media="screen" /><![endif]--> <!-- Über Conditional Comments wird für den IE <= 6 ein zusätzlich notwendiges Stylesheet eingebunden. -->
+
+   <script type="text/javascript" src="js/milonic_src.js"></script>
+
+   <script type="text/javascript">
+
+   if(ns4)_d.write("<scr"+"ipt type=text/javascript src=js/mmenuns4.js><\/scr"+"ipt>");
+
+     else _d.write("<scr"+"ipt type=text/javascript src=js/mmenudom.js><\/scr"+"ipt>");
+
+   </script>
+
+   <script type="text/javascript" src="js/menu_data.js"></script>
+
+   <style type="text/css">
+
+<!--
+
+.Stil3 {font-size: 0.9em}
+
+-->
+
+   </style>
+
+</head>
+
+ <body>
+
+ <div class=milonic><a href="http://www.milonic.com/">JavaScript Menu, DHTML Menu Powered By Milonic</a></div>
+
+ <div id="container"> <!-- Ist dazu da, alles in einem Rahmen zu halten. -->
+
+  <a class="skip" href="#main">Navigation &uuml;berspringen</a> <!-- Für Blinde die nicht bei jedem aufruf die gleichen Infos hören wollen sondern gleich zum Inhalt der Seite weitergehen wollen. -->
+
+  <div id="logo">
+
+   <a href="./index.htm">ALPHA <span>MAN</span></a>
+
+  </div>
+
+  <!-- Navigations-Menu. -->
+
+  <ul id="menu">
+
+   <li onmouseover="popup('index','milonicmenu')" onmouseout="popdown()"><img src="images/transparent.gif" class="leer" name="milonicmenu" id="milonicmenu">Mission</li> <!-- Zu der Seite auf der man sich gerade befindet sollte kein Link führen. -->
+
+   <li><img src="images/transparent.gif" class="leer" name="packagesmenu" id="packagesmenu"><a href="packages.htm" onmouseover="popup('package','packagesmenu')" onmouseout="popdown()">Work Packages</a></li>
+
+   <li><img src="images/transparent.gif" class="leer" name="partnersmenu" id="partnersmenu"><a href="partner.htm" onmouseover="popup('partner','partnersmenu')" onmouseout="popdown()">Partner</a></li>
+
+   <li><img src="images/transparent.gif" class="leer" name="meetingsmenu" id="meetingsmenu"><a href="meetings.htm" onmouseover="popup('meetings','meetingsmenu')" onmouseout="popdown()">Meetings</a></li>
+
+   <li><img src="images/transparent.gif" class="leer" name="mediamenu" id="mediamenu"><a href="media.htm" onmouseover="popup('media','mediamenu')" onmouseout="popdown()">Media</a></li>
+
+   <li><img src="images/transparent.gif" class="leer" name="managementsmenu" id="managementsmenu"><a href="management.htm" onmouseover="popup('management','managementsmenu')" onmouseout="popdown()">Project Management</a></li>
+
+   <li><img src="images/transparent.gif" class="leer" name="contactsmenu" id="contactsmenu"><a href="contact.htm" onmouseover="popup('contact','contactsmenu')" onmouseout="popdown()">Contact</a></li>
+
+   <li><img src="images/transparent.gif" class="leer" name="linkmenu" id="linkmenu"><a href="links.htm" onmouseover="popup('links','linkmenu')" onmouseout="popdown()">Links</a></li>
+
+  </ul>
+
+  <!-- Subnavigation rechts. -->
+
+  <dl id="subnav"> <!-- Diese Subnavigation wird nicht ausgedruckt. -->
+
+   <dt>Welcome!</dt>
+
+    <dd>These websites are dedicated to the ALPHA MAN project.
+
+        If you want to contact us, please contact Mrs Gundula Hohn at
+
+        <a href="mailto:ghohn@biochem.uni-kiel.de">ghohn@biochem.uni-kiel.de</a>.<br />
+        <br />
+        For medical or scientific questions concerning &alpha;-Mannosidosis please contact <a href="mailto:psaftig@biochem.uni-kiel.de">Prof. Saftig</a>.
+    </dd>
+
+    <dt>News:
+      <br />
+    <dd><a href="PDFs/Borgwardt_et_al_2ss13.pdf">New publication on the results of the clinical phase I and II studies.</a> (Mar 2013)<a href="media/Zymenex_PressRelease_Dec_2012.pdf" title="Zymenex in Phase 3 clinical trial (PDF file)"><br />
+      <br />
+      Zymenex in Phase 3 clinical trial.</a> (Dec 2012)<a href="http://www.zymenex.com/composite-83.htm" title="Moved the nine patients into Phase 2B." target="_blank"><br />
+      <br />
+    We have now moved the 9 patients into Phase 2B.</a> (Jan 2012)</dd>
+    <dd><a href="media/Zymenex_PressRelease_Oct-2011_US-UK.pdf"><br />
+      Positive clinical effect in Phase 2 trial.</a> (Oct 2011)<br />
+    </dd>
+
+    <dd>&nbsp;</dd>
+
+    <dt>Dates:</dt>
+
+    <dd>27 Mar - 28 Mar 2014: 8th Alpha Man meeting in Kiel,  Germany. <a href="PDFs/Agenda_Kiel2014.pdf">Click here to download the agenda and related information (PDF, 0.5 MB).</a></dd>
+
+	<dt>Further information about &alpha;-mannosidosis:</dt>
+
+    <dd><a href="alpha-mannosidosis.htm">A summary</a></dd>
+
+    <dd>Please see our link section for more websites regarding alpha-mannosidosis.</dd>
+
+   <dt>Information</dt>
+
+    <dd>&copy; 2006 & 2010 The ALPHA MAN Project</dd>
+
+    <dd>Design by Jonas V&ouml;lcker</a>, adapted by <a href="mailto:mipa@biochem.uni-kiel.de">Michael Pachta </a></dd>
+
+    <dt>&nbsp;</dt>
+
+	<table width="200">
+
+  <tr>
+
+    <td align="center"><a id="1290004295" href="http://www.counter.de/">kostenloser Counter</a><script type="text/javascript" language="JavaScript" src="http://www.counter-go.de/counter_js.php?account=1290004295"></script><noscript><a href="http://www.counter-go.de/" target="_blank"><img border=0 src="http://www.counter-go.de/counter.php?account=1290004295"/></a></noscript>&nbsp;</td>
+
+  </tr>
+
+</table>
+
+  </dl>
+
+  <!-- Inhalt. -->
+
+  <div id="main">
+
+   <h1>The ALPHA MAN Project</h1>
+
+   <h2>Clinical development  of Enzyme Replacement Therapy in alpha-Mannosidosis patients using recombinant  human enzyme.</h2>
+
+   <p style="text-align:center"><img src="img/alpha-man-logo.jpg" alt="alpha-man logo" width="393" height="176" longdesc="img/alpha-man-logo.jpg" /></p>
+
+   <h2>Project summary</h2>
+
+   <p style="text-align:justify">The lysosomal storage disorder (LSD)  alpha-Mannosidosis is a rare genetic disease affecting less than 500  people worldwide and according to the EU regulations, designated as an  &quot;orphan&quot; disease. Alpha-Mannosidosis is caused by an enyzme defect  due to mutations in the gene for lysosomal acid alpha-Mannosidase  (LAMAN) affecting the lysosomal and cellular glycoprotein catabolism  with severe consequences for the organism. In humans, LAMAN deficiency  results in progressive mental retardation, skeletal changes, hearing  loss and recurrent infections and many patients die during early  childhood. Today, the most promising therapy for lysosomal storage  disorders including alpha-Mannosidosis is Enzyme Replacement Therapy  (ERT) where the respective enzyme lacking in the patient is produced  by recombinant approaches and then introduced into the blood stream,  from where it is internalized by the cells and reaches the lysosomes  replacing the missing endogenous enzyme. ERT products are on the  market today for a number of LSD including Gaucher, Fabry, Pompe  disease and the Mucopolysaccharidoses MPSI, II and VI and clinical  trials are underway for a number of others. To date, no real treatment  for alpha-Mannosidosis is available. Since children are born healthy,  an early initiated therapy shortly after birth could dramatically  improve their life expectancy and quality of life. Since  pharmaceutical interest in this disease is low, two EU sponsored  projects (EURAMAN and HUE-MAN) within the 5th and 6th framework  program, respectively have worked towards developing the recombinant  human enzyme (rhLAMAN) as a therapeutic agent for patients suffering  from alpha-Mannosidosis and are now the basis for clinical trials in  alpha-Mannosidosis. The enzyme has received Orphan Drug Designation in  Europe in January 2005 (EU/3/04/260).</p>
+
+    <h2>&nbsp;</h2>
+
+    <h2>Project objectives</h2>
+
+    <p style="text-align:justify">The main scientific objectives of ALPHA-MAN will be:</p>
+
+    <h3 style="text-align:justify"><u>Objective 1:  </u></h3>
+
+    <p style="text-align:justify">Implementation of clinical trials in alpha-Mannosidosis patients to provide an effective drug for the orphan disease alpha-Mannosidosis. </p>
+
+    <ul>
+
+      <li>The aim of this study is to perform clinical trial Phases I, II and III in patients to demonstrate the safety and clinical efficacy of rhLAMAN as an effective therapeutic agent for treatment of the human disease alpha-Mannosidosis. </li>
+
+    </ul>
+
+    <h3 style="text-align:justify">&nbsp;</h3>
+
+    <h3 style="text-align:justify"><u>Objective 2:</u> </h3>
+
+    <p style="text-align:justify">Determination of the minimal effective dose by chronic treatment studies in immune-tolerant alpha-Mannosidosis mice.</p>
+
+    <ul>
+
+      <li>The aim of this study is to find the minimal effective dose for a maximal correction of visceral and central nervous system pathology.</li>
+
+      <li>Immune-tolerant alpha Mannosidosis mice will be chronically injected once a week with different doses of rhLAMAN and analysed for their storage in visceral and central nervous tissues. </li>
+
+    </ul>
+
+    <h3 style="text-align:justify">&nbsp;</h3>
+
+    <h3 style="text-align:justify"><u>Objective 3:</u> </h3>
+
+    <p style="text-align:justify">Studies of the mechanism how recombinant human LAMAN crosses the Blood Brain Barrier.</p>
+
+    <ul>
+
+      <li>The aim of this study is to find putative receptors that are responsible for rhLAMAN uptake into the brain across the Blood Brain Barrier. </li>
+
+      <li> Immune-tolerant alpha-Mannosidosis mice will be injected with high doses rhLAMAN and analysed for binding partners by various biochemical methods.</li>
+
+    </ul>
+
+    <h3 style="text-align:justify">&nbsp;</h3>
+
+    <h3 style="text-align:justify"><u>Objective 4:</u> </h3>
+
+    <p style="text-align:justify">Studies of the impact on chronic ERT treatment on the neuropathology and underlying behavioural  deficits in alpha-Mannosidosis mice. </p>
+
+    <ul>
+
+      <li>The aim of this study is to see whether long-term ERT treatment can prevent and/or reverse the neuropathology and associated behavioural deficits observed in immune-tolerant alpha-Mannosidosis mice. </li>
+
+      <li> Immune-tolerant alpha-Mannosidosis mice will be chronically injected with the minimal effective dose (see Objective 2) and analysed for their neuropathology by either immuno-histological/biochemical or behavioural assays. </li>
+
+    </ul>
+
+   </div>
+
+  <p id="footer"></p>
+
+ </div>
+
+ </body>
+
+</html>

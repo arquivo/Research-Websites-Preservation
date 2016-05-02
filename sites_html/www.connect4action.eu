@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr" >
+	<head>
+  <base href="http://www.connect4action.eu/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Home</title>
+  <link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/templates/connect4action/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="http://www.connect4action.eu/component/search/?format=opensearch" rel="search" title="Search Connect4Action" type="application/opensearchdescription+xml" />
+  <link rel="stylesheet" href="/modules/mod_lofarticlesslideshow/assets/jstyle.css" type="text/css" />
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/modules/mod_lofarticlesslideshow/assets/jscript.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});			
+function puretip () {
+        var links = document.links || document.getElementsByTagName('a');
+        var n = links.length;
+        for (var i = 0; i < n; i++) {
+                if (links[i].title && links[i].title != '' && links[i].className=="glossarylink") {
+                        // add the title to anchor innerhtml
+                        links[i].innerHTML += '<span style="width:128px; background-color:#808080;">'+links[i].title+'</span>';
+                        links[i].title = ''; // remove the title
+                }
+        }
+};
+if (typeof window.addEvent != 'function') window.addEvent('domready', function() {puretip();});
+else window.onload = function(e) {puretip();}
+function keepAlive() {	var myAjax = new Request({method: "get", url: "index.php"}).send();} window.addEvent("domready", function(){ keepAlive.periodical(840000); });
+  </script>
+  <link type="text/css" rel="stylesheet" href="/components/com_glossary/css/puretip.css" />
+
+<link rel="stylesheet" href="/templates/connect4action/css/c4a.css" type="text/css" />
+<meta property="og:title" content="Connect 4 action"/>
+<!-- <meta property="og:url" content="http://www.connect4action.eu"/> -->
+<meta property="og:image" content="http://www.connect4action.eu/templates/connect4action/images/c4a_logo.gif"/>
+<meta property="og:site_name" content="Connect 4 action"/>
+<meta property="og:description" content="Strategies for improving communication between social and consumer scientists, food technology developers and consumers"/>
+<meta property="og:locale" content="en_US"/>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30520298-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<meta name="google-site-verification" content="gc3VtqwtWdB4t1Sw2t7Hir9-ySPBbh40Ln4yRtTIuKY" />
+</head>
+
+<body>
+<div class="global home">
+	<!-- HEADER -->
+	<div class="header">
+    <a href="/index.php"><img src="/templates/connect4action/images/onepixel.png" alt="" width="180" height="200" align="left" /></a>
+		<div class="header_contenu">
+			<div class="image_header">
+				
+            </div>
+			<div class="extranet_box">
+				Stakeholder Community
+						<div class="moduletable">
+					<form action="/" method="post" id="login-form" >
+		<fieldset class="userdata">
+    <table border="0" cellpadding="0" cellspacing="0">
+    	<tr>
+        	<td>
+                <p id="form-login-username">
+                    <!-- <label for="modlgn-username">User Name</label> -->
+                    <input id="modlgn-username" type="text" name="username" class="inputbox"  size="18" value="User Name" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'User Name':this.value;" />
+                </p>
+                <p id="form-login-password">
+                    <!-- <label for="modlgn-passwd">Password</label> -->
+                    <input id="modlgn-passwd" type="password" name="password" class="inputbox" size="18" value="Password" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Password':this.value;"  />
+                </p>
+                            </td>
+            <td valign="bottom">
+                <!-- TTK <input type="submit" name="Submit" class="button" value="Log in" /> -->
+                <input type="image" src="/templates/connect4action/images/picto_fleche.png" alt="Submit button">
+                <input type="hidden" name="option" value="com_users" />
+                <input type="hidden" name="task" value="user.login" />
+                <input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD0xNDY=" />
+                <input type="hidden" name="8d6b4fb522f1e7d0ec84eb682e42cd9a" value="1" />            </td>
+        </tr>
+    </table>
+	</fieldset>
+	<ul>
+		<li>
+			<a href="/extranet-access?view=reset">
+			Forgot your password?</a>
+		</li>
+		<!-- TTK <li>
+			<a href="/extranet-access?view=remind">
+			Forgot your username?</a>
+		</li> -->
+			</ul>
+	</form>
+		</div>
+	
+            </div>
+      		<div class="menu_box">
+            			<div class="moduletable_menu">
+					
+<ul class="menu">
+<li class="item-101 current active"><a href="/" >Home</a></li><li class="item-102"><a href="/about" >About</a></li><li class="item-103"><a href="/research" >Research</a></li><li class="item-104 parent"><a href="/results" >Results</a></li><li class="item-105"><a href="/news" >News</a></li><li class="item-106"><a href="/partners" >Partners</a></li><li class="item-107"><a href="/contact" >Contact</a></li><li class="item-108"><a href="/links" >Links</a></li><li class="item-179 parent"><a href="/toolbox" >Toolbox</a></li></ul>
+		</div>
+	 
+            </div>
+			<div class="search_box">
+						<div class="moduletable_mod">
+					<form action="/" method="post">
+	<div class="search_mod">
+		<label for="mod-search-searchword">Search...</label><input name="searchword" id="mod-search-searchword" maxlength="20"  class="inputbox_mod" type="text" size="20" value="Search"  onblur="if (this.value=='') this.value='Search';" onfocus="if (this.value=='Search') this.value='';" /><input type="image" value="Search" class="button_mod" src="/templates/connect4action/images/searchButton.gif" onclick="this.form.searchword.focus();"/>	<input type="hidden" name="task" value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="101" />
+	</div>
+</form>
+		</div>
+	
+			</div>
+            <div class="access_extranet">
+            			<div class="moduletable">
+					
+<ul class="menu">
+<li class="item-157"><a href="/extranet-access" >Extranet Access</a></li></ul>
+		</div>
+	
+            </div>
+    	</div>
+	</div>
+	<div class="containers">
+        <div class="left_menu">
+        	                        <a href="/?option=com_content&view=article&id=69"><img src="/templates/connect4action/images/btn_register.gif" border="0" alt="Final conference" align="left" style="margin:35px 0 0 15px; float:left;" /></a>
+            
+            <a href="http://www.linkedin.com/groups?home=&gid=4534477&trk=groups_most_recent-h-logo&goback=%2Enmp_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1"><img src="/templates/connect4action/images/btn_linkedin.png" border="0" alt="Linkedin" align="left" style="margin:35px 0 0 15px; float:left;" /></a>
+            
+        	<a href="/extranet-access?view=registration"><img src="/templates/connect4action/images/btn_stakeholder.gif" border="0" alt="Join our stakeholder community" align="left" style="margin:35px 0 0 15px; float:left;" /></a>
+            <ul class="join_stakeholder">
+            	<li><a href="/extranet-access">Already a member?</a></li>
+                <li><a href="/extranet-access?view=registration">Sign up</a></li>
+            </ul>
+            
+             
+            
+                    </div>
+  
+  <div class="contenu">
+  	
+<div id="system-message-container">
+</div>
+        <div class="blog-featured">
+
+<div class="items-leading">
+			<div class="leading-0">
+			
+
+
+
+
+
+
+
+<h1 class="subtitle">Strategies for <strong>improving communication</strong><br />between <strong>social and consumer scientists</strong>,<br /><strong>food technology developers and consumers</strong></h1>
+<h2>C4A's objective</h2>
+<p>The CONNECT4ACTION project intends to improve the communication between consumers, consumer scientists, food technology developers, and other key players, in order to improve the success of food technology development and commercialisation in Europe.</p>
+<p>By connecting key players in the food technology development process within the project, making them interact at all stages of the project, and enabling them with communication tools, this project aims to exemplify improved communication and engage them with possibilities to improve their way of working.</p>
+<p><a href="/about" class="readmore">Read more</a></p>
+
+
+<div class="item-separator"></div>
+		</div>
+			</div>
+
+
+
+</div>
+
+	    <div class="sharethis_box">
+    	
+    </div>
+  </div>
+    <div class="latest_news">
+    <div class="haut"></div>
+    <div class="contenu_news"> 
+       		<div class="moduletable">
+					<h3>latest News</h3>
+					<!------------------------------------- THE CONTENT ------------------------------------------------->
+<div id="lofass84" class="lof-ass " style="height:auto; width:auto">
+<div class="lofass-container   ">
+    
+             
+     <!-- MAIN CONTENT --> 
+      <div class="lof-main-wapper" style="height:327px;width:170px;">
+      	
+                      <div class="lof-main-item ">
+                                <div class="lof-inner">
+                  <p><strong>Material from the Connect4Action and RECAPT joint final conference now available online!</strong></p>
+<p>The joint final conference of Connect4Action and partner-project <strong><a href="http://www.recapt.org/" target="_blank">RECAPT</a> </strong>took place on 29 October 2014 in Brussels. More than 80 people were present at the event. Food technologists, consumer scientists, retailers, caterers, as well as food and nutrition experts were provided with top level findings from both projects and participated in the lively discussions that followed.</p>
+<p><strong><a href="/news/87-material-from-the-connect4action-and-recapt-joint-final-conference-now-available-online">Read more</a></strong></p>
+                  </div>
+                            </div> 
+                        <div class="lof-main-item">
+                                <div class="lof-inner">
+                  <p><strong>FoodNavigator talks about Connect4Action!</strong></p>
+<p>In a recent article, the online news service for the European food and drink industry, FoodNavigator, reported on the importance of listening to consumers – and each other – to improve new product market success. <span style="line-height: 15.8079996109009px;">The article entitled </span><em style="line-height: 15.8079996109009px;">"Avoiding NPD failure through better communication"</em> gives an overview of the Connect4Action project and summarizes some of its main findings. </p>
+<p>To read the article click <a href="http://www.foodnavigator.com/Market-Trends/Avoiding-NPD-failure-through-better-communication" target="_blank"><strong>here</strong></a>.</p>                  </div>
+                            </div> 
+                        <div class="lof-main-item">
+                                <div class="lof-inner">
+                  <p><strong>Listen to the latest podcast on top level results of Connect4Action</strong><strong style="line-height: 15.8079996109009px;">!</strong></p>
+<p style="line-height: 15.8079996109009px;">Karin Zimmermann, senior project manager at Wageningen University in the Netherlands, and coordinator of CONNECT4ACTION, provides an overview of the main findings and talks about the sustainability of the project.</p>
+<p style="line-height: 15.8079996109009px;"><strong><a href="/news/85-last-podcast-karin">Read more</a></strong></p>
+                  </div>
+                            </div> 
+                        <div class="lof-main-item">
+                                <div class="lof-inner">
+                  <p><strong>Watch now the Connect4Action webinar on the toolbox and training activities!</strong></p>
+<p><a href="http://connect4action.eu/toolbox" target="_blank"><strong>Improving communication during the food innovation process</strong></a></p>
+<p><span style="line-height: 15.8079996109009px;">Dr Maddalena Ragona </span><span style="line-height: 15.8079996109009px;">from the University of Bologna</span><span style="line-height: 15.8079996109009px;"> introduces</span><span style="line-height: 1.3em;"> the Connect4Action toolbox and the accompanied training activities.</span></p>                  </div>
+                            </div> 
+                        <div class="lof-main-item">
+                                <div class="lof-inner">
+                  <p><strong>Watch the second Connect4Action video on Consumer science!</strong></p>
+<p><strong><a href="http://connect4action.eu/toolbox" target="_blank">Wiki on Consumer science – An introduction by Professor Arnout Fischer</a></strong></p>
+<p>The purpose of this video is to introduce the discipline of consumer science, explain the importance of getting consumer insights during the food innovation process, and present some of the most prevalent methods of consumer research.</p>                  </div>
+                            </div> 
+                    
+      </div>
+      <!-- END MAIN CONTENT --> 
+        <!-- NAVIGATOR -->
+                      <div class="lof-buttons-control">
+                  <a href="/" onclick="return false;" class="lof-previous">Previous</a>
+                  <a href="/" class="lof-next"  onclick="return false;">Next</a>
+                </div>
+                           
+  </div>
+ </div> <script type="text/javascript">
+
+  var _lofmain =  $('lofass84'); 
+    
+  var object = new LofArticleSlideshow( _lofmain,
+                  { 
+                    fxObject:{
+                    transition:Fx.Transitions.Quad.easeOut,  
+                    duration:500                    },
+                    startItem:0,
+                    interval:15000,
+                    direction :'vrdown', 
+                    navItemHeight:100,
+                    navItemWidth:310,
+                    navItemsDisplay:3,
+                    navPos:'0',
+					autoStart:1                  } );
+      object.registerButtonsControl( 'click', {next:_lofmain.getElement('.lof-next'),
+                         previous:_lofmain.getElement('.lof-previous')} );
+  
+</script>
+
+		</div>
+	
+    </div>
+    <div class="bas"></div>
+  </div>
+    </div>
+  <div class="footer">
+    <div class="contenu_social_media">
+  <!-- Connect4action -<br />
+        facebook page     
+<img src="/templates/connect4action/images/like.png" width="52" height="25" /><br />
+    <img src="/templates/connect4action/images/picto_facebook.png" width="40" height="50" /><img src="/templates/connect4action/images/picto_twitter.png" width="40" height="50" /> <img src="/templates/connect4action/images/picto_mail.png" width="40" height="50" /> -->
+    </div>
+ 
+    <div class="copyright">
+      <p><!--<img src="/templates/connect4action/images/logo1.png" width="63" height="52" />--><img src="/templates/connect4action/images/logo2.png" width="59" height="40" style="margin-top:20px;" />
+      <div class="copyright_texte">
+        <p>© Copyright 2012 Connect4Action<br />This project has received funding from the European Union's Seventh Framework<br />Programme for research, technological development and demonstration. (Contract n&ordm;289023)<br />
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

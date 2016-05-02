@@ -1,0 +1,153 @@
+<style type="text/css">
+#imageGallery {position:absolute; top:93px; left:3px; border-style:solid; border-width:2px; border-color:#888; background:#eee; width: 700px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; -moz-box-shadow: 0px 0px 4px #ffffff; -webkit-box-shadow: 0px 0px 4px #ffffff; box-shadow: 0px 0px 4px #ffffff;}
+#container {margin:0; padding:0; height:470px; overflow:auto; color:#222; background:#fff;}
+#container ul {margin:0; padding:0; list-style:none; white-space:nowrap; display:table-row;}
+#container ul li {display:table-cell; padding:0 15px; background:#fff; border-bottom:1px solid #888; vertical-align:top;}
+#container ul li img {border:1px solid #555; margin: 30px 0 10px 0;}
+#imageGallery h1 {text-align:center; padding:0; margin:0; width:630px; height:38px; line-height:35px; color:#555; font-weight:normal; font-size:20px; border-bottom:1px solid #888;}
+#container p {margin:0; padding:5px 0; font-size:11px;}
+</style>
+
+<html>
+<head>
+  <title>Technotubes</title>
+  <style type="text/css">
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 200%;
+  color: #444;
+  font-weight: bold;
+  text-align: left;
+  text-shadow:#9d9 3px 3px 2px;
+}
+h2 {
+  font-size: 150%;
+  color:#555;
+}
+h3 {
+  font-size: 120%;
+  color: #666;
+}
+h4 {
+  font-size: 90%;
+  color: #777;
+}
+a.nav:link {
+  color: white;
+  text-decoration: none;
+}
+a.nav:visited {
+  color: white;
+  text-decoration: none; 
+}
+a.nav:hover {
+  color: darkgrey; 
+}
+a.nav:active {
+  color: white; 
+}
+
+div#navigation {
+        width: 200px;
+	min-height: 700px;
+        background-color:#08f;
+        position: absolute;
+        left: 0px;
+        top: 150px;
+        padding: 10px;
+}
+div#mainpage {
+        position: absolute;
+        left: 240px;
+        top: 130px;
+        padding: 10px;
+}
+
+div#titlebar {
+        position: absolute;
+        left: -1px;
+        top: 0px;
+        padding: 10px;
+        height: 130px;
+        width: 950px;
+        background-color:#08f;
+}
+</style>
+</head>
+
+<div id="titlebar">
+<p style="display:inline; position:relative; top:1px; left:50pt; color:#fcf; text-shadow:#151 9px 9px 9px; font-size: 600%;">Technotubes</p>
+</div>
+
+<div id="navigation">
+<p><h4><a class="nav" href="/index.php">Home</a></p>
+<p><a class="nav" href="/Contract/index.php">Contract documents</a></p>
+<p><a class="nav" href="/Meetings/Kickoff/index.php">May 2009 Kick off meeting</a></p>
+<p><a class="nav" href="/Meetings/Thales09/index.php">Sep 2009 Thales meeting</a></p>
+<p><a class="nav" href="/Meetings/ETH/index.php">Jan 2010 ETH meeting</a></p>
+<p><a class="nav" href="/Meetings/010JuneTrieste/index.php">Jun 2010 Trieste meeting</a></p>
+
+<p><a class="nav" href="/Meetings/MidtermReviewMeeting/index.php">Midterm Review meeting</a></p>
+<p><a class="nav" href="/Meetings/Oct2010-Berlin/index.php">Oct 2010 Berlin meeting</a></p>
+<p><a class="nav" href="/Meetings/Jan2011-Aachen/index.php">Jan 2011 Aachen meeting</a></p>
+<p><a class="nav" href="/Meetings/June2011Meeting/index.php">Jun 2011 CCS meeting</a></p>
+<p><a class="nav" href="/Meetings/011OctDTU/index.php">Oct 2011 DTU meeting</a></p>
+<p><a class="nav" href="/Meetings/012FebTED/index.php">Feb 2012 TED meeting</a></p>
+<p><a class="nav" href="/Meetings/Deliverables/index.php">Deliverables</a></p>
+
+</div>
+
+<div id="mainpage">
+<h2>Welcome to Technotubes<br>
+<a href="images/technotubes_wepage1.pdf"><p style="font-size:0.7em;">Download this presentation:<p></a></h2>
+
+
+<div id="imageGallery">
+		<div id="container">
+			<ul>
+			<li><img style="height:400px;" src="images/technotubes01.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes02.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes03.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes04.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes05.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes06.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes07.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes08.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes09.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes10.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes11.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes12.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes13.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes14.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes15.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes16.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes17.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes18.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes19.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes20.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes21.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes22.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes23.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes24.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes25.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes26.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes27.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes28.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes29.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes30.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes31.jpg" alt="tree" ></li>
+<li><img style="height:400px;" src="images/technotubes32.jpg" alt="tree" ></li>
+			</ul>
+		</div>
+	</div>
+
+
+
+<br>
+</div>
+

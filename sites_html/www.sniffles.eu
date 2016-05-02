@@ -1,0 +1,306 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+
+
+    <script>
+
+        var active = "home";
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+
+
+    <!-- Page-specific styles -->
+    <link rel="stylesheet" type="text/css" href="/css/960.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/basic.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/project.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/fonts.css"/>
+
+    <!--[if IE 7]><link rel="stylesheet" href="/css/ie7.css" type="text/css" media="screen"/><![endif]-->
+
+
+    <script type="text/javascript" src="/js/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/js/general.js"></script>
+    <script type="text/javascript" src="/js/site.js"></script>
+    <script type="text/javascript" language="javascript" src="/js/swfobject.js"></script>
+
+
+    <title>
+
+        Welcome - Sniffles
+
+    </title>
+
+
+    <meta name="DESCRIPTION" content=""/>
+    <meta name="KEYWORDS" content=","/>
+    <meta name="Date" content=""/>
+
+
+</head>
+
+<body class="yui-skin-sam">
+
+
+<a name="top" id="top"></a>
+<noscript>
+
+    <div class="noscript">
+        You may have javascript disabled on your browser - this site may not work properly for you.
+    </div>
+</noscript>
+
+
+<div id="wrap"> <!-- page start -->
+
+    <div id="header">    <!-- header start -->
+
+     
+      <div id="logo">
+        <a href="../home/index.jsp">
+<img src="../img/Sniffles Logo1.jpg" width="137" height="142" alt="Sniffles" /></a></div>
+      
+     
+
+        <div id="topMenu" class="hMenu">
+            <ul class="menu">
+                
+
+                <li><a href="../home/index.jsp">Home</a></li>
+
+                <li><a href="../contact/index.jsp">Contact Us</a></li>
+
+                <li class="last"><a href="/sitemap/">Sitemap</a></li>
+
+            </ul>
+        </div>
+
+
+            
+
+      </div>  
+
+
+        <div class="hMenuMain">
+            <ul>
+
+                <!-- top menu start -->
+
+                <li class="home"><a href="/home/index.jsp">Home</a></li>
+
+                <li class="project-background"><a href="/project/index.jsp">Project Background</a></li>
+
+                <li class="project-partners"><a href="/partners/index.jsp">Project Partners</a></li>
+
+                <li class="publications"><a href="/publication/index.jsp">Publications</a></li>
+
+                <li class="news"><a href="/news/index.jsp">News &amp; Events</a></li>
+                
+                <li class="links"><a href="/links/index.jsp">Links</a></li>
+
+                <li class="contactus"><a href="/contact/index.jsp">Contact Us</a></li>
+
+                <!-- top menu end -->
+
+
+            </ul>
+
+
+        </div> <!-- hmenuMain end -->
+
+
+
+
+
+
+    <!-- Side bar start -->
+
+
+
+
+
+
+
+<div class="container_12" id="main_content">
+
+
+
+<div class="grid_3">
+        <div id="siteMenu" class="vMenu">
+            <ul class="menu">
+
+            <li class="home">
+                <a href="/home/index.jsp">Welcome</a>
+            </li>
+
+
+            </ul>
+        </div>
+
+
+        <div class="partner_login">
+            
+                <div id="sideLogin">
+                    <script type="text/javascript">
+   $(document).ready(function() {
+        $("#login").validate();
+        forgot_password = function(){
+
+            if ($("#j_username").val() == ""){
+                alert("Enter your username and click the link for a password reminder");
+            }else{
+                window.location.href="/signin/page_password.jsp?username="+document.getElementById("j_username").value;
+            }
+        }
+        
+    });
+
+</script>
+<form action='j_security_check' method="post" name="login" id="login" class="formBlock">
+    <h4>Partner Sign In</h4>
+    <div class="line"><label for="j_username">Username:</label><input type="text" name='j_username' id="j_username" class="txt required" value="" /></div>
+    <div class="line"><label for="j_password">Password:</label><input type="password" name='j_password' id="j_password"  class="txt required" value="" /></div>
+    <div class="line">
+        <input type="submit" name="submitButton" id="signInButton" class="submit" value="Sign In" />
+    </div>
+
+
+    <a href="#" onMouseUp="forgot_password()" class="small">Forgot Password?</a>
+    <p class="message"></p>
+    
+    <input type='hidden' name='j_uri' value='/signin/index.jsp'/>
+</form>
+
+                </div>
+            
+        </div>
+    </div> <!-- side bar end -->
+
+
+<!-- Main -->
+
+    <div class="page_image"></div>
+
+  <div class="grid_9" id="content">
+
+      <div class="flash-slideshow">
+
+
+
+      </div>
+
+          <h1>Welcome</h1>
+
+      <hr>
+
+      <div class="header_paragraph">
+
+
+
+
+          This proposal addresses the SEC-2011.3.4-2 Artificial Sniffer call. The research will
+      develop a universal gas sensor using modular technologies to function as an artificial
+      sniffer that will detect a range of substances. The technology will complement trained
+      sniffer dogs that are currently used. The technology proposed is based on linear ion
+      trap (LIT) mass spectrometry (MS).
+
+      </div>
+
+      <hr>
+
+      <p>MS techniques have been increasingly deployed in security sniffing applications. MS
+      is a non-intrusive high-resolution technique able to detect single atoms and complex
+      molecules through their charged species (ions) or fragmentation pattern. The technique
+      is capable of detecting an extremely wide range of substances rapidly, with high accuracy
+      and with a stand-off capability - critically it is able to detect trace levels below
+      parts per million.  Once the MS fingerprint of an unknown substance is measured it can
+      be compared online with a database of known substances and rapid identification can be
+      made on the spot in real time. </p>
+      
+      <p>Sniffles will develop a LIT MS based device that has a mass range larger than other
+      comparable MS techniques. Additionally, methods for miniaturisation and modularisation
+      will be applied to allow reduced vacuum demand and upgradeability. Miniaturisation will
+      be made possible through improved designs based on results from modelling, implementation
+      of novel manufacturing techniques and improvements in the MS drive electronics and vacuum
+      system.  These advances will bring benefits including reduced acquisition/operating costs,
+      greater mobility, user friendliness and flexibility. </p>
+      
+      <p>Sniffles has the potential to have a significant impact on National security and border
+      control and enable exploitation of International markets. A successful project outcome
+      will demonstrate an automated portable MS-based sniffer instrument, tested and evaluated
+      for a range of security applications and markets by end-users.</p>
+      <p><strong><em>Keywords:</em></strong> Mass spectrometry, linear on trap, electronic nose, mass spectra, Sniffer
+      dogs, border security, border control.</p>
+<hr />
+
+
+  </div> <!-- grid_9 -->
+
+
+</div>
+
+<div class="clear"></div>
+
+    <div class="custom_footer">    <!--  footer start -->
+
+        <div class="right supporters"><a href="http://ec.europa.eu/research/rea/" target="_blank"><img src="../img/eu-flag.jpg" alt="EU Capacities REA" /></a></div>
+        This project has received funding from the European Unionâs Seventh Framework Programme for research, technological development and demonstration under grant agreement no 285045</div> <!--  footer end -->
+
+
+</div>  <!-- container_12 -->
+
+</div> <!-- wrap -->
+
+<!-- Google Analytics Sniffles-->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1417917-16']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</script>
+
+</body>
+</html>
+

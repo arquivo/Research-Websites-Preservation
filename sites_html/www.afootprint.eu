@@ -1,0 +1,487 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!-- STYLE: microsite_Home -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-gb">
+<head>
+<title>Home | A-Footprint</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="DC.Rights" content ="(c) Glasgow Caledonian University. All rights reserved." />
+<meta name="DC.Publisher" content="Glasgow Caledonian University." />
+<!--dc.description-->
+<!--dc.keywords-->
+<!--dc.title-->
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="webteam@gcu.ac.uk" />
+<meta name="copyright" content="&copy; Glasgow Caledonian University" />
+<meta http-equiv="Content-Language" content="en" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<link href="/newsevents/newsrss/news.xml" type="application/rss+xml" rel="alternate" title="A-Footprint News RSS Feed" />
+
+<!--Global CSS -->
+<link href="/media/micrositetemplate/site/css/microsite-global.css" rel="stylesheet" type="text/css" media="" />
+
+<!--Fonts CSS -->
+<link href="/media/micrositetemplate/site/css/microsite-fonts.css" rel="stylesheet" type="text/css" media="" />
+
+<!--Colours CSS -->
+<link href="/media/micrositetemplate/site/css/microsite-colours.css" rel="stylesheet" type="text/css" media="" />
+
+<!-- navigation object: microsite_HeaderMediaLibraryLink --><!--Custom CSS -->
+<link href=" /media/a-footprint/site/css/custom.css" rel="stylesheet" type="text/css" media="" />
+
+<!-- Print CSS -->
+<link rel="stylesheet" href="/media/micrositetemplate/site/css/microsite-print.css" type="text/css" media="print" />
+
+<!--Background images -->
+<style type="text/css">
+
+/* header background image */
+#microSiteHeader.backgroundImage { background-image: url( /media/a-footprint/site/images/Banner-950x100.gif); }
+
+/* header logo image */
+#microSiteHeader.logoImage a#home { background-image: url( /media/micrositetemplate/site/images/gcuheader/microsite-GCU-logo.gif); }
+
+/* sub page wrap top left corner arrow */
+#subPageWrap {background-image: url( /media/micrositetemplate/site/images/microsite-arrow-bg.gif);}
+
+/* sub page content corner */
+#contentCol {background-image: url( /media/a-footprint/site/images/white-page-corner-left.gif);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General */
+
+#headerWrapper {background-image: url( /media/micrositetemplate/site/images/gcuheader/microsite-header-grad-bkgd.gif);}
+#siteSearchPanel {background-image: url( /media/micrositetemplate/site/images/gcuheader/microsite-site-search-grad-bkgd.gif);}
+#siteSearchPanel .searchForm {background-image: url( /media/micrositetemplate/site/images/gcuheader/microsite-site-search-grad-left.gif);}
+#siteSearchPanel .rightCorner {background-image: url( /media/micrositetemplate/site/images/gcuheader/microsite-site-search-grad-right.gif);}
+#siteSearchSubmit {background-image: url( /media/micrositetemplate/site/images/gcuheader/microsite-search-button.gif);}
+#siteSearchSubmit:hover, #siteSearchSubmit:focus {background-image: url( /media/micrositetemplate/site/images/gcuheader/microsite-search-button-hover.gif);}
+
+#housekeepingLinks ul li {background-image: url( /media/micrositetemplate/site/images/nav/microsite-search-links-divider.gif);}
+#footer ul li {background-image: url( /media/micrositetemplate/site/images/nav/microsite-search-links-divider.gif);}
+.moreLink {background-image: url( /media/micrositetemplate/site/images/nav/microsite-small-link-arrow.gif);}
+.lhNav li.open li.open a, .lhNav li.open li.open li.open a, .rhNav li.open a, .rhNav li.open li.open a, .newsNav li.active .newsType {background-image: url( /media/micrositetemplate/site/images/nav/microsite-open-nav-arrow-down.gif);}
+.lhNav li.open li.open li.open li.open a {background-image: url( /media/micrositetemplate/site/images/nav/microsite-open-nav-arrow-right.gif);}
+.lhNav li.current a, .lhNav li.open li.current a, .lhNav li.open li.open li.current a, .lhNav li.current .noLink, .lhNav li.open li.current .noLink, .lhNav li.open li.open li.current .noLink {background-image: url( /media/micrositetemplate/site/images/nav/microsite-current-page-arrow-left.png);}
+.rhNav li.current a, .rhNav li.open li.current a, .rhNav li.open li.open li.current a, .rhNav li.current .noLink, .rhNav li.open li.current .noLink, .rhNav li.open li.open li.current .noLink {background-image: url( /media/micrositetemplate/site/images/nav/microsite-current-page-arrow-right.png);}
+#bc ul li a {background-image: url( /media/micrositetemplate/site/images/nav/microsite-breadcrumb-arrow.gif);}
+ul.linksList li a, div.linksList a {background-image:url( /media/micrositetemplate/site/images/nav/microsite-links-list-arrow.gif);}
+ul.eventsList li.eventSummary .eventDetails, .newsHomeEvents .subSection, .articlesList li .articleSummary, .newsHomeArticle .contents { background-image: url( /media/micrositetemplate/site/images/nav/microsite-news_bullet.gif);}
+.pagination .prev_active { background-image: url( /media/micrositetemplate/site/images/nav/microsite-prev-arrow-active.jpg);}
+.pagination .prev_disabled {background-image: url( /media/micrositetemplate/site/images/nav/microsite-prev-arrow-disabled.jpg);}
+.pagination .next_active {background-image: url( /media/micrositetemplate/site/images/nav/microsite-next-arrow-active.jpg);}
+.pagination .next_disabled {background-image: url( /media/micrositetemplate/site/images/nav/microsite-next-arrow-disabled.jpg);}
+
+.ui-state-default, .ui-widget-content .ui-state-default {background-image: url( /media/micrositetemplate/site/images/tabs/microsite-news-tab-left-default.gif); }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { background-image: url( /media/micrositetemplate/site/images/tabs/microsite-news-tab-right-default.gif); }
+.ui-state-active, .ui-widget-content .ui-state-active { background-image: url( /media/micrositetemplate/site/images/tabs/microsite-news-tab-left-active.gif);}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { background-image: url( /media/micrositetemplate/site/images/tabs/microsite-news-tab-right-active.gif);}
+
+blockquote.pink { background-image: url( /media/micrositetemplate/site/images/furniture/microsite-quotes-pink.gif); }
+blockquote.red { background-image: url( /media/micrositetemplate/site/images/furniture/microsite-quotes-red.gif); }
+blockquote.orange { background-image: url( /media/micrositetemplate/site/images/furniture/microsite-quotes-orange.gif); }
+blockquote.green { background-image: url( /media/micrositetemplate/site/images/furniture/microsite-quotes-green.gif); }
+blockquote.blue { background-image: url( /media/micrositetemplate/site/images/furniture/microsite-quotes-blue.gif); }
+
+/* File type icons
+/media/micrositetemplate/site/images/icons/microsite-PDF-icon.png
+/media/micrositetemplate/site/images/icons/microsite-Excel-icon.jpg
+/media/micrositetemplate/site/images/icons/microsite-JPG-icon.jpg
+/media/micrositetemplate/site/images/icons/microsite-PDF-icon.jpg
+/media/micrositetemplate/site/images/icons/microsite-PowerPoint-icon.jpg
+/media/micrositetemplate/site/images/icons/microsite-Word-icon.jpg
+ */
+
+/* Facebook and Twitter promo panels */
+div.bottomArea a.viewPageAnchor span.left {background-image: url(/media/micrositetemplate/site/images/socialservicesimages/button-Left.png); }
+div.bottomArea a.viewPageAnchor span.middle {background-image: url(/media/micrositetemplate/site/images/socialservicesimages/button-Middle.jpg); }
+div.bottomArea a.viewPageAnchor span.right {background-image: url(/media/micrositetemplate/site/images/socialservicesimages/button-Right.png); }
+div.headerArea a.followAnchor span.left {background-image: url(/media/micrositetemplate/site/images/socialservicesimages/buttonSmall-LeftFollow.png);}
+div.headerArea a.followAnchor span.middle{background-image: url(/media/micrositetemplate/site/images/socialservicesimages/buttonSmall-Middle.jpg);}
+div.headerArea a.followAnchor span.right{background-image: url(/media/micrositetemplate/site/images/socialservicesimages/buttonSmall-Right.png);}
+
+div.bottomArea a.viewPageAnchor:hover span.left {background-image: url(/media/micrositetemplate/site/images/socialservicesimages/button-Left-Hover.png); }
+div.bottomArea a.viewPageAnchor:hover span.middle {background-image: url(/media/micrositetemplate/site/images/socialservicesimages/button-Middle-Hover.jpg); }
+div.bottomArea a.viewPageAnchor:hover span.right {background-image: url(/media/micrositetemplate/site/images/socialservicesimages/button-Right-Hover.png); }
+div.headerArea a.followAnchor:hover span.left {background-image: url(/media/micrositetemplate/site/images/socialservicesimages/buttonSmall-LeftFollow-Hover.png);}
+div.headerArea a.followAnchor:hover span.middle{background-image: url(/media/micrositetemplate/site/images/socialservicesimages/buttonSmall-Middle-Hover.jpg);}
+div.headerArea a.followAnchor:hover span.right{background-image: url(/media/micrositetemplate/site/images/socialservicesimages/buttonSmall-Right-Hover.png);}
+
+/* PhotoGallery Background Images */
+.photoGalleryImageList div.galleryThumbnails a#mycarousel-prev, div.photoGalleryContent a.prevButton { background-image: url(/media/micrositetemplate/site/images/jqueryplugins/photogallery/button-back.gif); }
+.photoGalleryImageList div.galleryThumbnails a#mycarousel-next, div.photoGalleryContent a.nextButton { background-image: url(/media/micrositetemplate/site/images/jqueryplugins/photogallery/button-next.gif);}
+.photoGalleryImageList div.galleryThumbnails a#mycarousel-prev:hover, div.photoGalleryContent a.prevButton:hover { background-image: url(/media/micrositetemplate/site/images/jqueryplugins/photogallery/button-backHover.gif);}
+.photoGalleryImageList div.galleryThumbnails a#mycarousel-next:hover, div.photoGalleryContent a.nextButton:hover { background-image: url(/media/micrositetemplate/site/images/jqueryplugins/photogallery/button-nextHover.gif);}
+.photoGalleryImageList ul#mycarousel a:hover span.zoomIcon { background-image: url(/media/micrositetemplate/site/images/jqueryplugins/photogallery/icon-view.png);}
+.photoGalleryImageList ul#mycarousel a { cursor: url(/media/micrositetemplate/site/images/jqueryplugins/photogallery/icon-view.png), url(/media/micrositetemplate/site/images/jqueryplugins/photogallery/icon-view.cur), pointer; }
+
+/* Colorbox Background Images */
+#cboxClose { background-image: url(/media/micrositetemplate/site/images/jqueryplugins/photogallery/button-close.png); }
+#cboxClose:hover { background-image: url(/media/micrositetemplate/site/images/jqueryplugins/photogallery/button-closeHover.png); }
+#cboxLoadingOverlay { background-image: url(/media/micrositetemplate/site/images/jqueryplugins/photogallery/loading.gif); }
+
+/* RSS Promo */
+.rssPromo a.rssLink {background-image:url(/media/micrositetemplate/site/images/icons/feed-rss.png);}
+
+</style>
+
+<!-- Colorbox CSS -->
+<link rel="Stylesheet" href="/media/micrositetemplate/site/css/microsite-colorbox.css" />
+
+<!--Tabs CSS -->
+<link href="/media/micrositetemplate/site/css/microsite-tabs.css" rel="stylesheet" type="text/css" media="" />
+
+
+<!--IE6 fixes CSS -->
+<!--[if IE 6]><link href="/media/micrositetemplate/site/css/microsite-ie6.css" rel="stylesheet" type="text/css" media="" />
+<![endif]-->
+
+<!--IE7 fixes CSS -->
+<!--[if IE 7]><link href="/media/micrositetemplate/site/css/microsite-ie7.css" rel="stylesheet" type="text/css" media="" />
+<![endif]-->
+
+<!--IE8 fixes CSS -->
+<!--[if IE 8]><link href="/media/micrositetemplate/site/css/microsite-ie8.css" rel="stylesheet" type="text/css" media="" />
+<![endif]-->
+
+<!-- jQuery 1.3.2 -->
+<script id="jQuery" language="javascript" type="text/javascript" src="/media/micrositetemplate/site/js/microsite-jquery-1.3.2.min.js"></script>
+
+<!-- JQuery UI Core -->
+<script id="jQueryUICore" language="javascript" type="text/javascript" src="/media/micrositetemplate/site/js/microsite-ui.core.js"></script>
+
+<!-- JQuery UI Tabs -->
+<script id="jQueryUITabs" language="javascript" type="text/javascript" src="/media/micrositetemplate/site/js/microsite-ui.tabs.js"></script>
+
+<!-- JQuery HoverIntent -->
+<script id="hoverIntentJS" language="javascript" type="text/javascript" src="/media/micrositetemplate/site/js/microsite-jquery.hoverIntent.minified.js"></script>
+
+<!-- JQuery Innerfade -->
+<script id="InnerfadeJS" language="javascript" type="text/javascript" src="/media/micrositetemplate/site/js/microsite-jquery.innerfade.js"></script>
+
+<!-- JS Global -->
+<script id="globalJS" language="javascript" type="text/javascript" src="/media/micrositetemplate/site/js/microsite-global.js"></script>
+
+<!-- Microsite Master Header JS declarations -->
+<!-- navigation:microsite_HeaderMediaLibraryJS--><!-- JCarousel JS -->
+<script type="text/javascript" src="/media/micrositetemplate/site/js/microsite-jquery.jcarousel.min.js"></script>
+
+<!-- Colorbox JS -->
+<script type="text/javascript" src="/media/micrositetemplate/site/js/microsite-jquery.colorbox-min.js"></script>
+
+<!-- PhotoGallery JS -->
+<script type="text/javascript" src="/media/micrositetemplate/site/js/microsite-PhotoGalleryScript.js"></script>
+
+  
+<link href="/media/gcalwebv2/interfaces/twitter/usertimeline/TwitterUserTimeline.min.css" rel="stylesheet" type="text/css" media="" />  
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="headerWrapper">
+        <a href="#content" id="skipLink">Skip to content</a>
+		<div id="header">
+<!-- navigation object : microsite_BrandLogo --> 
+
+        <!-- navigation object :microsite_SearchForm --><div id="siteSearchPanel">
+	<div class="searchForm">
+<form action="http://search.gcal.ac.uk:8765/afootpnt/query.html" accept-charset="iso-8859-1" method="get" name="seek1">
+  <label for="siteSearch" class="searchLabel hidden">Search site</label>
+  <input type="text" name="qt" id="siteSearch" maxlength="1991" size="24" value="Search Site" />
+  <input type="hidden" name="col" value="afootpnt" />
+  <input type="hidden" name="qc" value="afootpnt" />
+  <input type="submit" value="Search" name="siteSearchSubmit" id="siteSearchSubmit" />
+</form>
+        </div>
+        <div class="rightCorner"></div>
+</div>
+
+        </div><!--header-->
+        <div class="clear"></div>
+  </div><!--headerWrapper-->
+    <div id="microSiteHeader" class="backgroundImage">
+
+        <!-- navigation object :microsite_HeaderLinks -->
+
+        <a href="/" id="home" title="Home.">
+            <span id="microSiteName">
+                A-Footprint
+            </span>
+            &nbsp;
+        </a>
+<div id="topNav">
+<!-- microsite_TopNavigation --><ul><li class=' first'><a href="/" title="Visit Home."><span class='linkLeft'></span><span class='linkBody'>Home</span><span class='linkRight'></span></a></li><li class=' n2'><a href="/about/" title="Visit About A-FOOTPRINT."><span class='linkLeft'></span><span class='linkBody'>About A-FOOTPRINT</span><span class='linkRight'></span></a><ul><li class=' first'><a href="/about/objectives/" title="Visit Objectives."><span class='linkLeft'></span><span class='linkBody'>Objectives</span><span class='linkRight'></span></a></li><li class=' n2'><a href="/about/expectedresults/" title="Visit Expected Results."><span class='linkLeft'></span><span class='linkBody'>Expected Results</span><span class='linkRight'></span></a></li><li class=' n3'><a href="/about/workpackages/" title="Visit Work Packages."><span class='linkLeft'></span><span class='linkBody'>Work Packages</span><span class='linkRight'></span></a></li><li class=' n4'><a href="/about/managementstructure/" title="Visit Management Structure."><span class='linkLeft'></span><span class='linkBody'>Management Structure</span><span class='linkRight'></span></a></li><li class=' n5'><a href="/about/deliverables/" title="Visit Deliverables."><span class='linkLeft'></span><span class='linkBody'>Deliverables</span><span class='linkRight'></span></a></li><li class=' last'><a href="/about/a-footprintvideos/" title="Visit A-FOOTPRINT Videos."><span class='linkLeft'></span><span class='linkBody'>A-FOOTPRINT Videos</span><span class='linkRight'></span></a></li></ul></li><li class=' n3'><a href="/consortium/" title="Visit Consortium."><span class='linkLeft'></span><span class='linkBody'>Consortium</span><span class='linkRight'></span></a><ul><li class=' first'><a href="/consortium/glasgowcaledonianuniversity/" title="Visit Glasgow Caledonian University."><span class='linkLeft'></span><span class='linkBody'>Glasgow Caledonian University</span><span class='linkRight'></span></a></li><li class=' n2'><a href="/consortium/balticorthoserviceuab/" title="Visit Baltic Orthoservice UAB."><span class='linkLeft'></span><span class='linkBody'>Baltic Orthoservice UAB</span><span class='linkRight'></span></a></li><li class=' n3'><a href="/consortium/universityofnewcastleupontyne/" title="Visit University of Newcastle upon Tyne."><span class='linkLeft'></span><span class='linkBody'>University of Newcastle upon Tyne</span><span class='linkRight'></span></a></li><li class=' n4'><a href="/consortium/materialisenv/" title="Visit Materialise NV."><span class='linkLeft'></span><span class='linkBody'>Materialise NV</span><span class='linkRight'></span></a></li><li class=' n5'><a href="/consortium/peacocksmedicalgroupltd/" title="Visit Peacocks Medical Group Ltd."><span class='linkLeft'></span><span class='linkBody'>Peacocks Medical Group Ltd</span><span class='linkRight'></span></a></li><li class=' n6'><a href="/consortium/fireflyorthoseslimited/" title="Visit Firefly Orthoses Limited."><span class='linkLeft'></span><span class='linkBody'>Firefly Orthoses Limited</span><span class='linkRight'></span></a></li><li class=' n7'><a href="/consortium/thomasmorekempenvzw/" title="Visit Thomas More Kempen VZW."><span class='linkLeft'></span><span class='linkBody'>Thomas More Kempen VZW</span><span class='linkRight'></span></a></li><li class=' n8'><a href="/consortium/rsscaninternational/" title="Visit RSscan INTERNATIONAL."><span class='linkLeft'></span><span class='linkBody'>RSscan INTERNATIONAL</span><span class='linkRight'></span></a></li><li class=' n9'><a href="/consortium/anybodytechnologyas/" title="Visit AnyBody Technology A/S."><span class='linkLeft'></span><span class='linkBody'>AnyBody Technology A/S</span><span class='linkRight'></span></a></li><li class=' n10'><a href="/consortium/academischziekenhuismaastricht/" title="Visit Academisch Ziekenhuis Maastricht."><span class='linkLeft'></span><span class='linkBody'>Academisch Ziekenhuis Maastricht</span><span class='linkRight'></span></a></li><li class=' n11'><a href="/consortium/stichtingfontys/" title="Visit Stichting Fontys."><span class='linkLeft'></span><span class='linkBody'>Stichting Fontys</span><span class='linkRight'></span></a></li><li class=' last'><a href="/consortium/junqueraydizsl/" title="Visit Junquera y Diz S.L.."><span class='linkLeft'></span><span class='linkBody'>Junquera y Diz S.L.</span><span class='linkRight'></span></a></li></ul></li><li class=' n4'><a href="/newsevents/index.php" title="Visit News &amp; Events."><span class='linkLeft'></span><span class='linkBody'>News &amp; Events</span><span class='linkRight'></span></a></li><li class=' n5'><a href="/publications/" title="Visit Publications."><span class='linkLeft'></span><span class='linkBody'>Publications</span><span class='linkRight'></span></a><ul><li class=' first'><a href="/publications/conferencepapers/" title="Visit Conference Papers."><span class='linkLeft'></span><span class='linkBody'>Conference Papers</span><span class='linkRight'></span></a></li><li class=' last'><a href="/publications/scientificpublications/" title="Visit Scientific Publications."><span class='linkLeft'></span><span class='linkBody'>Scientific Publications</span><span class='linkRight'></span></a></li></ul></li><li class=' n6'><a href="/newsletter/" title="Visit Newsletter."><span class='linkLeft'></span><span class='linkBody'>Newsletter</span><span class='linkRight'></span></a></li><li class=' last'><a href="/contact/" title="Visit Contact Us."><span class='linkLeft'></span><span class='linkBody'>Contact Us</span><span class='linkRight'></span></a></li></ul>
+
+<a id="rss" href="/newsevents/newsrss/news.xml" title="RSS Feeds"><img src="/media/micrositetemplate/site/images/nav/microsite-icon-rss-feed.gif" alt="RSS Feed Icon" width="24" height="23" /></a>
+
+                <div class="clear"><!-- --></div>
+      </div>      
+	</div><!--microSiteHeader-->  
+    <div id="pageWrap">
+    	<div id="whiteWrap">
+        	<div id="pageContent">
+                      <div class="leftColHome">
+                    	<a id="content"></a>
+                        <div class="content">
+<!-- START HOME CONTENT -->
+<div class="slidesContainer">
+<ul class="slides">
+  <li>
+    <a href="http://www.afootprint.eu/about/a-footprintvideos/ ">
+      <img  src="/a-foot-vid.jpg"  width="704"  height="297"  alt=""  />
+    </a>
+  </li>
+  <li class="hidden">
+    <a href="http://industrialtechnologies2012.eu/  ">
+      
+    </a>
+  </li>
+  <li class="hidden">
+    <a href="http://www.afootprint.eu/consortium/balticorthoserviceuab/">
+      
+    </a>
+  </li>
+  <li class="hidden">
+    <a href="http://www.afootprint.eu/about/expectedresults/">
+      <img  src="/rotating_foot_orthoses.jpg"  width="704"  height="297"  alt=""  />
+    </a>
+  </li>
+  <li class="hidden">
+    <a href="http://www.anybodytech.com/index.php?id=1098 ">
+      <img  src="/Image2.jpg"  width="704"  height="297"  alt=""  />
+    </a>
+  </li>
+  <li class="hidden">
+    <a href="http://www.gcu.ac.uk/newsevents/news/article.php?id=48821">
+      <img  src="/home-model (1).jpg"  width="704"  height="297"  alt=""  />
+    </a>
+  </li>
+</ul>
+<div class="clear"></div>
+</div>
+<div class="htmlContent">
+<h1>Welcome to A-FOOTPRINT</h1>
+<p>
+A-FOOTPRINT is a joint research and innovation initiative led by Glasgow Caledonian University, with the objective to develop novel ankle/foot and foot orthoses for common disabling conditions which are cost effective, high-speed to market, and personalised for form and function. Find out more.</p>
+</div><div class="servicesWrap">
+    <div>
+
+        <!-- navigation object : microsite_LinkPanels -->
+        <div class="services">
+    <h2><a href="/about/" title="Visit Find out about....">Find out about...</a></h2>
+    <p>
+       <ul><li><a href="/about/objectives/">Project objectives</a>
+<br /></li>
+<li><a href="/about/managementstructure/">The management structure</a>
+<br /></li>
+<li><a href="/consortium/">The project consortium</a>
+<br /></li></ul> 
+    </p>
+</div>
+<div class="services">
+    <h2><a href="/publications/" title="Visit Project outputs.">Project outputs</a></h2>
+    <p>
+       <ul><li><a href="/publications/conferencepapers/">Conference papers</a>
+<br /></li>
+<li><a href="/newsletter/">Download our newsletter</a>
+<br /></li>
+<li>Dissemination events
+<br /></li>
+</ul> 
+    </p>
+</div>
+<div class="services">
+    <h2><a href="/partnersarea/" title="Visit Partner Area.">Partner Area</a></h2>
+    <p>
+       <p><a href="/partnersarea/">Log-in</a> to our password protected area for consortium partners. </p> 
+    </p>
+    <a href="/partnersarea/" title="Visit Partner Area." class="moreLink">Find out more</a>
+</div>
+
+
+    </div>
+    <div class="clear"></div>
+</div><div class="htmlContent">
+<img src="/media/a-footprint/content/logos_home.gif" alt="Homepage logos" style="width : 704px; height : 115px; border : ; padding : ; margin : ; float : ;" />
+</div><!-- END HOME CONTENT -->
+
+                          <div class="clear"></div>
+
+                           <div class="promoArea">
+                                <!-- navigation object : microsite_HomePromotions -->
+                            	<div class="clear"></div>
+                          </div>
+
+                        </div> <!--content-->                
+                    </div> <!--leftColHome-->
+<div class="rightColHome">
+
+                            <!-- navigation object : microsite_HomeNewsPanel -->                    	<div id="newsEvents" class="home">
+                        	<div id="tabs">
+                                <ul>
+                                    <li><a href="#tabs-1">News</a></li>
+                                    <li><a href="#tabs-2">Events</a></li>
+                                </ul>
+                                <div id="tabs-1">
+                                    <ul>
+
+			<li>
+<p>
+
+<a href="/newsevents/news/article.php?id=60616" title="View A-FOOTPRINT Survey - A New Orthotic Concept article in full.">A-FOOTPRINT Survey - A New Orthotic Concept</a>
+
+</p>
+
+<div class="articlesList_img">
+
+<a href="/newsevents/news/article.php?id=60616" title="View A-FOOTPRINT Survey - A New Orthotic Concept article in full.">
+
+<img  src="/micrositenewseventsconfig/Market Survey-67x67.jpg"  width="67"  height="67"  alt="null"  />
+
+</a>
+
+</div>
+
+<div class="clear"><!-- --></div>
+</li><li>
+<p>
+
+<a href="/newsevents/news/article.php?id=53677" title="View A-FOOTPRINT Demonstration Event article in full.">A-FOOTPRINT Demonstration Event</a>
+
+</p>
+
+<div class="articlesList_img">
+
+<a href="/newsevents/news/article.php?id=53677" title="View A-FOOTPRINT Demonstration Event article in full.">
+
+<img  src="/micrositenewseventsconfig/Centre for Life-67x67.jpg"  width="67"  height="67"  alt="null"  />
+
+</a>
+
+</div>
+
+<div class="clear"><!-- --></div>
+</li><li>
+<p>
+
+<a href="/newsevents/news/article.php?id=56030" title="View BBC News coverage of 3D printing in A-FOOTPRINT  article in full.">BBC News coverage of 3D printing in A-FOOTPRINT </a>
+
+</p>
+
+<div class="articlesList_img">
+
+<a href="/newsevents/news/article.php?id=56030" title="View BBC News coverage of 3D printing in A-FOOTPRINT  article in full.">
+
+<img  src="/micrositenewseventsconfig/rsz_bbc-67x67.jpg"  width="67"  height="67"  alt="null"  />
+
+</a>
+
+</div>
+
+<div class="clear"><!-- --></div>
+</li><li>
+<p>
+
+<a href="/newsevents/news/article.php?id=56026" title="View Webcast launching the new Glasgow-Maastricht AnyBody Foot Model article in full.">Webcast launching the new Glasgow-Maastricht AnyBody Foot Model</a>
+
+</p>
+
+<div class="articlesList_img">
+
+<a href="/newsevents/news/article.php?id=56026" title="View Webcast launching the new Glasgow-Maastricht AnyBody Foot Model article in full.">
+
+<img  src="/micrositenewseventsconfig/AnyBody  foot model 5-67x56.jpg"  width="67"  height="56"  alt="null"  />
+
+</a>
+
+</div>
+
+<div class="clear"><!-- --></div>
+</li>
+
+                                    </ul>
+                                <div class="clear"></div>    
+                                </div>
+                          <div id="tabs-2">
+                                    <ul>
+			<p>No events exist at the moment.</p>
+
+                                    </ul>
+                                <div class="clear"><!-- --></div>
+                                </div>
+                          </div>
+                        </div>
+
+                            <!-- navigation object : microsite_HomeRightPromotions --><div class="promo">
+<a href="/newsletter/" title="">
+<img src="/media/a-footprint/content/promo-newsletter.gif" alt="PROMO-AFoot Newsletter Home" style="width : 225px; height : 110px; border : ; padding : ; margin : ; float : ;" /></a>
+</div>
+
+                </div>
+             <div class="clear"><!-- --></div>
+          </div> <!--pageContent-->
+        </div><!--pageWrap-->
+        <div class="clear"><!-- --></div>
+  </div><!--whiteWrap-->
+    <div id="footer">
+    	<p class="copyright"><!-- navigation object : microsite_Copyright -->Copyright &copy; A-Footprint</p>
+
+        <!-- navigation object :microsite_FooterLinks -->        <ul class="links horiz">
+<li>
+  <a href="/floatingpages/sitemap/" title="Visit Site Map.">
+    Site Map
+  </a>
+</li>
+<li>
+  <a href="/floatingpages/foiprivacypolicy/" title="Visit FOI & Privacy Policy.">
+    FOI & Privacy Policy
+  </a>
+</li>
+<li>
+  <a href="/floatingpages/termsconditions/" title="Visit Terms & Conditions.">
+    Terms & Conditions
+  </a>
+</li>
+<li>
+  <a href="/floatingpages/accessibility/" title="Visit Accessibility.">
+    Accessibility
+  </a>
+</li>
+        </ul>
+
+
+  <div class="clear"><!-- --></div>  
+<p><!-- navigation object : microsite_FooterText -->Funded by the European Commission FP7 Programme, Grant Agreement Number: NMP2-SE-2009-228893.</p>
+			<div class="clear">&nbsp;</div>
+    </div>
+  <div class="clear"><!-- --></div>  
+</div><!--wrapper-->
+
+<!-- navigation object : microsite_GoogleAnalyticsCode --><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-334467-14");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+</body>
+</html>

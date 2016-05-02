@@ -1,0 +1,472 @@
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+    
+    
+    
+    
+    
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Forces IE8+ into newest rendering engine even if on an intranet. This has to be defined before any script/style tags. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+
+    
+        <base href="http://www.nanospec.eu/project" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    
+        <meta content=" " name="description" />
+<link rel="kss-base-url" href="http://www.nanospec.eu/project/" />
+
+  
+    <link rel="stylesheet" type="text/css" href="http://www.nanospec.eu/portal_css/Sunburst%20Theme/base-cachekey1547.css" />
+        <!--[if lt IE 8]>    
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="http://www.nanospec.eu/portal_css/Sunburst%20Theme/IEFixes-cachekey6578.css" />
+        <![endif]-->
+    
+    <link rel="stylesheet" type="text/css" media="all" href="http://www.nanospec.eu/portal_css/Sunburst%20Theme/ploneCustom-cachekey6744.css" />
+
+  
+    <link rel="kinetic-stylesheet" type="text/css" href="http://www.nanospec.eu/portal_kss/Sunburst%20Theme/resourcetinymce.ksstinymce-cachekey4004.kss" />
+    <link rel="kinetic-stylesheet" type="text/css" href="http://www.nanospec.eu/portal_kss/Sunburst%20Theme/at-cachekey3315.kss" />
+  
+    <script type="text/javascript" src="http://www.nanospec.eu/portal_javascripts/Sunburst%20Theme/jquery-cachekey0747.js"></script>
+       <!--[if lt IE 8]>
+     
+    <script type="text/javascript" src="http://www.nanospec.eu/portal_javascripts/Sunburst%20Theme/iefixes-cachekey2176.js"></script>
+       <![endif]-->
+     
+
+
+<title>The Nanospec project &mdash; nanospec</title>
+        
+
+    <link rel="shortcut icon" type="image/x-icon" href="http://www.nanospec.eu/favicon.ico" />
+    <link rel="apple-touch-icon" href="http://www.nanospec.eu/touch_icon.png" />
+
+
+
+    <link rel="home" href="http://www.nanospec.eu" title="Front page" />
+
+    <link rel="contents" href="http://www.nanospec.eu/sitemap" title="Site Map" />
+
+
+
+
+
+
+    <link rel="search" href="http://www.nanospec.eu/search_form" title="Search this site" />
+
+
+
+        
+        
+        
+        
+        
+
+        <meta name="viewport" content="width=device-width; initial-scale=0.6666; maximum-scale=1.0; minimum-scale=0.6666" />
+        <meta name="generator" content="Plone - http://plone.org" />
+    
+</head>
+
+<body class="template-document_view portaltype-document section-project" dir="ltr">
+
+<div id="visual-portal-wrapper">
+
+        <div id="portal-top" class="row">
+<div class="cell width-full position-0"> <!-- TODO: Temporary, this one should be in the template that is inserted -->
+            <div id="portal-header">
+    <p class="hiddenStructure">
+  <a accesskey="2" href="http://www.nanospec.eu/#content">Skip to content.</a> |
+
+  <a accesskey="6" href="http://www.nanospec.eu/#portlet-navigation-tree">Skip to navigation</a>
+</p>
+
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Personal tools</h5>
+
+
+
+<dl class="actionMenu deactivated" id="portal-personaltools">
+  <dt id="anon-personalbar">
+    
+        <a href="http://www.nanospec.eu/login_form">Log in</a>
+    
+  </dt>
+</dl>
+
+</div>
+
+
+
+<div id="portal-searchbox">
+    <form name="searchform" action="http://www.nanospec.eu/search">
+
+        <label class="hiddenStructure" for="searchGadget">Search Site</label>
+
+        <div class="LSBox">
+        <input name="SearchableText" type="text" size="18" title="Search Site" accesskey="4" class="searchField inputLabel" id="searchGadget" />
+
+        <input class="searchButton" type="submit" value="Search" />
+
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only" class="noborder" type="checkbox" name="path" value="/nanospec" />
+            <label for="searchbox_currentfolder_only" style="cursor: pointer">
+                only in current section
+            </label>
+        </div>
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="http://www.nanospec.eu/search_form" accesskey="5">
+            Advanced Search&hellip;
+        </a>
+    </div>
+
+</div>
+
+<a id="portal-logo" title="Home" accesskey="1" href="http://www.nanospec.eu">
+    <img src="http://www.nanospec.eu/logo.png" alt="" title="" height="60" width="211" /></a>
+
+
+    <h5 class="hiddenStructure">Sections</h5>
+
+    <ul id="portal-globalnav"><li id="portaltab-index_html" class="selected"><a href="http://www.nanospec.eu" title="">The Project</a></li><li id="portaltab-project-partners" class="plain"><a href="http://www.nanospec.eu/project-partners" title="">Project Partners</a></li><li id="portaltab-key-results" class="plain"><a href="http://www.nanospec.eu/key-results" title="">Key Results</a></li><li id="portaltab-publications-reports" class="plain"><a href="http://www.nanospec.eu/publications-reports" title="">Publications</a></li><li id="portaltab-workshop" class="plain"><a href="http://www.nanospec.eu/workshop"
+    title="On the 21st and 22nd of February 2013, a &quot;Workshop on advanced systems for photon management for photovoltaics&quot;, with a special focus on upconversion was held in Freiburg at the Fraunhofer Institute for Solar Energy Systems ISE. The workshop was initiated from the consortium of the „Nanospec - Nanomaterials for harvesting sub-band-gap photons via upconversion to increase solar cell efficiencies” FP7 project, but went well beyond the scope of this project and was intended to bring together researchers from different relevant fields and representatives from industry.
+
+ ">Workshop </a></li></ul>
+
+</div>
+
+</div>
+        </div>
+    <div id="portal-columns" class="row">
+
+        <div id="portal-column-content" class="cell width-3:4 position-0">
+
+            <div id="viewlet-above-content"><div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">You
+are here:</span>
+    <span id="breadcrumbs-home">
+        <a href="http://www.nanospec.eu">Home</a>
+        
+    </span>
+
+</div>
+</div>
+            
+            
+                <div class="">
+
+                    
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+
+                    
+                        <div id="content">
+
+                            
+
+                                                                                        
+
+                                                          
+                                                           
+                                 
+                                 
+            
+                <h1 id="parent-fieldname-title" class="documentFirstHeading">
+                    The Nanospec project
+                </h1>
+            
+            
+                                                                                            
+                                                                                                            
+                             
+                             
+
+                                               
+                                 
+                                 
+            
+                <div id="parent-fieldname-description" class="documentDescription">
+                    
+                </div>
+            
+            
+                                                                                             
+                                                                                                      
+
+                             
+
+                              
+                             <div id="content-core">                                                                      
+                                 
+    
+        
+        <div class="" id="parent-fieldname-text">
+            <table class="invisible">
+<tbody>
+<tr>
+<td>
+<h3>Motivation</h3>
+</td>
+<td>
+<p>Silicon solar cells lose more than 20% of the energy incident from the sun because photons with an energy below the bandgap are transmitted straight through the device. Upconversion of these photons aims at <b>increasing the efficiency </b>of solar cells, by making also these photons useful. An upconverter generates <b>one high-energy photon out of at least two low energy photons</b>. These high energy photons can than be used by the solar cell.</p>
+</td>
+<td scope="col"></td>
+<td scope="col">
+<p style="text-align: center; "><img alt="The upconverter material NaYF4:Er3+ illuminated with invisible infrared radition shines bright in the visible range - upconversion you can see" class="image-inline" height="115" src="GF5_05_Hochkonversion_Goldschmidt_Foto1.JPG/image_preview" width="165" /></p>
+</td>
+</tr>
+<tr>
+<td>
+<h3>Approach</h3>
+</td>
+<td>In the Nanospec project seven European partners joint their forces to  develop an adavanced upconverting system that significantly enhances  solar cell efficiencies. Key features were the upconverter material, the  combination with second luminescent material to enlarge the used  spectral region, photonic structures for photon management and efficient  solar cells.</td>
+<td></td>
+<td>
+<p style="text-align: center; "><i>The upconverter NaYF4:Er3+ illuminated with invisible infrared   laser radiation shines bright in the visible. This is the effect of   upconversion.</i></p>
+</td>
+</tr>
+<tr>
+<td>
+<h3></h3>
+<br /></td>
+<td>
+<p>To achieve these goals, this project created <b>significant progress in the science and technology of nanostructures and nanotechnology-based materials</b>. The following detailed list of objectives were pursued:</p>
+<ul>
+<li>The theoretical<b> modelling and simulation</b> of the important dynamics and processes.</li>
+</ul>
+<ul>
+<li> Development of highly efficient, near-infrared emitting luminescent<b> nanocrystalline quantum dots</b> (NQD).</li>
+</ul>
+<ul>
+<li> Development of highly efficient <b>upconversion phosphors</b>.</li>
+</ul>
+<ul>
+<li>Development of highly energy selective, high reflection, high transmission photonic structures for<b> photon management</b>.</li>
+</ul>
+<ul>
+<li>The implementation of upconverters and nanocrystals in new matrix materials.</li>
+</ul>
+<ul>
+<li>The development of both crystalline and thin-film silicon solar cells that are highly efficient adapted to the use of upconverted light.</li>
+</ul>
+<ul>
+<li>The integration of all components into <b>one system</b> and testing these systems outdoors integrated into a concentrator module.</li>
+</ul>
+<ul>
+<li>To ensure the impact of the project in the European photovoltaic industry, a <b>roadmap for the further exploitation</b> was developed. Furthermore, the abundance of the involved materials was investigated and a life-cycle analysis performed.</li>
+</ul>
+</td>
+<td></td>
+<td rowspan="2">
+<p style="text-align: center; "><img alt="Upconverter System" class="image-inline" height="322" src="GF5_05_Hochkonversion_Goldschmidt_Grafik2_englisch.jpg/image_preview" width="365" /></p>
+<p style="text-align: center; "><i>An upconverter system with all these features was realized in the Nanospec project.</i></p>
+</td>
+</tr>
+<tr>
+<td>
+<h3></h3>
+<h3>Key results</h3>
+</td>
+<td>Overall the development of efficient upconverter materials and the realization of adapted silicon solar cells lead to increase of upconversion performance by more than an order of magnitude during the coarse of the Nanospec project.<br /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><a class="internal-link" href="about"><span class="internal-link">Impressum</span>/Publishing Notes</a></p>
+            
+        </div>
+    
+    
+                                                                            
+                             </div>                                                                                       
+                             
+
+
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+
+        
+
+    </div>
+                              
+
+                            
+                        </div>
+                    
+
+                    
+                </div>
+            
+        
+            <div id="viewlet-below-content"><div id="category" class="documentByLine">
+  Filed under:
+  <span>
+    <a href="http://www.nanospec.eu/search?Subject%3Alist=test" class="link-category" rel="tag">test</a>
+  </span>
+</div>
+
+
+
+
+
+    
+
+</div>
+        </div>
+
+        
+        
+
+        <div id="portal-column-two" class="cell width-1:4 position-3:4">
+            
+                
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f6e616e6f737065630a66756e64696e67" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f6e616e6f737065630a66756e64696e67">
+<dl class="portlet portletStaticText portlet-static-funding">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <span>
+           Funding
+        </span>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+        <p style="text-align: left; ">The Nanospec  Project is funded by the European Community's Seventh   Framework  Program (FP7/2007-2013) under grant agreement no. [246200].</p>
+<p style="text-align: left; "><img alt="FP 7 Logo" class="image-inline" height="90" src="FP7genRGB.gif/image_thumb" width="110" /> <img alt="Logo EU" class="image-inline" height="90" src="Logo_EU.jpg/image_thumb" width="136" /></p>
+        
+            <span class="portletBottomLeft"></span>
+            <span class="portletBottomRight"></span>
+        
+    </dd>
+    
+    
+
+</dl>
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f6e616e6f737065630a70726f6a6563742d706172746e657273" class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f6e616e6f737065630a70726f6a6563742d706172746e657273">
+<dl class="portlet portletStaticText portlet-static-project-partners">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <span>
+           <a class="tile" href="http://vv200.ise.fhg.de/p4/nanospec/project-partners">Project Partners</a>
+        </span>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+        <p style="text-align: left; "><a class="external-link" href="http://www.ise.fraunhofer.de"><img alt="ISE-Logo" class="image-inline" src="ise_logo.gif" width="200" /></a></p>
+<p style="text-align: left; "><a class="external-link" href="http://www.dcb-server.unibe.ch/groups/kraemer/"><img alt="Logo Bern" class="image-inline" src="logo-bern" width="200" /></a></p>
+<p style="text-align: left; "><a class="external-link" href="http://www.technion.ac.il/en/"><img alt="technion logo" class="image-inline" src="technionlogo.jpg" width="200" /></a></p>
+<p style="text-align: left; "><a class="external-link" href="http://www.hw.ac.uk/"><img alt="Logo HWU 2" class="image-inline" src="HWUlogocolour.jpg" width="200" /> </a></p>
+<p style="text-align: left; "><a class="external-link" href="http://www.fz-juelich.de/portal/DE/Home/home_node.html"><img alt="FZ logo klein" class="image-inline" src="project-partners/copy_of_Logo_FZ_Juelich_898x291_rgb.jpg" width="200" /></a></p>
+<p style="text-align: left; "><a class="external-link" href="http://www.uu.nl/Nl/Pages/default.aspx"><img alt="UUlogo.jpg" class="image-inline" src="UUlogo.jpg" width="200" /></a></p>
+<p style="text-align: left; "><a class="external-link" href="https://www.tue.nl/"><img alt="TUE logo klein" class="image-inline" src="project-partners/copy_of_TUElogo.jpg" width="200" /></a></p>
+        
+    </dd>
+    
+    <dd class="portletFooter">
+        <span class="portletBottomLeft"></span>
+        <span>
+           <a class="tile" href="http://vv200.ise.fhg.de/p4/nanospec/project-partners">Read More...</a>
+        </span>
+        <span class="portletBottomRight"></span>
+    </dd>
+
+</dl>
+</div>
+
+
+
+
+            
+        </div>
+        
+    </div>
+
+
+    
+        <div class="row">
+    <div class="cell width-full position-0">
+
+        <div id="portal-footer">
+            <p>
+                
+                The
+                <a href="http://plone.org">Plone<sup>&reg;</sup> Open Source CMS/WCM</a>
+                is
+                <acronym title="Copyright">&copy;</acronym>
+                2000-2016
+                by the
+                <a href="http://plone.org/foundation">Plone Foundation</a>
+                and friends.
+                
+
+                
+                Distributed under the
+                    <a href="http://creativecommons.org/licenses/GPL/2.0/">GNU GPL license</a>.
+                
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<div id="portal-colophon">
+
+<div class="colophonWrapper">
+<ul>
+  <li>
+    <a href="http://plone.org" title="This site was built using the Plone Open Source CMS/WCM.">
+      Powered by Plone &amp; Python</a>
+  </li>
+</ul>
+</div>
+</div>
+
+<ul id="portal-siteactions">
+
+    <li id="siteaction-sitemap"><a href="http://www.nanospec.eu/sitemap" accesskey="3" title="Site Map">Site Map</a></li>
+    <li id="siteaction-accessibility"><a href="http://www.nanospec.eu/accessibility-info" accesskey="0" title="Accessibility">Accessibility</a></li>
+    <li id="siteaction-contact"><a href="http://www.nanospec.eu/contact-info" accesskey="9" title="Contact">Contact</a></li>
+</ul>
+
+
+    
+
+</div>
+</body>
+</html>
+
+
+

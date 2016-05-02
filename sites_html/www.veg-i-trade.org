@@ -1,0 +1,964 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>HOME</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="RapidWeaver" />
+		<link rel="icon" href="http://www.veg-i-trade.org/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="http://www.veg-i-trade.org/favicon.ico" type="image/x-icon" />
+		
+		
+		
+		<link rel='stylesheet' type='text/css' media='all' href="rw_common/themes/vegitradev1.0/css/stacks/stacks.css" />
+		<!--[if IE]>
+			<link rel='stylesheet' type='text/css' media='all' href="rw_common/themes/vegitradev1.0/css/stacks/stacks_ie.css" />
+		<![endif]-->
+
+				<link rel='stylesheet' type='text/css' media='all' href='rw_common/plugins/stacks/stacks.css' />
+		<!--[if lte IE 7]>
+			<link rel='stylesheet' type='text/css' media='all' href='rw_common/plugins/stacks/stacks_ie.css' />
+		<![endif]-->
+		<link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page117.css' />
+		<script type='text/javascript' charset='utf-8' src='https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>
+		<script type='text/javascript' charset='utf-8' src='files/stacks_page_page117.js'></script>
+<meta class="stack version" id="com.joeworkman.stacks.cycler3" name="Cycler" content="3.2.1">
+
+
+		<script type="text/javascript" src="rw_common/themes/vegitradev1.0/javascript.js"></script>
+<!--[if gte IE 7]><!-->
+		<script type="text/javascript" src="rw_common/themes/vegitradev1.0/js/search/gSearch.js"></script>
+		<script type="text/javascript" src="rw_common/themes/vegitradev1.0/js/staticNav/staticNav.js"></script>
+		<script type="text/javascript" src="rw_common/themes/vegitradev1.0/js/languages/language.js"></script>
+		<script type="text/javascript" src="rw_common/themes/vegitradev1.0/js/mootools.js"></script>
+		<script type="text/javascript" src="rw_common/themes/vegitradev1.0/js/menu.js"></script>
+		<script type="text/javascript" src="rw_common/themes/vegitradev1.0/mediabox/mediaplayer/swfobject.js"></script>
+		
+		<script type="text/javascript">
+	      	//<![CDATA[
+			function setPlayerPath() {
+				playerpath="rw_common/themes/vegitradev1.0/mediabox/mediaplayer/mediaplayer.swf";
+				return playerpath;
+			}
+			function getNavbarImagePath() {
+				var tmp_image_path="rw_common/themes/vegitradev1.0/images/navbar/image01.jpg";
+				var tmp_path_array=tmp_image_path.split("/");
+				tmp_path_array.pop();
+				var navbarImagePath=tmp_path_array.join("/");
+				var navbarImagePath = navbarImagePath+"/";
+				return navbarImagePath;
+			}
+			//]]>
+		</script>
+		<script type="text/javascript" src="rw_common/themes/vegitradev1.0/mediabox/js/mediabox72.js"></script>
+<!--<![endif]-->		
+			
+		<script type="text/javascript">
+			 </script> 
+<!-- include Cycle plugin -->
+<script type='text/javascript' charset='utf-8' src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+<script type='text/javascript' src='resources/HOME/jquery.cycle.all.js'></script>
+
+<script type="text/javascript">
+
+var stacks = {};
+
+stacks.jQuery = jQuery.noConflict(true);
+
+
+stacks.newsshow1 = {};
+stacks.newsshow1 = (function(stack) {
+	var jQuery = stacks.jQuery;
+	var $ = jQuery;
+	$(document).ready(function() {
+		$('#newsshow1 > .stacks_clearer').remove();
+		$('#newsshow1').cycle({ 
+			fx: 'scrollUp', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+			random: false,
+			timeout: 7000, 
+			speed:   1000,
+ 			pause: true,
+			fastOnEvent: 1 
+		});
+	});
+	return stack;
+})(stacks.newsshow1);
+
+stacks.slideshow1 = {};
+
+// A closure is defined and assined to the stack's object.  The object
+// is also passed in as 'stack' which gives you a shorthand for refering
+// to this object from elsewhere.
+stacks.slideshow1 = (function(stack) {
+
+	// When jQuery is used it will be available as $ and jQuery but only
+	// inside the closure.
+	var jQuery = stacks.jQuery;
+	var $ = jQuery;
+	
+//-- Cycle Stack --//
+
+<!--  initialize the slideshow when the DOM is ready -->
+$(document).ready(function() {
+
+$('#slideshow1 > .stacks_clearer').remove();
+
+$('#slideshow1').cycle({ 
+		fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+		random: true,
+    timeout: 3000, 
+    speed:   1000, 
+    fastOnEvent: 1 
+});
+
+$('#goto1').click(function() { 
+    $('#slideshow1').cycle(0);  
+    return false; 
+}); 
+ 
+$('#goto2').click(function() {  
+    $('#slideshow1').cycle(1);  
+    return false;  
+}); 
+
+$('#goto3').click(function() {  
+    $('#slideshow1').cycle(2);  
+    return false;  
+}); 
+
+$('#goto4').click(function() {  
+    $('#slideshow1').cycle(3);  
+    return false;  
+}); 
+
+$('#goto5').click(function() {  
+    $('#slideshow1').cycle(4);  
+    return false;  
+}); 
+
+$('#goto6').click(function() {  
+    $('#slideshow1').cycle(5);  
+    return false;  
+}); 
+
+$('#goto7').click(function() {  
+    $('#slideshow1').cycle(6);  
+    return false;  
+}); 
+
+$('#goto8').click(function() {  
+    $('#slideshow1').cycle(7);  
+    return false;  
+}); 
+
+$('#goto9').click(function() {  
+    $('#slideshow1').cycle(8);  
+    return false;  
+}); 
+
+$('#goto10').click(function() {  
+    $('#slideshow1').cycle(9);  
+    return false;  
+}); 
+
+$('#goto11').click(function() {  
+    $('#slideshow1').cycle(10);  
+    return false;  
+}); 
+
+$('#goto12').click(function() {  
+    $('#slideshow1').cycle(11);  
+    return false;  
+}); 
+
+$('#goto13').click(function() {  
+    $('#slideshow1').cycle(12);  
+    return false;  
+}); 
+
+$('#goto14').click(function() {  
+    $('#slideshow1').cycle(13);  
+    return false;  
+}); 
+
+});
+
+//-- End Cycle Stack --//
+	return stack;
+})(stacks.slideshow1);
+ 
+		</script>
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/styles.css"  />
+		<link rel="stylesheet" type="text/css" media="print" href="rw_common/themes/vegitradev1.0/print.css" />
+<!--[if gte IE 7]><!-->
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/mediabox/mediabox.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/js/search/search.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/js/staticNav/staticNav.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/js/languages/language.css" />
+<!--<![endif]-->
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/css/width/1000px.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/css/navbar/fontsize/medium.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/css/sidebar/width/240px.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/css/sidebar/hide.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/css/sidebar/textalign/left.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/css/borders/off.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/css/shadow/off.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/css/navbar/height/160px.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/css/navbar/images/show.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/css/navbar/itemwidth/200px.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/css/navbar/2ndlevel/top.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/css/thumbnailframe/hideborder.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/css/gsearch/disable.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/css/navbar/border/off.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/css/navbar/transparency/opaque.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/css/membersection/off.css" />
+		
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/colourtag.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/vegitradev1.0/custom.css" />
+		
+		<style type="text/css" media="all">#gritter-notice-wrapper {
+width:301px;
+}
+
+#gritter-notice-wrapper a {
+color: #333;}
+
+#mainContent {
+    margin-top: 0px;
+}
+
+#content {
+	margin-top: 0px;
+}
+
+#colorbar {
+top: 84px;
+}
+
+table#lh {
+border-spacing: 0;
+border-collapse: collapse;
+}
+
+#tablel {
+ 	vertical-align:middle;
+	width: 210px;
+	padding: 0;
+}
+
+#tableh {
+ 	vertical-align:middle;
+	width: auto;
+	padding: 0;
+}
+
+#slideshow1 { height: auto; width: auto; margin: 0; }
+#slideshow1 img { padding: 15px; border: 1px solid #ccc; background-color: #eee; }
+
+#newsshow1 {height: 80px;}
+
+.hidden {
+	display: none;
+}
+
+/* Remove titlebar (logo) */
+#navtopbar {
+margin-top: 25px;
+height: 25px;
+}
+#titlebar {
+display: none;
+}
+#pageHeader {
+	height: 184px!important;
+}
+* + html #navbarContainer {
+	top: 218px;
+}
+/* End remove titlebar (logo) */
+
+#right-shadow {
+display:none;
+}
+
+#left-shadow {
+display:none;
+}
+
+#ciaopepp {
+background: #333333;
+
+}
+
+#contentWrapper {
+padding-left :0px;
+padding-right:0px;
+}
+
+.fondo {
+font-size: 1.0em;
+display: block;
+}
+
+/*MINI MENU BOTTOM */
+
+#theproject {
+opacity: 0.8;
+background: #333333 url('resources/HOME/project.png') no-repeat 5% center;
+}
+
+#theproject a:hover {
+color: #68a22f;
+opacity: 1.0;
+background: #333333 url('resources/HOME/project.png') no-repeat 5% center;
+}
+
+#theproject a {
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 50px;
+display: block;
+height:100%;
+width:100%;
+color: #f4f4f4;
+}
+
+#contactus {
+opacity: 0.8;
+margin-top: 5px;
+background: #333333 url('resources/HOME/contact.png') no-repeat 5% center;
+}
+
+#contactus a:hover {
+color: #68a22f;
+opacity: 1.0;
+background: #333333 url('resources/HOME/contact.png') no-repeat 5% center;
+}
+
+#contactus a {
+padding-left: 50px;
+padding-bottom:10px;
+padding-top: 10px;
+display: block;
+color: #f4f4f4;
+height:100%;
+width:100%;
+}
+
+#visibility {
+opacity: 0.8;
+margin-top: 5px;
+background: #333333 url('resources/HOME/visibility.png') no-repeat 5% center;
+}
+
+#visibility a:hover {
+color: #68a22f;
+opacity: 1.0;
+background: #333333 url('resources/HOME/visibility.png') no-repeat 5% center;
+}
+
+#visibility a {
+color: #f4f4f4;
+padding-left: 50px;
+padding-bottom:10px;
+padding-top: 10px;
+display: block;
+height:100%;
+width:100%;
+}
+
+#news {
+opacity: 0.8;
+margin-top: 5px;
+background: #333333 url('resources/HOME/news.png') no-repeat 5% center;
+}
+
+#news a:hover {
+color: #68a22f;
+opacity: 1.0;
+background: #333333 url('resources/HOME/news.png') no-repeat 5% center;
+}
+
+#news a {
+color: #f4f4f4;
+padding-left: 50px;
+padding-bottom:10px;
+padding-top: 10px;
+display: block;
+height:100%;
+width:100%;
+}
+
+#members {
+opacity: 0.8;
+margin-top: 5px;
+background: #333333 url('resources/HOME/members.png') no-repeat 5% center;
+}
+
+#members a:hover {
+color: #68a22f;
+opacity: 1.0;
+background: #333333 url('resources/HOME/members.png') no-repeat 5% center;
+}
+
+#members a {
+color: #f4f4f4;
+padding-left: 50px;
+padding-bottom:10px;
+padding-top: 10px;
+display: block;
+height:100%;
+width:100%;
+}
+
+/*END MINI MENU BOTTOM*/
+
+/* NEWS SLIDESHOW STYLE */
+.blog-entry {
+line-height: 1.2;
+font-size: 0.8em;
+border-bottom: 0px;
+}
+
+.blog-entry-body {
+font-size:1.1em;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.blog-entry-date {
+background: transparent url('resources/HOME/calendar_small.png') no-repeat;
+padding-left: 20px;
+padding-top: 2px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.blog-entry-title {
+color: #006837;
+padding-left: 20px;
+background: transparent url('resources/HOME/entry_little.png') no-repeat;
+font-size:1.4em;
+}
+
+.blog-entry-title a {
+color: #006837;
+font-weight: bold;
+}
+
+.blog-entry-title a:hover {
+color: #68a22f;
+}
+
+.more {
+float: right;
+}
+
+/* END NEWS STYLE */
+
+.stacks_top{
+width:900px;}
+
+#contentWrapper {
+padding-left :0px;
+padding-right:0px;
+}
+
+/* OLD SLIDESHOW - disattivato
+#slideshow1 {
+cursor: pointer;
+ height: 300px;
+ width:  900px;
+ margin: auto;
+z-index:0;
+ }
+
+#slideshow1 img { 
+cursor: pointer;
+width: 100%;
+padding: 0px;
+ border: 0px solid #ccc; 
+background-color: #eee; 
+}
+
+#selector {
+z-index: 289;
+position: relative;
+background: #333333;
+cursor: pointer; 
+z-index:0;
+}
+
+#goto1 {
+font-size: 1.3em;
+padding-right: 10px;
+padding-left: 10px;
+background: #666666;
+color: #68a22f;
+}
+
+#goto1:hover  {
+background: #333333;
+color: #ffffff;
+}
+
+#goto2 {
+font-size: 1.3em;
+padding-right: 10px;
+padding-left: 10px;
+background: #666666;
+color: #68a22f;
+}
+
+#goto2:hover {
+background: #333333;
+color: #ffffff;
+}
+
+#goto3 {
+font-size: 1.3em;
+padding-right: 10px;
+padding-left: 10px;
+background: #666666;
+color: #68a22f;
+}
+
+#goto3:hover {
+background: #333333;
+color: #ffffff;
+}
+
+#goto4 {
+font-size: 1.3em;
+padding-right: 10px;
+padding-left: 10px;
+background: #666666;
+color: #68a22f;
+}
+
+#goto4:hover {
+background: #333333;
+color: #ffffff;
+}
+
+#goto5 {
+font-size: 1.3em;
+padding-right: 10px;
+padding-left: 10px;
+background: #666666;
+color: #68a22f;
+}
+
+#goto5:hover {
+background: #333333;
+color: #ffffff;
+}
+
+#goto6 {
+font-size: 1.3em;
+padding-right: 10px;
+padding-left: 10px;
+background: #666666;
+color: #68a22f;
+}
+
+#goto6:hover {
+background: #333333;
+color: #ffffff;
+}
+
+#goto7 {
+font-size: 1.3em;
+padding-right: 10px;
+padding-left: 10px;
+background: #666666;
+color: #68a22f;
+}
+
+#goto7:hover {
+background: #333333;
+color: #ffffff;
+}
+
+#goto8 {
+font-size: 1.3em;
+padding-right: 10px;
+padding-left: 10px;
+background: #666666;
+color: #68a22f;
+}
+
+#goto8:hover {
+background: #333333;
+color: #ffffff;
+}
+
+#goto9 {
+font-size: 1.3em;
+padding-right: 10px;
+padding-left: 10px;
+background: #666666;
+color: #68a22f;
+}
+
+#goto9:hover {
+background: #333333;
+color: #ffffff;
+}
+
+#goto10 {
+font-size: 1.3em;
+padding-right: 10px;
+padding-left: 10px;
+background: #666666;
+color: #68a22f;
+}
+
+#goto10:hover {
+background: #333333;
+color: #ffffff;
+}
+
+#goto11 {
+font-size: 1.3em;
+padding-right: 10px;
+padding-left: 10px;
+background: #666666;
+color: #68a22f;
+}
+
+#goto11:hover {
+background: #333333;
+color: #ffffff;
+}
+
+#goto12 {
+font-size: 1.3em;
+padding-right: 10px;
+padding-left: 10px;
+background: #666666;
+color: #68a22f;
+}
+
+#goto12:hover {
+background: #333333;
+color: #ffffff;
+}
+
+#goto13 {
+font-size: 1.3em;
+padding-right: 10px;
+padding-left: 10px;
+background: #666666;
+color: #68a22f;
+}
+
+#goto13:hover {
+background: #333333;
+color: #ffffff;
+}
+
+#goto14 {
+font-size: 1.3em;
+padding-right: 10px;
+padding-left: 10px;
+background: #666666;
+color: #68a22f;
+}
+
+#goto14:hover {
+background: #333333;
+color: #ffffff;
+}
+*/
+
+#news1 {
+font-size: 1.2em;
+color: #333333;
+font-weight: bold;
+background: transparent url('resources/HOME/news1.png') no-repeat 85% 50%;
+height: 27px;
+padding-top: 10px;
+padding-left: 40px;
+margin-left: 20px;
+padding-right: 20px;
+padding-bottom: 5px;
+text-align: right;
+}
+
+#news3 {
+font-size: 1.2em;
+color: #cccccc;
+font-weight: bold;
+background: transparent url('resources/HOME/news1.png') no-repeat 80% 50%;
+height: 27px;
+padding-top: 10px;
+padding-left: 40px;
+margin-left: 20px;
+padding-right: 20px;
+padding-bottom: 5px;
+text-align: left;
+}
+
+#news2 {
+font-size: 1.2em;
+color: #cccccc;
+font-weight: bold;
+background: transparent url('resources/HOME/news1.png') no-repeat 0% 50%;
+height: 27px;
+padding-top: 3px;
+padding-left: 40px;
+margin-left: 20px;
+margin-bottom: 5px;
+}
+
+#partners1 {
+font-size: 1.2em;
+color: #cccccc;
+font-weight: bold;
+background: transparent url('resources/HOME/partners1.png') no-repeat 0% 50%;
+height: 27px;
+padding-top: 10px;
+padding-left: 40px;
+margin-left: 20px;
+padding-bottom: 5px;
+}
+
+#keywords1 {
+font-size: 1.2em;
+color: #cccccc;
+font-weight: bold;
+background: transparent url('resources/HOME/keyword1.png') no-repeat 0% 50%;
+height: 27px;
+padding-top: 10px;
+padding-left: 40px;
+margin-left: 20px;
+padding-bottom: 5px;
+}
+
+#acknowledgement {
+background: #333333;
+opacity: 0.8;
+color: #f4f4f4;
+font-size: 1.0em;
+line-height: 1.5;
+}
+
+#leaflet {
+background: #333333;
+opacity: 0.8;
+color: #f4f4f4;
+font-size: 1.0em;
+line-height: 1.5;
+}
+
+.linkdiss {
+}
+
+.linkdiss a {
+padding-top: 5px;
+padding-bottom: 5px;
+margin-left: -20px;
+padding-left: 50px;
+width: 200px;
+background: #333333 url('resources/HOME/link.png') no-repeat 20px 6px;
+color: #fff;
+display: block;
+}
+
+.linkdiss a:hover {
+background: #666666 url('resources/HOME/link.png') no-repeat 20px 6px;
+color: #fff;
+display: block;
+}
+
+
+
+#flyer {
+    float: right;
+    margin: 3px 0 1em 1em;
+    position: relative;
+display: block;
+width: 189px;
+height: 80px;
+background: transparent url('resources/HOME/flyer.png');
+}
+
+#flyer:hover {
+display: block;
+width: 189px;
+height: 80px;
+background: transparent url('resources/HOME/flyerbw.png');
+}
+
+#flyer a {
+display: block;
+}
+
+#flyer a:hover {
+display: block;
+}
+
+#kwbar {
+height: 43px;
+}
+
+#cycler_content_fg {
+z-index: 0;
+}
+
+#noti {
+font-size: 2.0em;
+}
+</style>
+	
+		<!--[if IE 7]>		
+			<link rel="stylesheet" type="text/css" media="all" href="rw_common/themes/vegitradev1.0/css/ie7fix.css"  />
+		<![endif]-->		
+		<!--[if lt IE 7]>
+		<link rel="stylesheet" type="text/css" media="all" href="rw_common/themes/vegitradev1.0/css/ie6fix.css"  />
+		<script type="text/javascript" src="rw_common/themes/vegitradev1.0/js/IE7.js"></script>
+		<script type="text/javascript" src="rw_common/themes/vegitradev1.0/pngfix.js"></script>		
+		<![endif]-->
+<!-- 
+<script type='text/javascript' charset='utf-8' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+<script type="text/javascript"> 
+//<![CDATA[ 	
+	jQuery.noConflict();
+	jQuery(document).ready(function($){
+		var i=0;
+		while (i<=10) {
+			$('#myExtraContent'+i+' script').remove();
+			$('#myExtraContent'+i).appendTo('#extraContainer'+i);
+			i++;
+		}
+	});
+//]]> 
+</script>
+-->
+	<!-- This page was created with the konzern 1.1.0 theme by Rapid Ideas - http://www.rapid-ideas.com -->
+	<!-- Theme Name: Konzern, Version: 1.1.0 -->
+
+	</head>
+<body> 
+	<div id="colorbar"></div>
+	<div id="container">
+		<div id="cosasopra">
+			
+			<div id="public"><a href="http://www.veg-i-trade.org/" rel="self">Public Website</a></div>
+			<div id="membres"><a href="http://www.veg-i-trade.org/members/" rel="self">Member Section</a></div>
+			<div id="contactstab"><a href="http://www.veg-i-trade.org/contacts/contacts.php">Contact Us</a></div>
+			<div id="searchbar">
+				<form action="/search/index.php">
+					<input name="q" placeholder="Search Veg-i-Trade..." type="search" />
+				</form>
+			</div>
+			<div style="clear: both;"> </div>
+		</div>
+		<div id="contentContainer">
+			<div id="pageHeader">
+				<div id="titlebar">
+					<span id="logo"><a href="/"><img src="rw_common/images/logo.png" width="156" height="62" alt="Site logo"/></a></span>		
+					<div><h1></h1></div>
+					<h2></h2>
+					<div style="clear: both;"> </div>
+				</div>
+					<div id="navtopbar"></div>
+					<div id="ie6_header"></div>
+			</div>
+			<div id="navbarContainer">
+	       		<ul><li class="active"><a href="index.php" rel="self">HOME</a></li><li><a href="project/project.php" rel="self">THE PROJECT</a><ul><li><a href="project/background/background.php" rel="self">Background & Objectives</a></li><li><a href="project/workplan/workplan.php" rel="self">Work Plan</a></li><li><a href="project/impact/impact.php" rel="self">Expected Impact</a></li><li><a href="project/partners/index.php" rel="self">Partners</a></li><li><a href="project/aboard/aboard.php" rel="self">Advisory Board</a></li><li><a href="project/nlinks/nlinks.php" rel="self">Network and Links</a></li></ul></li><li><a href="sci_res/index.html" rel="self">SCIENTIFIC RESULTS</a><ul><li><a href="http://www.veg-i-trade.org/sci_res/Veg-i-Trade_Final_Dissemination_List.pdf" rel="self">Scientific Publications</a></li><li><a href="sci_res/pro_results/index.html" rel="self">Project Results</a></li><li><a href="sci_res/pro_summary/index.html" rel="self">Project Summary</a></li></ul></li><li><a href="visibility/visibility.php" rel="self">PUBLIC OUTREACH</a><ul><li><a href="visibility/ppd/index.php" rel="self">Print Productions</a></li><li><a href="visibility/page49/index.php" rel="self">Press Releases</a></li><li><a href="visibility/newsletter/index.php" rel="self">Newsletter</a><ul><li><a href="visibility/newsletter/out/index.php" rel="self">Out Successful</a></li></ul></li><li><a href="visibility/videos/index.html" rel="self">Project Videos</a></li></ul></li><li><a href="http://www.veg-i-trade.org/newsandevents/news/news.php" rel="self">NEWS & EVENTS</a><ul><li><a href="newsandevents/news/news.php" rel="self">News</a></li><li><a href="newsandevents/trevents/index.html" rel="self">Training Events</a><ul><li><a href="http://www.foodsafetytrain.ugent.be/node/2" rel="self">FoodSafetyTrain</a></li><li><a href="http://www.itpfoodsafety.ugent.be/" rel="self">ITP Food Safety Training</a></li></ul></li><li><a href="newsandevents/cmeetings/index.html" rel="self">Consortium Meetings</a><ul><li><a href="newsandevents/cmeetings/cm6/index.php" rel="self">CM6</a></li><li><a href="newsandevents/cmeetings/cm5/index.php" rel="self">CM5</a></li><li><a href="newsandevents/cmeetings/cm3/cm3.php" rel="self">CM3</a></li></ul></li></ul></li></ul>
+	   		</div>
+
+<!-- BEGIN new navcontainer for member section -->
+	<div id="navcontainer"><!-- Start Navigation -->
+		<ul><li class="active"><a href="index.php" rel="self">HOME</a></li><li><a href="project/project.php" rel="self">THE PROJECT</a><ul><li><a href="project/background/background.php" rel="self">Background & Objectives</a></li><li><a href="project/workplan/workplan.php" rel="self">Work Plan</a></li><li><a href="project/impact/impact.php" rel="self">Expected Impact</a></li><li><a href="project/partners/index.php" rel="self">Partners</a></li><li><a href="project/aboard/aboard.php" rel="self">Advisory Board</a></li><li><a href="project/nlinks/nlinks.php" rel="self">Network and Links</a></li></ul></li><li><a href="sci_res/index.html" rel="self">SCIENTIFIC RESULTS</a><ul><li><a href="http://www.veg-i-trade.org/sci_res/Veg-i-Trade_Final_Dissemination_List.pdf" rel="self">Scientific Publications</a></li><li><a href="sci_res/pro_results/index.html" rel="self">Project Results</a></li><li><a href="sci_res/pro_summary/index.html" rel="self">Project Summary</a></li></ul></li><li><a href="visibility/visibility.php" rel="self">PUBLIC OUTREACH</a><ul><li><a href="visibility/ppd/index.php" rel="self">Print Productions</a></li><li><a href="visibility/page49/index.php" rel="self">Press Releases</a></li><li><a href="visibility/newsletter/index.php" rel="self">Newsletter</a><ul><li><a href="visibility/newsletter/out/index.php" rel="self">Out Successful</a></li></ul></li><li><a href="visibility/videos/index.html" rel="self">Project Videos</a></li></ul></li><li><a href="http://www.veg-i-trade.org/newsandevents/news/news.php" rel="self">NEWS & EVENTS</a><ul><li><a href="newsandevents/news/news.php" rel="self">News</a></li><li><a href="newsandevents/trevents/index.html" rel="self">Training Events</a><ul><li><a href="http://www.foodsafetytrain.ugent.be/node/2" rel="self">FoodSafetyTrain</a></li><li><a href="http://www.itpfoodsafety.ugent.be/" rel="self">ITP Food Safety Training</a></li></ul></li><li><a href="newsandevents/cmeetings/index.html" rel="self">Consortium Meetings</a><ul><li><a href="newsandevents/cmeetings/cm6/index.php" rel="self">CM6</a></li><li><a href="newsandevents/cmeetings/cm5/index.php" rel="self">CM5</a></li><li><a href="newsandevents/cmeetings/cm3/cm3.php" rel="self">CM3</a></li></ul></li></ul></li></ul>
+	</div><!-- End navigation -->
+<!-- END new navcontainer for member section -->
+
+			<div id="content">
+				<div id="sidebarContainer">
+					<div id="sidebar_content">
+						<div class="sideHeader"></div>
+						<div class="sidebar">
+							
+						</div>
+						<div class="sidebar">	
+							
+						</div>
+					</div>
+				</div>
+				<div id="mainContent">
+					<div id="contentWrapper">
+						
+
+<!-- Stacks v1198 --><div id='stacks_out_0_page117' class='stacks_top'><div id='stacks_in_0_page117' class=''><div id='stacks_out_4_page117' class='stacks_out'><div id='stacks_in_4_page117' class='stacks_in html_stack'></div></div><div id='stacks_out_6_page117' class='stacks_out'><div id='stacks_in_6_page117' class='stacks_in html_stack'><div id="newsshow1">
+</div></div></div><div id='stacks_out_8_page117' class='stacks_out'><div id='stacks_in_8_page117' class='stacks_in html_stack'><div id="news1">Latest news</div></div></div><div id='stacks_out_10_page117' class='stacks_out'><div id='stacks_in_10_page117' class='stacks_in text_stack'><script type='text/javascript' src='files/mootools.v1.11.js'></script><script type='text/javascript' src='files/carousel.js'></script><!--[if IE]><style type='text/css'>.imageStyle{behavior:url('files/pngbehavior.htc');} .backgroundImageStyle{behavior:url('files/pngbehavior.htc');} .buttonImageStyle{behavior:url('files/pngbehavior.htc');} .image-right {z-index:auto; position:static;} .image-left {z-index:auto; position:static;} .carousel_wrap {width:95%;}</style><![endif]--><div id='carousel_wrap_page10' class='carousel_wrap' style='	overflow:hidden;	position:relative;	margin-right:auto;	margin-left:auto;'><div id='carousel_content_align_page10' class='carousel_content_align' style='			border-top:		0px solid #86a6d8;	border-bottom:	0px solid #86a6d8;	border-left:	0px solid #86a6d8;	border-right:	0px solid #86a6d8;	margin-top:		0px;	margin-bottom:	0px;	margin-left:	auto;	margin-right:	auto;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;overflow: hidden;position:relative;'><div id='carousel_content_outer_page10_0' class='carousel_content_outer' style='  overflow: hidden;'><div id='carousel_content_inner_page10_0' class='carousel_content_inner' style='   display:block;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><table id="lh"><tr><td id="tablel"><img class="imageStyle" alt="" id='carousel_async_page10_0' src='files/blank.gif' width="188" height="75" /></td><td id="tableh"><h1>Impact of Climate Change and Globalisation on Safety of Fresh Produce</h1><h2>Governing a Supply Chain of Uncompromised Food Sovereignty</h2></td></tr></table><br /><a href="assets/flyer_veg-i-trade.pdf"><div id="flyer"></div></a>
+Veg-i-Trade was funded by the seventh Framework programme for research of the European Commission. The project sought to assess the impact of anticipated climate change and globalisation on the safety issues concerning fresh produce and derived food products. Research was performed concerning the economic structure of the fresh produce chain, and control measures to minimise microbiological and chemical risks were developed.<br /><br />Veg-i-Trade unified 23 international partners from universities, research institutes, SMEs and large industrial partners. Recommendations concerning good practices and quality assurance in the fresh produce supply have been developed and exchanged via international collaborations and capacity building. In parallel, Veg-i-Trade organised discussion fora concerning particular aspects of food sovereignty related to the safety of fresh produce.</div></div><div id='carousel_content_outer_page10_1' class='carousel_content_outer' style='  overflow: hidden;'><div id='carousel_content_inner_page10_1' class='carousel_content_inner' style='   display:block;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><table id="lh"><tr><td id="tablel"><img class="imageStyle" alt="" id='carousel_async_page10_1' src='files/blank.gif' width="188" height="75" /></td><td id="tableh"><h1>Impact van klimaatswijziging en globalisatie op de voedselveiligheid van verse groenten en fruit<br /></h1><h2>Governing a Supply Chain of Uncompromised Food Sovereignty</h2></td></tr></table><br />Veg-i-Trade  was een project  binnen het 7de   kaderprogramma voor onderzoek van de Europese Commissie.  De impact van geanticipeerde klimaatwijziging en globalisatie op veiligheidsaspecten verbonden aan verse groenten en fruit en afgeleide producten werd ge&euml;valueerd.<br />Dit betrof onderzoek aangaande  de economische structuur van de verse groenten en fruit keten alsook betreffende de ontwikkeling van beheersmaatregelen voor het minimaliseren van microbiologische en chemische risico&rsquo;s.<br /><br />Veg-i-Trade verenigde 22 internationale partners van universiteiten, onderzoeksinstituten, KMO&rsquo;s en grote industri&euml;le partners.  Een wetenschappelijke onderbouwing werd gegeven in verband met goede werkpraktijken en kwaliteitsborging in de keten van verse groenten en fruit en aanbevelingen geformuleerd en doorgegeven naar partners en betrokken sector en bevoegde overheden via diverse workshops en presentaties.<br />Tevens werd bood Veg-i-Trade een forum voor discussie rond voedselsoevereiniteit, met name vooral de aspecten in relatie tot de haalbaarheid van (inter)nationale standaarden, normen en vereisten bij de handel van verse groenten en fruit, en de impact op voedselzekerheid, voedselveiligheid zowel op lokaal als globaal niveau.<br /></div></div><div id='carousel_content_outer_page10_2' class='carousel_content_outer' style='  overflow: hidden;'><div id='carousel_content_inner_page10_2' class='carousel_content_inner' style='   display:block;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><table is="lh"><tr><td id="tablel"><img class="imageStyle" alt="" id='carousel_async_page10_2' src='files/blank.gif' width="188" height="75" /></td><td id="tableh"><h1>Effekt av klimaendringer og globalisering p&aring; mattrygghet i frukt og gr&oslash;nnsaker</h1><h2>Governing a Supply Chain of Uncompromised Food Sovereignty</h2></td></tr></table><br />Veg-i-Trade ble finansiert av det sjuende rammeprogram for forskning av EU-kommisjonen. Prosjektet skulle vurdere virkningen av forventede klimaendringer og globalisering p&aring; sikkerhetsaspekter for b&aring;de ferskproduserte og prosesserte vegetabiler . Forskningen om den &oslash;konomiske strukturen ble utf&oslash;rt i r&aring;vare kjeden, og kontrolltiltak for &aring; redusere mikrobiologisk og kjemisk risiko ble utviklet.<br /> <br />Veg-i-Trade prosjektet involverte 23 internasjonale partnere fra universiteter, forskningsinstitutter, mellomstore bedrifter og store industrielle partnere. Prosedyrer om god praksis og kvalitetssikring i distribusjonsnettverk som omhandler r&aring;vare har blitt utviklet og utvekslet via internasjonalt samarbeid og nettverk. Parallelt har Veg-i-Trade organisert diskusjonsfora om bestemte aspekter av matsuverenitet knyttet til tryggheten til ferske r&aring;varer.</div></div><div id='carousel_content_outer_page10_3' class='carousel_content_outer' style='  overflow: hidden;'><div id='carousel_content_inner_page10_3' class='carousel_content_inner' style='   display:block;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><table id="lh"><tr><td id="tablel"><img class="imageStyle" alt="" id='carousel_async_page10_3' src='files/blank.gif' width="188" height="75" /></td><td id="tableh"><h1>Impacto del cambio clim&aacute;tico y la globalizaci&oacute;n en la seguridad de frutas y hortalizas frescas</h1><h2>Governing a Supply Chain of Uncompromised Food Sovereignty</h2></td></tr></table><span style="color:#68A22F;font-weight:bold; "><br /></span>Veg-i-Trade ha sido un proyecto Europeo financiado por la Comisi&oacute;n Europea dentro del s&eacute;ptimo programa marco para la investigaci&oacute;n del impacto de la globalizaci&oacute;n y el cambio clim&aacute;tico en la seguridad de frutas y hortalizas. Dentro de este proyecto, se llevaron a cabo an&aacute;lisis cuantitativos de los distintos riesgos microbiol&oacute;gicos y qu&iacute;micos en frutas y hortalizas frescas, as&iacute; como en productos derivados, y que est&aacute;n asociados con el cambio clim&aacute;tico y la globalizaci&oacute;n. Adem&aacute;s, se han llevado a cabo estudios con el fin de determinar la estructura econ&oacute;mica de la cadena de suministro de frutas y hortalizas frescas, la relaci&oacute;n entre los distintos actores de la cadena de distribuci&oacute;n, as&iacute; como el desarrollo de medidas de control para la minimizaci&oacute;n de los riesgos microbiol&oacute;gicos y qu&iacute;micos.<br />El proyecto Veg-i-Trade agrup&oacute; a 23 entidades colaboradoras internacionales entre las que se incluyen universidades, institutos de investigaci&oacute;n, PYMEs y grandes empresas. El proyecto ha dado lugar a una colaboraci&oacute;n internacional sobre las recomendaciones relativas a las buenas pr&aacute;cticas y al mantenimiento de la calidad en la cadena de suministro de frutas y hortalizas frescas. Paralelamente, se han organizado diversos foros de sobre aspectos particulares de la soberan&iacute;a alimentaria relacionados con la calidad y la seguridad de frutas y hortalizas frescas.<br /><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; "><br /></span></div></div><div id='carousel_content_outer_page10_4' class='carousel_content_outer' style='  overflow: hidden;'><div id='carousel_content_inner_page10_4' class='carousel_content_inner' style='   display:block;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><table id="lh"><tr><td id="tablel"><img class="imageStyle" alt="" id='carousel_async_page10_4' src='files/blank.gif' width="188" height="75" /></td><td id="tableh"><h1>Impacto das mudan&ccedil;as clim&aacute;ticas e da globaliza&ccedil;&atilde;o na seguran&ccedil;a de produtos vegetais frescos</h1><h2>Governing a Supply Chain of Uncompromised Food Sovereignty</h2></td></tr></table><span style="color:#006837;font-weight:bold; "><br /></span>Veg-i-Trade &eacute; um projeto financiado pelo s&eacute;timo programa de pesquisa da Comiss&atilde;o Europ&eacute;ia. Nesse projeto, o impacto antecipado das mudan&ccedil;as clim&aacute;ticas e da globaliza&ccedil;&atilde;o sobre a seguran&ccedil;a de produtos vegetais frescos e seus derivados ser&atilde;o avaliados. Para tanto, as estruturas econ&ocirc;micas da cadeia produtiva de produtos vegetais frescos ser&atilde;o pesquisadas e medidas de controle ser&atilde;o identificadas, objetivando minimizar os riscos microbiol&oacute;gicos e qu&iacute;micos nesses produtos.<br /><br />Veg-i-Trade conta com a colabora&ccedil;&atilde;o de 23 parceiros internacionais, os quais s&atilde;o universidades, institutos de pesquisa, SMEs e grandes ind&uacute;strias. Recomenda&ccedil;&otilde;es sobre Boas Pr&aacute;ticas e garantia da qualidade na produ&ccedil;&atilde;o de produtos vegetais frescos ser&atilde;o desenvolvidos e disseminados atrav&eacute;s de capacita&ccedil;&otilde;es e da colabora&ccedil;&atilde;o internacional. Em paralelo, o Veg-i-Trade organizar&aacute; f&oacute;runs de discuss&atilde;o sobre soberania alimentar e seguran&ccedil;a de produtos frescos.   <br /></div></div><div id='carousel_content_outer_page10_5' class='carousel_content_outer' style='  overflow: hidden;'><div id='carousel_content_inner_page10_5' class='carousel_content_inner' style='   display:block;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><table id="lh"><tr><td id="tablel"><img class="imageStyle" alt="" id='carousel_async_page10_5' src='files/blank.gif' width="188" height="75" /></td><td id="tableh"><h1>Impak van Klimaatverandering en globalisasie op die veiligheid van vars produkte</h1><h2>Governing a Supply Chain of Uncompromised Food Sovereignty</h2></td></tr></table><span style="color:#68A22F;font-weight:bold; "><br /></span>Veg-i-tradeis befonds deur die Europese Kommissie se &ldquo;Seventh Framework Programme&rdquo; virnavorsing. Die projek se doelwit was om die impak van voorsiendeklimaatverandering en globalisasie op die veiligheidsfaktore van vars produkteen afgeleide voedselprodukte te bepaal. Navorsing is gedoen op die ekonomiesestruktuur van die varsprodukteketting, asook op die ontwikkeling vanbeheermaatre&euml;ls om sodoende mikrobiologiese en chemiese risiko's te verminder.<br /><br />Veg-i-tradehet 23 internasionale rolspelers van universiteite, navorsings-institute,klein- en medium ondernemings en grootskaalse nywerheidsvennote verenig.Aanbevelings rondom goeie praktyke en kwaliteitsversekering in die varsproduktehandelsketting is ontwikkel en uitgeruil deur middel van internasionalesamewerking en bevoegdheids ontwikkelling. Veg-i-trade het ook besprekingsforumsgere&euml;l wat spesifieke aspekte rondom voedselsoewereniteit, wat te make het metdie veiligheid van vars produkte, gedek het.</div></div><div id='carousel_content_outer_page10_6' class='carousel_content_outer' style='  overflow: hidden;'><div id='carousel_content_inner_page10_6' class='carousel_content_inner' style='   display:block;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><table id="lh"><tr><td id="tablel"><img class="imageStyle" alt="" id='carousel_async_page10_6' src='files/blank.gif' width="188" height="75" /></td><td id="tableh"><h1>Les effets du changement climatique et de la globalisation sur la s&eacute;curit&eacute; alimentaire des produits frais</h1><h2>Governing a Supply Chain of Uncompromised Food Sovereignty</h2></td></tr></table><br />Veg-i-Trade was funded by the seventh Framework programme for research of the European Commission. The project sought to assess the impact of anticipated climate change and globalisation on the safety issues concerning fresh produce and derived food products. Research was performed concerning the economic structure of the fresh produce chain, and control measures to minimise microbiological and chemical risks were developed.<br /><br />Veg-i-Trade unified 23 international partners from universities, research institutes, SMEs and large industrial partners. Recommendations concerning good practices and quality assurance in the fresh produce supply have been developed and exchanged via international collaborations and capacity building. In parallel, Veg-i-Trade organised discussion fora concerning particular aspects of food sovereignty related to the safety of fresh produce.</div></div><div id='carousel_content_outer_page10_7' class='carousel_content_outer' style='  overflow: hidden;'><div id='carousel_content_inner_page10_7' class='carousel_content_inner' style='   display:block;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><table id="lh"><tr><td id="tablel"><img class="imageStyle" alt="" id='carousel_async_page10_7' src='files/blank.gif' width="188" height="75" /></td><td id="tableh"><h1>Einfluss von Klimawandel und Globalisierung auf die Lebensmittelsicherheit von Frischwaren</h1><h2>Governing a Supply Chain of Uncompromised Food Sovereignty</h2></td></tr></table><br />Veg-i-Trade war ein Projekt des siebten Forschungsrahmenprogramms der Europ&auml;ischen Kommission, das zum Ziel hatte, den voraussichtlichen Einfluss von Klimawandel und Globalisierung auf die Lebensmittelsicherheit von Frischwaren und deren Derivate zu evaluieren. Die Studie umfasste eine Analyse der &ouml;konomischen Struktur der Lebensmittelkette und die Entwicklung von Kontrollmethoden zur Minimierung von mikrobiologischen und chemischen Risiken. <br /><br />Veg-i-Trade vereinte 23 Partner aus aller Welt aus Akademie, Forschungsinstituten, KMUs und Grossindustrie. Auf der Basis von internationaler Zusammenarbeit und Erfahrungsaustausch wurden Empfehlungen f&uuml;r eine optimale Vorgehensweise und Qualit&auml;tskontrolle in der Lebensmittelkette entwickelt. Gleichzeitig organisierte Veg-i-Trade Diskussionsforen zu Aspekten der Nahrungssouver&auml;nit&auml;t im Zusammenhang mit der Sicherheit der Lebensmittelkette. </div></div><div id='carousel_content_outer_page10_8' class='carousel_content_outer' style='  overflow: hidden;'><div id='carousel_content_inner_page10_8' class='carousel_content_inner' style='   display:block;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><table id="lh"><tr><td id="tablel"><img class="imageStyle" alt="" id='carousel_async_page10_8' src='files/blank.gif' width="188" height="75" /></td><td id="tableh"><h1style="text-align: right"><span style="font:20px GeezaPro-Bold; font-weight:bold; font-weight:bold; ">تأثير</span><span style="font-size:20px; font-weight:bold; "> </span><span style="font:20px GeezaPro-Bold; font-weight:bold; font-weight:bold; ">التغير</span><span style="font-size:20px; font-weight:bold; "> </span><span style="font:20px GeezaPro-Bold; font-weight:bold; font-weight:bold; ">المناخى</span><span style="font-size:20px; font-weight:bold; "> </span><span style="font:20px GeezaPro-Bold; font-weight:bold; font-weight:bold; ">و</span><span style="font-size:20px; font-weight:bold; "> </span><span style="font:20px GeezaPro-Bold; font-weight:bold; font-weight:bold; ">العولمة</span><span style="font-size:20px; font-weight:bold; "> </span><span style="font:20px GeezaPro-Bold; font-weight:bold; font-weight:bold; ">علي</span><span style="font-size:20px; font-weight:bold; "> </span><span style="font:20px GeezaPro-Bold; font-weight:bold; font-weight:bold; ">السلامة</span><span style="font-size:20px; font-weight:bold; "> </span><span style="font:20px GeezaPro-Bold; font-weight:bold; font-weight:bold; ">الغذائية</span><span style="font-size:20px; font-weight:bold; "> </span><span style="font:20px GeezaPro-Bold; font-weight:bold; font-weight:bold; ">للحاصلات</span><span style="font-size:20px; font-weight:bold; "> </span><span style="font:20px GeezaPro-Bold; font-weight:bold; font-weight:bold; ">الطازجة</span></h1><h2 style="text-align: right">Governing a Supply Chain of Uncompromised Food Sovereignty</h2></td></tr></table><br /><img class="imageStyle" alt="" src="files/untitled14.png" width="859" height="164" /></div></div><div id='carousel_content_outer_page10_9' class='carousel_content_outer' style='  overflow: hidden;'><div id='carousel_content_inner_page10_9' class='carousel_content_inner' style='   display:block;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><table id="lh"><tr><td id="tablel"><img class="imageStyle" alt="" id='carousel_async_page10_9' src='files/blank.gif' width="188" height="75" /></td><td id="tableh"><h1>Uticaj klimatskih promena i globalizacije na bezbednost sveže hrane</h1><h2>Governing a Supply Chain of Uncompromised Food Sovereignty</h2></td></tr></table><br />Veg-i-Trade je projekat sedmog okvirnog programa za istraživanje i tehnolo&scaron;ki razvoj Evropske Komisije. Cilj ovog projekta je ispitivanje uticaja klimatskih promena i globalizacije na bezbednost sveže hrane (voće, povrće i začinsko bilje). Projekat obuhvata istraživanja vezana za ekonomsku strukturu lanca proizvodnje sveže hrane i kontrolnih mera u cilju smanjenja mikrobiolo&scaron;kih i hemijskih rizika.<br /><br />Veg-i-Trade projekat okuplja 23 međunarodna partnera, uključujući univerzitete, naučne institucije, mala i srednja preduzeća i velike industrijske partnere. U okviru ovog projekta biće date preporuke za pobolj&scaron;anje dobre prakse rada i obezbeđivanje kvaliteta u lancu proizvodnje sveže hrane. Kroz međunarodnu saradnju će biti razmenjena iskustva i stečena znanja u ovoj oblasti. U isto vreme, biće organizovani forumi u okviru kojih će se diskutovati na temu suvereniteta hrane koji je povezan sa bezbedno&scaron;ću sveže hrane.<br /></div></div><div id='carousel_content_outer_page10_10' class='carousel_content_outer' style='  overflow: hidden;'><div id='carousel_content_inner_page10_10' class='carousel_content_inner' style='   display:block;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><p style="text-align:center;"><img class="imageStyle" alt="abstract_past_chinese" id='carousel_async_page10_10' src='files/blank.gif' width="890" height="226" /></p></div></div></div><div id='carousel_thumb_align_page10' class='carousel_thumb_align' style='	margin-left:auto;	margin-right:auto;	width: 512px;	height: 45px;	display: block;	position:relative;'><div id='carousel_thumb_clip_page10' class='carousel_thumb_clip' style='	width:  480px;   height: 25px;	display: block;	overflow:hidden;	position:		absolute;	top:			0px;	left:			16px;	border-top:		0px solid #000000;	border-bottom:	0px solid #000000;	border-left:	0px solid #000000;	border-right:	0px solid #000000;	margin-top:		10px;	margin-bottom:	10px;	margin-left:	0px;	margin-right:	0px;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;		'><div id='carousel_left_page10' class='carousel_left' style=''></div><div id='carousel_middle_page10' class='carousel_middle' style=''></div><div id='carousel_right_page10' class='carousel_right' style=''></div><div id='carousel_thumb_mover_page10' class='carousel_thumb_mover' style='	width:   440px;	display: block;	position: relative;	top: 0px;	left: 0px;'><div id='carousel_thumb_wrap_page10_0' class='carousel_thumb_wrap' style='display:block;float:left;width:40px;'><div id='carousel_thumb_page10_0' class='carousel_thumb' style='	width:25px;	height:25px;	cursor:pointer;	display:block;	border-top:		0px solid #e7e5db;	border-bottom:	0px solid #e7e5db;	border-left:	0px solid #e7e5db;	border-right:	0px solid #e7e5db;	margin-top:		0px;	margin-bottom:	0px;	margin-left:	0px;	margin-right:	15px;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><img class="imageStyle" alt="" src="files/carousel_thumb_0_1.png" width="25" height="25" /></div><div id='carousel_thumb_title_page10_0' class='carousel_thumb_title' style='width:95%;text-align:center;overflow:hidden;margin-left: auto;margin-right: auto;display:none;'></div></div><div id='carousel_thumb_wrap_page10_1' class='carousel_thumb_wrap' style='display:block;float:left;width:40px;'><div id='carousel_thumb_page10_1' class='carousel_thumb' style='	width:25px;	height:25px;	cursor:pointer;	display:block;	border-top:		0px solid #e7e5db;	border-bottom:	0px solid #e7e5db;	border-left:	0px solid #e7e5db;	border-right:	0px solid #e7e5db;	margin-top:		0px;	margin-bottom:	0px;	margin-left:	0px;	margin-right:	15px;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><img class="imageStyle" alt="" src="files/carousel_thumb_1_1.png" width="25" height="25" /></div><div id='carousel_thumb_title_page10_1' class='carousel_thumb_title' style='width:95%;text-align:center;overflow:hidden;margin-left: auto;margin-right: auto;display:none;'></div></div><div id='carousel_thumb_wrap_page10_2' class='carousel_thumb_wrap' style='display:block;float:left;width:40px;'><div id='carousel_thumb_page10_2' class='carousel_thumb' style='	width:25px;	height:25px;	cursor:pointer;	display:block;	border-top:		0px solid #e7e5db;	border-bottom:	0px solid #e7e5db;	border-left:	0px solid #e7e5db;	border-right:	0px solid #e7e5db;	margin-top:		0px;	margin-bottom:	0px;	margin-left:	0px;	margin-right:	15px;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><img class="imageStyle" alt="" src="files/carousel_thumb_2_1.png" width="25" height="25" /></div><div id='carousel_thumb_title_page10_2' class='carousel_thumb_title' style='width:95%;text-align:center;overflow:hidden;margin-left: auto;margin-right: auto;display:none;'></div></div><div id='carousel_thumb_wrap_page10_3' class='carousel_thumb_wrap' style='display:block;float:left;width:40px;'><div id='carousel_thumb_page10_3' class='carousel_thumb' style='	width:25px;	height:25px;	cursor:pointer;	display:block;	border-top:		0px solid #e7e5db;	border-bottom:	0px solid #e7e5db;	border-left:	0px solid #e7e5db;	border-right:	0px solid #e7e5db;	margin-top:		0px;	margin-bottom:	0px;	margin-left:	0px;	margin-right:	15px;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><img class="imageStyle" alt="" src="files/carousel_thumb_3_1.png" width="25" height="25" /></div><div id='carousel_thumb_title_page10_3' class='carousel_thumb_title' style='width:95%;text-align:center;overflow:hidden;margin-left: auto;margin-right: auto;display:none;'></div></div><div id='carousel_thumb_wrap_page10_4' class='carousel_thumb_wrap' style='display:block;float:left;width:40px;'><div id='carousel_thumb_page10_4' class='carousel_thumb' style='	width:25px;	height:25px;	cursor:pointer;	display:block;	border-top:		0px solid #e7e5db;	border-bottom:	0px solid #e7e5db;	border-left:	0px solid #e7e5db;	border-right:	0px solid #e7e5db;	margin-top:		0px;	margin-bottom:	0px;	margin-left:	0px;	margin-right:	15px;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><img class="imageStyle" alt="" src="files/carousel_thumb_4_1.png" width="25" height="25" /></div><div id='carousel_thumb_title_page10_4' class='carousel_thumb_title' style='width:95%;text-align:center;overflow:hidden;margin-left: auto;margin-right: auto;display:none;'></div></div><div id='carousel_thumb_wrap_page10_5' class='carousel_thumb_wrap' style='display:block;float:left;width:40px;'><div id='carousel_thumb_page10_5' class='carousel_thumb' style='	width:25px;	height:25px;	cursor:pointer;	display:block;	border-top:		0px solid #e7e5db;	border-bottom:	0px solid #e7e5db;	border-left:	0px solid #e7e5db;	border-right:	0px solid #e7e5db;	margin-top:		0px;	margin-bottom:	0px;	margin-left:	0px;	margin-right:	15px;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><img class="imageStyle" alt="" src="files/carousel_thumb_5_1.png" width="25" height="25" /></div><div id='carousel_thumb_title_page10_5' class='carousel_thumb_title' style='width:95%;text-align:center;overflow:hidden;margin-left: auto;margin-right: auto;display:none;'></div></div><div id='carousel_thumb_wrap_page10_6' class='carousel_thumb_wrap' style='display:block;float:left;width:40px;'><div id='carousel_thumb_page10_6' class='carousel_thumb' style='	width:25px;	height:25px;	cursor:pointer;	display:block;	border-top:		0px solid #e7e5db;	border-bottom:	0px solid #e7e5db;	border-left:	0px solid #e7e5db;	border-right:	0px solid #e7e5db;	margin-top:		0px;	margin-bottom:	0px;	margin-left:	0px;	margin-right:	15px;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><img class="imageStyle" alt="" src="files/carousel_thumb_6_1.png" width="25" height="25" /></div><div id='carousel_thumb_title_page10_6' class='carousel_thumb_title' style='width:95%;text-align:center;overflow:hidden;margin-left: auto;margin-right: auto;display:none;'></div></div><div id='carousel_thumb_wrap_page10_7' class='carousel_thumb_wrap' style='display:block;float:left;width:40px;'><div id='carousel_thumb_page10_7' class='carousel_thumb' style='	width:25px;	height:25px;	cursor:pointer;	display:block;	border-top:		0px solid #e7e5db;	border-bottom:	0px solid #e7e5db;	border-left:	0px solid #e7e5db;	border-right:	0px solid #e7e5db;	margin-top:		0px;	margin-bottom:	0px;	margin-left:	0px;	margin-right:	15px;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><img class="imageStyle" alt="" src="files/carousel_thumb_7_1.png" width="25" height="25" /></div><div id='carousel_thumb_title_page10_7' class='carousel_thumb_title' style='width:95%;text-align:center;overflow:hidden;margin-left: auto;margin-right: auto;display:none;'></div></div><div id='carousel_thumb_wrap_page10_8' class='carousel_thumb_wrap' style='display:block;float:left;width:40px;'><div id='carousel_thumb_page10_8' class='carousel_thumb' style='	width:25px;	height:25px;	cursor:pointer;	display:block;	border-top:		0px solid #e7e5db;	border-bottom:	0px solid #e7e5db;	border-left:	0px solid #e7e5db;	border-right:	0px solid #e7e5db;	margin-top:		0px;	margin-bottom:	0px;	margin-left:	0px;	margin-right:	15px;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><img class="imageStyle" alt="" src="files/carousel_thumb_8_1.png" width="25" height="25" /></div><div id='carousel_thumb_title_page10_8' class='carousel_thumb_title' style='width:95%;text-align:center;overflow:hidden;margin-left: auto;margin-right: auto;display:none;'></div></div><div id='carousel_thumb_wrap_page10_9' class='carousel_thumb_wrap' style='display:block;float:left;width:40px;'><div id='carousel_thumb_page10_9' class='carousel_thumb' style='	width:25px;	height:25px;	cursor:pointer;	display:block;	border-top:		0px solid #e7e5db;	border-bottom:	0px solid #e7e5db;	border-left:	0px solid #e7e5db;	border-right:	0px solid #e7e5db;	margin-top:		0px;	margin-bottom:	0px;	margin-left:	0px;	margin-right:	15px;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><img class="imageStyle" alt="" src="files/carousel_thumb_9_1.png" width="25" height="25" /></div><div id='carousel_thumb_title_page10_9' class='carousel_thumb_title' style='width:95%;text-align:center;overflow:hidden;margin-left: auto;margin-right: auto;display:none;'></div></div><div id='carousel_thumb_wrap_page10_10' class='carousel_thumb_wrap' style='display:block;float:left;width:40px;'><div id='carousel_thumb_page10_10' class='carousel_thumb' style='	width:25px;	height:25px;	cursor:pointer;	display:block;	border-top:		0px solid #e7e5db;	border-bottom:	0px solid #e7e5db;	border-left:	0px solid #e7e5db;	border-right:	0px solid #e7e5db;	margin-top:		0px;	margin-bottom:	0px;	margin-left:	0px;	margin-right:	15px;	padding-top:	0px;	padding-bottom:	0px;	padding-left:	0px;	padding-right:	0px;'><img class="imageStyle" alt="" src="files/carousel_thumb_10_1.png" width="25" height="25" /></div><div id='carousel_thumb_title_page10_10' class='carousel_thumb_title' style='width:95%;text-align:center;overflow:hidden;margin-left: auto;margin-right: auto;display:none;'></div></div><div style="width:95%; clear:both;"></div></div></div><div id='button_left_page10' class='button_left' style='	width:		16px;   height:		16px;	display:	none;	overflow:	hidden;	position:	absolute;	top:		100px;   left:		13px;	cursor:		pointer;'><img class='buttonImageStyle' id='button_left_page10_idle' alt='left' src="files/button_left_idle_1.png" /><img class='buttonImageStyle' id='button_left_page10_hover' alt='left' src="files/button_left_idle_1.png" /><img class='buttonImageStyle' id='button_left_page10_down' alt='left' src="files/button_left_idle_1.png" /></div><div id='button_right_page10' class='button_right' style='	width:		16px;   height:		16px;	display:	none;	overflow:	hidden;	position:	absolute;	top:		100px;   right:		13px;	cursor:		pointer;'><img class='buttonImageStyle' id='button_right_page10_idle' alt='right' src="files/button_right_idle_1.png" /><img class='buttonImageStyle' id='button_right_page10_hover' alt='right' src="files/button_right_idle_1.png" /><img class='buttonImageStyle' id='button_right_page10_down' alt='right' src="files/button_right_idle_1.png" /></div></div></div><script type='text/javascript' >var thumbs_page10 = ['carousel_thumb_page10_0', 'carousel_thumb_page10_1', 'carousel_thumb_page10_2', 'carousel_thumb_page10_3', 'carousel_thumb_page10_4', 'carousel_thumb_page10_5', 'carousel_thumb_page10_6', 'carousel_thumb_page10_7', 'carousel_thumb_page10_8', 'carousel_thumb_page10_9', 'carousel_thumb_page10_10'];var content_page10 = ['carousel_content_outer_page10_0', 'carousel_content_outer_page10_1', 'carousel_content_outer_page10_2', 'carousel_content_outer_page10_3', 'carousel_content_outer_page10_4', 'carousel_content_outer_page10_5', 'carousel_content_outer_page10_6', 'carousel_content_outer_page10_7', 'carousel_content_outer_page10_8', 'carousel_content_outer_page10_9', 'carousel_content_outer_page10_10'];var asyncIDs_page10 = ['carousel_async_page10_0','carousel_async_page10_1','carousel_async_page10_2','carousel_async_page10_3','carousel_async_page10_4','carousel_async_page10_5','carousel_async_page10_6','carousel_async_page10_7','carousel_async_page10_8','carousel_async_page10_9','carousel_async_page10_10'];var asyncSRCs_page10 = ['files/veg-i-trade_logo_big-2.png','files/veg-i-trade_logo_big-2.png','files/veg-i-trade_logo_big-3.png','files/veg-i-trade_logo_big-2.png','files/veg-i-trade_logo_big-2.png','files/veg-i-trade_logo_big-2.png','files/veg-i-trade_logo_big-2.png','files/veg-i-trade_logo_big-2.png','files/veg-i-trade_logo_big-2.png','files/veg-i-trade_logo_big-2.png','files/abstract_past_chinese.png'];var carousel_page10 = new YHCarousel ('carousel_thumb_mover_page10', 'carousel_content_align_page10', thumbs_page10, content_page10, 0, 'button_left_page10', 'button_right_page10', 480, 1, 300, 200, asyncIDs_page10, asyncSRCs_page10);window.addEvent('domready', function(){carousel_page10.loadLate();});</script><!-- Carousel v1048 --></div></div><div id='stacks_out_12_page117' class='stacks_out'><div id='stacks_in_12_page117' class='stacks_in html_stack'><div id="keywords1">Keywords</div></div></div><div id='stacks_out_3_page117' class='stacks_out'><div id='stacks_in_3_page117' class='stacks_in '><div id="cycler_content_fg"><div id='stacks_out_392_page117' class='stacks_out'><div id='stacks_in_392_page117' class='stacks_in com_joeworkman_stacks_cycler3_stack'><div class="cycler_reel"> <div id='stacks_out_396_page117' class='stacks_out'><div id='stacks_in_396_page117' class='stacks_in image_stack'><div class='centered_image' ><a href="http://www.veg-i-trade.org/kw/k1/" rel="mediabox[600 400]" title="Keyword 1"><img class='imageStyle' src='files/stacks_image_399.jpg' width='960' height='300' alt='Stacks Image 399' /></a></div></div></div><div id='stacks_out_400_page117' class='stacks_out'><div id='stacks_in_400_page117' class='stacks_in image_stack'><div class='centered_image' ><a href="http://www.veg-i-trade.org/kw/k2/" rel="mediabox[600 400]"><img class='imageStyle' src='files/stacks_image_401.jpg' width='960' height='300' alt='Stacks Image 401' /></a></div></div></div><div id='stacks_out_562_page117' class='stacks_out'><div id='stacks_in_562_page117' class='stacks_in image_stack'><div class='centered_image' ><a href="http://www.veg-i-trade.org/kw/k3/" rel="mediabox[600 400]"><img class='imageStyle' src='files/stacks_image_563.jpg' width='960' height='300' alt='Stacks Image 563' /></a></div></div></div><div id='stacks_out_564_page117' class='stacks_out'><div id='stacks_in_564_page117' class='stacks_in image_stack'><div class='centered_image' ><a href="http://www.veg-i-trade.org/kw/k4/" rel="mediabox[600 400]"><img class='imageStyle' src='files/stacks_image_565.jpg' width='960' height='300' alt='Stacks Image 565' /></a></div></div></div><div id='stacks_out_566_page117' class='stacks_out'><div id='stacks_in_566_page117' class='stacks_in image_stack'><div class='centered_image' ><a href="http://www.veg-i-trade.org/kw/k5/" rel="mediabox[600 400]"><img class='imageStyle' src='files/stacks_image_567.jpg' width='960' height='300' alt='Stacks Image 567' /></a></div></div></div><div id='stacks_out_568_page117' class='stacks_out'><div id='stacks_in_568_page117' class='stacks_in image_stack'><div class='centered_image' ><a href="http://www.veg-i-trade.org/kw/k6/" rel="mediabox[600 400]"><img class='imageStyle' src='files/stacks_image_569.jpg' width='960' height='300' alt='Stacks Image 569' /></a></div></div></div><div id='stacks_out_570_page117' class='stacks_out'><div id='stacks_in_570_page117' class='stacks_in image_stack'><div class='centered_image' ><a href="http://www.veg-i-trade.org/kw/k7/" rel="mediabox[600 400]"><img class='imageStyle' src='files/stacks_image_571.jpg' width='960' height='300' alt='Stacks Image 571' /></a></div></div></div><div id='stacks_out_584_page117' class='stacks_out'><div id='stacks_in_584_page117' class='stacks_in image_stack'><div class='centered_image' ><a href="http://www.veg-i-trade.org/kw/k8/" rel="mediabox[600 400]"><img class='imageStyle' src='files/stacks_image_585.jpg' width='960' height='300' alt='Stacks Image 585' /></a></div></div></div><div id='stacks_out_587_page117' class='stacks_out'><div id='stacks_in_587_page117' class='stacks_in image_stack'><div class='centered_image' ><a href="http://www.veg-i-trade.org/kw/k9/" rel="mediabox[600 400]"><img class='imageStyle' src='files/stacks_image_588.jpg' width='960' height='300' alt='Stacks Image 588' /></a></div></div></div><div id='stacks_out_589_page117' class='stacks_out'><div id='stacks_in_589_page117' class='stacks_in image_stack'><div class='centered_image' ><a href="http://www.veg-i-trade.org/kw/k10/" rel="mediabox[600 400]"><img class='imageStyle' src='files/stacks_image_590.jpg' width='960' height='300' alt='Stacks Image 590' /></a></div></div></div><div id='stacks_out_591_page117' class='stacks_out'><div id='stacks_in_591_page117' class='stacks_in image_stack'><div class='centered_image' ><a href="http://www.veg-i-trade.org/kw/k11/" rel="mediabox[600 400]"><img class='imageStyle' src='files/stacks_image_592.jpg' width='960' height='300' alt='Stacks Image 592' /></a></div></div></div><div id='stacks_out_593_page117' class='stacks_out'><div id='stacks_in_593_page117' class='stacks_in image_stack'><div class='centered_image' ><a href="http://www.veg-i-trade.org/kw/k12/" rel="mediabox[600 400]"><img class='imageStyle' src='files/stacks_image_598.jpg' width='960' height='300' alt='Stacks Image 598' /></a></div></div></div><div id='stacks_out_599_page117' class='stacks_out'><div id='stacks_in_599_page117' class='stacks_in image_stack'><div class='centered_image' ><a href="http://www.veg-i-trade.org/kw/k13/" rel="mediabox[600 400]"><img class='imageStyle' src='files/stacks_image_648.jpg' width='960' height='300' alt='Stacks Image 648' /></a></div></div></div></div>   <div id="cycler_pager_stacks_in_392_page117" class="cycler_pager numbers bottom center"></div>  
+
+</div></div></div></div></div><div id='stacks_out_44_page117' class='stacks_out'><div id='stacks_in_44_page117' class='stacks_in three_columns_stack'><div class='stacks_div stacks_left'>
+<div id='stacks_out_46_page117' class='stacks_out'><div id='stacks_in_46_page117' class='stacks_in '><div id="acknowledgement"><div id='stacks_out_48_page117' class='stacks_out'><div id='stacks_in_48_page117' class='stacks_in text_stack'>Veg-i-Trade was funded under the Seventh Framework Programme for Research of the European Commission</div></div></div></div></div><div id='stacks_out_50_page117' class='stacks_out'><div id='stacks_in_50_page117' class='stacks_in columns_stack'><div class='stacks_div stacks_left'>
+<div id='stacks_out_52_page117' class='stacks_out'><div id='stacks_in_52_page117' class='stacks_in image_stack'><div class='centered_image' ><img class='imageStyle' src='files/stacks_image_53.png' width='73' height='60' alt='Stacks Image 53' /></div></div></div>
+</div>
+<div class='stacks_div stacks_right'>
+<div id='stacks_out_55_page117' class='stacks_out'><div id='stacks_in_55_page117' class='stacks_in image_stack'><div class='centered_image' ><img class='imageStyle' src='files/stacks_image_56.png' width='85' height='60' alt='Stacks Image 56' /></div></div></div>
+</div></div></div>
+</div>
+<div class='stacks_div stacks_right'>
+<div id='stacks_out_58_page117' class='stacks_out'><div id='stacks_in_58_page117' class='stacks_in '><div id="theproject"><div id='stacks_out_60_page117' class='stacks_out'><div id='stacks_in_60_page117' class='stacks_in text_stack'><div class="fondo"><a href="project/project.php" rel="self" title="THE PROJECT">The Project</a></div></div></div></div></div></div><div id='stacks_out_62_page117' class='stacks_out'><div id='stacks_in_62_page117' class='stacks_in '><div id="contactus"><div id='stacks_out_64_page117' class='stacks_out'><div id='stacks_in_64_page117' class='stacks_in text_stack'><div class="fondo"><a href="contacts/contacts.php" rel="self" title="CONTACTS">Contact Us</a></div></div></div></div></div></div><div id='stacks_out_66_page117' class='stacks_out'><div id='stacks_in_66_page117' class='stacks_in '><div id="visibility"><div id='stacks_out_68_page117' class='stacks_out'><div id='stacks_in_68_page117' class='stacks_in text_stack'><div class="fondo"><a href="visibility/visibility.php" rel="self" title="VISIBILITY">Visibility</a></div></div></div></div></div></div><div id='stacks_out_70_page117' class='stacks_out'><div id='stacks_in_70_page117' class='stacks_in '><div id="news"><div id='stacks_out_72_page117' class='stacks_out'><div id='stacks_in_72_page117' class='stacks_in text_stack'><div class="fondo"><a href="newsandevents/news/news.php" rel="self" title="NEWS">News</a></div></div></div></div></div></div><div id='stacks_out_74_page117' class='stacks_out'><div id='stacks_in_74_page117' class='stacks_in '><div id="members"><div id='stacks_out_76_page117' class='stacks_out'><div id='stacks_in_76_page117' class='stacks_in text_stack'><div class="fondo"><a href="http://www.veg-i-trade.org/members/index.html" rel="self">Members Section</a></div></div></div></div></div></div>
+</div>
+<div class='stacks_div stacks_middle'>
+<div id='stacks_out_79_page117' class='stacks_out'><div id='stacks_in_79_page117' class='stacks_in html_stack'><div id="flashcontent2">
+<p> This page needs Adobe Shockwawe Player to be correctly displayed. You can download the player for free <a href="http://get.adobe.com/it/shockwave/">by clicking here</a></p>
+</div>
+<script type="text/javascript">
+   var so = new SWFObject("resources/HOME/nation.swf", "ultramovie", "288", "190", "9", "#c8f1ff");
+so.addParam("wmode", "transparent"); 
+   so.write("flashcontent2");
+</script></div></div>
+</div></div></div></div></div>
+
+
+
+<!-- End of Stacks Content -->
+
+
+
+					</div>
+				</div>
+				<div class="Xtra1">
+					<div id="extraContainer1">
+						<!-- ExtraContent gets rendered here -->
+					</div><!-- #extraContainer -->
+				</div>
+			</div> <!-- end content -->
+		</div> <!-- end contentContainer -->
+	</div> <!-- end container -->
+	<div id="cosasotto">
+		<div id="cosasottoinner">
+			<div id="breadcrumbcontainer" style="clear: both">
+				
+			</div>
+			<div id="footer">
+				<p>&copy; 2010 Veg-i-Trade Project</p>
+			</div>
+		</div>
+	</div> <!-- end cosasotto -->
+	<div id="bottombar1"></div>
+<!-- Start Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-262987-15']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><!-- End Google Analytics -->
+</body>
+</html>

@@ -1,0 +1,533 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id" dir="ltr">
+<head>
+<title>The AUGUR Project</title>
+<meta name="description" content="AUGUR is an international research project of the FP7 (Seventh Framework Programme) of the EU, which is the European Union’s chief instrument for (...)" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<meta name="generator" content="SPIP 2.1.11 [18566]" />
+
+
+<link rel="alternate" type="application/rss+xml" title="Sindikasi seluruh isi situs" href="http://www.augurproject.eu/spip.php?page=backend" />
+
+
+<link rel="stylesheet" href="prive/spip_style.css" type="text/css" media="all" />
+
+
+<link rel="stylesheet" href="squelettes/spip_formulaires.css" type="text/css" media="projection, screen, tv" />
+
+
+<link rel='stylesheet' type='text/css' media='all' href='extensions/porte_plume/css/barre_outils.css' />
+<link rel='stylesheet' type='text/css' media='all' href='http://www.augurproject.eu/spip.php?page=barre_outils_icones.css' />
+<link rel="stylesheet" href="http://www.augurproject.eu/spip.php?page=cfg.css" type="text/css" media="all" /><link rel="stylesheet" href="plugins/menu_babbibel/menu_babbi.css" type="text/css" media="projection, screen, tv" />
+<link rel='stylesheet' href='http://www.augurproject.eu/spip.php?page=saisies.css' type='text/css' media='projection, screen, tv' />
+
+
+
+<link rel="stylesheet" href="squelettes/habillage.css" type="text/css" media="projection, screen, tv" />
+
+
+<link rel="stylesheet" href="squelettes/impression.css" type="text/css" media="print" />
+
+
+
+
+
+
+<script src="prive/javascript/jquery.js" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.form.js" type="text/javascript"></script>
+
+<script src="prive/javascript/ajaxCallback.js" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.cookie.js" type="text/javascript"></script>
+
+<script src="lib/jquery-ui-1.8.9/ui/jquery-ui.js" type="text/javascript"></script>
+
+<script src="lib/jquery-ui-1.8.9/ui/jquery.ui.core.js" type="text/javascript"></script>
+
+<script src="lib/jquery-ui-1.8.9/ui/jquery.ui.widget.js" type="text/javascript"></script>
+
+<script src="lib/jquery-ui-1.8.9/ui/jquery.ui.accordion.js" type="text/javascript"></script>
+<!-- insert_head --><!--[if lt IE 8]>
+	<script type='text/javascript'>//<![CDATA[
+		var IE7_PNG_SUFFIX = '.png'; 
+	//]]></script>
+	<script src='extensions/msie_compat/javascript/IE8.js'></script>
+	<script src='extensions/msie_compat/javascript/ie7-squish.js'></script>
+<![endif]-->
+<script type='text/javascript' src='extensions/porte_plume/javascript/xregexp-min.js'></script>
+<script type='text/javascript' src='extensions/porte_plume/javascript/jquery.markitup_pour_spip.js'></script>
+<script type='text/javascript' src='extensions/porte_plume/javascript/jquery.previsu_spip.js'></script>
+<script type='text/javascript' src='http://www.augurproject.eu/spip.php?page=porte_plume_start.js&amp;lang=id'></script>
+<script type='text/javascript' src='plugins/menu_babbibel/js/menu_babbi.js'></script>
+
+<script type='text/javascript' src='plugins/saisies/javascript/saisies.js'></script>
+<link rel='stylesheet' type='text/css' media='all' href='lib/jquery-ui-1.8.9/themes/base/jquery.ui.core.css' />
+<link rel='stylesheet' type='text/css' media='all' href='lib/jquery-ui-1.8.9/themes/base/jquery.ui.accordion.css' />
+<link rel='stylesheet' type='text/css' media='all' href='lib/jquery-ui-1.8.9/themes/base/jquery.ui.theme.css' /></head>
+
+<body class="page_sommaire">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="page">
+
+	
+	<div id="entete">
+
+<a href="http://www.augurproject.eu"><img src="squelettes/headerBckg.jpg"></a>
+
+</div>	
+	<div id="menuContainer"><!-- inclusion du menu babbibel -->
+		<ul class="nav">
+	
+	
+	
+		<li><a href="spip.php?rubrique15" class="babbout">Private area</a>
+			
+				
+		</li>
+	
+		<li><a href="spip.php?rubrique39" class="babbout">Bengellz</a>
+			
+				
+				<ul>
+					
+						<li><a href="spip.php?article100" class="babbout">SELAMAT TAHUN BARU 2016</a></li>
+					
+				</ul>									
+				
+		</li>
+	
+		<li><a href="spip.php?rubrique30" class="babbout">What is the AUGUR Project?</a>
+			
+				
+		</li>
+	
+		<li><a href="spip.php?rubrique8" class="babbout">About Us</a>
+			
+				
+		</li>
+	
+		<li><a href="spip.php?rubrique36" class="babbout">Work Packages</a>
+			
+				
+				<ul>
+					
+						<li><a href="spip.php?article74" class="babbout">WP1 - A macro-model of world regions</a></li>
+					
+						<li><a href="spip.php?article8" class="babbout">WP 8 : Political economy and politics</a></li>
+					
+						<li><a href="spip.php?article7" class="babbout">WP 7 : Well being and living conditions</a></li>
+					
+						<li><a href="spip.php?article6" class="babbout">WP 6 : International governance and regional economic integration</a></li>
+					
+						<li><a href="spip.php?article5" class="babbout">WP 5 : Energy, primary resources and environmental challenges</a></li>
+					
+						<li><a href="spip.php?article4" class="babbout">WP 4: Global development, demography and migration</a></li>
+					
+						<li><a href="spip.php?article3" class="babbout">WP 3 : Innovation and technology diffusion</a></li>
+					
+						<li><a href="spip.php?article2" class="babbout">WP 2 : Financial markets and international regulation</a></li>
+					
+				</ul>									
+				
+		</li>
+	
+		<li><a href="spip.php?rubrique5" class="babbout">Deliverables &amp; Background Papers</a>
+			
+				
+				<ul>
+					
+						<li><a href="spip.php?article93" class="babbout">Background Papers</a></li>
+					
+				</ul>									
+				
+		</li>
+	
+		<li><a href="spip.php?rubrique4" class="babbout">Events</a>
+			
+				
+		</li>
+	
+		<li><a href="spip.php?rubrique14" class="babbout">Links</a>
+			
+				
+				<ul>
+					
+						<li><a href="spip.php?article47" class="babbout">Other Useful Links</a></li>
+					
+						<li><a href="spip.php?article44" class="babbout">Civil Society Organisations</a></li>
+					
+						<li><a href="spip.php?article40" class="babbout">International Institutions</a></li>
+					
+						<li><a href="spip.php?article23" class="babbout">European Forward Looking Studies 2007-2010</a></li>
+					
+				</ul>									
+				
+		</li>
+	
+		<li><a href="spip.php?rubrique7" class="babbout">Contact</a>
+			
+				
+				<ul>
+					
+						<li><a href="spip.php?article64" class="babbout">AUGUR Project Contact Details</a></li>
+					
+						<li><a href="spip.php?article20" class="babbout">Information request</a></li>
+					
+				</ul>									
+				
+		</li>
+	
+</ul>
+<!-- Fin du menu babbibel --></div>
+	
+	
+	<div id="blocGauche">
+		<div id="calendar" class="blocsLeft">
+<h3>Kalender</h3><br />
+	<table summary="Kalender">
+		<caption>
+			<a
+				href="./?date=2016-01"
+				title="Januari 2016"
+			>&#171;</a>
+			Februari 2016
+			<a
+				href="./?date=2016-03"
+				title="Maret 2016"
+			>&#187;</a>
+		</caption>
+		<thead>
+			<tr>
+				<th scope="col"><abbr title="Senin">S</abbr></th>
+				<th scope="col"><abbr title="Selasa">S</abbr></th>
+				<th scope="col"><abbr title="Rabu">R</abbr></th>
+				<th scope="col"><abbr title="Kamis">K</abbr></th>
+				<th scope="col"><abbr title="Jumat">J</abbr></th>
+				<th scope="col"><abbr title="Sabtu">S</abbr></th>
+				<th scope="col"><abbr title="Minggu">M</abbr></th>
+			</tr>
+		</thead>
+		<tbody>
+			
+			<!-- le debut de mois est 2016-02-01, le debut du suivant est 2016-03-01-->
+			
+			
+			
+			
+			
+<tr>
+	<td  class='libre'>1
+	</td>
+	<td  class='libre'>2
+	</td>
+	<td  class='libre'>3
+	</td>
+	<td  class='libre'>4
+	</td>
+	<td  class='libre'>5
+	</td>
+	<td  class='libre'>6
+	</td>
+	<td  class='libre'>7
+	</td>
+</tr>
+<tr>
+	<td  class='libre today'>8
+	</td>
+	<td  class='libre'>9
+	</td>
+	<td  class='libre'>10
+	</td>
+	<td  class='libre'>11
+	</td>
+	<td  class='libre'>12
+	</td>
+	<td  class='libre'>13
+	</td>
+	<td  class='libre'>14
+	</td>
+</tr>
+<tr>
+	<td  class='libre'>15
+	</td>
+	<td  class='libre'>16
+	</td>
+	<td  class='libre'>17
+	</td>
+	<td  class='libre'>18
+	</td>
+	<td  class='libre'>19
+	</td>
+	<td  class='libre'>20
+	</td>
+	<td  class='libre'>21
+	</td>
+</tr>
+<tr>
+	<td  class='libre'>22
+	</td>
+	<td  class='libre'>23
+	</td>
+	<td  class='libre'>24
+	</td>
+	<td  class='libre'>25
+	</td>
+	<td  class='libre'>26
+	</td>
+	<td  class='libre'>27
+	</td>
+	<td  class='libre'>28
+	</td>
+</tr>
+<tr>
+	<td  class='libre'>29
+	</td>
+	<td class="horsperiode">1</td>
+	<td class="horsperiode">2</td>
+	<td class="horsperiode">3</td>
+	<td class="horsperiode">4</td>
+	<td class="horsperiode">5</td>
+	<td class="horsperiode">6</td>
+</tr>
+			
+		</tbody>
+	</table>
+	<span>&nbsp;</span>
+</div>
+	<div class="blocsLeft">
+	<h3> MEMBERS AREA</h3>
+		<br>
+		 <a href="http://www.augurproject.eu/spip.php?page=login&amp;url=.%2F" rel="nofollow" class='login_modal'>Se connecter</a>
+		
+		
+	</div>
+ 
+	</div> 
+
+	
+	<div class="hfeed" id="conteneur">
+	<div id="contenu">
+		
+		<div>
+			<h1>The AUGUR Project</h1>
+		</div>
+		
+		<div class="chapo"><p><strong>AUGUR</strong> is an international research project of the <a href="http://ec.europa.eu/research/fp7/index_en.cfm" class='spip_out' rel='external'><strong>FP7 (Seventh Framework Programme)</strong></a> of the EU, which is the European Union&#8217;s chief instrument for funding research over the period 2007 to 2013.<a href="http://www.augurproject.eu/spip.php?article97" class='spip_out'><strong>The augur final conference took place on January 24th 2013</strong></a></p>
+
+<p><a href="http://www.augurproject.eu/IMG/pdf/Executive_summary_final.pdf" class='spip_out'><strong>EXECUTIVE SUMMARY  OF THE AUGUR FINAL REPORT</strong></a></p>
+
+<p><strong>ABSTRACT</strong></p>
+
+<p>Our challenge is:</p>
+
+<p><img src="squelettes/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;To capture, within a set of scenarios, the characteristics and implications of a variety of patterns that may occur in 2030 in all domains, be it political, economic, social, environmental or technological in Europe and in the world;</p>
+
+<p><img src="squelettes/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;To take stock of long term trends identified in demography, environmental changes as well as to feature some of the effects of likely changes in technology and behaviours;</p>
+
+<p><img src="squelettes/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;To take into account the important institutional transformations that could come out of the major crisis that the world economy is confronted with.</p>
+
+<table class="spip">
+<thead><tr class='row_first'><th scope='col'> KEY FACTS </th></tr></thead>
+<tbody>
+<tr class='row_even'>
+<td> <strong>Project type</strong> </td>
+<td> Collaborative Project (small and medium scale focused research project) </td></tr>
+<tr class='row_odd'>
+<td> <strong>Funding Scheme</strong> </td>
+<td> European Commission’s Seventh Framework Programme </td></tr>
+<tr class='row_even'>
+<td> <strong>Start date</strong> </td>
+<td> 01.10.2009 </td></tr>
+<tr class='row_odd'>
+<td> <strong>Duration</strong> </td>
+<td> 36 months </td></tr>
+<tr class='row_even'>
+<td> <strong>Proposal</strong> </td>
+<td>  244565 </td></tr>
+<tr class='row_odd'>
+<td> <strong>Project Coordinator</strong> </td>
+<td> Pascal PETIT <a href="mailto:pascal.petit@ens.fr">pascal.petit@ens.fr</a>  
+Centre National de la Recherche Scientifique FR – Paris </td></tr>
+<tr class='row_even'>
+<td> <strong>EU Contribution</strong> </td>
+<td> 2 580 600€ </td></tr>
+</tbody>
+</table>
+<p><a href="http://www.augurproject.eu/spip.php?rubrique30" class='spip_out'><strong>Read more about the AUGUR project</strong></a></p>
+		
+		<div>
+		<h3>RECENT  PUBLICATIONS of the AUGUR  Project :</h3>
+	<ul>
+ <li>Challenges for Europe in the World, 2030<br>
+ edited by John Eatwell, Pascal Petit and Terry McKinley,<br>
+ published by  Ashgate , London  see  <a href="http://www.ashgate.com/isbn/9781472419262"><strong> http://www.ashgate.com/isbn/9781472419262 </strong></a></li>
+<li>L’économie mondiale en 2030:  ruptures et continuités. </ br>edited by Jacques Mazier, Pascal Petit and Dominique Plihon , published by  Economica , Paris (see  flyer), translated into Spanish by the Universidad Nacional de Moreno UNM Editora, Argentina (see flyer) </li>
+<li>Charting Ways out of the Europe ‘s Impasse : </ br>
+a Policy Memorandum by Francis Cripps, Michael Landesmann,  Jacques Mazier, Robert McDowell, Terry McKinley, Pascal Petit , Terry Ward and  Enrico Wolleb, published by WIIW Policy Notes and Reports, 
+May 2014 <a href="http://wiiw.ac.at/charting-ways-out-of-europe-s-impasse--a-policy-memorandum-p-3312.html"><strong> charting-ways out of europes-impasse a policy memorandum</strong></a></li>
+
+
+</ul></div>
+		
+
+
+		</div>
+		
+	
+		
+	 
+	</div><!--#contenu-->
+	</div><!--#conteneur-->
+	
+	
+	<div id="navigation">
+		
+		
+		<div class="menu rubriques">
+	<h2>Bagian</h2>
+	<ul>
+	
+		<li>
+			<a href="spip.php?rubrique39">Bengellz</a>
+
+			
+
+		</li>
+	
+		<li>
+			<a href="spip.php?rubrique15">Private area</a>
+
+			
+
+		</li>
+	
+		<li>
+			<a href="spip.php?rubrique8">About Us</a>
+
+			
+
+		</li>
+	
+		<li>
+			<a href="spip.php?rubrique30">What is the AUGUR Project?</a>
+
+			
+
+		</li>
+	
+		<li>
+			<a href="spip.php?rubrique36">Work Packages</a>
+
+			
+
+		</li>
+	
+		<li>
+			<a href="spip.php?rubrique5">Deliverables &amp; Background Papers</a>
+
+			
+
+		</li>
+	
+		<li>
+			<a href="spip.php?rubrique4">Events</a>
+
+			
+
+		</li>
+	
+		<li>
+			<a href="spip.php?rubrique14">Links</a>
+
+			
+
+		</li>
+	
+		<li>
+			<a href="spip.php?rubrique7">Contact</a>
+
+			
+
+		</li>
+	
+
+	</ul>
+</div>		
+		<div class="formulaire_spip formulaire_recherche" id="formulaire_recherche">
+<form action="http://www.augurproject.eu/spip.php?page=recherche" method="get"><div>
+	<input name="page" value="recherche" type="hidden" />
+	
+	<label for="recherche">Pencarian:</label>
+	<input type="text" class="text" size="10" name="recherche" id="recherche" accesskey="4" /><input type="submit" class="submit" value="&gt;&gt;" title="Pencarian" />
+</div></form>
+</div>
+
+    </div><!--#navigation-->
+	
+	
+	<div id="extra">
+		
+		
+		
+<a href="javascript:window.print()"><img src="img/imgres-1.jpeg"></a><br/><br/>
+ <div class="fb-like" data-href="http://www.augurproject.eu/" data-send="true" data-layout="button_count" data-width="150" data-show-faces="false"></div> <br/><br/>
+  
+<style type="text/css">
+div.spip_tipafriend {display:inline}
+</style>
+<div class="spip_tipafriend">
+<a href="http://www.augurproject.eu/spip.php?page=tip_a_friend&amp;id=&amp;type=&amp;mex=&amp;nex=&amp;mdes=&amp;lang=en"
+	target="_blank"  onclick="taf_popup('http://www.augurproject.eu/spip.php?page=tip_a_friend&amp;id=&amp;type=&amp;mex=&amp;nex=&amp;mdes=&amp;close_button=oui&amp;lang=en&amp;usend=balise_hors_boucle'); return false;" 
+	title="Send this page via e-mail">
+	<img src="plugins/tipafriend/img/mail_32.png" alt="Tip A Friend" title="Send this page via e-mail"
+		class="spip_tipafriend_image" border="0" />
+		
+</a>
+</div>
+ <script type='text/javascript'>
+<!--
+function taf_get_url() {
+	var url = document.URL, d_index = url.indexOf("#"), 
+	t_url = (d_index!==-1) ? url.substring(0, d_index) : url;
+	return t_url;
+}
+function taf_popup(url, name) {
+	if(!name) name='Tip A Friend';
+	var width = 600;
+	var height = 460;
+	var left = (screen.width - width)/2;
+	var top = (screen.height - height)/2;
+	var here = taf_get_url();
+	var new_f = window.open(
+		url+"&titre="+escape(document.title)+"&url="+escape(here), name, 
+		"menubar=0,directories=0,status=0,location=0,scrollbars=1,width="+width+",height="+height+",top="+top+",left="+left
+	);
+	new_f.focus();
+}
+//-->
+</script>
+<br /><br />
+  <a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div><!--#extra-->
+	
+	
+	<div id="pied">
+	 | <a href="http://www.augurproject.eu/spip.php?page=login&amp;url=spip.php" rel="nofollow" class='login_modal'>Se connecter</a> | 
+	<a rel="contents" href="http://www.augurproject.eu/spip.php?page=plan">Peta Situs</a> | 
+	<a href="http://www.augurproject.eu/spip.php?page=backend" rel="alternate" title="Sindikasi seluruh isi situs"><img src="squelettes/feed.png" alt="Tindak lanjut aktivitas situs" width="16" height="16" />&nbsp;RSS&nbsp;2.0</a>
+</div>
+<!-- SPIP-CRON --><div style="background-image: url('http://www.augurproject.eu/spip.php?action=cron');"></div>	
+</div><!--#page-->
+</body>
+</html>

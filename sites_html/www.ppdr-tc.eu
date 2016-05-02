@@ -1,0 +1,549 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<title>PPDR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="description" content="SWAN+ will provide a major leap forward in Renal Care. It aims at a next generation, integrated solution for personalized treatment and management of patients with chronic renal failure. It presents an ideal solution for continuous dialysis outside the hospital offering better blood clearance, while patients can stay mobile and active in social and economic life. It relies on an ICT-enabled wearable artificial kidney for on-body blood purification." />
+<meta name="keywords" content="Wearable Artificial Kidney, Personal Renal Care System, blood purification, continuous dialysis, renal applications, SWAN, Renal Care, personalized treatment, chronic renal failure, continuous dialysis, blood clearance, blood purification, blood treatment, multiparametric monitoring, health status" />
+<link href="http://www.ppdr-tc.eu/css/style.css" rel="stylesheet" type="text/css" />
+
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,500&subset=latin,greek' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://www.ppdr-tc.eu/css/responsiveslides.css">
+
+
+<link href="http://www.ppdr-tc.eu/css/ui/jquery-ui-1.8.19.custom.css" rel="stylesheet" type="text/css" />
+<link href="http://www.ppdr-tc.eu/js/formValidator.2.5.2/validationEngine.jquery.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="http://www.ppdr-tc.eu/js/jquery.fancybox-1.3.4/jquery.fancybox-1.3.4.css" />
+<link rel="stylesheet" type="text/css" href="http://www.ppdr-tc.eu/js/tooltipster/css/tooltipster.css" />
+
+<!-- <script type="text/javascript" src="http://www.ppdr-tc.eu/js/jquery-1.7.2.min.js"></script> -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.ppdr-tc.eu/js/tooltipster/js/jquery.tooltipster.min.js"></script>
+<script type="text/javascript" src="http://www.ppdr-tc.eu/js/jquery-ui-1.8.19.custom.min.js"></script>
+<script type="text/javascript" src="http://www.ppdr-tc.eu/js/formValidator.2.5.2/jquery.validationEngine.js"></script>
+<script type="text/javascript" src="http://www.ppdr-tc.eu/js/formValidator.2.5.2/jquery.validationEngine-en.js"></script>
+<script type="text/javascript" src="http://www.ppdr-tc.eu/js/jquery.fancybox-1.3.4/jquery.fancybox-1.3.4.js"></script>
+
+
+
+
+
+
+
+<script>
+
+
+$(function(){
+  $("a[rel='tab']").click(function(e){
+    //e.preventDefault();
+    /*
+    if uncomment the above line, html5 nonsupported browers won't change the url but will display the ajax content;
+    if commented, html5 nonsupported browers will reload the page to the specified link.
+    */
+ 
+    //get the link location that was clicked
+    pageurl = $(this).attr('href');
+ 
+    //to get the ajax content and display in div with id 'content'
+    $.ajax({url:pageurl+'?rel=tab',success: function(data){
+      $('#content').html(data);
+    }});
+ 
+    //to change the browser URL to the given link location
+    if(pageurl!=window.location){
+      window.history.pushState({path:pageurl},'',pageurl);
+    }
+    //stop refreshing to the page given in
+    return false;
+  });
+});
+
+/* the below code is to override back button to get the ajax content without page reload*/
+$(window).bind('popstate', function() {
+  $.ajax({url:location.pathname+'?rel=tab',success: function(data){
+ //   $('#content').html(data);
+  }});
+});
+</script>	
+
+
+
+  
+    <script src="http://www.ppdr-tc.eu/js/responsiveslides.min.js"></script>
+  <script type="text/javascript">
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+       
+        speed: 800
+      });
+
+     
+
+     
+     
+
+    });
+  </script>
+
+
+
+</head><body>
+
+<div id="top_container">
+
+<div class="main_wrapper">
+
+<div id="top_container_content">
+
+<div id="logo">
+
+<a href="index.php?about=9"><img src="http://www.ppdr-tc.eu/images/logo.png" alt="" /></a>
+
+</div><!--ENd logo-->
+
+<div id="small_menu">
+
+
+<ul>
+<li class="b">
+<a href="http://www.ppdr-tc.eu/en/home" title="Home" class="active" id="nav_item_main9">Home</a>
+</li>
+<li>
+<a href="http://www.ppdr-tc.eu/en/members-area" title="Members Area" id="nav_item_main23">Members Area</a></li>
+<li>
+<a href="http://www.ppdr-tc.eu/en/sitemap" title="Sitemap" id="nav_item_main22">Sitemap</a></li>
+<li>
+<a href="http://www.ppdr-tc.eu/en/contact" title="Contact" id="nav_item_main13">Contact</a></li>
+</ul>
+
+</div><!--End small_menu-->
+
+
+</div><!--End top_container_content-->
+
+</div><!--End main_wrapper-->
+
+
+</div><!--End top_container-->
+
+
+<div id="outer_container">
+
+<div id="yellow_box"></div>
+
+
+<div class="main_wrapper" style="position:relative;">
+
+<div id="menu">
+
+
+<ul>
+<li>
+<a href="http://www.ppdr-tc.eu/en/about-the-project" title="The Project" id="nav_item_main15">The Project</a></li>
+<li>
+<a href="http://www.ppdr-tc.eu/en/structure" title="Structure" id="nav_item_main16">Structure</a></li>
+<li>
+<a href="http://www.ppdr-tc.eu/en/consortium" title="Consortium" id="nav_item_main17">Consortium</a></li>
+<li>
+<a href="http://www.ppdr-tc.eu/en/news" title="News & Events" id="nav_item_main18">News & Events</a></li>
+<li>
+<a href="http://www.ppdr-tc.eu/en/publications" title="Publications" id="nav_item_main20">Publications</a></li>
+<li>
+<a href="http://www.ppdr-tc.eu/en/useful-links" title="Links" id="nav_item_main21">Links</a></li>
+<li>
+<a href="http://www.ppdr-tc.eu/en/fact-figures" title="PPDR Fact Figures" id="nav_item_main43">PPDR Fact Figures</a></li>
+</ul>
+</div><!--End menu-->
+
+
+
+<div id="slider">
+
+<!-- Slideshow 1 -->
+    <ul class="rslides" id="slider1">
+    
+    
+     
+    
+    
+      <li><img src="http://www.ppdr-tc.eu/userfiles/slider/shutterstock_110784620_84984310.jpg" />
+      
+      <div class="caption">
+      
+      Public Protection and Disaster Relief - Transformation Center      
+      </div>
+      
+      
+      
+      </li>
+      
+      
+      
+       
+    
+    
+      <li><img src="http://www.ppdr-tc.eu/userfiles/slider/ppdr2_652437461.jpg" />
+      
+      <div class="caption">
+      
+      Effective Public Protection & Disaster Relief (PPDR) communications      
+      </div>
+      
+      
+      
+      </li>
+      
+      
+      
+       
+    
+    
+      <li><img src="http://www.ppdr-tc.eu/userfiles/slider/ppdr1_670970371.jpg" />
+      
+      <div class="caption">
+      
+      Preparation of the next generation of PPDR communication      
+      </div>
+      
+      
+      
+      </li>
+      
+      
+      
+            
+    </ul>
+
+</div><!--ENd slider-->
+
+
+</div><!--End main_wrapper-->
+
+
+
+
+</div><!--End outer_container-->
+
+<div id="grey_line"></div><!--End grey_line-->
+
+
+
+
+
+	<div id="main_content_container">
+
+<div class="main_wrapper">
+
+<div id="main_content">
+
+
+<div id="header">
+
+<h1><span>Welcome to</span><br>PPDR TCenter</h1>
+
+
+</div><!--End header-->
+
+
+<div id="main_text">
+
+<img src="http://www.ppdr-tc.eu/images/arrow.png" alt="" class="arrow" />
+
+<p><div id="content_parts_container"><div id="noimage_container" style="width: 100%; overflow: hidden; padding-bottom: 20px;"><p><span>A significant amount of network capacity needs to be available throughout the disaster and affected areas to support effective Public Protection and Disaster Relief (PPDR) communications where mobility is the main requirement. </span>At very early stages of disaster response, voice communications are  critical; nevertheless, non-voice communications become equally  important  as the consequences of the critical event unfold, depending  on the nature of the disaster<span>.</span></p></div></div></p>
+
+<a href="http://www.ppdr-tc.eu/en/about-the-project" class="link3">Read More</a>
+
+
+
+
+
+</div><!--End main_text-->
+
+<div style="width:100%; overflow:hidden;">
+
+<div id="shadow"></div><!--End shadow-->
+
+
+</div>
+
+
+
+</div><!--End main_content-->
+
+
+
+
+
+</div>
+
+
+
+</div><!--End main_content-->
+
+
+
+<div id="options_container">
+
+<div class="main_wrapper">
+
+
+<div id="options_content">
+
+<div id="news">
+
+<h1>LATEST NEWS </h1>
+
+<ul>
+
+                    
+                    
+
+<li>
+
+<a href="http://www.ppdr-tc.eu/en/singlenews?nid=28">PPDR-TC second newsletter</a>
+
+<span>The second newsletter presenting PPDR-TC's developments until month 30 of the project has been developed.</span>
+
+
+</li><!--End li-->
+
+
+
+                    
+                    
+
+<li>
+
+<a href="http://www.ppdr-tc.eu/en/singlenews?nid=27">PPDR-TC End Users Final Workshop</a>
+
+<span>The PPDR-TC Final End Users Workshop was held succesfully on the 18th of June 2015, in London, UK</span>
+
+
+</li><!--End li-->
+
+
+
+                    
+                    
+
+<li>
+
+<a href="http://www.ppdr-tc.eu/en/singlenews?nid=26">Announcement of PPDR-TC Final End Users Workshop</a>
+
+<span>The PPDR-TC Final End Users Workshop will be held on the 18th of June 2015, in London, UK</span>
+
+
+</li><!--End li-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+<a href="news" class="link2">Read More</a>
+
+</div><!--End news-->
+
+
+<div id="objectives">
+
+<h1>CONCEPT</h1>
+
+<img src="http://www.ppdr-tc.eu/images/obj1.jpg" alt="" />
+
+<p><div id="content_parts_container"><div id="noimage_container" style="width: 100%; overflow: hidden; padding-bottom: 20px;"><p><span>It is believed that a harmonised frequency allocation in one or more frequency ranges below 1 GHz, plus one or more frequency ranges above 1 GHz is the desirable solution for effective broadband mobile PPDR communication in Europe. </span></p></div></div></p>
+
+<a href="http://www.ppdr-tc.eu//en/index.php?about=32" class="link2">Read More</a>
+
+</div><!--End objectives-->
+
+
+
+<div id="documents">
+
+<h1>CONSORTIUM</h1>
+
+<ul>
+
+
+
+
+
+
+<li>
+
+<a href="http://www.exus.co.uk/" target="_blank" ><img src="http://www.ppdr-tc.eu/userfiles/consortium/exus_353764352.jpg" width="160" style=" display:block; margin:0 auto; border:3px solid #D8D5C9;" /></a>
+
+
+
+
+
+</li><!--End doc_li-->
+
+
+
+
+
+
+
+<li>
+
+<a href="http://i-sense.iccs.ntua.gr/" target="_blank" ><img src="http://www.ppdr-tc.eu/userfiles/consortium/iccs_1174935734_1854260120.jpg" width="160" style=" display:block; margin:0 auto; border:3px solid #D8D5C9;" /></a>
+
+
+
+
+
+</li><!--End doc_li-->
+
+
+
+
+
+
+
+<li>
+
+<a href="http://www.thalesgroup.com/" target="_blank" ><img src="http://www.ppdr-tc.eu/userfiles/consortium/thales_1394701820_1737572403.jpg" width="160" style=" display:block; margin:0 auto; border:3px solid #D8D5C9;" /></a>
+
+
+
+
+
+</li><!--End doc_li-->
+
+
+
+
+
+
+
+</ul>
+
+<a href="consortium" class="link2">Read More</a>
+
+</div><!--End documents-->
+
+
+
+</div><!--End options_content-->
+
+
+
+
+<div style="width:100%; overflow:hidden;">
+
+
+<div style="width:837px; float:left;overflow:hidden">
+
+<div id="footer_menu">
+
+<div style=" float:left; width:300px;">
+
+
+<ul>
+<li class="b">
+<a href="http://www.ppdr-tc.eu/en/home" title="Home" class="active" id="nav_item_main9">Home</a>
+</li>
+<li>
+<a href="http://www.ppdr-tc.eu/en/members-area" title="Members Area" id="nav_item_main23">Members Area</a></li>
+<li>
+<a href="http://www.ppdr-tc.eu/en/sitemap" title="Sitemap" id="nav_item_main22">Sitemap</a></li>
+<li>
+<a href="http://www.ppdr-tc.eu/en/contact" title="Contact" id="nav_item_main13">Contact</a></li>
+</ul>
+</div>
+
+<div style=" float:left; overflow:hidden;width:537px;">
+
+
+<ul>
+<li>
+<a href="http://www.ppdr-tc.eu/en/about-the-project" title="The Project" id="nav_item_main15">The Project</a></li>
+<li>
+<a href="http://www.ppdr-tc.eu/en/structure" title="Structure" id="nav_item_main16">Structure</a></li>
+<li>
+<a href="http://www.ppdr-tc.eu/en/consortium" title="Consortium" id="nav_item_main17">Consortium</a></li>
+<li>
+<a href="http://www.ppdr-tc.eu/en/news" title="News & Events" id="nav_item_main18">News & Events</a></li>
+<li>
+<a href="http://www.ppdr-tc.eu/en/publications" title="Publications" id="nav_item_main20">Publications</a></li>
+<li>
+<a href="http://www.ppdr-tc.eu/en/useful-links" title="Links" id="nav_item_main21">Links</a></li>
+<li>
+<a href="http://www.ppdr-tc.eu/en/fact-figures" title="PPDR Fact Figures" id="nav_item_main43">PPDR Fact Figures</a></li>
+</ul>
+</div>
+
+</div><!--End footer_menu-->
+
+
+<div class="footer_text">
+
+
+“This project has received funding from the European Union’s Seventh Framework Programme for research, technological development and demonstration under grant agreement no 313015”
+
+
+</div><!--End footer_text-->
+
+</div><!--End-->
+
+
+<div style="float:right; margin-top:70px;">
+
+<!--<a href="http://cordis.europa.eu/fp7/home_en.html" target="_blank">
+<img src="http://www.ppdr-tc.eu/images/footer_img1.png" alt="" style="float:left; border:0px; margin-right:10px;" />
+</a>-->
+
+
+
+
+<a href="http://ec.europa.eu/" target="_blank">
+<img src="http://www.ppdr-tc.eu/images/flag_yellow.jpg" alt="" style="float:left; opacity:0.7; width:120px; margin-top:15px; border:0px; margin-right:10px;" />
+</a>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+<div id="footer">
+
+<div id="copyright">© 2013 PPDR TCenter. All Rights Reserved.</div><!--End copyright-->
+
+<div id="developed">Design by <a href="http://www.exus.co.uk/" target="_blank">EXUS</a></div>
+
+
+</div><!--End footer-->
+
+
+</div><!--End main_wrapper-->
+
+
+
+
+</div><!--End options_container-->
+
+
+
+
+
+</body>
+</html>

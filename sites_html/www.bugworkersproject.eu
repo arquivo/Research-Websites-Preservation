@@ -1,0 +1,437 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head">
+<!--**********************************************************************************-->
+<!-- DotNetNuke� - http://www.dotnetnuke.com                                          -->
+<!-- Copyright (c) 2002-2010                                                          -->
+<!-- by DotNetNuke Corporation                                                        -->
+<!--**********************************************************************************-->
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta content="text/javascript" http-equiv="Content-Script-Type" /><meta content="text/css" http-equiv="Content-Style-Type" /><meta id="MetaKeywords" name="KEYWORDS" content="bugworkers, bug workers, european commission, fp7, seventh framework programme, 7th, project, collaborative, nmp, bacteria, nanocellulose, cellulose, nanofibre, 
+nanofibres, nanofibrils, nanofiber, nanofibers, nanowhiskers, nanocomposites, bionanocomposite, phb, pha, polyhydroxybutyrate, polyhydroxyalkanoate, biopolymer, 
+bioplastic, compounding, lignin, lignocellulosic, research, development, biomass, synthesis, biosynthesis, extruder, planetary extruder, enzymes, enzymatic,DotNetNuke,DNN" /><meta id="MetaCopyright" name="COPYRIGHT" content="Copyright 2013 by Bugworkersproject" /><meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke " /><meta id="MetaAuthor" name="AUTHOR" content="Bug Workers Project" /><meta name="RESOURCE-TYPE" content="DOCUMENT" /><meta name="DISTRIBUTION" content="GLOBAL" /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><meta name="REVISIT-AFTER" content="1 DAYS" /><meta name="RATING" content="GENERAL" /><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" /><style id="StylePlaceholder" type="text/css"></style><link id="APortals__default_" rel="stylesheet" type="text/css" href="/Portals/_default/default.css" /><link id="APortals__default_Skins_DyNNamite_Dynamic_FFC617_" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/DyNNamite-Dynamic-FFC617/skin.css" /><link id="APortals__default_Containers_DyNNamite_Dynamic_FFC617_" rel="stylesheet" type="text/css" href="/Portals/_default/Containers/DyNNamite-Dynamic-FFC617/container.css" /><link id="APortals_0_" rel="stylesheet" type="text/css" href="/Portals/0/portal.css" />
+    <link rel="stylesheet" type="text/css" href="/Portals/_default/Skins/DyNNamite-Dynamic-FFC617/menu.css" />
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+
+sfHover = function() {
+	var sfEls = document.getElementById("nav").getElementsByTagName("li");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+="sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp("sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+//--><!]]></script>
+
+<script type="text/javascript" src="/Resources/Shared/Scripts/jquery/jquery.min.js" ></script><script type="text/javascript" src="/js/cookieconsent/sliding_popup.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		CreatePopup("/js/cookieconsent/popup.html", 200, 1500, "cookiepopup20120831", 365);
+	});
+</script><link href="/Portals/_default/Skins/_default/WebControlSkin/Default/TabStrip.Default.css" rel="stylesheet" type="text/css" /><link href="/Portals/_default/Skins/_default/WebControlSkin/Default/RibbonBar/RibbonBar.Default.css" rel="stylesheet" type="text/css" /><link href="/Portals/_default/Skins/_default/WebControlSkin/Default/RibbonBar/TabStrip.Default.css" rel="stylesheet" type="text/css" /><title>
+	Home
+</title></head>
+<body id="Body">
+    <form method="post" action="/" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2NDIyOTEzMjkPZBYGZg8WAh4EVGV4dAV5PCFET0NUWVBFIGh0bWwgUFVCTElDICItLy9XM0MvL0RURCBYSFRNTCAxLjAgVHJhbnNpdGlvbmFsLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL1RSL3hodG1sMS9EVEQveGh0bWwxLXRyYW5zaXRpb25hbC5kdGQiPmQCAQ9kFg4CBA8WAh4HVmlzaWJsZWhkAgUPFgQeB2NvbnRlbnRkHwFoZAIGDxYCHwIF7gNidWd3b3JrZXJzLCBidWcgd29ya2VycywgZXVyb3BlYW4gY29tbWlzc2lvbiwgZnA3LCBzZXZlbnRoIGZyYW1ld29yayBwcm9ncmFtbWUsIDd0aCwgcHJvamVjdCwgY29sbGFib3JhdGl2ZSwgbm1wLCBiYWN0ZXJpYSwgbmFub2NlbGx1bG9zZSwgY2VsbHVsb3NlLCBuYW5vZmlicmUsIApuYW5vZmlicmVzLCBuYW5vZmlicmlscywgbmFub2ZpYmVyLCBuYW5vZmliZXJzLCBuYW5vd2hpc2tlcnMsIG5hbm9jb21wb3NpdGVzLCBiaW9uYW5vY29tcG9zaXRlLCBwaGIsIHBoYSwgcG9seWh5ZHJveHlidXR5cmF0ZSwgcG9seWh5ZHJveHlhbGthbm9hdGUsIGJpb3BvbHltZXIsIApiaW9wbGFzdGljLCBjb21wb3VuZGluZywgbGlnbmluLCBsaWdub2NlbGx1bG9zaWMsIHJlc2VhcmNoLCBkZXZlbG9wbWVudCwgYmlvbWFzcywgc3ludGhlc2lzLCBiaW9zeW50aGVzaXMsIGV4dHJ1ZGVyLCBwbGFuZXRhcnkgZXh0cnVkZXIsIGVuenltZXMsIGVuenltYXRpYyxEb3ROZXROdWtlLEROTmQCBw8WAh8CBSNDb3B5cmlnaHQgMjAxMyBieSBCdWd3b3JrZXJzcHJvamVjdGQCCA8WAh8CBQtEb3ROZXROdWtlIGQCCQ8WAh8CBRNCdWcgV29ya2VycyBQcm9qZWN0ZAIMDxYCHwIFDUlOREVYLCBGT0xMT1dkAgIPZBYCAgEPZBYEAgQPZBYCZg9kFiICAQ9kFgJmDw8WBB4HVG9vbFRpcAUTQnVnIFdvcmtlcnMgUHJvamVjdB4LTmF2aWdhdGVVcmwFKWh0dHA6Ly93d3cuYnVnd29ya2Vyc3Byb2plY3QuZXUvSG9tZS5hc3B4ZGQCBQ9kFghmDxYCHwAFHjxkaXYgY2xhc3M9Imxhbmd1YWdlLW9iamVjdCIgPmQCAg8QDxYCHwFoZGQWAGQCBA8WAh8BaGQCBg8WAh8ABQY8L2Rpdj5kAgcPZBYEZg9kFgYCAQ8QDxYGHwAFA1dlYh8DBRFHb29nbGUgV2ViIFNlYXJjaB8BaGRkZGQCAw8QDxYGHwAFBFNpdGUfAwULU2l0ZSBTZWFyY2gfAWhkZGRkAgcPDxYCHwAFhQE8aW1nIHNyYz0iL1BvcnRhbHMvX2RlZmF1bHQvU2tpbnMvRHlOTmFtaXRlLUR5bmFtaWMtRkZDNjE3L3NwYWNlci5naWYiIGNsYXNzPSJzZWFyY2giIGJvcmRlcj0iMCIgaHNwYWNlPSIwIiB2c3BhY2U9IjAiIGFsdD0iU2VhcmNoIi8+ZGQCAg9kFgRmDw8WBB4NQWx0ZXJuYXRlVGV4dAUWU2VsZWN0IHRoZSBzZWFyY2ggdHlwZR8DBRZTZWxlY3QgdGhlIHNlYXJjaCB0eXBlZGQCAg8PFgIfAAWFATxpbWcgc3JjPSIvUG9ydGFscy9fZGVmYXVsdC9Ta2lucy9EeU5OYW1pdGUtRHluYW1pYy1GRkM2MTcvc3BhY2VyLmdpZiIgY2xhc3M9InNlYXJjaCIgYm9yZGVyPSIwIiBoc3BhY2U9IjAiIHZzcGFjZT0iMCIgYWx0PSJTZWFyY2giLz5kZAILD2QWAmYPZBYCZg8WAh8BaBYEAgEPZBYIAgMPEGRkFgBkAgcPFgIfAWhkAgkPFgIfAWhkAgsPZBYCZg8PFgYeCEltYWdlVXJsBRQvaW1hZ2VzL2NvbGxhcHNlLmdpZh8FBQhNaW5pbWl6ZR8DBQhNaW5pbWl6ZWRkAgMPZBYEAgEPFCsAAhQrAAIPFgQeBFNraW4FB0RlZmF1bHQeE0VuYWJsZUVtYmVkZGVkU2tpbnNoZBAWBGYCAQICAgMWBBQrAAJkZBQrAAJkZBQrAAIPFgIfAWhkZBQrAAIPFgIfAWhkZA8WBGZmZmYWAQVuVGVsZXJpay5XZWIuVUkuUmFkVGFiLCBUZWxlcmlrLldlYi5VSSwgVmVyc2lvbj0yMDEwLjIuNzEzLjM1LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTEyMWZhZTc4MTY1YmEzZDRkFgQCAg8PFgIfAWhkZAIDDw8WAh8BaGRkAgMPFCsAAmQVBAhQYWdlSG9tZQtQYWdlQ3VycmVudAhQYWdlU2l0ZQ5QYWdlSG9zdFN5c3RlbRYEAgIPDxYCHwFoZGQCAw8PFgIfAWhkZAISD2QWAmYPDxYGHghDc3NDbGFzcwUIbG9naW50eHQeBF8hU0ICAh8BaGRkAhMPZBYCZg8PFgYfCQUIbG9naW50eHQfAAUFTG9naW4fCgICZGQCFQ8WAh4FY2xhc3MFFHRvcHBhbmUgRE5ORW1wdHlQYW5lZAIXDxYCHwsFFWxlZnRwYW5lIEROTkVtcHR5UGFuZWQCGQ9kFgYCAQ9kFhBmDw8WAh8BaGRkAgEPDxYCHwFoZGQCAg9kFgICAg8WAh8BaBYGZg8WAh8DBQRFZGl0ZAIBDxYCHwMFBlVwZGF0ZWQCAg8WAh8DBQZDYW5jZWxkAgMPZBYCZg8PFgIfAWhkZAIED2QWAgIBDw9kFgIfCwULTW9kRE5OSFRNTEMWAgIBD2QWAgICDxYCHwFoZAIFD2QWAmYPDxYCHwFoZGQCBg9kFgJmDw8WAh8BaGRkAgcPZBYCZg8PFgIfAWhkZAIDD2QWEGYPDxYCHwFoZGQCAQ8PFgIfAWhkZAICD2QWAgICDxYCHwFoFgZmDxYCHwMFBEVkaXRkAgEPFgIfAwUGVXBkYXRlZAICDxYCHwMFBkNhbmNlbGQCAw9kFgJmDw8WAh8BaGRkAgQPZBYCAgEPD2QWAh8LBQtNb2RETk5IVE1MQxYCAgEPZBYCAgIPFgIfAWhkAgUPZBYCZg8PFgIfAWhkZAIGD2QWAmYPDxYCHwFoZGQCBw9kFgJmDw8WAh8BaGRkAgUPZBYQZg8PFgIfAWhkZAIBDw8WAh8BaGRkAgIPZBYCAgIPFgIfAWgWBmYPFgIfAwUERWRpdGQCAQ8WAh8DBQZVcGRhdGVkAgIPFgIfAwUGQ2FuY2VsZAIDD2QWAmYPDxYCHwFoZGQCBA9kFgICAQ8PZBYCHwsFC01vZEROTkhUTUxDFgICAQ9kFgICAg8WAh8BaGQCBQ9kFgJmDw8WAh8BaGRkAgYPZBYCZg8PFgIfAWhkZAIHD2QWAmYPDxYCHwFoZGQCGw8WAh8LBRVzaWRlcGFuZSBETk5FbXB0eVBhbmVkAh0PFgIfCwUUbWlkcGFuZSBETk5FbXB0eVBhbmVkAh8PFgIfCwUUbWlkcGFuZSBETk5FbXB0eVBhbmVkAiEPFgIfCwUUbWlkcGFuZSBETk5FbXB0eVBhbmVkAiMPFgIfCwUYY29udGVudHBhbmUgRE5ORW1wdHlQYW5lZAIlDxYCHwsFFXNpZGVwYW5lIEROTkVtcHR5UGFuZWQCJw8WAh8LBRZyaWdodHBhbmUgRE5ORW1wdHlQYW5lZAIpDxYCHwsFF2JvdHRvbXBhbmUgRE5ORW1wdHlQYW5lZAIKDxQrAAIUKwADZGRkZGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgMFLWRubiRjdHI0NDEkZG5uQUNUSU9OQlVUVE9OMyRjdGwwMCRjdGwwMCRjdGwwMAUtZG5uJGN0cjM4MSRkbm5BQ1RJT05CVVRUT04zJGN0bDAwJGN0bDAwJGN0bDAwBS1kbm4kY3RyMzgyJGRubkFDVElPTkJVVFRPTjMkY3RsMDAkY3RsMDAkY3RsMDBPFX8wUdg2KJwhW9r5dl80MTy+8w==" />
+</div>
+
+
+<script src="/js/dnncore.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=E3is0NEGLX4L05aaRqTngSJJK6py1VI_X5S1C7Lauy2gLqWgY9A8pDJFCD1m-9BIY3FKL_YmiIaOe5OygoRmkdJrehUpuFs_VS3Z9E-CbW2RIubEs5RL34zjt-E6yFyunul1EQCJwOnN_a3HkU1UAsUonm41&amp;t=5f9d5645" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+</div>
+        
+        
+<table summary="" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="skinmaster_box fixed">
+  <tr>
+    <td valign="top"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0" class="top-left">
+        <tr>
+          <td class="bottom-left" valign="top"><table summary="" width="100%" border="0" cellspacing="0" cellpadding="0" class="top-right">
+              <tr>
+                <td class="bottom-right" valign="top"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td height="5" valign="middle" class="logo"><a id="dnn_dnnLOGO_hypLogo" title="Bug Workers Project" href="http://www.bugworkersproject.eu/Home.aspx"><img id="dnn_dnnLOGO_imgLogo" src="/Portals/0/Bugworkers_logo_250_X_50.jpg" alt="Bug Workers Project" style="border-width:0px;" /></a></td>
+                            <td height="5" align="right" valign="top"><table summary="" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                  <td valign="middle"><table summary="" class="logintxt" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td class="datetxt" valign="middle"><span id="dnn_dnnCURRENTDATE_lblDate" class="datetxt">Monday, February 08, 2016</span>
+</td>
+                                        <td class="language" valign="middle"><div class="language-object" >
+
+
+</div></td>
+                                      </tr>
+                                    </table></td>
+                                  <td><table summary="" border="0" cellpadding="0" cellspacing="0" class="search" id="search">
+                                      <tr>
+                                        <td align="right"><span id="dnn_dnnSEARCH_ClassicSearch">
+  
+  
+  <input name="dnn$dnnSEARCH$txtSearch" type="text" maxlength="255" size="20" id="dnn_dnnSEARCH_txtSearch" class="NormalTextBox" onkeydown="return __dnn_KeyDown(&#39;13&#39;, &#39;javascript:__doPostBack(%27dnn$dnnSEARCH$cmdSearch%27,%27%27)&#39;, event);" />&nbsp;
+  <a id="dnn_dnnSEARCH_cmdSearch" class="SkinObject" href="javascript:__doPostBack(&#39;dnn$dnnSEARCH$cmdSearch&#39;,&#39;&#39;)"><img src="/Portals/_default/Skins/DyNNamite-Dynamic-FFC617/spacer.gif" class="search" border="0" hspace="0" vspace="0" alt="Search"/></a>
+</span>
+
+
+</td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table><br /></td>
+                          </tr>
+                        </table><div id="dnn_ControlPanel">
+
+</div></td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="center" class="tabmenuDyNN"><div class="tabmenuDyNN_back">
+                          <div class="tabmenuDyNN_right">
+                            <div class="tabmenuDyNN_left">
+                              
+
+
+<div id="nav"> <ul class="tabmenuDyNN"><li class="selectedtabmenuDyNN "><div><div><div>
+            <a class="tabmenuDyNN" href="http://www.bugworkersproject.eu/Home.aspx" title="Home">Home</a></div></div></div></li><li class="tabmenuDyNN "><div><div><div>
+            <a class="tabmenuDyNN" href="http://www.bugworkersproject.eu/TheProject.aspx" title="The Project">The Project</a></div></div></div></li><li class="tabmenuDyNN "><div><div><div>
+            <a class="tabmenuDyNN" href="http://www.bugworkersproject.eu/News.aspx" title="News">News</a></div></div></div></li><li class="tabmenuDyNN "><div><div><div>
+            <a class="tabmenuDyNN" href="http://www.bugworkersproject.eu/Webinar.aspx" title="">Webinar</a></div></div></div></li><li class="tabmenuDyNN "><div><div><div>
+            <a class="tabmenuDyNN" href="http://www.bugworkersproject.eu/Partners.aspx" title="Partners">Partners</a>
+                <ul class="nontabmenuDyNN">
+                    <li>
+                        <a href="http://www.bugworkersproject.eu/Partners/AIMPLAS.aspx" title="AIMPLAS" class="">AIMPLAS</a></li><li>
+                        <a href="http://www.bugworkersproject.eu/Partners/NetComposites.aspx" title="NetComposites" class="">NetComposites</a></li><li>
+                        <a href="http://www.bugworkersproject.eu/Partners/Biotrend.aspx" title="" class="">Biotrend</a></li><li>
+                        <a href="http://www.bugworkersproject.eu/Partners/NaturstoffTechnik.aspx" title="Naturstoff-Technik" class="">Naturstoff-Technik</a></li><li>
+                        <a href="http://www.bugworkersproject.eu/Partners/Wetlands.aspx" title="Wetlands" class="">Wetlands</a></li><li>
+                        <a href="http://www.bugworkersproject.eu/Partners/Biorefinery.aspx" title="Biorefinery" class="">Biorefinery</a></li><li>
+                        <a href="http://www.bugworkersproject.eu/Partners/BHIndustries.aspx" title="" class="">BH Industries</a></li><li>
+                        <a href="http://www.bugworkersproject.eu/Partners/ExtruderExperts.aspx" title="Extruder Experts" class="">Extruder Experts</a></li><li>
+                        <a href="http://www.bugworkersproject.eu/Partners/Promolding.aspx" title="Promolding" class="">Promolding</a></li><li>
+                        <a href="http://www.bugworkersproject.eu/Partners/Proform.aspx" title="Proform" class="">Proform</a></li><li>
+                        <a href="http://www.bugworkersproject.eu/Partners/Fermax.aspx" title="Fermax" class="">Fermax</a></li><li>
+                        <a href="http://www.bugworkersproject.eu/Partners/Arcelik.aspx" title="Arcelik" class="">Arcelik</a></li><li>
+                        <a href="http://www.bugworkersproject.eu/Partners/FraunhoferICT.aspx" title="Frauhofer ICT" class="">Fraunhofer ICT</a></li><li>
+                        <a href="http://www.bugworkersproject.eu/Partners/InstitutoSuperiorTecnico.aspx" title="Instituto Superior Tecnico" class="">Instituto Superior Tecnico</a></li><li>
+                        <a href="http://www.bugworkersproject.eu/Partners/TECNALIA.aspx" title="LEIA/TECNALIA" class="">TECNALIA</a></li>
+</ul></div></div></div></li><li class="tabmenuDyNN "><div><div><div>
+            <a class="tabmenuDyNN" href="http://www.bugworkersproject.eu/Links.aspx" title="Links">Links</a></div></div></div></li><li class="tabmenuDyNN "><div><div><div>
+            <a class="tabmenuDyNN" href="http://www.bugworkersproject.eu/ContactUs.aspx" title="Contact Us">Contact Us</a></div></div></div></li><li class="tabmenuDyNN "><div><div><div>
+            <a class="tabmenuDyNN" href="http://www.bugworkersproject.eu/Languages.aspx" title="">Languages</a></div></div></div></li>
+</ul></div>
+                            </div>
+                          </div>
+                        </div></td>
+                    </tr>
+                    <tr>
+                      <td valign="top"><table summary="" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td align="left" valign="top"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                  <td valign="top" class="main"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0">
+                                      <tr>
+                                        <td height="28"><table summary="" width="100%" border="0" cellspacing="0" cellpadding="0" class="breadcrumbtxt">
+                                            <tr>
+                                              <td height="28" align="left" valign="middle" class="breadcrumbtxt" nowrap="nowrap"><span id="dnn_dnnTEXT_lblText" class="breadcrumbtxt">You are here:</span>
+<span id="dnn_dnnBREADCRUMB_lblBreadCrumb"><a href="http://www.bugworkersproject.eu/Home.aspx" class="breadcrumbtxt">Home</a></span>
+</td>
+                                              <td align="right" valign="middle" class="logintxt" nowrap="nowrap"><a id="dnn_dnnLOGIN_cmdLogin" class="logintxt" href="javascript:__doPostBack(&#39;dnn$dnnLOGIN$cmdLogin&#39;,&#39;&#39;)">Login</a></td>
+                                            </tr>
+                                          </table></td>
+                                      </tr>
+                                      <tr>
+                                        <td width="100%" align="center" valign="top"><div id="dnn_TopPane" class="toppane DNNEmptyPane"></div>
+                                          <table summary="" width="100%" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                              <td id="dnn_LeftPane" valign="top" class="leftpane DNNEmptyPane"></td>
+
+                                              <td width="100%" valign="top"><table summary="" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                  <tr>
+                                                    <td id="dnn_ContentPane" width="100%" class="contentpane" valign="top"><a name="441"></a>
+<table summary="" border="0" align="center" cellpadding="0" cellspacing="0" class="containermaster">
+  <tr class="mainbox">
+    <td valign="top" class="FFC617"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0" class="right">
+        <tr>
+          <td valign="top" class="left"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0" class="top">
+              <tr>
+                <td valign="top" class="bottom"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0" class="bottom_right">
+                    <tr>
+                      <td valign="top" class="bottom_left"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0" class="top_right">
+                          <tr>
+                            <td valign="top" class="top_left"><table summary="" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                <tr>
+                                  <td><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0">
+                                      <tr>
+                                        <td valign="middle" nowrap="nowrap"></td>
+                                        <td valign="middle" nowrap="nowrap"></td>
+                                        <td valign="middle" width="100%" nowrap="nowrap"><span id="dnn_ctr441_dnnTITLE_lblTitle" class="title">Introduction</span>
+
+
+</td>
+                                        <td valign="middle" nowrap="nowrap"></td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                                <tr>
+                                  <td id="dnn_ctr441_ContentPane" class="content"><!-- Start_Module_441 --><div id="dnn_ctr441_ModuleContent" class="ModDNNHTMLC">
+	<div id="dnn_ctr441_HtmlModule_lblContent" class="Normal">
+		<div style="text-align: right;">
+<div style="text-align: right;"><span style="font-size: 11px; font-family: verdanal;">
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal"><span xmlns="http://www.w3.org/1999/xhtml">
+<a name="Espanol"></a><a name="Espanol"></a><a name="Espanol"></a><a target="_self" href="/Languages.aspx#espanol" name="Espanol">Espanol,</a>
+<a name="Deutsch"></a><a name="Deutsch"></a><a name="Deutsch"></a><a target="_self" href="/Languages.aspx#deutsch" name="Deutsch">Deutsch,</a>
+<a name="Portugues"></a><a name="Portugues"></a><a name="Portugues"></a><a target="_self" href="/Languages.aspx#portugues" name="Portugues">Portugu&ecirc;s,</a>
+<a name="Magyar"></a><a name="Magyar"></a><a name="Magyar"></a><a target="_self" href="/Languages.aspx#magyar" name="Magyar">Magyar,</a>
+<a name="Francais"></a><a name="Francais"></a><a name="Francais"></a><a target="_self" href="/Languages.aspx#francais" name="Francais">Fran&ccedil;ais,</a>
+<a name="Turkish"></a><a name="Turkish"></a><a name="Turkish"></a><a target="_self" href="/Languages.aspx#turkish" name="Turkish">Turkish</a>
+</span></p>
+</span></div>
+</div>
+<span style="font-size: 11px; font-family: verdanal;">
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal"><span xmlns="http://www.w3.org/1999/xhtml"><br />
+</span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal"><span xmlns="http://www.w3.org/1999/xhtml">BUGWORKERS is a European collaborative project aiming to develop new tailor-made materials from environmentally friendly production routes. The materials are based on a polyhydroxybutyrate (PHB) biopolymer matrix and lignocellulosic nanofibres and will be a real alternative to existing engineering materials. The outcomes of this project will be targeted at 2 main sectors - household appliances and computers/telecommunications.</span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal"></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal"></p>
+</span>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal">&nbsp;</p>
+<p style="text-align: center;"><span style="font-size: 11px;"></span>
+</p>
+<table align="center">
+    <tbody>
+        <tr>
+            <td><img src="/Portals/0/Biotrend_Dishes1.jpg" alt="Bacteria plates" style="width: 180px; height: 160px; vertical-align: top;" title="Bacteria plates" /></td>
+            <td style="width: 40px;"> </td>
+            <td><img src="/Portals/0/Biorefinery_%20straw_equipment.jpg" alt="Refining of wheat straw biomass" style="width: 180px; height: 160px; vertical-align: top;" title="Refining of wheat straw biomass" /></td>
+            <td style="width: 40px;"> </td>
+            <td><img src="/Portals/0/LEIA_microcapsules2.jpg" alt="Microcapsules" style="width: 180px; height: 160px; vertical-align: top;" title="Microcapsules" /></td>
+        </tr>
+        <tr>
+            <td align="center" valign="top" style="font-size: 10px;"><em>Courtesy Biotrend SA</em></td>
+            <td style="width: 40px;"> </td>
+            <td align="center" valign="top" style="font-size: 10px;"><em>Courtesy biorefinery.de GmbH/<br />
+            Research Institute Biopos e.V.</em></td>
+            <td style="width: 40px;"> </td>
+            <td align="center" valign="top" style="font-size: 10px;"><em>Courtesy Fundaci&oacute;n LEIA </em></td>
+        </tr>
+    </tbody>
+</table>
+	</div>
+
+</div><!-- End_Module_441 --></td>
+
+                                </tr>
+                                <tr>
+                                  <td><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0">
+                                      <tr>
+                                        <td width="100%" valign="middle" nowrap="nowrap" style="line-height:1px;"></td>
+                                        <td valign="middle" nowrap="nowrap" style="line-height:1px; font-size:1px;"></td>
+                                        <td valign="middle" nowrap="nowrap" style="line-height:1px; font-size:1px;"></td>
+                                        <td align="right" valign="middle" nowrap="nowrap" style="line-height:1px; font-size:1px;" class="print"><span><span><input type="image" name="dnn$ctr441$dnnACTIONBUTTON3$ctl00$ctl00$ctl00" title="Print" src="/images/action_print.gif" alt="Print" /></span>&nbsp;&nbsp;</span></td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table><img src="/Portals/_default/Containers/DyNNamite-Dynamic-FFC617/spacer.gif" width="200" height="1" hspace="10" vspace="0" alt="" class="containerwidth" /></td>
+  </tr>
+</table>
+<a name="381"></a>
+<table summary="" border="0" align="center" cellpadding="0" cellspacing="0" class="containermaster">
+  <tr class="mainbox">
+    <td valign="top" class="FFC617"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0" class="right">
+        <tr>
+          <td valign="top" class="left"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0" class="top">
+              <tr>
+                <td valign="top" class="bottom"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0" class="bottom_right">
+                    <tr>
+                      <td valign="top" class="bottom_left"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0" class="top_right">
+                          <tr>
+                            <td valign="top" class="top_left"><table summary="" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                <tr>
+                                  <td><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0">
+                                      <tr>
+                                        <td valign="middle" nowrap="nowrap"></td>
+                                        <td valign="middle" nowrap="nowrap"></td>
+                                        <td valign="middle" width="100%" nowrap="nowrap"><span id="dnn_ctr381_dnnTITLE_lblTitle" class="title">Latest News</span>
+
+
+</td>
+                                        <td valign="middle" nowrap="nowrap"></td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                                <tr>
+                                  <td id="dnn_ctr381_ContentPane" class="content"><!-- Start_Module_381 --><div id="dnn_ctr381_ModuleContent" class="ModDNNHTMLC">
+	<div id="dnn_ctr381_HtmlModule_lblContent" class="Normal">
+	<p>June 2014 - Bugworkers Project Webinar</p><p>Bugworkers Project partners to hosted a free hour-long webinar on 25th June 2014 at 15:00 CET to disseminate the project results. Webinar attendees will learnt about the fermentation processes by which polyhydroxybutyrate (PHB) and its co-polymers are produced, compounding of PHB and its use in manufacturing door entry systems.</p><p><a href="/webinar.aspx">Click here to view the presentation.</a></p>
+</div>
+
+</div><!-- End_Module_381 --></td>
+
+                                </tr>
+                                <tr>
+                                  <td><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0">
+                                      <tr>
+                                        <td width="100%" valign="middle" nowrap="nowrap" style="line-height:1px;"></td>
+                                        <td valign="middle" nowrap="nowrap" style="line-height:1px; font-size:1px;"></td>
+                                        <td valign="middle" nowrap="nowrap" style="line-height:1px; font-size:1px;"></td>
+                                        <td align="right" valign="middle" nowrap="nowrap" style="line-height:1px; font-size:1px;" class="print"><span><span><input type="image" name="dnn$ctr381$dnnACTIONBUTTON3$ctl00$ctl00$ctl00" title="Print" src="/images/action_print.gif" alt="Print" /></span>&nbsp;&nbsp;</span></td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table><img src="/Portals/_default/Containers/DyNNamite-Dynamic-FFC617/spacer.gif" width="200" height="1" hspace="10" vspace="0" alt="" class="containerwidth" /></td>
+  </tr>
+</table>
+<a name="382"></a>
+<table summary="" border="0" align="center" cellpadding="0" cellspacing="0" class="containermaster">
+  <tr class="mainbox">
+    <td valign="top" class="FFC617"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0" class="right">
+        <tr>
+          <td valign="top" class="left"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0" class="top">
+              <tr>
+                <td valign="top" class="bottom"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0" class="bottom_right">
+                    <tr>
+                      <td valign="top" class="bottom_left"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0" class="top_right">
+                          <tr>
+                            <td valign="top" class="top_left"><table summary="" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                <tr>
+                                  <td><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0">
+                                      <tr>
+                                        <td valign="middle" nowrap="nowrap"></td>
+                                        <td valign="middle" nowrap="nowrap"></td>
+                                        <td valign="middle" width="100%" nowrap="nowrap"><span id="dnn_ctr382_dnnTITLE_lblTitle" class="title">Acknowledgements</span>
+
+
+</td>
+                                        <td valign="middle" nowrap="nowrap"></td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                                <tr>
+                                  <td id="dnn_ctr382_ContentPane" class="content"><!-- Start_Module_382 --><div id="dnn_ctr382_ModuleContent" class="ModDNNHTMLC">
+	<div id="dnn_ctr382_HtmlModule_lblContent" class="Normal">
+	<p style="text-align: center;"><img alt="" style="width: 106px; height: 78px;" src="/Portals/0/jaune.gif" /></p> <span style="font-family: verdana; font-size: 11px;">The research leading to these results has received funding from the European Union Seventh Framework Programme (FP7/2007-2013) under grant agreement number 246449.</span>
+</div>
+
+</div><!-- End_Module_382 --></td>
+
+                                </tr>
+                                <tr>
+                                  <td><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0">
+                                      <tr>
+                                        <td width="100%" valign="middle" nowrap="nowrap" style="line-height:1px;"></td>
+                                        <td valign="middle" nowrap="nowrap" style="line-height:1px; font-size:1px;"></td>
+                                        <td valign="middle" nowrap="nowrap" style="line-height:1px; font-size:1px;"></td>
+                                        <td align="right" valign="middle" nowrap="nowrap" style="line-height:1px; font-size:1px;" class="print"><span><span><input type="image" name="dnn$ctr382$dnnACTIONBUTTON3$ctl00$ctl00$ctl00" title="Print" src="/images/action_print.gif" alt="Print" /></span>&nbsp;&nbsp;</span></td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table><img src="/Portals/_default/Containers/DyNNamite-Dynamic-FFC617/spacer.gif" width="200" height="1" hspace="10" vspace="0" alt="" class="containerwidth" /></td>
+  </tr>
+</table>
+</td>
+
+                                                    <td id="dnn_SidePane" class="sidepane DNNEmptyPane" valign="top"></td>
+
+                                                  </tr>
+                                                </table>
+                                                <table summary="" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                  <tr>
+                                                    <td id="dnn_MidPane1" class="midpane DNNEmptyPane" valign="top"></td>
+
+                                                    <td id="dnn_MidPane2" class="midpane DNNEmptyPane" valign="top"></td>
+
+                                                    <td id="dnn_MidPane3" class="midpane DNNEmptyPane" valign="top"></td>
+
+                                                  </tr>
+                                                </table>
+                                                <table summary="" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                  <tr>
+                                                    <td id="dnn_ContentPane2" width="100%" class="contentpane DNNEmptyPane" valign="top"></td>
+
+                                                    <td id="dnn_SidePane2" class="sidepane DNNEmptyPane" valign="top"></td>
+
+                                                  </tr>
+                                                </table></td>
+                                              <td id="dnn_RightPane" valign="top" class="rightpane DNNEmptyPane"></td>
+
+                                            </tr>
+                                          </table>
+                                          <div id="dnn_BottomPane" class="bottompane DNNEmptyPane"></div></td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                    <tr>
+                      <td height="28" class="footertxt"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td height="28" align="left" class="footertxt_left"><span id="dnn_dnnCOPYRIGHT_lblCopyright" class="footertxt">Copyright 2013 by Bugworkersproject</span>
+<span class="footertxt">Website built by <a href="http://www.netcomposites.com">NetComposites</a></span></td>
+                            <td height="28" align="right" class="footertxt_right"><a id="dnn_dnnTERMS_hypTerms" class="footertxt" rel="nofollow" href="http://www.bugworkersproject.eu/terms.aspx">Terms Of Use</a><a id="dnn_dnnPRIVACY_hypPrivacy" class="footertxt" rel="nofollow" href="http://www.bugworkersproject.eu/privacy.aspx">Privacy Statement</a></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" />
+        
+    
+<script type="text/javascript" src="/Resources/Shared/scripts/initWidgets.js" ></script></form>
+
+            
+                <script type="text/javascript">
+                var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+                document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+                </script>
+
+                <script type="text/javascript">
+                var pageTracker = _gat._getTracker("UA-10294641-8");
+                pageTracker._trackPageview();
+                </script>
+
+            
+            </body>
+</html>

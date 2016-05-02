@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="joomla, Joomla" />
+  <meta name="title" content="Home" />
+  <meta name="author" content="Administrator" />
+  <meta name="description" content="Joomla! - the dynamic portal engine and content management system" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title> Magister-Project - Home</title>
+  <link href="/templates/rhuk_milkyway/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+
+
+<link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+<link rel="stylesheet" href="/templates/system/css/general.css" type="text/css" />
+<link rel="stylesheet" href="/templates/rhuk_milkyway/css/template.css" type="text/css" />
+<link rel="stylesheet" href="/templates/rhuk_milkyway/css/blue.css" type="text/css" />
+<link rel="stylesheet" href="/templates/rhuk_milkyway/css/blue_bg.css" type="text/css" />
+<!--[if lte IE 6]>
+<link href="/templates/rhuk_milkyway/css/ieonly.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+</head>
+<body id="page_bg" class="color_blue bg_blue width_fmax">
+<a name="up" id="up"></a>
+<div class="center" align="center">
+	<div id="wrapper">
+		<div id="wrapper_r">
+			<div id="header">
+				<div id="header_l">
+					<div id="header_r">
+						<div id="logo"></div>
+						<div id="logoright"><a href="http://europa.eu/" target="_blank"><img src="/images/topbarmagister_eu.png" border="0" alt="" /></a><a href="http://cordis.europa.eu/fp7/home_en.html" target="_blank"><img src="/images/topbarmagister_fp7.png" border="0" alt="FP7" /></a></div>
+						
+					</div>
+				</div>
+			</div>
+
+			<div id="tabarea">
+				<div id="tabarea_l">
+					<div id="tabarea_r">
+						<div id="tabmenu">
+						<table cellpadding="0" cellspacing="0" class="pill">
+							<tr>
+								<td class="pill_l">&nbsp;</td>
+								<td class="pill_m">
+								<div id="pillmenu">
+									<ul id="mainlevel-nav"><li><a href="/index.php?option=com_content&amp;view=article&amp;id=47&amp;Itemid=73" class="mainlevel-nav" >Home</a></li><li><a href="/index.php?option=com_content&amp;view=article&amp;id=57&amp;Itemid=74" class="mainlevel-nav" >Project Overview</a></li><li><a href="/index.php?option=com_content&amp;view=article&amp;id=49&amp;Itemid=75" class="mainlevel-nav" >E-Newsletter</a></li><li><a href="/index.php?option=com_contact&amp;view=category&amp;catid=12&amp;Itemid=76" class="mainlevel-nav" >Contacts</a></li></ul>
+								</div>
+								</td>
+								<td class="pill_r">&nbsp;</td>
+							</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="search">
+				<form action="index.php" method="post">
+	<div class="search">
+		<input name="searchword" id="mod_search_searchword" maxlength="20" alt="Search" class="inputbox" type="text" size="20" value="search..."  onblur="if(this.value=='') this.value='search...';" onfocus="if(this.value=='search...') this.value='';" />	</div>
+	<input type="hidden" name="task"   value="search" />
+	<input type="hidden" name="option" value="com_search" />
+</form>
+			</div>
+
+			<div id="pathway">
+				<span class="breadcrumbs pathway">
+Home</span>
+
+			</div>
+
+			<div class="clr"></div>
+
+			<div id="whitebox">
+				<div id="whitebox_t">
+					<div id="whitebox_tl">
+						<div id="whitebox_tr"></div>
+					</div>
+				</div>
+
+				<div id="whitebox_m">
+					<div id="area">
+									
+
+						<div id="leftcolumn">
+															<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>MAGISTER Project</h3>
+																</div>
+				</div>
+			</div>
+		</div>
+			<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>Progress</h3>
+																</div>
+				</div>
+			</div>
+		</div>
+			<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>News & Events</h3>
+																</div>
+				</div>
+			</div>
+		</div>
+			<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>Contacts</h3>
+																</div>
+				</div>
+			</div>
+		</div>
+	
+												<hr>
+						<div style="margin: 0px 0px 0px 10px;">
+						<h3>Private Area</h3>
+						<script language="javascript">
+							function check(){
+								if(document.form1.username.value=="" || document.form1.passwd.value=="")
+								alert("Si prega di inserire tutte le informazioni richieste");
+								else document.form1.submit();	
+							}
+						</script>
+						<br />
+						<form name="form1" id="login_form" method="post" action="http://www.bo.ismn.cnr.it/spin/projects/magister/login.php" target="_new">
+    						<b>Partner</b>:<br/><input type="text" name="username" size="8"/><br/>
+    						<b>Password</b>:<br/><input type="password" name="passwd"  size="8"/><br/><br/>
+    						<input type="button" name="Submit" value="Login" onclick="check()"/>
+						</form>
+						</div>
+						<hr>
+						</div>
+
+												<div id="maincolumn">
+																				<table class="nopad">
+								<tr valign="top">
+									<td>
+										<table class="contentpaneopen">
+<tr>
+						<td align="right" width="100%" class="buttonheading">
+		<a href="/index.php?view=article&amp;catid=35:magister-project&amp;id=47:home&amp;format=pdf" title="PDF" target="_blank" rel="nofollow"><img src="/images/M_images/pdf_button.png" alt="PDF"  /></a>		</td>
+		
+				<td align="right" width="100%" class="buttonheading">
+		<a href="/index.php?view=article&amp;catid=35:magister-project&amp;id=47:home&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Print" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/images/M_images/printButton.png" alt="Print"  /></a>		</td>
+		
+				<td align="right" width="100%" class="buttonheading">
+		<a href="/index.php?option=com_mailto&amp;tmpl=component&amp;link=aHR0cDovL3d3dy5tYWdpc3Rlci1wcm9qZWN0LmV1L2luZGV4LnBocD9vcHRpb249Y29tX2NvbnRlbnQmdmlldz1hcnRpY2xlJmlkPTQ3OmhvbWUmY2F0aWQ9MzU6bWFnaXN0ZXItcHJvamVjdCZJdGVtaWQ9MQ==" title="E-mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/images/M_images/emailButton.png" alt="E-mail"  /></a>		</td>
+					</tr>
+</table>
+
+<table class="contentpaneopen">
+
+
+
+<tr>
+<td valign="top">
+<h1 align="center"><font face="arial,helvetica,sans-serif" color="#808080"><p style="text-align: center">MAGISTER - Magnetic Scaffolds for in vivo Tissue Engineering<br />NMP3-LA-2008-214685</p><div align="justify"><a href="/images/stories/MAGISTER/figure_mags.png" target="_blank"><font color="#808080"><img src="/images/stories/MAGISTER/figure_mags_small2.png" border="0" width="394" height="280" align="right" /></font></a></div><span style="font-family: 'Arial','sans-serif'; font-size: 10pt"><div><font color="#808080"><table border="0" cellspacing="0" cellpadding="0" class="MsoTableGrid" style="border-collapse: collapse; background: #add8e6"><tbody><tr><td width="652" valign="top" style="padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 488.9pt; padding-right: 5.4pt; padding-top: 0cm; border: #ece9d8"><p align="justify"><span style="line-height: 150%; font-family: Arial; color: #333333; font-size: 9pt">MAGISTER is a frontier research project aiming to develop new conceptually type of Magnetic Scaffolds (MagS) for tissue regeneration and orthopaedic surgery. The magnetic moment of the scaffolds introduces the fascinating possibility to continuously control and reload them with scaffold precursors and active factors e.g. VEGF).Such MagS can be imagined as fixed “stations” that offer a long-living assistance to the tissue engineering via a controlled in vivo supply of bio-agents functionalized to Magnetic Nanoparticles injected in the proximity of the scaffold.This approach offers the unique possibility to adjust the scaffold activity to the personal needs of each patient. With MAGISTER technology, doctors will be able to precisely control the growth factors delivery time and site, therefore allowing the proper regeneration of damaged tissues and the prevention of their degeneration.</span></p></td></tr></tbody></table><p style="text-align: center"> </p><h1 style="text-align: center">Interdisciplinary approach</h1><p style="text-align: justify; margin-top: 0pt; unicode-bidi: embed; direction: ltr; margin-bottom: 0pt; vertical-align: baseline"> </p><div align="justify"><font color="#808080"><img src="/images/stories/MAGISTER/figure_disciplines_small2.png" border="0" width="420" height="301" align="left" /></font></div><table border="0" cellspacing="0" cellpadding="0" class="MsoTableGrid" style="width: 210px; border-collapse: collapse; background: #add8e6; height: 232px"><tbody><tr><td width="652" valign="top" style="padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 488.9pt; padding-right: 5.4pt; padding-top: 0cm; border: #ece9d8"><p align="justify"><span style="line-height: 150%; font-family: Arial; color: #333333; font-size: 10pt"> </span><span style="line-height: 150%; font-family: Arial; color: #333333; font-size: 9pt">The large amount of basic and applied research work needed to achieve the ambitious objectives requires a cross-sectorial approach involving participants from the whole biomedical and nanomaterial supply chains. These multidisciplinary skills are indeed found only throughout a European co-operation. All the partners involved are internationally recognised centres of excellence in their respective areas of expertise.</span><span style="font-family: Calibri; color: gray"><font size="3"> </font></span></p></td></tr></tbody></table><p style="text-align: justify; margin-top: 0pt; unicode-bidi: embed; direction: ltr; margin-bottom: 0pt; vertical-align: baseline"> </p><p style="text-align: justify; margin-top: 0pt; unicode-bidi: embed; direction: ltr; margin-bottom: 0pt; vertical-align: baseline"> </p><table border="0" cellspacing="0" cellpadding="0" width="622" class="MsoTableGrid" style="width: 622px; border-collapse: collapse; background: #add8e6; height: 172px"><tbody><tr><td width="679" valign="top" style="padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 509.4pt; padding-right: 5.4pt; padding-top: 0cm; border: #ece9d8"><p align="justify"><span style="line-height: 150%; font-family: Arial; color: #333333; font-size: 9pt">The integration of activities in MAGISTER requires a close cooperation and coordination of different disciplines, such as biomaterial science and processing, cell biology, clinical research, processing and control-technologies.</span><span style="line-height: 150%; font-family: Arial; color: #333333; font-size: 9pt">In order to achieve the technical and scientific objectives and ensure competitive advantages for future exploitation activities, the MAGISTER consortium has been settled with careful attention to gather an outstanding multi-disciplinary critical mass involving industrial and scientific partners with expertise in biology, nanotechnology, materials science, orthopaedics and clinical studies and 1 consulting firm specialized in technology transfer, start up promotion and business consultancy. Special attention has also been dedicated to the international dimension of the Consortium, ensured by the involvement of 20 partners(6 of which SMEs)from 6 European Countries (Italy, Germany, Spain, UK, France and Czech Republic) and 4 non-European Countries (Croatia, Switzerland, Russia and Belarus).</span></p></td></tr><span style="line-height: 150%; font-family: Arial; color: #333333; font-size: 10pt"> </span></tbody></table><p style="text-align: justify; margin-top: 0pt; unicode-bidi: embed; direction: ltr; margin-bottom: 0pt; vertical-align: baseline"> </p><p style="text-align: justify" class="MsoNormal"> </p><p style="text-align: justify" class="MsoNormal"><font face="arial,helvetica,sans-serif"><font color="#333333">MAGISTER is co-funded by the European Community's under the </font><a href="http://cordis.europa.eu/fp7/cooperation/home_en.html" target="_blank"><font color="#333333">FP7-Cooperation Programme</font></a><font color="#333333">.</font></font><font color="#333333"> </font></p></font></div></span></font></h1></td>
+</tr>
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+										
+									</td>
+																	</tr>
+							</table>
+
+						</div>
+						<div class="clr"></div>
+					</div>
+					<div class="clr"></div>
+				</div>
+
+				<div id="whitebox_b">
+					<div id="whitebox_bl">
+						<div id="whitebox_br"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="footerspacer"></div>
+		</div>
+
+		<div id="footer">
+			<div id="footer_l">
+				<div id="footer_r">
+					<p id="syndicate">
+						
+					</p>
+					<p id="power_by">
+	 				 	Powered by <a href="http://www.joomla.org">Joomla!</a>.
+						valid <a href="http://validator.w3.org/check/referer">XHTML</a> and <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-16188810-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

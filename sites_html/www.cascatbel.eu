@@ -1,0 +1,457 @@
+﻿﻿<!DOCTYPE html>
+<html lang="en-EN">
+	<head>
+		<meta charset="UTF-8" />
+		<title>CASCATBEL</title>
+		<meta name="Description" content="catalytic pyrolysis, intermediate deoxygenation and hydrodeoxygenation cascade combination of three catalytic transformations" />
+		<link rel="profile" href="http://gmpg.org/xfn/11" />
+		<link rel="stylesheet" type="text/css" media="all" href="http://www.cascatbel.eu/wp-content/themes/imdea/style.css" />
+		<link rel="pingback" href="http://www.cascatbel.eu/xmlrpc.php" />
+		
+		<link rel="icon" href="http://www.cascatbel.eu/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="http://www.cascatbel.eu/favicon.ico" type="image/x-icon" />
+		
+		<link rel="alternate" type="application/rss+xml" title="Cascatbel &raquo; Feed" href="http://www.cascatbel.eu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Cascatbel &raquo; Comments Feed" href="http://www.cascatbel.eu/comments/feed/" />
+<link rel='stylesheet' id='theme-my-login-css'  href='http://www.cascatbel.eu/wp-content/plugins/theme-my-login/theme-my-login.css?ver=6.3.8' type='text/css' media='all' />
+<link rel='stylesheet' id='mappress-css'  href='http://www.cascatbel.eu/wp-content/plugins/mappress-google-maps-for-wordpress/css/mappress.css?ver=2.40.7' type='text/css' media='all' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.cascatbel.eu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.cascatbel.eu/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='CASCATBEL  PROJECT' href='http://www.cascatbel.eu/project/' />
+<link rel='next' title='Objetives' href='http://www.cascatbel.eu/objetives/' />
+<meta name="generator" content="WordPress 3.7.13" />
+<link rel='canonical' href='http://www.cascatbel.eu/' />
+<link rel='shortlink' href='http://www.cascatbel.eu/?p=28' />
+<style type="text/css">
+    .calnk a:hover {
+        background-position:0 0;
+        text-decoration:none;  
+        color:#000000;
+        border-bottom:1px dotted #000000;
+     }
+    .calnk a:visited {
+        text-decoration:none;
+        color:#000000;
+        border-bottom:1px dotted #000000;
+    }
+    .calnk a {
+        text-decoration:none; 
+        color:#000000; 
+        border-bottom:1px dotted #000000;
+    }
+    .calnk a span { 
+        display:none; 
+    }
+    .calnk a:hover span {
+        color:#333333; 
+        background:#F6F79B; 
+        display:block;
+        position:absolute; 
+        margin-top:1px; 
+        padding:5px; 
+        width:150px; 
+        z-index:100;
+        line-height:1.2em;
+    }
+    .calendar-table {
+        border:0 !important;
+        width:100% !important;
+        border-collapse:separate !important;
+        border-spacing:2px !important;
+    }
+    .calendar-heading {
+        height:25px;
+        text-align:center;
+        border:1px solid #D6DED5;
+        background-color:#E4EBE3;
+    }
+    .calendar-next {
+        width:25%;
+        text-align:center;
+    }
+    .calendar-prev {
+        width:25%;
+        text-align:center;
+    }
+    .calendar-month {
+        width:50%;
+        text-align:center;
+        font-weight:bold;
+    }
+    .normal-day-heading {
+        text-align:center;
+        width:25px;
+        height:25px;
+        font-size:0.8em;
+        border:1px solid #DFE6DE;
+        background-color:#EBF2EA;
+    }
+    .weekend-heading {
+        text-align:center;
+        width:25px;
+        height:25px;
+        font-size:0.8em;
+        border:1px solid #DFE6DE;
+        background-color:#EBF2EA;
+        color:#FF0000;
+    }
+    .day-with-date {
+        vertical-align:text-top;
+        text-align:left;
+        width:60px;
+        height:60px;
+        border:1px solid #DFE6DE;
+    }
+    .no-events {
+
+    }
+    .day-without-date {
+        width:60px;
+        height:60px;
+        border:1px solid #E9F0E8;
+    }
+    span.weekend {
+        color:#FF0000;
+    }
+    .current-day {
+        vertical-align:text-top;
+        text-align:left;
+        width:60px;
+        height:60px;
+        border:1px solid #BFBFBF;
+        background-color:#E4EBE3;
+    }
+    span.event {
+        font-size:0.75em;
+    }
+    .kjo-link {
+        font-size:0.75em;
+        text-align:center;
+    }
+    .calendar-date-switcher {
+        height:25px;
+        text-align:center;
+        border:1px solid #D6DED5;
+        background-color:#E4EBE3;
+    }
+    .calendar-date-switcher form {
+        margin:2px;
+    }
+    .calendar-date-switcher input {
+        border:1px #D6DED5 solid;
+        margin:0;
+    }
+    .calendar-date-switcher select {
+        border:1px #D6DED5 solid;
+        margin:0;
+    }
+    .calnk a:hover span span.event-title {
+        padding:0px;
+        text-align:center;
+        font-weight:bold;
+        font-size:1em;
+        margin-left:0px;
+        min-heigth:17px;
+    }
+    .calnk a:hover span span.event-title-break {
+        width:96%;
+        text-align:center;
+        height:1px;
+        margin-top:5px;
+        margin-right:2%;
+        padding:0;
+        background-color:#000000;
+        margin-left:0px;
+display:none;
+    }
+    .calnk a:hover span span.event-content-break {
+        width:96%;
+        text-align:center;
+        height:1px;
+        margin-top:5px;
+        margin-right:2%;
+        padding:0;
+        background-color:#000000;
+        margin-left:0px;
+   display:none;
+    }
+    .page-upcoming-events {
+        font-size:80%;
+    }
+    .page-todays-events {
+        font-size:80%;
+    }
+    .calendar-table table,tbody,tr,td {
+        margin:0 !important;
+        padding:0 !important;
+    }
+    table.calendar-table {
+        margin-bottom:5px !important;
+//        margin-left:100px;
+    }
+    .cat-key {
+        width:100%;
+        margin-top:30px;
+        padding:5px;
+        border:0 !important;
+    }
+    .cal-separate {
+       border:0 !important;
+       margin-top:10px;
+    }
+    table.cat-key {
+       margin-top:5px !important;
+       border:1px solid #DFE6DE !important;
+       border-collapse:separate !important;
+       border-spacing:4px !important;
+       margin-left:2px !important;
+       width:99.5% !important;
+       margin-bottom:5px !important;
+    }
+    .cat-key td {
+       border:0 !important;
+    }
+</style>
+		<script type="text/javascript" src="http://www.cascatbel.eu/wp-content/themes/imdea/js/jquery-1.7.1.min.js"></script>
+		
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+				ga('create', 'UA-47687496-1', 'cascatbel.eu');
+			ga('send', 'pageview');
+
+</script>
+
+	</head>
+	
+	<body class="home page page-id-28 page-template page-template-home-page-php">
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		
+		<div id="contenedor">
+			<div id="menu-superior">
+				
+						
+					
+				
+				<div class="informacion">
+					
+					<!-- LOGIN HOOK -->
+									</div>
+				
+				<div class="clearfix"></div>
+			</div>
+			
+			<div id="cabecera">
+				<h2>
+										<a style="text-decoration:none;" href="http://www.cascatbel.eu" title="CASCATBEL"><img src="http://www.cascatbel.eu/wp-content/themes/imdea/images/logo.png" alt="" /></a>
+										<a class="contactin" href="http://www.linkedin.com/groups/CASCATBEL-7456187?home=&gid=7456187" title="Linkedin" target="_blank"><img src="http://www.cascatbel.eu/wp-content/themes/imdea/images/in.jpg" alt="" /></a>
+					
+					
+					<a class="contactimg" href="http://www.cascatbel.eu/index.php/contact/" title="Contact"><img src="http://www.cascatbel.eu/wp-content/themes/imdea/images/contact.png" alt="" /></a> 
+				</h2>
+
+				
+			</div>
+			
+			<div id="contenido">
+							<div class="menu">
+										
+					<ul id="menu-principal" class=""><li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-76 active "><a href="http://www.cascatbel.eu">HOME</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="http://www.cascatbel.eu/project/">ABOUT CASCATBEL</a></li>
+<li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-151"><a href="http://www.cascatbel.eu/consortium/">CONSORTIUM</a></li>
+<li id="menu-item-252" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-252"><a href="http://www.cascatbel.eu/category/dissemination/publications/">DISSEMINATION</a></li>
+<li id="menu-item-27" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27"><a href="http://www.cascatbel.eu/category/news/">NEWS &#038; EVENTS</a></li>
+<li id="menu-item-154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154"><a href="http://www.cascatbel.eu/links/">LINKS</a></li>
+<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="http://www.cascatbel.eu/login-2/">LOG IN</a></li>
+</ul>					
+					<div class="clearfix"></div>
+					<div id="slide"><!--<img src="http://www.cascatbel.eu/wp-content/themes/imdea/images/cabecera2.jpg" alt="" />-->
+					<!-- meta slider -->
+<div style="max-width: 940px;" class="metaslider metaslider-flex metaslider-318 ml-slider nav-hidden">
+    
+    <div id="metaslider_container_318">
+        <div id="metaslider_318" class="flexslider">
+            <ul class="slides">
+                <li style="display: none;"><img src="http://www.cascatbel.eu/wp-content/uploads/imagen_home_3.jpg" height="295" width="940" class="slider-318 slide-321" /></li>
+                <li style="display: none;"><img src="http://www.cascatbel.eu/wp-content/uploads/imagen_home_1-936x294.jpg" height="295" width="940" class="slider-318 slide-319" /></li>
+                <li style="display: none;"><img src="http://www.cascatbel.eu/wp-content/uploads/imagen_home_2-936x294.jpg" height="295" width="940" class="slider-318 slide-320" /></li>
+                <li style="display: none;"><img src="http://www.cascatbel.eu/wp-content/uploads/imagen_home_4.jpg" height="295" width="940" class="slider-318 slide-856" /></li>
+                <li style="display: none;"><img src="http://www.cascatbel.eu/wp-content/uploads/imagen_home_31-936x294.jpg" height="295" width="940" class="slider-318 slide-538" /></li>
+            </ul>
+        </div>
+        
+    </div>
+    <script type="text/javascript">
+        var metaslider_318 = function($) {
+            $('#metaslider_318').flexslider({ 
+                slideshowSpeed:3000,
+                animation:"fade",
+                controlNav:false,
+                directionNav:true,
+                pauseOnHover:true,
+                direction:"horizontal",
+                reverse:false,
+                animationSpeed:600,
+                prevText:"<",
+                nextText:">",
+                easing:"linear",
+                slideshow:true,
+                useCSS:false
+            });
+        };
+        var timer_metaslider_318 = function() {
+            var slider = !window.jQuery ? window.setTimeout(timer_metaslider_318, 100) : !jQuery.isReady ? window.setTimeout(timer_metaslider_318, 100) : metaslider_318(window.jQuery);
+        };
+        timer_metaslider_318();
+    </script>
+</div>
+<!--// meta slider--></div>
+				</div>
+									
+<h1>
+  <div class="titularHome">
+    catalytic pyrolysis, intermediate deoxygenation and hydrodeoxygenation  <br/><strong>cascade combination of three catalytic transformations</strong>
+  </div>
+  <hr></hr>
+</h1>
+				<div id="secciones">
+          <div class="seccion">
+                     <h3>
+              <a href="
+                http://www.cascatbel.eu/category/news/" title="News">CASCATBEL  PROJECT              </a>
+            </h3>
+
+            <p>
+              Aims to design, optimize and scale-up a novel multi-step process for the production of second-generation liquid biofuels from lignocellulosic biomass in a cost-efficient way through the use of next-generation high surface area tailored nano-catalysts.        
+            </p>
+            <a href="              
+              http://www.cascatbel.eu/index.php/project" class="ver-mas">
+              Continue reading...<br/><br/><br/><br/>
+            </a>
+            <div id="home1">
+                            <img class="imagenNew" src="http://www.cascatbel.eu/wp-content/uploads/home1.jpg" alt="Home" />
+            </div>
+
+          </div>
+          <div id="lineadivhome">
+            <img class="imagenseparahome" src="http://www.cascatbel.eu/wp-content/themes/imdea/images/fondo-lateral.png" alt="" />
+          </div>
+					<div class="seccion" style="padding-left:25px;">
+
+         
+                        <div id="itemdestacado">
+              
+            <h3>
+             Technical Committee Meeting met in Bled last 21st and 22th October 2015              
+            </h3>
+
+            <p>
+              The Technical Committee Meeting of CASCATBEL project took place on 21<sub>st</sub> and 22<sub>th</sub> October in Bled, Slovenia.  
+ 
+The meeting was organized by SILKEM Proizvodnja Zeolitov Doo...            </p>
+            <a href="
+              http://www.cascatbel.eu/technical-committee-meeting-met-in-bled-last-21st-and-22th-october-2015/" target="_black" title="See more" class="ver-mas">
+              See more...<br/><br/><br/><br/><br/><br/>
+            </a>
+           <!-- <div id="imagenNewDestacado" class="imagenNewDestacado">
+                                                                                    
+                        <img class="imagenNewDestacado" src="http://www.cascatbel.eu/wp-content/uploads/imagen_Meeting_met_in_Bled_last_21_octure.png" alt="Technical Committee Meeting met in Bled last 21st and 22th October 2015" />                    
+                    
+           </div>-->
+
+            </div>
+
+            <div class="clearfix"></div>
+               
+                        <div id="itemdestacado">
+              
+            <h3>
+             CASCATBEL in The Business Booster (TBB) by KIC Innoenergy on 21st and 22th October 2015              
+            </h3>
+
+            <p>
+              CASCATBEL project activities and results were disseminated with the participants companies, in special start-ups and SMES. The concept ot TBB-The Business Booster initiative is dedicated to promote...            </p>
+            <a href="
+              http://www.cascatbel.eu/cascatbel-in-the-business-booster-tbb-by-kic-innoenergy-on-21st-and-22th-october-2015/" target="_black" title="See more" class="ver-mas">
+              See more...<br/><br/><br/><br/><br/><br/>
+            </a>
+           <!-- <div id="imagenNewDestacado" class="imagenNewDestacado">
+                                                                                    
+                        <img class="imagenNewDestacado" src="http://www.cascatbel.eu/wp-content/uploads/imagen_CASCATBEL_Business_Booster_TBB_by_KIC_Innoenergy_on_21st_and_22th_October_2015.png" alt="CASCATBEL in The Business Booster (TBB) by KIC Innoenergy on 21st and 22th October 2015" />                    
+                    
+           </div>-->
+
+            </div>
+
+            <div class="clearfix"></div>
+               
+                        
+           
+					</div>
+						
+				
+						
+		
+						
+					<div class="clearfix"></div>
+				</div>
+		
+									<!-- TODO: Custom categories  --> 
+				<BR></BR>
+<h4 class="titularHome2">
+  <strong>Advanced biofuels</strong><b class="titularHome3"> for the future</b>
+</h4>
+		
+					</div>
+		</div>
+
+		
+		
+		<link rel='stylesheet' id='metaslider-flex-slider-css'  href='http://www.cascatbel.eu/wp-content/plugins/ml-slider/assets/sliders/flexslider/flexslider.css?ver=2.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='metaslider-public-css'  href='http://www.cascatbel.eu/wp-content/plugins/ml-slider/assets/metaslider/public.css?ver=2.6.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.cascatbel.eu/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://www.cascatbel.eu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.cascatbel.eu/wp-content/plugins/ml-slider/assets/sliders/flexslider/jquery.flexslider-min.js?ver=2.6.2'></script>
+<script type='text/javascript' src='http://www.cascatbel.eu/wp-content/plugins/ml-slider/assets/easing/jQuery.easing.min.js?ver=2.6.2'></script>
+		
+		<div id="pie">
+			<div id="contenido-pie">
+				
+				<div class="logopie1">
+
+                              <a style="text-decoration:none;" href="
+            http://www.cascatbel.eu" title="CASCATBEL"><img src="http://www.cascatbel.eu/wp-content/themes/imdea/images/logopie1.png" alt="" />
+          </a>
+                    
+        
+									
+				
+        <div class="pfooter_derecha">
+        <div class="textopie">
+          <span class="titulo">
+            The CASCATBEL project has received funding from the European Community's Seventh <br/> Framework Programme FP7/2007-2013 under Grant Agreement nº 604307
+          </span>
+        </div>        
+        <div class="logopie2">
+          <img src="http://www.cascatbel.eu/wp-content/themes/imdea/images/logopie5.png"/>
+          </div>
+       <!-- <div class="logopie3">
+          <img src="http://www.cascatbel.eu/wp-content/themes/imdea/images/logopie3.png"/>
+        </div>-->
+        </div>
+                    </div>
+					<div class="clearfix"></div>
+			</div>
+		</div>
+	</body>
+</html>

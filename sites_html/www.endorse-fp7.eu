@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 ie" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 ie" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 ie" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 ie" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr"  prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"> <!--<![endif]-->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortlink" href="/node/1" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/home" />
+  <title>ENDORSE FP7 project | ENDORSE (ENergy DOwnstReam SErvices)</title>
+  <style type="text/css" media="all">
+@import url("http://www.endorse-fp7.eu/modules/system/system.base.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/modules/system/system.menus.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/modules/system/system.messages.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/modules/system/system.theme.css?nt7xkb");
+</style>
+<style type="text/css" media="all">
+@import url("http://www.endorse-fp7.eu/modules/aggregator/aggregator.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/modules/book/book.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/modules/comment/comment.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/modules/field/theme/field.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/modules/node/node.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/modules/poll/poll.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/modules/search/search.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/modules/user/user.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/modules/forum/forum.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/sites/all/modules/views/css/views.css?nt7xkb");
+</style>
+<style type="text/css" media="all">
+@import url("http://www.endorse-fp7.eu/sites/all/modules/ckeditor/ckeditor.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/sites/all/modules/ctools/css/ctools.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/sites/all/modules/panels/css/panels.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/sites/www.endorse-fp7.eu/files/fusion/acquia_marina.responsive.grid.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/sites/all/libraries/superfish/css/superfish.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/sites/all/libraries/superfish/style/default.css?nt7xkb");
+</style>
+<style type="text/css" media="all">
+@import url("http://www.endorse-fp7.eu/sites/all/themes/fusion/fusion_core/css/fusion-style.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/sites/all/themes/fusion/fusion_core/css/fusion-typography.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/sites/all/themes/fusion/fusion_core/skins/core/fusion-core-skins.css?nt7xkb");
+@import url("http://www.endorse-fp7.eu/sites/all/themes/acquia_marina/css/fusion-acquia-marina-style.css?nt7xkb");
+</style>
+    <meta name="viewport" content="width=device-width" />
+  <meta name="MobileOptimized" content="width" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+    <script type="text/javascript" src="http://www.endorse-fp7.eu/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://www.endorse-fp7.eu/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www.endorse-fp7.eu/misc/drupal.js?nt7xkb"></script>
+<script type="text/javascript" src="http://www.endorse-fp7.eu/sites/all/libraries/superfish/jquery.hoverIntent.minified.js?nt7xkb"></script>
+<script type="text/javascript" src="http://www.endorse-fp7.eu/sites/all/libraries/superfish/sfsmallscreen.js?nt7xkb"></script>
+<script type="text/javascript" src="http://www.endorse-fp7.eu/sites/all/libraries/superfish/supposition.js?nt7xkb"></script>
+<script type="text/javascript" src="http://www.endorse-fp7.eu/sites/all/libraries/superfish/superfish.js?nt7xkb"></script>
+<script type="text/javascript" src="http://www.endorse-fp7.eu/sites/all/libraries/superfish/supersubs.js?nt7xkb"></script>
+<script type="text/javascript" src="http://www.endorse-fp7.eu/sites/all/modules/superfish/superfish.js?nt7xkb"></script>
+<script type="text/javascript" src="http://www.endorse-fp7.eu/sites/all/themes/fusion/fusion_core/js/script.js?nt7xkb"></script>
+<script type="text/javascript" src="http://www.endorse-fp7.eu/sites/all/themes/fusion/fusion_core/skins/core/js/script.js?nt7xkb"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"acquia_marina","theme_token":"mSdpFQj3qHLI1IA8In9DCW_l0kak4QLkTyPltHYQ0w4","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sfsmallscreen.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/fusion\/fusion_core\/js\/script.js":1,"sites\/all\/themes\/fusion\/fusion_core\/skins\/core\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"public:\/\/fusion\/acquia_marina.responsive.grid.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/style\/default.css":1,"sites\/all\/themes\/fusion\/fusion_core\/css\/fusion-style.css":1,"sites\/all\/themes\/fusion\/fusion_core\/css\/fusion-typography.css":1,"sites\/all\/themes\/fusion\/fusion_core\/skins\/core\/fusion-core-skins.css":1,"sites\/all\/themes\/acquia_marina\/css\/fusion-acquia-marina-style.css":1}},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show","height":"show"},"speed":"\u0027fast\u0027","autoArrows":false,"dropShadows":true,"disableHI":false},"plugins":{"smallscreen":{"mode":"window_width","addSelected":false,"menuClasses":false,"hyperlinkClasses":false,"title":"Main menu"},"supposition":true,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}}});
+//--><!]]>
+</script>
+</head>
+<body id="pid-home" class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-1 node-type-page font-size-12 grid-type-responsive grid-width-16" >
+  <div id="skip-link">
+    <a href="#main-content-area">Skip to main content area</a>
+  </div>
+  
+<!-- page-top region -->
+  <div id="page-top" class="region region-page-top page-top">
+    <div id="page-top-inner" class="page-top-inner inner">
+          </div><!-- /page-top-inner -->
+  </div><!-- /page-top -->
+  
+  <div id="page" class="page">
+    <div id="page-inner" class="page-inner">
+      
+      <!-- header-group region: width = grid_width -->
+      <div id="header-group-wrapper" class="header-group-wrapper full-width clearfix">
+        <div id="header-group" class="header-group region grid16-16">
+          <div id="header-group-inner" class="header-group-inner inner clearfix">
+
+                        <div id="header-site-info" class="header-site-info clearfix">
+              <div id="header-site-info-inner" class="header-site-info-inner gutter">
+                                <div id="logo">
+                  <a href="/" title="Home"><img src="http://www.endorse-fp7.eu/sites/www.endorse-fp7.eu/files/endorse-logo.png" alt="Home" /></a>
+                </div>
+                                                <div id="site-name-wrapper" class="clearfix">
+                                                          <div id="site-name"><a href="/" title="Home" rel="home">ENDORSE (ENergy DOwnstReam SErvices)</a></div>
+                                                                          <span id="slogan">Providing energy components for GMES</span>
+                                  </div><!-- /site-name-wrapper -->
+                              </div><!-- /header-site-info-inner -->
+            </div><!-- /header-site-info -->
+            
+            <div id="block-search-form" class="block block-search first last odd">
+  <div class="inner clearfix gutter">
+  	<div class="inner-wrapper">
+      <div class="inner-inner">
+                        <div class="content clearfix">
+        <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div>
+<div id="search" class="container-inline">
+  <div id="search-inner">
+          <h2 class="element-invisible">Search form</h2>
+        <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-b4LRF72bwcX4bGWyt2BbWzBFgNYfN0gseZlXbEH_01A" />
+<input type="hidden" name="form_id" value="search_block_form" />
+  </div>
+</div></div></form>      </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+  </div><!-- /block-inner -->
+</div><!-- /block -->          </div><!-- /header-group-inner -->
+        </div><!-- /header-group -->
+      </div><!-- /header-group-wrapper -->
+      
+<!-- main-menu region -->
+<div id="main-menu-wrapper" class="main-menu-wrapper full-width clearfix">
+  <div id="main-menu" class="region region-main-menu main-menu  grid16-16">
+    <div id="main-menu-inner" class="main-menu-inner inner">
+      <div id="block-superfish-1" class="block block-superfish first last odd">
+  <div class="inner clearfix gutter">
+  	<div class="inner-wrapper">
+      <div class="inner-inner">
+                  <div class="block-icon pngfix"></div>
+      <h2 class="title block-title">Main menu</h2>
+                  <div class="content clearfix">
+        <ul id="superfish-1" class="menu sf-menu sf-main-menu sf-horizontal sf-style-default sf-total-items-8 sf-parent-items-1 sf-single-items-7"><li id="menu-155-1" class="first odd sf-item-1 sf-depth-1 sf-no-children"><a href="/" title="ENDORSE FP7 project
+" class="sf-depth-1">Home</a></li><li id="menu-307-1" class="middle even sf-item-2 sf-depth-1 sf-no-children"><a href="/gmes" title="GMES (COPERNICUS) and ENDORSE" class="sf-depth-1">GMES</a></li><li id="menu-184-1" class="middle odd sf-item-3 sf-depth-1 sf-total-children-10 sf-parent-children-0 sf-single-children-10 menuparent"><a href="/pre-market-services" title="Pre-Market Services" class="sf-depth-1 menuparent">Pre-Market Services</a><ul><li id="menu-334-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/pre-market-services/local-atlas-generation" title="Local Atlas Generation" class="sf-depth-2">Local Atlas Generation</a></li><li id="menu-188-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/pre-market-services/design-csps" title="Design CSPS" class="sf-depth-2">Design CSPS</a></li><li id="menu-189-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/pre-market-services/irradiance-forecasts" title="Irradiance forecasts for electricity production" class="sf-depth-2">Irradiance forecasts</a></li><li id="menu-359-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/pre-market-services/tmy-generation" title="TMY generation" class="sf-depth-2">TMY generation</a></li><li id="menu-191-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="/pre-market-services/csp-gis" title="A Web-based GIS for concentrating solar systems" class="sf-depth-2">CSP-GIS</a></li><li id="menu-192-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a href="/pre-market-services/wind-aeo" title="Generation of annual energy output (AEO) for decision-support in on-shore wind energy policy planning and private investment" class="sf-depth-2">Wind AEO</a></li><li id="menu-194-1" class="middle odd sf-item-7 sf-depth-2 sf-no-children"><a href="/pre-market-services/load-balancing" title="Load balancing within electricity distribution grids enabling high penetration of photovoltaic power systems" class="sf-depth-2">Load balancing</a></li><li id="menu-336-1" class="middle even sf-item-8 sf-depth-2 sf-no-children"><a href="/pre-market-services/mapping-biomass" title="Mapping biomass potential for forested areas" class="sf-depth-2">Forest biomass potential</a></li><li id="menu-195-1" class="middle odd sf-item-9 sf-depth-2 sf-no-children"><a href="/pre-market-services/certification-of-bioenergy" title="Definition and development of a service for certifying the sustainable production of bioenergy products" class="sf-depth-2">Certification of bioenergy use</a></li><li id="menu-196-1" class="last even sf-item-10 sf-depth-2 sf-no-children"><a href="/pre-market-services/lighting-energy-savings" title="Computation of the annual lighting energy savings resulting from the control of blinds and artificial lights by daylight, for building design and retrofit, energy regulation policy planning, and private investment" class="sf-depth-2">Lighting energy savings</a></li></ul></li><li id="menu-308-1" class="middle even sf-item-4 sf-depth-1 sf-no-children"><a href="/science" title="Highlighting the scientific outcomes of ENDORSE" class="sf-depth-1">Science Highlights</a></li><li id="menu-183-1" class="middle odd sf-item-5 sf-depth-1 sf-no-children"><a href="/workshops" title="Workshops" class="sf-depth-1">Workshops</a></li><li id="menu-242-1" class="middle even sf-item-6 sf-depth-1 sf-no-children"><a href="/dissemination" title="Publications" class="sf-depth-1">Dissemination</a></li><li id="menu-182-1" class="middle odd sf-item-7 sf-depth-1 sf-no-children"><a href="/partners" title="Partners" class="sf-depth-1">Partners</a></li><li id="menu-180-1" class="last even sf-item-8 sf-depth-1 sf-no-children"><a href="/contacts" title="Contacts" class="sf-depth-1">Contacts</a></li></ul>      </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+  </div><!-- /block-inner -->
+</div><!-- /block -->    </div><!-- /main-menu-inner -->
+  </div><!-- /main-menu -->
+</div><!-- /main-menu-wrapper -->
+      <div class="preface-top-outer"></div>
+
+      <!-- main region: width = grid_width -->
+      <div id="main-wrapper" class="main-wrapper full-width clearfix">
+        <div id="main" class="main region grid16-16">
+          <div id="main-inner" class="main-inner inner clearfix">
+            
+<!-- sidebar-first region -->
+  <div id="sidebar-first" class="region region-sidebar-first sidebar-first nested grid16-3 sidebar">
+    <div id="sidebar-first-inner" class="sidebar-first-inner inner">
+      <div id="block-user-login" class="block block-user first last odd">
+  <div class="inner clearfix gutter">
+  	<div class="inner-wrapper">
+      <div class="inner-inner">
+                  <div class="block-icon pngfix"></div>
+      <h2 class="title block-title">User login</h2>
+                  <div class="content clearfix">
+        <form action="/home?destination=node/1" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Username <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-jTjgUJoBrv_AWxflnveHmzZhfr8phY7quS53qDUw6GQ" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Log in" class="form-submit" /></div></div></form>      </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+  </div><!-- /block-inner -->
+</div><!-- /block -->    </div><!-- /sidebar-first-inner -->
+  </div><!-- /sidebar-first -->
+
+            <!-- main group: width = grid_width - sidebar_first_width -->
+            <div id="main-group" class="main-group region nested grid16-13">
+              <div id="main-group-inner" class="main-group-inner inner">
+                
+                <div id="main-content" class="main-content region nested">
+                  <div id="main-content-inner" class="main-content-inner inner">
+                    <!-- content group: width = grid_width - sidebar_first_width - sidebar_second_width -->
+                    <div id="content-group" class="content-group region nested grid16-13">
+                      <div id="content-group-inner" class="content-group-inner inner">
+                        <div id="breadcrumbs" class="breadcrumbs block">
+<div id="breadcrumbs-inner" class="breadcrumbs-inner gutter">
+<h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a> » ENDORSE FP7 project</div></div><!-- /breadcrumbs-inner -->
+</div><!-- /breadcrumbs -->
+                        
+                        <div id="content-region" class="content-region region nested">
+                          <div id="content-region-inner" class="content-region-inner inner">
+                            <a id="main-content-area"></a>
+                                                                                                                                            <h1 class="title gutter">ENDORSE FP7 project</h1>
+                                                                                                                                              
+<!-- content region -->
+  <div id="content" class="region region-content content nested grid16-13">
+    <div id="content-inner" class="content-inner inner">
+      <div id="block-system-main" class="block block-system first last odd">
+  <div class="inner clearfix gutter">
+  	<div class="inner-wrapper">
+      <div class="inner-inner">
+                        <div class="content clearfix">
+        <div id="node-1" class="node node-page odd full-node clearfix" about="/home" typeof="sioc:Item foaf:Document">
+  
+      <span property="dc:title" content="ENDORSE FP7 project" class="rdf-meta element-hidden"></span>
+  
+      <div id="node-top" class="node-top region nested">
+          </div>
+    
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><ul><li class="rtejustify">
+		<a href="#intro">Introduction</a></li>
+</ul><ul><li class="rtejustify">
+		<a href="/sites/www.endorse-fp7.eu/files/docs/D101.3_ENDORSE_brief_2013.pdf">Summary of the project and its results</a></li>
+</ul><ul><li class="rtejustify">
+		Publishable summaries
+<ul><li class="rtejustify">
+				<a href="/sites/www.endorse-fp7.eu/files/docs/2013_262892_ENDORSE_Publishable_Summary.pdf">Summary of activities in year 2013 (2013-11-19)</a></li>
+<li class="rtejustify">
+				<a href="/sites/www.endorse-fp7.eu/files/docs/2012_262892_ENDORSE_Publishable_Summary.pdf">Summary of activities in year 2012 (2013-02-20)</a></li>
+<li class="rtejustify">
+				<a href="/sites/www.endorse-fp7.eu/files/docs/262892_ENDORSE_Publishable_Summary.pdf">Summary of activities in year 2011 (2012-03-06)</a></li>
+</ul></li>
+</ul><ul><li class="rtejustify">
+		<a href="#stats">Statistics of accesses of the ENDORSE website</a></li>
+</ul><p class="rtejustify"> </p>
+<h1 class="rtejustify">
+	<a name="intro" id="intro">Introduction</a></h1>
+<p class="rtejustify">The project ENDORSE aims at a user-driven development of downstream services in renewable energies by exploiting the GMES Core Services (MACC, SAFER and Geoland 2) together with other EO/in-situ data and modelling. It addresses regional services promoting the energy use from sun, wind, and biomass, electricity grid management and building engineering through daylighting in buildings. The consortium has teamed with relevant users to stimulate the development of sustainable and transferable downstream services. ENDORSE will:</p>
+<ul><li class="rtejustify">
+		 <strong>develop and validate pre-market downstream services in collaboration with well-defined end-users</strong> by performing R&amp;D activities or to <strong>enhance existing services by the new GMES core service capabilities</strong> and recent R&amp;D results;</li>
+<li class="rtejustify">
+		<strong>assess the conditions for self-sustainability</strong> of these services through surveys and workshops <strong>with end-users</strong>;</li>
+<li class="rtejustify">
+		<strong>disseminate the achievements of the project</strong> to foster the use of Core Services data and other EO data by the renewable energies community. This includes feedbacks to <strong>Core Services and connection to other GMES projects</strong> relating to energy, such as EnerGEO;</li>
+<li class="rtejustify">
+		<strong>stimulate the market of downstream services</strong> in renewable energies towards the end-users community, and the development of such services by SMEs and other service-oriented companies <strong>by demonstrating precursors with documented conditions of sustainability.</strong></li>
+</ul><p class="rtejustify">The expected major outcomes of ENDORSE are:</p>
+<ul><li class="rtejustify">
+		<strong>scientific advances</strong> in assessment of surface air temperature and solar radiation, and data fusion;</li>
+<li class="rtejustify">
+		a set of validated and documented <strong>innovative methods exploiting CoreServices data and other EO data</strong>;</li>
+<li class="rtejustify">
+		a portfolio of <strong>pre-market services</strong>, serving as precursors and examples of best practices for similar downstream services (other regions, other providers), with documented conditions of sustainability;</li>
+<li class="rtejustify">
+		a stimulation of the <strong>renewable energies community</strong> towards exploitation of Core Services data and other EO data;</li>
+<li class="rtejustify">
+		a stimulation of the <strong>service industry</strong> towards development of downstream services;</li>
+<li class="rtejustify">
+		<strong>feedbacks to Core Services</strong> on their data, and as a whole to GMES and GEOSS on the exploitation of EO data in renewable energies area.</li>
+</ul><h2 class="rtejustify">
+	<a name="stats" id="stats"></a>Statistics of accesses of the ENDORSE website</h2>
+<p><img alt="" height="240" src="/sites/www.endorse-fp7.eu/files/images/nb_unique_visitors.png" width="500" /></p>
+<p> </p>
+<ul><li>
+		The largest number of accesses is made by both MINES ParisTech and Transvalor, which are hosting the website and are in charge of the content update. Then, the most represented countries are, in decreasing order: Germany, Ukraine, Italy, France, and Belgium.</li>
+<li>
+		Most visited pages are:
+<ul style="list-style-type:circle;"><li>
+				/partners</li>
+<li>
+				The page that lists all the dissemination activities of the partners: /dissemination</li>
+<li>
+				The load-balancing service (E1) page: /pre-market-services/load-balancing</li>
+<li>
+				/workshops</li>
+<li>
+				/home</li>
+<li>
+				The ENDORSE activities related to GMES: /gmes</li>
+<li>
+				The page which lists the ten pre-market services: /pre-market-services</li>
+<li>
+				/contact</li>
+<li>
+				/communications</li>
+</ul></li>
+</ul></div></div></div>  </div>
+
+  
+  
+      <div id="node-bottom" class="node-bottom region nested">
+          </div>
+    
+</div>
+      </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+  </div><!-- /block-inner -->
+</div><!-- /block -->    </div><!-- /content-inner -->
+  </div><!-- /content -->
+                                                      </div><!-- /content-region-inner -->
+                        </div><!-- /content-region -->
+
+                      </div><!-- /content-group-inner -->
+                    </div><!-- /content-group -->
+                                      </div><!-- /main-content-inner -->
+                </div><!-- /main-content -->
+
+                              </div><!-- /main-group-inner -->
+            </div><!-- /main-group -->
+          </div><!-- /main-inner -->
+        </div><!-- /main -->
+      </div><!-- /main-wrapper -->
+
+            
+<!-- footer region -->
+<div id="footer-wrapper" class="footer-wrapper full-width clearfix">
+  <div id="footer" class="region region-footer footer  grid16-16">
+    <div id="footer-inner" class="footer-inner inner">
+      <div id="block-block-1" class="block block-block first last odd">
+  <div class="inner clearfix gutter">
+  	<div class="inner-wrapper">
+      <div class="inner-inner">
+                        <div class="content clearfix">
+        <p><img alt="" src="/sites/www.endorse-fp7.eu/files/images/logo-endorse-credits-35.jpg" style="width: 104px; height: 35px; " /></p>
+      </div>
+      </div><!-- /inner-inner -->
+	  </div><!-- /inner-wrapper -->
+  </div><!-- /block-inner -->
+</div><!-- /block -->    </div><!-- /footer-inner -->
+  </div><!-- /footer -->
+</div><!-- /footer-wrapper -->
+    </div><!-- /page-inner -->
+  </div><!-- /page -->
+  </body>
+</html>

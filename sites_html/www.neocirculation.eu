@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Homepage - Neocirculation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<meta name="description" content="Neocirculation - Homepage" />
+<meta name="keywords" content="neocirculation, neo-circ, neocirc, dobutamine, SVC, superior vena cava  flow, premature, hypotension,neonatal circulatory failure" />
+<link rel="shortcut icon" href="images/favicon.ico" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/easySlider1.5.js"></script>
+<script type="text/javascript" charset="utf-8">
+// <![CDATA[
+$(document).ready(function(){	
+	$("#slider").easySlider({
+		controlsBefore:	'<p id="controls">',
+		controlsAfter:	'</p>',
+		auto: true, 
+		continuous: true
+	});	
+});
+// ]]>
+</script>
+<style type="text/css">
+#slider { width:980px; height:336px; margin:0 auto; padding:0; }
+#slider ul,
+#slider li { margin:0; padding:0; list-style:none; }
+/* 
+    define width and height of list item (slide)
+    entire slider area will adjust according to the parameters provided here
+*/
+#slider li { width:980px; height:336px; overflow:hidden; }
+</style>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="header_top_text"><a href="http://cordis.europa.eu/fp7/health" target="_blank"><img src="/images/FP7-gen-logo.gif" alt="FP7 health website" width="92" height="75" border="0" /></a></div>
+      <div class="logo"><a href="/index.php"><img src="/images/logo.gif" width="374" height="143" border="0" alt="logo" /></a></div>
+      <div class="search"> <a href="http://ec.europa.eu/research/fp7/index_en.cfm" target="_blank"><img src="/images/eu_logo.png" alt="EU Logo" width="101" height="67" border="0" /></a>
+      </div>      
+      <div class="clr"></div>      <div class="menu">
+        <ul>
+         <li><a href="/index.php"><span>Home Page</span></a></li>
+          <li><a href="/project.shtml"><span>The Project</span></a></li>
+          <li><a href="/partners.shtml" class="active"><span>The Partners</span></a></li>
+          <li><a href="/pubs.shtml"><span>Publications &amp; Presentations</span></a></li>
+          <li><a href="/links.shtml"><span>Useful Links</span></a></li>
+          <li><a href="/contact.shtml"><span>Contact us</span></a></li>
+          <li><a href="/intranet/"><span>NEO-CIRC Intranet</span></a></li>
+          <li><a href="#" title="This facility will be made available nearer the starting date of the clinical trials"><span>Recruit Patient</span></a></li>
+        </ul>
+        <div class="clr"></div>
+      </div>    
+</div>
+  </div>
+  <div class="clr"></div>
+  <div class="slider_resize">
+    <div class="slider">
+      <div id="slider">
+        <ul>
+          <li>
+            <div class="img"><img src="images/simple_img_1b.jpg" alt="picture" width="980" height="336" /></div>
+          </li> 
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="clr"></div>
+  <div class="body_resize">
+    <div class="body">
+      <div class="body_small2">
+        <h2>What is NEO-CIRC?</h2>
+        <a href="images/consortium_large.jpg" target="_blank"><img src="images/img_1.jpg" alt="Neo-Circ Consortium" width="353" height="102" /></a>
+        <div class="clr"></div>
+        <p>NEO-CIRC:</p>
+		<p>- will focus on the use of the drug 	dobutamine for the treatment of circulatory failure in the first two days after birth</p>
+        <p>-  sustained low blood pressure and impaired blood flow to organs, during this period, can cause brain injury resulting in poor neurodevelopmental outcomes</p>
+        <p>- neurodevelopmental disorders are associated with mental, emotional and physical disorders of varying severity </p>
+        <p>- there is strong evidence that the use of dobutamine will reduce the incidence of these disabilities   </p> 
+        <div class="line"></div>
+        <p><span><strong><a href="project.shtml">read more &gt;&gt;</a></strong></span></p>
+      </div>
+      <div class="body_small">
+        <h2>Latest news</h2>
+
+        <table width="100%">
+            <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+            <tr>
+                <td>
+                    <p><a href="http://www.neocirculation.eu/news/preview.php?id=13">NeoCirc-001A completed!</a><br />
+                
+                    The 1st phase of NEOCIRC001 trial is complete after recruiting the required number of babies.</p>
+                </td>
+            </tr>
+            <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+            <tr>
+                <td>
+                    <p><a href="http://www.neocirculation.eu/news/preview.php?id=11">NEOCIRC participates at the First Annual Neonatal Scientific Workshop in USA</a><br />
+                
+                    M Turner and H Rabe were an invited Panel members and Speakers at the First Annual Neonatal Scientific Workshop.</p>
+                </td>
+            </tr>
+            <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+            <tr>
+                <td>
+                    <p><a href="http://www.neocirculation.eu/news/preview.php?id=12">2nd Period summary</a><br />
+                
+                    The summary of the 2nd Period of NEOCIRC project work is now available!</p>
+                </td>
+            </tr>
+            
+        </table>
+
+ 
+       <div class="line"></div>
+        <p><span><strong><a href="news/news.php">View all news &gt;&gt;</a></strong></span></p>
+      </div>
+      <div class="body_small">
+        <h2>Events</h2>
+
+        <table width="100%">
+            <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+            <tr>
+                <td>
+                    <p><a href="http://www.neocirculation.eu/events/preview.php?id=5">4th NEO-CIRC Consortium Meeting</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <p> The 4th NEO-CIRC Consortium Meeting to take place in the city of Cluj-Napoca in Romania.</p>
+                </td>
+            </tr>
+            <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+            <tr>
+                <td>
+                    <p><a href="http://www.neocirculation.eu/events/preview.php?id=4">NEO-CIRC Consortium Meeting Scheduled</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <p> The next NEO-CIRC Consortium Meeting will be held in Lübeck, Germany on the 19th – 20th March 2013.</p>
+                </td>
+            </tr>
+            <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+            <tr>
+                <td>
+                    <p><a href="http://www.neocirculation.eu/events/preview.php?id=3">NEO-CIRC Consortium Meeting held in Madrid.</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <p> The first consortium meeting was held in Madrid on the 12-13th June 2012. The meeting was hosted by NEO-CIRC partner- Servicio Madrileño De Salud (Sermas).</p>
+                </td>
+            </tr>
+            
+        </table>
+
+         <div class="line"></div>
+        <p><span><strong><a href="events/events.php">View all events &gt;&gt;</a></strong></span></p>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="clr"></div>
+</div>
+<div class="footer">
+  <div class="footer_resize">
+    <div class="text">
+      <p>&copy; Copyright 2012. Neocirculation. All Rights Reserved <br />
+        <a href="/index.php">Home</a> | <a href="/contact.shtml">Contact Us</a> | <a href="/news/rss.php">RSS </a></p>
+    </div>
+    <div class="logo"> <a href="/test7/index.php"><img src="/images/footer_logo.gif" alt="picture" width="212" height="100" border="0" /></a> </div>
+    <div class="text2">
+      <p><a href="http://www.webzpage.net" target="_blank">Site by WebzPage.NET</a></p>
+    </div>
+  </div>
+  <div class="clr"></div>
+</div></body>
+</html>

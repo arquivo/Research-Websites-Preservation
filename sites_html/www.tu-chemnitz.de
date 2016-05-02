@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>TU Chemnitz: Engineering: Institute for Print and Media Techn...</title>
+<meta charset="iso-8859-1" />
+<meta name="author" content="baumann printing research" />
+<meta name="dcterms.coverage" content="Worldwide" />
+<meta name="dcterms.modified" content="2012-05-07" />
+<meta name="dcterms.rightsHolder" content="Technische Universit&auml;t Chemnitz" />
+<meta name="description" content="Department of Digital Printing and Imaging Technology: Digital Printing and Imaging Technology" />
+<meta name="geo.country" content="de" />
+<meta name="keywords" content="TU Chemnitz, Technische Universit&auml;t Chemnitz, baumann printing research, Department of Digital Printing and Imaging Technology" />
+<meta name="revisit-after" content="5 days" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#123375">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1">
+<link rel="alternate" type="application/atom+xml" title="0" href="0" />
+<link rel="shortcut icon" href="/tucal4/img/tuc.png" />
+<link rel="stylesheet" type="text/css" href="/tucal4/css/tucal4.css?201512101200" />
+<noscript><link rel="stylesheet" type="text/css" href="/tucal4/css/noscript.css" /></noscript>
+<script src="https://www.tu-chemnitz.de/static/jquery/1.11/jquery.min.js" type="text/javascript"></script>
+<script src="https://www.tu-chemnitz.de/static/jquery-ui/1.11/jquery-ui.min.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="https://www.tu-chemnitz.de/static/jquery-ui/1.11/themes/smoothness/jquery-ui.min.css" />
+<!--[if lte IE 9]>
+<link rel="stylesheet" type="text/css" href="/tucal4/css/ie-fix.css" />
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="/tucal4/js/respond.min.js" type="text/javascript"></script>
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('main');
+document.createElement('section');
+document.createElement('article');
+document.createElement('footer');
+</script>
+<![endif]-->
+</head>
+<body class="class-mb">
+<header>
+	<a id="header"></a>
+	<section id="tucal-search" class="hidden-print"><h6 class="hidden">[Search Bar]</h6>
+		<div class="container">
+			<nav>
+				<div class="row">
+					<div id="tucal-topbar" class="col-xs-8 collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a class="dropdown-toggle tucal-searchbar" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shortcuts&nbsp;</a>
+								<ul id="tucal-shortcuts" class="dropdown-menu">
+									<li class="menu-caption"><a href="/tu/index.php.en">University</a></li>
+									<li><a href="/tu/lageplan/index.php.en">Campus Map</a></li>
+									<li><a href="/tu/personen.html">People (Directory): Phone, Email <sup>[de]</sup></a></li>
+									<li class="extern"><a href="//www.swcz.de/bilderspeiseplan/">Dining Hall Menu <sup>[de]</sup></a></li>
+									<li class="menu-caption"><a href="/studium/index.php.en">Studies</a></li>
+									<li><a href="/studentenservice/index.php.en">Student Service</a></li>
+									<li><a href="/beratung">Consulting and Support <sup>[de]</sup></a></li>
+									<li><a href="/verwaltung/vlvz/">Course Catalogue <sup>[de]</sup></a></li>
+									<li><a href="/e-learning/">E-Learning <sup>[de]</sup></a></li>
+									<li><a href="/usz/">University Sports <sup>[de]</sup></a></li>
+									<li><a href="http://www.stura.tu-chemnitz.de/">Student Council <sup>[de]</sup></a></li>
+									<li class="extern"><a href="http://www.swcz.de/">Student Union <sup>[de]</sup></a></li>
+									<li><a href="/career-service/jobboerse/index.php?lang=en">Job Offers</a></li>
+									<li class="menu-caption"><a href="/urz/dienste.html">Web Services <sup>[de]</sup></a></li>
+									<li><a href="https://mail.tu-chemnitz.de/">Webmail</a></li>
+									<li><a href="http://dict.tu-chemnitz.de/">BEOLINGUS Dictionary</a></li>
+									<li><a href="/urz/network/access/wlan.html">WiFi <sup>[de]</sup></a></li>
+								</ul>
+							</li>
+							<li><a href="https://www.tu-chemnitz.de/tu/home/wtc?prev=https://www.tu-chemnitz.de/mb/DigiTech/projects/project-nova-cigs.php" title="Log in at Web Trust Center" rel="nofollow">Login</a></li>
+							<li><a class="tucal-searchbar" href="/tu/kontakt.php.en" accesskey="k">Contact</a></li>
+						</ul>
+					</div>
+					<div id="tucal-searchxs" class="col-xs-4 collapse no-spacing"><a class="collapse-toggle collapsed" href="#tucal-searchfield" data-toggle="collapse"></a>
+						<div id="tucal-searchfield" class="collapse">
+							<form id="tucal-searchform" class="navbar-form navbar-left collapse navbar-collapse" role="search" autocomplete="off" action="https://www.google.de/search" onsubmit="return tuc_search('tucal-searchtype', 'tucal-searchword', 'en', true);" method="get">
+							<div class="form-group"><fieldset>
+								<legend class="invisible">Suche im Online-Angebot der TU Chemnitz</legend><!--SR(de)-->
+								<label class="invisible" for="tucal-searchword">Suchwort</label><!--SR(de)-->
+								<input type="hidden" name="oe" value="UTF-8" />
+								<input type="hidden" name="as_sitesearch" value=".tu-chemnitz.de" />
+								<input type="hidden" name="hl" value="en" />
+								<input type="hidden" name="lr" value="lang_en" />
+								<input id="tucal-searchword" class="form-control" type="text" name="as_q" placeholder="Search Word" />
+								<div id="tucal-searchtype">
+									<input id="tucal-st1" name="t" type="radio" value="text" checked="checked" /><label for="tucal-st1">Full Text (using Google)</label><br />
+									<input id="tucal-st2" name="t" type="radio" value="pers" /><label for="tucal-st2">People (Phone, Email)</label><br />
+									<input id="tucal-st3" name="t" type="radio" value="uakt" /><label for="tucal-st3">University News</label><br />
+									<input id="tucal-st4" name="t" type="radio" value="opac" /><label for="tucal-st4">Library Catalogue</label><br />
+									<input id="tucal-st5" name="t" type="radio" value="beol" /><label for="tucal-st5">Beolingus Dictionary</label><br />
+									<input id="tucal-st6" name="t" type="radio" value="goog" /><label for="tucal-st6">Web Search by Google</label>
+								</div>
+								<button class="btn btn-default" type="submit" name="s" title="Search"><span class="invisible">Suchen</span><!--SR(de)--></button>
+							</fieldset></div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</section>
+	<section id="tucal-printhead" class="visible-print"><h6 class="hidden">&nbsp;</h6>
+		<div>
+			<div>
+				<div class="tucal-printlogo">
+					<img src="/tucal4/img/logo.svg" title="Technische Universit&auml;t Chemnitz" alt="" />
+				</div>
+				<div class="tucal-printtitle">
+					<strong>Department of Digital Printing and Imaging Technology</strong><br />
+					Digital Printing and Imaging Technology
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="tucal-head" class="hidden-print"><h6 class="hidden">[Head]</h6>
+		<nav class="navbar navbar-default" role="navigation" aria-label="main navigation">
+			<div class="container">
+				<div id="tucal-headlogoplaceholder" class="navbar-header">
+					<a id="tucal-headbutton" class="navbar-toggle" href="#" data-toggle="collapse" aria-haspopup="true" aria-expanded="false" aria-label="toggle main navigation" data-target="#tucal-headnavigation, #tucal-topbar, #tucal-searchform, #tucal-searchxs">
+						<div>
+							<div>
+								<div></div>
+								<div></div>
+								<div></div>
+							</div>
+						</div>
+					</a>
+					<div id="tucal-headlogoborder" class="col-sm-3">
+						<div id="tucal-headlogo">
+                        	<a class="center-block" href="/index.html.en" accesskey="h">Link zur Startseite</a>						</div>
+					</div>
+					<div id="tucal-headnavigation" class="col-sm-9 collapse navbar-collapse">
+						<ol class="nav navbar-nav"><li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">University</a><ul class="dropdown-menu">
+							<li><a href="/tu/struktur.php.en">Organization</a></li>
+							<li><a href="/tu/fakten.php.en">Facts and Figures</a></li>
+							<li><a href="/rektorat/index.html.en">University Management</a></li>
+							<li><a href="/tu/lageplan/index.php.en">Campus Map</a></li>
+							<li><a href="/uk/index.php.en">University Communications</a></li>
+							<li><a href="/tu/stellen.php">Position Openings <sup>[de]</sup></a></li>
+							<li><a href="/verwaltung/index.php.en">Central Administration</a></li>
+							<li><a href="/diversity/">Gender and Diversity <sup>[de]</sup></a></li>
+							<li><a href="/verwaltung/gremien/index.php.en">Bodies, Forums and Reprensentatives</a></li>
+							<li><a href="/tu/familie/">Family-friendly University <sup>[de]</sup></a></li>
+						</ul></li><li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"  aria-expanded="false" aria-haspopup="true">Faculties</a><ul class="dropdown-menu">
+							<li><a href="/naturwissenschaften/index.html.en">Natural Sciences</a></li>
+							<li><a href="/informatik/index.php.en">Computer Science</a></li>
+							<li><a href="/mathematik/index.en.php">Mathematics</a></li>
+							<li><a href="/wirtschaft/index.php.en">Economics and Business Administration</a></li>
+							<li><a href="/mb/index.php?ln=en">Mechanical Engineering</a></li>
+							<li><a href="/phil/">Humanities <sup>[de]</sup></a></li>
+							<li><a href="/etit/index.php.en">Electrical Engineering and Information Technology</a></li>
+							<li><a href="/hsw/index.php.en">Behavioural and Social Sciences</a></li>
+						</ul></li><li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"  aria-expanded="false" aria-haspopup="true">Central Institutions</a><ul class="dropdown-menu">
+							<li><a href="/MERGE/">Federal Cluster of Excellence MERGE</a></li>
+							<li><a href="/hds/index.php.en">Saxony's Centre for Teaching and Learning</a></li>
+							<li><a href="/international/index.php.en">International Office</a></li>
+							<li><a href="/ub/index.html.en">University Library</a></li>
+							<li><a href="/urz/">University Computer Centre <sup>[de]</sup></a></li>
+							<li><a href="/sprachenzentrum/index.php.en">Foreign Language Centre</a></li>
+							<li><a href="/zlb/">Centre for Teacher Training <sup>[de]</sup></a></li>
+							<li><a href="/zfwn/">Center for Young Scientists <sup>[de]</sup></a></li>
+							<li><a href="/transfer/zwt/">Centre for Knowledge and Technology Transfer <sup>[de]</sup></a></li>
+						</ul></li><li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"  aria-expanded="false" aria-haspopup="true">Studies</a><ul class="dropdown-menu">
+							<li><a href="/studentenservice/stusek/bewausl.php.en">Application for Admission</a></li>
+							<li><a href="/international/incoming/studiengaenge/studiengaenge.php.en">Degree Programs</a></li>
+							<li><a href="/studentenservice/zsb/studierende.php">Students <sup>[de]</sup></a></li>
+							<li><a href="/studentenservice/index.php.en">Student Service</a></li>
+							<li><a href="/transfer/wissen/weiterbildung.php">Further Education <sup>[de]</sup></a></li>
+							<li><a href="/career-service/en/">Career Service</a></li>
+							<li><a href="/qpl/index.html.en">Quality Pact for Teaching</a></li>
+						</ul></li><li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"  aria-expanded="false" aria-haspopup="true">International</a><ul class="dropdown-menu">
+							<li><a href="/international/vernetzung/index.php.en">Networking</a></li>
+							<li><a href="/international/outgoing/index.php.en">Outgoing</a></li>
+							<li><a href="/international/incoming/index.php.en">Incoming</a></li>
+							<li><a href="/international/wissenschaftler/welcome-center/index.php.en">Guest Researchers</a></li>
+							<li><a href="/ac21">AC21 International Forum 2016</a></li>
+						</ul></li></ol>
+						<div id="tucal-orgtitle" class="row">
+							<div class="col-xs-12 no-spacing">
+								<div>Department of Digital Printing and Imaging Technology</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</section>
+</header>
+
+<strong class="invisible">TU Chemnitz: Engineering: Institute for Print and Media Technology: Digital Printing and Imaging Technology</strong><!--SR-->
+<nav id="tucal-breadcrumbs" class="hidden-print" aria-label="breadcrumb navigation"><span class="invisible">Navigationsmen&uuml;</span><!--SR(de)-->
+	<div class="container">
+		<div id="tucal-breadcrumbrow" class="row">
+			<div class="col-xs-12">
+				<ol class="tucal-breadcrumb"><li><a href="/index.html.en" title="Homepage">TU Chemnitz</a></li><li><a href="http://www.tu-chemnitz.de/mb/">Engineering</a></li><li><a href="http://www.tu-chemnitz.de/mb/IPM/">Institute for Print and Media Technology</a></li><li><a href="http://www.tu-chemnitz.de/mb/DigiTech/professorship.php">Digital Printing and Imaging Technology</a></li></ol>
+			</div>
+		</div>
+	</div>
+</nav>
+<section id="tucal-content"><h6 class="hidden">[Content]</h6>
+	<div class="container">
+		<div class="row">
+			<div id="tucal-edge" class="col-sm-3 col-xs-12 hidden-print">
+				<nav aria-label="page navigation">
+				<div id="tucal-edgetoggle">
+                    <a href="#" data-toggle="collapse" data-target="#tucal-edgemenu" aria-expanded="false" aria-label="page menu Department of Digital Printing and Imaging Technology">
+						<div>Department of Digital Printing and Imaging Technology&nbsp;</div>
+						<div>
+							<div></div>
+							<div></div>
+							<div></div>
+						</div>
+					</a>
+				</div>
+					<div id="tucal-edgemenu" class="collapse">
+						<div id="tucal-pagemenu">
+							<span class="invisible">Seitenmen&uuml;</span><!--SR(de)-->
+							<ol><li><a href="../config/../professorship.php">Home</a></li><li><a href="../config/../contact.php">Contact</a></li><li><a href="../config/../staff.php">Staff</a></li><li><a href="../config/../courses.php">Courses</a></li><li><a href="../config/../student_thesis.php">Student Thesis</a></li><li><a href="../config/../research.php">Research</a></li><li><a href="../config/../equipment.php">Equipment</a></li><li><a href="../config/../projects.php">Projects</a></li><li><a href="../config/../publications.php">Publications</a></li><li><a href="../config/../memberships.php">Memberships</a></li><li><a href="../config/../media.php">Media</a></li><li><a href="../config/../intern/index.php">Internal</a></li><li><a href="../config/../miscellaneous.php">Miscellaneous</a></li><li><a href="http://bpr.mb.tu-chemnitz.de/ij-technikum/">Inkjet-Technikum</a></li><li><a href="http://bpr.mb.tu-chemnitz.de/pfd">Printing Future Days</a></li><li><a href="http://bpr.ad.tu-chemnitz.de/iprintingworkshop/">Autumn School</a></li></ol>
+						</div>
+						<div id="tucal-refmenu">
+							<span class="invisible">Verweise</span><!--SR(de)-->
+							<ol><li><a href="http://www.tu-chemnitz.de/mb/IPM/">Institute for Print and Media Technology</a></li><li class="extern"><a href="http://www.enas.fraunhofer.de/de/Abteilungen/PF.html">Fraunhofer ENAS - Printed Functionalities</a></li></ol>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="col-sm-9 col-xs-12 tucal-canvas">
+				<a id="top"></a>
+				<div class="row">
+					<main class="col-xs-12 page-content">
+<!-- Lassen Sie obige Zeile unberuehrt.  Ergaenzen Sie hier den Inhalt. -->
+<h1>
+  NOVA-CIGS</h1>
+<table border="0" cellpadding="1" cellspacing="1" style="width: 100%">
+  <tbody>
+    <tr>
+      <td height="100" width="75%">
+        <h5>
+          Non-vacuum processes for deposition of CI(G)S active layer in PV cells</h5>
+      </td>
+      <td valign="center" width="25%">
+        &nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<table border="1" cellpadding="1" cellspacing="1" height="400" width="600">
+  <tbody>
+    <tr>
+      <td>
+        Funding source:</td>
+      <td>
+        EU FP7 NMP<br />
+        GA no. 228743</td>
+    </tr>
+    <tr>
+      <td>
+        Duration:</td>
+      <td>
+        01.01.2010 - 30.6.2013</td>
+    </tr>
+    <tr>
+      <td>
+        Beneficiaries:</td>
+      <td>
+        <ul>
+          <li>
+            Umicore S. A., Br&uuml;ssel, Belgien</li>
+          <li>
+            Eidgen&ouml;ssische Materialpr&uuml;fungs- und Forschungsanstalt (EMPA), D&uuml;bendorf, Schweiz</li>
+          <li>
+            FLISOM AG, D&uuml;bendorf, Schweiz</li>
+          <li>
+            Zentrum f&uuml;r Sonnenenergie und Wasserstoffforschung (ZSW), Stuttgart</li>
+          <li>
+            W&uuml;rth Elektronik Research GmbH, Stuttgart</li>
+          <li>
+            VTT Technical Research Center of Finland&nbsp;</li>
+          <li>
+            Technische Universit&auml;t Chemnitz</li>
+          <li>
+            Xennia Technology Ltd., Letchworth, UK</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Abstract:</td>
+      <td>
+        The &lsquo;NOVA-CIGS&rsquo; project, which commenced on 1st Jan 2010 and lasts for 3.5 years, aims to develop a printed solar cell technology by enabling the printing of the copper indium gallium selenide (CIGS) semiconductor material that many believe is the best option for low cost solar cells, offering good quantum efficiency and good potential for retaining its efficiency when deposited by low cost non-vacuum methods.</td>
+    </tr>
+    <tr>
+      <td>
+        Staff TUC:</td>
+      <td>
+        Jens Hammerschmidt, M.A.</td>
+    </tr>
+    <tr>
+      <td>
+        Link:</td>
+      <td>
+        <a href="http://www.xennia.com/newsandevents/news-detail.asp?ItemID=56">http://www.xennia.com/newsandevents/news-detail.asp?ItemID=56</a></td>
+    </tr>
+  </tbody>
+</table>
+<p>
+  <br />
+  <br />
+  <br />
+  <br />
+  &nbsp;</p>
+					</main>
+				</div>
+				<a id="bottom"></a>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="tucal-press" class="hidden-print" aria-label="University News"><hr class="invisible" /><!--SR--><h6 class="hidden">[Press]</h6>
+	<div class="container">
+		<div class="row">
+			<div id="tucal-pressarticles" class="col-md-9 col-sm-6 col-xs-12">
+				<div class="row">
+					<div class="col-xs-12 no-spacing"><h3 class="linie black"><a href="/uk/pressestelle/aktuell/index.html.en">University News</a></h3></div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-sm-12 tucal-pressarticlecanvas">
+						<div class="tucal-pressarticle">
+							<article>
+								<a href="/uk/pressestelle/aktuell/2/7172/en">
+									<div class="col-sm-12 col-xm-6 col-xs-12 no-spacing">
+										<img class="tucal-pressimage" src="/tu/aktuelles/2016/1454682341_16_9-m.jpg" alt="" />
+									</div>
+									<div class="col-sm-12 col-xm-6 col-xs-12 no-spacing">
+										<h5 class="tucal-pressheadline">“Our Materials Will Make an Impact!”</h5>
+									</div>
+								</a>
+                                <div class="col-sm-12 col-xm-6 col-xs-12 no-spacing">
+                                    <p class="tucal-presstext">Eleven questions for Prof. Dr Marc Armbrüster, Professor of Materials for Innovative Energy Concepts since October 2014 &hellip;</p>
+                                </div>
+							</article>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12 tucal-pressarticlecanvas">
+						<div class="tucal-pressarticle">
+							<article>
+								<a href="/uk/pressestelle/aktuell/2/7170/en">
+									<div class="col-sm-12 col-xm-6 col-xs-12 no-spacing">
+										<img class="tucal-pressimage" src="/tu/aktuelles/2016/1454668551_16_9-m.jpg" alt="" />
+									</div>
+									<div class="col-sm-12 col-xm-6 col-xs-12 no-spacing">
+										<h5 class="tucal-pressheadline">Chinese Evening Party: Listen to Our Story</h5>
+									</div>
+								</a>
+                                <div class="col-sm-12 col-xm-6 col-xs-12 no-spacing">
+                                    <p class="tucal-presstext">On 2 February 2016 a Chinese New Year Evening Party was celebrated on the university campus &hellip;</p>
+                                </div>
+							</article>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12 tucal-pressarticlecanvas">
+						<div class="tucal-pressarticle">
+							<article>
+								<a href="/uk/pressestelle/aktuell/1/7165/en">
+									<div class="col-sm-12 col-xm-6 col-xs-12 no-spacing">
+										<img class="tucal-pressimage" src="/tu/aktuelles/2016/1454494177_16_9-m.jpg" alt="" />
+									</div>
+									<div class="col-sm-12 col-xm-6 col-xs-12 no-spacing">
+										<h5 class="tucal-pressheadline">Quick Accessible Knowledge</h5>
+									</div>
+								</a>
+                                <div class="col-sm-12 col-xm-6 col-xs-12 no-spacing">
+                                    <p class="tucal-presstext">The University Library of the Technische Universität Chemnitz provides better access to online journals due to new agreements with scientific publishers Elsevier and Springer &hellip;</p>
+                                </div>
+							</article>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12 tucal-pressarticlecanvas">
+						<div class="tucal-pressarticle">
+							<article>
+								<a href="/uk/pressestelle/aktuell/2/7152/en">
+									<div class="col-sm-12 col-xm-6 col-xs-12 no-spacing">
+										<img class="tucal-pressimage" src="/tu/aktuelles/2016/1454053027_16_9-m.jpg" alt="" />
+									</div>
+									<div class="col-sm-12 col-xm-6 col-xs-12 no-spacing">
+										<h5 class="tucal-pressheadline">A Focus on Changes in Working Life</h5>
+									</div>
+								</a>
+                                <div class="col-sm-12 col-xm-6 col-xs-12 no-spacing">
+                                    <p class="tucal-presstext">Eleven questions for Prof. Dr Markus Hertwig, Professor of Sociology with Specialization in Work and Organization since June 2015  &hellip;</p>
+                                </div>
+							</article>
+						</div>
+					</div>
+				</div>
+				<div class="row tucal-pressfooter">
+					<div class="col-xs-12 no-spacing tucal-pressall">
+						<div><a href="/uk/pressestelle/aktuell/index.html.en">All Articles</a></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="tucal-events" class="col-md-3 col-sm-6 col-xs-12">
+				<div id="tucal-eventbk" class="col-xs-3"><div></div></div>
+				<div class="row">
+					<div class="col-xs-12 no-spacing"><h3 class="linie black"><a href="/tu/termine/index.html.en">Events &amp; Tips</a></h3></div>
+				</div>
+				<div class="tucal-event ">
+					<a href="https://www.tu-chemnitz.de/zlb">
+						<div class="tucal-eventdate">
+							<div>05</div>
+							<div>Feb</div>
+						</div>
+						<div class="tucal-eventdesc">
+							<div>Vernissage Kunstdidaktik 4.0</div>
+							<div>Studierende des Lehramts an Grundschulen präsentieren ihre grafischen Arbeiten.</div>
+						</div>
+					</a>
+				</div>
+				<div class="tucal-event tucal-et">
+					<a href="https://www.tu-chemnitz.de/etit/schnupperschule/">
+						<div class="tucal-eventdate">
+							<div>09</div>
+							<div>Feb</div>
+						</div>
+						<div class="tucal-eventdesc">
+							<div>Schnupperschule - How robots get intelligent and cars environmentally friendly?</div>
+							<div>This event is held in german:
+Willst du wissen wie ein Auto von selbst fahren &hellip;</div>
+						</div>
+					</a>
+				</div>
+				<div class="tucal-event tucal-xx">
+					<a href="https://www.edoobox.com/de/MLPTUC/?edref=MLPTUC">
+						<div class="tucal-eventdate">
+							<div>11</div>
+							<div>Feb</div>
+						</div>
+						<div class="tucal-eventdesc">
+							<div>MLP Workshop: Die Rückerstattung von Studienkosten – Steuertipps für Studenten</div>
+							<div>.</div>
+						</div>
+					</a>
+				</div>
+				<div class="tucal-event tucal-if">
+					<a href="https://www.tu-chemnitz.de/informatik/service/schueler/schnupperkurs/index.php">
+						<div class="tucal-eventdate">
+							<div>15</div>
+							<div>Feb</div>
+						</div>
+						<div class="tucal-eventdesc">
+							<div>Taster Course Computer Science for Pupils</div>
+							<div>The taster course computer sience for pupils helps interessted students in &hellip;</div>
+						</div>
+					</a>
+				</div>
+				<div class="tucal-event tucal-ma">
+					<a href="https://www-user.tu-chemnitz.de/~rahi/mtexWorkshop16/index.php">
+						<div class="tucal-eventdate">
+							<div>22</div>
+							<div>Feb</div>
+						</div>
+						<div class="tucal-eventdesc">
+							<div>Chemnitz MTEX Workshop 2016</div>
+							<div>The aim of this workshops is to provide an easy start for MTEX beginners and to bring together MTEX &hellip;</div>
+						</div>
+					</a>
+				</div>
+				<div class="tucal-event tucal-mb">
+					<a href="https://www.tu-chemnitz.de/mb/WerkzMasch/lufa/vrcp/avare/agvt01.html">
+						<div class="tucal-eventdate">
+							<div>23</div>
+							<div>Feb</div>
+						</div>
+						<div class="tucal-eventdesc">
+							<div>Virtual Technology Talks &quot;Augmented Reality for Maintenance&quot;</div>
+							<div>Im Rahmen der Reihe &quot;Arbeitsgespräche virtuelle Techniken&quot; des Netzwerks AVARE &hellip;</div>
+						</div>
+					</a>
+				</div>
+				<div class="tucal-event tucal-pf">
+					<a href="http://www.14-18warwas.de/2016/03/">
+						<div class="tucal-eventdate">
+							<div>01</div>
+							<div>Mar</div>
+						</div>
+						<div class="tucal-eventdesc">
+							<div>Mit Licht geschossen - Enthüllung der 20. Photographie</div>
+							<div>Photographien aus der Zeit des 1. Weltkrieges großformatig präsentiert. Jeden &hellip;</div>
+						</div>
+					</a>
+				</div>
+				<div class="tucal-eventfooter col-md-3 col-xs-12">
+					<div><a class="tucicon-link" href="/tu/termine/index.html.en">Event Calendar</a></div>
+				</div>
+			</div>
+
+			<div id="tucal-pressfooterbar" class="col-xs-12">
+				<div class="row">
+          <div class="col-sm-6 col-xm-6">
+            <div><a class="tucicon-link" href="/tu/termine/index.html.en">Event Calendar</a></div>
+          </div>
+          <div class="col-sm-6 col-xm-6 tucal-pressall">
+              <div><a href="/uk/pressestelle/aktuell/index.html.en">All Articles</a></div>
+            </div>
+        </div>
+			</div>
+
+			<div id="tucal-socialmedia" class="col-md-9 col-sm-12 col-xs-12">
+				<div class="row">
+					<div class="col-xs-12 no-spacing"><h3 class="linie black">Social Media</h3></div>
+				</div>
+<div class="row">
+	<div class="col-sm-3 col-xm-6 col-xs-12">
+		<a href="https://www.facebook.com/permalink.php?id=351078688316901&amp;story_fbid=962400443851386" title="TU Chemnitz International: &ldquo;Our Materials Will Make an Impact!&rdquo;">
+			<img src="/tucal4/img/facebook.png" alt="Facebook" />
+			<span>Prof. Dr Marc Armbr&uuml;ster (40) has held the Professorship of Materials for Innovative Energy Concepts since October 2014. In eleven&hellip;</span>
+		</a>
+	</div>
+	<div class="col-sm-3 col-xm-6 col-xs-12">
+		<a href="https://blog.hrz.tu-chemnitz.de/botschafter/2016/01/27/cameroon-a-place-of-endless-summer-and-majestic-mountains/" title="Campus TUschler: Cameroon: A Place of Endless Summer and Majestic Mountains">
+			<img src="/tucal4/img/tuschler.png" alt="Campus TUschler" />
+			<span>Cameroon: A Place of Endless Summer and Majestic Mountains: From the beginning of October 2015 until the middle of November 2015, I&hellip;</span>
+		</a>
+	</div>
+	<div class="col-sm-3 col-xm-6 col-xs-12">
+		<a href="https://blog.hrz.tu-chemnitz.de/botschafter/2016/01/22/last-call-for-semester-abroad-in-201617/" title="Campus TUschler: Last Call for Semester Abroad in 2016/17!">
+			<img src="/tucal4/img/tuschler.png" alt="Campus TUschler" />
+			<span>Last Call for Semester Abroad in 2016/17!<br />At the beginning of the New Year, time always flies, and when you are drowning in homework and&hellip;</span>
+		</a>
+	</div>
+	<div class="col-sm-3 col-xm-6 col-xs-12">
+		<a href="https://blog.hrz.tu-chemnitz.de/botschafter/2016/01/12/graduation-and-now/" title="Campus TUschler: Graduation &ndash; And now?">
+			<img src="/tucal4/img/tuschler.png" alt="Campus TUschler" />
+			<span>Graduation &ndash; And now?<br />Life is a series of decisions, and most of them need to be made during this intriguing and rapid phase when we&hellip;</span>
+		</a>
+	</div>
+</div>
+				<div class="row tucal-pressfooter col-md-9">
+					<div><span>Connect with Us:</span></div>
+					<div>
+						<div class="col-xs-4 tucal-sm-fb">
+							<div><a aria-label="TU Chemnitz @ Facebook" title="TU Chemnitz @ Facebook" class="tucicon-sm-fb" href="https://www.facebook.com/TUChemnitz"><span class="hide">Facebook</span></a></div>
+						</div>
+						<div class="col-xs-4 tucal-sm-xi">
+							<div><a aria-label="Alumni TU Chemnitz @ XING" title="Alumni TU Chemnitz @ XING" class="tucicon-sm-xi" href="https://www.xing.com/net/tu_chemnitz"><span class="hide">Xing</span></a></div>
+						</div>
+						<div class="col-xs-4 tucal-sm-yt">
+							<div><a aria-label="TU Chemnitz @ YouTube" title="TU Chemnitz @ YouTube" class="tucicon-sm-yt" href="https://www.youtube.com/user/tuchemnitz"><span class="hide">YouTube</span></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<hr class="invisible" /><!--SR-->
+<footer>
+	<a id="footer"></a>
+	<section id="tucal-unilinks" class="hidden-print"><h6 class="hidden">[Links]</h6>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-offset-6 col-sm-6 col-md-offset-3 col-md-9 col-xs-12 column-right">
+					<div>
+						<div class="tucal-footmenuitems"><a href="/verwaltung/bfau/notfall.php.en">Emergency</a></div>
+						<div class="tucal-footmenuitems"><a href="/tu/kontakt.php.en">Contact</a></div>
+						<div class="tucal-footmenuitems"><a href="/tu/lageplan/index.php.en">Campus Map</a></div>
+						<div class="tucal-footmenuitems"><a href="/tu/index.php.en">University</a></div>
+						<div class="tucal-footmenuitems"><a href="http://chemnitz.de/chemnitz/en/index.html">Chemnitz</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="tucal-printfoot" class="visible-print"><h6 class="hidden">&nbsp;</h6>
+		<hr />
+		<div class="text">
+			&copy; 2016 Technische Universit&auml;t Chemnitz<br />
+			https://www.tu-chemnitz.de/mb/DigiTech/projects/project-nova-cigs.php<br />
+			baumann printing research,  7&nbsp;May 2012
+		</div>
+	</section>
+	<hr class="invisible" /><!--SR-->
+	<section id="tucal-foot" class="hidden-print"><h6 class="hidden">[Footer]</h6>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-9 col-xs-12 column-right">
+					<div class="tucal-footmenuitems">				<a data-toggle="modal" data-target="#tucal-feedback" href="/urz/mail/fbf.html.en?1-c2ViYXN0aWFuLmhlaW56QG1iLg==" id="tucal-feedback-label" rel="nofollow">Feedback</a>
+
+				<!-- Modal -->
+				<div class="modal fade" id="tucal-feedback" tabindex="-1" role="dialog" aria-labelledby="tucal-feedback-label" aria-hidden="true">
+					<span class="valign"></span><div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<span class="h2">Feedback</span>
+							</div>
+							<div class="modal-body">
+								<div id="tucal-feedback-loading">Content is loading&nbsp;&hellip;</div>
+								<iframe id="tucal-feedback-iframe"><a href="/urz/mail/fbf.html.en?1-c2ViYXN0aWFuLmhlaW56QG1iLg==">Feedback</a></iframe>
+								<script type="text/javascript">$('#tucal-feedback-iframe').load(function(){$('#tucal-feedback-loading').hide();$('#tucal-feedback-iframe').show()});$('#tucal-feedback').on('show.bs.modal',function(){$('#tucal-feedback-iframe:not([src])').attr('src','/urz/mail/fbfx.html.en?1-c2ViYXN0aWFuLmhlaW56QG1iLg==')})</script>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+					<div class="tucal-footmenuitems"><a href="https://www.tu-chemnitz.de/tu/home/wtc?prev=https://www.tu-chemnitz.de/mb/DigiTech/projects/project-nova-cigs.php" title="Log in at Web Trust Center" rel="nofollow">Login</a></div>
+					<div class="tucal-footmenuitems"><a href="/uk/sponsoring/mediadaten.php">Media Data <sup>[de]</sup></a></div>
+					<div class="tucal-footmenuitems"><a href="impressum.php">Legal Notice</a></div>
+				</div>
+				<div class="col-sm-6 col-md-3 col-xs-12 column-left">
+					<div>
+						&copy; 2016 Technische Universit&auml;t Chemnitz<br />
+						<script type="text/javascript">function iframeSize(e){if(e.origin.match(/\.tu-chemnitz\.de$/)){if(e.data["s"].match(/\/adrx/))$('#tucal-author-iframe').height(e.data["h"]);else if(e.data["s"].match(/\/fbfx/))$('#tucal-feedback-iframe').height(e.data["h"])}}window.addEventListener("message",iframeSize,false)</script>
+						<a data-toggle="modal" data-target="#tucal-author" href="/urz/mail/adr.php?1-c2ViYXN0aWFuLmhlaW56QG1iLg==" id="tucal-author-label" rel="nofollow">baumann printing research</a>
+						<div class="modal fade" id="tucal-author" tabindex="-1" role="dialog" aria-labelledby="tucal-author-label" aria-hidden="true">
+							<span class="valign"></span><div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<span class="h2">Spam proof e-mail address protection</span>
+									</div>
+									<div class="modal-body">
+										<div id="tucal-author-loading">Content is loading&nbsp;&hellip;</div>
+										<iframe id="tucal-author-iframe"><a href="/urz/mail/adr.php?1-c2ViYXN0aWFuLmhlaW56QG1iLg==">E-mail address protection</a></iframe>
+										<script type="text/javascript">$('#tucal-author-iframe').load(function(){$('#tucal-author-loading').hide();$('#tucal-author-iframe').show()});$('#tucal-author').on('show.bs.modal',function(){$('#tucal-author-iframe:not([src])').attr('src','/urz/mail/adrx.html.en?1-c2ViYXN0aWFuLmhlaW56QG1iLg==')})</script>
+									</div>
+								</div>
+							</div>
+						</div>
+ |  7&nbsp;May 2012
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</footer>
+
+<div id="tucal-top" class="hidden-print" data-vis="hide"></div>
+
+<hr class="invisible" /><!--SR-->
+<ul class="invisible"><!--SR(de)-->
+	<li>[(Shift +) Alt + H] Startseite</li>
+	<li>[(Shift +) Alt + L] Sprache de/en (wenn verf&uuml;gbar)</li>
+	<li>[(Shift +) Alt + K] Kontakt</li>
+	<li>[(Shift +) Alt + A] <a accesskey="a" href="/tu/personen.html" tabindex="9996">Auskunft der TU Chemnitz</a></li>
+	<li>[(Shift +) Alt + C] Campusplan</li>
+	<li>[(Shift +) Alt + I] <a accesskey="i" href="/urz/dienste.html" tabindex="9997">Internet &amp; Service</a></li>
+	<li>[(Shift +) Alt + S] <a accesskey="s" href="/www-index/index.html.en" tabindex="9998">Suche</a></li>
+	<li>[(Shift +) Alt + M] Medienportal</li>
+	<li>[(Shift +) Alt + T] <a accesskey="t" href="#top" tabindex="9999">Zum Seitenanfang</a></li>
+	<li>[(Shift +) Alt + E] Seite bearbeiten (f&uuml;r Autoren)</li>
+</ul>
+<script src="/tucal4/js/bootstrap.min.js?201512101200" type="text/javascript"></script>
+<script src="/tucal4/js/tucal.js?201512101200" type="text/javascript"></script>
+</body>
+</html>

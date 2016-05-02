@@ -1,0 +1,409 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="de" lang="de" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2013 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/
+-->
+
+<base href="http://www.affects-fp7.eu/" />
+<link rel="shortcut icon" href="http://www.affects-fp7.eu/fileadmin/images/favicon.ico" />
+<link rel="icon" href="http://www.affects-fp7.eu/fileadmin/images/favicon.ico" />
+<title>AFFECTS: Home</title>
+<meta name="generator" content="TYPO3 4.5 CMS" />
+<meta name="DESCRIPTION" content="AFFECTS" />
+<meta name="KEYWORDS" content="space weather, sun, affects fp7" />
+
+<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_ef42033a87.css?1326230551" media="all" />
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/logistix/css/default.css?1415821457" media="all" />
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/logistix/css/menu.css?1327434816" media="all" />
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/socialshareprivacy/socialshareprivacy/socialshareprivacy/socialshareprivacy.css?1403485106" media="all" />
+
+
+
+<script src="typo3conf/ext/form4_socialmedialinks/res/js/jquery.socialshareprivacy.js?1403478546" type="text/javascript"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+<!-- 
+/*_scriptCode*/
+var browserName=navigator.appName;var browserVer=parseInt(navigator.appVersion);var version="";var msie4=(browserName=="Microsoft Internet Explorer"&&browserVer>=4);if((browserName=="Netscape"&&browserVer>=3)||msie4||browserName=="Konqueror"||browserName=="Opera"){version="n3";}else{version="n2";}
+function blurLink(theObject){if(msie4){theObject.blur();}}
+function decryptCharcode(n,start,end,offset){n=n+offset;if(offset>0&&n>end){n=start+(n-end-1);}else if(offset<0&&n<start){n=end-(start-n-1);}
+return String.fromCharCode(n);}
+function decryptString(enc,offset){var dec="";var len=enc.length;for(var i=0;i<len;i++){var n=enc.charCodeAt(i);if(n>=0x2B&&n<=0x3A){dec+=decryptCharcode(n,0x2B,0x3A,offset);}else if(n>=0x40&&n<=0x5A){dec+=decryptCharcode(n,0x40,0x5A,offset);}else if(n>=0x61&&n<=0x7A){dec+=decryptCharcode(n,0x61,0x7A,offset);}else{dec+=enc.charAt(i);}}
+return dec;}
+function linkTo_UnCryptMailto(s){location.href=decryptString(s,-2);}
+// -->
+/*]]>*/
+</script>
+
+<script type="text/javascript" src="fileadmin/javascript/jquery-1.7.1.js"></script>
+        <script type="text/javascript" src="fileadmin/javascript/jquery.watermarkinput.js"></script>
+  <script type="text/javascript" src="fileadmin/templates/logistix/scripts/menu.js"></script>
+  <!--[if IE 7]>
+  <style type=text/css>
+  @import #url(fileadmin/templates/logistix/css/ie7.css);
+  </style>
+  <![endif]-->
+</head>
+<body>
+
+    
+<script type="text/javascript">
+jQuery(function($){
+   $("#search_field").Watermark("Search");
+});
+</script>
+
+
+
+<div id="header">
+<h2> <a href="login">Login</a> </h2>
+<div id="search_box">
+<form action="search/" method="post">
+  <input type="hidden" name="tx_indexedsearch[_sections]" value="0" />
+  <input type="hidden" name="tx_indexedsearch[_freeIndexUid]" id="tx_indexedsearch_freeIndexUid" value="_" />
+  <input type="hidden" name="tx_indexedsearch[pointer]" id="tx_indexedsearch_pointer" value="0" />
+  <input type="hidden" name="tx_indexedsearch[ext]" value="" />
+  <input type="hidden" name="tx_indexedsearch[type]" value="1" />
+  <input type="hidden" name="tx_indexedsearch[defOp]" value="0" />
+  <input type="hidden" name="tx_indexedsearch[media]" value="-1" />
+  <input type="hidden" name="tx_indexedsearch[order]" value="rank_flag" />
+  <input type="hidden" name="tx_indexedsearch[group]" value="flat" />
+  <input type="hidden" name="tx_indexedsearch[lang]" value="0" />
+  <input type="hidden" name="tx_indexedsearch[desc]" value="0" />
+  <input type="hidden" name="tx_indexedsearch[results]" value="10" />
+<input type="text" name="tx_indexedsearch[sword]" value="" size="15px" onfocus="if(this.value==this.defaultValue)
+  this.value='';" id="search_field" />
+<input type="image" alt="search" title="search" src="fileadmin/templates/logistix/images/magnifier.png" id="search_button" /> 
+<!-- <input type="submit" name="tx_indexedsearch[submit_button]"
+  value="Search" class="tx-indexedsearch-searchbox-button submit" />-->
+</form>
+</div>
+<h1><a href="http://www.affects-fp7.eu/">AFFECTS</a></h1>
+</div>
+<!-- end #header -->
+
+<div id="menu">
+  <ul id="nav"><li class="first"><a href="home/" title="Home" accesskey="1">Home</a></li><li class="menuparent"><a href="project/" title="Project" accesskey="2">Project</a><ul><li class="first"><a href="project/partners/" title="Partners" accesskey="1">Partners</a></li><li><a href="project/steering-com/" title="Steering Committee" accesskey="2">Steering Com.</a></li><li><a href="project/deliverables/" title="Deliverables" accesskey="3">Deliverables</a></li><li><a href="project/publications/" title="Publications" accesskey="4">Publications</a></li><li><a href="project/yearly-reports/" title="Yearly Reports" accesskey="5">Yearly Reports</a></li><li><a href="project/wiki/" title="Wiki" accesskey="6">Wiki</a></li><li class="menuparent"><a href="project/meetings/" title="Meetings">Meetings</a><ul><li class="first"><a href="project/meetings/helcats-ws/" title="HELCATS Workshop 2015" accesskey="1">HELCATS WS</a></li><li><a href="project/meetings/3rd-gm/" title="3rd General Meeting 2014" accesskey="2">3rd GM</a></li><li><a href="project/meetings/pm-2013/" title="Extraordinary Project Meeting 2013" accesskey="3">PM 2013</a></li><li><a href="project/meetings/2nd-gm/" title="2nd General Meeting 2013" accesskey="4">2nd GM</a></li><li><a href="project/meetings/1st-gm/" title="1st General Meeting 2012" accesskey="5">1st GM</a></li><li><a href="project/meetings/kick-off/" title="Kick-Off Meeting 2011" accesskey="6">Kick-Off</a></li></ul></li><li><a href="project/jobs/" title="Jobs">Jobs</a></li></ul></li><li class="menuparent"><a href="services/" title="Services" accesskey="3">Services</a><ul><li class="first"><a href="services/affects-apps/" title="AFFECTS Apps" accesskey="1">AFFECTS Apps</a></li><li class="menuparent"><a href="services/noaa-swpc/" title="Space Weather Prediction Center" accesskey="2">NOAA-SWPC</a><ul><li class="first"><a href="services/noaa-swpc/d-rap/" title="Signal Absorption Map" accesskey="1">D-RAP</a></li><li><a href="services/noaa-swpc/goes-flares/" title="GOES Flares" accesskey="2">GOES Flares</a></li><li><a href="services/noaa-swpc/proton-flux/" title="Proton Flux" accesskey="3">Proton Flux</a></li></ul></li><li><a href="services/fsi/" title="FSI" accesskey="3">FSI</a></li><li><a href="services/sd-flares/" title="Solar Demon Flare Detection" accesskey="4">SD Flares</a></li><li><a href="services/sd-dimmings/" title="Solar Demon Dimming Detection" accesskey="5">SD Dimmings</a></li><li><a href="services/staff/" title="STAFF" accesskey="6">STAFF</a></li><li class="menuparent"><a href="services/rss-feed-alerts/" title="RSS-Feed Alerts">RSS-Feed Alerts</a><ul><li class="first"><a href="services/rss-feed-alerts/sol-wind-alert/" title="L1 Solar Wind Alert" accesskey="1">Sol. Wind Alert</a></li><li><a href="services/rss-feed-alerts/kp-alert/" title="L1 Kp Alert" accesskey="2">Kp Alert</a></li><li><a href="services/rss-feed-alerts/aurora-alert/" title="L1 Aurora Alert" accesskey="3">Aurora Alert</a></li><li><a href="services/rss-feed-alerts/gnss-alert/" title="L1 GNSS Alert" accesskey="4">GNSS Alert</a></li></ul></li><li><a href="services/ae-tracker/" title="AE Tracker">AE Tracker</a></li><li><a href="services/swap-plot/" title="Solar Wind and ap forecast plot">sw/ap plot</a></li><li class="menuparent"><a href="services/subscription/" title="Subscription Service">Subscription</a><ul><li class="first"><a href="services/subscription/newsletter-subscription/" title="Newsletter Subscription" accesskey="1">Newsletter Subscription</a></li></ul></li><li class="menuparent"><a href="services/cme-databases/" title="CME Databases">CME Databases</a><ul><li class="first"><a href="services/cme-databases/kincat/" title="KINCAT" accesskey="1">KINCAT</a></li><li><a href="services/cme-databases/cor-2/" title="COR 2" accesskey="2">COR 2</a></li><li><a href="services/cme-databases/lowcatnot-available/" title="LOWCAT" accesskey="3">LOWCAT(not_available)</a></li><li><a href="services/cme-databases/helcats-catalogues/" title="HELCATS" accesskey="4">HELCATS Catalogues</a></li></ul></li><li><a href="services/eheroes-seps/" title="eHeroes Proton Events">eHeroes SEPs</a></li></ul></li><li class="menuparent"><a href="news-events/" title="News &amp; Events" accesskey="4">News & Events</a><ul><li class="first"><a href="news-events/user-ws/" title="User WS" accesskey="1">User WS</a></li><li><a href="news-events/esww-splinter/" title="AFFECTS splinter meeting @ ESWW10" accesskey="2">ESWW splinter</a></li></ul></li><li class="menuparent"><a href="pr/" title="Public Relations" accesskey="5">PR</a><ul><li class="first"><a href="pr/eu-app/" title="EU App" accesskey="1">EU App</a></li><li><a href="pr/movie/" title="Movie" accesskey="2">Movie</a></li><li><a href="pr/brochure/" title="Brochure" accesskey="3">Brochure</a></li><li><a href="pr/service-guide/" title="Service Guide" accesskey="4">Service Guide</a></li><li><a href="pr/poster/" title="Poster" accesskey="5">Poster</a></li><li><a href="pr/media-events/" title="Media Events" accesskey="6">Media Events</a></li><li><a href="pr/press-release/" title="Press Release">Press Release</a></li><li><a href="pr/youtube/" title="AFFECTS YouTube Channel">YouTube</a></li><li><a href="pr/skov-reports/" title="Tamitha Skov Reports">Skov Reports</a></li></ul></li><li><a href="weather/" title="Space Weather Reports" accesskey="6">Weather</a></li><li><a href="links/" title="Links">Links</a></li></ul>
+</div>
+<!-- end #menu -->
+<div id="content">
+  <div id="posts">
+    <div class="post">
+    
+	<!--  CONTENT ELEMENT, uid:251/textpic [begin] -->
+		<div id="c251" class="csc-default">
+		<!--  Image block: [begin] -->
+			<div class="csc-textpic csc-textpic-intext-right-nowrap csc-textpic-equalheight"><div class="csc-textpic-imagewrap csc-textpic-single-image"><img src="typo3temp/pics/81cd7fdcab.jpg" width="100" height="100" border="0" alt="" /></div><div style="margin-right:110px;"><div class="csc-textpic-text">
+		<!--  Header: [begin] -->
+			<div class="csc-textpicHeader csc-textpicHeader-25"><h2 class="csc-firstHeader">AFFECTS</h2></div>
+		<!--  Header: [end] -->
+			
+		<!--  Text: [begin] -->
+			<p class="bodytext">-&nbsp; <b>Advanced Forecast For Ensuring Communications Through Space</b> - is a space research project under the 7th Framework Programme of the European Union.</p>
+<p class="bodytext">AFFECTS will provide advanced early space weather warning to protect communication systems.</p>
+		<!--  Text: [end] -->
+			</div></div></div><div class="csc-textpic-clear"><!-- --></div>
+		<!--  Image block: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:251/textpic [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:248/div [begin] -->
+		<div class="csc-default">
+		<!--  Div element [begin] -->
+			<div class="divider"><hr /></div>
+		<!--  Div element [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:248/div [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:271/html [begin] -->
+		<div id="c271" class="csc-default">
+		<!--  Raw HTML content: [begin] -->
+			The latest <b>Space Weather Reports</b> can be found at <a href="weather/" title="Space Weather Reports" accesskey="6">WEATHER.</a>
+<br /><br />
+Please note that we only update that page in case of a major event!
+		<!--  Raw HTML content: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:271/html [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:249/textpic [begin] -->
+		<div id="c249" class="csc-default">
+		<!--  Image block: [begin] -->
+			<div class="csc-textpic csc-textpic-intext-left-nowrap csc-textpic-equalheight"><div class="csc-textpic-imagewrap csc-textpic-single-image"><img src="typo3temp/pics/e0a7049a3e.png" width="25" height="25" border="0" alt="" /></div><div style="margin-left:35px;"><div class="csc-textpic-text">
+		<!--  Text: [begin] -->
+			<p class="bodytext">You can now subscribe to our new feed &quot;AFFECTS space weather reports and storm warnings&quot; to keep informed about severe space weather conditions. Subscribe here: <a href="space-weather-reports/rss_sw-reports.xml">http://www.affects-fp7.eu/space-weather-reports/rss_sw-reports.xml</a></p>
+<p class="bodytext"><span lang="EN-US"><i>PLEASE NOTE: When using SAFARI the rss feed might be displayed in your MAIL account. Additionally, it does not work with GOOGLE CHROME.</i></span></p>
+		<!--  Text: [end] -->
+			</div></div></div><div class="csc-textpic-clear"><!-- --></div>
+		<!--  Image block: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:249/textpic [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:250/div [begin] -->
+		<div class="csc-default">
+		<!--  Div element [begin] -->
+			<div class="divider"><hr /></div>
+		<!--  Div element [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:250/div [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:47/table [begin] -->
+		<div id="c47" class="csc-default">
+		<!--  Header: [begin] -->
+			<div class="csc-header csc-header-n6"><h2>The following institutions are involved in AFFECTS: </h2></div>
+		<!--  Header: [end] -->
+			
+		<!--  Table: [begin] -->
+			
+				<table class="contenttable contenttable-0">
+					<tr class="tr-even tr-0">
+							<td class="td-0">Ben. No.</td>
+							<td class="td-1">Country</td>
+							<td class="td-2">Institution</td>
+							<td class="td-3">Short Name</td>
+							<td class="td-last td-4">Scientific Contact</td>
+					</tr>
+					<tr class="tr-odd tr-1">
+							<td class="td-0">1</td>
+							<td class="td-1">Germany</td>
+							<td class="td-2">Georg-August-University Göttingen</td>
+							<td class="td-3">UGOE</td>
+							<td class="td-last td-4">Dr. Volker Bothmer, project coordinator</td>
+					</tr>
+					<tr class="tr-even tr-2">
+							<td class="td-0">2</td>
+							<td class="td-1">Belgium</td>
+							<td class="td-2">Royal Observatory of Belgium</td>
+							<td class="td-3">ROB</td>
+							<td class="td-last td-4">Dr. Ronald Van der Linden, Dr. Cis Verbeeck</td>
+					</tr>
+					<tr class="tr-odd tr-3">
+							<td class="td-0">3</td>
+							<td class="td-1">Ukraine</td>
+							<td class="td-2">Space Research Institute </td>
+							<td class="td-3">SRI NASU-NSAU</td>
+							<td class="td-last td-4">Dr. Aleksei Parnowski</td>
+					</tr>
+					<tr class="tr-even tr-4">
+							<td class="td-0">4</td>
+							<td class="td-1">Germany</td>
+							<td class="td-2">Fraunhofer IPM</td>
+							<td class="td-3">FHG</td>
+							<td class="td-last td-4">Dr. Raimund Brunner</td>
+					</tr>
+					<tr class="tr-odd tr-5">
+							<td class="td-0">5</td>
+							<td class="td-1">Norway</td>
+							<td class="td-2">University of Tromsø</td>
+							<td class="td-3">UoT</td>
+							<td class="td-last td-4">Prof. Chris Hall</td>
+					</tr>
+					<tr class="tr-even tr-6">
+							<td class="td-0">6</td>
+							<td class="td-1">Germany</td>
+							<td class="td-2">German Aeropace Center</td>
+							<td class="td-3">DLR</td>
+							<td class="td-last td-4">Dr. Norbert Jakowski, Dr. Jens Berdermann</td>
+					</tr>
+					<tr class="tr-odd tr-7">
+							<td class="td-0">7</td>
+							<td class="td-1">Germany</td>
+							<td class="td-2">Astrium GmbH</td>
+							<td class="td-3">ASTRIUM ST</td>
+							<td class="td-last td-4">Wilfried Pfeffer</td>
+					</tr>
+					<tr class="tr-even tr-8">
+							<td class="td-0">8</td>
+							<td class="td-1">U.S.A.</td>
+							<td class="td-2">Space Weather Prediction Center of NOAA</td>
+							<td class="td-3">NOAA-SWPC</td>
+							<td class="td-last td-4">Dr. Rodney Viereck</td>
+					</tr>
+					<tr class="tr-odd tr-last">
+							<td class="td-0">9</td>
+							<td class="td-1">Germany</td>
+							<td class="td-2">Planetarium Hamburg</td>
+							<td class="td-3">Planetarium HH</td>
+							<td class="td-last td-4">Thomas W. Kraupe</td>
+					</tr>
+				</table>
+		<!--  Table: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:47/table [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:170/text [begin] -->
+		<div id="c170" class="csc-default">
+		<!--  Text: [begin] -->
+			<p class="bodytext">For more information about the AFFECTS project partners please look at <i>Project -&gt; Partners</i></p>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:170/text [end] -->
+		
+    </div>
+  </div>
+  <!-- end #posts -->
+  <div id="links">
+    <ul>
+    
+	<!--  CONTENT ELEMENT, uid:42/text [begin] -->
+		<div id="c42" class="csc-default">
+		<!--  Header: [begin] -->
+			<div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Latest News</h1></div>
+		<!--  Header: [end] -->
+			
+		<!--  Text: [begin] -->
+			<p class="bodytext">09/07/2015: The latest update of the <b>AFFECTS iOS App</b> is now available on the App store. Space weather alert push services have been optimised.</p>
+<p class="bodytext">04/07/2015: AFFECTS together with the HELCATS project are featured at <b> IdeenExpo 2015 </b>.</p>
+<p class="bodytext">24/03/2015: <b>The AFFECTS forecast for the geomagnetic storm on March 17, 2015</b> can be found now under &quot;Weather&quot; and the reasons why it was not placed online.</p>
+<p class="bodytext">23/03/2015: AFFECTS is featured through the article <a href="http://horizon-magazine.eu/article/sunny-slight-chance-flares_en.html">Sunny with a slight chance of flares</a> published in the <b>EU Horizon Magazine</b>. </p>
+<p class="bodytext">13/01/2015: The update of the <b>AFFECTS iOS App</b> is now available on the App store. </p>
+<p class="bodytext">07/01/2015: The <b>AFFECTS iOS App</b> upgrade is currently being tested. The upgrade will resolve also issues with website access of STEREO images and general functionality of push alerts. </p>
+<p class="bodytext">18/12/2014: The <b>AFFECTS Website</b> has been upgraded to accomplish the new NOAA SWPC website structure. The <b>AFFECTS iOS App</b> has been upgraded as well and will soon be available through the App store. Due to the holiday season it will be released in January.</p>
+<p class="bodytext">26/11/2014: The new version of the <b>AFFECTS Android App</b> is now  online available under <i>-&gt; SERVICES </i>.</p>
+<p class="bodytext">14/11/2014: The <b>AFFECTS Print Brochure</b> and <b>Interactive Service Guide</b> are now  online available at <i>-&gt; SERVICES </i> - click on <a href="http://www.affects-fp7.eu/services/">Services</a> - and at <i>-&gt; PR</i>. For hardcopy requests please contact the AFFECTS coordinator.  </p>
+<p class="bodytext">13/11/2014: Latest space weather news about solar storms caused by the <b>reappearing sunspot group 2192</b> can be found under &quot;Weather&quot;.  </p>
+<p class="bodytext">10/07/14: The <b>AFFECTS iOS Space Weather App</b> is now available on the <a href="https://itunes.apple.com/au/app/affects/id893579846?mt">App Store</a>.</p>
+<p class="bodytext">11/02/14: The next <b>AFFECTS General Meeting incl. Steering Committee Meeting</b> takes place in Brussels from February 17-19, 2014. Further information can be found at <i>-&gt; PROJECT -&gt; MEETINGS -&gt; 3rd GM</i>.</p>
+<p class="bodytext">10/02/14: Recently, we created a <b>YouTube channel</b> showing our AFFECTS preoject trailer. The channel can be found at <i>-&gt; PR -&gt; YOUTUBE</i>.</p>
+<p class="bodytext">29/11/13: All <b>presentations</b> held at the <b>AFFECTS splinter meeting @ ESWW10</b> can be downloaded at <i>-&gt; NEWS &amp; EVENTS -&gt; ESWW SPLINTER.</i></p>
+<p class="bodytext">15/11/13: Today we published our <b>8th AFFECTS Project Newsletter</b>. It can be downloaded at <i>-&gt; NEWS &amp; EVENTS</i>.</p>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:42/text [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:165/div [begin] -->
+		<div class="csc-default">
+		<!--  Div element [begin] -->
+			<div class="divider"><hr /></div>
+		<!--  Div element [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:165/div [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:164/text [begin] -->
+		<div id="c164" class="csc-default">
+		<!--  Header: [begin] -->
+			<div class="csc-header csc-header-n3"><h3><a href="http://www.affects-fp7.eu/Wiki/index.php5/AFFECTS_Past_News" target="_top">Past News</a></h3></div>
+		<!--  Header: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:164/text [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:71/div [begin] -->
+		<div class="csc-default">
+		<!--  Div element [begin] -->
+			<div class="divider"><hr /></div>
+		<!--  Div element [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:71/div [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:15/textpic [begin] -->
+		<div id="c15" class="csc-default">
+		<!--  Header: [begin] -->
+			<div class="csc-header csc-header-n5"><h1>Contact</h1></div>
+		<!--  Header: [end] -->
+			
+		<!--  Image block: [begin] -->
+			<div class="csc-textpic-text">
+		<!--  Text: [begin] -->
+			<p class="bodytext">Dr.&nbsp;Volker Bothmer</p>
+<p class="bodytext">Georg-August-University Göttingen<br />Institute for Astrophysics&nbsp;<br />Friedrich-Hund-Platz 1<br />D-37077 Göttingen&nbsp;<br />E-mail: bothmer@astro.physik.uni-goettingen.de&nbsp;<br />Phone: +49 (0) 551 39 5044&nbsp;<br />Fax: +49 (0) 551 39 5043</p>
+<p class="bodytext"><a href="http://www.astro.physik.uni-goettingen.de/~bothmer/" title="Opens external link in new window" target="_blank" class="external-link-new-window">http://www.astro.physik.uni-goettingen.de/~bothmer/</a></p>
+		<!--  Text: [end] -->
+			</div>
+		<!--  Image block: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:15/textpic [end] -->
+		
+
+    </ul>
+  </div>
+  <!-- end #links -->
+  <div style="clear: both;">&nbsp;</div>
+</div>
+
+<!-- end #content -->
+
+<div id="footer2">
+  <div id="footer2_links">Copyright &copy; 2011 - 2016, AFFECTS Consortium. All Rights Reserved. 
+  <!--<p id="legal"> ###COPYRIGHT### --> Designed by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>&nbsp;&nbsp;Edited by <a href="http://www.rasi.ch/">Free TYPO3 Templates</a> <!--</p>-->
+</div>  
+    <div id="footer2_rechts"><a href="imprint">Imprint |</a> <a href="sitemap">Sitemap</a></div>
+</div>
+  <div id="footer2">
+<!--
+
+
+	<!--
+
+		BEGIN: Content of extension "socialshareprivacy", plugin "tx_socialshareprivacy_pi1"
+
+	-->
+	<div class="tx-socialshareprivacy-pi1">
+		<div id="socialshareprivacy"></div>
+	</div>
+	
+	<!-- END: Content of extension "socialshareprivacy", plugin "tx_socialshareprivacy_pi1" -->
+
+	
+
+<!-- end #footer -->
+    </div>
+
+<script src="typo3conf/ext/socialshareprivacy/socialshareprivacy/jquery.socialshareprivacy.min.js?1403485106" type="text/javascript"></script>
+
+<script type="text/javascript">jQuery(document).ready(function($){
+if($('#socialshareprivacy').length > 0){
+	$('#socialshareprivacy').socialSharePrivacy({
+		services : {
+			facebook : {
+				'status'	  : 'on', 
+				'dummy_img'	  : 'typo3conf/ext/socialshareprivacy/socialshareprivacy/socialshareprivacy/images/dummy_facebook_en.png', 
+				'txt_fb_off'  : 'not connected to Facebook', 
+				'txt_fb_on'   : 'connected to Facebook', 
+				'perma_option': 'on', 
+				'display_name': 'Facebook', 
+				'referrer_track':'', 
+				'action'	  : 'like', 
+				'txt_info'	  : '2 clicks for more privacy protection: Only after you click here the button will become active and you can send your recommendation to Facebook. As soon as you activate, data will be sent to third parties – see <em>i</em>.', 
+				'language'	  : 'de_DE'
+			}, 
+			twitter : {
+				'status'	  : 'on', 
+				'dummy_img'	  : 'typo3conf/ext/socialshareprivacy/socialshareprivacy/socialshareprivacy/images/dummy_twitter.png', 
+				'txt_twitter_off'  : 'not connected to Twitter', 
+				'txt_twitter_on'   : 'connected to Twitter',
+				'perma_option': 'on', 
+				'display_name': 'Twitter', 
+				'referrer_track':'', 
+				'txt_info'	  : '2 clicks for more privacy protection: Only after you click here the button will become active and you can send your recommendation to Twitter. As soon as you activate, data will be sent to third parties – see <em>i</em>.', 
+				'language'	  : 'en'
+			},
+			gplus : {
+				'status'	  : 'off', 
+				'dummy_img'	  : 'typo3conf/ext/socialshareprivacy/socialshareprivacy/socialshareprivacy/images/dummy_gplus.png', 
+				'txt_gplus_off'  : 'not connected to Google+', 
+				'txt_gplus_on'   : 'connected to Google+',
+				'perma_option': 'on', 
+				'display_name': 'Google+', 
+				'referrer_track':'',
+				'txt_info'	  : '2 clicks for more privacy protection: Only after you click here the button will become active and you can send your recommendation to Google. As soon as you activate, data will be sent to third parties – see <em>i</em>.', 
+				'language'	  : 'de'
+			}
+		},
+	'info_link'         : 'http://www.heise.de/ct/artikel/2-Klicks-fuer-mehr-Datenschutz-1333879.html',
+	'txt_help'          : 'If you activate these fields by clicking on them, information will be sent to Facebook, Twitter or Google in the USA and might also be stored there. For more information click on the <em>i</em>.',
+	'settings_perma'    : 'Activate permantly and agree to the data transmission:',
+	'cookie_expires'    : '356',
+	'css_path'          : 'typo3conf/ext/socialshareprivacy/socialshareprivacy/socialshareprivacy/socialshareprivacy.css'
+	
+	});
+}
+});</script>
+</body>
+</html>

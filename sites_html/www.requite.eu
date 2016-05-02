@@ -1,0 +1,465 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://www.requite.eu/sites/all/themes/requite_www/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>REQUITE</title>
+  <style>
+@import url("http://www.requite.eu/modules/system/system.base.css?o0n891");
+</style>
+<style>
+@import url("http://www.requite.eu/sites/all/modules/simplenews/simplenews.css?o0n891");
+@import url("http://www.requite.eu/sites/all/modules/date/date_api/date.css?o0n891");
+@import url("http://www.requite.eu/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?o0n891");
+@import url("http://www.requite.eu/modules/field/theme/field.css?o0n891");
+@import url("http://www.requite.eu/sites/all/modules/logintoboggan/logintoboggan.css?o0n891");
+@import url("http://www.requite.eu/profiles/spark/modules/contrib/views/css/views.css?o0n891");
+@import url("http://www.requite.eu/profiles/spark/modules/contrib/ckeditor/css/ckeditor.css?o0n891");
+</style>
+<style>
+@import url("http://www.requite.eu/profiles/spark/modules/contrib/ctools/css/ctools.css?o0n891");
+@import url("http://www.requite.eu/profiles/spark/modules/contrib/panels/css/panels.css?o0n891");
+@import url("http://www.requite.eu/profiles/spark/modules/contrib/panels/plugins/layouts/twocol_stacked/twocol_stacked.css?o0n891");
+@import url("http://www.requite.eu/modules/locale/locale.css?o0n891");
+</style>
+<link type="text/css" rel="stylesheet" href="//cdn.datatables.net/plug-ins/725b2a2115b/integration/bootstrap/3/dataTables.bootstrap.css" media="all" />
+<style>
+@import url("http://www.requite.eu/sites/all/themes/requite_www/css/style.css?o0n891");
+</style>
+  <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:regular&amp;subset=latin" media="all">
+<!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="/sites/all/themes/requite_manager/css/ie.css" />
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/profiles/spark/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")</script>
+<script src="http://www.requite.eu/sites/default/files/js/js_3TykeRWpejhD4-J3vdlaNXdULg9xhOZhbsppK0o2bUs.js"></script>
+<script src="http://www.requite.eu/sites/default/files/js/js_yAicZujtqUhpCyuBiQyVA1uGwMX8V0A0ym_4Jb35kBQ.js"></script>
+<script src="http://www.requite.eu/sites/default/files/js/js_wdSOIAGt15bJIyylOJwlh2gyoyRTAmHj3NNR6xP6Xak.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-49572740-1", {"cookieDomain":".requite.eu"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="http://www.requite.eu/sites/default/files/js/js_r_aE7KXxAgEgfJjBsnQq0R-OW93JM-OMmGqSQrc-PoM.js"></script>
+<script src="http://www.requite.eu/sites/default/files/js/js_iiro2olv-RX3gC3Gs2RbWAN3fitln8gMi7wDaiQWkFg.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"requite_www","theme_token":"cGG9FHX1JAI2P6MP_eiKZjmoiKKGsJxymWYilM26g1M","jquery_version":"1.7","js":{"\/\/cdn.datatables.net\/plug-ins\/725b2a2115b\/integration\/bootstrap\/3\/dataTables.bootstrap.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.7.2\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/spark\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"profiles\/spark\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"profiles\/spark\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"profiles\/spark\/modules\/contrib\/views\/js\/base.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_progress.js":1,"profiles\/spark\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/all\/themes\/requite_www\/bootstrap\/js\/affix.js":1,"sites\/all\/themes\/requite_www\/bootstrap\/js\/alert.js":1,"sites\/all\/themes\/requite_www\/bootstrap\/js\/button.js":1,"sites\/all\/themes\/requite_www\/bootstrap\/js\/carousel.js":1,"sites\/all\/themes\/requite_www\/bootstrap\/js\/collapse.js":1,"sites\/all\/themes\/requite_www\/bootstrap\/js\/dropdown.js":1,"sites\/all\/themes\/requite_www\/bootstrap\/js\/modal.js":1,"sites\/all\/themes\/requite_www\/bootstrap\/js\/tooltip.js":1,"sites\/all\/themes\/requite_www\/bootstrap\/js\/popover.js":1,"sites\/all\/themes\/requite_www\/bootstrap\/js\/scrollspy.js":1,"sites\/all\/themes\/requite_www\/bootstrap\/js\/tab.js":1,"sites\/all\/themes\/requite_www\/bootstrap\/js\/transition.js":1,"sites\/all\/themes\/bootstrap\/js\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/ajax.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"profiles\/spark\/modules\/contrib\/views\/css\/views.css":1,"profiles\/spark\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"profiles\/spark\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/spark\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/spark\/modules\/contrib\/panels\/plugins\/layouts\/twocol_stacked\/twocol_stacked.css":1,"modules\/locale\/locale.css":1,"\/\/cdn.datatables.net\/plug-ins\/725b2a2115b\/integration\/bootstrap\/3\/dataTables.bootstrap.css":1,"sites\/all\/themes\/requite_www\/css\/style.css":1}},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:29591bc2ce198a44f014ed5f4d80f007":{"view_name":"archive","view_display_id":"block","view_args":"","view_path":"home","view_base_path":"archive","view_dom_id":"29591bc2ce198a44f014ed5f4d80f007","pager_element":0}}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackDomainMode":"1","trackCrossDomains":["requite.eu"]},"currentPath":"home","currentPathIsAdmin":false,"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html front not-logged-in no-sidebars page-home i18n-en" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <header id="navbar" role="banner" class="navbar container navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+            <a class="logo navbar-btn pull-left" href="/" title="Home">
+        <img src="http://www.requite.eu/sites/all/themes/requite_www/logo.png" alt="Home" />
+      </a>
+      
+      
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+          <div class="navbar-collapse collapse">
+        <nav role="navigation">
+                      <ul class="menu nav navbar-nav"><li class="first leaf active"><a href="/" class="active">Home</a></li>
+<li class="expanded dropdown"><a href="/patients/about" title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown">About this study <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/patients/about">Information for patients</a></li>
+<li class="last leaf"><a href="/node/33">For the scientific community</a></li>
+</ul></li>
+<li class="leaf"><a href="/consortium/about">Consortium</a></li>
+<li class="last leaf"><a href="/node/47">Dissemination</a></li>
+</ul>                                <ul class="menu nav navbar-nav secondary"><li class="first last leaf"><a href="/contact" title="">Contact us</a></li>
+</ul>                            </nav>
+      </div>
+      </div>
+</header>
+
+<div class="main-container container">
+
+  <header role="banner" id="page-header">
+    
+      </header> <!-- /#page-header -->
+
+  <div class="row">
+
+    
+    <section class="col-sm-12">
+                  <a id="main-content"></a>
+                                                                <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  <div class="panel-2col-stacked clearfix panel-display" >
+      <div class="panel-col-top panel-panel">
+      <div class="inside"><div class="panel-pane pane-block pane-views-nodequeue-1-block-2"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-nodequeue-1 view-id-nodequeue_1 view-display-id-block_2 view-dom-id-29e9342caae234c6a6e774bfb4e1a1ea">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <span class="views-field views-field-nothing">        <span class="field-content"><h4><strong>Latest news:</strong> </span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/node/92">Opening Maastro Clinic</h4></a></span>  </span>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-custom pane-1"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="jumbotron">
+<div class="container">
+<div class="row">
+<div class="col-md-7">
+<h1><img alt="" src="/sites/default/files/requite_black.png" style="height:103px; width:400px" /></h1>
+
+<h4>Validating Predictive Models and Biomarkers of Radiotherapy Toxicity to Reduce Side-Effects and Improve Quality of Life in Cancer Survivors</h4>
+
+<div class="preamble">
+<p>The purpose of this international study is to try to predict which patients are more likely to have side effects from radiotherapy</p>
+</div>
+</div>
+
+<div class="col-md-3">
+<h3><em>Information</em></h3>
+
+<p><a class="btn btn-primary btn-lg" href="patients/about"><em>for</em> Patients</a></p>
+
+<p><a class="btn btn-primary btn-lg" href="node/33"><em>for the</em> Scientific Community</a></p>
+
+<p><a class="btn btn-primary btn-lg" href="consortium/about"><em>about the</em> Consortium</a></p>
+</div>
+</div>
+</div>
+</div>
+  </div>
+
+  
+  </div>
+</div>
+    </div>
+  
+  <div class="center-wrapper">
+    <div class="panel-col-first panel-panel">
+      <div class="inside"><div class="panel-pane pane-block pane-views-nodequeue-1-block-1"  >
+  
+        <h2 class="pane-title">
+      News    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-nodequeue-1 view-id-nodequeue_1 view-display-id-block_1 view-dom-id-1354048b9831651d265c61f2155b48d8">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div id="node-92" class="node node-article node-promoted node-teaser clearfix" data-quickedit-entity-id="node/92" about="/node/92" typeof="sioc:Item foaf:Document">
+
+  
+        <h2><a href="/node/92"><div data-quickedit-field-id="node/92/title/und/teaser">Opening Maastro Clinic</div></a></h2>
+    <span property="dc:title" content="Opening Maastro Clinic" class="rdf-meta element-hidden"></span>
+      <div class="submitted">
+      <span property="dc:date dc:created" content="2016-01-27T16:24:11+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">27th January 2016</span>    </div>
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden" data-quickedit-field-id="node/92/body/und/teaser"><div class="field-items"><div class="field-item even" property="content:encoded"><p><em>18 January 2016, </em><a href="http://www.maastro.nl/">Maastro Clinic </a>in Maastricht (the Netherlands) is now open to recruitment for REQUITE.</p></div></div></div>  </div>
+
+  <ul class="links list-inline"><li class="node-readmore first last"><a href="/node/92" rel="tag" title="Opening Maastro Clinic">Read more<span class="element-invisible"> about Opening Maastro Clinic</span></a></li>
+</ul>
+  
+</div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div id="node-91" class="node node-article node-promoted node-teaser clearfix" data-quickedit-entity-id="node/91" about="/node/91" typeof="sioc:Item foaf:Document">
+
+  
+        <h2><a href="/node/91"><div data-quickedit-field-id="node/91/title/und/teaser">Half of target has been reached!</div></a></h2>
+    <span property="dc:title" content="Half of target has been reached!" class="rdf-meta element-hidden"></span>
+      <div class="submitted">
+      <span property="dc:date dc:created" content="2016-01-06T10:04:28+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">6th January 2016</span>    </div>
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden" data-quickedit-field-id="node/91/body/und/teaser"><div class="field-items"><div class="field-item even" property="content:encoded"><p>During Christmas or New Year the REQUITE study reached half of the recruitment target (2650 patients) and currently already has more than 2750 patients included in the study!</p></div></div></div>  </div>
+
+  <ul class="links list-inline"><li class="node-readmore first last"><a href="/node/91" rel="tag" title="Half of target has been reached!">Read more<span class="element-invisible"> about Half of target has been reached!</span></a></li>
+</ul>
+  
+</div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <div id="node-90" class="node node-article node-promoted node-teaser clearfix" data-quickedit-entity-id="node/90" about="/node/90" typeof="sioc:Item foaf:Document">
+
+  
+        <h2><a href="/node/90"><div data-quickedit-field-id="node/90/title/und/teaser">REQUITE Periodic Report Summary online</div></a></h2>
+    <span property="dc:title" content="REQUITE Periodic Report Summary online" class="rdf-meta element-hidden"></span>
+      <div class="submitted">
+      <span property="dc:date dc:created" content="2015-12-21T10:41:42+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">21st December 2015</span>    </div>
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden" data-quickedit-field-id="node/90/body/und/teaser"><div class="field-items"><div class="field-item even" property="content:encoded"><a href="http://cordis.europa.eu/result/rcn/171714_en.html">The first REQUITE Periodic Report Summary</a> is now available at CORDIS, the Community Research and Development Information Service. CORDIS is the European Commission's primary public repository and portal to disseminate information on all EU-funded research projects and their results in the broadest sense.</div></div></div>  </div>
+
+  <ul class="links list-inline"><li class="node-readmore first last"><a href="/node/90" rel="tag" title="REQUITE Periodic Report Summary online">Read more<span class="element-invisible"> about REQUITE Periodic Report Summary online</span></a></li>
+</ul>
+  
+</div>
+  </div>
+  <div class="views-row views-row-4 views-row-even views-row-last">
+    <div id="node-88" class="node node-article node-promoted node-teaser clearfix" data-quickedit-entity-id="node/88" about="/node/88" typeof="sioc:Item foaf:Document">
+
+  
+        <h2><a href="/node/88"><div data-quickedit-field-id="node/88/title/und/teaser">8th Annual Radiogenomics Consortium Meeting in Maastricht!</div></a></h2>
+    <span property="dc:title" content="8th Annual Radiogenomics Consortium Meeting in Maastricht!" class="rdf-meta element-hidden"></span>
+      <div class="submitted">
+      <span property="dc:date dc:created" content="2015-11-13T16:40:49+00:00" datatype="xsd:dateTime" rel="sioc:has_creator">13th November 2015</span>    </div>
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden" data-quickedit-field-id="node/88/body/und/teaser"><div class="field-items"><div class="field-item even" property="content:encoded"><p>The 8th Annual Meeting of the Radiogenomics Consortium will take place on 13 July, 2016 in Maastricht, the Netherlands and is hosted by <a href="http://www.maastro.nl/">MAASTRO-Clinic</a>.</p></div></div></div>  </div>
+
+  <ul class="links list-inline"><li class="node-readmore first last"><a href="/node/88" rel="tag" title="8th Annual Radiogenomics Consortium Meeting in Maastricht!">Read more<span class="element-invisible"> about 8th Annual Radiogenomics Consortium Meeting in Maastricht!</span></a></li>
+</ul>
+  
+</div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-views-archive-block"  >
+  
+        <h2 class="pane-title">
+      Older news    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-archive view-id-archive view-display-id-block view-dom-id-29591bc2ce198a44f014ed5f4d80f007">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+  <ul class="views-summary">
+      <li><a href="/archive/2016">2016</a>
+              (2)
+          </li>
+      <li><a href="/archive/2015">2015</a>
+              (16)
+          </li>
+      <li><a href="/archive/2014">2014</a>
+              (14)
+          </li>
+    </ul>
+</div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+    </div>
+    <div class="panel-col-last panel-panel">
+      <div class="inside"><div class="panel-pane pane-block pane-block-2"  >
+  
+        <h2 class="pane-title">
+      Recruitment    </h2>
+    
+  
+  <div class="pane-content">
+    
+<div class="row">
+	
+		Breast
+		<div class="progress">
+			<div class="progress-bar progress-bar-tertiary" role="progressbar" aria-valuenow="66.571428571429" aria-valuemin="0" aria-valuemax="100" style="width: 66.571428571429%">
+    1398  </div>
+		</div>
+	
+</div>
+<div class="row">
+	
+		Lung
+		<div class="progress">
+			<div class="progress-bar progress-bar-tertiary" role="progressbar" aria-valuenow="27.818181818182" aria-valuemin="0" aria-valuemax="100" style="width: 27.818181818182%">
+    306  </div>
+		</div>
+
+</div>
+<div class="row">
+
+		Prostate
+		<div class="progress">
+			<div class="progress-bar progress-bar-tertiary" role="progressbar" aria-valuenow="60.333333333333" aria-valuemin="0" aria-valuemax="100" style="width: 60.333333333333%">
+    1267  </div>
+		</div>
+
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-views-events-block-1"  >
+  
+        <h2 class="pane-title">
+      Events    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-events view-id-events view-display-id-block_1 view-dom-id-80a4b68829cdff4928bbf8b4332c6892">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div id="node-89" class="node node-event node-promoted clearfix" data-quickedit-entity-id="node/89" about="/node/89" typeof="sioc:Item foaf:Document">
+
+  
+        <h2><a href="/node/89"><div data-quickedit-field-id="node/89/title/und/full">4rd Annual REQUITE meeting and 8th Annual Radiogenomics Consortium meeting</div></a></h2>
+    <span property="dc:title" content="4rd Annual REQUITE meeting and 8th Annual Radiogenomics Consortium meeting" class="rdf-meta element-hidden"></span>
+  
+  <div class="content">
+    <div class="field field-name-field-dates field-type-date field-label-above" data-quickedit-field-id="node/89/field_dates/und/full"><div class="field-label">Dates:&nbsp;</div><div class="field-items"><div class="field-item even"><div class="date-display-range"><span class="date-display-start" property="dc:date" datatype="xsd:dateTime" content="2016-07-11T00:00:00+00:00">Monday, 11 July, 2016</span> to <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2016-07-13T00:00:00+00:00">Wednesday, 13 July, 2016</span></div></div></div></div><div class="field field-name-field-location field-type-location field-label-above" data-quickedit-field-id="node/89/field_location/und/full"><div class="field-label">Location:&nbsp;</div><div class="field-items"><div class="field-item even"><div class="location vcard" itemscope itemtype="http://schema.org/PostalAddress">
+  <div class="adr">
+          <span class="fn" itemprop="name">Hotel NH Maastricht</span>
+                  <span class="postal-code" itemprop="postalCode">6229GV </span>
+              <span class="locality" itemprop="addressLocality">
+      Maastricht      </span>
+                        <div class="country-name" itemprop="addressCountry">Netherlands</div>
+                                          </div>
+      <div class="map-link">
+      <div class="location map-link">See map: <a href="http://maps.google.nl?q=%2C+Maastricht%2C+6229GV+%2C+nl">Google Maps</a></div>    </div>
+  </div>
+  <div class="location-hidden">
+                NL      </div>
+</div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+    <div id="node-84" class="node node-event node-promoted clearfix" data-quickedit-entity-id="node/84" about="/node/84" typeof="sioc:Item foaf:Document">
+
+  
+        <h2><a href="/node/84"><div data-quickedit-field-id="node/84/title/und/full">ESTRO 35</div></a></h2>
+    <span property="dc:title" content="ESTRO 35" class="rdf-meta element-hidden"></span>
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden" data-quickedit-field-id="node/84/body/und/full"><div class="field-items"><div class="field-item even" property="content:encoded"><p>ESTRO is an interdisciplinary society where radiation oncologists, medical physicists, biologists, brachytherapists and radiation therapists aspire to join forces with other organisations in the oncology field that share ESTRO’s vision of excellence in cancer treatment. <a href="http://www.estro.org/congresses-meetings/items/estro-35">http://www.estro.org/congresses-meetings/items/estro-35</a></p></div></div></div><div class="field field-name-field-dates field-type-date field-label-above" data-quickedit-field-id="node/84/field_dates/und/full"><div class="field-label">Dates:&nbsp;</div><div class="field-items"><div class="field-item even"><div class="date-display-range"><span class="date-display-start" property="dc:date" datatype="xsd:dateTime" content="2016-04-29T00:00:00+00:00">Friday, 29 April, 2016</span> to <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2016-05-03T00:00:00+00:00">Tuesday, 3 May, 2016</span></div></div></div></div><div class="field field-name-field-location field-type-location field-label-above" data-quickedit-field-id="node/84/field_location/und/full"><div class="field-label">Location:&nbsp;</div><div class="field-items"><div class="field-item even"><div class="location vcard" itemscope itemtype="http://schema.org/PostalAddress">
+  <div class="adr">
+                      <span class="locality" itemprop="addressLocality">
+      Turin      </span>
+                        <div class="country-name" itemprop="addressCountry">Italy</div>
+                                          </div>
+      <div class="map-link">
+      <div class="location map-link">See map: <a href="http://maps.google.com?q=%2C+Turin%2C+%2C+%2C+it">Google Maps</a></div>    </div>
+  </div>
+  <div class="location-hidden">
+                IT      </div>
+</div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-locale-language"  >
+  
+        <h2 class="pane-title">
+      Languages    </h2>
+    
+  
+  <div class="pane-content">
+    <ul class="language-switcher-locale-url"><li class="nl first"><a href="/nl?multilink=switch" class="language-link" xml:lang="nl"><img class="language-icon" typeof="foaf:Image" src="http://www.requite.eu/sites/all/modules/languageicons/flags/nl.png" width="16" height="12" alt="Nederlands" title="Nederlands" /> Nederlands</a></li>
+<li class="en active"><a href="/?multilink=switch" class="language-link active" xml:lang="en"><img class="language-icon" typeof="foaf:Image" src="http://www.requite.eu/sites/all/modules/languageicons/flags/en.png" width="16" height="12" alt="English" title="English" /> English</a></li>
+<li class="fr"><a href="/fr?multilink=switch" class="language-link" xml:lang="fr"><img class="language-icon" typeof="foaf:Image" src="http://www.requite.eu/sites/all/modules/languageicons/flags/fr.png" width="16" height="12" alt="Français" title="Français" /> Français</a></li>
+<li class="de"><a href="/de?multilink=switch" class="language-link" xml:lang="de"><img class="language-icon" typeof="foaf:Image" src="http://www.requite.eu/sites/all/modules/languageicons/flags/de.png" width="16" height="12" alt="Deutsch" title="Deutsch" /> Deutsch</a></li>
+<li class="it"><a href="/it?multilink=switch" class="language-link" xml:lang="it"><img class="language-icon" typeof="foaf:Image" src="http://www.requite.eu/sites/all/modules/languageicons/flags/it.png" width="16" height="12" alt="Italiano" title="Italiano" /> Italiano</a></li>
+<li class="es last"><a href="/es?multilink=switch" class="language-link" xml:lang="es"><img class="language-icon" typeof="foaf:Image" src="http://www.requite.eu/sites/all/modules/languageicons/flags/es.png" width="16" height="12" alt="Español" title="Español" /> Español</a></li>
+</ul>  </div>
+
+  
+  </div>
+</div>
+    </div>
+  </div>
+
+  </div>
+
+</section> <!-- /.block -->
+  </div>
+    </section>
+
+    
+  </div>
+</div>
+<footer class="footer container">
+    <div class="region region-footer">
+    <section id="block-block-1" class="block block-block clearfix">
+
+      
+  <p><img alt="European Community flag" src="/sites/default/files/flag_yellow_low.jpg" style="float:left; height:82px; margin-left:10px; margin-right:10px; width:121px" />REQUITE: Validating Predictive Models and Biomarkers of Radiotherapy Toxicity to Reduce Side-Effects and Improve Quality of Life in Cancer Survivors</p>
+
+<p>This project has received funding from the European Union’s Seventh Framework Programme for research, technological development and demonstration under grant agreement no 601826</p>
+
+<p>© 2014 REQUITE</p>
+
+</section> <!-- /.block -->
+  </div>
+</footer>
+  <script src="//cdn.datatables.net/plug-ins/725b2a2115b/integration/bootstrap/3/dataTables.bootstrap.js"></script>
+<script src="http://www.requite.eu/sites/default/files/js/js_B2uv6dkjoYobfQVyuXdchgrpnnx4oM0TkP_bDVf8Qrg.js"></script>
+</body>
+</html>

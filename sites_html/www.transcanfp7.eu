@@ -1,0 +1,459 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="http://www.transcanfp7.eu/transcan/theme/standard/styles.php" />
+<link rel="stylesheet" type="text/css" href="http://www.transcanfp7.eu/transcan/theme/transcan/styles.php" />
+<meta name="description" content=" The TRANSCAN website is hosted and maintained by the National Institute of Health (Istituto Superiore di Sanità), Italy. " />
+<!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="http://www.transcanfp7.eu/transcan/theme/standard/styles_ie7.css" />
+<![endif]-->
+<!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="http://www.transcanfp7.eu/transcan/theme/standard/styles_ie6.css" />
+<![endif]-->
+
+
+    <!--<meta http-equiv="content-type" content="text/html; charset=utf-8" />-->
+    <meta name="keywords" content="moodle, TRANSCAN " />
+    <title>TRANSCAN</title>
+    <link rel="shortcut icon" href="http://www.transcanfp7.eu/transcan/theme/transcan/pix/eu.jpg" />
+    <!--<style type="text/css">/*<![CDATA[*/ body{behavior:url(http://www.transcanfp7.eu/transcan/lib/csshover.htc);} /*]]>*/</style>-->
+
+<script type="text/javascript" src="http://www.transcanfp7.eu/transcan/lib/javascript-static.js"></script>
+<script type="text/javascript" src="http://www.transcanfp7.eu/transcan/lib/javascript-mod.php"></script>
+<script type="text/javascript" src="http://www.transcanfp7.eu/transcan/lib/overlib/overlib.js"></script>
+<script type="text/javascript" src="http://www.transcanfp7.eu/transcan/lib/overlib/overlib_cssstyle.js"></script>
+<script type="text/javascript" src="http://www.transcanfp7.eu/transcan/lib/cookies.js"></script>
+<script type="text/javascript" src="http://www.transcanfp7.eu/transcan/lib/ufo.js"></script>
+<script type="text/javascript" src="http://www.transcanfp7.eu/transcan/lib/dropdown.js"></script>  
+
+<script type="text/javascript" defer="defer">
+//<![CDATA[
+setTimeout('fix_column_widths()', 20);
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+function openpopup(url, name, options, fullscreen) {
+    var fullurl = "http://www.transcanfp7.eu/transcan" + url;
+    var windowobj = window.open(fullurl, name, options);
+    if (!windowobj) {
+        return true;
+    }
+    if (fullscreen) {
+        windowobj.moveTo(0, 0);
+        windowobj.resizeTo(screen.availWidth, screen.availHeight);
+    }
+    windowobj.focus();
+    return false;
+}
+
+function uncheckall() {
+    var inputs = document.getElementsByTagName('input');
+    for(var i = 0; i < inputs.length; i++) {
+        inputs[i].checked = false;
+    }
+}
+
+function checkall() {
+    var inputs = document.getElementsByTagName('input');
+    for(var i = 0; i < inputs.length; i++) {
+        inputs[i].checked = true;
+    }
+}
+
+function inserttext(text) {
+  text = ' ' + text + ' ';
+  if ( opener.document.forms['theform'].message.createTextRange && opener.document.forms['theform'].message.caretPos) {
+    var caretPos = opener.document.forms['theform'].message.caretPos;
+    caretPos.text = caretPos.text.charAt(caretPos.text.length - 1) == ' ' ? text + ' ' : text;
+  } else {
+    opener.document.forms['theform'].message.value  += text;
+  }
+  opener.document.forms['theform'].message.focus();
+}
+
+function getElementsByClassName(oElm, strTagName, oClassNames){
+	var arrElements = (strTagName == "*" && oElm.all)? oElm.all : oElm.getElementsByTagName(strTagName);
+	var arrReturnElements = new Array();
+	var arrRegExpClassNames = new Array();
+	if(typeof oClassNames == "object"){
+		for(var i=0; i<oClassNames.length; i++){
+			arrRegExpClassNames.push(new RegExp("(^|\\s)" + oClassNames[i].replace(/\-/g, "\\-") + "(\\s|$)"));
+		}
+	}
+	else{
+		arrRegExpClassNames.push(new RegExp("(^|\\s)" + oClassNames.replace(/\-/g, "\\-") + "(\\s|$)"));
+	}
+	var oElement;
+	var bMatchesAll;
+	for(var j=0; j<arrElements.length; j++){
+		oElement = arrElements[j];
+		bMatchesAll = true;
+		for(var k=0; k<arrRegExpClassNames.length; k++){
+			if(!arrRegExpClassNames[k].test(oElement.className)){
+				bMatchesAll = false;
+				break;
+			}
+		}
+		if(bMatchesAll){
+			arrReturnElements.push(oElement);
+		}
+	}
+	return (arrReturnElements)
+}
+//]]>
+</script>
+</head>
+
+<body  class="course course-1 notloggedin dir-ltr lang-en_utf8" id="site-index">
+
+<div id="page">
+<a class="skip" href="#maincontent">Skip to main content</a>
+
+<div id="header-home" class=" clearfix">        <!-- <h1 class="page_head_titl">Transcan European project site</h1> -->
+        <div class="headermain"><img src="http://www.transcanfp7.eu/transcan/theme/transcan/pix/logo.gif" alt="Home" usemap="#navi" /></div>
+        <div class="headermenu"><div class="logininfo">You are not logged in. (<a  href="http://www.transcanfp7.eu/transcan/login/index.php">Login</a>)</div></div>
+</div>    <div class="menubar">
+    <div>
+<table cellpadding="0" cellspacing="0" style="width:100%;"><tr>
+<td><div style="font-size:1px;width:6px;height:20px;"></div></td><td style="width:100%;">
+<ul id="qm0" class="qmmc">
+
+    <li><a href="/transcan/">Home</a></li>	<li><span class="qmdivider qmdividery" ></span></li>
+	<li><a class="qmparent" href="/transcan/mod/resource/view.php?id=1">About TRANSCAN</a>
+		<ul>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=10" title="Challenges">Challenges</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=11" title="Objectives">Objectives</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=12" title="Strategic Impact">Strategic Impact</a>
+			</li>
+		</ul>
+	</li>
+
+	<li><span class="qmdivider qmdividery" ></span></li>
+	<li><a class="qmparent" href="/transcan/mod/resource/view.php?id=2">Partners</a>
+		<ul>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=7" title="MINISTERO DELLA SALUTE">MoH</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=13" title="ISTITUTO SUPERIORE DI SANIT&#192;">ISS</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=14" title="FONDS ZUR F&#214;RDERUNG DER WISSENSCHAFTLICHEN FORSCHUNG">FWF</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=15" title="MASARYK&#366;V ONKOLOGICK&#221; &#218;STAV">MMCI</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=16" title="INSTITUT NATIONAL DU CANCER">INCa</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=17" title="BUNDESMINISTERIUM FUER BILDUNG UND FORSCHUNG">BMBF</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=18" title="DEUTSCHES ZENTRUM FUER LUFT - UND RAUMFAHRT E.V">PT-DLR</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=19" title="GENIKI GRAMMATIA EREVNAS KAI TECHNOLOGIAS, YPOURGIO PAIDIAS, DIA VIOU MATHISIS & THRISKEVMATON">GSRT</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=20" title="KENTROU ELEGHOU & PROLIPSIS NOSIMATON">KEELPNO</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=21" title="ORSZAGOS ONKOLOGIAI INTEZET">NIO</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=22" title="MINISTRY OF HEALTH (Chief Scientific Office)">CSO-MOH</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=23" title="ALLEANZA CONTRO IL CANCRO">ACC</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=24" title="MINISTERO DELL'ISTRUZIONE, DELL'UNIVERSITA' E DELLA RICERCA">MIUR</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=41" title="REGIONE LIGURIA">LR</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=25" title="LATVIJAS ZINATNU AKADEMIJA">LAS</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=26" title="THE NETHERLANDS ORGANISATION FOR HEALTH RESEARCH AND DEVELOPMENT">ZonMW</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=27" title="NORGES FORSKNINGSRAD">RCN</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=28" title="NARODOWE CENTRUM BADAN I ROZWOJU">NCRiB</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=42" title="FUNDA&#199;&#195;O PARA A CI&#202;NCIA E A TECNOLOGIA">FCT</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=29" title="INSTITUTE OF ONCOLOGY PROF. DR. ALEX. TRESTIOREANU">IOB</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=30" title="SLOVENSKA AKADEMIA VIED">SAS</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=31" title="MINISTRSTVO ZA IZOBRAŽEVANJE, ZNANOST IN ŠPORT">MIZS</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=32" title="INSTITUTO DE SALUD CARLOS III">ISCIII</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=33" title="CANCER RESEARCH UK">CR-UK</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=34" title="T&#220;RKIYE BILIMSEL VE TEKNOLOJIK ARASTIRMA KURUMU">TUBITAK</a>
+			</li>
+		</ul>
+	</li>
+
+	<li><span class="qmdivider qmdividery" ></span></li>
+	<li><a class="qmparent" href="/transcan/mod/resource/view.php?id=4">Work Packages</a>
+		<ul>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=35" title="Management and network coordination">WP1</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=36" title="Survey and analysis of national cancer research funding of translational cancer research">WP2</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=37" title="Preparation of JTCs">WP3</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=38" title="Implementation of JTCs">WP4</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=39" title="Implementation of capacity building & training activities">WP5</a>
+			</li>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=40" title="Monitoring of activities & network sustainability">WP6</a>
+			</li>
+		</ul>
+	</li>
+
+	<li><span class="qmdivider qmdividery" ></span></li>
+	<li><a class="qmparent" href="/transcan/mod/resource/view.php?id=45" title="JTCs">Joint Transnational Calls</a></li>
+
+	<li><span class="qmdivider qmdividery" ></span></li>
+	<li><a class="qmparent" href="/transcan/mod/resource/view.php?id=46" title="Publications">Publications</a>
+		<ul>
+			<li>
+				<a href="/transcan/mod/resource/view.php?id=48" title="Project Factsheets">Project Factsheets</a>
+			</li>
+		</ul>
+	</li>
+
+	<li><span class="qmdivider qmdividery" ></span></li>
+	<li><a class="qmparent" href="/transcan/mod/resource/view.php?id=6" title="Links">Links</a></li>
+
+	<!-- <li><span class="qmdivider qmdividery" ></span></li>
+	<li><a class="qmparent" href="/soho/course/view.php?id=3">Prova</a></li> -->
+
+    <li class="qmclear">&nbsp;</li>
+</ul></td></tr></table>
+</div>
+<!-- Create Menu Settings: (Menu ID, Is Vertical, Show Timer, Hide Timer, On Click ('all', 'main' or 'lev2'), Right to Left, Horizontal Subs, Flush Left, Flush Top) -->
+<script type="text/javascript">qm_create(0,false,0,500,false,false,false,false,false);</script>
+    </div>
+    <!-- END OF HEADER -->
+    <div id="content">
+
+<table id="layout-table" summary="layout">
+  <tr>
+  <td style="width: 210px;" id="left-column"><div><a href="#sb-1" class="skip-block">Skip Quick Links</a><div  id="inst30" class="block_html sideblock"><div class="header"><div class="title"><input type="image" src="http://www.transcanfp7.eu/transcan/theme/transcan/pix/t/switch_minus.gif" id="togglehide_inst30" onclick="elementToggleHide(this, true, function(el) {return findParentNode(el, 'DIV', 'sideblock'); }, 'Show Quick Links block', 'Hide Quick Links block'); return false;" alt="Hide Quick Links block" title="Hide Quick Links block" class="hide-show-image" /><h2>Quick Links</h2></div></div><div class="content">
+<ul class="list">
+  <li class="r1">
+    <div class="icon column c0"><img class="icon" src="http://www.transcanfp7.eu/transcan/mod/resource/icon.gif" complete="true" /> </div>
+    <div class="column c1"><a title="Home" href="http://www.transcanfp7.eu/">Home</a> </div></li>
+  <li class="r1">
+    <div class="icon column c0"><img class="icon" src="http://www.transcanfp7.eu/transcan/mod/resource/icon.gif" complete="true" /> </div>
+    <div class="column c1"><font color="#000099">TRANSCAN Joint Transnational Calls</font></div></li>
+  <li class="r1">
+    <ul>
+      <li><a title="1st Call for proposals (JTC-2011)" href="http://www.transcanfp7.eu/transcan/mod/resource/view.php?id=66">First Call (JTC 2011)<br /></a></li>
+      <ul>
+        <li><a href="http://www.transcanfp7.eu/transcan/mod/resource/view.php?id=75" target="_blank" title="JTC-2011 Funded Projects">Funded Projects</a><br /></li>
+      </ul>
+      <li><a title="2nd Call for proposals (JTC-2012)" href="http://www.transcanfp7.eu/transcan/mod/resource/view.php?id=77">Second Call (JTC 2012)<br /></a></li>
+      <ul>
+        <li><a title="Projects selected for funding within the Second Joint Transnational Call (JTC 2012)" target="_blank" href="http://www.transcanfp7.eu/transcan/mod/resource/view.php?id=83">Funded Projects</a></li>
+      </ul>
+      <li><a title="Third Transnational Call (JTC 2013)" href="http://www.transcanfp7.eu/transcan/mod/resource/view.php?id=85">Third Call (JTC 2013)</a> <font color="#660000"><strong></strong></font> </li>
+      <ul>
+        <li><a title="Projects selected for funding within the Third Joint Transnational Call (JTC 2013)" target="_blank" href="http://www.transcanfp7.eu/transcan/mod/resource/view.php?id=86">Funded Projects</a> </li>
+      </ul>
+    </ul></li>
+  <ul>
+    <ul>&nbsp;
+    </ul>
+  </ul>
+  <li class="r4">
+    <div class="icon column c0"><img class="icon" src="http://moodle.iss.it/transcan/mod/resource/icon.gif" complete="true" /> </div> <b><font color="#CC0000"><span><font color="#CC0033">TRANSCAN-2 Joint Transnational Calls</font><br /></span></font></b></li>
+  <ul>
+    <li><font color="#000099"><b>EC Co-funded First Call (JTC 2014)</b></font></li>
+    <ul>
+      <li style="direction: ltr;"><font color="#000099"><a href="http://www.transcanfp7.eu/transcan/file.php/1/Calls/JTC-2014/Call_text_TRANSCAN-2_CoFund_JTC-2014_final.pdf" target="_blank">Call text</a></font></li>
+    </ul>
+  </ul>
+</ul><font color="#000099"></font>
+<ul class="list">
+  <ul>
+    <ul>&nbsp;
+    </ul>
+    <li><font color="#000099"><b><a target="_blank" href="http://www.transcanfp7.eu/transcan/file.php/1/TRANSCAN-2_JTC_2015_-_general_overview.pdf">Second Call (JTC 2015)</a></b></font><br /></li>
+    <ul>
+      <li><a href="http://www.transcanfp7.eu/transcan/file.php/1/CALL_TEXT_TRANSCAN-2_JTC2015_2Feb.pdf"><b><font color="#000099"><span class="nolink"><span class="nolink">Call Text (updated on 2 February)</span></span></font></b></a><b><font color="#000099"> </font></b> </li>
+      <li><a href="http://www.transcanfp7.eu/transcan/file.php/1/Guidelines_for_Applicants_TRANSCAN_JTC_2015_.pdf" target="_blank"><b><font color="#000099"><span class="nolink"><span class="nolink">Guidelines for Applicants</span></span></font></b></a> </li>
+      <li><a href="http://www.transcanfp7.eu/transcan/file.php/1/National_contact_points_JTC2015.pdf" target="_blank"><b><font color="#000099"><span class="nolink"><span class="nolink">National Contact Points</span></span></font></b></a> </li>
+      <li><a href="http://www.transcanfp7.eu/transcan/file.php/1/Pre-proposal.pdf" target="_blank"><b><font color="#000099"><span class="nolink"><span class="nolink">Pre-proposal Application Form (FACSIMILE)</span></span></font></b></a></li>
+      <li><font color="#FF0000"><span class="nolink"><span class="nolink"><font color="#000066"><a target="_blank" href="http://www.transcanfp7.eu/transcan/file.php/1/Italy_MOH_mandatory_form_eligibility_updated.pdf">Ministry of Health-Italy pre-eligibility form -updated version (for Italian applicants,only)</a></font><br /></span></span></font></li>
+    </ul>
+  </ul><a href="http://www.moodle.org/0.7750898751896202"> </a>
+  <li class="r4"><a href="http://www.moodle.org/0.7750898751896202"> </a>
+    <div class="icon column c0"><a href="http://www.moodle.org/0.7750898751896202"><img class="icon" src="http://moodle.iss.it/transcan/mod/resource/icon.gif" complete="true" /></a> </div><a href="http://www.transcanfp7.eu/transcan/mod/resource/view.php?id=69"><span>Search for a research partner<span class="accesshide "></span></span></a></li>
+  <li class="r6">
+    <div class="icon column c0"><img class="icon" src="http://moodle.iss.it/transcan/mod/resource/icon.gif" complete="true" /> </div>
+    <div class="column c1"><a title="Sitemap" href="http://www.transcanfp7.eu/transcan/mod/resource/view.php?id=60">Sitemap</a> </div></li>
+  <li class="r5">
+    <div class="icon column c0"><img class="icon" src="http://www.transcanfp7.eu/transcan/mod/resource/icon.gif" complete="true" /> </div>
+    <div class="column c1"><a title="Contact us" href="http://www.transcanfp7.eu/transcan/mod/resource/view.php?id=58">Contact us</a> </div>
+    <ul>&nbsp;
+    </ul></li>
+</ul> </div></div><script type="text/javascript">
+//<![CDATA[
+elementCookieHide("inst30","Show Quick Links block","Hide Quick Links block");
+//]]>
+</script><span id="sb-1" class="skip-block-to"></span><div  id="inst3" class="block_course_summary sideblock"><div class="content"> <font color="#333333">The <strong>TRANSCAN</strong> website is hosted and maintained by the National Institute of Health (Istituto Superiore di Sanità), Italy.<br /></font> </div></div><script type="text/javascript">
+//<![CDATA[
+elementCookieHide("inst3","Show  block","Hide  block");
+//]]>
+</script><span id="sb-2" class="skip-block-to"></span></div></td><td id="middle-column"><span id="maincontent"></span><div><div class="generalbox sitetopic box">
+<h1>Welcome to TRANSCAN</h1>
+<p>This website provides information about the <strong>ERA-NET on Translational Cancer Research</strong> (<strong>TRANSCAN</strong>). <br /><br /><strong>TRANSCAN</strong> is a European Research Area Network funded by the European Commission under the <a href="http://cordis.europa.eu/home_en.html" target="_blank">Seventh Framework Programme (FP7)</a>. </p>
+<p><strong>TRANSCAN </strong>is a collaborative network of ministries, funding agencies and research councils with programmes in translational cancer research. The network is composed of <a href="/transcan/mod/resource/view.php?id=2#Partners_map" target="_blank">25 partners</a> from 19 European and Associated countries. </p>
+<p><strong>Objective<br /></strong>To contribute to the building of the European Research Area through the coordination of activities of national and regional translational cancer research funding organisations, aiming at the integration of basic, clinical and epidemiological cancer research and facilitation of transnational cancer funding in Europe with the ultimate aim to streamline EU-wide cancer screening, early diagnosis, prognosis, treatment and care.</p>
+<h4 style="text-align: center;"><font><br /> <font size="4">Launch of the Second<sup></sup> TRANSCAN-2 <br /></font></font><font color="#660000"><a href="http://www.transcanfp7.eu/transcan/file.php/1/TRANSCAN-2_JTC_2015_-_general_overview.pdf" target="_blank"><font size="4">Joint Transnational Call for Proposals (JTC 201<font color="#660000">5</font>)</font></a> </font> <br /><br /><font color="#ff0000"></font></h4>
+<div><br /></div> </div><br /></div></td><td style="width: 210px;" id="right-column"><div><a href="#sb-3" class="skip-block">Skip New Call</a><div  id="inst5590" class="block_html sideblock"><div class="header"><div class="title"><input type="image" src="http://www.transcanfp7.eu/transcan/theme/transcan/pix/t/switch_minus.gif" id="togglehide_inst5590" onclick="elementToggleHide(this, true, function(el) {return findParentNode(el, 'DIV', 'sideblock'); }, 'Show New Call block', 'Hide New Call block'); return false;" alt="Hide New Call block" title="Hide New Call block" class="hide-show-image" /><h2>New Call</h2></div></div><div class="content">
+<h4 style="text-align: center;"><font size="5" color="#ff0000">NEW!</font></h4>
+<h4 style="text-align: center;"><font color="#333333"><font size="4" color="#000066">Launch of the TRANSCAN-2<br />Second Joint Transnational Call for Proposals (JTC 2015)</font></font></h4>
+<h4 align="left" style="text-align: center;"><font size="2" color="#000066"><a href="http://www.transcanfp7.eu/transcan/file.php/1/CALL_TEXT_TRANSCAN-2_JTC2015_2Feb.pdf"><span class="nolink"><span class="nolink">Call Text (updated on <font color="#000066">2 February</font>)</span></span></a><br /></font></h4>
+<div align="left"><font size="2"> </font></div>
+<h4 align="left" style="text-align: center;"><a target="_blank" href="http://www.transcanfp7.eu/transcan/file.php/1/Guidelines_for_Applicants_TRANSCAN_JTC_2015_.pdf"><font size="2" color="#000066">Guidelines for Applicants</font></a></h4>
+<div align="left"><font size="2"> </font></div>
+<h4 align="left" style="text-align: center;"><a target="_blank" href="http://www.transcanfp7.eu/transcan/file.php/1/National_contact_points_JTC2015.pdf"><font size="2" color="#000066">National Contact Points</font></a></h4>
+<div align="left"><font size="2"> </font></div>
+<h4 style="text-align: center;"><a href="http://www.transcanfp7.eu/transcan/file.php/1/Pre-proposal.pdf" target="_blank"><font size="2" color="#000066">Pre-proposal Application Form (FACSIMILE)</font></a><font color="#333333"><font size="2"> </font></font><br /><font color="#990000"> <a href="http://"><font size="4"><span class="nolink"></span></font></a><a href="http://"><font size="4"><span class="nolink"></span></font></a></font></h4> </div></div><script type="text/javascript">
+//<![CDATA[
+elementCookieHide("inst5590","Show New Call block","Hide New Call block");
+//]]>
+</script><span id="sb-3" class="skip-block-to"></span><a href="#sb-4" class="skip-block">Skip JTC 2014</a><div  id="inst5588" class="block_html sideblock"><div class="header"><div class="title"><input type="image" src="http://www.transcanfp7.eu/transcan/theme/transcan/pix/t/switch_minus.gif" id="togglehide_inst5588" onclick="elementToggleHide(this, true, function(el) {return findParentNode(el, 'DIV', 'sideblock'); }, 'Show JTC 2014 block', 'Hide JTC 2014 block'); return false;" alt="Hide JTC 2014 block" title="Hide JTC 2014 block" class="hide-show-image" /><h2>JTC 2014</h2></div></div><div class="content"> <br />
+<h4 style="text-align: center;"><font>TRANSCAN-2 <br /></font> First Joint Transnational Call for Proposals (JTC 2014)<br /></h4>
+<div align="center"><font size="1"><b><i><font color="#ff0000">THIS CALL IS NOW CLOSED </font></i><br /></b></font></div> </div></div><script type="text/javascript">
+//<![CDATA[
+elementCookieHide("inst5588","Show JTC 2014 block","Hide JTC 2014 block");
+//]]>
+</script><span id="sb-4" class="skip-block-to"></span><a href="#sb-5" class="skip-block">Skip JTC 2013</a><div  id="inst4429" class="block_html sideblock"><div class="header"><div class="title"><input type="image" src="http://www.transcanfp7.eu/transcan/theme/transcan/pix/t/switch_minus.gif" id="togglehide_inst4429" onclick="elementToggleHide(this, true, function(el) {return findParentNode(el, 'DIV', 'sideblock'); }, 'Show JTC 2013 block', 'Hide JTC 2013 block'); return false;" alt="Hide JTC 2013 block" title="Hide JTC 2013 block" class="hide-show-image" /><h2>JTC 2013</h2></div></div><div class="content">
+<h4 style="text-align: center;"><font color="#333333"><span style="color: rgb(51, 51, 51);"></span></font><font color="#333333"><font color="#000066">TRANSCAN <br /><a title="Third Joint Transnational Call for Proposals (JTC 2013)" href="http://www.transcanfp7.eu/transcan/mod/resource/view.php?id=85">3<sup>rd</sup> Joint Transnational Call for Proposals (JTC 2013)</a><br /><br /></font><font color="#ff0000"><em>THIS CALL IS NOW CLOSED<br /> </em></font></font></h4> </div></div><script type="text/javascript">
+//<![CDATA[
+elementCookieHide("inst4429","Show JTC 2013 block","Hide JTC 2013 block");
+//]]>
+</script><span id="sb-5" class="skip-block-to"></span><a href="#sb-6" class="skip-block">Skip JTC 2012</a><div  id="inst2282" class="block_html sideblock"><div class="header"><div class="title"><input type="image" src="http://www.transcanfp7.eu/transcan/theme/transcan/pix/t/switch_minus.gif" id="togglehide_inst2282" onclick="elementToggleHide(this, true, function(el) {return findParentNode(el, 'DIV', 'sideblock'); }, 'Show JTC 2012 block', 'Hide JTC 2012 block'); return false;" alt="Hide JTC 2012 block" title="Hide JTC 2012 block" class="hide-show-image" /><h2>JTC 2012</h2></div></div><div class="content">
+<h4 style="text-align: center;"><font color="#333333"><span style="color: rgb(51, 51, 51);"></span></font><font color="#333333"><font color="#000066">TRANSCAN<br />3<sup>rd</sup> Joint Transnational Call for Proposals (JTC 2013)</font> <br /></font><font color="#990000"> <a href="http://www.transcanfp7.eu/transcan/file.php/1/Calls/JTC-2013/Preannouncement_JTC-2013.pdf" target="_blank" title="JTC 2013 Preliminary Announcement">PRELIMINARY ANNOUNCEMENT</a></font>
+  <p></p></h4>
+<h4 style="text-align: center;"><font color="#333333"><font color="#000066">2<sup>nd</sup> Joint Transnational Call for Proposals (JTC 2012)</font> <br /></font><font color="#990000"> <a href="http://www.transcanfp7.eu/transcan/mod/resource/view.php?id=83" title="Projects selected for funding within the Second Joint Transnational Call (JTC 2012)">Projects selected for funding</a></font></h4>
+<p><br /></p> </div></div><script type="text/javascript">
+//<![CDATA[
+elementCookieHide("inst2282","Show JTC 2012 block","Hide JTC 2012 block");
+//]]>
+</script><span id="sb-6" class="skip-block-to"></span><a href="#sb-7" class="skip-block">Skip Calendar</a><div  id="inst4" class="block_calendar_month sideblock"><div class="header"><div class="title"><input type="image" src="http://www.transcanfp7.eu/transcan/theme/transcan/pix/t/switch_minus.gif" id="togglehide_inst4" onclick="elementToggleHide(this, true, function(el) {return findParentNode(el, 'DIV', 'sideblock'); }, 'Show Calendar block', 'Hide Calendar block'); return false;" alt="Hide Calendar block" title="Hide Calendar block" class="hide-show-image" /><h2>Calendar</h2></div></div><div class="content"><div id="overDiv" style="position: absolute; visibility: hidden; z-index:1000;"></div><script type="text/javascript" src="http://www.transcanfp7.eu/transcan/calendar/overlib.cfg.php"></script>
+<div class="calendar-controls"><a class="previous" href="index.php?cal_m=1&amp;cal_y=2016" title="Previous month"><span class="arrow ">&#x25C4;</span><span class="accesshide " >&nbsp;Previous month</span></a><span class="hide"> | </span><span class="current"><a href="http://www.transcanfp7.eu/transcan/calendar/view.php?view=month&amp;course=1&amp;cal_d=1&amp;cal_m=2&amp;cal_y=2016">February 2016</a></span><span class="hide"> | </span><a class="next" href="index.php?cal_m=3&amp;cal_y=2016" title="Next month"><span class="accesshide " >Next month&nbsp;</span><span class="arrow ">&#x25BA;</span></a>
+<span class="clearer"><!-- --></span></div>
+<table class="minicalendar" summary="Data table, February 2016 Calendar"><tr class="weekdays"><th scope="col"><abbr title="Sunday">Sun</abbr></th>
+<th scope="col"><abbr title="Monday">Mon</abbr></th>
+<th scope="col"><abbr title="Tuesday">Tue</abbr></th>
+<th scope="col"><abbr title="Wednesday">Wed</abbr></th>
+<th scope="col"><abbr title="Thursday">Thu</abbr></th>
+<th scope="col"><abbr title="Friday">Fri</abbr></th>
+<th scope="col"><abbr title="Saturday">Sat</abbr></th>
+</tr><tr><td class="dayblank">&nbsp;</td>
+<td class="day">1</td>
+<td class="day">2</td>
+<td class="day">3</td>
+<td class="day">4</td>
+<td class="day">5</td>
+<td class="weekend day">6</td>
+</tr><tr><td class="weekend day">7</td>
+<td class="day today eventnone"><span class="accesshide " >Today Monday, 8 February </span><a href="#" onmouseover="return overlib('No events', CAPTION, 'Today Monday, 8 February');" onmouseout="return nd();">8</a></td>
+<td class="day">9</td>
+<td class="day">10</td>
+<td class="day">11</td>
+<td class="day">12</td>
+<td class="weekend day">13</td>
+</tr><tr><td class="weekend day">14</td>
+<td class="day">15</td>
+<td class="day">16</td>
+<td class="day">17</td>
+<td class="day">18</td>
+<td class="day">19</td>
+<td class="weekend day">20</td>
+</tr><tr><td class="weekend day">21</td>
+<td class="day">22</td>
+<td class="day">23</td>
+<td class="day">24</td>
+<td class="day">25</td>
+<td class="day">26</td>
+<td class="weekend day">27</td>
+</tr><tr><td class="weekend day">28</td>
+<td class="day">29</td>
+<td class="dayblank">&nbsp;</td><td class="dayblank">&nbsp;</td><td class="dayblank">&nbsp;</td><td class="dayblank">&nbsp;</td><td class="dayblank">&nbsp;</td></tr></table></div></div><script type="text/javascript">
+//<![CDATA[
+elementCookieHide("inst4","Show Calendar block","Hide Calendar block");
+//]]>
+</script><span id="sb-7" class="skip-block-to"></span></div></td>
+  </tr>
+</table>
+
+</div> <!-- end div containerContent -->
+<!-- START OF FOOTER -->
+<div id="footer">
+
+<p class="helplink"></p>
+
+<div id="page_smap_text">
+    <p class="centerpara">
+        <img width="500" height="69" border="0" title="logos" alt="logos" src="/transcan/file.php/1/loghi.gif">
+    </p>
+    <p class="centerpara">
+            <a href="/transcan/mod/resource/view.php?id=58" title="Contact Us">Contact us</a>
+        ::
+        <a href="/transcan/mod/resource/view.php?id=60" title="Site Map">Site Map</a>
+        ::
+        <a href="/transcan/mod/resource/view.php?id=62" title="Disclaimer">Disclaimer</a>
+        </p>
+    <p class="centerpara">
+        Copyright 2011
+    </p>
+<div>
+    <div class="logininfo">You are not logged in. (<a  href="http://www.transcanfp7.eu/transcan/login/index.php">Login</a>)</div></div>
+<!-- <div class="sitelink"><a title="Moodle" href="http://moodle.org/"><img style="width:100px;height:30px" src="pix/moodlelogo.gif" alt="moodlelogo" /></a></div> -->
+
+
+
+</div> <!-- end <div id="footer"> -->
+</div> <!-- end <div id="page">   -->
+<div>
+	<map name="navi" id="navi">
+		<area href="http://www.transcanfp7.eu/transcan" alt="Home" shape="rectangle" coords="0,0,175,120" />
+	</map>
+</div>
+</body>
+</html>

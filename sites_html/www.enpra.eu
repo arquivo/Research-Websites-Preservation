@@ -1,0 +1,686 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en-GB" lang="en-GB" xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head">
+<!--**********************************************************************************-->
+<!-- DotNetNuke� - http://www.dotnetnuke.com                                          -->
+<!-- Copyright (c) 2002-2010                                                          -->
+<!-- by DotNetNuke Corporation                                                        -->
+<!--**********************************************************************************-->
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta content="text/javascript" http-equiv="Content-Script-Type" /><meta content="text/css" http-equiv="Content-Style-Type" /><meta id="MetaDescription" name="DESCRIPTION" content="ENPRA  Website" /><meta id="MetaKeywords" name="KEYWORDS" content="ENPRA ENPRA Website, Particle Risk, engineered nanoparticles risk assessment, nanotechnology, research,DotNetNuke,DNN" /><meta id="MetaCopyright" name="COPYRIGHT" content="Copyright ENPRA Project 2012" /><meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke " /><meta id="MetaAuthor" name="AUTHOR" content="ENPRA" /><meta name="RESOURCE-TYPE" content="DOCUMENT" /><meta name="DISTRIBUTION" content="GLOBAL" /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><meta name="REVISIT-AFTER" content="1 DAYS" /><meta name="RATING" content="GENERAL" /><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" /><style id="StylePlaceholder" type="text/css"></style><link id="APortals__default_" rel="stylesheet" type="text/css" href="/Portals/_default/default.css" /><link id="APortals__default_Skins_DNN360BlueColor_" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/DNN360BlueColor/skin.css" /><link id="APortals__default_Containers_BlueColor_" rel="stylesheet" type="text/css" href="/Portals/_default/Containers/BlueColor/container.css" /><link id="APortals_1_" rel="stylesheet" type="text/css" href="/Portals/1/portal.css" />	<link id="CISS_module_3101" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/DNN360BlueColor/TabbedDropdownPureCSS/TabbedDropdownPureCSS.css" /><link href="/Portals/_default/Skins/_default/WebControlSkin/Default/TabStrip.Default.css" rel="stylesheet" type="text/css" /><link href="/Portals/_default/Skins/_default/WebControlSkin/Default/RibbonBar/RibbonBar.Default.css" rel="stylesheet" type="text/css" /><link rel="SHORTCUT ICON" href="/Portals/1/favicon.ico" /><link href="/Portals/_default/Skins/_default/WebControlSkin/Default/RibbonBar/TabStrip.Default.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="/Resources/Shared/Scripts/jquery/jquery.min.js" ></script><title>
+	ENPRA > Home
+</title></head>
+<body id="Body">
+    <form name="Form" method="post" action="/Default.aspx" id="Form" enctype="multipart/form-data">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNzIwNzAyODk0D2QWBmYPFgIeBFRleHQFeTwhRE9DVFlQRSBodG1sIFBVQkxJQyAiLS8vVzNDLy9EVEQgWEhUTUwgMS4wIFRyYW5zaXRpb25hbC8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9UUi94aHRtbDEvRFREL3hodG1sMS10cmFuc2l0aW9uYWwuZHRkIj5kAgEPZBYOAgQPFgIeB1Zpc2libGVoZAIFDxYCHgdjb250ZW50BQ5FTlBSQSAgV2Vic2l0ZWQCBg8WAh8CBXVFTlBSQSBFTlBSQSBXZWJzaXRlLCBQYXJ0aWNsZSBSaXNrLCBlbmdpbmVlcmVkIG5hbm9wYXJ0aWNsZXMgcmlzayBhc3Nlc3NtZW50LCBuYW5vdGVjaG5vbG9neSwgcmVzZWFyY2gsRG90TmV0TnVrZSxETk5kAgcPFgIfAgUcQ29weXJpZ2h0IEVOUFJBIFByb2plY3QgMjAxMmQCCA8WAh8CBQtEb3ROZXROdWtlIGQCCQ8WAh8CBQVFTlBSQWQCDA8WAh8CBQ1JTkRFWCwgRk9MTE9XZAICD2QWAgIBD2QWBmYPZBYCZg8WAh8BaBYEAgEPZBYIAgMPEGRkFgBkAgcPFgIfAWhkAgkPFgIfAWhkAgsPZBYCZg8PFgYeCEltYWdlVXJsBRQvaW1hZ2VzL2NvbGxhcHNlLmdpZh4NQWx0ZXJuYXRlVGV4dAUITWluaW1pemUeB1Rvb2xUaXAFCE1pbmltaXplZGQCAw9kFgQCAQ8UKwACFCsAAg8WBB4EU2tpbgUHRGVmYXVsdB4TRW5hYmxlRW1iZWRkZWRTa2luc2hkEBYEZgIBAgICAxYEFCsAAmRkFCsAAmRkFCsAAg8WAh8BaGRkFCsAAg8WAh8BaGRkDxYEZmZmZhYBBW5UZWxlcmlrLldlYi5VSS5SYWRUYWIsIFRlbGVyaWsuV2ViLlVJLCBWZXJzaW9uPTIwMTAuMS4zMDkuMzUsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNGQWBAICDw8WAh8BaGRkAgMPDxYCHwFoZGQCAw8UKwACZBUECFBhZ2VIb21lC1BhZ2VDdXJyZW50CFBhZ2VTaXRlDlBhZ2VIb3N0U3lzdGVtFgQCAg8PFgIfAWhkZAIDDw8WAh8BaGRkAgUPZBYCZg9kFhxmD2QWAmYPDxYEHwUFBUVOUFJBHgtOYXZpZ2F0ZVVybAUdaHR0cDovL3d3dy5lbnByYS5ldS9Ib21lLmFzcHhkZAIBD2QWBGYPZBYGAgEPEA8WCh4IQ3NzQ2xhc3MFEFNlcnZlclNraW5XaWRnZXQfAAUDV2ViHwUFEUdvb2dsZSBXZWIgU2VhcmNoHgRfIVNCAgIfAWhkZGRkAgMPEA8WCh8JBRBTZXJ2ZXJTa2luV2lkZ2V0HwAFBFNpdGUfBQULU2l0ZSBTZWFyY2gfCgICHwFoZGRkZAIHDw8WBh8JBRBTZXJ2ZXJTa2luV2lkZ2V0HwAFajxpbWcgc3JjPSIvUG9ydGFscy9fZGVmYXVsdC9Ta2lucy9ETk4zNjBCbHVlQ29sb3Ivc2VhcmNoLmpwZyIgY2xhc3M9InNlYXJjaGltZyIgYm9yZGVyPSIwIiBhbHQ9IlNlYXJjaCIgLz4fCgICZGQCAg9kFgRmDw8WBB8EBRZTZWxlY3QgdGhlIHNlYXJjaCB0eXBlHwUFFlNlbGVjdCB0aGUgc2VhcmNoIHR5cGVkZAICDw8WBh8JBRBTZXJ2ZXJTa2luV2lkZ2V0HwAFajxpbWcgc3JjPSIvUG9ydGFscy9fZGVmYXVsdC9Ta2lucy9ETk4zNjBCbHVlQ29sb3Ivc2VhcmNoLmpwZyIgY2xhc3M9InNlYXJjaGltZyIgYm9yZGVyPSIwIiBhbHQ9IlNlYXJjaCIgLz4fCgICZGQCAg8PFgIfAWdkFgJmDxYCHwAFtg48IS0tIE1lbnUgZ2VuZXJhdGVkIGJ5IE5hdmlnYXRpb24gU3VpdGUgZm9yIERvdE5ldE51a2UgLCB3d3cuZG5uMzYwLm5ldCwgIC0tPgk8IS0tW2lmIGx0IElFIDddPiA8c2NyaXB0IGRlZmVyPSJkZWZlciIgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9Ii9Qb3J0YWxzL19kZWZhdWx0L1NraW5zL0ROTjM2MEJsdWVDb2xvci9UYWJiZWREcm9wZG93blB1cmVDU1MvcG5nZml4LmpzIiA+PC9zY3JpcHQ+CTwhW2VuZGlmXS0tPgkgPCEtLVtpZiBJRSA2XT4gPHNjcmlwdCBsYW5ndWFnZT0iamF2YXNjcmlwdCIgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiA+ICAgDQoJLy88IVtDREFUQVsNCiAgICAgDQogICAgIAkNCgkgDQogIA0KCQkJCQkJIA0KCQkJCQkJCXNmSG92ZXIgPSBmdW5jdGlvbigpIHsNCgkJCQkJCQkJdmFyIHNmRWxzID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoInRhYm1lbnUiKS5nZXRFbGVtZW50c0J5VGFnTmFtZSgibGkiKTsNCgkJCQkJCQkJZm9yICh2YXIgaT0wOyBpPHNmRWxzLmxlbmd0aDsgaSsrKSB7DQoJCQkJCQkJCQlzZkVsc1tpXS5vbm1vdXNlb3Zlcj1mdW5jdGlvbigpIHsNCgkJCQkJCQkJCQl0aGlzLmNsYXNzTmFtZSs9IiBzZkhvdmVyIjsNCgkJCQkJCQkJCX0NCgkJCQkJCQkJCXNmRWxzW2ldLm9ubW91c2VvdXQ9ZnVuY3Rpb24oKSB7DQoJCQkJCQkJCQkJdGhpcy5jbGFzc05hbWU9dGhpcy5jbGFzc05hbWUucmVwbGFjZShuZXcgUmVnRXhwKCIgc2ZIb3ZlclxcYiIpLCAiIik7DQoJCQkJCQkJCQl9DQoJCQkJCQkJCX0NCgkJCQkJCQl9DQoJCQkJCQkJaWYgKHdpbmRvdy5hdHRhY2hFdmVudCkgd2luZG93LmF0dGFjaEV2ZW50KCJvbmxvYWQiLCBzZkhvdmVyKTsNCgkJCQkJIA0KCQ0KCQ0KCQ0KLy9dXT4NCgkgCTwhW2VuZGlmXS0tPjwvc2NyaXB0PjxkaXYgaWQ9InRhYm1lbnUiID48dWwgY2xhc3M9Im1lbnUiPjxsaSBpZD0iY3VycmVudCIgY2xhc3M9ImFjdGl2ZSBoYXNjaGlsZCI+PGEgaHJlZj0iaHR0cDovL3d3dy5lbnByYS5ldS9Ib21lLmFzcHgiPjxzcGFuPkhvbWU8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGNsYXNzPSIiIGhyZWY9Imh0dHA6Ly93d3cuZW5wcmEuZXUvQWJvdXQuYXNweCI+PHNwYW4+QWJvdXQ8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGNsYXNzPSIiIGhyZWY9Imh0dHA6Ly93d3cuZW5wcmEuZXUvUGFydG5lcnMuYXNweCI+PHNwYW4+UGFydG5lcnM8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGNsYXNzPSIiIGhyZWY9Imh0dHA6Ly93d3cuZW5wcmEuZXUvTGlua3MuYXNweCI+PHNwYW4+TGlua3M8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGNsYXNzPSIiIGhyZWY9Imh0dHA6Ly93d3cuZW5wcmEuZXUvTmV3c0V2ZW50cy5hc3B4Ij48c3Bhbj5OZXdzICYgRXZlbnRzPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iIiBocmVmPSJodHRwOi8vd3d3LmVucHJhLmV1L1B1YmxpY2F0aW9ucy5hc3B4Ij48c3Bhbj5QdWJsaWNhdGlvbnM8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGNsYXNzPSIiIGhyZWY9Imh0dHA6Ly93d3cuZW5wcmEuZXUvTWVtYmVyQXJlYS5hc3B4Ij48c3Bhbj5NZW1iZXIgQXJlYTwvc3Bhbj48L2E+PC9saT48bGk+PGEgY2xhc3M9IiIgaHJlZj0iaHR0cDovL3d3dy5lbnByYS5ldS9SZWdpc3RyYXRpb24uYXNweCI+PHNwYW4+UmVnaXN0cmF0aW9uPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iIiBocmVmPSJodHRwOi8vd3d3LmVucHJhLmV1L0NvbnRhY3QuYXNweCI+PHNwYW4+Q29udGFjdDwvc3Bhbj48L2E+PC9saT48bGk+PGEgY2xhc3M9IiIgaHJlZj0iaHR0cDovL3d3dy5lbnByYS5ldS9TaXRlTWFwLmFzcHgiPjxzcGFuPlNpdGUgTWFwPC9zcGFuPjwvYT48L2xpPjwvdWw+PC9kaXY+ZAIDD2QWAmYPDxYGHwkFBHVzZXIfAAUFTG9naW4fCgICZGQCBA9kFgJmDw8WBh8JBQR1c2VyHwAFCFJlZ2lzdGVyHwoCAmRkAgcPFgIeBWNsYXNzBRR0b3BwYW5lIEROTkVtcHR5UGFuZWQCCA9kFgQCAQ9kFhICAQ9kFgICAg8WAh8BaBYGZg8WAh8FBQRFZGl0ZAIBDxYCHwUFBlVwZGF0ZWQCAg8WAh8FBQZDYW5jZWxkAgMPDxYCHwFoZGQCBQ8PFgIfAWhkZAIHD2QWAmYPDxYCHwFoZGQCCQ9kFgICAQ8PZBYCHwsFD0ROTl9IVE1MQ29udGVu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" />
+</div>
+
+
+<script src="/js/dnncore.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = '{"name":"en-GB","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":".","IsReadOnly":false,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":",","CurrencySymbol":"£","NaNSymbol":"NaN","CurrencyNegativePattern":1,"NumberNegativePattern":1,"PercentPositivePattern":0,"PercentNegativePattern":0,"NegativeInfinitySymbol":"-Infinity","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":".","NumberGroupSeparator":",","CurrencyPositivePattern":0,"PositiveInfinitySymbol":"Infinity","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":".","PercentGroupSeparator":",","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"AM","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402300799999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":false},"DateSeparator":"/","FirstDayOfWeek":1,"CalendarWeekRule":0,"FullDateTimePattern":"dd MMMM yyyy HH:mm:ss","LongDatePattern":"dd MMMM yyyy","LongTimePattern":"HH:mm:ss","MonthDayPattern":"dd MMMM","PMDesignator":"PM","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd/MM/yyyy","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"ShortestDayNames":["Su","Mo","Tu","We","Th","Fr","Sa"],"DayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"AbbreviatedMonthNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"MonthNames":["January","February","March","April","May","June","July","August","September","October","November","December",""],"IsReadOnly":false,"NativeCalendarName":"Gregorian Calendar","AbbreviatedMonthGenitiveNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"MonthGenitiveNames":["January","February","March","April","May","June","July","August","September","October","November","December",""]}}';//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=pKd2fSxNwelmRHwnHGy0w6VkkJotuT7ak-DQNiqcYtk-vK4CFImwGkL1KE0g_dGTl5ZknV2VjD6p9Y3yUxK9yyEDyImcXDSHuccKiUC7LIO9MOsvMxipisrzUF7U9ylB8zUB9-7lXAu6pAPES-TQd2AUKvo1&amp;t=ffffffffd303b98b" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+</div>
+
+
+        
+        
+<div id="skinbody"><div class="template_style">
+		<table border="0" cellpadding="0" cellspacing="0" align="center" class="inbox">
+			<tr>
+				<td width="32" rowspan="4" align="right" valign="top" class="leftsideouter">
+				<img src="/Portals/_default/Skins/DNN360BlueColor/lt_sd.jpg" width="32" height="1" alt="" /></td>
+				<td width="100%" align="center" valign="top" class="space">
+				<a name="top" id="top"></a>
+				<table width="100%" border="0" cellpadding="0" cellspacing="0" class="top">
+					<tr>
+						<td align="left" valign="middle" id="logo">
+						<a id="dnn_dnnlogo_hypLogo" title="ENPRA" href="http://www.enpra.eu/Home.aspx"><img id="dnn_dnnlogo_imgLogo" src="/Portals/1/enprabanner10.png" alt="ENPRA" style="border-width:0px;" /></a></td>
+						<td align="right" valign="top"  height="87">
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" id="search_bg">
+							<tr>
+								<td align="center" valign="middle" style="height:80%;">
+								<div class="search_style">
+									<div class="search_bg">
+										<span id="dnn_dnnSEARCH_ClassicSearch">
+  
+  
+  <input name="dnn$dnnSEARCH$txtSearch" type="text" maxlength="255" size="20" id="dnn_dnnSEARCH_txtSearch" class="NormalTextBox" onkeydown="return __dnn_KeyDown('13', 'javascript:__doPostBack(%27dnn$dnnSEARCH$cmdSearch%27,%27%27)', event);" />&nbsp;
+  <a id="dnn_dnnSEARCH_cmdSearch" class="ServerSkinWidget" href="javascript:__doPostBack('dnn$dnnSEARCH$cmdSearch','')"><img src="/Portals/_default/Skins/DNN360BlueColor/search.jpg" class="searchimg" border="0" alt="Search" /></a>
+</span>
+
+
+
+									</div>
+								</div>
+								<div class="clear_float"></div>
+								</td>
+							</tr>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align="left" valign="bottom" class="nav_bg" colspan="2">
+						<div class="nav_tab_outer">
+						<div class="firstspace">&nbsp;</div> 
+				 	   <div style="float:left;margin-top:1px;">
+				 	     <!-- Menu generated by Navigation Suite for DotNetNuke , www.dnn360.net,  -->	<!--[if lt IE 7]> <script defer="defer" type="text/javascript" src="/Portals/_default/Skins/DNN360BlueColor/TabbedDropdownPureCSS/pngfix.js" ></script>	<![endif]-->	 <!--[if IE 6]> <script language="javascript" type="text/javascript" >   
+	//<![CDATA[
+     
+     	
+	 
+  
+						 
+							sfHover = function() {
+								var sfEls = document.getElementById("tabmenu").getElementsByTagName("li");
+								for (var i=0; i<sfEls.length; i++) {
+									sfEls[i].onmouseover=function() {
+										this.className+=" sfHover";
+									}
+									sfEls[i].onmouseout=function() {
+										this.className=this.className.replace(new RegExp(" sfHover\\b"), "");
+									}
+								}
+							}
+							if (window.attachEvent) window.attachEvent("onload", sfHover);
+					 
+	
+	
+	
+//]]>
+	 	<![endif]--></script><div id="tabmenu" ><ul class="menu"><li id="current" class="active haschild"><a href="http://www.enpra.eu/Home.aspx"><span>Home</span></a></li><li><a class="" href="http://www.enpra.eu/About.aspx"><span>About</span></a></li><li><a class="" href="http://www.enpra.eu/Partners.aspx"><span>Partners</span></a></li><li><a class="" href="http://www.enpra.eu/Links.aspx"><span>Links</span></a></li><li><a class="" href="http://www.enpra.eu/NewsEvents.aspx"><span>News & Events</span></a></li><li><a class="" href="http://www.enpra.eu/Publications.aspx"><span>Publications</span></a></li><li><a class="" href="http://www.enpra.eu/MemberArea.aspx"><span>Member Area</span></a></li><li><a class="" href="http://www.enpra.eu/Registration.aspx"><span>Registration</span></a></li><li><a class="" href="http://www.enpra.eu/Contact.aspx"><span>Contact</span></a></li><li><a class="" href="http://www.enpra.eu/SiteMap.aspx"><span>Site Map</span></a></li></ul></div>
+						</div>
+						<div class="nav_tab_inner_top_right">
+						<table width="100%" border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td align="right" valign="bottom" class="space">
+								<table width="100%" border="0" cellpadding="0" cellspacing="0" id="login">
+									<tr>
+										<td align="left" valign="bottom"><img src="/Portals/_default/Skins/DNN360BlueColor/login_lt.jpg" width="32" height="29" alt="" /></td>
+										<td width="100%" align="center" valign="middle" style="background-image:url(/Portals/_default/Skins/DNN360BlueColor/login_mid.jpg)">
+										<a id="dnn_dnnlogin_cmdLogin" class="user" href="javascript:__doPostBack('dnn$dnnlogin$cmdLogin','')">Login</a>
+										</td>
+										<td align="right" valign="bottom"><img src="/Portals/_default/Skins/DNN360BlueColor/login_rt.jpg" width="10" height="29" alt="" /></td>
+									</tr>
+								</table>
+								</td>
+								<td align="right" valign="bottom" class="space_user">
+								<table width="100%" border="0" cellpadding="0" cellspacing="0" id="user">
+									<tr>
+										<td align="left" valign="bottom"><img src="/Portals/_default/Skins/DNN360BlueColor/user_lt.jpg" width="32" height="29" alt="" /></td>
+										<td width="100%" align="center" style="background-image:url(/Portals/_default/Skins/DNN360BlueColor/login_mid.jpg)">
+										<a id="dnn_dnnuser_cmdRegister" class="user" href="javascript:__doPostBack('dnn$dnnuser$cmdRegister','')">Register</a>
+										</td>
+										<td align="right" valign="bottom"><img src="/Portals/_default/Skins/DNN360BlueColor/login_rt.jpg" width="10" height="29" alt="" /></td>
+									</tr>
+								</table>
+								</td>
+							</tr>
+						</table></div>
+						<div class="clear_float"></div><div class="nav_tab_inner_bottom"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+							<tr><td align="left">
+								<table width="100%" border="0" cellpadding="0" cellspacing="0">
+									<tr>
+										<td valign="middle" class="breadcrumb">
+										You are here :&nbsp;
+										<span id="dnn_dnnBreadcrumb_lblBreadCrumb"><a href="http://www.enpra.eu/Home.aspx" class="breadcrumb">Home</a></span>
+
+										</td>
+									</tr>
+								</table>
+								</td>
+								<td align="right" valign="middle"  class="space date"><span id="dnn_dnncurrentdate_lblDate" class="date">08 February 2016</span>
+</td>
+							</tr>
+						</table></div>						
+						</div>
+						</td>
+					</tr>
+				</table></td>
+				<td width="34" rowspan="4" align="left" valign="top" class="rightsideouter"><img src="/Portals/_default/Skins/DNN360BlueColor/rt_sd.jpg" width="34" height="1" alt="" /></td>
+			</tr>
+			<tr>
+				<td align="center" valign="top" class="space paddingbt9">
+				<table width="100%" border="0" cellpadding="0" cellspacing="0">
+					<tr><td align="left" valign="top" class="center">
+						<table width="100%" border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td id="dnn_TopPane" colspan="2" class="toppane DNNEmptyPane" valign="top" align="left"></td>
+
+							</tr>
+							<tr>
+								<td id="dnn_LeftPane" class="leftpane" valign="top" align="left"><a name="486"></a>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" >
+  <tr>
+    <td align="left" valign="top" ><table width="100%"  border="0" cellpadding="0" cellspacing="0" class="titlespace">
+              <tr>
+                <td width="11%" align="left"  valign="middle" nowrap="nowrap" ><span id="dnn_ctr486_dnnTITLE_lblTitle" class="dialogtitle2">Funding</span>
+
+
+
+                </td>
+                <td width="11%" align="center"  valign="middle" nowrap="nowrap"></td>
+                <td  width="5%" align="center"  valign="middle" nowrap="nowrap"></td>
+                <td  width="85%" align="right" valign="middle" nowrap="nowrap"></td>
+              </tr>
+            </table></td>
+  </tr>
+  <tr>
+    <td id="dnn_ctr486_ContentPane" width="100%" align="left" valign="top" class="content"><!-- Start_Module_486 --><div id="dnn_ctr486_ModuleContent" class="DNN_HTMLContent">
+	<div id="dnn_ctr486_HtmlModule_lblContent" class="Normal">
+		<p style="text-align: center"><span style="color: #000000"><span style="color: #000000"><a target="_blank" href="http://cordis.europa.eu/fp7/"><img alt="" align="top" width="60" height="49" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" src="/Portals/1/fp7small.png" /></a><br />
+</span><a target="_blank" href="http://cordis.europa.eu/fp7/">Funded by the EU<br />
+FP7 Programme</a></span>&#160;</p>
+	</div>
+
+</div><!-- End_Module_486 --></td>
+
+  </tr>
+  <tr>
+    <td align="left" valign="top" class="Bluec2_bbg"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="left" valign="middle" nowrap="nowrap" ></td>
+          <td  align="right" valign="middle" nowrap="nowrap">
+            &nbsp;
+            
+            &nbsp;
+            
+          </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<br />
+
+
+
+<a name="487"></a>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" >
+  <tr>
+    <td align="left" valign="top" ><table width="100%"  border="0" cellpadding="0" cellspacing="0" class="titlespace">
+              <tr>
+                <td width="11%" align="left"  valign="middle" nowrap="nowrap" ><span id="dnn_ctr487_dnnTITLE_lblTitle" class="dialogtitle2">Related projects</span>
+
+
+
+                </td>
+                <td width="11%" align="center"  valign="middle" nowrap="nowrap"></td>
+                <td  width="5%" align="center"  valign="middle" nowrap="nowrap"></td>
+                <td  width="85%" align="right" valign="middle" nowrap="nowrap"></td>
+              </tr>
+            </table></td>
+  </tr>
+  <tr>
+    <td id="dnn_ctr487_ContentPane" width="100%" align="left" valign="top" class="content"><!-- Start_Module_487 --><div id="dnn_ctr487_ModuleContent" class="DNN_HTMLContent">
+	<div id="dnn_ctr487_HtmlModule_lblContent" class="Normal">
+		<p><a target="_blank" href="http://ki.projectcoordinator.net/projectweb/490599f501abc/Index.html"><img border="0" alt="Link to the Nanommune FP7 Project" width="120" longdesc="Link to the nanommune FP7 Project" height="30" src="/Portals/1/enpracontent/urlpics/nanommune02.gif" /><br />
+<br type="_moz" />
+</a></p>
+<p><a target="_blank" href="http://www.nanotest-fp7.eu/"><img border="0" alt="NanoTest FP7 Project" width="119" height="33" src="/Portals/1/enpracontent/urlpics/nanotest.gif" /></a></p>
+<p><a target="_blank" href="http://www.observatorynano.eu/project/"><br />
+<img border="0" alt="Observatory Nano" width="116" height="39" src="/Portals/1/enpracontent/urlpics/observtorynano01.gif" /></a></p>
+<p><a target="_blank" href="http://www.nanoimpactnet.eu/"><br />
+<img border="0" alt="NanoImpactNet" width="116" height="26" src="/Portals/1/enpracontent/urlpics/nanoimpactnet01.gif" /></a></p>
+<p><br />
+<a target="_blank" href="http://cordis.europa.eu/fp7/"><img border="0" width="120" height="32" alt="" src="/Portals/1/enpracontent/urlpics/eucordis02.gif" /></a></p>
+<p><a target="_blank" href="http://NAPIRA.eu"><img border="0" alt="NanHub" width="120" height="48" src="/Portals/1/enpracontent/urlpics/nanohub01.png" /></a></p>
+<p><br />
+<span style="color: rgb(0,0,255)"><strong><span style="font-size: larger"><a href="/LinkClick.aspx?link=107&amp;tabid=58">Further links</a></span></strong></span></p>
+	</div>
+
+</div><!-- End_Module_487 --></td>
+
+  </tr>
+  <tr>
+    <td align="left" valign="top" class="Bluec2_bbg"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="left" valign="middle" nowrap="nowrap" ></td>
+          <td  align="right" valign="middle" nowrap="nowrap">
+            &nbsp;
+            
+            &nbsp;
+            
+          </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<br />
+
+
+
+</td>
+
+								<td id="dnn_ContentPane" class="contentpane" valign="top" align="left"><a name="403"></a>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" >
+  <tr>
+    <td align="left" valign="top" ><table width="100%"  border="0" cellpadding="0" cellspacing="0" class="titlespace">
+              <tr>
+                <td width="11%" align="left"  valign="middle" nowrap="nowrap" ><span id="dnn_ctr403_dnnTITLE_lblTitle" class="dialogtitle2">Welcome to the ENPRA Website</span>
+
+
+
+                </td>
+                <td width="11%" align="center"  valign="middle" nowrap="nowrap"></td>
+                <td  width="5%" align="center"  valign="middle" nowrap="nowrap"></td>
+                <td  width="85%" align="right" valign="middle" nowrap="nowrap"></td>
+              </tr>
+            </table></td>
+  </tr>
+  <tr>
+    <td id="dnn_ctr403_ContentPane" width="100%" align="left" valign="top" class="content"><!-- Start_Module_403 --><div id="dnn_ctr403_ModuleContent" class="DNN_HTMLContent">
+	<div id="dnn_ctr403_HtmlModule_lblContent" class="Normal">
+		<p><span style="COLOR: #000000"><span style="FONT-SIZE: larger">The ENPRA <font size="4">(</font><span style="FONT-FAMILY: 'Arial Narrow'; FONT-SIZE: 12pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-GB; mso-fareast-language: EN-GB; mso-bidi-language: AR-SA">RISK ASSESSMENT OF ENGINEERED NANOPARTICLES)</span>&#160;project&#160;is a major new European Framework 7 project to develop and implement a novel integrated approach </span><span style="FONT-SIZE: larger">for engineered nanoparticle (ENP) risk assessment</span>.</span></p>
+<p><span style="COLOR: #000000"><span style="FONT-SIZE: larger">With an estimated economic impact of $292 billion by 2010 across industrial, consumer and medical products, nanotechnology is already one of the key industries within Europe and worldwide. Key to its long term growth and sustainability is establishing end-user confidence that the technologies developed are safe. ENPRA (Engineered NanoParticle Risk Assessment) aims to support long term growth and sustainability of nanotechnologies by expanding the classic exposure-dose-response paradigm of risk assessment, to develop an effective approach for the assessment and management of potential health risks from exposure to engineered nanoparticles.</span></span></p>
+<p><span style="COLOR: #000000"><span style="FONT-SIZE: larger">The 3 ½ year project is&#160;led by the Institute of Occupational Medicine (IOM) in &#160;Edinburgh. Worth €3.7 million, it harnesses the knowledge and capabilities of 15 European and 6 US partners including three US Federal Agencies: EPA, NIOSH and NIH-NIEHS. The full list of ENPRA partners is <a href="http://www.enpra.eu/Partners.aspx">available here</a>.</span></span></p>
+<p><span style="COLOR: #000000"><span style="FONT-SIZE: larger">Under the coordination of Dr Lang Tran, IOM’s Director of Computational Toxicology, ENPRA will utilise the latest advances within in vitro, in vivo and in silico approaches to nanotechnology environment, health &amp; safety (EHS) research to realise its aims. The in vitro and in silico approaches to be developed within ENPRA will help to reduce the need for animal experimentation in nanotoxicology.</span></span></p>
+	</div>
+
+</div><!-- End_Module_403 --></td>
+
+  </tr>
+  <tr>
+    <td align="left" valign="top" class="Bluec2_bbg"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="left" valign="middle" nowrap="nowrap" ></td>
+          <td  align="right" valign="middle" nowrap="nowrap">
+            &nbsp;
+            
+            &nbsp;
+            
+          </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<br />
+
+
+
+<a name="489"></a>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" >
+  <tr>
+    <td align="left" valign="top" ><table width="100%"  border="0" cellpadding="0" cellspacing="0" class="titlespace">
+              <tr>
+                <td width="11%" align="left"  valign="middle" nowrap="nowrap" ><span id="dnn_ctr489_dnnTITLE_lblTitle" class="dialogtitle2">News and Events</span>
+
+
+
+                </td>
+                <td width="11%" align="center"  valign="middle" nowrap="nowrap"></td>
+                <td  width="5%" align="center"  valign="middle" nowrap="nowrap"></td>
+                <td  width="85%" align="right" valign="middle" nowrap="nowrap"></td>
+              </tr>
+            </table></td>
+  </tr>
+  <tr>
+    <td id="dnn_ctr489_ContentPane" width="100%" align="left" valign="top" class="content"><!-- Start_Module_489 --><div id="dnn_ctr489_ModuleContent" class="DNN_HTMLContent">
+	<div id="dnn_ctr489_HtmlModule_lblContent" class="Normal">
+		<h3 style="color: red; "><strong>ENPRA Meeting to Present Final Results</strong></h3>
+<table width="440" border="1" cellpadding="4" cellspacing="0">
+    <tbody>
+        <tr>
+            <td><span style="font-family: Tahoma; "><span style="color: rgb(0, 0, 255); "><strong>When:</strong></span></span></td>
+            <td><span style="font-family: Tahoma; "><span style="color: rgb(0, 0, 255); "><strong>Sep 19, 2012 09:30 AM to Sep 20, 2012 04:00 PM </strong></span></span></td>
+        </tr>
+        <tr>
+            <td><span style="font-family: Tahoma; "><span style="color: rgb(0, 0, 255); "><strong>Where:&#160;</strong></span></span></td>
+            <td><span style="font-family: Tahoma; "><span style="color: rgb(0, 0, 255); "><strong>Heriot-Watt University, Edinburgh (UK) </strong></span></span></td>
+        </tr>
+        <tr>
+            <td><span style="font-family: Tahoma; "><span style="color: rgb(0, 0, 255); "><strong>Contact name:&#160;</strong></span></span></td>
+            <td><span style="font-family: Tahoma; "><span style="color: rgb(0, 0, 255); "><strong>&#160;<a href="javascript:void(location.href='mailto:'+String.fromCharCode(106,114,99,45,105,104,99,112,45,110,97,110,111,116,101,99,104,110,111,108,111,103,121,64,101,99,46,101,117,114,111,112,97,46,101,117)+'?subject=Final%20meeting%20web%20site%20enquiry')">jrc-ihcp-nanotechnology </a></strong></span></span></td>
+        </tr>
+        <tr>
+            <td><span style="font-family: Tahoma; "><span style="color: rgb(0, 0, 255); "><strong>Organiser:&#160;</strong></span></span></td>
+            <td><span style="font-family: Tahoma; "><span style="color: rgb(0, 0, 255); "><strong>ENPRA Project</strong></span></span></td>
+        </tr>
+    </tbody>
+</table>
+<p>On 19-20 September 2012 the Final Meeting of the EU-FP7-funded ENPRA project (Risk Assessment of Engineered NanoParticles) will be held at Heriot-Watt University in Edinburgh (UK).&#160;</p>
+<p>After three and a half years of research, the team of the ENPRA project is looking forward to presenting the final results of its activities on the assessment and management of potential health risks from exposure to engineered nanoparticles.</p>
+<p>As part of an annual series (2012, 2011 and 2010) and as final event of the project, the meeting will bring together the project leaders as well as regulators and other stakeholders.</p>
+<p><span style="color: rgb(0, 0, 255); ">Participation and Programme&#160;</span></p>
+<p>To ensure a balanced representation of backgrounds and expertise, participation in this workshop is by invitation only. However, a limited number of places are available to interested participants upon request. In this case, please contact the meeting organisers at <a href="javascript:void(location.href='mailto:'+String.fromCharCode(106,114,99,45,105,104,99,112,45,110,97,110,111,116,101,99,104,110,111,108,111,103,121,64,101,99,46,101,117,114,111,112,97,46,101,117)+'?subject=Final%20meeting%20web%20enquiry')">jrc-ihcp-nanotechnology</a>&#160;by 02/09/2012.&#160;</p>
+<p>Further programme details for the meeting will be available &#160;from the website soon.&#160;</p>
+<p>&#160;</p>
+<h3 style="color: red; "><strong>The Sixth ENPRA Project Newsletter is now available!</strong></h3>
+<h3><span style="color: rgb(0, 0, 0); font-size: 12px; font-weight: normal; ">ENPRA's sixth newsletter, containing the third ENPRA/JRC stakeholder workshop ,&#160;Year-3 ENPRA consortium meeting, sixth EONS meeting plus focus article (In vitro hazard assessment of engineered nanomaterials: Update&#160;<span style="font-size: 12px; font-weight: normal;">from WP4)</span><span style="color: rgb(0, 0, 0); font-size: 12px; font-weight: normal; ">&#160;and events is now available.&#160;</span><a target="_blank" href="/LinkClick.aspx?fileticket=oM0tRRLmeYo%3d&amp;tabid=58">Click here to download</a></span></h3>
+<h3 style="color: red;"><strong>The Sixth meeting of the European Observatory on NanoSafety (EONS) took place in Paris on 24 May 2012.</strong></h3>
+<p><span style="color: rgb(0, 0, 0); font-size: 12px; font-weight: normal; ">For more information on the presentations and discussions held during the meeting, download here to learn more.</span><a href="/LinkClick.aspx?fileticket=Oo-weD9b_eU%3d&amp;tabid=58">Click here to download</a></p>
+<h3 style="color: red;"><strong><span style="color: rgb(255, 0, 0);">The Fifth meeting  of the European Observatory on NanoSafety (EONS) took place in Paris on October  13, 2011. </span></strong></h3>
+<p>For more information on the presentations and discussions held during the meeting,  download here to learn more. <a target="_blank" href="/LinkClick.aspx?fileticket=QTrTMn12-mk%3d&amp;tabid=58">Click here to download</a></p>
+<h3 style="color: red;"><strong><span style="color: rgb(255, 0, 0);">The Fifth ENPRA  Project Newsletter  is now available! </span></strong></h3>
+<p>ENPRA's fifth newsletter, containing an account of the mid-term progress meeting,  EONS meeting and Stakeholder meeting plus focus article and events is now available. <a target="_blank" href="/LinkClick.aspx?fileticket=7ZDl6WqRbMw%3d&amp;tabid=58">Click here to download</a></p>
+<h3 style="color: red;"><strong><span style="color: rgb(255, 0, 0);">The Fourth ENPRA  Project Newsletter  is now available! </span></strong></h3>
+<p>ENPRA's fourth newsletter, containing an account of the mid-term progress meeting,  EONS meeting and Stakeholder meeting plus focus articles and events is now available. <a target="_blank" href="/LinkClick.aspx?fileticket=k3JzksD6zsA%3d&amp;tabid=58">Click here to download</a></p>
+<h3 style="color: red;"><strong><span style="color: rgb(255, 0, 0);">Joint JRC Nano Event and 2nd ENPRA Stakeholders  Workshop</span></strong></h3>
+<p>The 2nd ENPRA Stakeholders Workshop was held  on 10-12 May 2011 in Varese (Italy) on the ‘Challenges of Regulation and Risk Assessment  of Nanomaterials’. To view the report from this meeting, <a target="_blank" href="/LinkClick.aspx?fileticket=vNdbj9LmMxo%3d&amp;tabid=58">click here</a>.</p>
+<p>Contributions to the "Challenges of Regulation and Risk Assessment of Nanomaterials"  event on 10-12 May 2011 are now available.</p>
+<p>The workshop involved about 90 participants, from industry, government, NGOs,  and academia. During two and a half days 34 experts from 26 different organisations  informed participants on the latest scientific progress in the field of nanoparticle  risk assessment within the ENPRA project and discussed recent developments concerning  legislation in the EU and beyond.</p>
+<p>Twenty-eight presentations were delivered at the Joint nano Event and  Stakeholders Workshop and are now available on-line: <a target="_blank" href="http://ihcp.jrc.ec.europa.eu/events_workshops/joint-jrc-nano-enpra-2011/program/presentations"> ENPRA Workshop 2011 - Programme with Presentations</a>.</p>
+<h3><strong><span style="color: rgb(255, 0, 0);">Environment, Health and Safety Aspects  of Nanomaterials: Excerpts of the fourth ENPRA EONS Report are available for public  download</span></strong></h3>
+<p>ENPRA's fourth Expert Panel Meeting took place in Brussels on March 31st 2011.  For more information on the presentations and discussions held during the meeting, <a target="_blank" href="/LinkClick.aspx?fileticket=SBS1xrnE8zY%3d&amp;tabid=58">download here to  learn more</a>.</p>
+<h3 style="color: red;"><strong>The Third ENPRA Project Newsletter is now available!</strong></h3>
+<p>ENPRA's third newsletter, containing a summary of research progress within year  2 of the project, a report on the latest results from nanoparticle kinetics studies  undertaken within the project's WP5, and a focus article on characterisation of  ENPs as carried out by partners within ENPRA is now available. <a target="_blank" href="/LinkClick.aspx?fileticket=Ujw3YM1FKuQ%3d&amp;tabid=58">Click here to download</a>  (pdf, 536kb)</p>
+<h3 style="color: red;"><strong>Environment, Health and Safety Aspects of Nanomaterials:  Excerpts of the third ENPRA EONS Report available for public download</strong></h3>
+<p>ENPRA's third Expert Panel Meeting took place in Paris on October 6th 2010. For  more information on the presentations and discussions during the meeting <a target="_blank" href="/LinkClick.aspx?fileticket=YJGbRHPr1d0%3d&amp;tabid=58">download here to  learn more </a>&#160;</p>
+<h3 style="color: red;"><strong>The Second ENPRA Project Newsletter is now  available.</strong></h3>
+<p>ENPRA's second newsletter offers summarises research progress and developments from its first year,  together with a summary of upcoming events and noteworthy announcements.&#160; Follow  this link to <a target="_blank" href="/LinkClick.aspx?fileticket=TpZOAKLJerw%3d&amp;tabid=58">download  the newsletter and learn more </a>(pdf, 393 kb)</p>
+<h3 style="color: red;"><strong>Environment, Health and Safety Aspects of Nanomaterials:  Excerpts of the second ENPRA EONS Report available for public download</strong></h3>
+<p>&#160;(6th July) ENPRA's second Expert Panel Meeting took place in Ispra, Italy  in April 2010. The meeting provided a forum for invited experts from around the  world to discuss key publications and findings from the first half of 2010, and  to form opinions on their value to future nanotechnology EHS research. The proceedings  of this meeting were summarised in the first 'European Observatory on Nano Safety'  (EONS) report, which was available in full to ENPRA members.</p>
+<p>We are now pleased to be able to make publicly available excerpts of this report,  which compile three of the key publications highlighted within the full report.  To download a copy, <a target="_blank" href="/LinkClick.aspx?fileticket=Kdnm4zbu6C8%3d&amp;tabid=58">click here </a> (pdf, 1mb).</p>
+<h3 style="color: red;"><strong>Environment, Health and Safety Aspects of Nanomaterials:  Excerpts of the first ENPRA EONS Report available for public download </strong></h3>
+<p>(13th April) ENPRA's first Expert Panel Meeting tookENPRA's first Expert Panel  Meeting took place in Paris, November 2009. The meeting provided a forum for invited  experts from around the world to discuss key publications and findings from the  latter half of 2009, and to form opinions on their value to future nanotechnology  EHS research. The proceedings of this meeting were summarised in the first 'European  Observatory on Nano Safety' (EONS) report, which was available in full to ENPRA  members.</p>
+<p>&#160;We are now pleased to be able to make publicly available excerpts of this  report, which compile three of the key publications highlighted within the full  report. To download a copy, <a target="_blank" href="/LinkClick.aspx?fileticket=8xn4IMPJon8%3d&amp;tabid=58 "> click here<small> </small></a>(pdf, 2mb).</p>
+<h3 style="color: red;"><strong>Environment, Health and Safety Aspects of Nanomaterials:  First ENPRA EONS Report available to ENPRA members online </strong></h3>
+<p>(13th April) ENPRA's first Expert Panel Meeting took place in Paris, November  2009. The meeting provided a forum for invited experts from around the world to  discuss key publications and findings from the latter half of 2009, and to form  opinions on their value to future nanotechnology EHS research.The proceedings of  this meeting have been summarised in the first 'European Observtory on Nano Safety'  (EONS) report, and are now available exclusively to ENPRA members in the member  area of the website. Visit the <a target="_blank" href="/LinkClick.aspx?link=128&amp;tabid=58">'Final  Project Deliverables'</a> section for access.&#160;</p>
+<h3 style="color: red;"><strong>First ENPRA Project Newsletter is now available to download.</strong></h3>
+<p>(28th January) ENPRA's first newsletter offers an introduction to the ENPRA project,  and summarises research progress and developments from its first 6 months, together  with a summary of upcoming events and noteworthy announcements.&#160; Follow this  link to <a target="_blank" href="/LinkClick.aspx?fileticket=x1ipU9U4IPI%3d&amp;tabid=58"> download the newsletter and learn more</a> (pdf, 217kb).</p>
+	</div>
+
+</div><!-- End_Module_489 --></td>
+
+  </tr>
+  <tr>
+    <td align="left" valign="top" class="Bluec2_bbg"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="left" valign="middle" nowrap="nowrap" ></td>
+          <td  align="right" valign="middle" nowrap="nowrap">
+            &nbsp;
+            
+            &nbsp;
+            
+          </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<br />
+
+
+
+<a name="444"></a>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" >
+  <tr>
+    <td align="left" valign="top" ><table width="100%"  border="0" cellpadding="0" cellspacing="0" class="titlespace">
+              <tr>
+                <td width="11%" align="left"  valign="middle" nowrap="nowrap" ><span id="dnn_ctr444_dnnTITLE_lblTitle" class="dialogtitle2">Project contacts</span>
+
+
+
+                </td>
+                <td width="11%" align="center"  valign="middle" nowrap="nowrap"></td>
+                <td  width="5%" align="center"  valign="middle" nowrap="nowrap"></td>
+                <td  width="85%" align="right" valign="middle" nowrap="nowrap"></td>
+              </tr>
+            </table></td>
+  </tr>
+  <tr>
+    <td id="dnn_ctr444_ContentPane" width="100%" align="left" valign="top" class="content"><!-- Start_Module_444 --><div id="dnn_ctr444_ModuleContent" class="DNN_HTMLContent">
+	<div id="dnn_ctr444_HtmlModule_lblContent" class="Normal">
+		<p style="text-align: left"><span style="color: #000000">For &#160;further information about the ENPRA project please contact:&#160;<br />
+<br />
+Dr Lang Tran, Director of Computational Toxiciology, <br />
+Institute Of Occupational Medicine,<br />
++44 (0) 131 449 8050; Email</span>: <a href="mailto:lang.tran@iom-world.org">lang.tran@iom-world.org</a><br />
+<br />
+<span style="color: #000000">or Susan Makari, Project Manager,&#160;<br />
+Institute Of Occupational Medicine,<br />
++44 (0) 131 449 8065; Email</span>: <a href="javascript:void(location.href='mailto:'+String.fromCharCode(115,117,115,97,110,46,109,97,107,97,114,105,64,105,111,109,45,119,111,114,108,100,46,111,114,103)+'?')">susan.makari@iom-world.org</a></p>
+	</div>
+
+</div><!-- End_Module_444 --></td>
+
+  </tr>
+  <tr>
+    <td align="left" valign="top" class="Bluec2_bbg"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="left" valign="middle" nowrap="nowrap" ></td>
+          <td  align="right" valign="middle" nowrap="nowrap">
+            &nbsp;
+            
+            &nbsp;
+            
+          </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<br />
+
+
+
+</td>
+
+							</tr>
+						</table></td>
+						<td id="dnn_RightPane" width="195" align="left" valign="top" class="rightpane"><a name="443"></a>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="Bluec3_bg">
+  <tr>
+    <td align="left" valign="top"><img src="/Portals/_default/Containers/BlueColor/c3_tl.jpg" width="8" height="8" /></td>
+    <td height="8"></td>
+    <td align="right" valign="top"><img src="/Portals/_default/Containers/BlueColor/c3_tr.jpg" width="8" height="8" /></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td width="100%" align="left" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="left" valign="top" ><table width="100%"  border="0" cellpadding="0" cellspacing="0" >
+            <tr>
+              <td width="11%" align="left"  valign="middle" nowrap="nowrap" ><span id="dnn_ctr443_dnnTITLE_lblTitle" class="dialogtitle3">Project activity</span>
+
+
+
+              </td>
+              <td width="11%" align="center"  valign="middle" nowrap="nowrap"></td>
+              <td  width="5%" align="center"  valign="middle" nowrap="nowrap"></td>
+              <td  width="85%" align="right" valign="middle" nowrap="nowrap"></td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td id="dnn_ctr443_ContentPane" width="100%" align="left" valign="top"><!-- Start_Module_443 --><div id="dnn_ctr443_ModuleContent" class="DNN_HTMLContent">
+	<div id="dnn_ctr443_HtmlModule_lblContent" class="Normal">
+		<p><span style="font-size: small;">The sixth meeting of the European Observatory on NanoSafety (EONS) took place in Paris on 24 May 2012</span></p>
+<p>The proceedings of this meeting have been summarised in the&#160;sixth 'European Observtory on Nano Safety' (EONS)&#160;report, and an excerpt is available on the Home page. The main report is available exclusively to ENPRA&#160;members in the member area of the website. Visit the&#160;<a href="http://www.enpra.eu/MemberArea/Workpackages/WP7Riskmanagement.aspx">WP7</a>&#160;section for access.&#160;&#160;</p>
+	</div>
+
+</div><!-- End_Module_443 --></td>
+
+      </tr>
+      <tr>
+        <td align="left" valign="top" ><table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="left" valign="middle" nowrap="nowrap"></td>
+              <td  align="right" valign="middle" nowrap="nowrap">
+                &nbsp;
+                
+                &nbsp;
+                
+              </td>
+            </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="left" valign="bottom"><img src="/Portals/_default/Containers/BlueColor/c3_bl.jpg" width="8" height="8" /></td>
+    <td></td>
+    <td align="right" valign="bottom"><img src="/Portals/_default/Containers/BlueColor/c3_br.jpg" width="8" height="8" /></td>
+  </tr>
+</table>
+<br />
+
+
+<a name="445"></a>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="Bluec3_bg">
+  <tr>
+    <td align="left" valign="top"><img src="/Portals/_default/Containers/BlueColor/c3_tl.jpg" width="8" height="8" /></td>
+    <td height="8"></td>
+    <td align="right" valign="top"><img src="/Portals/_default/Containers/BlueColor/c3_tr.jpg" width="8" height="8" /></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td width="100%" align="left" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="left" valign="top" ><table width="100%"  border="0" cellpadding="0" cellspacing="0" >
+            <tr>
+              <td width="11%" align="left"  valign="middle" nowrap="nowrap" ><span id="dnn_ctr445_dnnTITLE_lblTitle" class="dialogtitle3">Website & Newsletter</span>
+
+
+
+              </td>
+              <td width="11%" align="center"  valign="middle" nowrap="nowrap"></td>
+              <td  width="5%" align="center"  valign="middle" nowrap="nowrap"></td>
+              <td  width="85%" align="right" valign="middle" nowrap="nowrap"></td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td id="dnn_ctr445_ContentPane" width="100%" align="left" valign="top"><!-- Start_Module_445 --><div id="dnn_ctr445_ModuleContent" class="DNN_HTMLContent">
+	<div id="dnn_ctr445_HtmlModule_lblContent" class="Normal">
+		<p>Providing general information on the project and its progress, and links to related areas.</p>
+<p>Registered members of www.enpra.eu can access further information, with private areas for Project Team information and collaboration, eg project plans, progress reports, protocols, discussion forums, project Wiki etc.</p>
+<p>The site provides&#160;a resource for ENPRA project team members and other interested parties. We welcome any useful content - please submit any items such as events and links, or other ENPRA related items of interest via our&#160;<a href="/LinkClick.aspx?link=127&amp;tabid=58">feedback form</a>.</p>
+<p>Non project team members can still register for future updates and occasional&#160;ENPRA newsletters.</p>
+<p>The&#160;fifth ENPRA newsletter is available to download now - <a href="/LinkClick.aspx?fileticket=7ZDl6WqRbMw%3d&amp;tabid=58">click here for access.&#160;</a></p>
+	</div>
+
+</div><!-- End_Module_445 --></td>
+
+      </tr>
+      <tr>
+        <td align="left" valign="top" ><table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="left" valign="middle" nowrap="nowrap"></td>
+              <td  align="right" valign="middle" nowrap="nowrap">
+                &nbsp;
+                
+                &nbsp;
+                
+              </td>
+            </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="left" valign="bottom"><img src="/Portals/_default/Containers/BlueColor/c3_bl.jpg" width="8" height="8" /></td>
+    <td></td>
+    <td align="right" valign="bottom"><img src="/Portals/_default/Containers/BlueColor/c3_br.jpg" width="8" height="8" /></td>
+  </tr>
+</table>
+<br />
+
+
+<a name="477"></a>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" >
+  <tr>
+    <td align="left" valign="top" ><table width="100%"  border="0" cellpadding="0" cellspacing="0" class="titlespace">
+              <tr>
+                <td width="11%" align="left"  valign="middle" nowrap="nowrap" ><span id="dnn_ctr477_dnnTITLE_lblTitle" class="dialogtitle2">&nbsp;</span>
+
+
+
+                </td>
+                <td width="11%" align="center"  valign="middle" nowrap="nowrap"></td>
+                <td  width="5%" align="center"  valign="middle" nowrap="nowrap"></td>
+                <td  width="85%" align="right" valign="middle" nowrap="nowrap"></td>
+              </tr>
+            </table></td>
+  </tr>
+  <tr>
+    <td id="dnn_ctr477_ContentPane" width="100%" align="left" valign="top" class="content"><!-- Start_Module_477 --><div id="dnn_ctr477_ModuleContent" class="ContentRotatorContent">
+	<p><img width="184" height="151" alt="" src="/Portals/1/enpracontent/rotators/enpart.jpg" /></p>
+<p>&#160;</p>
+
+</div><!-- End_Module_477 --></td>
+
+  </tr>
+  <tr>
+    <td align="left" valign="top" class="Bluec2_bbg"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="left" valign="middle" nowrap="nowrap" ></td>
+          <td  align="right" valign="middle" nowrap="nowrap">
+            &nbsp;
+            
+            &nbsp;
+            
+          </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<br />
+
+
+
+</td>
+
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<tr>
+			<td align="center" valign="top" class="space paddingbt9">
+			  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    
+                                </tr>
+                                <tr>
+                                    
+                                    
+                                    
+                                </tr>
+                                <tr>
+                                    
+                                </tr>
+              </table>
+			</td>
+			</tr>
+			<tr>
+				<td align="left" valign="middle" class="bottom">
+				<table width="100%" border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td height="35" class="footer"><span id="dnn_dnnCopyright_lblCopyright" class="footer">Copyright ENPRA Project 2012</span>
+ | <a id="dnn_dnnPrivacy_hypPrivacy" class="footer" rel="nofollow" href="http://www.enpra.eu/Privacy.aspx">Privacy Statement</a> | <a id="dnn_dnnTerms_hypTerms" class="footer" rel="nofollow" href="http://www.enpra.eu/Terms.aspx">Terms Of Use</a></td>
+						<td align="right"><a href="#top" class="footer">top of page</a></td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+		</table>
+</div></div>
+
+
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" />
+        
+    
+<script type="text/javascript" src="/Resources/Shared/scripts/initWidgets.js" ></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+</body>
+</html>

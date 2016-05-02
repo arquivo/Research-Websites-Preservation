@@ -1,0 +1,963 @@
+
+<!DOCTYPE html>
+<html lang="en-US"><head>
+<meta charset="UTF-8" />
+<title>iNSPiRe</title>
+
+    
+    
+
+<link rel="pingback" href="http://www.inspirefp7.eu/xmlrpc.php" />
+
+<link rel="alternate" type="application/rss+xml" title="iNSPiRe &raquo; Home Comments Feed" href="http://www.inspirefp7.eu/homepage-example/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.inspirefp7.eu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='dynamix-style-css'  href='http://www.inspirefp7.eu/wp-content/themes/DynamiX-Child/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bbp-child-bbpress-css'  href='http://www.inspirefp7.eu/wp-content/themes/DynamiX-Child/stylesheets/bbpress.css?ver=2.5.8-5815' type='text/css' media='screen' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.inspirefp7.eu/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='rotatingtweets-css'  href='http://www.inspirefp7.eu/wp-content/plugins/rotatingtweets/css/style.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='cpm_admin-css'  href='http://www.inspirefp7.eu/wp-content/plugins/wedevs-project-manager/assets/css/admin.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='cpm_prettyPhoto-css'  href='http://www.inspirefp7.eu/wp-content/plugins/wedevs-project-manager/assets/css/prettyPhoto.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-css'  href='http://www.inspirefp7.eu/wp-content/plugins/wedevs-project-manager/assets/css/jquery-ui-1.9.1.custom.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-chosen-css'  href='http://www.inspirefp7.eu/wp-content/plugins/wedevs-project-manager/assets/css/chosen.css?ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='googlefonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:300|Open+Sans:300,400,600|Merriweather:400&subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='http://www.inspirefp7.eu/wp-content/plugins/tablepress/css/default.min.css?ver=1.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-default-main-css'  href='http://www.inspirefp7.eu/wp-content/themes/DynamiX/stylesheets/style-buddypress.css?ver=20110804' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-content/plugins/rotatingtweets/js/jquery.cycle.all.min.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-content/plugins/rotatingtweets/js/rotating_tweet.js?ver=1.7.18'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-content/themes/DynamiX/js/dynamix.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var BP_Confirm = {"are_you_sure":"Are you sure?"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-content/plugins/buddypress/bp-core/js/confirm.min.js?ver=2.3.5'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-includes/js/plupload/plupload.full.min.js?ver=2.1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pluploadL10n = {"queue_limit_exceeded":"You have attempted to queue too many files.","file_exceeds_size_limit":"%s exceeds the maximum upload size for this site.","zero_byte_file":"This file is empty. Please try another.","invalid_filetype":"This file type is not allowed. Please try another.","not_an_image":"This file is not an image. Please try another.","image_memory_exceeded":"Memory exceeded. Please try another smaller file.","image_dimensions_exceeded":"This is larger than the maximum size. Please try another.","default_error":"An error occurred in the upload. Please try again later.","missing_upload_url":"There was a configuration error. Please contact the server administrator.","upload_limit_exceeded":"You may only upload 1 file.","http_error":"HTTP error.","upload_failed":"Upload failed.","big_upload_failed":"Please try uploading this file with the %1$sbrowser uploader%2$s.","big_upload_queued":"%s exceeds the maximum upload size for the multi-file uploader when used in your browser.","io_error":"IO error.","security_error":"Security error.","file_cancelled":"File canceled.","upload_stopped":"Upload stopped.","dismiss":"Dismiss","crunching":"Crunching\u2026","deleted":"moved to the trash.","error_uploading":"\u201c%s\u201d has failed to upload."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-includes/js/plupload/handlers.min.js?ver=4.3.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var BP_DTheme = {"my_favs":"My Favorites","accepted":"Accepted","rejected":"Rejected","show_all_comments":"Show all comments for this thread","show_all":"Show all","comments":"comments","close":"Close","view":"View"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-content/plugins/buddypress//bp-themes/bp-default/_inc/global.js?ver=20110818'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.inspirefp7.eu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.inspirefp7.eu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.3" />
+<link rel='canonical' href='http://www.inspirefp7.eu/' />
+<link rel='shortlink' href='http://www.inspirefp7.eu/' />
+
+		<script type="text/javascript" charset="utf-8">
+			/* <![CDATA[ */
+			var ajaxurl = 'http://www.inspirefp7.eu/wp-admin/admin-ajax.php';
+
+						/* ]]> */
+		</script>
+
+	
+	<script type="text/javascript">var ajaxurl = 'http://www.inspirefp7.eu/wp-admin/admin-ajax.php';</script>
+
+<meta name="generator" content="Custom Login v3.2.4" />
+<style type='text/css' media='screen'>
+	body{ font-family:"Open Sans", arial, sans-serif;}
+	h1{ font-family:"Open Sans", arial, sans-serif;}
+	h2{ font-family:"Open Sans", arial, sans-serif;}
+	h3{ font-family:"Open Sans", arial, sans-serif;}
+	h4{ font-family:"Open Sans", arial, sans-serif;}
+	h5{ font-family:"Open Sans", arial, sans-serif;}
+	h1{text-transform: uppercase;
+letter-spacing: -1px;
+}
+	body{ font-family:"Open Sans", arial, sans-serif;}
+	strong {font-weight:600;}
+	blockquote{ font-family:"Merriweather", arial, sans-serif;}
+</style>
+<!-- fonts delivered by Wordpress Google Fonts, a plugin by Adrian3.com --><!-- All in one Favicon 4.3 --><link rel="shortcut icon" href="http://inspirefp7.eu/wp-content/uploads/2013/01/favicon.ico" />
+<link rel="icon" href="http://inspirefp7.eu/wp-content/uploads/2013/01/favicon.png" type="image/png"/>
+
+<style type="text/css">
+
+#toppanel, #toppanel a,.lowerfooter, .tweets h3 a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, #content {color:#5f5f5f;}	
+.sidebar-content li a, #footer a, #panel a  {color: #5f5f5f;}
+.sidebar-content li a:hover, #toppanel a:hover{color: #999;}
+
+a, div.item-list-tabs#subnav a.show-hide-new, div.item-list-tabs#subnav a.new-reply-link {
+	color: #1594d9;
+  	text-decoration: none;
+	outline: none; /* firefox fix  */
+}
+
+a:hover,#sub-tabs ul li.current_page_item,div.item-list-tabs#subnav a.show-hide-new:hover,div.item-list-tabs#subnav a.new-reply-link:hover, span.bbp-breadcrumb-current {color: #3bb8ff;}
+
+#sub-tabs ul li a {	color:#b4b4b4;}
+acronym, abbr {	border-bottom: 1px dashed #1594d9;}
+
+ div.item-list-tabs ul li a span { background-color: #1594d9; }
+
+.slidernav-left a {background:#1594d9 url(http://www.inspirefp7.eu/wp-content/themes/DynamiX/images/gallery-nav.png) top left no-repeat;}
+.slidernav-right a {background:#1594d9 url(http://www.inspirefp7.eu/wp-content/themes/DynamiX/images/gallery-nav.png) top right no-repeat;}
+.slidernav-left a:hover {background:#3bb8ff url(http://www.inspirefp7.eu/wp-content/themes/DynamiX/images/gallery-nav.png) top left no-repeat;}
+.slidernav-right a:hover {background:#3bb8ff url(http://www.inspirefp7.eu/wp-content/themes/DynamiX/images/gallery-nav.png) top right no-repeat;}
+
+
+#content ul li.socialinit, #content ul li.socialhide:hover, #content .socialicons ul li, #content .postmetadata .comments.yes, .twitterfollow a, #wp-calendar td a,.tab a.open,.tab a.close,#content .textresize ul li,ul.paging li.pagebutton,.accordion .ui-icon,.revealbox .ui-icon, .stage-control #stage-prev,.stage-control #stage-next,.stage-control #stage-pause,.stage-control #stage-resume, .stage-control .poststage-prev,.stage-control .poststage-next,.stage-control .poststage-pause,.stage-control .poststage-resume,span.highlight.one {
+ background-color:#1594d9;
+}
+
+#content ul li.socialinit:hover,#content ul li.socialhide, #content .socialicons ul li:hover, #content .postmetadata .comments.yes:hover, .twitterfollow a:hover,#wp-calendar td a:hover,.tab a:hover.open,.tab a:hover.close,#content .textresize ul li:hover,ul.paging li.pagebutton.active, ul.paging a li.pagebutton, .accordion .ui-state-active .ui-icon, .stage-control #stage-prev:hover,.stage-control #stage-next:hover,.stage-control #stage-pause:hover,.stage-control #stage-resume:hover, .stage-control .poststage-prev:hover,.stage-control .poststage-next:hover,.stage-control .poststage-pause:hover,.stage-control .poststage-resume:hover {
+ background-color:#3bb8ff;
+}
+
+.panelcontent h2 a, .panelcontent h2 { color:#5f5f5f;}
+
+#header-logo {margin-top:24px;}
+
+
+body { 
+ font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+ font-size:0.75em; 
+}	
+
+
+#wrapper #nv-tabs ul li.extended-menu ul li ul li:hover {background:url(http://www.inspirefp7.eu/wp-content/themes/DynamiX/stylesheets/images/gradient-f-light.png) repeat-x top;}	
+
+.content-wrapper-inner {
+  position: relative;
+  height: 100%;
+background-color: #fff;
+}
+
+h1{
+line-height:25px;
+}
+
+form.standard-form #profile-details-section {
+margin-right: 18px;
+}</style>
+
+<link rel="stylesheet" href="http://www.inspirefp7.eu/wp-content/themes/DynamiX/stylesheets/grey.css" type="text/css" media="screen" />
+
+
+<!--[if IE 6]>
+<style type="text/css" media="screen">
+  @import "http://www.inspirefp7.eu/wp-content/themes/DynamiX/stylesheets/ie6.css";
+</style>
+<![endif]-->
+
+<!--[if IE 7]>
+<style type="text/css" media="screen">
+  @import "http://www.inspirefp7.eu/wp-content/themes/DynamiX/stylesheets/ie7.css";
+</style>
+<![endif]-->
+
+<!--[if IE]> <style> .clearfix {display: inline-block;} /* Hides from IE-mac \*/ * html .clearfix {height: 1%;} .clearfix {display: block;} /* End hide from IE-mac */ </style> <![endif]-->
+
+ 
+<script type="text/javascript" src="http://www.inspirefp7.eu/wp-content/themes/DynamiX/js/Lucida_Sans_Unicode_400.font.js" defer></script>
+<!--[if gte IE 9]> <script type="text/javascript"> Cufon.set('engine', 'canvas'); </script> <![endif]-->
+
+
+<!--[if lte IE 8]>
+<style type="text/css">
+.content-wrapper,.styledbox.general,.columns.border,.gallery-wrap,div#object-nav.item-list-tabs,div#message {
+    behavior: url(http://www.inspirefp7.eu/wp-content/themes/DynamiX/js/PIE.htc);
+}
+</style>
+<![endif]-->
+
+
+</head>
+<body  class="home-page home page page-id-7 page-template-default inskin-one">
+
+
+<div><a id="top"></a></div>
+
+<!-- Drop Panel -->
+<div id="toppanel">
+
+
+	<div id="panel" style="">
+		<div class="content clearfix">
+				
+				
+								
+				<div class="panel-wrap panel-columns-4 ">
+					<ul>
+                            					</ul>
+				</div>
+				
+								
+				<div class="panel-wrap panel-columns-4 ">
+					<ul>
+                            					</ul>
+				</div>
+				
+								
+				<div class="panel-wrap panel-columns-4 ">
+					<ul>
+                            					</ul>
+				</div>
+				
+								
+				<div class="panel-wrap panel-columns-4 last">
+					<ul>
+                            					</ul>
+				</div>
+				
+				
+						</div><!-- / content -->
+	</div> <!-- / panel -->
+
+    
+    <div class="tab-wrap">
+	<!-- The tab on top -->
+	<div class="tab">
+		<ul class="panelswitch">
+			<li class="left"> </li>
+			<!-- Login / Register -->
+			<li id="toggle" class="droppanel ">
+				<div class="search-wrap">
+					<form method="get" id="panelsearchform" action="http://www.inspirefp7.eu">
+						<fieldset>
+                        <input type="text" value="Search" name="s" id="drops" onFocus="if(this.value == 'Search') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Search';}" />
+						<input type="submit" id="panelsearchsubmit" value="&nbsp;" />
+        				</fieldset>
+                    </form>
+				</div><!-- search-wrap end -->
+                                <div class="trigger">
+					                    <a id="open" class="toggle open" href="#"><img src="http://www.inspirefp7.eu/wp-content/themes/DynamiX/images/blank.gif" width="15" height="10" alt="open panel" /></a>
+                    <a id="close" style="display: none;" class="toggle close" href="#"><img src="http://www.inspirefp7.eu/wp-content/themes/DynamiX/images/blank.gif" width="15" height="10" alt="close panel" /></a>
+                                    </div><!-- /trigger -->
+                                                
+			</li> <!-- / toggle -->
+			<li class="right"> </li>
+		</ul>
+	</div> <!-- / top -->
+    </div> <!-- / tab-wrap -->
+</div> <!--/toppanel -->
+<div id="wrapper" class="gallery ">
+	<div id="page" class="gallery ">
+    	<div class="header-wrap"></div>
+        <div class="header-wrap-img"></div>
+		<div id="header" class="gallery ">
+        				<div id="header-logo">
+				<div id="logo">
+					<a href="http://www.inspirefp7.eu/"><img src="http://inspirefp7.eu/wp-content/uploads/2013/01/logo_main-.png" alt="iNSPiRe" /></a>
+				</div>
+				<div class="clear"></div>
+			</div><!-- /header-logo -->
+              
+			<div id="nv-tabs">
+				<ul id="dyndropmenu" class="menu"><li class="menubreak"></li><li id="menu-item-1453" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7 current_page_item"><a href="http://www.inspirefp7.eu/">Home</a></li>
+<li class="menubreak"></li><li id="menu-item-367" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a title="iNSPiRe" href="http://www.inspirefp7.eu/about-inspire/">About</a><span class="menudesc">iNSPiRe</span>
+<ul class="sub-menu">
+	<li id="menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.inspirefp7.eu/about-inspire/publishable-summary-and-key-message-guide/">Publishable Summary</a></li>
+</ul>
+</li>
+<li class="menubreak"></li><li id="menu-item-1405" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="http://www.inspirefp7.eu/downloadable-results/">Downloadable Results</a>
+<ul class="sub-menu">
+	<li id="menu-item-497" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.inspirefp7.eu/about-inspire/downloadable-reports/">Downloadable Reports</a></li>
+</ul>
+</li>
+<li class="menubreak"></li><li id="menu-item-1259" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Solutions Database" href="#">Retrofit</a><span class="menudesc">Solutions Database</span>
+<ul class="sub-menu">
+	<li id="menu-item-1261" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.inspirefp7.eu/building-stock-statistics/">Building Stock Statistics</a></li>
+	<li id="menu-item-1260" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.inspirefp7.eu/reference-building-simulations/">Reference Building Simulations</a></li>
+	<li id="menu-item-1280" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.inspirefp7.eu/target-building-simulations/">Retrofit Packages</a></li>
+</ul>
+</li>
+<li class="menubreak"></li><li id="menu-item-283" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children"><a title="Blog" href="http://www.inspirefp7.eu/category/latest-news/">News and Media</a><span class="menudesc">Blog</span>
+<ul class="sub-menu">
+	<li id="menu-item-1396" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.inspirefp7.eu/image-gallery/">Image Gallery</a></li>
+	<li id="menu-item-498" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.inspirefp7.eu/about-inspire/media-assets/">Media Assets</a></li>
+	<li id="menu-item-1320" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.inspirefp7.eu/about-inspire/newsletters/">Newsletters</a></li>
+	<li id="menu-item-1357" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.inspirefp7.eu/about-inspire/press-releases/">Press Releases</a></li>
+	<li id="menu-item-1383" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.inspirefp7.eu/videos/">Videos</a></li>
+</ul>
+</li>
+<li class="menubreak"></li><li id="menu-item-526" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#">Links</a>
+<ul class="sub-menu">
+	<li id="menu-item-528" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.inspirefp7.eu/links/eu-projects/">EU Projects</a></li>
+	<li id="menu-item-529" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.inspirefp7.eu/links/eu-institutions/">EU Institutions</a></li>
+</ul>
+</li>
+<li class="menubreak"></li><li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="http://www.inspirefp7.eu/contact/">Contact</a>
+<ul class="sub-menu">
+	<li id="menu-item-527" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.inspirefp7.eu/links/consortium-links/">Consortium Links</a></li>
+	<li id="menu-item-326" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Partner Area" href="#">Intranet</a><span class="menudesc">Partner Area</span>
+	<ul class="sub-menu">
+		<li id="menu-item-456" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://inspirefp7.eu/wp-login.php">Log In</a></li>
+		<li id="menu-item-328" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.inspirefp7.eu/inspireregister/">Register</a></li>
+		<li id="menu-item-438" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.inspirefp7.eu/file-repository/">Project Database</a></li>
+		<li id="menu-item-327" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.inspirefp7.eu/members/">Member Directory</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+</ul>                			</div><!-- /tabs -->
+		</div><!-- /header -->
+
+
+<div class="gallerywrap stage-slider-wrap" style="height:390px">
+<div class="control-wrap">
+    
+	<div class="control-panel">
+
+	</div><!-- / control-panel -->
+</div><!-- / control-wrap -->
+<div class="stage-slider">
+
+
+<div class="panel " >
+    
+	<div class="panel-inner">
+     
+		    
+             
+       
+            <div class="container none " style=" width:640px;float:right">
+                <div class="gridimg-wrap" style="width:640px;">
+                   
+                    	                                   	
+                    
+                    <a href="/about-inspire" title="iNSPiRe Sets Its Sights">                            
+                            <img  src="http://www.inspirefp7.eu/wp-content/themes/DynamiX/lib/scripts/timthumb.php?h=350&amp;w=640&amp;zc=0&amp;src=http://inspirefp7.eu/wp-content/uploads/2013/01/slide_2-.jpg" alt="iNSPiRe Sets Its Sights" width="640" height="350" />
+
+					                        </a>
+                    
+
+				                    
+                </div><!-- / gridimg-wrap -->
+            </div><!-- / container -->				
+                    
+              
+                  
+     
+     <div class="stagetextwrap" style=" float:left;height:350px;">
+            	<div class="stagetextinner">
+                	<div class="stagetextbottom">
+                    	<div class="stagetext">
+                            <h2><a href="/about-inspire" title="iNSPiRe Sets Its Sights">iNSPiRe Sets Its Sights</a></h2>
+								
+                                The European Union has announced ambitious targets for the reduction of energy consumption of buildings in Europe. 
+<p><p/>
+In recognition of the potential for energy savings in existing building stock, the Energy Performance of Buildings Directive recast (EPBD recast, 2010) states that, alongside its target to construct zero-energy new buildings by 2020, renovation targets should aim to transform existing buildings into nearly zero-energy buildings, too.                                 <p><a href="/about-inspire">Read more &rarr;</a></p>
+                                                          
+                    	</div>
+                    </div>
+       			</div>
+       </div>        
+        
+		
+		       
+
+     </div><!--  / panel-inner -->
+</div><!--  / panel -->        
+        
+
+<div class="panel " >
+    
+	<div class="panel-inner">
+     
+		    
+             
+       
+            <div class="container none " style=" width:640px;float:right">
+                <div class="gridimg-wrap" style="width:640px;">
+                   
+                    	                                   	
+                    
+                    <a href="/about-inspire" title="Stage One">                            
+                            <img  src="http://www.inspirefp7.eu/wp-content/themes/DynamiX/lib/scripts/timthumb.php?h=350&amp;w=640&amp;zc=0&amp;src=/wp-content/uploads/2013/01/slide_1-.jpg" alt="Stage One" width="640" height="350" />
+
+					                        </a>
+                    
+
+				                    
+                </div><!-- / gridimg-wrap -->
+            </div><!-- / container -->				
+                    
+              
+                  
+     
+     <div class="stagetextwrap" style=" float:left;height:350px;">
+            	<div class="stagetextinner">
+                	<div class="stagetextbottom">
+                    	<div class="stagetext">
+                            <h2><a href="/about-inspire" title="Stage One">Stage One</a></h2>
+								
+                                The first stage of iNSPiRe is the analysis of building stock across Europe to produce seven target examples that represent the majority. 
+<p><p/>
+By looking at these buildings holistically, taking in all aspects of the structure and energy distribution, iNSPiRE will use these templates to consider renovation procedures with a large replication potential.                                <p><a href="/about-inspire">Read more &rarr;</a></p>
+                                                          
+                    	</div>
+                    </div>
+       			</div>
+       </div>        
+        
+		
+		       
+
+     </div><!--  / panel-inner -->
+</div><!--  / panel -->        
+        
+
+<div class="panel " >
+    
+	<div class="panel-inner">
+     
+		    
+             
+       
+            <div class="container none " style=" width:640px;float:right">
+                <div class="gridimg-wrap" style="width:640px;">
+                   
+                    	                                   	
+                    
+                    <a href="/about-inspire" title="Stage Two">                            
+                            <img  src="http://www.inspirefp7.eu/wp-content/themes/DynamiX/lib/scripts/timthumb.php?h=350&amp;w=640&amp;zc=0&amp;src=/wp-content/uploads/2013/01/slide_3-.jpg" alt="Stage Two" width="640" height="350" />
+
+					                        </a>
+                    
+
+				                    
+                </div><!-- / gridimg-wrap -->
+            </div><!-- / container -->				
+                    
+              
+                  
+     
+     <div class="stagetextwrap" style=" float:left;height:350px;">
+            	<div class="stagetextinner">
+                	<div class="stagetextbottom">
+                    	<div class="stagetext">
+                            <h2><a href="/about-inspire" title="Stage Two">Stage Two</a></h2>
+								
+                                The second major stage of iNSPiRe will be the development of multifunctional renovation kits that make use of innovative envelope technologies, energy generation systems (including RES integration) and energy distribution systems. 
+<p><p/>
+Here there are exciting plans for the development and design of façade and roof kits with innovative energy storage solutions and heating/ventilation devices.                                 <p><a href="/about-inspire">Read more &rarr;</a></p>
+                                                          
+                    	</div>
+                    </div>
+       			</div>
+       </div>        
+        
+		
+		       
+
+     </div><!--  / panel-inner -->
+</div><!--  / panel -->        
+        
+
+</div><!-- / stageslider -->
+
+<div class="clear"></div>
+<script type='text/javascript'>
+<!--
+jQuery(document).ready(function() {
+
+	jQuery('.control-panel').append('<ul class="nav"></ul>');
+
+	jQuery('.stage-slider').cycle({ 
+		fx:     'fade', 
+		timeoutFn: calculateTimeout,
+		speed: 750,
+		before:  onBefore,
+		after:  onAfter,
+		pager:  '.control-panel .nav',
+		pause:  1,
+		cleartype:  true,
+    	cleartypeNoBg:  true,
+		next:   '#stage-next', 
+    	prev:   '#stage-prev',
+		
+		pagerAnchorBuilder: function(idx, slide) { 
+        return '<li><a href="#"><img src="http://www.inspirefp7.eu/wp-content/themes/DynamiX/images/blank.gif" width="16" height="16" alt="slide" /></a></li>'; 
+    } 
+	
+	});
+
+
+
+	function onBefore() { 
+   		var videoid = jQuery(this).find('.jwplayer').attr("id");
+			
+		jQuery('.jwplayer').each(function(index) {
+					str='';
+					str = jQuery(this).attr("id");
+					if(str!=videoid) {
+						if(str.search("video")==-1) {
+						jwplayer(str).stop();
+						}
+					}					 
+		});
+	
+	} 
+
+	function onAfter() { 
+
+   		var videoid = jQuery(this).find('.jwplayer').attr("id");
+			
+		jQuery('.jwplayer').each(function(index) {
+					str='';
+					str = jQuery(this).attr("id");
+					autostart = jQuery(this).attr("class");
+					if(str==videoid) {
+						if(str.search("video")==-1 && autostart.search("autostart")!=-1) {
+						jwplayer(str).stop().play();
+						}
+					}					 
+		});
+					
+	} 
+
+
+
+
+
+
+	jQuery('#stage-pause').click(function() { 
+		jQuery('.stage-slider').cycle('pause'); 
+	});
+	
+	jQuery('#stage-resume').click(function() { 
+		jQuery('.stage-slider').cycle('resume'); 
+	});
+	
+	jQuery("#stage-pauseresume").click(function () {
+			jQuery("#stage-pauseresume span").toggle();
+	});	
+
+});
+//-->
+
+
+// timeouts per slide (in seconds) 
+var timeouts = [10,10,10,]; 
+function calculateTimeout(currElement, nextElement, opts, isForward) { 
+    var index = opts.currSlide; 
+    return timeouts[index] * 1000; 
+} 
+</script>
+</div><!-- / gallerywrap -->
+
+<div id="sub-header">
+	<div id="sub-tabs">
+		<ul>
+        			</ul>
+	</div>
+</div> 
+
+
+<div class="clear"></div>
+	<div class="inner-page gallery"><!-- inner page -->
+
+<div class="content-wrapper">
+	<div class="content-wrapper-inner">
+    
+    
+        
+    
+	
+
+
+    <div class="mid-wrap  left out-full  ">
+    
+            	<div id="content">   
+                       
+                	<div class="post" id="post-7"><!-- post -->
+
+				                    
+                       
+                            <div class="entry"><!-- entry -->
+                                <div class="columns two " ><div>
+<h2>WELCOME TO iNSPiRe</h2>
+<p><iframe src="https://www.youtube.com/embed/wrQ2bOopPys?rel=0&amp;controls=0&amp;showinfo=0" width="450" height="253" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>iNSPiRe is a four-year, EC-funded project that will see the collaboration of 24 partners across nine work packages from the combined fields of research and development, industry, small business and not-for-profit organizations.</p>
+<p>The objective of iNSPiRe is to tackle the problem of high-energy consumption by producing systemic renovation packages that can be applied to residential and tertiary buildings.</p>
+<p>The renovation packages developed by iNSPiRe aim to reduce the primary energy consumption of a building to lower than 50 kWh/m2/year.</p>
+<p>The packages need to be suitable to a variety of climates while ensuring optimum comfort for the building users.<br />
+<div class="button-wrap half"><div class="green button half"><a href="http://www.inspirefp7.eu/about-inspire/" >Find Out More about iNSPiRe&#8230;</a></div></div><br />
+</div></div> <div class="columns two last clearfix " ><div></p>
+<h2>Project News</h2>
+<p>    
+    <ul class="nv-recent-posts">
+    
+        
+        <li>
+		<a href="http://www.inspirefp7.eu/inspire-to-be-featured-in-projects-eeb-edition/" title="iNSPiRe to be featured in Projects EEB Edition" class="alignleft">	
+	
+	
+	<div class="imagewrap alignleft" style="height:50px;width:50px;">
+        <div class="container ">
+            <div class="gridimg-wrap ">
+				<div class="title-wrap" style="width:50px;">	
+
+				                <img  src="http://www.inspirefp7.eu/wp-content/themes/DynamiX/lib/scripts/timthumb.php?h=50&amp;w=50&amp;zc=0&amp;src=http://www.inspirefp7.eu/wp-content/uploads/2016/01/Screen-Shot-2016-01-26-at-10.22.35-228x300.png" alt="iNSPiRe to be featured in Projects EEB Edition" width="50" height="50" />
+                           
+				                           
+				</div><!-- / title-wrap -->           
+            </div>
+        </div>
+	</div>
+	</a>  		        <div>
+        <h4><a href="http://www.inspirefp7.eu/inspire-to-be-featured-in-projects-eeb-edition/">iNSPiRe to be featured in Projects EEB Edition</a></h4>
+		        
+        <p style="text-align: center;">iNSPIRe will soon be featuring in a special edition of Projects magazine dedicated to showcasing &hellip;</p>
+ 
+        
+        <a class="read-more" href="http://www.inspirefp7.eu/inspire-to-be-featured-in-projects-eeb-edition/">Read more &rarr;</a>
+                </div>
+        		        
+        <div class="clear"></div>
+        </li>
+        
+        <li>
+		  		        <div>
+        <h4><a href="http://www.inspirefp7.eu/a-step-by-step-look-at-the-inspire-ludwigsburg-demo-site/">A step-by-step look at the iNSPiRe Ludwigsburg demo site</a></h4>
+		        
+        <p>This gallery shows the German iNSPiRe demonstration site based in Ludwigsburg, near Stuttgart in Southern &hellip;</p>
+ 
+        
+        <a class="read-more" href="http://www.inspirefp7.eu/a-step-by-step-look-at-the-inspire-ludwigsburg-demo-site/">Read more &rarr;</a>
+                </div>
+        		        
+        <div class="clear"></div>
+        </li>
+        
+        <li>
+		<a href="http://www.inspirefp7.eu/inspire-visit-demo-buildings/" title="iNSPiRe exhibits Madrid demo building" class="alignleft">	
+	
+	
+	<div class="imagewrap alignleft" style="height:50px;width:50px;">
+        <div class="container ">
+            <div class="gridimg-wrap ">
+				<div class="title-wrap" style="width:50px;">	
+
+				                <img  src="http://www.inspirefp7.eu/wp-content/themes/DynamiX/lib/scripts/timthumb.php?h=50&amp;w=50&amp;zc=0&amp;src=http://www.inspirefp7.eu/wp-content/uploads/2015/11/20151009_4-300x225.jpg" alt="iNSPiRe exhibits Madrid demo building" width="50" height="50" />
+                           
+				                           
+				</div><!-- / title-wrap -->           
+            </div>
+        </div>
+	</div>
+	</a>  		        <div>
+        <h4><a href="http://www.inspirefp7.eu/inspire-visit-demo-buildings/">iNSPiRe exhibits Madrid demo building</a></h4>
+		        
+        <p>In October iNSPiRe was delighted to exhibit its Madrid demo building on two occasions to &hellip;</p>
+ 
+        
+        <a class="read-more" href="http://www.inspirefp7.eu/inspire-visit-demo-buildings/">Read more &rarr;</a>
+                </div>
+        		        
+        <div class="clear"></div>
+        </li>
+        
+        <li>
+		  		        <div>
+        <h4><a href="http://www.inspirefp7.eu/inspire-completes-deliverables/">Reports mark progress towards more energy efficient buildings</a></h4>
+		        
+        <p>iNSPiRe has recently completed four important reports that will help the project deliver its effective &hellip;</p>
+ 
+        
+        <a class="read-more" href="http://www.inspirefp7.eu/inspire-completes-deliverables/">Read more &rarr;</a>
+                </div>
+        		        
+        <div class="clear"></div>
+        </li>
+        
+        <li>
+		<a href="http://www.inspirefp7.eu/inspiring-progress-reported-at-the-sixth-official-inspire-meeting/" title="Inspiring progress at the seventh official iNSPiRe meeting" class="alignleft">	
+	
+	
+	<div class="imagewrap alignleft" style="height:50px;width:50px;">
+        <div class="container ">
+            <div class="gridimg-wrap ">
+				<div class="title-wrap" style="width:50px;">	
+
+				                <img  src="http://www.inspirefp7.eu/wp-content/themes/DynamiX/lib/scripts/timthumb.php?h=50&amp;w=50&amp;zc=0&amp;src=http://www.inspirefp7.eu/wp-content/uploads/2015/10/iNSPiRe_Oct_20151-300x218.jpg" alt="Inspiring progress at the seventh official iNSPiRe meeting" width="50" height="50" />
+                           
+				                           
+				</div><!-- / title-wrap -->           
+            </div>
+        </div>
+	</div>
+	</a>  		        <div>
+        <h4><a href="http://www.inspirefp7.eu/inspiring-progress-reported-at-the-sixth-official-inspire-meeting/">Inspiring progress at the seventh official iNSPiRe meeting</a></h4>
+		        
+        <p class="p1">iNSPiRe partners gathered for the seventh official project meeting on October 13-14, held at  Hochschule &hellip;</p>
+ 
+        
+        <a class="read-more" href="http://www.inspirefp7.eu/inspiring-progress-reported-at-the-sixth-official-inspire-meeting/">Read more &rarr;</a>
+                </div>
+        		        
+        <div class="clear"></div>
+        </li>
+    	</ul>
+	
+	
+</div></div><div class="clear"></div><br />
+<div class="hozbreak clearfix">&nbsp;</div><br />
+<a href="https://procurement-forum.eu/"><img class="alignnone size-full wp-image-1001" src="http://www.inspirefp7.eu/wp-content/uploads/2013/01/banner_procurement_forum.jpg" alt="banner_procurement_forum" /></a><br />
+<div class="hozbreak clearfix">&nbsp;</div></p>
+<h2>iNSPiRE, Working in Partnership with</h2>
+<p><a href="/links/consortium-links/"><img class="alignnone wp-image-1060" src="http://www.inspirefp7.eu/wp-content/uploads/2013/01/logos_partner_all.png" alt="iNSPiRe Partners" width="910" height="277" /></a></p>
+                
+                                                            </div><!-- /entry -->  
+                     </div><!-- /post -->
+                
+                    	 
+				 
+
+				                </div><!-- /content -->
+                <div class="clear"></div>
+       
+	</div><!-- /mid-wrap -->
+    
+
+
+
+<!-- WordPressSEOPlugin -->    
+    
+
+<div class="clear"></div>
+</div><!-- /content-wrapper-inner -->
+</div><!-- /content-wrapper -->
+
+
+
+
+
+
+<div class="clear"></div>
+</div><!-- /inner-page -->
+</div><!-- /page -->
+<div class="push"></div>
+</div><!-- /wrapper -->
+<div class="clear"></div>
+<div id="footer-header"></div>
+	<div id="footer-wrap" class="clearfix">
+		<div id="footer-wrap-inner" class="clearfix">
+			<div id="footer" class="clearfix">
+<!-- I would like to give a great thankyou to WordPress for their amazing platform -->
+				
+								
+				<div class="panel-wrap panel-columns-4 ">
+					<ul>
+                            <li id="text-3" class="widget widget_text"><h3>About iNSPiRe</h3>			<div class="textwidget"><img style="margin-bottom: 10px;" src="/wp-content/uploads/2014/04/logo_footer.png" alt="Inspire Logo">
+<p style="font-size: 0.8em; line-height: 11px;">This website has been produced in the context of the iNSPiRe Project. The research leading to the results exposed has received funding from the European Commission’s 7th Framework Programme 2007-2013 under GA n° 314461. All information provided is “as is” and no guarantee or warranty is given that the information is fit for any particular purpose
+<br /><br />
+Project Coordinator Contact:
+<br /> EURAC research<br />
+Roberto Federizzi<br /> 
+email: roberto.fedrizzi[@]eurac.edu
+</p></div>
+		</li>
+					</ul>
+				</div>
+				
+								
+				<div class="panel-wrap panel-columns-4 ">
+					<ul>
+                            <li id="nav_menu-4" class="widget widget_nav_menu"><h3>Navigation</h3><div class="menu-footer-navigation-container"><ul id="menu-footer-navigation" class="menu"><li id="menu-item-295" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7 current_page_item menu-item-295"><a href="http://www.inspirefp7.eu/">Home</a></li>
+<li id="menu-item-298" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-298"><a href="http://www.inspirefp7.eu/category/latest-news/">Latest News</a></li>
+<li id="menu-item-296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-296"><a href="http://www.inspirefp7.eu/workpackages/">Workpackages</a></li>
+<li id="menu-item-297" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-297"><a href="http://inspirefp7.eu/wp-login.php">Partner Login</a></li>
+<li id="menu-item-293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-293"><a href="http://www.inspirefp7.eu/contact/">Contact</a></li>
+</ul></div></li>
+					</ul>
+				</div>
+				
+								
+				<div class="panel-wrap panel-columns-4 ">
+					<ul>
+                            		<li id="recent-posts-5" class="widget widget_recent_entries">		<h3>Latest News</h3>		<ul>
+					<li>
+				<a href="http://www.inspirefp7.eu/inspire-to-be-featured-in-projects-eeb-edition/">iNSPiRe to be featured in Projects EEB Edition</a>
+						</li>
+					<li>
+				<a href="http://www.inspirefp7.eu/a-step-by-step-look-at-the-inspire-ludwigsburg-demo-site/">A step-by-step look at the iNSPiRe Ludwigsburg demo site</a>
+						</li>
+					<li>
+				<a href="http://www.inspirefp7.eu/inspire-visit-demo-buildings/">iNSPiRe exhibits Madrid demo building</a>
+						</li>
+					<li>
+				<a href="http://www.inspirefp7.eu/inspire-completes-deliverables/">Reports mark progress towards more energy efficient buildings</a>
+						</li>
+				</ul>
+		</li>
+					</ul>
+				</div>
+				
+								
+				<div class="panel-wrap panel-columns-4 last">
+					<ul>
+                            <li id="rotatingtweets_widget-2" class="widget widget_rotatingtweets_widget"><h3>Latest Tweets</h3>
+<div class='rotatingtweets rotatingtweets_format_0' id='rotatingtweets_4000_scrollUp_1000_5619a1737f833' data-cycle-auto-height="calc" data-cycle-fx="scrollUp" data-cycle-pause-on-hover="true" data-cycle-timeout="4000" data-cycle-speed="1000" data-cycle-easing="swing" data-cycle-slides="div.rotatingtweet" data-cycle-log="false">
+	<div class = 'rotatingtweet'>
+		<p class='rtw_main'>RT <a href='https://twitter.com/intent/user?user_id=25304992' title='Projects Magazine' lang='en'>@ProjectsZine</a> iNSPiRe on show in Madrid <a href='http://t.co/ktC6yQ9tYv' title='http://bit.ly/1N3LTnY' class='rtw_url_link'>bit.ly/1N3LTnY</a> <a href="http://twitter.com/search?q=%23Science&amp;src=hash" title="#Science" class="rtw_hashtag_link">#Science</a> <a href="http://twitter.com/search?q=%23Energy&amp;src=hash" title="#Energy" class="rtw_hashtag_link">#Energy</a> <a href="http://twitter.com/search?q=%23Environment&amp;src=hash" title="#Environment" class="rtw_hashtag_link">#Environment</a> <a href="http://twitter.com/search?q=%23Retrofit&amp;src=hash" title="#Retrofit" class="rtw_hashtag_link">#Retrofit</a> <a href="http://twitter.com/search?q=%23EEB&amp;src=hash" title="#EEB" class="rtw_hashtag_link">#EEB</a> <a href='https://twitter.com/intent/user?user_id=945755222' title='iNSPiRe' lang='en'>@inspirefp7</a> <a href='https://twitter.com/intent/user?user_id=333992172' title='COAM' lang='en'>@COAMadrid</a> <a href='http://t.co/dGXntcLQiH' title='http://twitter.com/ProjectsZine/status/649554818470682624/photo/1' class='rtw_media_link'>pic.twitter.com/dGXntcLQiH</a></p>
+		<p class='rtw_meta'><a  href="https://twitter.com/twitterapi/status/649554850888466432">Last week</a> from <a href='https://twitter.com/intent/user?user_id=945755222' title='iNSPiRe'>iNSPiRe's Twitter</a> via <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a></p></div>
+	<div class = 'rotatingtweet' style='display:none'>
+		<p class='rtw_main'>iNSPiRe demo site on show in Madrid <a href='http://t.co/ZajVL6u6oQ' title='http://www.inspirefp7.eu/inspire-on-show-in-madrid/' class='rtw_url_link'>inspirefp7.eu/inspire-on-sho&hellip;</a> <a href="http://twitter.com/search?q=%23Energy&amp;src=hash" title="#Energy" class="rtw_hashtag_link">#Energy</a> <a href="http://twitter.com/search?q=%23Building&amp;src=hash" title="#Building" class="rtw_hashtag_link">#Building</a> <a href="http://twitter.com/search?q=%23EEB&amp;src=hash" title="#EEB" class="rtw_hashtag_link">#EEB</a> <a href="http://twitter.com/search?q=%23Environment&amp;src=hash" title="#Environment" class="rtw_hashtag_link">#Environment</a> <a href="http://twitter.com/search?q=%23Retrofitting&amp;src=hash" title="#Retrofitting" class="rtw_hashtag_link">#Retrofitting</a> <a href="http://twitter.com/search?q=%23Madrid&amp;src=hash" title="#Madrid" class="rtw_hashtag_link">#Madrid</a> <a href='https://twitter.com/intent/user?user_id=333992172' title='COAM' lang='en'>@COAMadrid</a></p>
+		<p class='rtw_meta'><a  href="https://twitter.com/twitterapi/status/649539769001738240">Last week</a> from <a href='https://twitter.com/intent/user?user_id=945755222' title='iNSPiRe'>iNSPiRe's Twitter</a> via <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a></p></div>
+	<div class = 'rotatingtweet' style='display:none'>
+		<p class='rtw_main'>RT <a href='https://twitter.com/intent/user?user_id=808495806' title='Tekes' lang='en'>@Tekesfi</a> In Europe 75% of buildings are not energy efficient.<a href='https://twitter.com/intent/user?user_id=377976301' title='Maroš Šefčovič' lang='en'>@MarosSefcovic</a> <a href="http://twitter.com/search?q=%23kasvunkaravaani&amp;src=hash" title="#kasvunkaravaani" class="rtw_hashtag_link">#kasvunkaravaani</a> <a href="http://twitter.com/search?q=%23EnergyUnion&amp;src=hash" title="#EnergyUnion" class="rtw_hashtag_link">#EnergyUnion</a></p>
+		<p class='rtw_meta'><a  href="https://twitter.com/twitterapi/status/648437885964800000">About 2 weeks ago</a> from <a href='https://twitter.com/intent/user?user_id=945755222' title='iNSPiRe'>iNSPiRe's Twitter</a> via <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a></p></div>
+	<div class = 'rotatingtweet' style='display:none'>
+		<p class='rtw_main'>RT <a href='https://twitter.com/intent/user?user_id=5360012' title='Greenpeace USA' lang='en'>@greenpeaceusa</a> More energy efficient buildings are being built than ever before. But there's a catch. <a href='http://t.co/Xkp0z0kPin' title='http://bit.ly/1iTbIKt' class='rtw_url_link'>bit.ly/1iTbIKt</a> <a href='http://t.co/7n9fmpgcIV' title='http://twitter.com/greenpeaceusa/status/645538895606771712/photo/1' class='rtw_media_link'>pic.twitter.com/7n9fmpgcIV</a></p>
+		<p class='rtw_meta'><a  href="https://twitter.com/twitterapi/status/648437766678835200">About 2 weeks ago</a> from <a href='https://twitter.com/intent/user?user_id=945755222' title='iNSPiRe'>iNSPiRe's Twitter</a> via <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a></p></div>
+	<div class = 'rotatingtweet' style='display:none'>
+		<p class='rtw_main'>RT <a href='https://twitter.com/intent/user?user_id=222103552' title='ACE CAE' lang='en'>@Ace_Cae</a> .<a href='https://twitter.com/intent/user?user_id=945755222' title='iNSPiRe' lang='en'>@inspirefp7</a>  demonstration building in <a href='https://twitter.com/intent/user?user_id=816178' title='Ayuntamiento Madrid' lang='en'>@MADRID</a> opens on 9/10 <a href='https://twitter.com/intent/user?user_id=333992172' title='COAM' lang='en'>@COAMadrid</a> <a href='https://twitter.com/intent/user?user_id=267708331' title='CSCAE' lang='en'>@CSCAE</a>   <a href="http://twitter.com/search?q=%23architecture&amp;src=hash" title="#architecture" class="rtw_hashtag_link">#architecture</a> <a href='http://t.co/madzUqMvL1' title='http://www.esmadrid.com/semanaarquitectura/index.php/search?query=I%2BD+Europeo+en+Rehabilitaci%C3%B3n+Energ%C3%A9tica+de+Viviendas+.+Edifico+demostrador+iNSPiRe' class='rtw_url_link'>esmadrid.com/semanaarquitec&hellip;</a></p>
+		<p class='rtw_meta'><a  href="https://twitter.com/twitterapi/status/648437214414786560">About 2 weeks ago</a> from <a href='https://twitter.com/intent/user?user_id=945755222' title='iNSPiRe'>iNSPiRe's Twitter</a> via <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a></p></div>
+</div>
+<div class='rtw_follow follow-button'><a href='http://twitter.com/inspirefp7' class='twitter-follow-button' data-show-count="false" title='Follow @inspirefp7' data-lang='en'>Follow @inspirefp7</a></div></li>
+					</ul>
+				</div>
+				
+				
+							</div><!-- / footer -->
+		</div><!-- / footer-wrap-inner -->
+	</div><!-- / footer-wrap -->
+    
+<div class="lowerfooter-wrap clearfix">
+	<div class="lowerfooter">
+		<div class="lowfooterleft">© 2013 <a href="http://inspirefp7.eu/">iNSPiRe</a>. Website Design by <a href="http://www.ipl.eu.com">Insight Publishers</a></div>
+		<div class="lowfooterright"><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37872828-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></div>
+    </div><!-- / lowerfooter -->		
+</div><!-- / lowerfooter-wrap -->
+
+<!-- Another Great Website Design by Creative Workz - http://www.creativeworkz.co.uk -->
+
+
+
+
+<!-- Generated in 0.546 seconds. (88 q) -->
+
+	<script type="text/javascript">
+	var bp_terms_my_favs = 'My Favorites';
+	var bp_terms_accepted = 'Accepted';
+	var bp_terms_rejected = 'Rejected';
+	var bp_terms_show_all_comments = 'Show all comments for this thread';
+	var bp_terms_show_all = 'Show all';
+	var bp_terms_comments = 'comments';
+	var bp_terms_close = 'Close';
+	var bp_terms_mention_explain = '@ is a unique identifier for  that you can type into any message on this site.  will be sent a notification and a link to your message any time you use it.';
+    </script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-includes/js/jquery/ui/effect.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-includes/js/jquery/ui/accordion.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.inspirefp7.eu\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-content/plugins/wedevs-project-manager/assets/js/jquery.prettyPhoto.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-content/plugins/wedevs-project-manager/assets/js/chosen.jquery.min.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-content/plugins/wedevs-project-manager/assets/js/jquery.validate.min.js?ver=4.3.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CPM_Vars = {"ajaxurl":"http:\/\/www.inspirefp7.eu\/wp-admin\/admin-ajax.php","nonce":"d4c1387161","is_admin":"no","message":{"report_frm_field_limit":"You can not use this field more than once!","report_total_frm_field_limit":"You can not create more than 4 action"},"plupload":{"browse_button":"cpm-upload-pickfiles","container":"cpm-upload-container","max_file_size":"2097152b","url":"http:\/\/www.inspirefp7.eu\/wp-admin\/admin-ajax.php?action=cpm_ajax_upload&nonce=d6818e5137","flash_swf_url":"http:\/\/www.inspirefp7.eu\/wp-includes\/js\/plupload\/plupload.flash.swf","silverlight_xap_url":"http:\/\/www.inspirefp7.eu\/wp-includes\/js\/plupload\/plupload.silverlight.xap","filters":[{"title":"Allowed Files","extensions":"*"}],"resize":{"width":1024,"height":1024,"quality":100}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-content/plugins/wedevs-project-manager/assets/js/admin.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-content/plugins/wedevs-project-manager/assets/js/task.js?ver=4.3.3'></script>
+<script type='text/javascript' src='http://www.inspirefp7.eu/wp-content/plugins/wedevs-project-manager/assets/js/upload.js?ver=4.3.3'></script>
+
+<script type="text/javascript"> 
+<!--
+(function ($) {
+$(document).ready(function() {
+
+Cufon.now();
+
+$('.post-grid.archive .galleryimg,.accordion-gallery .galleryimg').append('<div class="hoverimg" style="height:100%"></div>');	
+$('.post-grid.archive .galleryvid,.accordion-gallery .galleryvid').append('<div class="hovervid" style="height:100%"></div>');	
+$('.archiveimg-wrap .galleryimg').append('<div class="hoverimg" style="height:100%"></div>');	
+$('.archiveimg-wrap .galleryvid').append('<div class="hovervid" style="height:100%"></div>');	
+$('.container .galleryimg').append('<div class="hoverimg" style="height:inherit"></div>');	
+$('.container .galleryvid').append('<div class="hovervid" style="height:inherit"></div>');	
+
+			$("a[rel^='prettyPhoto'],p.description a").prettyPhoto({
+			keyboard_shortcuts: false,
+			social_tools:false,
+			theme: 'light_rounded'
+			});
+
+$("img.reflect").reflect({height:35,opacity:0.2});
+if(navigator.appName != "Microsoft Internet Explorer") {
+$("#item-body img.avatar, #item-header-avatar img.avatar, .avatar-block img.avatar").not('#member-list img.avatar').reflect({height:35,opacity:0.2});
+}
+
+$('.target_blank a').each(function() {
+       $(this).click(function(event) {
+           event.preventDefault();
+           event.stopPropagation();
+           window.open(this.href, '_blank');
+       });
+});
+
+
+
+
+
+});
+
+$('.blackwhite').BlackAndWhite({
+	hoverEffect:true
+});
+
+})(jQuery);
+
+
+//-->
+</script>
+</body>
+</html>

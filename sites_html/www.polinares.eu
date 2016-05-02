@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>POLINARES - EU Policy on Natural Resources</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="description" content="POLINARES - EU Policy on Natural Resources" />
+<meta name="keywords" content="POLINARES, EU, natural resources,  minerals, oil, gas, resources, conflict, competition, cooperation" />
+<link href="polinares.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<link rel="icon" type="image/gif" href="/images/favicon_animated.gif" />
+<script>
+// Drop Down Menu - Copyright 2006-2007 javascript-array.com
+
+var timeout	= 500;
+var closetimer	= 0;
+var ddmenuitem	= 0;
+
+// open hidden layer
+function mopen(id)
+{	
+	// cancel close timer
+	mcancelclosetime();
+
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.visibility = 'visible';
+
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+
+// close layer when click-out
+document.onclick = mclose; 
+</script>
+
+<script type="text/javascript">
+//Google Analytics
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16959757-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="logo">
+      <h2><a href="http://www.polinares.eu"><img src="/images/polinares_logo.gif" alt="POLINARES logo" width="520" height="108" style="border-style: none"/></a></h2>
+    </div>
+    <div class="search">
+<style type="text/css">
+@import url(http://www.google.com/cse/api/branding.css);
+</style>
+<div class="cse-branding-bottom" style="background-color:#ededed;color:#000000">
+  <div class="cse-branding-form">
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+  google.load('search', '1');
+  google.setOnLoadCallback(function() {
+    google.search.CustomSearchControl.attachAutoCompletion(
+      '017288108435568642125:92jsww23gei',
+      document.getElementById('q'),
+      'cse-search-box');
+  });
+</script>
+    <form action="http://www.polinares.eu/search.html" id="cse-search-box">
+      <div>
+        <input type="hidden" name="cx" value="017288108435568642125:92jsww23gei" />
+        <input type="hidden" name="cof" value="FORID:10" />
+        <input type="hidden" name="ie" value="UTF-8" />
+        <input type="text" name="q" id="q" autocomplete="off" size="31" />
+        <input type="submit" name="sa" value="Search" />
+      </div>
+    </form>
+  </div>
+  <div class="cse-branding-logo">
+    <img src="http://www.google.com/images/poweredby_transparent/poweredby_FFFFFF.gif" alt="Google" />
+  </div>
+  <div class="cse-branding-text">
+    Custom Search
+  </div>
+</div>
+
+</div>
+
+    <div class="clr"></div>
+<ul id="menu_dd">
+    <li><a href="/index.php" class="active">Home</a></li>
+    <li><a href="/project.html">The Project</a></li>
+    <li><a href="/partners.html">The Partners</a></li>
+    <li><a href="/events.php">Events</a></li>
+    <li><a href="#" 
+        onmouseover="mopen('m1')" 
+        onmouseout="mclosetime()">Publications</a>
+        <div id="m1" 
+            onmouseover="mcancelclosetime()" 
+            onmouseout="mclosetime()">
+        <a href="/publications_deliverables.html">Project Deliverables</a>
+        <a href="/publications.html">Project Publications</a>
+        <a href="/publications_research.html">Partners' Research</a>
+        <a href="/publications_outreach.html">Outreach</a>
+        </div>
+	</li>
+    <li><a href="#" 
+        onmouseover="mopen('m2')" 
+        onmouseout="mclosetime()">Policy Foresight</a>
+        <div id="m2" 
+            onmouseover="mcancelclosetime()" 
+            onmouseout="mclosetime()">
+        <a href="/policy_briefs.html">Policy Briefs</a>
+        <a href="/policy_contributions.html">Policy Contributions</a>
+        <a href="/policy_media.html">Media</a>
+        </div>
+    </li>
+    <li><a href="/news/news.php">News</a></li>
+    <li><a href="#" 
+        onmouseover="mopen('m3')" 
+        onmouseout="mclosetime()">Useful Links</a>
+        <div id="m3" 
+            onmouseover="mcancelclosetime()" 
+            onmouseout="mclosetime()">
+        <a href="/links.html">EC SSH Information</a>
+        <a href="/links_other.html">Other Relevant FP7 Projects</a>
+        <a href="/links_fp7.html">FP7 Guidelines</a>
+        </div>
+    </li>
+    <li><a href="/members/index.html">Members Area</a></li>
+    <li><a href="/contact_us.html">Contact Us</a></li>
+</ul>
+<div style="clear:both"></div>
+    <div class="clr"></div>
+    <div class="header_text">
+      <ul class="gallery">
+        <li><img src="images/img_1.gif" alt="T 1" width="1009" height="239" border="0" usemap="#Map" />
+          <map name="Map" id="Map">
+            <area shape="rect" coords="865,188,959,214" href="project.html" alt="Read more about the aims of the project" />
+            <area shape="rect" coords="75,31,337,146" href="http://ec.europa.eu/research/social-sciences/index_en.html" target="_blank" alt="Link to European Commission and 7th Framework Programme site" />
+          </map>
+        </li>
+      </ul>
+    </div>
+    </div>
+  <div class="clr"></div>
+  <div class="body">
+    <div class="right_body">
+      <h2> News </h2>
+      <div>
+
+  <div class="body">
+    <div class="right_body">
+        <table width="100%">
+            <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+            <tr>
+
+            </tr>
+            <tr>
+                <td>
+                    <p><a href="http://www.polinares.eu/news/preview.php?id=48">Global Resources: Conflict and Cooperation book reviewed in International Affairs</a></p>
+                </td>
+            </tr>
+            <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+            <tr>
+
+            </tr>
+            <tr>
+                <td>
+                    <p><a href="http://www.polinares.eu/news/preview.php?id=47">Conflict and cooperation over access to energy paper published in Futures</a></p>
+                </td>
+            </tr>
+            <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+            <tr>
+
+            </tr>
+            <tr>
+                <td>
+                    <p><a href="http://www.polinares.eu/news/preview.php?id=46">Global Resources: Conflict and Cooperation book published by Palgrave Macmillan</a></p>
+                </td>
+            </tr>
+            <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+            <tr>
+
+            </tr>
+            <tr>
+                <td>
+                    <p><a href="http://www.polinares.eu/news/preview.php?id=45">HCSS launches new report on Coltan, Congo and Conflict.</a></p>
+                </td>
+            </tr>
+            <!-- HTML generated from an RSS Feed by rss2html.php, http://www.FeedForAll.com/ a NotePage, Inc. product (http://www.notepage.com/) -->
+            <tr>
+
+            </tr>
+            <tr>
+                <td>
+                    <p><a href="http://www.polinares.eu/news/preview.php?id=44">Summary of Project Results published</a></p>
+                </td>
+            </tr>
+            
+        </table>
+        </div>
+        </div>
+
+ 
+   </div>
+    </div>
+    <div class="left_body">
+      <h2> What we do</h2>
+      <div>
+        <p>POLINARES examines the global challenges faced with respect to access to oil, gas and mineral resources over the next 30 years and proposes solutions for the various policy actors, including the EU. Combined theoretical and empirical analyses will use expertise from a wide rage of disciplines including political science, economics, geology, engineering, technology, law and security studies.  </p>
+      </div>
+    </div>
+    <div class="main_body">
+      <h2>About the Project</h2>
+      <a href="media/polinares_intro_apr2010.html"><img src="images/polinares_intro_apr2010.gif" width="150" height="100" alt="Professor Philip Andrews-Speed discusses the project" /></a>
+      <p>Watch this introductory video about the project.</p>
+</div>
+    <div class="clr"></div>
+    </div>
+  <div class="footer_block">
+    <div class="resize">
+      <div class="partners">
+        <h2>Our partners: </h2>
+        <a href="partners.html"><img src="images/partners.gif" border="0" width="660" height="115" alt="POLINARES Partners logos" /></a>
+      </div>
+      <div class="test">
+        <h2>Disclaimer </h2>
+        <ul>
+          <li>The POLINARES project is not responsible for the accuracy of any information, data, wording or graphics (&ldquo;Material) on the web site and the material is not provided for any specific or general purpose and any third party to who any such material is passed should be made aware of this. No reliance should be placed on the material by the user without specialist advice. The POLINARES project reserves the right to make changes to the site without notice.</li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="footer">
+          <div class="clr"></div>
+<div class="footer_resize"> &copy; Copyright 2010. POLINARES.eu. All Rights Reserved<br />
+  Unless otherwise stated all intellectual property rights (including without limitation copyright, registered and unregistered trademarks and database rights) are the sole property of the POLINARES project<br />
+  LEGAL NOTICE: The views expressed in this website are the sole responsibility of the author and do not necessarily reflect the views of the European Commission.<br />
+        <a href="/index.html">Home</a> | <a href="/contact_us.html">Contact</a> | <a href="http://www.polinares.eu/news/rss.php" target="_blank">RSS feed</a><img src="/images/RSS.gif" alt="RSS feed" /></div>
+</div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en-GB" lang="en-GB" xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta content="text/javascript" http-equiv="Content-Script-Type" /><meta content="text/css" http-equiv="Content-Style-Type" /><meta id="MetaDescription" name="DESCRIPTION" content="Hilda is an EU funded research project following the Commission's FP7 transport programme. The Europe wide collaborative consortium, spanning 5 countries (from university institutes to industry) is looking into the technical and commercial feasibility of friction stir welding (FSW) of steel for maritime industry application. Hilda will gather experimental data of steel FS welds to generate a multi-physics expert system for industrial dissemination (and future exploitation)." /><meta id="MetaKeywords" name="KEYWORDS" content="hilda,HILDA,FSW,fsw,friction,stir,welding,steel,projecthilda,project,project hilda,frictions,tir,fp7,european commission,eu,friction stir welding,DH36,shipbuilding,maritime,consortium,europe,transport,aluminium,simulation,expert system,metallurgy,HAZ,TMAZ,local,global,heat,zone,WP,tooling,Trivex,Triflute,process,microstructure,advisory group,linkedin,linked in,share point,Morfeo,model,project,metallurgical,property,properties,testing,weld,welds,welded,EU,FP7,VIRFAC" /><meta id="MetaCopyright" name="COPYRIGHT" content="Copyright 2013 University of Strathclyde" /><meta id="MetaAuthor" name="AUTHOR" content="HILDA" /><meta name="RESOURCE-TYPE" content="DOCUMENT" /><meta name="DISTRIBUTION" content="GLOBAL" /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><meta name="REVISIT-AFTER" content="1 DAYS" /><meta name="RATING" content="GENERAL" /><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" /><style id="StylePlaceholder" type="text/css"></style><link id="APortals__default_" rel="stylesheet" type="text/css" href="/Portals/_default/default.css" /><link id="APortals_48_Skins_HILDA_" rel="stylesheet" type="text/css" href="/Portals/48/Skins/HILDA/skin.css" /><link id="APortals__default_Containers_redleaf_" rel="stylesheet" type="text/css" href="/Portals/_default/Containers/redleaf/container.css" /><link id="APortals__default_Containers_MinimalExtropy_" rel="stylesheet" type="text/css" href="/Portals/_default/Containers/MinimalExtropy/container.css" /><link id="APortals__default_Containers_MinimalExtropy_No_Title_Grey_css" rel="stylesheet" type="text/css" href="/Portals/_default/Containers/MinimalExtropy/No_Title_Grey.css" /><link id="APortals_48_" rel="stylesheet" type="text/css" href="/Portals/48/portal.css" /><script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js" ></script><link href="/Portals/_default/Skins/_default/WebControlSkin/Default/TabStrip.Default.css" rel="stylesheet" type="text/css" />     
+        
+			    <script type="text/javascript">
+			      var _gaq = _gaq || [];
+			      _gaq.push(['_setAccount', 'UA-9581498-45']);
+			      _gaq.push(['_trackPageview']);
+			 
+			      (function() {
+				    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			      })();
+			    </script>
+        
+		  <link rel="stylesheet" type="text/css" href="/DesktopModules/DDRMenu/HILDA/superfish.css"></link><title>
+	HILDA > Home
+</title></head>
+<body id="Body">
+    <form name="Form" method="post" action="/default.aspx" id="Form" enctype="multipart/form-data">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+
+<script src="/js/dnncore.js" type="text/javascript"></script><script type="text/javascript">if (!(window.jQuery && window.jQuery.fn && window.jQuery.fn.hoverIntent)) document.write(unescape('%3Cscript src="/DesktopModules/DDRMenu/HILDA/hoverIntent.js" type="text/javascript"%3E%3C/script%3E'));</script><script type="text/javascript">if (!(window.jQuery && window.jQuery.fn && window.jQuery.fn.superfish)) document.write(unescape('%3Cscript src="/DesktopModules/DDRMenu/HILDA/superfish.js" type="text/javascript"%3E%3C/script%3E'));</script>
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = '{"name":"en-GB","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":".","IsReadOnly":false,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":",","CurrencySymbol":"£","NaNSymbol":"NaN","CurrencyNegativePattern":1,"NumberNegativePattern":1,"PercentPositivePattern":0,"PercentNegativePattern":0,"NegativeInfinitySymbol":"-Infinity","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":".","NumberGroupSeparator":",","CurrencyPositivePattern":0,"PositiveInfinitySymbol":"Infinity","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":".","PercentGroupSeparator":",","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"AM","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402300799999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":false},"DateSeparator":"/","FirstDayOfWeek":1,"CalendarWeekRule":0,"FullDateTimePattern":"dd MMMM yyyy HH:mm:ss","LongDatePattern":"dd MMMM yyyy","LongTimePattern":"HH:mm:ss","MonthDayPattern":"dd MMMM","PMDesignator":"PM","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd/MM/yyyy","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"ShortestDayNames":["Su","Mo","Tu","We","Th","Fr","Sa"],"DayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"AbbreviatedMonthNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"MonthNames":["January","February","March","April","May","June","July","August","September","October","November","December",""],"IsReadOnly":false,"NativeCalendarName":"Gregorian Calendar","AbbreviatedMonthGenitiveNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"MonthGenitiveNames":["January","February","March","April","May","June","July","August","September","October","November","December",""]}}';//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=qKh7b_x41GNkeSpe-qSeIQsUQ4sAk-kwEQngjlA4VT6vqB5oFHNWGyjs4aiUNSyYPLl6naMv4PpvergAKKfBm45DZ3oD360TrK1mNgNwTuJn_O5ywqUqPZy0ZB5l-BpRGyGypVoNE8OLs18BCcg0UMzUF181&amp;t=258f4f59" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div>
+
+
+        
+        
+
+<div id="wrapper">
+	<div id="PageMaster">
+		<div id="banner"><img src="/Portals/48/Skins/HILDA/images/logo.jpg" /></div>
+		
+		<div id="Menu">
+			<!-- DDRmenu v02.00.01 - HILDA template --><script type="text/javascript">jQuery(function($) {$("#dnn_ctl00").superfish({onShow:function() { if ($.browser.msie) this[0].style.removeAttribute('filter'); },MenuStyle:"HILDA"});});</script><ul class="sf-menu" id="dnn_ctl00">
+  <li class="item2460 current"><a href="http://www.hilda-europe.eu/Home/tabid/2460/Default.aspx">Home</a></li>
+  <li class="item3195"><a href="http://www.hilda-europe.eu/ProjectOverview/tabid/3195/Default.aspx">Project Overview</a><ul>
+      <li class="item3202"><a href="http://www.hilda-europe.eu/ProjectOverview/PressRelease/tabid/3202/Default.aspx">Press Release</a></li>
+      <li class="item3278"><a href="http://www.hilda-europe.eu/ProjectOverview/ProjectDetails/tabid/3278/Default.aspx">Project Details</a></li>
+      <li class="item3251"><a href="http://www.hilda-europe.eu/ProjectOverview/AdvisoryGroup/tabid/3251/Default.aspx">Advisory Group</a></li>
+    </ul>
+  </li>
+  <li class="item3196"><a href="http://www.hilda-europe.eu/FSWProcess/tabid/3196/Default.aspx">FSW Process</a><ul>
+      <li class="item3282"><a href="http://www.hilda-europe.eu/FSWProcess/MicrostructuralFeatures/tabid/3282/Default.aspx">Microstructural Features</a></li>
+      <li class="item3209"><a href="http://www.hilda-europe.eu/FSWProcess/Advantages/tabid/3209/Default.aspx">Advantages</a></li>
+      <li class="item3284"><a href="http://www.hilda-europe.eu/FSWProcess/WeldingParameters/tabid/3284/Default.aspx">Welding Parameters</a></li>
+      <li class="item3427"><a href="http://www.hilda-europe.eu/FSWProcess/ApplicationsEconomics/tabid/3427/Default.aspx">Applications &amp; Economics</a></li>
+    </ul>
+  </li>
+  <li class="item3197"><a href="http://www.hilda-europe.eu/WPs/tabid/3197/Default.aspx">WP's</a></li>
+  <li class="item2490"><a href="http://www.hilda-europe.eu/Consortium/tabid/2490/Default.aspx">Consortium</a></li>
+  <li class="item3198"><a href="http://www.hilda-europe.eu/NewsEvents/tabid/3198/Default.aspx">News &amp; Events</a><ul>
+      <li class="item3387"><a href="http://www.hilda-europe.eu/NewsEvents/ShowcaseEvent/tabid/3387/Default.aspx">Showcase Event</a></li>
+      <li class="item4983"><a href="http://www.hilda-europe.eu/NewsEvents/FrictionStirWeldingWorkshop/tabid/4983/Default.aspx">Friction Stir Welding Workshop</a></li>
+    </ul>
+  </li>
+  <li class="item3206"><a href="http://www.hilda-europe.eu/Publications/tabid/3206/Default.aspx">Publications</a></li>
+  <li class="item3201"><a href="http://www.hilda-europe.eu/Contacts/tabid/3201/Default.aspx">Contacts</a></li>
+</ul> 
+			<div style="clear:both;"></div>
+		</div>
+		
+		<div id="mid">
+			<div id="dnn_ContentPane"><div class="DnnModule DnnModule-DnnForge-LatestArticles DnnModule-7054"><a name="7054"></a>
+<div class="c_container c_head_grey">
+    <div class="head_title">
+        <div class="c_actions">
+			
+        </div>
+        <div class="title_vis">
+        
+            <!--<a id="dnn_ctr7054_dnnVISIBILITY_cmdVisibility" title="Minimize" href="javascript:__doPostBack('dnn$ctr7054$dnnVISIBILITY$cmdVisibility','')"><img id="dnn_ctr7054_dnnVISIBILITY_imgVisibility" title="Minimize" src="/Portals/_default/Containers/MinimalExtropy/images/DNN-minus.gif" alt="Minimize" style="border-width:0px;" /></a>-->
+        </div>
+        <div class="clear_float">
+        </div>
+    </div>
+    <div class="c_content">
+        <div id="dnn_ctr7054_ContentPane" class="Normal c_contentpane">
+        <!-- Start_Module_7054 --><div id="dnn_ctr7054_ModuleContent" class="DNNModuleContent ModDnnForgeLatestArticlesC">
+	<div id="hp_rotator"><div class="slides"><div class="slide"><div id="hp_rotator_img" style="background-image:url(/Portals/48/Images/Rotator/FrictionStirExample2.jpg);"><div id="hp_rotator_text"><span><h2>Welcome to HILDA</h2><p>Leading research on steel friction stir welding</p><a class="readmore" href="http://www.hilda-europe.eu/ProjectOverview/tabid/3195/Default.aspx">(read more...)</a></span></div></div></div><div class="slide"><div id="hp_rotator_img" style="background-image:url(/Portals/48/Images/Rotator/FrictionStirExample1.jpg);"><div id="hp_rotator_text"><span><h2>Excellence</h2><p>State-of-the-art technological advancements</p></span></div></div></div><div class="slide"><div id="hp_rotator_img" style="background-image:url(/Portals/48/Images/Rotator/FrictionStirExample4.jpg);"><div id="hp_rotator_text"><span><h2>Innovation</h2><p>Ground-breaking research &amp; development</p></span></div></div></div><div class="slide"><div id="hp_rotator_img" style="background-image:url(/Portals/48/Images/Rotator/FrictionStirExample3.jpg);"><div id="hp_rotator_text"><span><h2>Collaboration</h2><p>Europe-wide technical coordination</p></span></div></div></div><div class="slide"><div id="hp_rotator_img" style="background-image:url(/Portals/48/Images/Rotator/FrictionStirExample5.jpg);"><div id="hp_rotator_text"><span><h2>HILDA News</h2><p>For latest updates on the project</p><a class="readmore" href="http://www.hilda-europe.eu/NewsEvents/tabid/3198/Default.aspx">(read more...)</a></span></div></div></div><!-- <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+<a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a> -->
+</div>
+</div>
+<script src="/js/jquery.slides.min.js"></script>
+<script language="javascript">
+    $(function() {
+      $('.slides').slidesjs({
+        width: 700,
+        height: 525,
+        navigation: {
+			effect: "fade"
+		}
+      });
+    });
+</script>
+
+
+
+
+
+</div><!-- End_Module_7054 --></div>
+    </div>
+        
+        
+        
+</div>
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-6638"><a name="6638"></a>
+<div class="h3title"><span id="dnn_ctr6638_dnnTITLE_lblTitle" class="Head">&nbsp;</span>
+
+
+</div>
+<div id="dnn_ctr6638_contentpane" class="rlcontent_transparent"><!-- Start_Module_6638 --><div id="dnn_ctr6638_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr6638_HtmlModule_lblContent" class="Normal">
+	<div style="text-align: center;"><span style="font-size: 14px;">Advancing development into the friction stir welding processes and application for shipbuilding steel.</span></div>
+</div>
+
+</div><!-- End_Module_6638 --></div>
+<div></div>
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-6028"><a name="6028"></a>
+<div class="h3title"><span id="dnn_ctr6028_dnnTITLE_lblTitle" class="Head">&nbsp;</span>
+
+
+</div>
+<div id="dnn_ctr6028_contentpane" class="rlcontent_transparent"><!-- Start_Module_6028 --><div id="dnn_ctr6028_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr6028_HtmlModule_lblContent" class="Normal">
+	<h3 style="text-align: center;">Project HILDA Advisory Group</h3><p style="text-align: justify;">Industrial institutes willing to lend support to Project HILDA or interested in how Project HILDA can aid their current processing techniques can sign up to the <a href="/Portals/48/Files/HILDA_IAG_-_Invitation_and_Declaration_of_Interest_-_final.pdf" target="_blank">Industrial Advisory Group</a>.</p><p style="text-align: justify;">Research and academic institutes are also welcome to lend support and discover the benefits of HILDA by signing up to the <a href="/Portals/48/Files/HILDA_AG_-_Invitation_and_Declaration_of_Interest.pdf" target="_blank">Advisory Group</a>.</p><p style="text-align: justify;">More information about the benefits of joining the HILDA Advisory Group can be found <a href="/ProjectOverview/AdvisoryGroup/tabid/3251/Default.aspx">here</a>. All completed forms should be returned to <a href="mailto:hilda.europe@gmail.com" class="ApplyClass">hilda.europe@gmail.com</a>&nbsp;and shall be forwarded to CMT</p>
+</div>
+
+</div><!-- End_Module_6028 --></div>
+<div></div>
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-6048"><a name="6048"></a>
+<div class="h3title"><span id="dnn_ctr6048_dnnTITLE_lblTitle" class="Head">&nbsp;</span>
+
+
+</div>
+<div id="dnn_ctr6048_contentpane" class="rlcontent_transparent"><!-- Start_Module_6048 --><div id="dnn_ctr6048_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr6048_HtmlModule_lblContent" class="Normal">
+	<div style="text-align: center;"></div><div style="text-align: center;"></div><div style="text-align: center;"></div><div style="text-align: center;"></div><div style="text-align: center;"></div><div style="text-align: center;"></div><div style="text-align: center;"></div><div style="text-align: center;"></div><div style="text-align: center;"></div><div style="text-align: center;"></div><div style="text-align: center;"></div><div style="text-align: center;"></div><div style="text-align: center;"></div><div style="text-align: center;"></div><div style="text-align: center;"></div><div style="text-align: center;"></div><div style="text-align: center;"><img alt="" style="width: 650px; height: 217px;" src="/Portals/48/Images/logos.jpg" /></div>
+</div>
+
+</div><!-- End_Module_6048 --></div>
+<div></div>
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-6969"><a name="6969"></a>
+<div class="h3title"><span id="dnn_ctr6969_dnnTITLE_lblTitle" class="Head">&nbsp;</span>
+
+
+</div>
+<div id="dnn_ctr6969_contentpane" class="rlcontent_transparent"><!-- Start_Module_6969 --><div id="dnn_ctr6969_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr6969_HtmlModule_lblContent" class="Normal">
+	<p style="text-align: center;">&nbsp;</p><p style="text-align: center;">&nbsp;</p><p style="text-align: center;">Please contact <a href="mailto:hilda.europe@gmail.com" class="ApplyClass">hilda.europe@gmail.com</a> for any further details about the project&nbsp;</p><p style="text-align: center;">&nbsp;</p><p style="text-align: center;">&nbsp;</p><p style="text-align: center;"></p>
+</div>
+
+</div><!-- End_Module_6969 --></div>
+<div></div>
+</div></div>
+			<div id="dnn_RightPane"><div class="DnnModule DnnModule-DnnForge-LatestArticles DnnModule-4592"><a name="4592"></a>
+<div class="h3title"><span id="dnn_ctr4592_dnnTITLE_lblTitle" class="Head">Latest News</span>
+
+
+</div>
+<div id="dnn_ctr4592_contentpane" class="rlcontent_transparent"><!-- Start_Module_4592 --><div id="dnn_ctr4592_ModuleContent" class="DNNModuleContent ModDnnForgeLatestArticlesC">
+	<div class="latestarticles"><h6><a href="http://www.hilda-europe.eu/Portals/48/Files/Save%20the%20Date%20Friction%20Stir%20Welding.pdf">Friction Stir Welding Workshop</a></h6><p>Upcoming industrial workshop:</p><p>20th &amp; 21st of November 2014, HZG Geesthacht, Germany</p><p>Click for event poster or visit News &amp; Events</p><p><br /></p></div>
+
+
+
+
+
+</div><!-- End_Module_4592 --></div>
+<div></div>
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-6264"><a name="6264"></a>
+<div class="h3title"><span id="dnn_ctr6264_dnnTITLE_lblTitle" class="Head">Subscription</span>
+
+
+</div>
+<div id="dnn_ctr6264_contentpane" class="rlcontent_transparent"><!-- Start_Module_6264 --><div id="dnn_ctr6264_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr6264_HtmlModule_lblContent" class="Normal">
+	If you would like to receive updates on the latest news and events please click&nbsp;<span style="color: #003366;"><a href="http://www.linkedin.com/groups?homeNewMember=&amp;gid=4962398&amp;trk=eml-anet_wlcm-h-visit&amp;fromEmail=&amp;ut=0N_xj_SGYjIBM1" target="_blank" style="color: #003366;">here</a></span>&nbsp;to subscribe to the site's LinkedIn account<p><a href="http://www.linkedin.com/groups?homeNewMember=&amp;gid=4962398&amp;trk=eml-anet_wlcm-h-visit&amp;fromEmail=&amp;ut=0N_xj_SGYjIBM1" target="_blank"><img alt="" src="/Portals/48/Images/linkedin.jpg" style="width: 200px; height: 57px;" /></a></p>
+</div>
+
+</div><!-- End_Module_6264 --></div>
+<div></div>
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-5962"><a name="5962"></a>
+<div class="h3title"><span id="dnn_ctr5962_dnnTITLE_lblTitle" class="Head">Share Point</span>
+
+
+</div>
+<div id="dnn_ctr5962_contentpane" class="rlcontent_transparent"><!-- Start_Module_5962 --><div id="dnn_ctr5962_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr5962_HtmlModule_lblContent" class="Normal">
+	<div><span style="font-size: 14px;"><br /></span></div><span style="font-size: 14px;">Registered users can access the Project&nbsp;HILDA share point from the following link:</span><p><a href="/LinkClick.aspx?link=https%3a%2f%2fmoss.strath.ac.uk%2fprojects%2fhilda&amp;tabid=2460&amp;mid=5962">https://moss.strath.ac.uk/projects/hilda<span style="font-size: 18px;"></span><span style="font-size: 18px;"></span></a></p>
+</div>
+
+</div><!-- End_Module_5962 --></div>
+<div></div>
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-5961"><a name="5961"></a>
+<div class="h3title"><span id="dnn_ctr5961_dnnTITLE_lblTitle" class="Head">&nbsp;</span>
+
+
+</div>
+<div id="dnn_ctr5961_contentpane" class="rlcontent_transparent"><!-- Start_Module_5961 --><div id="dnn_ctr5961_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr5961_HtmlModule_lblContent" class="Normal">
+	<img alt="" style="width: 200px; margin-bottom: 5px; height: 200px; vertical-align: middle;" src="/Portals/48/Images/European-Commission-Logo-square.jpg" /><p style="text-align: left;"><span style="font-size: 14px;">Project&nbsp;HILDA is funded by the European Commission under FP7.</span></p>
+</div>
+
+</div><!-- End_Module_5961 --></div>
+<div></div>
+</div></div>
+			<div style="clear:both;">&nbsp;</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<p><span id="dnn_dnnCOPYRIGHT_lblCopyright" class="SkinObject">Copyright 2013 University of Strathclyde</span>
+ | <a id="dnn_dnnTerms_hypTerms" class="SkinObject" rel="nofollow" href="http://www.hilda-europe.eu/Home/tabid/2460/ctl/Terms/Default.aspx">Terms Of Use and Cookies</a> | <a id="dnn_dnnLOGIN_cmdLogin" class="SkinObject" href="javascript:__doPostBack('dnn$dnnLOGIN$cmdLogin','')">Login</a></p>
+	</div>
+</div>
+
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" />
+        
+    
+<script type="text/javascript" src="/Resources/Shared/scripts/initWidgets.js" ></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+</body>
+</html>

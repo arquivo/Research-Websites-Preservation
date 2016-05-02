@@ -1,0 +1,246 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+<html>
+  
+  
+  
+  <head><meta http-equiv="X-UA-Compatible" content="IE=8" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	
+	CascEff
+
+</title><link rel="stylesheet" type="text/css" href="/_layouts/1053/styles/core.css?rev=XyTD0qcXtdiZ1EvW4l1WWg%3D%3D"/>
+<link rel="stylesheet" type="text/css" href="/Style%20Library/SP%20Style/generalPageDesign.css"/>
+
+	<script type="text/javascript" src="/_layouts/SP.KompetensCentra/FlashReader/AC_OETags.js" language="javascript"></script>
+<link rel="stylesheet" type="text/css" href="/Style%20Library/SP%20Style/customColor.css" /><meta name="description" content="Modelling of dependencies and cascading effects for emergency management in crisis situations
+"></meta><meta name="expires" content="Sat, 01 Jan 2050 00:00:00 GMT"></meta><meta name="keywords" content="Cascading effects, crisis situation, modelling of dependencies, understanding, key decisions, consortium, External Expert Advisory Board, EEAB"></meta></head>
+  
+  
+  <body onload="javascript:_spBodyOnLoadWrapper();">  
+    
+    
+    <form name="aspnetForm" method="post" action="default.aspx" id="aspnetForm">
+<input type="hidden" name="__SPSCEditMenu" id="__SPSCEditMenu" value="true" />
+<input type="hidden" name="MSOWebPartPage_PostbackSource" id="MSOWebPartPage_PostbackSource" value="" />
+<input type="hidden" name="MSOTlPn_SelectedWpId" id="MSOTlPn_SelectedWpId" value="" />
+<input type="hidden" name="MSOTlPn_View" id="MSOTlPn_View" value="0" />
+<input type="hidden" name="MSOTlPn_ShowSettings" id="MSOTlPn_ShowSettings" value="False" />
+<input type="hidden" name="MSOGallery_SelectedLibrary" id="MSOGallery_SelectedLibrary" value="" />
+<input type="hidden" name="MSOGallery_FilterString" id="MSOGallery_FilterString" value="" />
+<input type="hidden" name="MSOTlPn_Button" id="MSOTlPn_Button" value="none" />
+<input type="hidden" name="__REQUESTDIGEST" id="__REQUESTDIGEST" value="0x21374228D3C3AC7B3BDC06118461C7D17A2EE8A9EDBA9B71E57FAAAE156A628BF8A9CF83D3A3E0C2D77D350B4EAFA85B2E8A4D39C00D5F4CA67773BFF8F83E7E,08 Feb 2016 15:53:54 -0000" />
+<input type="hidden" name="MSOAuthoringConsole_FormContext" id="MSOAuthoringConsole_FormContext" value="" />
+<input type="hidden" name="MSOAC_EditDuringWorkflow" id="MSOAC_EditDuringWorkflow" value="" />
+<input type="hidden" name="MSOSPWebPartManager_DisplayModeName" id="MSOSPWebPartManager_DisplayModeName" value="Browse" />
+<input type="hidden" name="MSOWebPartPage_Shared" id="MSOWebPartPage_Shared" value="" />
+<input type="hidden" name="MSOLayout_LayoutChanges" id="MSOLayout_LayoutChanges" value="" />
+<input type="hidden" name="MSOLayout_InDesignMode" id="MSOLayout_InDesignMode" value="" />
+<input type="hidden" name="MSOSPWebPartManager_OldDisplayModeName" id="MSOSPWebPartManager_OldDisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_StartWebPartEditingName" id="MSOSPWebPartManager_StartWebPartEditingName" value="false" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTM0OTc5MzE5Mw9kFgJmD2QWBAICD2QWAgIDD2QWAmYPZBYCAgEPFgIeE1ByZXZpb3VzQ29udHJvbE1vZGULKYgBTWljcm9zb2Z0LlNoYXJlUG9pbnQuV2ViQ29udHJvbHMuU1BDb250cm9sTW9kZSwgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5YwFkAgYPZBYQAgUPFgIeB1Zpc2libGVoFgYCAQ9kFgICAg8PFgIfAWcWAh4Fc3R5bGUFDmRpc3BsYXk6YmxvY2s7ZAIDD2QWAgIBDxYCHwFoFgJmD2QWBAICD2QWAgIDDxYCHwFoZAIDDw8WAh4JQWNjZXNzS2V5BQEvZGQCBQ9kFgICAw9kFgICAQ8PFgIfAWdkFgQCAQ8PFgIfAWhkFhwCAQ8PFgIfAWhkZAIDDxYCHwFoZAIFDw8WAh8BaGRkAgcPFgIfAWhkAgkPDxYCHwFoZGQCCw8PFgIfAWhkZAINDw8WAh8BaGRkAg8PDxYEHgdFbmFibGVkaB8BaGRkAhEPDxYCHwFoZGQCEw8PFgQfBGgfAWhkZAIVDw8WAh8BaGRkAhcPFgIfAWhkAhkPFgIfAWhkAhsPDxYCHwFnZGQCAw8PFgIfAWdkFgYCAQ8PFgIfAWdkZAIDDw8WAh8BZ2RkAgUPDxYCHwFnZGQCBw8WAh8CBUFiYWNrZ3JvdW5kLWltYWdlOnVybCgvU3R5bGUlMjBMaWJyYXJ5L1NQJTIwSW1hZ2VzL3BheW9mZl9lbi5naWYpO2QCCQ9kFgQCAg8WAh4JaW5uZXJodG1sBZMCPGEgaHJlZj0iaHR0cDovL3RlYW0uc3Bsb2dpbi5zZS9zaXRlcy9jYXNjZWZmL1NpdGVQYWdlcy9Ib21lLmFzcHgiPkxvZ2luPC9hPiB8IDxhIGhyZWY9Imh0dHA6Ly9jYXNjZWZmLmV1L2VuL1NpZG9yL1NpdGVtYXAuYXNweCI+U2l0ZW1hcDwvYT4gfCA8YSBocmVmPSJodHRwOi8vY2FzY2VmZi5ldS9lbi9TaWRvci9jb250YWN0LmFzcHgiPkNvbnRhY3Q8L2E+IHwgPGEgaHJlZj0iaHR0cDovL2Nhc2NlZmYuZXUvZW4vU2lkb3IvX2NvbmRpdGlvbnMuYXNweCI+Q29uZGl0aW9uczwvYT5kAgQPZBYCZg8PZBYCHgVjbGFzcwUYbXMtc2J0YWJsZSBtcy1zYnRhYmxlLWV4ZAILDzwrAA0CAA8WAh4LXyFEYXRhQm91bmRnZAwUKwAHBRcwOjAsMDoxLDA6MiwwOjMsMDo0LDA6NRQrAAIWEB4EVGV4dAURQWJvdXQgdGhlIHByb2plY3QeBVZhbHVlBRFBYm91dCB0aGUgcHJvamVjdB4LTmF2aWdhdGVVcmwFHC9lbi9hYm91dC9TaWRvci9kZWZhdWx0LmFzcHgeB1Rvb2xUaXAFCk9tIGNlbnRyZXQfBGceClNlbGVjdGFibGVnHghEYXRhUGF0aAUJL2VuL2Fib3V0HglEYXRhQm91bmRnZBQrAAIWEB8IBQhQYXJ0bmVycx8JBQhQYXJ0bmVycx8KBR8vZW4vcGFydG5lcnMvU2lkb3IvZGVmYXVsdC5hc3B4HwsFCFBhcnRuZXJzHwRnHwxnHw0FDC9lbi9wYXJ0bmVycx8OZ2QUKwACFg4fCAUNV29yayBQYWNrYWdlcx8JBQ1Xb3JrIFBhY2thZ2VzHwoFIy9lbi93b3JrcGFja2FnZXMvU2lkb3IvZGVmYXVsdC5hc3B4HwRnHwxnHw0FEC9lbi93b3JrcGFja2FnZXMfDmdkFCsAAhYQHwgFDFB1YmxpY2F0aW9ucx8JBQxQdWJsaWNhdGlvbnMfCgUjL2VuL3B1YmxpY2F0aW9ucy9TaWRvci9kZWZhdWx0LmFzcHgfCwUNUHVibGlrYXRpb25lch8EZx8MZx8NBRAvZW4vcHVibGljYXRpb25zHw5nZBQrAAIWEB8IBQROZXdzHwkFBE5ld3MfCgUbL2VuL25ld3MvU2lkb3IvZGVmYXVsdC5hc3B4HwsFE05ld3MsIGV2ZW50cywgbGlua3MfBGcfDGcfDQUIL2VuL25ld3MfDmdkFCsAAhYOHwgFBUxpbmtzHwkFBUxpbmtzHwoFHy9lbi9yZWxsaW5rcy9TaWRvci9kZWZhdWx0LmFzcHgfBGcfDGcfDQUML2VuL3JlbGxpbmtzHw5nZGQCDw9kFgICAQ9kFgICAQ8WAh8ACysEAWQCEw9kFgQCAQ8WAh4DYWx0BQ9QcmludCB0aGlzIHBhZ2VkAgMPFgIfDwUZU2F2ZSBwYWdlIGluIG15IGZhdm9yaXRlc2QCFQ9kFgICAQ9kFgICBQ8WAh8ACysEAWQCFw9kFgICAQ8WAh8FBZQBU1AgVGVjaG5pY2FsIFJlc2VhcmNoIEluc3RpdHV0ZSBvZiBTd2VkZW4sIEJveCA4NTcsIFNFLTUwMSAxNSBCb3LDpXMgUGhvbmUgKzQ2IDEwLTUxNiA1MCAwMCwgRS1tYWlsIDxhIGhyZWY9Im1haWx0bzpjYXNjZWZmQHNwLnNlIj5jYXNjZWZmQHNwLnNlPC9hPmRkXgPNaj9nH9+qZpzkJPkq+N2KLL0=" />
+
+<script> var MSOWebPartPageFormName = 'aspnetForm';</script><script type="text/javascript" language="javascript" src="/_layouts/1053/init.js?rev=PGF%2FrOjP%2Fba3TJ2rb6Ab2A%3D%3D"></script>
+<script type="text/javascript" language="javascript" src="/_layouts/1053/init.js?rev=PGF%2FrOjP%2Fba3TJ2rb6Ab2A%3D%3D"></script><script type="text/javascript" language="javascript" src="/_layouts/1053/core.js?rev=DriX19UVCRdgjWeECBKd3A%3D%3D"></script><script type="text/javascript" language="javascript" src="/_layouts/1053/non_ie.js?rev=yfNry4hY0Gwa%2FPDNGrqXVg%3D%3D"></script><script type="text/javascript" language="javascript" src="/_layouts/1053/search.js?rev=4K%2Fh0GYKbIyfe77Kh9XWAA%3D%3D"></script>
+<script src="/WebResource.axd?d=baBwcFHs4-UiKFVlV3blvRF2imihZpw1l6asruYyCbZlqBrkx6bo-Y6JQRKmS2Jb8-x50b16Lx2AobtoMQSxuH7zO_k1&amp;t=635588660026805809" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="860B74FA" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAgLw7ozQDgK47KjeAvHex98ZCd0MvbA54Z9u3LuWu3fK" />
+    
+    
+    
+    <div class="allPage">
+    	<!--Visning hanteras i ctrlCommonFunctions-->
+    	
+    	<!--Bild hanteras i ctrlCommonFunctions-->
+    	<div id="ctl00_divPageOuterLeftContainer" class="pageOuterLeftContainer" style="background-image:url(/Style%20Library/SP%20Images/payoff_en.gif);"><img src="/Style Library/SP Images/spacer30_30.gif" alt=""/></div>		
+    	<div class="pageInnerContainer">
+    		<!-- rounded corners top -->
+        	<div class="topCorners">
+        	    <span class="topCornerL"></span><span class="topCornerR"></span>
+        	</div>
+	        <!-- /rounded corners top -->
+   			<!-- topAreaContainer -->
+			<div class="topAreaContainer">
+				<div id="ctl00_ctrlCommonFunctions_divTopLogo" class="topLogoContainer"><a href="http://casceff.eu/en"><img src="/Style Library/SP Images/logo.gif" border="0" /></a></div>
+<div class="topLinksContainer">
+	<div id="ctl00_ctrlCommonFunctions_divTopLinks" class="topLinks"><a href="http://team.splogin.se/sites/casceff/SitePages/Home.aspx">Login</a> | <a href="http://casceff.eu/en/Sidor/Sitemap.aspx">Sitemap</a> | <a href="http://casceff.eu/en/Sidor/contact.aspx">Contact</a> | <a href="http://casceff.eu/en/Sidor/_conditions.aspx">Conditions</a></div>
+</div>
+<div class="topSearchContainer">
+    <div id="SRSB"> <div id="ctl00_ctrlCommonFunctions_SearchBox">
+	<table class="ms-sbtable ms-sbtable-ex" border="0">
+		<tr class="ms-sbrow">
+			<td class="ms-sbcell"><input name="ctl00$ctrlCommonFunctions$SearchBox$S681FAAC5_InputKeywords" type="text" maxlength="200" id="ctl00_ctrlCommonFunctions_SearchBox_S681FAAC5_InputKeywords" accesskey="S" title="Ange sökord" class="ms-sbplain" alt="Ange sökord" onkeypress="javascript:return S681FAAC5_OSBEK(event);" style="width:132px;" /></td><td class="ms-sbgo ms-sbcell"><a id="ctl00_ctrlCommonFunctions_SearchBox_S681FAAC5_go" title="Sök" href="javascript:S681FAAC5_Submit()"><img title="Sök" onmouseover="this.src='/Style Library/SP Images/searchButton.gif'" onmouseout="this.src='/Style Library/SP Images/searchButton.gif'" alt="Sök" src="/Style%20Library/SP%20Images/searchButton.gif" border="0" /></a></td><td class="ms-sbLastcell"></td>
+		</tr>
+	</table>
+</div></div>
+</div>
+
+
+
+
+				<div class="topNavigationContainer">
+	<table width="100%" height="100%" border="0">
+		<tr>
+			<td valign="bottom"><div class="header">
+				<ul>
+					<li class="nav"><a href="/en/about/Sidor/default.aspx"><br/>About the project</a></li><li class="nav"><a href="/en/partners/Sidor/default.aspx"><br/>Partners</a></li><li class="nav"><a href="/en/workpackages/Sidor/default.aspx"><br/>Work Packages</a></li><li class="nav"><a href="/en/publications/Sidor/default.aspx"><br/>Publications</a></li><li class="nav"><a href="/en/news/Sidor/default.aspx"><br/>News</a></li><li class="nav"><a href="/en/rellinks/Sidor/default.aspx"><br/>Links</a></li>
+				</ul>
+			</div></td>
+		</tr>
+	</table>
+</div>
+				
+			</div>
+			<!-- /topAreaContainer -->
+			<!-- pageContentContainer-->
+			<div class="pageContentContainer">
+				
+    
+        <div class="startPageLeftNavigationContainer"><div class=innerContainer>
+<p align=left> <a title="" href="http://www.bwz.se/sp/b.aspx?vi=12&amp;vid=1484&amp;ucrc=B0743275" target="_blank"><img align=left style="border-top:0px solid;border-right:0px solid;border-bottom:0px solid;border-left:0px solid" src="/PublishingImages/LeftColumnSize/Knapp_submit.gif" border=0></a></p>
+<p align=center> <a title="" href="http://www.bwz.se/sp/b.aspx?subscribeto=225&amp;ucrc=129EB997" target="_blank"><img align=left style="border-top:0px solid;border-right:0px solid;border-bottom:0px solid;border-left:0px solid" src="/PublishingImages/Knappar/Signup.gif" border=0></a></p>
+<p align=left> </p>
+<p align=center> </p>
+<p align=center> </p>
+<p align=center><a name="Follow CascEff" title="Follow CascEff" id="Follow CascEff" href="https://twitter.com/CascEff" target="_blank"><img style="border-top:0px solid;border-right:0px solid;border-bottom:0px solid;border-left:0px solid" src="/PublishingImages/Logotypes/Others/twitter.gif" border=0></a></p>
+<p align=center> </p>
+<p align=center> <a name="Join the Linkedin-groupCascading Effects, Share your knowledge, experience and ask questions!" title="Join the Linkedin-groupCascading Effects, Share your knowledge, experience and ask questions!" id="Join the Linkedin-groupCascading Effects, Share your knowledge, experience and ask questions!" href="https://www.linkedin.com/groups?home=&amp;gid=6792604" target="_blank"><img style="border-top:0px solid;border-right:0px solid;border-bottom:0px solid;border-left:0px solid" src="/PublishingImages/Logotypes/Others/Linkedin55x45.gif" border=0></a></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Coordinated by:</p>
+<p><img style="border-top:0px solid;border-right:0px solid;border-bottom:0px solid;border-left:0px solid" src="/PublishingImages/Logotypes/Members/SP_Science%20Partner.png" border=0></p>
+<p> </p>
+<p>Financed by:</p>
+<p> <img style="border-top:0px solid;border-right:0px solid;border-bottom:0px solid;border-left:0px solid" src="/PublishingImages/Logotypes/EU-flagga.jpg" border=0></p>
+<p> </p></div></div>
+    
+
+				<!-- <breadcrumbAndToolboxContainer> -->		
+	            <div class="breadcrumbAndToolboxContainer">
+	            	
+	<div class="breadcrumb"></div>
+        
+	                 
+<div class="toolbox">
+    <a href="javascript:window.print();"><img src="/Style Library/SP Images/print.gif" id="ctl00_ctrlToolbox_imgPrint" border="0" alt="Print this page" /></a>
+    <a href="#" onclick="javascript:CreateBookmarkLink();return false;"><img src="/Style Library/SP Images/favorit.gif" id="ctl00_ctrlToolbox_imgFavorite" border="0" alt="Save page in my favorites" /></a>
+</div>           
+	            </div>
+	            <!-- </breadcrumbAndToolboxContainer> -->
+	            <div class="layoutContainer">
+	            	
+	
+		<div class="left">
+			<div id="ctl00_PlaceHolderMain_empFlash_ctrlRenderPageContent_divPageContent" class="pageContent"><span id="ctl00_PlaceHolderMain_empFlash_ctrlRenderPageContent_Innehall"><p align=center><font color="#454545" face=Tahoma size=3><strong>Modelling of dependencies and cascading effects for emergency management in crisis situations</strong></font></p>
+<p> </p>
+<p align=center><font color="#454545" face=Tahoma><img style="border-top:0px solid;border-right:0px solid;border-bottom:0px solid;border-left:0px solid" src="/PublishingImages/Wide%20pictures/HandDomino490x110.gif" border=0></font></p>
+<p><font color="#454545" face=Tahoma size=2>Welcome to this website that provides public information about the CascEff Project.</font></p>
+<p><font color="#454545" face=Tahoma>The aim of the project is to improve our understanding of the cascading effects in crisis situations to reduce the consequences of escalating incidents in complex environments. In order to do so the CascEff project will identify initiators, dependencies and key decision points. These will be used to develop an Incident Evolution Tool which will enable improved decision support in escalating incidents, contributing to the reduction of collateral damages and other unfortunate consequences associated with large crises.</font></p>
+<p><font color="#454545" face=Tahoma>The EU project CascEff is funded via the Seventh Framework Programme. The CascEff consortium consists of eleven partners from five countries and is coordinated by SP Technical Research Institute of Sweden.</font></p>
+<p><font color="#454545" face=Tahoma>The Consortium has appointed an independent External Expert Advisory Board (EEAB) comprised of end users of the results of the CascEff Project to ensure that the tools developed are truly useful in a real-life situation.</font></p>
+<p> </p></span></div>
+			<div class="teasers"><div class="column coll3"><div class="img"><img src="/PublishingImages/Puff/Casceff.gif" /></div><h4>About CascEff</h4><span></span><a href="/en/about/Sidor/default.aspx" class="readmore">» Read more...</a></div><div class="column coll3"><div class="img"><img src="/PublishingImages/Puff/WPorg160x90.gif" /></div><h4>Work Packages</h4><span></span><a href="/en/workpackages/Sidor/default.aspx" class="readmore">» Read more...</a></div><div class="column coll3"><div class="img"><img src="/PublishingImages/Puff/EEAB.jpg" /></div><h4>EEAB</h4><span>The independent External Expert Advisory Board</span><a href="/en/about/eeab/Sidor/default.aspx" class="readmore">» Read more...</a></div><div class="teaserdivider"></div></div>
+		    <div class="partners"></div>
+		</div>
+		<div class="right">
+		<!-- Plats för nyheter -->
+			<a href="/en/news/" style="margin-left:0px;"><h3 style="margin-top:0px;">News</h3></a><div class="newsItem"><Span class="newsdate">[01/10/2015]</Span><h4>New report: A strategy for communication between key agencies and members of the public during crisis situations</h4><a href="/en/news/Sidor/Strategyforcommunicationbetweenagencies.aspx" class="readmore">» Read more...</a></div><div class="newsItem"><Span class="newsdate">[01/10/2015]</Span><h4>New report: Report on scenarios to be elaborated for testing the incident evolution methodology</h4><a href="/EN/NEWS/Sidor/Report_on_scenarios_to_be_elaborated.aspx" class="readmore">» Read more...</a></div><div class="newsItem"><Span class="newsdate">[01/10/2015]</Span><h4>New report: Modelling of physics in cascading effects</h4><a href="/en/news/Sidor/Modelling_of_physics_in_cascading_effects.aspx" class="readmore">» Read more...</a></div><div class="newsItem"><Span class="newsdate">[24/09/2015]</Span><h4>CascEff on the Crisis4 conference</h4><a href="/en/news/Sidor/Crisis4conference.aspx" class="readmore">» Read more...</a></div><div class="newsItem"><Span class="newsdate">[03/09/2015]</Span><h4>CascEff on European Safety and Reliability Conference ESREL</h4><a href="/en/news/Sidor/Esrel_zurich.aspx" class="readmore">» Read more...</a></div><div class="newsItem"><Span class="newsdate">[26/05/2015]</Span><h4>DRIVER workshop on innovation for Crisis Management</h4><a href="/en/news/Sidor/DRIVERworkshoponinnovationforCrisisManagement.aspx" class="readmore">» Read more...</a></div><div class="newsItem"><Span class="newsdate">[20/05/2015]</Span><h4>DOMINO congress</h4><a href="/en/news/Sidor/DOMINOcongress.aspx" class="readmore">» Read more...</a></div><div class="newsItem"><Span class="newsdate">[31/03/2015]</Span><h4>New report: Review of previous incidents with cascading effects</h4><a href="/en/news/Sidor/Reviewofpreviousincidentswithcascadingeffects.aspx" class="readmore">» Read more...</a></div><div class="newsItem"><Span class="newsdate">[31/12/2014]</Span><h4>New report: Report of incident management in crisis</h4><a href="/en/news/Sidor/NewreportReportofincidentmanagementincrisis.aspx" class="readmore">» Read more...</a></div><div class="newsItem"><Span class="newsdate">[19/12/2014]</Span><h4>New report: Method to study cascading effects</h4><a href="/en/news/Sidor/Methodtostudycascadingeffects.aspx" class="readmore">» Read more...</a></div><div class="newsItem"><Span class="newsdate">[11/11/2014]</Span><h4>Survey of challenges in incident management</h4><a href="/en/news/Sidor/surveyofchallengesinincidentmanagement.aspx" class="readmore">» Read more...</a></div>
+		</div>	
+	
+	
+	
+	
+
+	            </div>
+			</div>
+			<!-- /pageContentContainer-->
+	         
+<!-- footerContainer-->
+<div class="footerAreaContainer">
+    <div class="left"></div>
+    <div id="ctl00_ctrlFooter_divFooter" class="middle">SP Technical Research Institute of Sweden, Box 857, SE-501 15 Borås Phone +46 10-516 50 00, E-mail <a href="mailto:casceff@sp.se">casceff@sp.se</a></div>
+    <div class="right"></div>
+</div>    
+<!-- /footerContainer-->       
+    	</div>
+    	<!-- no content, used for centering page -->
+    	<div class="pageOuterRightContainer"><img src="/Style Library/SP Images/spacer30_30.gif" alt=""/></div>
+	    <!-- /no content, used for centering page -->
+    </div>
+	
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+function CreateBookmarkLink() {
+ title = "CascEff";
+ url = "http://casceff.eu/en/Sidor/default.aspx";
+ if (window.sidebar) { // Mozilla Firefox Bookmark
+     window.sidebar.addPanel(title, url,"");
+ } else if( window.external ) { // IE Favorite
+     window.external.AddFavorite( url, title);
+ }else if(window.opera && window.print) { // Opera Hotlist
+     return true;
+ }else{
+     alert("Kan inte l�gga till favorit pga inst�llningar i din browser");
+ }
+}
+var __wpmExportWarning='This Web Part Page has been personalized. As a result, one or more Web Part properties may contain confidential information. Make sure the properties contain information that is safe for others to read. After exporting this Web Part, view properties in the Web Part description file (.WebPart) by using a text editor such as Microsoft Notepad.';var __wpmCloseProviderWarning='You are about to close this Web Part.  It is currently providing data to other Web Parts, and these connections will be deleted if this Web Part is closed.  To close this Web Part, click OK.  To keep this Web Part, click Cancel.';var __wpmDeleteWarning='You are about to permanently delete this Web Part.  Are you sure you want to do this?  To delete this Web Part, click OK.  To keep this Web Part, click Cancel.';//]]>
+</script>
+<script type="text/javascript" language="JavaScript" defer>
+<!--
+function S681FAAC5_Submit() {GoSearch(null,'ctl00_ctrlCommonFunctions_SearchBox_S681FAAC5_InputKeywords',null,true,false,null,null,null,null,'\u002fen\u002fSidor\u002fSearch.aspx', 'Den här webbplatsen','Den här listan', 'Den här mappen', 'Relaterade webbplatser', '\u002fen\u002f_layouts\u002fOSSSearchResults.aspx');}
+// -->
+</script><script type="text/javascript" language="JavaScript" >
+// append an onload event handler
+var S681FAAC5__onload= document.body.onload;
+if(typeof document.body.onload == 'function')
+{
+ document.body.onload = function()
+ {
+S681FAAC5__onload();        
+  document.getElementById('ctl00_ctrlCommonFunctions_SearchBox_S681FAAC5_InputKeywords').name = 'InputKeywords';
+ }
+}
+else
+{
+ document.body.onload = function()
+ {
+  eval(S681FAAC5__onload);        
+  document.getElementById('ctl00_ctrlCommonFunctions_SearchBox_S681FAAC5_InputKeywords').name = 'InputKeywords';
+ }
+}
+
+function S681FAAC5_OSBEK(event1) { 
+if((event1.which == 10) || (event1.which == 13))
+{   
+S681FAAC5_Submit();
+}
+}
+// -->
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var zz1_testMenu_Data = new Object();
+zz1_testMenu_Data.disappearAfter = 500;
+zz1_testMenu_Data.horizontalOffset = 0;
+zz1_testMenu_Data.verticalOffset = 0;
+//]]>
+</script>
+</form>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59207-26', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>

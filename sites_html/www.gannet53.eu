@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+  lang="en" dir="ltr" class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
+    <title>start [GANNET53]</title>
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+    <meta name="generator" content="DokuWiki"/>
+<meta name="robots" content="index,follow"/>
+<meta name="date" content="2013-11-15T14:57:21+0100"/>
+<meta name="keywords" content="start"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/lib/exe/opensearch.php" title="GANNET53"/>
+<link rel="start" href="/"/>
+<link rel="canonical" href="http://www.gannet53.eu/start"/>
+<link rel="stylesheet" type="text/css" href="/lib/exe/css.php?t=gannet53&amp;tseed=2f1a44b20cfdfd6d8f651797c4100063"/>
+<script type="text/javascript">/*<![CDATA[*/var NS='';var JSINFO = {"id":"start","namespace":"","plugin_folded":{"hide":"hide","reveal":"reveal"}};
+/*!]]>*/</script>
+<script type="text/javascript" charset="utf-8" src="/lib/exe/js.php?tseed=2f1a44b20cfdfd6d8f651797c4100063"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <link rel="shortcut icon" href="/lib/tpl/gannet53/images/favicon.ico" />
+<link rel="apple-touch-icon" href="/lib/tpl/gannet53/images/apple-touch-icon.png" />
+        <link rel="stylesheet" type="text/css" href="/lib/tpl/gannet53/jquery.bxslider/jquery.bxslider.css">
+    <script src="/lib/tpl/gannet53/jquery.bxslider/jquery.bxslider.min.js"></script>
+    <script src="/lib/tpl/gannet53/jquery.flowtype/flowtype.js"></script>
+
+    <script>
+        window.$ = jQuery;
+
+        $(function(){
+            $('.awesome-slideshow ul').bxSlider({
+                auto: true
+            });
+
+            $('.awesome').flowtype({
+                minFont: 25
+            });
+
+            $('#dokuwiki__aside a').each(function(){
+                if ($(this).attr('href') == document.location.pathname) {
+                    $(this).addClass('active');
+                }
+            });
+
+            /** correct scroll position **/
+            function scrollTo() {
+                var headerHeight = $('#dokuwiki__header').height();
+                    $('html, body').animate({ scrollTop: Math.max($(window.location.hash).offset().top - headerHeight, 0)}, 0);
+            }
+
+            setTimeout(function(){
+                if($(window.location.hash).length > 0){
+                    scrollTo();
+                }
+            }, 200);
+
+            $(window).on('hashchange', function(){
+                scrollTo();
+            });
+
+            $('.menubutton').click(function(ev){
+                $('#dokuwiki__header').toggleClass('menuopen');
+                ev.preventDefault();
+            });
+
+            $(document).on("touchmove", function(ev){
+                if ($('#dokuwiki__header').hasClass('menuopen')) {
+                    ev.preventDefault();
+                }
+            });
+
+            // open links to pdfs in new window
+            $('a.mediafile').each(function(){
+                $(this).attr('target', '_blank');
+            });
+        });
+    </script>
+
+</head>
+
+<body class="start">
+        <!--[if IE 6 ]><div id="IE6"><![endif]--><!--[if IE 7 ]><div id="IE7"><![endif]--><!--[if IE 8 ]><div id="IE8"><![endif]-->
+
+            
+    <!--[if lt IE 8]>
+        <div style="position: fixed; bottom: 0; left:0;right:0; height: 20px;background-color: #FFFFE0; padding: 10px; text-align: center; z-index: 2000;">
+            We're sorry, but your browser version is not supported. We only support IE8 and newer.
+        </div>
+    <![endif]-->
+
+
+    <div id="dokuwiki__site" ><div id="dokuwiki__top"
+        class="dokuwiki site mode_show hasSidebar">
+                
+        <!-- ********** HEADER ********** -->
+        <div id="dokuwiki__header"><div class="pad">
+
+            <div class="headings">
+                <div>
+
+                    
+                    <a href="/start"  id="dokuwiki__top" accesskey="h" title="[H]"><img src="/_media/logo.png" alt="GANNET53" width="170" height="40" /></a>
+                    <a class="menubutton" href="#">Menu</a>
+
+                    <!-- ********** ASIDE ********** -->
+                                            <div id="dokuwiki__aside"><div class="pad include">
+                                                        <ul>
+<li class="level1"><div class="li"> <a href="/about" class="wikilink1" title="about">About</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/research" class="wikilink1" title="research">Research</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/organisation" class="wikilink1" title="organisation">Organisation</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/consortium" class="wikilink1" title="consortium">Consortium</a></div>
+</li>
+<li class="level1"><div class="li"> <span class="curid"><a href="/activity" class="wikilink1" title="activity">Activity</a></span></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://patients.gannet53.eu" class="urlextern" target="_blank" title="http://patients.gannet53.eu"  rel="nofollow">For patients</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://team.gannet53.eu" class="urlextern" target="_blank" title="http://team.gannet53.eu"  rel="nofollow">Login</a></div>
+</li>
+</ul>
+
+<p>
+
+<!--  * [[Contact|Contact]]
+  * [[http://example.com|Patients]]
+ -->
+<!--   * [[http://example.com|Patient Information]] -->
+<!--     * [[http://example.com|Login]] -->
+
+</p>
+                                                        <div class="clearer"></div>
+                        </div></div><!-- /aside -->
+                    
+                    <div class="clearer"></div>
+                </div>
+                <div style="float: left; width: 100%;">
+                                    </div>
+            </div>
+
+            <div class="tools">
+                <!-- USER TOOLS -->
+                
+                
+            </div>
+            <div class="clearer"></div>
+
+            <!-- BREADCRUMBS -->
+                        
+            <div class="clearer"></div>
+            <hr class="a11y" />
+        </div></div><!-- /header -->
+
+        
+        <div class="awesome-wrapper">
+            <div class="awesome-slideshow">
+                <ul>
+<li class="level1"><div class="li"> <img src="/_media/1_people_1.jpg" class="media" alt="" /></div>
+</li>
+<li class="level1"><div class="li"> <img src="/_media/2_medizin.jpg" class="media" alt="" /></div>
+</li>
+<li class="level1"><div class="li"> <img src="/_media/3_labor.jpg" class="media" alt="" /></div>
+</li>
+<li class="level1"><div class="li"> <img src="/_media/4_people_2.jpg" class="medialeft" alt="" /></div>
+</li>
+<li class="level1"><div class="li"> <img src="/_media/5_tech_untersuchung.jpg" class="medialeft" alt="" /></div>
+</li>
+</ul>
+            </div>
+
+            <a class="awesome blue" href="/about">
+                A drug strategy targeting stabilised mutant p53 to fight metastatic platinum-resistant ovarian cancer
+                <span class="small">GANNET53 (Ganetespib in metastatic, p53 mutant, platinum-resistant ovarian cancer) is a FP7 research project funded by the European Commission. The project started in October 2013 and aims at improving prognosis and quality of life in platinum-resistant, p53 mutant ovarian cancer patients. The project is planned for 5.5 years with a funding of 6 million Euros.</span>
+            </a>
+
+            <a class="awesome lightgray" href="/consortium">
+                Who are we?
+                <span class="small">GANNET53 is a group of passionate collaborators, click here to find out more about them.</span>
+            </a>
+
+
+            <a class="awesome darkgray" href="/research">
+                What we do?
+                <span class="small">Learn more about our clinical trials and translational research...</span>
+            </a>
+
+            <!--<a class="awesome darkgray" href="/activity">
+                Activity
+                <span class="small">See what's happening. Press info, Events and Reports.</span>
+            </a>-->
+
+            <!--<a class="awesome blue" href="http://www.example.com/">
+                Patient information
+                <span>Find out more...</span>
+            </a>-->
+        </div>
+
+        
+        <!-- ********** FOOTER ********** -->
+        <div id="dokuwiki__footer"><div class="pad">
+            
+<p>
+<img src="/_media/gannet53_web_seventhframeworklogo.png" class="media" alt="" /><img src="/_media/gannet53_web_eulogo.png" class="media" alt="" />
+&nbsp;&nbsp;&nbsp;
+
+&copy; 2013 all rights reserved
+
+ <span class="sep">/</span> <a href="/imprint">LEGAL INFORMATION</a><span class="sep">/</span> <a href="/contact">CONTACT</a><!-- <span class="sep">/</span> <a href="http://www.example.com/">LOGIN</a>-->
+
+</p>
+                                </div></div><!-- /footer -->
+
+            </div></div><!-- /site -->
+
+    <div class="no"><img src="/lib/exe/indexer.php?id=start&amp;1454946940" width="2" height="1" alt="" /></div>
+    <!--[if ( IE 6 | IE 7 | IE 8 ) ]></div><![endif]-->
+</body>
+</html>

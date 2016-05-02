@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+<head>
+    <base href="http://www.embrace-project.eu/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Jesper Snive" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Start</title>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+  </script>
+
+  <link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/system/css/general.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/embrace/css/template.css" type="text/css" />
+  
+    <link rel="stylesheet" href="/templates/embrace/css/jquery.qtip.css" type="text/css" />
+
+  <script type="text/javascript" src="/templates/embrace/js/sfhover.js"></script>
+
+    <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="/templates/embrace/js/jquery.qtip.min.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+            //setTimeout(function(){ 
+                //swapHeaderImg(); 
+            //}, 2000 );
+            swapHeaderImg(); 
+
+            $('.infotxt').qtip();
+    });
+
+        function randomToN(maxVal) {
+            var randVal = Math.random() * maxVal;
+            return typeof 0 == 'undefined' ? Math.round(randVal) : randVal.toFixed(0);
+        };
+        function swapHeaderImg(){
+            var list = [ "toprightimg1.png", "toprightimg2.png","toprightimg3.png","toprightimg4.png" ], // Images
+            ram = list[parseFloat(randomToN(list.length))], // Random 1 to n
+            img = ram == undefined || ram == null ? list[0] : ram; // Detect null
+            //alert(img)
+            $("#headerRight").css("backgroundImage", "url(/images/topImages/" + img + ")"); // push de background
+        }
+
+    function MailingListValidation(SubscriberForm){
+        var counter = 0;
+        for (i=1; i<=SubscriberForm.pf_CounterMailinglists.value; i++)
+        {
+            var checkBoxName = "pf_MailinglistName" + i;
+            if (document.getElementsByName(checkBoxName)[0].checked || document.getElementsByName(checkBoxName)[0].type == "hidden") counter++; 
+        }
+        if (counter == 0)
+        {
+            alert("En eller flera e-postlistor krävs för detta formulär.");
+            return false; 
+        }
+    }
+    </script>
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36886379-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div id="wrapper">
+    
+  <div id="header">
+        <div id="headerLeft">
+                <!-- Logo -->
+            <div id="logo">
+      
+                          <a href="/"><img src="/images/toplogo.png"  alt="EMBRACE Project" /></a>
+                        
+              </div>
+
+              <div id="topmenu">
+                
+<ul class="menu">
+<li class="item-101 current active"><a href="/" >Start</a></li><li class="item-107 deeper parent"><a href="/index.php/about-embrace" >About EMBRACE</a><ul><li class="item-180"><a href="/index.php/about-embrace/what-are-the-aims" >What are the aims?</a></li><li class="item-181"><a href="/index.php/about-embrace/why-is-this-important" >Why is this important?</a></li><li class="item-182"><a href="/index.php/about-embrace/how-is-the-project-structured" >How is the project structured?</a></li><li class="item-203"><a href="/index.php/about-embrace/target-research-areas" >Target research areas</a></li><li class="item-209"><a href="/index.php/about-embrace/project-management" >How the project is managed</a></li></ul></li><li class="item-176 deeper parent"><a href="/index.php/project-output" >Project Output</a><ul><li class="item-177"><a href="/index.php/project-output/information-for-the-public" >Information for the Public</a></li><li class="item-178"><a href="/index.php/project-output/information-for-policy-makers" >Information for Policy Makers</a></li><li class="item-179 deeper parent"><a href="/index.php/project-output/information-for-the-scientific-community" >Information for the Scientific Community</a><ul><li class="item-205"><a href="/index.php/project-output/information-for-the-scientific-community/wp-updates" >Work Package Updates</a></li></ul></li></ul></li><li class="item-111 deeper parent"><a href="/index.php/partners" >Partners</a><ul><li class="item-183"><a href="/index.php/partners/swedish-meteorological-hydrological-institute" >Swedish Meteorological &amp; Hydrological Institute</a></li><li class="item-184"><a href="/index.php/partners/royal-netherlands-meteorological-institute" >Royal Netherlands Meteorological Institute</a></li><li class="item-185"><a href="/index.php/partners/european-centre-for-medium-range-weather-forecasts" >European Centre for Medium-range Weather Forecasts</a></li><li class="item-186"><a href="/index.php/partners/karlsruhe-institute-of-technology" >Karlsruhe Institute of Technology</a></li><li class="item-187"><a href="/index.php/partners/max-planck-institute-for-meteorology" >Max-Planck Institute for Meteorology</a></li><li class="item-188"><a href="/index.php/partners/max-planck-institute-for-biogeochemistry" >Max-Planck-Institute for Biogeochemistry</a></li><li class="item-189"><a href="/index.php/partners/deutsches-zentrum-fuer-luft-und-raumfahrt" >Deutsches Zentrum für Luft- und Raumfahrt</a></li><li class="item-190"><a href="/index.php/partners/finnish-meteorological-institute" >Finnish Meteorological Institute</a></li><li class="item-191"><a href="/index.php/partners/eidgenoessische-technische-hochschule-zuerich" >Eidgenössische Technische Hochschule Zürich</a></li><li class="item-192"><a href="/index.php/partners/university-of-east-anglia" >University of East Anglia</a></li><li class="item-193"><a href="/index.php/partners/university-of-exeter" >University of Exeter</a></li><li class="item-194"><a href="/index.php/partners/uk-met-office" >UK Met Office</a></li><li class="item-195"><a href="/index.php/partners/universite-catholique-de-louvain" >Université Catholique de Louvain</a></li><li class="item-196"><a href="/index.php/partners/centre-national-de-la-recherche-scientifique-cnrs-institut-pierre-simon-laplace-ipsl" >Centre National de la Recherche Scientifique (CNRS) – Institut Pierre Simon Laplace (IPSL)</a></li><li class="item-197"><a href="/index.php/partners/centre-national-de-recherches-meteorologiques-cnrm-game" >Centre National de Recherches Météorologiques (CNRM-GAME)</a></li><li class="item-198"><a href="/index.php/partners/natural-environment-research-council-centre-for-ecology-and-hydrology" >Natural Environment Research Council Centre for Ecology and Hydrology</a></li><li class="item-199"><a href="/index.php/partners/wageningen-university-and-research-centre" >Wageningen University and Research Centre</a></li><li class="item-200"><a href="/index.php/partners/university-of-split" >University of Split</a></li><li class="item-201"><a href="/index.php/partners/imperial-college" >Imperial college</a></li><li class="item-202"><a href="/index.php/partners/university-amsterdam" >University Amsterdam</a></li></ul></li><li class="item-108"><a href="/index.php/meetings" >Meetings</a></li><li class="item-110"><a href="/index.php/newsletter" >Newsletter</a></li><li class="item-109 deeper parent"><a href="/index.php/the-team" >The Team</a><ul><li class="item-214"><a href="/index.php/the-team/embrace-wpl" >Work Package Leaders</a></li><li class="item-215"><a href="/index.php/the-team/international-advisory-board" >International Advisory Board</a></li></ul></li><li class="item-206"><a href="/index.php/links" >Links</a></li></ul>
+
+              </div>
+
+                <!-- Breadcrumbs -->
+                            <div id="breadcrumbs">
+                
+<div class="breadcrumbs">
+<span class="showHere">You are here: </span><span>Home</span></div>
+
+              </div>
+                      </div>
+        <div id="headerRight">
+        <!-- Search -->
+        <div id="search">    
+          
+        </div>
+        </div>
+  </div>
+  
+  
+  <br clear="all" />
+  
+  
+
+
+  <!-- Left Menu -->
+  
+
+  <!-- Contents -->
+    <div id="content-w2">  
+    
+      
+    
+<div id="system-message-container">
+</div>
+    <div class="item-page">
+
+
+
+
+
+
+
+
+
+     <h4 style="text-align: justify;"><span>Those making major decisions on how to address climate change, against a backdrop of global economic instability, require reliable estimates of how the climate may change in the future. This information is mainly provided by Earth System Models (ESMs) which describe the important physical, dynamical and biogeochemical processes in the climate system. However, despite their complexity, and great advances over recent decades, they remain simplified representations of the real earth system and are associated with a number of errors that reduce the reliability of future climate projections. </span><span>Therefore improving the realism of European ESMs is vital in order to provide the most reliable estimates of future climate change to decision makers allowing them to make informed policy decisions at national, European and international levels.</span></h4>
+<p><span>&nbsp;</span></p>
+<hr />
+<h3><span style="color: #99cc00;">Highlights: Investigating the North Atlantic 'hole'</span></h3>
+<p><img src="/images/eleanor/Highlights/hole%20close%20up%20image.png" width="200" height="125" alt="hole close up image" style="margin-right: 10px; float: left;" /><span style="line-height: 1.6em; text-align: left;" title="The potential loss of Amazonian rainforest due to climate changes">While <span style="color: #99cc00;" title="Paleoclimatology data are derived from natural sources such as tree rings, ice cores, corals, and ocean and lake sediments.">paleoclimatic data</span> and <span style="color: #99cc00;" title="These are hydrographic measurements of the sea surface temperature in the Atlantic and other variables. Prior to 2004 these were only ‘snapshot’ measurements but there is now a continuous monitoring array at 26.5°N (the RAPID MOC array www.rapid.ac.uk/rapidmoc/).">recent measurements</span> indicate the existence of <span style="color: #99cc00;" title="Changes in variables such as sea surface temperature (SST) over as little as 10-20 years.">rapid changes</span> of Sea Surface Temperature (SST) in the North Atlantic, very few studies have looked at the possibility of such abrupt variations in the models participating in <span style="color: #99cc00;" title="Coupled Model Intercomparison Project Phase 5 provided a framework for coordinated climate change experiments for the five years 2008-2013, including simulations assessed within the IPCC AR5 as well as others extending past the AR5. ">CMIP5</span>. The EMBRACE WP5 team are leading a detailed analysis of the existence of abrupt changes in simulations from more than 30 models participating in CMIP5. Alongside other important topics like the potential <span style="color: #99cc00;" title="The potential loss of Amazonian rainforest due to climate changes.">Amazon dieback</span>, the WP5 team have focused on the rapid changes in the North Atlantic.</span></p>
+<p><span style="font-size: 10pt; line-height: 115%;">        
+    <div class="readMoreLinks">Read more &raquo;</div>
+    <div id="readMoreContent">
+        <br /></span></p>
+<p style="text-align: justify;"><span style="font-size: 10pt; line-height: 115%;"></span><span style="line-height: 1.6em; text-align: left;">In particular, they have looked at the so-called “North Atlantic hole”, an area located approximately to the south of the Greenland tip and where data from the last century (see recent Figure 1 from </span><a href="http://www.climatechange2013.org/images/uploads/WGI_AR5_SPM_brochure.pdf" target="_blank"><span style="line-height: 1.6em; text-align: left;">IPCC AR5 Summary for Policymakers</span></a><span style="line-height: 1.6em; text-align: left;">&nbsp;below), and the CMIP5 simulations for the coming century, show a cooling while almost all of the rest of the globe is warming.&nbsp;</span></p>
+<p><span style="line-height: 1.6em; text-align: left;"><img src="/images/eleanor/Highlights/altered%20wg1%20spm%20fig%201.png" width="500" height="354" alt="altered wg1 spm fig 1" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<p title="The Representative Concentration Pathways (RCP) is the latest generation of scenarios that provide input to climate models. The RCP4.5 scenario is calculated with respect to: lower energy intensity; strong reforestation programmes;decreasing use of croplands and grasslands due to yield increases and dietary changes; stringent climate policies; stable methane emissions; and CO2 emissions increase only slightly before decline commences around 2040"><span style="line-height: 1.6em; text-align: left;"></span><span style="line-height: 1.6em;">When looking at how the sea surface temperature (SST) changes over time at the location of the hole, it is clear that the transition can be abrupt, with changes of more than 1°C in less than 20 years. To illustrate this transition, the Figure below &nbsp;shows the behaviour of SST in the model </span><span style="line-height: 1.6em; color: #99cc00;" title="Earth System Model developed at the University of Tokyo and Japan Agency for Marine-Earth Science and Technology.">MIROC5</span><span style="line-height: 1.6em;">, one of eight models among thirty-two that indicates this type of abrupt transition using the </span><span style="line-height: 1.6em; color: #99cc00;">RCP4.5 scenario</span><span style="line-height: 1.6em;"><span style="color: #99cc00;">.</span> In this particular model, the transition occurs as early as 2010 and ends in 2020. This can occur later in other models, but also earlier, in historical simulations (in </span><span style="line-height: 1.6em; color: #99cc00;" title="Earth System Model developed at the Geophysical Fluid Dynamics Laboratory at Princeton University, USA.">GFDL-ESM2G </span><span style="line-height: 1.6em;">for instance).</span></p>
+<p><span style="line-height: 1.6em;"><img src="/images/eleanor/Highlights/miroc5%20north%20atlantic%20hole.png" style="display: block; margin-left: auto; margin-right: auto;" width="500" /></span></p>
+<p style="text-align: justify;"><span style="line-height: 1.6em; text-align: left;">The model exhibiting the largest changes is </span><span style="line-height: 1.6em; text-align: left; color: #99cc00;" title="Earth System Model developed at The First Institute of Oceanography, State Oceanic Administration, China.">FIO-ESM </span><span style="line-height: 1.6em; text-align: left;">with a cooling starting in 2030 and reaching more than 2°C within 40 years. The team is currently investigating the causes of this pattern, which may implicate variations in the </span><span style="line-height: 1.6em; text-align: left; color: #99cc00;" title="There is a northward transport of heat throughout the Atlantic, reaching a maximum of around 25% of the global heat budget around 24.5°N. The heat transport is a balance between the northward flux of the warm Gulf Stream, and southwards flux of the cold North Atlantic Deep Water that is known as the Atlantic Meridional Overturning Circulation (AMOC). The heat transported by the AMOC is released to the atmosphere and carried over NW Europe resulting in a milder climate. ">Atlantic Meridional Overturning Circulation </span><span style="line-height: 1.6em; text-align: left;">but also rapid changes in the </span><span style="line-height: 1.6em; text-align: left; color: #99cc00;" title="A gyre is any large system of ocean currents moving in a circle around a low pressure system, subpolar gyres form at about 60°N.">sub polar gyre</span><span style="line-height: 1.6em; text-align: left;">, which is now recognised for its potential for </span><span style="line-height: 1.6em; text-align: left; color: #99cc00;" title="It is possible that there may be more than one ‘stable’ state of the AMOC, which would have significant impacts on the global climate.">bi-stable behaviour</span><span style="line-height: 1.6em; text-align: left;">. As work progresses, WP5 will share any interesting results with the EMBRACE and wider scientific community, and a wider audience through the project website.</span></p>
+<p style="text-align: justify;">Find out more about the other aspects of WP5's work <a href="/index.php/about-embrace/how-is-the-project-structured" target="_blank">here</a>.&nbsp;</p>
+<p><span style="font-size: 10pt; line-height: 115%;">&nbsp;</span></p>
+<p>&nbsp;</p>        <div class="readMoreLinks">&laquo; Close</div>
+    </div>
+
+    <script type="text/javascript">
+ 
+    $(document).ready(function(){
+ 
+            $("#readMoreContent").hide();
+            $(".readMoreLinks").show();
+ 
+            $('.readMoreLinks').click(function(){
+                $("#readMoreContent").slideToggle();
+            });
+ 
+    }); 
+    </script>
+    <style>
+        .readMoreLinks{margin-top:10px;text-align:right;color:#99CC00;cursor:pointer;}
+        #readMoreContent
+        {           
+            padding:20px 0;
+            margin-top:10px;    
+                    
+        }
+    </style>
+ 
+
+
+	
+</div>
+
+
+          </div>
+
+
+  <!-- Right Menu -->
+    <div id="rightmenu">
+    		<div class="moduletable">
+					<h2 class="gray">News</h2>
+<div class="newsflash">
+	<div class="newsItem">
+<span class="newsDate">2015-11-12</span>
+
+
+	<h4 class="newsflash-title">
+			<a href="/index.php/8-news/148-final-ga-dubrovnik">
+			Final General Assembly for EMBRACE Project, October 2015 </a>
+		</h4>
+
+
+<a class="readmore" href="/index.php/8-news/148-final-ga-dubrovnik">Read more...</a>
+
+</div>	<div class="newsItem">
+<span class="newsDate">2015-10-06</span>
+
+
+	<h4 class="newsflash-title">
+			<a href="/index.php/8-news/147-upcoming-ga-cmip">
+			Upcoming EMBRACE GA and CMIP Workshop</a>
+		</h4>
+
+
+<a class="readmore" href="/index.php/8-news/147-upcoming-ga-cmip">Read more...</a>
+
+</div>	<div class="newsItem">
+<span class="newsDate">2015-06-30</span>
+
+
+	<h4 class="newsflash-title">
+			<a href="/index.php/8-news/145-june-2015-newsletter">
+			EMBRACE June 2015 Newsletter now available!</a>
+		</h4>
+
+
+<a class="readmore" href="/index.php/8-news/145-june-2015-newsletter">Read more...</a>
+
+</div></div>
+		</div>
+	
+    		<div class="moduletable">
+					
+
+<div class="custom"  >
+	<h1 class="gray">Examples of research areas targeted by EMBRACE</h1>
+<p><a href="/index.php/about-embrace/target-research-areas" target="_blank"></a></p>
+<p><a href="/index.php/about-embrace/target-research-areas" target="_blank"><img src="/images/startpage/rightboxar.png" alt="" border="0" /></a></p>
+<p>&nbsp;</p></div>
+		</div>
+	
+
+        <div style="background-color:#BFB7AD;width:335px;height:20px;margin-bottom:10px;"></div>
+    		<div class="moduletable">
+					
+
+<div class="custom"  >
+	<p><a href="/index.php/newsletter"><img alt="subscribe new" src="/images/subscribe_new.png" height="33" width="294" /></a></p>
+<p><a href="/index.php/partners/partnerpages"><img alt="login new" src="/images/login_new.png" height="33" width="294" /></a></p></div>
+		</div>
+	
+  </div>
+    
+
+  <!-- Footer -->
+  <div id="footer">
+        <div class="leftFooter">
+        </div>
+
+        <div class="midFooter">
+            <div class="footerBox">
+            
+
+<div class="custom"  >
+	<h3>This is EMBRACE</h3>
+<p class="p2">This project has received funding from the European Union’s Seventh Framework Programme for research, technological development and demonstration under grant agreement no 282672</p></div>
+
+            </div>
+            <div class="footerBox">
+            
+            </div>
+        </div>
+
+        <div class="rightFooter"><img  src="/images/eu-loggo.jpg" /></div>
+  </div>
+
+  <div id="push"></div>
+
+    
+</div>
+<!-- END WRAPPER -->
+
+<div id="copyright">
+  &copy;2016 EMBRACE Project </div>
+</div>  
+
+
+</body>
+</html>

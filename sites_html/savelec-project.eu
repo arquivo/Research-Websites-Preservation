@@ -1,0 +1,896 @@
+
+<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr" >
+
+ <head>
+
+  <base href="http://savelec-project.eu/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Savelec, Project, High Power Microwaves, HPM, Electromagnetic Pulse, EMP, Intentional Electromagnetic Interference, IEMI, Security, Non Cooperative Vehicles, Automotive EMI/EMC" />
+  <meta name="description" content="Savelec, Project, High Power Microwaves, HPM, Electromagnetic Pulse, EMP, Intentional Electromagnetic Interference, IEMI, Security, Non Cooperative Vehicles, Automotive EMI/EMC" />
+  <meta name="generator" content="Joomla! 1.7 - Open Source Content Management" />
+  <title>Savelec project - Home Page</title>
+  <link href="/templates/theme846/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="http://savelec-project.eu/index.php/component/search/?format=opensearch" rel="search" title="Search Savelec-project.eu" type="application/opensearchdescription+xml" />
+  <link rel="stylesheet" href="/media/com_acymailing/css/module_default.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_fancyscroller/tmpl/style.css" type="text/css" />
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/media/com_acymailing/js/acymailing_module.js" type="text/javascript"></script>
+  <script type="text/javascript">
+
+		window.addEvent('domready', function() {
+			$$('.hasTip').each(function(el) {
+				var title = el.get('title');
+				if (title) {
+					var parts = title.split('::', 2);
+					el.store('tip:title', parts[0]);
+					el.store('tip:text', parts[1]);
+				}
+			});
+			var JTooltips = new Tips($$('.hasTip'), { maxTitleChars: 50, fixed: false});
+		});<!--
+					var acymailing = Array();
+					acymailing['NAMECAPTION'] = 'Name';
+					acymailing['NAME_MISSING'] = 'Please enter your name';
+					acymailing['EMAILCAPTION'] = 'E-mail';
+					acymailing['VALID_EMAIL'] = 'Please enter a valid e-mail address';
+					acymailing['ACCEPT_TERMS'] = 'Please check the Terms and Conditions';
+					acymailing['CAPTCHA_MISSING'] = 'Please enter the security code displayed in the image';
+					acymailing['NO_LIST_SELECTED'] = 'Please select the lists you want to subscribe to';
+			//-->
+  </script>
+
+
+<link rel="stylesheet" href="/templates/theme846/css/position.css" type="text/css" media="screen,projection" />
+
+<link rel="stylesheet" href="/templates/theme846/css/layout.css" type="text/css" media="screen,projection" />
+
+<link rel="stylesheet" href="/templates/theme846/css/general.css" type="text/css" media="screen,projection" />
+
+<link rel="stylesheet" href="/templates/theme846/css/personal.css" type="text/css" media="screen,projection" />
+
+<link rel="stylesheet" href="/templates/theme846/css/prettyPhoto.css" type="text/css" media="screen,projection" />
+
+<link rel="stylesheet" href="/templates/theme846/css/nivo-slider.css" type="text/css" media="screen,projection" />
+
+<link rel="stylesheet" href="/templates/theme846/css/print.css" type="text/css" media="print" />
+
+
+
+
+
+
+<script type="text/javascript" src="/templates/theme846/javascript/jquery.js"></script>
+
+
+<script type='text/javascript' src='/templates/theme846/javascript/mosaic.1.0.1.min.js'></script> 
+
+<script type='text/javascript' src='/templates/theme846/javascript/jquery.easing.js'></script> 
+
+<script src="/templates/theme846/javascript/flashobject.js" type="text/javascript"></script>
+
+<script type='text/javascript' src='/templates/theme846/javascript/jquery.prettyPhoto.js'></script> 
+
+<script type='text/javascript' src='/templates/theme846/javascript/jquery.nivo.slider.pack.js'></script>
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+var $j = jQuery.noConflict();
+
+
+
+$j(window).load(function() {
+
+  $j('#slider').nivoSlider({
+
+    pauseTime:6000,
+
+    effect:'boxRainGrow',
+
+    animSpeed: 500,
+
+    directionNav: true,
+
+    directionNavHide: false,
+
+    controlNav: true,
+
+    captionOpacity: 1              
+
+  });
+
+});
+
+  
+
+$j(document).ready(function(){
+
+  $j('h2').wrap('<div class="title" />');
+
+  $j('h3').wrap('<div class="title" />');
+
+  $j('div.for_images ul li a').each(function(){
+
+    $j(this).removeAttr('href');
+
+  });
+
+  $j('div.right div.widget-container').first().css('padding-top','0');
+
+  
+
+  $j('div.staff_global div.staff').last().addClass('staff_last');
+
+  
+
+  $j('div.ab_con p').last().css('padding-bottom', '0');
+
+  
+
+  
+
+              $j('div.fr_l').hide();
+
+  $j('div.fr_l').first().addClass('visi');
+
+  
+
+  $j('div.fr_r').first().addClass('porshe');
+
+  
+
+  $j('div.for').hide();
+
+  $j('div.trigger').first().addClass('trig_act').next().show();
+
+  
+
+  $j('div.trigger').click(function(){
+
+    if( $j(this).next().is(':hidden') ) { //If immediate next container is closed...
+
+    
+
+        $j('div.fr_r').removeClass('porshe');
+
+      $j(this).toggleClass('trig_act').parent().addClass('porshe')
+
+      
+
+      $j('div.fr_l').removeClass('visi');
+
+      if ($j('div.open_1').hasClass('porshe')){
+
+        $j('div#open_1').addClass('visi').fadeOut('slow');
+
+      }
+
+      if ($j('div.open_2').hasClass('porshe')){
+
+        $j('div#open_2').addClass('visi').fadeOut('slow');
+
+      }
+
+      if ($j('div.open_3').hasClass('porshe')){
+
+        $j('div#open_3').addClass('visi').fadeOut('slow');
+
+      }
+
+      if ($j('div.open_4').hasClass('porshe')){
+
+        $j('div#open_4').addClass('visi').fadeOut('slow');
+
+      }
+
+      
+
+      $j('div.trigger').removeClass('trig_act').next().slideUp(); //Remove all "active" state and slide up the immediate next container
+
+      $j(this).toggleClass('trig_act').next().slideDown();
+
+    }
+
+    return false; //Prevent the browser jump to the link anchor
+
+  });
+
+            $j('div.open_1 div.for_images ul li').click(function(){
+
+              var imgstr = $j(this).children().html();
+
+              $j('div#open_1 ul li a img').replaceWith(imgstr);
+
+            });
+
+            
+
+            $j('div.open_2 div.for_images ul li').click(function(){
+
+              var imgstr = $j(this).children().html();
+
+              $j('div#open_2 ul li a img').replaceWith(imgstr);
+
+            });
+
+            
+
+            $j('div.open_3 div.for_images ul li').click(function(){
+
+              var imgstr = $j(this).children().html();
+
+              $j('div#open_3 ul li a img').replaceWith(imgstr);
+
+            });
+
+            
+
+            $j('div.open_4 div.for_images ul li').click(function(){
+
+              var imgstr = $j(this).children().html();
+
+              $j('div#open_4 ul li a img').replaceWith(imgstr);
+
+            });
+
+
+
+             $j("#menu-tabs li a").click(function () {  
+
+  
+
+         // switch all tabs off  
+
+         $j(".current_tab").removeClass("current_tab");  
+
+   
+
+         // switch this tab on  
+
+         $j(this).addClass("current_tab");  
+
+   
+
+         // slide all elements with the class 'content' up  
+
+         $j(".box").hide();  
+
+   
+
+         // Now figure out what the 'title' attribute value is and find the element with that id.  Then slide that down.  
+
+         var content_show = $j(this).attr("title");  
+
+         $j("#"+content_show).show();  
+
+   
+
+     }); 
+
+
+
+            $j('.main_menu ul li').hover(
+
+              function() {
+
+                $j(this).find('> ul').stop(false, true).slideDown();
+
+                $j(this).addClass('act_button');
+
+                $j(this).find('>ul ul').stop(false, true).fadeOut('fast');
+
+              },
+
+              function() {
+
+                $j(this).find('ul').stop(false, true).fadeOut('fast');
+
+                $j(this).removeClass('act_button');
+
+
+
+              }
+
+            );
+
+            function preloadImages(imgs){
+
+            var picArr = [];
+
+            for (i = 0; i<imgs.length; i++){
+
+              picArr[i]= new Image(100,100); 
+
+              picArr[i].src=imgs[i]; 
+
+            }
+
+          }
+
+          //preloadImages([
+
+          //' /templates/theme846/images/ .png']);
+
+          });
+
+          $j(document).ready(function() {        
+
+        $j('.excursions_line li').mosaic({
+
+          animation  :  'slide'
+
+      });
+
+  });      
+
+          
+
+          
+
+   
+
+</script>
+
+<script type="text/javascript">
+
+
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-32182098-1']);
+
+  _gaq.push(['_trackPageview']);
+
+
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+
+
+</script>
+
+
+
+
+
+
+
+    <!--[if lt IE 7]>
+
+            <div style=' clear: both; text-align:center; position: relative;'>
+
+                <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" alt="" /></a>
+
+
+
+            </div>
+
+       <![endif]-->
+
+        <!--[if lt IE 9]>
+
+        <style type="text/css">
+
+         .readon, #header ul, #header ul ul li a,  .icon_block1 a, .icon_block2 a, .icon_block3 a, .project_block,  .readmore, .button, button, .product_block, #carousel li .p3, #map, .act_button, .moduletable.subscribe { behavior:url(/templates/theme846/PIE.php); position:relative; zoom:1 }
+
+        </style>
+
+        <![endif]-->
+
+<script language="JavaScript">
+		
+	function resize()
+			{
+				document.getElementById("loading").style.display = "none";
+				document.getElementById("slider").style.display = 'block';
+				document.getElementById("nslider").style.display = 'block';
+			}
+			
+			
+		
+</script>
+
+
+</head>
+
+
+
+<body onload="resize()" class="  main">
+<div style="width:0px; height:0px; position:absolute"> <img src="/images/loading45.gif" width="0px" /></div>
+
+<div id="all">
+
+ <div class="grad_main"></div>
+
+        
+
+        
+
+        
+
+  <div id="header">
+
+   <div class="head">
+
+    
+
+     
+         <div class="logo">
+
+                <a href="/"><img src="/images/stories/logo.png"  alt="" /></a>
+
+                </div>
+
+          
+         
+
+
+
+    
+<script type="text/javascript" src="http://savelec-project.eu/modules/mod_fancyscroller/tmpl/jquery.webticker.js"></script>
+
+
+<script type="text/javascript">
+var j_deo = jQuery.noConflict();
+j_deo(function(){
+	j_deo("#webticker").webTicker({travelocity: 0.06, direction: 1});
+	
+});
+</script>
+
+<style>
+
+	.ticker_title{
+	color:#F00 !important;
+	font-size:15px !important;
+	}
+	.ticker_text{
+	color:#ooo !important;
+	padding-left:8px !important;
+	cursor:poiter;
+	font-size:14px !important;
+	}
+	/* liScroll styles */
+
+/* liScroll styles */
+
+.tickeroverlay-left{
+
+	display:block;
+	pointer-events:none;
+	position:absolute;
+	z-index:30;
+	
+	
+}
+	
+.tickeroverlay-right{
+
+	display:block;
+	pointer-events:none;
+	position:absolute;
+	z-index:30;
+	
+	
+}
+.tickercontainer { /* the outer div */
+background:none; 
+width: 745px; 
+height: 30px; 
+margin: 0; 
+padding: 0;
+overflow: hidden; 
+padding-top:23px;
+}
+.tickercontainer .mask { /* that serves as a mask. so you get a sort of padding both left and right */
+position: relative;
+padding-left: 10px;
+padding-right: 10px;
+
+overflow: hidden;
+}
+ul.newsticker { /* that's your list */
+position: relative;
+margin-left: 20px;
+font: bold 10px Verdana;
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+}
+ul.newsticker li {
+float: left; /* important: display inline gives incorrect results when you check for elem's width */
+margin: 0;
+padding-right: 15px;
+
+}
+ul.newsticker a {
+text-decoration:none !important;
+}
+</style>
+
+<ul id="webticker" >
+	
+	              					<li><a href="http://savelec-project.eu/index.php/component/content/article/14-sample-data-articles/185-news9" > <span class="ticker_title"> 2nd SAVELEC Workshop:</span></a><span class="ticker_text">12-13 March 2015, Athens, Greece.</span></li>
+										<li><a href="http://ece-events.unm.edu/icops2015/" > <span class="ticker_title"> IEEE International Conference on Plasma Science: </span></a><span class="ticker_text">24-28 May 2015, Antalya, Turkey.</span></li>
+										<li><a href="/" > <span class="ticker_title"> </span></a><span class="ticker_text"></span></li>
+										<li><a href="/" > <span class="ticker_title"> </span></a><span class="ticker_text"></span></li>
+								
+		</ul>
+
+<form action="/index.php" method="post">
+	<div class="search">
+		<label for="mod-search-searchword">Search...</label><input name="searchword" id="mod-search-searchword" maxlength="20"  class="inputbox" type="text" size="70" value=" Site Search"  onblur="if (this.value=='') this.value=' Site Search';" onfocus="if (this.value==' Site Search') this.value='';" />	<input type="hidden" name="task" value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="464" />
+	</div>
+</form>
+
+
+  <div class="main_menu">
+<ul class="menu">
+<li class="item-464 current active"><a class=" home_link" href="/" ><span class="pag_l"></span><span class="pag_bg"><span class="pag_ar">Home </span></span><span class="pag_r"></span></a></li><li class="item-207 deeper parent"><a href="/index.php/project" ><span class="pag_l"></span><span class="pag_bg"><span class="pag_ar">Project</span></span><span class="pag_r"></span></a><ul><li class="item-473"><a href="/index.php/project/project-overview" ><span class="pag_l"></span><span class="pag_bg"><span class="pag_ar">Project overview</span></span><span class="pag_r"></span></a></li><li class="item-468 deeper parent"><a href="#" >Goals &amp; objectives</a><ul><li class="item-474"><a href="/index.php/project/goals-objectives/high-level-objectives" ><span class="pag_l"></span><span class="pag_bg"><span class="pag_ar">High Level Objectives</span></span><span class="pag_r"></span></a></li><li class="item-506"><a href="/index.php/project/goals-objectives/scientific-objectives" ><span class="pag_l"></span><span class="pag_bg"><span class="pag_ar">Scientific Objectives</span></span><span class="pag_r"></span></a></li></ul></li></ul></li><li class="item-444"><a href="/index.php/consortium" ><span class="pag_l"></span><span class="pag_bg"><span class="pag_ar">Consortium</span></span><span class="pag_r"></span></a></li><li class="item-503 deeper parent"><a href="/index.php/dissemination-material" ><span class="pag_l"></span><span class="pag_bg"><span class="pag_ar">Dissemination</span></span><span class="pag_r"></span></a><ul><li class="item-574"><a href="/index.php/dissemination-material/papers" ><span class="pag_l"></span><span class="pag_bg"><span class="pag_ar">Papers</span></span><span class="pag_r"></span></a></li><li class="item-575"><a href="/index.php/dissemination-material/brochures-posters" ><span class="pag_l"></span><span class="pag_bg"><span class="pag_ar"> Brochures &amp; posters</span></span><span class="pag_r"></span></a></li><li class="item-576"><a href="/index.php/dissemination-material/presentations" ><span class="pag_l"></span><span class="pag_bg"><span class="pag_ar">Presentation</span></span><span class="pag_r"></span></a></li><li class="item-600"><a href="/index.php/dissemination-material/savelec-on-the-media" ><span class="pag_l"></span><span class="pag_bg"><span class="pag_ar">SAVELEC in the media</span></span><span class="pag_r"></span></a></li></ul></li><li class="item-578 deeper parent"><a href="/index.php/calendar" ><span class="pag_l"></span><span class="pag_bg"><span class="pag_ar">Calendar</span></span><span class="pag_r"></span></a><ul><li class="item-579"><a href="/index.php/calendar/milestones" ><span class="pag_l"></span><span class="pag_bg"><span class="pag_ar">Milestones</span></span><span class="pag_r"></span></a></li><li class="item-582"><a href="/index.php/calendar/workshops" ><span class="pag_l"></span><span class="pag_bg"><span class="pag_ar">Workshops</span></span><span class="pag_r"></span></a></li><li class="item-586"><a href="/index.php/calendar/2012-05-13-19-51-24" ><span class="pag_l"></span><span class="pag_bg"><span class="pag_ar">Reviews</span></span><span class="pag_r"></span></a></li></ul></li><li class="item-465 deeper parent"><a href="/index.php/contacts" ><span class="pag_l"></span><span class="pag_bg"><span class="pag_ar">Contacts </span></span><span class="pag_r"></span></a><ul><li class="item-584"><a href="/index.php/contacts/project-coordinator" ><span class="pag_l"></span><span class="pag_bg"><span class="pag_ar">Project Coordinator </span></span><span class="pag_r"></span></a></li><li class="item-585"><a href="/index.php/contacts/dissemination-activity-manager" ><span class="pag_l"></span><span class="pag_bg"><span class="pag_ar">Dissemination Manager</span></span><span class="pag_r"></span></a></li><li class="item-589"><a href="/index.php/contacts/2012-05-20-09-12-04" ><span class="pag_l"></span><span class="pag_bg"><span class="pag_ar">Web Administrator</span></span><span class="pag_r"></span></a></li></ul></li></ul>
+</div>   
+
+  </div>
+
+  </div>
+
+   
+
+   
+
+
+<div class="car">
+
+  <div class="car_bg">
+
+    <div class="car_t">
+
+      <div class="car_b">
+
+        		<div class="moduletable">
+					
+
+<div class="custom"  >
+	<div id="nslider" style="text-align: left; display: none;" class="slider-area">
+    <div id="slider" class="nivoSlider" style="display: none;"><img title="#htmlcaption1" border="0" alt="WP1" src="/images/slider/WP1.png" /> <img title="#htmlcaption2" border="0" alt="WP2" src="/images/slider/WP2.png" /> <img title="#htmlcaption3" border="0" alt="WP3" src="/images/slider/WP3.png" /> <img title="#htmlcaption4" border="0" alt="WP4" src="/images/slider/WP4.png" /> <img title="#htmlcaption5" border="0" alt="WP5" src="/images/slider/WP5.png" /> <img title="#htmlcaption6" border="0" alt="WP6" src="/images/slider/WP6.png" /> <img title="#htmlcaption7" border="0" alt="WP7" src="/images/slider/WP7.png" /> <img title="#htmlcaption8" border="0" alt="WP8" src="/images/slider/WP8.png" /></div>
+    <div id="htmlcaption1" class="nivo-html-caption"><span style="font-size: 8pt;"><strong>WP1 "Missions and use cases"</strong></span> WP Leader: MBDA, Duration: 1/1/12 - 31/7/12<br />WP1 aims to evaluate the different concepts for operation regarding the detention and control of non cooperative vehicles in land and maritime environments as well as to provide a set of high level operational requirements for the vehicle stopping device.</div>
+    <div id="htmlcaption2" class="nivo-html-caption"><span style="font-size: 8pt;"><strong>WP2 "EMP/HPM Technology Review"</strong></span> WP Leader: IMST, Duration: 1/1/12-30/6/12<br />WP2 aims to perform a review of the technology available on the market for the generation of EMP/HPM signals as well as to provide a cost-based assessment regarding the different options for generating EMP/HPM signals.</div>
+    <div id="htmlcaption3" class="nivo-html-caption"><span style="font-size: 8pt;"><strong>WP3 "Automotive EMI/EMC Analysis"</strong></span> WP Leader: DLR, Duration: 1/1/12 - 31/8/12<br />WP3 aims to analyse and evaluate options for interfering with the automotive system as well as to provide a ranked list of selected vulnerabilities by their expected effectiveness for the following test bench experiments.</div>
+    <div id="htmlcaption4" class="nivo-html-caption"><span style="font-size: 8pt;"><strong align="left">WP4 "EMP/HPM Test Bench Experiments"</strong></span> WP Leader: BCB, Duration: 1/9/12-31/12/14<br />WP4 aims to:
+        <ul>
+            <li>Prepare different automotive set-ups for studying the effect of EMP/HPM on&nbsp;vehicles.</li>
+            <li>Prepare tests&nbsp;for electrical measurements.</li>
+            <li>Prepare&nbsp;EMP/HPM signal generation set-up to perform an automotive test campaign.</li>
+            <li>Identify&nbsp;optimized&nbsp;signals for&nbsp;stopping a car.</li>
+        </ul>
+    </div>
+    <div id="htmlcaption5" class="nivo-html-caption"><span style="font-size: 8pt;"><strong align="left">WP5 "EMP/HPM Device Prototype Development"</strong></span> WP Leader: TEIP,&nbsp; Duration: 1/1/15 - 30/6/16<br />WP5 aims to:
+        <ul>
+            <li>Specify the requirements to be considered for the design of the EMP/HPM device prototype.</li>
+            <li>Design and build an EMP/HPM car-stopping device prototype at breadboard level.</li>
+            <li>Validate the prototype in a lab environment and in open field trials with real cars.</li>
+        </ul>
+    </div>
+    <div id="htmlcaption6" class="nivo-html-caption"><span style="font-size: 8pt;"><strong>WP6 "Regulatory Framework"</strong></span> WP Leader: OVGU, &nbsp;Duration: 1/1/12 - 31/5/16<br />WP6 aims to evaluate the impact of:
+        <ul>
+            <li>Selected human factors regarding the driver in a simulated environment.</li>
+            <li>Human exposure to EMP/HPM.</li>
+            <li>Explosive atmosphere with EMP/HPM.</li>
+            <p>In addition aims to deliver a Legal study as well as prepare a regulatory framework for the&nbsp;project EMP/HPM devices.</p>
+        </ul>
+    </div>
+    <div id="htmlcaption7" class="nivo-html-caption"><span style="font-size: 8pt;"><strong>WP7 "Dissemination&nbsp;and Exploitation"</strong></span> WP Leader: TEIP, Duration: 1/1/12 - 31/5/16<br />WP7 aims to:
+        <ul>
+            <li>Disseminate the project results to relevant audiences.</li>
+            <li>Disseminate the project’s regulatory and legal study guidelines to appropriate bodies.</li>
+            <li>Organize three workshops.</li>
+            <li>Implement the partners’ exploitation plan.</li>
+        </ul>
+    </div>
+    <div id="htmlcaption8" class="nivo-html-caption"><span style="font-size: 8pt;"><strong>WP8 "Management"</strong> </span>WP Leader: IMST,&nbsp;Duration: 1/1/12 - 30/6/16<br />WP8 aims to provide the overall management of the project at the level of the Project Office and the Steering Committee according to the defined management rules and procedures.</div>
+</div>
+<div id="loading" style="background: #FFFFFF; display: block; margin: 0 10px; padding: 119px 0 119px 432px;"><img src="/images/loading45.gif" /></div></div>		</div>
+			<div class="moduletable">
+					
+
+<div class="custom"  >
+	<div class="three">
+<div class="th_bg">
+<div class="th_t">
+<div class="th_b">
+<div class="th">
+<div class="th_left"><a href="/index.php/component/content/article/14-sample-data-articles/108-deliverables-a-reports"><img class="attachment-full wp-post-image" title="Deliverables &amp; Reports" alt="2 20 grey" src="/images/stories/2_20_grey.png" width="46" height="47" onmouseout="this.src='/images/stories/2_20_grey.png';" onmouseover="this.src='/images/stories/2_20.png';" /></a></div>
+<div class="th_right">
+<div class="th_title"><span style="font-size: 12pt;">Deliverables &amp; Reports</span></div>
+<div class="th_con">
+<p><span style="font-size: 10pt;">List of Deliverables</span></p>
+</div>
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+<div class="th">
+<div class="th_left"><a href="/index.php/component/content/article/100-photo-archive/134-photoes"><img class="attachment-full wp-post-image" title="Photo Archive" alt="Photo Archive" src="/images/stories/2_17_grey.png" width="46" height="47" onmouseout="this.src='/images/stories/2_17_grey.png';" onmouseover="this.src='/images/stories/2_17.png';" /></a></div>
+<div class="th_right">
+<div class="th_title"><span style="font-size: 12pt;">Photo Archive</span></div>
+<div class="th_con">
+<p><span style="font-size: 10pt;">Photos of the Savelec Project</span></p>
+</div>
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+<div class="th">
+<div class="th_left"><a title="Twitter" href="https://twitter.com/#!/SAVELECPROJECT" target="_blank"><img alt="social media twitter" src="/images/stories/social_media_twitter_grey.png" width="25" height="41" onmouseout="this.src='/images/stories/social_media_twitter_grey.png';" onmouseover="this.src='/images/stories/social_media_twitter.png';" /></a><a title="Youtube" href="http://www.youtube.com/user/savelecproject" target="_blank"><img alt="social media youtube" src="/images/stories/social_media_youtube_grey.png" width="45" height="41" title="Youtube" onmouseout="this.src='/images/stories/social_media_youtube_grey.png';" onmouseover="this.src='/images/stories/social_media_youtube.png';" /></a></div>
+<div class="th_right">
+<div class="th_title"><span style="font-size: 12pt;">&nbsp; &nbsp; &nbsp;Social Media</span></div>
+<div class="th_con">
+<p><span style="font-size: 10pt;">&nbsp; &nbsp; &nbsp; Twitter &amp; Youtube</span></p>
+</div>
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+</div>
+</div>
+</div></div>		</div>
+	
+
+            </div>   
+
+      </div>
+
+  </div>
+
+</div>
+
+ 
+
+
+  <div id="content" >
+
+  
+
+
+
+    
+    <div class="padding_content">
+
+    
+
+        
+<div id="system-message-container">
+</div>
+
+      <div class="wrapper_overflow">
+
+      
+
+      
+        
+        <div id="sidebar-2" >
+
+          		<div class="moduletable cat">
+					<h3>News</h3>
+					
+
+<div class="custom cat"  >
+	<div class="border_b">
+<div><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 15px; line-height: 16.866666793823242px;"><br /></span></span></div>
+<ul class="some_list" style="padding-bottom: 25px;">
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><a href="/index.php/component/content/article/14-sample-data-articles/181-news5" target="_self">SAFECOMP, 2015</a></span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><a href="/index.php/component/content/article/14-sample-data-articles/182-news6" target="_self">SECURWARE, 2015</a></span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><a href="/index.php/component/content/article/14-sample-data-articles/183-news7" target="_self">ESV, 2015</a></span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><a href="/index.php/component/content/article/14-sample-data-articles/184-news8" target="_self">ICOPS, 2015</a></span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><a href="/index.php/component/content/article/14-sample-data-articles/185-news9" target="_self">2nd Workshop Athens, 2015</a></span></li>
+<li><span style="font-size: 10pt; line-height: 115%; font-family: arial, helvetica, sans-serif;"><span style="line-height: 115%;"><a href="/index.php/component/content/article/14-sample-data-articles/186-news10" target="_self">IEEE MTT Journal Paper</a></span></span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><a href="/index.php/component/content/article/14-sample-data-articles/187-news11" target="_self">WP4 tasks accomplished<br /></a></span></li>
+<span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><a class="more-link" href="/index.php/component/content/article/14-sample-data-articles/177-news">Read More</a></span></ul>
+</div></div>		</div>
+			<div class="moduletable">
+					<h3>Acknowledgment</h3>
+					
+
+<div class="custom"  >
+	<p style="text-align: center;"><span style="color: #213847; font-size: 10pt; line-height: 30.650184631347656px; text-align: justify;"><img src="/images/stories/eu_flag.png" alt="eu flag" width="160" height="109" /></span></p>
+<p style="text-align: justify;"><span style="color: #213847; font-size: 10pt; line-height: 30.650184631347656px; text-align: justify;">SAVELEC project has received funding from the European Union’s Seventh Framework Programme for research, technological development and demonstration under grant agreement no285202.</span></p>
+<p style="text-align: justify;"><span style="font-size: 11pt;">&nbsp;</span></p>
+<p style="text-align: justify;"><em style="font-family: 'Courier New'; font-size: 14px;"><br /></em></p></div>		</div>
+			<div class="moduletable subscribe">
+					<h3>Newsletter</h3>
+					<div class="acymailing_module subscribe" id="acymailing_module_formAcymailing72731">
+	<div class="acymailing_fulldiv" id="acymailing_fulldiv_formAcymailing72731"  >
+		<form id="formAcymailing72731" action="/index.php" onsubmit="return submitacymailingform('optin','formAcymailing72731')" method="post" name="formAcymailing72731"  >
+		<div class="acymailing_module_form" >
+									<table class="acymailing_form">
+				<tr>
+												<td class="acyfield_email">
+								<input id="user_email_formAcymailing72731"  onfocus="if(this.value == 'E-mail') this.value = '';" onblur="if(this.value=='') this.value='E-mail';" class="inputbox" type="text" name="user[email]" style="width:80%" value="E-mail" />
+							</td> </tr><tr>
+					<td  class="acysubbuttons">
+												<input class="button subbutton btn btn-primary" type="submit" value="Subscribe" name="Submit" onclick="try{ return submitacymailingform('optin','formAcymailing72731'); }catch(err){alert('The form could not be submitted '+err);return false;}"/>
+											</td>
+				</tr>
+			</table>
+						<input type="hidden" name="ajax" value="0"/>
+			<input type="hidden" name="ctrl" value="sub"/>
+			<input type="hidden" name="task" value="notask"/>
+			<input type="hidden" name="redirect" value="http%3A%2F%2Fsavelec-project.eu%2F"/>
+			<input type="hidden" name="redirectunsub" value="http%3A%2F%2Fsavelec-project.eu%2F"/>
+			<input type="hidden" name="option" value="com_acymailing"/>
+						<input type="hidden" name="hiddenlists" value="1"/>
+			<input type="hidden" name="acyformname" value="formAcymailing72731" />
+									</div>
+		</form>
+	</div>
+	</div>
+		</div>
+	</div>
+
+        
+        <div id="maincolbck">
+
+          <div id="maincolumn" >
+
+            
+
+            <div class="blog main">
+
+	
+
+
+
+
+
+
+
+			<div class="items-row cols-1 row-0">
+		<div class="item column-1">
+		
+
+
+
+
+
+
+<div style="text-align: justify;" class="wellcome">
+<div class="well_bl">
+<div class="title">
+<p>The project</p>
+</div>
+<div class="well_bl_pad">
+<div class="well_img"><a class="cboxElement" href="/index.php/component/content/article/84-project/102-the-project"> <img class="attachment-full wp-post-image" title="The Project" border="0" alt="The Project" src="/images/stories/project.png" width="616" height="405" /></a></div>
+<div class="well_right">
+<div class="well_con">
+<p><b><b>SAVELEC</b> (Safe control of non cooperative vehicles through electromagnetic means)</b> aims to provide a solution for the external, safe control of a non cooperative vehicle without any consequences on the persons inside the vehicle or other persons and objects nearby. The proposed solution is based on the use of electromagnetic means, electromagnetic pulses (EMP) and high power microwaves (HPM), in order to disrupt the proper behaviour of the electronic components inside the vehicle, which will lead it to slow down and stop. <a class="more-link" href="/index.php/component/content/article/84-project/102-the-project">Read More</a></p>
+</div>
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+</div>
+</div>
+<div style="text-align: justify;" class="tb">
+<div class="tabs">
+<ul id="menu-tabs">
+<li><a class="current_tab" title="box1"><span class="hdt_bg"><span class="hdt_l"><span class="hdt_r"><span class="hdt_round">Research</span></span></span></span></a></li>
+<li><a title="box2"><span class="hdt_bg"><span class="hdt_l"><span class="hdt_r"><span class="hdt_round">Results</span></span></span></span></a></li>
+</ul>
+<div class="clear">&nbsp;</div>
+</div>
+<div id="box1" class="box">
+<div class="box_pad">
+<div class="box_img"><a href="/index.php/component/content/article/14-sample-data-articles/106-research-progress"><img class="attachment-full wp-post-image" title="Research" alt="Research" src="/images/stories/research.png" width="247" height="111" /></a></div>
+<div class="box_con">
+<p style="text-align: justify;"><b>Research Progress beyond the State of the Art.</b><br />Since environmental effects affect electronic products, especially the onboard electronics of vehicles from the 20th century, the regulatory authorities and manufacturers of every economic region have been doing a lot of research resulting in several standards and directives focusing on enforcing the behavior of vehicles faced with several environments.<br /><a class="more-link" href="/index.php/component/content/article/14-sample-data-articles/106-research-progress">Read More</a></p>
+</div>
+</div>
+<div class="box_pad box_last">
+<div class="box_img"><a href="/index.php/component/content/article/14-sample-data-articles/107-savelec-work-plan"><img class="attachment-full wp-post-image" title="Research" alt="Research" src="/images/stories/fp7_1.png" width="247" height="111" /></a></div>
+<div class="box_con">
+<p><b>SAVELEC Work Plan.</b></p>
+<p style="text-align: justify;">Operationally, the project will be articulated through eight work packages which cover the requirements’ capture phase until the implementation and demonstration of a breadboard prototype regarding the technology under evaluation.<br /><a class="more-link" href="/index.php/component/content/article/14-sample-data-articles/107-savelec-work-plan">Read More</a></p>
+</div>
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+<div id="box2" class="box">
+<div class="box_pad">
+<div class="box_img"><a href="/index.php/component/content/article/14-sample-data-articles/137-results"><img class="attachment-full wp-post-image" title="Results" alt="Results" src="/images/stories/fp7_2.png" width="244" height="250" /></a></div>
+<div class="box_con">
+<p><b>SAVELEC Results.</b></p>
+<p style="text-align: justify;">Operationally, the project's results will be produced through coordinated activities across the eight work packages described in the SAVELEC Work Plan.<a class="more-link" href="/index.php/component/content/article/14-sample-data-articles/137-results">Read More</a></p>
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+</div>
+
+
+<div class="item-separator"></div>
+	</div>
+						<span class="row-separator"></span>
+				</div>
+
+				
+
+
+
+
+	
+
+</div>
+
+
+          </div>
+
+      </div>
+
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+
+
+
+
+<div class="push"></div>
+
+ 
+
+ 
+
+</div>
+
+<div id="footer-outer">
+
+  <div id="footer-sub">
+
+    <div id="footer">
+
+      <p class="copy">
+
+        SAVELEC CONSORTIUM &copy; 2012<!-- {%FOOTER_LINK} --> 
+
+      </p>
+
+    </div>
+
+    <!-- end footer --> 
+
+    
+
+  </div>
+
+</div>
+
+
+
+</body>
+
+</html>
+

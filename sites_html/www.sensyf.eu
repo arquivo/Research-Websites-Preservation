@@ -1,0 +1,483 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--
+  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+                            ____                     ____
+                      ____  )   )          ______    )   ) ______  
+         ____    ____ \   \/   /____     /_____   \ /   //   __   \
+         )   )  /   /  )       ___   \  (/_____/  //   //   /__)  /
+        /   /  /   /  /       /   )  //   ___    //   //   ______/
+       /   (__/   (__/  _    /   /  ((   (__/   ((   (_|  (_____/)
+      (________/\______//___/   (____/\_____/(__/\____/\________/  
+                                         
+                  website developed by www.whalelabs.com
+   
+  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+-->
+<head>
+
+
+<script type="text/javascript" src="/static/js/analytics.js"></script>
+<script type="text/javascript">archive_analytics.values.server_name="wwwb-app7.us.archive.org";archive_analytics.values.server_ms=155;</script>
+<link type="text/css" rel="stylesheet" href="/static/css/banner-styles.css"/>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>SenSyF</title>
+
+<!--[if IE]>
+     <style type="text/css">
+         .timer { display: none !important; }
+         div.caption { background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);zoom: 1; }
+    </style>
+<![endif]-->
+
+<!-- MAIN STYLES -->
+<link rel="stylesheet" href="http://www.sensyf.eu/_css/styles.css">
+<link rel="stylesheet" href="http://www.sensyf.eu/_css/orbit-1.2.3.css">
+<link rel="stylesheet" href="http://www.sensyf.eu/_css/global.css">
+
+<!-- CUFON -->
+<script type="text/javascript" src="http://www.sensyf.eu/cufon/cufon-yui.js"></script>
+<script type="text/javascript" src="http://www.sensyf.eu/cufon/cufon_replace.js"></script>
+<script type="text/javascript" src="http://www.sensyf.eu/cufon/futura.font.js"></script>
+
+<!-- MAIN SCRIPTS -->
+<script src="http://www.sensyf.eu/_js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="http://www.sensyf.eu/_js/jquery.easing.1.3.js" type="text/javascript"></script>
+
+
+
+<!-- SLIDER -->
+<script src="http://www.sensyf.eu/_js/slides.min.jquery.js"></script>
+	<script>
+		$(function(){
+			// Set starting slide to 1
+			var startSlide = 1;
+			// Get slide number if it exists
+			if (window.location.hash) {
+				startSlide = window.location.hash.replace('#','');
+			}
+			// Initialize Slides
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'http://www.sensyf.eu/img/loading.gif',
+				generatePagination: true,
+				play: 5000,
+				pause: 2500,
+				hoverPause: true,
+				// Get the starting slide
+				start: startSlide,
+				animationComplete: function(current){
+					// Set the slide number as a hash
+					window.location.hash = '#' + current;
+				}
+			});
+		});
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- SLIDESHOW STYLES -->
+<script src="http://www.sensyf.eu/_js/jquery.orbit-1.2.3.js" type="text/javascript"></script>
+<script src="http://www.sensyf.eu/_js/jquery.orbit-1.2.3.min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+     $(window).load(function() {
+         $('#featured').orbit({
+			animation: 'fade',                  // fade, horizontal-slide, vertical-slide, horizontal-push
+			animationSpeed: 800,                // how fast animtions are
+			timer: true, 			 			// true or false to have the timer
+			advanceSpeed: 6000, 		 		// if timer is enabled, time between transitions 
+			pauseOnHover: true, 		 		// if you hover pauses the slider
+			startClockOnMouseOut: true, 	 	// if clock should start on MouseOut
+			startClockOnMouseOutAfter: 100, 	 // how long after MouseOut should the timer start again
+			directionalNav: true, 				 // manual advancing directional navs
+			captions: true, 			 		// do you want captions?
+			captionAnimation: 'fade', 		 	// fade, slideOpen, none
+			captionAnimationSpeed: 800, 	 	// if so how quickly should they animate in
+			bullets: true,			 			// true or false to activate the bullet navigation
+			bulletThumbs: true,		 			// thumbnails for the bullets
+			bulletThumbLocation: '',		 	// location from this file where thumbs will be
+			afterSlideChange: function(){}
+			});
+     });
+</script>
+
+ 
+</head>
+
+<body>
+
+
+<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript" src="/static/js/disclaim-element.js" ></script>
+<script type="text/javascript" src="/static/js/graph-calc.js" ></script>
+<script type="text/javascript" src="/static/jflot/jquery.min.js" ></script>
+<script type="text/javascript">//<![CDATA[
+var __wm = (function(){
+var wbPrefix = "/web/";
+var wbCurrentUrl = "http://www.sensyf.eu/";
+
+var firstYear = 1996;
+var imgWidth = 500,imgHeight = 27;
+var yearImgWidth = 25,monthImgWidth = 2;
+var displayDay = "21";
+var displayMonth = "Dec";
+var displayYear = "2014";
+var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+var $D=document,$=function(n){return document.getElementById(n)};
+var trackerVal,curYear = -1,curMonth = -1;
+var yearTracker,monthTracker;
+function showTrackers(val) {
+  if (val===trackerVal) return;
+  var $ipp=$("wm-ipp");
+  var $y=$("displayYearEl"),$m=$("displayMonthEl"),$d=$("displayDayEl");
+  if (val) {
+    $ipp.className="hi";
+  } else {
+    $ipp.className="";
+    $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;
+  }
+  yearTracker.style.display=val?"inline":"none";
+  monthTracker.style.display=val?"inline":"none";
+  trackerVal = val;
+}
+function getElementX2(obj) {
+  var $e=jQuery(obj);
+  return (typeof $e=="undefined"||typeof $e.offset=="undefined")?
+    getElementX(obj):Math.round($e.offset().left);
+}
+function trackMouseMove(event,element) {
+  var eventX = getEventX(event);
+  var elementX = getElementX2(element);
+  var xOff = Math.min(Math.max(0, eventX - elementX),imgWidth);
+  var monthOff = xOff % yearImgWidth;
+
+  var year = Math.floor(xOff / yearImgWidth);
+  var monthOfYear = Math.min(11,Math.floor(monthOff / monthImgWidth));
+  // 1 extra border pixel at the left edge of the year:
+  var month = (year * 12) + monthOfYear;
+  var day = monthOff % 2==1?15:1;
+  var dateString = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +
+    zeroPad(day,2) + "000000";
+
+  $("displayYearEl").innerHTML=year+firstYear;
+  $("displayMonthEl").innerHTML=prettyMonths[monthOfYear];
+  // looks too jarring when it changes..
+  //$("displayDayEl").innerHTML=zeroPad(day,2);
+  var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+  $("wm-graph-anchor").href=url;
+
+  if(curYear != year) {
+    var yrOff = year * yearImgWidth;
+    yearTracker.style.left = yrOff + "px";
+    curYear = year;
+  }
+  if(curMonth != month) {
+    var mtOff = year + (month * monthImgWidth) + 1;
+    monthTracker.style.left = mtOff + "px";
+    curMonth = month;
+  }
+}
+function hideToolbar() {
+  $("wm-ipp").style.display="none";
+}
+function bootstrap() {
+  var $spk=$("wm-ipp-sparkline");
+  yearTracker=$D.createElement('div');
+  yearTracker.className='yt';
+  with(yearTracker.style){
+    display='none';width=yearImgWidth+"px";height=imgHeight+"px";
+  }
+  monthTracker=$D.createElement('div');
+  monthTracker.className='mt';
+  with(monthTracker.style){
+    display='none';width=monthImgWidth+"px";height=imgHeight+"px";
+  }
+  $spk.appendChild(yearTracker);
+  $spk.appendChild(monthTracker);
+
+  var $ipp=$("wm-ipp");
+  $ipp&&disclaimElement($ipp);
+}
+return{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};
+})();//]]>
+</script>
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  min-width:800px !important;
+}
+</style>
+<div id="wm-ipp" lang="en" style="display:none;">
+
+<div style="position:fixed;left:0;top:0;width:100%!important">
+<div id="wm-ipp-inside">
+   <table style="width:100%;"><tbody><tr>
+   <td id="wm-logo">
+       <a href="/web/" title="Wayback Machine home page"><img src="/static/images/toolbar/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0" /></a>
+   </td>
+   <td class="c">
+       <table style="margin:0 auto;"><tbody><tr>
+       <td class="u" colspan="2">
+       <form target="_top" method="get" action="/web/form-submit.jsp" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://www.sensyf.eu/" style="width:400px;" onfocus="this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20141221232949" /><input type="submit" value="Go" /><span id="wm_tb_options" style="display:block;"></span></form>
+       </td>
+       <td class="n" rowspan="2">
+           <table><tbody>
+           <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+           <tr class="m">
+           	<td class="b" nowrap="nowrap">
+		
+		    <a href="http://www.sensyf.eu/" title="30 Apr 2014">APR</a>
+		
+		</td>
+		<td class="c" id="displayMonthEl" title="You are here: 23:29:49 Dec 21, 2014">DEC</td>
+		<td class="f" nowrap="nowrap">
+		
+		    Jan
+		
+                </td>
+	    </tr>
+           <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+           <tr class="d">
+               <td class="b" nowrap="nowrap">
+               
+                   <a href="http://sensyf.eu/" title="7:02:53 Dec 18, 2014"><img src="/static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a>
+               
+               </td>
+               <td class="c" id="displayDayEl" style="width:34px;font-size:24px;" title="You are here: 23:29:49 Dec 21, 2014">21</td>
+	       <td class="f" nowrap="nowrap">
+               
+                   <img src="/static/images/toolbar/wm_tb_nxt_off.png" alt="Next capture" width="14" height="16" border="0"/>
+               
+	       </td>
+           </tr>
+           <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+           <tr class="y">
+	       <td class="b" nowrap="nowrap">
+               
+                   <a href="http://www.sensyf.eu/" title="16 Aug 2013"><strong>2013</strong></a>
+               
+               </td>
+               <td class="c" id="displayYearEl" title="You are here: 23:29:49 Dec 21, 2014">2014</td>
+	       <td class="f" nowrap="nowrap">
+               
+                   2015
+               
+	       </td>
+           </tr>
+           </tbody></table>
+       </td>
+       </tr>
+       <tr>
+       <td class="s">
+           <a class="t" href="http://www.sensyf.eu/" title="See a list of every capture for this URL">5 captures</a>
+           <div class="r" title="Timespan for captures of this URL">16 Aug 13 - 21 Dec 14</div>
+       </td>
+       <td class="k">
+       <a href="" id="wm-graph-anchor">
+       <div id="wm-ipp-sparkline" title="Explore captures for this URL">
+	 <img id="sparklineImgId" alt="sparklines"
+		 onmouseover="__wm.st(1)" onmouseout="__wm.st(0)"
+		 onmousemove="__wm.mv(event,this)"
+		 width="500"
+		 height="27"
+		 border="0"
+		 src="/web/jsp/graph.jsp?graphdata=500_27_1996:-1:000000000000_1997:-1:000000000000_1998:-1:000000000000_1999:-1:000000000000_2000:-1:000000000000_2001:-1:000000000000_2002:-1:000000000000_2003:-1:000000000000_2004:-1:000000000000_2005:-1:000000000000_2006:-1:000000000000_2007:-1:000000000000_2008:-1:000000000000_2009:-1:000000000000_2010:-1:000000000000_2011:-1:000000000000_2012:-1:000000000000_2013:-1:000000010000_2014:11:001100000002_2015:-1:000000000000" />
+       </div>
+       </a>
+       </td>
+       </tr></tbody></table>
+   </td>
+   <td class="r">
+       <a href="#close" onclick="__wm.h();return false;" style="background-image:url(/static/images/toolbar/wm_tb_close.png);top:5px;" title="Close the toolbar">Close</a>
+       <a href="http://faq.web.archive.org/" style="background-image:url(/static/images/toolbar/wm_tb_help.png);bottom:5px;" title="Get some help using the Wayback Machine">Help</a>
+   </td>
+   </tr></tbody></table>
+</div>
+</div>
+</div>
+<script type="text/javascript">__wm.bt();</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+
+
+<!-- HEADER -->
+<div style="background-color:#000; ">
+  <div style="margin:0px auto; width:940px; height:121px; background-image:url(http://www.sensyf.eu/images/header.jpg); background-position:top left; background-repeat:no-repeat;">
+    <div style="margin:90px 0 0 0; float:right;">
+<ul class="MenuContainer">
+<ul><li class="Menu Lato Size14 Bold" style="text-transform:uppercase;"><a href="http://www.sensyf.eu/" target="_self">Home</a>
+</li>
+<li class="Menu Lato Size14 Bold" style="text-transform:uppercase;"><a href="project.html" target="_self">Project</a>
+</li>
+<li class="Menu Lato Size14 Bold" style="text-transform:uppercase;"><a href="framework.html" target="_self">Framework</a>
+</li>
+<li class="Menu Lato Size14 Bold" style="text-transform:uppercase;"><a href="services.html" target="_self">Services</a>
+</li>
+<li class="Menu Lato Size14 Bold" style="text-transform:uppercase;"><a href="team.html" target="_self">Team</a>
+</li>
+<li class="Menu Lato Size14 Bold" style="text-transform:uppercase;"><a href="newsletters.html" target="_self">Newsletters</a>
+</li>
+<li class="Menu Lato Size14 Bold" style="text-transform:uppercase;"><a href="contacts.html" target="_self">Contacts</a>
+</li>
+</ul>
+</ul>      
+    </div>
+  </div>
+</div>
+
+
+<!-- HEADER -->
+<div style="height:300px; background-color:#000; width: 100%; overflow: hidden;">
+  <div style="margin:0px auto; left:50%; margin-left:-960px; position:relative;">
+    <div id="featured"> 
+     <img src="http://mail.sensyf.eu/images/banner1.jpg" alt="" />
+     <img src="http://mail.sensyf.eu/images/banner2.jpg" alt="" />
+     <img src="http://mail.sensyf.eu/images/banner3.jpg" alt="" />
+     <img src="http://mail.sensyf.eu/images/banner4.jpg" alt="" />
+    </div>
+  </div>
+</div>
+<div id="main" class="site-main">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+		
+										
+	<div class="entry-content">
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+		
+										
+<article id="post-345" class="post-345 post type-post status-publish format-standard hentry category-content">
+	<header class="entry-header">
+		
+				<!--<h1 class="entry-title">
+			<a href="http://www.sensyf.eu/home-2.html" rel="bookmark">Home</a>
+		</h1>-->
+		
+		<div class="entry-meta">
+								</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p><!-- CONTENT --></p>
+<div style="background-color: #f7f7f7;">
+<div id="container">
+<div id="example">
+<div id="slides">
+<div class="slides_container">
+<div class="slide">
+<div class="Lato Light Grey Size13 uppercase">Ready</div>
+<div class="Lato Green Size30 Light uppercase">Project<span class="Blue">Final</span><span class="Lato Green">Release</span></div>
+<p class="Arial Size12 Black Line15" align="justify">The final version of the SenSyF Project, developed during 2015, is ready and prepared to integrate new services in the Earth Observation domain.The Framework is now prepared to deal with the Big Data coming from the SENTINEL satellites.The integration of EO Applications on the SenSyF Platform was evolved to be more user friendly with the main goal of reduce the learning curve. All the demonstrative <a class="LinkGreen" href="services.html" target="_self">services</a>, which are part of the SenSyF <a class="LinkGreen" href="team.html" target="_self">Consortium</a>, were able to run their applications on public scalable clusters proving the concept and the scalability of the SenSyF Platform.</p>
+<p class="Arial Size12 Black Line15" align="justify">Potential Service providers and other projects and individuals interested in the SenSyF concept can make a <a class="LinkGreen" href="mailto:sensyf@deimos.com.pt">request</a> in order to integrate their applications on the SenSyF Framework.</p>
+</div>
+<div class="slide">
+<div class="Lato Light Grey Size13 uppercase">Breaking News</div>
+<div class="Lato Blue Size30 Light uppercase">
+<div class="Lato Green Size30 Light uppercase">SenSyF<span class="Blue">New</span><span class="Lato Green">WebSite</span></div>
+</div>
+<p class="Arial Size12 Black Line15" align="justify">With the end of the SenSyF Project, a new Commercial WebSite was developed in order to easily explain the concept, the main goals and the strengths of the Platform.</p>
+<p class="Arial Size12 Black Line15" align="justify">Any contact of a Potential Service provider or other application developer interested on SenSyF shall be made following the contacts indicated on the new WebSite.</p>
+<p><a class="LinkGreen Arial Size12" href="http://www.eo-sensyf.com">Check the new SenSyF WebSite</a></p>
+</div>
+</div>
+<p><a class="prev" href="#"><img alt="Arrow Prev" src="http://mail.sensyf.eu/img/left-arrow.png" width="60" height="100" border="0" /></a> <a class="next" href="#"><img alt="Arrow Next" src="http://mail.sensyf.eu/img/right-arrow.png" width="60" height="100" border="0" /></a></p>
+</div>
+</div>
+</div>
+</div>
+<p><!-- THUMBS --></p>
+<div style="padding: 30px 0 40px 0; height: 330px; background-color: #3399cc;">
+<div style="margin: 0px auto; width: 940px;">
+<div style="width: 300px; margin: 0 20px 0 0; float: left;">
+<div style="margin: 0 0 20px 0;"><img alt="" src="http://mail.sensyf.eu/images/icon_servicos.png" width="81" height="80" /></div>
+<div class="Lato Size20 White Bold uppercase" style="margin: 0 0 15px 0;">Water and Other</div>
+<div class="Arial Size12 Black Line15"><a class="LinkWhite" style="background-color: #336699;" href="services.html"><strong>S1</strong></a> Monitoring of Continental Fresh Water Service is a service dedicated to monitoring water quality and quantity for in-land water reservoirs.</div>
+</div>
+<div style="width: 300px; margin: 0 20px 0 0; float: left;">
+<div style="margin: 0 0 20px 0;"><img alt="" src="http://mail.sensyf.eu/images/icon_destaques.png" width="81" height="80" /></div>
+<div class="Lato Size20 White Bold uppercase" style="margin: 0 0 15px 0;">Cold Areas</div>
+<div class="Arial Size12 Black Line15"><a class="LinkWhite" style="background-color: #66ccff;" href="services.html"><strong>S2</strong></a> Arctic-Alpine Growing Season Mapping Service will provide a service mapping the growing season in arctic and alpine areas of northern Europe.</div>
+<div class="Arial Size12 Black Line15"></div>
+<div class="Arial Size12 Black Line15"><a class="LinkWhite" style="background-color: #66ccff;" href="services.html"><strong>S3</strong></a> Soil Freezing/Thawing Product Service will develop a fully automatic service based on Sentinel-1 and 3 data to classify ground as frozen or thawed.</div>
+</div>
+<div style="width: 300px; float: left;">
+<div style="margin: 0 0 20px 0;"><img alt="" src="http://mail.sensyf.eu/images/icon_legislacao.png" width="81" height="80" /></div>
+<div class="Lato Size20 White Bold uppercase" style="margin: 0 0 15px 0;">Land Support</div>
+<div class="Arial Size12 Black Line15"><a class="LinkWhite" style="background-color: #99cc33;" href="services.html"><strong>S4</strong></a> Spectro-Temporal Integration Service will provide integration of data from multiple different sensors, generating a multi-resolution spectro-temporal product.</div>
+<div class="Arial Size12 Black Line15"></div>
+<div class="Arial Size12 Black Line15"><a class="LinkWhite" style="background-color: #99cc33;" href="services.html"><strong>S5</strong></a> Multitemporal Land Cover Classification and Change Detection Service will generate land cover and land cover change products from cloud-free mosaics.</div>
+<div class="Arial Size12 Black Line15"></div>
+<div class="Arial Size12 Black Line15"><a class="LinkWhite" style="background-color: #99cc33;" href="services.html"><strong>S6</strong></a> Agriculture Support Service is dedicated to support farmers and associations in managing the agriculture irrigation.</div>
+<div class="Arial Size12 Black Line15"></div>
+<div class="Arial Size12 Black Line15"><a class="LinkWhite" style="background-color: #99cc33;" href="services.html"><strong>S7</strong></a> TOUCAN will be a framework for developing and executing tools allowing inter-comparison, calibration, validation and analysis of optical sensor products and performance.</div>
+</div>
+</div>
+</div>
+	</div><!-- .entry-content -->
+	
+	<footer class="entry-meta">
+		
+
+			</footer><!-- .entry-meta -->
+</article><!-- #post -->
+			
+			
+		
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+ </div><!-- .entry-content -->	
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+</div>
+<!-- THUMBS -->
+<div style="padding:10px 0 10px 0; height: auto; background-color:#3399cc; margin: 0px auto; float:left; width:100%;">
+    <div style="width:300px; margin: 0px auto;">
+      <div style="margin: 0 0 0 0;">
+        <div align="center">
+        <div style="margin-left:5px; margin-left:5px; max-width: 85px; float:left;"><a href="#"><img src="http://mail.sensyf.eu/images/icon_legislacao.png" width="81" height="80" border="0" /></a></div>
+        <div style="margin-left:5px; margin-left:5px; max-width: 85px; float:left;"><a href="#"><img src="http://mail.sensyf.eu/images/icon_destaques.png" width="81" height="80" border="0" /></a></div>
+        <div style="margin-left:5px; margin-left:5px; max-width: 85px; float:left;"><a href="#"><img src="http://mail.sensyf.eu/images/icon_servicos.png" width="81" height="80" border="0" /></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- RODAPE -->
+
+<div style="margin:0px auto; width:100%; background-color:#ffffff; float:left;height: auto;">
+<div style="height:88px; width:940px; background:url(http://mail.sensyf.eu/wp-content/uploads/2015/06/sensyf_team_footer.png) no-repeat; margin: 0px auto;"></div>
+<div style="background-color:#333333; width: 100%; padding:10px 0 20px 0; height:49px; float:left; margin:0px auto;" >
+<div style="margin:0px auto; width:940px;" class="Arial Grey Size12">
+<div style="float:left;margin-top:25px;">©2014 SenSyF - Deimos Engenharia. All rights reserved.</div>
+<div style="float:right; width:340px;height:26px;">
+<iframe height="70" width="340" allowTransparency="true" frameborder="0" scrolling="no" style="border:none" src="http://mail.sensyf.eu/wp-content/plugins/myMail/form.php?id=0&amp;s=1"></iframe>
+</div>
+</div>
+
+<script type="text/javascript"> 
+//<![CDATA[
+Cufon.now();
+//]]>
+</script>
+</body>
+
+</html>

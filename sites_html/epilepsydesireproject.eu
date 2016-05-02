@@ -1,0 +1,473 @@
+<!-- 
+      header.php
+      desire
+      
+      Created by Clayton Piscopo on 2014-02-02.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>DESIRE</title>
+
+		<meta name="description" content="DESIRE Development and Epilepsy : Strategies for Innovative Research to improve diagnosis, prevention and treatment in children with difficult to treat Epilepsy." />
+
+		<meta name="author" content="" />
+		<meta name="copyright" content="" />
+		<link rel="icon" type="image/png" href="favicon.ico">
+        <link rel="stylesheet" href="http://epilepsydesireproject.eu/wp-content/themes/desire/css/bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" href="http://epilepsydesireproject.eu/wp-content/themes/desire/css/font-awesome/css/font-awesome.css" />
+        <link rel="stylesheet" href="http://epilepsydesireproject.eu/wp-content/themes/desire/css/stackicons/stackicons-min.css" />
+        <link rel="stylesheet" href="http://epilepsydesireproject.eu/wp-content/themes/desire/css/bootstrap-image-gallery.min.css" />
+        <link rel="stylesheet" href="http://epilepsydesireproject.eu/wp-content/themes/desire/css/blueimp-gallery.min.css" />
+        
+		<link rel="stylesheet" href="http://epilepsydesireproject.eu/wp-content/themes/desire/style.css" />
+		<!--[if lt IE 9]>
+		<script src="libs/html5shiv/html5shiv.js" type="text/javascript"></script>
+		<![endif]-->
+		<style type="text/css">
+			.auto-style1 {
+				font-size: x-small;
+			}
+		</style>
+
+		
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.7.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="DESIRE Development and Epilepsy Project : Strategies for Innovative Research to improve diagnosis, prevention and treatment in children to treat Epilepsy."/>
+<link rel="canonical" href="http://epilepsydesireproject.eu/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="DESIRE Epilepsy Project EU" />
+<meta property="og:description" content="DESIRE Development and Epilepsy Project : Strategies for Innovative Research to improve diagnosis, prevention and treatment in children to treat Epilepsy." />
+<meta property="og:url" content="http://epilepsydesireproject.eu/" />
+<meta property="og:site_name" content="DESIRE" />
+<meta property="og:image" content="http://epilepsydesireproject.eu/wp-content/uploads/2015/10/DESIRE_group_2015.jpg" />
+<meta property="og:image" content="http://epilepsydesireproject.eu/wp-content/uploads/2014/04/challenges-in-epileptic-developmental-disorders-EDD.png" />
+<meta property="og:image" content="http://epilepsydesireproject.eu/wp-content/uploads/2014/12/Group-Photo-DESIRE-2014.jpg" />
+<meta property="og:image" content="http://epilepsydesireproject.eu/wp-content/uploads/2014/04/group.jpg" />
+<script type="application/ld+json">{ "@context": "http://schema.org", "@type": "WebSite", "url": "http://epilepsydesireproject.eu/", "potentialAction": { "@type": "SearchAction", "target": "http://epilepsydesireproject.eu/?s={search_term}", "query-input": "required name=search_term" } }</script>
+<!-- / Yoast WordPress SEO plugin. -->
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/epilepsydesireproject.eu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='imstore-css'  href='http://epilepsydesireproject.eu/wp-content/plugins/image-store/_css/imstore.css?ver=3.5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='ims-single-css'  href='http://epilepsydesireproject.eu/wp-content/plugins/image-store/_css/single.css?ver=3.5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-cpl-base-css-css'  href='http://epilepsydesireproject.eu/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-theme.css?ver=2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_cpl_css_0-css'  href='http://epilepsydesireproject.eu/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-light.css?ver=2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_cpl_css_1-css'  href='http://epilepsydesireproject.eu/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-dark.css?ver=2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_cpl_css_2-css'  href='http://epilepsydesireproject.eu/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-giant-gold-fish.css?ver=2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_cpl_css_3-css'  href='http://epilepsydesireproject.eu/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-adrift-in-dreams.css?ver=2.0.3' type='text/css' media='all' />
+<script type='text/javascript' src='http://epilepsydesireproject.eu/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://epilepsydesireproject.eu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel='https://api.w.org/' href='http://epilepsydesireproject.eu/?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://epilepsydesireproject.eu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://epilepsydesireproject.eu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<link rel='shortlink' href='http://epilepsydesireproject.eu/' />
+		<style type="text/css">
+			.comments-link {
+				display: none;
+			}
+					</style>
+		<!-- Hide Comments plugin -->
+		<!-- TRUEedit 1.0 by Zachary Segal: http://www.illproductions.com -->
+<link rel="stylesheet" href="http://epilepsydesireproject.eu/wp-content/plugins/wassup/css/wassup-widget.css?ver=1.9" type="text/css" />
+<script type="text/javascript">
+//<![CDATA[
+	var screen_res=screen.width+" x "+screen.height;
+	if(screen_res==" x ") screen_res=window.screen.width+" x "+window.screen.height;
+	if(screen_res==" x ") screen_res=screen.availWidth+" x "+screen.availHeight;
+	if(screen_res!=" x "){document.cookie = "wassup_screen_rese6850e6485bc06364af3068fdb0e4c10=" + encodeURIComponent(screen_res)+ "; path=/; domain=";}
+//]]>
+</script><!-- Dojo Digital Hide Title -->
+<script type="text/javascript">
+	jQuery(document).ready(function($){
+
+		if( $('.entry-title').length != 0 ) {
+			$('.entry-title span.dojodigital_toggle_title').parents('.entry-title:first').hide();
+		} else {
+			$('h1 span.dojodigital_toggle_title').parents('h1:first').hide();
+			$('h2 span.dojodigital_toggle_title').parents('h2:first').hide();
+		}
+
+	});
+</script>
+<noscript><style type="text/css"> .entry-title { display:none !important; }</style></noscript>
+<!-- END Dojo Digital Hide Title -->
+
+			        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+        <script src="//code.jquery.com/jquery-2.0.0.min.js" type="text/javascript"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.min.js"></script>
+        <!--<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>-->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-sanitize.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-resource.js"></script>
+        
+         <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.0.min.js" type="text/javascript"></script>
+         <script src="http://epilepsydesireproject.eu/wp-content/themes/desire/js/jquery.blueimp-gallery.min.js" type="text/javascript"></script>
+         <script src="http://epilepsydesireproject.eu/wp-content/themes/desire/js/bootstrap-image-gallery.min.js" type="text/javascript"></script>
+
+        <script type="text/javascript">
+			function getLocation(href) {
+				var l = document.createElement("a");
+				l.href = href;
+				return l;
+			};
+
+			function getValueofParameterByName(name) {
+				name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+				var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
+				results = regex.exec(location.search);
+				return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+			}
+
+			function getValueofParameterFromStringByName(name, text) {
+				name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+				var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
+				results = regex.exec(text);
+				return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+			}
+
+
+			$(document).ready(function() {
+				var pageId = getValueofParameterByName('page_id');
+				if (pageId) {
+					$('header ul > li > a').each(function(index) {
+						if (getValueofParameterFromStringByName('page_id', getLocation($(this).attr('href')).search) == pageId) {
+							$(this).addClass('navbar-brand');
+						}
+					});
+				} else {
+					$('a#home').addClass('navbar-brand');
+				}
+
+			});
+        </script>
+	</head>
+
+	<body>
+        
+        <div class="container-fluid">
+           <div class="row">
+
+           
+		<header>
+             
+      
+            <nav class="navbar navbar-default navbar-fixed-top " role="navigation">
+                  <div class="container ">
+                      <div class="navbar-header">
+                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                       </button>
+                      
+                      </div>
+                      
+                <div class="collapse navbar-collapse">
+					 <ul class="nav navbar-nav">			   
+                         <li><a href="http://epilepsydesireproject.eu/" id="home" class="navbar-brand">Home</a></li>
+                         <li><a href="http://epilepsydesireproject.eu/?page_id=28">About DESIRE</a></li>
+                         <li><a href="http://epilepsydesireproject.eu/?page_id=136">Participants</a></li>
+                         <li><a href="http://epilepsydesireproject.eu?page_id=59">News</a></li>  
+                         <li><a href="http://epilepsydesireproject.eu?page_id=2">Dissemination</a></li>                        
+  			             <li><a href="http://epilepsydesireproject.eu/?page_id=206">Resources</a></li>
+			             <li><a href="http://epilepsydesireproject.eu/?page_id=47">Links</a></li>
+                         <li><a href="mailto:janet.mifsud@um.edu.mt" target="_blank">Contact</a></li>
+                         <li><a title="Facebook" target="_blank" href="http://www.facebook.com/DESIREEpilepsyProjectEU" class="st-icon-facebook " style="margin-top: 11px;">Facebook</a></li>
+                         <li><a title="Twitter" target="_blank" href="https://twitter.com/desireepilepsy" class="st-icon-twitter" style="margin-top: 11px;">Twitter</a></li>
+					</ul>
+                </div>
+                          
+	          </div>
+               </nav>	
+            		
+			<div class="row header-shadow" style="padding-bottom:10px;">
+                
+<div class="col-lg-2 col-md-2 col-sm-1 col-xs-1"></div>
+				<div class="col-lg-8 col-md-8 col-sm-10 col-xs-10">
+					<img src="http://epilepsydesireproject.eu/wp-content/uploads/2014/07/logo.png" alt="DESIRE Logo" class="img-responsive hidden-xs" style="margin: 60px auto 15px auto;">
+					<img src="http://epilepsydesireproject.eu/wp-content/uploads/2015/02/logo-small.png" alt="DESIRE Logo" class="img-responsive visible-xs" style="margin: 60px auto 15px auto;height:250px;">
+				</div>
+<div class="col-lg-2 col-md-2 col-sm-1 col-xs-1"></div>
+            </div>
+		</header>
+            <div class="row bg-lightblue" style="margin-top:4px;">
+    <div class="col-lg-2 col-md-2 col-sm-0 col-xs-0 background-light">&nbsp;</div>
+    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 bg-white" style="padding-top:30px; padding-bottom:30px;">
+<h2 id="the_title">DESIRE &#8211; Home</h2>
+
+		<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+			
+				<article id="post-9" class="post-9 page type-page status-publish hentry">
+					<header class="entry-header">
+						
+						<h1 class="entry-title"></h1>
+					</header><!-- .entry-header -->
+
+					<div class="entry-content">
+						<style>
+</style>
+<script>$('h2#the_title').hide();</script>
+<div class="container-fluid">
+	<div class="col-xl-2 col-lg-0 col-md-0 col-sm-0 col-xs-0">
+		&nbsp;
+	</div>
+
+	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding:15px;"><img class="img-responsive" src="http://epilepsydesireproject.eu/wp-content/uploads/2015/10/DESIRE_group_2015.jpg" alt="DESIRE Project team" /><!--/wp-content/uploads/2014/12/Group-Photo-DESIRE-2014.jpg-->
+		<div class="caption">
+			<h3><span class="glyphicon glyphicon-chevron-up"></span> Photo: Participants at DESIRE Second Annual Meeting, Erlangen Germany October 2015</h3>
+			<!--<h3><span class="glyphicon glyphicon-chevron-up"></span> Photo: Participants at DESIRE First Annual Meeting, Florence Italy October 2014</h3>-->
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-9">
+
+			<p class="text-justify">
+				DESIRE is an <a href="http://ec.europa.eu/research/health/medical-research/brain-research/projects/desire_en.html" target="_blank">FP7 funded project</a> (Grant Agreement no: 602531), involving 25 partners in 11 countries, with eight third parties, a total of 2166 person months, with more than 250 researchers involved and 19 clinical centres involved in the clinical trial. It is co-ordinated by <a href="http://www.unifi.it/cercachi-per-6115.html" targt="_blank">Prof. Renzo Guerrini</a>, Dipartimento di Neuroscienze, Area del Farmaco e Salute del Bambino (NEUROFARBA) Universita degli Studi di Firenze, Italy.
+			</p>
+			<div class="row">
+				<div class="col-md-7">
+
+					<p class="text-justify">
+						DESIRE will focus on epileptogenic developmental disorders EDD, i.e. early onset epilepsies whose origin is closely related to developmental brain processes. A major cause of EDD are malformations of cortical development (MCD), either macroscopic or subtle. EDD are often manifested as epileptic encephalopathies (EE), i.e. conditions in which epileptic activity itself may contribute to severe cognitive and behavioral impairments. EDD are the most frequent drug-resistant pediatric epilepsies carrying a lifelong perspective of disability and reduced quality of life.
+					</p>
+				</div>
+				<div class="col-md-5"><img src="http://epilepsydesireproject.eu/wp-content/uploads/2014/04/challenges-in-epileptic-developmental-disorders-EDD.png" alt="challenges in epileptic developmental disorders (EDD)" style="width:100%; margin-top:5px;" />
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<p class="text-justify">
+						Although EDD collectively represent a major medical and socio-economic burden, their molecular diagnosis, pathogenic mechanisms (PM) and rationale treatment are poorly understood.
+					</p>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<p class="text-justify">
+						Specific objectives of DESIRE are to advance the state of the art with respect to:
+					</p>
+					<ol class="text-justify">
+						<li>
+							the genetic and epigenetic causes and PM of EDD, particularly epileptogenic MCD, to elucidate molecular networks and disrupted protein complexes and search for common bases for these apparently heterogeneous disorders.
+						</li>
+						<li>
+							the diagnostic tools (biomarkers) and protocols through the study of a unique and well-characterized cohort of children to provide standardized diagnosis for patient stratification and research across Europe.
+						</li>
+						<li>
+							treatment of EDD using randomized, multidisciplinary clinical protocols and testing preclinical strategies in experimental models to also address novel preventative strategies.
+						</li>
+					</ol>
+
+					<p class="text-justify">
+						The workplan spans from clinical observation, to whole exome studies, cellular and animal models and basic research, identification of biomarkers and improvement of diagnostic methods, and back to the clinical trials and assessment of innovative, targeted treatment strategies. The consortium partners have an outstanding track record in genetics, basic neurophysiology, neuropathology and clinical research. Specialized expertise will be made available by the SMEs involved to develop novel diagnostic tools for tailored treatment approaches.
+					</p>
+						<p class="text-justify">
+						For more information please contact <a href="mailto:janet.mifsud@um.edu.mt" target="_blank">Prof. Janet Mifsud</a>, <a href="https://www.um.edu.mt/profile/janetmifsud" target="_blank">Department of Clinical Pharmacology and Therapeutics</a>, University of Malta, member of the WP7, Dissemination and Exploitation.
+					</p>
+				</div>
+
+			</div>
+			<p>
+				<br/>
+				<div class="col-xl-9 col-lg-9 col-md-8 col-sm-12 col-xs-12">
+			<h2>Previous Annual Meetings</h2>
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding:15px;"><img class="img-responsive" src="http://epilepsydesireproject.eu/wp-content/uploads/2014/12/Group-Photo-DESIRE-2014.jpg" alt="DESIRE Project team" />
+		<div class="caption">
+			<h3><span class="glyphicon glyphicon-chevron-up"></span> Photo: Participants at DESIRE First Annual Meeting, Florence Italy October 2014</h3>
+		</div>
+	</div>
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<img class="img-responsive" src="http://epilepsydesireproject.eu/wp-content/uploads/2014/04/group.jpg" alt="DESIRE Project team 2013" />
+					<div class="caption">
+			<h3><span class="glyphicon glyphicon-chevron-up"></span> Photo: Participants at DESIRE kick off meeting, San Servolo, Venice Italy</h3>
+		</div>
+				</div>
+				</div>
+				
+			</p>
+		
+		</div>
+		<div class="col-md-1" ></div>
+		<!-- News Section -->
+		<div class="col-md-3" ng-app="ng-dissemination-app" style="border-left: 2px solid #DDD; background-color:#DEDEDE;">
+			<div class="row" style="padding:10px;">
+				<h2 class="text-center"><strong>Latest News</strong></h2>
+				<div class="container-fluid" ng-controller="ng-news-controller">
+					<div class="row" padding:10px>
+						<div class="media" ng-repeat="item in disseminationItems | orderBy : 'posted' : true | filterByTypeId: 2 | limitTo : 4">
+							<div class="media-left media-middle">
+
+								<a href="{{item.link}}"> <img class="media-object img-responsive" style="margin-bottom:8px; height:128px;margin-left:auto;margin-right:auto;" src="{{item.thumbnail != undefined && item.thumbnail.length > 0 ? item.thumbnail : 'http://epilepsydesireproject.eu/wp-content/uploads/2014/04/PUZZLE_PIECES-01-300x273.png'}}" alt="{{item.title}}"> </a>
+							</div>
+							<div class="media-body">
+								<h6 class="media-heading"><a href="{{item.link}}">{{item.title}}</a></h6>
+								<span ng-if="item.posted"><strong>Posted on: </strong><span>{{moment(item.posted,'YYMMDD')}}</span
+							</div>
+							<hr/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script>
+		var app = angular.module('ng-dissemination-app', ['ngResource']);
+
+		app.filter('filterByTypeId', function() {
+			return function(input, type_id) {
+
+				var response = [];
+				if (input) {
+					for (var i = 0; i < input.length; i++) {
+						if (input[i].dissemination_type == type_id) {
+							response.push(input[i]);
+						}
+					}
+				}
+				return response;
+			};
+		});
+
+		app.controller('ng-news-controller', function($scope, $resource) {
+			$scope.disseminationItems = undefined;
+
+			$scope.dissemination_types = [{
+				'id' : 3,
+				'name' : 'Annual DESIRE meetings'
+			}, {
+				'id' : 1,
+				'name' : 'DESIRE participation at workshops and conferences'
+			}, {
+				'id' : 2,
+				'name' : 'Other DESIRE dissemination news'
+			}];
+			//DESIRE publications
+
+			$resource('/wp-content/themes/desire/data/dissemination.json').query(function(data) {
+				$scope.disseminationItems = data;
+			});
+
+			$scope.moment = function(date, format) {
+				return moment(date, format).format('Do MMMM, YYYY');
+			};
+
+		});
+	</script>
+											</div><!-- .entry-content -->
+
+					<!--<footer class="entry-meta">
+											</footer><!-- .entry-meta -->
+				</article><!-- #post -->
+
+				<!-- Comments hidden by Hide Comments Plugin -->			
+		</div><!-- #content -->
+	</div><!-- #primary -->
+</div>
+</div>
+  <!-- Footer -->
+ <style>
+.navigation-nodecor li{
+	list-style-type: none;
+ }
+</style>
+  <footer class="row footer-shadow">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12">
+    <h5 class="text-center">DESIRE 2013-2018 &copy;</h5>
+  </div>
+</div>
+<div class="row">
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-0">&nbsp;</div>
+
+<div class="col-lg-2 col-md-3 col-sm-3 hidden-xs">
+                    <div class="row" style="padding: 60px 60px 10px 0px;">
+                        <img src="http://epilepsydesireproject.eu/wp-content/uploads/2014/09/flag_yellow_high.jpg" alt="European union flag" class="img img-responsive">
+                    </div>
+                    <div class="row" style="padding: 0px 60px 0px 0px;">
+                        <span class="small">This project has received funding from the European Union's Seventh Framework Programme for research, technological development and demonstration under grant agreement no: Health-F2-602531-2013</span>
+                    </div>
+   </div>
+
+<div class="col-lg-6 col-md-5 hidden-sm hidden-xs"></div>
+
+  <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-xs-12 small" style="font-size:65%;">
+
+                      <div class="row" style="padding: 60px 0px 10px 0px;">
+  <img class="hidden-xs img-responsive" alt="FP7-coo-RGB" src="http://epilepsydesireproject.eu/wp-content/uploads/2014/12/Seventh_Framework_Programme_logo.png" style="width:auto;height:70px;margin:auto;">
+  </div>
+  <hr style="margin-top: 0px!important;">
+
+  <span class="auto-style1">Call Identifier: F7-health-2013-Innovation-1</span>
+  <br>
+  Project ID (Contract Number): Health-F2-602531-2013<br>
+  Date of the EC Grant Agreement Signature: 22 July 2013 <br>
+  Start date: 1 October 2013<br>
+  End date:&nbsp;30 September 2018<br>
+  Duration: 60 Months<br>
+  <br>
+  Total Project cost: &euro;16,957,461.09<br>
+  Total Project EC Funding: &euro;11,995,646.00<br>
+  <br><hr class="visible-xs">
+  </div>
+</div>
+  <!--<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-3">
+      <h3>Navigation</h3>
+      <ul class="navigation-nodecor">
+<li><a href="http://epilepsydesireproject.eu">Home</a></li>
+<li><a href="http://epilepsydesireproject.eu/?page_id=28">About DESIRE</a></li>
+                         <li><a href="http://epilepsydesireproject.eu/?page_id=136">Participants</a></li>
+                         <li><a href="http://epilepsydesireproject.eu?page_id=59">News</a></li>
+                         <li><a href="http://epilepsydesireproject.eu?page_id=2">Dissemination</a></li>                        
+  			             <li><a href="http://epilepsydesireproject.eu/?page_id=206">Resources</a></li>
+			             <li><a href="http://epilepsydesireproject.eu/?page_id=47">Links</a></li>
+                         <li><a href="mailto:janet.mifsud@um.edu.mt" target="_blank">Contact</a></li>
+      </ul>
+      
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-3 hide">
+      <h3>Find us on</h3>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+</div>
+-->
+  </footer>     
+
+ </body>
+
+</html>

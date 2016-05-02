@@ -1,0 +1,378 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="dcterms.type" content="Text" />
+<meta name="dcterms.format" content="text/html" />
+<link rel="shortcut icon" href="http://externalaction.security-copernicus.eu/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="dcterms.identifier" content="http://externalaction.security-copernicus.eu/" />
+<link rel="alternate" type="application/rss+xml" title="externalaction.security-copernicus.eu RSS" href="http://externalaction.security-copernicus.eu/rss.xml" />
+<link rel="canonical" href="http://externalaction.security-copernicus.eu/" />
+<link rel="shortlink" href="http://externalaction.security-copernicus.eu/" />
+<meta name="dcterms.title" content="externalaction.security-copernicus.eu" />
+<meta name="keywords" content="Esternal Action, PROJECTS OVERVIEW, G-NEXT in a nutshell, Areas of Benefits, Conflicts, incidents and disasters , Situational Awareness, Border Survey, G-SEXTANT in a nutshell, Areas of Benefits, Humanitarian Crisis Scenario, Natural Resources Scenario, Land Conflict Situation Awareness, Nuclear Activities Scenario, Illicit Crops, Border Surveillance Outside the EU, External Action Project Users, External ACtion Service Cases, Window on GMES/Copernicus, Articles and Papers,G-NEXT, G-SEXTANT, PRESS AND NEWS, External ACtion Copernicus News , External ACtion Activations, External ACtion in the press, Projects addressing other Copernicus areas of benefits, European Security and Defence, Security-related Copernicus Projects, Copernicus Websites" />
+  <title>externalaction.security-copernicus.eu</title>  
+  <style type="text/css" media="all">
+@import url("http://externalaction.security-copernicus.eu/modules/system/system.base.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/modules/system/system.menus.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/modules/system/system.messages.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/modules/system/system.theme.css?o073ft");
+</style>
+<style type="text/css" media="all">
+@import url("http://externalaction.security-copernicus.eu/sites/all/modules/collapsiblock/collapsiblock.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/modules/comment/comment.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/sites/default/modules/date/date_api/date.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/modules/field/theme/field.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/modules/node/node.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/modules/search/search.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/modules/user/user.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/sites/default/modules/views/css/views.css?o073ft");
+</style>
+<style type="text/css" media="all">
+@import url("http://externalaction.security-copernicus.eu/sites/default/modules/ctools/css/ctools.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/sites/default/modules/dhtml_menu/dhtml_menu.css?o073ft");
+</style>
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+.tinynav{display:none;}#zone-menu .region-menu ul.main-menu{display:block;}
+
+/*]]>*/-->
+</style>
+<style type="text/css" media="all and (max-width:780px)">
+<!--/*--><![CDATA[/*><!--*/
+.tinynav{display:block;}#zone-menu .region-menu ul.main-menu{display:none;}
+
+/*]]>*/-->
+</style>
+<style type="text/css" media="all">
+@import url("http://externalaction.security-copernicus.eu/sites/default/modules/hierarchical_select/hierarchical_select.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/sites/default/modules/field_group/field_group.css?o073ft");
+</style>
+<style type="text/css" media="all">
+@import url("http://externalaction.security-copernicus.eu/sites/all/themes/omega/alpha/css/alpha-reset.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/sites/all/themes/omega/alpha/css/alpha-mobile.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/sites/all/themes/omega/alpha/css/alpha-alpha.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/sites/all/themes/omega/omega/css/formalize.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/sites/all/themes/omega/omega/css/omega-text.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/sites/all/themes/omega/omega/css/omega-menu.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/sites/all/themes/omega/omega/css/omega-forms.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/sites/all/themes/omega/omega/css/omega-visuals.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/sites/all/themes/extaction/css/global.css?o073ft");
+</style>
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<style type="text/css" media="all">
+@import url("http://externalaction.security-copernicus.eu/sites/all/themes/extaction/css/extaction-alpha-default.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/sites/all/themes/extaction/css/extaction-alpha-default-normal.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/sites/all/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?o073ft");
+</style>
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)">
+@import url("http://externalaction.security-copernicus.eu/sites/all/themes/extaction/css/extaction-alpha-default.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/sites/all/themes/extaction/css/extaction-alpha-default-narrow.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/sites/all/themes/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css?o073ft");
+</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)">
+@import url("http://externalaction.security-copernicus.eu/sites/all/themes/extaction/css/extaction-alpha-default.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/sites/all/themes/extaction/css/extaction-alpha-default-normal.css?o073ft");
+@import url("http://externalaction.security-copernicus.eu/sites/all/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?o073ft");
+</style>
+<!--<![endif]-->
+  <script type="text/javascript" src="http://externalaction.security-copernicus.eu/sites/default/files/js/js_UWQINlriydSoeSiGQxToOUdv493zEa7dpsXC1OtYlZU.js"></script>
+<script type="text/javascript" src="http://externalaction.security-copernicus.eu/sites/default/files/js/js_KCd8rbJYUruV1tRJnh4um34UYvyhlrSVCPR1jNko2h8.js"></script>
+<script type="text/javascript" src="http://externalaction.security-copernicus.eu/sites/default/files/js/js_8DqkRkAxkmIjjv-QM0aA890b_xLYXn5r4vLxjx-jU2s.js"></script>
+<script type="text/javascript" src="http://externalaction.security-copernicus.eu/sites/default/files/js/js_LrsH_J2S6jHk8-V8TYTV0pzl8cmQCTMqV_llxjuOxls.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-30722350-7", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://externalaction.security-copernicus.eu/sites/default/files/js/js_xUfXcndEe1fOxS1_zzxsupuB-bhcJP6AkExewSdhdD4.js"></script>
+<script type="text/javascript" src="http://externalaction.security-copernicus.eu/sites/default/files/js/js_43n5FBy8pZxQHxPXkf-sQF7ZiacVZke14b0VlvSA554.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"extaction","theme_token":"wEK0TpeAMt4UTEF95QWDq3YW9BkNEO9B-S4SbvBLY08","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/form.js":1,"sites\/all\/modules\/collapsiblock\/collapsiblock.js":1,"sites\/default\/modules\/dhtml_menu\/dhtml_menu.js":1,"sites\/default\/modules\/tinynav\/tinynav-fork.js":1,"sites\/default\/modules\/tinynav\/tinynav-drupal.js":1,"sites\/default\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"misc\/collapse.js":1,"sites\/default\/modules\/field_group\/field_group.js":1,"sites\/all\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/collapsiblock\/collapsiblock.css":1,"modules\/comment\/comment.css":1,"sites\/default\/modules\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/default\/modules\/views\/css\/views.css":1,"sites\/default\/modules\/ctools\/css\/ctools.css":1,"sites\/default\/modules\/dhtml_menu\/dhtml_menu.css":1,"0":1,"1":1,"sites\/default\/modules\/hierarchical_select\/hierarchical_select.css":1,"sites\/default\/modules\/field_group\/field_group.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/all\/themes\/extaction\/css\/global.css":1,"ie::normal::sites\/all\/themes\/extaction\/css\/extaction-alpha-default.css":1,"ie::normal::sites\/all\/themes\/extaction\/css\/extaction-alpha-default-normal.css":1,"ie::normal::sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"narrow::sites\/all\/themes\/extaction\/css\/extaction-alpha-default.css":1,"narrow::sites\/all\/themes\/extaction\/css\/extaction-alpha-default-narrow.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/all\/themes\/extaction\/css\/extaction-alpha-default.css":1,"normal::sites\/all\/themes\/extaction\/css\/extaction-alpha-default-normal.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"collapsiblock":{"blocks":{"block-menu-menu-gsextant":"3","block-menu-menu-gnext":"3","block-block-2":"1","block-block-1":"1","block-block-7":"1","block-block-8":"1","block-views-listing-listing":"1","block-block-3":"1","block-block-9":"1","block-views-listing-teamlisting":"1","block-block-10":"1","block-block-11":"1","block-block-12":"1"},"default_state":1,"slide_type":1,"slide_speed":200,"block_title":":header:first","block":"section.block","block_content":"div.content"},"dhtmlMenu":{"nav":"open","animation":{"effects":{"height":"height","opacity":"opacity","width":0},"speed":"100"},"effects":{"siblings":"close-same-tree","children":"none","remember":"0"},"filter":{"type":"blacklist","list":{"devel":"devel","main-menu":"main-menu","management":"management","menu-copernicus":0,"menu-gnext":0,"menu-gsextant":0,"navigation":0,"shortcut-set-1":0,"user-menu":0}}},"tinynav":{"selector":"#zone-menu .region-menu ul.main-menu","media_query":"all and (max-width:780px)","header":false,"active":"active-trail"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"field_group":{"fieldset":"teaser"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<style type="text/css">
+ .ui-state-default, 
+.ui-widget-content .ui-state-default, 
+.ui-widget-header .ui-state-default { background:transparent;}
+.flex-caption {
+  background:transparent;
+}
+  <![endif]-->
+</style>
+<!--[if lt IE 9]>
+<script src="/sites/all/themes/extaction/js/html5shiv.js"></script>
+
+<![endif]-->
+
+</head>
+<body class="html front not-logged-in page-node node">
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-8 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+    <div class="block block-block block-1 block-block-1 odd block-without-title" id="block-block-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+       <p><a href="http://externalaction.security-copernicus.eu/projects-overview/g-next/g-next-nutshell"><img alt="G-Next" src="/sites/all/themes/extaction/img/logo-gnext.png" style="border-width: 0px; border-style: solid;" /></a></p>
+<p><a name="top" id="top"></a></p>
+     </div>
+  </div>
+</div>  </div>
+</div><div class="grid-4 region region-user-second" id="region-user-second">
+  <div class="region-inner region-user-second-inner">
+    <div class="block block-block block-2 block-block-2 odd block-without-title" id="block-block-2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+       <p><a href="http://externalaction.security-copernicus.eu/projects-overview/g-sextant/g-sextant-nutshell"><img alt="G-Sextant" src="/sites/all/themes/extaction/img/logo-gsextant.png" style="border-width: 0px; border-style: solid;" /></a></p>
+     </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <nav class="navigation">
+      <h2 class="element-invisible">Main menu</h2><ul id="main-menu" class="links inline clearfix main-menu"><li class="menu-1020 first active"><a href="/" title="" class="active">MENU</a></li><li class="menu-233 active"><a href="/" title="" class="active">HOME</a></li><li class="menu-393"><a href="/projects-overview">PROJECTS OVERVIEW</a></li><li class="menu-428"><a href="/publications">PUBLICATIONS</a></li><li class="menu-427"><a href="/team">TEAM</a></li><li class="menu-429"><a href="/news">PRESS/NEWS</a></li><li class="menu-426"><a href="/calendar">CALENDAR</a></li><li class="menu-430 last"><a href="/links">LINKS</a></li></ul>          </nav>
+          </div>
+</div>
+  </div>
+</div><div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
+  <div id="zone-branding" class="zone zone-branding clearfix container-12">
+    <div class="grid-12 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="block block-views block-home-block-1 block-views-home-block-1 odd block-without-title" id="block-views-home-block-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-home view-id-home view-display-id-block_1 view-dom-id-6efeea61d44bfa899cd3c90a08f4f87b">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    <article about="/projects-overview" typeof="foaf:Document" class="node node-page node-teaser node-published node-not-promoted node-not-sticky author-admin odd clearfix" id="node-page-1">
+        <header>
+    <h2 class="node-title"><a href="/projects-overview" title="Copernicus Support to EU External Action">Copernicus Support to EU External Action</a></h2>
+  </header>
+    <span property="dc:title" content="Copernicus Support to EU External Action" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>  
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>As a global actor, Europe has a responsibility to promote stable conditions for human and economic development, human rights, democracy and fundamental freedoms.  In this context, a key objective of the EU is to assist third countries in crisis situations or emerging crisis, and to prevent global and transregional threats leading to destabilisation, such as the proliferation of weapons of mass destruction.</p>
+ </div></div></div>  </div>
+      <!-- teaser code template HTML -->
+    <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="node-readmore first last"><a href="/projects-overview" rel="tag" title="Copernicus Support to EU External Action">Read more<span class="element-invisible"> about Copernicus Support to EU External Action</span></a></li></ul></nav>
+    
+      </div>
+</article>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div><div class="block block-block block-3 block-block-3 even block-without-title" id="block-block-3">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <!--<div style="text-align:center; width:100%; margin-left:auto; margin-right:auto;">
+<img id="Image-Maps_8201307010536016" src="http://externalaction.security-copernicus.eu/sites/all/themes/extaction/img/banner-home.jpg" usemap="#Image-Maps_8201307010536016" border="0" width="100%" height="auto" alt="" />
+<map id="_Image-Maps_8201307010536016" name="Image-Maps_8201307010536016">
+<area shape="rect" coords="8,27,348,171" href="http://externalaction.security-copernicus.eu/projects-overview/g-next/g-next-nutshell" alt="g-next" title="g-next"    />
+<area shape="rect" coords="642,31,927,171" href="http://externalaction.security-copernicus.eu/projects-overview/g-sextant/g-sextant-nutshell" alt="g-sextant" title="g-sextant"    />
+<area shape="rect" coords="938,199,940,201" href="http://www.image-maps.com/index.php?aff=mapped_users_8201307010536016" alt="Image Map" title="Image Map" />
+</map>
+</div>
+-->
+<div class="bann-container">
+<div class="banngnext"><a href="http://externalaction.security-copernicus.eu/projects-overview/g-next/g-next-nutshell"><img alt="G-Next" src="/sites/all/themes/extaction/img/bann-gnext.jpg" width="100%" border="0"></a></div>
+<div class="banngsextant"><a href="http://externalaction.security-copernicus.eu/projects-overview/g-sextant/g-sextant-nutshell"><img alt="G-Sextant" src="/sites/all/themes/extaction/img/bann-gsextant.jpg" width="100%" border="0"></a></div>
+</div>
+            </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-12 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                        <div class="block block-views block-home-block block-views-home-block odd block-without-title" id="block-views-home-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-home view-id-home view-display-id-block view-dom-id-763d6ae19457eda317ced207b69b11e2">
+        
+  
+  
+      <div class="view-content">
+          <ul>          <li class="views-row views-row-1 views-row-odd views-row-first grid-6 alpha column-1 row-1 column-1-row-1-alpha"><article about="/projects-overview/g-next/g-next-nutshell" typeof="foaf:Document" class="node node-page node-teaser node-published node-not-promoted node-not-sticky author-admin odd clearfix" id="node-page-2">
+        <header>
+    <h2 class="node-title"><a href="/projects-overview/g-next/g-next-nutshell" title="G-NEXT in a nutshell">G-NEXT in a nutshell</a></h2>
+  </header>
+    <span property="dc:title" content="G-NEXT in a nutshell" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>  
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>G-NEXT aims to support the transition of the Copernicus services for Security applications from research and development and pre-operational service provision to a fully operational mode.</p>
+<p>In particular, G-NEXT will supply information and intelligence data to support the operations of the European External Action Service (EEAS), including mapping and geoinformation products ready for use in emergency and crisis situations. Users should be able to integrate the services provided by G-NEXT into their working environments in an effective and reliable manner.</p>
+ </div></div></div>  </div>
+      <!-- teaser code template HTML -->
+    <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="node-readmore first last"><a href="/projects-overview/g-next/g-next-nutshell" rel="tag" title="G-NEXT in a nutshell">Read more<span class="element-invisible"> about G-NEXT in a nutshell</span></a></li></ul></nav>
+    
+      </div>
+</article></li>
+          <li class="views-row views-row-2 views-row-even views-row-last grid-6 omega column-2 row-1 column-2-row-1-omega"><article about="/projects-overview/g-sextant/g-sextant-nutshell" typeof="foaf:Document" class="node node-page node-teaser node-published node-not-promoted node-not-sticky author-editor even clearfix" id="node-page-11">
+        <header>
+    <h2 class="node-title"><a href="/projects-overview/g-sextant/g-sextant-nutshell" title="G-SEXTANT in a nutshell">G-SEXTANT in a nutshell</a></h2>
+  </header>
+    <span property="dc:title" content="G-SEXTANT in a nutshell" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>  
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>G-SEXTANT aims to develop a portfolio of Earth Observation (EO) products and services to support the geo-spatial information needs of EU External Action users and stakeholders, such as the European External Action Service.  G-SEXTANT enhances existing services through continued R&amp;D and on the basis of user needs identified during the course of the project. </p>
+<p>G-SEXTANT addresses the following scenarios: Humanitarian Crisis; Land Conflict; Natural Resources; Illicit crops; Border Surveillance; and Monitoring of Nuclear Sites and Activities.</p>
+ </div></div></div>  </div>
+      <!-- teaser code template HTML -->
+    <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="node-readmore first last"><a href="/projects-overview/g-sextant/g-sextant-nutshell" rel="tag" title="G-SEXTANT in a nutshell">Read more<span class="element-invisible"> about G-SEXTANT in a nutshell</span></a></li></ul></nav>
+    
+      </div>
+</article></li>
+      </ul>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div><div class="block block-block block-12 block-block-12 even block-without-title" id="block-block-12">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="mmpbtn"><a href="/node/176" target="_blank" alt="mmp-extaction"><img src="/sites/all/themes/extaction/img/extaction-mmpsitebutton.png" border="0" alt="mmp-extaction button"></a></div>    </div>
+  </div>
+</div><div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <article about="/news/project-news/g-next-and-g-sextant-2014-international-space-research-conference" typeof="sioc:Item foaf:Document" class="node node-article node-promoted node-teaser node-published node-not-sticky author-editor even clearfix" id="node-article-175">
+        <header>
+    <h2 class="node-title"><a href="/news/project-news/g-next-and-g-sextant-2014-international-space-research-conference" title="G-NEXT and G-SEXTANT at the 2014 International Space Research Conference">G-NEXT and G-SEXTANT at the 2014 International Space Research Conference</a></h2>
+  </header>
+    <span property="dc:title" content="G-NEXT and G-SEXTANT at the 2014 International Space Research Conference" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>  
+  
+  <div class="content clearfix">
+    <fieldset class="collapsible  group-details field-group-fieldset form-wrapper" id="node_article_teaser_group_details"><div class="fieldset-wrapper"><div class="field field-name-field-tags field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Tag:&nbsp;</div><div class="field-items"><div class="field-item even" rel="dc:subject"><span class="lineage-item lineage-item-level-0"><a href="/news-1">News</a></span><span class="hierarchical-select-item-separator">›</span><span class="lineage-item lineage-item-level-1"><a href="/news/project-news">Project News</a></span></div></div></div></div></fieldset>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>The coordinators of G-NEXT and G-SEXTANT were invited by the European Commission to present the results and state of play of the two projects at the 2014 International Space Research Conference. The presentation was delivered during the Technical Session on 'Space-based applications – Earth Observation'.  The event took place on the 15th to the 17th of September 2014 in Rome, Italy.</p>
+<p>The aim of the conference is to raise awareness of the results of EU Space research initiatives among policy makers, scientists and journalists, and to strengthen international cooperation.</p></div></div></div>  </div>
+      <!-- teaser code template HTML -->
+    <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="node-readmore first last"><a href="/news/project-news/g-next-and-g-sextant-2014-international-space-research-conference" rel="tag" title="G-NEXT and G-SEXTANT at the 2014 International Space Research Conference">Read more<span class="element-invisible"> about G-NEXT and G-SEXTANT at the 2014 International Space Research Conference</span></a></li></ul></nav>
+    
+      </div>
+</article><article about="/news/project-news/g-next-and-g-sextant-projects-presented-esa-living-planet-symposium" typeof="sioc:Item foaf:Document" class="node node-article node-promoted node-teaser node-published node-not-sticky author-editor odd clearfix" id="node-article-161">
+        <header>
+    <h2 class="node-title"><a href="/news/project-news/g-next-and-g-sextant-projects-presented-esa-living-planet-symposium" title="The G-NEXT and G-SEXTANT projects presented at the ESA Living Planet Symposium">The G-NEXT and G-SEXTANT projects presented at the ESA Living Planet Symposium</a></h2>
+  </header>
+    <span property="dc:title" content="The G-NEXT and G-SEXTANT projects presented at the ESA Living Planet Symposium" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>  
+  
+  <div class="content clearfix">
+    <fieldset class="collapsible  group-details field-group-fieldset form-wrapper" id="node_article_teaser_group_details"><div class="fieldset-wrapper"><div class="field field-name-field-tags field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Tag:&nbsp;</div><div class="field-items"><div class="field-item even" rel="dc:subject"><span class="lineage-item lineage-item-level-0"><a href="/news-1">News</a></span><span class="hierarchical-select-item-separator">›</span><span class="lineage-item lineage-item-level-1"><a href="/news/project-news">Project News</a></span></div></div></div></div></fieldset>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>From the <span style="line-height: 1.538em;">9</span><sup>th</sup><span style="line-height: 1.538em;"> to the 13</span><sup>th</sup><span style="line-height: 1.538em;"> of September, with the fourth edition of the European Space Agency’s (ESA) Living Planet symposium being held, the capital city of Scotland, Edinburgh, became the centre of Earth Observation (EO) science.</span></p></div></div></div>  </div>
+      <!-- teaser code template HTML -->
+    <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="node-readmore first last"><a href="/news/project-news/g-next-and-g-sextant-projects-presented-esa-living-planet-symposium" rel="tag" title="The G-NEXT and G-SEXTANT projects presented at the ESA Living Planet Symposium">Read more<span class="element-invisible"> about The G-NEXT and G-SEXTANT projects presented at the ESA Living Planet Symposium</span></a></li></ul></nav>
+    
+      </div>
+</article><article about="/news/project-news/g-next-services-available-activation" typeof="sioc:Item foaf:Document" class="node node-article node-promoted node-teaser node-published node-not-sticky author-editor even clearfix" id="node-article-160">
+        <header>
+    <h2 class="node-title"><a href="/news/project-news/g-next-services-available-activation" title="G-NEXT services available for activation">G-NEXT services available for activation</a></h2>
+  </header>
+    <span property="dc:title" content="G-NEXT services available for activation" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>  
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even" rel="og:image rdfs:seeAlso" resource="http://externalaction.security-copernicus.eu/sites/default/files/styles/square_thumbnail/public/content/images/compass_next.png?itok=CKKe5RNn"><a href="/news/project-news/g-next-services-available-activation"><img typeof="foaf:Image" src="http://externalaction.security-copernicus.eu/sites/default/files/styles/square_thumbnail/public/content/images/compass_next.png?itok=CKKe5RNn" width="160" height="160" alt="" /></a></div></div></div><fieldset class="collapsible  group-details field-group-fieldset form-wrapper" id="node_article_teaser_group_details"><div class="fieldset-wrapper"><div class="field field-name-field-tags field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Tag:&nbsp;</div><div class="field-items"><div class="field-item even" rel="dc:subject"><span class="lineage-item lineage-item-level-0"><a href="/news-1">News</a></span><span class="hierarchical-select-item-separator">›</span><span class="lineage-item lineage-item-level-1"><a href="/news/project-news">Project News</a></span></div></div></div></div></fieldset>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>As of the 15th of July 2013, the G-NEXT project started delivering services in pre-operational mode and is ready to accept requests from users. </p>
+<p>The service provision includes both rush and non-rush modes and will last until December 2014.</p>
+</div></div></div>  </div>
+      <!-- teaser code template HTML -->
+    <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="node-readmore first last"><a href="/news/project-news/g-next-services-available-activation" rel="tag" title="G-NEXT services available for activation">Read more<span class="element-invisible"> about G-NEXT services available for activation</span></a></li></ul></nav>
+    
+      </div>
+</article>    </div>
+  </div>
+</div>      </div>
+</div>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-12 region region-footer-first" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner">
+    <div class="block block-block block-6 block-block-6 odd block-without-title" id="block-block-6">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <img src="/sites/all/themes/extaction/img/logo-srvforsecucop.png" alt="Services for Security Copernicus">    </div>
+  </div>
+</div><div class="block block-block block-7 block-block-7 even block-without-title" id="block-block-7">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <img src="/sites/all/themes/extaction/img/logo-eu.png" alt="EU"> <img src="/sites/all/themes/extaction/img/logo-copernicus.png" alt="Copernicus"> <!--<img src="/sites/all/themes/extaction/img/logo-rea.png" alt="REA">-->    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-12 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <div class="block block-block block-8 block-block-8 odd block-without-title" id="block-block-8">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+       <p>© G-NEXT, G-SEXTANT 2014 -  <a href="/node/114">legal notice</a> - <a href="/credits">credits</a> - <a href="/node/125">contact</a> <br /><a href="#top">top</a></p>
+     </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></footer>  </div>  
+</body>
+</html>

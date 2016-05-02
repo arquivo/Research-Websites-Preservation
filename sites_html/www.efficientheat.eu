@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="head">
+    <meta charset="utf-8" />
+    <title>Efficient Heat</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    
+
+
+    <meta http-equiv="imagetoolbar" content="false" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/Content/Styles/EfHe.css"/>
+    
+
+
+    
+    <script src="/Scripts/jQuery/jquery.js" type="text/javascript"></script>
+    <script src="/Scripts/jQuery/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jQuery/jquery.validate.unobtrusive.min.js" type="text/javascript"></script>
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-323774-20']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body class="t">
+    <div id="logo" style="display: none">
+        <h1>
+            <a href="/">www.EfficientHeat.eu</a></h1>
+    </div>
+    <div id="page">
+        <div id="header">
+            <a href="/">
+              <img src="/content/images/logos/logo-efficientheat.png" width="100" height="100" style="margin-top: -15px; margin-left: -15px;" /></a>&nbsp;&nbsp;<a
+                    href="/" style="font-size: 28px; font-family: Verdana;">EfficientHeat.eu</a>
+            <div id="sitedescription">
+                <h1>
+                    Integrated and Cost-Effective Solution to reduce the volume of Pig Slurry,</h1>
+                <h1>
+                    minimize Pollutant Emissions and Process Energy Consumption.</h1>
+            </div>
+            <div id="mainmenu" style="z-index: 999">
+ 			          
+  <ul id="ddmNavigation">
+  
+    <li class="home current"><a href="/">Home</a></li>
+    
+            <li><a href="/project-info" class="navigation">Project info</a>
+          <ul>
+                <li><a href="/project-info/concept" class="navigation">Concept</a></li>
+                <li><a href="/project-info/objectives" class="navigation">Objectives</a></li>
+          </ul>
+          </li>
+            <li><a href="/partners" class="navigation">Partners</a>
+          <ul>
+          </ul>
+          </li>
+            <li><a href="/contact-us" class="navigation">Contact us</a>
+          <ul>
+          </ul>
+          </li>
+  </ul>
+
+            </div>
+            <script type="text/javascript" src="/scripts/ddmNavigation.js"></script>
+            <div class="mainmenucorner">
+                &nbsp;</div>
+        </div>
+        
+
+
+        <div id="content">
+            <div id="leftcontent">
+              
+<p class="breadcrumbs"></p>
+
+			<h2 class="title">
+    Efficient Heat
+</h2>
+                
+
+
+
+
+
+
+
+<div style="float: right;"><img alt="Evaporation Plant" src="../../../../content/images/efficientheat/evaporation-plant.jpg" width="400" height="300"></div>
+<p>The main objective of EfficientHeat project is to offer to the European pig farmers and External Waste Treatment Agencies a final integrated and cost-effective solution to treat pig slurry (mixture of urine, faeces and wash water), as well as to minimize pollutants emission (and associated odours) and total process energy consumption.</p>
+<p>This project is sponsored by the Seventh Framework program of the European Union.</p>
+<div id="sidebar">
+  
+    <hr />
+    <p>Further reading:</p>
+    <ul>
+        <li><a href="/project-info">Project info</a></li>
+        <li><a href="/partners">Partners</a></li>
+        <li><a href="/contact-us">Contact us</a></li>
+    </ul>
+
+</div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="footermenu">
+                <h4>
+                    Navigation</h4>
+                <umbraco:macro alias="umbTopNavigation" runat="server"></umbraco:macro>
+            </div>
+            <div id="footercontact">
+                <h4>
+                    Contact information</h4>
+                <b>EfficientHeat Consortium</b><br />
+                C/ Castillo de la Concepción, 14<br />
+                Pol. Ind. San Martín. 30564 Lorquí.<br />
+                Spain<br />
+                <br />
+                Telephone: +34 968 676 157<br />
+                Email: <a href="mailto:info@efficientheat.eu">info@efficientheat.eu</a>
+            </div>
+            <div id="footerfunds">
+                <h4>
+                    Project funds by</h4>
+                <img src="/content/images/efficientheat/fp7-en.gif" width="100px" height="85px" alt="Seventh Framework Programme" />
+                <img src="/content/images/efficientheat/eu-flag.gif" width="128px" height="85px" alt="European Union" />
+            </div>
+            <div id="footer-end">
+                <div style="text-align: left; float: left; clear: right;">
+                    &copy; EfficientHeat Consortium 2011
+                </div>
+                <div style="text-align: right; float: right;">
+                    <small>The research leading to these results has received funding from the <a href="http://cordis.europa.eu/fp7/dc/index.cfm"
+                        title="The Community Research and Development Information Service : CORDIS : Seventh Framework Programme">European Union's
+                        Seventh Framework Programme</a><br />
+                        managed by <a href="http://ec.europa.eu/research/rea">REA-Research Executive Agency</a> ([FP7/2007-2013] [FP7/2007-2011])
+                        under grant agreement n° 277624.</small>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

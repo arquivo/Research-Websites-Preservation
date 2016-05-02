@@ -1,0 +1,807 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>SwupMed &ndash; University of Copenhagen</title>
+  <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+
+  <link href="/css/style.css" rel="stylesheet" type="text/css" media="screen, print" />
+  <link href="/css/units/science.css" rel="stylesheet" type="text/css" media="screen, print" />
+
+<script type="text/javascript">//<!--
+var textsize_cookie_domain = '.ku.dk';
+var vdoc_lang = 'en';
+//--></script>
+<script src="http://cms.ku.dk/scripts_js/functions.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://cms.ku.dk/scripts_js/cookies.js"></script>
+
+
+  <link href="/css/print.css" rel="stylesheet" type="text/css" media="print" />
+
+    <meta name="Author" content="Jakob Breindahl" />
+    <meta name="Creator" content="Jakob Breindahl" />
+    <meta name="DC.Creator" content="Jakob Breindahl" />
+    <meta name="DC.Format" content="text/xhtml" />
+    <meta name="DC.Title" content="SwupMed" />
+    <meta name="DC.Title.Release" content="2013-10-08 13:52:40" />
+    <meta name="Keywords" content="University of Copenhagen, Servicedesk" />
+    <meta name="Title" content="SwupMed" />
+    <meta name="DC.Subject" content="University of Copenhagen" />
+    <meta name="DC.Subject" content="Servicedesk" />
+    <meta name="DC.Date" scheme="ISO8601" content="2008-06-24" />
+    <meta name="DC.Date.Created" scheme="ISO8601" content="2008-06-24" />
+    <meta name="DC.Date.Modified" scheme="ISO8601" content="2013-10-08" />
+    <meta name="DC.Language" scheme="ISO639-1" content="en" />
+    <meta name="DC.Publisher" content="University of Copenhagen" />
+    <meta name="DC.Publisher" content="Servicedesk" />
+    <meta name="robots" content="index,follow" />
+
+
+
+
+
+  <script type="text/javascript" src="http://cms.ku.dk/jquery/1.8.3/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="http://cms.ku.dk/jquery/jquery-ku-faelles.js"></script>
+  <script type="text/javascript">
+    if(jQuery) {
+      jQuery(document).ready(function(){
+        jQuery('ul.sf-menu').superfish({ pathClass:  'current'});
+      });
+    }
+  </script>
+
+<style type="text/css">
+body {background-color: #f3f3f3;
+font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+/* fjerner navnetræket øverst i venstre menuen*/
+div#nav_head{display: none}
+
+#branding-images { display: none } /* Fjerner logo, "Københavns Universitet" mv */
+
+div#nav-wrapper {display: none } /* Fjerner globalmenuen */
+
+
+/*sikrer hvid baggrund ved halvtomme sider*/
+div#wrapper {
+background-color: #ffffff;
+}
+
+/* Overskrift i indholdsfeltet */
+div#content h1 {
+font-size:1.4em;
+}
+/* Ændring af margin-top på højrebox */
+div#sidebar h1 {
+padding: 2px 7px;
+margin-top: 17px;
+font-size: 11px;
+line-height: 135%;
+font-family: Verdana, Arial, san-serif;
+}
+
+
+/* linkfarver */
+div#wrapper a:link, 
+div#wrapper a:active, 
+div#wrapper a:visited
+{ 
+color: #1E5284; 		
+background-color: transparent; 
+}
+
+/* link hover-farve (mouseover)*/
+div#wrapper a:hover { 
+color: #333333; 	
+text-decoration: underline;
+background-color: transparent; 
+}
+
+/* venstremenu linkfarve LINK */
+div#nav-sub a:link { 
+color: #333333; 	
+font-weight: normal;
+background-color: transparent; 
+}
+
+/* venstremenu linkfarve AKTIV */
+div#nav-sub a:active {
+color: #333333;
+font-weight: normal;
+background-color: transparent; 
+}
+
+/* venstremenu linkfarve BESØGT */
+div#nav-sub a:visited { 
+color: #333333;	
+font-weight: normal;
+background-color: transparent; 
+}
+
+/* venstremenu links hover-farve (mouseover) */
+div#nav-sub a:hover { 
+color: #333333; 	
+font-weight: normal;
+text-decoration:underline;
+background-color: transparent; 
+}
+
+/* fjerner den tynde grå linie mellem venstremenu og eventuel ekstramenu */
+div#nav-sub ul {
+border-top: 0;
+color: #000000;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0 0 2em;
+padding:2em 0 0;
+}
+
+div#nav-sub ul.first {
+border:medium none;
+padding:0em 0 0;
+}
+
+/* Placering af vestremenuen */
+#nav-sub { 
+padding: 20px 5px 90px 17px; 
+margin-left:-984px;
+width:175px;
+}
+
+div#nav-sub ul {padding-top: 0;}
+
+/* sørger for at linieafstanden i forsideboksene ikke er mindre end i f.eks. nyhedslister */
+.frontpage div#col-left p, .frontpage div#col-mid p {
+line-height: 1.5em;
+}
+
+/* Styling af venstremenu */
+div#nav-sub ul li {
+background-image:url(http://cms.ku.dk/science-sites/projekter/plen-sites/swup-med/media/ku_nav_lev1.gif);
+background-position:0 0.2em;
+background-repeat:no-repeat;
+font-size:1em;
+font-weight:normal;
+padding:0 0 2px 12px;
+}
+
+/* Styling af venstremenu */
+div#nav-sub ul ul li {
+background-image:url(http://cms.ku.dk/science-sites/projekter/plen-sites/swup-med/media/menu_niveau2.gif);
+background-position:0 0.50em;
+background-repeat:no-repeat;
+font-size:0.9em;
+font-weight:normal;
+padding:0 0 0 8px;
+}
+
+div#nav-sub ul ul ul li {
+background-image:url(http://cms.ku.dk/science-sites/projekter/plen-sites/swup-med/media/menu_niveau3.gif);
+background-position:0 0.6em;
+background-repeat:no-repeat;
+font-size:1em;
+font-weight:normal;
+padding:0 0 0 6px;
+}
+
+/* Styling af venstremenu */
+#nav-sub ul li a {color: #4A4949;}
+#nav-sub ul ul li a {color: #4A4949;}
+#nav-sub ul ul ul li a {color: #4A4949;}
+#nav-sub ul li.valgt ul li a:visited {color: #4A4949;}
+#nav-sub ul li.valgt ul li.valgt ul li a:visited {color: #4A4949;}
+#nav-sub li.valgt a:visited {color: #1E5284;}
+/* #nav-sub li.valgt {font-weight:bold;} */
+
+/* mindre bundmargin */
+#wrapper {margin:0 auto 0.5em;}
+
+/* Fjerner logo, "Københavns Universitet" mv */
+#branding-images {display: none}
+ 
+/* Fjerner globalmenuen */
+div#nav-wrapper {display: none;} 
+
+/* Wrapper til topgrafik-feltet */
+div#branding-decoration {
+height: 69px;
+background-position: top left;
+background-repeat: no-repeat;
+background-color: #FFFFFF;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+/* styrer visning af søgeformular */
+div#branding-decoration form { 
+top: 200px; 
+right: 18px; 
+position: absolute;
+} 
+
+/*style for søgefelt og søgeknap */
+div#soeg {
+width: 235px;
+height: 18px;
+padding-top: 0px;
+border: none;
+}
+
+/* Placering af søgefelt */
+input#soegeboks {
+float:left;
+font-size:0.9em;
+height:12px;
+width:179px;
+}
+
+/* Placering af søgeknap */
+input#soegeknap {height: 18px; float: right;}
+
+/*laver lidt luft over højre spalte så den kommer under søgebaren*/
+/*div#sidebar {padding-top: 150px;}*/
+
+/* Baggrundsbillede til bokse */
+div#sidebar .right h1, div#col-mid h1, div#col-left h1 {
+background-image:url(http://cms.ku.dk/science-sites/projekter/plen-sites/swup-med/media/h_bg.gif);
+background-position: 0.1em;
+color:#444;
+font-size:11px;
+height: 17px;
+}
+div#content, div#nav-sub, div#col-left h1, div#col-mid h1, div#sidebar h1, #content blockquote {
+    border-top: 0px solid rgb(144, 26, 30);
+}
+
+
+/*fjerner bannerne og den tomme plads de normalt laver på siden */
+div#banners-3col {
+display: none;
+}
+
+/*fjerner noget af bundmargin og tilføjer i toppen på indholdsfeltet */
+div#content {
+padding-top: 10px;
+padding-bottom: 0;
+margin-top: 0;
+margin-bottom: 0px;
+}
+
+/*fjerner noget af mellemrumet imellem topbanner og miderkolonde */
+div#content {
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+
+
+/*fjerner datoen fra nyheder i højreboks */
+.news-date {
+display: none;
+}
+
+/* formidsker mellemrum over nyhedsoverskriften i bokse */
+div#content h2 {
+margin-top: 4px;
+}
+
+/* laver linieafstand i nyheder ens med p-tag */
+div#col-mid li.news-teaser {
+line-height: 1.5em;
+}
+
+/* fjerner den grå baggrundsfarve på footer */
+#footer { 
+width: 984px;
+height: 2px;
+background-image:url(http://cms.ku.dk/nat-sites/geogr-sites/geocase/pic/footer_geocase.gif/);
+background-repeat:no-repeat;
+background-position: bottom left;
+background-color: #ffffff;
+padding: 0;
+}
+
+/* fjerner adresse-footeren */
+div#footer-col-left { 
+display: none;
+}
+
+/* ændre kontakt-align til left */
+div#footer-col-right { 
+display: none;
+}
+
+div#wrapper-crumb-trail {
+margin:0 0 25px;
+padding-top:15px;
+}
+
+div#nav-sub ul li li:hover {
+background-image: url(http://cms.ku.dk/science-sites/projekter/plen-sites/swup-med/media/fa.gif);
+}
+
+div#nav-sub ul li:hover {
+background-image: url(http://cms.ku.dk/science-sites/projekter/plen-sites/swup-med/media/ku_nav_lev1_select.gif);
+}
+
+#nav-sub li.valgt, #nav-sub li, #nav-sub li.ikke-valgt{
+background-image: url(http://cms.ku.dk/science-sites/projekter/plen-sites/swup-med/media/ku_nav_lev1_select.gif);
+}
+
+div#nav-sub ul ul li.valgt {
+background-image: url(http://cms.ku.dk/science-sites/projekter/plen-sites/swup-med/media/fa.gif);
+}
+
+div#sidebar div.nyhedsboks h2 a {
+color: #1E5284;
+font-weight: normal;
+}
+
+div.nyhedsboks ul.stripped li {
+padding-top: 4px;
+padding-bottom: 4px;
+}
+
+#sidebar p.news-teaser {
+margin: 4px 0 4px;
+}
+
+div#nav-sub ul li.valgt li a:hover{
+color: #1E5284;
+}
+
+</style>
+
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['mainTracker._setAccount', 'UA-28098356-1']);
+_gaq.push(['mainTracker._setDomainName','ku.dk']);
+_gaq.push(['mainTracker._setAllowHash',false]);
+_gaq.push(['mainTracker._setAllowAnchor',true]);
+_gaq.push(['mainTracker._setAllowLinker',true]);
+_gaq.push(['mainTracker._trackPageview']);
+
+
+
+(function() {
+var ga = document.createElement('script');
+ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga, s); })();
+
+(function() {
+var kuga = document.createElement('script');
+kuga.type = 'text/javascript';
+kuga.async = true;
+kuga.src = ('https:' == document.location.protocol ? 'https://cms.secure.ku.dk' : 'http://cms.ku.dk') + '/scripts_js/ga.extended.js';
+var s = document.getElementsByTagName('script')[1];
+s.parentNode.insertBefore(kuga, s);
+})();
+</script>
+
+<!--[if lte IE 5]>
+  <link href="/css/ie/ie5.css" rel="stylesheet" type="text/css" media="screen, print" />
+  <noscript>
+    <style type="text/css">
+    .nav .dropdown, .nav .dropdown div {width: 189px;}
+    .nav .button .dropdown ul {margin: 0px;}
+    .nav .dropdown, .nav .dropdown div {position: static;}
+    .nav .dropdown ul {border: 0;}
+    .mini-zone {display: none;}
+    </style>
+  </noscript>
+<![endif]-->
+<!--[if IE 6]>
+  <link href="/css/ie/ie6.css" rel="stylesheet" type="text/css" media="screen, print" />
+  <link rel="stylesheet" type="text/css" href="/css/ie/print_ie6.css" media="print" />
+  <noscript>
+    <style type="text/css">
+    .nav .dropdown, .nav .dropdown div {width: 189px;}
+    .nav .button .dropdown ul {margin: 0px;}
+    .nav .dropdown, .nav .dropdown div {position: static;}
+    .nav .dropdown ul {border: 0;}
+    .mini-zone {display: none;}
+    </style>
+  </noscript>
+<![endif]-->
+<!--[if IE 7]>
+  <link href="/css/ie/ie7.css" rel="stylesheet" type="text/css" media="screen, print" />
+  <link rel="stylesheet" type="text/css" href="/css/ie/print_ie7.css" media="print" />
+<![endif]-->
+<!--[if IE 8]>
+  <link href="/css/ie/ie8.css" rel="stylesheet" type="text/css" media="screen, print" />
+  <link rel="stylesheet" type="text/css" href="/css/ie/print_ie8.css" media="print" />
+<![endif]-->
+<!--[if IE 9]>
+  <link href="/css/ie/ie9.css" rel="stylesheet" type="text/css" media="screen, print" />
+<![endif]-->
+<!--[if IE]>
+  <style> div#nav-wrapper {font-size:11px;} .sf-menu ul {margin-top: 11px;} </style>
+<![endif]-->
+
+<!-- Responsive html_head START -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script type="text/javascript" src="http://cms.ku.dk/scripts/responsive/responsive.js"></script>
+<link href="http://cms.ku.dk/scripts/responsive/responsive.css" rel="stylesheet" type="text/css" media="screen" />
+<style type="text/css" media="print">
+.sidr,.sidr.right {display:none;}
+</style>
+<!--[if lte IE 8]>
+<style>
+ div#nav-sub ul li {background-position: 9px 0.2em;}
+</style>
+<![endif]-->
+<!-- Responsive html_head SLUT -->
+
+<link rel='shortcut icon' href='/grafik/images/favicons/favicon_science.ico'>
+
+</head>
+
+
+<body class="Forside ">
+<div><a name="top"></a></div>
+<script type="text/javascript" src="http://cms.ku.dk/scripts_js/selectric/jquery.selectric.min.js"></script>
+<link rel="stylesheet" href="/scripts_js/selectric/selectric.css"></link>
+
+<script type="text/javascript" src="http://cms.ku.dk/system/valid_search_engines.js?lang=en"></script>
+<script type="text/javascript" src="http://cms.ku.dk/scripts_js/search.js"></script>
+<script type="text/javascript">
+window.searchCallbacks.push(function(engine, form){
+	if (form.id === "global_search_query" && window._gaq) {
+		_gaq.push(['mainTracker._trackEvent', 'Globalmenu-EN', 'soeg', engine.id]);
+	}
+});
+$(function(){
+	$("#global_search_filter").selectric({
+		inheritOriginalWidth: false,
+		expandToItemText: true
+	});
+});
+</script>
+
+
+<div id="nav-wrapper">
+  
+  <div id="nav-inner-wrapper">
+    <div id="branding-global">
+      <a href="http://www.ku.dk/english/" title="University of Copenhagen"><img src="http://cms.ku.dk/grafik/globalmenu/navnetraek_UK.svg" alt="University of Copenhagen" /></a>
+    </div><!-- end branding-global -->
+    <div id="global-search">
+			<a name="a_search" id="a_search"></a>
+			<h1><span lang="da">Søg</span> / <span lang="en">Search</span></h1>
+      <form id="global_search_form" class="search_form search_reset">
+        <p>
+          <input type="text" id="global_search_query" class="search_query" tabindex="1" size="15" />
+
+            <input id="localdomain" name="localdomain" type="hidden" value="+window.location.hostname+" />
+            <script type="text/javascript"><!--
+              el = document.getElementById("localdomain");
+              el.value = window.location.hostname;
+            //--></script>
+
+          <select id="global_search_filter" class="search_filter"></select>
+
+        <input name="sa" type="submit" value="Search" tabindex="2" id="submit-button" />
+      </p>
+    </form>
+
+  </div><!-- end search -->
+    <div id="nav-globalmenu"> <a name="a_nav-global" id="a_nav-global"></a>
+    <h1>Global navigation</h1>
+<ul class="sf-menu">
+ <li><a href="http://studies.ku.dk/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Study-at-UCPH']);">Study at UCPH</a>
+  <ul>
+   <li><a href="http://studies.ku.dk/bachelor/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Bachelors-Programmes']);">Bachelor's Programmes</a></li>
+   <li><a href="http://studies.ku.dk/masters/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Masters-Programmes']);">Master's Programmes</a></li>
+   <li><a href="http://phd.ku.dk/english/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'PhD-Programmes-Study']);">PhD Programmes</a></li>
+   <li><a href="http://evu.ku.dk/english/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Continuing-Education']);">Continuing Education</a></li>
+<li><a href="http://moocs.ku.dk" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'MOOCs']);">MOOCs</a></li>
+  </ul>
+ </li>
+ <li><a href="http://research.ku.dk/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Research']);">Research</a>
+  <ul>
+   <li><a href="http://research.ku.dk/strengths/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Research-Strenghts']);">Research Strengths</a></li>
+   <li><a href="http://research.ku.dk/collaboration/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Research-Collaboration']);">Collaboration</a>
+
+</li>
+   <li><a href="http://phd.ku.dk/english/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'PhD-Programmes']);">PhD Programmes</a></li>
+   <li><a href="http://research.ku.dk/research_centres/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Research-Centres']);">Research Centres</a></li>
+  </ul>
+ </li>
+ <li><a href="http://news.ku.dk/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'News']);">News</a></li>
+ <li><a href="http://erhverv.ku.dk/english/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Collaboration']);">Collaboration</a>
+  <ul>
+    <li><a href="http://introduction.ku.dk/international-collaboration/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'International']);">International</a></li>
+<li><a href="http://erhverv.ku.dk/english/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Business']);">Business</a></li>
+<li><a href="http://fi.ku.dk/english/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Research-and-Innovation']);">Research & Innovation</a></li>
+    <li><a href="http://alumni.ku.dk/english/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Alumni']);">Alumni</a></li>
+</ul>
+
+
+</li>
+ <li><a href="http://employment.ku.dk/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Employment']);">Employment</a>
+  <ul>
+   <li><a href="http://employment.ku.dk/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Job-Portal']);">Job Portal</a></li>
+   <li><a href="http://ism.ku.dk/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'International-Employees']);">International Employees</a></li>
+  </ul>
+ </li>
+ <li><a href="http://introduction.ku.dk/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'About']);">About</a>
+  <ul>
+   <li><a href="http://introduction.ku.dk/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Introduction']);">Introduction</a></li>
+   <li><a href="http://introduction.ku.dk/organisation/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Organisation-UK']);">Organisation</a></li>
+   <li><a href="http://introduction.ku.dk/organisation/management/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Management']);">Management</a></li>
+   <li><a href="http://introduction.ku.dk/organisation/faculties/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Faculties']);">Faculties</a></li>
+   <li><a href="http://introduction.ku.dk/organisation/departments/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Departments']);">Departments</a></li>
+   <li><a href="http://introduction.ku.dk/contact/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globalmenu-UK', 'klik', 'Contact']);">Contact</a></li>
+  </ul>
+ </li>
+</ul>
+    </div><!-- end nav-global -->
+  </div><!-- end nav-inner-wrapper -->
+  <div id="global-tools">
+    <div id="global-tools-inner">
+      <div id="global-tools-navnetraek"><a href="http://www.ku.dk/english/" title="University of Copenhagen"><img src="http://cms.ku.dk/grafik/globalmenu/navnetraek_UK_neg.svg" alt="University of Copenhagen" /></a></div>
+      <ul>
+	<li><a href="http://findvej.ku.dk/english/" onclick="_gaq.push(['mainTracker._trackEvent', 'Globaltools-UK', 'klik', 'Map']);">Map</a></li>
+<li><a href="http://www.ku.dk/vejviser/phone.html" onclick="_gaq.push(['mainTracker._trackEvent', 'Globaltools-UK', 'klik', 'Phone-Book']);">Phone Book</a></li>
+<li><a href="https://intranet.ku.dk/en" onclick="_gaq.push(['mainTracker._trackEvent', 'Globaltools-UK', 'klik', 'KUnet-UK']);">KUnet</a></li>
+<li class="global-sprog"><a href="http://www.ku.dk/" class="dansk" onclick="_gaq.push(['mainTracker._trackEvent', 'Globaltools-UK', 'klik', 'Dansk']);">Dansk</a></li>
+      </ul>
+    </div><!-- end global-tools-inner -->
+  </div><!-- end global-tools -->
+</div><!-- end nav-wrapper -->
+<div id="globalmenu">
+  <a id="responsive-globalmenu-button" href="#sidr-right">&#9776;</a>
+</div>
+
+<div id="wrapper">
+        <div id="branding">
+          <h1>SwupMed &ndash; University of Copenhagen</h1>
+        </div>
+          <div id="branding-images">
+    <!-- End branding-global -->
+    <div id="branding-unit">
+      <a href="/" title="SwupMed">
+          <img src="http://cms.ku.dk/grafik/admin/1x1.gif" height="86" width="387" alt="SwupMed" />
+      </a>
+    </div>
+    <!-- End branding-unit -->
+    <div id="branding-logo">
+      <a href="/" title="Københavns Universitet">
+        <img src="http://cms.ku.dk/grafik/topgrafik/science.gif" height="87" width="65" alt="Københavns Universitet" />
+      </a>
+    </div>
+    <!-- End branding-logo -->
+  </div>
+  <!-- End branding-images -->
+
+        <!-- End branding -->
+        <div id="skip-to">
+          <h1><span lang="da">Hop til</span> / <span lang="en">Skip to</span>:</h1>
+          <ul>
+            <li><a href="#a_content"><span lang="da">Indhold</span> /<span lang="en"> Content</span></a></li>
+            <li><a href="#a_nav-global">Global navigation</a></li>
+            <li><a href="#a_nav-sub"><span lang="da">Oversigt</span> / <span lang="en">Site navigation</span></a></li>
+            <li><a href="#a_search"><span lang="da">Søg</span> / <span lang="en">Search</span></a></li>
+            <li><a href="#a_sidebar"><span lang="da">Ekstra information</span> / <span lang="en">Sidebar</span></a></li>
+            <li><a href="#a_footer"><span lang="da">Kolofon</span> / <span lang="en">Footer</span></a></li>
+          </ul>
+          <hr />
+        </div>
+
+        <div id="branding-decoration">
+          <span><img border="" src="http://cms.ku.dk/science-sites/projekter/plen-sites/swup-med/media/topbanner.jpg" width="984" height="69" alt="" /></span>
+        </div>
+        <!-- End branding-decoration -->
+
+
+    <div id="content-wrapper"><a name="a_content" id="a_content"></a>
+        <div id="content" class="frontpage">
+          <div id="mobile-header">
+            <a id="responsive-menu-button" href="#sidr-main">&#9776; Menu</a>
+          </div>
+
+<div id="main-content">
+
+<!-- Forside doctype: -->
+
+
+
+
+
+<p><img src="/media/slide.jpg" style="margin: 0px;" /></p>
+<h1>The strategic objective of the SWUP-MED project is:</h1>
+<p>Improve food production by introducing climate-proof varieties in crop rotations of wheat, grain legumes and new crops (potentially high value food cash crops), in a rainfed system with supplemental deficit irrigation using marginal-quality water and harvested rainwater. This will accelerate adoption of improved agricultural practices supporting small farmers&rsquo; livelihood and income levels. <a href="/about/">Read more</a></p>
+
+
+
+</div>
+<div id="col-left">
+        <div class="rightbox-normal freetext">
+
+<h1>Partners</h1>
+<a href="/partners/"><img src="/forsidebokse/partners/partners.jpg?size=235x85" alt="" width="235" height="85" class="fritekst_top_img" /></a>
+
+
+
+
+</div>
+
+
+</div>
+<div id="col-mid">
+        <div class="rightbox-normal freetext">
+
+<h1>Funded by</h1>
+<a href="http://cordis.europa.eu/fp7/home_en.html"><img src="/forsidebokse/about/funded.jpg?size=235x85" alt="" width="235" height="85" class="fritekst_top_img" /></a>
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+<!--</div>-->
+<br style="clear: both" />
+<!--</div>-->
+
+
+
+
+
+<br style="clear: both;" />
+</div> <!-- end content -->
+</div> <!-- end content-wrapper -->
+
+<div id="nav-sub">
+    <a name="a_nav-sub" id="a_nav-sub"></a>
+    <h1><span lang="da">Oversigt</span> / <span lang="en">Site navigation</span></h1>
+    <div id="nav_head">
+    <h1><a href="/">SwupMed</a></h1>
+    </div>
+    <ul class="first">
+        <li >
+<a href="/home/">Home</a>
+
+    </li>
+        <li >
+<a href="/about/">About</a>
+
+    </li>
+        <li >
+<a href="/partners/">Partners</a>
+
+    </li>
+        <li >
+<a href="/deliverables/">Deliverables</a>
+
+    </li>
+        <li >
+<a href="/reports/">Reports</a>
+
+    </li>
+        <li >
+<a href="/meetings/">Meetings</a>
+
+    </li>
+        <li >
+<a href="/publications/">Publications</a>
+
+    </li>
+        <li >
+<a href="/contact/">Contact</a>
+
+    </li>
+    </ul>
+
+</div> <!-- end nav-sub -->
+
+	<div id="sidebar">
+		<a name="a_sidebar" id="a_sidebar"></a>
+		<h1 class="hide"><span lang="da">Ekstra information</span> / <span lang="en">Sidebar</span></h1>
+<div class="right">
+    <div class="container-right">
+        
+    
+    
+        <div class="rightbox-normal freetext">
+
+<h1>Contact</h1>
+<table border="0">
+<tbody>
+<tr>
+<td><img src="/partners/personnel/01_sven_erik_jacobsen?size=81x" style="margin: 0px;" width="81" /></td>
+<td>
+<p><a href="mailto:seja@life.ku.dk">Sven-Erik Jacobsen</a><br /><strong>Project coordinator</strong><br />Associate professor<br />University of Copenhagen<br />Department of Plant and Environmental Sciences</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+</div>
+
+
+    </div>
+</div> <!-- end right div -->
+
+	</div>
+	<!-- End sidebar -->
+
+
+<!-- Sidefod start -->
+<div id="footer">
+	<a name="a_footer" id="a_footer"></a>
+	<h1><span lang="da">Kolofon</span> / <span lang="en">Footer</span></h1>
+    <div id="footer-col-left">
+	<address>
+            <a href="http://www.it.ku.dk/">Servicedesk</a><br />
+            <a href="http://www.ku.dk/english/">University of Copenhagen</a><br />
+            Nørregade 10<br />DK-1017 København K
+        <br />
+	</address>
+    </div>
+    <!-- End footer-col-left -->
+    <br style="display: none;" />
+    <div id="footer-col-right">
+            Contact:
+	<address>
+            Jakob Breindahl<br />
+            
+<a href="#" onclick="this.href= 'mai' + 'lto:' + 'jakob' + '@' + 'breindahl.dk' ; return true;">jakob<!-- @@@ -->&#64;<!-- @@@ -->breindahl<!-- nospam -->.<!-- nomorespam -->dk</a><br />
+        </address>
+    </div>
+    <!-- End footer-col-right -->
+	<br style="clear: both" />
+</div>
+<!-- Sidefod slut -->
+
+
+
+
+
+
+<div id="perm_cookie_box" class="english">
+    <a href="http://introduction.ku.dk/cookies-and-privacy-policy/"><span>Cookies and privacy policy</span><img src="http://cms.ku.dk/grafik/cookies/cookies_link_top_uk.png" alt="" /></a>
+</div>
+
+</div>
+<p style="margin-top: 1px; color: #333333; text-decoration: none; font-size: 0.9em"">
+SWUP-MED | 
+<a style="color: #333333; text-decoration: none;" onmouseover="this.style.textDecoration = 'underline'" onmouseout="this.style.textDecoration = 'none'" href="mailto:seja@life.ku.dk">Contact</a>  | 
+<a style="color: #333333; text-decoration: none;" onmouseover="this.style.textDecoration = 'underline'" onmouseout="this.style.textDecoration = 'none'" href="http://www.ku.dk/" target="_blank">Hosted at University of Copenhagen</p>
+
+
+
+<!-- Responsive html_end START -->
+<script type="text/javascript">
+jQuery(document).ready(function() {
+jQuery('#responsive-menu-button').sidr({
+      name: 'sidr-main',
+      source: '#nav-sub',
+      coverScreen: true
+    });
+jQuery('#responsive-globalmenu-button').sidr({
+      name: 'sidr-right',
+      source: '#nav-wrapper',
+      side: 'right',
+      coverScreen: true
+      });
+ });
+</script>
+<!-- Responsive html_end SLUT -->
+
+</body>
+</html>

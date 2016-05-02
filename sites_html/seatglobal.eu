@@ -1,0 +1,599 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>SEAT Global</title>
+
+<link rel="stylesheet" href="http://seatglobal.eu/wp-content/themes/seat3/style.css" type="text/css" media="screen" />
+
+<link rel="alternate" type="application/rss+xml" title="SEAT Global RSS Feed" href="http://seatglobal.eu/feed/" />
+<link rel="pingback" href="http://seatglobal.eu/xmlrpc.php" />
+
+<meta name="keywords" content="" />
+<meta name="author" content="http://oolaa.net">
+<meta name="google-translate-customization" content="24c4196ac97f173a-4ea26b1a17ee7c8f-gbf63a5bb5efcec3e-19"></meta>
+
+<!--[if lt IE 7]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE7.js" type="text/javascript"></script>
+<![endif]-->
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function(){
+	sfHover = function() {
+	var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+	
+});
+</script>
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/seatglobal.eu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='news-style-css'  href='http://seatglobal.eu/wp-content/plugins/vertical-news-scroller/css/newsscrollcss.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='YoutubeShortcodeMargenn-css'  href='http://seatglobal.eu/wp-content/plugins/youtube-shortcode/youtube-shortcode.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='youtube-simplegallery-css'  href='http://seatglobal.eu/wp-content/plugins/youtube-simplegallery/youtube_simplegallery.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='rotatingposts-css'  href='http://seatglobal.eu/wp-content/plugins/rotating-posts/rotating-posts.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='colorbox-css'  href='http://seatglobal.eu/wp-content/plugins/slideshow-gallery/views/default/css/colorbox.css?ver=1.3.19' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='http://seatglobal.eu/wp-content/plugins/slideshow-gallery/views/default/css/fontawesome.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-cpl-base-css-css'  href='http://seatglobal.eu/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-theme.css?ver=2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_cpl_css_0-css'  href='http://seatglobal.eu/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-light.css?ver=2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_cpl_css_1-css'  href='http://seatglobal.eu/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-dark.css?ver=2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_cpl_css_2-css'  href='http://seatglobal.eu/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-giant-gold-fish.css?ver=2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_cpl_css_3-css'  href='http://seatglobal.eu/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-adrift-in-dreams.css?ver=2.0.3' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by Yoast plugin v5.4.6 - Universal enabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-11171225-1', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('send','pageview');
+
+</script>
+<!-- / Google Analytics by Yoast -->
+<script type='text/javascript' src='http://seatglobal.eu/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://seatglobal.eu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://seatglobal.eu/wp-content/plugins/vertical-news-scroller/js/jquery.validate.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://seatglobal.eu/wp-content/plugins/vertical-news-scroller/js/jv.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://seatglobal.eu/wp-content/plugins/rotating-posts/rotating-posts.js?ver=1.0'></script>
+<script type='text/javascript' src='http://seatglobal.eu/wp-content/plugins/slideshow-gallery/views/default/js/gallery.js?ver=1.0'></script>
+<script type='text/javascript' src='http://seatglobal.eu/wp-content/plugins/slideshow-gallery/views/default/js/colorbox.js?ver=1.6.3'></script>
+<script type='text/javascript' src='http://seatglobal.eu/wp-content/plugins/slideshow-gallery/views/default/js/jquery-ui.js?ver=4.4.2'></script>
+<link rel='https://api.w.org/' href='http://seatglobal.eu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://seatglobal.eu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://seatglobal.eu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<link rel="canonical" href="http://seatglobal.eu/" />
+<link rel='shortlink' href='http://seatglobal.eu/' />
+<!-- <meta name="NextGEN" version="2.1.23" /> -->
+
+</head>
+<body >
+
+<div id="outerwrap">
+
+<div id="seatlogo"><!----></div>
+
+<div id="innerwrap">
+
+<div id="wrapper" style="display:none;">
+	<div id="topbar">
+		
+	</div>
+	<div id="header">
+    	<div id="toplink" style="float:left;">
+    	<a href="/" style="display:block; width:650px; height:100px; float:left;"></a></div>
+        <div style="float:right; width:250px; margin-top:70px; margin-right:5px; text-align:right;">
+        <form method="get" style="margin:0px;" action="http://seatglobal.eu/">
+<input type="text" size="18" value="" name="s" id="s" />
+<input type="submit" id="searchsubmit" value="Search" class="btn" />
+</form></div>
+	</div>
+	<div id="navigation">
+		<ul id="nav">
+			
+          <!-- <li class="home page_item "><a href="http://seatglobal.eu">Home</a></li> -->
+                    															          			<li class="page_item page-item-2 page_item_has_children current_page_item"><a href="http://seatglobal.eu/">Home</a>
+<ul class='children'>
+	<li class="page_item page-item-202"><a href="http://seatglobal.eu/about/background/">Background</a></li>
+	<li class="page_item page-item-848"><a href="http://seatglobal.eu/about/objectives/">Objectives</a></li>
+	<li class="page_item page-item-15 page_item_has_children"><a href="http://seatglobal.eu/about/work-packages/">Work Descriptions</a>
+	<ul class='children'>
+		<li class="page_item page-item-95"><a href="http://seatglobal.eu/about/work-packages/wp1-project-management/">WP1: Project Management</a></li>
+		<li class="page_item page-item-98"><a href="http://seatglobal.eu/about/work-packages/wp2-scoping-and-overview-of-production-systems/">WP2: Production systems</a></li>
+		<li class="page_item page-item-100"><a href="http://seatglobal.eu/about/work-packages/wp3-life-cycle-analysis/">WP3: Life cycle analysis</a></li>
+		<li class="page_item page-item-104"><a href="http://seatglobal.eu/about/work-packages/wp4-environmental-models/">WP4: Environmental models</a></li>
+		<li class="page_item page-item-106"><a href="http://seatglobal.eu/about/work-packages/wp5-social-and-economic-dynamics/">WP5: Social &#038; economic dynamics</a></li>
+		<li class="page_item page-item-109"><a href="http://seatglobal.eu/about/work-packages/wp6-food-safety-and-public-health/">WP6: Food Safety &#038; Public Health</a></li>
+		<li class="page_item page-item-111"><a href="http://seatglobal.eu/about/work-packages/wp-7-assessment-of-contamination-risks/">WP7: Contamination risks</a></li>
+		<li class="page_item page-item-113"><a href="http://seatglobal.eu/about/work-packages/wp8-framing-key-values-within-a-broader-ethical-framework/">WP8: Ethical framework</a></li>
+		<li class="page_item page-item-115"><a href="http://seatglobal.eu/about/work-packages/wp-9-enhancing-food-values-through-action-research/">WP9: Enhancing food values</a></li>
+		<li class="page_item page-item-117"><a href="http://seatglobal.eu/about/work-packages/wp10-improving-transparency-and-utility-of-trade-related-information/">WP10: Improving transparency</a></li>
+		<li class="page_item page-item-119"><a href="http://seatglobal.eu/about/work-packages/wp11-policy-development-and-implementation/">WP11: Policy development</a></li>
+		<li class="page_item page-item-121"><a href="http://seatglobal.eu/about/work-packages/w12-dissemination/">WP12: Dissemination</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-850"><a href="http://seatglobal.eu/about/results/">Results</a></li>
+	<li class="page_item page-item-13"><a href="http://seatglobal.eu/about/contact/">Contact</a></li>
+</ul>
+</li>
+<li class="page_item page-item-3935 page_item_has_children"><a href="http://seatglobal.eu/updates-home/">Updates</a>
+<ul class='children'>
+	<li class="page_item page-item-1318"><a href="http://seatglobal.eu/updates-home/project-news-2/">Project News</a></li>
+	<li class="page_item page-item-471 page_item_has_children"><a href="http://seatglobal.eu/updates-home/work-packages-outputs/">Research outputs</a>
+	<ul class='children'>
+		<li class="page_item page-item-467"><a href="http://seatglobal.eu/updates-home/work-packages-outputs/work-package-1/">WP 1 &#8211; Project Management</a></li>
+		<li class="page_item page-item-474"><a href="http://seatglobal.eu/updates-home/work-packages-outputs/work-package-2/">WP 2 &#8211; Scoping and Systems Overview</a></li>
+		<li class="page_item page-item-476"><a href="http://seatglobal.eu/updates-home/work-packages-outputs/work-package-3/">WP 3 &#8211; Life Cycle Analysis</a></li>
+		<li class="page_item page-item-478"><a href="http://seatglobal.eu/updates-home/work-packages-outputs/work-package-4/">WP 4 &#8211; Environmental Models</a></li>
+		<li class="page_item page-item-480"><a href="http://seatglobal.eu/updates-home/work-packages-outputs/work-package-5/">WP 5 &#8211; Social &#038; Economic Dynamics</a></li>
+		<li class="page_item page-item-482"><a href="http://seatglobal.eu/updates-home/work-packages-outputs/work-package-6/">WP 6 &#8211; Food Safety &#038; Public Health</a></li>
+		<li class="page_item page-item-484"><a href="http://seatglobal.eu/updates-home/work-packages-outputs/work-package-7/">WP 7 &#8211; Contamination Risk Assessment</a></li>
+		<li class="page_item page-item-486"><a href="http://seatglobal.eu/updates-home/work-packages-outputs/work-package-8/">WP 8 &#8211; Ethical Frameworks</a></li>
+		<li class="page_item page-item-488"><a href="http://seatglobal.eu/updates-home/work-packages-outputs/work-package-9/">WP 9 &#8211; Action Research</a></li>
+		<li class="page_item page-item-490"><a href="http://seatglobal.eu/updates-home/work-packages-outputs/work-package-10/">WP 10 &#8211; Information Transparency &#038; Utility</a></li>
+		<li class="page_item page-item-492"><a href="http://seatglobal.eu/updates-home/work-packages-outputs/work-package-11/">WP 11- Developing &#038; Implementing Policy</a></li>
+		<li class="page_item page-item-494"><a href="http://seatglobal.eu/updates-home/work-packages-outputs/work-package-12/">WP 12 &#8211; Dissemination</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-1321"><a href="http://seatglobal.eu/updates-home/media/">SEAT in the Media</a></li>
+	<li class="page_item page-item-1450"><a href="http://seatglobal.eu/updates-home/highlighted-articles/">Highlighted Articles</a></li>
+	<li class="page_item page-item-464"><a href="http://seatglobal.eu/updates-home/newsletters/">Newsletters</a></li>
+</ul>
+</li>
+<li class="page_item page-item-2082 page_item_has_children"><a href="http://seatglobal.eu/video/">Videos</a>
+<ul class='children'>
+	<li class="page_item page-item-3182"><a href="http://seatglobal.eu/video/seat-explained/">SEAT explained</a></li>
+	<li class="page_item page-item-2132"><a href="http://seatglobal.eu/video/project-people/">People of the SEAT Project</a></li>
+	<li class="page_item page-item-3506"><a href="http://seatglobal.eu/video/other-videos/">Other videos</a></li>
+</ul>
+</li>
+<li class="page_item page-item-8 page_item_has_children"><a href="http://seatglobal.eu/publications/">Library</a>
+<ul class='children'>
+	<li class="page_item page-item-3858"><a href="http://seatglobal.eu/publications/gallery-tilapia-shrimp-prawn-pangasius/">Gallery</a></li>
+	<li class="page_item page-item-2740"><a href="http://seatglobal.eu/publications/loni-s-blog-2-weeks-travelling-around-bangladeshi-shrimp-farms/">Loni &#038; The Bangladeshi Shrimp</a></li>
+	<li class="page_item page-item-458"><a href="http://seatglobal.eu/publications/posters/">Posters</a></li>
+	<li class="page_item page-item-1323"><a href="http://seatglobal.eu/publications/journal-articles/">Journal Articles</a></li>
+	<li class="page_item page-item-693"><a href="http://seatglobal.eu/publications/presentations/">Presentations</a></li>
+</ul>
+</li>
+<li class="page_item page-item-5 page_item_has_children"><a href="http://seatglobal.eu/partners/">Partners</a>
+<ul class='children'>
+	<li class="page_item page-item-58 page_item_has_children"><a href="http://seatglobal.eu/partners/asia/">Asia</a>
+	<ul class='children'>
+		<li class="page_item page-item-79"><a href="http://seatglobal.eu/partners/asia/shanghai-ocean-university/">Shanghai Ocean University</a></li>
+		<li class="page_item page-item-81"><a href="http://seatglobal.eu/partners/asia/can-tho-university/">Can Tho University</a></li>
+		<li class="page_item page-item-83"><a href="http://seatglobal.eu/partners/asia/kasetsart-university/">Kasetsart University</a></li>
+		<li class="page_item page-item-85"><a href="http://seatglobal.eu/partners/asia/bangladesh-agricultural-university/">Bangladesh Agricultural University</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-55 page_item_has_children"><a href="http://seatglobal.eu/partners/eu/">EU</a>
+	<ul class='children'>
+		<li class="page_item page-item-67"><a href="http://seatglobal.eu/partners/eu/university-of-stirling/">University of Stirling</a></li>
+		<li class="page_item page-item-69"><a href="http://seatglobal.eu/partners/eu/cefas/">CEFAS</a></li>
+		<li class="page_item page-item-71"><a href="http://seatglobal.eu/partners/eu/university-of-copenhagen/">University of Copenhagen</a></li>
+		<li class="page_item page-item-75"><a href="http://seatglobal.eu/partners/eu/leiden-university/">Leiden University</a></li>
+		<li class="page_item page-item-73"><a href="http://seatglobal.eu/partners/eu/wageningen-university/">Wageningen University</a></li>
+		<li class="page_item page-item-77"><a href="http://seatglobal.eu/partners/eu/university-of-bergen/">University of Bergen</a></li>
+		<li class="page_item page-item-93"><a href="http://seatglobal.eu/partners/eu/danish-institute-for-international-studies/">Danish Institute for International Studies</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-61 page_item_has_children"><a href="http://seatglobal.eu/partners/international/">International</a>
+	<ul class='children'>
+		<li class="page_item page-item-89"><a href="http://seatglobal.eu/partners/international/the-worldfish-center/">The WorldFish Center</a></li>
+		<li class="page_item page-item-91"><a href="http://seatglobal.eu/partners/international/fao/">FAO</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="page_item page-item-1737"><a href="http://seatglobal.eu/msmes/">MSMEs</a></li>
+<li class="page_item page-item-3603"><a href="http://seatglobal.eu/the-eafi/">The EAFI</a></li>
+          								            	
+		</ul>
+            <a href="/contact/" title="Contact us"><img src="/wp-content/themes/seat3/images/icon-envelope.png" width="20" height="20" border="0" /></a>          
+          
+            <a href="http://twitter.com/SEATGlobal" target="_blank" title="Follow SEAT on Twitter"><img src="/wp-content/themes/seat3/images/icon-twitter.png" width="20" height="20" border="0" /></a>
+            <a href="http://www.facebook.com/SEATGlobal" target="_blank" title="Find SEAT on Facebook"><img src="/wp-content/themes/seat3/images/icon-facebook.png" width="20" height="20" border="0"/></a>
+            
+
+    </div>
+
+      <script type="text/javascript" src="/js/easySlider1.7.js"></script> 
+      <script type="text/javascript">
+
+		jQuery(document).ready(function($){	
+
+			//$('#wrapper').show();
+			//$('#footer_wrap').show();
+
+			$('#wrapper').delay(2500).fadeIn(1000,
+			
+			function() {
+			
+				$("#slider").easySlider({
+				
+					controlsBefore:	'<p id="controls">',
+	
+					controlsAfter:	'</p>',
+	
+					auto: true, 
+					numeric: true,
+					numericId: 'slidercontrols',
+	
+	speed: 		500,
+	
+	pause:			7000,
+	
+					continuous: true
+	
+				});
+			});
+			$('#footer_wrap').delay(2500).fadeIn(1000);
+
+			
+		});	
+
+</script>
+
+
+	</script>
+
+
+<div style="float:left; width:960px; padding:0px; margin-right:12px;">
+  <div style="margin-top:10px; width:620px; height:210px; overflow:hidden; float:left; margin-right:10px;">
+      
+		<div id="slider"> <span id="prevBtn"><a href="javascript:void(0);">Previous</a></span> <span id="nextBtn"><a href="javascript:void(0);">Next</a></span>
+        <ul>
+
+<li>
+                <div style="float:left;"><img src="http://seatglobal.eu/wp-content/uploads/2013/07/myths.jpeg"  width="200" height="200" style="margin-right:10px;" /></div>
+                <div class="slidertext"><h1>Myths and misconceptions: challenges to aquaculture misinformation increase</h1><p>
+
+<em id="__mceDel">Increasingly, people are challenging aquaculture criticisms despite developments within the industry. Following SEAT's myth busters in July, the U.S. National Oceanic and Atmospheric Administration also tackled some of the most commonly expressed <a href="http://seatglobal.eu/2013/11/myths-and-misconceptions-challenges-to-aquaculture-misinformation-increase/#.UpXsA2RNyJM">myths surrounding aquaculture</a>. </p></div>
+          </li></em>
+
+<li>
+                <div style="float:left;"><img src="http://seatglobal.eu/wp-content/uploads/2009/09/Video-slide-image.jpg"  width="200" height="200" style="margin-right:10px;" /></div>
+                <div class="slidertext"><h1>Project overview</h1><p>
+
+<em id="__mceDel">As the SEAT project nears its completion, the key issues and take home messages have been put together in this innovative and comprehensive video presentation. The presentation includes interviews with project researchers and collaborators as it outline the issues under investigation and the take home messages. You can watch the video <a href="http://seatglobal.eu/2013/10/project-overview/#.Ul5fumTtiJN" target="_blank">here</a>.  </p></div>
+          </li></em>
+
+<li>
+                <div style="float:left;"><img src="http://seatglobal.eu/wp-content/uploads/2009/09/EAFI-tiers.jpg"  width="200" height="200" style="margin-right:10px;" /></div>
+                <div class="slidertext"><h1>The EAFI</h1><p>
+
+<em id="__mceDel">The data and findings from the 4 years of the SEAT project are being used to produce the Ethical Aquatic Food Index. Find out more about this tool, it's development and how it can aid in decision making when it comes to assessing the environmental, economic, social and ethical nature of the SEAT products, <a href="http://seatglobal.eu/the-eafi/" target="_blank">here</a>. </p></div>
+          </li></em>
+
+<li>
+                <div style="float:left;"><img src="/wp-content/uploads/2013/02/seat-is-530.jpg"  width="200" height="200" style="margin-right:10px;" /></div>
+                <div class="slidertext"><h1>SEAT is....</h1><p>
+
+<em id="__mceDel">an EU FP7-funded, global research project addressing how we can enhance the sustainability, ethics, standards and certification of the Asian Aquaculture Industry Farmed Asian seafood accounts for 30% of all farmed seafood marketed within the EU. SEAT seeks to help European seafood buyers understand this important supply chain.</em>
+
+Read more about <a href="/about/background/">SEAT</a> or watch the <a href="http://seatglobal.eu/2013/10/project-overview/#.Ul5cVWTtiJM" target="_blank">project overview video</a>.</p></div>
+          </li>
+
+<li>
+                <div style="float:left;"><img src="http://seatglobal.eu/wp-content/uploads/2009/09/Screen-Shot-2013-10-15-at-11.57.48.png"  width="200" height="200" style="margin-right:10px;" /></div>
+                <div class="slidertext"><h1>LCA - overcoming limitations</h1><p>
+
+<em id="__mceDel">Life cycle assessment (LCA) has been at the heart of SEAT's investigations. Leiden University's Patrik Henriksson explains how, through SEAT, a new methodology has been developed to investigate and compare the diverse production systems found in Asian Aquaculture <a href="http://seatglobal.eu/2013/10/moving-beyond-point-values-in-lcas/#.Ul0h_WTtiJM" target="_blank">here</a>.  </p></div>
+          </li></em>
+
+<li>
+                <div style="float:left;"><img src="http://seatglobal.eu/wp-content/uploads/2013/09/Tilapia-dish-with-ASC-certification.jpeg"  width="200" height="200" style="margin-right:10px;" /></div>
+                <div class="slidertext"><h1>Limitations to aquaculture certification</h1><p>
+
+<em id="__mceDel">Third party certification is gaining prominence as Western consumers look for assurance of sustainability. Informed by experiences from SEAT, a paper published in <a href="http://www.sciencemag.org/content/341/6150/1067" target="_blank">Science</a> argues, that when it comes to aquaculture, there are serious limitations making it <a href="http://seatglobal.eu/2013/11/certification-improving-sustainability-of-aquaculture/#.Up2ypWRdVSQ" target="_blank">only part of the solution</a>. </p></div>
+          </li></em>
+
+<li>
+                <div style="float:left;"><img src="http://seatglobal.eu/wp-content/uploads/2009/09/Newsletters.jpg"  width="200" height="200" style="margin-right:10px;" /></div>
+                <div class="slidertext"><h1>SEAT News</h1><p>
+
+<em>Remedies to the fishmeal addiction, working with the BRC, labour changes in Thailand, Aquaculture myths and collaboration with SMEs...</em>
+
+<em id="__mceDel">Keep up to date with the project's work and findings as well as developments in sustainable aquaculture with SEAT's monthly <a href="http://seatglobal.eu/updates-home/newsletters/" target="_blank">newsletters</a> and <a href="http://seatglobal.eu/about/contact/" target="_blank">join the mailing list</a>.</p></div>
+          </li></em>
+
+<li>
+                <div style="float:left;"><img src="http://seatglobal.eu/wp-content/uploads/2013/02/4.-Retail.jpg"  width="200" height="200" style="margin-right:10px;" /></div>
+                <div class="slidertext"><h1>Asian Aquaculture &amp; European Food Security</h1><p>
+
+<em id="__mceDel"> <em>Is a sustainable and ethical trade in farmed seafood is needed between the EU and Asia.</em></em>
+
+The EU's growing dependence on importants and the issues of sustainability were addressed in Prof.Little's <a href="http://seatglobal.eu/2013/06/asian-aquaculture-sustaining-european-seafood-security/#.Ua88XGTtgVk" target="_blank">talk at the IFST Spring Conference</a>.</p></div>
+          </li>
+
+ </ul>
+      </div>
+      <!--slider-->         
+    </div>
+  <div style="margin-top:10px; padding:10px; background-color:#7ea24d; float:left; width: 310px; height:180px; overflow:hidden;">
+    <h2 class="homepage-area2">Project news</h2>           
+           
+                            
+             <div id="news-container_8583" class="news-container">
+                <ul>
+                                             <li>
+                         <div style="padding:0px">
+                            <div class="newsscroller_title"><a href='http://seatglobal.eu/2013/10/project-overview/' target="_blank" >Project overview</a></div>
+                            <div style="clear:both"></div>
+                                                            <div class="scrollercontent">
+                                    As the SEAT project nears completion, the key issues and take home messages have been put together in this innovative and comprehensive video presentation.<br />
+[youtube_sc url="http://www.youtube.com/watch?v=4NDm56z8zW8"]<br />
+Originally developed for display at the Biosciences Knowledge Transfer Network event in Glasgow, UK, September, 2013, the video outlines the project and the issues under investigation.                                 </div>
+                                    
+                         </div>
+                        </li>
+                                               <li>
+                         <div style="padding:0px">
+                            <div class="newsscroller_title"><a href='http://seatglobal.eu/2013/08/working-with-smes/' target="_blank" >Working with SMEs</a></div>
+                            <div style="clear:both"></div>
+                                                            <div class="scrollercontent">
+                                    SMEs &amp; Action Research<br />
+Throughout SEAT’s investigations into the sustainability of Asian aquaculture researchers have been working with numerous small and medium enterpises (SMEs). SMEs are valued within supply chains as they are usually able to innovate in ways that are often more difficult for larger, less readily adaptive businesses. It                                 </div>
+                                    
+                         </div>
+                        </li>
+                                               <li>
+                         <div style="padding:0px">
+                            <div class="newsscroller_title"><a href='http://seatglobal.eu/2013/08/brc-make-a-statement-on-fishmeal-used-in-farmed-prawn-feed/' target="_blank" >BRC make a statement on fishmeal used in farmed prawn feed.</a></div>
+                            <div style="clear:both"></div>
+                                                            <div class="scrollercontent">
+                                    In April, 2013, researchers working on the SEAT project helped the BRC facilitate a meeting of their members to discuss the issues surrounding warm water prawn farming. The academics were able to use findings from the project to provide the retailers with up-to-date back ground information about prawn farming, the species                                 </div>
+                                    
+                         </div>
+                        </li>
+                                               <li>
+                         <div style="padding:0px">
+                            <div class="newsscroller_title"><a href='http://seatglobal.eu/2013/08/bacterial-flora-antimicrobial-resistance-in-imported-farmed-seafood/' target="_blank" >Bacterial Flora & Antimicrobial Resistance In Imported Farmed Seafood</a></div>
+                            <div style="clear:both"></div>
+                                                            <div class="scrollercontent">
+                                    One of the biggest stumbling blocks to farmed fish ventures has long been disease control; not just how to stop diseases out-breaks within the farms themselves, but how to do so without over-medicating and thus encouraging the growth of antibacterial resistant strains. Using too high a quantity of antimicrobials can                                 </div>
+                                    
+                         </div>
+                        </li>
+                                               <li>
+                         <div style="padding:0px">
+                            <div class="newsscroller_title"><a href='http://seatglobal.eu/2013/11/certification-improving-sustainability-of-aquaculture/' target="_blank" >Certification: improving sustainability of aquaculture?</a></div>
+                            <div style="clear:both"></div>
+                                                            <div class="scrollercontent">
+                                    Third party certification of food products is contributing to sustainable production, but when it comes to aquaculture, there are serious limits. Based partially on experiences from the SEAT project, an article published in the journal Science (September 6th, 2013), by a consortium of researchers from a number of international institutions,                                 </div>
+                                    
+                         </div>
+                        </li>
+                                       </ul>
+             </div>
+                                           <script type="text/javascript">
+                    jQuery(document).ready(function() {
+                        jQuery(function(){
+                            jQuery('#news-container_8583').vTicker({ 
+                                speed: 1700,
+                                pause: 3000,
+                                animation: '',
+                                mousePause: true,
+                                showItems: 5,
+                                height:178                            });                                            
+                        });
+                     
+                    });
+                 </script>
+               </div>
+  <div style="clear:both; padding:0px; color:#fff; float:left; width: 200px; margin-right:10px; height:250px;">
+	<div style="float:left; padding:10px; background-color:#6fabe9; color:#fff; float:left; width: 180px; margin-right:10px; margin-bottom:10px;" id="quicklinks">
+<h1 style="font-family:Arial, Helvetica, sans-serif; font-size:22px;">At a glance...</h1>  
+    <ul style="font-size:12px; color:#fff; margin:0px; ">
+      <li><a href="/about/background/" class="icon-species1">What is SEAT?</a></li>
+      <li><a href="/partners/" class="icon-species2">Where do we work?</a></li>
+      <li><a href="/work-packages/" class="icon-species3">Work Packages</a></li>
+      <li><a href="/news/media/" class="icon-species4">Media</a></li>
+      <li><a href="/publications/partner-outputs/newsletters/" class="icon-envelope-small">Newsletter sign-up</a></li>     
+    </ul>      
+  </div>
+  <div id="questions"> 
+        <h1 style="padding:0px; margin:0px;"><a href="/publications/partner-outputs/newsletters/" style="color:#fff; font-size:22px;">Questions?</a></h1>
+        </div>
+        </div>
+    <div id ="team">
+    
+<h1 style="font-family:Arial, Helvetica, sans-serif; font-size:22px;">Meet The Team</h1>
+    
+      <ul style="padding:0px; margin-top:0px;">
+        <li class="uk"><a href="/partners/eu/university-of-stirling/"><span class="person"><img src="http://seatglobal.eu/wp-content/uploads/2013/11/PassportPhotoFrancisMurray-e1384952376915.jpg" width="60" height="60" /><br />
+          Francis Murray</span><span class="institution">Stirling University</span></a></li>
+        <li class="un"><a href="/partners/international/fao/"><span class="person"><img src="http://seatglobal.eu/wp-content/uploads/2013/02/FAO-Karun-Iddyasagar.jpg" width="60" height="60" /><br />
+          Iddya Karunasagar</span><span class="institution">FAO</span></a></li>
+        <li class="no"><a href="/partners/eu/university-of-bergen/"><span class="person"><img src="http://seatglobal.eu/wp-content/uploads/2013/02/UiB-Mathias-Kaiser.jpg" width="60" height="60" /><br />
+          Mathias Kaiser</span><span class="institution">University of Bergen</span></a></li>
+        <li class="dn"><a href="/partners/eu/university-of-copenhagen/"><span class="person"><img src="http://seatglobal.eu/wp-content/uploads/2013/02/UCPH-Anders-Dalsgard.jpg" width="60" height="60" /><br />
+          Anders Dalsgard </span><span class="institution">University of Copenhagen</span></a></li>
+        <li class="cn"><a href="/partners/asia/shanghai-ocean-university/"><span class="person"><img src="http://seatglobal.eu/wp-content/uploads/2013/02/SOU-Liu-Liping.jpg" width="60" height="60" /><br />
+          Liu Liping </span><span class="institution">Shanghai Ocean University</span></a></li>
+        <li class="nl mr0"><a href="/partners/eu/leiden-university/"><span class="person"><img src="http://seatglobal.eu/wp-content/uploads/2013/02/LEI-jeroen-guinee.jpg" width="60" height="60" /><br />
+          Jeroen Guinee</span><span class="institution">Leiden University</span></a></li>
+        <li class="th"><a href="/partners/asia/kasetsart-university/"><span class="person"><img src="http://seatglobal.eu/wp-content/uploads/2013/02/KU-Dr-Kriengkrai-Satapornvanit.jpg" width="60" height="60" /><br />
+          Kriengkrai Satapornvanit </span><span class="institution">Kasetsart University</span></a></li>
+        <li class="vn"><a href="/partners/asia/can-tho-university/"><span class="person"><img src="http://seatglobal.eu/wp-content/uploads/2013/02/CTU-Phoung-Thanh-Nguyen.jpg" width="60" height="60" /><br />
+          Phoung Thanh Nguyen </span><span class="institution">Can Tho University</span></a></li>
+        <li class="bd"><a href="/partners/asia/bangladesh-agricultural-university/"><span class="person"><img src="http://seatglobal.eu/wp-content/uploads/2013/02/BAU-Wahab.jpg" width="60" height="60" /><br />
+          Abdul Wahab </span><span class="institution">Bangladesh Agricultural  University</span></a></li>
+        <li class="nl"><a href="/partners/eu/wageningen-university/"><span class="person"><img src="http://seatglobal.eu/wp-content/uploads/2013/02/WU-Paul-Van-Den-Brink.jpg" width="60" height="60" /><br />
+          Paul Van Den Brink</span><span class="institution">Wageningen University</span></a></li>
+        <li class="my"><a href="/partners/international/the-worldfish-center/"><span class="person"><img src="http://seatglobal.eu/wp-content/uploads/2013/02/Froukje.jpg" width="60" height="60" /><br />
+          Froukje Kruijssen</span><span class="institution">World Fish Centre</span></a></li>
+        <li class="uk mr0"><a href="/partners/eu/cefas"><span class="person"><img src="http://seatglobal.eu/wp-content/uploads/2013/02/Jason-Weeks.jpg" width="60" height="60" /><br />
+          Jason Weeks</span><span class="institution">CEFAS</span></a></li>
+      </ul>
+
+  </div>
+</div>
+<div style="clear:both;"></div>
+
+		</div>
+	<div id="footer_wrap" style="display:none;">
+		<div id="footer">
+        	<div class="footer_column mr10" >
+
+			<a href="http://www.aqua.stir.ac.uk/"><img src="/wp-content/themes/seat3/images/stirling-216x63.png" alt="stirling university" width="200" height="57"/></a>
+			<br />
+			<h3>Funded by:</h3>
+	
+			<a target="_blank" href="http://ec.europa.eu/index_en.htm">
+<img src="/wp-content/themes/seat3/images/europe.png" alt="European Commission" border="0" class="">
+</a>
+
+			<a target="_blank" href="http://cordis.europa.eu/fp7/sis/home_en.html">
+<img src="/wp-content/themes/seat3/images/seventh-framework.png" alt="7th Framework Programme" border="0" class="">
+</a>
+          <br />
+  
+			&copy; 2016 SEAT Global.  
+
+            </div>
+<div class="footer_column mr10 mt10 footer_links" style="background-color:#fff; width:125px; margin-left:25px;">
+  
+			<h3><a href="/" class="icon-home">Home</a></h3>            
+			<h3><a href="/asian-voices/" class="icon-video">Videos</a></h3>
+			<h3><a href="/publications/" class="icon-library">Library</a></h3>
+			<h3><a href="/partners/" class="icon-partners">Partners</a></h3>
+			<h3 class="mb0"><a href="/work-packages/" class="icon-work">Work Packages</a></h3>                                    
+            </div>            
+            <div class="footer_column mr10 mt10" style="background-color:#fff; width:190px; margin-left:60px;" >
+            
+<form method="get" style="margin:0px;" action="http://seatglobal.eu/">
+<input type="text" size="18" value="" name="s" id="s" />
+<input type="submit" id="searchsubmit" value="Search" class="btn" />
+</form><br />
+            
+                <h3>Translate page:</h3>
+
+<div id="google_translate_element" style="float:left;"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'bn,da,de,es,fr,hi,it,nl,no,th,vi,zh-CN,zh-TW', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-11171225-1'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
+
+
+			<div id="socialicons">
+            <a href="http://www.facebook.com/SEATGlobal" target="_blank" title="Find SEAT on Facebook"><img src="/wp-content/themes/seat3/images/icon-facebook.png" /></a>
+            <a href="http://twitter.com/SEATGlobal" target="_blank" title="Follow SEAT on Twitter"><img src="/wp-content/themes/seat3/images/icon-twitter.png" /></a>
+           
+            <a href="/contact/" title="Contact us"><img src="/wp-content/themes/seat3/images/icon-envelope.png" /></a>                                    
+            
+            </div>
+
+            </div>
+                        
+            <div class="footer_column fs13 " style="font-size:13px; background-color: #e5f0fb; margin-left:60px; width:220px; padding:10px 10px 0px 10px;">
+
+
+<a href="http://www.extranet.seatglobal.eu/"><strong>Project Extranet</strong></a> and Wikis:<br /><br />
+
+
+			
+			<a href="http://seatku1.pbworks.com/">Thailand</a> 
+			<a href="http://SeatBau.pbworks.com/">Bangladesh</a>
+
+			<a href="http://seatctu.pbworks.com/">Vietnam</a>
+
+			<a href="http://www.box.net/files/0/f/51340839">SOU</a>
+
+			<a href="https://seatcml.pbworks.com">CML</a>
+
+			<a href="http://seatwur.pbworks.com">WUR</a>
+
+			<a href="http://seatlife.pbworks.com">Life</a>
+
+			<a href="http://seatwfc.pbworks.com">WFC</a>
+
+			<a href="http://seatphd.pbworks.com">Phd</a>
+
+			<a href="http://www.box.net/files/0/f/56057202">China</a>
+
+
+
+
+            </div>       
+                 
+            <div style="clear:both;"></div>
+            <div id="rss"> 
+				<a href="http://seatglobal.eu/feed/" id="rss-entries" title="rss entries">rss entries</a>
+				<!-- <a href="" id="rss-comments" title="rss comments">rss comments</a>  -->
+			</div>            
+		</div>
+		
+    </div>
+
+		<!-- ngg_resource_manager_marker --><script type='text/javascript' src='http://seatglobal.eu/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+<style type="text/css">
+</style>
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-11171225-1");
+		pageTracker._trackPageview();
+		} catch(err) {}</script>	
+
+<script src="/wp-content/themes/seat3/jquery.backstretch.js"></script>
+<script>
+	jQuery(document).ready(function($) {
+		$.backstretch('/wp-content/themes/seat3/images/seat-background-1.jpg');		
+	});
+</script> 
+
+</div> <!--innerwrap-->
+</div> <!--outerwrap-->
+<div id="bgcopyright">Photo &copy; Loni Hensler</div>
+	</body>
+</html>
+
+<script type="text/javascript">
+    $("#team ul li").mouseenter(function(){
+		$(this).find("a").addClass("pt60");
+        $(this).find("img").hide();
+        $(this).find(".person").hide();				
+        $(this).find(".institution").show();
+    }).mouseleave(function() {
+		$(this).find("a").removeClass("pt60");
+        $(this).find(".institution").hide();
+        $(this).find("img").show();
+        $(this).find(".person").show();			
+    });
+</script>

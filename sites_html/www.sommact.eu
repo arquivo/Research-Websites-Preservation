@@ -1,0 +1,830 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-EN">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>SOMMACT</title>
+<link rel="stylesheet" href="http://www.sommact.eu/portal/wp-content/themes/sommact_tema01/style.css" type="text/css" media="screen" />
+<!--[if IE 6]><link rel="stylesheet" href="http://www.sommact.eu/portal/wp-content/themes/sommact_tema01/style.ie6.css" type="text/css" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="http://www.sommact.eu/portal/wp-content/themes/sommact_tema01/style.ie7.css" type="text/css" media="screen" /><![endif]-->
+<link rel="pingback" href="http://www.sommact.eu/portal/xmlrpc.php" />
+<link rel="alternate" type="application/rss+xml" title="SOMMACT &raquo; Feed" href="http://www.sommact.eu/portal/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="SOMMACT &raquo; Comments Feed" href="http://www.sommact.eu/portal/?feed=comments-rss2" />
+<link rel='stylesheet' id='NextGEN-css'  href='http://www.sommact.eu/portal/wp-content/plugins/nextgen-gallery/css/nggallery.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='wp_dlmp_styles-css'  href='http://www.sommact.eu/portal/wp-content/plugins/download-monitor/page-addon/styles.css?ver=3.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='lightboxStyle-css'  href='http://www.sommact.eu/portal/wp-content/plugins/lightbox-plus/css/shadowed/colorbox.css?ver=2.0.2' type='text/css' media='screen' />
+<script type='text/javascript' src='http://www.sommact.eu/portal/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://www.sommact.eu/portal/wp-includes/js/jquery/jquery.js?ver=1.6.1'></script>
+<script type='text/javascript' src='http://www.sommact.eu/portal/wp-content/plugins/si-captcha-for-wordpress/captcha-secureimage/si_captcha.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://www.sommact.eu/portal/wp-content/plugins/nextgen-gallery/js/jquery.cycle.all.min.js?ver=2.88'></script>
+<script type='text/javascript' src='http://www.sommact.eu/portal/wp-content/plugins/nextgen-gallery/js/ngg.slideshow.min.js?ver=1.05'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.sommact.eu/portal/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.sommact.eu/portal/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='SOMMACT' href='http://www.sommact.eu/portal' />
+
+<meta name='NextGEN' content='1.8.4' />
+<script type="text/javascript">
+//<![CDATA[
+	var screen_res = ""; 
+	function writeCookie(name,value,hours) {
+		var the_cookie = name+"="+escape(value)+"; expires=";
+		var expires = "";
+		hours=hours+0; //convert to number
+		if (hours > 0) { //0==expires on browser close
+			var cdate = new Date();
+			cdate.setTime(cdate.getTime()+(hours*60*60*1000));
+			expires = expires+cdate.toGMTString();
+		} 
+		document.cookie = the_cookie+expires+"; path=/; domain=";
+	}
+	screen_res = screen.width+" x "+screen.height;
+	if (screen_res==" x ") screen_res = window.screen.width+" x "+window.screen.height;
+	if (screen_res==" x ") screen_res = screen.availWidth+" x "+screen.availHeight;
+	if (screen_res!=" x ") { 
+		writeCookie("wassup_screen_res",screen_res,"48"); //keep 2 days
+	} else {
+		screen_res = "";
+	}
+//]]>
+</script>
+<script type="text/javascript" src="http://www.sommact.eu/portal/wp-content/themes/sommact_tema01/script.js"></script>
+</head>
+<body class="home blog">
+<div id="art-page-background-glare">
+    <div id="art-page-background-glare-image"></div>
+</div>
+<div id="art-main">
+    <div class="art-sheet">
+        <div class="art-sheet-tl"></div>
+        <div class="art-sheet-tr"></div>
+        <div class="art-sheet-bl"></div>
+        <div class="art-sheet-br"></div>
+        <div class="art-sheet-tc"></div>
+        <div class="art-sheet-bc"></div>
+        <div class="art-sheet-cl"></div>
+        <div class="art-sheet-cr"></div>
+        <div class="art-sheet-cc"></div>
+        <div class="art-sheet-body">
+            <div class="art-header">
+                <div class="art-header-jpeg"></div>
+                
+            </div>
+            <div class="art-nav">
+            	<div class="l"></div>
+            	<div class="r"></div>
+            	<ul class="art-menu">
+            		<li><a class="active" href="http://www.sommact.eu/portal"><span class='l'></span><span class='r'></span><span class='t'>Home</span></a></li><li><a href="http://www.sommact.eu/portal/?page_id=37" title="Project"><span class='l'></span><span class='r'></span><span class='t'>Project</span></a>
+<ul>
+<li><a href="http://www.sommact.eu/portal/?page_id=57" title="IMS">IMS</a></li>
+<li><a href="http://www.sommact.eu/portal/?page_id=55" title="Scope">Scope</a></li>
+<li><a href="http://www.sommact.eu/portal/?page_id=51" title="Team">Team</a></li>
+<li><a href="http://www.sommact.eu/portal/?page_id=53" title="Team description">Team description</a></li>
+</ul>
+</li>
+<li><a href="http://www.sommact.eu/portal/?page_id=35" title="Documents"><span class='l'></span><span class='r'></span><span class='t'>Documents</span></a>
+<ul>
+<li><a href="http://www.sommact.eu/portal/?page_id=63" title="Deliverables">Deliverables</a>
+<ul>
+<li><a href="http://www.sommact.eu/portal/?page_id=208" title="Public deliverables">Public deliverables</a></li>
+<li><a href="http://www.sommact.eu/portal/?page_id=210" title="Publishable summary deliverables">Publishable summary deliverables</a></li>
+</ul>
+</li>
+<li><a href="http://www.sommact.eu/portal/?page_id=59" title="Press">Press</a></li>
+<li><a href="http://www.sommact.eu/portal/?page_id=61" title="Technical docs">Technical docs</a></li>
+</ul>
+</li>
+<li><a href="http://www.sommact.eu/portal/?page_id=31" title="Contacts"><span class='l'></span><span class='r'></span><span class='t'>Contacts</span></a></li>
+<li><a href="http://www.sommact.eu/portal/?page_id=44" title="Private area"><span class='l'></span><span class='r'></span><span class='t'>Private area</span></a></li>
+<li><a href="http://www.sommact.eu/portal/?page_id=89" title="Newsletter"><span class='l'></span><span class='r'></span><span class='t'>Newsletter</span></a></li>
+            	</ul>
+            </div>
+            <div class="art-content-layout">
+                <div class="art-content-layout-row">
+                    <div class="art-layout-cell art-content">
+                                                                            <div class="art-post">
+                            <div class="art-post-body">
+                                    <div class="art-post-inner art-article post-408 post type-post status-publish format-standard hentry category-sommact-news" id="post-408">
+                                                                                                                                        <h2 class="art-postheader">
+                                          <a href="http://www.sommact.eu/portal/?p=408" rel="bookmark" title="Permanent Link to SOMMACT final report">
+                                           SOMMACT final report                                          </a></h2>                                                                                  <div class="art-postmetadataheader">
+                                            <div class="art-postheadericons art-metadata-icons">
+                                                <img class='art-metadata-icon' src='http://www.sommact.eu/portal/wp-content/themes/sommact_tema01/images/postdateicon.png' width='17' height='18' alt='' />31 January 2013    
+                                            </div>
+                                        </div>                                            <div class="art-postcontent">
+                                            <!-- article-content -->
+                                            <p>The SOMMACT project was successfully concluded by end of August 2012.</p>
+<p>The final publishable summary report is now available.</p>
+<p>SOMMACT has been recommended as a Flagship Project and a Success Story for both the machine tools industrial sector and the European DG Research.</p>
+<p></p><p><a href="http://www.sommact.eu/portal/wp-content/plugins/download-monitor/download.php?id=104"><img src="http://www.sommact.eu/portal/wp-content/plugins/download-monitor/img/filetype_icons/document-pdf.png" alt="SOMMACT Publishable Summary Final_Report" /> SOMMACT Publishable Summary Final_Report</a></p><!-- PHP 5.x -->
+                                            <!-- /article-content -->
+                                        </div>
+                                        <div class="cleared"></div>
+                                           
+                                    </div>
+                        		<div class="cleared"></div>
+                            </div>
+                        </div>                        <div class="art-post">
+                            <div class="art-post-body">
+                                    <div class="art-post-inner art-article post-406 post type-post status-publish format-standard hentry category-sommact-news" id="post-406">
+                                                                                                                                        <h2 class="art-postheader">
+                                          <a href="http://www.sommact.eu/portal/?p=406" rel="bookmark" title="Permanent Link to biSLIDER concepts has been presented at CIRP">
+                                           biSLIDER concepts has been presented at CIRP                                          </a></h2>                                                                                  <div class="art-postmetadataheader">
+                                            <div class="art-postheadericons art-metadata-icons">
+                                                <img class='art-metadata-icon' src='http://www.sommact.eu/portal/wp-content/themes/sommact_tema01/images/postdateicon.png' width='17' height='18' alt='' />31 January 2013    
+                                            </div>
+                                        </div>                                            <div class="art-postcontent">
+                                            <!-- article-content -->
+                                            <p>biSLIER concepts has been presented by Dr. Alessandro BALSAMO (INRIM) at 62nd CIRP (Collège International pour la Recherche en Productique) General Assembly in Hong Kong (CHINA) on 2012-08-24.</p>
+<p>The title of the paper was &#8220;Stabilising the performance of linear encoders in harsh environment: the biSLIDER&#8221;.</p>
+<p></p><p><a href="http://www.sommact.eu/portal/wp-content/plugins/download-monitor/download.php?id=103"><img src="http://www.sommact.eu/portal/wp-content/plugins/download-monitor/img/filetype_icons/document-pdf.png" alt="2012-08-24 CIRP Hong Kong biSLIDER" /> 2012-08-24 CIRP Hong Kong biSLIDER</a></p><!-- PHP 5.x -->
+                                            <!-- /article-content -->
+                                        </div>
+                                        <div class="cleared"></div>
+                                           
+                                    </div>
+                        		<div class="cleared"></div>
+                            </div>
+                        </div>                        <div class="art-post">
+                            <div class="art-post-body">
+                                    <div class="art-post-inner art-article post-358 post type-post status-publish format-standard hentry category-sommact-news" id="post-358">
+                                                                                                                                        <h2 class="art-postheader">
+                                          <a href="http://www.sommact.eu/portal/?p=358" rel="bookmark" title="Permanent Link to Sommact Final Meeting">
+                                           Sommact Final Meeting                                          </a></h2>                                                                                  <div class="art-postmetadataheader">
+                                            <div class="art-postheadericons art-metadata-icons">
+                                                <img class='art-metadata-icon' src='http://www.sommact.eu/portal/wp-content/themes/sommact_tema01/images/postdateicon.png' width='17' height='18' alt='' />5 July 2012    
+                                            </div>
+                                        </div>                                            <div class="art-postcontent">
+                                            <!-- article-content -->
+                                            <p>On 2 &amp; 3 July 2012 took place the project final meeting at ALESAMONTI srl Via Oltrona, 28 21020 Barasso (VA) Italy.</p>
+<p><a href="http://www.sommact.eu/portal/wp-content/plugins/download-monitor/download.php?id=95"><img src="http://www.sommact.eu/portal/wp-content/plugins/download-monitor/img/filetype_icons/document-pdf.png" alt="Final Meeting" /> Final Meeting</a></p>
+
+<div class="ngg-galleryoverview" id="ngg-gallery-7-358">
+
+
+	
+	<!-- Thumbnails -->
+		
+	<div id="ngg-image-37" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/final_meeting_3-7-2012/sommact-008-small.jpg" title=" " rel="lightbox[set_7]" >
+								<img title="sommact-008-small" alt="sommact-008-small" src="http://www.sommact.eu/portal/wp-content/gallery/final_meeting_3-7-2012/thumbs/thumbs_sommact-008-small.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-38" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/final_meeting_3-7-2012/sommact-010-small.jpg" title=" " rel="lightbox[set_7]" >
+								<img title="sommact-010-small" alt="sommact-010-small" src="http://www.sommact.eu/portal/wp-content/gallery/final_meeting_3-7-2012/thumbs/thumbs_sommact-010-small.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-39" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/final_meeting_3-7-2012/sommact-011-small.jpg" title=" " rel="lightbox[set_7]" >
+								<img title="sommact-011-small" alt="sommact-011-small" src="http://www.sommact.eu/portal/wp-content/gallery/final_meeting_3-7-2012/thumbs/thumbs_sommact-011-small.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-40" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/final_meeting_3-7-2012/sommact-012-small.jpg" title=" " rel="lightbox[set_7]" >
+								<img title="sommact-012-small" alt="sommact-012-small" src="http://www.sommact.eu/portal/wp-content/gallery/final_meeting_3-7-2012/thumbs/thumbs_sommact-012-small.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-41" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/final_meeting_3-7-2012/sommact-016-small.jpg" title=" " rel="lightbox[set_7]" >
+								<img title="sommact-016-small" alt="sommact-016-small" src="http://www.sommact.eu/portal/wp-content/gallery/final_meeting_3-7-2012/thumbs/thumbs_sommact-016-small.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 	 	
+	<!-- Pagination -->
+ 	<div class='ngg-clear'></div>
+ 	
+</div>
+
+
+<p>&nbsp;<!-- PHP 5.x --></p>
+                                            <!-- /article-content -->
+                                        </div>
+                                        <div class="cleared"></div>
+                                           
+                                    </div>
+                        		<div class="cleared"></div>
+                            </div>
+                        </div>                        <div class="art-post">
+                            <div class="art-post-body">
+                                    <div class="art-post-inner art-article post-356 post type-post status-publish format-standard hentry category-sommact-news" id="post-356">
+                                                                                                                                        <h2 class="art-postheader">
+                                          <a href="http://www.sommact.eu/portal/?p=356" rel="bookmark" title="Permanent Link to Sommact: a successful European Project">
+                                           Sommact: a successful European Project                                          </a></h2>                                                                                  <div class="art-postmetadataheader">
+                                            <div class="art-postheadericons art-metadata-icons">
+                                                <img class='art-metadata-icon' src='http://www.sommact.eu/portal/wp-content/themes/sommact_tema01/images/postdateicon.png' width='17' height='18' alt='' />5 July 2012    
+                                            </div>
+                                        </div>                                            <div class="art-postcontent">
+                                            <!-- article-content -->
+                                            <p>The Press Conference took place on 3rd July 2012, at 10.30 a.m., in Alesamonti  &#8211; Barasso (VA) ITALY<strong><em>.</em></strong><strong><em></em></strong></p>
+<p><a href="http://www.sommact.eu/portal/wp-content/plugins/download-monitor/download.php?id=93"><img src="http://www.sommact.eu/portal/wp-content/plugins/download-monitor/img/filetype_icons/document-pdf.png" alt="SOMMACT press conference" /> SOMMACT press conference</a></p>
+
+<div class="ngg-galleryoverview" id="ngg-gallery-6-356">
+
+
+	
+	<!-- Thumbnails -->
+		
+	<div id="ngg-image-28" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/press_conference_3-7-2012/img00081-20120703-1050.jpg" title=" " rel="lightbox[set_6]" >
+								<img title="img00081-20120703-1050" alt="img00081-20120703-1050" src="http://www.sommact.eu/portal/wp-content/gallery/press_conference_3-7-2012/thumbs/thumbs_img00081-20120703-1050.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-29" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/press_conference_3-7-2012/img00083-20120703-1100.jpg" title=" " rel="lightbox[set_6]" >
+								<img title="img00083-20120703-1100" alt="img00083-20120703-1100" src="http://www.sommact.eu/portal/wp-content/gallery/press_conference_3-7-2012/thumbs/thumbs_img00083-20120703-1100.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-30" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/press_conference_3-7-2012/img00088-20120703-1108.jpg" title=" " rel="lightbox[set_6]" >
+								<img title="img00088-20120703-1108" alt="img00088-20120703-1108" src="http://www.sommact.eu/portal/wp-content/gallery/press_conference_3-7-2012/thumbs/thumbs_img00088-20120703-1108.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-31" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/press_conference_3-7-2012/img00090-20120703-1122.jpg" title=" " rel="lightbox[set_6]" >
+								<img title="img00090-20120703-1122" alt="img00090-20120703-1122" src="http://www.sommact.eu/portal/wp-content/gallery/press_conference_3-7-2012/thumbs/thumbs_img00090-20120703-1122.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-32" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/press_conference_3-7-2012/img00091-20120703-1129.jpg" title=" " rel="lightbox[set_6]" >
+								<img title="img00091-20120703-1129" alt="img00091-20120703-1129" src="http://www.sommact.eu/portal/wp-content/gallery/press_conference_3-7-2012/thumbs/thumbs_img00091-20120703-1129.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-33" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/press_conference_3-7-2012/sommact-133-small.jpg" title=" " rel="lightbox[set_6]" >
+								<img title="sommact-133-small" alt="sommact-133-small" src="http://www.sommact.eu/portal/wp-content/gallery/press_conference_3-7-2012/thumbs/thumbs_sommact-133-small.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-34" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/press_conference_3-7-2012/sommact-157-small.jpg" title=" " rel="lightbox[set_6]" >
+								<img title="sommact-157-small" alt="sommact-157-small" src="http://www.sommact.eu/portal/wp-content/gallery/press_conference_3-7-2012/thumbs/thumbs_sommact-157-small.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-35" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/press_conference_3-7-2012/sommact-158-small.jpg" title=" " rel="lightbox[set_6]" >
+								<img title="sommact-158-small" alt="sommact-158-small" src="http://www.sommact.eu/portal/wp-content/gallery/press_conference_3-7-2012/thumbs/thumbs_sommact-158-small.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-36" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/press_conference_3-7-2012/sommact-163-small.jpg" title=" " rel="lightbox[set_6]" >
+								<img title="sommact-163-small" alt="sommact-163-small" src="http://www.sommact.eu/portal/wp-content/gallery/press_conference_3-7-2012/thumbs/thumbs_sommact-163-small.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 	 	
+	<!-- Pagination -->
+ 	<div class='ngg-clear'></div>
+ 	
+</div>
+
+
+<p>&nbsp;<!-- PHP 5.x --></p>
+                                            <!-- /article-content -->
+                                        </div>
+                                        <div class="cleared"></div>
+                                           
+                                    </div>
+                        		<div class="cleared"></div>
+                            </div>
+                        </div>                        <div class="art-post">
+                            <div class="art-post-body">
+                                    <div class="art-post-inner art-article post-365 post type-post status-publish format-standard hentry category-sommact-news" id="post-365">
+                                                                                                                                        <h2 class="art-postheader">
+                                          <a href="http://www.sommact.eu/portal/?p=365" rel="bookmark" title="Permanent Link to SOMMACT concepts have been pesentedat CIRP">
+                                           SOMMACT concepts have been pesentedat CIRP                                          </a></h2>                                                                                  <div class="art-postmetadataheader">
+                                            <div class="art-postheadericons art-metadata-icons">
+                                                <img class='art-metadata-icon' src='http://www.sommact.eu/portal/wp-content/themes/sommact_tema01/images/postdateicon.png' width='17' height='18' alt='' />4 July 2012    
+                                            </div>
+                                        </div>                                            <div class="art-postcontent">
+                                            <!-- article-content -->
+                                            <p>SOMMACT concepts have been presented by Dr. Alessandro BALSAMO (INRIM) at CIRP Collège International pour la Recherche en Productique in Paris meeting on 2010-01-21.</p>
+<p>The International Academy for Production Engineering. CIRP is the world leading organization in production engineering research and is at the forefront of design, optimization, control and management of processes, machines and systems.</p>
+<p style="text-align: center;"><a href="http://www.sommact.eu/portal/wp-content/uploads/2012/07/sommact_cirp.png" rel="lightbox[365]" title="sommact_cirp"><img class="aligncenter size-large wp-image-376" style="border: 1px solid black;" title="sommact_cirp" src="http://www.sommact.eu/portal/wp-content/uploads/2012/07/sommact_cirp-800x561.png" alt="" width="493" height="345" /></a></p>
+<p>&nbsp;<!-- PHP 5.x --></p>
+                                            <!-- /article-content -->
+                                        </div>
+                                        <div class="cleared"></div>
+                                           
+                                    </div>
+                        		<div class="cleared"></div>
+                            </div>
+                        </div>                        <div class="art-post">
+                            <div class="art-post-body">
+                                    <div class="art-post-inner art-article post-339 post type-post status-publish format-standard hentry category-sommact-news" id="post-339">
+                                                                                                                                        <h2 class="art-postheader">
+                                          <a href="http://www.sommact.eu/portal/?p=339" rel="bookmark" title="Permanent Link to ISO/TC39/SC2 Meeting in Hangzhou, China, 14-18 May 2012">
+                                           ISO/TC39/SC2 Meeting in Hangzhou, China, 14-18 May 2012                                          </a></h2>                                                                                  <div class="art-postmetadataheader">
+                                            <div class="art-postheadericons art-metadata-icons">
+                                                <img class='art-metadata-icon' src='http://www.sommact.eu/portal/wp-content/themes/sommact_tema01/images/postdateicon.png' width='17' height='18' alt='' />12 June 2012    
+                                            </div>
+                                        </div>                                            <div class="art-postcontent">
+                                            <!-- article-content -->
+                                            <p>During the 73rd meeting of ISO/TC39/SC2 &#8220;Test conditions for metal cutting machine tools&#8221;, held in China on 14-18 May 2012, the Italian delegation composed by Oddone BELTRAMI (STANIMUC Collaudi) and Renato OTTONE (ALESAMONTI) gave an important contribution to the development of the following standards indispensable for the exploitation of SOMMACT outcomes:</p>
+<p><em>ISO/PDTR 16907.2, Machine tools &#8211; Numerical compensation of geometric errors (Project leaders: Renato OTTONE, Heinrich SCHWENKE):</em> the availability of this Technical Report would significantly improve the changes to quickly exploit SOMMACT project results and help to effectively convert them into competitive advantages. The resolution taken during the ISO/TC39/SC2 Meeting is to move the status of the document to Committee Draft (CD).</p>
+<p><em>ISO 3070 (all parts), Machine Tools &#8211; Test conditions for testing the accuracy of boring and milling machines with horizontal spindle (Project leaders: Gianfranco MALAGOLA, Renato OTTONE):</em> the efforts have been devoted to change some instructions conflicting with SOMMACT expected outcomes exploitation. The resolution taken during the ISO/TC39/SC2 Meeting, after comments analysis concerning ISO 3070-2, is to move the status of the document to Committee Draft (CD).</p>
+<p>&nbsp;</p>
+<p><a href="http://www.sommact.eu/portal/wp-content/uploads/2012/06/ISOTC39SC2-China-meeting-Small.jpg" rel="lightbox[339]" title="ISOTC39SC2 China meeting (Small)"><img class="size-full wp-image-345 alignnone" style="border: 1px solid black;" title="ISOTC39SC2 China meeting (Small)" src="http://www.sommact.eu/portal/wp-content/uploads/2012/06/ISOTC39SC2-China-meeting-Small.jpg" alt="" width="559" height="372" /></a></p>
+<p>&nbsp;<!-- PHP 5.x --></p>
+                                            <!-- /article-content -->
+                                        </div>
+                                        <div class="cleared"></div>
+                                           
+                                    </div>
+                        		<div class="cleared"></div>
+                            </div>
+                        </div>                        <div class="art-post">
+                            <div class="art-post-body">
+                                    <div class="art-post-inner art-article post-334 post type-post status-publish format-standard hentry category-sommact-news" id="post-334">
+                                                                                                                                        <h2 class="art-postheader">
+                                          <a href="http://www.sommact.eu/portal/?p=334" rel="bookmark" title="Permanent Link to Workshop &#8220;Standard Supporting Energy in Manufacturing Processes&#8221;, Brusselles, 5 June 2012">
+                                           Workshop &#8220;Standard Supporting Energy in Manufacturing Processes&#8221;, Brusselles, 5 June 2012                                          </a></h2>                                                                                  <div class="art-postmetadataheader">
+                                            <div class="art-postheadericons art-metadata-icons">
+                                                <img class='art-metadata-icon' src='http://www.sommact.eu/portal/wp-content/themes/sommact_tema01/images/postdateicon.png' width='17' height='18' alt='' />12 June 2012    
+                                            </div>
+                                        </div>                                            <div class="art-postcontent">
+                                            <!-- article-content -->
+                                            <p>On 5 June 2012, the Workshop &#8220;Standard Supporting Energy in Manufacturing Processes&#8221; has been organised by DG RTD in Brussels. The goal of the workshop was to promote a good understanding on how projects can address individually and collectively standardisation aspects as a mean to enhance the exploitation of research results. Mr. Renato OTTONE, director of Research &amp; Development Department of ALESAMONTI and scientific coordinator of SOMMACT project, has been invited to make a presentation named &#8220;The SOMMACT project case&#8221; on &#8220;Success stories&#8221;.</p>
+<p><a href="http://www.sommact.eu/portal/wp-content/plugins/download-monitor/download.php?id=91"><img src="http://www.sommact.eu/portal/wp-content/plugins/download-monitor/img/filetype_icons/document-pdf.png" alt="2012-06-05_Workshop_SOMMACT_case(PU)" /> 2012-06-05_Workshop_SOMMACT_case(PU)</a></p>
+<p>&nbsp;<!-- PHP 5.x --></p>
+                                            <!-- /article-content -->
+                                        </div>
+                                        <div class="cleared"></div>
+                                           
+                                    </div>
+                        		<div class="cleared"></div>
+                            </div>
+                        </div>                        <div class="art-post">
+                            <div class="art-post-body">
+                                    <div class="art-post-inner art-article post-330 post type-post status-publish format-standard hentry category-sommact-news" id="post-330">
+                                                                                                                                        <h2 class="art-postheader">
+                                          <a href="http://www.sommact.eu/portal/?p=330" rel="bookmark" title="Permanent Link to SOMMACT End of year 2 meeting">
+                                           SOMMACT End of year 2 meeting                                          </a></h2>                                                                                  <div class="art-postmetadataheader">
+                                            <div class="art-postheadericons art-metadata-icons">
+                                                <img class='art-metadata-icon' src='http://www.sommact.eu/portal/wp-content/themes/sommact_tema01/images/postdateicon.png' width='17' height='18' alt='' />25 November 2011    
+                                            </div>
+                                        </div>                                            <div class="art-postcontent">
+                                            <!-- article-content -->
+                                            <p>The SOMMACT End of year 2 meeting took place, on November 22  - 2011, at the University of Huddersfield Centre for Precision Technologies.</p>
+<p>
+<div class="ngg-galleryoverview" id="ngg-gallery-5-330">
+
+
+	
+	<!-- Thumbnails -->
+		
+	<div id="ngg-image-21" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/sommact_year2/sn850966.jpg" title=" " rel="lightbox[set_5]" >
+								<img title="sn850966" alt="sn850966" src="http://www.sommact.eu/portal/wp-content/gallery/sommact_year2/thumbs/thumbs_sn850966.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-22" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/sommact_year2/sn850970.jpg" title=" " rel="lightbox[set_5]" >
+								<img title="sn850970" alt="sn850970" src="http://www.sommact.eu/portal/wp-content/gallery/sommact_year2/thumbs/thumbs_sn850970.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-23" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/sommact_year2/sn850976.jpg" title=" " rel="lightbox[set_5]" >
+								<img title="sn850976" alt="sn850976" src="http://www.sommact.eu/portal/wp-content/gallery/sommact_year2/thumbs/thumbs_sn850976.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-24" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/sommact_year2/sn850977.jpg" title=" " rel="lightbox[set_5]" >
+								<img title="sn850977" alt="sn850977" src="http://www.sommact.eu/portal/wp-content/gallery/sommact_year2/thumbs/thumbs_sn850977.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-25" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/sommact_year2/sn850979.jpg" title=" " rel="lightbox[set_5]" >
+								<img title="sn850979" alt="sn850979" src="http://www.sommact.eu/portal/wp-content/gallery/sommact_year2/thumbs/thumbs_sn850979.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-26" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/sommact_year2/sn850980.jpg" title=" " rel="lightbox[set_5]" >
+								<img title="sn850980" alt="sn850980" src="http://www.sommact.eu/portal/wp-content/gallery/sommact_year2/thumbs/thumbs_sn850980.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-27" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/sommact_year2/sn850981.jpg" title=" " rel="lightbox[set_5]" >
+								<img title="sn850981" alt="sn850981" src="http://www.sommact.eu/portal/wp-content/gallery/sommact_year2/thumbs/thumbs_sn850981.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 	 	
+	<!-- Pagination -->
+ 	<div class='ngg-clear'></div>
+ 	
+</div>
+
+<!-- PHP 5.x --></p>
+                                            <!-- /article-content -->
+                                        </div>
+                                        <div class="cleared"></div>
+                                           
+                                    </div>
+                        		<div class="cleared"></div>
+                            </div>
+                        </div>                        <div class="art-post">
+                            <div class="art-post-body">
+                                    <div class="art-post-inner art-article post-312 post type-post status-publish format-standard hentry category-sommact-news" id="post-312">
+                                                                                                                                        <h2 class="art-postheader">
+                                          <a href="http://www.sommact.eu/portal/?p=312" rel="bookmark" title="Permanent Link to Seminar &#8220;Standardisation in Research and Innovation, practical tools for the dissemination and implementation of research results&#8221;">
+                                           Seminar &#8220;Standardisation in Research and Innovation, practical tools for the dissemination and implementation of research results&#8221;                                          </a></h2>                                                                                  <div class="art-postmetadataheader">
+                                            <div class="art-postheadericons art-metadata-icons">
+                                                <img class='art-metadata-icon' src='http://www.sommact.eu/portal/wp-content/themes/sommact_tema01/images/postdateicon.png' width='17' height='18' alt='' />15 November 2011    
+                                            </div>
+                                        </div>                                            <div class="art-postcontent">
+                                            <!-- article-content -->
+                                            <p>On 10 November 2011, the Seminar &#8220;Standardisation in Research and Innovation, practical tools for the dissemination and implementation of research results&#8221; was organized by DG RTD in Brussels for NMP project partners. This seminar gave to the participants a good understanding of the use of standards as means of exploitation and dissemination of results and provided instruments for the standardisation process. Mr. Renato OTTONE, director of Research &amp; Development Department of ALESAMONTI and scientific coordinator of SOMMACT project, was invited to make a presentation on the work of SOMMACT on the afternoon session on &#8220;Success stories&#8221;.</p>
+<p><a href="http://www.sommact.eu/portal/wp-content/plugins/download-monitor/download.php?id=88"><img src="http://www.sommact.eu/portal/wp-content/plugins/download-monitor/img/filetype_icons/document-pdf.png" alt="SOMMACT_Standardisation_Seminar2011-11-10(PU)" /> SOMMACT_Standardisation_Seminar2011-11-10(PU)</a></p>
+<p>
+<div class="ngg-galleryoverview" id="ngg-gallery-4-312">
+
+
+	
+	<!-- Thumbnails -->
+		
+	<div id="ngg-image-16" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/seminar_standardisation/img00035-20111110-1453.jpg" title=" " rel="lightbox[set_4]" >
+								<img title="img00035-20111110-1453" alt="img00035-20111110-1453" src="http://www.sommact.eu/portal/wp-content/gallery/seminar_standardisation/thumbs/thumbs_img00035-20111110-1453.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-17" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/seminar_standardisation/img00036-20111110-1517.jpg" title=" " rel="lightbox[set_4]" >
+								<img title="img00036-20111110-1517" alt="img00036-20111110-1517" src="http://www.sommact.eu/portal/wp-content/gallery/seminar_standardisation/thumbs/thumbs_img00036-20111110-1517.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-18" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/seminar_standardisation/img00039-20111110-1519.jpg" title=" " rel="lightbox[set_4]" >
+								<img title="img00039-20111110-1519" alt="img00039-20111110-1519" src="http://www.sommact.eu/portal/wp-content/gallery/seminar_standardisation/thumbs/thumbs_img00039-20111110-1519.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-19" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/seminar_standardisation/img00040-20111110-1545.jpg" title=" " rel="lightbox[set_4]" >
+								<img title="img00040-20111110-1545" alt="img00040-20111110-1545" src="http://www.sommact.eu/portal/wp-content/gallery/seminar_standardisation/thumbs/thumbs_img00040-20111110-1545.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-20" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/seminar_standardisation/img00043-20111110-1650.jpg" title=" " rel="lightbox[set_4]" >
+								<img title="img00043-20111110-1650" alt="img00043-20111110-1650" src="http://www.sommact.eu/portal/wp-content/gallery/seminar_standardisation/thumbs/thumbs_img00043-20111110-1650.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 	 	
+	<!-- Pagination -->
+ 	<div class='ngg-clear'></div>
+ 	
+</div>
+
+<!-- PHP 5.x --></p>
+                                            <!-- /article-content -->
+                                        </div>
+                                        <div class="cleared"></div>
+                                           
+                                    </div>
+                        		<div class="cleared"></div>
+                            </div>
+                        </div>                        <div class="art-post">
+                            <div class="art-post-body">
+                                    <div class="art-post-inner art-article post-298 post type-post status-publish format-standard hentry category-sommact-news" id="post-298">
+                                                                                                                                        <h2 class="art-postheader">
+                                          <a href="http://www.sommact.eu/portal/?p=298" rel="bookmark" title="Permanent Link to SOMMACT concepts dissemination at AEROSPACE &amp; DEFENCE meeting in Torino &#8211; Italy &#8211; October 26-27, 2011.">
+                                           SOMMACT concepts dissemination at AEROSPACE &#038; DEFENCE meeting in Torino &#8211; Italy &#8211; October 26-27, 2011.                                          </a></h2>                                                                                  <div class="art-postmetadataheader">
+                                            <div class="art-postheadericons art-metadata-icons">
+                                                <img class='art-metadata-icon' src='http://www.sommact.eu/portal/wp-content/themes/sommact_tema01/images/postdateicon.png' width='17' height='18' alt='' />3 November 2011    
+                                            </div>
+                                        </div>                                            <div class="art-postcontent">
+                                            <!-- article-content -->
+                                            <p>Project concepts and expected outcomes were the object of a dedicated presentation at ALESAMONTI’s booth.</p>
+<p>Some 22 visitors from this very specialised application field requested to be included in the SOMMACT project mailing list.</p>
+<p><a href="http://www.sommact.eu/portal/wp-content/plugins/download-monitor/download.php?id=86"><img src="http://www.sommact.eu/portal/wp-content/plugins/download-monitor/img/filetype_icons/document-pdf.png" alt="SOMMACT Presentation Aerospace 2011-10-26" /> SOMMACT Presentation Aerospace 2011-10-26</a></p>
+<p>
+<div class="ngg-galleryoverview" id="ngg-gallery-3-298">
+
+
+	
+	<!-- Thumbnails -->
+		
+	<div id="ngg-image-13" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/aerospace_torino/img00034-20111027-1324.jpg" title=" " rel="lightbox[set_3]" >
+								<img title="img00034-20111027-1324" alt="img00034-20111027-1324" src="http://www.sommact.eu/portal/wp-content/gallery/aerospace_torino/thumbs/thumbs_img00034-20111027-1324.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-14" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/aerospace_torino/img_0937.jpg" title=" " rel="lightbox[set_3]" >
+								<img title="img_0937" alt="img_0937" src="http://www.sommact.eu/portal/wp-content/gallery/aerospace_torino/thumbs/thumbs_img_0937.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 		
+	<div id="ngg-image-15" class="ngg-gallery-thumbnail-box"  >
+		<div class="ngg-gallery-thumbnail" >
+			<a href="http://www.sommact.eu/portal/wp-content/gallery/aerospace_torino/img_0940.jpg" title=" " rel="lightbox[set_3]" >
+								<img title="img_0940" alt="img_0940" src="http://www.sommact.eu/portal/wp-content/gallery/aerospace_torino/thumbs/thumbs_img_0940.jpg" width="120" height="120" />
+							</a>
+		</div>
+	</div>
+	
+		
+ 	 	
+	<!-- Pagination -->
+ 	<div class='ngg-clear'></div>
+ 	
+</div>
+
+<!-- PHP 5.x --></p>
+                                            <!-- /article-content -->
+                                        </div>
+                                        <div class="cleared"></div>
+                                           
+                                    </div>
+                        		<div class="cleared"></div>
+                            </div>
+                        </div>                        <div class="art-post">
+                            <div class="art-post-body">
+                                    <div class="art-post-inner art-article " >
+                                                                                                                                                                                      <div class="art-postcontent">
+                                            <!-- article-content -->
+                                                                                         <div class="navigation">
+                                                <div class="alignleft"><a href="http://www.sommact.eu/portal/?paged=2" >&laquo; Older Entries</a></div>
+                                                <div class="alignright"></div>
+                                             </div>                                            <!-- /article-content -->
+                                        </div>
+                                        <div class="cleared"></div>
+                                           
+                                    </div>
+                        		<div class="cleared"></div>
+                            </div>
+                        </div>    
+                            
+                    </div>
+                    <div class="art-layout-cell art-sidebar1">
+                        <div class="art-block widget widget_newsletter" id="newsletter">
+    <div class="art-block-body">
+<div class="art-blockheader">
+    <div class="l"></div>
+    <div class="r"></div>
+     <div class="t">Newsletter</div>
+</div>
+<div class="art-blockcontent">
+    <div class="art-blockcontent-body">
+<!-- block-content -->
+<form action="http://www.sommact.eu/portal/?page_id=89" method="post">
+Subscribe to the newsletter filling the form below.
+<p><input type="text" name="nn" value="Your name" onclick="if (this.defaultValue==this.value) this.value=''" onblur="if (this.value=='') this.value=this.defaultValue"/></p>
+<p><input type="text" name="ne" value="Your email" onclick="if (this.defaultValue==this.value) this.value=''" onblur="if (this.value=='') this.value=this.defaultValue"/></p>
+<p><input type="submit" value="Subscribe"/></p>
+<input type="hidden" name="na" value="s"/>
+</form>
+<!-- /block-content -->
+
+		<div class="cleared"></div>
+    </div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+<div class="art-block widget widget_archive" id="archives-2">
+    <div class="art-block-body">
+<div class="art-blockheader">
+    <div class="l"></div>
+    <div class="r"></div>
+     <div class="t">Archives</div>
+</div>
+<div class="art-blockcontent">
+    <div class="art-blockcontent-body">
+<!-- block-content -->
+		<ul>
+			<li><a href='http://www.sommact.eu/portal/?m=201301' title='January 2013'>January 2013</a></li>
+	<li><a href='http://www.sommact.eu/portal/?m=201207' title='July 2012'>July 2012</a></li>
+	<li><a href='http://www.sommact.eu/portal/?m=201206' title='June 2012'>June 2012</a></li>
+	<li><a href='http://www.sommact.eu/portal/?m=201111' title='November 2011'>November 2011</a></li>
+	<li><a href='http://www.sommact.eu/portal/?m=201110' title='October 2011'>October 2011</a></li>
+	<li><a href='http://www.sommact.eu/portal/?m=201107' title='July 2011'>July 2011</a></li>
+	<li><a href='http://www.sommact.eu/portal/?m=201105' title='May 2011'>May 2011</a></li>
+	<li><a href='http://www.sommact.eu/portal/?m=201104' title='April 2011'>April 2011</a></li>
+	<li><a href='http://www.sommact.eu/portal/?m=201101' title='January 2011'>January 2011</a></li>
+	<li><a href='http://www.sommact.eu/portal/?m=201012' title='December 2010'>December 2010</a></li>
+		</ul>
+
+<!-- /block-content -->
+
+		<div class="cleared"></div>
+    </div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+<div class="art-block widget widget_search" id="search-2">
+    <div class="art-block-body">
+<div class="art-blockheader">
+    <div class="l"></div>
+    <div class="r"></div>
+     <div class="t">Search</div>
+</div>
+<div class="art-blockcontent">
+    <div class="art-blockcontent-body">
+<!-- block-content -->
+                                             <form method="get" name="searchform" action="http://www.sommact.eu/portal/">
+                                                <div class="search">
+                                                    <input type="text" value="" name="s" style="width: 95%;" />
+                                                    <span class="art-button-wrapper">
+                                                        <span class="l"> </span>
+                                                        <span class="r"> </span>
+                                                        <input class="art-button" type="submit" name="search" value="Search" />
+                                                    </span>
+                                                </div>
+                                            </form>
+<!-- /block-content -->
+
+		<div class="cleared"></div>
+    </div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="cleared"></div><div class="art-footer">
+                <div class="art-footer-t"></div>
+                <div class="art-footer-body">
+                                    <div class="art-footer-text">
+                      <p>SOMMACT - Self Optimising Measuring MAChine Tool<br>
+The research leading to these results has received funding from the European <br>
+Community's, Seventh Framework Programme FP7/2007-2013 under grant agreement n° CF-FP 2291122-2
+</p>                      
+                  </div>
+            		<div class="cleared"></div>
+                </div>
+            </div>
+    		<div class="cleared"></div>
+        </div>
+    </div>
+    <div class="cleared"></div>
+    <p class="art-page-footer"></p>
+</div>
+    <div id="wp-footer">
+	        <script type='text/javascript' src='http://www.sommact.eu/portal/wp-content/plugins/lightbox-plus/js/jquery.colorbox-min.js?ver=1.3.17.2'></script>
+<!-- Lightbox Plus v2.3 - 2011.08.11 - Message: -->
+<script type="text/javascript">
+jQuery(document).ready(function($){
+  $("a[rel*=lightbox]").colorbox({opacity:0.8});
+});
+</script>
+
+<!--[if IE]>
+<script language=javascript>
+//<![CDATA[
+	if (screen_res=="") {
+		screen_res = screen.width + " x " + screen.height;
+	}
+	if (screen_res!=" x ") {
+		var cdate = new Date();
+		cdate.setTime(cdate.getTime()+(48*60*60*1000));
+		var cexpires = cdate.toGMTString();
+		//var the_cookie = "wassup_screen_res="+escape(screen_res)+"; expires="+cexpires;
+		document.cookie = "wassup_screen_res=" + escape(screen_res)+ "; path=/; domain=" + document.domain;
+
+	}
+//]]>
+</script>
+<![endif]--><!--
+<p class="small"> WassUp 1.8.3.1 timestamp: 2016-02-08 04:27:15PM UTC (06:27PM)<br />
+If above timestamp is not current time, this page is cached.</p> -->
+	        <!-- 66 queries. 1.324 seconds. -->
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,290 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" ><head>
+<title>ADDPRIV - The Project</title>
+
+<base href="http://www.addpriv.eu/" />
+<meta name="Generator" content="CMS Made Simple - Copyright (C) 2004-9 Ted Kulp. All rights reserved." />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ 
+<!-- Add code here that should appear in the metadata section of all new pages -->
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.addpriv.eu/stylesheet.php?cssid=51&amp;mediatype=screen" />
+<link rel="stylesheet" type="text/css" href="http://www.addpriv.eu/stylesheet.php?cssid=52" />
+
+
+
+<script>
+
+	function show_hide(id)
+	{
+		var div = document.getElementById(id);
+		var estado = div.style.display;
+
+		if (estado == 'none')
+		{
+			hide_all();
+			div.style.display = 'block';
+		}
+	}
+
+
+	function hide_all()
+	{
+		var div_general = document.getElementById('general-information');
+		var div_current = document.getElementById('current-situation');
+		var div_future = document.getElementById('future-needs');
+		var div_output = document.getElementById('addpriv-output');
+
+		div_general.style.display = 'none';
+		div_current.style.display = 'none';
+		div_future.style.display = 'none';
+		div_output.style.display = 'none';
+	} 
+	
+	
+	function go_there(id)
+    {
+        window.location.href="index.php?page="+id;
+   
+    }
+
+</script>
+
+
+<script type="text/javascript" src="js/scroll.js"></script>
+<script type="text/javascript" src="js/mouseover.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/slideshow.js"></script>
+<script type="text/javascript" src="js/script_png.js"></script>
+
+
+<!--[if lte IE 6]>
+<link href="css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<!--[if IE 7]>
+<link href="ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<style type="text/css">
+
+
+    img{ behavior: url(js/jm_iepngfix.htc); } 
+
+</style>
+</head>
+
+
+<body>
+
+<div class="pagewidth">
+
+  <div id="header">
+	<img src="uploads/images/header.jpg" width="937" height="149" border="0" usemap="#Map">
+        <map name="Map">
+          <area shape="rect" coords="43,49,552,141" href="http://www.addpriv.eu">
+          <area shape="rect" coords="832,7,868,41" href="http://www.addpriv.eu/index.php?page=contact">
+          <area shape="rect" coords="878,6,914,41" href="http://www.addpriv.eu/index.php/feeds/news.rss" target="_blank">
+          <area shape="rect" coords="773,90,842,138" href="http://www.europa.eu" target="_blank">
+          <area shape="rect" coords="850,76,925,145" href="http://cordis.europa.eu/fp7/home_en.html" target="_blank">
+        </map>
+</div>
+
+
+
+	 
+  <div class="menu2">
+
+        <ul>
+            <li style="margin-bottom:20px;"><span style="margin-bottom:20px;"><a href="http://www.addpriv.eu/" title="The Project" >The Project</a></span>
+
+                            <ul class="estrecho">
+                                <li class="estrecho"><a href="http://www.addpriv.eu/index.php?page=overview" title="Overview" >Overview</a></li>
+                                <li class="estrecho"><a href="http://www.addpriv.eu/index.php?page=expected-results" title="Expected Results" >Expected Results</a></li>
+                                <li class="estrecho"><a href="http://www.addpriv.eu/index.php?page=consortium" title="Consortium" >Consortium</a></li>
+                                <li class="estrecho"><a href="http://www.addpriv.eu/index.php?page=structure" title="Structure" >Structure</a></li>
+                            </ul>
+
+              </li>
+    
+    
+            <li><a href="http://www.addpriv.eu/index.php?page=deliverables" title="Deliverables" >Deliverables</a></li>
+    
+    
+            <li><a href="http://www.addpriv.eu/index.php?page=dissemination" title="Dissemination" >Dissemination</a>
+
+                            <ul class="ancho">
+                                <li class="ancho"><a href="http://www.addpriv.eu/index.php?page=papers" title="Papers &amp; Publications" >Papers & Publications</a></li>
+                                <li class="ancho"><a href="http://www.addpriv.eu/index.php?page=general-media" title="General Media Appearance" >General Media Appearance</a></li>
+                                <li class="ancho"><a href="http://www.addpriv.eu/index.php?page=presentations" title="Presentations" >Presentations</a></li>
+                                <li class="ancho"><a href="http://www.addpriv.eu/index.php?page=promotional-material" title="Promotional Material" >Promotional Material</a></li>
+                            </ul>
+             
+            </li>
+            
+    
+            <li><a href="http://www.addpriv.eu/index.php?page=news" title="News" >News</a></li>
+            
+            <li><a href="http://phpcollab.addpriv.eu" title="Members area" >Members</a></li>
+            
+            <li><a href="http://www.addpriv.eu/index.php?page=contact" title="Contact" >Contact</a></li>
+            
+        </ul>
+</div>
+
+	 	
+  <div id="slideshow-wrapper">
+<div id="slideshow">
+	<img src="uploads/images/slideshow/def1.png" alt="image1" width="850" height="230" /> 
+	<img src="uploads/images/slideshow/def2.png" alt="image2" width="850" height="230" />
+	<img src="uploads/images/slideshow/def3.png" alt="image3" width="850" height="230" /></div>
+</div>
+<script type="text/javascript">// <![CDATA[
+			
+				var $j = jQuery.noConflict(); 
+				    $j(document).ready(function(){
+					    $j("#slideshow").slideshow({
+			             pauseSeconds:5,
+						 width:850,//default 850,
+			             height:230,//default 347,
+						 fadeSpeed: 0.7,
+			            caption: false
+		            });
+		        });
+		  
+// ]]></script>
+   
+    
+
+	 
+  <div id="antes_main">											
+
+    <div id="main">
+      <h2>The Project</h2>
+      <div>
+    <p style="text-align: justify; font-size:14px; line-height: 150%;">The ADDPRIV project (Automatic Data relevancy Discrimination for a PRIVacy-sensitive video surveillance) seeks to <strong>improve public safety by ensuring the individuals' privacy right</strong>, enriching the current video surveillance systems through an automatic discrimination of relevant data recorded.</p>
+    <br style="line-height:40%">
+    
+    <p style="text-align: justify; font-size:14px; line-height: 150%;">The project addresses the challenge of determining through an automatic, accurate and reliable manner which information obtained from a distributed system of surveillance cameras is <strong>relevant from the security perspective</strong> and which is not, and can be safely deleted. This will limit unnecessary data storage and will protect the citizens’ privacy right.</p><br style="line-height:40%">
+    
+    <p style="text-align: justify; font-size:14px; line-height: 150%;">The main goals of the ADDPRIV project are:</p>
+        <ul style="text-align: justify; font-size:14px; line-height:150%">
+            <li style="text-align: justify; font-size:14px;">ADDPRIV proposes novel knowledge and developments<strong> to limit the storage of unnecessary data</strong> throughout existing multicamera networks in order for them to<strong> better comply with citizen's privacy rights</strong>.</li>
+                
+            <li style="text-align: justify; font-size:14px;">ADDPRIV addresses the challenge of <strong>determining in a precise and reliable manner private data captured by video surveillance systems that are not relevant from a security perspective</strong>.</li>
+                
+            <li style="text-align: justify; font-size:14px;">ADDPRIV proposes solutions for <strong>automatic discrimination of relevant data</strong> recorded on a multicamera network, related to an individual whose suspicious behavior triggered an alert. Relevant data not only corresponds to video scenes capturing individuals' suspicious behavior (smart video surveillance), but also automatically extracting images on these individuals recorded before and after the suspicious event and across the surveillance network.</li>
+        </ul>
+
+</div>
+    </div>
+							 
+    <div id="colonnewrap">
+      <div id="col1">
+    <div class="element">
+    	
+        <div class="video_presentation"><h2 class="video_pesentation_title">ADDPRIV presentation</h2> 
+            <p><iframe width="213" src="http://www.youtube.com/embed/SprmEddsBSY" frameborder="0" allowfullscreen></iframe></p>
+        </div><br>	
+        
+        <div class="moduletable_menu_last_news"><h2 class="last_news">Latest News</h2>        
+            <div class="box">
+				<!-- Displaying News Module -->
+<!-- News Categories: 'general' -->
+
+<div class="news_summary_right">
+    <p class="date_right">Feb 20, 2014</p>
+    
+    <h3><a class="new_right" href="
+                
+            http://www.addpriv.eu/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=54&amp;cntnt01origid=17&amp;cntnt01returnid=20
+        " 
+        
+         title="New testing session for the ADDPRIV consortium in Milan Linate airport"
+
+        >
+
+        New testing session for the ADDPRIV consortium in Milan Linate airport
+    </a></h3>
+
+    <p style="text-align: justify;line-height: 150%;">The consortium partners are further testing the privacy sensitive technology of ADDPRIV in order to increase its stability in real environment</p>
+</div>
+
+
+<div class="news_summary_right">
+    <p class="date_right">Jan 13, 2014</p>
+    
+    <h3><a class="new_right" href="
+                
+            http://www.addpriv.eu/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=52&amp;cntnt01origid=17&amp;cntnt01returnid=20
+        " 
+        
+         title="ADDPRIV prototype is evaluated in Milan-Linate Airport"
+
+        >
+
+        ADDPRIV prototype is evaluated in Milan-Linate Airport
+    </a></h3>
+
+    <p style="text-align: justify;line-height: 150%;">ADDPRIV Consortium will meet in Milan Linate Airport to test the ADDPRIV system.</p>
+</div>
+
+
+				<p></p>
+			</div>
+        </div>
+    </div>
+</div>
+
+
+    </div>
+
+  </div>
+
+  <div style="clear:both;"><p><br/></p></div>
+										
+  <div style="text-align:center">
+    <div>
+	<img src="uploads/images/footer_v2.png" alt="" border="0" usemap="#Map1">
+		<map name="Map1">
+ 			<area shape="rect" coords="95,28,266,75" href="http://www.anovagroup.es" target="_blank">
+ 			<area shape="rect" coords="323,28,441,77" href="http://www.renfe.es" target="_blank">
+  			<area shape="rect" coords="487,32,730,70" href="http://www.kingston.ac.uk" target="_blank">
+  			<area shape="rect" coords="749,24,823,86" href="http://www.sea-aeroportimilano.it" target="_blank">
+  			<area shape="rect" coords="92,108,210,169" href="http://www.tcd.ie" target="_blank">
+  			<area shape="rect" coords="248,112,330,173" href="http://www.pg.gda.pl/" target="_blank">
+  			<area shape="rect" coords="372,108,450,175" href="http://www.hp.com" target="_blank">
+  			<area shape="rect" coords="469,114,691,172" href="http://www.lums.lancs.ac.uk/" target="_blank">
+  			<area shape="rect" coords="725,112,842,180" href="http://www.ezentis.com" target="_blank">
+		</map>
+</div>
+
+
+
+<div style="font-weight:bold; letter-spacing:1px; line-height:16px; text-align:center; color:#000000; font-size:10px; margin: 0px 170px 0px 170px; font-family:Arial, Helvetica, sans-serif"> 
+	<br><br>Copyright © 2011  ADDPRIV 
+	<br><br>The research leading to these results has received funding from the European Community's Seventh Framework Programme [FP7/2007-2013] under grant agreement n° 261653
+	<br><br>This website reflects the views only of the ADDPRIV Consortium, and the Commission cannot be held responsible for any use which may be made of the information contained herein
+    <br><br><br><br><br><br>
+</div>
+
+  </div>
+  
+</div>
+<script type="text/javascript">// <![CDATA[
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-10174912-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+// ]]></script>
+</body>
+</html>
+<!-- 0.107433 / 47 / 5745480 / 0 -->

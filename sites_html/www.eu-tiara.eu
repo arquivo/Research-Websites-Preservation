@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="ISO-8859-15">
+	<title> </title>
+	<meta name="title" content=" " />
+	<meta property="og:title" content=" ">
+	<meta property="og:site_name" content="TIARA">
+	<meta http-equiv="PRAGMA" content="NO-CACHE" />
+	<meta http-equiv="CACHE-CONTROL" content="NO-CACHE" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- To ensure proper rendering and touch zooming -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="tiara, accelerator, research, accelerateur,infrastructure, physics, particle, FP7, preparatory phase, project, europe, commission, irfu, CEA, CNRS, CERN, IN2P3, CIEMAT, INFN, STFC, IFJ PAN, Uppsala University, DESY, GSI, PSI, LHC" />
+	<meta name="description"  lang="en" content="The main objective of TIARA (Test Infrastructure and Accelerator Research Area) is the integration of national and international accelerator R&D infrastructures into a single distributed European accelerator R&D facility. This will include the implementation of organisational structures to enable the integration of existing individual infrastructures, their efficient operation and upgrades, and the construction of new infrastructures as part of TIARA" />
+	<meta property="og:description" content="The main objective of TIARA (Test Infrastructure and Accelerator Research Area) is the integration of national and international accelerator R&D infrastructures into a single distributed European accelerator R&D facility. This will include the implementation of organisational structures to enable the integration of existing individual infrastructures, their efficient operation and upgrades, and the construction of new infrastructures as part of TIARA" />
+	<meta property="og:url" content="http://www.eu-tiara.eu/" />
+	<!-- RSS -->
+	<link href="http://www.eu-tiara.eu/Phocea/Vie_des_labos/Seminaires/rss.php" rel="alternate" type="application/rss+xml" title="Seminars TIARA" />
+	<link href="http://www.eu-tiara.eu/Phocea/Vie_des_labos/News/rss.php" rel="alternate" type="application/rss+xml" title="News TIARA" />
+	<link href="http://www.eu-tiara.eu/Phocea/Vie_des_labos/Ast/rss.php" rel="alternate" type="application/rss+xml" title="Headlines TIARA" />
+	<link href="http://www.eu-tiara.eu/Phocea/Album/rss.php" rel="alternate" type="application/rss+xml" title="Les images TIARA" />
+	<link href="http://www.eu-tiara.eu/Phocea/Vie_des_labos/Eagenda/rss.php" rel="alternate" type="application/rss+xml" title="What's next ... TIARA" />
+	<!-- CSS -->
+	<link rel="stylesheet" href="http://www.eu-tiara.eu/Phocea/Css/bootstrap/css/bootstrap.min.css" type="text/css" />
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesnt work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="http://www.eu-tiara.eu/Phocea/Css/global.css?363616" type="text/css" />
+    <link rel="stylesheet" href="http://www.eu-tiara.eu/Css/phocea.css?363616" type="text/css" />
+	<link rel="stylesheet" href="http://www.eu-tiara.eu/Css/style.css?363616" type="text/css" />
+	<link rel="stylesheet" href="http://www.eu-tiara.eu/Css/menu.css" type="text/css" />
+	<link rel="stylesheet" href="http://www.eu-tiara.eu/Phocea/Css/bootstrap-datetimepicker.min.css" type="text/css" media="screen"  />
+	<link rel="stylesheet" href="http://www.eu-tiara.eu/Css/print.css" type="text/css" media="print" />
+	<script type="text/javascript" src="http://www.eu-tiara.eu/Phocea/Css/jquery.min.js"></script>
+<SCRIPT LANGUAGE="JavaScript">
+var delay=1 // ici 10 secondes
+var img="image"; // ici nom de l'image a recharger
+var src = new Array;
+src[0]="Images/homePage/lhc-syn320-2.png"
+src[1]="Images/homePage/DESY320.jpg"
+src[2]="Images/homePage/cavity.jpg"
+src[3]="Images/homePage/lhc-aerien280.png"
+src[4]="Images/homePage/LHC_hall2.jpg"
+// fonction à appeler dans le onload de BODY
+function RefreshIMG() {
+  setTimeout("RefreshIMG()",delay*5000);
+  var nb=Math.floor((5)*Math.random()); // nb aleatoire entre 0 et 4
+  document.images["image"].src=src[nb];
+}
+
+</SCRIPT>
+
+
+</head>
+<body onLoad="RefreshIMG()">
+<div id="entete">
+</div><!-- end entete -->
+<div id="contenu_gen">
+<div id="bandeau">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr >
+<td style="vertical-align:top;width:210px;"><!--sans indication de style, le logo est decale--><a href="http://www.eu-tiara.eu/index.php"><img src="http://www.eu-tiara.eu/Images/Tiara_4_9_sans.png" alt="TIARA : Test Infrastructure and Accelerator Research Area" alt="" /></a></td>
+<td><h1>Test Infrastructure and Accelerator Research Area <br/>Preparatory Phase</h1></td>
+</tr></table>
+</div><!-- End bandeau -->
+<table cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td id="bande_gauche">
+				<p class="niveau0 active"><a href="http://www.eu-tiara.eu/"  >Home page</a></p>
+				<p class="niveau0 "><a href="http://www.eu-tiara.eu/information/index.php?id=17"  >General information</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/information/index.php?id=13"  >About TIARA</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/information/index.php?id=18"  >Accelerator R&D</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/information/index.php?id=19"  >Fields requiring acc. R&D</a></p>
+				<p class="niveau0 "><a href="http://www.eu-tiara.eu/consortium/consortium_map.php"  >TIARA consortium</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/consortium/index.php?id=2"  >Participant institutes</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/consortium/index.php?id=11"  >Associated institutes</a></p>
+				<p class="niveau0 "><a href="http://www.eu-tiara.eu/documents/index.php?id=20"  >Official documents</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/documents/index.php?id=6"  >EU documents</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/documents/index.php?id=10"  >TIARA documents</a></p>
+				<p class="niveau0 "><a href="http://www.eu-tiara.eu/management/index.php?id=33"  >Management</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/management/index.php?id=1"  >Organizational structure</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/management/index.php?id=26"  >WP1: Consortium management</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/management/deliverables.php"  >Deliverables</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/management/milestones.php"  >Milestones</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/Phocea/Vie_des_labos/Eagenda/index.php"  >Agenda</a></p>
+				<p class="niveau0 "><a href="http://www.eu-tiara.eu/database/index.php"  >Documentation</a></p>
+				<p class="niveau0 "><a href="http://www.eu-tiara.eu/Communication/index.php?id=64"  >Access to TIARA databases</a></p>
+				<p class="niveau0 "><a href="http://www.eu-tiara.eu/Communication/index.php?id=47"  >Communication</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/Communication/index.php?id=50"  >Press releases and articles</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/Communication/index.php?id=62"  >Public presentations</a></p>
+				<p class="niveau1 "><a href="http://www.acceleratingnews.eu"  >Accelerating News >></a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/Communication/index.php?id=63"  >Accelerators for Society</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/Communication/index.php?id=65"  >Workshops</a></p>
+				<p class="niveau0 "><a href="http://www.eu-tiara.eu/committes/index.php?id=29"  >TIARA Committees</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/committes/index.php?id=31"  >Governing Council</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/committes/index.php?id=32"  >Steering Committee</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/committes/index.php?id=56"  >Project Office</a></p>
+				<p class="niveau0 "><a href="http://www.eu-tiara.eu/coordination/index.php?id=25"  >Coordination activities</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/coordination/index.php?id=51"  >WP3: R&D infrastructures</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/coordination/index.php?id=52"  >WP4: Joint R&D programming</a></p>
+				<p class="niveau0 "><a href="http://www.eu-tiara.eu/support/index.php?id=37"  >Support activities</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/support/index.php?id=38"  >WP2: Governance</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/support/index.php?id=39"  >WP5: Education and Training</a></p>
+				<p class="niveau0 "><a href="http://www.eu-tiara.eu/rtd/index.php?id=41"  >RTD activities</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/rtd/index.php?id=42"  >WP6: SVET R&D infrastructure</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/rtd/index.php?id=43"  >WP7: ICTF R&D infrastructure</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/rtd/index.php?id=44"  >WP8: HGA R&D infrastructure</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/rtd/index.php?id=45"  >WP9: TIHPAC R&D infrastructure</a></p>
+				<p class="niveau0 "><a href="http://www.eu-tiara.eu/useful-links/index.php?id=27"  >Useful links</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/useful-links/index.php?id=7"  >Scientific Committees</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/useful-links/index.php?id=8"  >FP6-FP7 accelerator R&D projects</a></p>
+				<p class="niveau1 "><a href="http://cordis.europa.eu/fp7/dc/index.cfm"  >EC FP7 calls and projects</a></p>
+				<p class="niveau1 "><a href="http://www.eu-tiara.eu/useful-links/index.php?id=28"  >Future accelerator projects</a></p>
+				<p class="niveau0 "><a href="http://www.eu-tiara.eu/contact/index.php?id=46"  >Contact us</a></p><p style="width:121px;margin:20px auto 20px auto;"><a href="http://cordis.europa.eu/fp7/home_en.html"><img src="http://www.eu-tiara.eu/Images/logo_fp7.gif" alt="logo_programme.gif" /></a></p><p style="width:130px;margin:0px auto 20px auto;"><a href="http://cordis.europa.eu/fp7/home_en.html"><img src="http://www.eu-tiara.eu/Images/drapeau_eu.gif" alt="logo_programme.gif" /></a></p>
+</td>
+<td style="vertical-align:top;">
+<div id="content">
+
+<div id="liens_sous_bandeau"><a href="https://espace.cern.ch/tiara-intranet/default.aspx"><img src="http://www.eu-tiara.eu/Phocea/Images/icons/02/10/13.png" alt="" /> Intranet</a></div>
+	<h1> </h1><!-- ============ TITRE ===================== -->
+<div id="colonne1">
+
+<table border="0" style="background-color:#050624;height:419px;width:570px;" >
+<tr>
+<td style="width:280px;padding-left:10px;">
+<p style="text-align:justify;font-family: Arial,Helvetica,sans-serif;color:#ffffff;font-size: 10pt;">The main objective of TIARA is the integration of national and international accelerator R&amp;D infrastructures into <strong>a single distributed European accelerator R&amp;D facility</strong> with the goal of developing and strengthening state-of-the-art research, competitiveness and innovation in a sustainable way in the field of accelerator Science and Technologies in Europe.</p>
+</td>
+<td><div style="margin:5px auto;width:200px;"><img src="Images/homePage/TIARA-logo-200px.png" alt="TIARA"  /></div></td>
+</tr>
+<tr>
+<td style="width:280px;padding-left:10px;"><img name="image" src="Images/lhc-syn320-2.png" alt="" style="width:280px;height:219px;" /></td>
+<td style="padding:0 10px;">
+<div style="text-align:justify;font-family: Arial,Helvetica,sans-serif; color:#ffffff;font-size:10pt;">
+<p>Besides maximizing the benefits for the owners of the infrastructures and their users, TIARA aims at establishing a framework for developing and supporting strong joint European programmes:</p>
+<p style="margin-left:10px;text-align:left;">&rsaquo; for accelerator Research and Development</p>
+<p style="margin-left:10px;text-align:left;">&rsaquo; for education and training</p>
+<p style="margin-left:10px;text-align:left;">&rsaquo; for enhancing innovation in collaboration with industry</p>
+</div>
+</td>
+
+</tr>
+</table>
+
+
+
+
+<p>&nbsp;</p>
+<div class="box1">
+<div class="titre_box1"><a href="Phocea/Vie_des_labos/News/index.php">Hot News</a></div>
+<div class="contenu_box1">
+<p>&nbsp;</p><div class="plus"><a href="Phocea/Vie_des_labos/News/archives.php">Archives &raquo;</a></div>
+</div>
+</div>
+</div><!-- FIN COLONNE 1 -->
+
+<div id="colonne2">
+<form method="get" action="http://irfu.cea.fr/Spp/Phocea/search.php" >
+<div class="input-append">
+<input type="text"  name="query_string" value="" id="appendedInputButton" style="width:126px;" />
+<button type="submit" class="btn"><i class="icon-search"></i></button>
+<input type="hidden" name="limite" value="10" />
+<input type="hidden" name="start" value="start" />
+</div>
+</form>
+<!--<p>&nbsp;</p>-->
+
+<div class="box1">
+<div class="titre_box1"><a href="http://www.acceleratingnews.eu">Newsletter &raquo;</a></div>
+<div class="contenu_box1">
+	<a href="http://www.acceleratingnews.eu" target="_blank" title="Newsletter &raquo; "><img alt="logoAccNews.png" border="1" src="/Images/logoAccNews.png" style="margin-left: 6px; width: 160px;  " /></a>
+</div>
+</div>
+
+
+<div class="box1">
+<div class="titre_box1"><a href="http://www.eu-tiara.eu/Communication/index.php?id=63">Accelerators for Society &raquo;</a></div>
+<div class="contenu_box1">
+	<!--<a href="http://www.eu-tiara.eu/Communication/index.php?id=63" target="_blank" title="Accelerators for Society &raquo; "><img alt="afs-image.png" border="1" src="/Images/afs-image.png" style="margin-left: 42px; width: 90px;  " /></a> -->
+<a href="http://www.eu-tiara.eu/Communication/index.php?id=63" target="_blank" title="Accelerators for Society &raquo; "><img alt="afs-poster-351-cut.png" border="1" src="/Images/afs-poster-351-cut.png" style="margin-left: 4px; width: 164px;  " /></a>
+</div>
+</div>
+
+
+
+<div class="box1">
+<div class="titre_box1"><a href="Phocea/Vie_des_labos/Seminaires/index.php">Meeting dates</a></div>
+<div class="contenu_box1">
+<h2><a href="Phocea/Vie_des_labos/Seminaires/index.php?type=1">Governing Council</a></h2><div class="plus"><a href="Phocea/Vie_des_labos/Seminaires/archives.php?type=1">Archives &raquo;</a></div><p>&nbsp;</p><h2><a href="Phocea/Vie_des_labos/Seminaires/index.php?type=2">TIARA Management</a></h2><div class="plus"><a href="Phocea/Vie_des_labos/Seminaires/archives.php?type=2">Archives &raquo;</a></div><p>&nbsp;</p><h2><a href="Phocea/Vie_des_labos/Seminaires/index.php?type=3">TIARA Work Packages</a></h2><div class="plus"><a href="Phocea/Vie_des_labos/Seminaires/archives.php?type=3">Archives &raquo;</a></div><p>&nbsp;</p></div>
+</div>
+<p>&nbsp;</p>
+
+<div class="box1">
+<div class="titre_box1"><a href="Phocea/Page/index.php?id=23">Document mailbox &raquo;</a></div>
+</div>
+
+
+
+</div><!-- FIN COLONNE 2 -->
+
+
+
+
+<div style="clear:both;">&nbsp;</div>
+</div><!-- End content -->
+
+</td>
+</tr>
+</table>
+
+</div><!-- End contenu_gen -->
+<div id="footer"><!-- ======== PIED DE PAGE ====== -->
+<p style="text-align:center;padding:0;">
+<a href="http://www.eu-tiara.eu/Phocea/Rss/index.php"><img src="http://www.eu-tiara.eu/Phocea/Images/logo_rss.gif" alt="" /></a>
+&nbsp;
+<a href="http://irfu.cea.fr/docphocea/index.php">PHoCEA DSM</a> 2016 - Tous droits réservés - 
+<a href="http://www.eu-tiara.eu/Phocea/cnil.php">Mentions l&eacute;gales</a> - Webmaster : <a href="http://irfu.cea.fr/Phocea/Membres/Annuaire/index.php?uid=tmorin">Thierry Morin</a></p>
+<p>&nbsp;</p>
+</div>
+	<!-- Bouton retour vers le haut -->
+    <div id="btn_up">
+       <img alt="Retour en haut" title="Retour en haut" src="http://www.eu-tiara.eu/Phocea/Images/haut-fleche.png" />
+    </div>
+	<!-- JavaScript placed at the end of the document so the pages load faster -->
+	<script type="text/javascript" src="http://www.eu-tiara.eu/Phocea/Css/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://www.eu-tiara.eu/Phocea/Css/moment.js"></script>
+	<script type="text/javascript" src="http://www.eu-tiara.eu/Phocea/Css/bootstrap-datetimepicker.min.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		$('#btn_up').click(function() {
+		  $('html,body').animate({scrollTop: 0}, 'fast');
+		});
+	 
+		$(window).scroll(function(){
+		  if($(window).scrollTop()<350){
+			 $('#btn_up').fadeOut();
+		  }else{
+			 $('#btn_up').fadeIn();
+		  }
+		});
+	});
+	
+	</script>
+	<script>
+	$('.eagda1 a').tooltip();
+	</script>
+</body>
+</html>

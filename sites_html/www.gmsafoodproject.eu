@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>GMSAFood - Home Page</title>
+    <script type="text/javascript" src="/Javascript/jquery-1.4.1.min.js" ></script>
+    <script type="text/javascript">
+			var APP_PATH          = '/';
+			var TOGGLE_SHOW_LABEL = 'Expand';
+			var TOGGLE_HIDE_LABEL = 'Collapse';
+			var TOGGLE_IMG_SHOW   = APP_PATH + 'Javascript/img/magnifier_zoom_in.png';
+			var TOGGLE_IMG_HIDE   = APP_PATH + 'Javascript/img/magnifier_zoom_out.png';
+		</script>
+    <script type="text/javascript" src="/Javascript/function.js" ></script>
+    <!--[if IE 6]>
+            <script type="text/javascript" src="Javascript/unitpngfix.js"></script>			
+        <![endif]-->
+    <script type="text/javascript" src="/Javascript/widgets/overlay.js" ></script>
+    <script type="text/javascript" src="/Javascript/widgets/jquery_fn.js" ></script>
+    <script type="text/javascript" src="/Javascript/netscience.js" ></script>
+    <script type="text/javascript" src="/Javascript/widgets/toggler.js" ></script>
+    <script type="text/javascript" src="/Javascript/widgets/tft_swapper.js" ></script>
+    <script type="text/javascript" src="/Javascript/widgets/news_scroller.js" ></script>
+    <script type="text/javascript" src="/Javascript/widgets/clearOnFocus.js" ></script>
+    <script type="text/javascript" src="/Common/app.js" ></script>
+    <link rel="stylesheet" type="text/css" href="/common/sifr.css" />
+    <link rel="stylesheet" type="text/css" href="/common/style.css?2" />
+    <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+    <!--[if IE 6]>
+    	<link rel="stylesheet" type="text/css" href="/common/style_ie6.css"/>	
+    <![endif]-->
+    <!--[if IE 7]>
+    	<link rel="stylesheet" type="text/css" href="/common/style_ie7.css"/>	
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/common/style_home.css" />
+  </head>
+  <body>
+    <form name="Form1" method="post" action="default.aspx" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTM2MTcxNzAwMGRkzsVOil4gjl+qAQBgD6ewtjW5zms=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+      <div id="header">
+        <div class="child">
+          <a id="logo" href="/" title="go to GMSAFood Homepage">
+            <img src="/images/logo.png" alt="GMSAFood" />
+          </a>
+          <ul id="firstLevelMenu">
+            <li class="selectedItem">
+              <a class="selectedItem" href="/Default.aspx?section=376">
+                <span class="posNR">0.</span>Home<span class="shortDesc" ></span></a>
+            </li>
+            <li class="menuItem">
+              <a class="menuItem" href="/Sections.aspx?section=382">
+                <span class="posNR">1.</span>About the Project<span class="shortDesc" ></span></a>
+            </li>
+            <li class="menuItem">
+              <a class="menuItem" href="/Partners.aspx?section=464">
+                <span class="posNR">2.</span>Partners<span class="shortDesc" ></span></a>
+            </li>
+            <li class="menuItem">
+              <a class="menuItem" href="/SciPublications.aspx?section=327&amp;IdType=327">
+                <span class="posNR">3.</span>Publications<span class="shortDesc" ></span></a>
+            </li>
+            <li class="menuItem">
+              <a class="menuItem" href="/News.aspx?section=316&amp;ViewType=Actual&amp;IdType=316">
+                <span class="posNR">4.</span>News<span class="shortDesc" ></span></a>
+            </li>
+            <li class="menuItem">
+              <a class="menuItem" href="/Links.aspx?section=462">
+                <span class="posNR">5.</span>Links<span class="shortDesc" ></span></a>
+            </li>
+            <li class="menuItem">
+              <a class="menuItem" href="/Sections.aspx?section=463">
+                <span class="posNR">6.</span>The Conference<span class="shortDesc" ></span></a>
+            </li>
+          </ul>
+          <div class="clear" ></div>
+        </div>
+      </div>
+      <div id="boxing">
+        <div id="insideBoxing" ></div>
+        <div id="boxing2">
+          <div id="insideBoxing2">
+            <div id="bannerHome" xmlns="">
+              <a id="bannerHomeImage" href="http://www.gmsafoodproject.eu/Sections.aspx?section=382">
+                <span>read more about the project</span>
+              </a>
+              <p class="text1">Welcome to the GMSAFOOD website</p>
+              <p class="text2">The GMSAFOOD project ended on March 31, 2012. The results from the project can be seen in our <a href="http://www.gmsafoodproject.eu/SciPublications.aspx?section=327&amp;IdType=327">publications</a>, which are listed on the website and many of the project results are summarized in the Magazine Report that followed the final conference and in the videos and powerpoint presentations from the conference that are available for download. More results are being prepared for publication and news of them will be published on this website. <a href="http://www.gmsafoodproject.eu/Sections.aspx?section=463">The FINAL GMSAFOOD conference</a> was aimed at the state-of-the-art approaches to post market monitoring and evaluating the safety of GMOs. Leaders in the field presented on post market monitoring for the introduction of new foods including GMOs, the current status of GMOs worldwide and research evaluating GMO safety. A panel discussion focused on the issues surrounding post market monitoring.</p>
+              <div class="clearZero" ></div>
+            </div>
+            <div id="container1" xmlns="">
+              <div class="header">
+                <h2>
+                  <a href="http://www.gmsafoodproject.eu/Sections.aspx?section=463.530" title="Conference Videos">Conference Videos</a>
+                </h2>
+                <a class="icon_link" href="http://www.gmsafoodproject.eu/Sections.aspx?section=463.530" ></a>
+                <span>The clips of the presentations</span>
+              </div>
+              <div id="news1">
+                <div class="newsFrame">
+                  <div class="insideNewsFrame" style="background: url('/Image.aspx?IdImage=5') left no-repeat">
+                    <a href="http://www.gmsafoodproject.eu/Sections.aspx?section=463.530"> 
+                                </a>
+                  </div>
+                </div>
+                <div class="hNewsContent"><div>The speakers presentations have been videorecorded and uploaded on the website.</div><p><a href="http://www.gmsafoodproject.eu/Sections.aspx?section=463.530">watch the videos</a></p></div>
+              </div>
+            </div>
+            <div id="container2" xmlns="">
+              <div class="header">
+                <h2>
+                  <a href="http://www.gmsafoodproject.eu/Sections.aspx?section=463.527" title="Keynotes presentation">Keynotes presentation</a>
+                </h2>
+                <a class="icon_link" href="http://www.gmsafoodproject.eu/Sections.aspx?section=463.527" ></a>
+                <span>PDF files of the presentations</span>
+              </div>
+              <div id="insideContainer2">
+                <div id="news2">
+                  <div class="newsFrame">
+                    <div class="insideNewsFrame" style="background: url('/Image.aspx?IdImage=82') left no-repeat">
+                      <a href="http://www.gmsafoodproject.eu/Sections.aspx?section=463.527"> 
+                                    </a>
+                    </div>
+                  </div>
+                  <div class="hNewsContent"><div><span style="color: rgb(102, 102, 102); font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; line-height: 18px; ">Several speakers have offered to make their slides available.</span>&nbsp;&nbsp;</div><p><a href="http://www.gmsafoodproject.eu/Sections.aspx?section=463.527">read more</a></p></div>
+                </div>
+              </div>
+            </div>
+            <div id="container3" xmlns="">
+              <div class="header">
+                <h2>
+                  <a href="http://www.gmsafoodproject.eu/Sections.aspx?section=463.528" title="Press Info">Press Info</a>
+                </h2>
+                <a class="icon_link" href="http://www.gmsafoodproject.eu/Sections.aspx?section=463.528" ></a>
+                <span>Press dedicated information</span>
+              </div>
+              <div id="news3">
+                <div class="newsFrame">
+                  <div class="insideNewsFrame" style="background: url('/Image.aspx?IdImage=83') left no-repeat">
+                    <a href="http://www.gmsafoodproject.eu/Sections.aspx?section=463.530"> 
+                                </a>
+                  </div>
+                </div>
+                <div class="hNewsContent"><div>For Press Correspondents</div><p><a href="http://www.gmsafoodproject.eu/Sections.aspx?section=463.528">read more</a></p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div id="footerInner">
+          <div class="flags">
+            <img src="/images/imgsGmsafood/euFlag.jpg" />
+            <img src="/images/imgsGmsafood/fp7.jpg" />
+            <span>GMSAFood is a project funded by the European Commission under the Seventh Framework Programme</span>
+          </div>
+          <a id="loginLink" href="/LoginInline.aspx">SIGN IN
+			</a>
+          <p class="designBy">The GMSAFood Web Site is designed by <a href="http://www.meduniwien.ac.at/" title="MUW">MUW</a> and powered by <a href="http://www.promoscience.com">Netscience</a>, a content &amp; project management system developed by <a href="http://www.promoscience.com/">Promoscience</a>, Trieste, Italy.</p>
+        </div>
+      </div>
+      <script type="text/javascript">
+
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-128399-22']);
+			  _gaq.push(['_trackPageview']);
+
+			  (function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+
+			</script>
+    </form>
+  </body>
+</html>

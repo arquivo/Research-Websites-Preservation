@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!--
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2013 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/
+	-->
+	<base href="http://www.epitarget.eu/">
+	<link rel="shortcut icon" href="http://www.epitarget.eu/favicon.ico" type="image/x-ico; charset=binary">
+	<link rel="icon" href="http://www.epitarget.eu/favicon.ico" type="image/x-ico; charset=binary">
+	<meta name="description" content="EPITARGET is a research project that is focused on the process leading to epilepsy, epileptogenesis and aims to identify novel biomarkers.">
+	<meta name="keywords" content="epilepsy, epileptogenesis, biomarker, targets, biobank, antiepileptogenic treatments">
+	<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_6282101edf.css?1448011245" media="all">
+	<link rel="stylesheet" type="text/css" href="typo3conf/ext/powermail/Resources/Public/Css/jquery.ui.theme.css?1393408836" media="all">
+	<link rel="stylesheet" type="text/css" href="typo3conf/ext/powermail/Resources/Public/Css/jquery.ui.datepicker.css?1431682577" media="all">
+	<link rel="stylesheet" type="text/css" href="typo3conf/ext/powermail/Resources/Public/Css/CssBasic.css?1393408836" media="all">
+	<link rel="stylesheet" type="text/css" href="fileadmin/templates/css/style.css?1448281276" media="all" title="default">
+	<link rel="stylesheet" type="text/css" href="fileadmin/templates/css/mobile.css?1446111943" media="all">
+	<link rel="stylesheet" type="text/css" href="fileadmin/templates/css/epitarget/common.less?1448271266" media="all">
+	<script src="typo3temp/javascript_9a38f34785.js?1394193723" type="text/javascript"></script>
+	<meta name="viewport" content="width=device-width">
+	<script src="fileadmin/templates/scripts/responsive-imagemap/ml.responsive.imagemap.js" type="text/javascript"></script>
+	<style type=text/css>
+	@import url(fileadmin/templates/css/epitarget/mobile.css);
+	</style>
+	<!--[if lte IE 8]> <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+	<!--[if IE 8]>
+	<style type=text/css>
+	@import url(/fileadmin/templates/css/style-ie8.css);
+	</style>
+	<![endif]-->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-51133729-1', 'epitarget.eu');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+	</script>
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msvalidate.01" content="3F69C0B366C0AFD5DE781E11206272B9" />
+	<!--Die URl zum Bild, dass angezeigt werden soll. Dieses sollte mindestens 1200 x 630p Pixel groß sein. kompletter Pfad-->
+	<meta property="og:image" content="http://www.epitarget.eu/fileadmin/websites/epitarget/social-media/logo_og_epitarget-1200x630.png">
+	<meta property="og:image" content="http://www.epitarget.eu/fileadmin/websites/epitarget/social-media/logo_og_epitarget-1200x630-2.jpg">
+	<meta itemprop=”image” content=”http://www.epitarget.eu/fileadmin/websites/epitarget/social-media/logo_og_epitarget-1200x630.png” />
+	<meta itemprop=”image” content=”http://www.epitarget.eu/fileadmin/websites/epitarget/social-media/logo_og_epitarget-1200x630-2.jpg” />
+	<link rel="apple-touch-icon" sizes="57x57" href="/fav/apple-touch-icon-57x57.png"/>
+	<link rel="apple-touch-icon" sizes="114x114" href="/fav/apple-touch-icon-114x114.png"/>
+	<link rel="apple-touch-icon" sizes="72x72" href="/fav/apple-touch-icon-72x72.png"/>
+	<link rel="apple-touch-icon" sizes="144x144" href="/fav/apple-touch-icon-144x144.png"/>
+	<link rel="apple-touch-icon" sizes="60x60" href="/fav/apple-touch-icon-60x60.png"/>
+	<link rel="apple-touch-icon" sizes="120x120" href="/fav/apple-touch-icon-120x120.png"/>
+	<link rel="apple-touch-icon" sizes="76x76" href="/fav/apple-touch-icon-76x76.png"/>
+	<link rel="apple-touch-icon" sizes="152x152" href="/fav/apple-touch-icon-152x152.png"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon-180x180.png"/>
+	<link rel="icon" type="image/png" href="/fav/favicon-96x96.png" sizes="96x96"/>
+	<link rel="icon" type="image/png" href="/fav/favicon.ico" sizes="16x16"/>
+	<link rel="icon" type="image/png" href="/fav/favicon-32x32.png" sizes="32x32"/>
+	<meta name="msapplication-TileImage" content="/fav/mstile-144x144.png"/>
+	<meta name="robots" content="index,follow">
+	<meta name="revisit-after" content="7 days">
+	<!--[if lte IE 10]>
+	<script type="text/javascript" src="/fileadmin/templates/scripts/respond/respond.min.js"></script>
+	<![endif]-->
+	<title>EPITARGET - Targets and biomarkers for antiepileptogenesis</title>
+	<meta name="dc.created" content="2016-01-20" />
+	<link rel="canonical" href="http://www.epitarget.eu/" />
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://www.epitarget.eu/">
+	<meta property="og:title" content="EPITARGET - Targets and biomarkers for antiepileptogenesis">
+	<meta property="og:description" content="EPITARGET is a research project that is focused on the process leading to epilepsy, epileptogenesis and aims to identify novel biomarkers.">
+	<script src="typo3conf/ext/imagecycle/res/jquery/js/jquery.cycle.all-3.0.3.min.js" type="text/javascript"></script>
+	<script src="typo3conf/ext/imagecycle/res/jquery/js/jquery.easing-1.3.js" type="text/javascript"></script>
+</head>
+<body id="body-" class="mobilexxx no-js"><a name="ontop"></a>
+	<div id="top_out">
+		<div id="top" class="clearfix">
+			<div id="breadcrumbs"> <span class="current">Home</span> </div>
+			<div id="homelink"> <a href=""><img src="/fileadmin/templates/images/home_icon.gif" alt="Home - EPITARGET" title="Home - EPITARGET"/></a> </div>
+			<div id="topmenu">
+				<nav>
+				<ul>
+					<li><a href="contact/" title="Contact" >Contact</a></li>
+					<li class="separator">&#124;</li>
+					<li><a href="sitemap/" title="Sitemap" >Sitemap</a></li>
+					<li class="separator">&#124;</li>
+					<li><a href="login/login/" title="Login" >Login</a></li>
+					<li class="separator">&#124;</li>
+					<li><a href="news/" title="News" >News</a></li>
+					<li class="separator">&#124;</li>
+				</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div id="navigation_out">
+		<div id="navigation" class="clearfix">
+			<div id="searchicon"> <img id="loupe" src="fileadmin/websites/epitarget/icons/search_icon.gif" alt="search" title="search" /> </div>
+			<div id="mainmenu" class="clearfix">
+				<nav>
+				<ul class="level1">
+					<li><a href="for-patients/" title="For Patients" >For Patients</a>
+					<ul class="level2">
+						<li><a href="for-patients/qa-about-epitarget/" title="Q&amp;A about EPITARGET" >Q&A about EPITARGET</a></li>
+						<li><a href="for-patients/about-epilepsy/" title="Information about epilepsy" >About epilepsy</a></li>
+					</ul>
+					</li>
+					<li><a href="results/" title="Results" >Results</a>
+					<ul class="level2">
+						<li><a href="cdes/" title="EPITARGET CDEs" >EPITARGET CDEs</a></li>
+						<li><a href="results/the-projectfirst-results/" title="First Results" >First Results</a></li>
+						<li><a href="results/publications/" title="Publications" >Publications</a></li>
+						<li><a href="results/press-release/" title="Press Release" >Press Release</a></li>
+					</ul>
+					</li>
+					<li><a href="the-group/" title="The group" >The group</a>
+					<ul class="level2">
+						<li><a href="the-group/the-team/" title="The Team" >The Team</a>
+						<ul class="level3">
+							<li><a href="the-group/the-team/lund-university/" title="Project Coordinator: Lund University" >Lund University</a></li>
+							<li><a href="the-group/the-team/life-brain/" title="Life &amp; Brain GmbH" >Life & Brain</a></li>
+							<li><a href="the-group/the-team/microvitae/" title="Microvitae Technologies" >Microvitae</a></li>
+							<li><a href="the-group/the-team/university-of-eastern-finland/" title="University of Eastern Finland" >University of Eastern Finland</a></li>
+							<li><a href="the-group/the-team/istituto-di-ricerche-farmacologiche-mario-negri/" title="Istituto di Ricerche Farmacologiche Mario Negri" >Istituto di Ricerche Farmacologiche Mario Negri</a></li>
+							<li><a href="the-group/the-team/university-of-veterinary-medicine-hannover/" title="University of Veterinary Medicine Hannover" >University of Veterinary Medicine Hannover</a></li>
+							<li><a href="the-group/the-team/university-college-london/" title="University College London" >University College London</a></li>
+							<li><a href="the-group/the-team/university-of-bonn/" title="University of Bonn" >University of Bonn</a></li>
+							<li><a href="the-group/the-team/nencki/" title="Nencki Institute of Experimental Biology" >Nencki</a></li>
+							<li><a href="the-group/the-team/aix-marseille-universite/" title="Aix Marseille Université" >Aix Marseille Université</a></li>
+							<li><a href="the-group/the-team/imperial-college/" title="Imperial College" >Imperial College</a></li>
+							<li><a href="the-group/the-team/university-of-ferrara/" title="University of Ferrara" >University of Ferrara</a></li>
+							<li><a href="the-group/the-team/academisch-medisch-centrum/" title="Academisch Medisch Centrum" >Academisch Medisch Centrum</a></li>
+							<li><a href="the-group/the-team/ben-gurion-university/" title="Ben-Gurion University of the Negev" >Ben-Gurion University</a></li>
+							<li><a href="the-group/the-team/gabomi/" title="GABO:mi" >GABO:mi</a></li>
+							<li><a href="the-group/the-team/bioviron/" title="Bioviron" >Bioviron</a></li>
+							<li><a href="the-group/the-team/medizinische-hochschule-hannover/" title="Medizinische Hochschule Hannover" >Medizinische Hochschule Hannover</a></li>
+							<li><a href="the-group/the-team/to-bbb-technologies/" title="to-BBB technologies BV" >to-BBB technologies</a></li>
+						</ul>
+						</li>
+						<li><a href="the-group/advisory-board/" title="Advisory Board" >Advisory Board</a></li>
+						<li><a href="the-group/coordinator/" title="Coordinator / Project Office" >Coordinator</a></li>
+					</ul>
+					</li>
+					<li><a href="the-project/" title="The Project" >The Project</a>
+					<ul class="level2">
+						<li><a href="the-project/objectives/" title="Objectives" >Objectives</a></li>
+						<li><a href="the-project/work-plan/" title="Work Plan" >Work Plan</a>
+						<ul class="level3">
+							<li><a href="the-project/work-plan/wp1-identifying-novel-biomarkers/" title="WP1: Identifying novel biomarkers and their combinations in animal models" >WP1: Identifying novel biomarkers</a></li>
+							<li><a href="the-project/work-plan/wp2-unravelling-pathophysiology-of-epileptogenesis/" title="WP2: Unravelling the complex pathophysiology of epileptogenesis for preclinical development of new disease-modifying treatments" >WP2: Unravelling pathophysiology of epileptogenesis</a></li>
+							<li><a href="the-project/work-plan/wp3-targeting-disease-modifying-treatments/" title="WP3: Targeting combinatorial disease-modifying treatments into the brain" >WP3: Targeting disease-modifying treatments</a></li>
+							<li><a href="the-project/work-plan/wp4-translating-knowledge-to-patient-material/" title="WP4: Translating the knowledge obtained in animal models to patient material" >WP4: Translating knowledge to patient material</a></li>
+							<li><a href="the-project/work-plan/wp5-project-management/" title="WP5: Project Management" >WP5: Project Management</a></li>
+							<li><a href="the-project/work-plan/wp6-dissemination/" title="WP6: Dissemination" >WP6: Dissemination</a></li>
+						</ul>
+						</li>
+						<li><a href="the-project/expected-impact/" title="Expected Impact" >Expected Impact</a></li>
+						<li><a href="the-project/meetings/" title="Meetings" >Meetings</a></li>
+						<li><a href="the-project/links/" title="Links" >Links</a></li>
+					</ul>
+					</li>
+				</ul>
+				</nav>
+			</div>
+			<div id="projectlogo">
+				<!--img src="fileadmin/templates/images/logo.png" alt="projectlogo" title="projectlogo"-->
+				<div class="mediaall"><a href="/" title="Home"><img src="fileadmin/templates/images/epitarget/logo.png" alt="EPITARGET" title="EPITARGET" width="131" height="80" /></a></div>
+				<div class="mediaprint"><a href="/" title="Home"><img src="fileadmin/templates/images/epitarget/logo-print.jpg" alt="EPITARGET" title="EPITARGET" width="131" height="80" /></a></div>
+			</div>
+		</div>
+	</div>
+	<div id="header_out">
+		<div id="headerimg" class="clearfix headerimg1">
+			<!--DMAILER_SECTION_BOUNDARY_-->
+			<div id="c1220" class="csc-default">
+				<div class="csc-textpic csc-textpic-center csc-textpic-above csc-textpic-equalheight">
+					<div class="csc-textpic-imagewrap">
+						<div class="csc-textpic-center-outer">
+							<div class="csc-textpic-center-inner">
+								<div class="csc-textpic-image csc-textpic-last"><img src="fileadmin/websites/epitarget/Header/EPITARGET_project.jpg" width="986" height="270" border="0" alt="EPITARGET" title="EPITARGET"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--DMAILER_SECTION_BOUNDARY_END-->
+		</div>
+		<div id="header2img" class="clearfix headerimg2">
+			<!--DMAILER_SECTION_BOUNDARY_-->
+			<div id="c4574" class="csc-default">
+				<div class="csc-textpic csc-textpic-center csc-textpic-above csc-textpic-equalheight">
+					<div class="csc-textpic-imagewrap">
+						<div class="csc-textpic-center-outer">
+							<div class="csc-textpic-center-inner">
+								<div class="csc-textpic-image csc-textpic-last"><img src="fileadmin/websites/epitarget/Header/Banner_project850px.jpg" width="850" height="270" border="0" alt="EPITARGET" title="EPITARGET"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--DMAILER_SECTION_BOUNDARY_END-->
+		</div>
+		<div id="header3img" class="clearfix headerimg3">
+			<!--DMAILER_SECTION_BOUNDARY_-->
+			<div id="c4575" class="csc-default">
+				<div class="csc-textpic csc-textpic-center csc-textpic-above csc-textpic-equalheight">
+					<div class="csc-textpic-imagewrap">
+						<div class="csc-textpic-center-outer">
+							<div class="csc-textpic-center-inner">
+								<div class="csc-textpic-image csc-textpic-last"><img src="fileadmin/websites/epitarget/Header/Banner_project600px.jpg" width="600" height="270" border="0" alt="EPITARGET" title="EPITARGET"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--DMAILER_SECTION_BOUNDARY_END-->
+		</div>
+		<div id="header" class="clearfix">
+			<div id="searchbox">
+				<form action="search/" method="post" id="indexedsearch"><input name="tx_indexedsearch[sword]" value="" id="inputText" type="text" />
+				<button class="submit" name="tx_indexedsearch[submit_button]" type="submit" value="search">search</button>
+				<input type="hidden" name="tx_indexedsearch[sections]" value="0" /></form>
+			</div>
+		</div>
+	</div>
+	<div id="content_out">
+		<div id="content" class="clearfix">
+			<div id="twocols">
+				<!--TYPO3SEARCH_begin-->
+				<!--DMAILER_SECTION_BOUNDARY_-->
+				<div id="c3378" class="csc-default">
+					<div class="csc-header csc-header-n1">
+						<h1 class="csc-firstHeader">EPITARGET - Targets and biomarkers for antiepileptogenesis</h1>
+					</div>
+					<p class="bodytext">Epilepsy is a devastating condition affecting over 50 million people worldwide. Patients with epilepsy suffer from reoccurring unprovoked seizures. The goal of current treatment practice is to enable patients to live unrestricted lives by controlling the seizures with anti-epileptic drugs – Epilepsy cannot be cured to date.</p>
+					<p class="bodytext">&nbsp;</p>
+					<p class="bodytext">In order to someday be able to prevent the development of epilepsy, the multidisciplinary research project EPITARGET is focused on the process leading to epilepsy (epileptogenesis) in adults. The main hypothesis is that there are combinations of various causes, acting in parallel and/or in succession, that lead to epileptogenesis and the development of seizures. The central premise and vision is that by using a combinatorial approach to identify appropriate biomarkers that allow the prediction of the disease and by developing effective <a href="the-project/work-plan/wp3-targeting-disease-modifying-treatments/" title="EPITARGET Workpackage 3" class="internal-link" ><img alt="undefined" src="fileadmin/templates/images/epitarget/layout/icon_arrow_right_small.png" data-htmlarea-file-uid="1517" data-htmlarea-file-table="sys_file" />anti-epileptogenic therapeutics</a>, patients at risk can be treated before they even have epilepsy. The project will focus on:</p>
+					<p class="bodytext">&nbsp;</p>
+					<div class="liststyle2">
+						<ul>
+							<li>identifying <a href="the-project/work-plan/wp1-identifying-novel-biomarkers/" title="EPITARGET Work package 1" class="internal-link" ><img alt="undefined" src="fileadmin/templates/images/epitarget/layout/icon_arrow_right_small.png" data-htmlarea-file-uid="1517" data-htmlarea-file-table="sys_file" />novel biomarkers</a> and their combinations for epileptogenesis after potentially epileptogenic brain insults in clinically relevant animal models, such as traumatic brain injury (TBI) and status epilepticus (SE); </li>
+							<li>exploring <a href="the-project/work-plan/wp2-unravelling-pathophysiology-of-epileptogenesis/" title="EPITARGET Work package 2" class="internal-link" ><img alt="undefined" src="fileadmin/templates/images/epitarget/layout/icon_arrow_right_small.png" data-htmlarea-file-uid="1517" data-htmlarea-file-table="sys_file" />multiple basic mechanisms</a> of epileptogenesis and their mutual interactions; </li>
+							<li>and <a href="the-project/work-plan/wp4-translating-knowledge-to-patient-material/" title="EPITARGET Work package 4" class="internal-link" ><img alt="undefined" src="fileadmin/templates/images/epitarget/layout/icon_arrow_right_small.png" data-htmlarea-file-uid="1517" data-htmlarea-file-table="sys_file" />translating these findings</a> towards the clinic by validating biomarkers in human samples accessible to the consortium.</li>
+						</ul>
+						<p class="bodytext">&nbsp;</p>
+						<p class="bodytext">On these pages EPITARGET presents the <a href="the-group/the-team/" title="EPITARGET - Consortium" class="internal-link" ><img alt="undefined" src="fileadmin/templates/images/epitarget/layout/icon_arrow_right_small.png" data-htmlarea-file-uid="1517" data-htmlarea-file-table="sys_file" />project consortium</a> and its&nbsp;<a href="the-project/work-plan/" title="EPITARGET Work Plan" class="internal-link" ><img alt="undefined" src="fileadmin/templates/images/epitarget/layout/icon_arrow_right_small.png" data-htmlarea-file-uid="1517" data-htmlarea-file-table="sys_file" />work plan</a>. You may also find information on EPITARGET <a href="results/" title="Opens internal link in current window" class="internal-link" ><img alt="undefined" src="fileadmin/templates/images/epitarget/layout/icon_arrow_right_small.png" />results</a> and&nbsp; <a href="the-project/meetings/" title="EPITARGET Meetings" class="internal-link" ><img alt="undefined" src="fileadmin/templates/images/epitarget/layout/icon_arrow_right_small.png" data-htmlarea-file-uid="1517" data-htmlarea-file-table="sys_file" />meetings</a> and information <a href="for-patients/" title="FAQ for patients" class="internal-link" ><img alt="undefined" src="fileadmin/templates/images/epitarget/layout/icon_arrow_right_small.png" data-htmlarea-file-uid="1517" data-htmlarea-file-table="sys_file" />for patients</a>, as well as the <a href="news/" title="Latest EPITARGET News" class="internal-link" ><img alt="undefined" src="fileadmin/templates/images/epitarget/layout/icon_arrow_right_small.png" data-htmlarea-file-uid="1517" data-htmlarea-file-table="sys_file" />latest news</a> about EPITARGET. </p>
+						<p class="bodytext">&nbsp;</p>
+						<h1>Short Facts about EPITARGET</h1>
+						<ul>
+							<li>Collaborative Project: <a href="http://ec.europa.eu/research/fp7/index_en.cfm" title="Seventh Framework Programme" target="_blank" class="external-link-new-window" ><img alt="undefined" src="fileadmin/templates/images/epitarget/layout/icon_fast_foward_small.png" data-htmlarea-file-uid="1518" data-htmlarea-file-table="sys_file" />7th Framework Programme</a></li>
+							<li>Coordinator: Prof. Mérab Kokaia, <a href="the-group/the-team/lund-university/" title="EPITARGET Coordinator Lund University" class="internal-link" ><img alt="undefined" src="fileadmin/templates/images/epitarget/layout/icon_arrow_right_small.png" data-htmlarea-file-uid="1517" data-htmlarea-file-table="sys_file" />Lund University</a></li>
+							<li>Project start: November 1, 2013</li>
+							<li>Funding period: 5 years</li>
+						</ul>
+						<p class="bodytext">&nbsp;</p>
+						<p class="bodytext">&nbsp;</p>
+						<p class="bodytext">&nbsp;</p>
+						<p class="bodytext">&nbsp;</p>
+						<p class="bodytext">&nbsp;</p>
+						<p class="bodytext">&nbsp;</p>
+						<p class="bodytext">&nbsp;</p>
+						<p class="bodytext">&nbsp;</p>
+						<p class="bodytext">&nbsp;</p>
+						<p class="bodytext">&nbsp;</p>
+						<p class="bodytext">&nbsp;</p>
+						<p class="bodytext">&nbsp;</p>
+						<p>&nbsp;</p>
+					</div>
+				</div>
+				<!--DMAILER_SECTION_BOUNDARY_END-->
+				<!--TYPO3SEARCH_end-->
+			</div>
+		</div>
+	</div>
+	<div id="bottom_out">
+		<div id="service" class="clearfix">
+			<div id="service_menu">
+				<!--DMAILER_SECTION_BOUNDARY_-->
+				<div id="c4572" class="csc-default">
+					<div class="csc-textpic csc-textpic-center csc-textpic-above">
+						<div class="csc-textpic-imagewrap">
+							<div class="csc-textpic-center-outer">
+								<div class="csc-textpic-center-inner">
+									<div class="csc-textpic-imagerow">
+										<div class="csc-textpic-imagecolumn csc-textpic-firstcol">
+											<div class="csc-textpic-image csc-textpic-last"><a href="/" title="Home"><img src="fileadmin/websites/epitarget/icons/icon_home.gif" width="26" height="26" border="0" alt="Home"></a></div>
+										</div>
+										<div class="csc-textpic-imagecolumn csc-textpic-lastcol">
+											<div class="csc-textpic-image csc-textpic-last"><img src="fileadmin/websites/epitarget/icons/icon_menu.gif" width="26" height="26" border="0" alt="Menu" title="Menu"></div>
+										</div>
+									</div>
+									<div class="csc-textpic-imagerow csc-textpic-imagerow-last">
+										<div class="csc-textpic-imagecolumn csc-textpic-firstcol">
+											<div class="csc-textpic-image csc-textpic-last"><a href="search/" title="Search"><img src="fileadmin/websites/epitarget/icons/search_icon.gif" width="23" height="26" border="0" alt="Search"></a></div>
+										</div>
+										<div class="csc-textpic-imagecolumn csc-textpic-lastcol">
+											<div class="csc-textpic-image csc-textpic-last"><a href="/#ontop" title="Top"><img src="fileadmin/websites/epitarget/icons/icon_top.png" width="26" height="26" border="0" alt="Top"></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="csc-textpic-text">
+							<p class="bodytext"></p>
+						</div>
+					</div>
+				</div>
+				<!--DMAILER_SECTION_BOUNDARY_END-->
+			</div>
+		</div>
+		<div id="bottom" class="clearfix">
+			<div id="bottom_newsletter">
+				<!--DMAILER_SECTION_BOUNDARY_-->
+				<div id="c3823" class="csc-default">
+					<div class="csc-header csc-header-n1">
+						<h1 class="csc-firstHeader">Newsletter Subscription</h1>
+					</div>
+				</div>
+				<!--DMAILER_SECTION_BOUNDARY_END-->
+				<!--DMAILER_SECTION_BOUNDARY_-->
+				<div id="c3824" class="csc-default">
+					<div class="tx-sremailsubscribe-pi1">
+						<form enctype="multipart/form-data" action="newsletter/" method="post" id="tx-sremailsubscribe-pi1-tt_address_form">
+						<fieldset> <legend>Please fill in the information of your subscription.</legend>
+						<p class="tx-sremailsubscribe-pi1-notice"></p>
+						<dl>
+						<dt> <label for="tx-sremailsubscribe-pi1-first_name">First Name: <span>*</span></label> </dt>
+						<dd> <input type="text" class="tx-sremailsubscribe-pi1-text" name="FE[tt_address][first_name]" title="" maxlength="50" size="40" id="tx-sremailsubscribe-pi1-first_name"> </dd>
+						<dt> <label for="tx-sremailsubscribe-pi1-last_name">Last Name: <span>*</span></label> </dt>
+						<dd> <input type="text" class="tx-sremailsubscribe-pi1-text" name="FE[tt_address][last_name]" title="" maxlength="50" size="40" id="tx-sremailsubscribe-pi1-last_name"> </dd>
+						<dt> <label for="tx-sremailsubscribe-pi1-title">Title: </label> </dt>
+						<dd> <input type="text" class="tx-sremailsubscribe-pi1-text" name="FE[tt_address][title]" title="" maxlength="40" size="40" id="tx-sremailsubscribe-pi1-title"> </dd>
+						<dt> <label for="tx-sremailsubscribe-pi1-email">Email: <span>*</span></label> </dt>
+						<dd> <input type="text" class="tx-sremailsubscribe-pi1-text" name="FE[tt_address][email]" title="" maxlength="255" size="40" id="tx-sremailsubscribe-pi1-email"> </dd>
+						<dt>&nbsp;</dt>
+						<dd> <input type="hidden" value="create" name="tx_sremailsubscribe_pi1[cmd]"> <input type="hidden" value="3345fe3be29eb4984b769f6fdbc87245" name="tx_sremailsubscribe_pi1[token]"><input type="hidden" value="1024000" name="MAX_FILE_SIZE"> <input type="hidden" value="1" name="tx_sremailsubscribe_pi1[preview]"> <input type="hidden" value="3345fe3be29eb4984b769f6fdbc87245" name="tx_sremailsubscribe_pi1[token]"> <input type="hidden" value="1" name="FE[tt_address][module_sys_dmail_html]"> <input type="submit" value="Subscribe" name="tx_sremailsubscribe_pi1[submit]" class="tx-sremailsubscribe-pi1-submit"> </dd>
+						</dl>
+						</fieldset>
+						</form>
+						<p class="tx-sremailsubscribe-pi1-click-to-edit">You have already subscribed to <b>Newsletter Recipients</b> and wish to update or terminate your subscription? <a title="Opens a dialog that will allow you edit or delete your subscription." href="test/?tx_sremailsubscribe_pi1%5Bcmd%5D=infomail&amp;tx_sremailsubscribe_pi1%5Btoken%5D=3345fe3be29eb4984b769f6fdbc87245&amp;tx_sremailsubscribe_pi1%5BrU%5D=0">Click here!</a></p>
+					</div>
+				</div>
+				<!--DMAILER_SECTION_BOUNDARY_END-->
+			</div>
+			<div id="bottom_news">
+				<!--DMAILER_SECTION_BOUNDARY_-->
+				<div id="c1218" class="csc-default">
+					<div class="csc-header csc-header-n1">
+						<h1 class="csc-firstHeader">News Section</h1>
+					</div>
+					<div class="news">
+						<div class="news-list-view">
+							<!--
+							=====================
+							Partials/List/Item.html
+							-->
+							<div class="article articletype-0">
+								<!-- header -->
+								<div class="header">
+									<h3> <a title="Common Data Elements now available" href="news/news-detail/tx_news/epitarget-cdes-now-available/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=509d8f7144fa872ff740b7250bcef1ef"> Common Data Elements now available </a> </h3>
+								</div>
+								<!-- teas=ser text -->
+								<div class="teaser-text"> EPITARGET CDEs can now be downloaded on the EPITARGET website <a class="more" title="Common Data Elements now available" href="news/news-detail/tx_news/epitarget-cdes-now-available/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=509d8f7144fa872ff740b7250bcef1ef"> Read more </a> </div>
+								<!-- footer information -->
+								<div class="footer">
+									<p>
+									<!-- date -->
+									<span class="news-list-date"> 09/12/2015 </span>
+									<!-- author -->
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--DMAILER_SECTION_BOUNDARY_END-->
+			</div>
+			<div id="bottom_social">
+				<!--DMAILER_SECTION_BOUNDARY_-->
+				<div id="c1217" class="csc-default">
+					<h1>Social Media</h1>
+				<a href="https://www.facebook.com/EPITARGET" target="_blank"><img src="fileadmin/templates/images/epitarget/layout/icon_sm_facebook_g_hover.png" alt="Facebook EPITARGET" title="Facebook EPITARGET" /></a></div>
+				<!--DMAILER_SECTION_BOUNDARY_END-->
+				<!--DMAILER_SECTION_BOUNDARY_-->
+				<div id="c4572" class="csc-default">
+					<div class="csc-textpic csc-textpic-center csc-textpic-above">
+						<div class="csc-textpic-imagewrap">
+							<div class="csc-textpic-center-outer">
+								<div class="csc-textpic-center-inner">
+									<div class="csc-textpic-imagerow">
+										<div class="csc-textpic-imagecolumn csc-textpic-firstcol">
+											<div class="csc-textpic-image csc-textpic-last"><a href="/" title="Home"><img src="fileadmin/websites/epitarget/icons/icon_home.gif" width="26" height="26" border="0" alt="Home"></a></div>
+										</div>
+										<div class="csc-textpic-imagecolumn csc-textpic-lastcol">
+											<div class="csc-textpic-image csc-textpic-last"><img src="fileadmin/websites/epitarget/icons/icon_menu.gif" width="26" height="26" border="0" alt="Menu" title="Menu"></div>
+										</div>
+									</div>
+									<div class="csc-textpic-imagerow csc-textpic-imagerow-last">
+										<div class="csc-textpic-imagecolumn csc-textpic-firstcol">
+											<div class="csc-textpic-image csc-textpic-last"><a href="search/" title="Search"><img src="fileadmin/websites/epitarget/icons/search_icon.gif" width="23" height="26" border="0" alt="Search"></a></div>
+										</div>
+										<div class="csc-textpic-imagecolumn csc-textpic-lastcol">
+											<div class="csc-textpic-image csc-textpic-last"><a href="/#ontop" title="Top"><img src="fileadmin/websites/epitarget/icons/icon_top.png" width="26" height="26" border="0" alt="Top"></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="csc-textpic-text">
+							<p class="bodytext"></p>
+						</div>
+					</div>
+				</div>
+				<!--DMAILER_SECTION_BOUNDARY_END-->
+			</div>
+		</div>
+	</div>
+	<div id="footer_out">
+		<div id="footer" class="clearfix">
+			<div id="footer_in">
+				<div id="proglogo"> <img src="fileadmin/templates/images/program_logo.gif" alt="programm" /> </div>
+				<div id="progtext"> EPITARGET is a Collaboration Project funded by the European Union under the 7<sup>th</sup> Framework Programme under grant agreement n° 602102. </div>
+				<div id="footermenu">
+					<nav>
+					<ul>
+						<li><a href="copyright/" title="Copyright" >Copyright</a></li>
+						<li class="separator">&#124;</li>
+						<li><a href="imprint/" title="Imprint" >Imprint</a></li>
+						<li class="separator">&#124;</li>
+					</ul>
+					</nav>
+				</div>
+				<div id="euflag"> <img src="fileadmin/templates/images/eu_flag.gif" alt="EPITARGET is a Collaboration Project funded by the European Union under the 7th Framework Programme under grant agreement n° 602102." title="EPITARGET is a Collaboration Project funded by the European Union under the 7th Framework Programme under grant agreement n° 602102."/> </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">var JsValidationCheckCheckboxes = 'Please check min. 1';var JsValidationCheckInteger = 'Not a valid number';var JsValidationCheckRequired = 'This field is required';var JsValidationCheckRequiredOption = 'Please select an option';var JsValidationCheckEmail = 'Invalid Email';var JsValidationCheckUrl = 'Invalid URL';var JsValidationCheckPhone = 'Invalid Phone No';var JsValidationCheckLetters = 'Only Letters allowed';</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="typo3conf/ext/powermail/Resources/Public/Js/jquery.ui.datepicker.min.js?1393408836" type="text/javascript"></script>
+	<script src="typo3conf/ext/powermail/Resources/Public/Js/jquery.validationEngine-en.js?1393408836" type="text/javascript"></script>
+	<script src="typo3conf/ext/powermail/Resources/Public/Js/jquery.validationEngine.js?1393408836" type="text/javascript"></script>
+	<script src="typo3conf/ext/powermail/Resources/Public/Js/tabs.js?1393408836" type="text/javascript"></script>
+	<script src="typo3conf/ext/powermail/Resources/Public/Js/form.js?1393408836" type="text/javascript"></script>
+	<script src="typo3conf/ext/powermail/Resources/Public/Js/powermail_frontend.js?1393408836" type="text/javascript"></script>
+	<script src="fileadmin/templates/scripts/jquery.columnizer.js?1391070246" type="text/javascript"></script>
+	<script src="fileadmin/templates/scripts/utils.js?1454317387" type="text/javascript"></script>
+	<script type="text/javascript">
+	jQuery(document).ready(function($) {
+	var mapElement = document.getElementsByTagName("map")[0];
+	if(mapElement)
+	mlResizeMap();
+	});
+	</script>
+</body>
+</html>

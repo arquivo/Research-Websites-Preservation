@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- Content -->
+    <script type="text/javascript" src="content/hierarchy.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="content/translation.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="content/filterList.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="content/settings.js" charset="UTF-8"></script> 
+
+    <!-- Navigation code -->
+    <script type="text/javascript" src="includes/hierarchy.js" charset="UTF-8"></script>   
+    <script type="text/javascript" src="includes/navigation/event.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="includes/navigation/navigator.js" charset="UTF-8"></script> 
+    <script type="text/javascript" src="includes/navigation/projector.js" charset="UTF-8"></script> 
+    <script type="text/javascript" src="includes/navigation/menu.js" charset="UTF-8"></script> 
+    <script type="text/javascript" src="includes/navigation/treemenu.js" charset="UTF-8"></script> 
+    <script type="text/javascript" src="includes/navigation/mainmenu.js" charset="UTF-8"></script> 
+    <script type="text/javascript" src="includes/navigation/pagemenu.js" charset="UTF-8"></script> 
+    <script type="text/javascript" src="includes/navigation/tabmenu.js" charset="UTF-8"></script> 
+    <script type="text/javascript" src="includes/navigation/buttonmenu.js" charset="UTF-8"></script> 
+    <script type="text/javascript" src="includes/navigation/dropdownmenu.js" charset="UTF-8"></script>
+    
+    <!-- Other code-->
+    <script type="text/javascript" src="includes/filter.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="includes/search.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="includes/print.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="includes/background.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="includes/path.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="includes/jquery.js" charset="UTF-8"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="style/technical.css"/>
+    <link rel="stylesheet" type="text/css" href="style/presentation.css"/>
+    <link rel="stylesheet" type="text/css" href="custom/custom.css"/>
+    
+    <!-- Analitics -->
+    
+
+
+    <!-- Code behind -->
+    <script type="text/javascript" src="code/index.js"></script> 
+    
+    <!-- Title -->
+    <script type="text/javascript">document.write('<title>' + Settings.Title + '</title>');</script>
+</head>
+<body id="index_body">
+    <div style="float:right; position:relative; top:200px; width:200px; height:400px; z-index:999; margin-right:25px;">
+
+	<div class="quicklinks1">Consortium
+	</div>
+	<div class="quicklinks2"><a class="link link_internal map" onclick="OpenInternalLink('1194'); return false;" href="index.htm?page=1194" book_id="278"><img src="custom/map_s.jpg"></a>
+	</div>
+	<br/>
+
+	<div class="quicklinks1">Quicklinks
+	</div>
+	<div class="quicklinks2"><li><a class="link link_internal" onclick="OpenInternalLink('1224'); return false;" href="index.htm?page=1224" book_id="278">Project office</a></li><li><a class="link link_internal" onclick="OpenInternalLink('1222'); return false;" href="index.htm?page=1222" book_id="278">Material Motivational Interviewing</a></li><li><a class="link link_internal" onclick="OpenInternalLink('1262'); return false;" href="index.htm?page=1265" book_id="278">Newsletter latest issue</a></li><li>
+<a class="link link_download" title="Sign in to members area" href="https://www.juliuscenter.com/OPTiMiSE/en-GB/" target="_blank">Sign in to members area</a></li>
+
+<li>
+<a class="link link_download" title="Cannabidiol trial" href="http://trip.cimh.de/htd_en/cbd-fep_en.html" target="_blank">Cannabidiol trial</a></li>
+
+
+	</div>
+	<br/>
+
+	<div class="quicklinks1">OPTiMiSE Project flyer
+	</div>
+	<div class="quicklinks2"><a class="link link_download" href="custom/Brochure deliv 7 1.pdf" target="_blank">Download the project flyer</a><br/>
+	</div>
+	<br/>
+
+	<div class="quicklinks1">Disclaimer
+	</div>
+	<div class="quicklinks3"><img src="custom/fp7enEU.png"><br/>The project is funded by the European Community's Seventh Framework Programme under grant agreement No. HEALTH-F2-2010-242114 (Project OPTiMiSE).<br/>
+	</div>
+	<br/>
+</div>
+
+
+
+
+    <div id="center">
+        <div id="main">
+            <div id="header">
+                <div id="path"></div>
+                <div id="title"><script type="text/javascript">document.write(Settings.Title);</script></div>
+                <div id="home_button" onclick="Navigator.OpenHome();"></div>
+            </div>
+
+            <div id="options">
+                <div id="options_right">
+                    <script type="text/javascript">
+                        if (Settings.HeaderlinkText != "") {
+                            document.write('<a href="' + Settings.HeaderlinkUrl + '" target="_blanc" class="options_button">' + Settings.HeaderlinkText + '</a> | ');
+                        }
+                    </script>
+                    <a id="printButton" href="#" class="options_button" onclick="Printer.Print();"><script type="text/javascript">document.write(Translation.lbl_print);</script></a>
+                    <a href="#" id="filterButton" class="options_button" onclick="ToggleFilter();"><script type="text/javascript">document.write(Translation.lbl_filter);</script></a>
+                    <script type="text/javascript">
+                        document.write(" | ");
+                        if (Settings.InlineSearch == true) {
+                            document.write('<input type="text" id="search_text" onkeypress="if (event.keyCode==13) StartSearch();"/>');
+                        }
+                        document.write('<a id="searchButton" href="#" class="options_button" onclick="ToggleSearch();">' + Translation.lbl_search + '</a>');
+                    </script>
+                </div>
+            </div>
+
+            <div id="search" style="display: none;">
+            </div>
+            
+            <div id="filter" style="display: none;">
+            </div>
+            
+            <div id="index_content" class="content"></div>
+            <div id="footer"><script type="text/javascript">document.write(Settings.FooterText);</script></div>
+        </div>
+    </div>
+</body>
+</html>

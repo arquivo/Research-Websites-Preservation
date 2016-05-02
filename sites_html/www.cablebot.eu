@@ -1,0 +1,135 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+<title>Cablebot, Developing and evaluating cable robots customised for the automation in large-scale auxiliary processes</title>
+    
+    <!--[if lt IE 9]>
+    <script>
+      var e = ("abbr,article,aside,audio,canvas,datalist,details," +
+        "figure,footer,header,hgroup,mark,menu,meter,nav,output," +
+        "progress,section,time,video").split(',');
+      for (var i = 0; i < e.length; i++) {
+        document.createElement(e[i]);
+      }
+    </script>
+    <![endif]-->
+    
+    <link rel="stylesheet" type="text/css" media="screen" title="Reset Stylesheet" href="../estilos/html5reset-1.6.1.css">
+    <link href="../estilos/estilos.css" media="screen, print" rel="stylesheet" type="text/css">
+    <script src="../js/funciones.js"></script>
+    <script type='text/javascript'>
+		var fadeimages_home=new Array()
+		//SET IMAGE PATHS. Extend or contract array as needed
+		fadeimages_home[0]=['../fotos/cabeceras/home01.jpg', '', '']
+		fadeimages_home[1]=['../fotos/cabeceras/home02.jpg', '', '']
+		fadeimages_home[2]=['../fotos/cabeceras/home03.jpg', '', '']
+		fadeimages_home[3]=['../fotos/cabeceras/home04.jpg', '', '']
+		</script>
+    <script src="../js/animacion_fotos.js"></script>
+    
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <meta name="description" content="Cablebot, Developing and evaluating cable robots customised for the automation in large-scale auxiliary processes">
+    <meta name="keywords" content="Cablebot, Developing and evaluating cable robots customised for the automation in large-scale auxiliary processes">
+     
+     
+    <meta name="author" content="Anfora, anfora@anfora.net, www.anfora.net">
+    <meta name="rating" content="General">
+    <meta name="robots" content="index, follow">
+     
+    <link rel="shortcut icon" href="../favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="icon" href="../favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="shortcut icon" href="../images/favicon.gif" type="image/gif">
+    <link rel="icon" href="../images/favicon.gif" type="image/gif">
+
+</head>
+
+<body>
+
+	<section id="color_web_fondo"><h1 class="ayuda-acces">Cablebot, Developing and evaluating cable robots customised for the automation in large-scale auxiliary processes</h1>
+        <section id="web_marco">
+            <section id="web" class="clearfix">
+                <section id="cabecera">
+                	<section id="cabecera_izq">
+                        <section id="logo"><a href="index.php" title="Ir a la home"><img src="../images/logo.png" alt="Enlace del logo de Dimaq"></a></section>
+                        <header>Developing and evaluating cable robots customised for the automation in large-scale auxiliary processes</header>
+                    </section>
+                    <section id="cabecera_der">
+                    	<section id="cabecera_buscador">
+                            <form id="form_buscador" name="form_buscador" action="searcher/" method="post">
+                                <label for="boton_buscar">
+                                    <span style="display:none">Search</span>
+                                    <input type="submit" name="boton_buscar" id="boton_buscar" value="Search">
+                                </label>
+                                <label for="buscador">
+                                    <input type="text" name="buscador" id="buscador" value="Insert text to search" onblur="if (this.value == '') {this.value = 'Insert text to search';}" onfocus="if (this.value == 'Insert text to search') {this.value = '';}" />
+                                </label>
+                            </form>
+                        </section>
+                        <section id="arriba_fotos">
+                            <script type="text/javascript">
+                                //new fadeshow(IMAGES_ARRAY_NAME, slideshow_width, slideshow_height, borderwidth, delay, pause (0=no, 1=yes), optionalRandomOrder)
+                                new fadeshow(fadeimages_home, 690, 300, 0, 5000, 1, "R")
+                            </script>
+                        </section>
+                        <section id="arriba_menu"><nav>
+		<!--MENU-->
+		<ul>
+							<li><a href="" accesskey="1" target="_self">Summary</a></li>
+							<li><a href="consortium/" accesskey="2" target="_self">Consortium</a></li>
+							<li><a href="news_events/" accesskey="3" target="_self">News & Events</a></li>
+							<li><a href="links/" accesskey="4" target="_self">Links</a></li>
+							<li><a href="contact_us/" accesskey="5" target="_self">Contact us</a></li>
+							<li><a href="private_area/" accesskey="6" target="_self">Private Area</a></li>
+							<li><a href="media/" accesskey="7" target="_self">Media</a></li>
+							<li><a href="publications/" accesskey="8" target="_self">Publications</a></li>
+					</ul>
+	  <!-- FIN MENU-->
+</nav></section>
+                    </section>
+                </section>
+                <section id="zona_izq">
+					<section id="accesos_izq"><img src="../fotos/accesos/foto01.jpg" alt="Imagen about Cablebot"></section>
+                </section>
+                <section id="contenido">
+                    <article>
+                    	<h2>CableBOT- Parallel Cable Robotics for Improving Maintenance and Logistics of Large-Scale Products</h2>
+                        <p>The main objective of CableBOTproject is the development of a new generation of modular and reconfigurable robotic devices that are capable to perform many different steps in the life-cycle stages of large-scale structures.</p>
+                        <p>The CableBOT project deals with a novel methodology for designing, developing and evaluating cable robots customised for the automation in large-scale auxiliary processes. Parallel cable robots extend the payloads and workspace of conventional industrial robots by more than two orders of magnitude.</p>
+                        <p>Three key technologies will be developed to enable the vision:</p>
+                        <ul>
+                        <li><span class="negrita">·</span>&nbsp;Design of Cable Robot: Software tools to design the layout and geometry of cable robots. The ad-hoc connection of groups of winches to different end-effectors creates different setups for cable robots in order to achieve flexibility and reconfigurability.</li>
+                        <li><span class="negrita">·</span>&nbsp;Industrial Process Planning: Simulation of cable robots to verify the operation of cable robots in environments with large-scale structures.</li>
+                        <li><span class="negrita">·</span>&nbsp;Control Algorithms and Systems: Distributed control and kinematic transformation to operate modular cable robots such as grids of cable robots under industrial requirements.</li>
+                        </ul>
+                        <p>The combination of these technologies in an integrated robotic system results in a versatile system. CableBOT will demonstrate the potential of such automated systems for life-cycle maintenance and repairing of aircrafts and to introduce automation in life-cycle applications in the construction industry such as handling of beams.</p>
+                        <p>Within CableBOT two fields of application are targeted in close cooperation to industry: Aircraft life-cycle maintenance in the aerospace industry and the construction beamspost-production handling. Both applications are characterized by the fact that the state-of-the-art automation can hardly be used due to manoeuvrability of heavy and large structures and risks associated. The results are feasible for many other fields including large-workspace movements of products, with impact in logistics, transport, and warehousing.</p>
+                        <p>&nbsp;</p>
+                        <h2>MAIN PROJECT DATA</h2>
+                        <p>START NOVEMBER 2011<br>
+DURATION 36 MONTHS<br>
+TOTAL BUDGET € 4,44M<br>
+The project has received funding from the European Union Seventh Framework Programme (FP7/2007-2013) under grant agreement n° 285404.<br>
+EU Funding: € 3M (67%)<br>
+COORDINADOR Mariola Rodríguez (TECNALIA)</p>
+                    </article>
+                </section>
+            </section>
+        </section>
+        <footer id="pie">
+        	<section id="pie_izq">
+            	<a href="http://cordis.europa.eu/fp7/home_en.html" title="Go to European Commission within the 7th Framework Programme website" target="_blank" rel="nofollow"><img src="../images/seventh_pie.jpg" alt="European Commission within the 7th Framework Programme"></a>
+            	<a href="http://ec.europa.eu/research/index.cfm?lg=fr" title="Go to EUROPEAN COMMISSION" target="_blank" rel="nofollow"><img src="../images/comision_europea_pie.jpg" alt="European Commission within the 7th Framework Programme"></a>
+            </section>
+            <section id="pie_der">
+            	PROJECT COORDINATOR<br>
+                Mariola Rodr&iacute;guez Mijangos
+                <a href="mailto:mariola.rodriguez@tecnalia.com" title="Send a email to mariola.rodriguez@tecnalia.com">mariola.rodriguez@tecnalia.com</a>
+            </section>
+        </footer>
+    </section>
+</body>
+</html>

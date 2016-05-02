@@ -1,0 +1,291 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/sepserver/css/index.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="/sepserver/css/slimbox2.css" type="text/css" media="screen" />
+<!--[if IE 6]>
+    <link href="/sepserver/css/ie6.css" type="text/css" rel="stylesheet" />
+
+    <script src="/sepserver/js/dd_belated_png.js"></script>
+    <script>DD_belatedPNG.fix('#logo a, .h-box-1 img, .h-box-2 img, .brochure img, .slide-txt');</script>  
+<![endif]-->
+<script type="text/javascript" src="/sepserver/js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="/sepserver/js/jqueryslidemenu.js"></script>
+<script type="text/javascript" src="/sepserver/js/jquery-ui-1.7.2.custom.min.js"></script>
+<script type="text/javascript" src="/sepserver/js/slimbox2.js"></script>
+
+    <style>
+    #logo a {
+        background:url(/sepserver/asset/ce233fb9-c0cd-4357-8a39-08d1fedab463/logo.jpg) no-repeat;
+    }
+    </style>
+
+
+
+
+
+
+
+
+
+    <title>SEPServer public web page - Home</title>
+        <meta name="description" content=""/>
+</head>
+<body>
+<div id="body-wrapper">
+    <div class="clearfix">
+        <div id="logo"> 
+            <a href="/sepserver/">This is an example Alfresco-backed Web Site</a>
+            <p class="logo-desc">SEPServer public web page</p>
+        </div>
+        <div class="link-menu">
+            <ul>                
+                <!--<li><a href="#">Accessibility</a></li>-->
+                <li><a href="/sepserver/contact/contact.html">Send e-mail</a></li>
+            </ul>
+        </div>
+<form action="/sepserver/search.html" method="get">
+    <fieldset class="search-fieldset">
+        <input type="hidden" value="workspace://SpacesStore/dfef319f-737e-4a90-acaf-2a3401aba7fc" name="sectionId" />
+        <input type="text" class="search-input" value="search" name="phrase" id="search-phrase" maxlength="100"/>
+        <input type="submit" value="" class="input-arrow" />
+    </fieldset>
+</form>
+    </div>
+  
+    <div class="main-menu-wrapper">
+
+<div id="myslidemenu" class="jqueryslidemenu">
+    <ul class="primary-menu">
+		<li><a href="/sepserver/" accesskey="1">Home</a></li>
+    			<li><a href="/sepserver/news/" accesskey="2">News</a>
+    <ul>
+    			<li><a href="/sepserver/news/Related-News/">Related News</a>
+    <ul>
+	</ul>
+    			</li>
+    			<li><a href="/sepserver/news/Short-News/">Short News</a>
+    <ul>
+	</ul>
+    			</li>
+    			<li><a href="/sepserver/news/SEPServer-Project-News/">SEPServer Project News</a>
+    <ul>
+	</ul>
+    			</li>
+	</ul>
+    			</li>
+    			<li><a href="/sepserver/publications/" accesskey="4">Publications</a>
+    <ul>
+    			<li><a href="/sepserver/publications/Conference-proceedings/">Conference Proceedings</a>
+    <ul>
+	</ul>
+    			</li>
+    			<li><a href="/sepserver/publications/Research/">Research Reports</a>
+    <ul>
+	</ul>
+    			</li>
+    			<li><a href="/sepserver/publications/Conference presentations/">Conference presentations</a>
+    <ul>
+	</ul>
+    			</li>
+    			<li><a href="/sepserver/publications/Refereed-Publications/">Refereed Publications</a>
+    <ul>
+	</ul>
+    			</li>
+	</ul>
+    			</li>
+	 <li><a href="http://h96.it.helsinki.fi/share/" accesskey="1">Intranet</a></li>
+
+	 <li><a href="http://server.sepserver.eu" accesskey="1">SEPServer</a></li>
+	</ul>
+</div>
+    </div>
+  
+    <script type="text/javascript" src="/sepserver/js/slideswitch.js"></script>
+    <div id="slideshow-wrapper">
+        <ul id="slideshow">
+                <li >                     
+                        <a href="/sepserver/news/SEPServer_event_catalogue"><img src="/sepserver/asset/9246177d-af6c-4684-aefd-c622bbfb4d1e/panel.png?rendition=featuredNewsThumbnail" alt="panel.png" class="slide-1-img" /></a>
+                    <div class="slide-1-desc">
+                      <h1>The first SEPServer Event Catalogue has been released</h1>
+                      <p>The first solar energetic particle (SEP) event catalogue has been published by the SEPServer consortium on the server website</p>
+                      <div class="slideshow-rm"><a href="/sepserver/news/SEPServer_event_catalogue">read more</a></div>
+                    </div>
+                </li>
+                <li class="active">                     
+                        <a href="/sepserver/news/Dissemination/SEPServer_workshop_2013.html"><img src="/sepserver/asset/1fa6c107-097f-4a73-b3ff-f1349f2ed4c5/SEPServer_Meudon_group_small.jpg?rendition=featuredNewsThumbnail" alt="SEPServer_Meudon_group_small.jpg" class="slide-1-img" /></a>
+                    <div class="slide-1-desc">
+                      <h1>SEPServer Workshop, Meudon, 19-22 March 2013</h1>
+                      <p>SEPServer Workshop on Solar Energetic Particle (SEP) Events was held in Paris Observatory, Meudon, on 19-22 March 2013. The workshop brought together about 40 experts on SEP events from all over Europe.</p>
+                      <div class="slideshow-rm"><a href="/sepserver/news/Dissemination/SEPServer_workshop_2013.html">read more</a></div>
+                    </div>
+                </li>
+                <li >                     
+                        <a href="/sepserver/news/SEPServer+server"><img src="/sepserver/asset/9853b25d-506a-46cc-8f7d-02d043029726/sepserver_serverhome.png?rendition=featuredNewsThumbnail" alt="sepserver_serverhome.png" class="slide-1-img" /></a>
+                    <div class="slide-1-desc">
+                      <h1>SEPServer released</h1>
+                      <p>SEPServer was released to the users during the Tenth European Space Weather Week in Antwerp on 19 November 2013.</p>
+                      <div class="slideshow-rm"><a href="/sepserver/news/SEPServer+server">read more</a></div>
+                    </div>
+                </li>
+        </ul>
+    </div>
+  
+  <div id="left">
+    	<div class="clearfix">
+    	    <h2>News and Analysis</h2>
+    	    <p class="header-desc">We bring value, innovation and growth to your research</p>
+    	</div>
+    
+    <div class="interior-content">
+    		<ul class="newslist-wrapper">
+    		        <li>
+                            <a href="/sepserver/news/SlidePublic1.html"><img src="/sepserver/asset/2bde2939-6489-4474-a692-9ddf00c85ea9/release1.jpg?rendition=smallThumbnail" alt="release1.jpg" class="news-img" /></a>
+    		            <h4><a href="/sepserver/news/SlidePublic1.html">Understanding Solar Eruptions and Extreme Space Weather Events</a></h4>
+    		            <span class="newslist-date">19 May 2011 10:03 PM</span>
+    		            <p>The Sun is both a source of all life and significant hazards. Solar energetic particle (SEP) events provoke extreme space weather. At the same time energetic particles are a fundamental ingredient of the Universe. The SEPServer project will combine fragmented data to better understand SEP events.</p>
+    		        </li>
+    		        <li>
+                            <a href="/sepserver/news/Dissemination/SEPServer_workshop_2013.html"><img src="/sepserver/asset/1fa6c107-097f-4a73-b3ff-f1349f2ed4c5/SEPServer_Meudon_group_small.jpg?rendition=smallThumbnail" alt="SEPServer_Meudon_group_small.jpg" class="news-img" /></a>
+    		            <h4><a href="/sepserver/news/Dissemination/SEPServer_workshop_2013.html">SEPServer Workshop, Meudon, 19-22 March 2013</a></h4>
+    		            <span class="newslist-date">15 April 2013 01:51 PM</span>
+    		            <p>SEPServer Workshop on Solar Energetic Particle (SEP) Events was held in Paris Observatory, Meudon, on 19-22 March 2013. The workshop brought together about 40 experts on SEP events from all over Europe.</p>
+    		        </li>
+    		        <li>
+                            <a href="/sepserver/news/SEPServer+server"><img src="/sepserver/asset/9853b25d-506a-46cc-8f7d-02d043029726/sepserver_serverhome.png?rendition=smallThumbnail" alt="sepserver_serverhome.png" class="news-img" /></a>
+    		            <h4><a href="/sepserver/news/SEPServer+server">SEPServer released</a></h4>
+    		            <span class="newslist-date">29 November 2013 02:10 PM</span>
+    		            <p>SEPServer was released to the users during the Tenth European Space Weather Week in Antwerp on 19 November 2013.</p>
+    		        </li>
+    		</ul>
+    </div>
+
+
+
+<!-- Start of Missing Component Binding -->
+<!--
+unbound-region-left2
+-->
+<!-- End of Missing Component Binding -->
+
+
+
+
+<!-- Start of Missing Component Binding -->
+<!--
+unbound-region-left3
+-->
+<!-- End of Missing Component Binding -->
+
+
+    
+    <div class="h-box-1">
+    <div class="services-box">
+            <h3>Featured</h3>
+            <p>This is a collection of featured content items.</p>            
+        
+            <ul class="services-box-list">
+                    <li>
+                        <a href="/sepserver/publications/Conference presentations/Agueda-ESWW9.pdf">A Database of &gt;20 keV Electron Green's Functions of Interplanetary Transport at 1 AU</a> 
+                    </li>
+                    <li>
+                        <a href="/sepserver/publications/Conference presentations/SEPServer+simulation+results+in+ESWW9-1.pdf">SEPServer simulation results in ESWW9.pdf</a> 
+                    </li>
+                    <li>
+                        <a href="/sepserver/publications/Conference presentations/SEPServer+system+description+in+ESWW9.pdf">SEPServer system description in ESWW9.pdf</a> 
+                    </li>
+                    <li>
+                        <a href="/sepserver/news/SEPServer_event_catalogue">The first SEPServer Event Catalogue has been released</a> 
+                    </li>
+                    <li>
+                        <a href="/sepserver/news/SEPServer+server">SEPServer released</a> 
+                    </li>
+            </ul>
+    </div>
+    </div>
+
+    <div class="h-box-2">
+<div class="address-box">
+    <!-- featured case study overview --> <!-- <img src="img/case_study_icon.png" mce_src="/share/page/site/wcmquickstart/img/case_study_icon.png" width="54" height="54" alt="" class="h-box-img" /> -->
+<div class="h-box-title">
+<h3>Acknowledgement<br /></h3>
+<p class="header-desc"><span class="viewmode-value">The research leading to these  results has  received funding from the European Community's Seventh  Framework  Programme (FP7/2007-2013) under grant agreement n&deg; 262773.</span></p>
+</div>
+<div class="h-box-wrap">
+<p>&nbsp;</p>
+</div></div>
+
+
+    </div>
+        
+  </div>
+  
+  <div id="right">
+    <div class="latest-news">
+    		<h3>Latest Blog Articles</h3>
+    	
+    		<ul class="ln-list">
+    		        <li>
+    		          <h6><a href="/sepserver/blog/Coordinator%27s+Blog+2013">Web site updated</a></h6>
+    		          <p></p>
+    		          <div class="ln-date">25 January 2013 01:56 PM</div>
+    		        </li>
+    		</ul>
+    </div>
+
+
+
+<!-- Start of Missing Component Binding -->
+<!--
+unbound-region-right2
+-->
+<!-- End of Missing Component Binding -->
+
+
+
+
+<!-- Start of Missing Component Binding -->
+<!--
+unbound-region-right3
+-->
+<!-- End of Missing Component Binding -->
+
+
+  </div>
+     
+    <div id="footer">
+        <div class="copyright"><a href="http://www.alfresco.com">Alfresco.com</a></div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+$(document).ready(function(){                      
+    $(".ln-list li").click(function(){//makes entire area "ln-list li" clickable
+        window.location=$(this).find("a").attr("href");return false;
+    });
+    
+    $(".brochure").click(function(){//makes entire area "brochure" clickable
+        window.location=$(this).find("a").attr("href");return false;
+    });     
+});
+
+(function() 
+ {
+    if (window.addEventListener) window.addEventListener("load", init, false);
+    else if (window.attachEvent) window.attachEvent("onload", init);
+    
+    function init() 
+    {
+        var field = document.getElementById("search-phrase");
+        field.onfocus=function() 
+        {
+            if (this.value == "search") this.value = "";
+        };
+    }
+})();        
+</script>
+</body>
+</html>

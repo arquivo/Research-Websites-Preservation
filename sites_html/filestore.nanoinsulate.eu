@@ -1,0 +1,580 @@
+
+
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en">
+
+  
+    
+    
+    
+    
+    
+
+  
+
+  <head>
+
+    <meta http-equiv="Content-Type"
+          content="text/html;charset=utf-8" />
+
+    
+      <base href="http://filestore.nanoinsulate.eu/nanoinsulate-file-store" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    <link rel="kss-base-url" href="http://filestore.nanoinsulate.eu/nanoinsulate-file-store" />
+
+  
+  
+    
+    
+    
+      <style type="text/css">@import url(http://filestore.nanoinsulate.eu/portal_css/Plone%20Default/base-cachekey8155.css);</style>
+    
+    
+    
+  
+
+  
+    
+    
+    
+      <style type="text/css" media="all">@import url(http://filestore.nanoinsulate.eu/portal_css/Plone%20Default/ploneCustom-cachekey5433.css);</style>
+    
+    
+    
+  
+
+
+  
+  
+    
+    
+      <script type="text/javascript"
+              src="http://filestore.nanoinsulate.eu/portal_javascripts/Plone%20Default/jquery-cachekey3185.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://filestore.nanoinsulate.eu/portal_javascripts/Plone%20Default/resourcebase2-dom-fp-cachekey5128.js">
+      </script>
+    
+    
+    
+  
+
+
+  
+  <link rel="kinetic-stylesheet" type="text/css"
+        href="http://filestore.nanoinsulate.eu/portal_kss/Plone%20Default/at-cachekey8140.kss" />
+
+
+
+<title>NanoInsulate File Store &mdash; nanoinsulate</title>
+
+
+    <!-- Internet Explorer Fixes -->
+    <!--[if IE]>
+        <style type="text/css" media="all">@import url(http://filestore.nanoinsulate.eu/IEFixes.css);</style>
+        
+        <script type="text/javascript"
+                src="http://filestore.nanoinsulate.eu/iefixes.js">
+        </script>
+        
+    <![endif]-->
+
+    
+
+    <link rel="shortcut icon" type="image/x-icon"
+          href="http://filestore.nanoinsulate.eu/favicon.ico" />
+
+
+
+    <link rel="home" href="http://filestore.nanoinsulate.eu"
+          title="Front page" />
+
+    <link rel="contents"
+          href="http://filestore.nanoinsulate.eu/sitemap"
+          title="Site Map" />
+
+
+
+
+
+
+    <link rel="search"
+          href="http://filestore.nanoinsulate.eu/search_form"
+          title="Search this site" />
+
+
+
+    <!-- Disable IE6 image toolbar -->
+    <meta http-equiv="imagetoolbar" content="no" />
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+  </head>
+
+  <body class="section-nanoinsulate-file-store template-document_view"
+        dir="ltr">
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr><td align="center">
+<table class="restrict-width" border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr><td align="left">
+    <div id="visual-portal-wrapper">
+
+      <div id="portal-top">
+        <div id="portal-header">
+<p class="hiddenStructure">
+  <a accesskey="2"
+     href="http://filestore.nanoinsulate.eu/#documentContent">Skip to content.</a> |
+
+  <a accesskey="6"
+     href="http://filestore.nanoinsulate.eu/#portlet-navigation-tree">Skip to navigation</a>
+</p>
+
+<ul id="portal-siteactions">
+
+    <li id="siteaction-sitemap"><a
+    href="http://filestore.nanoinsulate.eu/sitemap"
+    accesskey="3" title="Site Map">Site Map</a></li>
+    <li id="siteaction-accessibility"><a
+    href="http://filestore.nanoinsulate.eu/accessibility-info"
+    accesskey="0" title="Accessibility">Accessibility</a></li>
+    <li id="siteaction-contact"><a
+    href="http://filestore.nanoinsulate.eu/contact-info"
+    accesskey="9" title="Contact">Contact</a></li>
+
+</ul>
+
+<div id="portal-searchbox">
+    <form name="searchform"
+          action="http://filestore.nanoinsulate.eu/search">
+
+        <label for="searchGadget" class="hiddenStructure">Search Site</label>
+
+        <div class="LSBox">
+        <input name="SearchableText" type="text" size="18"
+               title="Search Site" accesskey="4"
+               class="inputLabel" id="searchGadget" />
+
+        <input class="searchButton" type="submit"
+               value="Search" />
+    
+ <!--       <div class="searchSection">
+            <input id="searchbox_currentfolder_only" 
+                   class="noborder"
+                   type="checkbox" 
+                   name="path" 
+                   tal:attributes="value view/folder_path"
+                   />
+            <label for="searchbox_currentfolder_only" 
+                   i18n:translate="label_searchbox_currentfolder_only"
+                   style="cursor: pointer">
+                only in current section
+            </label>
+        </div>
+-->
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="http://filestore.nanoinsulate.eu/search_form"
+           accesskey="5">
+            Advanced Search&hellip;
+        </a>
+    </div>
+
+</div>
+
+<a id="portal-logo" accesskey="1"
+   href="http://filestore.nanoinsulate.eu">
+    <img src="http://filestore.nanoinsulate.eu/logo.jpg" alt="" title="logo.jpg" height="80" width="218" /></a>
+
+
+    <h5 class="hiddenStructure">Sections</h5>
+
+    <ul id="portal-globalnav">
+        <li id="portaltab-index_html" class="selected"><a
+    href="http://filestore.nanoinsulate.eu" title="">Home</a></li>
+    </ul>
+
+</div>
+
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Personal tools</h5>
+
+<ul id="portal-personaltools" class="visualInline">
+   
+
+    
+        <li>
+            <a href="http://filestore.nanoinsulate.eu/login_form">Log in</a>
+        </li>
+    
+
+</ul>
+</div>
+
+
+    
+
+
+<div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">You
+are here:</span>
+    <a href="http://filestore.nanoinsulate.eu">Home</a>
+    
+
+</div>
+
+      </div>
+
+      <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+
+      
+      <table id="portal-columns">
+        <tbody>
+          <tr>
+            
+            
+            
+
+            
+            <td id="portal-column-content">
+
+              
+                <div class="">
+
+                  
+
+
+                  <div id="region-content" class="documentContent">
+
+                    <span id="contentTopLeft"></span>
+                    <span id="contentTopRight"></span>
+                    
+                    <a name="documentContent"></a>
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+                    
+                    <div id="viewlet-above-content"></div>
+
+                    
+                    
+                    <div id="content">
+                      
+                      
+    
+
+        
+
+        <h1 class="documentFirstHeading"> 
+            
+        <span class="" id="parent-fieldname-title">
+            NanoInsulate File Store
+        </span>
+    
+        </h1>
+
+        
+
+
+
+
+        <p class="documentDescription">
+            
+        <span class="" id="parent-fieldname-description">
+            
+        </span>
+    
+        </p>
+
+        
+
+
+
+        
+
+        
+        <div class="" id="parent-fieldname-text">
+            
+<p>This is the document store for the NanoInsulate FP7 project.&nbsp;
+You will need to log in to access the documents.</p>
+
+            
+        </div>
+    
+
+        <div class="relatedItems">
+    
+        
+            
+        
+    
+</div>
+    
+        
+
+<div class="visualClear"><!-- --></div>
+<div class="documentActions">
+    
+
+    <h5 class="hiddenStructure">Document Actions</h5>
+
+    <ul>
+    
+        <li id="document-action-sendto">
+            <a href="http://filestore.nanoinsulate.eu/nanoinsulate-file-store/sendto_form"
+               title="">Send this</a>
+        </li>
+    
+    
+        <li id="document-action-print">
+            <a href="javascript:this.print();" title="">Print this</a>
+        </li>
+    
+
+    </ul>
+    
+
+    
+
+</div>
+
+
+
+    
+
+                    </div>
+                    
+
+                    
+                    
+                      
+    
+
+
+
+
+                    
+                    
+
+                    <span id="contentBottomLeft"></span>
+                    <span id="contentBottomRight"></span>
+
+                  </div>
+
+                </div>
+
+              
+            </td>
+            
+
+            
+            <td id="portal-column-two">
+              <div class="visualPadding">
+                
+                  
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f6e616e6f696e73756c6174650a63616c656e646172"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f6e616e6f696e73756c6174650a63616c656e646172"><dl class="portlet portletCalendar"
+    xmlns="http://www.w3.org/1999/xhtml">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="?month:int=1&amp;year:int=2016&amp;orig_query="
+           rel="nofollow" title="Previous month"
+           id="calendar-previous"
+           class="kssCalendarChange kssattr-year-2016 kssattr-month-1 calendarPrevious">&laquo;</a>
+
+        
+            February
+            2016
+        
+
+        <a href="?month:int=3&amp;year:int=2016&amp;orig_query="
+           rel="nofollow" title="Next month"
+           id="calendar-next"
+           class="kssCalendarChange kssattr-year-2016 kssattr-month-3 calendarNext">&raquo;</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem">
+        <table class="ploneCalendar" summary="Calendar">
+            <caption class="hiddenStructure">February</caption>
+            <thead>
+                <tr class="weekdays"><th scope="col">Mo</th><th
+    scope="col">Tu</th><th scope="col">We</th><th
+    scope="col">Th</th><th scope="col">Fr</th><th
+    scope="col">Sa</th><th scope="col">Su</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td>
+                </tr>
+                <tr><td class="todaynoevent"><strong>8</strong></td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td>
+                </tr>
+                <tr><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td>
+                </tr>
+                <tr><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td>
+                </tr>
+                <tr><td>29</td><td></td><td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            </tbody>
+
+        </table>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f6e616e6f696e73756c6174650a6c6162656c5f6c6f675f696e"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f6e616e6f696e73756c6174650a6c6162656c5f6c6f675f696e">
+
+<dl class="portlet portletLogin">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="http://filestore.nanoinsulate.eu/login_form"
+           class="tile">Log in</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+        <form action="http://filestore.nanoinsulate.eu/login_form"
+              name="loginform" method="post">
+
+            <input type="hidden" name="form.submitted" value="1" />
+            <input type="hidden" name="came_from"
+                   value="http://filestore.nanoinsulate.eu/" />
+            <input type="hidden" name="js_enabled" id="js_enabled" value="0" />
+            <input type="hidden" name="cookies_enabled" id="cookies_enabled" value="" />
+            <input type="hidden" name="login_name" id="login_name" value="" />
+            <input type="hidden" name="pwd_empty" id="pwd_empty" value="0" />
+
+            <div class="field">
+                <label for="__ac_name">Login Name</label>
+                <br />
+                <input type="text" size="10"
+                       alt="Login Name" name="__ac_name"
+                       value="" id="__ac_name" />
+            </div>
+            
+            <div class="field">
+                <label for="__ac_password">Password</label>
+                <br />
+                <input type="password" size="10"
+                       alt="Password" name="__ac_password"
+                       id="__ac_password" />
+            </div>
+
+            <div class="cookiesMessage portalMessage"
+                 style="display:none">
+                Cookies are not enabled. You must enable cookies before you
+                can log in.
+            </div>
+            
+            <div class="formControls">
+            
+                <input class="context" type="submit"
+                       name="submit" value="Log in"
+                       alt="Log in" />
+            </div>
+        </form>
+    </dd>
+    
+    <dd class="portletItem even">
+        <a href="http://filestore.nanoinsulate.eu/mail_password_form"
+           class="tile">
+           <img src="http://filestore.nanoinsulate.eu/info_icon.gif" alt="" title="" height="16" width="16" />
+           Forgot your password?
+        </a>
+    </dd>
+    
+    
+</dl>
+
+
+
+
+</div>
+
+
+
+
+                
+                &nbsp;
+              </div>
+            </td>
+            
+          </tr>
+        </tbody>
+      </table>
+      
+
+      <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+      
+      
+
+      
+
+        <div id="portal-footer">
+<p>
+<img src="logos.png" />The NanoInsulate project is supported by funding from the European Union Seventh Framework Programme (FP7/2007 – 2013) under grant agreement no. NMP4-SL-2010-260086
+</p>
+
+
+
+</div>
+
+
+
+      
+
+      <div class="visualClear"><!-- --></div>
+    </div>
+<div id="kss-spinner"><img alt=""
+                           src="http://filestore.nanoinsulate.eu/spinner.gif" /></div>
+
+
+</td></tr></table>
+</td></tr></table>
+
+</body>
+</html>
+
+

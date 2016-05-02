@@ -1,0 +1,302 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <title>C-Energy Project</title>
+    <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/css/jquery.bxslider.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/css/style.css" type="text/css" media="all">
+    <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700italic,700,400italic' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+      <script src="/js/html5shiv.js"></script>
+      <script src="/js/respond.min.js"></script>
+    <![endif]-->
+    <script type='text/javascript' src="/js/jquery-1.10.2.min.js"></script>
+    <script type='text/javascript' src="/js/bootstrap.min.js"></script>
+	
+    <script type='text/javascript' src="/js/jquery.bxslider.min.js"></script>
+	
+    <script type='text/javascript' src="/js/script.js"></script>
+  </head>
+	<body>
+	    <div id="wrap">
+      <div id="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="navbar">
+                <div class="navbar-header navbar-default">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="/"></a>
+                </div>
+                <div id="social-link">
+                  <ul class="list-inline list-unstyled">
+                    <li><a href="https://twitter.com/C_energy2020" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/pages/C-Energy-2020/1443912772585144" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <!--<li><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
+                    <li><a href="/contact-form/"><i class="fa fa-envelope-o"></i></a></li>
+                  </ul>
+                </div>
+                <div class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="/homepage/">Home</a></li>
+                    <li class="dropdown">
+                      <a href="/about/" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="/about/our-mission/">Our mission</a></li>
+                        <li><a href="/about/our-services/">Our services</a></li>
+                        <li><a href="/about/consortium/">The consortium</a></li>
+                        <li><a href="/about/deliverables-and-reports/">Deliverables and reports</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="/newsletter/">Get newsletter</a></li>
+						    <li><a href="http://intranet.c-energy2020.eu" target="_blank">Intranet</a></li>
+                    <li><a href="/contact-form/">Contacts</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+	
+						   <div id="main-content" class="container">
+						
+<div class="row">
+          <div class="col-lg-10 col-lg-offset-1">
+            <div id="carousel-hp" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-hp" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-hp" data-slide-to="1"></li>
+                
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active">
+                  <a href="/c-energy-2020-project/"><img src="/images/slide1.jpg">
+                  <div class="carousel-caption">
+                    <h1>C-ENERGY 2020</h1>
+                    <h3>Connecting Energy National Contact Points in a pro-active network under Societal Challenge 3 'Secure, clean and efficient energy' in Horizon 2020</h3>
+                  </div></a>
+                </div>
+                <div class="item">
+                  <a href="/ncp-map/"><img src="/images/slide1.jpg">
+                  <div class="carousel-caption">
+                    <h1>NCP Map</h1>
+                    <h3>Locate in the MAP the National Contact Points under Societal Challenge 3 'Secure, clean and efficient energy' in Horizon 2020</h3>
+                  </div></a>
+                </div>
+                
+              </div>
+              <a class="left carousel-control" href="#carousel-hp" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#carousel-hp" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div>
+            
+            <div id="icons-menu" class="internal text-center">
+              <ul class="list-inline list-unstyled">
+                <li><a href="/find-your-ncp/"><span class="icon"><img src="/images/find-ncp-icon.png"></span>Find your NCP</a></li>
+                <li><a href="/eu-funding/eu-funding-opportunities/"><span class="icon"><img src="/images/eu-funding-icon.png"></span>EU funding</a></li>
+                <li><a href="http://www.partnersearch.c-energy2020.eu"><span class="icon"><img src="/images/partner-search-icon.png"></span>Partner Search</a></li>
+                <li><a href="/eu-networks/"><span class="icon"><img src="/images/EU-networks-icon.png"></span>EU networks</a></li>
+                <li><a href="/news-eu-policy/"><span class="icon"><img src="/images/news-icon.png"></span>News & EU Policy</a></li>
+                <li><a href="/calendar/"><span class="icon"><img src="/images/agenda-icon.png"></span>Calendar</a></li>
+                <li><a href="#"><span class="icon"><img src="/images/media-icon.png"></span>Media</a></li>
+              </ul>
+            </div>
+            
+            <div class="row" style="margin-top:20px;">
+              <div class="col-sm-4 box-home">
+                <h2>C-Energy 2020 Project</h2>
+                <p><strong><span>C-ENERGY 2020</span></strong><span> is a 48 month Coordination and Support Action having <strong>three specific objectives</strong>:</span></p>
+<ul>
+<li>ensuring high quality Energy NCP services for Horizon 2020 and related programmes applicants;</li>
+<li>lowering entry barriers for Energy NCPs approaching EU Framework Programmes for R&amp;I for the first time;</li>
+<li>Consolidating the network of Energy NCPs.</li>
+</ul>
+<p>The Project, builds up on the experience of the previous C-Energy and C-Energy+ projects, kicked off on the <strong>1<sup>st</sup> December 2014</strong> in Rome and will be lasting until the <strong>30<sup>th</sup> November 2018</strong></p>
+                
+						  <p><a href="/c-energy-2020-project/" alt="m.UrlName">Read More</a></p>
+
+              </div>
+              <div class="col-sm-4 box-home">
+                <h2>H2020 Energy</h2>
+                
+                
+				  
+                <p><span>The Energy Societal Challenge in H2020, the EU R&amp;I funding programme 2014-20, is <strong>one of the most important in terms of earmarked budget</strong> (€ 5,9 bn) over the next 7 years. This reflects the special attention the European Commission attaches to the shift towards an energy secure, competitive, climate resilient and low-carbon economy. This energy transition is underpinned by the <strong>EU</strong> <strong>2020 and 2030 energy and climate objectives</strong> and is part of the longer term EU strategy for the emissions reduction by 2050 (80-95% compared to 1990 levels). The launch of the <strong>European Energy Union</strong> package in February 2015 confirmed that energy is a top priority for the European Commission that set </span><span>the ambitious goal for the EU to become<strong> 'the world number one in renewable energies'</strong>. </span></p>
+                
+						  <p><a href="/media/1002/energy_in_h2020.pdf" alt="m.UrlName" target="_blank">Read more</a></p>
+
+              </div>
+              <div class="col-sm-4">
+                <div id="tabs-news">
+                  <ul class="nav nav-tabs">
+                    <li class="active"><a href="#openCall" aria-controls="openCall" data-toggle="tab">Open Call</a></li>
+                    <li><a href="#news" aria-controls="news" data-toggle="tab">News</a></li>
+                    <li><a href="#policyUpdates" aria-controls="policyUpdates" data-toggle="tab">Policy updates</a></li>
+                  </ul>
+                  <div class="tab-content">
+                    <div class="tab-pane fade active in" id="openCall">
+						<article>
+					<p class="date">08 December 2015</p>
+					<h3>H2020 - Competitive Low-Carbon Energy</h3>
+					<p><a href="https://ec.europa.eu/research/participants/portal/desktop/en/opportunities/h2020/calls/h2020-lce-2016-2017.html#c,topics=callIdentifier/t/H2020-LCE-2016-2017/1/1/1&amp;callStatus/t/Forthcoming/0/1/0&amp;callStatus/t/Open/1/1/0&amp;callStatus/t/Closed/0/1/0&amp;+identifier/desc" target="_blank">More info</a></p>
+				</article>			
+				<article>
+					<p class="date">08 December 2015</p>
+					<h3>H2020 - Smart Cities &amp; Communities - Lighthouse Projects</h3>
+					<p><a href="https://ec.europa.eu/research/participants/portal/desktop/en/opportunities/h2020/topics/4082-scc-1-2016-2017.html" target="_blank">More info</a></p>
+				</article>			
+				<article>
+					<p class="date">14 October 2015</p>
+					<h3>H2020 - Energy Efficiency</h3>
+					<p><a href="http://ec.europa.eu/research/participants/portal/desktop/en/opportunities/h2020/calls/h2020-ee-2016-2017.html#c,topics=callIdentifier/t/H2020-EE-2016-2017/1/1/1&amp;callStatus/t/Forthcoming/1/1/0&amp;callStatus/t/Open/1/1/0&amp;callStatus/t/Closed/1/1/0&amp;+identifier/desc" target="_blank">More info</a></p>
+				</article>
+                      
+                    </div>
+                    <div class="tab-pane fade" id="news">
+						<article>
+					<p class="date">27 October 2015</p>
+					<h3>2015-10-27 Study on energy storage published for the ITRE Committee of the European Parliament</h3>
+					<p><a href="http://www.europarl.europa.eu/RegData/etudes/STUD/2015/563469/IPOL_STU(2015)563469_EN.pdf" target="_blank">More info</a></p>
+				</article>			
+				<article>
+					<p class="date">23 September 2015</p>
+					<h3>Informal Energy Council focuses on investments in energy</h3>
+					<p><a href="https://ec.europa.eu/energy/en/news/informal-energy-council-focuses-investments-energy" target="_blank">More info</a></p>
+				</article>			
+				<article>
+					<p class="date">15 September 2015</p>
+					<h3>The EuropEuropean Commission adopts the new Strategic Energy Technology (SET) Plan</h3>
+					<p><a href="https://ec.europa.eu/energy/en/news/integrated-set-plan-fit-new-challenges" target="_blank">More info</a></p>
+				</article>
+                      
+                    </div>
+                    <div class="tab-pane fade" id="policyUpdates">
+                     
+							<article>
+					<p class="date">14 October 2015</p>
+					<h3>Publication of WP Energy 2016-17</h3>
+					<p><a href="http://ec.europa.eu/research/participants/data/ref/h2020/wp/2016_2017/main/h2020-wp1617-energy_en.pdf" target="_blank">More info</a></p>
+				</article>			
+				<article>
+					<p class="date">25 September 2015</p>
+					<h3>Fast Track to Innovation - 16 innovative projects funded with €36 million</h3>
+					<p><a href="https://ec.europa.eu/easme/en/news/commission-speeds-access-market-16-innovative-projects-36-million" target="_blank">More info</a></p>
+				</article>			
+				<article>
+					<p class="date">25 September 2015</p>
+					<h3>SME Instrument: 2833 new project proposals received before September deadline</h3>
+					<p><a href="https://ec.europa.eu/easme/en/news/horizon-2020-sme-instrument-2833-new-project-proposals-received-september" target="_blank">More info</a></p>
+				</article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div id="partners">
+                    <h2>Project Partners</h2>
+                  
+                  <div id="partners-logo">
+                    <div class="slide">
+                      <a href="http://www.apre.it" target="_blank"><img src="/images/APRE.png" alt="Agency for the Promotion of European Research"></a>
+                    </div>
+                    <div class="slide">
+                      <a href="http://www.fz-juelich.de/portal/DE/Home/home_node.html" target="_blank"><img src="/images/FZJ.png"  alt="Forschungszentrum Julich GmbH"></a>
+                    </div>
+                    <div class="slide">
+                      <a href="http://www.ekt.gr/en/" target="_blank"><img src="/images/EKT.png" alt="National Documentation Centre/National Hellenic Research Foundation (NHRF)"></a>
+                    </div>
+                    <div class="slide">
+                      <a href="http://www.ippt.pan.pl/" target="_blank"><img src="/images/IPPT-PAN.png" alt="The Institute of Fundamental Technological Research, Polish Academy of Sciences"></a>
+                    </div>
+                    <div class="slide">
+                      <a href="http://www.etag.ee/" target="_blank"><img src="/images/ERC.png" alt=""></a>
+                    </div>
+                    <div class="slide">
+                      <a href="https://www.cdti.es/" target="_blank"><img src="/images/CDTI.png" alt="Centro para el Desarrollo Tecnológico Industrial"></a>
+                    </div>
+                    <div class="slide">
+                      <a href="http://www.luxinnovation.lu/" target="_blank"><img src="/images/LUXINNOVATION.png" alt="LUXINNOVATION EIG - National Agency for Innovation and Research"></a>
+                    </div>
+                    <div class="slide">
+                      <a href="http://www.mobilnost.hr/index_en.php?id=1" target="_blank"><img src="/images/AMPEU.png" alt="Agency for Mobility and EU Programmes"></a>
+                    </div>
+                    <div class="slide">
+                      <a href="https://www.gov.uk/government/organisations/technology-strategy-board" target="_blank"><img src="/images/TSB.png" alt=""></a>
+                    </div>
+                    <div class="slide">
+                      <a href="https://www.ffg.at/" target="_blank"><img src="/images/FFG.png" alt="Austrian Research Promotion Agency"></a>
+                    </div>
+                    <div class="slide">
+                      <a href="http://www.abe-bao.be/" target="_blank"><img src="/images/BEA.png" alt="Brussels Enterprise Agency"></a>
+                    </div>
+                    <div class="slide">
+                      <a href="http://www.enterprise-ireland.com/en/" target="_blank"><img src="/images/EI.png" alt=""></a>
+                    </div>
+                    <div class="slide">
+                      <a href="http://www.gis-tc.org/" target="_blank"><img src="/images/GIS.png" alt=""></a>
+                    </div>
+                    <div class="slide">
+                      <a href="http://www.iserd.org.il/" target="_blank"><img src="/images/ISERD.png" alt=""></a>
+                    </div>
+                    <div class="slide">
+                      <a href="http://www.fct.pt/" target="_blank"><img src="/images/FCT.png" alt="Fundação para a Ciência e Tecnologia - Ministry of Science, Technology and Higher Education"></a>
+                    </div>
+                    <div class="slide">
+                      <a href="http://www.research.org.cy/EN/index.html/" target="_blank"><img src="/images/RPF.png" alt="Research Promotion Foundation"></a>
+                    </div>
+                    <div class="slide">
+                      <a href="http://www.ademe.fr/" target="_blank"><img src="/images/ADEME.png" alt="Agence de l'environnement et de la maîtrise de l'énergie"></a>
+                    </div>
+                    <div class="slide">
+                      <a href="http://www.forskningsradet.no/no/Forsiden/1173185591033" target="_blank"><img src="/images/RCN.png" alt="The Research Council of Norway"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>	
+
+					
+							   </div>
+							   </div> <!-- chiudi wrap -->
+	 <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1">
+            <div class="row">
+              <div class="col-lg-12">
+				<div class=" bg-footer">
+                  <p><img src="/images/c-energy-logo-footer.png" class="pull-left"><img src="/images/eu-logo-footer.png" class="pull-left">This project has received funding from “Horizon 2020 – the Framework Programme for Research and Innovation (2014-2020) under grant agreement no 641003 (2014-2018)</p>
+                  <hr>
+                  <p class="text-center">The C-Energy 2020 Consortium places high value on the need to protect citizens' data and privacy. Please regularly consult its updated <a href="http://www.archimedes-eu.eu/privacy_policy.php" target="_blank">Privacy Policy here</a>.<br> 
+                  The C-Energy 2020 website is governed by its <a href="http://www.archimedes-eu.eu/terms_use.php" target="_blank">Terms of Use</a>.</p>
+              	</div>
+			  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</body>
+	
+</html>
+					

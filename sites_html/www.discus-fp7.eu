@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head>
+<meta charset="utf-8" />
+<link rel="shortcut icon" href="http://www.discus-fp7.eu/sites/all/themes/business/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta content="Project Overview" about="/home" property="dc:title" />
+<link rel="canonical" href="/home" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="/node/4" />
+<title>Project Overview | The DISCUS Project </title>
+<style type="text/css" media="all">@import url("http://www.discus-fp7.eu/modules/system/system.base.css?ne7be6");
+@import url("http://www.discus-fp7.eu/modules/system/system.menus.css?ne7be6");
+@import url("http://www.discus-fp7.eu/modules/system/system.messages.css?ne7be6");
+@import url("http://www.discus-fp7.eu/modules/system/system.theme.css?ne7be6");</style>
+<style type="text/css" media="all">@import url("http://www.discus-fp7.eu/sites/all/modules/date/date_api/date.css?ne7be6");
+@import url("http://www.discus-fp7.eu/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?ne7be6");
+@import url("http://www.discus-fp7.eu/sites/all/modules/fences/field.css?ne7be6");
+@import url("http://www.discus-fp7.eu/sites/all/modules/logintoboggan/logintoboggan.css?ne7be6");
+@import url("http://www.discus-fp7.eu/modules/node/node.css?ne7be6");
+@import url("http://www.discus-fp7.eu/modules/search/search.css?ne7be6");
+@import url("http://www.discus-fp7.eu/modules/user/user.css?ne7be6");
+@import url("http://www.discus-fp7.eu/sites/all/modules/views/css/views.css?ne7be6");</style>
+<style type="text/css" media="all">@import url("http://www.discus-fp7.eu/sites/all/modules/ctools/css/ctools.css?ne7be6");
+@import url("http://www.discus-fp7.eu/sites/all/modules/biblio/biblio.css?ne7be6");
+@import url("http://www.discus-fp7.eu/sites/all/modules/taxonomy_access/taxonomy_access.css?ne7be6");</style>
+<style type="text/css" media="all">@import url("http://www.discus-fp7.eu/sites/all/themes/business/style.css?ne7be6");
+@import url("http://www.discus-fp7.eu/sites/all/themes/business/color/colors.css?ne7be6");
+@import url("http://www.discus-fp7.eu/sites/all/themes/business/custom.css?ne7be6");</style>
+<script type="text/javascript" src="http://www.discus-fp7.eu/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://www.discus-fp7.eu/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www.discus-fp7.eu/misc/drupal.js?ne7be6"></script>
+<script type="text/javascript" src="http://www.discus-fp7.eu/sites/all/themes/business/js/sliding_effect.js?ne7be6"></script>
+<script type="text/javascript" src="http://www.discus-fp7.eu/sites/all/themes/business/js/superfish.js?ne7be6"></script>
+<script type="text/javascript" src="http://www.discus-fp7.eu/sites/all/themes/business/js/supersubs.js?ne7be6"></script>
+<script type="text/javascript" src="http://www.discus-fp7.eu/sites/all/themes/business/js/sfmenu.js?ne7be6"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"business", "theme_token":"1c7bNTZqHSYALGG3oHAdWJ8HsFWgv4Z5_n18VzXqfl4", "js":{"misc\u002Fjquery.js":1, "misc\u002Fjquery.once.js":1, "misc\u002Fdrupal.js":1, "sites\u002Fall\u002Fthemes\u002Fbusiness\u002Fjs\u002Fsliding_effect.js":1, "sites\u002Fall\u002Fthemes\u002Fbusiness\u002Fjs\u002Fsuperfish.js":1, "sites\u002Fall\u002Fthemes\u002Fbusiness\u002Fjs\u002Fsupersubs.js":1, "sites\u002Fall\u002Fthemes\u002Fbusiness\u002Fjs\u002Fsfmenu.js":1}, "css":{"modules\u002Fsystem\u002Fsystem.base.css":1, "modules\u002Fsystem\u002Fsystem.menus.css":1, "modules\u002Fsystem\u002Fsystem.messages.css":1, "modules\u002Fsystem\u002Fsystem.theme.css":1, "sites\u002Fall\u002Fmodules\u002Fdate\u002Fdate_api\u002Fdate.css":1, "sites\u002Fall\u002Fmodules\u002Fdate\u002Fdate_popup\u002Fthemes\u002Fdatepicker.1.7.css":1, "modules\u002Ffield\u002Ftheme\u002Ffield.css":1, "sites\u002Fall\u002Fmodules\u002Flogintoboggan\u002Flogintoboggan.css":1, "modules\u002Fnode\u002Fnode.css":1, "modules\u002Fsearch\u002Fsearch.css":1, "modules\u002Fuser\u002Fuser.css":1, "sites\u002Fall\u002Fmodules\u002Fviews\u002Fcss\u002Fviews.css":1, "sites\u002Fall\u002Fmodules\u002Fctools\u002Fcss\u002Fctools.css":1, "sites\u002Fall\u002Fmodules\u002Fbiblio\u002Fbiblio.css":1, "sites\u002Fall\u002Fmodules\u002Ftaxonomy_access\u002Ftaxonomy_access.css":1, "sites\u002Fall\u002Fthemes\u002Fbusiness\u002Fstyle.css":1, "sites\u002Fall\u002Fthemes\u002Fbusiness\u002Fcolor\u002Fcolors.css":1, "sites\u002Fall\u002Fthemes\u002Fbusiness\u002Fcustom.css":1}}});
+//--><!]]>
+</script>
+<!--[if lt IE 9]><script src="/sites/all/themes/business/js/html5.js"></script><![endif]-->
+</head>
+<body class="html front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-4 node-type-page">
+    
+<div id="wrap">
+
+  <header id="header" class="clearfix" role="banner">
+
+    <div>
+             <div id="logo">
+        <a href="/" title="Home"><img src="http://www.discus-fp7.eu/sites/default/files/discus-fp7-small_0.png" alt="Home" /></a>
+        </div>
+            <hgroup id="sitename">
+        <h2><a href="/" title="Home">The DISCUS Project </a></h2>
+        <p>The DIStributed Core for unlimited bandwidth supply for all Users and Services  (FP7 Grant Agreement 318137)</p><!--site slogan-->
+      </hgroup>
+    </div>
+    <nav id="navigation" class="clearfix" role="navigation">
+      <div id="main-menu">
+        <ul class="menu"><li class="first leaf"><a href="/" class="active">Home</a></li>
+<li class="leaf"><a href="/news">News</a></li>
+<li class="leaf"><a href="/press-releases">Press Releases</a></li>
+<li class="expanded"><a href="/content/dissemination" title="">Dissemination</a><ul class="menu"><li class="first expanded"><a href="/publications" title="">Publications</a><ul class="menu"><li class="first leaf"><a href="/publications/authors">Authors</a></li>
+<li class="last leaf"><a href="/publications/keywords">Keywords</a></li>
+</ul></li>
+<li class="leaf"><a href="/talks">Talks</a></li>
+<li class="leaf"><a href="/white-papers">White Papers</a></li>
+<li class="last leaf"><a href="/events/2013/5/dublin-workshop" title="">Workshop</a></li>
+</ul></li>
+<li class="expanded"><a href="/project/id-card">Project</a><ul class="menu"><li class="first leaf"><a href="/project/id-card">ID Card</a></li>
+<li class="leaf"><a href="/project/objectives">Objectives</a></li>
+<li class="last leaf"><a href="/project/work-packages">Approach</a></li>
+</ul></li>
+<li class="expanded"><a href="/partners" title="">Consortium</a><ul class="menu"><li class="first leaf"><a href="/content/contacts">Contacts</a></li>
+<li class="last leaf"><a href="/partners">Partners</a></li>
+</ul></li>
+<li class="expanded"><a href="http://www.discus-fp7.eu/activities/deliverables" title="">Activities</a><ul class="menu"><li class="first leaf"><a href="/activities/deliverables">Deliverables</a></li>
+<li class="last leaf"><a href="/demos">Demonstrations</a></li>
+</ul></li>
+<li class="last leaf"><a href="/user/login" title="">Login</a></li>
+</ul>      </div>
+    </nav><!-- end main-menu -->
+  </header>
+  
+    
+              <div id="slider">
+        <div class="main_view">
+            <div class="window">
+                <div class="image_reel">
+                    <a href="/project/objectives"><img src="/sites/all/themes/business/images/slide-image-1.jpg"></a>
+                    <a href="/partners"><img src="/sites/all/themes/business/images/slide-image-2.jpg"></a>
+                    <a href="/news"><img src="/sites/all/themes/business/images/slide-image-3.jpg"></a>
+                </div>
+                <div class="descriptions">
+                    <div class="desc" style="display: none;"><p>About the DISCUS Project</p>
+</div>
+                    <div class="desc" style="display: none;"><p>The DISCUS Consortium</p>
+</div>
+                    <div class="desc" style="display: none;"><p>DISCUS News</p>
+</div>
+                </div>
+            </div>
+        
+            <div class="paging">
+                <a rel="1" href="#">1</a>
+                <a rel="2" href="#">2</a>
+                <a rel="3" href="#">3</a>
+            </div>
+        </div>
+      </div><!-- EOF: #banner -->
+	  
+
+
+  
+    
+    
+      <div id="main" class="clearfix">
+      <section id="post-content" role="main">
+                        <h1 class="page-title">Project Overview</h1>                                        <div class="region region-content">
+  <div id="block-system-main" class="block block-system">
+
+      
+  <div class="content">
+                            
+      
+    
+  <div class="content node-page">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><em>
+The project goal is to exploit demonstrated technology and concepts needed to define and develop a new radical architectural concept that can enable an integrated wireless and FTTP future network which addresses the economic, energy consumption, capacity scaling, evolutionary, regulatory and service demand challenges arising from an FTTP enabled future.</em></p>
+
+<p>DISCUS will analyse, design, and demonstrate a complete end-to-end architecture and technologies for an economically viable, energy efficient and environmentally sustainable future-proof optical network. It will provide a revolution in communications networks applicable across Europe and the wider world exploiting to the full the opportunity offered by LR-PONS and flat optical core networks to produce a simplified and evolvable architecture which will be the foundation for communications for the long term future. The architecture will be ultra energy efficient, simple to operate, robust to new technology introduction and providing universal availability of bandwidth and features regardless of geographic location. This ideal is obtained by a clean-slate approach to the architectural design by universal application of optical technologies throughout the fixed network eliminating traditional demarcations of metro, regional, core and access. Thus our essential concept is to use advanced optical technologies throughout giving rise to economies of scale and allowing bandwidths and flexibility hitherto unimaginable. Specifically the DISCUS architecture will: scale gracefully and economically, over a common physical infrastructure, as FTTP drives bandwidth growth by three orders of magnitude or more. It will evolve from today’s architectures, adopting future technologies while co-existing with earlier generations. A unique feature will be a “Principle of Equivalence” whereby all network access points have equal bandwidth and service capability including core bandwidths (10Gb/s to 100+Gb/s) delivered to the access edge. It will seamlessly integrate wireless and fixed optical networks, fully exploiting both technologies. It will enable a competitive and simple regulatory environment controlled by customers and users rather than network operators and service providers. DISCUS is therefore fully aligned with the objectives of ICT-2011.1.1 and directly addresses its targets.</p>
+</div></div></div>  </div>
+
+      <footer>
+          </footer>
+  
+    </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+      </section> <!-- /#main -->
+
+              <aside id="sidebar" role="complementary" class="sidebar clearfix">
+         <div class="region region-sidebar-first">
+  <div id="block-views-news-block" class="block block-views">
+
+        <h2 >News</h2>
+    
+  <div class="content">
+    <div class="view view-news view-id-news view-display-id-block view-dom-id-db0eeec8aa2e548d234ffc09a8e6ceea">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2015/09/discus-will-present-demonstration-reconfigurable-dwdm-long-reach-pon-ecoc-2015-polatis">DISCUS will present a demonstration of a reconfigurable DWDM Long-Reach PON at ECOC 2015 at the Polatis both, number 311</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2015/06/discus-co-organising-two-workshop-ecoc-2015">DISCUS is co-organising two workshop at ECOC 2015</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2014/09/focus-sessions-advances-optical-networking-piers-organized-discus-partners">Focus Sessions on Advances in Optical Networking at PIERS organized by DISCUS partners</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2014/09/kth-proposes-flexible-and-reliable-hybrid-microwave-and-fiber-mobile-backhaul">KTH proposes flexible and reliable hybrid microwave and fiber mobile backhaul architecture</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2014/09/two-discus-papers-accepted-ictai-2014">Two DISCUS papers accepted at ICTAI 2014</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/news">
+    Show more &gt;  </a>
+</div>
+  
+  
+  
+</div>  </div>
+  
+</div> <!-- /.block -->
+<div id="block-views-news-block-1" class="block block-views">
+
+        <h2 >Press Releases</h2>
+    
+  <div class="content">
+    <div class="view view-news view-id-news view-display-id-block_1 view-dom-id-6777a51e88fac477792c4997f3c6349a">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/press-releases/polatis-introduces-192-fibre-single-sided-all-optical-switch-datacentre-and-telecom">Polatis Introduces 192 Fibre Single Sided All-Optical Switch for Datacentre and Telecom Networks</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/press-releases/all-optical-broadbandcheaper-faster-and-greener">All-optical broadband...cheaper, faster and greener</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/press-releases/cerca-di-super-internet">In cerca di Super Internet</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/press-releases/ireland-announces-european-fibre-optic-broadband-project">Ireland announces European fibre optic broadband project</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/press-releases/trinity-ucc-and-tyndall-run-%E2%82%AC8m-eu-broadband-grant">Trinity, UCC and Tyndall run €8m EU broadband grant</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/press-releases">
+    Show more &gt;  </a>
+</div>
+  
+  
+  
+</div>  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+        </aside>  <!-- /#sidebar-first -->
+          </div>
+    <div class="clear"></div>
+    
+    
+  <!--END footer -->
+  <div class="region region-footer">
+  <div id="block-block-1" class="block block-block">
+
+      
+  <div class="content">
+    <p><a href="http://cordis.europa.eu/fp7/home_en.html"><img border="0" src="http://epolicy-project.eu/images/7th.png" style="float:left; height:45px;" alt="Seventh Framework Programme" /></a></p>
+<p>
+DISCUS is an FP7-funded project (Grant Agreement 318137) funded under Call FP7-ICT-2011-8.</p>
+  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+  
+  </div>
+  </body>
+</html>

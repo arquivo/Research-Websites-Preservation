@@ -1,0 +1,644 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+    
+    
+    
+    
+    
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    
+        <base href="https://www.sesame-project.eu/sesame-project" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    
+        
+<link rel="alternate" data-kss-base-url="kss-base-url" href="https://www.sesame-project.eu/sesame-project/" />
+
+  
+    <link rel="stylesheet" type="text/css" href="https://www.sesame-project.eu/portal_css/Sunburst%20Theme/base-cachekey-a674736361c070735e9b9b293d7c750a.css" />
+        <!--[if lt IE 8]>    
+    
+    <link rel="stylesheet" type="text/css" href="https://www.sesame-project.eu/portal_css/Sunburst%20Theme/IEFixes-cachekey-25050d4d5cb7821226b52b2cb3c5df4c.css" media="screen" />
+        <![endif]-->
+    
+    <style type="text/css" media="all">@import url(https://www.sesame-project.eu/portal_css/Sunburst%20Theme/ploneboard-cachekey-859d7293d5a3bb702af4644eac10a82c.css);</style>
+    <link rel="stylesheet" type="text/css" href="https://www.sesame-project.eu/portal_css/Sunburst%20Theme/ploneCustom-cachekey-32b26a983fab715404a5898c21eff447.css" media="all" />
+
+  
+    <link rel="stylesheet" data-rel="kinetic-stylesheet" type="text/kss" href="https://www.sesame-project.eu/portal_kss/Sunburst%20Theme/at-cachekey-f9d403e307603b4cf7b6dae6b7dd8e1e.kss" />
+  
+    <script type="text/javascript" src="https://www.sesame-project.eu/portal_javascripts/Sunburst%20Theme/resourceplone.app.jquery-cachekey-76d7ccb3c6c313555803a01ca749ec6b.js"></script>
+    <script type="text/javascript" src="https://www.sesame-project.eu/portal_javascripts/Sunburst%20Theme/collective.js.jqueryui.custom.min-cachekey-bba3b4820d404a67a7f57e7323405e18.js"></script>
+    <script type="text/javascript" src="https://www.sesame-project.eu/portal_javascripts/Sunburst%20Theme/resourceanalytics_config-cachekey-0752975241de8bb59bdd94905f37b4eb.js"></script>
+
+
+<title>Welcome to the Sesame Project &mdash; SESAME</title>
+        
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-37590442-1']); 
+            </script>
+        <script type="text/javascript">
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+        <script type="text/javascript">
+    /*<![CDATA[*/
+    jq(function() {
+        jq('form[action$="discussion_reply_form"]').find('input:submit').click(function () {
+            var content_url = '/'.replace('/discussion_reply_form', '');
+            _gaq.push(['_trackEvent', 'Form', 'Comment', content_url]);
+        });
+    });
+    /*]]>*/
+</script>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    jq(function() {
+        jq('a[href^="mailto"]').click(function () {
+            var email = jq(this).attr('href').replace('mailto:', '');
+            _gaq.push(['_trackEvent', 'External', 'E-mail', email]);
+        });
+    });
+    /*]]>*/
+</script>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    jq.expr[':'].external  = function(obj) {
+      return !obj.href.match(/^mailto:/) && !obj.href.match(/^javascript:/) && (obj.hostname != document.location.hostname);
+    };
+    jq(function() {
+        jq('a:external').click(function(){
+          _gaq.push(['_trackEvent', 'External', 'Link', jq(this).attr('href')]);
+        });
+    });
+    /*]]>*/
+</script>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    jq(function() {
+        var extensions = ["avi", "css", "doc", "eps", "exe", "jpg", "js", "mov", "mp3", "pdf", "png", "ppt", "rar", "svg", "txt", "vsd", "vxd", "wma", "wmv", "xls", "zip"];
+        var extensionsPattern = new RegExp('\\.((' + extensions.join(')|(') + '))$', 'g');
+        jq('a').filter(function () {
+            return this.href.match(extensionsPattern) || this.href.match(/\/at_download\//g);
+        }).click(function () {
+            _gaq.push(['_trackEvent', 'File', 'Download', jq(this).attr('href')]);
+        });
+    });
+    /*]]>*/
+</script>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    _gaq.push(['_trackPageLoadTime']);
+    /*]]>*/
+</script>
+
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    _gaq.push(['_setCustomVar', 1, 'User Type', 'Visitor', 2]);
+    /*]]>*/
+</script>
+
+        <script type="text/javascript">
+            _gaq.push(['_trackPageview']);
+            </script>
+    
+
+
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.sesame-project.eu/favicon.ico" />
+    <link rel="apple-touch-icon" href="https://www.sesame-project.eu/touch_icon.png" />
+
+
+<script type="text/javascript">
+        jQuery(function($){
+            $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional[''],
+                {dateFormat: 'mm/dd/yy'}));
+        });
+        </script>
+
+
+
+
+    <link rel="search" href="https://www.sesame-project.eu/@@search" title="Search this site" />
+
+
+
+        
+        
+        
+        
+    <style type="text/css" media="all"> @import url(https://www.sesame-project.eu/sesame-project/++resource++collective.portletpage.css);</style>
+
+        
+
+        <meta name="viewport" content="width=device-width, initial-scale=0.6666, maximum-scale=1.0, minimum-scale=0.6666" />
+        <meta name="generator" content="Plone - http://plone.org" />
+    
+</head>
+
+<body class="template-two-columns portaltype-portlet-page site-sesame section-sesame-project" dir="ltr">
+
+<div id="visual-portal-wrapper">
+
+        <div id="portal-top" class="row">
+<div class="cell width-full position-0">
+            <div id="portal-header">
+    <p class="hiddenStructure">
+  <a accesskey="2" href="https://www.sesame-project.eu/#content">Skip to content.</a> |
+
+  <a accesskey="6" href="https://www.sesame-project.eu/#portal-globalnav">Skip to navigation</a>
+</p>
+
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Personal tools</h5>
+
+
+
+<ul class="actionMenu deactivated" id="portal-personaltools">
+  <li id="anon-personalbar">
+    
+        <a href="https://www.sesame-project.eu/login" id="personaltools-login">Log in</a>
+    
+  </li>
+</ul>
+
+</div>
+
+
+
+<!-- Modificato per centrare il logo -->
+
+<div align="center">
+<a id="portal-logo" title="SESAME" accesskey="1" href="https://www.sesame-project.eu">
+    <img src="https://www.sesame-project.eu/logo.png" alt="SESAME" title="SESAME" height="264" width="960" /></a>
+</div>
+<div id="portal-searchbox">
+
+    <form name="searchform" id="searchGadget_form" action="https://www.sesame-project.eu/@@search">
+
+        <div class="LSBox">
+        <label class="hiddenStructure" for="searchGadget">Search Site</label>
+
+        <input name="SearchableText" type="text" size="18" title="Search Site" placeholder="Search Site" accesskey="4" class="searchField" id="searchGadget" />
+
+        <input class="searchButton" type="submit" value="Search" />
+
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only" class="noborder" type="checkbox" name="path" value="/sesame" />
+            <label for="searchbox_currentfolder_only" style="cursor: pointer">
+                only in current section
+            </label>
+        </div>
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="https://www.sesame-project.eu/@@search" accesskey="5">
+            Advanced Search&hellip;
+        </a>
+    </div>
+
+</div>
+
+</div>
+
+</div>
+        </div>
+    <div id="portal-columns" class="row">
+
+        <div id="portal-column-content" class="cell width-3:4 position-1:4">
+
+            <div id="viewlet-above-content"><div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">You
+are here:</span>
+    <span id="breadcrumbs-home">
+        <a href="https://www.sesame-project.eu">Home</a>
+        
+    </span>
+
+</div>
+</div>
+
+            
+                <div class="">
+
+                    
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+
+                    
+                        <div id="content">
+
+                            
+
+                            
+    
+
+        
+
+        <h1 class="documentFirstHeading">
+            
+        <span class="" id="parent-fieldname-title-2f99c05d233649598da77d57eb3070ee">
+            Welcome to the Sesame Project
+        </span>
+    
+        </h1>
+
+        
+
+
+        
+
+        
+
+
+
+        
+        <div class="" id="parent-fieldname-text-2f99c05d233649598da77d57eb3070ee">
+            <p> </p>
+<p><span><span>SESAME  is a FP7-security project cofunded by the  European Commission, aiming  at providing a contribution to the  development of tools and a regulation  framework for the security of the  European power grid against natural,  accidental and malicious attacks.</span></span></p>
+<div id="content-core">
+<div class="kssattr-target-parent-fieldname-text-17edffb97ef6490c9a90fe77df431318 kssattr-macro-rich-field-view kssattr-templateId-widgets/rich kssattr-atfieldname-text " id="parent-fieldname-text-17edffb97ef6490c9a90fe77df431318">
+<p><span>The  security of critical infrastructures is a hot  topic all over the  western world. On one side, infrastructures have  grown in complexity and  related vulnerability. On the other, a vast  number of hazards, both due  to accidental causes and to intentional  attacks, threatens critical  infrastructures and may have disastrous  effects on society from the  social and economic point of view. Power  systems are a key critical  infrastructure system; since power systems  are vital to the whole  society, the social impact of power system  failures is paramount.  Terrorist attacks to other critical  infrastructures (such as railways  and subways in several countries)  make the issue of likely intentional  attacks to power systems both  substantial and urgent. In that respect,  the protection against  malicious attacks has become a key concern whose  importance keeps  growing. Intentional attacks may be physical (directed  to components of  power systems like substations, transmission lines,  power plants and  so on) and cyber (directed to monitoring systems,  control and  communication architectures, and so on).</span></p>
+<p><span>Power  systems are characterized by severe physical and  operation constraints  that need to be met to keep the system stable:  the system’s intrinsic  instability could only magnify the effect of an  intentional attack. The  outstanding importance and the far more complex  level of  interconnectivity of electricity distribution / transmission /   generation – compared to the supply of other energy carriers </span><span>– </span><span>makes the  development of a highly focused toolkit for its protection an essential  and urgent task.<span> </span></span></p>
+<p><span>SESAME  develops a Decision Support System (DSS) for the  protection of the  European power transmission, distribution and  generation system and  applies it to two regional electricity grids.  SESAME is to enable  end-users:</span><span><br /></span></p>
+<ul>
+<li><span>to identify the vulnerabilities of the analyzed grid and production plants and to detect their origins,</span></li>
+<li><span>to estimate the damage / impact of real or simulated network failures precisely,</span></li>
+</ul>
+<ul>
+<li><span>to identify the possible measures for prevention of outages  and  acceleration of automatic restoration to rank these measures  according  to their effectiveness and their cost-benefit ratios,</span></li>
+<li><span>to carry out contingency analyses of the transmission and distribution network and the generation facilities,</span></li>
+</ul>
+<ul>
+<li><span> to detect long-term erroneous trends in the security of  energy supply  and to counteract against these trends by adjusting the  market mechanisms  leading to this development.<br /></span></li>
+</ul>
+<p><span>The  consortium of SESAME brings together the most  distinguished experts in  the fields of power network security,  technology policy and regulatory  economics, impact assessment of  disasters, network simulation software  development and knowledge  engineering. All project partners have proven  their excellence in  complex security research in earlier cooperative  projects and most of  the partners have already worked together  successfully.</span></p>
+</div>
+</div>
+            
+        </div>
+    
+
+        <div id="portletPageColumns">
+
+            
+
+            
+
+            
+
+            <div id="portletPageBottomRow" class="portletPageColumn">
+<div id="column-collective-portletpage-bottomrow-portlet-news">
+    <div class="portletWrapper kssattr-portlethash-636f6c6c6563746976652e706f72746c6574706167652e626f74746f6d726f770a636f6e746578740a2f736573616d652f736573616d652d70726f6a6563740a6e657773" id="portletwrapper-636f6c6c6563746976652e706f72746c6574706167652e626f74746f6d726f770a636f6e746578740a2f736573616d652f736573616d652d70726f6a6563740a6e657773">
+<dl class="portlet portletNews">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a class="tile">News</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    
+    <dd class="portletItem odd">
+
+        <a href="https://www.sesame-project.eu/project/news/sesame-final-stakeholders-conference-1" class="tile" title="SESAME final stakeholders conference - Final programme published">
+            
+            SESAME final stakeholders conference - Final programme
+         </a>
+            <span class="portletItemDetails">Sep 16, 2014</span>
+
+    </dd>
+    
+
+    
+    
+    <dd class="portletFooter">
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+    
+</dl>
+
+</div>
+</div>
+
+</div>
+
+        </div>
+
+        
+
+
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+
+        
+
+    </div>
+
+
+
+    
+
+                        </div>
+                    
+
+                    
+                </div>
+            
+
+            <div id="viewlet-below-content">
+
+
+
+
+
+</div>
+        </div>
+
+        
+        <div id="portal-column-one" class="cell width-1:4 position-0">
+            
+                
+<div class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f736573616d650a6e617669676174696f6e" id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f736573616d650a6e617669676174696f6e">
+<dl class="portlet portletNavigationTree">
+
+    <dt class="portletHeader hiddenStructure">
+        <span class="portletTopLeft"></span>
+        <a href="https://www.sesame-project.eu/sitemap" class="tile">Navigation</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem lastItem">
+        <ul class="navTree navTreeLevel0">
+            <li class="navTreeItem navTreeTopNode navTreeCurrentNode">
+                <div>
+                   <a class="contenttype-plone-site navTreeCurrentItem" href="https://www.sesame-project.eu" title="">
+                   Home
+                   
+                   </a>
+                </div>
+            </li>
+            
+
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-project">
+
+    
+
+
+        <a class="state-published navTreeFolderish contenttype-folder" href="https://www.sesame-project.eu/project" title="">
+            
+            <span>Project</span>
+        </a>
+
+    <ul class="navTree navTreeLevel1">
+        
+
+
+
+
+
+    </ul>
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-sesame-forum">
+
+    
+
+
+        <a class="state-published navTreeFolderish contenttype-ploneboard" href="https://www.sesame-project.eu/sesame-forum" title="Welcome to the SESAME forum!
+
+Tell us and our members who you are, what you like and why you became a member of this site.
+We welcome all new members and hope to see you around a lot!
+
+In order to be able to post messages to the forum you need to log-in. Write an e-mail to enrico.pons[at]polito.it to get your credentials...">
+            
+            <span>SESAME Forum</span>
+        </a>
+
+    <ul class="navTree navTreeLevel1">
+        
+
+
+
+
+
+    </ul>
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-web-link">
+
+    
+
+
+        <a class="state-published navTreeFolderish contenttype-folder" href="https://www.sesame-project.eu/web-link" title="">
+            
+            <span>Web Links</span>
+        </a>
+
+    <ul class="navTree navTreeLevel1">
+        
+
+
+
+
+
+    </ul>
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-publications">
+
+    
+
+
+        <a class="state-published navTreeFolderish contenttype-folder" href="https://www.sesame-project.eu/publications" title="">
+            
+            <span>Publications</span>
+        </a>
+
+    <ul class="navTree navTreeLevel1">
+        
+
+
+
+
+
+    </ul>
+    
+</li>
+
+
+
+
+        </ul>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+</div>
+
+<div class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f736573616d650a6c6162656c5f6c6f675f696e" id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f736573616d650a6c6162656c5f6c6f675f696e">
+
+<dl class="portlet portletLogin">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="https://www.sesame-project.eu/login_form" class="tile">Log in</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+        <form action="https://www.sesame-project.eu/login_form" id="loginform" method="post">
+
+            <div>
+                <input type="hidden" name="form.submitted" value="1" />
+                <input type="hidden" name="came_from" value="https://www.sesame-project.eu/" />
+                <input type="hidden" name="js_enabled" id="js_enabled" value="0" />
+                <input type="hidden" name="cookies_enabled" id="cookies_enabled" value="" />
+                <input type="hidden" name="login_name" id="login_name" value="" />
+                <input type="hidden" name="pwd_empty" id="pwd_empty" value="0" />
+            </div>
+
+            <div class="field">
+
+              
+              
+                <label for="__ac_name">E-mail</label>
+                <br />
+                <input type="text" size="10" alt="E-mail" value="" id="__ac_name" name="__ac_name" />
+              
+            </div>
+
+            <div class="field">
+                <label for="__ac_password">Password</label>
+                <br />
+                <input type="password" size="10" alt="Password" id="__ac_password" name="__ac_password" />
+            </div>
+
+            <div class="cookiesMessage portalMessage" style="display:none">
+                Cookies are not enabled. You must enable cookies before you
+                can log in.
+            </div>
+
+            <div class="formControls">
+
+                <input class="context" type="submit" name="submit" value="Log in" alt="Log in" />
+            </div>
+        </form>
+    </dd>
+
+    <dd class="portletItem even">
+        <a href="https://www.sesame-project.eu/mail_password_form" class="tile">
+           <img src="https://www.sesame-project.eu/info_icon.png" alt="" title="" height="16" width="16" />
+           Forgot your password?
+        </a>
+    </dd>
+
+    
+</dl>
+
+
+
+
+</div>
+
+
+
+
+            
+        </div>
+
+        
+        
+    </div>
+
+
+    <div id="portal-footer-wrapper" class="row">
+        <div class="cell width-full position-0">
+            <div id="portal-footer">
+          <p align="center">
+<!--
+Modificato da Sergio
+               <span i18n:translate="description_copyright" tal:omit-tag="">
+               The
+               <span i18n:name="plonecms" tal:omit-tag="">
+                    <a href="http://plone.org" i18n:translate="label_plone_cms">Plone<sup>&reg;</sup> Open Source CMS/WCM</a>
+               </span>
+               is
+               <abbr title="Copyright" i18n:name="copyright" i18n:attributes="title title_copyright;">&copy;</abbr>
+               2000-<tal:year i18n:name="current_year" tal:content="view/year" />
+               by the
+               <span i18n:name="plonefoundation" tal:omit-tag="">
+                    <a href="http://plone.org/foundation" i18n:translate="label_plone_foundation">Plone Foundation</a></span>
+               and friends.
+               </span>
+
+               <span i18n:translate="description_license" tal:omit-tag="">
+               Distributed under the
+                    <span i18n:name="license" tal:omit-tag="">
+                         <a href="http://creativecommons.org/licenses/GPL/2.0/" i18n:translate="label_gnu_gpl_licence">GNU GPL license</a></span>.
+               </span>
+
+                  This website has been produced with the financial assistance of the European Commission.<br>
+                  The views expressed herein are those of SESAME consortium and can therefore in no way be taken to reflect the official position of the European Commission.
+-->
+                  The SESAME project has received funding from the European Union’s Seventh Framework Programme for research, technological development and demonstration under grant agreement no. 261696<br>
+                  The views expressed herein are those of SESAME consortium and can therefore in no way be taken to reflect the official position of the European Commission. 
+
+          </p>
+
+</div>
+            <div id="kss-spinner">
+                <img alt="" src="https://www.sesame-project.eu/spinner.gif" />
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	
+	<title>NEURINOX - Welcome to the official website of the NEURINOX project!</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="General overview of the NEURINOX project" />
+	<meta name="keywords" content="NEURINOX, Neuroinflammation, Neurodegeneration, NADPH oxidase, NOX enzymes, NOX1, NOX2, oxidative stress, reactive oxygen species, target validation, clinical study, clinical trial, ALS, Amyotrophic lateral sclerosis, MS, Multiple sclerosis, MTLE-HS, Mesial Temporal Lobe Epilepsy, APN" />
+    <meta name="author" content="xipix">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->	
+<!-- begin frontend modules files -->
+<!-- end frontend modules files -->
+  <link rel="stylesheet" type="text/css" href="http://www.neurinox.eu/css/bootstrap.css?d=08025" media="screen" />
+  <link rel="stylesheet" type="text/css" href="http://www.neurinox.eu/css/jquery.treeview.css?d=08025" media="screen" />
+  <link rel="stylesheet" type="text/css" href="http://www.neurinox.eu/templates/xipix/css/styles.css?d=08025" media="screen" />
+  <link rel="stylesheet" type="text/css" href="http://www.neurinox.eu/modules/activecalendar/frontend.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="http://www.neurinox.eu/ui/jquery-ui.custom.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="http://www.neurinox.eu/modules/lib_jquery/plugins/FancyBox/jquery.fancybox-1.3.4.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="http://www.neurinox.eu/modules/lib_jquery/jquery-ui/themes/base/jquery-ui.css" media="screen" />
+  <script type="text/javascript" src="http://www.neurinox.eu/modules/lib_jquery/jquery-core/jquery-core.min.js"></script>
+  <script type="text/javascript" src="http://www.neurinox.eu/modules/droplets/js/mdcr.js"></script>
+  <script type="text/javascript" src="http://www.neurinox.eu/js/bootstrap.js"></script>
+  <script type="text/javascript" src="http://www.neurinox.eu/js/jquery.fontscale.js"></script>
+  <script type="text/javascript" src="http://www.neurinox.eu/js/jquery.cookie.js"></script>
+  <script type="text/javascript" src="http://www.neurinox.eu/js/jquery.treeview.js"></script>
+  <script type="text/javascript" src="http://www.neurinox.eu/ui/jquery-ui.custom.min.js"></script>
+  <script type="text/javascript" src="http://www.neurinox.eu/js/custom.js"></script>
+  <script type="text/javascript" src="http://www.neurinox.eu/modules/lib_jquery/jquery-ui/external/jquery.mousewheel.min.js"></script>
+  <script type="text/javascript" src="http://www.neurinox.eu/modules/lib_jquery/jquery-ui/external/jquery.easing.js"></script>
+  <script type="text/javascript" src="http://www.neurinox.eu/modules/lib_jquery/plugins/FancyBox/jquery.fancybox-1.3.4.js"></script>
+  <script type="text/javascript" src="http://www.neurinox.eu/modules/lib_jquery/jquery-ui/ui/jquery.effects.fade.min.js"></script>
+</head>
+<body>
+<div id="tool_box" class="box">
+</div>
+<div id="bg-repeat">
+<div id="bg-top">
+<div id="bg-bottom">
+<div class="container" id="header">
+	<!--START header -->
+	<div class="row" id="header-top">
+		<div class="span4">
+			<h1 id="header-logo">
+				<a href="http://www.neurinox.eu" title="NEURINOX">
+					<img title="NEURINOX" src="http://www.neurinox.eu/img/logo.png" width="220" height="73" />
+				</a>
+			</h1>
+		</div>	
+		<div class="span4 offset4">
+                            <div id="searchFormGeneral">
+                    <form action="http://www.neurinox.eu/search/index.php" method="get" class="search pull-right">
+                        <fieldset>
+							<a href="http://www.neurinox.eu/rss.php" title="Feed RSS" target="_blank" class="btn no-border"><i class="icon-add icon-rss"></i></a>
+							<a href="http://www.neurinox.eu/page/sitemap.php" title="Contact us" class="btn no-border"><i class="icon-add icon-sitemap"></i></a>
+							<a href="http://www.neurinox.eu/page/contact.php" title="Contact us" class="btn no-border"><i class="icon-add icon-envelope"></i></a>
+                            <input type="hidden" name="referrer" value="2" />
+                            <input type="text" name="string"  class="search" placeholder="Search" value="Search"/>
+                            <button type="submit" ><i class="icon-add icon-loupe"></i></button>
+                        </fieldset>
+                    </form>
+                </div>
+				<div id="eu_logo" class="pull-right">
+					<a href="http://cordis.europa.eu/fp7/home_en.html" id="fp7" class="footerLogos" title="FP7 framework" target="_blank" ></a>
+					<a href="http://europa.eu/index_en.htm" id="eu" class="footerLogos" title="European commission" target="_blank" ></a>
+				</div>
+	    </div>
+	</div>
+	<!--END header -->
+	<!--START menu -->
+	<div class="row">
+		<div class="span12">
+			<div class="navbar">
+			  <div class="navbar-inner">
+				<div class="container">
+				  <div class="nav-collapse">
+<!-- show_menu2 -->
+ <ul class="menu-top nav">
+    <li class="menuTop_32"><a href="http://www.neurinox.eu/page/latest-publications.php"  title="Latest Publications" >Latest Publications</a>    </li>
+    <li class="menuTop_31"><a href="http://www.neurinox.eu/page/neurinox-approach.php"  title="Neurinox Approach" >Neurinox Approach</a>    </li>
+    <li class="menuTop_3"><a href="http://www.neurinox.eu/page/news-and-events.php"  title="News and events" >News and events</a>    </li>
+ </ul>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container" id="content">
+	<!-- END menu -->
+	<div class="row">
+				<!-- Left Column -->
+		<div class="span3">			
+			<!--START subnav -->
+			<div class="hideOrNot">
+				<div class="box">
+					<div class="box-content">
+<!-- show_menu2 -->
+ <ul class="menu-top menu-0 navigation mark my_treeview ">
+    <li class="menu-0 menu-current menu-first menuLeft_2"><a href="http://www.neurinox.eu"  title="Welcome to the official website of the NEURINOX project!" class="">Home</a>    </li>
+    <li class="menu-0 menu-expand menu-sibling menuLeft_5"><a href="http://www.neurinox.eu/page/about-neurinox.php"  title="About NEURINOX" class="">About NEURINOX</a>
+     <ul class="menu-1 navigation mark my_treeview ">
+        <li class="menu-1 menu-first menuLeft_6"><a href="http://www.neurinox.eu/page/about-neurinox/overall-concept-and-strategy.php"  title="Overall concept and strategy" class="">Overall concept and strategy</a>        </li>
+        <li class="menu-1 menuLeft_7"><a href="http://www.neurinox.eu/page/about-neurinox/scientific-approach-and-results.php"  title="Scientific approach" class="">Scientific approach</a>        </li>
+        <li class="menu-1 menu-last menuLeft_13"><a href="http://www.neurinox.eu/page/about-neurinox/consortium-partners.php"  title="Consortium partners" class="">Consortium partners</a>        </li>
+     </ul>
+    </li>
+    <li class="menu-0 menu-expand menu-sibling menuLeft_22"><a href="http://www.neurinox.eu/page/patient-information.php"  title="Patient information" class="">Patient information</a>
+     <ul class="menu-1 navigation mark my_treeview ">
+        <li class="menu-1 menu-first menu-last menuLeft_23"><a href="http://www.neurinox.eu/page/patient-information/disease-targeted-in-neurinox.php"  title="Diseases studied in NEURINOX" class="">Diseases studied in NEURINOX</a>        </li>
+     </ul>
+    </li>
+    <li class="menu-0 menu-expand menu-sibling menuLeft_25"><a href="http://www.neurinox.eu/page/educational-material.php"  title="Educational material" class="">Educational material</a>    </li>
+    <li class="menu-0 menu-sibling menuLeft_27"><a href="http://www.neurinox.eu/page/opportunities-for-industry-partnerships.php"  title="Opportunities for Industry partnerships" class="">Opportunities for Industry partnerships</a>    </li>
+    <li class="menu-0 menu-expand menu-sibling menuLeft_34"><a href="http://www.neurinox.eu/page/publications.php"  title="Publications" class="">Publications</a>
+     <ul class="menu-1 navigation mark my_treeview ">
+        <li class="menu-1 menu-first menuLeft_35"><a href="http://www.neurinox.eu/page/publications/neurinox-publications.php"  title="NEURINOX publications" class="">NEURINOX publications</a>        </li>
+        <li class="menu-1 menu-last menuLeft_15"><a href="http://www.neurinox.eu/page/publications/related-publications.php"  title="Related publications" class="">Related publications</a>        </li>
+     </ul>
+    </li>
+    <li class="menu-0 menu-sibling menuLeft_16"><a href="http://www.neurinox.eu/page/project-documentation.php"  title="Project documentation" class="">Project documentation</a>    </li>
+    <li class="menu-0 menu-sibling menuLeft_45"><a href="http://www.neurinox.eu/page/neurinox-symposium-on-23-24-september-2015.php"  title="NEURINOX Symposium on 23-24 September 2015" class="">NEURINOX Symposium on 23-24 September 2015</a>    </li>
+    <li class="menu-0 menu-sibling menuLeft_46"><a href="http://www.neurinox.eu/page/press-corner.php"  title="Press corner" class="">Press corner</a>    </li>
+    <li class="menu-0 menu-sibling menu-last menuLeft_4"><a href="http://www.neurinox.eu/page/contact.php"  title="Contact" class="">Contact</a>    </li>
+ </ul>
+					</div>
+				</div>
+			</div>
+			<!--END subnav -->
+			<div id="frontediter" style="width:80px;margin:auto;">
+				 
+			</div>
+		</div>   
+		<!-- END left column -->  
+		<!-- Content -->		
+		<div id="container" class="span9">
+			<div class="box cornerTop">
+			<div class="box-title">
+				<h2 class="float_left" style="display:block;width:500px;font-weight: normal;">Welcome to the official website of the NEURINOX project!</h2>
+				<div class="btn-group float_right">
+					<a class="btn btn-no-bg no-border" href="#" id="fontplus" title="Zoom plus"><i class="icon-add icon-zoom-in"></i></a>
+					<a class="btn btn-no-bg no-border" href="#" id="fontminus" title="Zoom minus"><i class="icon-add icon-zoom-out"></i></a>
+					<a class="btn btn-no-bg no-border" href="#" id="fontreset" title="Zoom reset"><i class="icon-add icon-refresh"></i></a>
+					<a href="javascript:window.print()" id="print" class="btn btn-no-bg"><i class="icon-add icon-print"></i></a>
+				</div>
+			</div>
+			<div id="content-principal">
+				<a class="section_anchor" id="lep_2"></a><p>NEURINOX aims at identifying novel therapeutic targets for neuroinflammatory diseases, by focusing on NADPH oxidases (NOX). NOX enzymes catalyse the formation of reactive oxygen species (ROS) and are key regulators of neuroinflammation. Establishment of chronic neuroinflammation is characterised by either increased or decreased NOX activity. <strong>The NEURINOX project aims at elucidating the links between ne</strong><strong>ur</strong><strong>o</strong><strong>inflammati</strong><img style="margin: 10px; float: right;" src="http://www.neurinox.eu/media/tweaked/pages/2/dancing-neurons_250_165.png" alt="NEURINOX" width="250" height="165" title="NEURINOX" /><strong>on, NOX enzyme activity and neurodegenerative diseases (ND).</strong>  It aims at <strong>validating NOX as therapeutic </strong><strong>targets</strong> using animal models of neuroinflammation, human samples, prospective clinical studies and, in case of success of preclinical evaluation of NOX inhibitors in models of <strong>amyotrophic lateral sclerosis (ALS), </strong>an early <strong>clinical trial</strong> <strong>with ALS patients</strong>.</p>
+<p>With a total budget of 15.4 M€ and a funding support of 11.4 M€ for 5 years from the European Union's Seventh Framework Programme (FP7) for Research and Technology Development, NEURINOX is coordinated by University of Geneva and includes several SMEs, internationally renowned research groups and clinical institutions with extensive experience in NOX research and neurodegenerative diseases.</p>
+<p><span style="font-size: small; color: #ff0000;"><em>NEW! </em><span style="color: #000000;">Read the latest press release from the NEURINOX Consortium in the Press Corner: </span><a href="http://www.neurinox.eu/page/press-corner.php"><span style="color: #000000;">link</span></a><br /></span></p>
+<p><span style="font-size: small; color: #ff0000;"><em>NEW!</em></span> Now you can find NEURINOX on Facebook: <a href="https://www.facebook.com/Neurinox-951626114900387/" target="_blank">link</a></p>
+<p><em><span style="color: #ff0000;">NEW!</span> </em>Now you can download slides and videos from the NEURINOX Symposium on 22-23 September in the dedicated section <a href="http://www.neurinox.eu/page/neurinox-symposium-on-23-24-september-2015.php">NEURINOX Symposium 22-23 September 2015</a></p>			</div>			
+						</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container" id="footer">
+	<div class="row">
+		<div class="span7">
+			<p id="contractText">The NEURINOX project has received funding from the European Community's Seventh Framework Programme (FP7/2007-2013) under grant agreement n°278611<p>
+		</div>
+		<div class="span5" style="text-align: right;">
+			<p id="legalText">
+				© NEURINOX 2012 All Rights Reserved<br/>
+				<a href="http://www.neurinox.eu/page/legal-mentions.php" >Legal mentions</a>
+			</p>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34891463-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript" src="http://www.neurinox.eu/modules/lib_jquery/jquery-ui/ui/jquery.effects.core.min.js"></script><script type="text/javascript">
+    if ( typeof jQuery != 'undefined' ) {
+      jQuery(document).ready(function() {
+        // Defaults
+        jQuery.fn.fancybox.defaults = {
+          'padding': 10,  	           // Space between FancyBox wrapper and content
+          'margin':	20, 	             // Space between viewport and FancyBox wrapper
+          'opacity': false,  	         // When true, transparency of content is changed for elastic transitions
+          'modal': false, 	           // When true, 'overlayShow' is set to 'true' and 'hideOnOverlayClick', 'hideOnContentClick', 'enableEscapeButton', 'showCloseButton' are set to 'false'
+          'cyclic':	false, 	           // When true, galleries will be cyclic, allowing you to keep pressing next/back.
+          'scrolling': 'auto',         // Set the overflow CSS property to create or hide scrollbars. Can be set to 'auto', 'yes', or 'no'
+          'width': 560,                // Width for content types 'iframe' and 'swf'. Also set for inline content if 'autoDimensions' is set to 'false'
+          'height': 340,               // Height for content types 'iframe' and 'swf'. Also set for inline content if 'autoDimensions' is set to 'false'
+          'autoScale': true, 	         // If true, FancyBox is scaled to fit in viewport
+          'autoDimensions':	true,      // For inline and ajax views, resizes the view to the element recieves. Make sure it has dimensions otherwise this will give unexpected results
+          'centerOnScroll':	false,     // When true, FancyBox is centered while scrolling page
+          'hideOnOverlayClick': true,  // Toggle if clicking the overlay should close FancyBox
+          'hideOnContentClick':	false, // Toggle if clicking the content should close FancyBox
+          'overlayShow': true, 	       // Toggle overlay
+          'overlayOpacity':	0.3, 	     // Opacity of the overlay (from 0 to 1; default - 0.3)
+          'overlayColor': '#666',      // Color of the overlay
+          'titleShow': true, 	         // Toggle title
+          'titlePosition': 'inside',  // The position of title. Can be set to 'outside', 'inside' or 'over'
+          'transitionIn': 'fade',      // The transition type for 'in'. Can be set to 'elastic', 'fade' or 'none'
+          'transitionOut': 'fade', 	   // The transition type for 'out'. Can be set to 'elastic', 'fade' or 'none'
+          'speedIn': 300,              // Speed of the fade and elastic transitions, in milliseconds, for 'in'
+          'speedOut':	300, 	           // Speed of the fade and elastic transitions, in milliseconds, for 'out'
+          'changeSpeed': 300,          // Speed of resizing when changing gallery items, in milliseconds
+          'changeFade':	'fast',        // Speed of the content fading while changing gallery items
+          'easingIn': 'swing',         //	Easing used for elastic animations, for 'in'
+          'easingOut': 'swing',        //	Easing used for elastic animations, for 'out'
+          'showCloseButton': true, 	   // Toggle close button
+          'showNavArrows': true, 	     // Toggle navigation arrows
+          'enableEscapeButton': true,  // Toggle if pressing Esc button closes FancyBox
+      		'onStart': function(){},     //	Will be called right before attempting to load the content
+    		  'onCancel': function(){},    //	Will be called after loading is canceled
+    		  'onComplete': function(){},  //	Will be called once the content is displayed
+    		  'onCleanup': function(){},   //	Will be called just before closing
+    		  'onClosed': function(){},    //	Will be called once FancyBox is closed
+    		  'onError': function(){}      //	Will be called on Error
+        };
+    	  jQuery("a.grouped_elements").fancybox();
+    	  jQuery("a[rel=fancybox]").fancybox();
+    	  jQuery("a[rel=lightbox]").fancybox();
+    	  jQuery("a.fancybox").fancybox();
+     	  // YouTube
+        jQuery("a.fancyyoutube").click(function() {
+        	jQuery.fancybox({
+        	  'padding'		    : 0,
+        		'autoScale'		  : false,
+        		'transitionIn'	: 'none',
+        		'transitionOut'	: 'none',
+        		'title'			    : this.title,
+        		'width'		      : 680,
+        		'height'		    : 495,
+        		'href'			    : this.href.replace(new RegExp("watch\?v=", "i"), 'v/'),
+        		'type'			    : 'swf',
+        		'swf'			      : {
+        		   	                  'wmode'		: 'transparent',
+        			                    'allowfullscreen'	: 'true'
+        		                  }
+        	});
+        	return false;
+        });
+        jQuery('.it_gallery_picture_box').each(function(){
+        	jQuery('.it_gallery_picture_title', this).css('height', '75px');
+        	jQuery('.it_gallery_picture_title', this).css('background', 'grey');
+        	var itemHeight = jQuery('.it_gallery_picture_title', this).height();
+        	jQuery('.it_gallery_picture_title', this).html(jQuery(this).attr('href'));
+        	jQuery(this).hover(function(){
+        		jQuery('.it_gallery_picture_title', this).stop().animate({top: '-'+itemHeight+'px'}, 200);
+        	},function(){
+        		jQuery('.it_gallery_picture_title', this).animate({top: '-0px'}, 200);
+        	});
+        });
+      });
+    }
+  if( typeof 'jQuery' != 'undefined' ) {
+    jQuery(document).ready(function($) {
+      jQuery("div.fade").click(function () {
+        jQuery(this).hide("fade", {}, 1000);
+      });
+    });
+  }
+</script></body>
+</html>

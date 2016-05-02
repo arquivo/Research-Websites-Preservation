@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/all/themes/ZDssict/Modsimtex/favicon.ico" type="image/x-icon" />
+	<style type="text/css" media="all">@import "/modules/date/date.css";</style>
+<style type="text/css" media="all">@import "/modules/node/node.css";</style>
+<style type="text/css" media="all">@import "/modules/system/defaults.css";</style>
+<style type="text/css" media="all">@import "/modules/system/system.css";</style>
+<style type="text/css" media="all">@import "/modules/user/user.css";</style>
+<style type="text/css" media="all">@import "/sites/all/modules/cck/content.css";</style>
+<style type="text/css" media="all">@import "/sites/all/modules/extlink/extlink.css";</style>
+<style type="text/css" media="all">@import "/sites/all/modules/fckeditor/fckeditor.css";</style>
+<style type="text/css" media="all">@import "/sites/all/modules/cck/fieldgroup.css";</style>
+<style type="text/css" media="all">@import "/sites/all/modules/panels/css/panels.css";</style>
+<style type="text/css" media="all">@import "/sites/all/modules/panels/layouts/twocol.css";</style>
+<style type="text/css" media="all">@import "/sites/all/themes/ZDssict/Modsimtex/style.css";</style>
+	<script type="text/javascript" src="/misc/jquery.js"></script>
+<script type="text/javascript" src="/misc/drupal.js"></script>
+<script type="text/javascript" src="/sites/all/modules/extlink/extlink.js"></script>
+<script type="text/javascript" src="/sites/all/modules/jquery_update/compat.js"></script>
+<script type="text/javascript" src="/sites/all/modules/panels/js/panels.js"></script>
+<script type="text/javascript">Drupal.extend({ settings: { "extlink": { "extTarget": "_blank", "extClass": "ext", "extSubdomains": 1, "mailtoClass": 0 }, "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip", "LegacyVersion": 0 } } });</script>
+	<script type="text/javascript" src="/sites/all/themes/ZDssict/Modsimtex/cvi_text_lib.js"></script>
+	<script type="text/javascript" src="/sites/all/themes/ZDssict/Modsimtex/jquery.flipv.js"></script>
+	<script type="text/javascript" src="/sites/all/themes/ZDssict/Modsimtex/jquery.pngfix.js"></script>
+	<script type="text/javascript" src="/sites/all/themes/ZDssict/Modsimtex/icons.js"></script>
+	<!--[if lte IE 7]>
+		<style type="text/css" media="all">@import "/sites/all/themes/ZDssict/Modsimtex/fix-ie.css";</style>
+	<![endif]-->
+	<title>MODSIMTex</title>
+</head>
+
+<body >
+<!-- Los div como el header, page... tienen otro div dentro por un motivo, una mayor flexibilidad a la hora de diseñar -->
+<div class="general">
+	<div class="header" id="header">
+		<div class="logo">
+				<a href="/" title=""><img src="/sites/all/themes/ZDssict/Modsimtex/logo.jpg" alt="Home" /></a>
+		</div>
+			</div>
+	<div class="outer">
+		<div class="inner">
+			<div class="wrap">
+				<!-- Container -->
+				<div class="page" id="page">
+										<div class="content_wrap" id="content">
+						<!-- Informacion -->
+																																																<div class="panel-display panel-2col clear-block" >
+  <div class="panel-panel panel-col-first">
+    <div class="inside"><div class="panel-pane">
+<h2 class="title">Welcome to ModSimTex</h2>
+<div class="content"><div id="node-1" class="node node-page">
+			<div class="content"><p><span style="font-size: 10pt; color: #003366">The ModSimTex project is an European Commission Community Research 7th Framework Programme, Priority 4 NMP Project.</span></p>
+<p><span style="font-size: 10pt; color: #003366">The <b>objective</b> of the Project is to develop a system which will reduce dramatically the cost to develop new technical textile products by reducing the time, energy and raw material waste during the production machinery setup process.</span></p>
+<div style="line-height: 15pt"><span style="font-size: 10pt; color: #003366">Its total <b>budget</b> is 4.5M&euro; and it will take 3 years and a half to complete.</span></div>
+<div style="line-height: 15pt">&nbsp;</div>
+<div style="line-height: 15pt"><span style="font-size: 10pt; color: #003366">The <b><u>Project Consortium</u></b> is composed by 3 Universities, 2 research centers and 7 companies from 6 different Member States of the EU.</span></div>
+<p>&nbsp;</p>
+<h2>Description of the Project</h2>
+<p class="rtecenter"><img width="500" height="360" src="/files/modsimtex/modsimtex/u2/Imagen1_3.png" alt="" /></p>
+<p>The textile industry faces important challenges regarding the production of new advanced textile products. It is not possible to define the characteristics and parameters of a given textile structure due to the difficulty of measuring them. This situation makes very difficult to configure the machines involved in the production of such textiles; the typical practices consists in manufacturing samples and through trial and error adjust the processing operations until the desired characteristics are achieved in the final product. With this procedure it&rsquo;s very expensive to match the designer&rsquo;s idea with the final product. The production setup takes a long amount of time and efforts and increases the cost of the final product. This is especially critical when a company is trying to develop new technical textiles.</p>
+<p>The vast majority of the existing systems capable to simulate textile products are limited to the visual representation, without any kind of mechanical or physical evaluation of the properties of the textile structures. Of course, these tools don&rsquo;t take into account the configuration of the production machinery, so they aren&rsquo;t capable of help in the setup of production machinery. Unlike these conventional design systems, the core of this proposal is to develop a virtual simulation system of the physical-mechanical properties of the textile structures oriented to the fast setup of the machines involved in the whole textile chain manufacturing process (yarns, woven fabrics, knit fabrics, needle-punch non-woven, hydro-tangled non-woven, and composite structures).</p>
+<p>This virtual construction system will allow the prediction of the multifunctional textile performance before the actual textile is manufactured allowing the settings of the production machines to be either an input or an output of the computation thus reducing dramatically the effort and cost to produce small batches or develop a new advanced technological textile.</p>
+</div>
+	</div></div>
+</div>
+</div>
+  </div>
+
+  <div class="panel-panel panel-col-last">
+    <div class="inside"><div class="panel-pane">
+<h2 class="title">News</h2>
+<div class="content"><div class='view view-Events'><div class='view-content view-content-Events'><div class="item-list"><ul><li><div class='view-item view-item-Events'><div class='view-field view-data-node-title'><a href="/successful-final-meeting-project">Successful Final Meeting of the project</a></div><div class='view-field view-data-node-data-field-short-body-field-short-body-value'><p>The last April 19th 2012, took place  in INTEXTER the final meeting of the MODSIMTex project</p>
+</div></div>
+</li><li><div class='view-item view-item-Events'><div class='view-field view-data-node-title'><a href="/successful-demonstration-event">Successful demonstration event </a></div><div class='view-field view-data-node-data-field-short-body-field-short-body-value'><p>A successful demosnstration event of the MODSIMTex project was held the last April 18th 2012 in INTEXTER</p>
+</div></div>
+</li><li><div class='view-item view-item-Events'><div class='view-field view-data-node-title'><a href="/successful-end-modsimtex-project">Successful end of the MODSIMTex Project</a></div><div class='view-field view-data-node-data-field-short-body-field-short-body-value'><p>After three years of hard work, the MODSIMTex project has finished successfully.</p>
+</div></div>
+</li><li><div class='view-item view-item-Events'><div class='view-field view-data-node-title'><a href="/april18th-demonstration-event-intexter">Demonstration Event at INTEXTER, April 18th 2012</a></div><div class='view-field view-data-node-data-field-short-body-field-short-body-value'><p>The next April 18th 2012, a demonstration open event of MODSIMTex Project will be held in INTEXTER in order to show the interesting results to the attending companies.</p>
+</div></div>
+</li><li><div class='view-item view-item-Events'><div class='view-field view-data-node-title'><a href="/final-meeting-project-april-19th-2012">Final Meeting of the Project, April 19th 2012</a></div><div class='view-field view-data-node-data-field-short-body-field-short-body-value'><p>The next April 19th 2012, the final meeting of the MODSIMTex project will take place in INTEXTER.</p>
+</div></div>
+</li></ul></div></div></div>
+</div>
+<div class="more-link"><a href="/news-archives">more</a></div>
+</div>
+</div>
+  </div>
+</div>											</div>
+				</div>
+				<!-- Sidebar-left -->
+				<div class="sidebar_left" id="sidebar-left">
+					<div id="block-menu-45" class="block block-menu">
+
+  <h2>MODSIMTex</h2>
+
+  <div class="content">
+<ul class="menu">
+<li class="leaf"><a href="/Frontpage" class="active">Home</a></li>
+<li class="leaf"><a href="/objectives-project">Objetives</a></li>
+<li class="leaf"><a href="/consortium">Consortium</a></li>
+<li class="leaf"><a href="/technology">Technology</a></li>
+<li class="leaf"><a href="/news-archives">News Archives</a></li>
+<li class="leaf"><a href="https://secure.projectplace.com/en/Log-in/">Intranet</a></li>
+<li class="leaf"><a href="/contact-us">Contact us</a></li>
+
+</ul>
+</div>
+</div>
+<div id="block-search-0" class="block block-search">
+
+  <h2>Search</h2>
+
+  <div class="content"><form action="/"  accept-charset="UTF-8" method="post" id="search-block-form">
+<div><div class="container-inline"><div class="form-item" id="edit-search-block-form-keys-wrapper">
+ <input type="text" maxlength="128" name="search_block_form_keys" id="edit-search-block-form-keys"  size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
+</div>
+</div></form>
+</div>
+</div>
+<div id="block-block-1" class="block block-block">
+
+  <h2>Patrocinios</h2>
+
+  <div class="content"><p class="rtecenter">&nbsp;<a href="http://cordis.europa.eu/fp7/home_es.html" target="_blank"><img height="85" width="100" src="/files/modsimtex/seventh-framework-programme.png" alt="" /></a><br /><a href="http://cordis.europa.eu/" target="_blank"><img height="73" width="70" src="/files/modsimtex/cordis.png" alt="" /></a></p>
+</div>
+</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<!-- Sidebar-right -->
+			<div class="sidebar_right" id="sidebar-right">
+							</div>
+			<div class="clear"></div> 
+		</div>
+	</div>
+	<!-- Footer -->
+		<div class="footer">
+		<div class="footer_main">
+			
+<div id="block-block-2" class="block block-block">
+
+
+  <div class="content"><p class="rtecenter"><strong>MODSIMTex:</strong> &quot;Development of a rapid configuration system for textile production machinery based on the physical behaviour simulation of precision textile structures.&quot;<a href="http://cordis.europa.eu/fp7/home_es.html" target="_blank"> <br />7th Framework Programme </a></p>
+<p class="rtecenter"><a href="/Frontpage">Home</a> - <a href="mailto:info@modsimtex.eu?subject=MODSIMTex">info@modsimtex.eu</a></p>
+</div>
+</div>
+		</div>
+	</div>
+	</div>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js"></script>
+<script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script>
+<script type="text/javascript">try{var pageTracker = _gat._getTracker("UA-18423575-30");pageTracker._trackPageview();} catch(err) {}</script>
+</body>
+</html>

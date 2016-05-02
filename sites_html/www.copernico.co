@@ -1,0 +1,225 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	COPERNICO- Rapid Design and Virtual Prototyping of Factories
+</title><link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form method="post" action="./" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTYwMzg4MjE0OQ9kFgJmD2QWAgIED2QWBgILD2QWBAIDDxYCHgtfIUl0ZW1Db3VudAICFgRmD2QWCAIBDw8WAh4LTmF2aWdhdGVVcmwFIn4vYXJ0aWNsZXMvTmV3c1ZpZXcuYXNweD9uZXdzaWQ9MzhkFgJmDw8WAh4EVGV4dAUZVHJhaW5pbmcgU2Vzc2lvbiBmb3IgU01Fc2RkAgMPDxYCHwIFCzAyIE1heSAyMDE0ZGQCBQ8PFgIfAgWyAkZvb3RwcmludCBTaGVmZmllbGQsIG9uZSBvZiB0aGUgU01FIGluZHVzdHJpYWwgcGFydG5lcnMgaW4gcHJvamVjdCBDb3Blcm5pY28sIGhvc3RlZCB0d28gdHJhaW5pbmcgc2Vzc2lvbnMgc3BlY2lmaWNhbGx5IGZvciBTTUUgb3duZXJzIGluIHRoZSBTaGVmZmllbGQgcmVnaW9uIGluIGNvbmp1bmN0aW9uIHdpdGggVEVLUywgb25lIG9mIHRoZSBvdGhlciBwYXJ0bmVycy4gQnkgaGF2aW5nIHNtYWxsIGdyb3VwcyBvZiB0aHJlZSB0byBmb3VyIHBlb3BsZSBpdCBhcyBwb3NzaWJsZSB0byBoYXZlIGluIGRlcHRoIHNlc3Npb25zIHdoZXJlIGRkAgcPDxYCHwEFIn4vYXJ0aWNsZXMvTmV3c1ZpZXcuYXNweD9uZXdzaWQ9MzhkZAIBD2QWCAIBDw8WAh8BBSJ+L2FydGljbGVzL05ld3NWaWV3LmFzcHg/bmV3c2lkPTMxZBYCZg8PFgIfAgUyVmlydGFsaXMgbGF1bmNoIFZpc2lvbmFyeSBSZW5kZXIgYXQgSGFubm92ZXIgTWVzc2VkZAIDDw8WAh8CBQ0xOSBBcHJpbCAyMDE0ZGQCBQ8PFgIfAgXhAkNPUEVSTklDTyBwYXJ0bmVyIFZpcnRhbGlzIGxhdW5jaGVkIFZpc2lvbmFyeSBSZW5kZXIgYXQgSGFubm92ZXIgTWVzc2Ugb24gOSBBcHJpbC4mbmJzcDsgVmlzaW9uYXJ5IFJlbmRlciBsZXRzIHVzZXJzIGltbWVyc2l2ZWx5IGludGVyYWN0IHdpdGggQ0FEIG1vZGVscyBpbiByZWFsLXRpbWUsIHdpdGggbm8gcHJldmlvdXMgZXhwZXJ0aXNlIGluIHZpcnR1YWwgcmVhbGl0eS4mbmJzcDsgSXQgYWxzbyBvZmZlcnMgcmVhbC10aW1lIGNvbGxhYm9yYXRpb24gaW4gYSB2aXJ0dWFsIGVudmlyb25tZW50IGFjcm9zcyBwaHlzaWNhbGx5LWRpc3RhbnQgbG9jYXRpb25zLg0KDQpWaXNpb25hcnkgUmVuZGVyIGlzIHBhcnQgb2YgZGQCBw8PFgIfAQUifi9hcnRpY2xlcy9OZXdzVmlldy5hc3B4P25ld3NpZD0zMWRkAgcPFgIfAAIBFgJmD2QWBmYPFQEhZXZlbnRzL0V2ZW50c1ZpZXcuYXNweD9FdmVudElkPTIzZAIBDw8WAh8CBQxGaW5hbCBSZXZpZXdkZAIDDw8WAh8CBQ0wOSBBcHJpbCAyMDE0ZGQCDQ9kFgICAw8WAh8AAgEWAmYPZBYIAgEPDxYCHwIFFVRoZSBDb3Blcm5pY28gUHJvamVjdGRkAgMPFgIfAgVHV2Ugd2lsbCBzaG9ydGx5IGJlIG9wZW5pbmcgcmVnaXN0cmF0aW9uIGZvciBiZXRhIHVzZXJzIG9mIHRoZSBzeXN0ZW0uDQpkAgUPFgIfAgX2DDxwPkNvcGVybmljbyB3YXMgZnVuZGVkIGJ5IHRoZSBFdXJvcGVhbiBTZXZlbnRoIEZyYW1ld29yayBGYWN0b3JpZXMgb2YgdGhlIEZ1dHVyZSBQcm9ncmFtbWUgYmV0d2VlbiBNYXkgMjAxMCBhbmQgQXByaWwgMjAxNC4gRHVyaW5nIHRoZSBwcm9qZWN0LCBhIHRvb2wgd2FzIGRldmVsb3BlZCB3aGljaCBhbGxvd3MgY29tcGFuaWVzIHRvIGRldGVybWluZSB0aGVpciBmYWN0b3J5IHR5cGUgYW5kIGdpdmVzIHRoZW0gYW4gaW5kaXZpZHVhbCByb3V0ZSBtYXAgb24gaG93IHRvIGFkYXB0IHRvIG1lZXQgbmV3IGNoYWxsZW5nZXMuIFRoaXMgd2FzIGFjaGlldmVkIHVzaW5nIGFuIDxhIHRhcmdldD0iX3NlbGYiIGhyZWY9Imh0dHA6Ly93d3cuY29wZXJuaWNvLmNvL2Fib3V0L2Fib3V0LmFzcHg/YWJvdXRpZD02Ij5pbm5vdmF0aXZlIG9ubGluZSBjbGFzc2lmaWNhdGlvbjwvYT4gYW5kIG1vZGVsbGluZyBzeXN0ZW0uJm5ic3A7IENvcGVybmljbyB1c2VzIGFuIGFuYWx5dGljYWwgYXBwcm9hY2gsIGJvcnJvd2VkIGZyb20gdGhlIGJpb2xvZ2ljYWwgc2NpZW5jZXMsIGNhbGxlZCBjbGFkaXN0aWNzIOKAkyB0byBmaW5kIG91dCBtb3JlLCBzZWUgb3VyIDxhIGhyZWY9Imh0dHA6Ly9jb3Blcm5pY28uY28vaW5mb3JtYXRpb24vQ29wZXJuaWNvQ29taWMucGRmIiB0YXJnZXQ9Il9ibGFuayI+c2ltcGxlIGludHJvZHVjdG9yeSBndWlkZTwvYT4uPC9wPg0KPHA+Q29wZXJuaWNvIGlzIGEgZnJlZSBvbmxpbmUgdG9vbCB3aGljaCBjYW4gYW5hbHlzZSBhIGNvbXBhbnkncyBjdXJyZW50IG9wZXJhdGlvbnMsIHN1Z2dlc3Qgd2F5cyB0byBpbXByb3ZlIHRoZWlyIHBlcmZvcm1hbmNlIGFuZCBndWlkZSB0aGVtIHRocm91Z2ggdGhlIG5lY2Vzc2FyeSBzdGVwcyB0byB0YWtlIHRoZWlyIGJ1c2luZXNzIHRvIHRoZSBuZXh0IGxldmVsLiBJdCBlbmNvbXBhc3NlcyBhIHdpZGUgcmFuZ2Ugb2YgZmFjdG9yeSB0eXBlcywgZnJvbSBTTUVzIHRvIGdsb2JhbCBlbnRlcnByaXNlcyBhbmQgaGFzIGJlZW4gPGEgaHJlZj0iaHR0cDovL3d3dy5jb3Blcm5pY28uY28vcHJvamVjdF9yZXN1bHRzL3Jlc3VsdHMuYXNweD9uZXdwYWdlaWQ9MiIgdGFyZ2V0PSJfc2VsZiI+ZGVtb25zdHJhdGVkPC9hPiBieSA8YSBocmVmPSJodHRwOi8vd3d3LmNvcGVybmljby5jby9jb25zb3J0aXVtL2NvbnNvcnRpdW1QYWdlcy5hc3B4IiB0YXJnZXQ9Il9zZWxmIj5wYXJ0bmVyIGNvbXBhbmllczwvYT4gZnJvbSBhIG51bWJlciBvZiBzZWN0b3JzLjwvcD4NCjxwPkRhdGEgZW50ZXJlZCBhcyBwYXJ0IG9mIHRoZSBhbmFseXNpcyBzdGFnZSBpcyByZXVzZWQgYW5kIGV4cGFuZGVkIGR1cmluZyB0aGUgbW9kZWxsaW5nIHBoYXNlIHRvIG1pbmltaXNlIGlucHV0IHJlcXVpcmVkIGZyb20gYnVzeSBjb21wYW55IG93bmVycyBhbmQgbWFuYWdlcnMuIEFuZCBzaG91bGQgY29uc3VsdGFuY3kgYmUgcmVxdWlyZWQsIHRoZSByZXN1bHRzIGFuZCBkYXRhIGNhbiBiZSBwYXNzZWQgb24gdG8gcmVkdWNlIGNvbnN1bHRhbmN5IGNvc3RzLjwvcD4NCjxwPjxhIHNoYXBlPSJyZWN0IiBocmVmPSJodHRwOi8vd3d3LmNvcGVybmljby5jby9hYm91dC9hYm91dC5hc3B4P2Fib3V0aWQ9NCIgdGFyZ2V0PSJfc2VsZiI+UmVhZCBvbiB0byBsZWFybiBtb3JlICZndDsmZ3Q7PC9hPjwvcD5kAgcPDxYCHgdWaXNpYmxlaGQWAgIBDw8WAh4LTmF2aWdhdGVVUkwFIH4vYWJvdXQvYWJvdXRFZGl0LmFzcHg/YWJvdXRpZD05ZGQCDw9kFgJmD2QWAmYPZBYCAgEPZBYCZg9kFgICDQ8QDxYCHgdDaGVja2VkaGRkZGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgMFLGN0bDAwJG1pbmlMaW5rcyRMb2dpblZpZXcxJGxvZ2luU3RhdHVzJGN0bDAxBSxjdGwwMCRtaW5pTGlua3MkTG9naW5WaWV3MSRsb2dpblN0YXR1cyRjdGwwMwUuY3RsMDAkTG9naW5CYW5uZXIxJExvZ2luVmlldyRMb2dpbjEkUmVtZW1iZXJNZUgFmAN9kGw68uo5CAN1irxnesTAaAtUP+v+Zb3XFTWO" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="ZFh1stf33U4ZZkm7CEyX6RSNDHUuRp5ufQAuduYvlxe8S-Jpo--ahMJ5PPhipKNcDuU52vvTgU4jLmFeRb4cwiavKje9pk3vvXpj_t27d7s1" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAekMexoJ0CyK3qd7GuaCYxEbzXcRa6P3ikI4gNRmlV9Y8XKSW0Q7XLl1l8lprEhIW4/lg8ioGPs+yWE0R4SoY3KfHEGkVyihsy6NOd+SfwTYIomDJ+xPSkuSeStEQ+ZEy+/GXX9Pl8YnF6MCyqX+KeWngbVWQD37ogoWoHhHTckfVuyzdPwzcqF5kqys6g/pec=" />
+    
+
+    
+
+<div id="miniLinks">
+    
+            <ul>
+                <li>
+                    <a id="miniLinks_LoginView1_HyperLink2" class="contact" href="contact_us.aspx">Contact us &raquo;</a></li>
+                <li>
+                    <a id="miniLinks_LoginView1_HyperLink1" class="register" href="Member_Register.aspx">Register</a></li><li>
+                            <a id="miniLinks_LoginView1_loginStatus" class="login" href="javascript:__doPostBack(&#39;ctl00$miniLinks$LoginView1$loginStatus$ctl02&#39;,&#39;&#39;)">Login</a>
+                        </li>
+            </ul>
+        
+</div>
+
+    <div id="header">
+        <div id="headerPadder">
+            <div id="logo">
+                <h1>
+                    <a href="default.aspx"><b>COPERNICO</b></a></h1>
+            </div>
+            
+        <div id="mainMenu">
+            <ul>
+                <li>
+                    <a id="mainMenu_LoginView1_HyperLink6" href="default.aspx">Home</a></li>
+                <li>
+                    <a id="mainMenu_LoginView1_HyperLink2" href="about/about.aspx?aboutid=4">About</a></li>
+                <li>
+                    <a id="mainMenu_LoginView1_HyperLink1" href="consortium/consortiumPages.aspx">Consortium</a></li>
+                <li>
+                    <a id="mainMenu_LoginView1_HyperLink3" href="articles/NewsItems.aspx">News</a></li>
+                <li>
+                    <a id="mainMenu_LoginView1_HyperLink5" href="project_results/publications.aspx?newpageid=1">Publications</a></li>
+               
+            </ul>
+        </div>
+    
+
+        </div>
+        <div class="clear2column">
+        </div>
+    </div>
+    <div id="wrapper">
+        
+    <div id="bigText">
+        <h1>
+            <b>Rapid Design and Virtual Prototyping of Factories</b></h1>
+        <img id="headerCPH_Image1" class="hpImage" src="images/virtualEnv-003.jpg" />
+        <a id="headerCPH_HyperLink6" href="information/CopernicoComic.pdf" target="_blank"><img id="headerCPH_Image2" class="comicBook" src="images/comicBook.png" /></a>
+    </div>
+
+        <div id="rightBar">
+            <div id="rightBarblack">
+                
+    <br />
+    <div class="newsbox">
+        <h3>
+            Latest news</h3>
+        
+        
+                <div class="listitem">
+                    <h4>
+                        <a id="rightBarCPH_Repeater1_HyperLink4_0" href="articles/NewsView.aspx?newsid=38"><span id="rightBarCPH_Repeater1_Label4_0">Training Session for SMEs</span></a></h4>
+                    <p class="newsdate">
+                        <span id="rightBarCPH_Repeater1_Label3_0">02 May 2014</span></p>
+                    <p>
+                        <span id="rightBarCPH_Repeater1_Label2_0">Footprint Sheffield, one of the SME industrial partners in project Copernico, hosted two training sessions specifically for SME owners in the Sheffield region in conjunction with TEKS, one of the other partners. By having small groups of three to four people it as possible to have in depth sessions where </span>
+                        <a id="rightBarCPH_Repeater1_HyperLink5_0" href="articles/NewsView.aspx?newsid=38">...Read more &raquo;</a></p>
+                </div>
+            
+                <div class="listitem">
+                    <h4>
+                        <a id="rightBarCPH_Repeater1_HyperLink4_1" href="articles/NewsView.aspx?newsid=31"><span id="rightBarCPH_Repeater1_Label4_1">Virtalis launch Visionary Render at Hannover Messe</span></a></h4>
+                    <p class="newsdate">
+                        <span id="rightBarCPH_Repeater1_Label3_1">19 April 2014</span></p>
+                    <p>
+                        <span id="rightBarCPH_Repeater1_Label2_1">COPERNICO partner Virtalis launched Visionary Render at Hannover Messe on 9 April.&nbsp; Visionary Render lets users immersively interact with CAD models in real-time, with no previous expertise in virtual reality.&nbsp; It also offers real-time collaboration in a virtual environment across physically-distant locations.
+
+Visionary Render is part of </span>
+                        <a id="rightBarCPH_Repeater1_HyperLink5_1" href="articles/NewsView.aspx?newsid=31">...Read more &raquo;</a></p>
+                </div>
+            
+    </div>
+    <div class="eventsbox">
+        <h3>
+            Next event</h3>
+        
+        
+                <div class="listitem">
+                    <h4>
+                        <a href='events/EventsView.aspx?EventId=23'>
+                            <span id="rightBarCPH_Repeater2_Label4_0">Final Review</span>
+                            &raquo; </a>
+                    </h4>
+                    <p class="date">
+                        <span id="rightBarCPH_Repeater2_Label3_0">09 April 2014</span></p>
+                </div>
+            
+    </div>
+
+            </div>
+        </div>
+        <div id="mainContent">
+            
+    
+    
+    
+            <h2>
+                <span id="mainCPH_Repeater3_Label1_0">The Copernico Project</span></h2>
+            <div class="quoter">
+                <p>
+                    We will shortly be opening registration for beta users of the system.
+</p>
+            </div>
+           
+             <iframe width="100%" height="315" src="http://www.youtube.com/embed/bTrLcEx0u9s"
+        frameborder="2" allowfullscreen></iframe><br /><br /><br />
+            <p>Copernico was funded by the European Seventh Framework Factories of the Future Programme between May 2010 and April 2014. During the project, a tool was developed which allows companies to determine their factory type and gives them an individual route map on how to adapt to meet new challenges. This was achieved using an <a target="_self" href="http://www.copernico.co/about/about.aspx?aboutid=6">innovative online classification</a> and modelling system.&nbsp; Copernico uses an analytical approach, borrowed from the biological sciences, called cladistics – to find out more, see our <a href="http://copernico.co/information/CopernicoComic.pdf" target="_blank">simple introductory guide</a>.</p>
+<p>Copernico is a free online tool which can analyse a company's current operations, suggest ways to improve their performance and guide them through the necessary steps to take their business to the next level. It encompasses a wide range of factory types, from SMEs to global enterprises and has been <a href="http://www.copernico.co/project_results/results.aspx?newpageid=2" target="_self">demonstrated</a> by <a href="http://www.copernico.co/consortium/consortiumPages.aspx" target="_self">partner companies</a> from a number of sectors.</p>
+<p>Data entered as part of the analysis stage is reused and expanded during the modelling phase to minimise input required from busy company owners and managers. And should consultancy be required, the results and data can be passed on to reduce consultancy costs.</p>
+<p><a shape="rect" href="http://www.copernico.co/about/about.aspx?aboutid=4" target="_self">Read on to learn more &gt;&gt;</a></p>
+            <br />
+            
+        
+    
+   
+    
+
+        </div>
+        <div class="clear2column">
+            &nbsp;</div>
+    </div>
+    <div id="memberBox">
+        <div class="inner">
+            <a name="tools"></a>
+            
+        <table id="LoginBanner1_LoginView_Login1" cellspacing="0" cellpadding="0">
+	<tr>
+		<td>
+                <div class="thirdsBox">
+                    <h3>
+                        Member login &raquo;</h3>
+                    <p>
+                        <label for="LoginBanner1_LoginView_Login1_UserName" id="LoginBanner1_LoginView_Login1_UserNameLabel">User 
+                                        Name:</label><br />
+                        <input name="ctl00$LoginBanner1$LoginView$Login1$UserName" type="text" id="LoginBanner1_LoginView_Login1_UserName" class="textbox" />
+                        
+                    </p>
+                    <p>
+                        <label for="LoginBanner1_LoginView_Login1_Password" id="LoginBanner1_LoginView_Login1_PasswordLabel">Password:</label><br />
+                        <input name="ctl00$LoginBanner1$LoginView$Login1$Password" type="password" id="LoginBanner1_LoginView_Login1_Password" class="textbox" />
+                        &nbsp;
+                    </p>
+                    <p>
+                        <input id="LoginBanner1_LoginView_Login1_RememberMe" type="checkbox" name="ctl00$LoginBanner1$LoginView$Login1$RememberMe" /><label for="LoginBanner1_LoginView_Login1_RememberMe"> Remember me</label>
+                    </p>
+                    <p class="redtext">
+                        </p>
+                    <p class="link">
+                        <a id="LoginBanner1_LoginView_Login1_LoginBtn" class="login" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$LoginBanner1$LoginView$Login1$LoginBtn&quot;, &quot;&quot;, true, &quot;Login1&quot;, &quot;&quot;, false, true))">Login &raquo;</a>
+                    </p>
+                    <p class="forgotten">
+                        <a id="LoginBanner1_LoginView_Login1_HyperLink4" href="Login.aspx">Forgotten your password?</a>
+                    </p>
+                </div>
+                <div class="thirdsBox">
+                    <h3>
+                        Not a member?</h3>
+                    <p>
+                        Gain access to more information about the COPERNICO project by filling out our simple
+                        registration form.</p>
+                    <p class="link">
+                        <a id="LoginBanner1_LoginView_Login1_RegisterButton" class="register" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$LoginBanner1$LoginView$Login1$RegisterButton&quot;, &quot;&quot;, false, &quot;&quot;, &quot;Member_Register.aspx&quot;, false, true))">Register &raquo;</a>
+                    </p>
+                </div>
+                <div class="thirdsBox">
+                    <h3>
+                        Funding</h3>
+                    <img id="LoginBanner1_LoginView_Login1_Image1" src="images/7thFrameworkSmall.jpg" />
+                    <p>
+                        COPERNICO is a collaborative project of the Seventh Framework Programme of the European
+                        Commission. 
+                    </p><br />
+                    <p>
+                        <a id="LoginBanner1_LoginView_Login1_HyperLink7" href="http://cordis.europa.eu/fp7/home_en.html">For more information, visit the Cordis website &raquo;</a>
+                    </p>
+                </div>
+            </td>
+	</tr>
+</table>
+    
+<div class="clear2column">
+</div>
+
+        </div>
+        <div id="footer">
+            <p>
+                Copyright © COPERNICO consortium - 2010</p>
+            <p>
+                &nbsp;</p>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

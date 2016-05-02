@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>ALLFUN</title>
+<meta name="keywords" content="ALLFUN" />
+<meta name="description" content="ALLFUN" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+<body onLoad="javascript: LOGIN.USERNAME.focus();">
+<div id="header">
+  <div id="logo"> <img src="images/allfun.png" width="240" height="123" alt="ALLFUN logo" /> </div>
+  <div id="menu">
+    <ul>
+      <li class="first"><a href="#" accesskey="1" title="">Home</a></li>
+      <li><a href="partners.html" accesskey="2" title="">partners</a></li>
+      <li><a href="events.html" accesskey="3" title="">events</a></li>
+      <li><a href="training_dissemination.html" title="" accesskey="4">training and dissemination</a></li>
+      <li><a href="publications.html" accesskey="5" title="">publications</a></li>
+    </ul>
+  </div>
+</div>
+<div id="divisor"></div>
+<div id="content">
+  <div id="col_left">
+    <h2>Title</h2>
+    <p><strong class="current_page" style="color: #ec5600">Fungi in the setting of inflammation, allergy and autoimmune diseases: Translating basic science into clinical practices.</strong></p>
+    <p>View the <a href="project_structure.html">PROJECT STRUCTURE</a></p>
+    <h2>Abstract</h2>
+    <p>The ALLFUN proposal aims at defining the cellular and molecular mechanisms by which ubiquitous airborne or commensal fungi contribute to immune homeostasis and its dysregulation leading to allergy and inflammatory diseases. Breakthroughs in understanding how mucosal homeostasis is established, maintained or disrupted in the presence of fungi should be sources of new therapeutic targets and drugs (i.e. anti-inflammatory, immunomodulatory and anti-infectious molecules). European scientists representing the leading edge of this field are brought together here in a unique synergistic and cross-cutting collaboration that addresses a major medical and economic problem of considerable importance to the health care sector. The study will be centered on yeasts and filamentous fungi known to be associated with a number of inflammatory, autoimmune and allergic diseases. Via a multidisciplinary systems biology study combining fungal genetics, clinical research and animal models in a systems biology approach, integrating traditional wet-lab methods with those of functional genomics, immunomics, allergomics and bioinformatics, the ALLFUN project meets the criteria of the call, the strategic objective of which is &quot;to elucidate mechanisms by which infections may lead to aberrant activation of inflammation, the lack of resolution of which is responsible for inflammatory diseases&quot;. The anticipated results are highly relevant to society in terms of reducing the burden of mortality and suffering in patients with fungus-related diseases, identifying more accurate biomarkers for immunological disorders, optimizing and possibly reducing the cost of antifungal therapy by association with anti-inflammatory strategies that targets pathogenicity rather than microbial growth, the host-pathogen interface rather than the pathogen. Understanding the spectrum of immunological responses to fungi is perhaps the single most important challenge in the field of medical mycology.<br />
+      <br />
+    </p>
+    <table border="0" cellpadding="10" cellspacing="0">
+      <tr>
+        <td><a href="http://cordis.europa.eu/home_en.html" title="7th European Framework Programme" target="_blank"><img src="images/fp7.jpg" width="98" height="70" alt="7FP" /></a></td>
+        <td width="140" style=" line-height:normal; font-size:11px; text-align:justify;">This project is supported through Coordination Theme 1 (Health) of the European Community's FP7. Grant agreement number HEALTH-F2-2010-260338.</td>
+        <td><img src="images/eu_flag_big.gif" width="104" height="70" alt="EU" /></td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <div class="note">
+      <p>Last update: <em>16 July, 2014</em></p>
+    </div>
+  </div>
+  <div id="col_right">
+    <h3>Reserved area</h3>
+    <form id="LOGIN" method="post" action="protected/contract_documents.asp">
+      username:<br />
+      <input name="USERNAME" type="text" id="USERNAME" />
+      password:<br />
+      <input name="PASSWORD" type="password" id="PASSWORD" />
+      <input name="accesso" type="hidden" id="accesso" value="yes" />
+      <br />
+      <br />
+      <input name="login" type="submit" id="submit_button" value="Login" />
+    </form>
+    <br />
+    <br />
+    <h3>News</h3>
+    <p> <strong>27 February – 1 March 2014, Madrid, Spain<br />
+      <a href="http://www.advancesagainstaspergillosis.org" target="_blank">6th Advances Against<br />
+      Aspergillosis</a></strong></p>
+    <p><strong>13-16 April 2014, Italy<br />
+      </strong><a href="borgo_riccio_meeting.html">Final ALLFUN meeting, Borgo Riccio- Torchiara, Italy</a><br />
+    </p>
+    <br />
+    <h3>Highlights</h3>
+    <ul>
+      <li><a href="training_dissemination.html">TRAINING AND DISSEMINATION</a></li>
+      <li><a href="press_review.html">PRESS REVIEW</a></li>
+    </ul>
+    <br />
+    <h3>Links</h3>
+    <ul>
+      <li>
+        <div align="left"><a href="http://ec.europa.eu/research/science-society/open_access" target="_blank">OPEN ACCESS IN FP7</a></div>
+        <br />
+      </li>
+      <li>
+        <div align="left"><a href="http://www.aspergillus.org.uk" target="_blank">The Aspergillus/Aspergillosis Website</a></div>
+      </li>
+    </ul>
+    <br />
+    <h3>Contact us</h3>
+    <ul>
+      <li><a href="partners.html">contacts on partner sections</a> </li>
+    </ul>
+  </div>
+  <div style="clear: both;">&nbsp;</div>
+</div>
+<div id="footer">
+  <p>© 2010 ALLFUN. Powered by <a href="http://www.altaweb.eu/">ALTA</a></p>
+</div>
+</body>
+</html>

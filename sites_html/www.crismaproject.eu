@@ -1,0 +1,500 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+<meta http-equiv="Content-Language" content="fi">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>EU project Crisma</title>
+<base href="http://www.crismaproject.eu/">
+<meta name="keywords" content="VTT">
+<link rel=stylesheet href="style.css">
+
+<style type="text/css">
+
+.mdiv ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+width: 180px; /* Width of Menu Items */
+border-bottom: 1px solid #fff;
+	text-align: left;
+}
+	
+.mdiv ul li{
+position: relative;
+}
+	
+/*Sub level menu items */
+.mdiv ul li ul{
+position: absolute;
+width: 200px; /*sub menu width*/
+top: 0;
+visibility: hidden;
+}
+
+/* Sub level menu links style */
+.mdiv ul li a{
+display: block;
+overflow: auto; /*force hasLayout in IE7 */
+text-decoration: none;
+font-family: Verdana, sans-serif;
+font-size: 8pt; 
+font-weight: bold;
+color: #000000;
+background: #e5cbc6;
+padding: 6px 5px;
+border: 1px solid #fff;
+border-bottom: 0;
+}
+
+.mdiv ul li a:hover{
+background-color: #b4b4b4;
+font-family: Verdana, sans-serif;
+font-size: 8pt; 
+font-weight: bold;
+color: #FFFFFF;
+}
+
+.mdiv .subfolderstyle{
+background: #e5cbc6 url('http://www.crismaproject.eu/media/arrow-list.gif') no-repeat right 50%;
+}
+
+	
+/* Holly Hack for IE \*/
+* html .mdiv ul li { float: left; height: 1%; }
+* html .mdiv ul li a { height: 1%; }
+/* End */
+
+</style>
+
+<script type="text/javascript">
+
+
+var menuids=["mtree1"] //Enter id(s) of SuckerTree UL menus, separated by commas
+
+function buildsubmenus(){
+for (var i=0; i<menuids.length; i++){
+  var ultags=document.getElementById(menuids[i]).getElementsByTagName("ul")
+    for (var t=0; t<ultags.length; t++){
+    ultags[t].parentNode.getElementsByTagName("a")[0].className="subfolderstyle"
+		if (ultags[t].parentNode.parentNode.id==menuids[i]) //if this is a first level submenu
+			ultags[t].style.left=ultags[t].parentNode.offsetWidth+"px" //dynamically position first level submenus to be width of main menu item
+		else //else if this is a sub level submenu (ul)
+		  ultags[t].style.left=ultags[t-1].getElementsByTagName("a")[0].offsetWidth+"px" //position menu to the right of menu item that activated it
+    ultags[t].parentNode.onmouseover=function(){
+    this.getElementsByTagName("ul")[0].style.display="block"
+    }
+    ultags[t].parentNode.onmouseout=function(){
+    this.getElementsByTagName("ul")[0].style.display="none"
+    }
+    }
+		for (var t=ultags.length-1; t>-1; t--){ //loop through all sub menus again, and use "display:none" to hide menus (to prevent possible page scrollbars
+		ultags[t].style.visibility="visible"
+		ultags[t].style.display="none"
+		}
+  }
+}
+
+if (window.addEventListener)
+window.addEventListener("load", buildsubmenus, false)
+else if (window.attachEvent)
+window.attachEvent("onload", buildsubmenus)
+
+</script>
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36599421-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+</head>
+
+
+<div align="center">
+
+<table border="0" width="900" height="105" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+	<tr>
+		<td align="center" valign="top" height="100">
+		<img alt="" src="/img/top_banner.jpg" width="900" height="100"></td>
+	
+</tr>
+	<tr>
+		<td align="left" valign="top" bgcolor="#B4B4B4" height="5"></td>
+	</tr>
+	
+</table>
+
+<table border="0" width="900" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+	<tr>
+		<td width="700" align="left" valign="top">
+		<table width="700" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="180" align="left" valign="top" bgcolor="#993333" height="600">
+				<table border="0" width="180">
+					<tr>
+						<td>
+						<div class="mdiv">
+<ul id="mtree1">
+<li><a href="/index.htm">Home</a></li>
+
+<li><a href="/project.htm">Project</a></li>
+
+<li><a href="/partners.htm">Partners</a></li>
+
+
+<li><a href="/results.htm">Results</a>
+  <ul>
+  <li><a href="/deliverables.htm">Public deliverables</a></li>
+  <li><a href="/publications.htm">Related publications</a></li>
+  <li><a href="/usecases.htm">Use cases</a></li>
+  <li><a href="/catalogue.htm">CRISMA Catalogue</a></li>
+  <li><a href="/videos.htm">CRISMA Videos</a></li>
+  <li><a href="/final_event_material.htm">CRISMA Final event material</a></li>
+  <li><a href="/CRISMAbook.htm">Report on CRISMA Final results</a></li>
+</ul>
+</li>
+
+<li><a href="/material.htm">Promotional material</a></li>
+
+<li><a href="/prev_events.htm">Events</a>
+</li>
+
+
+<li><a href="/new_news.htm">News</a>
+<ul>
+  <li><a href="/CRISMAnews.htm">CRISMA News</a></li>
+  <li><a href="/related_news.htm">Related news</a></li>
+</ul>
+</li>
+  
+<li><a href="/contact.htm">Contact</a></li>
+
+<li><a href="/projects.htm">Related Projects</a></li>
+</ul>
+<br><br>
+</div></td>
+					</tr>
+
+<table border="0" width="180">
+					<tr>
+						<td>
+						<div class="mdiv">
+<ul id="mtree1">
+					
+<li><a href="/CRISMAbook.htm">Report on CRISMA Final results
+					</a></li>
+				
+					</ul>
+					</div>
+					</td>
+					</tr>
+					</table>
+
+
+<table border="0" width="180">
+					<tr>
+						<td>
+						<div class="mdiv">
+<ul id="mtree1">
+					
+<li><a href="/catalogue.htm"
+					class="mainlink">CRISMA Catalogue</a></li>
+				
+					</ul>
+					</div>
+					</td>
+					</tr>
+					</table>
+					
+<table border="0" width="180">
+					<tr>
+						<td>
+						<div class="mdiv">
+<ul id="mtree1">
+					
+<li><a href="/final_event_material.htm">CRISMA Final Event and the Business Day
+					<br>- MATERIAL AVAILABLE</a></li>
+				
+					</ul>
+					</div>
+					</td>
+					</tr>
+					</table>
+					
+			<table border="0" width="180">
+					<tr>
+						<td>
+						<div class="mdiv">
+<ul id="mtree1">
+					
+<li><a href="/videos.htm">CRISMA Videos</a></li>
+				
+					</ul>
+					</div>
+					</td>
+					</tr>
+					</table>
+		
+					
+					
+
+					
+					
+					
+				
+				<td width="10" align="left" valign="top"><img border="0" src="/img/2x2.gif" width="10" height="1"></td>
+				<td width="500" align="left" valign="top">
+				<br>
+				<span class="big2">CRISMA</span><p>
+				<span class="otsikko">Modelling crisis management for improved action and preparedness
+</span></p>
+				<p>CRISMA Integration Project focused on large scale crisis 
+				scenarios with immediate and extended human, societal, 
+				structural and economic, often irreversible, consequences and 
+				impacts. Typically, these crisis scenarios cannot be managed 
+				alone with regular emergency and first responder resources, but 
+				require multi-organisational and multi-national cooperation 
+				including humanitarian aid. 
+				<p>The CRISMA project developed a simulation-based decision 
+				support system, for modelling crisis management, improved action and preparedness. 
+				The CRISMA System facilitates simulation and modelling of realistic 
+				crisis scenarios, possible response actions, and the impacts of 
+				crisis depending on both the external factors driving the crisis 
+				development and the various actions of the crisis management 
+				team. 
+				<br><br>
+				CRISMA project has ended and the Report on CRISMA Final results can be found 
+				<a class="mainlink" href="/CRISMAbook.htm">here</a>.
+				<hr style="height: 1px"> 
+				<p><span class="big2">Last updated </span>
+				- 29 October 2015<p>
+				
+				<span class="side">
+												<span class="side">
+												New<a class="mainlink" href="/deliverables.htm"> CRISMA deliverables</a> added. 
+												</span>	<br><br>
+
+				
+				<span class="side">		
+				Added a new <a class="mainlink" href="/CRISMAnews.htm">CRISMA news</a> item:		
+				Homeland Security News Wire published an article on 
+				CRISMA project: <a target="_blank" 
+				href="http://www.homelandsecuritynewswire.com/dr20151005-developing-new-modelling-tool-for-better-crisis-management" 
+				class="mainlink">Crisis management - Developing new modelling tool for better crisis management</a>.<br><br>
+	
+					
+					<span class="side">
+												
+					Added new
+												
+				<a class="mainlink" href="/publications.htm">Related Publications</a>.<br><br>
+
+				
+				<a class="mainlink" href="/publications.htm">Related Publications</a><span class="side"> updated.</span><br><br>
+
+				
+				<span class="side">Added a new <a class="mainlink" href="/CRISMAnews.htm">CRISMA news </a>item about previously released 
+				Report on CRISMA Final Results - 
+												 <a class="mainlink" href="/news/news14_2015.htm">
+												Read more</a>    
+												</span>	<br><br>
+				<span class="side">
+												<span class="side">
+												New<a class="mainlink" href="/deliverables.htm"> CRISMA deliverables</a> added. 
+												</span>	<br><br>
+
+						<span class="side">
+												<span class="side">
+												New<a class="mainlink" href="/deliverables.htm"> CRISMA deliverable</a> added. 
+												</span>	<br><br>
+
+												
+												<span class="side">
+												<a class="mainlink" href="/videos.htm"> CRISMA Videos</a> updated. 
+												</span>	<br><br>
+
+
+												
+												<a class="mainlink" href="/CRISMAbook.htm"> Report on CRISMA Final results</a> added. 
+												CRISMA website structure updated.
+												</span>	<br><br>
+
+												<span class="side">
+										
+
+																<span class="side">
+												<a class="mainlink" href="/material.htm"> Promotional material</a> updated. 
+												</span>	<br><br>
+
+												<span class="side">
+										
+												CRISMA Final Event and the Business Day 
+												<a href="/final_event_material.htm"
+												class="mainlink">posters</a> 
+												are now available.<br><br>
+
+				
+				<span class="side">
+												<a class="mainlink" href="/CRISMAnews.htm"> CRISMA News</a> updated. 
+												</span>	<br><br>
+
+
+				
+				<span class="side">
+												
+												<a href="/final_event_material.htm"
+												class="mainlink">CRISMA Final Event and the Business Day material</a> 
+												is now available. <a class="mainlink" href="/publications.htm">Related Publications</a><span class="side"> and 
+												<a class="mainlink" href="/prev_events.htm">CRISMA Events</a> updated.
+												<a class="mainlink" href="/videos.htm">CRISMA Videos</a> added.
+												</span>	<br><br>
+
+				
+				<span class="side">
+												<a class="mainlink" href="/CRISMAnews.htm"> CRISMA News</a> updated. 
+												</span>	<br><br>
+
+												<span class="side">
+												CRISMA 
+												<a target="_blank" 
+												href="/docs/CRISMA Final Conference Programme 5-6-2015.pdf"
+												class="mainlink">Business Day and Final Conference final programme</a> 
+												is updated.
+												</span>	<br><br>
+
+				
+												<span class="side">
+												<a class="mainlink" href="/CRISMAnews.htm"> CRISMA News</a> and 
+												<a class="mainlink" href="/prev_events.htm">previous CRISMA Events</a> updated. 
+												</span>	<br><br>
+
+												
+												<span class="side">
+												CRISMA 
+												Business Day and Final Conference invitations can be find <a target="_blank" 
+												href="/final_event.htm"
+												class="mainlink">here</a>.
+												</span>	<br><br>
+
+												
+												<a class="mainlink" href="/prev_events.htm">
+				Previous CRISMA Events</a> updated. 
+												<br><br>
+
+												
+												<span class="side">
+												CRISMA 
+												Business Day and Final Conference final programme is now available <a target="_blank" 
+												href="/docs/CRISMA Final Conference Programme 5-6-2015.pdf"
+												class="mainlink">here</a>.
+												</span>	<br><br>
+
+												
+												<span class="side">
+												<a class="mainlink" href="/CRISMAnews.htm"> CRISMA News</a> and 
+												<a class="mainlink" href="/prev_events.htm">previous CRISMA Events</a> updated. 
+												</span>	<br><br>
+
+												
+												<span class="side">ITEC2015 <a href="/docs/ITEC2015_Rosqvist et al_presentation_Final.pdf"
+												class="mainlink">presentation</a> added to 
+												<a class="mainlink" href="/publications.htm">Related Publications</a><span class="side">.
+												<br><br>
+
+												
+												<span class="side">
+												<a class="mainlink" href="/CRISMAnews.htm">CRISMA News</a> updated to include 
+												CRISMA Business Day and Final Conference draft programme.
+												</span>	<br><br>
+												
+												<span class="side">
+												<a class="mainlink" href="/CRISMAnews.htm">CRISMA News</a>
+												and <a class="mainlink" href="/prev_events.htm">previous CRISMA Events</a> updated.
+												</span>	<br><br> 
+
+												
+												<span class="side">
+												<a class="mainlink" href="/CRISMAnews.htm">CRISMA News</a>, <a class="mainlink" href="/joinevents.htm">join CRISMA Events</a> 
+												and <a class="mainlink" href="/prev_events.htm">previous CRISMA Events</a> updated.
+												</span>	<br><br> 
+
+												
+												<span class="side">
+												<a class="mainlink" href="/partners.htm">Partners</a> updated.
+												</span>	<br><br> 
+
+
+												
+												
+
+												
+
+												
+												
+												<a href="/news.htm" class="mainlink">
+												More news...</a>
+<td width="10" align="left" valign="top" background="/img/vert_line_2x10.gif"><img border="0" src="/img/2x2.gif" width="10" height="1"></td>
+			</tr>
+		</table>
+		</td>
+		<td width="200" valign="top" align="center">
+		
+		
+		
+			<table border="0" width="200" id="table1" cellspacing="4" cellpadding="0">
+				<tr>
+					<td align="left" height="100" valign="top">
+					<span class="side">CRISMA</span> (March 2012 - August 2015) was an Integration project financed under the Security 
+					theme of the Cooperation Programme of the
+					7th 
+					Framework Programme of the European Commission</td>
+				</tr>
+				<tr>
+					<td align="center" height="80" valign="middle">
+					<img border="0" src="/img/eu_flag.gif" width="80" height="54"></td>
+				</tr>
+					
+				<tr>
+					<td align="left"  height="140" valign="top">
+					This project has received funding from the European Union&#8217;s Seventh Framework Programme 
+					for research, technological development and demonstration 
+					under grant agreement no 284552
+					<br><br>
+					Facts of <span class="side">Crisma</span> project on 
+					<a target="_blank" href="http://cordis.europa.eu/projects/rcn/102347_en.html" class="mainlink">CORDIS website</a></td>
+				</tr>
+					
+
+				<tr>
+					<td align="left"  height="50" valign="top">
+					<a target="_blank" href="https://twitter.com/CRISMA_Project">
+					<img alt="" src="/img/twitter.jpg" width="190" height="61" style="border-width: 0px"></a></td>
+				</tr>
+
+
+
+				</table>
+			
+					</td>
+	</tr>
+</table>
+
+&nbsp;<hr size="1" width="900"></p>
+
+<p>&nbsp;</p>
+</div>
+</body>
+
+</html>

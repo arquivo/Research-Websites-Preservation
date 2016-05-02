@@ -1,0 +1,523 @@
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xml:lang="fr" lang="fr">
+<head>
+	
+	
+      
+        
+        <title>Roadmap for astrobiology - AstroMap</title>
+        <meta property="og:url" content="http://www.astromap.eu" />
+        <meta property="og:site_name" content="AstroMap" />
+        <meta property="og:image" content="http://www.astromap.eu/themes/astromap/image/logo_facebook.jpg" />
+        <meta property="og:title" content="AstroMap - Roadmap for astrobiology" />
+        <meta property="og:description" content=""/>
+        <meta name="description" content=""/>     
+        <meta name="keywords" content="" />
+        
+
+
+	
+	
+	
+	
+	
+
+	<link href="/themes/astromap/css/global.css" rel="stylesheet" type="text/css" />
+    <link href="/themes/astromap/css/popup.css" rel="stylesheet" type="text/css" />
+    <link href="/themes/astromap/css/form.css" rel="stylesheet" type="text/css" />   
+    <link href="/themes/astromap/css/footer.css" rel="stylesheet" type="text/css" /> 
+    <link href="/themes/astromap/css/etape.css" rel="stylesheet" type="text/css" />  
+    <link href="/themes/astromap/css/database.css" rel="stylesheet" type="text/css" /> 
+	<link href="/themes/astromap/css/fiche_contact.css" rel="stylesheet" type="text/css"   />
+    <link href="/themes/astromap/css/online_survey.css" rel="stylesheet" type="text/css"  />
+    
+	<script src="/backoffice/javascript/menu_ie6.js" type="text/javascript" language="javascript"></script>
+	<script src="/backoffice/javascript/bodyonloadstack.js" type="text/javascript" language="javascript"></script>
+	<script src="/backoffice/javascript/floatingpopup.js" type="text/javascript" language="javascript"></script>
+	<script src="/backoffice/javascript/backtothehtml.js" type="text/javascript" language="javascript"></script>
+	<script src="/backoffice/ajaxtools/ajax.js" type="text/javascript" language="javascript"></script>
+	
+
+
+
+
+	
+	<script src="/backoffice/javascript/jquery/jquery-1.6.1.min.js" type="text/javascript"></script>
+    <script src="/backoffice/javascript/jquery/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
+	<script src="/backoffice/javascript/scriptaculous/prototype.js" type="text/javascript"></script>
+	<script src="/backoffice/javascript/scriptaculous/scriptaculous.js" type="text/javascript"></script>
+    
+      <link href="/backoffice/javascript/jquery/css/jquery-ui-1.10.2.custom.min.css" rel="stylesheet" type="text/css" />
+    	
+    
+    
+    
+    <script src="https://apis.google.com/js/plusone.js"></script>
+	<script src="/themes/astromap/javascript/jquery.mSelect.min.js" type="text/javascript" language="javascript"></script>
+	
+	
+    
+    
+    
+    
+</head>
+<body  onLoad="javascript:callOnLoadStack();">
+
+<div id="debug"></div>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Document sans titre</title>
+</head>
+
+<body>
+</body>
+</html> 
+
+
+<div id="bgTop">
+    <div id="bgBottom">
+    	
+	<style>
+		.specialbloc_name { display:none; }
+	</style>
+
+	
+	<div id="contenu_insti">
+		<div id="header">
+	<div class="position">
+    	
+		<div class="specialbloc" id="sb_logo">
+		<div class="specialbloc_name">logo</div>
+		
+<a href="http://www.astromap.eu/"><img src="/themes/astromap/image/astromap_logo.png" border="0" /></a>
+
+		</div><!-- /sb_logo -->
+	
+        
+		<div class="specialbloc" id="sb_menu">
+		<div class="specialbloc_name">menu</div>
+		
+ 
+    <ul><li id='id1' class='highlight' ><a  href='roadmap-for-astrobiology.html?page=1' >Home</a></li><li id='id2'  ><a  href='/about-astromap.html' >About AstRoMap</a></li><li id='id3'  ><a  href='/partners-network.html' >Consortium</a></li><li id='id4'  ><a  href='/database.html' >Database</a></li><li id='id5'  ><a  href='/news.html' >News</a></li><li id='id6'  ><a  href='/download.html' >Download</a></li><li id='id7'  ><a  href='/contact.html' >Contact</a></li></ul>
+
+
+		</div><!-- /sb_menu -->
+	
+        
+		<div class="specialbloc" id="sb_recherche">
+		<div class="specialbloc_name">recherche</div>
+		
+<div id="zoneRecherche">
+<form action="/search.html" method="post">
+<input id="inputRecherche" class="inputRecherche" type="text" name="recherche"  onblur="if(this.value==''){this.value='Search'}" onfocus="if(this.value=='Search'){this.value=''}" value="Search" /><input class="envoyer" type="submit" name="submit" value="&nbsp;" />
+</form>
+</div>
+
+
+<div id="btnWorkshop"><a href="/login-workshop.html">Workshop Registration</a></div>
+<div id="btnLogIn"><a href="/login.html">Log In</a></div>
+
+		</div><!-- /sb_recherche -->
+	        
+    </div>
+</div>
+
+<div id="body">
+	<div id="colGauche" class="home">
+    	<h2><span><div id='titre' class='bloczone'><a name='idBrique_285'></a>
+				
+				
+					<div class="brique" pk="285"> 
+						
+							<div class="textebrique">The Project
+<div style="clear:both"></div></div>
+						
+					</div>
+				
+					
+				
+				</div><!-- /bloczone titre --></span></h2>
+        <div id='col_gauche' class='bloczone'><a name='idBrique_618'></a>
+				
+				
+					<div class="brique" pk="618"> 
+						
+							<div class="textebrique"><p align="justify">
+<em>AstRoMap is supported by the European Commission under FP7.
+This project is implemented by a consortium of five partners (INTA-CAB, B-USOC,
+DLR, ESF and INAF). The project intends to provide a networking and foresight
+platform for the European scientific community involved or interested in
+astrobiology and planetary exploration research.</em>
+</p>
+<p align="justify">
+&nbsp;
+</p>
+<p align="justify">
+<em>To achieve its overall objective of strengthening the
+coordination on the European landscape, the project will organise expert
+workshops and community consultations to support the identification and
+integration of scientific priorities. Furthermore, the project also intends to
+develop an accurate mapping of the European scientific landscape in the fields
+of astrobiology and planetary exploration, considering the expertise, the
+infrastructures but also education aspects. This will allow a snapshot of the
+European strengths on the international scene. </em>
+</p>
+<p align="justify">
+&nbsp;
+</p>
+<p align="justify">
+<em>With this website, AstRoMap also intends to facilitate the
+exchange of information and opportunities; you can submit and browse
+information that is relevant to your work and community (events, funding or job
+opportunities). It includes a unique database of scientists and engineers with
+full research profiles and scientific interest, as a truly collaborative facility,
+this database allows searching specific expertise or potential research
+collaborators.</em>
+</p>
+<p align="justify">
+&nbsp;
+</p>
+<p align="justify">
+<em>This website is there to serve the scientific community, do
+not hesitate to contact the office for any query or suggestion. </em>
+</p>
+<br />
+<p>
+&nbsp;
+<img border="0" alt="test" title="test" src="/upload/autosize/$upload$contenu$test$Astrobiology-Field-Lab_p236x178.jpg" align="left" /><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<span class="legende"><br />
+<br />
+</span>
+</p>
+<div style="clear:both"></div></div>
+						
+					</div>
+				
+					
+				
+				</div><!-- /bloczone col_gauche --> 
+    </div>
+    <div id="colDroite" class="filet">
+    	<div id='diaporama' class='bloczone'><a name='idBrique_7'></a>  
+
+    <script src="/backoffice/jdiaporama/js/jquery.jDiaporama.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">	
+	
+	jQuery.noConflict();
+	(function($) { 
+	  $(function() {
+		  
+	
+		$(".jDiaporama1").css("position","relative");
+		$(".jDiaporama1").jDiaporama({
+			
+    	
+		diapoWidth: 776,
+		diapoHeight: 316,
+		instance: 1,
+        
+        
+        	auto: true,
+        
+        
+        nbElement:2,
+		delay: 5,
+		animationSpeed: 2000,
+		animationType: "fade",		
+		            
+        
+		
+        	
+			controls: true,
+			controlePosition: "top",            
+			
+        	keyboard: true,
+        
+				
+			
+		
+		legendeWidth:562,
+		legendeHeight: 64,
+		legendeBG:"/upload/contenu/bg_diapo.png",
+		legendeTop:206,
+		legendeLeft:0,
+			
+		
+						
+			});
+		 });
+	})(jQuery); 
+   	</script>
+    
+	<div class="jDiaporama1 jDiaporama" style="display:none">
+        <ul>
+        	
+            
+            <li>            
+            	<p>
+                
+                <img class="image" src="/backoffice/jdiaporama/imageslide/20130515114918341_776x316.jpg" title="" alt="" border="0" />
+                
+                </p>
+            	<div class="legende"><p>
+<span>Rio Tinto: Some extreme environments are considered as Earth Analogues due to similarities in physico-chemical parameters among those environments and some locations in other planetary bodies. Rio Tinto, an acidic 100 Km river at south west Spain is considered as a Mars analogue.(Credits: F. G&oacute;mez, CAB)<br />
+</span>
+</p>
+</div>                
+            </li>            
+            
+            
+            <li>            
+            	<p>
+                
+                <img class="image" src="/backoffice/jdiaporama/imageslide/20130515121441913_776x316.jpg" title="The International Space Station ISS" alt="The International Space Station ISS" border="0" />
+                
+                </p>
+            	<div class="legende">The International Space Station ISS photographed by an STS-133 crew member on space shuttle Discovery. Photo credit: NASA&nbsp;
+</div>                
+            </li>            
+            
+        </ul>   
+       
+        
+          
+        	<img class="btn1 btn1_next btn_next" src="/upload/home/btn_next.png" title="Suivant" alt="Suivant" border="0" />
+			<img class="btn1 btn1_prev btn_prev"src="/upload/home/btn_prev.png" title="Précédent" alt="Précédent" border="0" />
+        
+        
+        
+    </div>   
+    
+    </div><!-- /bloczone diaporama -->
+        
+        <div id="colActu">
+        	<div class="titre">
+        		<a class="moreNews" href="/news.html">» More news</a>
+        		<h3>News</h3>
+            </div>
+        	
+            <div id='actualite' class='bloczone'><a name='idBrique_20'></a>
+			<div>
+				
+			<div class='actubrique'><div class="date">
+<span class="actudate">03/10</span>
+</div>
+<div class="actu">
+<h3><span class="actutitre">! Astrobiology Community consultation !</span></h3> 
+<div class="actuintro">In its roadmap exercise, the AstRoMap project needs to connect with the research community. One of its main activity is to organise a <a href="/consultation.html" target="_blank">community consultation</a>.
+</div>
+<div class="url">
+<a class="actulien" href="/-astrobiology-community-consultation-.html">» Read more</a>
+</div>
+</div>
+<div class="clear">
+&nbsp;
+</div>
+ 
+</div> <div class='actubrique'><div class="date">
+<span class="actudate">14/05</span>
+</div>
+<div class="actu">
+<h3><span class="actutitre">AstRoMap Database of researchers</span></h3> 
+<div class="actuintro">This platform will allow us to create a specific expertise database on 
+research partners, information on research projects or on the research 
+capacity available in Europe and beyond in the field of Astrobiology. 
+</div>
+<div class="url">
+<a class="actulien" href="/astromap-database-of-researchers.html">» Read more</a>
+</div>
+</div>
+<div class="clear">
+&nbsp;
+</div>
+ 
+</div> 
+			</div>
+		</div><!-- /bloczone actualite -->
+        </div>
+        
+        <div id="colContenu">
+        	
+		<div class="specialbloc" id="sb_btn_register">
+		<div class="specialbloc_name">btn_register</div>
+		
+<a href="/register-into-database.html"><img src="/themes/astromap/image/btn_register.png" border="0" /></a>
+
+		</div><!-- /sb_btn_register -->
+	
+        	
+            <div class="com">
+				<div class="lImage">
+                	<div id='image' class='bloczone'><a name='idBrique_355'></a>
+				
+				
+					<div class="brique" pk="355"> 
+						
+							<div class="textebrique"><img alt="img" title="img" src="/upload/autosize/$upload$contenu$Home$sig11-013_Inline_p102x61.jpg"   /> 
+<div style="clear:both"></div></div>
+						
+					</div>
+				
+					
+				
+				</div><!-- /bloczone image -->
+                </div>
+                <div class="leTexte">
+                	<div class="bg">                	
+                		<div id='texte' class='bloczone'><a name='idBrique_356'></a>
+				
+				
+					<div class="brique" pk="356"> 
+						
+							<div class="textebrique"><strong>Study of the
+origin, evolution and distribution of life in the context of cosmic evolution.</strong>
+<div style="clear:both"></div></div>
+						
+					</div>
+				
+					
+				
+				</div><!-- /bloczone texte -->
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>  
+            <div class="clear"></div>          
+        </div>
+        
+        <div id='partenaires' class='bloczone'><a name='idBrique_622'></a>
+				
+				
+					<div class="brique" pk="622"> 
+						
+							<div class="textebrique"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+	<tbody>
+		<tr>
+			<td valign="middle" align="center">
+			<a href="http://cab.inta-csic.es/es/inicio" target="_blank"><img alt="img" title="img" src="/upload/home/partenaires/part_1.png" /></a>
+			</td>
+			<td valign="middle" align="center">
+			<a href="http://cab.inta-csic.es/es/inicio" target="_blank"><img alt="img" title="img" src="/upload/home/partenaires/part_4.png" /></a></td>
+			<td valign="middle" align="center">
+			<a href="http://www.esf.org" target="_blank"><img alt="img" title="img" src="/upload/home/partenaires/part_2.png" /></a>
+			</td>
+			<td valign="middle" align="center">
+			<a href="http://www.inaf.it" target="_blank"><img alt="img" title="img" src="/upload/home/partenaires/part_3.png" /></a></td>
+			<td valign="middle" align="center">
+			<a href="http://www.astrobiologia.pl/eana/" target="_blank"><img alt="img" title="img" src="/upload/home/partenaires/part_5.png" /></a>
+			</td>	
+			<td valign="middle" align="center">
+			<a href="http://www.busoc.be" target="_blank"><img src="/upload/home/partenaires/part_6.png" /></a>
+			</td>	
+			<td valign="middle" align="center">
+			<a href="http://www.dlr.de" target="_blank"><img alt="img" title="img" src="/upload/home/partenaires/part_7.png" /></a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<div style="clear:both"></div></div>
+						
+					</div>
+				
+					
+				
+				</div><!-- /bloczone partenaires -->       
+        
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div id="footer">
+	<div class="position">
+    
+		<div class="specialbloc" id="sb_footer">
+		<div class="specialbloc_name">footer</div>
+		
+ 
+ 
+ 
+    <ul><li><a  href='/about-astromap.html' >About AstRoMap</a></li><li><a  href='/credits.html' >Credits</a></li><li><a  href='/contact.html' >Contact</a></li><li><a  href='/sitemap.html' >Sitemap</a></li></ul>
+    <p id="reseausociaux">
+    	<a href="javascript:shareFacebook('http://www.astromap.eu/');" title="Share on Facebook"><img src="/themes/astromap/image/share_fb.png" alt="Share on Facebook" /></a>
+        <a href="javascript:shareTwitter('http://www.astromap.eu/','')" title="Share on Twitter"><img src="/themes/astromap/image/share_tw.png" alt="Share on Twitter" /></a>
+		<a onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" href="https://plus.google.com/share?url=http://www.astromap.eu/" title="Share on Google+"><img src="/themes/astromap/image/share_gp.png" alt="Share on Google+" /></a>
+    </p>
+    
+    <p id="copyright"><a href="http://www.diatem.net" target="_blank" title="Created by Diatem"><img src="/themes/astromap/image/diatem_created.png" alt="Created by Diatem" /></a></p>
+    
+    <script>
+	//Fonctions de partage twitter, facebook et google+
+	function shareFacebook(url){
+		window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.astromap.eu', 'Facebook', config='height=400, width=600, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, directories=no, status=no');
+	}
+	function shareTwitter(url,title){
+		window.open('http://twitter.com/share?url='+url+'&text='+encodeURIComponent(title), 'Twitter', config='height=400, width=550, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, directories=no, status=no');
+	} 
+	</script>
+
+		</div><!-- /sb_footer -->
+	
+    </div>
+</div> 
+	</div><!-- /contenu_insti -->
+	
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41129393-1', 'astromap.eu');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+</body>
+</html>

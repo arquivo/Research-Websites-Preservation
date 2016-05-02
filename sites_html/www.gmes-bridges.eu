@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>GMES Bridges</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="GMES Bridges RSS" href="http://www.gmes-bridges.eu/rss.xml" />
+<link rel="shortcut icon" href="/sites/gmes-bridges.eu/files/bridges_favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/gmes-bridges.eu/modules/cck/theme/content-module.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/gmes-bridges.eu/modules/ctools/css/ctools.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/gmes-bridges.eu/modules/date/date.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/gmes-bridges.eu/modules/dhtml_menu/dhtml_menu.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/gmes-bridges.eu/modules/filefield/filefield.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/gmes-bridges.eu/modules/jquerymenu/jquerymenu.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/gmes-bridges.eu/modules/lightbox2/css/lightbox.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/gmes-bridges.eu/modules/nice_menus/nice_menus.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/gmes-bridges.eu/modules/views_slideshow_slider/views_slideshow.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/gmes-bridges.eu/modules/cck/modules/fieldgroup/fieldgroup.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/gmes-bridges.eu/modules/views/css/views.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/bridges/css/default.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/bridges/css/layout.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/bridges/css/style.css?i" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/gmes-bridges.eu/modules/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycle.css?i" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/all/themes/bridges/css/print.css?i" />
+    <!--[if lte IE 6]><link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/bridges/css/ie6.css" /><![endif]-->
+    <!--[if IE 7]><link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/bridges/css/ie7.css" /><![endif]-->
+    <!--[if IE 8]><link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/bridges/css/ie8.css" /><![endif]-->
+    <script type="text/javascript" src="/misc/jquery.js?i"></script>
+<script type="text/javascript" src="/misc/drupal.js?i"></script>
+<script type="text/javascript" src="/sites/all/modules/poormanscron/poormanscron.js?i"></script>
+<script type="text/javascript" src="/sites/gmes-bridges.eu/modules/dhtml_menu/dhtml_menu.js?i"></script>
+<script type="text/javascript" src="/sites/gmes-bridges.eu/modules/google_analytics/googleanalytics.js?i"></script>
+<script type="text/javascript" src="/sites/gmes-bridges.eu/modules/jquerymenu/jquerymenu.js?i"></script>
+<script type="text/javascript" src="/sites/gmes-bridges.eu/modules/lightbox2/js/auto_image_handling.js?i"></script>
+<script type="text/javascript" src="/sites/gmes-bridges.eu/modules/lightbox2/js/lightbox.js?i"></script>
+<script type="text/javascript" src="/sites/gmes-bridges.eu/modules/nice_menus/superfish/js/superfish.js?i"></script>
+<script type="text/javascript" src="/sites/gmes-bridges.eu/modules/nice_menus/superfish/js/jquery.bgiframe.min.js?i"></script>
+<script type="text/javascript" src="/sites/gmes-bridges.eu/modules/nice_menus/superfish/js/jquery.hoverIntent.minified.js?i"></script>
+<script type="text/javascript" src="/sites/gmes-bridges.eu/modules/nice_menus/nice_menus.js?i"></script>
+<script type="text/javascript" src="/sites/gmes-bridges.eu/modules/views_slideshow/js/views_slideshow.js?i"></script>
+<script type="text/javascript" src="/sites/gmes-bridges.eu/modules/views_slideshow/js/jquery.cycle.all.min.js?i"></script>
+<script type="text/javascript" src="/sites/gmes-bridges.eu/modules/views_slideshow_slider/views_slideshow.js?i"></script>
+<script type="text/javascript" src="/sites/gmes-bridges.eu/modules/image_caption/image_caption.js?i"></script>
+<script type="text/javascript" src="/sites/all/libraries/jquery.cycle/jquery.cycle.all.min.js?i"></script>
+<script type="text/javascript" src="/sites/gmes-bridges.eu/modules/views_slideshow/contrib/views_slideshow_cycle/js/views_slideshow_cycle.js?i"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "cron": { "basePath": "/poormanscron", "runNext": 1454958302 }, "dhtmlMenu": { "nav": "hover", "animation": { "effects": { "opacity": "opacity", "height": 0, "width": 0 }, "speed": "500" }, "effects": { "siblings": "close-same-tree", "children": "none", "remember": "0" }, "filter": { "type": "whitelist", "list": { "menu-projectoverview-menu": "menu-projectoverview-menu", "navigation": "navigation", "admin_menu": 0, "book-toc-45": 0, "book-toc-52": 0, "menu-clone-primary-links": 0, "menu-news": 0, "menu-topmenu": 0, "primary-links": 0 } } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" }, "lightbox2": { "rtl": 0, "file_path": "/(\\w\\w/)sites/gmes-bridges.eu/files", "default_image": "/sites/gmes-bridges.eu/modules/lightbox2/images/brokenimage.jpg", "border_size": 10, "font_color": "000", "box_color": "fff", "top_position": "", "overlay_opacity": "0.8", "overlay_color": "000", "disable_close_click": 1, "resize_sequence": 0, "resize_speed": 400, "fade_in_speed": 400, "slide_down_speed": 600, "use_alt_layout": 0, "disable_resize": 0, "disable_zoom": 0, "force_show_nav": 0, "show_caption": 1, "loop_items": 0, "node_link_text": "View Image Details", "node_link_target": 0, "image_count": "Image !current of !total", "video_count": "Video !current of !total", "page_count": "Page !current of !total", "lite_press_x_close": "press \x3ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\x3e\x3ckbd\x3ex\x3c/kbd\x3e\x3c/a\x3e to close", "download_link_text": "", "enable_login": false, "enable_contact": false, "keys_close": "c x 27", "keys_previous": "p 37", "keys_next": "n 39", "keys_zoom": "z", "keys_play_pause": "32", "display_image_size": "original", "image_node_sizes": "()", "trigger_lightbox_classes": "", "trigger_lightbox_group_classes": "", "trigger_slideshow_classes": "", "trigger_lightframe_classes": "", "trigger_lightframe_group_classes": "", "custom_class_handler": 0, "custom_trigger_classes": "", "disable_for_gallery_lists": 1, "disable_for_acidfree_gallery_lists": true, "enable_acidfree_videos": true, "slideshow_interval": 5000, "slideshow_automatic_start": 0, "slideshow_automatic_exit": 1, "show_play_pause": 1, "pause_on_next_click": 0, "pause_on_previous_click": 1, "loop_slides": 0, "iframe_width": 600, "iframe_height": 400, "iframe_border": 1, "enable_video": 0 }, "nice_menus_options": { "delay": "800", "speed": "normal" }, "viewsSlideshow": { "newsticker-newsticker": { "methods": { "goToSlide": [ "viewsSlideshowPager", "viewsSlideshowSlideCounter", "viewsSlideshowCycle" ], "nextSlide": [ "viewsSlideshowPager", "viewsSlideshowSlideCounter", "viewsSlideshowCycle" ], "pause": [ "viewsSlideshowControls", "viewsSlideshowCycle" ], "play": [ "viewsSlideshowControls", "viewsSlideshowCycle" ], "previousSlide": [ "viewsSlideshowPager", "viewsSlideshowSlideCounter", "viewsSlideshowCycle" ], "transitionBegin": [ "viewsSlideshowPager", "viewsSlideshowSlideCounter", "viewsSlideshowXtra" ], "transitionEnd": [  ] }, "paused": 0 } }, "viewsSlideshowCycle": { "#views_slideshow_cycle_main_newsticker-newsticker": { "num_divs": 4, "id_prefix": "#views_slideshow_cycle_main_", "div_prefix": "#views_slideshow_cycle_div_", "vss_id": "newsticker-newsticker", "effect": "scrollUp", "transition_advanced": 1, "timeout": 5000, "speed": 700, "delay": 0, "sync": 1, "random": 0, "pause": 1, "pause_on_click": 0, "action_advanced": 1, "start_paused": 0, "remember_slide": 0, "remember_slide_days": 1, "pause_when_hidden": 0, "pause_when_hidden_type": "full", "amount_allowed_visible": "", "nowrap": 0, "fixed_height": 1, "items_per_slide": 1, "wait_for_image_load": 0, "wait_for_image_load_timeout": 3000, "cleartype": 1, "cleartypenobg": 1, "advanced_options": "{}" } } });
+//--><!]]>
+</script>
+  </head>
+
+  <body class="front not-logged-in page-node one-sidebar sidebar-left">
+    <div id="skip">
+      <a href="#content">Skip to Content</a>
+          </div>
+
+    <div id="page">
+	        <div id="topmenu">
+          <div id="block-menu-menu-topmenu" class="block block-menu block-topmenu block-id-281 clearfix first last odd">
+  <div class="block-inner">
+
+    
+    <div class="content">
+      <ul class="menu"><li class="leaf first last"><a href="/contact" title="Contact">contact</a></li>
+</ul>    </div>
+
+    
+  </div> <!-- /block-inner -->
+</div> <!-- /block -->        </div>
+      <!-- ______________________ HEADER _______________________ -->
+
+    <div id="header">
+
+	<div id="logo-title">
+	  
+                  <a href="/" title="Home" rel="home" id="logo">
+            <img src="/sites/all/themes/bridges/images/bridges-logo.jpg" alt="Home"/>
+          </a>
+                <!---<div id="name-and-slogan">
+		
+                      <h1 id="site-name">
+              <a href="" title="Home" rel="home"><span></span></a>
+            </h1>
+                                <div id="site-slogan"></div>
+                  </div> --><!-- /name-and-slogan -->
+     </div> <!-- /logo-title -->
+	<div id="banner">
+		<img src="/sites/all/themes/bridges/images/banner.jpg">
+	</div>
+
+              <div id="header-region">
+          <div id="block-nice_menus-1" class="block block-nice_menus block-header block-id-284 clearfix first last odd">
+  <div class="block-inner">
+
+    
+    <div class="content">
+      <ul class="nice-menu nice-menu-down" id="nice-menu-1"><li class="menu-886 menu-path-front active-trail first  odd "><a href="/" class="active">Home</a></li>
+<li class="menu-524 menu-path-node-19 even "><a href="/project-overview/19" title="Project Overview" class="projectoverv">Project Overview</a></li>
+<li class="menu-872 menu-path-node-30 odd "><a href="/content/publications" title="Publications">Publications</a></li>
+<li class="menu-871 menu-path-team even "><a href="/team" title="Team">Team</a></li>
+<li class="menu-884 menu-path-news odd "><a href="/news" title="Press &amp; News">Press &amp; News</a></li>
+<li class="menu-885 menu-path-node-32 even "><a href="/calendar" title="Calendar">Calendar</a></li>
+<li class="menu-870 menu-path-links odd  last "><a href="/links" title="Links">Links</a></li>
+</ul>
+    </div>
+
+    
+  </div> <!-- /block-inner -->
+</div> <!-- /block -->        </div>
+      
+      
+    </div> <!-- /header -->
+
+<!-- ______________________ MAIN _______________________ -->
+
+    <div id="main" class="clearfix">
+    
+      <div id="content">
+        <div id="content-inner" class="inner column center">
+  
+          <div id="content-area">
+            <div class="node node node-teaser clearfix node-type-page" id="node-33">
+  <div class="node-inner">
+
+          <h2 class="title"><a href="/content/bridges-towards-governance-space-based-services-european-security">BRIDGES: Towards governance of Space-based services for European Security</a></h2>
+    
+    
+    
+    <div class="content">
+      <p><strong>The overall objective of the BRIDGES project is the development of several potential models of governance for future Copernicus services for Security applications. </strong>The project aims to explore implementation options for:</p>
+<ul>
+<li>a coordinated approach to Space data access in the Security field;</li>
+<li>CFSP/CSDP (Common Foreign and Security Policy / Common Security and Defence Policy of the EU) access to Copernicus services.<br>&nbsp;</li>
+</ul>
+<p>This objective will be supported by several activities, such as contributing to the further definition of potential scenarios for the governance of the Security dimension of Copernicus, awareness-raising and building support for Copernicus services for Security applications, and interacting with other Copernicus Security-related activities.</p>
+<p>The legal, financial and operational implications (i.e.&nbsp;technical implementation) will be addressed. A cost-benefit analysis will be provided together with an<br>impact assessment of identified options.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="text-align: right;"><img alt="" class="imghome" src="http://www.gmes-bridges.eu/sites/gmes-bridges.eu/files/home_img.png" style="width: 525px; height: 385px; padding-top: 44px;" title=""></p>
+<p>    </div>
+
+    
+     
+      <div class="links"> <ul class="links inline"><li class="node_read_more first last"><a href="/content/bridges-towards-governance-space-based-services-european-security" title="Read the rest of BRIDGES: Towards governance of Space-based services for European Security.">Read more</a></li>
+</ul></div>
+    
+  </div> <!-- /node-inner -->
+</div> <!-- /node-->          </div> <!-- /#content-area -->
+
+          
+          
+          </div>
+        </div> <!-- /content-inner /content -->
+
+        
+                  <div id="sidebar-first" class="column sidebar first">
+            <div id="sidebar-first-inner" class="inner">
+              <div id="block-views-homegmosaic-block_1" class="block block-views block-left block-id-296 clearfix first odd">
+  <div class="block-inner">
+
+    
+    <div class="content">
+      <div class="view view-homegmosaic view-id-homegmosaic view-display-id-block_1 view-dom-id-e0636a73c1c1164e005b5ca89d96a75f">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-teaser">        <div class="field-content"><p class="bodytext"><img alt="" src="http://www.gmes-bridges.eu/sites/gmes-bridges.eu/files/home-img2.jpg" style="width: 166px; height: 243px; float: left; margin-right: 6px;" title=""></p>
+<h3>Copernicus at a glance</h3>
+<p>Copernicus, previously known as GMES (Global Monitoring for Environment and Security)&nbsp;<strong style="line-height: 1.5em;">is a European Union programme implemented by the European Commission (EC) jointly with the European Space Agency (ESA). It is aimed at developing set of European information services based on satellite Earth Observation.</strong></p>
+<p class="bodytext">
+ <div class="readmore"><a href="http://www.gmes-bridges.eu/content/copernicus-european-earth-observation-programme">read more</a></div></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+
+    
+  </div> <!-- /block-inner -->
+</div> <!-- /block --><div id="block-views-homegmosaic-block_2" class="block block-views block-left block-id-297 clearfix even">
+  <div class="block-inner">
+
+          <div class="container-title"><h3 class="title block-title">BRIDGES in a Nutshell</h3></div>
+    
+    <div class="content">
+      <div class="view view-homegmosaic view-id-homegmosaic view-display-id-block_2 view-dom-id-6e3c5686a4fd32738589bfeff1838f37">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-teaser">        <div class="field-content"><p><strong>BRIDGES is a project funded by the European Commission under the Seventh&nbsp;Framework Programme. Coordinated by the European Union Satellite Centre (SatCen), it commenced on the 1st of January 2012, and will last for two years.</strong></p>
+<p> <div class="readmore"><a href="http://www.gmes-bridges.eu/project-overview/19">read more</a></div></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+
+    
+  </div> <!-- /block-inner -->
+</div> <!-- /block --><div id="block-block-5" class="block block-block block-left block-id-301 clearfix odd">
+  <div class="block-inner">
+
+          <div class="container-title"><h3 class="title block-title">Multimedia Presentation</h3></div>
+    
+    <div class="content">
+      <a href="/mmp" target="_blank"><img border="0" src="/sites/all/themes/bridges/images/bridgemmp.jpg" width="100%" height="100%"></a>
+<!--<img border="0" src="/sites/all/themes/bridges/images/bridgemmp-wuc.jpg" width="100%" height="100%">-->    </div>
+
+    
+  </div> <!-- /block-inner -->
+</div> <!-- /block --><div id="block-views-newsticker-newsticker" class="block block-views block-left block-id-298 clearfix last even">
+  <div class="block-inner">
+
+          <div class="container-title"><h3 class="title block-title">Latest news</h3></div>
+    
+    <div class="content">
+      <div class="view view-newsticker view-id-newsticker view-display-id-newsticker newsticker-container view-dom-id-25d766d810aa41f1d52865433dbfe486">
+    
+  
+  
+      <div class="view-content">
+      
+<div class="skin-default">
+  
+  <div id="views_slideshow_cycle_main_newsticker-newsticker" class="views_slideshow_cycle_main views_slideshow_main"><div id="views_slideshow_cycle_teaser_section_newsticker-newsticker" class="views_slideshow_cycle_teaser_section">
+  <div class="views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-odd" id="views_slideshow_cycle_div_newsticker-newsticker_0">
+  <div class="views-row views-row-0 views-row-first views-row-odd">
+    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/press-news/170"><h4>BRIDGES Project Kick-Off meeting</h4></a></span>  </div>  
+  <div class="views-field views-field-teaser">        <span class="field-content">The BRIDGES project held its formal commencement meeting in Brussels on the 18th of January 2012.
+</span>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/press-news/170">read more</a></span>  </div></div>
+</div>
+<div class="views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even" id="views_slideshow_cycle_div_newsticker-newsticker_1">
+  <div class="views-row views-row-0 views-row-first views-row-odd">
+    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/press-news/202"><h4>The Final BRIDGES Workshop</h4></a></span>  </div>  
+  <div class="views-field views-field-teaser">        <span class="field-content">&nbsp;The BRIDGES project held its Final Workshop at the European External Action Service on the 30th of January 2014.
+</span>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/press-news/202">read more</a></span>  </div></div>
+</div>
+<div class="views_slideshow_cycle_slide views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd" id="views_slideshow_cycle_div_newsticker-newsticker_2">
+  <div class="views-row views-row-0 views-row-first views-row-odd">
+    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/press-news/196"><h4>G-MOSAIC publishes Window on GMES – Special Issue on the Security dimension</h4></a></span>  </div>  
+  <div class="views-field views-field-teaser">        <span class="field-content"> The G-MOSAIC project has published a special issue of Window on GMES. 
+</span>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/press-news/196">read more</a></span>  </div></div>
+</div>
+<div class="views_slideshow_cycle_slide views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even" id="views_slideshow_cycle_div_newsticker-newsticker_3">
+  <div class="views-row views-row-0 views-row-first views-row-odd">
+    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/press-news/200"><h4>High Representative of the Union for Foreign Affairs &amp; Security Policy, Catherine Ashton, visits the European Union Satellite Centre</h4></a></span>  </div>  
+  <div class="views-field views-field-teaser">        <span class="field-content">On the 13th of June 2013 the High Representative of the Union for Foreign Affairs and Security Policy, Catherine Ashton, visited the&nbsp;European Union Satellite Centre&nbsp;(EU SatCen), an EU Agency based in Torrejón de Ardoz near Madrid.
+</span>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/press-news/200">read more</a></span>  </div></div>
+</div>
+</div>
+</div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+
+    
+  </div> <!-- /block-inner -->
+</div> <!-- /block -->            </div>
+          </div>
+         <!-- /sidebar-left -->
+
+         <!-- /sidebar-second -->
+
+      </div> <!-- /main -->
+
+<!-- ______________________ FOOTER _______________________ -->
+
+              <div id="footer">
+                    <div id="block-block-2" class="block block-block block-footer_block block-id-269 clearfix first odd">
+  <div class="block-inner">
+
+    
+    <div class="content">
+      <a href="/index.php">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/legal-notice">Legal Notice</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/credits">Photo Credits</a><br />
+<div class="copytxt">&copy; <a href="./user" style="text-decoration:none;color:#000;">Bridges</a> 2012, all rights reserved</div>    </div>
+
+    
+  </div> <!-- /block-inner -->
+</div> <!-- /block --><div id="block-block-3" class="block block-block block-footer_block block-id-270 clearfix last even">
+  <div class="block-inner">
+
+    
+    <div class="content">
+      <img src="/sites/all/themes/bridges/images/footer-sepa.jpg" style="margin: 0 0 0 35px; border-width: 0px; border-style: solid;" />
+<a href="http://ec.europa.eu/enterprise/policies/space/gmes/index_en.htm" target="_blank">
+<img src="/sites/all/themes/bridges/images/logo_eufp7.jpg" style="border-width: 0px; border-style: solid;" /></a> 
+
+<img src="/sites/all/themes/bridges/images/footer-sepa.jpg" style=" " />
+<a href="http://cordis.europa.eu/fp7/home_en.html" target="_blank">
+<img src="/sites/all/themes/bridges/images/logo_fp7.jpg" style="border-width: 0px; border-style: solid; margin: 0px;" /></a> 
+
+<img src="/sites/all/themes/bridges/images/footer-sepa.jpg" style=" " />
+<a href="http://ec.europa.eu/rea/funded_projects/space/index_en.htm" target="_blank">
+<img src="/sites/all/themes/bridges/images/rea_logo_h60.png" style="border-width: 0px; border-style: solid; margin: 0px;" /></a> 
+
+<img src="/sites/all/themes/bridges/images/footer-sepa.jpg" style="" />
+<a href="http://www.gmes.info/pages-principales/services/security" target="_blank">
+<img src="/sites/all/themes/bridges/images/logo_secucop.jpg" style="border-width: 0px; border-style: solid; margin: 0px;" /></a> 
+
+<img src="/sites/all/themes/bridges/images/footer-sepa.jpg" style=" " />
+<a href="http://www.gmes.info/pages-principales/services/security" target="_blank">
+<img src="/sites/all/themes/bridges/images/bridges.jpg" style="border-width: 0px; border-style: solid; margin: 0px;" />    </div>
+
+    
+  </div> <!-- /block-inner -->
+</div> <!-- /block -->        </div> <!-- /footer -->
+           </div> <!-- /page -->
+    <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-30722350-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+  </body>
+</html>

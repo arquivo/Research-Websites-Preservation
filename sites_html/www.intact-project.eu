@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	
+	<meta name="generator" content="Mura CMS 6.1">
+
+	<title>Welcome - INTACT</title>
+	<link rel="stylesheet" href="/intact/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/intact/assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/intact/assets/css/main.css">
+	<link rel="stylesheet" href="/intact/assets/plugins/wallpaper/css/jquery.fs.wallpaper.css">
+		<link rel="stylesheet" href="/intact/assets/plugins/datatables/media/css/dataTables.bootstrap.css">
+
+	
+
+	<!--[if IE]>
+	<link rel="stylesheet" href="/intact/includes/themes/MuraBootstrap3/compiled/ie.min.css">
+	<![endif]-->
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="/intact/includes/themes/MuraBootstrap3/js/html5shiv/html5shiv.js"></script>
+	<script src="/intact/includes/themes/MuraBootstrap3/js/respond/respond.min.js"></script>
+	<![endif]-->
+
+	
+	<script src="/intact/jquery/jquery.js"></script>
+	<script>
+//		document.documentElement.className = 'js';
+		CKEDITOR.dtd.$removeEmpty['span'] = false;
+	</script>
+
+	
+	<link rel="icon" href="/intact/assets/gfx/favicon/favicon-INTACT.png" type="image/x-icon" />
+
+	
+	
+
+
+	<!-- Piwik -->
+	<script type="text/javascript">
+	  var _paq = _paq || [];
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+	    var u="//local.piwik.p/";
+	    _paq.push(['setTrackerUrl', u+'piwik.php']);
+	    _paq.push(['setSiteId', 1]);
+	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+	<noscript><p><img src="//local.piwik.p/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+
+ <script type="text/javascript" src="/intact/js/global.js"></script>
+<script type="text/javascript">
+var mura={
+	loginURL:"?display=login",
+	siteid:"intact", 
+	siteID:"intact", 
+	context:"", 
+	jslib:"jquery",
+	assetpath:"/intact",
+	themepath:"/intact/includes/themes/MuraBootstrap3",
+	htmlEditorType:"",
+	rb:"nl",
+	
+	dtExample:"10-11-2018",
+	dtCh:"-",
+	dtFormat:[1,0,2],
+	dtLocale:"nl-NL"
+	
+}
+$.extend(window,mura);
+
+</script> <link href="/tasks/widgets/prettify/themes/tomorrow-night.min.css" type="text/css" rel="stylesheet"><script src="/tasks/widgets/prettify/prettify.min.js"></script><script>!function($){$(function(){window.prettyPrint && prettyPrint()});}(window.jQuery)</script></head>
+
+<body id="homepage" class="sysHome">
+<div id="wrap">
+	
+<div class="doShadow borderBottom" id="navMenu">
+	<div class="container">
+		<a class="logoUrl" href="/index.cfm"><img id="logo" src="/intact/assets/gfx/logo.png"></a>
+		<a href="/index.cfm/disclaimer/" class="logo-EU-Url"><img id="logo-EU" src="/intact/assets/gfx/logo-EU-flag.png" data-toggle="tooltip" 
+			data-placement="bottom" title="Disclaimer"></a>
+
+
+
+		
+			<span id="mobileMenuTrigger"><i class="fa fa-bars"></i></span>
+		
+		<span id="sharepointTrigger"><a target="_blank" href="http://projecten.panteia.nl/fp7-intact/SitePages/Home.aspx"><i class="fa fa-external-link"></i> SharePoint Login</a></span>
+	</div>
+
+	
+		<div class="menuFullPage">
+			<div class="container">
+				<ul id="menuList" class="list-unstyled list-inline">
+					<li><a href="/index.cfm">Home</a>
+					
+							<li ><a href="/index.cfm/documents/">Documents</a></li>
+						
+							<li ><a href="/index.cfm/workpackages/">Work Packages</a></li>
+						
+							<li ><a href="/index.cfm/cases/">Cases</a></li>
+						
+							<li ><a href="/index.cfm/intact-wiki/">INTACT Wiki</a></li>
+						
+							<li ><a href="/index.cfm/other-projects/">Other Projects</a></li>
+						
+							<li ><a href="/index.cfm/news-events/">News & Events</a></li>
+						
+							<li ><a href="/index.cfm/consortium/">Consortium</a></li>
+						
+							<li ><a href="/index.cfm/contact/">Contact</a></li>
+						
+				</ul>
+			</div>
+		</div>
+	
+</div>
+
+
+	<div class="mobileMenuContainer" style="display: none;">
+		
+		<ul class="list-unstyled" id="mobileMenuList">
+			<li><a href="/index.cfm">Home</a>
+			
+				<li ><a href="/index.cfm/newsletter/">Newsletter</a></li>
+			
+				<li ><a href="/index.cfm/disclaimer/">Disclaimer</a></li>
+			
+				<li ><a href="/index.cfm/documents/">Documents</a></li>
+			
+				<li ><a href="/index.cfm/workpackages/">Work Packages</a></li>
+			
+				<li ><a href="/index.cfm/cases/">Cases</a></li>
+			
+				<li ><a href="/index.cfm/intact-wiki/">INTACT Wiki</a></li>
+			
+				<li ><a href="/index.cfm/other-projects/">Other Projects</a></li>
+			
+				<li ><a href="/index.cfm/news-events/">News & Events</a></li>
+			
+				<li ><a href="/index.cfm/consortium/">Consortium</a></li>
+			
+				<li ><a href="/index.cfm/contact/">Contact</a></li>
+			
+		</ul>
+	</div>
+
+	<div id="contentContainer">
+		<div class="fullPage">
+			<div class="container" id="welcomePage">
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 newspaper shadow" id="welcomeText">
+					<h2>Welcome</h2>
+					<p><strong>INTACT brings together innovative and cutting edge knowledge and experience in Europe in order to develop and demonstrate best practices in engineering, materials construction, planning and designing protective measures as well as crisis response and recovery capabilities. All this will culminate in the INTACT Wiki.</strong></p>
+
+<p>Our approach includes the following:</p>
+
+<p><strong>Framing and Perspectives</strong><br />
+	Establish an in-depth appreciation of the interface between Critical Infrastructure and Extreme Weather Events and develop a comprehensive understanding of the current state of the art, and provide contextual guidance and theoretical underpinning to other WPs (WP2, WP3, WP4, and WP5).</p>
+
+<p><strong>Climate and Extreme Weather</strong><br />
+	Collect and analyse trends, patterns and tendencies in extreme weather.</p>
+
+<p><strong>Vulnerability and Resilience of European Critical Infrastructures</strong><br />
+	Develop a methodological framework for CI vulnerability assessment and an analysis of CI protection measures.</p>
+
+<p><strong>Risk and Risk Analysis</strong><br />
+	Develop methodology and tools for risk management, and indicate gaps in risk modelling and data availability and seek for approaches and alternatives to close gaps.</p>
+
+<p><strong>Stakeholder Engagement and Dissemination</strong><br />
+	Collect and disseminate best practices and bring together stakeholders.</p>
+
+<p><strong>Case Studies</strong><br />
+	Performing&nbsp;five case studies to test the developed methods.</p>
+
+<p><strong>INTACT Wiki</strong><br />
+	Compose all information and knowledge gained in the project into a comprehensive and practical wiki for CI operators and associated policy makers.</p>
+
+<p><a href="http://panteia.m13.mailplus.nl/wpMB8JSKSItn-12031-2110032-preview-1"><img alt="Stay up to date with our latest news" height="40" src="/intact/assets/File/button%20(1).png" width="319" /></a></p>
+
+<p><em>Stay up to date with our latest news</em></p> 
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="twitterContainer shadow">
+						<h3 class="eventNewsHeader">INTACT video</h3>
+						<div class="video-container">
+							<video class="the-video" controls>
+								<source src="/intact/assets/File/INTACT_Final.1_qtp.mp4" type="video/mp4">
+								<source src="movie.ogg" type="video/ogg">
+								Your browser does not support the video tag.
+							</video>
+						</div>
+						<br />
+
+						<h3 class="eventNewsHeader">Latest messages</h3>
+						<a class="twitter-timeline" height="335" href="https://twitter.com/Panteia" data-widget-id="527079676825464832">Last messages @Panteia</a>
+						<script>
+							!function(d,s,id){
+								var js
+								,fjs=d.getElementsByTagName(s)[0]
+								,p=/^http:/.test(d.location)?'http':'https';
+								
+								if(! d.getElementById(id)){
+									js=d.createElement(s);
+									js.id=id;
+									js.src=p+"://platform.twitter.com/widgets.js";
+									fjs.parentNode.insertBefore(js,fjs);
+								}
+							}(document,"script","twitter-wjs");
+						</script>
+
+
+
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div id="footer">
+		<div class="container">
+			<div class="footerText">
+				<p>
+
+				<a href="/index.cfm/disclaimer/">disclaimer</a> 
+					
+				</p>
+			</div>
+		</div>
+	</div>
+
+	
+	<script src="/intact/assets/js/jquery-1.10.2.js"></script>
+	<script src="/intact/assets/js/jquery-ui-1.10.3.min.js"></script>
+	<script src="/intact/assets/js/bootstrap.min.js"></script>
+	<script src="/intact/assets/js/waituntilexists.js"></script>
+	<script src="/intact/assets/js/main.js"></script>
+
+	<script src="/intact/assets/plugins/wallpaper/js/jquery.fs.wallpaper.js" type="text/javascript"></script>
+	<script src="/intact/assets/plugins/selectivizr/selectivizr-min.js" type="text/javascript"></script>
+
+
+	<script>
+		var booleanWallpaper = 1
+		, myShows = ['airport_intact.jpg','cars_intact.jpg','clouds_intact.jpg','drought_intact.jpg','flood_intact.jpg','forecast_intact.jpg','landslide_intact.jpg','lightning_intact.jpg','rain_intact.jpg','road_intact.jpg','storm_intact.jpg','thunder_intact.jpg','tree_intact.jpg']
+		, stringUrl = '/intact/assets/Image/wallpapers' ;</script>
+
+<script src="/intact/assets/js/welcome.js" type="text/javascript"></script>
+
+	
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+
+var pageTracker = _gat._getTracker( "UA-6990049-50" );
+	
+pageTracker._trackPageview();
+} catch(err) {}</script>
+				</body>
+</html> 

@@ -1,0 +1,176 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+ <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN"><!-- InstanceBegin template="Templates/standard.dwt.php" codeOutsideHTMLIsLocked="false" --> 
+ <head> 
+ <link href="http://mamba.bangor.ac.uk/css/layout.css" rel="stylesheet" type="text/css" media="screen, projection" title="Standard Page style" /><link href="http://mamba.bangor.ac.uk/css/style.css" rel="stylesheet" type="text/css" media="screen, projection" /><link href="http://mamba.bangor.ac.uk/css/print.css" rel="stylesheet" type="text/css" media="print" /><!-- InstanceBeginEditable name="doctitle" --> 
+ <title>Marine Metagenomics for New Biotechnological Applications</title> 
+ <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable --> 
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+ <script language="JavaScript" type="text/javascript"> 
+ <!-- 
+ window.onload=show; 
+ function show(id) { 
+ // var catlabel = 1; 
+ // var data = window.location.search.substring(1); // trims "?" from beginning: 
+ // if(data.length > 0){ 
+ //   data = data.split("="); 
+ //        eval("window." + data[0] + " = " + data[1].split("+").join(" ") + ";"); 
+ //        } 
+ //alert(catlabel); 
+  var d = document.getElementById(id); 
+ 	for (var i = 1; i<=50; i++) { 
+ 		if (document.getElementById('smenu'+i)) {document.getElementById('smenu'+i).style.display='none';} 
+ 	} 
+ // if (d) {d.style.display='block';} 
+ // if(data.length > 0){ 
+ var menu="0"; 
+  if (menu != null){ 
+  if (document.getElementById('smenu'+menu)){ 
+  document.getElementById('smenu'+menu).style.display='block'; 
+   
+  } 
+  } 
+   
+ // } 
+ } //end of show 
+ // JavaScript Document 
+ // This javascript sets the prefer-language cookie which is trapped for in the header by Apach and it overrides the browser language setting! 
+ function do_en_cookie() 
+ { 
+ document.cookie ="prefer-language=en-GB"; 
+ //alert ("prefer-language=en-GB"); 
+ } 
+ function do_cy_cookie() 
+ { 
+ document.cookie ="prefer-language=cy-GB"; 
+ //alert ("prefer-language=cy-GB"); 
+ } 
+ //--> 
+ </script><link rel="Start" href="http://www.bangor.ac.uk/index.php.en" /> 
+ </head> 
+ <body onload="show();"  > 
+ <div id="container" > 
+   <!-- open container --> 
+   <div id="header" > 
+     <!-- open header --> 
+     <a name="top" id="top"></a> 
+     <div id="textonly"> 
+       <!-- open textonly --> 
+       <a href="http://mamba.bangor.ac.uk/index.php?text=true">Text only version</a>            &nbsp;|&nbsp;<a href="index.php#page_heading">Jump to Page Content</a> 
+       <div><a href="index.php#mainmenu" class="invisible">Jump to Page Menu</a></div> 
+           </div> 
+     <!-- close  textonly --> 
+     <div id="sitewide"> 
+       <!-- open sitewide --> 
+           </div> 
+     <!-- close sitewide --> 
+   </div> 
+   <!-- close header --> 
+   <div id="uwbheader"> 
+     <!-- open uwbheader --> 
+     <div id="uwblogo"> 
+       <!-- open uwblogo --> 
+             <!--<img src="../images/top.jpg"  style="float:left;" />  --> 
+             <div id="search" style="display:none;"> 
+         <!-- open search --> 
+         <form action="http://afterthewall.bangor.ac.uk/search_results.php" id="cse-search-box" class="sitesearch"> 
+           <div> 
+             <input type="hidden" name="cx" value="018162437617412129275:jblfac9tpgy" /> 
+             <input type="hidden" name="cof" value="FORID:11" /> 
+             <input type="hidden" name="ie" value="UTF-8" /> 
+             <input type="text" name="q" size="25" /> 
+             <input type="submit" name="sa" value="Search" /> 
+           </div> 
+         </form> 
+         <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en"></script> 
+       </div> 
+       <!-- close search --> 
+     </div> 
+     <!-- close uwblogo --> 
+   </div> 
+   <!-- close uwbheader --> 
+   <div id="deptid"> 
+     <img src="http://mamba.bangor.ac.uk/images/top3.jpg" class="shield" alt="UWB Crest"/>    <p>Marine Metagenomics for New Biotechnological Applications</p>  </div> 
+     <div  id="leftcol"> 
+     <!-- open leftcol --> 
+     <div id="mainmenu"> 
+       <!-- open sitemenu --> 
+             <dl id="menu"> 
+         <dt id="smenu0"><a id='catlink0' href="index.php">Home Page</a></dt> 
+         <dt id='nosubmenucat2' onclick="javascript:show('nosubmenucat2');"><a id='catlink2' href="http://mamba.bangor.ac.uk/summary.php">Project Summary</a></dt>  
+           <dt></a><a href="http://mamba.bangor.ac.uk/summary.php?menu=2&amp;catid=7530&amp;subid=0"></a><a id='catlink' href="http://mamba.bangor.ac.uk/concept.php">Project Concept</a><a href="http://mamba.bangor.ac.uk/summary.php?menu=2&amp;catid=7530&amp;subid=0"></a></dt> 
+         <dt id='nosubmenucat3' onclick="javascript:show('nosubmenucat3');"><a id='catlink3' href="http://mamba.bangor.ac.uk/objectives.php">Project Objectives</a></dt> 
+         <dt id='nosubmenucat4' onclick="javascript:show('nosubmenucat4');"><a id='catlink4' href="http://mamba.bangor.ac.uk/participants.php">Project Participants</a></dt> 
+         <dt id='nosubmenucat7' onclick="javascript:show('nosubmenucat7');"><a id='catlink7' href="http://mamba.bangor.ac.uk/publications.php">Publications</a></dt> 
+             <dt id='nosubmenucat9' onclick="javascript:show('nosubmenucat9');"><a id='catlink9' href="http://mamba.bangor.ac.uk/cruises.php">Cruises and Work on Board</a></dt> 
+                 <dt id='nosubmenucat10' onclick="javascript:show('nosubmenucat10');"><a id='catlink10' href="http://mamba.bangor.ac.uk/webinars.php">Webinars</a></dt> 
+                       <dt id='nosubmenucat12' onclick="javascript:show('nosubmenucat12');"><a id='catlink12' href="http://mamba.bangor.ac.uk/gallery.php">Sampling Photo Gallery</a></dt> 
+                             <dt id='nosubmenucat14' onclick="javascript:show('nosubmenucat15');"><a id='catlink14' href="http://mamba.bangor.ac.uk/media.php">MAMBA in the Media</a></dt> 
+                       <dt id='nosubmenucat11' onclick="javascript:show('nosubmenucat11');"><a id='catlink11' href="http://mamba.bangor.ac.uk/end-users.php">For potential end-users</a></dt> 
+                  
+                 <dd>&nbsp;</dd> 
+          <dt id='nosubmenucat8' onclick="javascript:show('nosubmenucat8');"><a id='catlink8' href="http://inside.bangor.ac.uk/MAMBA">MAMBA Intranet</a></dt> 
+       </dl> 
+     </div> 
+     <!-- close sitemenu --> 
+     <div id="news"> 
+       <div align="center"><img src="http://mamba.bangor.ac.uk/images/image001.png" width="100" height="67" /> <br /> 
+         <a href="http://www.google.com/url?sa=t&amp;source=web&amp;ct=res&amp;cd=1&amp;url=http%3A%2F%2Fcordis.europa.eu%2Ffp7%2F&amp;ei=1B3CSoCMNsyz4QaiqdiLCA&amp;usg=AFQjCNGiaLYos1mIME4vyUFcq6i1_h4jgg"><img src="http://mamba.bangor.ac.uk/images/image003.png" alt="" width="100" height="82" border="0" /></a> </div> 
+       <!-- InstanceBeginEditable name="EditRegion9" --> 
+        
+     <!-- InstanceEndEditable --> 
+       <div id="logos" align="center"> 
+         <p>&nbsp;</p> 
+         <p>&nbsp;</p> 
+         <p><br /> 
+         </p> 
+       </div> 
+       <!-- open news --> 
+     </div> 
+     <!-- close news --> 
+   </div> 
+   <!-- close leftcol --> 
+     <div id="number1"> 
+     <div id="number2"> 
+             <div id="page_heading"><!-- InstanceBeginEditable name="EditRegion1" --> 
+   <h1>Welcome</h1> 
+ <!-- InstanceEndEditable --> 
+          
+       </div> 
+       <div id="contents"> <!-- InstanceBeginEditable name="content" --> 
+         <p>MAMBA stands for “<strong>Ma</strong>rine <strong>M</strong>etagenomics for New <strong>B</strong>iotechnological <strong>A</strong>pplications”, a collaborative project to mine for and use of new  microbial activities, in particular for targeted production of fine chemicals,  antioxidants and anti-cancer drugs. <img src="http://mamba.bangor.ac.uk/images/image011.png" width="151" height="163" class="imagefloatright" /></p> 
+         <p>This Project builds up on the previous  efforts of European Framework Programs and National research initiatives for  exploiting the catalytic activities of marine microorganisms and microbial  communities and to gain the new knowledge on the mechanisms of survival of  living organisms in extreme environments.</p> 
+       <!-- InstanceEndEditable --> </div> 
+     </div> 
+   </div> 
+   <div id="footer"> 
+     <!-- open footer --> 
+     <div id="footerlink"> 
+       <!-- open footerlink --> 
+           </div> 
+     <!-- close footerlink --> 
+     <div id="footerlogo"> 
+       <!-- open footerlogo --> 
+       <!-- close footerlogo --> 
+     </div> 
+     <div id="disclaimer"> 
+       <!-- open disclaimer --> 
+       <p> 
+         Registered charity. No. 1141565 <br/>Copyright &copy; 2001-2015&nbsp;Marine Metagenomics for New Biotechnological Applications<br/><br/>School of Biological Sciences, Bangor University<br/><b><br/><br/><a style='text-transform:none;' href='http://www.bangor.ac.uk/corporate/cookies/index.php.en'>Privacy and Cookies</a>      </p> 
+     </div> 
+     <!-- close disclaimer --> 
+   </div> 
+   <!-- close footer --> 
+ </div> 
+ <!-- close container --> 
+ <a href="http://www.bangor.ac.uk/news"  accesskey="2" title="University News"></a> <a href="http://mamba.bangor.ac.uk/sitemap.php" accesskey="3" title="University Web Site Map"></a> <a href="http://www.bangor.ac.uk/corporate/search.php" accesskey="4" title="Search the University Website"></a> <a href="http://www.bangor.ac.uk/corporate/feedback.php" accesskey="9" title="Provide Feedback"></a> <a href="http://www.bangor.ac.uk/corporate/accessibility.php" accesskey="0" title="Accessibility Statement"></a> 
+ </body> 
+ <script type="text/javascript"> 
+ var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
+ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+ </script> 
+ <script type="text/javascript"> 
+ try { 
+ var pageTracker = _gat._getTracker("UA-3119659-20"); 
+ pageTracker._trackPageview(); 
+ } catch(err) {}</script> 
+ <!-- InstanceEnd --></html> 

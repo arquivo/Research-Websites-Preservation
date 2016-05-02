@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta name="Description" content="Proyecto FOIRCEV" />
+<meta name="Keywords" content="Excelencia de producción de mangueras anti-incendios por medio de procesos innovadores de mezclado, extrusión y vulcanizado del caucho" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="Distribution" content="Global" />
+<meta name="Author" content="Proyecto FOIRCEV" />
+<meta name="Robots" content="index,follow" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+<title>proyecto Foircev</title>	
+
+<script language="JavaScript">
+// Browser Slide-Show script.
+// With image cross fade effect for those browsers that support it.
+var slideCache = new Array();
+function RunSlideShow(pictureName,imageFiles,displaySecs)
+{
+var imageSeparator = imageFiles.indexOf(";");
+var nextImage = imageFiles.substring(0,imageSeparator);
+if (document.all)
+{
+document.getElementById(pictureName).style.filter="blendTrans(duration=2)";
+document.getElementById(pictureName).filters.blendTrans.Apply();
+}
+document.getElementById(pictureName).src = nextImage;
+if (document.all)
+{
+document.getElementById(pictureName).filters.blendTrans.Play();
+}
+var futureImages= imageFiles.substring(imageSeparator+1,imageFiles.length)
++ ';' + nextImage;
+setTimeout("RunSlideShow('"+pictureName+"','"+futureImages+"',"+displaySecs+")",
+displaySecs*1000);
+// Cache the next image to improve performance.
+imageSeparator = futureImages.indexOf(";");
+nextImage = futureImages.substring(0,imageSeparator);
+if (slideCache[nextImage] == null) {
+slideCache[nextImage] = new Image;
+slideCache[nextImage].src = nextImage;
+}
+}
+</script>
+</head>
+
+<body onLoad="presImagen()">
+<div id="header">
+    <div id="header-content">
+        <h1 id="logo"><a href="index.html" title="Proyecto FOIRCEV"><img src="images/foircev-logo.jpg" alt="logo Proyecto Foircev" /></a></h1>
+        <h2 align="right" id="slogan"><a href="english/index.html" class="gray" hreflang="EN"><br />[ · ENGLISH · ]</a><br /><br /><img src="images/7.gif" alt="" /></h2>
+        <ul>
+            <li><a href="index.html" id="current">Inicio</a></li>
+            <li><a href="proyecto.html">Proyecto</a></li>
+            <li><a href="objetivos.html">Objetivos</a></li>
+            <li><a href="barreras.html">Barreras</a></li>
+<li><a href="progreso.html">Progreso</a></li>
+
+        </ul>
+    </div>
+</div> 
+<div class="headerphoto">
+    <img src="images/img-cab3.jpg" width="760" height="225" id="Fotos" />
+    <script language="JavaScript">
+    RunSlideShow("Fotos","images/img-cab0.jpg;images/img-cab1.jpg;images/img-cab2.jpg;images/img-cab3.jpg;"
+    + "images/img-cab4.jpg",4);
+    </script>
+</div>
+<div id="content-wrap">
+    <div id="content">
+        <div id="sidebar" >
+            <div class="sidebox">	
+                <h1>&nbsp;</h1>
+                <ul class="sidemenu">
+                    <li><a href="rubber.html"><img src="images/socios/rubber.jpg"/><br /><strong>España </strong></a></li>
+                    <li><a href="sapin.html"><img src="images/socios/sapin.jpg"/><br /><strong>Italia </strong></a></li>
+                  	<li><a href="elatorsa.html"><img src="images/socios/elastorsa.jpg" alt="elatorsa" /><br />España</a></li>
+                    <li><a href="iescuyer.html"><img src="images/socios/iescuyer.jpg" /><br />Francia</a></li>
+                    <li><a href="csic.html"><img src="images/socios/csic.jpg" /><br />España</a></li>
+                    <li><a href="fraunhofer.html"><img src="images/socios/fraunhofer.jpg" /><br />Alemania</a></li>
+                    <li><a href="itav.html"><img src="images/socios/itav.jpg" /><br />España</a></li>
+                    <li><a href="anbp.html"><img src="images/socios/anbp.jpg" /><br />Portugal</a></li>
+                </ul>				
+            </div>					
+        </div>
+        <div id="main">		
+          <div class="post">
+                <h1>Proyecto Foircev</h1>
+                <div class="textbox">
+               <p class="float-right"><img src="images/log-7.png" alt="FP7 (Séptimo Programa Marco) " class="gray" /></p>
+                  <h2>FP7 (Séptimo Programa Marco) </h2>
+                    <p>El<strong> FP7</strong> está diseñado para mejorar la eficacia de los programas anteriores con el objetivo de establecer el Espacio Europeo de Investigación (EEI) y el desarrollo de la economía de Europa basada en el conocimiento.</p>
+                    <p>&nbsp;</p>     
+                    <h3>Descripción General</h3>
+                    <p><strong>FP7 Investigación en beneficio de las PYME, convocatoria PYME-2007-01</strong><br />
+                    Numero Proyecto: <strong>222334</strong><br />
+                    Fecha inicio efectiva: <strong>1 de noviembre de 2008</strong><br />                    
+                    Título Proyecto: <strong>Excelencia de producción de mangueras anti-incendios por medio de procesos innovadores de mezclado, extrusión y vulcanizado del caucho</strong><br />
+                    Coordinador: <strong>PRODUCTOS Y MANGUERAS ESPECIALES, S.A.  (ESPAÑA)</strong> </p>  
+                    
+                    <h3>Misi&oacute;n</h3>
+                    <p>El  presente proyecto desarrollar&aacute; una nueva manguera basada en un nuevo  compuesto de caucho, unos procesos mejorados de mezclado  y extrusi&oacute;n  y un proceso posterior innovador de vulcanizaci&oacute;n continua, que en  conjunto reducir&aacute;n la tasa de rechazo de producto actual situada en  el 15-30% a tasas inferiores al 5 %, fabricando adem&aacute;s un producto  con una mayor calidad y fiabilidad, y con una reducci&oacute;n considerable  del consumo de energ&iacute;a durante la vulcanizaci&oacute;n.</p>
+                    
+                    <h3>Persona de contacto                    </h3>
+                  <p><strong>Fernando Mariju&aacute;n Martinez<br /></strong>
+                    Productos MESA<br />
+					E-mail:<a href="mailto: f.marijuan@productosmesa.com"> f.marijuan@productosmesa.com</a> / Web:<a href="http://www.productosmesa.com" title=" www.productosmesa.com" target="_blank"> www.productosmesa.com</a><br />
+                  Tel&eacute;fono:<strong> +34 941 34 15 46</strong> / Fax: <strong>+34 941 34 22 54</strong></p>
+                    <p class="post-footer align-right"><a href="foircevproject.pdf" class="readmore" target="_blank"><strong>DESCARGAR CATÁLOGO</strong></a>+</p>
+                  <h1>Concepto del Proyecto</h1>        
+                  <p>La  manguera es probablemente la pieza m&aacute;s importante del equipo de  extinci&oacute;n para la brigada forestal en un incendio. Es la l&iacute;nea de  salvamento para el bombero, el cord&oacute;n umbilical que conecta el  bombero con la fuente de agua cuando esta ante un fuego, y que no  puede fallar en ese momento cr&iacute;tico...</p>  
+                    <p class="post-footer align-right"><a href="proyecto.html" target="_blank" class="readmore">Ampliar información</a>+</p>
+                    	
+                    <h1>Objetivos del Proyecto</h1>
+                    <p>El  objetivo principal de este proyecto es mejorar la comprensi&oacute;n de los  par&aacute;metros que afectan a la fabricaci&oacute;n de estas mangueras de  caucho por extrusi&oacute;n &quot;a trav&eacute;s de la trama&quot;... </p>
+                    <p class="post-footer align-right"> 				
+                    <a href="objetivos.html" class="readmore">Ampliar información</a>+
+                    </p>
+                    
+                    <h1>Limitaciones t&eacute;cnicas y Barreras tecnológicas actuales</h1>        
+                    <p>Dentro  de cada etapa del proceso, hemos encontrado varias limitaciones  t&eacute;cnicas que deben superarse con el conocimiento generado en el  programa de trabajo dise&ntilde;ado para este proyecto FOIRCEV...</p>  
+                    <p class="post-footer align-right">				
+                    <a href="barreras.html" class="readmore">Ampliar información</a>+
+                    </p>
+                    
+                    <h1>Contribuci&oacute;n al Progreso del Conocimiento / El Progreso Tecnol&oacute;gico</h1>        
+                    <p>El conocimiento de la formulaci&oacute;n y el control del proceso de mezcla y  la comprensi&oacute;n de los vol&aacute;tiles liberados durante la vulcanizaci&oacute;n, son la base para la optimizaci&oacute;n del proceso de fabricaci&oacute;n, especialmente en la fase de vulcanizaci&oacute;n, reduciendo los costes y  la tasa de rechazo...</p>  
+                    <p class="post-footer align-right">				
+                    <a href="progreso.html" class="readmore">Ampliar información</a>+
+                    </p>
+                    <br />
+                </div>
+          </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+	<p>Proyecto Foircev</p>
+</div>
+
+</body>
+</html>

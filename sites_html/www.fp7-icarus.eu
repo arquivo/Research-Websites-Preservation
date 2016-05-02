@@ -1,0 +1,504 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>FP7-Icarus</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="FP7-Icarus RSS" href="http://www.fp7-icarus.eu/rss.xml" />
+<link rel="shortcut icon" href="/sites/fp7-icarus.eu/files/icarus_favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/fp7-icarus.eu/modules/cck/theme/content-module.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/fp7-icarus.eu/modules/ctools/css/ctools.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/fp7-icarus.eu/modules/date/date.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/fp7-icarus.eu/modules/dhtml_menu/dhtml_menu.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/fp7-icarus.eu/modules/filefield/filefield.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/fp7-icarus.eu/modules/lightbox2/css/lightbox.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/fp7-icarus.eu/modules/mollom/mollom.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/fp7-icarus.eu/modules/nice_menus/nice_menus.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/forum/forum.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/fp7-icarus.eu/modules/cck/modules/fieldgroup/fieldgroup.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/fp7-icarus.eu/modules/views/css/views.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/fp7-icarus.eu/modules/views_slideshow/views_slideshow_controls_text.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/fp7-icarus.eu/modules/jcarousel/skins/default/jcarousel-default.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/icarus/css/default.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/icarus/css/layout.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/icarus/css/style.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/fp7-icarus.eu/modules/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycle.css?m" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/all/themes/icarus/css/print.css?m" />
+    <!--[if lte IE 6]><link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/icarus/css/ie6.css" /><![endif]-->
+    <!--[if IE 7]><link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/icarus/css/ie7.css" /><![endif]-->
+    <!--[if IE 8]><link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/icarus/css/ie8.css" /><![endif]-->
+    <script type="text/javascript" src="/sites/fp7-icarus.eu/modules/jquery_update/replace/jquery.min.js?m"></script>
+<script type="text/javascript" src="/misc/drupal.js?m"></script>
+<script type="text/javascript" src="/sites/all/modules/poormanscron/poormanscron.js?m"></script>
+<script type="text/javascript" src="/sites/fp7-icarus.eu/modules/dhtml_menu/dhtml_menu.js?m"></script>
+<script type="text/javascript" src="/sites/fp7-icarus.eu/modules/lightbox2/js/auto_image_handling.js?m"></script>
+<script type="text/javascript" src="/sites/fp7-icarus.eu/modules/lightbox2/js/lightbox.js?m"></script>
+<script type="text/javascript" src="/sites/fp7-icarus.eu/modules/nice_menus/superfish/js/superfish.js?m"></script>
+<script type="text/javascript" src="/sites/fp7-icarus.eu/modules/nice_menus/superfish/js/jquery.bgiframe.min.js?m"></script>
+<script type="text/javascript" src="/sites/fp7-icarus.eu/modules/nice_menus/superfish/js/jquery.hoverIntent.minified.js?m"></script>
+<script type="text/javascript" src="/sites/fp7-icarus.eu/modules/nice_menus/nice_menus.js?m"></script>
+<script type="text/javascript" src="/sites/fp7-icarus.eu/modules/views_slideshow/js/views_slideshow.js?m"></script>
+<script type="text/javascript" src="/sites/fp7-icarus.eu/modules/image_caption/image_caption.js?m"></script>
+<script type="text/javascript" src="/sites/fp7-icarus.eu/modules/google_analytics/googleanalytics.js?m"></script>
+<script type="text/javascript" src="/sites/all/libraries/jquery.cycle/jquery.cycle.all.min.js?m"></script>
+<script type="text/javascript" src="/sites/fp7-icarus.eu/modules/views_slideshow/contrib/views_slideshow_cycle/js/views_slideshow_cycle.js?m"></script>
+<script type="text/javascript" src="/sites/fp7-icarus.eu/modules/jcarousel/js/jquery.jcarousel.min.js?m"></script>
+<script type="text/javascript" src="/sites/fp7-icarus.eu/modules/jcarousel/js/jcarousel.js?m"></script>
+<script type="text/javascript" src="/sites/fp7-icarus.eu/modules/views/js/base.js?m"></script>
+<script type="text/javascript" src="/sites/fp7-icarus.eu/modules/views/js/ajax_view.js?m"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "cron": { "basePath": "/poormanscron", "runNext": 1454950185 }, "dhtmlMenu": { "nav": "hover", "animation": { "effects": { "opacity": "opacity", "height": 0, "width": 0 }, "speed": "500" }, "effects": { "siblings": "close-same-tree", "children": "none", "remember": "0" }, "filter": { "type": "whitelist", "list": { "book-toc-185": "book-toc-185", "book-toc-191": "book-toc-191", "book-toc-30": "book-toc-30", "menu-projectoverview-menu": "menu-projectoverview-menu", "navigation": "navigation", "admin_menu": 0, "menu-clone-primary-links": 0, "menu-news": 0, "menu-topmenu": 0, "primary-links": 0 } } }, "jcarousel": { "ajaxPath": "/jcarousel/ajax/views", "carousels": { "jcarousel-dom-1": { "view_options": { "view_args": "", "view_path": "node", "view_base_path": null, "view_display_id": "block_1", "view_name": "home_gallery", "jcarousel_dom_id": 1 }, "wrap": "circular", "skin": "default", "visible": 3, "autoPause": 1, "animation": "slow", "start": 1, "ajax": true, "scroll": 3, "size": 7, "selector": ".jcarousel-dom-1" } } }, "lightbox2": { "rtl": 0, "file_path": "/(\\w\\w/)sites/fp7-icarus.eu/files", "default_image": "/sites/fp7-icarus.eu/modules/lightbox2/images/brokenimage.jpg", "border_size": 10, "font_color": "000", "box_color": "fff", "top_position": "", "overlay_opacity": "0.8", "overlay_color": "000", "disable_close_click": 1, "resize_sequence": 0, "resize_speed": 400, "fade_in_speed": 400, "slide_down_speed": 600, "use_alt_layout": 0, "disable_resize": 0, "disable_zoom": 1, "force_show_nav": 0, "show_caption": 1, "loop_items": 0, "node_link_text": "View page for this image", "node_link_target": 0, "image_count": "Image !current of !total", "video_count": "Video !current of !total", "page_count": "Page !current of !total", "lite_press_x_close": "press \x3ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\x3e\x3ckbd\x3ex\x3c/kbd\x3e\x3c/a\x3e to close", "download_link_text": "", "enable_login": false, "enable_contact": false, "keys_close": "c x 27", "keys_previous": "p 37", "keys_next": "n 39", "keys_zoom": "z", "keys_play_pause": "32", "display_image_size": "original", "image_node_sizes": "()", "trigger_lightbox_classes": "", "trigger_lightbox_group_classes": "", "trigger_slideshow_classes": "", "trigger_lightframe_classes": "", "trigger_lightframe_group_classes": "", "custom_class_handler": 0, "custom_trigger_classes": "", "disable_for_gallery_lists": 1, "disable_for_acidfree_gallery_lists": true, "enable_acidfree_videos": true, "slideshow_interval": 5000, "slideshow_automatic_start": 0, "slideshow_automatic_exit": 1, "show_play_pause": 1, "pause_on_next_click": 0, "pause_on_previous_click": 1, "loop_slides": 0, "iframe_width": 600, "iframe_height": 400, "iframe_border": 1, "enable_video": 0 }, "nice_menus_options": { "delay": "800", "speed": "normal" }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" }, "viewsSlideshow": { "newsticker-newsticker": { "methods": { "goToSlide": [ "viewsSlideshowPager", "viewsSlideshowSlideCounter", "viewsSlideshowCycle" ], "nextSlide": [ "viewsSlideshowPager", "viewsSlideshowSlideCounter", "viewsSlideshowCycle" ], "pause": [ "viewsSlideshowControls", "viewsSlideshowCycle" ], "play": [ "viewsSlideshowControls", "viewsSlideshowCycle" ], "previousSlide": [ "viewsSlideshowPager", "viewsSlideshowSlideCounter", "viewsSlideshowCycle" ], "transitionBegin": [ "viewsSlideshowPager", "viewsSlideshowSlideCounter", "viewsSlideshowXtra" ], "transitionEnd": [  ] }, "paused": 0 } }, "viewsSlideshowControls": { "newsticker-newsticker": { "top": { "type": "viewsSlideshowControlsText" } } }, "viewsSlideshowCycle": { "#views_slideshow_cycle_main_newsticker-newsticker": { "num_divs": 11, "id_prefix": "#views_slideshow_cycle_main_", "div_prefix": "#views_slideshow_cycle_div_", "vss_id": "newsticker-newsticker", "effect": "scrollDown", "transition_advanced": 1, "timeout": 8000, "speed": 700, "delay": 0, "sync": 1, "random": 0, "pause": 1, "pause_on_click": 0, "action_advanced": 1, "start_paused": 0, "remember_slide": 0, "remember_slide_days": 1, "pause_when_hidden": 0, "pause_when_hidden_type": "full", "amount_allowed_visible": "", "nowrap": 0, "fixed_height": 1, "items_per_slide": 1, "wait_for_image_load": 0, "wait_for_image_load_timeout": 3000, "cleartype": 1, "cleartypenobg": 1, "advanced_options": "{}" } }, "views": { "ajax_path": "/views/ajax", "ajaxViews": { "views_dom_id:4b4922669bcfc50e3e32ae8d6036b223": { "view_name": "home_gallery", "view_display_id": "block_1", "view_args": "", "view_path": "node", "view_base_path": null, "view_dom_id": "4b4922669bcfc50e3e32ae8d6036b223", "pager_element": 0 } } } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-30882948-2", { "cookieDomain": "auto" });ga("send", "pageview");
+//--><!]]>
+</script>
+	<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+  </head>
+
+  <body class="front not-logged-in page-node one-sidebar sidebar-left" onload="MM_preloadImages('/sites/all/themes/icarus/images/URquest_over.jpg','/sites/all/themes/icarus/images/MAquest_over.jpg')">
+    <div id="skip">
+      <a href="#content">Skip to Content</a>
+          </div>
+
+    <div id="page">
+
+<!-- ______________________ HEADER _______________________ -->
+	          <div id="topmenu">
+          <div id="block-block-7" class="block block-block block-topmenu block-id-390 clearfix first odd ">
+  <div class="block-inner">
+
+    
+    <div class="content">
+
+      <div class="loginmenu">
+<span class="login"><a href="/user">login</a></span> | <span class="register"><a href="/user/register">create your account</a> -</span></div>    </div>
+
+    
+  </div> <!-- /block-inner -->
+</div> <!-- /block --><div id="block-menu-menu-topmenu" class="block block-menu block-topmenu block-id-382 clearfix last even ">
+  <div class="block-inner">
+
+    
+    <div class="content">
+
+      <ul class="menu"><li class="leaf first"><a href="http://icarus.progecta.info" title="Partner Area" target="_blank" id="custom_breadcrumbs_menu-1070">partner area</a></li>
+<li class="leaf"><a href="/media" title="Media" id="custom_breadcrumbs_menu-7230">media</a></li>
+<li class="leaf last"><a href="http://www.spacetecpartners.eu/imagebank/identification.php?name=icarus" title=" " target="_blank" id="custom_breadcrumbs_menu-11208">imagebank</a></li>
+</ul>    </div>
+
+    
+  </div> <!-- /block-inner -->
+</div> <!-- /block -->        </div>
+          <div id="header">
+
+	<div id="logo-title">
+
+                  <a href="/" title="Home" rel="home" id="logo">
+            <img src="/sites/all/themes/icarus/images/icarus-header-960-2.png" alt="Home"/>
+          </a>
+        	
+        <!---<div id="name-and-slogan">
+		
+                      <h1 id="site-name">
+              <a href="" title="Home" rel="home"><span></span></a>
+            </h1>
+                                <div id="site-slogan"></div>
+                  </div> --><!-- /name-and-slogan -->
+     </div> <!-- /logo-title -->
+
+
+      
+                    <div id="mainmenu">
+          <div id="block-nice_menus-1" class="block block-nice_menus block-mainmenu block-id-350 clearfix first last odd ">
+  <div class="block-inner">
+
+    
+    <div class="content">
+
+      <ul class="nice-menu nice-menu-down" id="nice-menu-1"><li class="menu-886 menu-path-front active-trail first  odd "><a href="/" id="custom_breadcrumbs_menu-886" class="active active">Home</a></li>
+<li class="menu-6556 menuparent menu-path-node-191 even "><a href="/project-overview" title="" id="custom_breadcrumbs_menu-6556">Project Overview</a><ul><li class="menu-7996 menu-path-node-208 first  odd "><a href="/project-overview/partners" title="Partners" id="custom_breadcrumbs_menu-7996">Partners</a></li>
+<li class="menu-7997 menu-path-node-209 even  last "><a href="/project-overview/project-objectives" title="Project Objectives" id="custom_breadcrumbs_menu-7997">Project Objectives</a></li>
+</ul>
+</li>
+<li class="menu-6651 menu-path-node-196 odd "><a href="/search-rescue" title="Search &amp; Rescue" id="custom_breadcrumbs_menu-6651">Search &amp; Rescue</a></li>
+<li class="menu-8053 menu-path-publications even "><a href="/publications" title="" id="custom_breadcrumbs_menu-8053">Publications</a></li>
+<li class="menu-884 menu-path-news odd "><a href="/news" title="Discover all activities about the project." id="custom_breadcrumbs_menu-884">News</a></li>
+<li class="menu-870 menu-path-links even "><a href="/links" title="Links" id="custom_breadcrumbs_menu-870">Links</a></li>
+<li class="menu-1074 menu-path-node-43 odd  last "><a href="/contact" title="Contact" id="custom_breadcrumbs_menu-1074">Contact</a></li>
+</ul>
+    </div>
+
+    
+  </div> <!-- /block-inner -->
+</div> <!-- /block -->        </div>        </div> <!-- /header -->
+
+<!-- ______________________ MAIN _______________________ -->
+  
+    <div id="main" class="clearfix">
+    
+      <div id="content">
+	  
+<div id="contentcontainter">	  
+                  <div id="sidebar-first" class="column sidebar first">
+            <div id="sidebar-first-inner" class="inner">
+              <div id="block-views-homegmosaic-block_1" class="block block-views block-left block-id-370 clearfix first odd block-blue border-radius border-shadow">
+  <div class="block-inner">
+
+          <h3 class="title block-title">ICARUS IN A NUTSHELL</h3>
+    
+    <div class="content">
+
+      <div class="view view-homegmosaic view-id-homegmosaic view-display-id-block_1 view-dom-id-7b11431d2e6f0027cc21ae212324059f">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-teaser">        <div class="field-content"><p>After the earthquakes in l’Aquila, Haiti and Japan, the European Commission confirmed that there exists a large discrepancy between (robotic) technology which is developed in laboratory and the use of such technology on the terrain for Search and Rescue (SAR) operations and crisis management.</p>
+<p>Thus, the European Commission’s Directorate-General for Enterprise and Industry decided to fund ICARUS, a Research project (global budget: 17.5M€) which aims to develop robotic tools which can assist “human” crisis intervention teams.</p>
+ <div class="readmore"><a href="http://www.fp7-icarus.eu/project-overview">read more</a></div></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+
+    
+  </div> <!-- /block-inner -->
+</div> <!-- /block --><div id="block-views-homegmosaic-block_2" class="block block-views block-left block-id-365 clearfix last even block-blue border-radius border-shadow">
+  <div class="block-inner">
+
+          <h3 class="title block-title">Search &amp; Rescue</h3>
+    
+    <div class="content">
+
+      <div class="view view-homegmosaic view-id-homegmosaic view-display-id-block_2 view-dom-id-932fc1bc9d263a2843f22ae0019d824e">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-teaser">        <div class="field-content"><p><b>Search and rescue</b> (<b>SAR</b>) is the search for and provision of aid to people who are in distress or imminent danger</p>
+ <div class="readmore"><a href="http://www.fp7-icarus.eu/search-rescue">read more</a></div></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+
+    
+  </div> <!-- /block-inner -->
+</div> <!-- /block -->            </div>
+          </div>
+         <!-- /sidebar-left -->
+
+		          <div id="content-inner" class="inner column center">
+	                <div id="content-header">
+
+              
+                      <div id="content-top">
+              <div id="block-views-newsticker-newsticker" class="block block-views block-content_top block-id-367 clearfix first odd ">
+  <div class="block-inner">
+
+          <h3 class="title block-title">Latest news</h3>
+    
+    <div class="content">
+
+      <div class="view view-newsticker view-id-newsticker view-display-id-newsticker newsticker-container border-radius border-shadow view-dom-id-3c83d6ef6ba78e43d08b7c4dfa788afa">
+    
+  
+  
+      <div class="view-content">
+      
+<div class="skin-default">
+      <div class="views-slideshow-controls-top clear-block">
+      <div class="views_slideshow_controls_text" id="views_slideshow_controls_text_newsticker-newsticker">
+  <span  class="views_slideshow_controls_text_previous" id="views_slideshow_controls_text_previous_newsticker-newsticker"><a href="#">Previous</a></span>
+  <span  class="views_slideshow_controls_text_pause" id="views_slideshow_controls_text_pause_newsticker-newsticker"><a href="#">Pause</a></span>
+  <span  class="views_slideshow_controls_text_next" id="views_slideshow_controls_text_next_newsticker-newsticker"><a href="#">Next</a></span>
+</div>
+    </div>
+  
+  <div id="views_slideshow_cycle_main_newsticker-newsticker" class="views_slideshow_cycle_main views_slideshow_main"><div id="views_slideshow_cycle_teaser_section_newsticker-newsticker" class="views_slideshow_cycle_teaser_section">
+  <div class="views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-odd" id="views_slideshow_cycle_div_newsticker-newsticker_0">
+  <div class="views-row views-row-0 views-row-first views-row-odd">
+    
+  <span class="views-field views-field-field-slideshow-fid">        <div class="field-content"><a href="/news/new-video-icarus-final-land-demonstration" class="imagecache imagecache-newsticker imagecache-linked imagecache-newsticker_linked"><img src="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/newsticker/Option%202.png" alt="" title=""  class="imagecache imagecache-newsticker" width="120" height="95" /></a></div>  </span>  
+  <div class="views-field views-field-view-node latestnews-readmore">        <span class="field-content"><a href="/news/new-video-icarus-final-land-demonstration">read more</a></span>  </div>  
+  <span class="views-field views-field-teaser">        <span class="field-content"><b>12/01/2016 New video of the ICARUS Final Land Demonstration</b><br>On the 4th of September 2015, the final field trials of the robotic tools developed within the FP7 ICARUS project took place on the training grounds of the Belgian First Aid and Support Team (ICARUS member B-FAST) in Marche-en-Famenne, Belgium.
+</span>  </span></div>
+</div>
+<div class="views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even" id="views_slideshow_cycle_div_newsticker-newsticker_1">
+  <div class="views-row views-row-0 views-row-first views-row-odd">
+    
+  <span class="views-field views-field-field-slideshow-fid">        <div class="field-content"><a href="/news/check-out-new-icarus-newsletter" class="imagecache imagecache-newsticker imagecache-linked imagecache-newsticker_linked"><img src="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/newsticker/Newsletter.jpg" alt="" title=""  class="imagecache imagecache-newsticker" width="120" height="95" /></a></div>  </span>  
+  <div class="views-field views-field-view-node latestnews-readmore">        <span class="field-content"><a href="/news/check-out-new-icarus-newsletter">read more</a></span>  </div>  
+  <span class="views-field views-field-teaser">        <span class="field-content"><b>11/12/2015 Check out the new ICARUS newsletter  </b><br>The ICARUS consortium is pleased to announce the publication of its newsletter describing the major project achivements for the past 6 months, including:
+- ICARUS partcipation to euRathlon (September 2015);
+- ICARUS land demonstration in Marche-en-Famenne, Belgium (September 2015);
+- First-ever legal RPAS flight in Brus...</span>  </span></div>
+</div>
+<div class="views_slideshow_cycle_slide views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd" id="views_slideshow_cycle_div_newsticker-newsticker_2">
+  <div class="views-row views-row-0 views-row-first views-row-odd">
+    
+  <span class="views-field views-field-field-slideshow-fid">        <div class="field-content"><a href="/news/succesfull-icarus-participation-un-insarag-global-meeting-abu-dhabi-18-19-october-2015" class="imagecache imagecache-newsticker imagecache-linked imagecache-newsticker_linked"><img src="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/newsticker/ICARUS_INSARAG_0.jpg" alt="" title=""  class="imagecache imagecache-newsticker" width="120" height="95" /></a></div>  </span>  
+  <div class="views-field views-field-view-node latestnews-readmore">        <span class="field-content"><a href="/news/succesfull-icarus-participation-un-insarag-global-meeting-abu-dhabi-18-19-october-2015">read more</a></span>  </div>  
+  <span class="views-field views-field-teaser">        <span class="field-content"><b>17/11/2015 Succesfull ICARUS participation in the UN-INSARAG Global Meeting in Abu Dhabi (18-19 October 2015)</b><br>
+Daniela Doroftei - Member of the ICARUS Coordination Team in Abu Dhabi (Credits RMA)
+&nbsp;
+The ICARUS team successfully participated in the UN-INSARAG Global Meeting which took place on October 18-19 in Abu Dhabi alongside with key players from the internati...</span>  </span></div>
+</div>
+<div class="views_slideshow_cycle_slide views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even" id="views_slideshow_cycle_div_newsticker-newsticker_3">
+  <div class="views-row views-row-0 views-row-first views-row-odd">
+    
+  <span class="views-field views-field-field-slideshow-fid">        <div class="field-content"><a href="/news/icarus-final-field-demo-successfully-took-place-marche-en-famenne-belgium" class="imagecache imagecache-newsticker imagecache-linked imagecache-newsticker_linked"><img src="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/newsticker/2015-09-04-icarus-0303.jpg" alt="" title=""  class="imagecache imagecache-newsticker" width="120" height="95" /></a></div>  </span>  
+  <div class="views-field views-field-view-node latestnews-readmore">        <span class="field-content"><a href="/news/icarus-final-field-demo-successfully-took-place-marche-en-famenne-belgium">read more</a></span>  </div>  
+  <span class="views-field views-field-teaser">        <span class="field-content"><b>29/09/2015 ICARUS final field demo successfully took place in Marche-en-Famenne, Belgium</b><br>On the 4th of September 2015, the final field trials of the robotic tools developed within the FP7 ICARUS project took place on the training grounds of the Belgian First Aid and Support Team (ICARUS member B-FAST) in Marche-en-Famenne, Belgium.&nbsp;The purpose of the demonstratio...</span>  </span></div>
+</div>
+<div class="views_slideshow_cycle_slide views_slideshow_slide views-row-5 views_slideshow_cycle_hidden views-row-odd" id="views_slideshow_cycle_div_newsticker-newsticker_4">
+  <div class="views-row views-row-0 views-row-first views-row-odd">
+    
+  <span class="views-field views-field-field-slideshow-fid">        <div class="field-content"><a href="/news/icarus-consortium-releases-new-videos-sea-demo-alfeite-portugal" class="imagecache imagecache-newsticker imagecache-linked imagecache-newsticker_linked"><img src="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/newsticker/20150707-IMG_4237.jpg" alt="" title=""  class="imagecache imagecache-newsticker" width="120" height="95" /></a></div>  </span>  
+  <div class="views-field views-field-view-node latestnews-readmore">        <span class="field-content"><a href="/news/icarus-consortium-releases-new-videos-sea-demo-alfeite-portugal">read more</a></span>  </div>  
+  <span class="views-field views-field-teaser">        <span class="field-content"><b>28/09/2015 ICARUS consortium releases new videos of the Sea Demo at Alfeite, Portugal</b><br>On the 9th and 10th of July 2015, ICARUS project partners simulated a maritime crisis management scenario at the Navy Base of Alfeite (Almada) in Portugal.</span>  </span></div>
+</div>
+<div class="views_slideshow_cycle_slide views_slideshow_slide views-row-6 views_slideshow_cycle_hidden views-row-even" id="views_slideshow_cycle_div_newsticker-newsticker_5">
+  <div class="views-row views-row-0 views-row-first views-row-odd">
+    
+  <span class="views-field views-field-field-slideshow-fid">        <div class="field-content"><a href="/news/icarus-makes-first-ever-legal-rpas-flight-brussels" class="imagecache imagecache-newsticker imagecache-linked imagecache-newsticker_linked"><img src="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/newsticker/TEASER_0.jpg" alt="" title=""  class="imagecache imagecache-newsticker" width="120" height="95" /></a></div>  </span>  
+  <div class="views-field views-field-view-node latestnews-readmore">        <span class="field-content"><a href="/news/icarus-makes-first-ever-legal-rpas-flight-brussels">read more</a></span>  </div>  
+  <span class="views-field views-field-teaser">        <span class="field-content"><b>24/07/2015 ICARUS makes first-ever legal RPAS flight in Brussels</b><br>On 7 May 2015, a rotorcraft developed within the ICARUS FP7 research project performed the first-ever legally approved Remotely Piloted Aircraft (RPAS) flight in Brussels, less than one kilometre away from the Berlaymont building, the iconic headquarters of the European Commission, as confirmed by the Be...</span>  </span></div>
+</div>
+<div class="views_slideshow_cycle_slide views_slideshow_slide views-row-7 views_slideshow_cycle_hidden views-row-odd" id="views_slideshow_cycle_div_newsticker-newsticker_6">
+  <div class="views-row views-row-0 views-row-first views-row-odd">
+    
+  <span class="views-field views-field-field-slideshow-fid">        <div class="field-content"><a href="/news/icarus-and-tiramisu-successfully-present-their-sar-and-humanitarian-demining-systems-eu-civil-p" class="imagecache imagecache-newsticker imagecache-linked imagecache-newsticker_linked"><img src="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/newsticker/picture%20N%C2%B03.jpg" alt="" title=""  class="imagecache imagecache-newsticker" width="120" height="95" /></a></div>  </span>  
+  <div class="views-field views-field-view-node latestnews-readmore">        <span class="field-content"><a href="/news/icarus-and-tiramisu-successfully-present-their-sar-and-humanitarian-demining-systems-eu-civil-p">read more</a></span>  </div>  
+  <span class="views-field views-field-teaser">        <span class="field-content"><b>09/07/2015 ICARUS and TIRAMISU successfully present their SAR and humanitarian demining systems in the EU Civil Protection Forum 2015 </b><br>The 5th&nbsp;European Civil Protection Forum took place in Brussels on 6 and 7 May 2015, featuring a conference as well as an indoor exhibition and an outdoor demonstration of RPAS and drones.</span>  </span></div>
+</div>
+<div class="views_slideshow_cycle_slide views_slideshow_slide views-row-8 views_slideshow_cycle_hidden views-row-even" id="views_slideshow_cycle_div_newsticker-newsticker_7">
+  <div class="views-row views-row-0 views-row-first views-row-odd">
+    
+  <span class="views-field views-field-field-slideshow-fid">        <div class="field-content"><a href="/news/icarus-invited-exhibit-insarag-global-meeting-october-2015-abu-dhabi-uae" class="imagecache imagecache-newsticker imagecache-linked imagecache-newsticker_linked"><img src="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/newsticker/DSC09337_0.JPG" alt="" title=""  class="imagecache imagecache-newsticker" width="120" height="95" /></a></div>  </span>  
+  <div class="views-field views-field-view-node latestnews-readmore">        <span class="field-content"><a href="/news/icarus-invited-exhibit-insarag-global-meeting-october-2015-abu-dhabi-uae">read more</a></span>  </div>  
+  <span class="views-field views-field-teaser">        <span class="field-content"><b>22/06/2015 ICARUS invited to exhibit at the INSARAG Global Meeting in October 2015 in Abu Dhabi, UAE</b><br>The ICARUS project has been invited to participate to INSARAG's forthcoming Global Meeting alongside key players from the UN Office for Disaster Risk Reduction (ISDR), the International Federation of the Red Cross and Red Crescent Societies (IFRC) and the World Humanit...</span>  </span></div>
+</div>
+<div class="views_slideshow_cycle_slide views_slideshow_slide views-row-9 views_slideshow_cycle_hidden views-row-odd" id="views_slideshow_cycle_div_newsticker-newsticker_8">
+  <div class="views-row views-row-0 views-row-first views-row-odd">
+    
+  <span class="views-field views-field-field-slideshow-fid">        <div class="field-content"><a href="/news/mark-your-calendar-final-demonstration-urban-sar-scenario-icarus-project-04092015-marche-en-fam" class="imagecache imagecache-newsticker imagecache-linked imagecache-newsticker_linked"><img src="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/newsticker/PIC%20TIRAMISU.jpg" alt="" title=""  class="imagecache imagecache-newsticker" width="120" height="95" /></a></div>  </span>  
+  <div class="views-field views-field-view-node latestnews-readmore">        <span class="field-content"><a href="/news/mark-your-calendar-final-demonstration-urban-sar-scenario-icarus-project-04092015-marche-en-fam">read more</a></span>  </div>  
+  <span class="views-field views-field-teaser">        <span class="field-content"><b>15/05/2015 Mark your calendar: Final Demonstration of the Urban SAR Scenario of the ICARUS Project, 04/09/2015 at Marche-en-Famenne, Belgium</b><br>Fourth of September 2015 will see the final field trials of the robotic tools of the FP7 ICARUS Project, at Marche-en-Famenne, Belgium.
+The field trials will showcase the ICARUS robotic tools, which have been developed for the Ur...</span>  </span></div>
+</div>
+<div class="views_slideshow_cycle_slide views_slideshow_slide views-row-10 views_slideshow_cycle_hidden views-row-even" id="views_slideshow_cycle_div_newsticker-newsticker_9">
+  <div class="views-row views-row-0 views-row-first views-row-odd">
+    
+  <span class="views-field views-field-field-slideshow-fid">        <div class="field-content"><a href="/news/successful-participation-icarus-2015-eu-civil-protection-forum" class="imagecache imagecache-newsticker imagecache-linked imagecache-newsticker_linked"><img src="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/newsticker/pic12.jpg" alt="" title=""  class="imagecache imagecache-newsticker" width="120" height="95" /></a></div>  </span>  
+  <div class="views-field views-field-view-node latestnews-readmore">        <span class="field-content"><a href="/news/successful-participation-icarus-2015-eu-civil-protection-forum">read more</a></span>  </div>  
+  <span class="views-field views-field-teaser">        <span class="field-content"><b>15/05/2015 Successful participation of ICARUS in the 2015 EU Civil Protection Forum</b><br>The 5th European Civil Protection Forum took place in Brussels on 6 and 7 May 2015, featuring a conference as well as an indoor exhibition and an outdoor demonstration of RPAS and drones.
+The ICARUS FP7 research project, which aims to develop robotic tools that can assist “human” crisi...</span>  </span></div>
+</div>
+<div class="views_slideshow_cycle_slide views_slideshow_slide views-row-11 views_slideshow_cycle_hidden views-row-odd" id="views_slideshow_cycle_div_newsticker-newsticker_10">
+  <div class="views-row views-row-0 views-row-first views-row-odd">
+    
+  <span class="views-field views-field-field-slideshow-fid">        <div class="field-content"><a href="/news/nepal-earthquake-icarus-partners-b-fast-and-esri-rescue" class="imagecache imagecache-newsticker imagecache-linked imagecache-newsticker_linked"><img src="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/newsticker/BFAST-POL-J2-269%20Bruno%20Bosilo.JPG" alt="" title="B-FAST at work"  class="imagecache imagecache-newsticker" width="120" height="95" /></a></div>  </span>  
+  <div class="views-field views-field-view-node latestnews-readmore">        <span class="field-content"><a href="/news/nepal-earthquake-icarus-partners-b-fast-and-esri-rescue">read more</a></span>  </div>  
+  <span class="views-field views-field-teaser">        <span class="field-content"><b>29/04/2015 Nepal earthquake: ICARUS partners B-FAST and ESRI to the rescue</b><br>Following the earthquake that happened saturday 25/04/2015 in Nepal, Belgium has decided to send a &nbsp;B-fast team &nbsp;(Belgian First Aid &amp; support team) composed of 45 people. The B-FAST team, which is a full ICARUS partner, will be executing urban search and rescue operations in Nepal...</span>  </span></div>
+</div>
+</div>
+</div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+
+    
+  </div> <!-- /block-inner -->
+</div> <!-- /block --><div id="block-views-home_gallery-block_1" class="block block-views block-content_top block-id-385 clearfix last even ">
+  <div class="block-inner">
+
+    
+    <div class="content">
+
+      <div class="view view-home-gallery view-id-home_gallery view-display-id-block_1 view-dom-id-4b4922669bcfc50e3e32ae8d6036b223">
+    
+  
+  
+      <div class="view-content">
+      <ul class="jcarousel jcarousel-view--home-gallery--block-1 jcarousel-dom-1 jcarousel-skin-default">
+      <li class="jcarousel-item-1 odd">  
+  <div class="views-field views-field-field-home-images-fid">        <span class="field-content"><a href="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/thumb800/homepage/bfast%20SAR_0.jpg.crop_display.jpg" rel="lightbox[field_home_images][Search &amp; Rescue&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;/search-rescue&quot; id=&quot;lightbox2-node-link-text&quot;&gt;View page for this image&lt;/a&gt;]" class="imagefield imagefield-lightbox2 imagefield-lightbox2-gallery_homepage imagefield-field_home_images imagecache imagecache-field_home_images imagecache-gallery_homepage imagecache-field_home_images-gallery_homepage"><img src="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/gallery_homepage/homepage/bfast%20SAR_0.jpg.crop_display.jpg" alt="Search &amp; Rescue" title=""  width="215" height="170" /></a></span>  </div></li>
+      <li class="jcarousel-item-2 even">  
+  <div class="views-field views-field-field-home-images-fid">        <span class="field-content"><a href="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/thumb800/homepage/p8260023%20clean.jpg.crop_display.jpg" rel="lightbox[field_home_images][add a title on the image&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;/project-overview&quot; id=&quot;lightbox2-node-link-text&quot;&gt;View page for this image&lt;/a&gt;]" class="imagefield imagefield-lightbox2 imagefield-lightbox2-gallery_homepage imagefield-field_home_images imagecache imagecache-field_home_images imagecache-gallery_homepage imagecache-field_home_images-gallery_homepage"><img src="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/gallery_homepage/homepage/p8260023%20clean.jpg.crop_display.jpg" alt="add a title on the image" title="add a title on the image"  width="215" height="170" /></a></span>  </div></li>
+      <li class="jcarousel-item-3 odd">  
+  <div class="views-field views-field-field-home-images-fid">        <span class="field-content"><a href="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/thumb800/homepage/3_ROV_Vanguard_7.jpg.crop_display.jpg" rel="lightbox[field_home_images][add a title on the image&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;/project-overview&quot; id=&quot;lightbox2-node-link-text&quot;&gt;View page for this image&lt;/a&gt;]" class="imagefield imagefield-lightbox2 imagefield-lightbox2-gallery_homepage imagefield-field_home_images imagecache imagecache-field_home_images imagecache-gallery_homepage imagecache-field_home_images-gallery_homepage"><img src="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/gallery_homepage/homepage/3_ROV_Vanguard_7.jpg.crop_display.jpg" alt="add a title on the image" title="add a title on the image"  width="215" height="170" /></a></span>  </div></li>
+      <li class="jcarousel-item-4 even">  
+  <div class="views-field views-field-field-home-images-fid">        <span class="field-content"><a href="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/thumb800/homepage/bfast%20SAR3.jpg.crop_display.jpg" rel="lightbox[field_home_images][Search &amp; Rescue&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;/search-rescue&quot; id=&quot;lightbox2-node-link-text&quot;&gt;View page for this image&lt;/a&gt;]" class="imagefield imagefield-lightbox2 imagefield-lightbox2-gallery_homepage imagefield-field_home_images imagecache imagecache-field_home_images imagecache-gallery_homepage imagecache-field_home_images-gallery_homepage"><img src="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/gallery_homepage/homepage/bfast%20SAR3.jpg.crop_display.jpg" alt="Search &amp; Rescue" title=""  width="215" height="170" /></a></span>  </div></li>
+      <li class="jcarousel-item-5 odd">  
+  <div class="views-field views-field-field-home-images-fid">        <span class="field-content"><a href="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/thumb800/homepage/bfast%20SAR2.jpg.crop_display.jpg" rel="lightbox[field_home_images][Search &amp; Rescue&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;/search-rescue&quot; id=&quot;lightbox2-node-link-text&quot;&gt;View page for this image&lt;/a&gt;]" class="imagefield imagefield-lightbox2 imagefield-lightbox2-gallery_homepage imagefield-field_home_images imagecache imagecache-field_home_images imagecache-gallery_homepage imagecache-field_home_images-gallery_homepage"><img src="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/gallery_homepage/homepage/bfast%20SAR2.jpg.crop_display.jpg" alt="Search &amp; Rescue" title=""  width="215" height="170" /></a></span>  </div></li>
+      <li class="jcarousel-item-6 even">  
+  <div class="views-field views-field-field-home-images-fid">        <span class="field-content"><a href="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/thumb800/homepage/senseSoar06.jpg.jpg" rel="lightbox[field_home_images][add a title on the image&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;/project-overview&quot; id=&quot;lightbox2-node-link-text&quot;&gt;View page for this image&lt;/a&gt;]" class="imagefield imagefield-lightbox2 imagefield-lightbox2-gallery_homepage imagefield-field_home_images imagecache imagecache-field_home_images imagecache-gallery_homepage imagecache-field_home_images-gallery_homepage"><img src="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/gallery_homepage/homepage/senseSoar06.jpg.jpg" alt="add a title on the image" title="add a title on the image"  width="215" height="170" /></a></span>  </div></li>
+      <li class="jcarousel-item-7 odd">  
+  <div class="views-field views-field-field-home-images-fid">        <span class="field-content"><a href="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/thumb800/homepage/maritime%20scenario.jpg.crop_display.jpg" rel="lightbox[field_home_images][add a title on the image&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;/project-overview&quot; id=&quot;lightbox2-node-link-text&quot;&gt;View page for this image&lt;/a&gt;]" class="imagefield imagefield-lightbox2 imagefield-lightbox2-gallery_homepage imagefield-field_home_images imagecache imagecache-field_home_images imagecache-gallery_homepage imagecache-field_home_images-gallery_homepage"><img src="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/gallery_homepage/homepage/maritime%20scenario.jpg.crop_display.jpg" alt="add a title on the image" title="add a title on the image"  width="215" height="170" /></a></span>  </div></li>
+  </ul>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+
+    
+  </div> <!-- /block-inner -->
+</div> <!-- /block -->            </div> <!-- /#content-top -->
+          
+        
+
+              
+               
+
+        
+
+            </div> <!-- /#content-header -->
+          
+
+          <div id="content-area">
+            <div class="node node node-teaser clearfix node-type-news" id="node-405">
+  <div class="node-inner">
+
+          <h2 class="title"><a href="/news/icarus-partners-won-multiple-prizes-and-awards-eurathlon-2015">ICARUS partners won multiple prizes and awards at euRathlon 2015</a></h2>
+    
+    
+    
+    <div class="content">
+      <p>Several ICARUS consortium partners successfully participated in the euRathlon 2015 Challenge which took place in Piombino (Italy) from 17&nbsp;to 25&nbsp;September 2015. This year, the ICARUS team which ranked second of the overall competition was composed of Eurecat (Spain), IMM (Poland), INESC (Portugal), Integrasys (Spain), RMA (Belgium), SPACE Apps (Belgium) and UKL (Germany). Additional ICARUS partners were also present in Italy to support and help the team, including CINAV (Portugal), CMRE (Italy) and SpaceTec Partners (Belgium). &nbsp;</p>
+<div class="field field-type-filefield field-field-slideshow">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <a href="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/DSC_1783_0.JPG" rel="lightbox[field_slideshow][ICARUS consortium (Credit: SpaceTec Partners)&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;/news/icarus-partners-won-multiple-prizes-and-awards-eurathlon-2015&quot; id=&quot;lightbox2-node-link-text&quot;&gt;View page for this image&lt;/a&gt;]" class="imagefield imagefield-lightbox2 imagefield-lightbox2-slideshow imagefield-field_slideshow imagecache imagecache-field_slideshow imagecache-slideshow imagecache-field_slideshow-slideshow"><img src="http://www.fp7-icarus.eu/sites/fp7-icarus.eu/files/imagecache/slideshow/DSC_1783_0.JPG" alt="ICARUS consortium (Credit: SpaceTec Partners)" title="ICARUS consortium (Credit: SpaceTec Partners)"  width="675" height="200" /></a>        </div>
+        </div>
+</div>
+    </div>
+
+	 
+      <div class="links"> <ul class="links inline"><li class="comment_forbidden first"><span><a href="/user/login?destination=node%2F405%23comment-form">Login</a> to post comments</span></li>
+<li class="node_read_more last"><a href="/news/icarus-partners-won-multiple-prizes-and-awards-eurathlon-2015" title="Read the rest of ICARUS partners won multiple prizes and awards at euRathlon 2015.">Read more</a></li>
+</ul></div>
+    	
+          <!--<div class="taxonomy"></div>-->
+    
+
+
+  </div> <!-- /node-inner -->
+</div> <!-- /node--><div class="node node node-teaser clearfix node-type-book" id="node-209">
+  <div class="node-inner">
+
+          <h2 class="title"><a href="/project-overview/project-objectives">Project Objectives</a></h2>
+    
+    
+    
+    <div class="content">
+      <!--[endif]----><!--[endif]----><ul>
+<li>Development of a light sensor capable of detecting human beings</li>
+<li>Development of cooperative Unmanned Aerial System (UAS) tools for unmanned SAR</li>
+<li>Development of cooperative Unmanned Ground Vehicle (UGV) tools for unmanned SAR</li>
+<li>Development of cooperative Unmanned Surface Vehicle (USV) tools for unmanned SAR</li>
+<li>Heterogeneous robot collaboration between Unmanned Search And Rescue devices</li>
+<li>Development of a self-organising cognitive wireless communication network, ensuring network interoperability</li>
+<li>Integration of Unmanned Search And Rescue tools in the C4I systems of the Human Search And Rescue forces</li>
+<li>Development of a training and support system of the developed Unmanned Search And Rescue for the Human Search And Rescue teams</li>
+</ul>
+<p>    </div>
+
+	 
+      <div class="links"> <ul class="links inline"><li class="node_read_more first last"><a href="/project-overview/project-objectives" title="Read the rest of Project Objectives.">Read more</a></li>
+</ul></div>
+    	
+    
+
+
+  </div> <!-- /node-inner -->
+</div> <!-- /node-->          </div> <!-- /#content-area -->
+
+          
+          
+          </div>
+        </div> <!-- /content-inner /content -->
+</div>
+        
+
+         <!-- /sidebar-second -->
+</div>
+      </div> <!-- /main -->
+
+<!-- ______________________ FOOTER _______________________ -->
+
+      
+
+
+	  </div> <!-- /page -->
+	             <div id="footer">
+                    <div id="block-block-5" class="block block-block block-footer_block block-id-381 clearfix first last odd ">
+  <div class="block-inner">
+
+    
+    <div class="content">
+
+      <a href="/index.php" class="footxt">Home</a>&nbsp;|&nbsp;<a href="/legal-notice" class="footxt">Legal Notice</a>&nbsp;|&nbsp;<a href="/credits" class="footxt">Photo Credits</a> - 
+<spanclass="copytxt">&copy; <a href="./user" class="copytxt">I</a>carus 2012, all rights reserved</span>    </div>
+
+    
+  </div> <!-- /block-inner -->
+</div> <!-- /block -->        </div> <!-- /footer -->
+            </body>
+</html>

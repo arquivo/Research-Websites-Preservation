@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Home Hoist</title>
+<link href="css/style.css" rel="stylesheet" rev="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/skins/tango/skin.css" />
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	
+	$(function()
+	{
+    	$('#sponsors').jcarousel({
+        auto:5,
+		scroll:1,
+        wrap: 'circular',
+       	btnNext: ".next",
+        btnPrev: ".prev"
+   		});
+		
+	});
+
+});
+</script>
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" background="images/top_pattern.png" width="100%" height="358"><table width="989" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td valign="top" background="images/header.png" width="989" height="358" ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table width="687" align="right" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="27">&nbsp;</td>
+      </tr>
+      <tr>
+        <td background="images/menu.png" width="687" height="76"><ul class="topnav">
+          <li><a href="index.html"><img src="images/home_link.png" width="35" height="13" border="0" /></a></li>
+          <li><a href="#"><img src="images/project_overview_link.png" width="119" height="13" border="0" /></a>
+            <ul class="subnav">
+              <li><a href="problem.html">A European problem in need of a solution</a></li>
+              <li><a href="concept.html">The Homehoist concept </a></li>
+              <li><a href="benefits.html">Societal Benefits </a></li>
+              
+              <li><a href="unique_selling.html">Homehoist Unique Selling Features</a></li>
+              <li><a href="spillover_markets.html">Spillover Markets</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><img src="images/consortium_link.png" width="81" height="13" border="0" /></a>
+            <ul class="subnav">
+              <li><a href="hi_tech.html">Hi Tech Automation Limited</a></li>
+              <li><a href="technik.html">Technik Engineering Industries</a></li>
+              <li><a href="orthos_xxi.html">ORTHOS XXI</a></li>
+              <li><a href="arti.html">ARTI Elektronik Tan Sic. Ltd</a></li>
+              <li><a href="uheri.html">Health and Environmental Research Institute</a></li>
+              <li><a href="ibv.html">Instituto de Biomecánica de Valencia</a></li>
+            </ul>
+          </li>
+          <li><a href="events.html"><img src="images/events_link.png" width="45" height="13" border="0" /></a></li>
+          <li><a href="#"><img src="images/media_centre_link.png" width="89" height="13" border="0" /></a></li>
+          <li><a href="contact_us.php"><img src="images/contact_us_link.png" width="77" height="13" border="0" /></a></li>
+        </ul></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="210" valign="bottom"><table border="0" align="right" cellpadding="0" cellspacing="0" style="margin:0 35px 0 0">
+      <tr>
+        <td><a href="http://cordis.europa.eu/projects/rcn/106815_en.html" target="_blank"><img src="images/fp7_logo.png" width="86" height="67" border="0" /></a></td>
+        <td width="10"></td>
+        <td><a href="http://www.europa.eu/" target="_blank"><img src="images/eu_logo.png" width="77" height="51" border="0" /></a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr><td height="40"></td></tr>
+</table>
+</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td valign="top"><table width="989" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td valign="top" bgcolor="#FFFFFF"><div style="margin:15px;font:normal 12px Arial;color:#0065a2;text-align:justify"><img src="images/abstract_title.png" width="335" height="28" /><br />
+              <br />
+              <br />
+              The objective of the project is to produce a wheelchair with an integral hoist system.  This will allow for more independent living, a reduced need for lifting and manual handling from care takers and a reduction in the number of costly disability aids within the home. <br />
+              <br />
+              The Homehoist system will function initially as an everyday wheelchair, but at certain positions within the home will be able to attach to dedicated floor clamps and lift the user from the wheelchair and rotate them through 180 degrees to the toilet, the shower, a sofa, or a bed.  If other areas of the home need to be accessed the hoist section of Homehoist is able to be detached and used independently.<br />
+              <br />
+              A consortium of 4 companies and 2 research institutes have been formed to take charge of the development of this project to a commercial level. The research will be scientific and detailed and will take into consideration all patient biomedical requirements,  European standards and safety regulations. The project will be funded by the European  Funding scheme: Research for Benefit of SMEs - FP7-SME-2012.  We believe we have identified a novel design solution to the difficulty, comfort and costs associated with lifting a cerebral palsy patient. <br />
+              <br />
+              The primary aim of the project is to develop an integrated wheelchair and hoist system capable of independent use by a cerebral palsy patient with upper body strength. We will build and test a demonstration prototype.  Post project we will invest in the design to develop it to production level. </div></td>
+          <td width="18" rowspan="2"><img src="images/shadow.png" width="18" height="50%"></td>
+        </tr>
+        <tr>
+          <td valign="top" bgcolor="#FFFFFF"><table width="971" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td colspan="2"><ul id="sponsors" class="jcarousel-skin-tango">
+                <li><a href="hi_tech.html"><img src="images/hi_tech.jpg" border="0" /></a></li>
+                <li><a href="arti.html"><img src="images/arti.jpg" border="0" /></a></li>
+                <li><a href="ibv.html"><img src="images/ibv.jpg" border="0" /></a></li>
+                <li><a href="orthos_xxi.html"><img src="images/orthos_xxi.jpg" border="0" /></a></li>
+                <li><a href="technik.html"><img src="images/technik.jpg" border="0" /></a></li>
+                <li><a href="uheri.html"><img src="images/uheri.jpg" border="0" /></a></li>
+                </ul></td>
+              </tr>
+              <tr>
+                <td width="464" valign="top"><div style="margin:40px 10px 10px 20px"><img src="images/news_events_small_title.png" width="176" height="19" />
+                <h3><a href="events.html" style="color:#0065a2;font-size:16px;margin:0 0 5px 0">Consortium Kickoff meeting <sup style="color:#0065a2;">18th</sup> Feb 2014</a></h3>
+                <p style="font:normal 12px Arial;color:#0065a2;text-align:justify">The Project Kickoff Meeting was held between all Partners to the Consortium on February 18th 2013 at Pera Innovation Premises in the UK.... <a href="events.html">more</a></p></div></td>
+                <td width="478"><img src="images/feedback_box.png" width="478" height="147" border="0" usemap="#Map"></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td valign="top" background="images/footer_bar.png" width="100%" height="130"><table width="989" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td colspan="2" valign="top"><img src="images/footer.png" width="989" height="72" usemap="#Map2" border="0" /></td>
+        </tr>
+        <tr>
+          <td valign="top" background="images/footer_3.png" width="634" height="58"><p style="margin:10px 0 0 10px;font-size:11px;color:#FFF">
+          The research leading to these results has received funding from the European Union's Seventh Framework Programme managed by REA-Research Executive Agency under grant agreement n° <a href="http://europa.eu/legislation_summaries/energy/european_energy_policy/i23022_en.htm">FP7-SME-2012</a></p>
+          </td>
+          <td valign="top"><img src="images/footer_2.png" width="355" height="58" /></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<map name="Map2" id="Map2">
+  <area shape="rect" coords="138,29,180,52" href="#" />
+  <area shape="rect" coords="184,29,273,52" href="#" />
+  <area shape="rect" coords="280,29,347,52" href="#" />
+  <area shape="rect" coords="349,29,395,52" href="events.html" />
+  <area shape="rect" coords="397,29,467,52" href="#" />
+  <area shape="rect" coords="476,29,532,52" href="contact_us.php" />
+</map>
+<map name="Map" id="Map">
+  <area shape="rect" coords="4,34,309,145" href="contact_us.php" />
+</map>
+</body>
+</html>
+<script type="text/javascript">
+$('body').hide();
+$('body').fadeIn(1000);
+$(document).ready(function() {
+	$("ul.subnav").parent().append("<span></span>"); //Only shows drop down trigger when js is enabled (Adds empty span tag after ul.subnav*)  
+	$("ul.topnav li a").hover(function() { //When trigger is clicked...  
+		//Following events are applied to the subnav itself (moving subnav up and down)  
+		$(this).parent().find("ul.subnav").css("top",37);
+		$(this).parent().find("ul.subnav").fadeIn('fast'); //Drop down the subnav on click  
+		$(this).parent().hover(function() {  
+		}, function(){  
+			$(this).parent().find("ul.subnav").fadeOut('slow'); //When the mouse hovers out of the subnav, move it back up  
+		});  
+		//Following events are applied to the trigger (Hover events for the trigger)  
+		}).hover(function() {  
+			$(this).addClass("subhover"); //On hover over, add class "subhover"  
+		}, function(){  //On Hover Out  
+			$(this).removeClass("subhover"); //On hover out, remove class "subhover"  
+	});  
+});
+</script>

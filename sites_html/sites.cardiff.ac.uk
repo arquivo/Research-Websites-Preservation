@@ -1,0 +1,418 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en" xmlns:og="http://ogp.me/ns#"><![endif]-->
+<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="en" xmlns:og="http://ogp.me/ns#"><![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="en" xmlns:og="http://ogp.me/ns#"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en" xmlns:og="http://ogp.me/ns#"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    
+    <!-- <title>MEDOW | Multi-terminal DC grid for offshore wind</title> -->
+    <title> MEDOW | Multi-terminal DC grid for offshore wind - Cardiff University</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <link rel="stylesheet" href="//static.cf.ac.uk/cfui/1.6.0/css/core.min.css">
+    <script src="//static.cf.ac.uk/cfui/1.6.0/thirdparty/modernizr.js"></script>
+    <link rel="icon" href="//static.cf.ac.uk/cfui/1.6.0/ico/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="//static.cf.ac.uk/cfui/1.6.0/ico/favicon.ico" type="image/x-icon">
+          
+    <style>
+        .footer-local .box {border: none;}        
+        figure br, figure p:empty {display: none; }        
+            </style>
+
+      
+
+    <link rel="alternate" type="application/rss+xml" title="MEDOW | Multi-terminal DC grid for offshore wind &raquo;  Comments Feed" href="http://sites.cardiff.ac.uk/medow/home-2/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/sites.cardiff.ac.uk\/medow\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.1"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='formidable-css'  href='http://sites.cardiff.ac.uk/medow/files/formidable/css/formidablepro.css?ver=2.0.12' type='text/css' media='all' />
+<link rel='stylesheet' id='se-link-styles-css'  href='http://sites.cardiff.ac.uk/medow/wp-content/plugins/search-everything/static/css/se-styles.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='events-manager-css'  href='http://sites.cardiff.ac.uk/medow/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.61' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='http://sites.cardiff.ac.uk/medow/wp-content/plugins/jetpack/css/jetpack.css?ver=3.7.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var EM = {"ajaxurl":"https:\/\/sites.cardiff.ac.uk\/medow\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/sites.cardiff.ac.uk\/medow\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"dd\/mm\/yy","ui_css":"http:\/\/sites.cardiff.ac.uk\/medow\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.css","show24hours":"0","is_ssl":"","bookingInProgress":"Please wait while the booking is being submitted.","tickets_save":"Save Ticket","bookingajaxurl":"https:\/\/sites.cardiff.ac.uk\/medow\/wp-admin\/admin-ajax.php","bookings_export_save":"Export Bookings","bookings_settings_save":"Save Settings","booking_delete":"Are you sure you want to delete?","bb_full":"Sold Out","bb_book":"Book Now","bb_booking":"Booking...","bb_booked":"Booking Submitted","bb_error":"Booking Error. Try again?","bb_cancel":"Cancel","bb_canceling":"Canceling...","bb_cancelled":"Cancelled","bb_cancel_error":"Cancellation Error. Try again?","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","event_reschedule_warning":"Are you sure you want to reschedule this recurring event? If you do this, you will lose all booking information and the old recurring events will be deleted.","event_detach_warning":"Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.","delete_recurrence_warning":"Are you sure you want to delete all recurrences of this event? All events will be moved to trash.","disable_bookings_warning":"Are you sure you want to disable bookings? If you do this and save, you will lose all previous bookings. If you wish to prevent further bookings, reduce the number of spaces available to the amount of bookings you currently have","booking_warning_cancel":"Are you sure you want to cancel your booking?"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.61'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://sites.cardiff.ac.uk/medow/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://sites.cardiff.ac.uk/medow/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.1" />
+<link rel='canonical' href='http://sites.cardiff.ac.uk/medow/' />
+<link rel='shortlink' href='http://wp.me/P41kOo-1r' />
+<!-- GAS Injector multisite -->
+<script type='text/javascript'>var _gas = _gas || [];
+    _gas.push(['_setAccount', 'UA-37650332-1']);
+    _gas.push(['_setDomainName', 'sites.cardiff.ac.uk']);
+  
+    _gas.push(['_setAccount', 'UA-1911909-3']);
+      
+    _gas.push(['_setDomainName', 'http://sites.cardiff.ac.uk/medow/']);
+    _gas.push(['_gasMultiDomain', 'click']);
+      
+    _gas.push(['_trackPageview']);
+  _gas.push(['_gasTrackOutboundLinks']);_gas.push(['_gasTrackForms']);_gas.push(['_gasTrackMaxScroll']);_gas.push(['_gasTrackDownloads']);_gas.push(['_gasTrackMailto']);_gas.push(['_gasTrackYoutube', {percentages: [25, 50, 75, 90], force: true
+    }]);_gas.push(['_gasTrackVimeo', {force: true
+    }]);
+    (function() {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = 'http://sites.cardiff.ac.uk/medow/wp-content/plugins/cu-gas-injector/js/gas-1.10.1.min.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+<!-- / GAS Injector for Wordpress -->
+<script type="text/javascript">
+	window._se_plugin_version = '8.1.3';
+</script>
+        <style type="text/css">
+            .masthead {background-color: #557896;}
+        </style>
+        
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="MEDOW | Multi-terminal DC grid for offshore wind" />
+<meta property="og:description" content="Multi-terminal DC grid for offshore wind" />
+<meta property="og:url" content="http://sites.cardiff.ac.uk/medow/" />
+<meta property="og:site_name" content="MEDOW | Multi-terminal DC grid for offshore wind" />
+<meta property="og:image" content="http://sites.cardiff.ac.uk/medow/wp-content/blogs.dir/84/files/2013/09/MEDOW-hi-res-logo1-300x75.png" />
+<meta property="og:image:secure_url" content="https://i2.wp.com/sites.cardiff.ac.uk/medow/wp-content/blogs.dir/84/files/2013/09/MEDOW-hi-res-logo1-300x75.png" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:image" content="http://sites.cardiff.ac.uk/medow/wp-content/blogs.dir/84/files/2013/09/MEDOW-hi-res-logo1-300x75.png?w=1400" />
+<meta name="twitter:card" content="summary_large_image" />
+</head>
+<body class="home page page-id-89 page-template-default light-mount">
+    <!-- .nav-global -->
+    <nav class="nav-global">
+  <div class="navbar navbar-inverse">
+    <div class="navbar-inner">
+      <div class="container">
+        <!-- Non-desktop -->
+        <a id="nav-global-search-toggle" class="btn btn-navbar collapsed hidden-desktop" data-toggle="collapse" data-target=".search-toggle .nav-collapse">
+          <i class="icon-search"></i>
+          <span class="hidden-text">Search</span>
+        </a>
+        <a id="nav-global-menu-toggle" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-global .navbar-inverse-collapse"><i class="icon-menu"></i>
+          <span class="hidden-text">Main menu</span></a>
+        <!-- /Non-desktop -->
+
+        <div class="nav-collapse navbar-inverse-collapse collapse">
+          <!--Navigation   -->
+          <ul class="nav">
+            <li>
+            <a href="http://www.cardiff.ac.uk/" class="ga-event" data-action="click" data-category="nav-global" data-label="Home">Home</a></a>
+            </li>
+            <li>
+              <a href="http://www.cardiff.ac.uk/about/" class="ga-event" data-action="click" data-category="nav-global" data-label="About">About</a>
+            </li>
+            <li class="dropdown">
+              <a href="http://www.cardiff.ac.uk/study/" class="ga-event dropdown-toggle" data-action="click" data-category="nav-global" data-label="Study" data-toggle="dropdown">Study&nbsp;<b class="caret hidden-phone hidden-tablet"></b>
+              </a>
+              <div class="dropdown-menu span3">      
+                <ul class="nav nav-list pull-left">      
+                  <li>
+                    <a href="http://www.cardiff.ac.uk/study/undergraduate" class="ga-event" data-action="click" data-category="nav-global" data-label="Undergraduate">Undergraduate</a>
+                  </li>      
+                  <li>
+                    <a href="http://www.cardiff.ac.uk/for/prospective/postgraduate.html" class="ga-event" data-action="click" data-category="nav-global" data-label="Postgraduate">Postgraduate</a>
+                  </li>
+                  <li>
+                    <a href="http://www.cardiff.ac.uk/for/prospective/international.html" class="ga-event" data-action="click" data-category="nav-global" data-label="International">International</a>
+                  </li>      
+                  <li>
+                    <a href="http://www.cardiff.ac.uk/for/prospective/accommodation.html" class="ga-event" data-action="click" data-category="nav-global" data-label="Accommodation">Accommodation</a>
+                  </li>      
+                  <li>
+                    <a href="http://www.cardiff.ac.uk/for/prospective/campus-life.html" class="ga-event" data-action="click" data-category="nav-global" data-label="Campus life">Campus Life</a>
+                  </li>      
+                  <li>
+                    <a href="http://www.cardiff.ac.uk/learn/choices" class="ga-event" data-action="click" data-category="nav-global" data-label="Part time short courses for adults">Part time short courses for adults</a>
+                  </li>
+                  <li>
+                    <a href="http://www.cardiff.ac.uk/learn/training" class="ga-event" data-action="click" data-category="nav-global" data-label="Continuing Professional Development">Continuing Professional Development</a>
+                  </li>
+                </ul>      
+              </div>
+            </li>
+            <li><a href="http://www.cardiff.ac.uk/research/" class="ga-event" data-action="click" data-category="nav-global" data-label="Research">Research</a></li>
+            <li><a href="http://www.cardiff.ac.uk/innovation/" class="ga-event" data-action="click" data-category="nav-global" data-label="Innovation">Innovation</a></li>
+            <li><a href="http://www.cardiff.ac.uk/business/" class="ga-event" data-action="click" data-category="nav-global" data-label="Business">Business</a></li>
+            <li><a href="http://www.cardiff.ac.uk/donate/" class="ga-event" data-action="click" data-category="nav-global" data-label="Donate">Donate</a></li>
+            <li><a href="http://www.cardiff.ac.uk/news/" class="ga-event" data-action="click" data-category="nav-global" data-label="News">News</a></li>
+            <li><a href="http://www.cardiff.ac.uk/events/" class="ga-event" data-action="click" data-category="nav-global" data-label="Events">Events</a></li>
+            <li class="hidden-desktop"><a href="https://intranet.cardiff.ac.uk/" class="ga-event" data-action="click" data-category="nav-global" data-label="Intranet">Intranet</a></li>
+          </ul>
+          <!--End Navigation-->
+        </div>
+    
+        <div id="nav-global-options" class="site-toggle visible-desktop">
+          <div class="nav-collapse collapse">
+            <ul class="nav pull-right">
+              <li class="divider-vertical" style=""></li>
+              <li><a href="https://intranet.cardiff.ac.uk/" class="ga-event" data-action="click" data-category="nav-global" data-label="Intranet">Intranet</a></li>
+              <li><li id="lang-toggle" style="min-width:85px"><a href =""></a>&nbsp;</li></li>
+            </ul>   
+          </div>
+        </div>
+    
+        <!--Search-->
+        <div class="search-toggle">
+          <div class="nav-collapse collapse">
+            <form class="navbar-search pull-right" action="http://www.cardiff.ac.uk/search/index.html" id="cse-search-box">
+            <input type="hidden" name="cx" value="004497668956212682542:ltvwfafuryg">
+            <input type="hidden" name="cof" value="FORID:9">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+              <div class="input-append">
+                <input type="text" class="search-input" name="q" id="q" autocomplete="off">
+                <button class="btn hidden-desktop" type="submit"><span class="add-on">Search</span></button>
+                <button class="btn btn-link visible-desktop" type="submit"><i class="icon-search"><span class="hidden-text">Search</span></i></button>
+                <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+                <ul class="dropdown-menu">
+                  <li><label for="optionsRadios1" class="radio"><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked=""> Website</label></li>
+                  <li><label for="optionsRadios2" class="radio"><input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"> Courses</label></li>
+                </ul>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!--End Search-->
+      </div><!-- .container -->
+    </div><!-- .navbar-inner -->
+  </div><!-- .navbar -->
+</nav>    <!-- .masthead -->
+    <header class="masthead ">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <a href="http://www.cardiff.ac.uk/"><img class="masthead-logo" src="//static.cf.ac.uk/cfui/1.6.0/img/logo.png"></a>
+                                <h1 class="masthead-title">
+                    <a href="http://sites.cardiff.ac.uk/medow/">MEDOW | Multi-terminal DC grid for offshore wind</a>
+                     <small class="masthead-subtitle"><a href="#">
+                                            </a></small> 
+                </h1>  
+            </div>
+
+                    </div>
+    </div>
+</header>
+    <!-- .nav-section -->
+        
+    <nav class="nav-section ">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-section .nav-collapse"><i class="icon-menu"></i>Menu</a>
+                    <a href ="" class="hidden-desktop visible-phone visible-tablet language-toggle btn btn-navbar pull-right"></a>                    <div class="nav-collapse collapse"><ul id="menu-menu" class="nav"><li class="active"><a href="http://sites.cardiff.ac.uk/medow/">Home</a></li>
+<li><a href="http://sites.cardiff.ac.uk/medow/about-medow/">About MEDOW</a></li>
+<li><a href="http://sites.cardiff.ac.uk/medow/research/">Research</a></li>
+<li><a href="http://sites.cardiff.ac.uk/medow/members/">People</a></li>
+<li><a href="http://sites.cardiff.ac.uk/medow/training-and-events/">Training &amp; events</a></li>
+<li><a href="http://sites.cardiff.ac.uk/medow/dissemination/">Dissemination</a></li>
+<li><a href="http://sites.cardiff.ac.uk/medow/contacts/">Contact</a></li>
+<li><a href="http://sites.cardiff.ac.uk/medow/members-area/">Consortium area</a></li>
+<li><a href="http://www.facebook.com/medowproject">Find us on Facebook</a></li>
+<li><a href="https://www.linkedin.com/groups?home=&amp;gid=8208583">Join us on LinkedIn</a></li>
+</ul></div>                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="content">
+        <div class="content">
+<div class="container">
+    <div class="row">    <div class="span9 page">
+                
+                <p style="text-align: left"><img class="alignnone size-medium wp-image-234" src="http://sites.cardiff.ac.uk/medow/wp-content/blogs.dir/84/files/2013/09/MEDOW-hi-res-logo1-300x75.png" alt="MEDOW hi res logo" width="257" height="63" /></p>
+<p><span style="color: #557896"><strong>MEDOW is a Marie Curie Initial Training Network (ITN) consisting of 11 partners (5 universities and 6 industrial organisations) with collective expertise on the manufacturing, design, operation, and control of multi-terminal DC grids.<br />
+</strong></span></p>
+<p>MEDOW has received funding from the Seventh Framework Programme of the European Union.</p>
+<p>A DC grid based on multi-terminal voltage-source converters is a newly emerging technology, which is particularly suitable for the connection of offshore wind farms. The achievements from the project will contribute to integrating offshore wind power into the onshore AC grids in European countries and for the European offshore grid.</p>
+<p>The MEDOW network will share complementary expertise, infrastructure and facilities for the training of the next generation of top-quality researchers in this field.</p>
+<p>Initial Training Networks aim to improve career perspectives of early researchers in both the public and private sector, thereby making research careers more attractive to young people.  ITNs aim to use researchers&#8217; exposure to both academia and the private sector in a trans-national context in order to increase their employability and encourage the development of a European pool of skilled, internationally mobile researchers who are able to work effectively in both the public sector and private industry.</p>
+<h3><em><strong>Updates:</strong></em></h3>
+<p><strong><span style="color: #ff0000"><em>27 January 2016</em></span></strong><br />
+<span style="color: #ff0000"><em>See the latest MEDOW news in the <a href="http://sites.cardiff.ac.uk/medow/dissemination/newsletters/">January 2016 newsletter</a></em></span></p>
+<p><strong><span style="color: #ff0000"><em>14 December 2015</em></span></strong><br />
+<span style="color: #ff0000"><em>See details of patent applications made on our <a href="http://sites.cardiff.ac.uk/medow/dissemination/patents/">new webpage</a></em></span></p>
+<p><strong><em><span style="color: #ff0000">27 November 2015</span></em></strong><br />
+<em><span style="color: #ff0000">Just three days to go until our <a href="http://sites.cardiff.ac.uk/medow/training-and-events/late-2015-barcelona/">final network meeting of 2015</a>!  ESRs, ERs and their supervisors will meet at UPC in Barcelona<br />
+</span></em></p>
+<p><strong><span style="color: #ff0000"><em>18 November 2015</em></span></strong><br />
+<span style="color: #ff0000"><em>This week, Domenico, Kevin and Raza will all present posters at the Annual Conference of the European Wind Energy Association &#8211; <a href="http://www.ewea.org/annual2015/conference/programme/" target="_blank">EWEA 2015</a></em></span></p>
+<p><strong><span style="color: #ff0000"><em>28 October 2015</em></span></strong><br />
+<span style="color: #ff0000"><em>See our news in the latest MEDOW <a href="http://sites.cardiff.ac.uk/medow/dissemination/newsletters/">newsletter</a></em></span></p>
+<p><em><strong><span style="color: #ff0000">27 October 2015</span></strong></em><br />
+<em><span style="color: #ff0000">MEDOW is mentioned in an independent <a href="http://londoneconomics.co.uk/wp-content/uploads/2015/10/LE-Economic-and-social-impact-of-CU-Full-Report-October-2015.pdf" target="_blank">report</a> which concludes that project co-ordinator Cardiff University contributes £2.7 billion to the UK economy each year</span></em></p>
+<p><strong><span style="color: #ff0000"><em>30 September 2015</em></span></strong><br />
+<span style="color: #ff0000"><em>Experienced Researcher Sahar Pirooz-Azad has finished her time in the MEDOW project working at KU Leuven and will continue her research at the University of Alberta, Canada.  Thank you and good luck!    We will miss you Sahar!</em> </span></p>
+<p><strong><span style="color: #ff0000"><em>07 September 2015</em></span></strong><br />
+<span style="color: #ff0000"><em>Good luck to the eight MEDOW researchers presenting their work at the <a href="http://event-epe2015.web.cern.ch/">17th European Conference on Power Electronics and Applications</a>!</em></span></p>
+<p><strong><em><span style="color: #ff0000">01 September 2015</span></em></strong><br />
+<em><span style="color: #ff0000">Experienced Researcher Rodrigo Teixeira Pinto has finished his time in MEDOW to take up a role in industry with Siemens in Germany!  We will miss you Rodrigo!<br />
+</span></em></p>
+<p><strong><em><span style="color: #ff0000">29 July 2015</span></em></strong><br />
+<em><span style="color: #ff0000"><a href="https://www.smartgridsinfo.es/entrevistas/marc-cheah-mane-investigador-del-proyecto-medow" target="_blank">MEDOW researcher Marc is interviewed by a leading Spanish power and grids news site</a></span></em></p>
+<p><a title="News Archive" href="http://sites.cardiff.ac.uk/medow/news-archive/"><em><strong>News Archive</strong></em></a></p>
+<p class="jetpack-slideshow-noscript robots-nocontent">This slideshow requires JavaScript.</p><div id="gallery-89-6-slideshow" class="slideshow-window jetpack-slideshow slideshow-black" data-trans="fade" data-autostart="1" data-gallery="[{&quot;src&quot;:&quot;http:\/\/sites.cardiff.ac.uk\/medow\/files\/2014\/07\/IMG_1586.jpg&quot;,&quot;id&quot;:&quot;1009&quot;,&quot;title&quot;:&quot;IMG_1586&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;},{&quot;src&quot;:&quot;http:\/\/sites.cardiff.ac.uk\/medow\/files\/2014\/07\/2014-07-01-16.38.34.jpg&quot;,&quot;id&quot;:&quot;1011&quot;,&quot;title&quot;:&quot;2014-07-01 16.38.34&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;},{&quot;src&quot;:&quot;http:\/\/sites.cardiff.ac.uk\/medow\/files\/2013\/09\/2015-06-16-14.38.11.jpg&quot;,&quot;id&quot;:&quot;1618&quot;,&quot;title&quot;:&quot;2015-06-16 14.38.11&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;},{&quot;src&quot;:&quot;http:\/\/sites.cardiff.ac.uk\/medow\/files\/2014\/07\/P1000546.jpg&quot;,&quot;id&quot;:&quot;983&quot;,&quot;title&quot;:&quot;P1000546&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;},{&quot;src&quot;:&quot;http:\/\/sites.cardiff.ac.uk\/medow\/files\/2013\/09\/2015-06-16-14.06.16.jpg&quot;,&quot;id&quot;:&quot;1617&quot;,&quot;title&quot;:&quot;2015-06-16 14.06.16&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;},{&quot;src&quot;:&quot;http:\/\/sites.cardiff.ac.uk\/medow\/files\/2014\/07\/DSC_0293.jpg&quot;,&quot;id&quot;:&quot;951&quot;,&quot;title&quot;:&quot;DSC_0293&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;},{&quot;src&quot;:&quot;http:\/\/sites.cardiff.ac.uk\/medow\/files\/2013\/10\/EC-LOGO.png&quot;,&quot;id&quot;:&quot;253&quot;,&quot;title&quot;:&quot;EC LOGO&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;},{&quot;src&quot;:&quot;http:\/\/sites.cardiff.ac.uk\/medow\/files\/2014\/01\/Photo-1.jpg&quot;,&quot;id&quot;:&quot;596&quot;,&quot;title&quot;:&quot;Photo 1&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;},{&quot;src&quot;:&quot;http:\/\/sites.cardiff.ac.uk\/medow\/files\/2015\/05\/P1130596.jpg&quot;,&quot;id&quot;:&quot;1608&quot;,&quot;title&quot;:&quot;P1130596&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;},{&quot;src&quot;:&quot;http:\/\/sites.cardiff.ac.uk\/medow\/files\/2015\/05\/IMG_4399-ANIMATION.gif&quot;,&quot;id&quot;:&quot;1655&quot;,&quot;title&quot;:&quot;IMG_4399-ANIMATION&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;}]"></div>
+<p>&nbsp;</p>
+                </div>
+    <div class="span3">
+    <section id="facebook-likebox-4" class="box widget_facebook_likebox"><header class="box-header"><h1 class="box-title"><a href="https://www.facebook.com/medowproject">MEDOW on Facebook</a></h1></header><div class="box-body">		<div id="fb-root"></div>
+		<div class="fb-page" data-href="https://www.facebook.com/medowproject" data-height="600" data-hide-cover="false" data-show-facepile="false" data-show-posts="true">
+		<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/medowproject"><a href="https://www.facebook.com/medowproject">MEDOW on Facebook</a></blockquote></div>
+		</div>
+		<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = '//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=249643311490&version=v2.3'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+		</div></section></div>        </div>
+    </div>            </div>
+        </div>
+        <!-- .footer-local -->
+        
+        <!-- .footer-global -->
+        <footer class="footer-global">
+    <div class="container">
+    <ul class="list list-horizontal list-icons pull-right">
+      <li><a href="http://www.facebook.com/cardiffuni"><i class="icon-facebook icon-medium"><span class="hidden-text">Find us on Facebook</span></i></a></li>
+      <li><a href="https://twitter.com/cardiffuni"><i class="icon-twitter icon-medium"><span class="hidden-text">Follow us on Twitter</span></i></a></li>
+      <li><a href="http://www.cardiff.ac.uk/news/rss/all"><i class="icon-feed icon-medium"><span class="hidden-text">RSS feed</span></i></a></li>
+      <li><a href="http://www.instagram.com/cardiffuni"><i class="icon-instagram icon-medium"><span class="hidden-text">Follow us on Instagram</span></i></a></li>
+      <li><a href="http://vimeo.com/cardiffuni"><i class="icon-vimeo icon-medium"><span class="hidden-text">Watch on Vimeo</span></i></a></li>
+      <li><a href="http://www.youtube.com/cardiffuni"><i class="icon-youtube icon-medium"><span class="hidden-text">Watch on YouTube</span></i></a></li>
+    </ul>
+    <a href="http://www.cardiff.ac.uk/" class="brand">
+      <img alt="Cardiff University logo" src="//static.cf.ac.uk/cfui/1.6.0/img/logo.png" class="footer-logo" rel="popover"></a>
+    <p>
+      Cardiff University is a member of the Russell Group of Universities      <br>Cardiff University is a registered charity No. 1136855      <br>Copyright &copy; Cardiff University    </p>
+    <ul class="list list-horizontal">
+      <li>
+        <a href="http://www.cardiff.ac.uk/help/accessibility">Accessibility</a>
+      </li>
+      <li>
+        <a href="http://www.cardiff.ac.uk/help/contact-us">Contact us</a>
+      </li>
+      <li>
+        <a href="http://www.cardiff.ac.uk/cookies">Cookies</a>
+      </li>
+      <li>
+        <a href="http://www.cardiff.ac.uk/help/privacy">Privacy</a>
+      </li>
+      <li>
+        <a href="http://www.cardiff.ac.uk/public-information">Public information</a>
+      </li>
+      <li>
+        <a href="http://www.cardiff.ac.uk/help/termsofuse">Terms of use</a></li>
+      <li>
+        <a href="http://www.cardiff.ac.uk/public-information/welsh-language-scheme">Welsh Language Scheme</a>
+      </li>
+    </ul>
+    <ul class="footer-global-logos">
+      <li id="ref-logo">      
+        <a href="http://www.cardiff.ac.uk/research/impact-and-innovation/quality-and-performance/ref-2014">
+          <img alt="REF 2014 - Research Excellence Framework. Ranked 5th in the UK" src="//static.cf.ac.uk/cfui/1.6.0/img/ref2014.png">
+        </a>
+      </li>
+      <li id="asa-logo">
+        <a href="http://www.qaa.ac.uk/reviews-and-reports/provider?UKPRN=10007814">
+          <img alt="QAA checks how UK universities, colleges and other providers maintain the standard of their higher education provision. Read this institution's latest review report. The QAA diamond logo and 'QAA' are registered trademarks of the Quality Assurance Agency for Higher Education." src="//static.cf.ac.uk/cfui/1.6.0/img/asa2014_296x200.png">
+        </a>
+      </li>
+    </ul>
+    </div>
+</footer>        	<div style="display:none">
+	</div>
+<!-- `jetpack-carousel` is included in the concatenated jetpack.css -->
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='http://sites.cardiff.ac.uk/medow/wp-content/plugins/jetpack/modules/carousel/jetpack-carousel-ie8fix.css?ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<!-- `jetpack-slideshow` is included in the concatenated jetpack.css -->
+<!-- Inline jetpack_facebook_likebox -->
+<style id='jetpack_facebook_likebox-inline-css' type='text/css'>
+.widget_facebook_likebox {
+	overflow: hidden;
+}
+
+</style>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201606'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2016Febaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-content/plugins/jetpack/_inc/spin.js?ver=1.3'></script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-content/plugins/jetpack/_inc/jquery.spin.js?ver=1.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"http:\/\/sites.cardiff.ac.uk\/medow\/wp-admin\/admin-ajax.php","nonce":"ae26b5519d","display_exif":"0","display_geo":"1","background_color":"white","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"1","require_name_email":"1","login_url":"https:\/\/sites.cardiff.ac.uk\/medow\/wp-login.php?redirect_to=http%3A%2F%2Fsites.cardiff.ac.uk%2Fmedow%2F","local_comments_commenting_as":"<p id=\"jp-carousel-commenting-as\">You must be <a href=\"#\" class=\"jp-carousel-comment-login\">logged in<\/a> to post a comment.<\/p>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-content/plugins/jetpack/modules/carousel/jetpack-carousel.js?ver=20140505'></script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-content/plugins/jetpack/modules/shortcodes/js/jquery.cycle.js?ver=2.9999.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackSlideshowSettings = {"spinner":"http:\/\/sites.cardiff.ac.uk\/medow\/wp-content\/plugins\/jetpack\/modules\/shortcodes\/img\/slideshow-loader.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://sites.cardiff.ac.uk/medow/wp-content/plugins/jetpack/modules/shortcodes/js/slideshow-shortcode.js?ver=20121214.1'></script>
+<script type='text/javascript' src='http://stats.wp.com/e-201606.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.7.2',blog:'59423676',post:'89',tz:'0',srv:'sites.cardiff.ac.uk'} ]);
+	_stq.push([ 'clickTrackerInit', '59423676', '89' ]);
+</script>
+        <script src="//static.cf.ac.uk/cfui/1.6.0/js/cfui.min.js"></script>
+
+        <!-- temp fix to get around proxypass problem -->
+
+              
+	<script>
+        	var $j = jQuery;
+		$j(function(){
+			$j('li:contains("Login Error")').hide();
+		});
+	</script>
+            
+    </body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using memcached
+Object Caching 3960/4161 objects using memcached
+
+ Served from: sites.cardiff.ac.uk @ 2016-02-08 16:40:46 by W3 Total Cache -->

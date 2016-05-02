@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--
+=========================================================================================
+
+                                 SINPLEX PUBLIC WEBSITE
+                                <http://www.sinplex.eu/>
+_________________________________________________________________________________________
+    
+    Author:         M.Eng. *René Schwarz*
+                    German Aerospace Center (DLR)
+                    Member of the Helmholtz-Association
+                        
+                    | Institute of Space Systems
+                    | Guidance, Navigation and Control Systems, Avionics (RY-GNC)
+
+                    Room 2.10 · Robert-Hooke-Str. 7 · DE-28359 Bremen
+                    Phone: +49-(0)421-24420-1165 · Telefax: +49-(0)421-24420-1120
+                    E-Mail: rene.schwarz@dlr.de · Internet: http://www.DLR.de/irs/en/
+        
+    Last modified:  2013/10/29
+    License (HTML): Creative Commons CC BY-NC 3.0 Unported
+                    <http://creativecommons.org/licenses/by-nc/3.0/>
+                    This license is valid for the source code below only; other
+                    licenses may apply for the website's textual contents, media files
+                    or external/referenced components.
+
+                    
+                    
+_______________________________________ ABSTRACT ________________________________________
+
+
+    This is the main HTML file for the SINPLEX public website. The website design/
+    technology has been inspired by [Jonathan Nicol's parallax scrolling experiment][1]. 
+    Based on this technique, an original implementation of the parallax scrolling effect 
+    has been done.
+    
+    This website design uses some external software components:
+    
+        - jQuery (version 1.7.2)
+            License: MIT License
+            Website: <http://jquery.org/>
+        - CurvyCorners (version 2.1)
+            License: GNU LGPL, version 2.1 or later
+            Website: <http://www.curvycorners.net/>
+        - TopUp (version 1.7.2)
+            License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+            Website: <http://gettopup.com/>
+        
+    Additionally, this website uses re-uses some graphic works:
+    
+        - Mars surface portrait (page background; reworked)
+            Image By: NASA/JPL/Cornell
+            Original Image Description: "In late November 2005 while descending 'Husband 
+                                         Hill', Spirit took the most detailed panorama to
+                                         date of the 'Inner Basin.'"
+            License: Public Domain
+            Source: <http://marsrovers.nasa.gov/newsroom/pressreleases/20060124a.html>
+        - Moving clouds (page background; reworked)
+            Image By: Scri8e.com
+            License: Free to Use, even for commercial purposes
+            Source: <http://scri8e.com/stars/PNG_Clouds/>
+            
+    Note: Presented logos on the website are property of their respective owners.
+    
+    
+    [1]: <http://f6design.com/journal/2011/08/06/
+          build-a-parallax-scrolling-website-interface-with-jquery-and-css/>
+        
+_________________________________________________________________________________________
+-->
+        <title>SINPLEX &mdash; Small Integrated Navigator for Planetary EXploration</title>
+        <meta name="description" content="SINPLEX - Small Integrated Navigator for Planetary EXploration: A collaborative research project within the 7th Framework Programme of the European Commission." />
+        <meta name="author" content="M.Eng. René Schwarz (rene-schwarz.com)" />
+        <meta name="keywords" content="SINPLEX, small, integrated, navigator, exploration, space, research, FP7, EC, European Commission" />
+        <link rel="stylesheet" href="css/main.css" media="screen, print" type="text/css" />
+        <!--[if IE]>
+            <link rel="stylesheet" href="css/fixesIE.css" media="screen, print" type="text/css" />
+            <script type="text/javascript" src="js/curvycorners-2.1.js"></script>
+        <![endif]-->
+        <script type="text/javascript" src="js/topup-1.7.2/javascripts/top_up-min.js"></script>
+        <script type="text/javascript">
+          TopUp.images_path = "js/topup-1.7.2/images/";
+          TopUp.players_path = "js/topup-1.7.2/players/";
+        </script>
+        <script src="js/parallax.js"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <a href="#"><img src="img/Logo_SINPLEX.png" alt="SINPLEX Logo" title="SINPLEX Logo" /></a>
+            
+            <div id="header-nav">
+                <ul>
+                    <li><a href="#project" class="parallax-project">Project</a></li>
+                    <li><a href="#consortium" class="parallax-consortium">Consortium</a></li>
+                    <li><a href="#workplan" class="parallax-workplan">Workplan</a></li>
+                    <li><a href="#deliverables" class="parallax-deliverables">Deliverables</a></li>
+                    <li><a href="#dissemination" class="parallax-dissemination">Dissemination</a></li>
+                    <li><a href="#events" class="parallax-events">Events &amp; News</a></li>
+                    <li><a href="#contact" class="parallax-contact">Contact</a></li>
+               </ul>
+            </div>
+        </div>
+        
+        <div id="article">
+            <div id="project" class="section">
+                <h1>Project</h1>
+                
+                <p>The main goal of the SINPLEX project is to develop an innovative solution in order to reduce significantly the mass of the navigation subsystem for exploration missions which include a landing and/or a rendezvous and capture or docking phase. It is a contribution to the strengthening of the European position for space exploration. It targets increasing the scientific return of exploration missions, enabling new types of missions and targets, and reducing launch cost and travel time.</p>
+
+                <p>Several planned international space exploration missions target the Moon, asteroids, comets, planets and planetary moons. They will bring robotic vehicles to these targets and will provide the capability to return samples to Earth. In general for all space mission but in particula for this kind of missions, mass is one of the most critical factors. Therefore reducing the mass of components or complete subsystems of an exploration vehicle is a key enabling factor for the future exploration of our solar system and beyond.</p>
+
+                <p>
+                    The mass reduction &mdash; while still creating a good navigation performance &mdash; is achieved by
+                </p>
+                <ol>
+                    <li>applying functional integration of the different sensors,</li>
+                    <li>utilizing micro and nanotechnologies for compacting electronics, and 
+                    <li>using sensor hybridization approaches to improve the performance of the complete navigation subsystem.</li>
+                </ol>
+                
+                <p>
+                    The project’s objectives are
+                </p>
+                <ol>
+                    <li>the development of a integrated novel navigation subsystem architecture,</li>
+                    <li>the production of a breadboard and</li>
+                    <li>the demonstration of its applicability for object relative robotic navigation for space applications (TRL 4).</li>
+                </ol>
+
+                <p>The first phase of the project will focus on elaborating the requirements and defining an architecture of the navigation system. This will be followed by design phase, a manufacturing phase and a verification phase where the produced beadboard hardware and software will be tested in terrestrial test benches and test facilities.</p>
+            </div>
+            
+            <div id="consortium" class="section">
+                <h1>Consortium</h1>
+                
+                <table class="f">
+                    <thead>
+                        <tr>
+                            <th scope="col">Participant</th>
+                            <th scope="col">Short<br />Name</th>
+                            <th scope="col">Country</th>
+                            <th style="min-width: 265px;" scope="col">Logo &amp; Website</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Deutsches Zentrum für Luft- und Raumfahrt e.V.</td>
+                            <td style="text-align: center;">DLR</td>
+                            <td style="text-align: center;">Germany</td>
+                            <td style="text-align: center;"><a href="http://www.dlr.de/en/"><img src="img/Logo_DLR.png" alt="German Aerospace Center (DLR) Logo" /></a></td>
+                        </tr>
+                        <tr>
+                            <td>NEDERLANDSE ORGANISATIE VOOR TOEGEPAST NATUURWETENSCHAPPELIJK ONDERZOEK - TNO</td>
+                            <td style="text-align: center;">TNO</td>
+                            <td style="text-align: center;">Netherlands</td>
+                            <td style="text-align: center;"><a href="http://www.tno.nl/"><img src="img/Logo_TNO.png" alt="NEDERLANDSE ORGANISATIE VOOR TOEGEPAST NATUURWETENSCHAPPELIJK ONDERZOEK - TNO Logo" /></a></td>
+                        </tr>
+                        <tr>
+                            <td>Cosine Research B.V.</td>
+                            <td style="text-align: center;">cosine</td>
+                            <td style="text-align: center;">Netherlands</td>
+                            <td style="text-align: center;"><a href="http://cosine.nl/"><img src="img/Logo_cosine.png" alt="Cosine Research B.V. Logo" /></a></td>
+                        </tr>
+                        <tr>
+                            <td>AAC MICROTEC AB</td>
+                            <td style="text-align: center;">AAC</td>
+                            <td style="text-align: center;">Sweden</td>
+                            <td style="text-align: center;"><a href="http://www.aacmicrotec.com/"><img src="img/Logo_AAC.png" alt="AAC MICROTEC AB Logo" /></a></td>
+                        </tr>
+                        <tr>
+                            <td>SystematIC design bv</td>
+                            <td style="text-align: center;">SystematIC</td>
+                            <td style="text-align: center;">Netherlands</td>
+                            <td style="text-align: center;"><a href="http://www.systematic.nl/"><img src="img/Logo_SystematIC.png" alt="SystematIC design bv Logo" /></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div id="workplan" class="section">
+                <h1>Workplan</h1>
+                
+                <h2>Work Package Overview</h2>
+                
+                <table class="f">
+                    <tr>
+                        <th scope="col">WP #</th>
+                        <th scope="col">WP Title</th>
+                        <th scope="col">Lead Partner</th>
+                        <th scope="col">Goals</th>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">1</td>
+                        <td>Legal, Financial and Administrative Management</td>
+                        <td style="text-align: center;">DLR</td>
+                        <td>
+                            <ul>
+                                <li>effectively monitor the project, in administrative and financial terms and to ensure strategic and everyday management</li>
+                                <li>guarantee adherence to the project plan, available resources and schedule</li>
+                                <li>interface with EC services and external actors</li>
+                                <li>ensure high quality project results and guarantee that project development will align with existing standards and guidelines</li>
+                                <li>guarantee that all ethical and legal issues related to the project are properly considered and any relevant conventions are respected</li>
+                                <li>cope with relevant gender issues</li>
+                                <li>identify and mitigate project risks using effective risk management</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">2</td>
+                        <td>System Definition</td>
+                        <td style="text-align: center;">DLR</td>
+                        <td>
+                            <ul>
+                                <li>select landing and rendezvous scenarios that will drive the complete design and outline technical requirements of the navigation system and test facilities</li>
+                                <li>define key requirements for the selected scenario and specifications of the navigation system</li>
+                                <li>define test procedures and conditions for representative dynamic tests at ground test facilities</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">3</td>
+                        <td>System Design</td>
+                        <td style="text-align: center;">TNO</td>
+                        <td>
+                            <ul>
+                                <li>define the overall system architecture of the SINPLEX navigation system</li>
+                                <li>select sensor architecture options and system elements</li>
+                                <li>define interconnections and element interfaces and provide subsystem specifications</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">4</td>
+                        <td>Navigation Algorithms</td>
+                        <td style="text-align: center;">DLR</td>
+                        <td>
+                            <ul>
+                                <li>build a simulation environment including sensor models to develop and test navigation algorithms and analyze performance</li>
+                                <li>design and implement navigation and image processing algorithms in the simulation</li>
+                                <li>test functionality of navigation and image processing algorithms in the simulation</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">5</td>
+                        <td>Altimeter</td>
+                        <td style="text-align: center;">cosine</td>
+                        <td>
+                            <ul>
+                                <li>detailed system design (optics, mechanics, electronics, software) of the laser altimeter</li>
+                                <li>laser altimeter prototype realization</li>
+                                <li>Functional test of laser altimeter</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">6</td>
+                        <td>Optical Sensors</td>
+                        <td style="text-align: center;">TNO</td>
+                        <td>
+                            <ul>
+                                <li>detailed system design (optics, mechanics) of the optical sensor</li>
+                                <li>optical sensor prototype realization</li>
+                                <li>functional test of optical sensor</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">7</td>
+                        <td>Inertial Sensors</td>
+                        <td style="text-align: center;">AAC</td>
+                        <td>
+                            <ul>
+                                <li>detailed requirement analysis of the inertial sensors</li>
+                                <li>selection of inertial sensor and front-end electronic prototype realization</li>
+                                <li>functional test of inertial sensor and front-end electronic</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">8</td>
+                        <td>Electronics</td>
+                        <td style="text-align: center;">AAC</td>
+                        <td>
+                            <ul>
+                                <li>detailed system design (mechanics, electronics, software) of electronic system</li>
+                                <li>electronic system prototype realization</li>
+                                <li>electronic system functional test</li>
+                                <li>support other electronics miniaturization</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">9</td>
+                        <td>Assembly and Integration</td>
+                        <td style="text-align: center;">TNO</td>
+                        <td>
+                            <ul>
+                                <li>assembly and integration of complete system</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">10</td>
+                        <td>Testing</td>
+                        <td style="text-align: center;">DLR</td>
+                        <td>
+                            <ul>
+                                <li>requirements definition of test bench</li>
+                                <li>specification and execution of test bench adaption</li>
+                                <li>test bench and navigation system assembly</li>
+                                <li>test execution and evaluation</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">11</td>
+                        <td>Dissemination</td>
+                        <td style="text-align: center;">DLR</td>
+                        <td>
+                            <ul>
+                                <li>promote SINPLEX contribution to space GNC/robotic technology in the GNC, micro and nano technology and exploration systems communities</li>
+                                <li>guarantee the impact on the European economy through the planning and management of exploitation</li>
+                                <li>distribute the project’s results to all interested parties and follow-on activities</li>
+                                <li>ensure the results are exploited and to investigate the market potential</li>
+                                <li>ensure wide dissemination of the project’s results to all potential interested parties</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">12</td>
+                        <td>Technical and Scientific Management</td>
+                        <td style="text-align: center;">DLR</td>
+                        <td>
+                            <ul>
+                                <li>effectively monitor the project, in technical and scientific terms</li>
+                                <li>ensure high technical quality project results and guarantee that project development will align with existing and emerging GNC standards and application guidelines</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div id="deliverables" class="section">
+                <h1>Deliverables</h1>
+                
+                <table class="f">
+                    <tr>
+                        <th scope="col">No.</th>
+                        <th scope="col">Deliverable Name</th>
+                        <th scope="col">Nature</th>
+                        <th scope="col">Level</th>
+                        <th scope="col">Delivery Month</th>
+                    </tr>
+                    <tr>
+                        <td>D1.1</td>
+                        <td>Management Board, Technical Board and Advisory Board members list</td>
+                        <td style="text-align: center;">O</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">1</td>
+                    </tr>
+                    <tr>
+                        <td>D1.2</td>
+                        <td>Management and Technical Board meeting minutes</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">24</td>
+                    </tr>
+                    <tr>
+                        <td>D1.3</td>
+                        <td>Quality management plan</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">1</td>
+                    </tr>
+                    <tr>
+                        <td>D1.4</td>
+                        <td>Risk management reports</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">18</td>
+                    </tr>
+                    <tr>
+                        <td>D1.5</td>
+                        <td>1st year report</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">PP</td>
+                        <td style="text-align: center;">13</td>
+                    </tr>
+                    <tr>
+                        <td>D1.6</td>
+                        <td>Final project report</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">PP</td>
+                        <td style="text-align: center;">24</td>
+                    </tr>
+                    <tr>
+                        <td>D1.7</td>
+                        <td>Annual reports on risk of dual/improper use of project results</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">PP</td>
+                        <td style="text-align: center;">12</td>
+                    </tr>
+                    <tr>
+                        <td>D2.1</td>
+                        <td>Mission requirements compilation document</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">1</td>
+                    </tr>
+                    <tr>
+                        <td>D2.2</td>
+                        <td>Navigation system specification - version 1</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">2</td>
+                    </tr>
+                    <tr>
+                        <td>D2.3</td>
+                        <td>Navigation system specification - version 2</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">5</td>
+                    </tr>
+                    <tr>
+                        <td>D2.4</td>
+                        <td>Navigation system test procedure in ground test facilities</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">6</td>
+                    </tr>
+                    <tr>
+                        <td>D3.1</td>
+                        <td>Navigation system design report</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">6</td>
+                    </tr>
+                    <tr>
+                        <td>D3.2</td>
+                        <td>Functional test plan</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">6</td>
+                    </tr>
+                    <tr>
+                        <td>D4.1</td>
+                        <td>Simulator and sensor model description</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">6</td>
+                    </tr>
+                    <tr>
+                        <td>D4.2</td>
+                        <td>Navigation and image processing algorithms description</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">6</td>
+                    </tr>
+                    <tr>
+                        <td>D4.3</td>
+                        <td>Navigation and image processing software interface description</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">12</td>
+                    </tr>
+                    <tr>
+                        <td>D4.4</td>
+                        <td>Navigation and image processing software user guide</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">15</td>
+                    </tr>
+                    <tr>
+                        <td>D4.5</td>
+                        <td>Navigation and image processing algorithm functional test results</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">15</td>
+                    </tr>
+                    <tr>
+                        <td>D5.1</td>
+                        <td>Laser altimeter description</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">6</td>
+                    </tr>
+                    <tr>
+                        <td>D5.2</td>
+                        <td>Laser altimeter interface description</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">12</td>
+                    </tr>
+                    <tr>
+                        <td>D5.3</td>
+                        <td>Laser altimeter user guide</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">12</td>
+                    </tr>
+                    <tr>
+                        <td>D5.4</td>
+                        <td>Laser altimeter functional test results</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">12</td>
+                    </tr>
+                    <tr>
+                        <td>D6.1</td>
+                        <td>Optical sensor description</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">6</td>
+                    </tr>
+                    <tr>
+                        <td>D6.2</td>
+                        <td>Optical sensor interface description</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">12</td>
+                    </tr>
+                    <tr>
+                        <td>D6.3</td>
+                        <td>Optical sensor user guide</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">12</td>
+                    </tr>
+                    <tr>
+                        <td>D6.4</td>
+                        <td>Optical sensor functional test results</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">12</td>
+                    </tr>
+                    <tr>
+                        <td>D7.1</td>
+                        <td>Interial sensor description</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">6</td>
+                    </tr>
+                    <tr>
+                        <td>D7.2</td>
+                        <td>Interial sensor interface description</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">12</td>
+                    </tr>
+                    <tr>
+                        <td>D7.3</td>
+                        <td>Interial sensor user guide</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">12</td>
+                    </tr>
+                    <tr>
+                        <td>D7.4</td>
+                        <td>Interial sensor functional test results</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">12</td>
+                    </tr>
+                    <tr>
+                        <td>D8.1</td>
+                        <td>Electronic system description</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">6</td>
+                    </tr>
+                    <tr>
+                        <td>D8.2</td>
+                        <td>Electronic system interface description</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">12</td>
+                    </tr>
+                    <tr>
+                        <td>D8.3</td>
+                        <td>Electronic system user guide</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">12</td>
+                    </tr>
+                    <tr>
+                        <td>D8.4</td>
+                        <td>Electronic system functional test results</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">12</td>
+                    </tr>
+                    <tr>
+                        <td>D9.1</td>
+                        <td>TRR Datapack</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">15</td>
+                    </tr>
+                    <tr>
+                        <td>D9.2</td>
+                        <td>SINPLEX prototype integrated and ready for testing</td>
+                        <td style="text-align: center;">P</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">15</td>
+                    </tr>
+                    <tr>
+                        <td>D10.1</td>
+                        <td>Testbench requirements definition report</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">6</td>
+                    </tr>
+                    <tr>
+                        <td>D10.2</td>
+                        <td>Testbench adaption definition</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">6</td>
+                    </tr>
+                    <tr>
+                        <td>D10.3</td>
+                        <td>Testbench adaption report</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">15</td>
+                    </tr>
+                    <tr>
+                        <td>D10.4</td>
+                        <td>Testbench evaluation</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">CO</td>
+                        <td style="text-align: center;">24</td>
+                    </tr>
+                    <tr>
+                        <td>D11.1</td>
+                        <td>Preliminary exploitation plan</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">PP</td>
+                        <td style="text-align: center;">8</td>
+                    </tr>
+                    <tr>
+                        <td>D11.2</td>
+                        <td>Preliminary project web site description</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">PP</td>
+                        <td style="text-align: center;">4</td>
+                    </tr>
+                    <tr>
+                        <td>D11.3</td>
+                        <td>1st web site version up and running</td>
+                        <td style="text-align: center;">O</td>
+                        <td style="text-align: center;">PU</td>
+                        <td style="text-align: center;">6</td>
+                    </tr>
+                    <tr>
+                        <td>D11.4</td>
+                        <td>Exploitation plan</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">PP</td>
+                        <td style="text-align: center;">18</td>
+                    </tr>
+                    <tr>
+                        <td>D12.1</td>
+                        <td>Technical Quality Assurance Plan</td>
+                        <td style="text-align: center;">R</td>
+                        <td style="text-align: center;">RE</td>
+                        <td style="text-align: center;">1</td>
+                    </tr>
+                </table>
+                
+                <table class="f" style="margin-top: 40px; font-size: 95%;">
+                    <tr>
+                        <th colspan="2" scope="col">Nature codes</th>
+                        <th colspan="2" scope="col">Dissemination level codes</th>
+                    </tr>
+                    <tr>
+                        <td>R</td>
+                        <td>Report</td>
+                        <td>PU</td>
+                        <td>Public</td>
+                    </tr>
+                    <tr>
+                        <td>P</td>
+                        <td>Prototype</td>
+                        <td>PP</td>
+                        <td>Restricted to other programme participants (including the Commission Services)</td>
+                    </tr>
+                    <tr>
+                        <td>D</td>
+                        <td>Demonstrator</td>
+                        <td>RE</td>
+                        <td>Restricted to a group specified by the consortium (including the Commission Services)</td>
+                    </tr>
+                    <tr>
+                        <td>O</td>
+                        <td>Other</td>
+                        <td>CO</td>
+                        <td>Confidential, only for members of the consortium (including the Commission Services)</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div id="dissemination" class="section">
+                <h1>Dissemination</h1>
+                
+                <h2>Journals &amp; Magazines</h2>
+                
+                <p>To be updated...</p>
+                
+                <h2>SINPLEX related publications</h2>
+                
+                <ul>
+                    <li>European Commission (ed.): <a href="files/SINPLEX_eyeonspace_4thcallspacebrochure.pdf"><i>SINPLEX &mdash; Small Integrated Navigator for PLanetary EXploration</i></a>. In: European Commission (ed.): <i>Eye on space &mdash; Space Research projects under the 7th Framework Programme for Research (4th call)</i>: 58&ndash;59. European Commission, DG Enterprise and Industry; European Union, Brussels, 2012. ISBN 978-92-79-22006-7.</li>
+                </ul>
+                
+                <h2>Publicity material</h2>
+                
+                <p>To be updated...</p>
+                
+                <h2>Conferences &amp; Workshops</h2>
+                
+                <ul>
+                    <li>Laan, Erik; Esposito, Marco; Monna, Bert; Conticello, Simon Silvio; Stelwagen, Frank; Theil, Stephan; Steffes, Stephen; Dumke, Michael; Heise, David; Sagliano, Marco; Oosterling, Han; Nijkerk, David; Duivenvoorde, Tom; Berkhout, Joris; Yanson, Yuriy; Schulte, Jan; Skaborn, Daniel; Durkut, Murat: <i>SINPLEX: A Small Integrated Navigation System for Planetary Exploration</i>. 64th International Astronautical Congress, Beijing, China, September 2013.</li>
+                    <li>Steffes, Stephen R.; Theil, Stephan; Dumke, Michael; Heise, David; Sagliano, Marco; Samaan, Malak A.; Laan, Erik; Durkut, Murat; Duivenvoorde, Tom; Nijkerk, David; Schulte, Jan; Söderholm, Stefan; Skaborn, Daniel; Berkhout, Joris; Esposito, Marco; Conticello, Simon; Visee, Richard; Monna, Bert; Stelwagen, Frank: <a href="http://elib.dlr.de/80994/1/SINPLEX-a_Small_Integrated_Navigation_System_for_Planetary_Exploration.pdf"><i>SINPLEX &mdash; A Small Integrated Navigation System for Planetary Exploration</i></a>. 36th Annual AAS Guidance and Control Conference, Breckenridge, Colorado, February 2013. AAS 13-043.</li>
+                    <li>Heise, David; Steffes, Stephen; Theil, Stephan: <i>Filter Design for Small Integrated Navigator for Planetary Exploration</i>. 61. Deutscher Luft- und Raumfahrtkongress, Estrel Berlin, Germany, September 2012.</li>
+                    <li>Steffes, Stephen R.: <a href="http://elib.dlr.de/80995/1/mi_1600.pdf"><i>Small Integrated Navigator for PLanetary EXploration (SINPLEX)</i></a>. ESA Workshop on Avionics Data, Control and Software Systems (ADCSS), Noordwijk, The Netherlands, 2012.</li>
+                </ul>
+            </div>
+            
+            <div id="events" class="section">
+                <h1>Events &amp; News</h1>
+                
+                <h2>Conferences</h2>
+                
+                <table class="f">
+                    <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Conference</th>
+                        <th scope="col">Lecture Title</th>
+                        <th scope="col">Lecturer(s)</th>
+                    </tr>
+                    <tr>
+                        <td>September 23 &ndash; 27, 2013</td>
+                        <td><a href="http://www.iafastro.net/iac/browse/IAC-13/">64th International Astronautical Congress, Beijing, China</a></td>
+                        <td>SINPLEX: A Small Integrated Navigation System for Planetary Exploration</td>
+                        <td>Laan, Erik; Esposito, Marco; Monna, Bert; Conticello, Simon Silvio; Stelwagen, Frank; Theil, Stephan; Steffes, Stephen; Dumke, Michael; Heise, David; Sagliano, Marco; Oosterling, Han; Nijkerk, David; Duivenvoorde, Tom; Berkhout, Joris; Yanson, Yuriy; Schulte, Jan; Skaborn, Daniel; Durkut, Murat</td>
+                    <tr>
+                        <td>September 10 &ndash; 12, 2012</td>
+                        <td><a href="http://www.dlrk2012.dglr.de">Deutscher Luft- und Raumfahrtkongress 2012, Berlin, Germany</a></td>
+                        <td>Filter Design for Small Integrated Navigator for Planetary Exploration</td>
+                        <td>D. Heise</td>
+                    </tr>
+                    <tr>
+                        <td>February 1 &ndash; 6, 2013</td>
+                        <td><a href="http://www.aas-rocky-mountain-section.org/conf_info.htm">36th Annual AAS Guidance and Control Conference</a></td>
+                        <td>SINPLEX: A Small Integrated Navigation System for Planetary Landers</td>
+                        <td>Stephen Steffes, Stephan Theil (DLR German Aerospace Center, Institute of Space Systems), Erik Laan, Murat Durkut, Tom Duivenvoorde (Dutch Organization for Applied Scientific Research (TNO)), Jan Schulte, Daniel Skaborn, Stefan Söderholm (Ångström Aerospace Corporation), Joris Berkhout, Marco Esposito, Simon Conticello (Cosine Research B.V.), Richard Visee, Bert Monna (SystematIC Design B.V.)</td>
+                </table>
+                
+                
+                <h2>International Workshops</h2>
+                
+                <table class="f">
+                    <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Workshop</th>
+                        <th scope="col">Lecture Title</th>
+                        <th scope="col">Lecturer(s)</th>
+                    </tr>
+                    <tr>
+                        <td>October 23 &ndash; 25, 2012</td>
+                        <td><a href="http://congrexprojects.com/12c25/introduction">ESA Workshop on Avionics Data, Control and Software Systems (ADCSS), ESA/ESTEC, Noordwijk, The Netherlands</a></td>
+                        <td>Small INtegrated Navigator for PLanetary EXploration (SINPLEX)</td>
+                        <td>Stephen Steffes</td>
+                    </tr>
+                </table>
+                
+                <h2>Project Events</h2>
+                
+                <table class="f">
+                    <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Event</th>
+                        <th scope="col">Location</th>
+                        <th scope="col">Info</th>
+                    </tr>
+                    <tr>
+                        <td>2012/01/26</td>
+                        <td>Kick-Off Meeting</td>
+                        <td>Brussels</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2012/03/01</td>
+                        <td>System Requirements Review</td>
+                        <td>Teleconference</td>
+                        <td>successfully passed</td>
+                    </tr>
+                    <tr>
+                        <td>2012/05/03</td>
+                        <td>Preliminary Design Review</td>
+                        <td>Leiden</td>
+                        <td>successfully passed</td>
+                    </tr>
+                    <tr>
+                        <td>2012/10/16</td>
+                        <td>Critical Design Review</td>
+                        <td>Uppsala</td>
+                        <td>successfully passed</td>
+                    </tr>
+                    <tr>
+                        <td>2013/01/24</td>
+                        <td>1st year review</td>
+                        <td>Brussels</td>
+                        <td>successfully passed</td>
+                    </tr>
+                </table>
+                
+                <h2>Project News</h2>
+                
+                <h3>Hardware integration started (June 25, 2013)</h3>
+                
+                <p>All subsystems are ready for integration. The images show some more parts as well as some subsystems integrated into the housing.</p>
+                
+                <div style="width: 100%; text-align: center; margin-top: 25px;">
+                    <a href="img/news-2013-06-25/housing_prototype.jpg" class="top_up"><img src="img/news-2013-06-25/housing_prototype.thumb.jpg" alt="SINPLEX prototype housing after casting and mounting surfaces machining and anodizing treatment" title="SINPLEX prototype housing after casting and mounting surfaces machining and anodizing treatment" /></a>
+                    <a href="img/news-2013-06-25/camera_lens_barrel.jpg" class="top_up"><img src="img/news-2013-06-25/camera_lens_barrel.thumb.jpg" alt="Navigation Camera Lens barrel" title="Navigation Camera Lens barrel" /></a>
+                    <a href="img/news-2013-06-25/IMU.jpg" class="top_up"><img src="img/news-2013-06-25/IMU.jpg" alt="Inertial Measurement Unit (IMU) PCB with the tetrahedron shaped construction with the gyros/accelerometers" title="Inertial Measurement Unit (IMU) PCB with the tetrahedron shaped construction with the gyros/accelerometers" /></a>
+                    <a href="img/news-2013-06-25/Integrated_IMU.jpg" class="top_up"><img src="img/news-2013-06-25/Integrated_IMU.thumb.jpg" alt="The Inertial Measurement Unit (IMU) integrated into the SINPLEX prototype housing" title="The Inertial Measurement Unit (IMU) integrated into the SINPLEX prototype housing" /></a>
+                    <a href="img/news-2013-06-25/Laser_SPAD_NavCam.jpg" class="top_up"><img src="img/news-2013-06-25/Laser_SPAD_NavCam.thumb.jpg" alt="Laser module, SPAD detector and NavCam lens barrel" title="Laser module, SPAD detector and NavCam lens barrel" /></a>
+                    <a href="img/news-2013-06-25/STR_mirrors.jpg" class="top_up"><img src="img/news-2013-06-25/STR_mirrors.thumb.jpg" alt="SINPLEX prototype Star Tracker mirrors. The chosen solution for the star trackers is a patented reflective design called the Multi Aperture Baffled Star tracker" title="SINPLEX prototype Star Tracker mirrors. The chosen solution for the star trackers is a patented reflective design called the Multi Aperture Baffled Star tracker" /></a>
+                    <a href="img/news-2013-06-25/DPCU-1_PCB.jpg" class="top_up"><img src="img/news-2013-06-25/DPCU-1_PCB.jpg" alt="DPCU-1 PCB" title="DPCU-1 PCB" /></a>
+                    <a href="img/news-2013-06-25/OBC-lite_PCB.jpg" class="top_up"><img src="img/news-2013-06-25/OBC-lite_PCB.jpg" alt="OBC-lite printed circuit board" title="OBC-lite printed circuit board" /></a>
+                </div>
+                
+                
+                <h3>1st Hardware has been produced (April 26, 2013)</h3>
+                
+                <p>After passing CDR in autumn 2012 the components and subsystems of SINPLEX are in production. The first elements already arrived and undergo a unit testing. The images show the aluminum casted housing and the detector board (where the HAS2 detector is covered).</p>
+                
+                <div style="width: 100%; text-align: center; margin-top: 25px;">
+                    <a href="img/news-2013-04-26/housing1.jpg" class="top_up"><img src="img/news-2013-04-26/housing1.thumb.jpg" alt="" /></a>
+                    <a href="img/news-2013-04-26/housing2.jpg" class="top_up"><img src="img/news-2013-04-26/housing2.thumb.jpg" alt="" /></a><br />
+                    <a href="img/news-2013-04-26/detectorPCB-1.jpg" class="top_up"><img src="img/news-2013-04-26/detectorPCB-1.thumb.jpg" alt="" /></a>
+                    <a href="img/news-2013-04-26/detectorPCB-2.jpg" class="top_up"><img src="img/news-2013-04-26/detectorPCB-2.thumb.jpg" alt="" /></a><br />
+                    <a href="img/news-2013-04-26/HAS2_detector.jpg" class="top_up"><img src="img/news-2013-04-26/HAS2_detector.thumb.jpg" alt="" /></a>
+                </div>
+            </div>
+            
+            <div id="contact" class="section">
+                <h1>Contact</h1>
+                
+                <h2>Project Coordinator</h2>
+                
+                <p class="leftmargin40">
+                    Dr.-Ing. <strong>Stephan Theil</strong><br />
+                    German Aerospace Center (DLR) &middot; Institute of Space Systems &middot; GNC Dept. (RY-NR)<br />
+                    Room 2.08 &middot; Robert-Hooke-Str. 7 &middot; DE-28359 Bremen<br />
+                    Phone: +49-(0)421-24420-1113 &middot; Telefax: +49-(0)421-24420-1120<br />
+                    E-Mail: <a href="mailto:stephan.theil@dlr.de">stephan.theil@dlr.de</a> &middot; Internet: <a href="http://www.DLR.de/irs/en/">http://www.DLR.de/irs/en/</a>
+                </p>
+                
+                <h2>Administrative Contact</h2>
+                
+                <p class="leftmargin40">
+                    <strong>Ines Sander</strong><br />
+                    German Aerospace Center (DLR) &middot; Auftragsadministration Nord<br />
+                    Robert-Hooke-Str. 7 &middot; DE-28359 Bremen<br />
+                    Phone: +49-(0)421-24420-1169 &middot; Telefax: +49-(0)421-24420-1120<br />
+                    E-Mail: <a href="mailto:ines.sander@dlr.de">ines.sander@dlr.de</a> &middot; Internet: <a href="http://www.DLR.de/irs/en/">http://www.DLR.de/irs/en/</a>
+                </p>
+                
+                <h2>Website Responsible</h2>
+                
+                <p class="leftmargin40">
+                    M.Eng. <strong>René Schwarz</strong><br />
+                    German Aerospace Center (DLR) &middot; Institute of Space Systems &middot; GNC Dept. (RY-NR)<br />
+                    Room 2.10 &middot; Robert-Hooke-Str. 7 &middot; DE-28359 Bremen<br />
+                    Phone: +49-(0)421-24420-1165 &middot; Telefax: +49-(0)421-24420-1120<br />
+                    E-Mail: <a href="mailto:rene.schwarz@dlr.de">rene.schwarz@dlr.de</a> &middot; Internet: <a href="http://www.DLR.de/irs/en/">http://www.DLR.de/irs/en/</a>
+                </p>
+            </div>
+        </div>
+              
+        <div id="footer">
+            <div id="footer-content">
+                <div id="nav-partners">
+                    <a href="http://www.dlr.de/en/"><img src="img/Logo_DLR_footer.png" alt="German Aerospace Center (DLR) Logo" title="German Aerospace Center (DLR)" /></a>
+                    <a href="http://www.tno.nl/"><img src="img/Logo_TNO_footer.png" alt="NEDERLANDSE ORGANISATIE VOOR TOEGEPAST NATUURWETENSCHAPPELIJK ONDERZOEK - TNO Logo" title="NEDERLANDSE ORGANISATIE VOOR TOEGEPAST NATUURWETENSCHAPPELIJK ONDERZOEK - TNO" /></a>
+                    <a href="http://cosine.nl/"><img src="img/Logo_cosine_footer.png" alt="Cosine Research B.V. Logo" title="Cosine Research B.V." /></a>
+                    <a href="http://www.aacmicrotec.com/"><img src="img/Logo_AAC_footer.png" alt="AAC MICROTEC AB Logo" title="AAC MICROTEC AB" /></a>
+                    <a href="http://www.systematic.nl/"><img src="img/Logo_SystematIC_footer.png" alt="SystematIC design bv Logo" title="SystematIC design bv" /></a><br />
+                </div>
+            
+                <div id="nav-sponsors">
+                    <a href="http://ec.europa.eu/"><img src="img/EU-EC_logo.png" alt="European Commission Logo" /></a>
+                    <a href="http://cordis.europa.eu/fp7/home_en.html"><img src="img/EU-FP7.png" alt="7th Framework Programme Logo" /></a>
+                </div>
+                
+                <p>&copy; 2012&ndash;2013 German Aerospace Center (<abbr title="Deutsches Zentrum für Luft- und Raumfahrt e.V.">DLR</abbr>). All rights reserved.<br />
+                The SINPLEX project is jointly funded by the project partners and the European Union within the 7th Framework Programme.</p>
+                
+                <p><a href="http://www.dlr.de/irs/en/desktopdefault.aspx/tabid-3234/">Imprint</a></p>
+            </div>
+        </div>
+        
+        <div id="parallax-lvl2">
+            <img id="parallax-lvl2-1" src="img/cloud.png" alt="cloud" />
+            <img id="parallax-lvl2-2" src="img/cloud.png" alt="cloud" />
+            <img id="parallax-lvl2-3" src="img/cloud.png" alt="cloud" />
+        </div>
+        <div id="parallax-lvl1">
+            <!--
+            <img id="parallax-lvl1-1" src="img/cloud.png" alt="cloud"/>
+            <img id="parallax-lvl1-2" src="img/cloud.png" alt="cloud"/>
+            <img id="parallax-lvl1-3" src="img/cloud.png" alt="cloud"/>
+            -->
+        </div>
+        <div id="parallax-lvl3">
+            <img id="parallax-lvl3-1" src="img/ex_bg_bottom.jpg" alt="background" />
+        </div>
+        
+        <div id="side-nav"><ul></ul></div>
+    </body>
+</html>

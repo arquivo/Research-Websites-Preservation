@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- Content -->
+    <script type="text/javascript" src="content/hierarchy.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="content/translation.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="content/filterList.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="content/settings.js" charset="UTF-8"></script> 
+
+    <!-- Navigation code -->
+    <script type="text/javascript" src="includes/hierarchy.js" charset="UTF-8"></script>   
+    <script type="text/javascript" src="includes/navigation/event.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="includes/navigation/navigator.js" charset="UTF-8"></script> 
+    <script type="text/javascript" src="includes/navigation/projector.js" charset="UTF-8"></script> 
+    <script type="text/javascript" src="includes/navigation/menu.js" charset="UTF-8"></script> 
+    <script type="text/javascript" src="includes/navigation/treemenu.js" charset="UTF-8"></script> 
+    <script type="text/javascript" src="includes/navigation/mainmenu.js" charset="UTF-8"></script> 
+    <script type="text/javascript" src="includes/navigation/pagemenu.js" charset="UTF-8"></script> 
+    <script type="text/javascript" src="includes/navigation/tabmenu.js" charset="UTF-8"></script> 
+    <script type="text/javascript" src="includes/navigation/buttonmenu.js" charset="UTF-8"></script> 
+    <script type="text/javascript" src="includes/navigation/dropdownmenu.js" charset="UTF-8"></script>
+    
+    <!-- Other code-->
+    <script type="text/javascript" src="includes/filter.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="includes/search.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="includes/print.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="includes/background.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="includes/path.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="includes/jquery.js" charset="UTF-8"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="style/technical.css"/>
+    <link rel="stylesheet" type="text/css" href="style/presentation.css"/>
+    <link rel="stylesheet" type="text/css" href="custom/custom.css"/>
+
+    <!-- Rss links -->
+    
+    
+    <!-- Analitics -->
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32331605-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+    <!-- Code behind -->
+    <script type="text/javascript" src="code/index.js"></script> 
+    
+    <!-- Title -->
+    <script type="text/javascript">document.write('<title>' + Settings.Title + '</title>');</script>
+</head>
+<body id="index_body">
+    
+    <div id="center">
+        <div id="main">
+            <div id="header">
+                <div id="path"></div>
+                <div id="title"><script type="text/javascript">document.write(Settings.Title);</script></div>
+                <div id="home_button" onclick="Navigator.OpenHome();"></div>
+            </div>
+
+            <div id="options">
+                <div id="options_right">
+                    <!--Logout-->
+                    <script type="text/javascript">
+                        var optionCount = 0;
+
+                        if (Settings.HeaderlinkText != "") {
+                            if (optionCount > 0) document.write(" | ");
+                            optionCount++;
+
+                            document.write('<a href="' + Settings.HeaderlinkUrl + '" target="_blanc" class="options_button">' + Settings.HeaderlinkText + '</a>');
+                        }
+                        if (Settings.Print == true) {
+                            if (optionCount > 0) document.write(" | ");
+                            optionCount++;
+
+                            document.write('<a id="printButton" href="#" class="options_button" onclick="Printer.Print();">'+ Translation.lbl_print + '</a>');
+                        }
+
+                        if (filterList.length != 0) {
+                            if (optionCount > 0) document.write(" | ");
+                            optionCount++;
+
+                            document.write('<a href="#" id="filterButton" class="options_button" onclick="ToggleFilter();">' + Translation.lbl_filter + '</a>');
+                        }
+
+                        if (Settings.Search == true){
+                            if (optionCount > 0) document.write(" | ");
+                            optionCount++;
+
+                            if (Settings.InlineSearch == true) {
+                                document.write('<input type="text" id="search_text" onkeypress="if (event.keyCode==13) StartSearch();"/>');
+                            }
+                            document.write('<a id="searchButton" href="#" class="options_button" onclick="ToggleSearch();">' + Translation.lbl_search + '</a>');
+                        }
+                    </script>
+                </div>
+            </div>
+
+            <div id="search" style="display: none;">
+            </div>
+            
+            <div id="filter" style="display: none;">
+            </div>
+            
+            <div id="index_content" class="content"></div>
+            <div id="footer"><script type="text/javascript">document.write(Settings.FooterText);</script></div>
+        </div>
+    </div>
+</body>
+</html>

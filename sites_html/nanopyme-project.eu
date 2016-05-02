@@ -1,0 +1,909 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta http-equiv="Author" content="Negocia Internet, S.L.L. Diseño web (www.negociainternet.com)" />
+<meta http-equiv="Corporate" content="Negocia Internet, S.L.L. Diseño web (www.negociainternet.com)" />
+<meta http-equiv="pragma" content="cache" />
+<meta http-equiv="reply-to" content="sistemas@negociainternet.com" />
+ 
+<meta name="title" content="" />
+<meta name="KeyWords" content="" />
+<meta name="description" content="" />
+<meta name="GOOGLEBOT" content="INDEX,FOLLOW,ALL" />
+<meta name="robots" content="index,follow,all" />
+<meta name="distribution" content="global" />
+<meta name="page-topic" content="" />
+<meta name="Classification" content="" />
+<meta name="REVISIT" content="7 days"/>
+<meta name="revisit-after" content="7 days" />
+<meta name="Identifier-URL" content="" />
+<meta name="DC.Identifier" content="" />
+<meta name="language" content="es" />
+<meta name="copyright" content="Josep Caballé Domenech" />
+<meta name="origen" content="" />
+<meta name="organization" content="" />
+<meta name="locality" content="Madrid, España" />
+<meta name="lang" content="es" />
+
+
+<title></title><link rel="shortcut icon" href="http://nanopyme-project.eu/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="http://nanopyme-project.eu/estilos/resetCss.css"/>
+<link rel="stylesheet" type="text/css" href="http://nanopyme-project.eu/estilos/estilos.css"/>
+<link rel="stylesheet" type="text/css" href="http://nanopyme-project.eu/estilos/nivo-slider.css"/>
+<link rel="stylesheet" type="text/css" href="http://nanopyme-project.eu/estilos/default.css"/>
+<link rel="stylesheet" type="text/css" href="http://nanopyme-project.eu/estilos/prettyPhoto.css"/>
+<link rel="stylesheet" type="text/css" href="http://nanopyme-project.eu/estilos/tipTip.css"/>
+<link rel="stylesheet" type="text/css" href="http://nanopyme-project.eu/estilos/craftmap.css"/>
+<link rel="stylesheet" type="text/css" href="http://nanopyme-project.eu/estilos/jquery.fancybox.css"/>
+<link rel="stylesheet" type="text/css" href="http://nanopyme-project.eu/estilos/validationEngine.jquery.css"/>
+<!--[if IE]>
+<script type="text/javascript">
+</script>
+<link rel="stylesheet" type="text/css" href="http://nanopyme-project.eu/estilos/IE.css"/>
+<![endif]-->
+
+<!--[if IE 8]>
+<script type="text/javascript">
+</script>
+<link rel="stylesheet" type="text/css" href="http://nanopyme-project.eu/estilos/IE8.css"/>
+<![endif]-->
+
+
+<script type="text/javascript"  src="http://nanopyme-project.eu/codigo/jquery-1.8.3.min.js"></script>
+<script type="text/javascript"  src="http://nanopyme-project.eu/codigo/jquery.nivo.slider.js"></script>
+<script type="text/javascript"  src="http://nanopyme-project.eu/codigo/jquery.prettyPhoto.js"></script>
+<script type="text/javascript"  src="http://nanopyme-project.eu/codigo/jquery.tipTip.js"></script>
+<script type="text/javascript"  src="http://nanopyme-project.eu/codigo/slimScroll.min.js"></script>
+<script type="text/javascript"  src="http://nanopyme-project.eu/codigo/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript"  src="http://nanopyme-project.eu/codigo/sameHeight.js"></script>
+<script type="text/javascript"  src="http://nanopyme-project.eu/codigo/placeholder_IE.js"></script>
+<script type="text/javascript"  src="http://nanopyme-project.eu/codigo/jquery.fancybox.js"></script>
+<script type="text/javascript"  src="http://nanopyme-project.eu/codigo/jquery.validationEngine-en.js"></script>
+<script type="text/javascript"  src="http://nanopyme-project.eu/codigo/jquery.validationEngine.js"></script>
+<script type="text/javascript" src="http://nanopyme-project.eu/codigo/jquery.form.js"></script>
+<!-- Preload imagenes -->
+<script type="text/javascript"  src="http://nanopyme-project.eu/codigo/preloadImg.js"></script>
+<script  type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+	if ( navigator.appName.toLowerCase()!="opera") {
+		$(".fancybox").preload({
+			loaderImage : "http://nanopyme-project.eu//estilos/images/ajax-loader.gif"
+		})	
+	}
+})
+//]]>
+</script>
+<!-- Carrusel imagenes -->
+<script type="text/javascript"  src="http://nanopyme-project.eu/codigo/jquery.carouFredSel-5.4.0.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.carrusel').carouFredSel({
+		scroll  	: 1,		
+		auto	: {
+			duration		: 400,
+			easing			: "linear",
+			pauseDuration	: 2500,
+			pauseOnHover	: "immediate"
+		}
+	});
+})
+</script>
+<!-- Fin Carrusel imagenes -->
+<!-- Codigo mapa -->
+<script type="text/javascript"  src="http://nanopyme-project.eu/codigo/craftmap.js"></script>
+<script type="text/javascript"  src="http://nanopyme-project.eu/codigo/init.js"></script>
+
+<!-- Imagen fullScreen -->
+<script type="text/javascript"  src="http://nanopyme-project.eu/codigo/supersized.core.3.2.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://nanopyme-project.eu/estilos/supersized.core.css"/>
+<script type="text/javascript">
+$(function($){
+	
+	$.supersized({
+		slides  :  	[ {image : 'http://nanopyme-project.eu/estilos/images/bg_pagina.jpg'} ]
+	});
+});
+</script>
+<!-- Imagen fullScreen -->
+<script type="text/javascript">
+//<![CDATA[
+function abrirVentana(bImg, file){
+	preurl ="http://nanopyme-project.eu/view.php?bImg=" + bImg + "&File=" + file;
+	prename = "File";
+	var miv=window.open(preurl, prename,"height=150,width=150,status=no,toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes");
+	miv.focus();
+}
+//]]>
+</script>
+<script type="text/javascript">
+//Cargar videos seccion videos
+$(document).ready(function(){
+	//lightBox
+	$('.fancybox').fancybox();
+	//abrir-cerrar campos menu
+	$('#summary').toggle(function(){
+		$(this).addClass('selected');
+		$('.summary').fadeIn('slow');
+	},function(){
+		$(this).removeClass('selected');
+		$('.summary').fadeOut('slow');
+	})
+
+
+	//abrir-cerrar box
+	$('.open').toggle(function(){
+		$(this).parent('.headerBox').next('.desplegableBox').fadeIn();
+		//$('.desplegableBox').fadeIn();
+	},function(){
+		$(this).parent('.headerBox').next('.desplegableBox').fadeOut();
+		//$('.desplegableBox').fadeOut();
+	})
+	// Videos
+	$("a[rel^='videoLight']").prettyPhoto({
+		animation_speed: 'fast', /* fast/slow/normal */
+		slideshow: 5000, /* false OR interval time in ms */
+		autoplay_slideshow: false, /* true/false */
+		opacity: 0.80, /* Value between 0 and 1 */
+		show_title: true, /* true/false */
+		allow_resize: true, /* Resize the photos bigger than viewport. true/false */
+		default_width: 650,
+		//default_height: 344,
+		counter_separator_label: '/', /* The separator for the gallery counter 1 "of" 2 */
+		theme: 'dark_square', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
+		horizontal_padding: 20, /* The padding on each side of the picture */
+		hideflash: false, /* Hides all the flash object on a page, set to TRUE if flash appears over prettyPhoto */
+		wmode: 'opaque', /* Set the flash wmode attribute */
+		autoplay: true, /* Automatically start videos: True/False */
+		modal: false, /* If set to true, only the close button will close the window */
+		deeplinking: true, /* Allow prettyPhoto to update the url to enable deeplinking. */
+		overlay_gallery: true, /* If set to true, a gallery will overlay the fullscreen image on mouse over */
+		keyboard_shortcuts: true,/* Set to false if you open forms inside prettyPhoto */
+	});
+
+	$('#listaVideos li a').on('click', function(){
+		$('#listaVideos li a').removeClass('selected');
+		$(this).addClass('selected');
+		var url = $(this).attr('rel');
+		var $contenidoAjax = $('div.vid').html('<p class="cargando" ><img alt="Cargando" src="http://nanopyme-project.eu/estilos/images/ajax-loader.gif" /><span>cargando</span></p>');
+		$.ajax({
+			data:{fUrl : url},
+			type: "POST",
+			cache: false,
+		    url : 'http://nanopyme-project.eu/include/cargaVideo.php',
+	        success : function (data){
+	        	$contenidoAjax.html(data);
+	        }
+		})
+	})
+	
+	//Abrir Submenu Home
+	$('#abreSubmenu').on('click', function(){
+		if ($('.homeSubmenu').is (':visible')){
+			$('.homeSubmenu').fadeOut();
+		}else{
+			$('.homeSubmenu').fadeIn();	
+		}
+	})
+	
+	//ToolTip
+	$('.liPrincipal a.aPrincipal, #listaVideos li a').tipTip({maxWidth: "auto", defaultPosition: "top"});
+	$('.summary li a').tipTip({maxWidth: "auto", defaultPosition: "right"});
+	$('.marker').tipTip({
+		maxWidth: "auto", 
+		defaultPosition: "top",
+		attribute: "rel",
+	});
+
+
+	//Acordeon	
+	$('.listaArchivos').first().show(function(){
+		$('#archivos .topAcor').first().addClass('selected');
+	});
+	
+
+	$('.topAcor').on('click',function(){
+		$('.listaArchivos').slideUp('slow');
+		var pulsador = $(this);
+		if ($(this).next('.listaArchivos').is (':visible')){			
+			$(this).next('.listaArchivos').slideUp('slow', function(){
+				$(pulsador).removeClass('selected');
+			});
+		}else{			
+			$(this).next('.listaArchivos').slideDown('slow',function(){
+				$(pulsador).addClass('selected');
+			});
+		}
+	})
+})
+
+</script>
+<script type="text/javascript">
+function cargaVideo(){
+	var url = $('#listaVideos .selected').attr('rel');
+	if(url != ""){
+		var $contenidoAjax = $('div.vid').html('<p class="cargando" ><img alt="Cargando" src="http://nanopyme-project.eu/estilos/images/ajax-loader.gif" /><span>cargando</span></p>');
+		$.ajax({
+			data:{fUrl : url},
+			type: "POST",
+			cache: false,
+		    url : 'http://nanopyme-project.eu/include/cargaVideo.php',
+	        success : function (data){
+	        	$contenidoAjax.html(data);
+	        }
+		})
+	}
+}
+$(document).ready(function(){
+cargaVideo();
+})
+</script>
+<!-- Script para control meses y años en seccion noticias -->
+
+<!-- Script para cargar secciones -->
+<script  type="text/javascript">
+	//Funcion para cargar las secciones que no estan en base de datos
+	function cargaSeccion(ubi,sec){
+		var $contenidoAjax = $('div.desc_secciones').html('<p style="text-align: center; margin-top:100px;"><img alt="Cargando" src="http://nanopyme-project.eu/estilos/images/ajax-loader.gif" /></p>');
+		$.ajax({
+			data:{fSec : sec},
+			type: "POST",
+			cache: false,
+		    url : 'http://nanopyme-project.eu/include/'+ ubi +'/'+ sec +'.php',
+	        success : function (data){
+	        	$contenidoAjax.html(data);
+	        }
+		})
+	}
+
+	 //Funcion para cargar las seccines que estan en base de datos
+	function cargaSeccionNueva(sec, idSecc){
+		var $contenidoAjax = $('div.desc_secciones').html('<p style="text-align: center; margin-top:100px;"><img alt="Cargando" src="http://nanopyme-project.eu/estilos/images/ajax-loader.gif" /></p>');
+		$.ajax({
+			data:{fNumSecc : idSecc},
+			type: "POST",
+			cache: false,
+		    url : 'http://nanopyme-project.eu/include/cont_' + sec + '.php?fNumSecc='+ sec +'',
+	        success : function (data){
+	        	$contenidoAjax.html(data);
+	        }
+		})
+	}
+</script>
+<script type="text/javascript">
+//Para Noticias
+	$(document).ready(function(){
+		$('#listaMeses li a').on('click', function(){
+			mes = $(this).parent().attr('value');
+			textoMes= $(this).html();
+			anio = $("#cajaSelectAnios .visto").html();
+			textoAnio= anio;
+			var $contenidoAjax = $('div#cont_news').html('<p style="text-align: center;"><img alt="Cargando" src="http://nanopyme-project.eu/estilos/images/ajax-loader.gif" /></p>');
+			$.ajax({
+				data:{fMes : mes , fAnio : anio},
+				type: "POST",
+				cache: false,
+			    url : 'http://nanopyme-project.eu/include/cargaNoticias.php',
+		        success : function (data){
+		        	$contenidoAjax.html(data);
+		        }
+			})
+			if(textoMes == "Choose month"){
+					var mesVisto = new Date();
+					mesVisto = mesVisto.getMonth() + 1;
+					if (mesVisto=="01"){mesVisto="January";	}
+					if (mesVisto=="02"){mesVisto="February";}
+					if (mesVisto=="03"){mesVisto="March";	}
+					if (mesVisto=="04"){mesVisto="April";	}
+					if (mesVisto=="05"){mesVisto="May";	}
+					if (mesVisto=="06"){mesVisto="June";	}
+					if (mesVisto=="07"){mesVisto="July";	}
+					if (mesVisto=="08"){mesVisto="August";}
+					if (mesVisto=="09"){mesVisto="September";}
+					if (mesVisto=="10"){mesVisto="October"; }
+					if (mesVisto=="11"){mesVisto="November";}
+					if (mesVisto=="12"){mesVisto="December";}
+				
+				$('.Mnoticia').html(mesVisto);
+				}else{
+					$('.Mnoticia').html(textoMes);
+				}
+			if(textoAnio == "Choose year"){
+				var anioVisto = new Date();
+				anioVisto = anioVisto.getFullYear();				
+				$("#cajaSelectAnios .visto").html(anioVisto);
+			}
+		})
+
+		$('#listaAnios li a').on('click', function(){
+			$('.Mnoticia').html('');
+			anio = $(this).parent().attr('value');
+			textoAnio= $(this).html();	
+			var $contenidoAjax = $('div#cont_news').html('<p style="text-align: center;"><img alt="Cargando" src="http://nanopyme-project.eu/estilos/images/ajax-loader.gif" /></p>');
+			$.ajax({
+				data:{fAnio : anio},
+				type: "POST",
+				cache: false,
+			    url : 'http://nanopyme-project.eu/include/cargaNoticias.php',
+		        success : function (data){
+		        	$contenidoAjax.html(data);
+		        }
+			})
+			$("#cajaSelect .visto").html('Choose month');
+			
+		})
+	})
+	
+	function cargaArchivo(id){
+		var $contenidoAjax = $('div#listaNews').html('<p style="text-align: center;"><img alt="Cargando" src="http://nanopyme-project.eu/estilos/images/ajax-loader.gif" /></p>');
+		$.ajax({
+			data:{fIdNew : id},
+			type: "POST",
+			cache: false,
+		    url : 'http://nanopyme-project.eu/include/cargaNews.php',
+	        success : function (data){
+	        	$contenidoAjax.html(data);
+	        }
+		})
+	}
+
+	function cargaDetalleNew(id){
+		var $contenidoAjax = $('div#listaNews').html('<p style="text-align: center;"><img alt="Cargando" src="http://nanopyme-project.eu/estilos/images/ajax-loader.gif" /></p>');
+		$.ajax({
+			data:{fIdNew : id},
+			type: "POST",
+			cache: false,
+		    url : 'http://nanopyme-project.eu/include/cargaDetalleNews.php',
+	        success : function (data){
+	        	$contenidoAjax.html(data);
+	        }
+		})
+	}
+
+	function cargaSummary(idioma){
+		var $contenidoAjax = $('div#txtSummary').html('<p style="text-align: center;"><img alt="Cargando" src="http://nanopyme-project.eu/estilos/images/ajax-loader.gif" /></p>');
+		$.ajax({
+			data:{fIdioma : idioma},
+			type: "POST",
+			cache: false,
+		    url : 'http://nanopyme-project.eu/include/cargaSummary.php',
+	        success : function (data){
+	        	$contenidoAjax.html(data);
+	        }
+		})
+	}	
+
+	function cargaJobs(id){
+		var $contenidoAjax = $('div#cargaOferta').html('<p style="text-align: center;"><img alt="Cargando" src="http://nanopyme-project.eu/estilos/images/ajax-loader.gif" /></p>');
+		$.ajax({
+			data:{fIdJob : id},
+			type: "POST",
+			cache: false,
+		    url : 'http://nanopyme-project.eu/include/cargaJobs.php',
+	        success : function (data){
+	        	$contenidoAjax.html(data);
+	        }
+		})
+	}		
+	
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+//Para Outreach
+	$(document).ready(function(){
+		$('#listaMesesOutreach li a').on('click', function(){
+			mes = $(this).parent().attr('value');
+			textoMes= $(this).html();
+			anio = $("#cajaSelectAnios .visto").html();
+			textoAnio= anio;
+			var $contenidoAjax = $('div#cont_news').html('<p style="text-align: center;"><img alt="Cargando" src="http://nanopyme-project.eu/estilos/images/ajax-loader.gif" /></p>');
+			$.ajax({
+				data:{fMes : mes , fAnio : anio},
+				type: "POST",
+				cache: false,
+			    url : 'http://nanopyme-project.eu/include/cargaOutreach.php',
+		        success : function (data){
+		        	$contenidoAjax.html(data);
+		        }
+			})
+			if(textoMes == "Choose month"){
+					var mesVisto = new Date();
+					mesVisto = mesVisto.getMonth() + 1;
+					if (mesVisto=="01"){mesVisto="January";	}
+					if (mesVisto=="02"){mesVisto="February";}
+					if (mesVisto=="03"){mesVisto="March";	}
+					if (mesVisto=="04"){mesVisto="April";	}
+					if (mesVisto=="05"){mesVisto="May";	}
+					if (mesVisto=="06"){mesVisto="June";	}
+					if (mesVisto=="07"){mesVisto="July";	}
+					if (mesVisto=="08"){mesVisto="August";}
+					if (mesVisto=="09"){mesVisto="September";}
+					if (mesVisto=="10"){mesVisto="October"; }
+					if (mesVisto=="11"){mesVisto="November";}
+					if (mesVisto=="12"){mesVisto="December";}
+				
+				$('.Mnoticia').html(mesVisto);
+				}else{
+					$('.Mnoticia').html(textoMes);
+				}
+			if(textoAnio == "Choose year"){
+				var anioVisto = new Date();
+				anioVisto = anioVisto.getFullYear();				
+				$("#cajaSelectAnios .visto").html(anioVisto);
+			}
+		})
+
+		$('#listaAniosOutreach li a').on('click', function(){
+			$('.Mnoticia').html('');
+			anio = $(this).parent().attr('value');
+			textoAnio= $(this).html();	
+			var $contenidoAjax = $('div#cont_news').html('<p style="text-align: center;"><img alt="Cargando" src="http://nanopyme-project.eu/estilos/images/ajax-loader.gif" /></p>');
+			$.ajax({
+				data:{fAnio : anio},
+				type: "POST",
+				cache: false,
+			    url : 'http://nanopyme-project.eu/include/cargaOutreach.php',
+		        success : function (data){
+		        	$contenidoAjax.html(data);
+		        }
+			})
+			$("#cajaSelect .visto").html('Choose month');
+			
+		})
+	})
+	
+	function cargaArchivoOutreach(id){
+		var $contenidoAjax = $('div#listaNews').html('<p style="text-align: center;"><img alt="Cargando" src="http://nanopyme-project.eu/estilos/images/ajax-loader.gif" /></p>');
+		$.ajax({
+			data:{fIdNew : id},
+			type: "POST",
+			cache: false,
+		    url : 'http://nanopyme-project.eu/include/cargaNewsOutreach.php',
+	        success : function (data){
+	        	$contenidoAjax.html(data);
+	        }
+		})
+	}
+
+	function cargaDetalleOutreach(id){
+		var $contenidoAjax = $('div#listaNews').html('<p style="text-align: center;"><img alt="Cargando" src="http://nanopyme-project.eu/estilos/images/ajax-loader.gif" /></p>');
+		$.ajax({
+			data:{fIdNew : id},
+			type: "POST",
+			cache: false,
+		    url : 'http://nanopyme-project.eu/include/cargaDetalleOutreach.php',
+	        success : function (data){
+	        	$contenidoAjax.html(data);
+	        }
+		})
+	}		
+	
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+	var altoJobs = $('.listaJobs').height();
+	$('#cargaOferta').css('min-height', altoJobs);
+	$('#numJobs li a').first().addClass('active');
+	$('#numJobs li a').click(function(){
+		$('#numJobs li a').removeClass('active');
+		$(this).addClass('active');
+	})
+})
+</script>
+<script type="text/javascript">
+function envioForm(){
+	var options = {
+	    	type:			'POST',   	
+	    	clearForm:		true,
+	    	resetForm:		true,
+	    	beforeSubmit:  	showRequest,
+	        success:       	showResponse  // post-submit callback 
+	    };  
+	    // bind form using 'ajaxForm' 
+	    $('#fContacto').ajaxForm(options);
+	    function showRequest() { 
+			$('.cargaMail').show();
+	        return true; 
+	    }    
+	    function exito(){
+	    	$('.cargaMail').hide();
+	    	$('.cajaCorfirma').fadeIn('slow').delay(4000).fadeOut('slow');
+	     };
+	     function error(){
+	    	$('.cargaMail').hide();
+	    	$('.cajaError').fadeIn('slow').delay(4000).fadeOut('slow');
+	      };    
+	    function showResponse(data)  {
+	    	$('.cargaMail').hide();
+	    	$('#valorRespuesta').attr('value', data);     	
+	    	var valor = $('#valorRespuesta').attr('value');
+	    	if(valor==1){
+				exito();
+	        	}
+	    	if(valor==0){
+				error();
+	        	}	 
+	    }
+	
+}
+</script></head><!-- Se abre en header.php -->
+
+<body>
+<!-- Incio Div pagina -->
+<div id="pagina">
+	<!-- Incio Div contendidos -->
+	<div id="contenedor">
+		<div id="menu">
+			<ul id="listaMenu">
+	<li class="liPrincipal home"><a class="aPrincipal selected" href="http://nanopyme-project.eu/index.php" title="HOME">HOME</a></li>
+		<span id="abreSubmenu"></span>
+		<div class="homeSubmenu">
+							<ul class="seccHome">
+				<li class="headerSubmenu">Background</li>
+									<li><a href="http://nanopyme-project.eu/background.php?fNumSecc=1" title="Permanent magnets in nowadays applications">Permanent magnets in nowadays applications</a></li>
+										<li><a href="http://nanopyme-project.eu/background.php?fNumSecc=2" title="State of the art magnets">State of the art magnets</a></li>
+										<li><a href="http://nanopyme-project.eu/background.php?fNumSecc=3" title="Problematic of rare earth elements">Problematic of rare earth elements</a></li>
+										<li><a href="http://nanopyme-project.eu/background.php?fNumSecc=4" title="Goals of the project">Goals of the project</a></li>
+										<li><a href="http://nanopyme-project.eu/background.php?fNumSecc=5" title="Some science behind">Some science behind</a></li>
+										<li><a href="http://nanopyme-project.eu/background.php?fNumSecc=6" title="Multidisciplinary participants">Multidisciplinary participants</a></li>
+									</ul>
+							<!-- Fin Seccion -->
+							<ul class="seccHome">
+				<li class="headerSubmenu">Synthesis and processing</li>
+									<li><a href="http://nanopyme-project.eu/processing.php?fNumSecc=1" title="Materials: magnetically hard and soft">Materials: magnetically hard and soft</a></li>
+										<li><a href="http://nanopyme-project.eu/processing.php?fNumSecc=2" title="Synthesis routes">Synthesis routes</a></li>
+										<li><a href="http://nanopyme-project.eu/processing.php?fNumSecc=3" title="Processing and manufacturing">Processing and manufacturing</a></li>
+										<li><a href="http://nanopyme-project.eu/processing.php?fNumSecc=4" title="Corrosion and mechanical tests">Corrosion and mechanical tests</a></li>
+										<li><a href="http://nanopyme-project.eu/processing.php?fNumSecc=5" title="Characterization techniques">Characterization techniques</a></li>
+									</ul>
+							<!-- Fin Seccion -->
+			<ul class="seccHome">
+				<li class="headerSubmenu">Up-scaling</li>
+				<li><a href="http://nanopyme-project.eu/up-scaling.php?fSec=From-laboratory-to-industrial-scale&fNumSecc=1" title="From laboratory to industrial scale">From laboratory to industrial scale</a></li>
+				<li><a href="http://nanopyme-project.eu/up-scaling.php?fSec=Towards-a-competitive-production&fNumSecc=2" title="Towards a competitive production">Towards a competitive production</a></li>
+				<li><a href="http://nanopyme-project.eu/up-scaling.php?fSec=Eco-efficient-production&fNumSecc=3" title="Eco-efficient production">Eco-efficient production</a></li>
+			</ul>
+			<div class="limpia"></div>
+			<ul class="seccHome">
+				<li class="headerSubmenu">Prototype</li>
+				<li><a href="http://nanopyme-project.eu/prototype.php?fSec=Magnetizing-for-cycling&fNumSecc=1" title="Magnetizing for cycling">Magnetizing for cycling</a></li>
+				<li><a href="http://nanopyme-project.eu/prototype.php?fSec=Design-and-development&fNumSecc=2" title="Design and development">Design and development</a></li>
+				<li><a href="http://nanopyme-project.eu/prototype.php?fSec=Testing&fNumSecc=3" title="Testing">Testing</a></li>
+			</ul>
+			<ul class="seccHome">
+				<li class="headerSubmenu">Safety and recyclability</li>
+				<li><a href="http://nanopyme-project.eu/safety-and-recyclability.php?fSec=Safety-at-work&fNumSecc=1" title="Safety at work">Safety at work</a></li>
+				<li><a href="http://nanopyme-project.eu/safety-and-recyclability.php?fSec=Recycled-magnets&fNumSecc=2" title="Recycled magnets">Recycled magnets</a></li>
+			</ul>
+			<ul class="seccHome">
+				<li class="headerSubmenu">Applications</li>
+				<li><a href="http://nanopyme-project.eu/applications.php?fSec=Overview&fNumSecc=1" title="Overview">Overview</a></li>
+				<li><a href="http://nanopyme-project.eu/applications.php?fSec=Electric-motors&fNumSecc=2" title="Electric motors">Electric motors</a></li>
+				<li><a href="http://nanopyme-project.eu/applications.php?fSec=Automotive-and-aerospace&fNumSecc=3" title="Automotive and aerospace">Automotive and aerospace</a></li>
+				<li><a href="http://nanopyme-project.eu/applications.php?fSec=Wind-turbines&fNumSecc=4" title="Wind turbines">Wind turbines</a></li>
+			</ul>
+		</div>
+		<li class="liPrincipal"><a class="aPrincipal " id="summary" href="javascript:void(0)" title="SUMMARY">SUMMARY</a>
+		<ul class="summary">
+				<li><a href="http://nanopyme-project.eu/summary.php?fIdioma=dk" title="Denmark"><span><img src="http://nanopyme-project.eu/estilos/icons/Denmark.jpg" alt="Denmark" /></span>Denmark</a></li>
+						<li><a href="http://nanopyme-project.eu/summary.php?fIdioma=it" title="Italian"><span><img src="http://nanopyme-project.eu/estilos/icons/Italian.jpg" alt="Italian" /></span>Italian</a></li>
+						<li><a href="http://nanopyme-project.eu/summary.php?fIdioma=no" title="Norwegian"><span><img src="http://nanopyme-project.eu/estilos/icons/Norwegian.jpg" alt="Norwegian" /></span>Norwegian</a></li>
+						<li><a href="http://nanopyme-project.eu/summary.php?fIdioma=si" title="Slovene"><span><img src="http://nanopyme-project.eu/estilos/icons/Slovene.jpg" alt="Slovene" /></span>Slovene</a></li>
+						<li><a href="http://nanopyme-project.eu/summary.php?fIdioma=de" title="German"><span><img src="http://nanopyme-project.eu/estilos/icons/German.jpg" alt="German" /></span>German</a></li>
+						<li><a href="http://nanopyme-project.eu/summary.php?fIdioma=es" title="Español"><span><img src="http://nanopyme-project.eu/estilos/icons/Spanish.jpg" alt="Español" /></span>Español</a></li>
+						<li><a href="http://nanopyme-project.eu/summary.php?fIdioma=en" title="English"><span><img src="http://nanopyme-project.eu/estilos/icons/English.jpg" alt="English" /></span>English</a></li>
+					</ul>
+	</li>
+	
+	<li class="liPrincipal"><a class="aPrincipal " href="http://nanopyme-project.eu/institutions.php" title="INSTITUTIONS">INSTITUTIONS</a></li>
+	<li class="liPrincipal"><a class="aPrincipal " href="http://nanopyme-project.eu/news.php" title="NEWS AND EVENTS">NEWS AND EVENTS</a></li>
+	<li class="liPrincipal"><a class="aPrincipal " href="http://nanopyme-project.eu/outreach.php" title="OUTREACH">OUTREACH</a></li>
+	<li class="liPrincipal"><a class="aPrincipal " href="http://nanopyme-project.eu/videos.php" title="VIDEOS">VIDEOS</a></li>
+	<li class="liPrincipal"><a class="aPrincipal " href="http://nanopyme-project.eu/jobs.php" title="JOBS">JOBS</a></li>
+	<li class="liPrincipal"><a class="aPrincipal " href="http://nanopyme-project.eu/contacto.php" title="CONTACT">CONTACT</a></li>
+	<li class="liPrincipal" id="lastMenu"><a class="aPrincipal" href="http://nanopyme-project.eu/Admin" target="blank_" title="LOG IN">LOG IN</a>
+	</li>
+</ul>
+				
+		<!-- Fin Div menu -->
+		</div>
+		<!-- Inicio Div cabecera -->
+<div id="cabecera">
+	<!-- Incio Div menu -->			
+	<!-- Inicio Div logo -->
+	<div id="logo">
+		<h1 class="titulo">"nanocrystalline permanent magnets based on hybrid metal-ferrites"</h1>
+	<!-- Fin Div logo -->
+	</div>
+	<!-- Inicio Div Slider -->
+	<div id="cont_slider">
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+            					<img src="http://nanopyme-project.eu/Admin/imgFr_home/sliderNANOPYME_Workshop_14-16-2015png.png" alt="" title=""/>
+					            					<img src="http://nanopyme-project.eu/Admin/imgFr_home/imagen2.jpg" alt="" title=""/>
+								            					<img src="http://nanopyme-project.eu/Admin/imgFr_home/imagen7.jpg" alt="" title=""/>
+								            					<img src="http://nanopyme-project.eu/Admin/imgFr_home/2_Modelling.jpg" alt="" title=""/>
+								            					<img src="http://nanopyme-project.eu/Admin/imgFr_home/1_imagen1.jpg" alt="" title=""/>
+								
+            </div>
+        </div>
+	<!-- Fin Div Slider -->
+	</div>
+	<script type="text/javascript" language="javascript" src="http://nanopyme-project.eu/codigo/jquery.nivo.slider.js"></script>
+	<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+        	 effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+             slices: 15, // For slice animations
+             boxCols: 8, // For box animations
+             boxRows: 4, // For box animations
+             animSpeed: 500, // Slide transition speed
+             pauseTime: 3000, // How long each slide will show
+             startSlide: 0, // Set starting Slide (0 index)
+             directionNav: true, // Next and Prev navigation
+             controlNav: false, // 1,2,3... navigation
+             controlNavThumbs: false, // Use thumbnails for Control Nav
+             pauseOnHover: true, // Stop animation while hovering
+             manualAdvance: false, // Force manual transitions
+             prevText: 'Prev', // Prev directionNav text
+             nextText: 'Next', // Next directionNav text
+             randomStart: false, // Start on a random slide
+		});
+    });
+    </script>
+    <!-- Inicio Div descripcion -->
+    <div id="descripcion">
+    	<h2>
+    	NANOPYME project addresses the design and development of nanocrystalline permanent magnets without rare earths.
+    	<br /> 
+    	An improved magnetic performance will guarantee their use in nowadays applications which are currently covered by more expensive low energy-range rare-earth permanent magnets.
+    	</h2>
+    <!-- Fin Div descripcion -->
+    </div>
+<!-- Fin Div cabecera -->
+</div>
+		<!-- Incio Div contenedor -->
+		<div id="contenidos">
+			<div class="cuerpo">
+	<!-- Incio Div box -->
+	<div id="box">
+		<div class="contBox" id="box_1">
+			<div class="headerBox">
+				<h3><span>Background</span></h3>
+				<a href="javascript:void(0)" title="Open" class="open">Open</a>
+			</div>
+							<div class="desplegableBox">
+				<div class="cont_desplegable">
+					<ul>
+									<li><a href="http://nanopyme-project.eu/background.php?fNumSecc=1" title="Permanent magnets in nowadays applications">Permanent magnets in nowadays applications</a></li>
+									<li><a href="http://nanopyme-project.eu/background.php?fNumSecc=2" title="State of the art magnets">State of the art magnets</a></li>
+									<li><a href="http://nanopyme-project.eu/background.php?fNumSecc=3" title="Problematic of rare earth elements">Problematic of rare earth elements</a></li>
+									<li><a href="http://nanopyme-project.eu/background.php?fNumSecc=4" title="Goals of the project">Goals of the project</a></li>
+									<li><a href="http://nanopyme-project.eu/background.php?fNumSecc=5" title="Some science behind">Some science behind</a></li>
+									<li><a href="http://nanopyme-project.eu/background.php?fNumSecc=6" title="Multidisciplinary participants">Multidisciplinary participants</a></li>
+								</ul>
+				</div>
+				<div class="pie_desplegable"></div>
+			</div>
+							<div class="intoBox">						
+				<div class="contImg">
+					<img src="http://nanopyme-project.eu/estilos/images/imgBox/background.jpg" alt="" />
+				</div>
+				<a href="http://nanopyme-project.eu/background.php" title="more" class="more">more</a>
+			</div>					
+		</div>
+		<div class="contBox" id="box_2">
+			<div class="headerBox">
+				<h3><span>Synthesis and processing</span></h3>
+				<a href="javascript:void(0)" title="Open" class="open">Open</a>
+			</div>
+								<div class="desplegableBox">
+					<div class="cont_desplegable">
+						<ul>
+											<li><a href="http://nanopyme-project.eu/processing.php?fNumSecc=1" title="Materials: magnetically hard and soft">Materials: magnetically hard and soft</a></li>
+											<li><a href="http://nanopyme-project.eu/processing.php?fNumSecc=2" title="Synthesis routes">Synthesis routes</a></li>
+											<li><a href="http://nanopyme-project.eu/processing.php?fNumSecc=3" title="Processing and manufacturing">Processing and manufacturing</a></li>
+											<li><a href="http://nanopyme-project.eu/processing.php?fNumSecc=4" title="Corrosion and mechanical tests">Corrosion and mechanical tests</a></li>
+											<li><a href="http://nanopyme-project.eu/processing.php?fNumSecc=5" title="Characterization techniques">Characterization techniques</a></li>
+										</ul>
+					</div>
+					<div class="pie_desplegable"></div>
+				</div>
+								<div class="intoBox">
+				<div class="contImg">						
+					<img src="http://nanopyme-project.eu/estilos/images/imgBox/synthesis.jpg" alt="" />
+				</div>							
+				<a href="http://nanopyme-project.eu/processing.php" title="more" class="more">more</a>
+			</div>
+		</div>
+		<div class="contBox finLinea" id="box_3">
+			<div class="headerBox">
+				<h3><span>Up-scaling</span></h3>
+				<a href="javascript:void(0)" title="Open" class="open">Open</a>
+			</div>
+			<div class="desplegableBox">
+				<div class="cont_desplegable">
+					<ul>
+						<li><a href="http://nanopyme-project.eu/up-scaling.php?fSec=From-laboratory-to-industrial-scale&fNumSecc=1" title="From laboratory to industrial scale">From laboratory to industrial scale</a></li>
+						<li><a href="http://nanopyme-project.eu/up-scaling.php?fSec=Towards-a-competitive-production&fNumSecc=2" title="Towards a competitive production">Towards a competitive production</a></li>
+						<li><a href="http://nanopyme-project.eu/up-scaling.php?fSec=Eco-efficient-production&fNumSecc=3" title="Eco-efficient production">Eco-efficient production</a></li>
+					</ul>
+				</div>
+				<div class="pie_desplegable"></div>
+			</div>
+			<div class="intoBox">
+				<div class="contImg">						
+					<img src="http://nanopyme-project.eu/estilos/images/imgBox/up-scaling.jpg" alt="" />
+				</div>
+				<a href="http://nanopyme-project.eu/up-scaling.php" title="more" class="more">more</a>
+			</div>				
+		</div>
+		<div class="limpia"></div>
+		<div class="contBox" id="box_4">
+			<div class="headerBox">
+				<h3><span>Prototype</span></h3>
+				<a href="javascript:void(0)" title="Open" class="open">Open</a>
+			</div>
+			<div class="desplegableBox">
+				<div class="cont_desplegable">
+					<ul>
+						<li><a href="http://nanopyme-project.eu/prototype.php?fSec=Magnetizing-for-cycling&fNumSecc=1" title="">Magnetizing for cycling</a></li>
+						<li><a href="http://nanopyme-project.eu/prototype.php?fSec=Design-and-development&fNumSecc=2" title="">Design and development</a></li>
+						<li><a href="http://nanopyme-project.eu/prototype.php?fSec=Testing&fNumSecc=3" title="">Testing</a></li>
+					</ul>
+				</div>
+				<div class="pie_desplegable"></div>
+			</div>
+			<div class="intoBox">
+				<div class="contImg">						
+					<img src="http://nanopyme-project.eu/estilos/images/imgBox/prototype.jpg" alt="" />
+				</div>
+				<a href="http://nanopyme-project.eu/prototype.php" title="more" class="more">more</a>
+			</div>				
+		</div>
+		<div class="contBox" id="box_5">
+			<div class="headerBox">
+				<h3><span>Safety and recyclability</span></h3>
+				<a href="javascript:void(0)" title="Open" class="open">Open</a>
+			</div>
+			<div class="desplegableBox">
+				<div class="cont_desplegable">
+					<ul>
+						<li><a href="http://nanopyme-project.eu/safety-and-recyclability.php?fSec=Safety-at-work&fNumSecc=1" title="Safety at work">Safety at work</a></li>
+						<li><a href="http://nanopyme-project.eu/safety-and-recyclability.php?fSec=Recycled-magnets&fNumSecc=2" title="Recycled magnets">Recycled magnets</a></li>
+					</ul>
+				</div>
+				<div class="pie_desplegable"></div>
+			</div>
+			<div class="intoBox">
+				<div class="contImg">						
+					<img src="http://nanopyme-project.eu/estilos/images/imgBox/safety.jpg" alt="" />
+				</div>							
+				<a href="http://nanopyme-project.eu/safety-and-recyclability.php" title="more" class="more">more</a>
+			</div>				
+		</div>
+		<div class="contBox finLinea" id="box_6">
+			<div class="headerBox">
+				<h3><span>Applications</span></h3>
+				<a href="javascript:void(0)" title="Open" class="open">Open</a>
+			</div>
+			<div class="desplegableBox">
+				<div class="cont_desplegable">
+					<ul>
+						<li><a href="http://nanopyme-project.eu/applications.php?fSec=Overview&fNumSecc=1" title="Overview">Overview</a></li>
+						<li><a href="http://nanopyme-project.eu/applications.php?fSec=Electric-motors&fNumSecc=2" title="Electric motors">Electric motors</a></li>
+						<li><a href="http://nanopyme-project.eu/applications.php?fSec=Automotive-and-aerospace&fNumSecc=3" title="Automotive and aerospace">Automotive and aerospace</a></li>
+						<li><a href="http://nanopyme-project.eu/applications.php?fSec=Wind-turbines&fNumSecc=4" title="Wind turbines">Wind turbines</a></li>
+					</ul>
+				</div>
+				<div class="pie_desplegable"></div>
+			</div>
+			<div class="intoBox">
+				<div class="contImg">						
+					<img src="http://nanopyme-project.eu/estilos/images/imgBox/applications.jpg" alt="" />
+				</div>							
+				<a href="javascript:void(0)" title="more" class="more">more</a>
+			</div>				
+		</div>
+	<!-- Fin Div box -->
+	</div>
+	<!-- Inicio Div news-videos -->
+	<div id="news-videos">
+		<div id="news">
+			<h3>News</h3>
+						 		<div class="detalleNew">
+						<div class="imgNew">
+															<a class="fancybox" href="http://nanopyme-project.eu/Admin/imgFr_news/newsNANOPYME_Workshop_14-16-2015png.png"  title="NANOPYME Workshop: Rare Earth-Free Permanent Magnets and Applications">
+								<img src="http://nanopyme-project.eu/Admin/imgFr_news/newsNANOPYME_Workshop_14-16-2015png.png" alt="NANOPYME Workshop: Rare Earth-Free Permanent Magnets and Applications" />
+							</a>
+						</div>
+						<div class="txtNew">
+							<p class="fecha">
+								<span class="icoFecha"></span>
+								<span class="txtFecha">2015-07-15</span>
+							</p>
+							<h4 class="titNew">NANOPYME Workshop: Rare Earth-Free Permanent Magnets and Applications</h4>
+							<p class="textos">The International Workshop of the NANOPYME project will be held in Madrid, September 14-16 2015 at IMDEA Nanoscience.</p>
+							<a class="more" href="http://nanopyme-project.eu/detailNews.php?fIdNoticia=12" title="see more">more</a>
+						</div>
+					</div>
+			 					 		<div class="detalleNew">
+						<div class="imgNew">
+															<a class="fancybox" href="http://nanopyme-project.eu/Admin/imgFr_news/2_Announcement.jpg"  title="Industrial Technologies 2014, Athens (Greece). April 9-11, 2014.">
+								<img src="http://nanopyme-project.eu/Admin/imgFr_news/2_Announcement.jpg" alt="Industrial Technologies 2014, Athens (Greece). April 9-11, 2014." />
+							</a>
+						</div>
+						<div class="txtNew">
+							<p class="fecha">
+								<span class="icoFecha"></span>
+								<span class="txtFecha">2014-02-04</span>
+							</p>
+							<h4 class="titNew">Industrial Technologies 2014, Athens (Greece). April 9-11, 2014.</h4>
+							<p class="textos">IMDEA Nanoscience will be presenting NANOPYME project at Industrial Technologies 2014.</p>
+							<a class="more" href="http://nanopyme-project.eu/detailNews.php?fIdNoticia=11" title="see more">more</a>
+						</div>
+					</div>
+			 				</div>
+		<div id="video">
+			<h3>&nbsp;</h3>
+
+			
+			<div id="detalleVideo">
+				<ul id="listaVideos">
+<!--					<li><a class="selected" href="javascript:void(0)" rel="" title="<img src='' />">Video 1</a></li>-->
+<!--					<li><a href="javascript:void(0)" rel="" title="<img src='' />">Video 2</a></li>-->
+<!--					<li><a href="javascript:void(0)" rel="" title="<img src='' />">Video 3</a></li>-->
+				</ul>
+				<div class="vid">
+				</div>
+				<div class="image_carousel">
+					<ul class="carrusel">
+						<li><img src="http://nanopyme-project.eu/estilos/images/imgCarrusel/Imagen_1_EU.png" title="" /></li>
+						<li><img src="http://nanopyme-project.eu/estilos/images/imgCarrusel/Imagen_2_FP7.png" title="" /></li>
+						<li><img src="http://nanopyme-project.eu/estilos/images/imgCarrusel/nanopyme_logo.png" title="" /></li>
+						<li><img src="http://nanopyme-project.eu/estilos/images/imgCarrusel/institutions_logos.png" title="" /></li>
+						<li><img src="http://nanopyme-project.eu/estilos/images/imgCarrusel/production_scale.png" title="" /></li>
+						<li><img src="http://nanopyme-project.eu/estilos/images/imgCarrusel/expertise.png" title="" /></li>
+						<li><img src="http://nanopyme-project.eu/estilos/images/imgCarrusel/imagen_car.png" title="" /></li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<div class="limpia"></div>
+	<!-- Fin Div news-videos -->
+	</div>
+</div>			<div id="pie">
+				<div id="logosPie">
+	<ul id="listaLogoPie">
+		<li><a href="javascript:void(0)" title=""><img src="http://nanopyme-project.eu/estilos/images/logoEU.jpg" alt="" /></a></li>
+		<li><a target="_blank" href="http://cordis.europa.eu/fp7/home_en.html" title=""><img src="http://nanopyme-project.eu/estilos/images/logoSevenFramework.jpg" alt="" /></a></li>
+	</ul>
+</div>
+<div id="descripcionPie">
+	<p>This research is partially funded by the European Community through the Seventh Framework Programme under grant agreement no. 310516</p>
+</div>
+<div class="limpia"></div>
+<div id="copyright">
+	<ul id="listaCopyRight">
+		<li id="copy">&copy; NANOPYME PROJECT 2012 - 2015</li>						
+		<li><a href="javascript:void(0)" title="">Legal Disclaimer</a></li>
+		<li><a href="http://www.negociainternet.com/" title="">Web Development</a></li>
+	</ul>
+</div>
+			</div>	
+		<!-- Fin Div contenidos -->
+		</div>
+		<div id="sombra"></div>
+	<!-- Fin Div contenedor -->	
+	</div>
+<!-- Fin Div pagina -->
+</div>
+</body>
+</html>

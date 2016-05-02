@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="TOPAS aims to bring to the market of IPR protection and management new technologies and solutions that will provide high quality automatic means for content analysis and summarization of patent material, which will support the patent specialists in their daily work, leading to a much cheaper and better performance of the tasks" name="description"/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta content="patentes, patents, patent analysis, patent processing, pi, propiedad industrial, propiedad intelectual, intellectual property, nlp, natural language processing, procesamiento del lenguage natural, semantic, Vigilancia tecnológica, Inteligencia Competitiva, summarization, summarisation, segmentation" name="keywords"/>
+<meta content="index, follow" name="robots"/>
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<link rel="stylesheet" type="text/css" href="css/noticias.css" />
+<script type="text/javascript" src="scripts/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.vticker-min.js"></script>
+<script type="text/javascript" src="scripts/jquery.validate.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('#contenedor_noticias').vTicker({ 
+			speed: 500,
+			pause: 3500,		
+			effect: 'slideLeft',
+			height: 250,
+			mousePause: true,
+			showItems: 2
+		});
+	});
+
+	$(document).ready(function() {
+		$("#form_contacto").validate();
+		
+		$("#menu_1 a").addClass("highlight");  		
+	});
+</script>
+<title>TOPAS project</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28588304-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+	<div id="contenedor">
+		<div id="header">
+	<div id="menu_container">
+		<ul id="menuhor">
+			<li id="menu_1"><a href="index.php"><span>Project</span></a></li>
+			<li id="menu_2"><a href="objectives.php"><span>Objectives</span></a></li>
+			<li id="menu_3"><a href="partners.php"><span>Partners</span></a></li>
+			<li id="menu_4"><a href="areas.php"><span>Work areas</span></a></li>
+			<li id="menu_5"><a href="activities.php"><span>Activities</span></a></li>
+			<li id="menu_7"><a href="documents.php"><span>Documents</span></a></li>
+			<li id="menu_8"><a href="videos.php"><span>Videos</span></a></li>
+			<li id="menu_9"><a href="demo.php"><span>Demo</span></a></li>
+		</ul>
+	</div>
+</div>
+		
+		<div id="contenido">
+					<div class="col_izq">
+				<h1>project</h1>
+				<div class="separador_col_izq"></div>
+				<p>Patents are the treasury of knowledge that drives the modern 
+economies. The support of targeted search in this treasury has 
+increasingly been topic of research. But search is just the first stage 
+that provides the raw material that is to be analyzed, digested, 
+assessed and summarized, depending on the concrete task of the user.</p>
+<p>Due to the wide-reaching consequences when a relevant patent 
+remains undiscovered during search, patent search traditionally aims at 
+high recall at the cost of lower precision, such that this raw material 
+tends to contain many more irrelevant hits than in a general discourse 
+search with patent specialists reviewing mainly manually large 
+quantities of patents in each phase of the search procedure. This is 
+time consuming, expensive and often with a less than optimal outcome.</p>
+				<p><strong>TOPAS</strong> aims to bring to the market of IPR 
+protection and management new technologies and solutions that will provide high quality 
+automatic means for content analysis and summarization of patent 
+material, which will support the patent specialists in their daily work,
+ leading to a much cheaper and better performance of the tasks. It will 
+significantly contribute to the competitiveness of the work faced by any
+ innovation-oriented company with an IPR agenda, and in particular, by 
+the clients of the SMEs products: patent departments within companies, 
+patent lawyers and innovators.</p>
+<p>The preparatory work for the development of the <b>TOPAS technologies</b> has been carried out in the FP6 project <a target="_blank" href="http://www.patexpert.org">PATExpert</a>, with the 
+participation of three partners of the Consortium. The benefits will 
+originate from the integration of functionality requested by clients for
+ targeted and efficient IPR protection into the existing product lines 
+SMEs, allowing for direct commercialization by SMEs together with their 
+products already established at the market. The benefits will be fully 
+passed on to the clients of the SMEs, who will be able to considerably 
+reduce the time and costs they allocate to IPR protection.</p><p><span lang="EN-US">The research leading to these results
+      has received funding from the European Union's Seventh Framework
+      Programme managed
+      by REA-Research Executive Agency </span><span lang="EN-US"><a target="_blank" href="http://ec.europa.eu/research/rea" target="_blank">http://ec.europa.eu/research/<wbr>rea
+      </a><span style="">FP7/2007-2013 under grant agreement&nbsp; number FP7-SME-2011 286639</span></span></p>			</div>
+			<div class="col_der">
+	<div class="caja_der">
+		<h1>partners</h1>
+		<p>
+			<img src="images/partners/eu_flag.png" border="0" align="top" alt="European Union" />
+			<img src="images/partners/seventh_frame_programe.png" border="0" align="top" alt="Seventh programe" />
+			
+		</p>
+	</div>
+	<div class="caja_der">
+		<p>
+			<a href="http://www.patorg.de/" target="_blank"><img src="images/partners/brugmunn.png" border="0" align="top" alt="Brügmann Software" /></a>						
+		</p>
+		<p>
+			<a href="http://www.ialetecnologia.com/" target="_blank"><img src="images/partners/iale.png" border="0" align="top" alt="IALE Tecnología" /></a>
+		</p>
+		<p>
+			<a href="http://intellisemantic.com/" target="_blank"><img src="images/partners/intellisemantic.png" border="0" align="top" alt="IntelliSemantic" /></a>
+		</p>
+		<p>
+			<a href="http://www.upf.edu/es/" target="_blank"><img src="images/partners/upf.png" border="0" align="top" alt="Universitat Pompeu Fabra (UPF)" /></a>
+		</p>
+		<p>
+			<a href="http://www.ims.uni-stuttgart.de/index.html.en" target="_blank"><img src="images/partners/u_stuttgart.png" border="0" align="top" alt="University of Stuttgart" /></a>
+		</p>					
+	</div>
+	<div class="caja_der">
+		<h1>CONTACTS<h1>
+			<ul class="contactes">
+				<li><a href="mailto:topas@intellisemantic.com">IntelliSemantic&nbsp;(IT)</a></li>
+				<li><a href="mailto:mail@patorg.de">Br&uuml;gmann&nbsp;Software&nbsp;(DE)</a></li>
+				<li><a href="mailto:info@iale.es">IALE tecnolog&iacute;a&nbsp;(ES)</a></li>
+			</ul>
+	</div>
+	<div id="stylized">
+		<h1>For more info</h1>
+		<p style="text-align: center;"><button type="button" onClick="location.href='infoForm.php'">Register here</button></p>
+		
+	</div>	
+	
+			
+</div>
+		
+		</div>
+		<div id="footer">
+	<p>topas</p>
+	<div id="footer_menu">
+		<ul id="footer_list">
+			<li><a href="index.php"><span>Project</span></a></li>
+	
+			<li><a href="objectives.php"><span>Objectives</span></a></li>
+	
+			<li><a href="partners.php"><span>Partners</span></a></li>
+		
+			<li><a href="areas.php"><span>Work areas</span></a></li>
+		
+			<li><a href="activities.php"><span>Activities</span></a></li>
+		
+			<li><a href="links.php"><span>Links</span></a></li>
+	
+			<li><a href="documents.php"><span>Documents</span></a></li>
+		</ul>
+	</div>
+</div>		
+	</div>
+</body>
+</html>

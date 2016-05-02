@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>www.likemeat.eu</title>
+</head>
+
+<frameset cols=*,800,* border="0" frameborder="no">
+	<frame src="./struktur/indexl.html" name="left" scrolling="no">
+	<frameset rows="25,220,*,20" border="0" frameborder="no">
+		<frame src="navi/head.html" name="Head" scrolling="no">
+		<frame src="navi/navi.html" name="Navi" scrolling="no">
+		<frame src="main/index.html" name="Main" scrolling="auto">
+		<frame src="navi/bottom.html" name="Bottom" scrolling="no">
+	</frameset>
+	<frame src="./struktur/indexr.html" name="right" scrolling="no">
+</frameset>
+
+</html>

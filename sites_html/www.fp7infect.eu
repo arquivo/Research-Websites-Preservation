@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+
+
+<!--[if lt IE 7]><html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="en" class="no-js lt-ie10 lt-ie9"><![endif]-->
+<!--[if IE 9]><html lang="en" class="no-js lt-ie10"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en" class="no-js"><!--<![endif]-->
+	
+	<head>
+		<title>Välkommen &ndash; INFECT</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="description" content="Systems medicine to understand severe tissue infections" />
+		<meta name="keywords" content="" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+		
+		
+		<link rel="stylesheet" href="/Content/Fonts.css" />
+		<link rel="stylesheet" href="/Content/SS-Standard.css" />
+		<link rel="stylesheet" href="/Content/Site.css" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/Images/apple-touch-icon-precomposed.png" />
+		
+		<script src="/Scripts/modernizr.js"></script>
+		<script src="/Scripts/jquery.js"></script>
+		<script src="/Scripts/placeholder.js"></script>
+		<script src="/Scripts/global.js"></script>
+		
+		
+		<script src="/Scripts/flexslider.js"></script> 
+		
+		<script>
+
+			$(document).ready(function() {
+				$('.slideshow').children().hide();
+
+				var maxHeight = 0;
+
+				$('.teasers .lead').each(function() {
+					var thisHeight = $(this).outerHeight();
+					if (thisHeight > maxHeight) maxHeight = thisHeight;
+				});
+
+				$('.teasers .lead').height(maxHeight);
+				
+			});
+
+			$(window).load(function() {
+
+				$('.slideshow').flexslider({
+					slideshowSpeed: 6000,
+					animationSpeed: 600,
+					nextText: '',
+					prevText: '',
+					start: function(slider) {
+						$('.slideshow').children().fadeIn(800).css({ 'display': '' });
+
+						$('.slideshow .text').css({
+							'top': ($('.slideshow li').height() - $('.slideshow .text').innerHeight()) / 2
+						});
+
+						$('.slideshow .spot').css({
+							'top': ($('.slideshow li').height() - $('.slideshow .spot').innerHeight()) / 2
+						});
+					}
+
+				});
+
+				$('.teasers h3').css({
+					'top': ($('.teasers img').height() - $('.teasers h3').innerHeight()) / 2
+				});
+
+				$(window).resize(function() {
+
+					$('.slideshow .text').css({
+						'top': ($('.slideshow li').height() - $('.slideshow .text').innerHeight()) / 2
+					});
+
+					$('.slideshow .spot').css({
+						'top': ($('.slideshow li').height() - $('.slideshow .spot').innerHeight()) / 2
+					});
+
+					$('.teasers h3').css({
+						'top': ($('.teasers img').height() - $('.teasers h3').innerHeight()) / 2
+					});
+
+				})
+
+			});
+			
+		</script>
+		
+
+	</head>	
+	
+	<body id="body-index">
+		
+		<div class="container">
+			
+			<header class="primary row" role="banner">
+				
+				<h1 class="logotype col c12-12"><a href="/">INFECT</a><span class="fp7"> &ndash; EU-FP7-HEALTH &ndash;</span><span class="tagline">Systems medicine to understand <span>severe soft tissue infections</span></span></h1>
+				
+			</header>
+			
+			<nav class="primary row" role="navigation">
+				
+				<ul class="col c12-12">
+					<li class=" current"><a href="/">Home</a></li>
+					<li><a href="/infect">About INFECT</a></li>
+					<li><a href="/partners">Partners</a></li>
+					<li><a href="/news">News</a></li>
+					<li><a href="/public">The Public</a></li>
+					<li><a href="/healthcare">Health Care</a></li>
+					<li><a href="/researchers">Researchers</a></li>
+					<li><a href="/links">Links</a></li></li>
+					<li class="button"><a class="ss-lock right" href="https://www.teamengine.com/ts/gosud.nsf?open&L=eng">Login</a></li>
+				</ul>
+				
+			</nav>
+			
+			
+	
+	
+	
+	<div class="slideshow row">
+	
+		<div class="spot">
+			<h2>INFECT </h2>
+			<div class="lead">This EU project aims at applying a systems medicine approach to elucidate the complex host and pathogen signatures that dictate severe bacterial soft tissue infection</div>
+			<div class="button"><a class="ss-navigateright right" href="/infect">More about INFECT</a></div>
+		</div>
+		
+		<ul class="slides cf">
+			
+			<li><img src="/Render.ashx?image=http://infect.ax7c0.eu/2013-02-19 18.25.07(1).jpg&width=1880&height=784" alt="" /></li><li><img src="/Render.ashx?image=http://infect.ax7c0.eu/13-cim--08-y(3).jpg&width=1880&height=784" alt="" /></li><li><img src="/Render.ashx?image=http://infect.ax7c0.eu/2009-04-16 013(1).jpg&width=1880&height=784" alt="" /></li><li><img src="/Render.ashx?image=http://infect.ax7c0.eu/infect-slideshow-sample(3).jpg&width=1880&height=784" alt="" /></li><li><img src="/Render.ashx?image=http://infect.ax7c0.eu/2013-02-19 19.41.05(1).jpg&width=1880&height=784" alt="" /></li><li><img src="/Render.ashx?image=http://infect.ax7c0.eu/11521-y(2).jpg&width=1880&height=784" alt="" /></li><li><img src="/Render.ashx?image=http://infect.ax7c0.eu/infect-slideshow-research(1).jpg&width=1880&height=784" alt="" /></li>
+			  
+		</ul>
+		
+	</div>
+	
+	<div class="main row">
+				
+		<div class="teasers col c4-12"><div class="teaser"><a href="/public"><h3 class="ss-users"><span class="ss-navigateright right">The Public</span></h3><figure><img src="/Render.ashx?image=http://infect.ax7c0.eu/teaser-public(1).jpg&width=584&height=438" alt="The Public" /></figure></a><div class="lead">Information and updates in general&hellip;</div></div><div class="teaser"><a href="/researchers"><h3 class="ss-sample"><span class="ss-navigateright right">Researchers</span></h3><figure><img src="/Render.ashx?image=http://infect.ax7c0.eu/teaser-researchers(1).jpg&width=584&height=438" alt="Researchers" /></figure></a><div class="lead">A scientific interest in systems medicine and severe soft tissue infections...</div></div></div><div class="teasers col c4-12"><div class="teaser"><a href="/healthcare"><h3 class="ss-heart"><span class="ss-navigateright right">Health Care</span></h3><figure><img src="/Render.ashx?image=http://infect.ax7c0.eu/teasers-health_care(1).jpg&width=584&height=438" alt="Health Care" /></figure></a><div class="lead">Working with severe soft tissue infections&hellip;</div></div><div class="teaser"><a href="/links"><h3 class="ss-link"><span class="ss-navigateright right">Links</span></h3><figure><img src="/Render.ashx?image=http://infect.ax7c0.eu/teaser-links(1).jpg&width=584&height=438" alt="Links" /></figure></a><div class="lead">Where to get more information&hellip;</div></div></div>
+		
+		<div class="dashboard col c4-12">
+		
+			<div class="box">
+			
+			<h2 class="ss-write">News</h2><nav class="secondary list"><ul><li class="odd"><a class="ss-navigateright right" href="/news/report-of-second--project-year-2014---summary"><h3>Report of second  project year (2014) - Summary</h3><time>2015-04-24</time></a></li><li class=""><a class="ss-navigateright right" href="/news/publications-and-presentations"><h3>Publications and presentations</h3><time>2014-10-03</time></a></li><li class="odd"><a class="ss-navigateright right" href="/news/report-of-first-project-year-2013---summary"><h3>Report of first project year (2013) - Summary</h3><time>2014-07-14</time></a></li></ul><a class="more" href="/news">News</a></nav><h2 class="ss-calendar">Calendar</h2><nav class="secondary list"><ul></ul><a class="more" href="/calendar">Full calendar</a></nav>
+			
+			</div>
+			
+		</div>
+		
+	</div>
+	
+
+			
+			
+			
+			<footer class="primary row" role="contentinfo">
+				
+				<div class="logo col c2-12"><a href="http://ec.europa.eu/" target="_blank"><img src="/Render.ashx/?image=/Images/ec-logo2.jpg&width=260" alt="European Commission" /></a></div>
+				<div class="logo col c2-12"><a href="http://cordis.europa.eu/projects/index.cfm?fuseaction=app.search&TXT=&FRM=1&STP=10&SIC=&PGA=FP7&CCY=&PCY=&SRC=&LNG=en&REF=" target="_blank"><img src="/Render.ashx/?image=/Images/7th-coop-logo.jpg&width=260" alt="Seventh Framework Programme" /></a></div>
+				
+				<ul class="col c8-12">
+					<li class="current"><a href="/">Home</a></li>
+					<li><a href="/infect">About INFECT</a></li>
+					<li><a href="/partners">Partners</a></li>
+					<li><a href="/news">News</a></li>
+					<li><a href="/the_public">The Public</a></li>
+					<li><a href="/health_care">Health Care</a></li>
+					<li><a href="/researchers">Researchers</a></li>
+					<li><a href="/links">Links</a></li>
+					<li class="button"><a class="ss-lock right" href="https://www.teamengine.com/ts/gosud.nsf?open&L=eng">Login</a></li>
+				</ul>
+				
+				<div class="contact"><a href="mailto:info@fp7infect.eu">info@fp7infect.eu</a></div>
+				
+			</footer>
+			
+		</div>
+		
+		
+		
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-37392893-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+		
+	</body>
+	
+</html>

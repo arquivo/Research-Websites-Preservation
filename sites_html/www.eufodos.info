@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/default/files/eufodos_favicon.ico" type="image/x-icon" />
+<meta name="keywords" content="forest,damage,assessment,spruce beetle,eufodos,FP7,mapping,monitoring,european,commission,framework,program,gmes,insect,infested,land use,change,products,maps,land,cover" />
+<meta name="copyright" content="copyright by GAF AG" />
+<link rel="canonical" href="http://www.eufodos.info/" />
+<meta name="revisit-after" content="7 days" />
+
+  <!-- additional keywords -->
+  <meta name="keywords" lang="de" content="Wald, Forst, Schaden, Erfassung, Borkenkäfer, EUFODOS, Kartierung, Überwachung, Europäische, Kommision, Rahmenprogramm, GMES, Insekt, befallen, Landnutzung, Veränderung, Produkte, Karten, Landbedeckung, Downstream, Kerndienst, Tornado, Wirbelsturm, Strukturparameter, Beschaffung, Planung, Holzvolumen">
+  <meta name="keywords" lang="it" content="Foresta, Bosco, danno, valutazione, Scarabeo degli alberi, EUFODOS, mappatura, monitoraggio, europeo, commissione, contesto, programma, GMES, insetto, infestato, Uso, del suolo, cambiamento, prodotti, mappe, Suolo/Terra, copertura, Downstream, Servizio Centrale, servizio, Tornado/tromba d’aria, strutturale, parametri, approvigionamento, pianificazione, Volume del fusto">
+  <meta name="keywords" lang="bg" content="Гора, Дървен, Лес, Вреда, Щета, Оценка, Оценяване, Бръмбар, корояд, Корояд, EUFODOS, Картографиране, Картиране, Мониторинг, Европейски, Комисия, Работна рамка, Програма, GMES, ГМОСС, Насекомо, Нападение, Нашествие, Земеползване, Променям, Промяна, Продукти, Карти, Земя, Покритие, Надолу по веригата, Насочени, Базов, Услуга, Торнадо, Смерч, Структурен, Параметри, Доставяне, Набавяне, Планиране, Обем на стеблото">
+  <meta name="keywords" lang="fi" content="EUFODOS, GMES">
+  <meta name="keywords" lang="sv" content="EUFODOS, GMES">
+  <meta name="keywords" lang="pl" content="Las, drewno, Szkody, Szacowanie, Korniki, EUFODOS, Mapowanie, Monitoring, Europejski, Komisja, Program ramowy, Program, GMES, Insekt, Zainfekowane, Użytkowanie gruntów, Przemiany, Produkty, Mapy, Grunt, Pokrycie, Serwis użytkownika, Rdzeń, Serwis, Tornado, Strukturalny, Parametry, Zamówienie, Planowanie, Miąższość drewna">
+
+  <title>Welcome from the Prime | www.eufodos.info</title>
+  <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/cck/theme/content-module.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/ctools/css/ctools.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/date/date.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/filefield/filefield.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/lightbox2/css/lightbox.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/nice_menus/nice_menus.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/extlink/extlink.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/cck/modules/fieldgroup/fieldgroup.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/views/css/views.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/themes/eufodos/style.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/themes/eufodos/nice_menus_default.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/themes/eufodos/views_eufodos.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/themes/eufodos/images.css?h" />
+  <script type="text/javascript" src="/misc/jquery.js?h"></script>
+<script type="text/javascript" src="/misc/drupal.js?h"></script>
+<script type="text/javascript" src="/sites/default/modules/lightbox2/js/lightbox.js?h"></script>
+<script type="text/javascript" src="/sites/default/modules/nice_menus/superfish/js/superfish.js?h"></script>
+<script type="text/javascript" src="/sites/default/modules/nice_menus/superfish/js/jquery.bgiframe.min.js?h"></script>
+<script type="text/javascript" src="/sites/default/modules/nice_menus/superfish/js/jquery.hoverIntent.minified.js?h"></script>
+<script type="text/javascript" src="/sites/default/modules/nice_menus/nice_menus.js?h"></script>
+<script type="text/javascript" src="/sites/default/modules/piwik/piwik.js?h"></script>
+<script type="text/javascript" src="/sites/default/modules/poormanscron/poormanscron.js?h"></script>
+<script type="text/javascript" src="/sites/default/modules/extlink/extlink.js?h"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "lightbox2": { "rtl": 0, "file_path": "/(\\w\\w/)sites/default/files", "default_image": "/sites/default/modules/lightbox2/images/brokenimage.jpg", "border_size": 10, "font_color": "000", "box_color": "fff", "top_position": "", "overlay_opacity": "0.8", "overlay_color": "000", "disable_close_click": 1, "resize_sequence": 0, "resize_speed": 400, "fade_in_speed": 400, "slide_down_speed": 600, "use_alt_layout": 0, "disable_resize": 0, "disable_zoom": 0, "force_show_nav": 0, "show_caption": 1, "loop_items": 0, "node_link_text": "View Image Details", "node_link_target": 0, "image_count": "Image !current of !total", "video_count": "Video !current of !total", "page_count": "Page !current of !total", "lite_press_x_close": "press \x3ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\x3e\x3ckbd\x3ex\x3c/kbd\x3e\x3c/a\x3e to close", "download_link_text": "", "enable_login": false, "enable_contact": false, "keys_close": "c x 27", "keys_previous": "p 37", "keys_next": "n 39", "keys_zoom": "z", "keys_play_pause": "32", "display_image_size": "original", "image_node_sizes": "()", "trigger_lightbox_classes": "", "trigger_lightbox_group_classes": "", "trigger_slideshow_classes": "", "trigger_lightframe_classes": "", "trigger_lightframe_group_classes": "", "custom_class_handler": 0, "custom_trigger_classes": "", "disable_for_gallery_lists": true, "disable_for_acidfree_gallery_lists": true, "enable_acidfree_videos": true, "slideshow_interval": 5000, "slideshow_automatic_start": true, "slideshow_automatic_exit": true, "show_play_pause": true, "pause_on_next_click": false, "pause_on_previous_click": true, "loop_slides": false, "iframe_width": 800, "iframe_height": 800, "iframe_border": 1, "enable_video": 0 }, "nice_menus_options": { "delay": "800", "speed": "slow" }, "piwik": { "trackMailto": 1 }, "cron": { "basePath": "/poormanscron", "runNext": 1454943951 }, "extlink": { "extTarget": "_blank", "extClass": "ext", "extSubdomains": 1, "extExclude": "", "extInclude": "", "extCssExclude": "", "extCssExplicit": "", "extAlert": 0, "extAlertText": "This link will take you to an external web site. We are not responsible for their content.", "mailtoClass": "mailto" }, "CToolsUrlIsAjaxTrusted": { "/": true } });
+//--><!]]>
+</script>
+   <!--[if IE 8]><style type="text/css">@import url(/eufodos/sites/default/themes/eufodos/ie8.css);</style><![endif]--> 
+ <!--[if lt IE 8]><style type="text/css">@import url(/eufodos/sites/default/themes/eufodos/ie7.css);</style><![endif]--> 
+ <!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/eufodos/sites/default/themes/eufodos/ie7.css" /><![endif]-->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body class="front not-logged-in page-node node-type-page one-sidebar sidebar-left">
+
+    <header id="header" class="clearfix">
+	          <a href="/" title="Home" rel="home" id="logo">
+          <img src="/sites/default/files/eufodos_logo.png" alt="Home" />
+        </a>
+                  <form action="/"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-yB5GVEDpUPxQ-w_d915ZAkzPitz-8KowHI86hqYERY4" value="form-yB5GVEDpUPxQ-w_d915ZAkzPitz-8KowHI86hqYERY4"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+      	  
+					<div id="header-navigation">
+		<section id="block-menu-menu-header-links" class="block block-menu clearfix">
+  
+  <div class="content">
+        <ul class="menu"><li id="FP7" class="leaf first"><a href="http://cordis.europa.eu/fp7/home_en.html" title="">FP7</a></li>
+<li id="Copernicus" class="leaf"><a href="http://www.copernicus.eu" title="">Copernicus</a></li>
+<li id="Internal" class="leaf last"><a href="http://dibs014.joanneum.at/eufodos/eufodos" title="">Internal</a></li>
+</ul>  </div>
+
+</section> <!-- /.block -->
+			</div>
+		  
+	  
+	  
+    </header> <!-- /#header -->
+
+  <div id="wrapper" class="clearfix">
+    <div id="skip-link">
+      <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+              <a href="#navigation" class="element-invisible element-focusable">Skip to navigation</a>
+          </div>
+
+
+
+
+
+    <section id="main" class="clearfix">
+      <!--?php if (!empty($breadcrumb)): print $breadcrumb; endif; ?-->
+                  <a id="main-content"></a>
+      <h1 class="title" id="page-title">Welcome from the Prime</h1>                  <div id="node-3" class=""><div class="node-inner">
+
+  
+  <div class="content">
+    <p>Dear visitors,</p>
+<p>we are pleased to present on this website the goals and contents of the FP7 EUFODOS project. The EUFODOS project was initialized within the SPACE call SPA.2010.1.1-01 - <em>"Stimulating the Development of Downstream GMES Services". </em>EUFODOS is focusing on the development of operational downstream services on forest degradation issues. The consortium encompasses partners and end users from 6 EC member states. The project has started on 1st January 2011 and ends with 31st December 2013. We hope that you will find useful information on this webpage and you are welcome to contact us for any questions or suggestions.</p>
+<p><em>- By Mathias Schardt, Joanneum Research</em></p>
+<div class="field field-type-viewfield field-field-view-field-page">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <div class="view view-news-frontpage view-id-news_frontpage view-display-id-default view-dom-id-1">
+        <div class="view-header">
+      <h2>Recent News</h2>
+    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/content/eufodos-final-meeting">EUFODOS Final Meeting</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">October 23, 2013</span>
+  </div>
+  
+  <div class="views-field-field-news-teaser-value">
+                <div class="field-content">EUFODOS Final Meeting
+2nd to 3rd December, 2013</div>
+  </div>
+  
+  <div class="views-field-view-node">
+                <span class="field-content"><a href="/content/eufodos-final-meeting">&gt; continue reading</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/content/fp7-space-conference-0">FP7 Space Conference</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">January 16, 2013</span>
+  </div>
+  
+  <div class="views-field-field-news-teaser-value">
+                <div class="field-content">The second FP7 Space Conference that took place in Larnaca on 15-16 November 2012 gathered around 200 participants</div>
+  </div>
+  
+  <div class="views-field-view-node">
+                <span class="field-content"><a href="/content/fp7-space-conference-0">&gt; continue reading</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/content/message-coordinator">Message from the Coordinator</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">September 26, 2012</span>
+  </div>
+  
+  <div class="views-field-field-news-teaser-value">
+                <div class="field-content">The EUFODOS project has reached half of project lifetime and thus a progress meeting was held in Vienna/A by end of June 2012 encompassing consortium...</div>
+  </div>
+  
+  <div class="views-field-view-node">
+                <span class="field-content"><a href="/content/message-coordinator">&gt; continue reading</a></span>
+  </div>
+  </div>
+    </div>
+  
+      <div class="item-list"><ul class="pager"><li class="pager-previous first">&nbsp;</li>
+<li class="pager-current">1 of 2</li>
+<li class="pager-next last"><a href="/content/welcome?page=1" class="active">››</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>         </div>
+              <div class="field-item even">
+                    <div class="view view-page-featuredcontent view-id-page_featuredcontent view-display-id-default view-dom-id-2">
+        <div class="view-header">
+      <h2>Featured Content</h2>
+    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field-field-featured-content-image-fid">
+                <span class="field-content"><img src="http://www.eufodos.info/sites/default/files/imagecache/featured_content_page/featured-content/eufodos_nw11_rapideye_front.jpg" alt="Demonstration of EUFODOS Downstream Services based on RapidEye data" title="Demonstration of EUFODOS Downstream Services based on RapidEye data" width="60" height="60" class="imagecache imagecache-featured_content_page imagecache-default imagecache-featured_content_page_default"/></span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/content/demonstration-eufodos-downstream-services-based-rapideye-data">Demonstration of EUFODOS Downstream Services based on RapidEye data</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">September 30, 2013</span>
+  </div>
+  
+  <div class="views-field-field-featured-content-teaser-value">
+                <div class="field-content"><p>RapidEye, a leading provider of quality high-resolution satellite...</div>
+  </div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field-field-featured-content-image-fid">
+                <span class="field-content"><img src="http://www.eufodos.info/sites/default/files/imagecache/featured_content_page/featured-content/eufodos_snowfall_nw10.jpg" alt="EUFODOS at a glance" title="EUFODOS at a glance" width="60" height="60" class="imagecache imagecache-featured_content_page imagecache-default imagecache-featured_content_page_default"/></span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/content/eufodos-glance">EUFODOS at a glance</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">May 31, 2013</span>
+  </div>
+  
+  <div class="views-field-field-featured-content-teaser-value">
+                <div class="field-content"><p>Forests play a key role in the European economy and environment....</div>
+  </div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field-field-featured-content-image-fid">
+                <span class="field-content"><img src="http://www.eufodos.info/sites/default/files/imagecache/featured_content_page/featured-content/eufodos_eurac1.jpg" alt="EUFODOS MODIS-based forest monitoring" title="EUFODOS MODIS-based forest monitoring" width="60" height="60" class="imagecache imagecache-featured_content_page imagecache-default imagecache-featured_content_page_default"/></span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/content/modis-based-forest-monitoring">MODIS-based forest monitoring</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">March 07, 2013</span>
+  </div>
+  
+  <div class="views-field-field-featured-content-teaser-value">
+                <div class="field-content"><p>Detection of the vegetation stress resulting of drought events</p></div>
+  </div>
+  </div>
+  <div class="views-row views-row-4 views-row-even views-row-last">
+      
+  <div class="views-field-field-featured-content-image-fid">
+                <span class="field-content"><img src="http://www.eufodos.info/sites/default/files/imagecache/featured_content_page/featured-content/eufodos_rapideye_0.jpg" alt="EUFODOS Tornado Event in Poland, July 2012" title="EUFODOS Tornado Event in Poland, July 2012" width="60" height="60" class="imagecache imagecache-featured_content_page imagecache-default imagecache-featured_content_page_default"/></span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/content/tornado-event-poland-july-2012">Tornado Event in Poland, July 2012</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">February 04, 2013</span>
+  </div>
+  
+  <div class="views-field-field-featured-content-teaser-value">
+                <div class="field-content"><p>In co-operation with representative from IBL Warsaw (EUFODOS user...</div>
+  </div>
+  </div>
+    </div>
+  
+      <div class="item-list"><ul class="pager"><li class="pager-previous first">&nbsp;</li>
+<li class="pager-current">1 of 2</li>
+<li class="pager-next last"><a href="/content/welcome?page=1" class="active">››</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>         </div>
+        </div>
+</div>
+  </div>
+
+  
+ 
+</div></div> <!-- /node-inner, /node -->
+
+    </section> <!-- /#main -->
+	
+
+				
+          <aside id="sidebar-left" class="sidebar clearfix">
+        <section id="block-nice_menus-1" class="block block-nice_menus clearfix">
+      <h2>Navigation</h2>
+  
+  <div class="content">
+        <ul class="nice-menu nice-menu-right" id="nice-menu-1"><li class="menu-220 menu-path-front active-trail first  odd "><a href="/" title="Link to Home" class="active">Home</a></li>
+<li class="menu-226 menuparent menu-path-content-news even "><a href="/content/news" title="News of Eufodos">News</a><ul><li class="menu-38988 menu-path-node-293 first  odd "><a href="/content/message-coordinator" title="Message from the Coordinator">Message from the Coordinator</a></li>
+<li class="menu-38524 menu-path-node-292 even "><a href="/content/upcoming-events-2013" title="Upcoming events 2013">Upcoming events 2013</a></li>
+<li class="menu-38523 menu-path-node-291 odd "><a href="/content/upcoming-events-2012-0" title="Upcoming events 2012">Upcoming events 2012</a></li>
+<li class="menu-575 menu-path-node-2 even "><a href="/content/storm-damage-assessment-forestry-board-salzburg-austria" title="Storm Damage Assessment for the Forestry Board of Salzburg, Austria">Storm Damage Assessment</a></li>
+<li class="menu-66283 menu-path-node-378 odd  last "><a href="/content/fp7-space-conference-0" title="FP7 Space Conference">FP7 Space Conference</a></li>
+</ul>
+</li>
+<li class="menu-38522 menu-path-content-events odd "><a href="/content/events" title="Upcoming Events">Events</a></li>
+<li class="menu-227 menu-path-node-16 even "><a href="/content/eufodos-fp7-project" title="">EUFODOS FP7 Project</a></li>
+<li class="menu-228 menuparent menu-path-node-17 odd "><a href="/content/background" title="">Background</a><ul><li class="menu-2057 menu-path-node-55 first  odd "><a href="/content/core-services" title="Core Services">Core Services</a></li>
+<li class="menu-2056 menu-path-node-54 even "><a href="/content/gmes" title="GMES">GMES</a></li>
+<li class="menu-2055 menu-path-node-53 odd  last "><a href="/content/gse-fm" title="GSE FM">GSE FM</a></li>
+</ul>
+</li>
+<li class="menu-233 menuparent menu-path-node-18 even "><a href="/content/services" title="">Services</a><ul><li class="menu-1413 menu-path-node-18 first  odd "><a href="/content/services#Storm%20Damage%20Assessment" title="Storm Damage Assessment">Storm Damage Assessment</a></li>
+<li class="menu-1415 menu-path-node-18 even "><a href="/content/services#Ecological%20Functions" title="Ecological Functions">Ecological Functions</a></li>
+<li class="menu-1976 menu-path-node-18 odd "><a href="/content/services#Economical%20Functions" title="Economical Functions">Economical Functions</a></li>
+<li class="menu-1414 menu-path-node-18 even  last "><a href="/content/services#Insect%20Infested%20Damage%20Assessment" title="Insect Infested Damage Assessment">Insect Infested Damage Assessment</a></li>
+</ul>
+</li>
+<li class="menu-237 menu-path-node-19 odd "><a href="/content/supporting-rd-activities" title="">Supporting R&amp;D activities</a></li>
+<li class="menu-1443 menu-path-content-partners even "><a href="/content/partners">Partners</a></li>
+<li class="menu-240 menu-path-node-21 odd  last "><a href="/content/ueb-activities" title="">User Executive Body</a></li>
+</ul>
+  </div>
+
+</section> <!-- /.block -->
+<section id="block-views-mapviewer_sidebar_image-block_1" class="block block-views clearfix">
+      <h2>Map Portal</h2>
+  
+  <div class="content">
+        <div class="view view-mapviewer-sidebar-image view-id-mapviewer_sidebar_image view-display-id-block_1 view-dom-id-3">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-field-mapviewer-sidebar-image-fid">
+                <span class="field-content"><a href="http://www.eufodos.info/content/mapviewer" target="_blank"><img src="http://www.eufodos.info/sites/default/files/imagecache/mapviewer_image_sidebar/imagecache/mapviewer_image_sidebar_0.jpg" alt="" title="" width="223" height="50" class="imagecache imagecache-mapviewer_image_sidebar imagecache-default imagecache-mapviewer_image_sidebar_default"/></a></span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+</section> <!-- /.block -->
+<section id="block-views-efbd6ec237231308e7b1d26e73e5e703" class="block block-views clearfix">
+      <h2>Featured Content</h2>
+  
+  <div class="content">
+        <div class="view view-frontpage-featuredcontent view-id-frontpage_featuredcontent view-display-id-block_1 view-dom-id-4">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-field-featured-content-image-fid">
+                <span class="field-content"><a href="http://www.eufodos.info/sites/default/files/featured-content/eufodos_nw11_rapideye_front.jpg" rel="lightbox[field_featured_content_image][Demonstration of EUFODOS Downstream Services based on RapidEye data&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;/content/demonstration-eufodos-downstream-services-based-rapideye-data&quot; id=&quot;lightbox2-node-link-text&quot;&gt;View Image Details&lt;/a&gt;]" class="imagefield imagefield-lightbox2 imagefield-lightbox2-featured_content_frontpage imagefield-field_featured_content_image imagecache imagecache-field_featured_content_image imagecache-featured_content_frontpage imagecache-field_featured_content_image-featured_content_frontpage"><img src="http://www.eufodos.info/sites/default/files/imagecache/featured_content_frontpage/featured-content/eufodos_nw11_rapideye_front.jpg" alt="Demonstration of EUFODOS Downstream Services based on RapidEye data" title="Demonstration of EUFODOS Downstream Services based on RapidEye data" width="223" height="80"/></a></span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/content/demonstration-eufodos-downstream-services-based-rapideye-data">Demonstration of EUFODOS Downstream Services based on RapidEye data</a></span>
+  </div>
+  
+  <div class="views-field-field-featured-content-teaser-value">
+                <div class="field-content"><p>RapidEye, a leading provider of quality high-resolution satellite imagery based in Berlin,...</div>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <p><a href="/content/featured-content">Browse all Featured Content...</a></p>
+    </div>
+  
+  
+</div>   </div>
+
+</section> <!-- /.block -->
+<section id="block-views-frontpage_downloads-block_1" class="block block-views clearfix">
+      <h2>Downloads</h2>
+  
+  <div class="content">
+        <div class="view view-frontpage-downloads view-id-frontpage_downloads view-display-id-block_1 view-dom-id-5">
+    
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid col-4">
+  <tbody>
+                <tr class="row-1 row-first row-last">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field-field-download-image-fid">
+                <span class="field-content"><a href="/sites/default/files/downloads/EUFODOS_Newsletter16_1213_0.pdf"><img src="http://www.eufodos.info/sites/default/files/imagecache/download_image_frontpage/downloads/EUFODOS_Newsletter16_1213_0.jpg" alt="EUFODOS Newsletter 16 12/13" title="EUFODOS Newsletter 16 12/13" width="90" height="127" class="imagecache imagecache-download_image_frontpage imagecache-default imagecache-download_image_frontpage_default"/></a></span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/sites/default/files/downloads/EUFODOS_Newsletter16_1213_0.pdf">EUFODOS Newsletter 16 12/13</a></span>
+  </div>
+          </td>
+                  <td class="col-2 col-last">
+              
+  <div class="views-field-field-download-image-fid">
+                <span class="field-content"><a href="/sites/default/files/downloads/EUFODOS_Newsletter15_1213.pdf"><img src="http://www.eufodos.info/sites/default/files/imagecache/download_image_frontpage/downloads/EUFODOS_Newsletter15_1213.jpg" alt="EUFODOS Newsletter 15 12/13" title="EUFODOS Newsletter 15 12/13" width="90" height="127" class="imagecache imagecache-download_image_frontpage imagecache-default imagecache-download_image_frontpage_default"/></a></span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/sites/default/files/downloads/EUFODOS_Newsletter15_1213.pdf">EUFODOS Newsletter 15 12/13</a></span>
+  </div>
+          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <ul>
+<li><a href="/content/downloads?tid%3DAll=All">Browse all downloads</a></li>
+<li><a href="/content/eufodos-reports">List of EUFODOS reports</a></li>
+</ul>
+    </div>
+  
+  
+</div>   </div>
+
+</section> <!-- /.block -->
+      </aside> <!-- /sidebar-left -->
+    
+    
+
+
+    <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://webstats.gaf.de/" : "http://webstats.gaf.de/");_paq.push(["setSiteId", "4"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["trackPageView"]);_paq.push(["setIgnoreClasses", [ "no-tracking", "colorbox" ]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+
+	
+	 
+	 
+  </div> <!-- /#wrapper -->
+
+      <footer id="footer" class="clearfix">
+            <section id="block-views-logos_footer-block_1" class="block block-views clearfix">
+  
+  <div class="content">
+        <div class="view view-logos-footer view-id-logos_footer view-display-id-block_1 view-dom-id-6">
+    
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid col-3">
+  <tbody>
+                <tr class="row-1 row-first row-last">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field-field-logo-image-fid">
+                <span class="field-content"><a href="http://ec.europa.eu/research/rea/ "><img  class="imagefield imagefield-field_logo_image" width="59" height="30" alt="" src="http://www.eufodos.info/sites/default/files/logos/logo_rea_0.png?1319797905" /></a></span>
+  </div>
+          </td>
+                  <td class="col-2">
+              
+  <div class="views-field-field-logo-image-fid">
+                <span class="field-content"><a href="http://ec.europa.eu/index_en.htm "><img  class="imagefield imagefield-field_logo_image" width="46" height="30" alt="" src="http://www.eufodos.info/sites/default/files/logos/logo_eu_0.png?1319797917" /></a></span>
+  </div>
+          </td>
+                  <td class="col-3 col-last">
+              
+  <div class="views-field-field-logo-image-fid">
+                <span class="field-content"><a href="http://cordis.europa.eu/fp7/home_en.html "><img  class="imagefield imagefield-field_logo_image" width="44" height="30" alt="" src="http://www.eufodos.info/sites/default/files/logos/logo_fp7_0.png?1319800331" /></a></span>
+  </div>
+          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+</section> <!-- /.block -->
+<section id="block-menu-menu-footer-links" class="block block-menu clearfix">
+  
+  <div class="content">
+        <ul class="menu"><li id="Contact" class="leaf first"><a href="/content/webform" title="Contact Form">Contact</a></li>
+<li id="Disclaimer" class="leaf"><a href="/content/disclaimer" title="Disclaimer">Disclaimer</a></li>
+<li id="Imprint" class="leaf"><a href="/content/imprint" title="Imprint">Imprint</a></li>
+<li id="PrivacyPolicy" class="leaf last"><a href="/content/privacy-policy" title="Privacy Policy">Privacy Policy</a></li>
+</ul>  </div>
+
+</section> <!-- /.block -->
+      	   <div id="footer-logo"></div>
+    </footer> <!-- /#footer -->
+
+</body>
+</html>

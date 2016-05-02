@@ -1,0 +1,662 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+
+<head>
+<script type="text/javascript" language="javascript">
+<!--
+ var date = new Date();
+ var URL = 'http://www.integral-project.eu/sml/crons.php';
+ var RandomString = date.getTime();
+ document.write('<img src="' + URL + '?' + RandomString+ '" width="1" height="1" border="0" alt=""');
+//-->
+</script>
+
+  <base href="http://www.integral-project.eu/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="Albert-Ludwigs-Universität Freiburg, Prof. Dr. Karl-Reinhard Volz, Metodi Sotirov, Aleksandras Stulginskis University, Prof. Ola Eriksson, Confederation of European Forest Owners, Swedish University of Agricultural Sciences, European Commission Joint Research Centre, Stichting FERN, European State Forest Association, Technical University Zvolen, Fachhochschule Salzburg Forschungsgesellschaft GmbH, Technische Universität München, Fraunhofer Center for Central and Eastern Europe MOEZ, University of Forestry Sofia, Fraunhofer Gesellschaft, University of Molise, Instituto Superior de Agronomia, University of Oxford, Annamaria Riemer, University of Padua, Davide Pettenella, National University of Ireland, Wageningen University Bas Arts, Portuguese Catholic University, Forest related, ecosystem approach, forest owners, European forest policy, forestry, forest, forestry authorities, forest ecosystem, forestry planners, forest ecosystem goods and services, integrated forest management, forest governance, multifunctional forest, multifunctional forestry, forest habitats, sustainable future, forest land, sustainable, management of forest ecosystems, forest landscapes, ecosystem services, forest management strategies, integrative forest management, forest models, landscape level, forest-related policies, Project related, alternative futures, projects objectives, back-casting, policy decisions, case study, case studies, policy formation, cooperation, international cooperation, policy instruments, implementable policy instruments, Decision Support Systems, DSS, policy makers, decision support tools, research, EU, scenario, FP 7, scenario development, future-oriented, Seventh Framework Programme, Integral, stakeholder involvement, landscape cases, sustainable use, management approach, trans-disciplinary knowledge, transition countries, management decisions, actors´ behavior, management strategies, demographic changes, political changes" />
+  <meta name="description" content="There is a need to improve existing policy and management approaches that have the potential to deliver a better balance between the multiple, conflicting demands for forest goods and services. Diminishing those discrepancies by providing a future-oriented policy and management approach, which takes into consideration the sensitive issues of ecology, socio-economy and policy are the main objectives of INTEGRAL. " />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>INTEGRAL - Start / News</title>
+  <link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/templates/jp_ecology/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="http://www.integral-project.eu/component/search/?format=opensearch" rel="search" title="Search INTEGRAL" type="application/opensearchdescription+xml" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_lofarticlesslideshow/assets/jstyle.css" type="text/css" />
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/media/system/js/modal.js" type="text/javascript"></script>
+  <script src="/modules/mod_lofarticlesslideshow/assets/jscript.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($$('a.modal'), {
+				parse: 'rel'
+			});
+		});
+  </script>
+
+<link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+<link rel="stylesheet" href="/templates/system/css/general.css" type="text/css" />
+<link href="/templates/jp_ecology/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<link href="/templates/jp_ecology/css/layout.css" rel="stylesheet"  type="text/css" />
+<link href="/templates/jp_ecology/css/template.css" rel="stylesheet"  type="text/css" />
+<link href="/templates/jp_ecology/css/menu.css" rel="stylesheet"  type="text/css" />
+<link href="/templates/jp_ecology/css/module.css" rel="stylesheet"  type="text/css" />
+<link href="/templates/jp_ecology/css/joomla16.css" rel="stylesheet"  type="text/css" />
+
+<link href="/templates/jp_ecology/css/wood.css" rel="stylesheet"  type="text/css" />
+
+<link href="/templates/jp_ecology/superfish/css/superfish.css" rel="stylesheet"  type="text/css" />
+<link href="/templates/jp_ecology/slimbox/css/slimbox2.css" rel="stylesheet"  type="text/css" />
+
+<script type="text/javascript" src="/templates/jp_ecology/superfish/js/jquery.js"></script>
+<script type="text/javascript" src="/templates/jp_ecology/superfish/js/jquery.event.hover.js"></script>
+<script type="text/javascript" src="/templates/jp_ecology/superfish/js/jquery.bgiframe.min.js"></script>
+<script type="text/javascript" src="/templates/jp_ecology/superfish/js/supersubs.js"></script>
+<script type="text/javascript" src="/templates/jp_ecology/superfish/js/superfish.js"></script>
+<script src="/templates/jp_ecology/js/tooltip.js" type="text/javascript"></script>
+<script src="/templates/jp_ecology/slimbox/js/slimbox2.js" type="text/javascript"></script>
+<script type="text/javascript">
+jQuery.noConflict();
+jQuery(function($){ 
+	$("ul.sf-menu")
+		.supersubs({minWidth:12, maxWidth:50, extraWidth:1})
+		.superfish({
+		 	delay:       100,                            // one second delay on mouseout 
+            animation:   {opacity:'show',height:'show'},  // fade-in and slide-down animation 
+            speed:       'fast',                          // faster animation speed 
+            autoArrows:  true,                           // disable generation of arrow mark-up 
+            dropShadows: true                            // disable drop shadows 
+
+		}) 
+	$(".tooltip").simpletooltip();
+
+	});
+</script>
+
+
+
+<style type="text/css" media="screen">
+   #functions, #header_inner, #suckerfish, #jp_content, #jp_bottom{ width:1200px; }
+</style>
+<style type="text/css" media="screen">
+   #slideshow{ width:1000px; }
+</style>
+
+
+<style type="text/css" media="screen">
+   #functions_outer { display:none; }
+</style>
+
+
+<style type="text/css" media="screen">
+   #jp_bottom_outer { display:none }
+</style>
+<style type="text/css" media="screen">
+   .cell_wide { width:50%; }
+</style>
+
+
+<!--[if IE 6]>
+<script type="text/javascript" src="/templates/jp_ecology/js/unitpngfix.js"></script>
+<![endif]--> 
+
+<!--[if IE 7]>
+<link href="/templates/jp_ecology/css/ie7.css" rel="stylesheet"  type="text/css" />
+<![endif]--> 
+</head>
+<body>
+
+<div id="functions_outer">
+<div id="functions">
+	
+			<div class="clear"></div><!--AUTO HEIGH FIX FOR FIREFOX -->
+</div>
+</div>
+
+
+<!--BEGINN TOP -->
+<div id="header_outer">
+<div id="header_inner">
+		<div id="logo"><a href="/" class="tooltip" title=""><img src="/templates/jp_ecology/images/logo.png" alt="" border="0" /></a></div>
+				<div class="clear"></div><!--AUTO HEIGH FIX FOR FIREFOX -->
+</div>
+</div>
+
+<!--END TOP -->
+<!--BEGINN SLIDESHOW -->
+<div id="slideshow_outer">
+<div id="slideshow">		<div class="module">
+			<div>
+				<div>
+					<div>
+											<!------------------------------------- THE CONTENT ------------------------------------------------->
+<div id="lofass43" class="lof-ass " style="height:auto; width:auto">
+<div class="lofass-container  lof-css3 grey lof-snright">
+    
+        <div class="preload"><div></div></div>
+         <!-- MAIN CONTENT --> 
+      <div class="lof-main-wapper" style="height:200px;width:1000px;">
+                        <div class="lof-main-item">
+                                   <img src="http://www.integral-project.eu/images/lofthumbs/1000x200/images/Meetings/INTEGRAL_Group_Foto_3.JPG" title="Project Consortium" > 
+                 
+                     
+                 <div class="lof-description">
+                    <h4><a target="_parent" title="Project Consortium" href="/about/all-module-positions.html">Project Consortium</a></h4>
+                                        <p>&nbsp; &nbsp; &nbsp;INTEGRAL Partners, &nbsp;Cross-Project Meeting in Dublin 2014 &nbsp;INTEGRAL Consortium &nbsp; The INTEGRAL consortium consists of 21 partners from 13 countries. Due to the inter-disciplinary and trans-disciplinary nature of the project, the team involves experts with different disciplinary backgrounds and research interests inter alia...</p>
+                                     </div>
+                                              </div> 
+                        <div class="lof-main-item">
+                                   <img src="/images/Header/information%20materials.jpg" title="Policy Briefs" > 
+                 
+                     
+                 <div class="lof-description">
+                    <h4><a target="_parent" title="Policy Briefs" href="/materials/policy-briefs.html">Policy Briefs</a></h4>
+                                        <p>&nbsp; &nbsp;</p>
+                                     </div>
+                                              </div> 
+                        <div class="lof-main-item">
+                                   <img src="http://www.integral-project.eu/images/lofthumbs/1000x200/images/Documents/Newsletter7/7th_Newsletter_Header.jpg" title="INTEGRAL Newsletter Issue 10/2015" > 
+                 
+                     
+                 <div class="lof-description">
+                    <h4><a target="_parent" title="INTEGRAL Newsletter Issue 10/2015" href="/information-materials/integral-newsletter/integral-newsletter-issue-10-2015.html">INTEGRAL Newsletter Issue 10/2015</a></h4>
+                                        <p>  </p>
+                                     </div>
+                                              </div> 
+                    
+      </div>
+      <!-- END MAIN CONTENT --> 
+        <!-- NAVIGATOR -->
+                      <div class="lof-buttons-control">
+                  <a href="/" onclick="return false;" class="lof-previous">Previous</a>
+                  <a href="/" class="lof-next"  onclick="return false;">Next</a>
+                </div>
+                        
+              <div class="lof-navigator-outer">
+                    <ul class="lof-navigator">
+                                            <li>
+                            <div>
+                                                                                                 <h4>Project Consortium</h4>
+                                                                                                                            </div>    
+                        </li>
+                                             <li>
+                            <div>
+                                                                                                 <h4>Policy Briefs</h4>
+                                                                                                                            </div>    
+                        </li>
+                                             <li>
+                            <div>
+                                                                                                 <h4>INTEGRAL Newsletter Issue 10/2015</h4>
+                                                                                                                            </div>    
+                        </li>
+                          
+                    </ul>
+              </div>
+              
+  </div>
+ </div> <script type="text/javascript">
+
+  var _lofmain =  $('lofass43'); 
+  var object = new LofSlideshow( _lofmain,
+                  { 
+                    fxObject:{
+                    transition:Fx.Transitions.Circ.easeIn,  
+                    duration:750                    },
+                    startItem:0,
+                    interval:7000,
+                    direction :'vrdown', 
+                    navItemHeight:70,
+                    navItemWidth:310,
+                    navItemsDisplay:3,
+                    navPos:'right'
+                  } );
+      object.registerButtonsControl( 'click', {next:_lofmain.getElement('.lof-next'),
+                         previous:_lofmain.getElement('.lof-previous')} );
+      object.start( 1, _lofmain.getElement('.preload') );
+
+</script>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--END SLIDESHOW -->
+
+<!--BEGINN SUCKERFISH -->
+<div id="menu_outer">
+<div id="suckerfish">		<div class="module_menu">
+			<div>
+				<div>
+					<div>
+											
+<ul class="menu sf-menu">
+<li class="item-101 current active"><a href="/" >Start / News</a></li><li class="item-102 deeper parent"><a href="/about.html" >About INTEGRAL</a><ul><li class="item-164 deeper parent"><a href="/about/project-description.html" >Project Description</a><ul><li class="item-230"><a href="/about/project-description/integral-landscape-case-study-areas.html" >INTEGRAL landscape case study areas</a></li></ul></li><li class="item-220"><a href="/about/scientific-advisory-board.html" >Scientific Advisory Board (SAB)</a></li><li class="item-125"><a href="/about/all-module-positions.html" >Project Consortium</a></li></ul></li><li class="item-103 deeper parent"><a href="/projectresults.html" >Results</a><ul><li class="item-106"><a href="/projectresults/project-outcomes.html" >Deliverables and Milestones</a></li><li class="item-209"><a href="/projectresults/publications-integral.html" >Publications </a></li></ul></li><li class="item-109 deeper parent"><a href="/materials.html" >Information Materials</a><ul><li class="item-110"><a href="/materials/pressmaterials.html" >Press Materials</a></li><li class="item-111"><a href="/materials/article-slideshow-module.html" >Project Events</a></li><li class="item-155"><a href="/materials/policy-briefs.html" >Policy Briefs</a></li><li class="item-274"><a href="/materials/eu-policy-paper.html" >EU Policy Paper</a></li><li class="item-217"><a href="/materials/information-sheets.html" >Information Sheets</a></li><li class="item-199"><a href="/materials/fact-sheets.html" >Fact Sheets</a></li><li class="item-200"><a href="/materials/project-flyer.html" >Project Flyer</a></li><li class="item-208"><a href="/materials/newsletter.html" >Newsletters</a></li><li class="item-223"><a href="/materials/project-poster.html" >Project Poster</a></li><li class="item-229"><a href="/materials/project-rollup.html" >Project Rollup</a></li><li class="item-225"><a href="/materials/project-logo.html" >Project Logo</a></li></ul></li><li class="item-112 deeper parent"><a href="/contact-imprint.html" >Contact / Imprint</a><ul><li class="item-204"><a href="/contact-imprint/integral-contact.html" >Contact INTEGRAL</a></li><li class="item-201"><a href="/contact-imprint/imprint.html" >Imprint</a></li></ul></li></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div></div>
+<!--END SUCKERFISH -->
+
+<!--BEGINN JP CONTENT -->
+<div id="jp_content_outer">
+
+<div id="jp_content">
+
+<!--BEGINN TABLE CONTENT -->
+<center>
+	 <table border="0" cellpadding="0" cellspacing="0" width="100%" style="padding-bottom:10px" >
+    <tr>
+      <td align="left" valign="top" style="padding-right:30px" width="220" class="td_left"><div id="left">		<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>Search INTEGRAL</h3>
+											<form action="/" method="post">
+	<div class="search">
+		<label for="mod-search-searchword">Search...</label><input name="searchword" id="mod-search-searchword" maxlength="20"  class="inputbox" type="text" size="20" value="Search..."  onblur="if (this.value=='') this.value='Search...';" onfocus="if (this.value=='Search...') this.value='';" />	<input type="hidden" name="task" value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="101" />
+	</div>
+</form>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>INTEGRAL Information</h3>
+											
+<ul class="menu">
+<li class="item-218 parent"><a href="/news.html" >News &amp; Events</a></li><li class="item-153"><a href="/useful-links.html" >Useful Links</a></li><li class="item-154"><a href="/vacancies.html" >Research Opportunities</a></li></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module_white">
+			<div>
+				<div>
+					<div>
+											
+
+<div class="custom_white"  >
+	<p style="text-align: center;"><a href="http://www.integral-internal.eu" target="_blank"><img src="/images/integralfinal%2072dpi%20ohne%20s.jpg" alt="integralfinal 72dpi ohne s" width="75" height="40" /></a></p>
+<p style="text-align: center;"><span style="font-size: 8pt;"><strong><a href="http://www.integral-internal.eu" target="_blank">Intranet Login</a></strong></span></p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module_white_new">
+			<div>
+				<div>
+					<div>
+											
+
+<div class="custom_white_new"  >
+	<p class="EinfacherAbsatz"> </p>
+<p class="EinfacherAbsatz"><strong style="line-height: 1.4;"><span class="Zeichenformat1" style="font-size: 8pt;"><span style="line-height: 120%; color: #799d22; letter-spacing: 0.35pt;">“OPINIONS FROM THE NGO PERSPECTIVE”</span></span></strong></p>
+<p class="EinfacherAbsatz"> </p>
+<p class="EinfacherAbsatz"><span style="letter-spacing: 0.35pt; line-height: 120%; font-size: 8pt;">The INTEGRAL project consortium can benefit from the experience and expert opinion of the European interest group organisations EUSTAFOR and CEPF (European State Forest Association and the Confederation of European Forest Owners) and the environmental NGO FERN (Stichting FERN).  They represent different stakeholders in Europe such as private and state forest owners and environmental groups. In this section, we would like to give these organisations an opportunity to publish their positions on current forest-related topics in Europe. (The views expressed in the articles are those of the author and do not necessarily reflect those of the INTEGRAL consortium.)</span></p>
+<p class="EinfacherAbsatz"> </p>
+<p class="EinfacherAbsatz"><span style="letter-spacing: 0.35pt; line-height: 120%; font-size: 8pt;"></span><span style="color: #800000; font-size: 8pt;"><strong>New: EUSTAFOR Position "Increasing Land Use Conflicts in State Forest Management Areas - Shared Problems, Concepts and Experiences for Coping Strategies" (Published 11/2015)</strong></span></p>
+<p> </p>
+<p><a href="/news/download-materials.html"><span style="color: #799d22; font-size: 11px; letter-spacing: 0.466666668653488px; line-height: 12.8000001907349px;">Read more about the views of interest groups organisations and environmental NGOs in this section!</span></a></p>
+<p> </p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module_white">
+			<div>
+				<div>
+					<div>
+											
+
+<div class="custom_white"  >
+	<p style="text-align: center;"><strong style="color: #800000; line-height: 1.4;"><span style="font-size: 10pt;"> News &amp; Events</span></strong></p>
+<p style="text-align: center;"> </p>
+<hr />
+<p style="text-align: left;"><strong><span style="font-size: 8pt; color: #669933;"> 07/2015</span></strong></p>
+<p style="text-align: left;"> </p>
+<p> <img style="color: #000000; line-height: 18.2px;" src="/images/Unbenannt.png" alt="Unbenannt" width="100" height="87" /></p>
+<p><span style="color: black; font-size: 8pt;">A blog entry on the challenges and findings of the INTEGRAL project has been submitted by <span style="color: #000000; line-height: 18.2px;">A. Giurca (University of Freiburg, Germany) </span>on the <a href="https://forests2015.wordpress.com/2015/07/20/across-forests-and-stakeholders-embracing-complexity-and-bringing-the-landscape-dimension-closer-to-europe/">World Forestry Congress <span style="color: #000000; line-height: 18.2px;">#Forests2015 Blog Competition </span>page</a>.  </span></p>
+<p> </p>
+<p> </p>
+<p style="text-align: left;"> <span style="color: #669933; font-size: 8pt;"><strong>11/2015</strong></span></p>
+<p style="text-align: left;"> </p>
+<p><span style="font-size: 8pt;">The main findings of INTEGRAL have been presented to the broad international audience in the latest issue of <span style="color: #669933;">EFI News</span> (newsletter of the European Forest Institute). The particular focus of the article was laid on the French case study region Pontenx and the new landscape tool for assessing the evolution of ecosystem goods and services according to various policy scenarios developed within INTEGRAL: <span style="color: #669933;"><a href="http://www.efi.int/files/images/publications/efi_news_2015-1_final_net.pdf"><span style="color: #669933;">http://www.efi.int/files/images/publications/efi_news_2015-1_final_net.pdf</span></a></span></span></p>
+<p> </p>
+<p style="text-align: right;"><span style="font-size: 8pt;"></span><a href="/news.html" style="text-decoration: none; font-size: 11px; line-height: 14px;"><span style="color: #800000;"></span></a><em style="font-size: 10.6666669845581px; line-height: 18.2000007629395px;"><a href="/news.html" style="text-decoration: none; font-size: 11px; line-height: 14px;"><span style="color: #800000;">[Check here for more information..]</span></a></em></p>
+<p> </p>
+<ul>
+<li><hr /></li>
+</ul></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div></td>      <td align="left" valign="top" >
+	    <div id="breadcrumbs">
+<div class="breadcrumbs">
+<span class="showHere">You are here: </span><span>Home</span></div>
+</div>		<div class="round_white">		<div class="module_white">
+			<div>
+				<div>
+					<div>
+											
+
+<div class="custom_white"  >
+	<h1 style="text-align: center;"><span style="font-size: 12pt;"><em><span style="font-family: verdana,geneva;"><span style="color: #808000;"><strong><img src="/images/Header/NewsStart_3Text.jpg" alt="NewsStart 3Text" width="900" height="82" />&nbsp;</strong></span></span></em></span><span style="line-height: 1.4; text-align: left;">&nbsp;<br /></span></h1>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;"><strong style="color: #800000; line-height: 1.4; text-decoration: underline;">Background</strong></span></p>
+<p>In the European Union, the important environmental and socio-economic roles of forests are widely known.&nbsp;However, there are critical incoherencies between the forest-related policies at the European level and their&nbsp;implementation in the regions in the member states.</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline; color: #800000;"><strong>Goals</strong></span></p>
+<p>The main objective of the four-year project INTEGRAL is to bring the landscape dimension closer to Europe. At the same time,the project provides demand-driven information for European policy decision makers on the challenges in forest management&nbsp;in 20 regions throughout Europe.</p>
+<p><span style="font-family: verdana,geneva; font-size: 10pt; color: #333333;">&nbsp;</span></p>
+<p><span style="color: #669900;"><strong>INTEGRAL</strong></span> provides solutions for:</p>
+<p>&nbsp;</p>
+<ul>
+<li>effective management strategies at the landscape level</li>
+<li>decision support tools for future-oriented and integrated forest management</li>
+<li>coherent EU policy instruments</li>
+</ul>
+<p><span style="font-family: verdana,geneva; font-size: 10pt; color: #333333;">&nbsp;</span></p>
+<p><a href="/integral-is-about.html" target="_self" title="About INTEGRAL Project">[+] Further information about the<span style="color: #669900;"><strong> INTEGRAL</strong></span> Project</a></p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>		<div id="main">
+<div id="system-message-container">
+</div><div class="blog-featured">
+
+
+
+
+</div>
+
+		<div class="round_white">		<div class="module_white">
+			<div>
+				<div>
+					<div>
+													<h3>Key Facts</h3>
+											
+
+<div class="custom_white"  >
+	<table border="0">
+<tbody>
+<tr>
+<td>
+<ul>
+<li><span style="color: #000000;"><strong>Project Acronym:</strong></span></li>
+</ul>
+</td>
+<td><span style="color: #7ab017;">&nbsp;<span style="color: #669900;"><strong>INTEGRAL</strong></span></span></td>
+</tr>
+<tr>
+<td>
+<ul>
+<li><span style="color: #000000;"><strong>Project Full Title:</strong></span></li>
+</ul>
+</td>
+<td><span style="color: #669900;"><strong>&nbsp;Future-Oriented Integrated Management of European Forest Landscapes </strong></span></td>
+</tr>
+<tr>
+<td>
+<ul>
+<li><span style="color: #000000;"><strong>Project Duration:</strong></span></li>
+</ul>
+</td>
+<td><span style="color: #669900;"><strong>&nbsp;01/11/2011 - 01/11/2015</strong><span style="line-height: 115%; font-family: Calibri, sans-serif; font-size: 11pt;"> </span></span></td>
+</tr>
+<tr>
+<td>
+<ul>
+<li><span style="color: #000000;"><strong>Funding Scheme:</strong></span></li>
+</ul>
+</td>
+<td><span style="color: #669900;">&nbsp;<strong>FP7 Seventh Framework Programme, Theme Environment [ENV.2011.2.1.6-1]</strong></span></td>
+</tr>
+<tr>
+<td>
+<ul>
+<li><span style="color: #000000;"><strong>Project Coordinator:</strong></span></li>
+</ul>
+</td>
+<td><span style="color: #669900;"><strong>&nbsp;Prof. Dr. Ljusk Ola Eriksson, Swedish University of Agricultural Sciences (Sweden)</strong></span></td>
+</tr>
+<tr>
+<td>
+<ul>
+<li><strong><span style="color: #000000;">Scientific Coordinator:</span></strong></li>
+</ul>
+</td>
+<td><span style="color: #669900;"><strong>&nbsp;Dr.&nbsp;Metodi Sotirov,&nbsp;Chair of Forest and Environmental Policy, University of Freiburg (Germany)</strong></span></td>
+</tr>
+</tbody>
+</table></div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module_white_new">
+			<div>
+				<div>
+					<div>
+													<h3>Latest Project Results</h3>
+											
+
+<div class="custom_white_new"  >
+	<p style="text-align: left;"><span> </span></p>
+<table style="float: left;" border="0">
+<tbody>
+<tr>
+<td>
+<p><span style="font-size: 10pt;"><em><strong><span style="line-height: 1.4; color: #800000;">Latest INTEGRAL results have been published online: </span></strong></em></span></p>
+<p> </p>
+<ul>
+<li><a href="/policy-briefs.html"><span style="font-size: 10pt;">INTEGRAL Fourth Policy Brief "Integrating footprint thinking into EU forest-related policy"<br /></span></a></li>
+</ul>
+<p> </p>
+<ul>
+<li><span style="font-size: 10pt;"><a href="/project-outcomes.html">D 2.3 “Implications of the back-casting exercise at the local level for the landscape case study areas” </a></span></li>
+</ul>
+<p> </p>
+<ul>
+<li>
+<p><span style="font-size: 10pt;"><a href="/project-outcomes.html">D 3.3 "Synthesis Report on Integrated Forest Management Scenarios in Europe including the National Case Study Reports and the Report on the Role of EU Commodity Consumption" and corresponding 10 Case Study Report</a><span style="color: #333333;"><a href="/project-outcomes.html"><span style="color: #333333;">s</span></a></span></span></p>
+</li>
+<li></li>
+</ul>
+<p><span style="font-size: 8pt;">  </span></p>
+</td>
+</tr>
+</tbody>
+</table></div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module_white_new">
+			<div>
+				<div>
+					<div>
+													<h3> INTEGRAL Newsletter  </h3>
+											
+
+<div class="custom_white_new"  >
+	<table style="float: left;" border="0">
+<tbody>
+<tr>
+<td style="text-align: center;"> <img src="/images/Documents/Newsletter7/7th_Newsletter_Header.jpg" alt="7th Newsletter Header" width="300" height="44" /></td>
+<td style="text-align: center;">   </td>
+<td><a href="/information-materials/integral-newsletter/integral-newsletter-issue-10-2015.html"><span style="color: #669900;"><span style="color: #669900;"><strong><span style="font-size: 10pt;"><span style="color: #800000;">7<sup>th</sup> INTEGRAL Newsletter is now available online!</span></span></strong></span></span></a></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 12pt;"><strong><span style="color: #800000;"></span></strong></span></p>
+<p><span style="font-size: 12pt;"><strong><span style="color: #800000;"></span></strong></span></p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"> </p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module_white_new">
+			<div>
+				<div>
+					<div>
+													<h3> INTEGRAL EU Policy Paper</h3>
+											
+
+<div class="custom_white_new"  >
+	<table>
+<tbody>
+<tr>
+<td><img src="/images/Documents/EuPolicyPaper/header_short.jpg" alt="header short" width="300" height="42" /> </td>
+<td> <span style="color: #ffffff;">__</span></td>
+<td>
+<p><span style="color: #800000;"><strong><span style="font-size: 10pt;"><a href="/information-materials/eu-policy-paper.html"><span style="color: #800000;">INTEGRAL EU Policy Paper “Forest Policy Integration in Europe: Lessons Learnt, Challenges Ahead, and Strategies to Support Sustainable Forest Management and Multifunctional Forestry in the Future“ is now available online!</span></a></span></strong></span></p>
+</td>
+</tr>
+</tbody>
+</table></div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module_white">
+			<div>
+				<div>
+					<div>
+													<h3>INTEGRAL Final Conference</h3>
+											
+
+<div class="custom_white"  >
+	<p style="text-align: center;"> </p>
+<p style="margin-bottom: 0.0001pt; line-height: 18.2000007629395px; text-align: center;"><span style="font-size: 12pt; color: #669933;"><strong>INTEGRAL final conference</strong></span></p>
+<p style="margin-bottom: 0.0001pt; line-height: 18.2000007629395px; text-align: center;"> </p>
+<p style="margin-bottom: 0.0001pt; line-height: 18.2000007629395px; text-align: center;"><span style="color: #669933;"> <span style="font-size: 12pt;"><strong>“SUSTAINABLE AND MULTIFUNCTIONAL FOREST MANAGEMENT IN EUROPE:</strong></span></span></p>
+<p style="margin-bottom: 0.0001pt; line-height: 18.2000007629395px; text-align: center;"><span style="font-size: 12pt; color: #669933;"><strong>ACHIEVEMENTS, CHALLENGES AND FUTURE POLICY OPTIONS”</strong></span></p>
+<p style="margin-bottom: 0.0001pt; line-height: 18.2000007629395px; text-align: center;"> </p>
+<p style="line-height: 18.2000007629395px; text-align: justify;"><span style="color: #000000;">The INTEGRAL final conference, held in Brussels on June 24-25, 2015, has focused on the future-oriented and integrated management of forest landscapes in Europe. During the two day event, over 110 participants from more than 15 countries shared knowledge, experiences and solutions, creating a wide range of networking opportunities and resulting in policy relevant recommendations to support sustainable and multifunctional forest management.</span></p>
+<p style="line-height: 18.2000007629395px; text-align: justify;"> </p>
+<p style="line-height: 18.2000007629395px; text-align: justify;"><span style="color: #000000;"></span><span style="color: #000000;">A series of cutting-edge keynote speeches, given by high-level representatives of various Directorates General of the European Commission and the European Parliament as well as lectures from internationally renowned scientists contributed to the success of the conference. Furthermore, interactive sessions enabled a lively discussion on ongoing forest-related political developments and the possibilities of implementing integrative forest policy concepts such as 'sustainable forest management' and 'multifunctional forestry' in forest-related landscapes in Europe.</span></p>
+<p style="line-height: 18.2000007629395px; text-align: justify;"> </p>
+<p style="line-height: 18.2000007629395px; text-align: justify;"><span style="color: #000000;"></span><span style="color: #000000;"><span style="line-height: 1.4;">The world café session </span><em style="color: #3b3838; line-height: 1.4;">MINI EUROPE</em><span style="line-height: 1.4;"> provided an extensive insight into four years of research on current and future policies and scientifically based findings on socio-economic and ecological drivers and barriers of change in integrated forest land-use in twenty landscapes across ten European countries.</span></span><span style="color: #000000;"><span style="line-height: 1.4;"></span></span><span style="color: #000000; line-height: 1.4;">In </span><em style="color: #000000; line-height: 1.4;">working group discussions</em><span style="color: #000000; line-height: 1.4;">, the conference participants have explored issues concerning integration and balance between forestry and other sectors, including rural development, nature conservation and bioenergy at the European level. </span><span style="color: #000000; line-height: 1.4;">The conference outcomes have enriched the <span style="color: #669933;"><a href="/information-materials/eu-policy-paper.html"><span style="color: #669933;">INTEGRAL EU</span></a></span></span><span style="color: #669933;"><a href="/information-materials/eu-policy-paper.html"><span style="line-height: 1.4; color: #669933;"> Policy Paper</span></a></span><span style="color: #000000; line-height: 1.4;">.</span></p>
+<p style="margin-bottom: 0.0001pt; text-align: justify;"> </p>
+<p style="margin-bottom: 0.0001pt; text-align: justify;"><span style="line-height: 18.2000007629395px; text-align: left;"></span><span style="text-align: center; line-height: 1.4;"></span></p>
+<p style="text-align: center;"><span style="font-size: 12pt;"><a href="/project-events/final-conference.html"><em style="color: #777777; font-size: 10.6666669845581px; line-height: 18.2000007629395px; background-color: #ffffff;"><span style="color: #800000;"><strong>[Follow this link for for detailed information on the conference...]</strong></span></em></a></span></p>
+<p style="text-align: center;"><span style="font-size: 12pt;"></span></p>
+<p style="text-align: center;"><span style="line-height: 1.4;"></span></p>
+<p> </p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>		<div class="clear"></div><!--AUTO HEIGH FIX FOR FIREFOX -->
+		</div>
+	  </td>    </tr>
+  </table>
+</center>
+<!--END TABLE CONTENT -->
+<div class="clear"></div><!--AUTO HEIGH FIX FOR FIREFOX -->
+<!--END JP CONTENT -->
+</div>
+</div>
+
+<!--BEGINN JP BOTTOM -->
+<div id="jp_bottom_outer">
+<div id="jp_bottom">
+<!--BEGINN USER MODULE -->
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+  <tr>
+        	
+  </tr>
+</table>
+</center>
+<!--END USER MODULE -->
+
+<div class="clear"></div><!--AUTO HEIGH FIX FOR FIREFOX -->
+<!--END JP BOTTOM -->
+</div>
+</div>
+<!--BEGINN FOOTER -->
+<div id="footer">		<div class="module_white">
+			<div>
+				<div>
+					<div>
+											
+
+<div class="custom_white"  >
+	<p style="text-align: center;"> </p>
+<table style="margin-right: auto; margin-left: auto;">
+<tbody>
+<tr>
+<td style="font-size: 15.5555562973022px;">
+<p style="text-align: center;"><span style="color: #808080;"><em style="font-size: 8pt; line-height: 1.4;"><span style="font-family: Calibri, sans-serif;"><img style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15.5555562973022px; line-height: normal; display: block; margin-right: auto; vertical-align: top;" src="/images/eu_flagge.jpg" alt="" width="35" height="22" /></span></em></span></p>
+</td>
+<td style="font-size: 15.5555562973022px;">
+<p style="text-align: center;"><span style="color: #ffffff;"><em style="font-size: 8pt; line-height: 1.4;"><span style="font-family: Calibri, sans-serif;">__</span></em></span></p>
+</td>
+<td style="font-size: 15.5555562973022px;">
+<p style="text-align: center;"><em style="font-size: 8pt; line-height: 1.4;"><span style="font-family: Calibri, sans-serif;"><em>This project has received funding from the European Union’s Seventh Programme for research, technological development and demonstration under grant agreement No </em>282887.</span></em></p>
+<p><span style="color: #808080;"><em style="font-size: 8pt; line-height: 1.4;"><span style="font-family: Calibri, sans-serif;"></span></em></span></p>
+</td>
+</tr>
+</tbody>
+</table></div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module">
+			<div>
+				<div>
+					<div>
+											<div class="footer1">Copyright &#169; 2016 INTEGRAL. All Rights Reserved.</div>
+<div class="footer2"><a href="http://www.joomla.org">Joomla!</a> is Free Software released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License.</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!--END FOOTER -->
+
+<!-- WiredMinds eMetrics tracking with LeadLab V5.9.6 START -->
+<script type="text/javascript" src="http://wm.wiredminds.de/track/count.js"></script>
+<script type="text/javascript"><!--
+wiredminds.push(["setTrackParam", "wm_custnum", "1ad522099d01608b"]);
+// Begin own parameters.
+wiredminds.push(["setTrackParam", "wm_campaign_key", "utm_campaign"]);
+// End own parameters.
+wiredminds.push(["count"]);
+// wiredminds.push(["setTrackParam", "wm_content_width", 0]); // For centered layouts set content width
+// wiredminds.push(["registerHeatmapEvent", "mousedown"]);
+
+// -->
+</script>
+
+<noscript>
+<div>
+<a href="http://www.wiredminds.de"><img
+ src="http://wm.wiredminds.de/track/ctin.php?wm_custnum=1ad522099d01608b&amp;nojs=1&amp;wm_page_name=PAGE_NAME&amp;wm_group_name=GROUP_NAME"
+ alt="" style="border:0px;"/></a>
+</div>
+</noscript>
+<!-- WiredMinds eMetrics tracking with LeadLab V5.9.6 END --></body>
+</html>

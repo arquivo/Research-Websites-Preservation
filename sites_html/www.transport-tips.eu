@@ -1,0 +1,556 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>TIPS project</title>
+									<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="" />
+<meta name="author" content="www.transport-tips.eu"/>
+<meta name="robots" content="index, follow"/>
+<meta name="revisit-after" content="1 Hour"/>
+<meta name="language" content="EN"/>
+<meta name="copyright" content="transport-tips"/>
+<meta name="rating" content="general"/>
+<meta name="y_key" content=""/>
+<meta name="alexaVerifyID" content="" />
+<meta name="msvalidate.01" content="" />
+<meta name="copyright" content="transport-tips 2011++" />
+<meta name="googlebot" content="noodp" />
+<meta name="slurp" content="noydir" />
+<meta name="msnbot" content="noodp" />
+<link href="http://www.transport-tips.eu/resources/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />	<base href="http://www.transport-tips.eu/" />
+	<link href="http://www.transport-tips.eu/resources/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="http://www.transport-tips.eu/resources/css/editor.css" rel="stylesheet" type="text/css" />
+	<script src="http://www.transport-tips.eu/resources/js/jquery.js" type="text/javascript"></script>
+	<script type='text/javascript' src='http://www.transport-tips.eu/resources/js/menu.js'></script>
+
+		<link rel="stylesheet" href="http://www.transport-tips.eu/resources/js/lightbox/css/jquery.lightbox-0.5.css" type="text/css" media="screen" />
+	<script src="http://www.transport-tips.eu/resources/js/lightbox/js/jquery.lightbox-0.5.js" type="text/javascript"></script>
+	
+		<script type="text/javascript">
+			$(function() {
+				$('a.lightbox').lightBox();
+			});
+		</script>
+	
+
+		<script type='text/javascript' src='http://www.transport-tips.eu/resources/js/autocomplete/jquery.autocomplete.js'></script>
+	<link rel="stylesheet" type="text/css" href="http://www.transport-tips.eu/resources/js/autocomplete/jquery.autocomplete.css" />
+
+	<link rel="stylesheet" type="text/css" href="http://www.transport-tips.eu/resources/js/jquery-ui-1.8.16.custom/css/custom-theme/jquery-ui-1.8.16.custom.css" />
+	<script type="text/javascript" src="http://www.transport-tips.eu/resources/js/jquery-ui-1.8.16.custom/js/jquery-ui-1.8.16.custom.min.js"></script>
+	<script type="text/javascript" src="http://www.transport-tips.eu/resources/js/jquery.youtubepopup.min.js"></script>
+	
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("a.youtube").YouTubePopup({ autoplay: 1 });
+			});
+		</script>
+	
+
+
+	
+		<script type="text/javascript">
+			$(function() {
+				$( "#accordion" ).accordion({ 
+				    collapsible: true, 
+				    autoHeight: false, 
+				    active: false 
+				});
+			});
+		</script>
+	
+
+	<script type="text/javascript" src="http://www.transport-tips.eu/resources/js/slides/js/slides.min.jquery.js"></script>
+	
+		<script type="text/javascript">
+			$(function(){
+				$('#slides').slides({
+					preload: true,
+					preloadImage: 'http://www.transport-tips.eu/resources/js/slides/img/loading.gif',
+					play: 5000,
+					pause: 2500,
+					hoverPause: true
+				});
+			});
+		</script>
+	
+
+		<link rel="stylesheet" href="http://www.transport-tips.eu/resources/js/tablesorter/themes/black/style.css" type="text/css" media="print, projection, screen" />
+	<script type="text/javascript" src="http://www.transport-tips.eu/resources/js/tablesorter/jquery.tablesorter.js"></script>
+	<script type="text/javascript" src="http://www.transport-tips.eu/resources/js/tablesorter/addons/pager/jquery.tablesorter.pager.js"></script>
+	<script type="text/javascript" src="http://www.transport-tips.eu/resources/js/tablesorter/chili/chili-1.8b.js"></script>
+
+	
+		<script type="text/javascript">
+			$(document).ready(function() { 
+			    $("#myTable") 
+			    .tablesorter(
+					{
+						widthFixed: true, widgets: ['zebra'],
+						dateFormat: 'uk',
+						 headers: {
+							0:{sorter:'shortDate'},
+							1:{sorter:'shortDate'}
+							}
+					}) 
+			    .tablesorterPager({container: $("#pager")
+				}); 
+				
+				
+				$("#myTable a").click(function() {
+					$('#myTable .odd').removeClass('active');
+					$('#myTable .even').removeClass('active');
+					$(this).parents('.even').removeClass('active');
+					$(this).parents('.odd').addClass('active');
+					$(this).parents('.even').addClass('active');
+				});				
+			}); 
+		</script>
+	
+	
+	
+	
+
+	<script type="text/javascript" src="http://www.transport-tips.eu/resources/js/jquery.qtip/jquery.qtip-1.0.0-rc3.min.js"></script>
+	
+		<script type="text/javascript">
+			$(document).ready(function() 
+			{
+			   $(".under_construction").qtip({
+				   content: 'Page is under construction. Please try another time!',
+				   position: { adjust: { x: -160, y: -230 } },
+				   style: { 
+				      width: 200,
+				      padding: 5,
+				      background: '#255171',
+				      color: '#ffffff',
+				      textAlign: 'center',
+				      border: {
+					 width: 7,
+					 radius: 5,
+					 color: '#255171'
+				      },
+				      tip: 'bottomLeft',
+				      name: 'dark' // Inherit the rest of the attributes from the preset dark style
+				   }
+				});
+				
+				$(".under_construction_narrow").qtip({
+				   content: 'Page is under construction. Please try another time!',
+				   position: { adjust: { x: -20, y: -160 } },
+				   style: { 
+				      width: 200,
+				      padding: 5,
+				      background: '#255171',
+				      color: '#ffffff',
+				      textAlign: 'center',
+				      border: {
+					 width: 7,
+					 radius: 5,
+					 color: '#255171'
+				      },
+				      tip: 'bottomLeft',
+				      name: 'dark' // Inherit the rest of the attributes from the preset dark style
+				   }
+				});
+			});
+		</script>
+	
+	<script type="text/javascript" src="http://www.transport-tips.eu/resources/js/treemenu/jquery.checkboxtree.min.js"></script>
+	
+		<script type="text/javascript">
+			$(document).ready(function() 
+			{
+				$('#treeMenu').checkboxTree({ initializeChecked: 'collapsed', initializeUnchecked: 'collapsed', onCheck: { node: 'expand' }, onUncheck: { node: 'collapse' }});
+				$('#treeMenuCheckAll').click(function(){ $('#treeMenu').checkboxTree('checkAll'); }); 
+				$('#treeMenuUncheckAll').click(function(){ $('#treeMenu').checkboxTree('uncheckAll'); });
+				
+
+				
+			});
+		</script>
+	
+	<script type="text/javascript" src="http://www.transport-tips.eu/resources/js/jquery.flip.min.js"></script>
+	<script type="text/javascript" src="http://www.transport-tips.eu/resources/js/script.js"></script>
+	<script type="text/javascript">
+
+ 
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-38160541-1']);
+
+  _gaq.push(['_setDomainName', 'transport-tips.eu']);
+
+  _gaq.push(['_setAllowLinker', true]);
+
+  _gaq.push(['_trackPageview']);
+
+ 
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+ 
+
+</script>
+</head>
+<body>
+<div id="background">
+<div id="art-page-background-glare">
+<div id="art-page-background-glare-image">
+<div id="main">
+		<div class="sheet">	
+			
+    <div class="curvy_sheet repeat_sheet radius_sheet border_sheet">
+
+ 
+						
+								<div class="cleared"></div>
+				<div class="header_area">
+					<a class="logo_img" href="http://www.transport-tips.eu" title="TIPS project"><img src="http://www.transport-tips.eu/resources/images/logo.png" alt="TIPS project" title="TIPS project" /></a>			    	
+					<div style="float:right;width:700px;margin-top:60px;">
+                        <div class="top_supporters">
+                    		<form method="post" action="http://www.transport-tips.eu/search" class="search_form">
+                    		                    			&nbsp;&nbsp;&nbsp;<input class="searchfield" type="text" id="simplesearch" name="simple-search" value="Search" onfocus="this.value=''" />
+                    			<table cellpadding="0" cellspacing="0" border="0" id="search_button">
+                    				<tr>
+                    					<td valign="middle" align="center" >
+                    						<input style="background:transparent; border:0; color:#ffffff;margin:0; cursor:pointer;"type="submit" name="search" value="OK" />
+                    					</td>
+                    				</tr>
+                    			</table>
+                    		</form>
+    					</div>	  
+                        <div class="top_menu">
+	<div class="mainpage ">
+		<a class="mainpage " href="http://www.transport-tips.eu">Home</a>
+	</div>
+	<div class="partners_area " >
+		<a class="partners_area " href="http://www.transport-tips.eu/partners">Collaboration space</a>
+	</div>
+		<div class="contact ">
+		<a class="contact " href="http://www.transport-tips.eu/contact">Contact us</a>
+	</div>
+</div>
+    
+                    </div>              
+                </div>				
+				<div class="cleared"></div>
+				<div class="main_menu">
+	<ul id="nav">
+							
+				
+		<li >
+			<a class="" href="http://www.transport-tips.eu/about">About TIPS</a>
+			<ul class="sub_menu">
+															<li ><a class="" href="http://www.transport-tips.eu/about/overview">Overview</a></li>
+											<li ><a class="" href="http://www.transport-tips.eu/about/target_groups">Target groups</a></li>
+														
+				<li ><a class="" href="http://www.transport-tips.eu/transport_partners">Partners</a></li>
+			</ul>				
+		</li>
+
+							
+					
+		
+		<li >
+			<a class="" href="http://www.transport-tips.eu/info_centre">Info centre</a>
+			<ul class="sub_menu">
+														
+						<li >
+							<a class="" href="http://www.transport-tips.eu/news">News</a>
+													</li>
+										
+						<li >
+							<a class="" href="http://www.transport-tips.eu/events">Events</a>
+													</li>
+										
+						<li >
+							<a class="" href="http://www.transport-tips.eu/useful_links">Useful links</a>
+													</li>
+										
+						<li >
+							<a class="" href="http://www.transport-tips.eu/funding_opportunities">Funding opportunities</a>
+													</li>
+																	</ul>
+				
+		</li>
+        
+							
+					
+		
+		<li >
+			<a class="" href="http://www.transport-tips.eu/project_activities">Activities</a>
+			<ul class="sub_menu">
+														
+						<li >
+							<a class="" href="http://www.transport-tips.eu/project_activities/at_a_glance">At a glance</a>
+													</li>
+										
+						<li >
+							<a class="" href="http://www.transport-tips.eu/project_activities/increase_awareness_actions">Increase awareness actions</a>
+													</li>
+										
+						<li >
+							<a class="" href="http://www.transport-tips.eu/project_activities/innovation_exploitation_assistance">Innovation and exploitation assistance</a>
+													</li>
+																	</ul>
+				
+		</li>        
+        
+		 
+				
+		
+		<li >
+			<a class="" href="http://www.transport-tips.eu/advisory_board">Advisory Board</a>
+		</li>
+
+		<li >
+			<a class="useful_material " href="http://www.transport-tips.eu/useful_material">Downloads</a>
+		</li>
+		
+				
+		
+		
+		
+		
+				
+		<li >
+			<a class="" href="http://www.transport-tips.eu/pages/training_academies">Training Academies</a>
+		</li>		
+				
+		<li >
+			<a class="" href="http://www.transport-tips.eu/pages/network_at_tra2014">Network @ TRA2014</a>
+		</li>		
+		     
+	</ul>
+	<div class="cleared"></div>
+</div>
+<div class="cleared"></div>				<div class="main_content">
+					
+    <div class="curvy_mainBlock">
+
+ 
+								                    <div class="content_container" style="padding: 5px 10px 5px 20px;height:280px">
+
+                        <div style="float:left;width:580px;">
+
+	<div id="slides">
+		<div class="slides_container">
+							<div class="slide_item">
+					<div class="content">
+                        <img src="http://www.transport-tips.eu/thumb/YTo0OntzOjM6InNyYyI7czozODoidXBsb2Fkcy9pbWFnZXMvd2hpdGVfdHJ1Y2tfcHJvZmlsZS5qcGciO3M6MToidyI7aTo1ODA7czoxOiJoIjtpOjI4MDtzOjI6InpjIjtpOjE7fQ" />			
+					</div>
+                    				</div>
+							<div class="slide_item">
+					<div class="content">
+                        <img src="http://www.transport-tips.eu/thumb/YTo0OntzOjM6InNyYyI7czozOToidXBsb2Fkcy9oZWFkZXJfaW1hZ2VzL2hlYWRlcl9pbWFnZTEuanBnIjtzOjE6InciO2k6NTgwO3M6MToiaCI7aToyODA7czoyOiJ6YyI7aToxO30" />			
+					</div>
+                    				</div>
+							<div class="slide_item">
+					<div class="content">
+                        <img src="http://www.transport-tips.eu/thumb/YTo0OntzOjM6InNyYyI7czo1MjoidXBsb2Fkcy9oZWFkZXJfaW1hZ2VzL2NpdmlsaWFuLWFpcmNyYWZ0XzY5MGE5YTZmLmpwZyI7czoxOiJ3IjtpOjU4MDtzOjE6ImgiO2k6MjgwO3M6MjoiemMiO2k6MTt9" />			
+					</div>
+                    				</div>
+							<div class="slide_item">
+					<div class="content">
+                        <img src="http://www.transport-tips.eu/thumb/YTo0OntzOjM6InNyYyI7czo1MToidXBsb2Fkcy9oZWFkZXJfaW1hZ2VzL2J1bGstY2Fycmllci1jYXJnby1zaGlwLTEuanBnIjtzOjE6InciO2k6NTgwO3M6MToiaCI7aToyODA7czoyOiJ6YyI7aToxO30" />			
+					</div>
+                    				</div>
+							<div class="slide_item">
+					<div class="content">
+                        <img src="http://www.transport-tips.eu/thumb/YTo0OntzOjM6InNyYyI7czozNjoidXBsb2Fkcy9oZWFkZXJfaW1hZ2VzL2ludGVybW9kYWwuanBnIjtzOjE6InciO2k6NTgwO3M6MToiaCI7aToyODA7czoyOiJ6YyI7aToxO30" />			
+					</div>
+                    				</div>
+					</div>
+	</div></div>
+                        <div style="float:left;width:360px;margin-left:30px">
+                        <h2>Latest news</h2>
+                        
+                          
+ 
+                		                			<div class="latest_new">
+                				<span class="date">17-09-2014</span>
+                				<a href="http://www.transport-tips.eu/events/from_research_to_market_hungary" target="_blank"  title="TIPS workshop in Hungary - "From Research to Market - Key Factors on Innovation"">TIPS workshop in Hungary - "From Research to Market - Key Factors on Innovation"</a>                
+                			</div>
+                			
+                		                			<div class="latest_new">
+                				<span class="date">19-08-2014</span>
+                				<a href="http://ec.europa.eu/research/researchersnight/index_en.htm" target="_blank"  title="European Researchers' Night - Friday, 26 September 2014">European Researchers' Night - Friday, 26 September 2014</a>                
+                			</div>
+                			
+                		                			<div class="latest_new">
+                				<span class="date">22-07-2014</span>
+                				<a href="http://www.shift2rail.org" target="_blank"  title="SHIFT2RAIL officially launched alongside other Horizon2020 JTIs at the European Commission’s launch event in Brussels on 9th July 2014">SHIFT2RAIL officially launched alongside other Horizon2020 JTIs at the European Commission’s launch event in Brussels on 9th July 2014</a>                
+                			</div>
+                			
+                		                			<div class="latest_new">
+                				<span class="date">18-07-2014</span>
+                				<a href="http://www.transport-tips.eu/uploads/Public_deliverables/TIPS_Best_practice_and_role_models.pdf" target="_blank"  title="Best practices for exploitation and role models">Best practices for exploitation and role models</a>                
+                			</div>
+                			
+                		                		<a class="readmore" style="float:right;" href="http://www.transport-tips.eu/news" title="more news">more news</a>
+         
+                        </div>
+                    </div>
+                                        <div class="border_grey"></div>   
+	                   <div class="content_container">                        
+							<table width="980" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td valign="top" style="width:100%; padding: 0 19px 0 19px;">
+										<div id="mainpage">
+
+	
+
+		<div class="w340 left border-bottom" style="float:left;margin: 0 10px 10px 10px;">
+		
+							<a href="http://www.transport-tips.eu/uploads/Public_deliverables/TIPS_handbook.pdf" title="TIPS Handbook" target="_blank">
+					<img src="http://www.transport-tips.eu/thumb/YTo0OntzOjM6InNyYyI7czozNToidXBsb2Fkcy9CYW5uZXJzL1RJUFNfaGFuZGJvb2tfQy5wbmciO3M6MToidyI7aTozNDA7czoxOiJoIjtpOjE1MDtzOjI6InpjIjtpOjE7fQ" alt="TIPS Handbook" title="TIPS Handbook" />
+				</a>
+            
+        
+						
+					</div>	
+	</div>
+	
+		<div class="w340 left border-bottom" style="float:left;margin: 0 10px 10px 10px;">
+		
+							<a href="http://www.transport-tips.eu/pages/network_at_tra2014" title="Partnering event @ Transport Research Arena 2014 (TRA2014)" target="_blank">
+					<img src="http://www.transport-tips.eu/thumb/YTo0OntzOjM6InNyYyI7czo2MDoidXBsb2Fkcy9maWxlcy9UUkEyMDE0X0JFXzQtN0FwcjE0X1BhcmlzL1RSQTIwMTRfYmFubmVyX0MucG5nIjtzOjE6InciO2k6MzQwO3M6MToiaCI7aToxNTA7czoyOiJ6YyI7aToxO30" alt="Partnering event @ Transport Research Arena 2014 (TRA2014)" title="Partnering event @ Transport Research Arena 2014 (TRA2014)" />
+				</a>
+            
+        
+						
+					</div>	
+	</div>
+	
+		
+	<div class="cleared"></div>
+	
+			<h2>TIPS project</h2>
+		<div class="content">	
+			<p>&nbsp;</p>
+<p><strong class="size13">TIPS is a support action funded by the European Commission </strong><strong class="size13">to <span class="big">enhance the capacity of</span></strong> <strong class="green15">EU transport projects to transform research results into innovative products and services.</strong><br /><br /> Efficient transport contributes to sustainable wealth and prosperity in Europe, but intensified competition calls for more innovation and high tech knowledge to maintain Europe's competitiveness, ensuring sustainable, efficient and affordable transport services and developing new skills and job opportunities. A lot of money is put into EU and national programmes for research and innovation but with no guarantee that results are turned into innovative products and services and brought to the market.<br /><br />This is where TIPS comes in: <strong class="green15">TIPS will develop good practices on exploitation strategies to help ongoing transport projects exploit their research results.</strong><br /><br />All assistance offered is free of charge and ranges from <strong><span class="size13">workshops and training academies, over brokerage and networking events, to one-to-one support </span></strong><span class="size13">for the development of sound market deployment plans.</span></p>
+		</div>
+	
+	<br />
+	
+</div>	
+									</td>
+									<td valign="top" style="border-left:1px solid #c7c7c7;  padding-left:10px; max-width:220px; width:215px; overflow:hidden;">
+										<br />
+										<div class="left_column">
+
+		
+					<div class="left_banner">
+										<a href="http://www.transport-tips.eu/uploads/Public_deliverables/TIPS_handbook.pdf" target="_blank"  title="TIPS Handbook"><img src="http://www.transport-tips.eu/thumb/YTozOntzOjM6InNyYyI7czozMzoidXBsb2Fkcy9CYW5uZXJzL1RJUFNfaGFuZGJvb2sucG5nIjtzOjE6InciO2k6MjEwO3M6MToiYyI7aToxO30" alt="TIPS Handbook" title="TIPS Handbook" /></a>
+							</div>
+					<div class="left_banner">
+										<a href="http://www.transport-tips.eu/events/from_research_to_market_hungary" target="_blank"  title="TIPS workshop in Hungary - "From Research to Market - Key Factors on Innovation""><img src="http://www.transport-tips.eu/thumb/YTozOntzOjM6InNyYyI7czo3NToidXBsb2Fkcy9maWxlcy9USVBTX3dvcmtzaG9wX0h1bmdhcnlfMjlTZXAxNC9USVBTX3dvcmtzaG9wX0J1ZGFwZXN0X0hVX1IucG5nIjtzOjE6InciO2k6MjEwO3M6MToiYyI7aToxO30" alt="TIPS workshop in Hungary - "From Research to Market - Key Factors on Innovation"" title="TIPS workshop in Hungary - "From Research to Market - Key Factors on Innovation"" /></a>
+							</div>
+					<div class="left_banner">
+										<a href="http://www.traconference.eu/" target="_blank"  title="TRA2014 conference"><img src="http://www.transport-tips.eu/thumb/YTozOntzOjM6InNyYyI7czozMjoidXBsb2Fkcy9CYW5uZXJzL1RSQTIwMTRfbG9nby5qcGciO3M6MToidyI7aToyMTA7czoxOiJjIjtpOjE7fQ" alt="TRA2014 conference" title="TRA2014 conference" /></a>
+							</div>
+					<div class="left_banner">
+										<a href="http://www.transport-tips.eu/events/tips_training_academy_2_lyon" target="_blank"  title="TIPS Training Academy - Lyon"><img src="http://www.transport-tips.eu/thumb/YTozOntzOjM6InNyYyI7czozNToidXBsb2Fkcy9CYW5uZXJzL1RJUFNfVEFfTHlvbl9DMi5wbmciO3M6MToidyI7aToyMTA7czoxOiJjIjtpOjE7fQ" alt="TIPS Training Academy - Lyon" title="TIPS Training Academy - Lyon" /></a>
+							</div>
+					<div class="left_banner">
+										<a href="http://www.transport-tips.eu/events/tips_training_academy_1_prague" target="_blank"  title="TIPS Training Academy - Prague"><img src="http://www.transport-tips.eu/thumb/YTozOntzOjM6InNyYyI7czozNzoidXBsb2Fkcy9CYW5uZXJzL1RJUFNfVEFfUHJhZ3VlX0MyLnBuZyI7czoxOiJ3IjtpOjIxMDtzOjE6ImMiO2k6MTt9" alt="TIPS Training Academy - Prague" title="TIPS Training Academy - Prague" /></a>
+							</div>
+					<div class="left_banner">
+										<a href="http://een.ec.europa.eu/tools/services/SearchCenter/Search/ProfileSimpleSearch?shid=32db25cb-726f-43b0-8b5f-7742d0935799" target="_blank"  title="Find your research partner"><img src="http://www.transport-tips.eu/thumb/YTozOntzOjM6InNyYyI7czozODoidXBsb2Fkcy9maW5kX3lvdXJfcmVzZWFyY2hfcGFydG5lci5wbmciO3M6MToidyI7aToyMTA7czoxOiJjIjtpOjE7fQ" alt="Find your research partner" title="Find your research partner" /></a>
+							</div>
+			
+		
+		
+		
+	
+
+
+	<div class="social">
+				<a href="https://www.facebook.com/transport.tips" rel="nofollow"><img src="http://www.transport-tips.eu/resources/images/find_us_on_facebook.png" alt="find us on  Facebook" title="find us on Facebook" /></a>
+        <a href="http://www.facebook.com/share.php" onclick="window.open('http://www.facebook.com/sharer.php?u='+(location.href)+'&amp;t='+encodeURIComponent(document.title), 'sharer','toolbar=no,width=626,height=436'); return false;" rel="nofollow"><img src="http://www.transport-tips.eu/resources/images/Facebook-share.png" alt="Share this page on  Facebook" title="Share this page on Facebook" /></a>
+        
+	</div>
+	<div class="cleared"></div>
+	
+</div>									</td>
+								</tr>
+							</table>
+						</div>
+						
+						<div class="cleared"></div>
+					
+				
+
+ </div>
+ 				</div>
+				<div class="cleared"></div>
+				
+				
+
+ </div>
+ 				<div class="cleared"></div>
+
+
+		</div>
+		
+	</div>
+    
+        <div id="footer">
+        <div class="sheet">
+				<div class="footer_container">					
+					<div class="footer">
+                        <div class="footer_logo"><a href="http://www.transport-tips.eu" title="TIPS project"><img src="http://www.transport-tips.eu/resources/images/footer_logo.png" alt="TIPS project" title="TIPS project" /></a></div>                    
+						<div class="footer_menu">
+	<ul id="footerNav">
+	        <li>&nbsp;&nbsp;<a href="http://www.transport-tips.eu/imprint" title="Imprint">Imprint</a>&nbsp;&nbsp;| </li>	
+        <li>&nbsp;&nbsp;<a href="http://www.transport-tips.eu/sitemap" title="Sitemap">Sitemap</a></li>	
+	</ul>
+</div>
+<div class="cleared"></div>					</div>
+					<div class="design_development">
+					
+                    <div class="supporters">
+						<table cellpadding="0" cellspacing="10" border="0">
+							<tr>                        
+								<td valign="middle">
+									<img src="http://www.transport-tips.eu/resources/images/seventh_framework_programme2.png" alt="Seventh framework programme" title="Seventh framework programme" />
+								</td>
+								<td>
+									<img src="http://www.transport-tips.eu/resources/images/ee_flag.png" alt="European Union" title="European Union" />
+								</td>       
+								<td class="white line12 w350">
+                                    TIPS (314455) is supported by the European Commission under the 7th Framework Programme for Research & Technological Development (2007-2013) in the "Transport" Theme (FP7-Transport)
+								</td>                                                               
+							</tr>
+						</table>
+					</div>                    
+					<div class="developed">
+						<a  href="http://www.new-media.gr" title="New Media" target="_blank"><img style="margin: 7px 0 0 0;"src="http://www.transport-tips.eu/resources/images/new_media.png" alt="New Media" title="New Media" /></a>
+					</div>
+					<div class="designed">
+						<a  href="mailto:chris.kotzamanidis@gmail.com" title="Chris Kotzamanidis" target="_blank"><img style="margin: 8px 0 0 0;"src="http://www.transport-tips.eu/resources/images/chris_kotzamanidis.png" alt="Chris Kotzamanidis" title="Chris Kotzamanidis" /></a>
+					</div>
+							
+							
+					</div>
+				</div>        
+                </div>
+        </div>    
+</div>
+
+</div>
+</div>
+</body>
+</html>

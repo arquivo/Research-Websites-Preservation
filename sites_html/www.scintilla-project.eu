@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SCINTILLA - Welcome to the SCINTILLA Project website || a pan-European research collaboration funded by the European Union.</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="SCINTILLA is a European project dealing with the development of detection capabilities of difficult to detect radioactive sources and nuclear material. It gathers partners from all Europe. 
+Joining the SCINTILLA Partnership Network allows you to stay up to date on the SCINTILLA results, news, events and publications. 
+You would like to interact with us? Join now!"/>
+<meta name="keywords" content="SCINTILLA, radioactive sources, nuclear material, scintillation, CZT, neutron detection and identification technologies, usage, communication protocols"/>
+<meta name="author" content="xipix"/>
+<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<!--	<link rel="stylesheet" type="text/css" href="--><!--/css/bootstrap-responsive.css" media="screen" />-->
+<!-- begin frontend modules files -->
+<!-- end frontend modules files -->
+<link rel="stylesheet" type="text/css" href="http://www.scintilla-project.eu/css/bootstrap.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="http://www.scintilla-project.eu/css/cus-icons.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="http://www.scintilla-project.eu/templates/xipix/css/styles.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="http://www.scintilla-project.eu/modules/image_tweak/frontend.css?d=08025" media="screen"/>
+<link rel="stylesheet" type="text/css" href="http://www.scintilla-project.eu/modules/activecalendar/frontend.css?d=08025" media="screen"/>
+<link rel="stylesheet" type="text/css" href="http://www.scintilla-project.eu/modules/newsletter/frontend.css?d=08025" media="screen"/>
+<link rel="stylesheet" type="text/css" href="http://www.scintilla-project.eu/modules/..//ui/jquery-ui.custom.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="http://www.scintilla-project.eu/modules/lib_jquery/plugins/FancyBox/jquery.fancybox-1.3.4.css" media="screen"/>
+<script src="http://www.scintilla-project.eu/modules/lib_jquery/jquery-core/jquery-core.min.js"></script>
+<script src="http://www.scintilla-project.eu/js/bootstrap.js"></script>
+<script src="http://www.scintilla-project.eu/js/swfobject.js"></script>
+<script src="http://www.scintilla-project.eu/js/jquery.fontscale.js"></script>
+<script src="http://www.scintilla-project.eu/js/jquery.cookie.js"></script>
+<script src="http://www.scintilla-project.eu/js/jquery.corner.js"></script>
+<script src="http://www.scintilla-project.eu/js/menu2.js?d=08025"></script>
+<script src="http://www.scintilla-project.eu/modules/droplets/js/mdcr.js"></script>
+<script src="http://www.scintilla-project.eu/modules/..//ui/jquery-ui.custom.min.js"></script>
+<script src="http://www.scintilla-project.eu/modules/..//js/custom.js"></script>
+<script src="http://www.scintilla-project.eu/modules/newsletter/js/newsletter_frontend.js"></script>
+<script src="http://www.scintilla-project.eu/modules/lib_jquery/plugins/FancyBox/jquery.fancybox-1.3.4.js"></script>
+<script src="http://www.scintilla-project.eu/modules/image_tweak/js/imageTweak_frontend.js"></script>
+</head>
+<body>
+<div class="modal hide" id="newsletter-box">
+<div class="box-title modal-header">
+Subscribe to our Newsletter
+<a data-dismiss="modal" class="float_right" style="width:20px;height:20px;display:block;"></a>
+</div>
+<div class="modal-body">
+<!--START Newsletter -->
+<div class="box-content newsletter">
+<form name="nl" action="/index.php" method="post" class="form-horizontal" id="newsletter-form">
+<label class="control-label bold" for="input01">Your email address: </label>
+<div class="controls">
+<input type="text" id="input01" class="span2" placeholder="address@domain.tld" name="nl_email" value="">
+</div>
+<label class="control-label bold" style="display:none">Select mailling list: </label>
+<div class="control-group" style="display:none">
+<div class="controls" id="input06">
+<label class="checkbox">
+<input type="checkbox" value="9" name="group_id[]" checked>Global SCINTILLA News
+</label>
+</div>
+</div>
+<div class="controls">
+<input type="hidden" id="input02" name="nl_subscribe" value="1">
+<input type="hidden" id="input04" name="isHtml" value="1"/>
+<input type="hidden" name="nl_action" value="subscribe">
+<button type="submit" class="btn btn-primary">Submit</button>
+</div>
+</form>
+</div>
+</div>
+<!--END Newsletter -->
+</div>
+<div id="bg-header">
+<div class="container">
+<!--START header -->
+<div class="row" id="header">
+<div class="span4">
+<h1 id="header-logo">
+<a href="http://www.scintilla-project.eu" title="SCINTILLA">
+</a>
+</h1>
+</div>
+<div class="span8">
+<div class="float_right  noLoggedHeader">
+<div class="toolsHeader">
+<a class="" href="http://www.scintilla-project.eu/rss.php" target="_blank" title="Feed RSS"><i class="icon-add icon-rss"></i></a>
+<a class="" href="http://www.scintilla-project.eu/page/contact.php" title="Contact us"><i class="icon-add icon-mail"></i></a>
+<a class="" href="http://www.scintilla-project.eu/page/sitemap.php" title="Sitemap"><i class="icon-add icon-sitemap"></i></a>
+<a class="linkLoginModal" href="http://www.scintilla-project.eu/page/partnership_network.php" title="Login"><i class="icon-add icon-login"></i></a>
+<a class="" href="http://www.scintilla-project.eu/page/faq.php" title="FAQ"><i class="icon-add icon-help"></i></a>
+</div>
+<div class="toolsSearch input-append">
+<form action="http://www.scintilla-project.eu/search/index.php" class="">
+<fieldset>
+<input type="hidden" name="referrer" value="2"/>
+<input type="text" name="string" placeholder="Search" id="seachInput" value="Search"/>
+<span class="add-on submitForm"><button type="submit"><i class="icon-add icon-loupe"></i></button></span>
+</fieldset>
+</form>
+</div>
+</div>
+</div>
+</div>
+<!--END header -->
+<!--START menu -->
+<div class="row">
+<div class="span12">
+<div class="navbar">
+<!-- show_menu2 -->
+<ul class="nav">
+<li class="menu-current menu-first"><a href="http://www.scintilla-project.eu" title="Welcome to the SCINTILLA Project website || a pan-European research collaboration funded by the European Union.">Home</a> </li>
+<li class="menu-expand menu-sibling"><a href="http://www.scintilla-project.eu/page/about-the-scintilla-project.php" title="About the SCINTILLA Project">About the SCINTILLA Project</a>
+<ul class="dropdown-menu">
+<li class="menu-first"><a href="http://www.scintilla-project.eu/page/about-the-scintilla-project/concept.php" title="Concept">Concept</a> </li>
+<li class=""><a href="http://www.scintilla-project.eu/page/about-the-scintilla-project/use-cases.php" title="Use Cases">Use Cases</a> </li>
+<li class=""><a href="http://www.scintilla-project.eu/page/about-the-scintilla-project/objectives-and-strategic-impact.php" title="Objectives and Strategic impact">Objectives and Strategic impact</a> </li>
+<li class=""><a href="http://www.scintilla-project.eu/page/about-the-scintilla-project/project-structure.php" title="Project Structure">Project Structure</a> </li>
+<li class="menu-last"><a href="http://www.scintilla-project.eu/page/about-the-scintilla-project/key-figures.php" title="Key figures">Key figures</a> </li>
+</ul>
+</li>
+<li class="menu-sibling"><a href="http://www.scintilla-project.eu/page/partners.php" title="Partners">Partners</a> </li>
+<li class="menu-expand menu-sibling"><a href="http://www.scintilla-project.eu/page/news-and-events.php" title="News and Events">News and Events</a>
+<ul class="dropdown-menu">
+<li class="menu-first"><a href="http://www.scintilla-project.eu/page/news-and-events/news.php" title="News">News</a> </li>
+<li class=""><a href="http://www.scintilla-project.eu/page/news-and-events/scintilla-events.php" title="SCINTILLA Events">SCINTILLA Events</a> </li>
+<li class="menu-last"><a href="http://www.scintilla-project.eu/page/news-and-events/external-events.php" title="External Events">External Events</a> </li>
+</ul>
+</li>
+<li class="menu-expand menu-sibling"><a href="http://www.scintilla-project.eu/page/media.php" title="Media">Media</a>
+<ul class="dropdown-menu">
+<li class="menu-first"><a href="http://www.scintilla-project.eu/page/media/scintilla-documentation.php" title="SCINTILLA Documentation">SCINTILLA Documentation</a> </li>
+<li class=""><a href="http://www.scintilla-project.eu/page/media/scintilla-articles.php" title="Articles">Articles</a> </li>
+<li class=""><a href="http://www.scintilla-project.eu/page/media/newsletter-archive.php" title="Newsletter Archive">Newsletter Archive</a> </li>
+<li class="menu-last"><a href="http://www.scintilla-project.eu/page/media/picture-gallery.php" title="Picture gallery">Picture gallery</a> </li>
+</ul>
+</li>
+<li class="menu-expand menu-sibling"><a href="http://www.scintilla-project.eu/page/the-scintilla-project-environment.php" title="The SCINTILLA Project Environment">The SCINTILLA Project Environment</a>
+<ul class="dropdown-menu">
+<li class="menu-first"><a href="http://www.scintilla-project.eu/page/the-scintilla-project-environment/related-national-and-european-projects-and-synergies.php" title="Related national and European Projects and synergies">Related national and European Projects and synergies</a> </li>
+<li class=""><a href="http://www.scintilla-project.eu/page/the-scintilla-project-environment/user-advisory-group.php" title="User Advisory Group">User Advisory Group</a> </li>
+<li class="menu-last"><a href="http://www.scintilla-project.eu/page/the-scintilla-project-environment/expert-advisory-group.php" title="Expert Advisory Group">Expert Advisory Group</a> </li>
+</ul>
+</li>
+<li class="menu-expand menu-sibling"><a href="http://www.scintilla-project.eu/page/dissemination-and-exploitation.php" title="Dissemination and Exploitation">Dissemination and Exploitation</a>
+<ul class="dropdown-menu">
+<li class="menu-first"><a href="http://www.scintilla-project.eu/page/dissemination-and-exploitation/dissemination.php" title="Dissemination">Dissemination</a> </li>
+<li class="menu-last"><a href="http://www.scintilla-project.eu/page/dissemination-and-exploitation/exploitation.php" title="Exploitation">Exploitation</a> </li>
+</ul>
+</li>
+<li class="menu-sibling"><a href="http://www.scintilla-project.eu/page/partnership_network.php" title="Partnership Network">Partnership Network</a> </li>
+<li class="menu-expand menu-sibling menu-last"><a href="http://www.scintilla-project.eu/page/contact.php" title="Contact">Contact</a> </li>
+</ul>
+</div>
+</div>
+</div>
+<!-- END menu -->
+</div>
+</div>
+<div id="bg-content">
+<div class="container">
+<div class="row">
+<div class="span8 box-home homecustom" id="home-container">
+<div class="box">
+<div class="box-top"></div>
+<div class="box-title">
+<h1>Welcome to the SCINTILLA Project website || a pan-European research collaboration funded by the European Union.</h1>
+<div class="contentTools">
+<a class="float_right" href="#" id="print" title="print"><i class="icon-add icon-print"></i></a>
+<span class="fonts">
+<a href="#" title="Font tools"><i class="icon-add icon-font"></i></a>
+<a href="#" id="fontplus" title="Zoom plus"><i class="icon-add icon-plus"></i></a>
+<a href="#" id="fontminus" title="Zoom minus"><i class="icon-add icon-minus"></i></a>
+<a href="#" id="fontreset" title="Zoom reset"><i class="icon-add icon-reset"></i></a>
+</span>
+</div>
+</div>
+<div class="box-content">
+<div id="containerText">
+<a class="section_anchor" id="lep_2"></a><p><strong>SCINTILLA : Nuclear detector development&nbsp;and benchmark </strong><br/>&nbsp;<br/> Launched in January 2012, the SCINTILLA project gathers 9 partners and aims at building an innovative and comprehensive toolbox of devices and best-of-breed technologies for the enhanced detection and identification of difficult to detect radioactive sources and nuclear material:</p>
+<ul>
+<li>Dealing with the challenge of masked and shielded material</li>
+<li>Developing effective solutions, which are reliable, portable/mobile and cost effective</li>
+<li>Finding a reliable replacement for Helium-3, which is the major consumable for today's RPM (Radiation Portal Monitors) devices for neutron detection and has become close to unavailable in the European Union.</li>
+</ul>
+<p>SCINTILLA will contribute to minimize the risk of radioactive sources dissemination.</p>	</div>
+</div>
+<div class="box-footer">
+<a href="http://www.scintilla-project.eu/page/about-the-scintilla-project/concept.php" class="moreAboutScintilla">More about SCINTILLA</a>
+</div>
+</div>
+</div>
+<div class="span4 box-home homecustom">
+<!--START getCommunityBanner -->
+<div class="box community-banner box-left">	<div class="box-content">	<a href="http://www.scintilla-project.eu/account/signup.php"><img src="http://www.scintilla-project.eu//media/banners/join-community.png" title="Join community"/></a>	</div>	<div class="box-footer">	<a href="http://www.scintilla-project.eu/page/partnership_network.php" class="linkLoginModal">Login <span class="scintText">to the</span> SCINTILLA Partnership Network</a>	</div></div>
+<!--END getCommunityBanner -->
+<!--START getNewsHeads -->
+<div class="box news-left box-left box-newsletter">	<div class="box-title">	<h3>	<span class="float_left"><a data-toggle="modal" href="#newsletter-box"><i class="icon-add icon-newsletter"></i>Subscribe to newsletter</a></span>	<span class="news-controls float_right">	<a class="prev" href="#"><i class="icon-add icon-left"></i></a>	<a class="next" href="#"><i class="icon-add icon-right"></i></a>	</span>	</h3>	</div>	<div class="box-content"><span class="lien_news"> No news at this moment</span></div>	<div class="box-footer">	<a href="">See All News</a>	</div></div>
+<!--END getNewsHeads -->
+</div>
+</div>
+</div>
+</div>
+<div id="bg-content-bottom">
+<div class="container">
+<div class="row">
+<div class="span8 box-home homecustom">
+<div class="box home-blog blog_1">	<div class="box-top"></div>	<div class="box-content" data-action="crop" data-url="http://www.scintilla-project.eu/page/media_items/upcoming-3rd-benchmark-campaign-open-to-outsiders23.php" data-length="200">	<img class="blog-image" width="80" height="120" src="http://www.scintilla-project.eu/media/tweaked/pages/2/scintilla_benchmark_80_120.jpg" border="0" alt="- no image description is available -" title="- no image description is available -"/>	<h3><a href="http://www.scintilla-project.eu/page/media_items/upcoming-3rd-benchmark-campaign-open-to-outsiders23.php" title="Upcoming 3rd Benchmark Campaign, open to outsiders!">Upcoming 3rd Benchmark Campaign, open to outsiders!<i class="icon-add icon-right-pink"></i></a></h3>	<p>The SCINTILLA Project organises its&nbsp;Third and Final&nbsp;Benchmark Campaign in&nbsp;Ispra, Italy at JRC facilities.</p>
+<p>This 2nd campaign will last&nbsp;<strong>2 weeks&nbsp;from&nbsp;November 3rd til November 14th&nbsp;2014.</strong>&nbsp;<br/><strong>Both&nbsp;SCINTILLA and outsiders technologies</strong>&nbsp;will&nbsp;be tested and benchmarked.&nbsp;</p>
+<p>For further information, please contact the SCINTILLA project office (<a href="mailto:scintilla-po@eurtd.com">scintilla-po@eurtd.com</a>).</p>	</div>	<div class="box-footer">	<a href="http://www.scintilla-project.eu/page/media/scintilla-articles.php">See All Articles</a>	</div></div><div class="box home-blog blog_2">	<div class="box-top"></div>	<div class="box-content" data-action="crop" data-url="http://www.scintilla-project.eu/page/media_items/scintilla-final-public-event---save-the-date22.php" data-length="200">	<img class="blog-image" width="160" height="120" src="http://www.scintilla-project.eu/media/tweaked/pages/2/ispra_meeting_160_120.jpg" border="0" alt="- no image description is available -" title="- no image description is available -"/>	<h3><a href="http://www.scintilla-project.eu/page/media_items/scintilla-final-public-event---save-the-date22.php" title="SCINTILLA Final Public Event - Save the Date!">SCINTILLA Final Public Event - Save the Date!<i class="icon-add icon-right-pink"></i></a></h3>	<p>&nbsp;</p>
+<p>SCINTILLA will hold its final public event on 11&amp;12 December 2014 in Ispra (Italy) at the Joint Research Centre.</p>
+<p>&nbsp;</p>
+<p style="padding-left: 30px;"><em style="line-height: 1.5em;">Member of the SPN? Interested in the enhanced detection of radioactive sources and nuclear material ? Expert in nuclear detection ?</em></p>
+<p>&nbsp;</p>
+<p><span style="line-height: 1.5em;">Come along to discuss SCINTILLA final results, technology developments, testing and benchmarking outcomes as well as future perspectives in terms of R&amp;D in the nuclear security !</span></p>
+<p><span style="line-height: 1.5em;">Register online now by <a href="http://www.eurtd.com/scintilla/2014/public-workshop/index.php" target="_blank">clicking here</a>. Deadline to submit an abstract: 7 November 2014.</span></p>
+<p>&nbsp;</p>
+<p><span style="line-height: 1.5em;">Further information available <a href="http://www.eurtd.com/scintilla/2014/public-workshop/index.php" target="_blank">here</a>. You may also contact </span><a style="line-height: 1.5em;" href="mailto:scintilla-po@eurtd.com">scintilla-po@eurtd.com</a><span style="line-height: 1.5em;">. &nbsp;</span></p>
+<p>&nbsp;</p>	</div>	<div class="box-footer">	<a href="http://www.scintilla-project.eu/page/media/scintilla-articles.php">See All Articles</a>	</div></div><div class="box home-blog blog_3">	<div class="box-top"></div>	<div class="box-content" data-action="crop" data-url="http://www.scintilla-project.eu/page/media_items/user-expert-advisory-group-1st-meeting21.php" data-length="100">	<img class="blog-image" width="133.33333333333" height="100" src="http://www.scintilla-project.eu/media/tweaked/pages/2/ispra_meeting_133_100.jpg" border="0" alt="- no image description is available -" title="- no image description is available -"/>	<h3><a href="http://www.scintilla-project.eu/page/media_items/user-expert-advisory-group-1st-meeting21.php" title="User / Expert Advisory Group 1st meeting">User / Expert Advisory Group 1st meeting<i class="icon-add icon-right-pink"></i></a></h3>	<p>The first User Advisory Group and Expert Advisory Group meeting took place in Ispra, Italy in April 2012.</p>	</div>	<div class="box-footer">	<a href="http://www.scintilla-project.eu/page/media/scintilla-articles.php">See All Articles</a>	</div></div>
+</div>
+<div class="span4 box-home homecustom" id="right-home">
+<!--START tweakGallery -->
+<div class="box boxGallery">
+<div class="box-top"><span class="float_left"><span class="homeBlogPict"><i class="icon-add icon-blogEntries"></i>Latest gallery entries</span></span></div>
+<div class="box-content">
+<div class="parentXipGallery">
+<a href="http://www.scintilla-project.eu/temp/image_tweak/gallery/gallery-pictures/home//zoom/truck_control_portal.jpg" title="" rel="fancybox" class="it_gallery_picture_box fancybox">
+<img src="http://www.scintilla-project.eu/temp/image_tweak/gallery/gallery-pictures/home//preview/truck_control_portal.jpg" width="95" height="66" alt="" onload="verticalAlign(jQuery(this).parent());"/>
+</a>
+</div>
+<div class="parentXipGallery">
+<a href="http://www.scintilla-project.eu/temp/image_tweak/gallery/gallery-pictures/home//zoom/Ispra_meeting.jpg" title="" rel="fancybox" class="it_gallery_picture_box fancybox">
+<img src="http://www.scintilla-project.eu/temp/image_tweak/gallery/gallery-pictures/home//preview/Ispra_meeting.jpg" width="95" height="66" alt="" onload="verticalAlign(jQuery(this).parent());"/>
+</a>
+</div>
+<div class="parentXipGallery">
+<a href="http://www.scintilla-project.eu/temp/image_tweak/gallery/gallery-pictures/home//zoom/Kick_Off_meeting_-_2012-01-27.jpg" title="" rel="fancybox" class="it_gallery_picture_box fancybox">
+<img src="http://www.scintilla-project.eu/temp/image_tweak/gallery/gallery-pictures/home//preview/Kick_Off_meeting_-_2012-01-27.jpg" width="95" height="50" alt="" onload="verticalAlign(jQuery(this).parent());"/>
+</a>
+</div>
+</div>
+<div class="box-footer gradient">
+<a href="http://www.scintilla-project.eu/page/media/picture-gallery.php" title="">More in media gallery</a>
+</div>
+</div>
+<!--END tweakGallery -->
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row footer">
+<div class="span3 custom home-calendar">
+<!--START activecalendar-->
+<script>jQuery('document').ready(function(){var date=new Date();navigCalendrier(date.getFullYear(),date.getMonth()+1);jQuery('.next-event a').live('click',function(){navigCalendrier(jQuery(this).data('year'),jQuery(this).data('month'));return false;});});function navigCalendrier(annee,mois){jQuery.ajax({type:'post',url:'http://www.scintilla-project.eu/modules/activecalendar/ajax-events.php',data:{annee:annee,mois:mois},success:function(data){if(data.length){jQuery('#activeCalendarBox').replaceWith(jQuery('#activeCalendarBox',data));jQuery('.next-event').prependTo('.month tbody tr');jQuery('.next-event').wrap('<td />');jQuery('#activeCalendarBox').corner('5px');jQuery('#activeCalendarBox .calendar-table span').corner('4px');}}});}</script><div class="box box-left">
+<div id="activeCalendarBox">
+<div class="box-title">
+<div class="float_left next-event"><a data-day="08" data-month="02" data-year="2016" href="#"><i class="icon-add icon-calendar-white"></i>Back</a></div>
+<table class="month">
+<tr><td class="monthnavigationl"><a onclick="navigCalendrier('2016','1');"><i class="icon-add icon-calendar-left"></i></a></td><td class="monthname">February 2016</td><td class="monthnavigationr"><a onclick="navigCalendrier('2016','3');"><i class="icon-add icon-calendar-right"></i></a></td></tr>
+</table>	</div>
+<div class="box-content">
+<table class="calendar-table"><tr><td class="dayname">Mon</td><td class="dayname">Tue</td><td class="dayname">Wed</td><td class="dayname">Thu</td><td class="dayname">Fri</td><td class="dayname">Sat</td><td class="dayname">Sun</td></tr>
+<tr><td><span class="monthday">1</span></td><td><span class="monthday">2</span></td><td><span class="monthday">3</span></td><td><span class="monthday">4</span></td><td><span class="monthday">5</span></td><td><span class="saturday">6</span></td><td><span class="sunday">7</span></td></tr>
+<tr><td><span class="today">8</span></td><td><span class="monthday">9</span></td><td><span class="monthday">10</span></td><td><span class="monthday">11</span></td><td><span class="monthday">12</span></td><td><span class="saturday">13</span></td><td><span class="sunday">14</span></td></tr>
+<tr><td><span class="monthday">15</span></td><td><span class="monthday">16</span></td><td><span class="monthday">17</span></td><td><span class="monthday">18</span></td><td><span class="monthday">19</span></td><td><span class="saturday">20</span></td><td><span class="sunday">21</span></td></tr>
+<tr><td><span class="monthday">22</span></td><td><span class="monthday">23</span></td><td><span class="monthday">24</span></td><td><span class="monthday">25</span></td><td><span class="monthday">26</span></td><td><span class="saturday">27</span></td><td><span class="sunday">28</span></td></tr>
+<tr><td><span class="monthday">29</span></td><td class="nomonthday"></td><td class="nomonthday"></td><td class="nomonthday"></td><td class="nomonthday"></td><td class="nomonthday"></td><td class="nomonthday"></td></tr>
+</table>
+</div>
+<div class="box-footer">
+<a href="http://www.scintilla-project.eu/page/news-and-events/scintilla-events.php">Show All Events</a>
+</div>
+</div>
+</div>	<!--END activecalendar -->
+</div>
+<div class="span9 custom">
+<div class="box">
+<div class="box-content">
+<div class="footer-left">
+<span id="logos">
+<a href="http://ec.europa.eu/index_en.htm" class="logos" target="_blank" id="eu"></a>
+<a href="http://cordis.europa.eu/fp7/" target="_blank" class="logos" id="fp7"></a>
+</span>
+<p>The research leading to these results has received funding from the European Community's Seventh Framework Programme (FP7/2007-2013) under grant agreement n°285204.</p>
+</div>
+<div class="footer-right">
+<div class="box">
+<div class="box-content">
+<div id="linkFooter">
+<!-- show_menu2 -->
+<a href="http://www.scintilla-project.eu" title="Welcome to the SCINTILLA Project website || a pan-European research collaboration funded by the European Union." class="">Home</a><i class="icon-add icon-puce"></i>
+<a href="http://www.scintilla-project.eu/page/about-the-scintilla-project.php" title="About the SCINTILLA Project" class="">About the SCINTILLA Project</a><i class="icon-add icon-puce"></i>
+<a href="http://www.scintilla-project.eu/page/partners.php" title="Partners" class="">Partners</a><i class="icon-add icon-puce"></i>
+<a href="http://www.scintilla-project.eu/page/news-and-events.php" title="News and Events" class="">News and Events</a><i class="icon-add icon-puce"></i>
+<a href="http://www.scintilla-project.eu/page/media.php" title="Media" class="">Media</a><i class="icon-add icon-puce"></i>
+<a href="http://www.scintilla-project.eu/page/the-scintilla-project-environment.php" title="The SCINTILLA Project Environment" class="">The SCINTILLA Project Environment</a><i class="icon-add icon-puce"></i>
+<a href="http://www.scintilla-project.eu/page/dissemination-and-exploitation.php" title="Dissemination and Exploitation" class="">Dissemination and Exploitation</a><i class="icon-add icon-puce"></i>
+<a href="http://www.scintilla-project.eu/page/partnership_network.php" title="Partnership Network" class="">Partnership Network</a><i class="icon-add icon-puce"></i>
+<a href="http://www.scintilla-project.eu/page/contact.php" title="Contact" class="">Contact</a><i class="icon-add icon-puce"></i>
+</ul>
+</div>
+</div>
+<div class="box-footer">
+<a href="http://www.scintilla-project.eu/page/homepage.php">Home</a>
+<i class="icon-add icon-puce"></i>
+<a href="http://www.scintilla-project.eu/page/sitemap.php">Sitemap</a>
+<i class="icon-add icon-puce"></i>
+<a href="http://www.scintilla-project.eu/page/legal-mentions.php">Terms of use</a>
+</div>
+</div>
+<p>Copyright &copy; 2012 SCINTILLA Project<br/> All Rights Reserved.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="frontediter" style="width:80px;margin:auto;">
+</div>
+</div>
+<script>var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-33594817-1']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

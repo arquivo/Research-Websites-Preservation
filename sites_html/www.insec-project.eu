@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<link rel="stylesheet" type="text/css" href="http://www.insec-project.eu/jquery.fancybox-1.3.4.css" media="screen" />
+<link href="http://www.insec-project.eu/css.css" rel="stylesheet" type="text/css"/>
+<!--[if lte IE 8]>
+<script src="http://www.insec-project.eu/js/html5.js" type="text/javascript"></script>
+<script src="http://www.insec-project.eu/js/selectivizr-min.js" type="text/javascript"></script>
+<![endif]-->
+
+<script type="text/javascript" src="http://www.insec-project.eu/js/scripts.js"></script>
+<script type="text/javascript">
+	var dates;
+			var dates = ['10-7-2014','17-2-2014','26-2-2014','15-1-2014','17-4-2013','11-6-2013','12-6-2013','29-8-2013','30-8-2013','31-8-2013','1-9-2013','3-12-2013','4-12-2013','17-9-2013','18-9-2013','19-9-2013','17-9-2013','18-9-2013','19-9-2013','29-4-2013','13-3-2013','18-9-2013','19-9-2013','20-9-2013','21-9-2013','12-3-2013','13-3-2013','30-9-2013','1-10-2013','2-10-2013','14-1-2014'];
+	
+		var links = ['http://www.insec-project.eu/en/events.4/international-conference-on-innovation-and-criminal-investigation.a84.html','http://www.insec-project.eu/en/events.4/manage-your-innovation-a-strategic-challenge.a80.html','http://www.insec-project.eu/en/events.4/innovation-for-security-organizations.a79.html','http://www.insec-project.eu/en/events.4/insec-s-training-session---horizon-2020.a71.html','http://www.insec-project.eu/en/events.4/a-multi-dimensional-view-of-security-in-the-private-and-public-domain-.a60.html','http://www.insec-project.eu/en/events.4/eurosme2013.a61.html','http://www.insec-project.eu/en/events.4/eurosme2013.a61.html','http://www.insec-project.eu/en/events.4/critical-criminology-in-a-changing-world.a63.html','http://www.insec-project.eu/en/events.4/critical-criminology-in-a-changing-world.a63.html','http://www.insec-project.eu/en/events.4/critical-criminology-in-a-changing-world.a63.html','http://www.insec-project.eu/en/events.4/critical-criminology-in-a-changing-world.a63.html','http://www.insec-project.eu/en/events.4/world-borderpol-congress.a62.html','http://www.insec-project.eu/en/events.4/world-borderpol-congress.a62.html','http://www.insec-project.eu/en/events.4/the-8th-future-security-conference.a56.html','http://www.insec-project.eu/en/events.4/the-8th-future-security-conference.a56.html','http://www.insec-project.eu/en/events.4/the-8th-future-security-conference.a56.html','http://www.insec-project.eu/en/events.4/5th-international-conference-on-safety-and-security-engineering.a57.html','http://www.insec-project.eu/en/events.4/5th-international-conference-on-safety-and-security-engineering.a57.html','http://www.insec-project.eu/en/events.4/5th-international-conference-on-safety-and-security-engineering.a57.html','http://www.insec-project.eu/en/events.4/workshop---exploitation-and-commercialisation-of-research-results-of-multinational-consortia.a59.html','http://www.insec-project.eu/en/events.4/exchange-of-best-practices-on-implementation-of-innovation-management-within-security-organisations-in-europe.a54.html','http://www.insec-project.eu/en/events.4/8th-pan-european-conference-on-international-relations.a55.html','http://www.insec-project.eu/en/events.4/8th-pan-european-conference-on-international-relations.a55.html','http://www.insec-project.eu/en/events.4/8th-pan-european-conference-on-international-relations.a55.html','http://www.insec-project.eu/en/events.4/8th-pan-european-conference-on-international-relations.a55.html','http://www.insec-project.eu/en/events.4/security-research-meets-industry-%252525252525252525252540-madrid.a47.html','http://www.insec-project.eu/en/events.4/security-research-meets-industry-%252525252525252525252540-madrid.a47.html','http://www.insec-project.eu/en/events.4/ifsec-istanbul-2013.a67.html','http://www.insec-project.eu/en/events.4/ifsec-istanbul-2013.a67.html','http://www.insec-project.eu/en/events.4/ifsec-istanbul-2013.a67.html','http://www.insec-project.eu/en/events.4/insec-s-training-session---innovation-management-in-large-scale-organizations.a70.html'];				
+	var _URL_="http://www.insec-project.eu/";
+	
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-20215935-53']);
+	_gaq.push(['_trackPageview']);
+	
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<script type="text/javascript" src="http://www.insec-project.eu/js/calendar.js"></script>
+
+<title>Insec - INSEC - INCREASE INNOVATION AND RESEARCH WITHIN SECURITY ORGANISATIONS</title>
+	<meta name="description" content="The INSec project is striving to improve the Innovation and Research processes within the security organisations, so that they can integrate new technologies, enabling them to evaluate novel approaches and services dedicated to the safety of citizens." />
+</head>
+<body>
+<header>
+
+	<div id="header_in">
+		<h1><a href="http://www.insec-project.eu/en/" id="logo" title="INSEC"><img src="http://www.insec-project.eu/images/logo.jpg" alt="INSEC" title="INSEC"/></a></h1>
+    		    	<ul id="menu_top">
+	    				    		<li >
+		    			<a href="http://www.insec-project.eu/en/public-results.18.html">
+		    				<span class="titulo">Public Results</span>
+		    				<span class="texto">Public deliverables</span>
+		    			</a>
+		    		</li>
+	    				    		<li >
+		    			<a href="http://www.insec-project.eu/en/benefits.17.html">
+		    				<span class="titulo">Benefits</span>
+		    				<span class="texto">Methods, tools, trainings and examples of best practices dedicated to the security field. </span>
+		    			</a>
+		    		</li>
+	    				    		<li >
+		    			<a href="http://www.insec-project.eu/en/decription-of-work.13.html">
+		    				<span class="titulo">Description of Work</span>
+		    				<span class="texto">Analysis and Studies, Innovation Ideas and Technology boost, Best practices and networking, Training</span>
+		    			</a>
+		    		</li>
+	    				    		<li >
+		    			<a href="http://www.insec-project.eu/en/partners.3.html">
+		    				<span class="titulo">Partners</span>
+		    				<span class="texto">With a consortium of consulting companies and security end-users</span>
+		    			</a>
+		    		</li>
+	    				    		<li >
+		    			<a href="http://www.insec-project.eu/en/about-insec.12.html">
+		    				<span class="titulo">About Insec</span>
+		    				<span class="texto">Increase Innovation and Research within Security Organisations</span>
+		    			</a>
+		    		</li>
+	    			    		<li>&nbsp;</li>
+	    	</ul>
+    	    	<div id="menu_pesquisa">
+    			    		<ul>
+	    						    			<li>
+			    				<a href="http://www.insec-project.eu/en/-b-training-sessions--b-.26/training-sessions.a72.html"><b>Training Sessions</b></a>
+			    			</li>
+			    							    			<li>
+				    				<span>/</span>
+				    			</li>
+			    					    			<li>
+			    				<a href="http://www.insec-project.eu/en/2nd.25.html">2nd International Workshop</a>
+			    			</li>
+			    							    			<li>
+				    				<span>/</span>
+				    			</li>
+			    					    			<li>
+			    				<a href="http://www.insec-project.eu/en/insec-open-innovation-platform.23.html">Open Innovation Platform</a>
+			    			</li>
+			    							    			<li>
+				    				<span>/</span>
+				    			</li>
+			    					    			<li>
+			    				<a href="http://www.insec-project.eu/en/best-practices.24.html">Best Practices</a>
+			    			</li>
+			    							    			<li>
+				    				<span>/</span>
+				    			</li>
+			    			    		</ul>
+    		    		<a href="#" id="lupa" title="open searchbox"></a>
+    	</div>
+	</div>
+</header><div id="page">
+	<div id="page_in" class="home">
+				<section class="banners">
+			<ul>
+								<li>
+					<a href="http://www.insec-project.eu/en/events.4/international-conference-on-innovation-and-criminal-investigation.a84.html" style="background-image:url(http://www.insec-project.eu/i/imagens/960/450/1/1/140702143940.jpg)"> 
+						<span class="conteudo">
+							<span class="title">INTERNATIONAL CONFERENCE ON INNOVATION AND CRIMINAL INVESTIGATION</span>
+							<span class="text">Polícia Judiciária will be organizing the above mentioned Conference, in order to bring together some International, European and Portuguese entities
+interested in discussing the issue of Innovation and the balance between the need for innovation and the...</span>
+						</span>
+					</a>								
+				</li>
+								<li>
+					<a href="http://www.insec-project.eu/en/insec-open-innovation-platform.23/insec-open-innovation-platform.a49.html" style="background-image:url(http://www.insec-project.eu/i/imagens/960/450/1/1/130104090510.jpg)"> 
+						<span class="conteudo">
+							<span class="title">INSEC Open Innovation Platform</span>
+							<span class="text">Build a free access open innovation platform dedicated to the European security organizations which will help them better innovate by interacting with the external environment and consequently the SME world.</span>
+						</span>
+					</a>								
+				</li>
+								<li>
+					<a href="http://www.insec-project.eu/en/downloads.5/teste2.a8.html" style="background-image:url(http://www.insec-project.eu/i/imagens/960/450/1/1/130517105032.jpg)"> 
+						<span class="conteudo">
+							<span class="title">PROJECT'S DOWNLOADS</span>
+							<span class="text">Download and analyse the public INSEC's public deliverables and other documents</span>
+						</span>
+					</a>								
+				</li>
+								<li>
+					<a href="http://oaz.globaz.pt/insec/en/decription-of-work.13/activities.a24.html" style="background-image:url(http://www.insec-project.eu/i/imagens/960/450/1/1/120703103152.jpg)"> 
+						<span class="conteudo">
+							<span class="title">INSEC positioning towards the security organisations</span>
+							<span class="text">The INSEC project is striving to improve the Innovation and Research processes within the security organisations, so that they can integrate new technologies, enabling them to evaluate novel approaches and services dedicated to the safety of citizens.</span>
+						</span>
+					</a>								
+				</li>
+								<li>
+					<a href="http://oaz.globaz.pt/insec/en/about-insec.12/increase-innovation-and-research-within-security-organisations.a23.html" style="background-image:url(http://www.insec-project.eu/i/imagens/960/450/1/1/120703102922.jpg)"> 
+						<span class="conteudo">
+							<span class="title">The project will focus on two main areas: internal innovation and external collaboration</span>
+							<span class="text">The INSEC project is striving to improve the Innovation and Research processes within the security organisations, so that they can integrate new technologies, enabling them to evaluate novel approaches and services dedicated to the safety of citizens.</span>
+						</span>
+					</a>								
+				</li>
+								<li>
+					<a href="http://www.insec-project.eu/questionnaire.php" style="background-image:url(http://www.insec-project.eu/i/imagens/960/450/1/1/130102175645.jpg)"> 
+						<span class="conteudo">
+							<span class="title">QUESTIONNAIRE FOR SECURITY TECHNOLOGY PROVIDERS</span>
+							<span class="text">Does your organisation provide technologies, products, services, competences and / or know-how to the security organisations, or plans to do so in the nearby future? Fill in the INSEC questionnaire <u>here</u></span>
+						</span>
+					</a>								
+				</li>
+							</ul>
+						<div class="setas">
+				<a href="#" class="seta_left" title="previous"></a>
+				<a href="#" class="seta_right" title="next"></a>
+			</div>
+					</section>		
+				  		  <section class="events">
+			<div class="titles">
+				<span class="title">events</span>
+				<a href="http://www.insec-project.eu/en/events.4.html" class="seeall">see all events</a>
+			</div>
+						<a href="http://www.insec-project.eu/en/events.4/international-conference-on-innovation-and-criminal-investigation.a84.html" class="principal">
+				<span class="data">
+					<span class="mes">Jul</span>
+					<span class="dia">10</span>
+				</span>
+				<span class="titulo">International Conference on Innovation and Criminal Investigation</span>
+				<span class="resumo">Polícia Judiciária is partner of the FP7 INSEC Project – Increase Innovation and Research within Security Organizations as an end user. This project aims at applying to security organizations the best practices that have alr...</span>
+				<span class="vermais">See More</span>
+			</a>
+									<a href="http://www.insec-project.eu/en/events.4/manage-your-innovation-a-strategic-challenge.a80.html" class="secundario">
+				<span class="data">Feb 17, 2014</span>
+				<span class="titulo">Manage your innovation: a strategic challenge</span>
+				<span class="vermais">See More</span>
+				
+			</a>
+			<a href="http://www.insec-project.eu/en/events.4/insec-s-training-session---horizon-2020.a71.html" class="secundario">
+				<span class="data">Jan 15, 2014</span>
+				<span class="titulo">INSEC's Training Session - HORIZON 2020</span>
+				<span class="vermais">See More</span>
+			</a>
+						<div id="calendar"></div>
+		</section>
+						<section class="news">
+			<span class="title">news</span>
+			<a href="http://www.insec-project.eu/en/noticias.2.html" class="seeall">see all news</a>
+			<ul>
+								<li >
+					<a href="http://www.insec-project.eu/en/noticias.2/journal-of-innovation-management-call-for-paper.a83.html">
+						<span class="data">20.3.2014</span>
+												<span class="titulo">Journal of Innovation Management Call for Paper</span>
+						<span class="resumo">This journal encourages the submission of papers addressing the multidisciplinary nature of the innovation process combining principles and concepts originating...<span class="more"> [+]</span></span>
+					</a>
+				</li>
+								<li >
+					<a href="http://www.insec-project.eu/en/noticias.2/sharing-know-how-to-make-us-safer.a81.html">
+						<span class="data">25.2.2014</span>
+												<span class="titulo">Sharing know-how to make us safer</span>
+						<span class="resumo">The first pan-European online network to help security organisations innovate could enable police forces to hunt down social media stalkers more effectively, an...<span class="more"> [+]</span></span>
+					</a>
+				</li>
+								<li >
+					<a href="http://www.insec-project.eu/en/noticias.2/talk-shows-hcfdc-at-milipol-2013.a78.html">
+						<span class="data">12.12.2013</span>
+												<span class="titulo">Talk-shows HCFDC at Milipol 2013</span>
+						<span class="resumo">The French High Committee for Civil Defence (HCFDC) organised interactive talk-shows in the "Major Risks" area at Milipol Paris 2013. Subjects includes : CBRN, ...<span class="more"> [+]</span></span>
+					</a>
+				</li>
+								<li class="com_img">
+					<a href="http://www.insec-project.eu/en/noticias.2/insec-participation-at-ifsec-istanbul.a68.html">
+						<span class="data">17.9.2013</span>
+						<img src="http://www.insec-project.eu/i/imagens/62/62/1/1/130917124034.jpg" alt="INSEC Participation at IFSEC Istanbul" height="62" width="62"/>						<span class="titulo">INSEC Participation at IFSEC Istanbul</span>
+						<span class="resumo">INSEC is delighted to announce that we will be participating at the <strong...<span class="more"> [+]</span></span>
+					</a>
+				</li>
+							
+			</ul>
+		</section>
+			</div> 
+</div><div id="caixa_pesquisa">
+	<span class="titulo">SEARCH ON OUR SITE</span>
+	<form name="pesquisa" method="get" action="#">
+        <label for="searchInput" id="searchInputLabel">search</label>
+		<input name="op" id="searchInput" type="hidden" value="search"/>
+		<input name="q" id="searchInput" type="text" value=""/>
+		<input type="submit" value=""/>
+	</form>
+</div>
+<footer>
+	<div id="footer_in"> 
+	    <div class="conteudo_top">
+	    	    	<div class="coluna">
+	    		<a href="http://www.insec-project.eu/en/downloads.5.html" title=""><span class="titulo">Downloads (ALL)</span></a>
+	    		<ul class="downloads">
+    						    			<li>
+		    				<a href="http://www.insec-project.eu/download.php?f=6&key=22c392902a4ab0727eaff7dfd9e9d69a">
+		    					<span class="nome">Press release - International Workshop</span>
+		    					<span class="desc">.pdf &raquo; 371.95 KB</span>
+		    				</a>
+	    			  	</li>
+    			  			    			<li>
+		    				<a href="http://www.insec-project.eu/download.php?f=11&key=d339bf4c73bb7618c66346143128a06c">
+		    					<span class="nome">D2.2 – Distribution list for disseminating the project’s activities and findings. Project logo, brochure, poster and PowerPoint presentation</span>
+		    					<span class="desc">.pdf &raquo; 1.23 MB</span>
+		    				</a>
+	    			  	</li>
+    			  			    			<li>
+		    				<a href="http://www.insec-project.eu/download.php?f=12&key=40eba39d48716c8b3d2c44a869d4b751">
+		    					<span class="nome">D3.1 - Report on IPR issues</span>
+		    					<span class="desc">.pdf &raquo; 1.33 MB</span>
+		    				</a>
+	    			  	</li>
+    			  		    			
+	    		</ul>
+	    	</div>
+    	    		    	<div class="coluna">
+	    		<a href="http://www.insec-project.eu/en/links.8.html" title=""><span class="titulo">Links (ALL)</span></a>
+	    		<ul class="links">
+	    				    			<li>
+	    				<a href="http://ec.europa.eu/rea/index_en.htm" >Research Executive Agency</a>
+	    			</li>
+	    				    			<li>
+	    				<a href="http://www.force-europe.eu" >FORCE</a>
+	    			</li>
+	    				    			<li>
+	    				<a href="http://ec.europa.eu/research/participants/portal/appmanager/participants/portal" >Research Participant Portal</a>
+	    			</li>
+	    				    			<li>
+	    				<a href="http://ec.europa.eu/research/fp7/index_en.cfm?pg=security" >EC - Security</a>
+	    			</li>
+	    				    			<li>
+	    				<a href="http://cordis.europa.eu/fp7/home_en.html" >CORDIS</a>
+	    			</li>
+	    				    		</ul>
+	    	</div>
+	    	    	    <div class="coluna">
+    		<a href="http://www.insec-project.eu/en/newsletter.6.html" title=""><span class="titulo">Newsletters (ALL)</span></a>
+    		<ul class="downloads newsletter">
+    				 
+	    			<li>
+	    					    				<a href="http://www.insec-project.eu/download.php?fp=85&key=d5c52a8031e228da06004e51967c15cd" target="_blank">	    					<span class="desc">Jul 25, 2014</span>
+	    					<span class="nome">Issue 4 - July 2014</span>
+	    					    				</a>	    			</li>
+    				 
+	    			<li>
+	    					    				<a href="http://www.insec-project.eu/download.php?fp=82&key=3e3dfa84251b664d9456b565da277228" target="_blank">	    					<span class="desc">Mar 05, 2014</span>
+	    					<span class="nome">Issue 3 - March 2014</span>
+	    					    				</a>	    			</li>
+    			    		</ul>
+    	</div>
+    	    	<div id="login">
+    			    						<form name="login" method="post" action="#">
+				<input type="hidden" value="1" name="logging"/>
+                <fieldset>
+	    			<legend class="titulo">Connect to INsEC´s platform</legend>
+					<img src="http://www.insec-project.eu/images/hub.png" width="220" height="24" alt="hub" style="float:left;margin-bottom: 42px;margin-left: 20px;margin-top: 39px;"/>
+	    				    			<div class="sep">
+	    										<a href="http://platform.insec-project.eu/" id="enter" target="_blank">ENTER</a>
+	    				<a href="http://platform.insec-project.eu/register" id="register" target="_blank">REGISTER NOW</a>
+
+	    			</div>
+                    </fieldset>
+	    		</form>
+    					
+			
+    	</div>
+    	<div class="coluna right">
+    		<span class="titulo">stay tuned</span>
+    		<div class="redes_sociais">
+    			<a href="http://twitter.com/#!/INSEC_PROJECT" target="_blank" class="rede">
+    				<span class="logo twitter">&nbsp;</span>
+    				<span class="desc">Twitter</span>
+    			</a>
+    			<a href="http://www.linkedin.com/groups?gid=4465155&trk=group-name" target="_blank" class="rede">
+    				<span class="logo linkedin">&nbsp;</span>
+    				<span class="desc">LinkedIn</span>
+    			</a>
+    		</div>
+    	</div>
+	    	
+	    </div>
+	    <div class="conteudo_middle">
+	    	<div class="logos">
+	    		<img class="logo eur" src="http://www.insec-project.eu/images/europe.jpg" alt="feder"/>
+	    		<img class="logo" src="http://www.insec-project.eu/images/logo_7.jpg" alt="seventh framework programme"/>
+	    	</div>
+	    	<div class="text">
+	    		<span class="orange">Contract No. FP7- 285287</span>
+	    		<span class="grey">INSEC is a project co-funded by the European Commission under the Seventh Framework Programme (2007-2013)</span>
+	    	</div>
+	    </div>
+	    <div class="conteudo_bottom">
+	    	<a href="http://www.insec-project.eu/en/" class="logo" title="INSEC"></a>
+	    	<div class="copy">Copyright &copy; 2012 . <span class="darker"><strong>INSEC</strong> - Innovation and Research within Security Organizations</span> . All rights reserved</div>
+	    	<div class="globaz">
+	    		<a href="http://www.globaz.pt" target="_blank" title="developed by Globaz"></a>
+	    		<span class="developed">Developed by</span>
+	    	</div>
+	    </div>
+	</div>
+</footer>
+</body>
+</html>

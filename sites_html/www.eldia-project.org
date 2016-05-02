@@ -1,0 +1,473 @@
+﻿
+ 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" 
+   xml:lang="en-gb" lang="en-gb" >
+<head>
+  <base href="http://www.eldia-project.org/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="Europe minorities language sociolinguistics research multilingualism vehicular" />
+  <meta name="description" content="ELDIA – European Language Diversity for All. Interdisciplinary research project" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>ELDIA: European Language Diversity for All</title>
+  <link href="/index.php/en?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php/en?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/templates/eldia3/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="http://www.eldia-project.org/index.php/en/component/search/?format=opensearch" rel="search" title="Search ELDIA" type="application/opensearchdescription+xml" />
+  <link rel="stylesheet" href="/modules/mod_jflanguageselection/tmpl/mod_jflanguageselection.css" type="text/css" />
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+  </script>
+
+<link rel="stylesheet" href="/templates/eldia3/css/style.css" type="text/css" />
+<link rel="stylesheet" href="/templates/eldia3/css/print.css" type="text/css" media="Print" />
+
+
+<script type="text/javascript">
+
+
+
+
+
+var galleryarray=new Array();galleryarray[0]="Varska 2003 (2) by Aet Annist_tn.jpg";galleryarray[1]="Setomaa 2007 by Aet Annist_tn.jpg";galleryarray[2]="Varska 2003 by Aet Annist-1_tn.jpg";galleryarray[3]="Petseri 2009 116 by Tiina Hallimae_tn.jpg";galleryarray[4]="Petseri 2009 028 by Lauri Semevsky_tn.jpg";
+var commentarray=new Array();commentarray[0]="";commentarray[1]="";commentarray[2]="";commentarray[3]="";commentarray[4]="";
+
+var max = galleryarray.length;
+var cur = Math.floor(Math.random()*(max+1));
+var p1 = 0;
+var p2 = 0;
+
+function plus() {
+cur +=1;
+
+if (cur > max)
+	cur = 1;
+
+p1 = cur + 1;
+
+if (p1 > max)
+	p1 = 1;
+
+p2 = p1 + 1;
+
+if (p2 > max)
+	p2 = 1;
+
+
+document.getElementById("picture1").setAttribute("src", "http://www.eldia-project.org/templates/eldia3/images/2/tn/"+galleryarray[cur-1])
+document.getElementById("picture2").setAttribute("src", "http://www.eldia-project.org/templates/eldia3/images/2/tn/"+galleryarray[p1-1])
+document.getElementById("picture3").setAttribute("src", "http://www.eldia-project.org/templates/eldia3/images/2/tn/"+galleryarray[p2-1])
+
+document.getElementById("picture1").setAttribute("title", commentarray[cur-1])
+document.getElementById("picture2").setAttribute("title", commentarray[p1-1])
+document.getElementById("picture3").setAttribute("title", commentarray[p2-1])
+
+document.getElementById("picture1").setAttribute("alt", commentarray[cur-1])
+document.getElementById("picture2").setAttribute("alt", commentarray[p1-1])
+document.getElementById("picture3").setAttribute("alt", commentarray[p2-1])
+
+
+}
+
+function minus() {
+cur -=1;
+if (cur == 0)
+	cur = max;
+
+p1 = cur + 1;
+if (p1 > max)
+	p1 = 1;
+
+p2 = p1 + 1;
+if (p2 > max)
+	p2 = 1;
+
+document.getElementById("picture1").setAttribute("src", "http://www.eldia-project.org/templates/eldia3/images/2/tn/"+galleryarray[cur-1])
+document.getElementById("picture2").setAttribute("src", "http://www.eldia-project.org/templates/eldia3/images/2/tn/"+galleryarray[p1-1])
+document.getElementById("picture3").setAttribute("src", "http://www.eldia-project.org/templates/eldia3/images/2/tn/"+galleryarray[p2-1])
+
+document.getElementById("picture1").setAttribute("title", commentarray[cur-1])
+document.getElementById("picture2").setAttribute("title", commentarray[p1-1])
+document.getElementById("picture3").setAttribute("title", commentarray[p2-1])
+
+document.getElementById("picture1").setAttribute("alt", commentarray[cur-1])
+document.getElementById("picture2").setAttribute("alt", commentarray[p1-1])
+document.getElementById("picture3").setAttribute("alt", commentarray[p2-1])
+}
+
+
+function showimage1() {
+var pic = galleryarray[cur-1].replace("_tn", "");
+window.open("http://www.eldia-project.org/templates/eldia3/images/2/pic/"+pic,"Window1","menubar=no,toolbar=no");
+}
+
+function showimage2() {
+var pic = galleryarray[p1-1].replace("_tn", "");
+window.open("http://www.eldia-project.org/templates/eldia3/images/2/pic/"+pic,"Window1","menubar=no,toolbar=no");
+}
+
+function showimage3() {
+var pic = galleryarray[p2-1].replace("_tn", "");
+window.open("http://www.eldia-project.org/templates/eldia3/images/2/pic/"+pic,"Window1","menubar=no,toolbar=no");
+}
+
+</script>
+
+
+
+</head>
+<body onload="plus();">
+
+
+<div id="topbar">
+</div>
+
+
+<div class="colmask holygrail">
+    <div class="colmid">
+        <div class="colleft">
+            <div class="col1wrap">
+                <div class="col1">
+
+<div id="header2" class="headers23456">
+
+<div id="headerS1" class="arrowfields"> <a href="javascript:minus('')">←</a></div><div id="headerS2"> <a href="javascript:showimage1('')"><img name="picture1" id="picture1" border="0" align="middle" src="/templates/eldia3/images/2/tn/001_tn.jpg" alt="Thumbnail" title="Thumbnail"/></a></div><div id="headerS3"> <a href="javascript:showimage2('')"><img name="picture2" id="picture2" border="0" align="middle" src="/templates/eldia3/images/2/tn/002_tn.jpg" alt="Thumbnail" title="Thumbnail"/></a></div><div id="headerS4"> <a href="javascript:showimage3('')"><img name="picture3" id="picture3" border="0" align="middle" src="/templates/eldia3/images/2/tn/003_tn.jpg" alt="Thumbnail" title="Thumbnail"/></a></div><div id="headerS5" class="arrowfields"><a href="javascript:plus('')">→</a></div>
+</div>
+<div id="gap"></div>
+<!-- Content 1 -->
+
+<div id="content">
+
+	
+<div class="blog-featured">
+
+<div class="items-leading">
+			<div class="leading-0">
+			
+
+	<ul class="actions">
+				<li class="print-icon">
+			<a href="/index.php/en/89-uncategorised/460-eldia-comparative-report?tmpl=component&amp;print=1&amp;page=" title="Print" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/media/system/images/printButton.png" alt="Print"  /></a>		</li>
+						<li class="email-icon">
+			<a href="/index.php/en/component/mailto/?tmpl=component&amp;template=eldia3&amp;link=91348ccf1905e5bec9e3216268a4c62f18edb17e" title="Email" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/media/system/images/emailButton.png" alt="Email"  /></a>		</li>
+		
+			</ul>
+
+
+
+
+ <dl class="article-info">
+ <dt class="article-info-term">Details</dt>
+		<dd class="hits">
+		Hits: 18577		</dd>
+ </dl>
+
+
+<p>The ELDIA Comparative Report is now available online, at <a href="https://phaidra.univie.ac.at/detail_object/o:304815">https://phaidra.univie.ac.at/detail_object/o:304815</a> . This is an abridged version; the full-length version will be published as an academic monograph.<br />In addition to the English-language original, there is a Finnish translation. Further translations are underway.</p>
+
+
+<div class="item-separator"></div>
+		</div>
+			</div>
+	
+	
+			<div class="items-row cols-1 row-0">
+				<div class="item column-1">
+			
+
+	<ul class="actions">
+				<li class="print-icon">
+			<a href="/index.php/en/89-uncategorised/443-eldia-is-almost-over?tmpl=component&amp;print=1&amp;page=" title="Print" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/media/system/images/printButton.png" alt="Print"  /></a>		</li>
+						<li class="email-icon">
+			<a href="/index.php/en/component/mailto/?tmpl=component&amp;template=eldia3&amp;link=370e49a46b6c51cef21ea97c3f7114436306da57" title="Email" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/media/system/images/emailButton.png" alt="Email"  /></a>		</li>
+		
+			</ul>
+
+
+
+
+ <dl class="article-info">
+ <dt class="article-info-term">Details</dt>
+		<dd class="hits">
+		Hits: 19073		</dd>
+ </dl>
+
+
+<p>The ELDIA project has officially ended. Our most cordial thanks to all who worked in the project and to all people and institutions who supported our work and shared their time and expertise with us!</p>
+<p>However, our work is not over yet. In the next few weeks, the Case-Specific Reports, the Final Report, the EuLaViBar Toolkit and the last ELDIA Newsletter will be published, and the data base ELDIA-DATA, based on our fieldwork, will be made available for research use. Stay tuned!</p>
+
+
+<div class="item-separator"></div>
+		</div>
+									<span class="row-separator"></span>
+				</div>
+
+				
+	
+			<div class="items-row cols-1 row-1">
+				<div class="item column-1">
+			
+
+	<ul class="actions">
+				<li class="print-icon">
+			<a href="/index.php/en/about-the-project/the-eldia-project-and-consortium?tmpl=component&amp;print=1&amp;page=" title="Print" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/media/system/images/printButton.png" alt="Print"  /></a>		</li>
+						<li class="email-icon">
+			<a href="/index.php/en/component/mailto/?tmpl=component&amp;template=eldia3&amp;link=b9dc58966aaff5a2fe5583455630ff5db12689c9" title="Email" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/media/system/images/emailButton.png" alt="Email"  /></a>		</li>
+		
+			</ul>
+
+
+
+
+ <dl class="article-info">
+ <dt class="article-info-term">Details</dt>
+		<dd class="hits">
+		Hits: 136947		</dd>
+ </dl>
+
+
+<p><strong><span style="font-size: 14px; color: #993366;">A multidisciplinary effort to revitalize minority language, vehicular language</span><span style="font-size: 14px; color: #993366;"> and language maintenance studies</span></strong></p>
+<p align="justify">The European linguistic landscape is experiencing a profound transformation. Innovations and changes in language policies, education, migration patterns etc. challenge and change the roles and functions of languages within and between states, ethnic groups and nations. <strong><span style="color: #993366;">ELDIA (European Language Diversity for All)</span></strong> is an interdisciplinary research project for reconceptualizing, promoting and re-evaluating individual and societal multilingualism. Experts on applied linguistics and sociolinguistics, law, social studies and statistics, drawn from <strong><span style="color: #993366;">eight universities in six European countries</span></strong>, work together to contribute to a better understanding of how local, “national” and “international” (vehicular) languages interact in contemporary Europe. The empirical research will be conducted with a selected sample of multilingual communities, which is to cover practically the whole spectrum of different political and socioeconomic circumstances of linguistic minorities in Europe (smaller and more numerous, autochthonous or migrant communities, vigorous and endangered, highly or weakly standardized languages etc.). All these minority languages belong to the <strong><span style="color: #993366;">Finno-Ugric language family</span></strong> which is seriously underrepresented in internationally accessible sociolinguistic literature. The results of the research project, however, will be generalizable: they will <span style="color: #993366;"><strong>contribute to the study of multilingualism and the development of language policies</strong></span> in other multilingual contexts as well, in and outside Europe.</p>
+<p align="justify"> </p>
+<p><iframe src="http://prezi.com/embed/ddckkexpokmm/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;features=undefined&amp;disabled_features=undefined" frameborder="0" width="550" height="400"></iframe></p>
+<p> </p>
+<p align="justify">The project will develop a systematic and generalizable way of describing, measuring and evaluating the effects of the changing balances between European languages by creating a commensurable and easily applicable instrument, the <span style="color: #993366;"><strong>European Language Vitality Barometer (EuLaViBar)</strong></span>. With this “toolbox”, it will be possible to analyze situations which involve a) linguistic diversity, b) wide use of different types of vehicular languages in different contexts, and c) questions of language vitality, maintenance and endangerment. Furthermore, we will develop a general and testable model of the European practices of using vehicular languages in international, intra-national and regional settings.</p>
+<table style="height: 496px;" width="697" border="0">
+<tbody>
+<tr>
+<td align="left"><img src="/images/stories/terkep.jpg" border="0" width="400" height="486" /></td>
+<td>
+<p><strong>Kv(N) = Kven in Norway</strong></p>
+<p><strong>NS(N) = North Sámi in Norway</strong></p>
+<p><strong>Me(S) = Meänkieli (Tornedal Finnish) in Sweden</strong></p>
+<p><strong>Ka(F) = Karelian in Finland</strong></p>
+<p><strong>Ka(R) = Karelian in Russia</strong></p>
+<p><strong>Es(F) = Estonian in Finland</strong></p>
+<p><strong>Ve(R) = Vepsian in Russia</strong></p>
+<p><strong>SF(S) = Sweden Finnish</strong></p>
+<p><strong>Se(E) = Seto in Estonia</strong></p>
+<p><strong>Se(R) = Seto in Russia</strong></p>
+<p><strong>Võ(E) = Võro in Estonia</strong></p>
+<p><strong>Es(G) = Estonian in Germany</strong></p>
+<p><strong>Hu(A) = Hungarian in Austria</strong></p>
+<p><strong>Hu(S) = Hungarian in Slovenia </strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p align="justify">This is a novel project in at least three ways:</p>
+<p align="justify"><br />1) Reconceptualizing European language diversity: We shift the focus from acquired multilingualism (teaching major European languages such as English or French to monolingual speakers of European nation-state languages) to a novel understanding of multilingualism as part of the European cultural heritage, involving the use of both national and regional/minority languages alongside more international vehicular languages.</p>
+<p align="justify"><br />2) Interactional and constructivist models: We shift the focus from conflict-based models (rivalry of languages, multilingualism as a psychological or socioeconomic burden to the individual or to the society) to models that stress societal dialogism and joint agency. Instead of “languageness”, language as an abstract system, we concentrate on “languaging”: active language use and language choices.</p>
+<p align="justify"><br />3) A more differentiated view on minority languages: We shift the focus from simplistic questions of speaking/understanding vs. not speaking/not understanding a language to the complex role of language as a carrier of symbolic functions and cultural values and to the broad spectrum of language-based cultural practices.<br />Results of the project will be published in scholarly fora (journals, conferences) as well as on the project website (under construction) and in various events directed to more general audiences. We are particularly concerned with involving NGOs, local language practitioners and other stakeholder groups.</p>
+<p><br />The project is a three-year project, starting (preliminarily) in <strong>January 2010</strong>.</p>
+<h3><span style="color: #993366;">Participants and key members</span></h3>
+<table style="height: 215px;" width="663" border="1" cellspacing="2" cellpadding="2">
+<tbody>
+<tr>
+<td><strong><span style="font-size: x-small;">Participant No.<br /></span></strong></td>
+<td><strong>Abbreviation</strong></td>
+<td><strong>Organisation <br /></strong></td>
+<td><strong>Country<br /></strong></td>
+</tr>
+<tr>
+<td>
+<p>1 (Coordinator)</p>
+<p>Prof. Anneli Sarhimaa</p>
+</td>
+<td>UMZ</td>
+<td>Johannes-Gutenberg-Universität Mainz</td>
+<td>Germany</td>
+</tr>
+<tr>
+<td>2 Prof. Riho Grünthal</td>
+<td>UH</td>
+<td>Helsingin yliopisto</td>
+<td>Finland</td>
+</tr>
+<tr>
+<td>3 Prof. Johanna Laakso</td>
+<td>UNIVIE</td>
+<td>Universität Wien</td>
+<td>Austria</td>
+</tr>
+<tr>
+<td>4 Prof. Jarmo Lainio</td>
+<td>SU</td>
+<td>Stockholms Universitet (until April 2011)</td>
+<td>Sweden</td>
+</tr>
+<tr>
+<td>5 Prof. Karl Pajusalu, Prof. Helle Metslang</td>
+<td>UT</td>
+<td>Tartu Ülikool</td>
+<td>Estonia</td>
+</tr>
+<tr>
+<td>6 Prof. Sia Spiliopoulou Åkermark</td>
+<td>AIPI</td>
+<td>Ålands fredsinstitut</td>
+<td>Åland, Finland</td>
+</tr>
+<tr>
+<td>7 Prof. Helena Sulkala</td>
+<td>UO</td>
+<td>Oulun yliopisto</td>
+<td>Finland</td>
+</tr>
+<tr>
+<td>8 Prof. Anna Kolláth</td>
+<td>UM</td>
+<td>Univerza v Mariboru</td>
+<td>Slovenia</td>
+</tr>
+</tbody>
+</table>
+
+
+<div class="item-separator"></div>
+		</div>
+									<span class="row-separator"></span>
+				</div>
+
+				
+	
+			<div class="items-row cols-1 row-2">
+				<div class="item column-1">
+			
+
+	<ul class="actions">
+				<li class="print-icon">
+			<a href="/index.php/en/63-general/website-and-internet-information/145-eldia-on-facebook?tmpl=component&amp;print=1&amp;page=" title="Print" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/media/system/images/printButton.png" alt="Print"  /></a>		</li>
+						<li class="email-icon">
+			<a href="/index.php/en/component/mailto/?tmpl=component&amp;template=eldia3&amp;link=0344978aa2f53b4702a5bdbee1b7410c9a3dff3c" title="Email" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/media/system/images/emailButton.png" alt="Email"  /></a>		</li>
+		
+			</ul>
+
+
+
+
+ <dl class="article-info">
+ <dt class="article-info-term">Details</dt>
+		<dd class="hits">
+		Hits: 93675		</dd>
+ </dl>
+
+
+<p>&nbsp;</p><p>&nbsp;</p> <a href="http://www.facebook.com/pages/ELDIA-European-Language-Diversity-for-All/109989592360850" target="_TOP" title="ELDIA European Language Diversity for All"><img src="/images/badge.png" border="0" alt="Facebook badge" width="100" height="122" /></a>
+
+
+<div class="item-separator"></div>
+		</div>
+									<span class="row-separator"></span>
+				</div>
+
+				
+
+
+</div>
+
+</div>
+
+<!-- Content 2 -->
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="col2">
+
+<div id="logo">
+<img title="Elida" border="0" width = "150" height = "165" src="/templates/eldia3/images/logo_eldia_red.png" alt="eldia - european language diversity for all" />
+</div>
+
+<div class="list2">
+
+<ul class="menu">
+<li class="item-126 current active"><a href="/" >Home</a></li><li class="item-65 parent"><a href="/index.php/about-the-project" >About the project</a></li><li class="item-66 parent"><a href="/index.php/languages-and-communities" >Languages and communities</a></li><li class="item-68 parent"><a href="/index.php/news-events-ac" >Publications &amp; events</a></li><li class="item-55"><a href="/index.php/contacts-public" >Contact Us</a></li><li class="item-72 parent"><a href="/index.php/about-the-website" >About the website</a></li><li class="item-470"><a href="/index.php/eldiadata" >ELDIAdata</a></li><li class="item-472"><a href="/index.php/eulavibar" >EuLaViBar</a></li><li class="item-89"><a href="/index.php/login-members-only" >Login (members only)</a></li></ul>
+
+</div>
+<div id ="flagspace">
+<div id="jflanguageselection"><div class="rawimages"><span><a href="http://www.eldia-project.org/index.php/sl"><img src="/media/mod_languages/images/sl.gif" alt="Slovenian" title="Slovenian" /></a></span><span><a href="http://www.eldia-project.org/index.php/kr"><img src="/media/mod_languages/images/kr.gif" alt="Karelian" title="Karelian" /></a></span><span><a href="http://www.eldia-project.org/index.php/de"><img src="/media/com_joomfish/default/flags/de.gif" alt="German (Germany-Switzerland-Austria)" title="German (Germany-Switzerland-Austria)" /></a></span><span><a href="http://www.eldia-project.org/index.php/et"><img src="/media/com_joomfish/default/flags/et.gif" alt="Estonian" title="Estonian" /></a></span><span><a href="http://www.eldia-project.org/index.php/fi"><img src="/media/com_joomfish/default/flags/fi.gif" alt="Finnish (Suomi)" title="Finnish (Suomi)" /></a></span><span><a href="http://www.eldia-project.org/index.php/hu"><img src="/media/com_joomfish/default/flags/hu.gif" alt="Hungarian (formal)" title="Hungarian (formal)" /></a></span><span><a href="http://www.eldia-project.org/index.php/ru"><img src="/media/com_joomfish/default/flags/ru.gif" alt="Russian (CIS)" title="Russian (CIS)" /></a></span><span><a href="http://www.eldia-project.org/index.php/sv"><img src="/media/com_joomfish/default/flags/sv.gif" alt="Svenska (Sverige)" title="Svenska (Sverige)" /></a></span><span><a href="http://www.eldia-project.org/index.php/vr"><img src="/media/com_joomfish/default/flags/vr.gif" alt="Võro (Estonia)" title="Võro (Estonia)" /></a></span><span id="active_language"><a href="http://www.eldia-project.org/index.php/en"><img src="/media/mod_languages/images/en.gif" alt="English (UK)" title="English (UK)" /></a></span></div></div><!--JoomFish V2.5.1 (Ndoto)-->
+<!-- &copy; 2003-2013 Think Network, released under the GPL. -->
+<!-- More information: at http://www.joomfish.net -->
+
+</div>
+<div class ="nullspace">
+</div>
+<div class ="nullspace">
+</div>
+<div class ="nullspace">
+</div>
+<form action="/index.php/en" method="post">
+	<div class="search">
+		<label for="mod-search-searchword">Search...</label><input name="searchword" id="mod-search-searchword" maxlength="20"  class="inputbox" type="text" size="20" value="Search..."  onblur="if (this.value=='') this.value='Search...';" onfocus="if (this.value=='Search...') this.value='';" /><input type="submit" value="▶" class="button" onclick="this.form.searchword.focus();"/>	<input type="hidden" name="task" value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="126" />
+	</div>
+</form>
+
+<div class ="nullspace">
+</div>
+<div id="eu">
+<img title="Seventh Framework Programme" border="0" src="/templates/eldia3/images/euflag-fp7.png" alt="eldia - Seventh Framework Programme" />
+</div>
+This Project is funded by the European Union under the 7th Framework Programme.
+<div class ="nullspace">
+</div>
+<div class="bannergroup">
+
+
+</div>
+<div class="footer1">Copyright &#169; 2016 ELDIA. All Rights Reserved.</div>
+<div class="footer2"><a href="http://www.joomla.org">Joomla!</a> is Free Software released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License.</a></div>
+
+<div class ="nullspace"></div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="col3">
+<div id="graph">
+<div id="nullspace">
+</div>
+
+</div>
+
+<div class="list2">
+
+<ul class="menu">
+<li class="item-74"><a href="http://www.eldia-project.org/index.php?lang=en" >English (EN)</a></li><li class="item-75"><a href="http://www.eldia-project.org/index.php?lang=de" >Deutsch (DEU)</a></li><li class="item-76"><a href="http://www.eldia-project.org/index.php?lang=et" >Eesti keeles (EST)</a></li><li class="item-77"><a href="/index.php/en/kainun-kielelae-fkv" >Kainun kielelä (FKV)</a></li><li class="item-78"><a href="http://www.eldia-project.org/index.php?lang=kr" >Karjalakse (KRL)</a></li><li class="item-79"><a href="http://www.eldia-project.org/index.php?lang=hu" >Magyarul (HUN)</a></li><li class="item-80"><a href="/index.php/en/meaenkielelae-fit" >Meänkielelä (FIT)</a></li><li class="item-94"><a href="/index.php/en/pa-norsk-no" >På norsk (NOR)</a></li><li class="item-81"><a href="http://www.eldia-project.org/index.php?lang=ru" >По-русски (RUS)</a></li><li class="item-82"><a href="/index.php/en/samas-sme" >Sámás (SME)</a></li><li class="item-83"><a href="http://www.eldia-project.org/index.php?lang=sl" >Po slovensko (SLO)</a></li><li class="item-86"><a href="http://www.eldia-project.org/index.php?lang=fi" >Suomeksi (FIN)</a></li><li class="item-92"><a href="http://www.eldia-project.org/index.php?lang=sv" >På svenska (SWE)</a></li><li class="item-84"><a href="/index.php/en/vepsaeks-vep" >Vepsäks (VEP)</a></li><li class="item-85"><a href="http://www.eldia-project.org/index.php?lang=vr" >Võro keelen (VRO)</a></li></ul>
+
+</div>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="footer">
+</div>
+
+</body>
+</html>

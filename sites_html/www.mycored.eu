@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MYCORED</title>
+<link href="/fonts/Rockwell/stylesheet.css" rel="stylesheet" type="text/css" />
+<link href="/css/style.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="imagetoolbar" content="false" />
+<meta name="keywords" content="Mycored, International Society for Mycotoxicology, ISM, mycotoxin research, mycotoxin, Mycotoxicology" />
+<meta name="description" content="Mycored and International Society for Mycotoxicology ISM together to improve network synergy in mycotoxin research" />
+<link rel="shortcut icon" href="/images/favicon.ico" />
+
+	<script type="text/javascript" src="/inc/js/mootools-1.2.4-core-yc.js"></script>
+	<script type="text/javascript" src="/inc/js/mootools-1.2.3.1-more.js"></script>
+	<script type="text/javascript" src="/inc/js/funzioni_frontend.js"></script>
+	<script type="text/javascript" src="/inc/js/carosello.js"></script>
+
+	<script type="text/javascript">		
+	//<![CDATA[
+	  window.addEvent('domready', function(){
+
+		$('srctxt').addEvent('focus', function(){
+			if (this.get("value") == 'search') 
+			{	
+				this.set('value', '');
+			}
+		});
+		$('srctxt').addEvent('blur', function(){
+			if (this.get("value") == '') 
+			{	
+				this.set('value', 'search');
+			}
+		});
+
+	newsCroller = new iCarousel("news-scroller_content", {
+		idPrevious: "undefined",
+		idNext: "undefined",
+		idToggle: "undefined",
+		item: {
+			klass: "news-scroller_item",
+			size: 84
+		},
+		animation: {
+			type: "scroll",// fadeNscroll, scroll, fade
+			direction: "top",
+			duration: 1300,
+			amount: 3,
+			rotate: {
+				type: "auto",// auto || manual
+				onMouseOver: "stop",// if type = auto, set the onmouseover behavior: stop || proceed
+				interval: 9000
+			}
+		}
+	});
+});
+	//]]>
+	</script>
+		
+<link href="/css/dropdown.css" rel="stylesheet" type="text/css" media="screen" />
+
+<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie.css" type="text/css" media="all" /><![endif]-->
+
+<!--[if lte IE 7]><link rel="stylesheet" href="/css/ie7.css" type="text/css" media="all" /><![endif]-->
+
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="/css/ie6.css" type="text/css" media="all" />
+<script type="text/javascript" src="/inc/js/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript" src="/inc/js/dropdown.js"></script>
+<![endif]-->
+
+<link href="/multibox/multibox.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 6]><link rel="stylesheet" href="/multibox/ie6.css" type="text/css" media="all" /><![endif]-->
+<script type="text/javascript" src="/multibox/multibox.js"></script>
+
+</head>
+<body>
+<div id="wrapper">
+		
+	<div id="container">
+		
+		<div id="header">
+			<!-- <div id="logo" onclick="location.href='/'"><h1>MYCORED</h1></div> -->
+			<div id="toplink">
+				<a href="/">Homepage</a> 
+				<a href="/page/news/">News</a>
+				<a href="/page/gallery/">Mediacenter</a>
+				<a href="/page/links/">Links</a>
+				<a href="/d/24/Join_Us/">Join Us</a>				
+				<a href="/backoffice/">Login</a>
+				<div class="l"></div>     
+			</div>
+			<div id="sette"><a href="http://cordis.europa.eu/fp7/home_en.html" target="_blank"><img src="/images/7.png" alt="7" /></a></div>
+			<div id="eu"><a href="http://ec.europa.eu/dgs/research/index_en.html" target="_blank"><img src="/images/eu.png" alt="EU" /></a></div>
+		</div>
+		
+		<img src="/images/testata.jpg" alt="ISM & Mycored"/>
+		
+		<div id="menu">
+			<ul>
+			<li><a href='/d/39/Beneficiaries/' ><span>ISM </span></a><ul><li><a href='/d/76/ISM_Executive_Committee/'>ISM Executive Committee</a></li><li><a href='/d/77/Membership_information/'>Membership information</a></li><li><a href='/d/78/Affiliated_Journals/'>Affiliated Journals</a></li><li><a href='/d/79/Registration/'>Registration</a></li></ul></li><li><a href='/d/80/ISM_ACTIONS/' ><span>ISM ACTIONS</span></a><ul><li><a href='/d/82/Conferences/'>Conferences</a></li><li><a href='/d/81/Training_courses/'>Training courses</a></li></ul></li><li><a href='/d/49/Global_Network_(new)/' ><span>Global Network</span></a><ul><li><a href='/d/71/International_network/'>International network</a></li><li><a href='/d/24/Join_Us/'>Join Us</a></li><li><a href='/d/48/Twinnings/'>Twinnings</a></li><li><a href='/d/18/Global_Network/'>Scientific Alliances</a></li><li><a href='/d/47/Scientific_Alliances_and_agreements/'>EU projects agreements</a></li></ul></li><li><a href='/d/1/The_Project/' ><span>MycoRed Project</span></a><ul><li><a href='/d/5/Strategy/'>Strategy</a></li><li><a href='/d/29/Mycotoxins/'>Mycotoxins</a></li><li><a href='/d/13/Objectives/'>Objectives</a></li><li><a href='/d/19/Results/'>Results</a></li><li><a href='/d/75/BENEFICIARIES/'>Beneficiaries</a></li><li><a href='/d/14/Work_Programme/'>Work Programme</a></li><li><a href='/page/organization/'>Organization</a></li><li><a href='/d/15/Gender_action/'>Gender action</a></li></ul></li><li><a href='/d/4/Training/' ><span>MycoRed Actions</span></a><ul><li><a href='/d/20/Dissemination/'>Dissemination</a></li><li><a href='/d/25/Training_course_for_Continental_trainers_on_“Reducing_strategies_and_detection_techniques/'>Training courses</a></li><li><a href='/d/27/International_Fusarium_Laboratory_Workshop/'>Workshops</a></li><li><a href='/d/28/Home_education/'>Home education</a></li><li><a href='/d/33/e-learning/'>e-learning</a></li><li><a href='/d/72/MycoRed_Short_Term_Visits_2012/'>Short Term Visits 2012</a></li><li><a href='/d/56/STV_2011/'>Short Term Visits 2011</a></li><li><a href='/d/23/Short_Term_Visits/'>Short Term Visits 2010</a></li><li><a href='/d/51/On_going_Short_Term_Visits/'>Short Term Visits 2009</a></li><li><a href='/d/34/Training_video_for_mycotoxin_sampling/'>Training video</a></li></ul></li><li><a href='/d/2/End_User_Club/' ><span>MycoRed Communication</span></a><ul><li><a href='/d/31/Presentations/'>Newsletters &amp; Press </a></li><li><a href='/d/32/Presentations/'>Conferences</a></li><li><a href='/d/46/Presentations/'>Project Presentations</a></li><li><a href='/d/74/MycoRed_Open_Day__March_7,_2012_-_Piacenza,_Italy/'>MycoRed Open Day  March 7, 2012 - Piacenza, Italy</a></li><li><a href='/d/30/Poster/'>Brochure &amp; Poster</a></li></ul></li><li><a href='/d/3/Contacts/' ><span>Contacts</span></a></li>			</ul>
+		</div>	
+				<div id="headerimagehome" style="background-image: url(/images/foto-03.jpg);">
+				<div class="destra"><h1 style="line-height: 48px;">Mycored and ISM together to improve network synergy<br>in mycotoxin research</h1><!--<h4>2009 - 2013</h4><div class="cleardiv"></div><h6><a href="/d/1/The Project/"><span>READ MORE</span></a></h6>--></div>		
+		</div> <!-- headerimagehome -->
+		
+		
+		<div id="blocco-largo">		
+			<div class="triplobox">
+<h2>Global Network</h2>
+<img src="/images/3-global.jpg" alt="" />
+<p>Many important institutions operating in mycotoxin and toxigenic fungi area are members of our global network for international cooperation.</p>
+<p class="more"><a href="/d/49/Global Network/">Read more &raquo;</a></p>
+</div>
+
+<div class="triplobox">
+<h2>Mycotoxins</h2>
+<img src="/images/3-mycotoxins.jpg" alt="" />
+<p>Mycotoxins are secondary metabolites produced by fungi that are toxic to humans and animals consuming the products.<br /><br /></p>
+<p class="more"><a href="/d/29/Mycotoxins/">Read more &raquo;</a></p>
+</div>
+
+<div class="triplobox-r">
+<h2>Join Us</h2>
+<img src="/images/3-joinus.jpg" alt="" />
+<p>Welcome to our network and discover MycoRed opportunities!</p>
+<p class="more"><a href="/d/24/Join_Us/">Read more &raquo;</a></p>
+
+<form method="post" action="/page/informati/" name="join">
+<input id="newsl" type="text" name="email" value="your@email.here" />
+<button type="submit" name="send" value="send"><span>send</span></button>
+</form>
+
+</div>
+
+
+
+
+<div id="partner">
+
+<div class="left">
+<h2>Coordinator</h2>
+<a href="/page/partners/1/ISPA"><img src="/images/partners/ispa.png" alt="ispa" /><br />ISPA CNR Italy</a>
+</div>
+
+<div class="right">
+<h2>Partners</h2>
+
+
+<script type="text/javascript">
+window.addEvent("domready", function() {
+
+	$('newsl').addEvent('focus', function(){
+		if (this.get("value") == 'your@email.here') 
+		{	
+			this.set('value', '');
+		}
+	});
+	$('newsl').addEvent('blur', function(){
+		if (this.get("value") == '') 
+		{	
+			this.set('value', 'your@email.here');
+		}
+	});
+	
+	//new Accordion($$(".accordion_toggler"), $$(".accordion_content"));
+	new iCarousel("partner_flag_content", {
+		idPrevious: "butt-left",
+		idNext: "butt-right",
+		idToggle: "undefined",
+		item: {
+			klass: "partner_flag_item",
+			size: 82
+		},
+		animation: {
+			type: "scroll",
+			duration: 2000,
+			amount: 6,
+			rotate: {
+				type: "auto",
+				interval: 7000}
+		}
+	});
+});
+
+</script>
+
+
+
+
+
+<div id="partner_flag">  
+<ul id="partner_flag_content">  
+<li onclick="location.href='/page/partners/23/south_african_medical_research_council/'" class="partner_flag_item"><img src="/images/partners/za.png" title="South African Medical Research Council" alt="za" /><br /><a href="/page/partners/23/south_african_medical_research_council/">SAMRC</a></li><li onclick="location.href='/page/partners/11/marmara_research_center/'" class="partner_flag_item"><img src="/images/partners/tr.png" title="Marmara Research Center" alt="tr" /><br /><a href="/page/partners/11/marmara_research_center/">TUBITAK MAM</a></li><li onclick="location.href='/page/partners/8/cereal_research_non-profit_company/'" class="partner_flag_item"><img src="/images/partners/hu.png" title="Cereal Research Non-Profit Company" alt="hu" /><br /><a href="/page/partners/8/cereal_research_non-profit_company/">CRC</a></li><li onclick="location.href='/page/partners/3/universitaet_fuer_bodenkultur_wien/'" class="partner_flag_item"><img src="/images/partners/at.png" title="Universitaet Fuer Bodenkultur Wien" alt="at" /><br /><a href="/page/partners/3/universitaet_fuer_bodenkultur_wien/">IFA-BOKU</a></li><li onclick="location.href='/page/partners/17/universidad_de_lleida/'" class="partner_flag_item"><img src="/images/partners/es.png" title="Universidad de Lleida" alt="es" /><br /><a href="/page/partners/17/universidad_de_lleida/">UDL</a></li><li onclick="location.href='/page/partners/12/a.n._bakh_institute_of_biochemistry_of_the_russian_academy_of_sciences/'" class="partner_flag_item"><img src="/images/partners/ru.png" title="A.N. Bakh Institute of Biochemistry of the Russian Academy of Sciences" alt="ru" /><br /><a href="/page/partners/12/a.n._bakh_institute_of_biochemistry_of_the_russian_academy_of_sciences/">INBI</a></li><li onclick="location.href='/page/partners/5/max_rubner_institut_bundesforschungsinstitut_fur_ernahrung_und_lebensmittel/'" class="partner_flag_item"><img src="/images/partners/de.png" title="Max Rubner Institut Bundesforschungsinstitut Fur Ernahrung Und Lebensmittel" alt="de" /><br /><a href="/page/partners/5/max_rubner_institut_bundesforschungsinstitut_fur_ernahrung_und_lebensmittel/">MRI</a></li><li onclick="location.href='/page/partners/7/università_cattolica_del_sacro_cuore/'" class="partner_flag_item"><img src="/images/partners/it.png" title="Università Cattolica del Sacro Cuore" alt="it" /><br /><a href="/page/partners/7/università_cattolica_del_sacro_cuore/">UCSC</a></li><li onclick="location.href='/page/partners/24/universita_degli_studi_di_roma_la_sapienza/'" class="partner_flag_item"><img src="/images/partners/it.png" title="Universita degli Studi di Roma La Sapienza" alt="it" /><br /><a href="/page/partners/24/universita_degli_studi_di_roma_la_sapienza/">UNIROMA1</a></li><li onclick="location.href='/page/partners/21/international_nut_and_dried_fruit_council_foundation/'" class="partner_flag_item"><img src="/images/partners/es.png" title="International Nut and Dried Fruit Council Foundation" alt="es" /><br /><a href="/page/partners/21/international_nut_and_dried_fruit_council_foundation/">INC</a></li><li onclick="location.href='/page/partners/20/matrix_spa/'" class="partner_flag_item"><img src="/images/partners/it.png" title="Matrix Spa" alt="it" /><br /><a href="/page/partners/20/matrix_spa/">MAT</a></li><li onclick="location.href='/page/partners/6/plant_research_international/'" class="partner_flag_item"><img src="/images/partners/nl.png" title="Plant Research International" alt="nl" /><br /><a href="/page/partners/6/plant_research_international/">PRI</a></li><li onclick="location.href='/page/partners/18/labs_diagnostic_gmbh/'" class="partner_flag_item"><img src="/images/partners/at.png" title="Labs Diagnostic Gmbh" alt="at" /><br /><a href="/page/partners/18/labs_diagnostic_gmbh/">ROMER</a></li><li onclick="location.href='/page/partners/25/università_degli_studi_di_napoli_federico_ii/'" class="partner_flag_item"><img src="/images/partners/it.png" title="Università degli Studi di Napoli Federico II" alt="it" /><br /><a href="/page/partners/25/università_degli_studi_di_napoli_federico_ii/">DSA</a></li><li onclick="location.href='/page/partners/19/bio-ferm/'" class="partner_flag_item"><img src="/images/partners/at.png" title="Bio-Ferm" alt="at" /><br /><a href="/page/partners/19/bio-ferm/">BF</a></li><li onclick="location.href='/page/partners/2/cranfield_university/'" class="partner_flag_item"><img src="/images/partners/gb.png" title="Cranfield University" alt="gb" /><br /><a href="/page/partners/2/cranfield_university/">CU</a></li><li onclick="location.href='/page/partners/22/federation_europeenne_des_fabricants_de#39;additifs_pour_la_nutrition_animale/'" class="partner_flag_item"><img src="/images/partners/be.png" title="Federation Europeenne Des Fabricants D&#39;additifs Pour La Nutrition Animale" alt="be" /><br /><a href="/page/partners/22/federation_europeenne_des_fabricants_de#39;additifs_pour_la_nutrition_animale/">FEFANA</a></li><li onclick="location.href='/page/partners/9/institut_national_de_la_recherche_agronomique/'" class="partner_flag_item"><img src="/images/partners/fr.png" title="Institut National de la Recherche Agronomique" alt="fr" /><br /><a href="/page/partners/9/institut_national_de_la_recherche_agronomique/">INRA</a></li><li onclick="location.href='/page/partners/15/centro_internacional_de_mejoramiento_de_maiz_y_trigo_int/'" class="partner_flag_item"><img src="/images/partners/mx.png" title="Centro Internacional de Mejoramiento de Maiz Y Trigo Int" alt="mx" /><br /><a href="/page/partners/15/centro_internacional_de_mejoramiento_de_maiz_y_trigo_int/">CIMMYT</a></li><li onclick="location.href='/page/partners/16/universidad_nacional_de_rio_cuarto/'" class="partner_flag_item"><img src="/images/partners/ar.png" title="Universidad Nacional de Rio Cuarto" alt="ar" /><br /><a href="/page/partners/16/universidad_nacional_de_rio_cuarto/">UNRC</a></li><li onclick="location.href='/page/partners/14/international_institute_of_tropical_agriculture/'" class="partner_flag_item"><img src="/images/partners/ng.png" title="International Institute of Tropical Agriculture" alt="ng" /><br /><a href="/page/partners/14/international_institute_of_tropical_agriculture/">IITA</a></li><li onclick="location.href='/page/partners/13/national_research_center/'" class="partner_flag_item"><img src="/images/partners/eg.png" title="National Research Center" alt="eg" /><br /><a href="/page/partners/13/national_research_center/">NRC</a></li><li onclick="location.href='/page/partners/4/danmarks_tekniske_universitet/'" class="partner_flag_item"><img src="/images/partners/dk.png" title="Danmarks Tekniske Universitet" alt="dk" /><br /><a href="/page/partners/4/danmarks_tekniske_universitet/">DTU</a></li><li onclick="location.href='/page/partners/1/institute_of_sciences_of_food_production/'" class="partner_flag_item"><img src="/images/partners/it.png" title="Institute of Sciences of Food Production" alt="it" /><br /><a href="/page/partners/1/institute_of_sciences_of_food_production/">ISPA CNR</a></li></ul> <!-- partner-container -->
+
+</div><!-- scroller -->
+
+<div id="butt-left"><img src="/images/scroll-l.png" alt="" /></div>
+<div id="butt-right"><img src="/images/scroll-r.png" alt="" /></div>
+
+</div>
+</div><!-- partner -->
+
+
+
+<div id="collaborative"><a href="/backoffice/"><img src="/images/collaborative.jpg" alt="Collaborative Platform" /></a></div>						
+		</div> <!-- blocco-largo -->
+		
+		
+		<div id="blocco-stretto">			
+			
+			<form method="post" action="/page/search/" name="join">
+			<input type="text" id="srctxt" name="search" value="search" />
+			<button type="submit" name="cerca" value="go"><span>go</span></button>
+			</form>
+			
+			
+			
+			
+			<div class="news" >
+				<h3>Latest News</h3>
+				
+
+									
+		
+<div id="news-scroller">
+	<ul id="news-scroller_content">
+	<li class='news-scroller_item'>
+										<div class='thumbsmall' >
+											<div class='thumbsmall-in' style='background-image:url(/photo/2214__100x100.jpg)'></div>
+										</div>					
+										<a href='/page/news/108/e#34;mycotoxins_and_cancere#34;_-__marrakesh_2-4_december_2015/'>&#34;Mycotoxins and Cancer&#34; -  ..</a><span><br /><br />International Congress -&nbsp; First announcement ..</span>
+									</li><li class='news-scroller_item'>
+										<div class='thumbsmall' >
+											<div class='thumbsmall-in' style='background-image:url(/photo/2186__100x100.jpg)'></div>
+										</div>					
+										<a href='/page/news/105/efs13_-_13th_european_fusarium_seminar_dedicated_to_the_memory_of_wally_marasas/'>EFS13 - 13th European Fusarium Seminar ..</a><span><br /><br />Martina Franca, Italy, 10 - 14 May ..</span>
+									</li><li class='news-scroller_item'>
+										<div class='thumbsmall' >
+											<div class='thumbsmall-in' style='background-image:url(/photo/2210__100x100.jpg)'></div>
+										</div>					
+										<a href='/page/news/107/don_occurrence_in_cereal_grains:_a_north_american_perspective/'>DON Occurrence in Cereal Grains: A North ..</a><span><br /><br />A recent publication on DON Occurrence in Cereal ..</span>
+									</li><li class='news-scroller_item'>
+										<div class='thumbsmall' >
+											<div class='thumbsmall-in' style='background-image:url(/images/foto-03-t.jpg)'></div>
+										</div>					
+										<a href='/page/news/102/asm2015_|_1st_african_symposium_on_mycotoxicology__|__livingstone,_26-28_may_2015/'>ASM2015 | 1st African Symposium on ..</a><span><br /><br />
+	
+		
+		
+		The 1st&nbsp;African Symposium on ..</span>
+									</li><li class='news-scroller_item'>
+										<div class='thumbsmall' >
+											<div class='thumbsmall-in' style='background-image:url(/images/foto-04-t.jpg)'></div>
+										</div>					
+										<a href='/page/news/106/mycored_results_on_eu_cordis/'>MycoRed results on EU CORDIS </a><span><br /><br />
+	The MYCORED&nbsp;Report Summary and ..</span>
+									</li><li class='news-scroller_item'>
+										<div class='thumbsmall' >
+											<div class='thumbsmall-in' style='background-image:url(/photo/2185__100x100.jpg)'></div>
+										</div>					
+										<a href='/page/news/104/icfc_2015_-__international_conference_on_food_contaminants/'>ICFC 2015 -  International Conference on ..</a><span><br /><br />The International Conference on Food Contaminants: ..</span>
+									</li>		
+	</ul>
+</div>
+		<p class="more"><a href="/page/latest/" >view all &raquo;</a></p>
+		
+				
+			</div> <!-- news -->
+			
+			
+			<div class="upcoming">
+				<h3>Upcoming Events</h3>
+				<ul>
+					<li class='png'><a href='/page/upcoming_events/110/fusarium_laboratory_workshop________________|_south_africa_|_29_may_–_3_june_2016/'>Fusarium Laboratory Workshop             ..</a></li><li class='png'><a href='/page/upcoming_events/109/international_congress__mycotoxins_and_cancer_-_marrakesh,_24-26_march_2016/'>International Congress  Mycotoxins and ..</a></li>
+				</ul>
+				<p class="more"><a href="/page/upcoming_events/" class="more">view all &raquo;</a></p>
+			</div> <!-- upcoming -->
+			
+			
+			<div class="gallery">
+				<h3>Explore</h3>
+			<a href="/page/gallery/" class="more"><img src="/images/gallery.jpg" alt="gallery" /></a>
+			</div> <!-- gallery -->	
+					
+		</div> <!-- blocco-stretto -->
+		
+		<div class="cleardiv"></div>
+		
+	</div>	<!-- container -->
+	
+	<div id="push"></div>
+	
+</div> <!-- wrapper --> 
+
+	
+	<div id="footer">
+		<div class="left"><span>FP7 Food Quality and Safety Priority - Large Collaborative Project - GA 222690</span><br /><b>MycoRed</b> - "Design and development of novel integrated strategies for worldwide mycotoxin reduction  in food and feed chains” - National Research Council - Institute of Sciences of Food Production - Italy</div>
+		<div class="right">Developed by <a href="http://www.ccbc.it" title="webagency bari" target="_blank">CCBC</a><br />Valid <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fmycored.eu" target="_blank">XHTML</a> <a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.mycored.eu%2F&amp;profile=css3&amp;usermedium=all&amp;warning=no&amp;lang=it" target="_blank">CSS</a></div>
+	</div>
+	
+<script type="text/javascript">
+        window.addEvent('domready', function(){
+				var initMultiBox = new multiBox({
+					mbClass: '.mb',//class you need to add links that you want to trigger multiBox with (remember and update CSS files)
+					container: $(document.body),//where to inject multiBox
+					descClassName: 'MultiBoxDescription',//the class name of the description divs
+					useOverlay: false,//use a semi-transparent background. default: false;
+					maxSize: null,//max dimensions (width,height) - set to null to disable resizing
+					addRollover: false,//add rollover fade to each multibox link
+					addOverlayIcon: true,//adds overlay icons to images within multibox links
+					addChain: true,//cycle through all images fading them out then in
+					recalcTop: true,//subtract the height of controls panel from top position
+					addTips: false//adds MooTools built in 'Tips' class to each element (see: http://mootools.net/docs/Plugins/Tips)
+				});
+			});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8064427-10']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+  })();
+
+</script>				
+</body>
+</html>

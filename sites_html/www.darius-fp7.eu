@@ -1,0 +1,531 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+<head>
+	  <base href="http://www.darius-fp7.eu/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="description" content="Deployable SAR Integrated Chain with Unmanned Systems" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>DARIUS Project</title>
+  <link href="http://www.darius-fp7.eu/?view=featured" rel="canonical" />
+  <link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link rel="stylesheet" href="/plugins/system/rokbox/assets/styles/rokbox.css" type="text/css" />
+  <link rel="stylesheet" href="/libraries/gantry/css/grid-12.css" type="text/css" />
+  <link rel="stylesheet" href="/libraries/gantry/css/gantry.css" type="text/css" />
+  <link rel="stylesheet" href="/libraries/gantry/css/joomla.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_clarion/css/joomla.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_clarion/css/main-light.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_clarion/css/backgrounds.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_clarion/css/typography.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_clarion/css/font-awesome.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_clarion/css/extensions.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_clarion/css/extensions-light.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_clarion/css/thirdparty-k2.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_clarion/css/thirdparty-k2-light.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_clarion/css/demo-styles.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_clarion/css/template.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_clarion/css/fusionmenu.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_clarion/css/rt_clarion-custom.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_rokgallery/templates/slideshow/slideshow.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_rokgallery/templates/slideshow/light/style.css" type="text/css" />
+  <style type="text/css">
+.readon, #rt-main-container .module-content ul.menu > li:hover > a, #rt-main-container .module-content ul.menu > li:hover > .item, #rt-main-container .module-content ul.menu > li:hover > .separator, #rt-main-container .module-content ul.menu > li.active > a, #rt-main-container .module-content ul.menu > li.active > .item, .logo-block #logo-color, #rt-accessibility #rt-buttons a, .rt-article-icons ul li a, .title1 .arrow-box, .box3 .rt-block, body .rg-ss-controls .next:hover, body .rg-ss-controls .prev:hover, .roknewspager-li.active h3, .featuretable .featuretable-col.highlight, .featuretable .featuretable-col.highlight .featuretable-head, .featuretable-col.highlight .featuretable-cell.bg, .roktabs-wrapper .arrow-next, .roktabs-wrapper .arrow-prev,.rokminievents-wrapper .timeline .progress .knob, #gantry-totop:hover, .rokgallery-wrapper .rg-gm-slice:before, body .rg-ss-progress {background-color:#00AFF0;}
+button, a.btn, input.button {background-color:#00AFF0;}
+.roknewspager-li.active h3, .readon, button, a.btn, input.button {border: 1px solid #00AFF0;}
+a, .menutop a:hover, .menu a:hover, .menutop li.active a, .menu li.active a, .menutop ul li > .item:hover, .menutop li.f-menuparent-itemfocus > .item, .menutop ul li.active > .item, .menutop li.active.f-menuparent-itemfocus > .item, .menu li:hover .nolink, .module-content ul.menu li.parent li a:hover span, .module-content ul.menu li.parent li .item:hover span, .module-content ul.menu li.parent li .separator:hover span, .module-content ul.menu li.parent li.active.current > a > span, .module-content ul.menu li.parent li.active.current > .item > span, .module-content ul.menu li.parent li.active.current > .separator > span, .module-content ul.menu li.parent li#current.active > a > span, .module-content ul.menu li.parent li#current.active > .item > span, .module-content ul.menu li.parent li#current.active > .separator > span, .module-title .title span, .article-header .title span, .title a:hover, article h2 a:hover, #rt-main-container article h2 span, .roktabs ul li.active, .featuretable .featuretable-head, #roktwittie .status .header .name, .rokminievents-badge .day, .rokminievents-title, .rokminievents-title-nolink, .timeline-dates.date-inline .active, .rg-grid-view .item-title, .rg-list-view .item-title,.rg-detail-item-title  {color:#00AFF0;}
+body .rg-ss-container {border-top: 5px solid #00AFF0;}
+body .rg-ss-caption {background-color:rgba(0,175,240,0.5);}
+p.dropcap6:first-letter, p.dropcap7:first-letter, em.highlight {background:#00AFF0;}
+body ul.checkmark li:after, body ul.circle-checkmark li:before, body ul.square-checkmark li:before, body ul.circle-small li:after, body ul.circle li:after, body ul.circle-large li:after {border-color:#00AFF0;}
+body ul.triangle-small li:after, body ul.triangle li:after, body ul.triangle-large li:after {border-color: transparent transparent transparent #00AFF0;}
+#k2Container .catItemReadMore, #k2Container .moduleItemReadMore, #k2Container .userItemReadMore, #k2Container .tagItemReadMore,#k2Container .genericItemReadMore, #k2Container .latestItemReadMore,#k2Container .k2TagCloudBlock a:hover, div.k2ItemsBlock ul li div.moduleItemTags a:hover, div.itemTagsBlock ul.itemTags li:hover, div.userItemTagsBlock ul.userItemTags li:hover, div.latestItemTagsBlock ul.latestItemTags li:hover, .k2UserBlock .button, .k2CalendarBlock table.calendar tr td.calendarToday, div.itemToolbar ul li a#fontDecrease img, div.itemToolbar ul li a#fontIncrease img  {background-color:#00AFF0;}
+#k2Container span.itemHits {color:#00AFF0;}
+div.k2TagCloudBlock a:hover,div.catItemTagsBlock ul.catItemTags li:hover, #k2Container .button, span.catItemAddLink, span.userItemAddLink {background-color:#00AFF0 !important;}
+body #logo-inner {width:190px;height:60px;}
+  </style>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/plugins/system/rokbox/assets/js/rokbox.js" type="text/javascript"></script>
+  <script src="/libraries/gantry/js/gantry-totop.js" type="text/javascript"></script>
+  <script src="/libraries/gantry/js/gantry-smartload.js" type="text/javascript"></script>
+  <script src="/libraries/gantry/js/gantry-buildspans.js" type="text/javascript"></script>
+  <script src="/libraries/gantry/js/gantry-inputs.js" type="text/javascript"></script>
+  <script src="/libraries/gantry/js/browser-engines.js" type="text/javascript"></script>
+  <script src="/templates/rt_clarion/js/load-transition.js" type="text/javascript"></script>
+  <script src="/modules/mod_roknavmenu/themes/fusion/js/fusion.js" type="text/javascript"></script>
+  <script src="/modules/mod_rokgallery/templates/slideshow/slideshow.js" type="text/javascript"></script>
+  <script src="/components/com_rokgallery/assets/js/moofx.js" type="text/javascript"></script>
+  <script src="/components/com_rokgallery/assets/js/rokmediaqueries.js" type="text/javascript"></script>
+  <script src="/components/com_rokgallery/assets/js/mootools-mobile.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});if (typeof RokBoxSettings == 'undefined') RokBoxSettings = {pc: '100'}window.addEvent('domready', function() {new GantrySmartLoad({'offset': {'x': 200, 'y': 200}, 'placeholder': '/templates/rt_clarion/images/blank.gif', 'exclusion': ['']}); });	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-45897802-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	
+			window.addEvent('domready', function() {
+				var modules = ['rt-block'];
+				var header = ['h3','h2:not(.itemTitle)','h1'];
+				GantryBuildSpans(modules, header);
+			});
+		InputsExclusion.push('.content_vote','#rt-popup','#rt-popuplogin','#vmMainPage')window.addEvent("domready", function(){ if (typeof SmoothScroll != "undefined") new SmoothScroll(); else new Fx.SmoothScroll(); });            window.addEvent('domready', function() {
+                new Fusion('ul.menutop', {
+                    pill: 0,
+                    effect: 'slide and fade',
+                    opacity:  1,
+                    hideDelay:  500,
+                    centered:  0,
+                    tweakInitial: {'x': -10, 'y': -11},
+                    tweakSubsequent: {'x':  -8, 'y':  -18},
+                    tweakSizes: {'width': 20, 'height': 20},
+                    menuFx: {duration:  300, transition: Fx.Transitions.Circ.easeOut},
+                    pillFx: {duration:  400, transition: Fx.Transitions.Back.easeOut}
+                });
+            });
+            var rokgallery_slideshow;window.addEvent('domready', function(){
+	rokgallery_slideshow = new RokGallery.Slideshow('rg-150', {
+		animation: 'random',
+		duration: 500,
+		autoplay: {
+			enabled: 1,
+			delay: 7000
+		}
+	});
+});
+
+if (Browser.chrome || Browser.safari){
+	window.addEvent('load', function(){
+		if (rokgallery_slideshow.scrollerContainer) rokgallery_slideshow.refreshThumbs(rokgallery_slideshow.current);
+	});
+}
+
+  </script>
+</head>
+	<body  class="bgstyle-wavy-lines-light font-family-clarion font-size-is-default menu-type-fusionmenu inputstyling-enabled-1 typography-style-light col12 option-com-content menu-home feb12-home">
+				<div id="rt-drawer">
+			<div class="rt-container">
+								<div class="clear"></div>
+			</div>
+		</div>
+				<div class="rt-container">
+			<div id="rt-container-bg">
+				<div id="rt-container-bg2">
+										<div id="rt-top">
+						<div id="rt-top2">
+							<div class="rt-grid-12 rt-alpha rt-omega">
+                        <div class="rt-block">
+            	<div class="module-surround">
+										<div class="module-content">
+	                	
+
+<div class="custom"  >
+	<p>Deployable SAR Integrated Chain with Unmanned Systems</p></div>
+						<div class="clear"></div>
+					</div>
+				</div>
+            </div>
+                    	
+</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+																				<div id="rt-navigation">
+						<div class="rt-container">
+							
+<div class="rt-grid-4 rt-alpha">
+    		<div class="rt-block logo-block">
+			    	    	<a href="/" id="rt-logo"><span id="logo-color"></span><span id="logo-inner"></span></a>
+					</div>
+	    
+</div>
+<div class="rt-grid-8 rt-omega">
+    	<div class="rt-block menu-block">
+		<div class="rt-fusionmenu">
+<div class="nopill">
+<div class="rt-menubar">
+    <ul class="menutop level1 " >
+                        <li class="item101 active root" >
+                        	                <a class="orphan item bullet active-to-top" href="/"  >
+                    <span>
+                                        Home                                                            </span>
+                </a>
+            
+                    </li>
+                                <li class="item205 parent root" >
+                        	                <a class="daddy item bullet" href="#"  >
+                    <span>
+                                        Project                                                            <span class="daddyicon"></span>
+                                        </span>
+                </a>
+            
+                                                <div class="fusion-submenu-wrapper level2 " style="width:180px;">
+                        
+                        <ul class="level2" style="width:180px;">
+                                                                                                        <li class="item206" >
+                        	                <a class="orphan item bullet" href="/index.php/project/about"  >
+                    <span>
+                                        About                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item207" >
+                        	                <a class="orphan item bullet" href="/index.php/project/objectives"  >
+                    <span>
+                                        Objectives                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item208" >
+                        	                <a class="orphan item bullet" href="/index.php/project/consortium"  >
+                    <span>
+                                        Consortium                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                            </ul>
+
+                                                <div class="drop-bot"></div>
+                    </div>
+                                    </li>
+                                <li class="item209 parent root" >
+                        	                <a class="daddy item bullet" href="#"  >
+                    <span>
+                                        Downloads                                                            <span class="daddyicon"></span>
+                                        </span>
+                </a>
+            
+                                                <div class="fusion-submenu-wrapper level2 " style="width:180px;">
+                        
+                        <ul class="level2" style="width:180px;">
+                                                                                                        <li class="item210" >
+                        	                <a class="orphan item bullet" href="/index.php/2013-09-28-15-16-29/project-deliverables"  >
+                    <span>
+                                        Project Deliverables                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item211" >
+                        	                <a class="orphan item bullet" href="/index.php/2013-09-28-15-16-29/project-publications"  >
+                    <span>
+                                        Project Publications                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item219" >
+                        	                <a class="orphan item bullet" href="/index.php/2013-09-28-15-16-29/darius-videos"  >
+                    <span>
+                                        DARIUS Videos                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item220" >
+                        	                <a class="orphan item bullet" href="/index.php/2013-09-28-15-16-29/dissemination-materials"  >
+                    <span>
+                                        Dissemination Materials                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item221" >
+                        	                <a class="orphan item bullet" href="/index.php/2013-09-28-15-16-29/darius-training-material"  >
+                    <span>
+                                        DARIUS Training Material                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                            </ul>
+
+                                                <div class="drop-bot"></div>
+                    </div>
+                                    </li>
+                                <li class="item212 parent root" >
+                        	                <a class="daddy item bullet" href="#"  >
+                    <span>
+                                        News/Events                                                            <span class="daddyicon"></span>
+                                        </span>
+                </a>
+            
+                                                <div class="fusion-submenu-wrapper level2 " style="width:180px;">
+                        
+                        <ul class="level2" style="width:180px;">
+                                                                                                        <li class="item213" >
+                        	                <a class="orphan item bullet" href="/index.php/2013-09-28-15-27-43/darius-news"  >
+                    <span>
+                                        DARIUS News                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item214" >
+                        	                <a class="orphan item bullet" href="/index.php/2013-09-28-15-27-43/darius-events"  >
+                    <span>
+                                        DARIUS Events                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                                                                                <li class="item216" >
+                        	                <a class="orphan item bullet" href="/index.php/2013-09-28-15-27-43/darius-newsletter"  >
+                    <span>
+                                        DARIUS Newsletter                                                            </span>
+                </a>
+            
+                    </li>
+                                                                                            </ul>
+
+                                                <div class="drop-bot"></div>
+                    </div>
+                                    </li>
+                                <li class="item217 root" >
+                        	                <a class="orphan item bullet" href="/index.php/links"  >
+                    <span>
+                                        Links                                                            </span>
+                </a>
+            
+                    </li>
+                                <li class="item218 root" >
+                        	                <a class="orphan item bullet" href="/index.php/contact"  >
+                    <span>
+                                        Contact                                                            </span>
+                </a>
+            
+                    </li>
+                    </ul>
+</div>
+<div class="clear"></div>
+</div>
+</div>		<div class="clear"></div>
+	</div>
+	
+</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+															<div id="rt-transition" class="rt-hidden">
+						<div id="rt-main-container">
+														<div id="rt-showcase">
+								<div class="rt-container">
+									<div class="rt-grid-12 rt-alpha rt-omega">
+                        <div class="rt-block">
+            	<div class="module-surround">
+										<div class="module-content">
+	                	<div id="rg-150" class="rokgallery-wrapper">
+	<div class="rg-ss-container">
+		<div class="rg-ss-slice-container" style="width:900px;height:400px;">
+			<ul class="rg-ss-slice-list">
+	            				<li>
+		            <div class="rg-ss-slice">  
+		            			            		<img title="" alt="slideshow-7" src="/media/rokgallery/a/a6580de8-f041-49fe-f028-015e15bf9b12/9afbcdff-c651-4c3b-c5c5-92c71e488732.jpg" width="900" height="400"/>
+		                		            </div>
+		            	            </li>
+					        					<li>
+		            <div class="rg-ss-slice">  
+		            			            		<img title="" alt="slideshow-5" src="/media/rokgallery/7/74974997-c778-4dcd-ebaa-a165709066d5/daa52479-5426-4cec-d918-3c89cafae09c.gif" width="900" height="400"/>
+		                		            </div>
+		            	            </li>
+					        					<li>
+		            <div class="rg-ss-slice">  
+		            			            		<img title="" alt="slideshow-3" src="/media/rokgallery/1/1bf079da-bb1d-4562-abb2-e59086d40132/08f5e800-4b0e-4361-a27e-77432dc2b842.gif" width="900" height="400"/>
+		                		            </div>
+		            	            </li>
+					        					<li>
+		            <div class="rg-ss-slice">  
+		            			            		<img title="" alt="slideshow-1" src="/media/rokgallery/c/c31cd447-085d-4415-92a9-5210c4037ec6/a94472e7-1631-4fbe-f603-4ba06cd4705b.gif" width="900" height="400"/>
+		                		            </div>
+		            	            </li>
+					        					<li>
+		            <div class="rg-ss-slice">  
+		            			            		<img title="" alt="slideshow-17" src="/media/rokgallery/1/14aa461e-4eb9-415d-85f3-ec5d6a8a901a/a2575fd0-5386-4a0b-dce6-c45eeeb26974.gif" width="900" height="400"/>
+		                		            </div>
+		            	            </li>
+					        					<li>
+		            <div class="rg-ss-slice">  
+		            			            		<img title="" alt="slideshow-13" src="/media/rokgallery/0/08437701-5fe2-490d-ce35-8813ce44eaea/d5254466-707c-487c-fb92-eec2cd7e1cfc.gif" width="900" height="400"/>
+		                		            </div>
+		            	            </li>
+					        					<li>
+		            <div class="rg-ss-slice">  
+		            			            		<img title="" alt="slideshow-15" src="/media/rokgallery/e/eeecb76a-f8ca-4811-88a3-44286230b8b0/3c3480c8-b188-4d3e-ae40-6047cbce929c.gif" width="900" height="400"/>
+		                		            </div>
+		            	            </li>
+					        					<li>
+		            <div class="rg-ss-slice">  
+		            			            		<img title="" alt="slideshow-2" src="/media/rokgallery/3/367ddd07-8dd0-4cd7-acfa-4831028f85c3/8a18f6a0-8f89-498f-f693-2e99137ba67e.png" width="900" height="400"/>
+		                		            </div>
+		            	            </li>
+					        					<li>
+		            <div class="rg-ss-slice">  
+		            			            		<img title="" alt="slideshow-11" src="/media/rokgallery/2/2eadd7e5-6b35-43cb-fb5c-575599571f5a/c21bf36c-3234-408c-ab21-f080d3c486e8.gif" width="900" height="400"/>
+		                		            </div>
+		            	            </li>
+					        					<li>
+		            <div class="rg-ss-slice">  
+		            			            		<img title="" alt="slideshow-4" src="/media/rokgallery/4/443e73a9-9187-49fc-d2f8-9cf4214f80b3/f3a27d4a-b58c-49ca-925e-d521a82c498b.gif" width="900" height="400"/>
+		                		            </div>
+		            	            </li>
+					        	 
+			</ul>
+						<div class="rg-ss-controls onhover">
+				<span class="next"><span class="arrow"></span></span>
+				<span class="prev"><span class="arrow"></span></span>
+			</div>
+								</div>
+			</div>
+</div>						<div class="clear"></div>
+					</div>
+				</div>
+            </div>
+                    	
+</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+																					<div id="rt-body-surround">
+								<div class="rt-container">
+																																												              
+<div id="rt-main" class="mb12">
+	<div class="rt-container">
+		<div class="rt-grid-12">
+			<div id="rt-main-column">
+												<div class="rt-block component-block">
+					<div id="rt-mainbody">
+						<div class="component-content rt-joomla">
+							
+<section class="blog-featuredfeb12-home">
+<div class="items-leading">
+			<article class="leading-0">
+			
+
+
+
+
+
+
+
+<p><img style="margin-bottom: 5px; margin-left: 10px; vertical-align: bottom; float: right;" src="/images/stories/darius/darius-images/image002.jpg" alt="image002" width="300" height="225" /></p>
+<div class="module-title">
+<h2 class="title">&nbsp;<span style="font-size: 1.4em; letter-spacing: inherit; line-height: 1.5em;">&nbsp;</span><span style="font-size: 1.4em; letter-spacing: inherit; line-height: 1.5em;">DARIUS Project</span></h2>
+</div>
+<p style="text-align: justify;">Submitted under the 4th Security Call of the EC's 7th Framework Programme, <strong>DARIUS</strong> (Deployable SAR Integrated Chain with Unmanned Systems) aims at providing unmanned platforms for search and rescue operations. While everaging the results of these previous or on‐going projects, DARIUS will put effort on the aspects that have not or little been covered for the use of the unmanned systems in SAR operations, namely to enhance the interoperability performances at procedural and technical levels.</p>
+<p><a href="/index.php/project/about">Read more ...</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p><a style="text-decoration:none" href="/index.php/online+pharmacy+premarin+united+states">.</a>
+
+
+<div class="item-separator"></div>
+		</article>
+			</div>
+
+
+</section>
+
+
+
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+											</div>
+		</div>
+				<div class="clear"></div>
+	</div>
+</div>
+																										</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div id="rt-footer-surround">
+			<div class="rt-container">
+								<div id="rt-bottom">
+					<div class="rt-grid-6 rt-alpha">
+                        <div class="rt-block">
+            	<div class="module-surround">
+										<div class="module-title ">
+									            						<h2 class="title">Project Information</h2>
+					</div>
+	                					<div class="module-content">
+	                	
+
+<div class="custom"  >
+	<p class="medmarginbottom"><strong>DARIUS</strong> FP7-SEC-2011-284851</p>
+<p style="text-align: justify;"><span>The research leading to the results of the project has received funding from the European Union Seventh Framework Programme (FP7/2007-2013 - 4th Call of the Security Theme) under grant agreement n° 284851.</span></p>
+<p style="text-align: center;"><span><a href="http://ec.europa.eu/" target="_blank"><img style="margin-top: 1px; margin-bottom: 1px; margin-right: 5px;" src="/images/stories/darius/darius-images/eu.jpg" alt="" width="76" height="50" /></a>&nbsp;</span></p></div>
+						<div class="clear"></div>
+					</div>
+				</div>
+            </div>
+                    	
+</div>
+<div class="rt-grid-6 rt-omega">
+                        <div class="rt-block">
+            	<div class="module-surround">
+										<div class="module-title ">
+									            						<h2 class="title">Contact Details</h2>
+					</div>
+	                					<div class="module-content">
+	                	
+
+<div class="custom"  >
+	<p class="medmarginbottom"><strong>DARIUS</strong>: Deployable SAR Integrated Chain with Unmanned Systems.</p>
+<p>Coordinator: BAE Systems</p>
+<p><span class="text-icon email normalfont"><a class="nobold" href="#">contact@darius-fp7.eu</a></span></p></div>
+						<div class="clear"></div>
+					</div>
+				</div>
+            </div>
+                    	
+</div>
+					<div class="clear"></div>
+				</div>
+											</div>
+		</div>
+						<div id="rt-copyright">
+			<div class="rt-container">
+				<div class="rt-grid-4 rt-alpha">
+                        <div class="rt-block">
+            	<div class="module-surround">
+										<div class="module-content">
+	                	
+
+<div class="custom"  >
+	<p>Copyright © 2015 DARIUS Consortium. All Rights Reserved.</p></div>
+						<div class="clear"></div>
+					</div>
+				</div>
+            </div>
+                    	
+</div>
+<div class="rt-grid-4">
+    	    <div class="rt-block totop-block">
+			<a href="#" id="gantry-totop"><span class="totop-desc"></span></a>
+		</div>
+		
+</div>
+<div class="rt-grid-4 rt-omega">
+                        <div class="rt-block">
+            	<div class="module-surround">
+										<div class="module-content">
+	                	
+
+<div class="custom"  >
+	<p style="text-align: justify;">The information in this site reflects only the consortium's views and the European Union is not liable for any use that may be made of the information contained herein.</p></div>
+						<div class="clear"></div>
+					</div>
+				</div>
+            </div>
+                    	
+</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+													</body>
+</html>

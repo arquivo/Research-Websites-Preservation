@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr" >
+	<head>
+		
+<script type="text/javascript">
+	var big        = '72%';
+	var small      = '53%';
+	var bildauf    = '/templates/beez3/images/plus.png';
+	var bildzu     = '/templates/beez3/images/minus.png';
+	var rightopen  = 'Open info';
+	var rightclose = 'Close info';
+	var altopen    = 'is open';
+	var altclose   = 'is closed';
+</script>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes"/>
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="apple-mobile-web-app-capable" content="YES" />
+
+		  <base href="http://ecossian.eu/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Super User" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Welcome to ECOSSIAN</title>
+  <link href="/templates/beez3/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/beez3/css/position.css" type="text/css" media="screen,projection" />
+  <link rel="stylesheet" href="/templates/beez3/css/layout.css" type="text/css" media="screen,projection" />
+  <link rel="stylesheet" href="/templates/beez3/css/print.css" type="text/css" media="print" />
+  <link rel="stylesheet" href="/templates/beez3/css/general.css" type="text/css" media="screen,projection" />
+  <link rel="stylesheet" href="/templates/beez3/css/personal.css" type="text/css" media="screen,projection" />
+  <link rel="stylesheet" href="/modules/mod_twitter_widget_slider/assets/style.css" type="text/css" />
+  <script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/media/jui/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="/templates/beez3/javascript/md_stylechanger.js" type="text/javascript"></script>
+  <script src="/templates/beez3/javascript/hide.js" type="text/javascript"></script>
+  <script src="/templates/beez3/javascript/respond.src.js" type="text/javascript"></script>
+  <script src="/templates/beez3/javascript/template.js" type="text/javascript"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+  </script>
+  <script type="text/javascript">
+    (function() {
+      Joomla.JText.load({"TPL_BEEZ3_ALTOPEN":"is open","TPL_BEEZ3_ALTCLOSE":"is closed","TPL_BEEZ3_TEXTRIGHTOPEN":"Open info","TPL_BEEZ3_TEXTRIGHTCLOSE":"Close info","TPL_BEEZ3_FONTSIZE":"Font Size","TPL_BEEZ3_BIGGER":"Bigger","TPL_BEEZ3_RESET":"Reset","TPL_BEEZ3_SMALLER":"Smaller","TPL_BEEZ3_INCREASE_SIZE":"Increase size","TPL_BEEZ3_REVERT_STYLES_TO_DEFAULT":"Revert styles to default","TPL_BEEZ3_DECREASE_SIZE":"Decrease size","TPL_BEEZ3_OPENMENU":"Open Menu","TPL_BEEZ3_CLOSEMENU":"Close Menu"});
+    })();
+  </script>
+
+
+		<!--[if IE 7]>
+		<link href="/templates/beez3/css/ie7only.css" rel="stylesheet" type="text/css" />
+		<![endif]-->
+	
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-53607152-1', 'ecossian.eu');
+  ga('send', 'pageview');
+</script>
+<!-- Universal Google Analytics Plugin by PB Web Development -->
+
+</head>
+	<body id="shadow">
+		
+		<div id="all">
+			<div id="back">
+				<header id="header">
+					<div class="logoheader">
+						<h1 id="logo">
+													<img src="/images/logos/ecossian.png"  alt="" />
+																		<span class="header1">
+												</span></h1>
+					</div><!-- end logoheader -->
+					<ul class="skiplinks">
+						<li><a href="#main" class="u2">Skip to content</a></li>
+						<li><a href="#nav" class="u2">Jump to main navigation and login</a></li>
+											</ul>
+					<h2 class="unseen">Nav view search</h2>
+					<h3 class="unseen">Navigation</h3>
+					<div id="twitter_slider">
+	<div id="tbox1" style="right: -300px; top: 150px; z-index: 10000;">
+		<div id="tobx2" style="text-align: left;width:290px;height:350px;">
+			<a class="open" id="fblink" href="#"></a><img style="top: 0px;left:-44px;" src="/modules/mod_twitter_widget_slider/assets/twitter-icon.png" alt="">
+			<a class="twitter-timeline" data-theme="light" data-chrome="nofooter noborders noscrollbar "   href="https://twitter.com/FP7_ECOSSIAN" data-widget-id="489391353919315968" width="290" height="350">Tweets by @FP7_ECOSSIAN</a>
+
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>		</div>
+		<div style="font-size:8px;text-align:right; position:relative;"><a href="http://www.airductors.net/" title="click here" target="_blank">Lynnwood Duct Cleaning</a></div>
+	</div>
+			
+</div>
+	<script type="text/javascript">
+		jQuery.noConflict();
+		jQuery(function (){
+			jQuery(document).ready(function()
+				{
+					jQuery.noConflict();
+					jQuery(function (){
+						jQuery("#tbox1").hover(function(){ 
+						jQuery('#tbox1').css('z-index',101009);
+						jQuery(this).stop(true,false).animate({right:  0}, 500); },
+						function(){ 
+						jQuery('#tbox1').css('z-index',10000);
+						jQuery("#tbox1").stop(true,false).animate({right: -300}, 500); });
+						
+						});}); });
+					</script>
+					<div id="line">
+						<div id="fontsize"></div>
+						<h3 class="unseen">Search</h3>
+						
+					</div> <!-- end line -->
+				</header><!-- end header -->
+				<div id="contentarea">
+					<div id="breadcrumbs">
+						
+					</div>
+
+											<nav class="left1 leftbigger" id="nav">
+							<div class="moduletable_menu">
+ <ul class="nav menu">
+<li class="item-101 current active deeper parent"><a href="/" >About</a><ul class="nav-child unstyled small"><li class="item-145"><a href="/about/mission-motivation" >Mission &amp; Motivation</a></li><li class="item-146"><a href="/about/planned-results" >Planned Results</a></li><li class="item-147"><a href="/about/technical-approach" >Technical Approach</a></li><li class="item-148"><a href="/about/progress-expected-impact" >Progress &amp; Expected Impact</a></li><li class="item-105"><a href="/about/partners" >Partners</a></li></ul></li><li class="item-102 parent"><a href="/news" >News</a></li><li class="item-152 parent"><a href="/published-results" >Published Results</a></li><li class="item-127"><a href="/blog" >Blog</a></li><li class="item-154 parent"><a href="/links" >Links</a></li><li class="item-106"><a href="/login" >Login</a></li></ul>
+</div>
+
+							
+							
+						</nav><!-- end navi -->
+					
+					<div id="wrapper2" >
+						<div id="main">
+
+							
+							
+<div id="system-message-container">
+<dl id="system-message">
+</div>
+							<article class="item-page">
+
+
+	
+	
+
+
+	
+
+			<h2>Welcome to the FP7 Security Project <strong>ECOSSIAN</strong> -<br /><strong>E</strong>uropean <strong>CO</strong>ntrol <strong>S</strong>ystem <strong>S</strong>ecurity <strong>I</strong>ncident <strong>A</strong>nalysis <strong>N</strong>etwork</h2>
+<p>The European economy and the welfare of its citizens require that European Critical Infrastructures function properly.<br />To address this issue the ECOSSIAN project contributes to the</p>
+<ul>
+<li>European Programme for Critical Infrastructure Protection (EPCIP)</li>
+<li>Strategy and Action Plan developed by the European Commission</li>
+<li>Worldwide Initiatives on Cyber Security of Industrial Control<br />Systems and Smart Grids followed by ENISA and Member States.</li>
+</ul>
+<p>ECOSSIAN will establish a working and exchange relation to the Security and Defence Agenda, who has already produced useful guidelines on how to improve Europe’s CIP.</p>
+
+
+		</article>
+
+
+
+
+						</div><!-- end main -->
+					</div><!-- end wrapper -->
+
+					
+					
+					<div class="wrap"></div>
+				</div> <!-- end contentarea -->
+			</div><!-- back -->
+		</div><!-- all -->
+
+		<div id="footer-outer">
+							<div id="footer-inner" >
+
+					<div id="bottom">
+						<div class="box box1"> <div class="moduletable">
+ 
+
+<div class="custom"  >
+	<table style="font-size: 9pt;">
+<tbody>
+<tr>
+<td style="text-align: right;" valign="top"><strong>Project reference: </strong>607577<br /><strong>Start date: </strong>2014-06-01<br /><strong>End date: </strong>2017-05-31<br /><strong>Duration: </strong>36 months<br /><strong>Project cost: </strong>€ 13,196,720.61<br /><strong>Project funding: </strong>€ 9,224,459.00</td>
+<td> </td>
+<td><strong>Programme type: <br /></strong>Seventh Framework Programme<br /><strong>Programme acronym: <br /></strong>FP7-SEC-2013-1<br /><strong>Contract type: <br /></strong>Collaborative project</td>
+</tr>
+</tbody>
+</table>
+<p> </p></div>
+</div>
+</div>
+						<div class="box box2"> </div>
+						<div class="box box3"> <div class="moduletable">
+ 
+
+<div class="custom"  >
+	<div class="fp7">
+<p style="text-align: right;"><a href="http://ec.europa.eu/index_en.htm" target="_blank"><img src="/images/logos/fp7/europa.jpg" alt="europa" width="118" height="80" /> </a></p>
+<p style="text-align: right; font-size: 8pt;">This project has received funding from the European Union’s Seventh Framework Programme for research, technological development and demonstration under grant agreement no 607577</p>
+</div></div>
+</div>
+</div>
+					</div>
+
+				</div>
+			
+			<div id="footer-sub">
+				<footer id="footer">
+					
+
+<div class="custom"  >
+	<center>
+<p style="text-align: center;"><a title="Disclaimer" href="/news?id=9">Disclaimer</a> - <a title="Legal Notice" href="/news?id=10">Legal Notice</a> - <a title="Privacy" href="/news?id=11">Privacy</a> - <a title="Feedback" href="/component/chronoforms5/?chronoform=Feedback">Feedback</a><br /><br /> © 2014 ECOSSIAN | ECOSSIAN is coordinated by <a href="http://www.technikon.com" target=" _blank">TECHNIKON Forschungs- und Planungsgesellschaft mbH</a></p>
+</center></div>
+
+				</footer><!-- end footer -->
+			</div>
+		</div>
+		
+	</body>
+</html>

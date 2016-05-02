@@ -1,0 +1,513 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html><!-- InstanceBegin template="/Templates/template.dwt.asp" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>FAHRE - FOOD and HEALTH RESEARCH in EUROPE</title>
+<!-- InstanceEndEditable --><style type="text/css">
+<!--
+body {
+background-image:url(imgs/fundo2repeat.gif);
+/*background-repeat:repeat;
+background-repeat:repeat-y;*/
+background-repeat:repeat-x;
+
+	/*background-image: url(../imgs/fundo.jpg);*/
+}
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+
+/***********************************************
+* Switch Content script
+***********************************************/
+
+var enablepersist="on" //Enable saving state of content structure using session cookies? (on/off)
+var collapseprevious="no" //Collapse previously open content when opening present? (yes/no)
+
+var contractsymbol='<imgsrc="arr_collapse.gif">' //HTML for contract symbol. For image, use: <img src="whatever.gif">
+var expandsymbol='<img src="arr_expand.gif">' //HTML for expand symbol.
+
+
+if (document.getElementById){
+document.write('<style type="text/css">')
+document.write('.switchcontent{display:none;}')
+document.write('</style>')
+}
+
+function getElementbyClass(rootobj, classname){
+var temparray=new Array()
+var inc=0
+for (i=0; i<rootobj.length; i++){
+if (rootobj[i].className==classname)
+temparray[inc++]=rootobj[i]
+}
+return temparray
+}
+
+
+function contractcontent(omit){
+var inc=0
+while (ccollect[inc]){
+if (ccollect[inc].id!=omit)
+ccollect[inc].style.display="none"
+inc++
+}
+}
+
+function expandcontent(curobj, cid){
+var spantags=curobj.getElementsByTagName("SPAN")
+var showstateobj=getElementbyClass(spantags, "showstate")
+if (ccollect.length>0){
+if (collapseprevious=="yes")
+contractcontent(cid)
+document.getElementById(cid).style.display=(document.getElementById(cid).style.display!="block")? "block" : "none"
+if (showstateobj.length>0){ //if "showstate" span exists in header
+if (collapseprevious=="no")
+showstateobj[0].innerHTML=(document.getElementById(cid).style.display=="block")? contractsymbol : expandsymbol
+else
+revivestatus()
+}
+}
+}
+
+function revivecontent(){
+contractcontent("omitnothing")
+selectedItem=getselectedItem()
+selectedComponents=selectedItem.split("|")
+for (i=0; i<selectedComponents.length-1; i++)
+document.getElementById(selectedComponents[i]).style.display="block"
+}
+
+function revivestatus(){
+var inc=0
+while (statecollect[inc]){
+if (ccollect[inc].style.display=="block")
+statecollect[inc].innerHTML=contractsymbol
+else
+statecollect[inc].innerHTML=expandsymbol
+inc++
+}
+}
+
+function get_cookie(Name) { 
+var search = Name + "="
+var returnvalue = "";
+if (document.cookie.length > 0) {
+offset = document.cookie.indexOf(search)
+if (offset != -1) { 
+offset += search.length
+end = document.cookie.indexOf(";", offset);
+if (end == -1) end = document.cookie.length;
+returnvalue=unescape(document.cookie.substring(offset, end))
+}
+}
+return returnvalue;
+}
+
+function getselectedItem(){
+if (get_cookie(window.location.pathname) != ""){
+selectedItem=get_cookie(window.location.pathname)
+return selectedItem
+}
+else
+return ""
+}
+
+function saveswitchstate(){
+var inc=0, selectedItem=""
+while (ccollect[inc]){
+if (ccollect[inc].style.display=="block")
+selectedItem+=ccollect[inc].id+"|"
+inc++
+}
+
+document.cookie=window.location.pathname+"="+selectedItem
+}
+
+function do_onload(){
+uniqueidn=window.location.pathname+"firsttimeload"
+var alltags=document.all? document.all : document.getElementsByTagName("*")
+ccollect=getElementbyClass(alltags, "switchcontent")
+statecollect=getElementbyClass(alltags, "showstate")
+if (enablepersist=="on" && ccollect.length>0){
+document.cookie=(get_cookie(uniqueidn)=="")? uniqueidn+"=1" : uniqueidn+"=0" 
+firsttimeload=(get_cookie(uniqueidn)==1)? 1 : 0 //check if this is 1st page load
+if (!firsttimeload)
+revivecontent()
+}
+if (ccollect.length>0 && statecollect.length>0)
+revivestatus()
+}
+
+if (window.addEventListener)
+window.addEventListener("load", do_onload, false)
+else if (window.attachEvent)
+window.attachEvent("onload", do_onload)
+else if (document.getElementById)
+window.onload=do_onload
+
+if (enablepersist=="on" && document.getElementById)
+window.onunload=saveswitchstate
+
+/***********************************************
+* End Switch Content script
+***********************************************/
+
+
+</script>  
+
+
+<!-- InstanceBeginEditable name="head" -->
+<style type="text/css">
+<!--
+body {
+background-image:url(imgs/fundo2repeat.gif);
+/*background-repeat:repeat;
+background-repeat:repeat-y;*/
+background-repeat:repeat-x;
+
+	/*background-image: url(../imgs/fundo.jpg);*/
+}
+-->
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+
+/***********************************************
+* Switch Content script
+***********************************************/
+
+var enablepersist="on" //Enable saving state of content structure using session cookies? (on/off)
+var collapseprevious="no" //Collapse previously open content when opening present? (yes/no)
+
+var contractsymbol='<imgsrc="arr_collapse.gif">' //HTML for contract symbol. For image, use: <img src="whatever.gif">
+var expandsymbol='<img src="arr_expand.gif">' //HTML for expand symbol.
+
+
+if (document.getElementById){
+document.write('<style type="text/css">')
+document.write('.switchcontent{display:none;}')
+document.write('</style>')
+}
+
+function getElementbyClass(rootobj, classname){
+var temparray=new Array()
+var inc=0
+for (i=0; i<rootobj.length; i++){
+if (rootobj[i].className==classname)
+temparray[inc++]=rootobj[i]
+}
+return temparray
+}
+
+
+function contractcontent(omit){
+var inc=0
+while (ccollect[inc]){
+if (ccollect[inc].id!=omit)
+ccollect[inc].style.display="none"
+inc++
+}
+}
+
+function expandcontent(curobj, cid){
+var spantags=curobj.getElementsByTagName("SPAN")
+var showstateobj=getElementbyClass(spantags, "showstate")
+if (ccollect.length>0){
+if (collapseprevious=="yes")
+contractcontent(cid)
+document.getElementById(cid).style.display=(document.getElementById(cid).style.display!="block")? "block" : "none"
+if (showstateobj.length>0){ //if "showstate" span exists in header
+if (collapseprevious=="no")
+showstateobj[0].innerHTML=(document.getElementById(cid).style.display=="block")? contractsymbol : expandsymbol
+else
+revivestatus()
+}
+}
+}
+
+function revivecontent(){
+contractcontent("omitnothing")
+selectedItem=getselectedItem()
+selectedComponents=selectedItem.split("|")
+for (i=0; i<selectedComponents.length-1; i++)
+document.getElementById(selectedComponents[i]).style.display="block"
+}
+
+function revivestatus(){
+var inc=0
+while (statecollect[inc]){
+if (ccollect[inc].style.display=="block")
+statecollect[inc].innerHTML=contractsymbol
+else
+statecollect[inc].innerHTML=expandsymbol
+inc++
+}
+}
+
+function get_cookie(Name) { 
+var search = Name + "="
+var returnvalue = "";
+if (document.cookie.length > 0) {
+offset = document.cookie.indexOf(search)
+if (offset != -1) { 
+offset += search.length
+end = document.cookie.indexOf(";", offset);
+if (end == -1) end = document.cookie.length;
+returnvalue=unescape(document.cookie.substring(offset, end))
+}
+}
+return returnvalue;
+}
+
+function getselectedItem(){
+if (get_cookie(window.location.pathname) != ""){
+selectedItem=get_cookie(window.location.pathname)
+return selectedItem
+}
+else
+return ""
+}
+
+function saveswitchstate(){
+var inc=0, selectedItem=""
+while (ccollect[inc]){
+if (ccollect[inc].style.display=="block")
+selectedItem+=ccollect[inc].id+"|"
+inc++
+}
+
+document.cookie=window.location.pathname+"="+selectedItem
+}
+
+function do_onload(){
+uniqueidn=window.location.pathname+"firsttimeload"
+var alltags=document.all? document.all : document.getElementsByTagName("*")
+ccollect=getElementbyClass(alltags, "switchcontent")
+statecollect=getElementbyClass(alltags, "showstate")
+if (enablepersist=="on" && ccollect.length>0){
+document.cookie=(get_cookie(uniqueidn)=="")? uniqueidn+"=1" : uniqueidn+"=0" 
+firsttimeload=(get_cookie(uniqueidn)==1)? 1 : 0 //check if this is 1st page load
+if (!firsttimeload)
+revivecontent()
+}
+if (ccollect.length>0 && statecollect.length>0)
+revivestatus()
+}
+
+if (window.addEventListener)
+window.addEventListener("load", do_onload, false)
+else if (window.attachEvent)
+window.attachEvent("onload", do_onload)
+else if (document.getElementById)
+window.onload=do_onload
+
+if (enablepersist=="on" && document.getElementById)
+window.onunload=saveswitchstate
+
+/***********************************************
+* End Switch Content script
+***********************************************/
+
+
+</script>  
+<!-- InstanceEndEditable -->
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body topmargin="0" bottommargin="0" marginwidth="0">
+ <div style="position:absolute;  top:0px; left: -2px; width:100%;">
+<table width="900" border="0" align="center" style="margin-left:auto;margin-right:auto;">
+  <tr>
+    <td height="55"></td>
+  </tr>
+  <tr>
+    <td height="130"><img src="imgs/topo.jpg" width="900" height="130"></td>
+  </tr>
+  <tr>
+    <td height="10"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#ff6300" height="15"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF" height="421" valign="top">
+	
+	
+	<table width="901" border="0">
+      <tr>
+        <td width="217" valign="top"><table width="208" border="0">
+          <tr valign="top">
+            <td width="202" valign="top">
+			</br>
+			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="200" height="400">
+			  <param name="movie" value="flash/menu.swf">
+			  <param name="quality" value="high">
+			  <param name="wmode" value="opaque">
+			  <embed src="flash/menu.swf" quality="high" wmode="opaque" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="200" height="400"></embed>
+			  </object>
+			</p>
+              </td>
+          </tr>
+          
+        </table></td>
+        <td width="674" valign="top"></br><!-- InstanceBeginEditable name="conteudos" -->
+          <table width="674" height="140" border="0">
+            <tr>
+              <td width="464" rowspan="4" valign="top" class="titles"><p>PROJECT RESULTS</p>
+			  
+			  
+                 <p align="justify" class="contents"> <span class="contents"><strong>Fahre Strategy Proposals</strong><br>
+                   In April 2012, FAHRE launched its proposals  for food and health research in Europe.                  </span>                 
+<p class="contents">Unhealthy eating causes up to one quarter chronic diseases &ndash; which  include heart disease, cancer, diabetes, stroke and dementia, and are the  commonest causes of ill-health in Europe. </p>
+                 <p class="contents">FAHRE proposes more research on how to achieve healthier eating &ndash;  for example, through changing food production, changing behaviours, and showing  the impacts of better governmental policies and regulation.</p>
+                 <p class="contents">It also proposes improvements in the organisation of food and health  research in Europe.</p>
+                 <p class="contents">There should be better links between food research and medical  research, and more use of social sciences to determine effective interventions.</p>
+                 <p class="contents">Food safety authorities should recognise the importance of food on  causing chronic diseases, and support the new research effort.</p>
+                 <p class="contents">National research programmes must be strengthened, with more joint action between countries……<em> to learn more you can access a summary of FAHRE’s proposals here</em> (<a href="reports/FAHREpositionpaperen.pdf" target="_blank" class="links">EN</a>, <a href="reports/FAHREpositionpaper_fr.pdf" target="_blank" class="links">FR</a>) or a more comprehensive overview of FAHRE’s results <a href="reports/FAHRE_D3.3.pdf" target="_blank" class="links">here</a>.<br>
+                 </p>
+                
+				
+				
+				
+				
+                <p class="contents">Experts have provided reports mapping food and  health research in 32 European countries:</p>
+                
+				
+				
+				<p class="links" style="cursor:hand; cursor:pointer;" onClick="expandcontent(this, 'presentation2')"><strong><u>see country reports</u></strong></p>  
+				
+							
+				<div id="presentation2" class="switchcontent"> 
+                <p align="justify" class="contents"><a href="reports/country_report_austria.pdf" target="_blank" class="links">FAHRE country report Austria</a><br>
+                  <br>
+                  <a href="reports/country_report_belgium.pdf" target="_blank" class="links">FAHRE country report Belgium</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_bulgaria.pdf" target="_blank" class="links">FAHRE country report Bulgarian</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_croatia.pdf" target="_blank" class="links">FAHRE country report Croatia</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_cypruS.pdf" target="_blank" class="links">FAHRE country report Cyprus</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_the_czech_republic.pdf" target="_blank" class="links">FAHRE country report Czech Republic</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_denmark.pdf" target="_blank" class="links">FAHRE country report Denmark</a><br>
+                  <br>
+                  <a href="reports/country_report_estonia.pdf" target="_blank" class="links">FAHRE country report Estonia</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_finland.pdf" target="_blank" class="links">FAHRE country report Finland</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_france.pdf" target="_blank" class="links">FAHRE country report France</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_germany.pdf" target="_blank" class="links">FAHRE country report Germany</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_greece.pdf" target="_blank" class="links">FAHRE country report Greece</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_hungary.pdf" target="_blank" class="links">FAHRE country report Hungary</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_iceland.pdf" target="_blank" class="links">FAHRE country report Iceland</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_italy.pdf" target="_blank" class="links">FAHRE country report Italy</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_ireland.pdf" target="_blank" class="links">FAHRE country report Ireland</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_latvia.pdf" target="_blank" class="links">FAHRE country report Latvia</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_lithuania.pdf" target="_blank" class="links">FAHRE country report Lithuania</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_luxembourg.pdf" target="_blank" class="links">FAHRE country report Luxembourg</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_malta.pdf" target="_blank" class="links">FAHRE country report Malta </a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_the_netherlands.pdf" target="_blank" class="links">FAHRE country report the Netherlands</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_norway.pdf" target="_blank" class="links">FAHRE country report Norway</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_poland.pdf" target="_blank" class="links">FAHRE country report Poland</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_portugal.pdf" target="_blank" class="links">FAHRE country report Portugal</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_romania.pdf" target="_blank" class="links">FAHRE country report Romania</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_slovakia.pdf" target="_blank" class="links">FAHRE country report Slovakia</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_slovenia.pdf" target="_blank" class="links">FAHRE country report Slovenia</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_spain.pdf" target="_blank" class="links">FAHRE country report Spain</a><br>
+                  <br>
+                  <a href="reports/country_report_sweden.pdf" target="_blank" class="links">FAHRE country report Sweden</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_switzerland.pdf" target="_blank" class="links">FAHRE country report Switzerland</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_turkey.pdf" target="_blank" class="links">FAHRE country report Turkey</a></p>
+                <p align="justify" class="contents"><a href="reports/country_report_UK.pdf" target="_blank" class="links">FAHRE country report United Kingdom</a></p>
+                <p align="justify" class="contents">&nbsp;</p>
+				
+				</div>
+				
+                <p align="justify" class="contents">You can also access the synthesis report <u><a href="http://www2.spi.pt/fahre/reports/FAHRE_Mapping_Synthesis.pdf" target="_blank" class="links">here</a></u></p>
+                <p align="justify" class="contents">Also, thematic experts in nine fields have  analysed food and health research needs:                 
+<p><span class="links" style="cursor:hand; cursor:pointer;" onClick="expandcontent(this, 'presentation1')"><strong><u>see reports </u></strong></span><br>
+</p>
+				
+				
+				<div id="presentation1" class="switchcontent"> 
+                <p align="justify" class="contents"><a href="reports/FAHRE_Processing.pdf" target="_blank" class="links">Processing</a><br>
+                  <br>
+                  <a href="reports/FAHRE_Safety.pdf" target="_blank" class="links">Food safety research</a><br>
+                  <br>
+                  <a href="reports/FAHRE_Consumers.pdf" target="_blank" class="links">Consumers</a><br>
+                  <br>
+                  <a href="reports/FAHRE_Policy.pdf" target="_blank" class="links">Policy</a><br>
+                  <br>
+                  <a href="reports/FAHRE_Regulation.pdf" target="_blank" class="links">Regulation</a><br>
+                  <br>
+                  <a href="reports/FAHRE_Population.pdf" target="_blank" class="links">Population</a><br>
+                  <br>
+                  <a href="reports/FAHRE_Diseases.pdf" target="_blank" class="links">Diseases<br>
+                  </a><br>
+                    <a href="reports/FAHRE_Biomedicine.pdf" target="_blank" class="links">Biomedicine</a><br>
+                    <br>
+                    <a href="reports/FAHRE_Structures.pdf" target="_blank" class="links">Strucfftures</a></p>
+					
+					</div>
+					
+					
+                <p align="justify" class="contents">You can also access the synthesis report <u><a href="http://www2.spi.pt/fahre/reports/research_needs_synthesis.pdf" target="_blank" class="links">here</a>.</u><br>
+                </p>
+                                
+                <span class="contents">
+                </p>
+                </span>
+                <p class="contents">Furthermore, Fhare collected data  on food and health research and innovation funding programmes in an online  database which can be accessed on the project website at <a href="http://www2.spi.pt/fahre/login.asp" class="links">http://www2.spi.pt/fahre/login.asp</a>. </p>
+                <p class="contents"> FAHRE has conducted a  number of different activities to consult with the main players identified which  have been summarised in its document <u>&ldquo;<a href="reports/FAHRE_D3.2.pdf" target="_blank" class="links">Summary reports on consultation  exercise</a>&rdquo;</u></p>
+                <p class="contents">and separate reports are available on its workshop <u>&ldquo;<a href="reports/FAHREProceedings_final.pdf" target="_blank" class="links">Food and Health Research in Europe: Towards a Vision for Europe</a>&rdquo;</u>, held  in Berlin from 3rd &ndash; 4th February 2011, e-mail consultation on its proposals<a href="reports/FAHREeConsultationresponses.pdf" target="_blank" class="links"> <u>&ldquo;Summary  report on Responses to FAHRE&rsquo;s Draft Strategy Proposals&rdquo;</u></a><u>,</u> survey of SMEs <u>&ldquo;<a href="reports/FAHRE smesurveyreport.pdf" target="_blank" class="links">Food and Health Research in  Europe. Report of SME Survey&rdquo;</a></u>, survey of large companies <a href="reports/C3report for FAHRE.pdf" target="_blank" class="links">&ldquo;Food and health  research: a key role for the private sector</a>&rdquo;, and meeting entitled <a href="http://www2.spi.pt/fahre/reports/earlystageresearchers.pdf" target="_blank" class="links">&ldquo;Strengthening European  Food and Health Research: young researchers as a key pillar for the future of  the ERA&rdquo;</a>. </p>
+                <p class="contents">Your comments and feedback are most welcome on these reports. If you wish to supply these, you can do so by contacting the project manager <a href="mailto:rachelnewton@spi.pt" class="links">Rachel Newton</a>, who will see that these reach the authors concerned. </p></td>
+              <td align="center" valign="top" class="links">
+                <p>&nbsp;</p>
+                <p class="subtitles">Other food and health initiatives:</p>
+</td>
+            </tr>
+            <tr>
+              <td height="60" align="center" valign="top"><a href="http://www.inprofood.eu/" target="_blank"><img src="http://u.jimdo.com/www49/o/s5b88e17265f9a1e3/img/i35306340ce518c80/1324303354/cache/image.jpg" alt="Improfood" width="188" height="39" border="0"/></a></td>
+            </tr>
+            <tr>
+              <td height="120" align="center" valign="top"><a href="https://www.healthydietforhealthylife.eu/" target="_blank"><img src="https://www.healthydietforhealthylife.eu/lw_resource/datapool/layout/logo131011.jpg" alt="Healthy Diet for Healthy Life" width="146" height="104" border="0"/></a></td>
+            </tr>
+            <tr>
+              <td width="200" height="600" align="center" valign="top"><a href="http://www.susfood-era.net/" target="_blank"><img src="imgs/susfood.jpg" alt="susfood" width="120" height="104" border="0" /></a></td>
+            </tr>
+          </table>
+          <!-- InstanceEndEditable --></td>
+      </tr>
+      <tr>
+        <td valign="top"><img src="imgs/logos.jpg" width="170" height="70" align="absbottom"></td>
+        <td valign="top">&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+ 
+  <tr>
+    <td bgcolor="#508c59" height="10"></td>
+  </tr>
+</table>
+</div>
+</body>
+<!-- InstanceEnd --></html>

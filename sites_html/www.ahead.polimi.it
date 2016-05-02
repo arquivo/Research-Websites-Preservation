@@ -1,0 +1,136 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>welcome to AHEAD III website</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="css2008/default.css" rel="stylesheet" type="text/css">
+<link href="css2008/print.css" rel="stylesheet" type="text/css" media="print">
+<script type="text/javascript" src="js2008/cambiafontsize.js"></script>
+</head>
+
+<body>
+
+<div id="container">
+
+	<div id="header">
+		<div id="logo">
+		<img src="images/logoAheadGlitter.gif" width="300" height="175" border="0">
+		</div>
+	<div id="menu3">
+		<ul>
+		<li id="current"><a href="index.html"><span>home</span></a></li>
+		<!--<li><a href="#"><span>about</span></a></li>-->
+		<li><a href="project.html"><span>the project</span></a></li>
+		<li><a href="partners.html"><span>partners</span></a></li>
+		<li><a href="events.html"><span>events</span></a></li>
+		<li><a href="results.html"><span>results</span></a></li>
+		<li><a href="dissemination.html"><span>dissemination</span></a></li>
+		<!--<li><a href="links.html"><span>links</span></a></li>
+		<li><a href="#"><span>FAQ</span></a></li>-->
+		</ul>	
+	</div>
+	</div>
+
+	<div id="content">
+		<!--Prova per bottoni zoom testo: NON toccare-->
+		<p class="changer">
+			<a onClick=window.print() href="#" id="printer">
+			<img style="vertical-align:-30%" src="images/iconaStampa.gif" alt="print" width="21" height="24" border="0">
+			</a> Print this page
+			<a onClick=funTime("grow") href="#" id="linkLarge">
+			<img style="vertical-align:-30%" src="images/icona_piu.gif" alt="bigger" width="21" height="24" border="0">
+			</a>
+			<a onClick=funTime() href="#" id="linkSmall">
+			<img style="vertical-align:-30%" src="images/icona_meno.gif" alt="smaller" width="21" height="24" border="0">
+			</a>Text zoom
+		</p>
+		<!--Fine html prova bottoni zoom testo: NON toccare-->
+		
+<!--Inizio parte modificabile-->
+		<!--Colonna sinistra-->
+		<div id="welcome">
+		<h2>Welcome to AHEAD III</h2>
+			<p>AHEAD III - <b>A</b>ssessment of <b>H</b>earing in the <b>E</b>lderly: <b>A</b>ging and <b>D</b>egeneration 
+			- <b>I</b>ntegration through <b>I</b>mmediate <b>I</b>ntervention (2008-2011)</p>
+				</br>
+			<p>Europe is facing the burden of its ageing population.
+				Europe is living in an era of unprecedented, rapid and inexorable global ageing (20% over 60 in 2000, 28% by 2020!).
+				</br>
+				The imperative to prevent, delay, minimize and reverse functional decline of elderly is becoming more and more pressing as the size of the older population in Europe grows.
+			</p>
+			</br>
+		<p>Project AHEAD III has been specifically designed to:</p>
+			<ul>
+			<li>Provide evidence of the effects of hearing impairment in adults and particularly in the elderly; 
+			</li>
+			<li>Increase the awareness among administrators, policy makers, health care professionals and the public opinion about early detection and intervention for hearing impairment in adults and particularly in the elderly; 
+			</li>
+			<li>Analyse costs associated with the implementation of integrated large scale, or nationwide, programmes of hearing screening and intervention in adults; 
+			</li>
+			<li>Provide minimum requirements for screening methods and the related diagnostic techniques; 
+			</li>
+			<li>Develop recommendations and guidelines on how to implement successful screening programmes using the variety of available methods, and begin 
+			setting new criteria for recently proposed technologies (screening over the phone, over the internet, etc.) and methods for hearing disability screening;
+			</li>
+			</ul>
+		</div>
+		<!-- FINE colonna sinistra-->
+		<!--Colonna destra-->
+		<div id="news">
+			<h2></br></h2>
+			<ul>
+			The Project came to its end October 31, 2011, but its activities continue ... </br></br>
+			The 2nd International Conference on Adult Hearing Screening - AHS 2012 is held on June 7-9, 2012</br>
+            <a href="http://www.ahs2012.org"target="_blank">www.ahs2012.org</a></br>
+            </br>
+			
+			<h2></h2>
+			<ul>
+			<li><b> AHEAD III on EC "Cordis News" - 
+			<a href="http://cordis.europa.eu/fetch?CALLER=OFFR_TM_EN&ACTION=D&DOC=1&CAT=OFFR&QUERY=012ee1ecd013:126e:5bbe6a7c&RCN=6023"target="_blank">website</a>
+			</li></b>
+			</ul>
+			
+			
+		</div>
+	</div>
+		<!-- FINE colonna destra-->	
+<!-- fine zona modificabile -->
+
+	<!-- da qui in gi� NON modificare!!! -->
+	<div id="funding">
+		<div id="lfunding">
+		<div id="sfooter">
+			<p><strong>AHEAD III</strong> is a project funded by the European Commission </br>
+				VII Framework Programme - Cooperation</br>
+				Theme 1: Health - Other Cronic Diseases </br> 
+				Hearing Impairment and Degeneration
+			</p>
+		</div>
+		<div id="cfooter">
+		<p></p>
+		</div>
+		</div>
+		<div id="contact">
+					<p><strong>Contact:</strong></br>
+					Institute of Biomedical Engineering CNR</br>
+					piazza Leonardo da Vinci, 32 - 20133 Milano, Italy</br>
+					Tel: +39 02 2399 3345 - Fax: +39 02 2399 3367</br>
+					e-mail: isib.cnr@polimi.it
+					</p>
+		</div>
+	</div>
+	<div id="footer">
+			<p class="credits">Design by FS@IsIB</p>
+		<div id="copy">			
+			<p>&copy;2008 AHEAD III. All Rights Reserved </p>
+		</div>			
+			
+
+
+</div>
+
+</body>
+</html>

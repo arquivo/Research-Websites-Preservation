@@ -1,0 +1,507 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class=''>
+<head id="ctl00_Head1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	Home
+</title><link href="/common/modules.css" rel="stylesheet" type="text/css" /><link href="/Portals/238/skins/css/presentation.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="/common/js/jqModalAndDrag.js"></script>	<script>	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');	  ga('create', 'UA-41799105-1', 'frienz.org.nz');	  ga('send', 'pageview');	</script>
+</head>
+
+<body>
+<form name="aspnetForm" method="post" action="/page/home.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="hiddenfield_0" id="hiddenfield_0" value="" />
+<input type="hidden" name="hiddenfield_1" id="hiddenfield_1" value="" />
+<input type="hidden" name="hiddenfield_2" id="hiddenfield_2" value="" />
+<input type="hidden" name="hiddenfield_3" id="hiddenfield_3" value="" />
+<input type="hidden" name="hiddenfield_4" id="hiddenfield_4" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwMDUyNjYzMjgPZBYCZg9kFgICARBkZBYUAgIPZBYCZg9kFgICCA9kFgICAQ8QZGQWAGQCBA9kFgICAQ9kFgICBw8PFgQeB0VuYWJsZWRoHgdWaXNpYmxlaGRkAggPZBYEZg9kFgJmD2QWBgIBDw8WBB4EVGV4dAUNaGlkZGVuZmllbGRfMB8BZ2RkAgIPDxYCHwFoZGQCAw9kFgICAQ8QZGQWAGQCAg8WAh8BZ2QCDA9kFgRmD2QWAmYPZBYGAgEPDxYEHwIFDWhpZGRlbmZpZWxkXzEfAWdkZAICDw8WAh8BaGRkAgMPZBYCAgEPEGRkFgBkAgIPFgIfAWcWAmYPZBYCAgMPZBYCAgEPFgIfAgXjAzxoMSBzdHlsZT0idGV4dC1hbGlnbjogbGVmdDsiPndlbGNvbWUgdG8gZnJpZW56PC9oMT4NCjxwPkZSSUVOWiAoRmFjaWxpdGF0aW5nIFJlc2VhcmNoIGFuZCBJbm5vdmF0aW9uIGNvLW9wZXJhdGlvbiBiZXR3ZWVuIEV1cm9wZSBhbmQgTmV3IFplYWxhbmQpIGlzIGEgam9pbnQgaW5pdGlhdGl2ZSBiZXR3ZWVuIHRoZSBOZXcgWmVhbGFuZCBNaW5pc3RyeSBvZiBCdXNpbmVzcywgSW5ub3ZhdGlvbiBhbmQgRW1wbG95bWVudCAoTUJJRSkgYW5kIHRoZSBFdXJvcGVhbiBDb21taXNzaW9uIChFQykgdGhyb3VnaCBpdHMgc2V2ZW50aCByZXNlYXJjaCBGcmFtZXdvcmsgUHJvZ3JhbW1lIChGUDcpLiBUaGUgRlJJRU5aIHByb2plY3QgYWltcyB0byBmYWNpbGl0YXRlIG5ldyBhbmQgZGVlcGVyIHN0cmF0ZWdpYyByZXNlYXJjaCwgc2NpZW5jZSBhbmQgaW5ub3ZhdGlvbiBwYXJ0bmVyc2hpcHMgYmV0d2VlbiBFdXJvcGUgYW5kIE5ldyBaZWFsYW5kLsKgPC9wPmQCDg9kFgRmD2QWAmYPZBYGAgEPDxYEHwIFDWhpZGRlbmZpZWxkXzIfAWdkZAICDw8WAh8BaGRkAgMPZBYCAgEPEGRkFgBkAgIPFgIfAWcWBGYPZBYCAgMPZBYCAgEPFgIfAgU2PGgxPjxzcGFuIHN0eWxlPSJjb2xvcjogI2ZmZjsiPkxBVEVTVCBORVdTPC9zcGFuPjwvaDE+ZAIBDw8WAh4QSW50ZXJuYWxQYWdlU2l6ZQIDZBYGAgEPFgIfAWhkAgIPZBYEZg8WBB4LXyFJdGVtQ291bnQCAx8BZxYGZg9kFgJmDxUJGS9wYWdlL25ld3MuYXNweD9uZXdzPTU4NzgRL2ltYWdlcy9ibGFuay5naWZOTUJJRSBBbm5vdW5jZXMgQ2FsbCBmb3IgR2xvYmFsIFN0cmF0ZWdpYyBQYXJ0bmVyc2hpcHMgLSBDYXRhbHlzdCBGdW5kIG5vdyBvcGVuCzA2IE9jdCAyMDE1GS9wYWdlL25ld3MuYXNweD9uZXdzPTU4NzhOTUJJRSBBbm5vdW5jZXMgQ2FsbCBmb3IgR2xvYmFsIFN0cmF0ZWdpYyBQYXJ0bmVyc2hpcHMgLSBDYXRhbHlzdCBGdW5kIG5vdyBvcGVuOE1CSUUgYW5ub3VuY2VzIE5hdGlvbmFsIFN0YXRlbWVudCBvZiBTY2llbmNlIEludmVzdG1lbnQuGS9wYWdlL25ld3MuYXNweD9uZXdzPTU4NzgETW9yZWQCAQ9kFgJmDxUJGS9wYWdlL25ld3MuYXNweD9uZXdzPTU3ODcRL2ltYWdlcy9ibGFuay5naWZAQ0FMTCBGT1IgUEFSVElDSVBBVElPTiBJTkJPVU5EIEZSSUVOWiBTVFVEWSBHUk9VUCBUT1VSIE9OIEhFQUxUSAswMiBKdWwgMjAxNRkvcGFnZS9uZXdzLmFzcHg/bmV3cz01Nzg3QENBTEwgRk9SIFBBUlRJQ0lQQVRJT04gSU5CT1VORCBGUklFTlogU1RVRFkgR1JPVVAgVE9VUiBPTiBIRUFMVEiuAVRoZSBGUklFTlogcHJvamVjdCB3aWxsIHByb3ZpZGUgZnVuZGluZyB0byBhc3Npc3Qgc2VsZWN0ZWQgRXVyb3BlYW4gZGVsZWdhdGVzIHRvIHBhcnRpY2lwYXRlIGluIGEgU3R1ZHkgR3JvdXAgdG91ciB0aHJvdWdoIE5ldyBaZWFsYW5kIGZvciA1IGRheXMgYmVnaW5uaW5nIDE5dGggT2N0b2JlciAyMDE1LhkvcGFnZS9uZXdzLmFzcHg/bmV3cz01Nzg3BE1vcmVkAgIPZBYCZg8VCRkvcGFnZS9uZXdzLmFzcHg/bmV3cz01NzgxES9pbWFnZXMvYmxhbmsuZ2lmSkNBTEwgRk9SIFBBUlRJQ0lQQVRJT04gSU5CT1VORCBGUklFTlogU1RVRFkgR1JPVVAgVE9VUiBPTiBSRVNJTElFTlQgQ0lUSUVTCzI2IEp1biAyMDE1GS9wYWdlL25ld3MuYXNweD9uZXdzPTU3ODFKQ0FMTCBGT1IgUEFSVElDSVBBVElPTiBJTkJPVU5EIEZSSUVOWiBTVFVEWSBHUk9VUCBUT1VSIE9OIFJFU0lMSUVOVCBDSVRJRVOuAVRoZSBGUklFTlogcHJvamVjdCB3aWxsIHByb3ZpZGUgZnVuZGluZyB0byBhc3Npc3Qgc2VsZWN0ZWQgRXVyb3BlYW4gZGVsZWdhdGVzIHRvIHBhcnRpY2lwYXRlIGluIGEgU3R1ZHkgR3JvdXAgdG91ciB0aHJvdWdoIE5ldyBaZWFsYW5kIGZvciA1IGRheXMgYmVnaW5uaW5nIDd0aCBTZXB0ZW1iZXIgMjAxNRkvcGFnZS9uZXdzLmFzcHg/bmV3cz01NzgxBE1vcmVkAgIPDxYCHwFoZGQCAw8PFgIfAWhkZAIQD2QWBGYPZBYCZg9kFgYCAQ8PFgQfAgUNaGlkZGVuZmllbGRfMx8BZ2RkAgIPDxYCHwFoZGQCAw9kFgICAQ8QZGQWAGQCAg8WAh8BZxYEZg9kFgICAw9kFgICAQ8WAh8CBTc8aDE+PHNwYW4gc3R5bGU9ImNvbG9yOiAjZmZmOyI+RUMgQ0FMTCBJTkZPPC9zcGFuPjwvaDE+ZAIBD2QWBAIBDxYCHwQCChYUAgEPZBYCZg8VBAowNC8wNi8yMDE1Y2h0dHA6Ly9lYy5ldXJvcGEuZXUvcmVzZWFyY2gvcGFydGljaXBhbnRzL3BvcnRhbC9kZXNrdG9wL2VuL29wcG9ydHVuaXRpZXMvM2hwL2NhbGxzL2hwLXBqLTIwMTUuaHRtbCRDYWxsIGZvciBQcm9wb3NhbHMgZm9yIFByb2plY3RzIDIwMTWQAjxkaXY+PGI+SWRlbnRpZmllcjwvYj46IEhQLVBKLTIwMTU8YnIvPjxiPlBpbGxhcjwvYj46IDNyZCBIZWFsdGggUHJvZ3JhbW1lPGJyLz48Yj5UeXBlPC9iPjogQ2FsbCBmb3IgUHJvcG9zYWxzPGJyLz48Yj5PcGVuaW5nIERhdGU8L2I+OiBGcmksIDUgSnVuIDIwMTU8YnIvPjxiPkRlYWRsaW5lPC9iPjogVHVlLCAxNSBTZXAgMjAxNSAxNzowMDowMCAoQnJ1c3NlbHMgbG9jYWwgdGltZSk8YnIvPjxiPkJ1ZGdldDwvYj46IDkuMDAwLjAwMCwwMCDigqw8YnIvPjxici8+PC9kaXY+ZAICD2QWAmYPFQQKMDUvMDEvMjAxNXBodHRwOi8vZWMuZXVyb3BhLmV1L3Jlc2VhcmNoL3BhcnRpY2lwYW50cy9wb3J0YWwvZGVza3RvcC9lbi9vcHBvcnR1bml0aWVzL2gyMDIwL2NhbGxzL2gyMDIwLW1zY2EtcmlzZS0yMDE1Xy5odG1sTUNhbGwgZm9yIE1hcmllIFNrbG9kb3dza2EtQ3VyaWUgUmVzZWFyY2ggYW5kIElubm92YXRpb24gU3RhZmYgRXhjaGFuZ2UgKFJJU0Up8wE8ZGl2PjxiPklkZW50aWZpZXI8L2I+OiBIMjAyMC1NU0NBLVJJU0UtMjAxNSA8YnIvPjxiPlBpbGxhcjwvYj46IEV4Y2VsbGVudCBTY2llbmNlPGJyLz48Yj5UeXBlPC9iPjogQ2FsbCBmb3IgUHJvcG9zYWxzPGJyLz48Yj5QdWJsaWNhdGlvbiBEYXRlPC9iPjogVHVlLCA2IEphbiAyMDE1PGJyLz48Yj5EZWFkbGluZTwvYj46ICAoQnJ1c3NlbHMgbG9jYWwgdGltZSk8YnIvPjxiPkJ1ZGdldDwvYj46IDxici8+PGJyLz48L2Rpdj5kAgMPZBYCZg8VBAoyMi8wNy8yMDE0Z2h0dHA6Ly9lYy5ldXJvcGEuZXUvcmVzZWFyY2gvcGFydGljaXBhbnRzL3BvcnRhbC9kZXNrdG9wL2VuL29wcG9ydHVuaXRpZXMvaDIwMjAvY2FsbHMvZXJjLTIwMTUtYWRnLmh0bWwuQ2FsbCBmb3IgcHJvcG9zYWxzIGZvciBFUkMgQWR2YW5jZWQgR3JhbnQgMjAxNZkCPGRpdj48Yj5JZGVudGlmaWVyPC9iPjogRVJDLTIwMTUtQWRHPGJyLz48Yj5QaWxsYXI8L2I+OiBFeGNlbGxlbnQgU2NpZW5jZTxici8+PGI+VHlwZTwvYj46IENhbGwgZm9yIFByb3Bvc2Fsczxici8+PGI+UGxhbm5lZCBPcGVuaW5nIERhdGU8L2I+OiBUdWUsIDEwIEZlYiAyMDE1PGJyLz48Yj5EZWFkbGluZTwvYj46IFR1ZSwgMiBKdW4gMjAxNSAxNzowMDowMCAoQnJ1c3NlbHMgbG9jYWwgdGltZSk8YnIvPjxiPkJ1ZGdldDwvYj46IDYzMC4wMDAuMDAwLDAwIOKCrDxici8+PGJyLz48L2Rpdj5kAgQPZBYCZg8VBAoyMi8wNy8yMDE0bmh0dHA6Ly9lYy5ldXJvcGEuZXUvcmVzZWFyY2gvcGFydGljaXBhbnRzL3BvcnRhbC9kZXNrdG9wL2VuL29wcG9ydHVuaXRpZXMvaDIwMjAvY2FsbHMvaDIwMjAtbXNjYS1pdG4tMjAxNS5odG1sOU1hcmllIFNrbG9kb3dza2EtQ3VyaWUgSW5ub3ZhdGl2ZSBUcmFpbmluZyBOZXR3b3JrcyAoSVROKaACPGRpdj48Yj5JZGVudGlmaWVyPC9iPjogSDIwMjAtTVNDQS1JVE4tMjAxNTxici8+PGI+UGlsbGFyPC9iPjogRXhjZWxsZW50IFNjaWVuY2U8YnIvPjxiPlR5cGU8L2I+OiBDYWxsIGZvciBQcm9wb3NhbHM8YnIvPjxiPlBsYW5uZWQgT3BlbmluZyBEYXRlPC9iPjogVHVlLCAyIFNlcCAyMDE0PGJyLz48Yj5EZWFkbGluZTwvYj46IFR1ZSwgMTMgSmFuIDIwMTUgMTc6MDA6MDAgKEJydXNzZWxzIGxvY2FsIHRpbWUpPGJyLz48Yj5CdWRnZXQ8L2I+OiAzNzAuMDAwLjAwMCwwMCDigqw8YnIvPjxici8+PC9kaXY+ZAIFD2QWAmYPFQQKMjIvMDcvMjAxNG9odHRwOi8vZWMuZXVyb3BhLmV1L3Jlc2VhcmNoL3BhcnRpY2lwYW50cy9wb3J0YWwvZGVza3RvcC9lbi9vcHBvcnR1bml0aWVzL2gyMDIwL2NhbGxzL2gyMDIwLW1zY2EtcmlzZS0yMDE1Lmh0bWxETWFyaWUgU2tsb2Rvd3NrYS1DdXJpZSBSZXNlYXJjaCBhbmQgSW5ub3ZhdGlvbiBTdGFmZiBFeGNoYW5nZSAoUklTRSmgAjxkaXY+PGI+SWRlbnRpZmllcjwvYj46IEgyMDIwLU1TQ0EtUklTRS0yMDE1PGJyLz48Yj5QaWxsYXI8L2I+OiBFeGNlbGxlbnQgU2NpZW5jZTxici8+PGI+VHlwZTwvYj46IENhbGwgZm9yIFByb3Bvc2Fsczxici8+PGI+UGxhbm5lZCBPcGVuaW5nIERhdGU8L2I+OiBUdWUsIDYgSmFuIDIwMTU8YnIvPjxiPkRlYWRsaW5lPC9iPjogVHVlLCAyOCBBcHIgMjAxNSAxNzowMDowMCAoQnJ1c3NlbHMgbG9jYWwgdGltZSk8YnIvPjxiPkJ1ZGdldDwvYj46IDgwLjAwMC4wMDAsMDAg4oKsPGJyLz48YnIvPjwvZGl2PmQCBg9kFgJmDxUECjE2LzA2LzIwMTRnaHR0cDovL2VjLmV1cm9wYS5ldS9yZXNlYXJjaC9wYXJ0aWNpcGFudHMvcG9ydGFsL2Rlc2t0b3AvZW4vb3Bwb3J0dW5pdGllcy9oMjAyMC9jYWxscy9lcmMtMjAxNC1hZGcuaHRtbClDYWxsIGZvciBwcm9wb3NhbHMgZm9yIEVSQyBBZHZhbmNlZCBHcmFudK4CPGRpdj48Yj5JZGVudGlmaWVyPC9iPjogRVJDLTIwMTQtQURHPGJyLz48Yj5TcGVjaWZpYyBwcm9ncmFtbWU8L2I+OiBFVS4xLjEuPGJyLz48Yj5UaGVtZShzKTwvYj46IDxici8+PGI+VHlwZTwvYj46IENhbGwgZm9yIFByb3Bvc2Fsczxici8+PGI+UHVibGljYXRpb24gRGF0ZTwvYj46IFR1ZSwgMTcgSnVuIDIwMTQ8YnIvPjxiPkRlYWRsaW5lPC9iPjogVHVlLCAyMSBPY3QgMjAxNCAxNzowMDowMCAoQnJ1c3NlbHMgbG9jYWwgdGltZSk8YnIvPjxiPkJ1ZGdldDwvYj46IDQ1MC4wMDAuMDAwLDAwIOKCrDxici8+PGJyLz48L2Rpdj5kAgcPZBYCZg8VBAoxMS8wMy8yMDE0bWh0dHA6Ly9lYy5ldXJvcGEuZXUvcmVzZWFyY2gvcGFydGljaXBhbnRzL3BvcnRhbC9kZXNrdG9wL2VuL29wcG9ydHVuaXRpZXMvaDIwMjAvY2FsbHMvaDIwMjAtbXNjYS1pZi0yMDE0Lmh0bWwbSW5kaXZpZHVhbCBGZWxsb3dzaGlwcyAoSUYptgI8ZGl2PjxiPklkZW50aWZpZXI8L2I+OiBIMjAyMC1NU0NBLUlGLTIwMTQ8YnIvPjxiPlNwZWNpZmljIHByb2dyYW1tZTwvYj46IEVVLjEuMy4yLjxici8+PGI+VGhlbWUocyk8L2I+OiA8YnIvPjxiPlR5cGU8L2I+OiBDYWxsIGZvciBQcm9wb3NhbHM8YnIvPjxiPlB1YmxpY2F0aW9uIERhdGU8L2I+OiBXZWQsIDEyIE1hciAyMDE0PGJyLz48Yj5EZWFkbGluZTwvYj46IFRodSwgMTEgU2VwIDIwMTQgMTc6MDA6MDAgKEJydXNzZWxzIGxvY2FsIHRpbWUpPGJyLz48Yj5CdWRnZXQ8L2I+OiAyNDAuNTAwLjAwMCwwMCDigqw8YnIvPjxici8+PC9kaXY+ZAIID2QWAmYPFQQKMTAvMTIvMjAxM29odHRwOi8vZWMuZXVyb3BhLmV1L3Jlc2VhcmNoL3BhcnRpY2lwYW50cy9wb3J0YWwvZGVza3RvcC9lbi9vcHBvcnR1bml0aWVzL2gyMDIwL2NhbGxzL2gyMDIwLW1zY2EtcmlzZS0yMDE0Lmh0bWxETWFyaWUgU2tsb2Rvd3NrYS1DdXJpZSBSZXNlYXJjaCBhbmQgSW5ub3ZhdGlvbiBTdGFmZiBFeGNoYW5nZSAoUklTRSm3AjxkaXY+PGI+SWRlbnRpZmllcjwvYj46IEgyMDIwLU1TQ0EtUklTRS0yMDE0PGJyLz48Yj5TcGVjaWZpYyBwcm9ncmFtbWU8L2I+OiBFVS4xLjMuMy48YnIvPjxiPlRoZW1lKHMpPC9iPjogPGJyLz48Yj5UeXBlPC9iPjogQ2FsbCBmb3IgUHJvcG9zYWxzPGJyLz48Yj5QdWJsaWNhdGlvbiBEYXRlPC9iPjogV2VkLCAxMSBEZWMgMjAxMzxici8+PGI+RGVhZGxpbmU8L2I+OiBUaHUsIDI0IEFwciAyMDE0IDE3OjAwOjAwIChCcnVzc2VscyBsb2NhbCB0aW1lKTxici8+PGI+QnVkZ2V0PC9iPjogNzAuMDAwLjAwMCwwMCDigqw8YnIvPjxici8+PC9kaXY+ZAIJD2QWAmYPFQQKMTAvMTIvMjAxM2lodHRwOi8vZWMuZXVyb3BhLmV1L3Jlc2VhcmNoL3BhcnRpY2lwYW50cy9wb3J0YWwvZGVza3RvcC9lbi9vcHBvcnR1bml0aWVzL2gyMDIwL2NhbGxzL2gyMDIwLWRycy0yMDE0Lmh0bWxcRGlzYXN0ZXItcmVzaWxpZW5jZTogc2FmZWd1YXJkaW5nIGFuZCBzZWN1cmluZyBzb2NpZXR5LCBpbmNsdWRpbmcgYWRhcHRpbmcgdG8gY2xpbWF0ZSBjaGFuZ2WvAjxkaXY+PGI+SWRlbnRpZmllcjwvYj46IEgyMDIwLURSUy0yMDE0PGJyLz48Yj5TcGVjaWZpYyBwcm9ncmFtbWU8L2I+OiBFVS4zLjcuPGJyLz48Yj5UaGVtZShzKTwvYj46IDxici8+PGI+VHlwZTwvYj46IENhbGwgZm9yIFByb3Bvc2Fsczxici8+PGI+UHVibGljYXRpb24gRGF0ZTwvYj46IFdlZCwgMTEgRGVjIDIwMTM8YnIvPjxiPkRlYWRsaW5lPC9iPjogVGh1LCAyOCBBdWcgMjAxNCAxNzowMDowMCAoQnJ1c3NlbHMgbG9jYWwgdGltZSk8YnIvPjxiPkJ1ZGdldDwvYj46IDY1LjQwMC4wMDAsMDAg4oKsPGJyLz48YnIvPjwvZGl2PmQCCg9kFgJmDxUECjEwLzEyLzIwMTNraHR0cDovL2VjLmV1cm9wYS5ldS9yZXNlYXJjaC9wYXJ0aWNpcGFudHMvcG9ydGFsL2Rlc2t0b3AvZW4vb3Bwb3J0dW5pdGllcy9oMjAyMC9jYWxscy9oMjAyMC1zcGlyZS0yMDE1Lmh0bWwvQ2FsbCBmb3IgU1BJUkUgLSBTdXN0YWluYWJsZSBQcm9jZXNzIEluZHVzdHJpZXOyAjxkaXY+PGI+SWRlbnRpZmllcjwvYj46IEgyMDIwLVNQSVJFLTIwMTU8YnIvPjxiPlNwZWNpZmljIHByb2dyYW1tZTwvYj46IEVVLjIuMS41Ljxici8+PGI+VGhlbWUocyk8L2I+OiA8YnIvPjxiPlR5cGU8L2I+OiBDYWxsIGZvciBQcm9wb3NhbHM8YnIvPjxiPlB1YmxpY2F0aW9uIERhdGU8L2I+OiBXZWQsIDExIERlYyAyMDEzPGJyLz48Yj5EZWFkbGluZTwvYj46IFR1ZSwgOSBEZWMgMjAxNCAxNzowMDowMCAoQnJ1c3NlbHMgbG9jYWwgdGltZSk8YnIvPjxiPkJ1ZGdldDwvYj46IDc3LjAwMC4wMDAsMDAg4oKsPGJyLz48YnIvPjwvZGl2PmQCAw8WAh8BaBYCZg8WAh8EAgIWBAIBD2QWAmYPFQMHY3VycmVudBQvcGFnZS9ob21lLmFzcHg/cnA9MQExZAICD2QWAmYPFQMAFC9wYWdlL2hvbWUuYXNweD9ycD0yATJkAhIPZBYEZg9kFgJmD2QWBgIBDw8WBB8CBQ1oaWRkZW5maWVsZF80HwFnZGQCAg8PFgIfAWhkZAIDD2QWAgIBDxBkZBYAZAICDxYCHwFnZAIUD2QWAgIBDxYCHwQCAhYEAgEPZBYCZg8VBCVodHRwOi8vd3d3LnR3aXR0ZXIuY29tL0ZSSUVOWlByb2plY3QvDUZSSUVOWlByb2plY3SaAU1CSUUgQW5ub3VuY2VzIENhbGwgZm9yIEdsb2JhbCBTdHJhdGVnaWMgUGFydG5lcnNoaXBzIC0gQ0FUQUxZU1QgRlVORCBOT1cgT1BFTgo8YSBocmVmPSdodHRwOi8vdC5jby9Pb09UaHRWalRoJyB0YXJnZXQ9J19ibGFuayc+aHR0cDovL3QuY28vT29PVGh0VmpUaDwvYT4KMDYvMTAvMjAxNWQCAg9kFgJmDxUEJWh0dHA6Ly93d3cudHdpdHRlci5jb20vRlJJRU5aUHJvamVjdC8NRlJJRU5aUHJvamVjdLYBUlQgQEtpcnN0ZW5FZGdhcjogV29sZmdhbmcgU2NodWx6IEBNZXRhbHNXZWVrIHRhbGtpbmcgYWJvdXQgdGhlIEBGUklFTlpQcm9qZWN0IGZhY3RvcmllcyBvZiB0aGUgZnV0dXJlIG1pc3Npb24gYW5kICJpbmR1c3RyeSA0LjAiIDxhIGhyZWY9J2h0dHA6Ly90LicgdGFyZ2V0PSdfYmxhbmsnPmh0dHA6Ly90LjwvYT7igKYKMDMvMDkvMjAxNWQCFg8PFgIeC0N1cnJlbnRQYWdlAgFkFgICAQ9kFgYCAw8WAh8EAgIWBGYPZBYEAgEPFgIfAgUDMjY5ZAIDDw8WBB4IQ3NzQ2xhc3MFHWZpZWxkIGZpZWxkXzI2OSBmaWVsZF90ZXh0Ym94HgRfIVNCAgJkFgICAQ8WAh8CBR08ZGl2IGNsYXNzPSd0aXRsZSc+TmFtZTwvZGl2PmQCAQ9kFgQCAQ8WAh8CBQMyNzBkAgMPDxYEHwYFImZpZWxkIGZpZWxkXzI3MCBmaWVsZF9lbWFpbGFkZHJlc3MfBwICZBYCAgEPFgIfAgUePGRpdiBjbGFzcz0ndGl0bGUnPkVtYWlsPC9kaXY+ZAIHD2QWAgIBDw8WAh4FUGFyYW0Cv5eTywdkFgQCAQ8PFgIeCEltYWdlVXJsBR4vY2FwdGNoYS5hc3B4P3BhcmFtPTIwMzY2NDg4OTVkZAIFDw8WAh8CZWRkAgkPDxYCHg9WYWxpZGF0aW9uR3JvdXAFC0Zvcm1Hcm91cDQ3ZGQCGA9kFgICAw9kFgICAQ8WAh8CBe8CPHAgY2xhc3M9ImZvb3Rlci10ZXh0Ij48c3Bhbj5UaGUgRlJJRU5aIHByb2plY3QgaGFzIHJlY2VpdmVkIGZ1bmRpbmcgZnJvbSB0aGUgRXVyb3BlYW4gVW5pb25zIFNldmVudGggRnJhbWV3b3JrIFByb2dyYW1tZSBbRlA3LyAyMDA3LTIwMTNdIHVuZGVyIGdyYW50IGFncmVlbWVudCBObyAzMTIxNjg7IGFuZCBmcm9tIHRoZSBOZXcgWmVhbGFuZCBNaW5pc3RyeSBvZiBCdXNpbmVzcywgSW5ub3ZhdGlvbiBhbmQgRW1wbG95bWVudCAoTUJJRSkuPC9zcGFuPjwvcD4NCjxwIGNsYXNzPSJmb290ZXItdGV4dCI+PGEgaHJlZj0iL3BhZ2Uvd3d3Lm9yY2FzLmNvLm56IiB0YXJnZXQ9Il9ibGFuayI+V2Vic2l0ZSBkZXNpZ248L2E+IGJ5IE9yY2FzPC9wPmRkZiT11uVCuv5KRAce+nLmFmcGjNFhdlehcxUKybWOQB4=" />
+</div>
+
+
+<script src="/ScriptResource.axd?d=pqXSjQVuI8NExYzUpf3pVqbLmje9q13gSf2Hk4iX5hDgUAOb2SH8sASVaKBRT52-qYrmeekzKiYesU53dxGOYTdmhcV-0xzqd1sZDPQAXTqvcUKWyKTjXvFp7yG339hjsBojpA4CWttw9cunC8zvXPQD3UeDkb9xC2dSMyyH8Zw1&amp;t=ffffffff805766b3" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAYdUJu0MpKf4qAmg0W8nr0UmFoKb1S2VqIcvLzmw5XoJcCN2API4h3Acm5sUXOVvgAHt/rN1LK54N6Q1O27KBC8UnhQXVE4ynTWLF28UTU3T1vT3jUVM9QHBNfhxwpR4X5teQY1cI6/Um6nxG0sJImpH+lp72YxvnGtMq/4MycU+A==" />
+</div>
+<div>
+		
+
+	</div>
+
+<div id="outer">
+
+	<div id="header">
+            <div id="logo">
+            <a href="/"><img src="/Portals/238/skins/images/frienz-logo.png" border="0" /></a>
+            </div>
+            
+            <div id="search-area">
+<div class="search">
+	<div id="ctl00__Search__pnlControls" class="controls">
+	
+		
+		<input name="ctl00$_Search$_txtSearch" type="text" id="ctl00__Search__txtSearch" class="textbox-search" />
+		<input type="submit" name="ctl00$_Search$_btnSearch" value="Go" id="ctl00__Search__btnSearch" class="button" />
+		
+	
+</div>
+</div>
+
+            </div>
+            
+            <div id="admin-entry"><a href="/page/login.aspx">login</a>
+            </div>
+            
+            <div id="menu"><ul id="main" class="menu">
+	<li class="item sel first" id="home"><a href="/page/home.aspx" title="Home. "><span>Home</span></a></li><li class="item" id="about"><a href="/page/about-frienz.aspx" title="About. "><span>About</span></a><ul class="childmenu">
+		<li class="item first" id="about-frienz"><a href="/page/about-frienz.aspx" title="About FRIENZ. "><span>About FRIENZ</span></a></li><li class="item" id="project-objectives"><a href="/page/project-objectives.aspx" title="Project Objectives. "><span>Project Objectives</span></a></li><li class="item last" id="project-partners"><a href="/page/project-partners.aspx" title="Project Partners. "><span>Project Partners</span></a></li>
+	</ul></li><li class="item" id="events"><a href="/page/events.aspx" title="Events. "><span>Events</span></a></li><li class="item" id="case-studies"><a href="/page/case-studies.aspx" title="Case Studies. "><span>Case Studies</span></a></li><li class="item" id="nz-eu"><a href="/page/fp7.aspx" title="NZ-EU. "><span>NZ-EU</span></a><ul class="childmenu">
+		<li class="item first" id="fp7"><a href="/page/fp7.aspx" title="FP7. "><span>FP7</span></a></li><li class="item" id="horizon-2020"><a href="/page/horizon-2020.aspx" title="Horizon 2020. "><span>Horizon 2020</span></a></li><li class="item last" id="other-funding"><a href="/page/other-funding.aspx" title="Other Funding. "><span>Other Funding</span></a></li>
+	</ul></li><li class="item" id="eu-nz"><a href="/page/system-overview.aspx" title="EU-NZ. "><span>EU-NZ</span></a><ul class="childmenu">
+		<li class="item first" id="system-overview"><a href="/page/system-overview.aspx" title="System Overview. "><span>System Overview</span></a></li><li class="item" id="funding-and-investment-agencies"><a href="/page/funding-and-investment-agencies.aspx" title="Funding &amp;amp; Investment Agencies. "><span>Funding &amp; Investment Agencies</span></a></li><li class="item" id="callaghan-innovation"><a href="/page/callaghan-innovation.aspx" title="Callaghan Innovation. "><span>Callaghan Innovation</span></a></li><li class="item" id="research-institutes"><a href="/page/research-institutes.aspx" title="Research Institutes. "><span>Research Institutes</span></a></li><li class="item" id="research-consortia"><a href="/page/research-consortia.aspx" title="Research Consortia. "><span>Research Consortia</span></a></li><li class="item" id="independent-research-organisations"><a href="/page/independent-research-organisations.aspx" title="Independent Research Organisations. "><span>Independent Research Organisations</span></a></li><li class="item" id="tertiary-education-organisations"><a href="/page/tertiary-education-organisations.aspx" title="Tertiary Education Organisations. "><span>Tertiary Education Organisations</span></a></li><li class="item" id="business"><a href="/page/business.aspx" title="Business. "><span>Business</span></a></li><li class="item" id="funding-in-new-zealand"><a href="/page/funding-in-new-zealand.aspx" title="Funding in New Zealand. "><span>Funding in New Zealand</span></a></li><li class="item" id="work-in-new-zealand"><a href="/page/work-in-new-zealand.aspx" title="Work in New Zealand. "><span>Work in New Zealand</span></a></li><li class="item last" id="living-in-new-zealand"><a href="/page/living-in-new-zealand.aspx" title="Living in New Zealand. "><span>Living in New Zealand</span></a></li>
+	</ul></li><li class="item" id="resources"><a href="/page/resources.aspx" title="Resources. "><span>Resources</span></a></li><li class="item" id="links"><a href="/page/european-union.aspx" title="Links. "><span>Links</span></a><ul class="childmenu">
+		<li class="item first" id="european-union"><a href="/page/european-union.aspx" title="European Union. "><span>European Union</span></a></li><li class="item" id="european-member-states"><a href="/page/european-member-states.aspx" title="European Member States. "><span>European Member States</span></a></li><li class="item" id="new-zealand"><a href="/page/new-zealand.aspx" title="New Zealand. "><span>New Zealand</span></a></li><li class="item last" id="other"><a href="/page/other.aspx" title="Other. "><span>Other</span></a></li>
+	</ul></li><li class="item last" id="contact"><a href="/page/general-enquiries.aspx" title="Contact. "><span>Contact</span></a><ul class="childmenu">
+		<li class="item first" id="general-enquiries"><a href="/page/general-enquiries.aspx" title="General Enquiries. "><span>General Enquiries</span></a></li><li class="item last" id="project-partner-enquiries"><a href="/page/project-partner-enquiries.aspx" title="Project Partner Enquiries. "><span>Project Partner Enquiries</span></a></li>
+	</ul></li>
+</ul>
+            </div>
+            
+	</div>  
+    
+    <div id="home-slider">
+
+
+<div class="custom-list-viewer" style="">
+	<div id="home-slider">
+	<div id="list48">
+		<a href="" class='item' style='display: block;'>
+<img src='http://images.goweb1.co.nz/Indigo/238/CustomList/48/3bho31wu.Fit.transparent.960.300.jpg' alt='Horizon 2020 - Get Involved'/>
+<div class='info'>Horizon 2020 - Get Involved</div>
+</a><a href="" class='item' style='display: block;'>
+<img src='http://images.goweb1.co.nz/Indigo/238/CustomList/48/3kfc41cv.Fit.transparent.960.300.jpg' alt='Jack Lee In the Field'/>
+<div class='info'>Jack Lee In the Field</div>
+</a><a href="" class='item' style='display: block;'>
+<img src='http://images.goweb1.co.nz/Indigo/238/CustomList/48/0c30h3kb.Fit.transparent.960.300.jpg' alt='Horizon 2020 - Get Involved'/>
+<div class='info'>Horizon 2020 - Get Involved</div>
+</a><a href="" class='item' style='display: block;'>
+<img src='http://images.goweb1.co.nz/Indigo/238/CustomList/48/s4ubhjlg.Fit.transparent.960.300.jpg' alt='Horizon 2020 - Get Involved'/>
+<div class='info'>Horizon 2020 - Get Involved</div>
+</a><a href="http://ec.europa.eu/research/mariecurieactions" class='item' style='display: block;'>
+<img src='http://images.goweb1.co.nz/Indigo/238/CustomList/48/zpeiozum.Fit.transparent.960.300.jpg' alt='EU Mobility Schemes'/>
+<div class='info'>EU Mobility Schemes</div>
+</a>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function () {
+		$('#list48 .item').each(function () { resetBanner(this) });
+		animateBanner();
+	});
+
+	var activeBanner = null;
+	function animateBanner() {
+		var nextBanner = null;
+		if (activeBanner == null) {
+			nextBanner = $('#list48 .item:first').eq(0);
+		}
+		else {
+			removeBanner(activeBanner, 1000);
+			nextBanner = $(activeBanner).next();
+			if (nextBanner.length == 0) {
+				nextBanner = $('#list48 .item:first').eq(0);
+			}
+		}
+
+		startBannerAnimation(nextBanner, 1000);
+		activeBanner = nextBanner;
+			
+		setTimeout(function () {
+			animateBanner();
+		}, 6000);
+	}
+
+	function resetBanner(banner) {
+		$(banner).css({ left: '-1000px' });
+		$('.info', banner).css({ top: '-350px' });
+	}
+
+	function startBannerAnimation(banner, speed) {
+		$(banner).animate({ left: '0px' }, speed, 'swing');
+		$('.info', banner).delay(1100).animate({ top: '0px' }, 400, 'swing').delay(4200).animate({ top: '370px' }, 500, 'swing');
+	}
+
+	function removeBanner(banner, speed) {
+		$(banner).animate({ left: '1000px' }, speed, 'swing', function () { resetBanner(this); });
+	}
+</script>
+</div>
+
+
+    </div>
+    <div id="slider-shadow">
+    </div>
+    
+    <div id="content-main">
+    	<div id="home-left-col">
+        
+
+		
+
+
+<div class='content-viewer' style="">
+	
+
+	
+	
+
+	<div id="ctl00__content_Homecontent__control4581__pnlViewContent" class="module-content">
+	
+		<h1 style="text-align: left;">welcome to frienz</h1>
+<p>FRIENZ (Facilitating Research and Innovation co-operation between Europe and New Zealand) is a joint initiative between the New Zealand Ministry of Business, Innovation and Employment (MBIE) and the European Commission (EC) through its seventh research Framework Programme (FP7). The FRIENZ project aims to facilitate new and deeper strategic research, science and innovation partnerships between Europe and New Zealand. </p>
+	
+</div>
+</div>
+
+
+
+			<div id="news-call-container">
+        		<div id="home-news">
+
+
+<div class='content-viewer' style="">
+	
+
+	
+	
+
+	<div id="ctl00__content_Homenews__control4567__pnlViewContent" class="module-content">
+	
+		<h1><span style="color: #fff;">LATEST NEWS</span></h1>
+	
+</div>
+</div>
+<div class='news-viewer home-news'>
+	
+
+	
+		
+	
+				<div class="item">
+					<a href='/page/news.aspx?news=5878' class="image"><img src='/images/blank.gif' alt='MBIE Announces Call for Global Strategic Partnerships - Catalyst Fund now open' /></a>
+					<span class="date">06 Oct 2015 <span class="hyphen">-</span> </span>
+					<span class="title"><a href='/page/news.aspx?news=5878'><span>MBIE Announces Call for Global Strategic Partnerships - Catalyst Fund now open</span></a></span>
+					<span class="summary">MBIE announces National Statement of Science Investment.</span>
+					<div class="links"><a href='/page/news.aspx?news=5878'><span>More</span></a></div>
+				</div>
+			
+				<div class="item">
+					<a href='/page/news.aspx?news=5787' class="image"><img src='/images/blank.gif' alt='CALL FOR PARTICIPATION INBOUND FRIENZ STUDY GROUP TOUR ON HEALTH' /></a>
+					<span class="date">02 Jul 2015 <span class="hyphen">-</span> </span>
+					<span class="title"><a href='/page/news.aspx?news=5787'><span>CALL FOR PARTICIPATION INBOUND FRIENZ STUDY GROUP TOUR ON HEALTH</span></a></span>
+					<span class="summary">The FRIENZ project will provide funding to assist selected European delegates to participate in a Study Group tour through New Zealand for 5 days beginning 19th October 2015.</span>
+					<div class="links"><a href='/page/news.aspx?news=5787'><span>More</span></a></div>
+				</div>
+			
+				<div class="item">
+					<a href='/page/news.aspx?news=5781' class="image"><img src='/images/blank.gif' alt='CALL FOR PARTICIPATION INBOUND FRIENZ STUDY GROUP TOUR ON RESILIENT CITIES' /></a>
+					<span class="date">26 Jun 2015 <span class="hyphen">-</span> </span>
+					<span class="title"><a href='/page/news.aspx?news=5781'><span>CALL FOR PARTICIPATION INBOUND FRIENZ STUDY GROUP TOUR ON RESILIENT CITIES</span></a></span>
+					<span class="summary">The FRIENZ project will provide funding to assist selected European delegates to participate in a Study Group tour through New Zealand for 5 days beginning 7th September 2015</span>
+					<div class="links"><a href='/page/news.aspx?news=5781'><span>More</span></a></div>
+				</div>
+			
+
+	
+</div>
+
+
+
+            		<div id="read-more"><a href="/page/news.aspx"><span>news</span></a>
+					</div>
+				 </div>
+             
+				 <div id="home-calls">
+
+
+<div class='content-viewer' style="">
+	
+
+	
+	
+
+	<div id="ctl00__content_Homecalls__control4568__pnlViewContent" class="module-content">
+	
+		<h1><span style="color: #fff;">EC CALL INFO</span></h1>
+	
+</div>
+</div>
+
+<link type="text/css" href="/common/modules/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+<div class="rss-items scroll-pane">
+        <div class="item">
+            <div class="date">04/06/2015</div>
+            <div class="title"><a target="_blank" href='http://ec.europa.eu/research/participants/portal/desktop/en/opportunities/3hp/calls/hp-pj-2015.html'>Call for Proposals for Projects 2015</a></div>
+            <div class="summary"><div><b>Identifier</b>: HP-PJ-2015<br/><b>Pillar</b>: 3rd Health Programme<br/><b>Type</b>: Call for Proposals<br/><b>Opening Date</b>: Fri, 5 Jun 2015<br/><b>Deadline</b>: Tue, 15 Sep 2015 17:00:00 (Brussels local time)<br/><b>Budget</b>: 9.000.000,00 €<br/><br/></div></div>
+        </div>
+    
+        <div class="item">
+            <div class="date">05/01/2015</div>
+            <div class="title"><a target="_blank" href='http://ec.europa.eu/research/participants/portal/desktop/en/opportunities/h2020/calls/h2020-msca-rise-2015_.html'>Call for Marie Sklodowska-Curie Research and Innovation Staff Exchange (RISE)</a></div>
+            <div class="summary"><div><b>Identifier</b>: H2020-MSCA-RISE-2015 <br/><b>Pillar</b>: Excellent Science<br/><b>Type</b>: Call for Proposals<br/><b>Publication Date</b>: Tue, 6 Jan 2015<br/><b>Deadline</b>:  (Brussels local time)<br/><b>Budget</b>: <br/><br/></div></div>
+        </div>
+    
+        <div class="item">
+            <div class="date">22/07/2014</div>
+            <div class="title"><a target="_blank" href='http://ec.europa.eu/research/participants/portal/desktop/en/opportunities/h2020/calls/erc-2015-adg.html'>Call for proposals for ERC Advanced Grant 2015</a></div>
+            <div class="summary"><div><b>Identifier</b>: ERC-2015-AdG<br/><b>Pillar</b>: Excellent Science<br/><b>Type</b>: Call for Proposals<br/><b>Planned Opening Date</b>: Tue, 10 Feb 2015<br/><b>Deadline</b>: Tue, 2 Jun 2015 17:00:00 (Brussels local time)<br/><b>Budget</b>: 630.000.000,00 €<br/><br/></div></div>
+        </div>
+    
+        <div class="item">
+            <div class="date">22/07/2014</div>
+            <div class="title"><a target="_blank" href='http://ec.europa.eu/research/participants/portal/desktop/en/opportunities/h2020/calls/h2020-msca-itn-2015.html'>Marie Sklodowska-Curie Innovative Training Networks (ITN)</a></div>
+            <div class="summary"><div><b>Identifier</b>: H2020-MSCA-ITN-2015<br/><b>Pillar</b>: Excellent Science<br/><b>Type</b>: Call for Proposals<br/><b>Planned Opening Date</b>: Tue, 2 Sep 2014<br/><b>Deadline</b>: Tue, 13 Jan 2015 17:00:00 (Brussels local time)<br/><b>Budget</b>: 370.000.000,00 €<br/><br/></div></div>
+        </div>
+    
+        <div class="item">
+            <div class="date">22/07/2014</div>
+            <div class="title"><a target="_blank" href='http://ec.europa.eu/research/participants/portal/desktop/en/opportunities/h2020/calls/h2020-msca-rise-2015.html'>Marie Sklodowska-Curie Research and Innovation Staff Exchange (RISE)</a></div>
+            <div class="summary"><div><b>Identifier</b>: H2020-MSCA-RISE-2015<br/><b>Pillar</b>: Excellent Science<br/><b>Type</b>: Call for Proposals<br/><b>Planned Opening Date</b>: Tue, 6 Jan 2015<br/><b>Deadline</b>: Tue, 28 Apr 2015 17:00:00 (Brussels local time)<br/><b>Budget</b>: 80.000.000,00 €<br/><br/></div></div>
+        </div>
+    
+        <div class="item">
+            <div class="date">16/06/2014</div>
+            <div class="title"><a target="_blank" href='http://ec.europa.eu/research/participants/portal/desktop/en/opportunities/h2020/calls/erc-2014-adg.html'>Call for proposals for ERC Advanced Grant</a></div>
+            <div class="summary"><div><b>Identifier</b>: ERC-2014-ADG<br/><b>Specific programme</b>: EU.1.1.<br/><b>Theme(s)</b>: <br/><b>Type</b>: Call for Proposals<br/><b>Publication Date</b>: Tue, 17 Jun 2014<br/><b>Deadline</b>: Tue, 21 Oct 2014 17:00:00 (Brussels local time)<br/><b>Budget</b>: 450.000.000,00 €<br/><br/></div></div>
+        </div>
+    
+        <div class="item">
+            <div class="date">11/03/2014</div>
+            <div class="title"><a target="_blank" href='http://ec.europa.eu/research/participants/portal/desktop/en/opportunities/h2020/calls/h2020-msca-if-2014.html'>Individual Fellowships (IF)</a></div>
+            <div class="summary"><div><b>Identifier</b>: H2020-MSCA-IF-2014<br/><b>Specific programme</b>: EU.1.3.2.<br/><b>Theme(s)</b>: <br/><b>Type</b>: Call for Proposals<br/><b>Publication Date</b>: Wed, 12 Mar 2014<br/><b>Deadline</b>: Thu, 11 Sep 2014 17:00:00 (Brussels local time)<br/><b>Budget</b>: 240.500.000,00 €<br/><br/></div></div>
+        </div>
+    
+        <div class="item">
+            <div class="date">10/12/2013</div>
+            <div class="title"><a target="_blank" href='http://ec.europa.eu/research/participants/portal/desktop/en/opportunities/h2020/calls/h2020-msca-rise-2014.html'>Marie Sklodowska-Curie Research and Innovation Staff Exchange (RISE)</a></div>
+            <div class="summary"><div><b>Identifier</b>: H2020-MSCA-RISE-2014<br/><b>Specific programme</b>: EU.1.3.3.<br/><b>Theme(s)</b>: <br/><b>Type</b>: Call for Proposals<br/><b>Publication Date</b>: Wed, 11 Dec 2013<br/><b>Deadline</b>: Thu, 24 Apr 2014 17:00:00 (Brussels local time)<br/><b>Budget</b>: 70.000.000,00 €<br/><br/></div></div>
+        </div>
+    
+        <div class="item">
+            <div class="date">10/12/2013</div>
+            <div class="title"><a target="_blank" href='http://ec.europa.eu/research/participants/portal/desktop/en/opportunities/h2020/calls/h2020-drs-2014.html'>Disaster-resilience: safeguarding and securing society, including adapting to climate change</a></div>
+            <div class="summary"><div><b>Identifier</b>: H2020-DRS-2014<br/><b>Specific programme</b>: EU.3.7.<br/><b>Theme(s)</b>: <br/><b>Type</b>: Call for Proposals<br/><b>Publication Date</b>: Wed, 11 Dec 2013<br/><b>Deadline</b>: Thu, 28 Aug 2014 17:00:00 (Brussels local time)<br/><b>Budget</b>: 65.400.000,00 €<br/><br/></div></div>
+        </div>
+    
+        <div class="item">
+            <div class="date">10/12/2013</div>
+            <div class="title"><a target="_blank" href='http://ec.europa.eu/research/participants/portal/desktop/en/opportunities/h2020/calls/h2020-spire-2015.html'>Call for SPIRE - Sustainable Process Industries</a></div>
+            <div class="summary"><div><b>Identifier</b>: H2020-SPIRE-2015<br/><b>Specific programme</b>: EU.2.1.5.<br/><b>Theme(s)</b>: <br/><b>Type</b>: Call for Proposals<br/><b>Publication Date</b>: Wed, 11 Dec 2013<br/><b>Deadline</b>: Tue, 9 Dec 2014 17:00:00 (Brussels local time)<br/><b>Budget</b>: 77.000.000,00 €<br/><br/></div></div>
+        </div>
+    </div>
+
+
+
+
+<script type="text/javascript" src="/common/js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="/common/js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" id="sourcecode">
+    $(function () {
+        $('.scroll-pane').jScrollPane();
+    });
+</script>
+
+
+
+             		<div id="read-more"><a href="/page/calls.aspx"><span>calls</span></a>
+					</div>
+				 </div>
+				 
+				<div style="clear: both;">&nbsp;</div>
+			 </div>
+             
+             <div style="clear: both;">
+             </div>
+        </div>
+        
+        <div id="home-right-col">
+
+
+
+
+        	<div id="home-social">
+            	<ul id="home-icons">
+                	<li id="rss"><a href="/site-rss.aspx" target="_blank"><span>rss feed</span></a></li>
+                    <li id="twitter"><a href="https://twitter.com/FRIENZProject" target="_blank"><span>twitter</span></a></li>
+                    <li id="linked-in"><a href="http://www.linkedin.com/groups/FRIENZ-4990992 " target="_blank"><span>linked in</span></a></li>
+                </ul>
+            </div>
+            
+            <div id="home-twitter">
+            	<div id="home-twitter-top">
+                </div>
+                
+                <div id="home-twitter-bkgrd">
+					
+<div class="twitter-viewer">
+	
+			<div class="tweets">
+		
+			<div class="tweet">
+				<div class="text"><a href='http://www.twitter.com/FRIENZProject/' target="_blank" class="username">@FRIENZProject</a> MBIE Announces Call for Global Strategic Partnerships - CATALYST FUND NOW OPEN
+<a href='http://t.co/OoOThtVjTh' target='_blank'>http://t.co/OoOThtVjTh</a></div>
+				<div class="from-date">06/10/2015</div>
+			</div>
+		
+			<div class="tweet">
+				<div class="text"><a href='http://www.twitter.com/FRIENZProject/' target="_blank" class="username">@FRIENZProject</a> RT @KirstenEdgar: Wolfgang Schulz @MetalsWeek talking about the @FRIENZProject factories of the future mission and "industry 4.0" <a href='http://t.' target='_blank'>http://t.</a>…</div>
+				<div class="from-date">03/09/2015</div>
+			</div>
+		
+			</div>
+		
+</div>
+                </div>
+                
+                <div id="home-twitter-bottom">
+                </div>
+            </div>
+            
+            <div id="home-newsletter">
+				<h2>newsletter</h2>
+				
+
+<input type="hidden" name='CurrentPage47' value='1' />
+
+<div class='contact-form' style="">
+
+	
+
+	<div id="ctl00__newsletter__pnlForm" class="form">
+	
+		
+
+		
+				
+				<div id="ctl00__newsletter__rptFields_ctl00_pnlField" class="field field_269 field_textbox">
+		
+					<div class='title'>Name</div>
+					<div id="ctl00__newsletter__rptFields_ctl00_pnlInput" class="input">
+			<input name="ctl00$_newsletter$_rptFields$ctl00$txtInput269" type="text" id="ctl00__newsletter__rptFields_ctl00_txtInput269" />
+		</div>
+					
+				
+	</div>
+			
+				
+				<div id="ctl00__newsletter__rptFields_ctl01_pnlField" class="field field_270 field_emailaddress">
+		
+					<div class='title'>Email</div>
+					<div id="ctl00__newsletter__rptFields_ctl01_pnlInput" class="input">
+			<input name="ctl00$_newsletter$_rptFields$ctl01$txtInput270" type="text" id="ctl00__newsletter__rptFields_ctl01_txtInput270" />
+		</div>
+					
+				
+	</div>
+			
+
+		<div id="ctl00__newsletter__pnlValidationFields">
+
+	</div>
+
+		
+
+		
+
+		<div id="ctl00__newsletter__pnlSubmit" class="submit">
+		<input type="submit" name="ctl00$_newsletter$ctl00" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$_newsletter$ctl00&quot;, &quot;&quot;, true, &quot;FormGroup47&quot;, &quot;&quot;, false, false))" />
+	</div>
+	
+</div>
+
+	
+</div>
+
+<script src="/common/js/jquery.donetyping.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        
+
+        function RegisterShowHide(inputField, field, showValue) {
+            $(field).hide();
+
+            $('input:checked', inputField).each(function () {
+                show(this, field, showValue);
+            });
+
+            $('input', inputField).change(function () {
+                show(this, field, showValue);
+            });
+        }
+
+        function show(el, field, showValue) {
+            var val = $(el).val();
+            if (val == showValue) {
+                $(field).show();
+            }
+            else {
+                $(field).hide();
+            }
+        }
+
+        //$('.submit input').click(function (e) {
+        //    if ($(this).val() == 'Finish') {
+        //        e.preventDefault();
+        //    }
+        //});
+    });
+</script>
+
+            </div>
+        </div>
+        
+        <div style="clear: both;">
+        </div>
+    </div>
+            
+    <div id="footer-sponsors">
+        	<ul id="sponsors">
+            	<li id="ib"><a href="http://www.internationales-buero.de/" target="_blank"><span>ib</a></li>
+            	<li id="euro"><a href="http://www.euroresearchsupport.co.nz/" target="_blank"><span>euro</span></a></li>
+                <li id="cnrs"><a href="http://www.cnrs.fr/" target="_blank"><span>cnrs</span></a></li>
+                <li id="mbie"><a href="http://www.msi.govt.nz/" target="_blank"><span>mbie</span></a></li>
+                <li id="rcnz"><a href="http://www.royalsociety.org.nz/" target="_blank"><span>rcnz</span></a></li>
+                <li id="seven-p"><a href="#" target="_blank"><span>7p</span></a></li>
+                <li id="stars"><a href="#" target="_blank"><span>stars</span></a></li>
+                <li id="vtt"><a href="http://www.vtt.fi/" target="_blank"><span>vtt</span></a></li>
+            </ul>
+    </div>
+</div>  
+      <div id="footer">
+    
+         <div id="footer-inner"><p class="footer-text">
+<div class='content-viewer' style="">
+	
+
+	
+	
+
+	<div id="ctl00__content_Footer__pnlViewContent" class="module-content">
+	
+		<p class="footer-text"><span>The FRIENZ project has received funding from the European Unions Seventh Framework Programme [FP7/ 2007-2013] under grant agreement No 312168; and from the New Zealand Ministry of Business, Innovation and Employment (MBIE).</span></p>
+<p class="footer-text"><a href="/page/www.orcas.co.nz" target="_blank">Website design</a> by Orcas</p>
+	
+</div>
+</div>
+
+        </div>
+    </div> 
+   
+ </form>
+</body>
+</html>

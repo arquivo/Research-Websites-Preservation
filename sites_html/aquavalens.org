@@ -1,0 +1,4094 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!DOCTYPE html>
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+		
+		
+	
+	
+		
+	
+	
+	
+	
+	
+
+	
+	
+	
+
+	
+	
+	
+
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+			  			
+				
+													
+			  			
+				
+																											
+
+
+<html class="aui ltr" dir="ltr" lang="en-GB">
+
+<head>
+				<title>Home</title>
+			<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<![endif]-->
+	
+	<script type="text/javascript" src="http://aquavalens.org/UEALR04-theme/js/jquery-1.5.2.min.js"></script>
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+		<meta content="The   AQUAVALENS   consortium has brought together SMEs, Industries, Universities and Research Institutes with  
+
+  the mission of protecting the health..." lang="en-GB" name="description" />
+	
+
+	
+
+	
+
+
+
+<link href="http://aquavalens.org/UEALR04-theme/images/favicon.ico" rel="Shortcut Icon" />
+
+
+
+
+
+		<link href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org" rel="canonical" />
+
+	
+	
+	
+	
+
+
+
+
+
+<link class="lfr-css-file" href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org&#x2f;UEALR04-theme&#x2f;css&#x2f;aui&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;UEALR04Configurable_WAR_UEALR04theme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;en_GB&#x26;b&#x3d;6210&#x26;t&#x3d;1454661761000" rel="stylesheet" type="text/css" />
+
+<link href="&#x2f;html&#x2f;css&#x2f;main&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;UEALR04Configurable_WAR_UEALR04theme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;en_GB&#x26;b&#x3d;6210&#x26;t&#x3d;1383307538000" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+
+	
+
+				<link href="http://aquavalens.org/html/portlet/journal_content/css/main.css?browserId=other&amp;themeId=UEALR04Configurable_WAR_UEALR04theme&amp;minifierType=css&amp;languageId=en_GB&amp;b=6210&amp;t=1454661811000" rel="stylesheet" type="text/css" />
+
+	
+
+				<link href="http://aquavalens.org/html/portlet/document_library/css/main.css?browserId=other&amp;themeId=UEALR04Configurable_WAR_UEALR04theme&amp;minifierType=css&amp;languageId=en_GB&amp;b=6210&amp;t=1454661811000" rel="stylesheet" type="text/css" />
+
+	
+
+				<link href="http://aquavalens.org/html/portlet/dynamic_data_mapping/css/main.css?browserId=other&amp;themeId=UEALR04Configurable_WAR_UEALR04theme&amp;minifierType=css&amp;languageId=en_GB&amp;b=6210&amp;t=1454661811000" rel="stylesheet" type="text/css" />
+
+	
+
+				<link href="http://aquavalens.org/html/portlet/bookmarks/css/main.css?browserId=other&amp;themeId=UEALR04Configurable_WAR_UEALR04theme&amp;minifierType=css&amp;languageId=en_GB&amp;b=6210&amp;t=1454661811000" rel="stylesheet" type="text/css" />
+
+	
+
+				<link href="http://aquavalens.org/notifications-portlet/notifications/css/main.css?browserId=other&amp;themeId=UEALR04Configurable_WAR_UEALR04theme&amp;minifierType=css&amp;languageId=en_GB&amp;b=6210&amp;t=1454661811000" rel="stylesheet" type="text/css" />
+
+	
+
+				<link href="http://aquavalens.org/html/portlet/wiki/css/main.css?browserId=other&amp;themeId=UEALR04Configurable_WAR_UEALR04theme&amp;minifierType=css&amp;languageId=en_GB&amp;b=6210&amp;t=1454661811000" rel="stylesheet" type="text/css" />
+
+	
+
+
+
+
+
+
+
+<script type="text/javascript">
+	// <![CDATA[
+		var Liferay = {
+			Browser: {
+				acceptsGzip: function() {
+					return false;
+				},
+				getMajorVersion: function() {
+					return 0.0;
+				},
+				getRevision: function() {
+					return "";
+				},
+				getVersion: function() {
+					return "";
+				},
+				isAir: function() {
+					return false;
+				},
+				isChrome: function() {
+					return false;
+				},
+				isFirefox: function() {
+					return false;
+				},
+				isGecko: function() {
+					return false;
+				},
+				isIe: function() {
+					return false;
+				},
+				isIphone: function() {
+					return false;
+				},
+				isLinux: function() {
+					return false;
+				},
+				isMac: function() {
+					return false;
+				},
+				isMobile: function() {
+					return false;
+				},
+				isMozilla: function() {
+					return false;
+				},
+				isOpera: function() {
+					return false;
+				},
+				isRtf: function() {
+					return false;
+				},
+				isSafari: function() {
+					return false;
+				},
+				isSun: function() {
+					return false;
+				},
+				isWap: function() {
+					return false;
+				},
+				isWapXhtml: function() {
+					return false;
+				},
+				isWebKit: function() {
+					return false;
+				},
+				isWindows: function() {
+					return false;
+				},
+				isWml: function() {
+					return false;
+				}
+			},
+
+			Data: {
+				NAV_SELECTOR: '#navigation',
+
+				isCustomizationView: function() {
+					return false;
+				},
+
+				notices: [
+					null
+
+					
+
+					
+				]
+			},
+
+			ThemeDisplay: {
+				
+					getLayoutId: function() {
+						return "1";
+					},
+					getLayoutURL: function() {
+						return "http://aquavalens.org/healthy-water";
+					},
+					getParentLayoutId: function() {
+						return "0";
+					},
+					isPrivateLayout: function() {
+						return "false";
+					},
+					isVirtualLayout: function() {
+						return false;
+					},
+				
+
+				getBCP47LanguageId: function() {
+					return "en-GB";
+				},
+				getCDNBaseURL: function() {
+					return "http://aquavalens.org";
+				},
+				getCDNDynamicResourcesHost: function() {
+					return "";
+				},
+				getCDNHost: function() {
+					return "";
+				},
+				getCompanyId: function() {
+					return "10132";
+				},
+				getCompanyGroupId: function() {
+					return "10165";
+				},
+				getDefaultLanguageId: function() {
+					return "en_GB";
+				},
+				getDoAsUserIdEncoded: function() {
+					return "";
+				},
+				getLanguageId: function() {
+					return "en_GB";
+				},
+				getParentGroupId: function() {
+					return "2715705";
+				},
+				getPathContext: function() {
+					return "";
+				},
+				getPathImage: function() {
+					return "/image";
+				},
+				getPathJavaScript: function() {
+					return "/html/js";
+				},
+				getPathMain: function() {
+					return "/c";
+				},
+				getPathThemeImages: function() {
+					return "http://aquavalens.org/UEALR04-theme/images";
+				},
+				getPathThemeRoot: function() {
+					return "/UEALR04-theme";
+				},
+				getPlid: function() {
+					return "2715710";
+				},
+				getPortalURL: function() {
+					return "http://aquavalens.org";
+				},
+				getPortletSetupShowBordersDefault: function() {
+					return false;
+				},
+				getScopeGroupId: function() {
+					return "2715705";
+				},
+				getScopeGroupIdOrLiveGroupId: function() {
+					return "2715705";
+				},
+				getSessionId: function() {
+					
+						
+						
+							return "";
+						
+					
+				},
+				getSiteGroupId: function() {
+					return "2715705";
+				},
+				getURLControlPanel: function() {
+					return "/group/control_panel?refererPlid=2715710";
+				},
+				getURLHome: function() {
+					return "http\x3a\x2f\x2faquavalens\x2eorg\x2fweb\x2fguest";
+				},
+				getUserId: function() {
+					return "10135";
+				},
+				getUserName: function() {
+					
+						
+						
+							return "";
+						
+					
+				},
+				isAddSessionIdToURL: function() {
+					return false;
+				},
+				isFreeformLayout: function() {
+					return false;
+				},
+				isImpersonated: function() {
+					return false;
+				},
+				isSignedIn: function() {
+					return false;
+				},
+				isStateExclusive: function() {
+					return false;
+				},
+				isStateMaximized: function() {
+					return false;
+				},
+				isStatePopUp: function() {
+					return false;
+				}
+			},
+
+			PropsValues: {
+				NTLM_AUTH_ENABLED: false
+			}
+		};
+
+		var themeDisplay = Liferay.ThemeDisplay;
+
+		
+
+		Liferay.AUI = {
+			getAvailableLangPath: function() {
+				return 'available_languages.jsp?browserId=other&themeId=UEALR04Configurable_WAR_UEALR04theme&colorSchemeId=01&minifierType=js&languageId=en_GB&b=6210&t=1454661788000';
+			},
+			getCombine: function() {
+				return true;
+			},
+			getComboPath: function() {
+				return '/combo/?browserId=other&minifierType=&languageId=en_GB&b=6210&t=1454661788000&';
+			},
+			getFilter: function() {
+				
+					
+						return 'min';
+					
+					
+					
+				
+			},
+			getJavaScriptRootPath: function() {
+				return '/html/js';
+			},
+			getLangPath: function() {
+				return 'aui_lang.jsp?browserId=other&themeId=UEALR04Configurable_WAR_UEALR04theme&colorSchemeId=01&minifierType=js&languageId=en_GB&b=6210&t=1454661788000';
+			},
+			getStaticResourceURLParams: function() {
+				return '?browserId=other&minifierType=&languageId=en_GB&b=6210&t=1454661788000';
+			}
+		};
+
+		Liferay.authToken = 'TCU7yfjr';
+
+		
+
+		Liferay.currentURL = '\x2f';
+		Liferay.currentURLEncoded = '%2F';
+	// ]]>
+</script>
+
+
+	
+		
+			
+				<script src="/html/js/barebone.jsp?browserId=other&amp;themeId=UEALR04Configurable_WAR_UEALR04theme&amp;colorSchemeId=01&amp;minifierType=js&amp;minifierBundleId=javascript.barebone.files&amp;languageId=en_GB&amp;b=6210&amp;t=1454661788000" type="text/javascript"></script>
+			
+			
+		
+	
+	
+
+
+<script type="text/javascript">
+	// <![CDATA[
+		
+
+			
+
+			
+				Liferay.Portlet.list = ['56_INSTANCE_m2xK5YGPMtG9', '56_INSTANCE_PIxH8tsZCLm7', '56_INSTANCE_WPQifjTMgcII', '56_INSTANCE_ey7qkSD8A9xx', '56_INSTANCE_iWc1twl8ItFK', '20', '56', '28', '166', '56_INSTANCE_cgihpDhAy35v', '56_INSTANCE_Uk7IG1gDVc6J', '36'];
+			
+		
+
+		
+
+		
+	// ]]>
+</script>
+
+
+
+
+
+	
+		
+
+			
+
+			
+				<script type="text/javascript">
+					(function(i, s, o, g, r, a, m) {
+						i['GoogleAnalyticsObject'] = r;
+
+						i[r] = i[r] || function() {
+							var arrayValue = i[r].q || [];
+
+							i[r].q = arrayValue;
+
+							(i[r].q).push(arguments);
+						};
+
+						i[r].l = 1 * new Date();
+
+						a = s.createElement(o);
+						m = s.getElementsByTagName(o)[0];
+						a.async = 1;
+						a.src = g;
+						m.parentNode.insertBefore(a, m);
+					})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+					ga('create', 'UA-2374395-12', 'auto');
+					ga('send', 'pageview');
+				</script>
+			
+		
+		
+	
+
+
+
+	
+		
+		
+
+			
+
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+				<script src="http://aquavalens.org/html/portlet/dynamic_data_lists/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_GB&amp;b=6210&amp;t=1454661811000" type="text/javascript"></script>
+
+	
+
+				<script src="http://aquavalens.org/html/portlet/dynamic_data_mapping/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_GB&amp;b=6210&amp;t=1454661811000" type="text/javascript"></script>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<link class="lfr-css-file" href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org&#x2f;UEALR04-theme&#x2f;css&#x2f;main&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;UEALR04Configurable_WAR_UEALR04theme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;en_GB&#x26;b&#x3d;6210&#x26;t&#x3d;1454661761000" rel="stylesheet" type="text/css" />
+
+
+
+
+	<style type="text/css">
+		#banner #heading h2.right-logo {float: left; margin: 7px 0;}
+
+#banner #heading h2.site-name {font-size: 2em; color: #40c8f4;}
+
+h1,#content h1.page-title,h2,h3,h4,h5,h6{color:#166881!important;}
+#footer #branding,#tool-bar {background:#40c8f4!important;}
+#navigation ul li a:hover {background:#8cc6ec;}
+h1 a, h2 a, h3 a, h4 a{color:#8cc6ec;}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover{color:#8cc6ec;}
+	</style>
+
+
+
+
+
+	<style type="text/css">
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+	</style>
+
+
+
+		
+	<link href="http://aquavalens.org/UEALR04-theme/css/accessibility/smallText.css" title="smallText" rel="alternate stylesheet" type="text/css" media="screen" />
+	<link href="http://aquavalens.org/UEALR04-theme/css/accessibility/mediumText.css" title="mediumText" rel="alternate stylesheet" type="text/css" media="screen" />
+	<link href="http://aquavalens.org/UEALR04-theme/css/accessibility/largeText.css" title="largeText" rel="alternate stylesheet" type="text/css" media="screen" />
+	<link href="http://aquavalens.org/UEALR04-theme/css/accessibility/highContrast.css" title="highContrast" rel="alternate stylesheet" type="text/css" media="screen" />
+	<link href="http://aquavalens.org/UEALR04-theme/css/accessibility/plainText.css" title="plainText" rel="alternate stylesheet" type="text/css" media="screen" />
+	
+	<!--[if lt IE 7]>
+		<link href="http://aquavalens.org/UEALR04-theme/css/ie6.css" rel="stylesheet" type="text/css" media="screen" />
+	<![endif]-->
+	<!--[if IE 7]>
+		<link href="http://aquavalens.org/UEALR04-theme/css/ie7.css" rel="stylesheet" type="text/css" media="screen" />
+	<![endif]-->
+	<!--[if IE 8]>
+		<link href="http://aquavalens.org/UEALR04-theme/css/ie8.css" rel="stylesheet" type="text/css" media="screen" />
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<link href="http://aquavalens.org/UEALR04-theme/css/ie8.css" rel="stylesheet" type="text/css" media="screen" />
+		<script type="text/javascript" src="http://aquavalens.org/UEALR04-theme/js/html5shiv.js"></script>
+	<![endif]-->	
+	<!--[if IE 9]>
+		<link href="http://aquavalens.org/UEALR04-theme/css/ie9.css" rel="stylesheet" type="text/css" media="screen" />
+	<![endif]-->
+	<!--[if IE]>
+		<link href="http://aquavalens.org/UEALR04-theme/css/ie.css" rel="stylesheet" type="text/css" media="screen" />
+	<![endif]-->
+	<script type="text/javascript" src="http://aquavalens.org/UEALR04-theme/js/main.js"></script>
+	<script type="text/javascript" src="http://aquavalens.org/UEALR04-theme/js/lrunitstoggle.js"></script>
+	<script type="text/javascript" src="http://aquavalens.org/UEALR04-theme/js/jquery.iframe-auto-height.plugin.js"></script>
+	<script type="text/javascript" src="http://aquavalens.org/UEALR04-theme/js/ui.js"></script>
+	<script type="text/javascript" src="http://aquavalens.org/UEALR04-theme/js/styleswitcher.js"></script>
+
+	<script type="text/javascript" src="http://aquavalens.org/UEALR04-theme/js/lrsideshow.js"></script>
+	
+	<script type="text/javascript">
+	$(document).ready (function () {
+	initQr();
+	});
+	</script>
+
+	<script type="text/JavaScript">
+		jQuery.fn.exists = function(){return this.length>0;}
+
+		$(document).ready (function () {
+			$('#supermenu').find('div.wrapper').each(function(){
+				$(this).removeClass('ie');
+			});
+			$('#supermenu .parent').mousedown(function(e){
+				if ($(this).parents('.wrapper').find('.content').hasClass('show'))
+				{$(this).parents('.wrapper').find('.content').removeClass('show');}
+				else{
+					$(this).parents('#supermenu').find('.content').removeClass('show');
+					$(this).parents('.wrapper').find('.content').addClass('show');
+				}
+			});
+		});
+		$(document).click(function(e) {
+			if ($(e.target).parents('.content').length>0 || $(e.target).parents('.wrapper').length>0)
+			{}
+			else
+			{$('div.show').removeClass('show');}
+		});
+	</script>
+
+
+
+<!--[if IE 8]>
+
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<![endif]-->
+
+
+
+
+</head>
+
+<body class=" yui3-skin-sam controls-visible signed-out public-page site dockbar-split">
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T9N7FP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T9N7FP');</script>
+<!-- End Google Tag Manager -->
+
+
+	<a href="#main-content" id="skip-to-content">Skip to Content</a>
+
+	
+
+  	<header id="tool-bar">
+		<hgroup id="system-tools">
+						
+
+<style type="text/css">
+
+#util-links ul{
+	padding:0;
+	margin:0;
+}
+
+
+#util-links ul li, #header-search, #header-course-search{
+	float:left;
+	border-right:1px solid #3f8fb0;
+	height:29px;
+}
+
+#util-links ul li.first{
+	border-left:1px solid #3f8fb0;
+}
+
+#util-links ul li a,#util-links ul li span{
+	color:#fff; 
+	text-decoration:none;
+	margin:7px 0 0 0;
+	float:left;
+}
+
+#util-links ul li a,#util-links ul li div{
+	padding:0 13px;
+}
+
+#util-links ul li a:hover{
+	color:#fff; 
+	text-decoration:underline;
+}
+
+#util-links ul li ul li{
+	border-right:none;
+}
+
+#util-links ul li ul li a{
+	margin:0;
+	padding:0 9px;
+}
+
+#util-links ul li ul{
+	float:left;
+}
+
+div#top-search{
+	float: right;
+	padding-left: 0px;
+}
+
+
+div#header-search{
+	width:auto; 
+	
+	padding: 0 0 0 2px; 
+	background-image:url("/UEALR04-theme/images/UEALR/search.png");
+	background-repeat:no-repeat;
+	background-position: 0;
+}
+
+div#header-course-search{
+	width:auto; 
+        background-image:url("/UEALR04-theme/images/UEALR/search.png");	
+	padding: 0 0 0 2px; 
+/*	
+        background-image:url("/UEALR04-theme/images/UEALR/searchbk.png");
+	background-color: #F6861F;
+*/
+        background-repeat:no-repeat;
+	background-position:0;
+	
+}
+
+#header-course-search #searchSiteSelect,
+#header-search #searchSiteForm{
+	margin:5px 0 0 0;
+}
+
+ul ul {
+	list-style-type: none;
+}
+
+input#find-it{
+	font-size:11px;
+	padding-top:4px;
+}
+
+input#textInput{
+	margin-right: 0px;
+}
+
+#searchSiteForm legend{
+	display:none;
+}
+
+#searchSiteSelect #submit-it,
+#searchSiteForm #find-it{
+	background-image: url("/UEALR04-theme/images/UEALR/gtsmall.png");
+	float:none;
+	padding-bottom:0;
+	padding-right: 15px;
+	padding-left: 0;
+	border: 0;
+	margin: 0;
+	background-position: right 6px; 
+	background-repeat:no-repeat;
+	background-color: #00597F;
+	color: white;
+	font-size: 11px;
+	font-weight: normal;
+	text-shadow: none;
+	position: relative;
+	top: -2px;
+	vertical-align: middle;
+}
+
+/*
+#searchSiteSelect #submit-it{
+	color: black;
+	background-color: #F6861F;
+	background-image: url("/UEALR04-theme/images/UEALR/gtsmallbk.png");
+}
+*/
+
+#system-tools{
+	overflow: hidden;
+}
+
+#system-tools div{
+	padding: 0px 2px 0px 4px;
+	margin-right: 0;
+	border-right: none;
+}
+
+#system-tools form{
+	padding: 0px 2px 0px 25px;
+	margin-right: 0;
+	border-right: none;
+}
+
+
+#header-search{
+	border-right: 1px Solid #3F8FB0!important;
+	
+
+}
+
+#system-tools form *{
+	margin-right: 0;
+}
+
+.ie7 #system-tools form input[type="text"]{
+	width: 140px;
+
+}
+
+
+</style>
+
+
+
+	<div id="util-links" style="padding:0;border-right:none;">
+
+		<ul>
+		
+				
+		
+		
+
+		
+		</ul>
+    	</div>
+
+
+	<div id=top-search>
+
+	
+</div>
+		</hgroup>
+	</header>
+	<header id="banner" role="banner">
+		<hgroup id="heading">
+			
+			
+<style type="text/css">
+
+
+
+#heading h2.right-logo
+{
+	float:right;
+	margin: 7px 0;
+
+}
+
+#heading h2.left-logo
+{
+	float:left;
+	margin: 18px 0;
+}
+
+#heading h2.site-name{
+	float:left;
+	margin-left: 20px;
+	font-size: 3em;
+	margin-top: 11px;
+	margin-bottom:5px;
+	color:#185F89;
+}
+
+</style>
+
+
+
+<h2 class="right-logo">
+	<a href="http://www.aquavalens.org" title="go-to ">
+		<img alt="Aquavalens" height="100" src="/documents/2715705/0/Aquavalens+header+image/0b9dee05-86df-42ac-9e49-8964bc1d545a?t=1363792559629" width="960" />
+	</a>
+</h2>
+
+
+
+
+
+			
+		</hgroup>
+
+		
+									<nav class="sort-pages modify-pages" id="navigation">
+	<!--<h1>
+		<span>Navigation</span>
+	</h1>-->
+
+	<ul>
+									<li class="selected">
+							
+									<a href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org&#x2f;healthy-water" accesskey="1" title="Home - Access Key: 1" ><span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Home</span></a>
+							
+			
+				
+
+				<!---->
+			</li>
+									<li>
+							
+									<a href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org&#x2f;overview1" accesskey="N" title="Top Menu - Access Key: N" ><span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Overview</span></a>
+							
+			
+				
+
+				<!---->
+			</li>
+									<li>
+							
+									<a href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org&#x2f;uea" accesskey="N" title="Top Menu - Access Key: N" ><span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ UEA</span></a>
+							
+			
+				
+
+				<!---->
+			</li>
+									<li>
+							
+									<a href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org&#x2f;partners" accesskey="N" title="Top Menu - Access Key: N" ><span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Partners</span></a>
+							
+			
+				
+
+				<!--					<ul class="child-menu">
+																					<li>
+							
+								<a href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org&#x2f;partners&#x2f;partner-locations" >Partner Locations</a>
+							</li>
+																					<li>
+							
+								<a href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org&#x2f;partners&#x2f;academic-partners" >Academic and Non-Profit Research Organisations</a>
+							</li>
+																					<li>
+							
+								<a href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org&#x2f;partners&#x2f;smes" >Small and Medium Size Enterprises (SMEs)</a>
+							</li>
+																					<li>
+							
+								<a href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org&#x2f;partners&#x2f;people" >People</a>
+							</li>
+											</ul>
+				-->
+			</li>
+									<li>
+							
+									<a href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org&#x2f;research" accesskey="N" title="Top Menu - Access Key: N" ><span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Research</span></a>
+							
+			
+				
+
+				<!--					<ul class="child-menu">
+																					<li>
+							
+								<a href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org&#x2f;research&#x2f;background" >Background</a>
+							</li>
+											</ul>
+				-->
+			</li>
+									<li>
+							
+									<a href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org&#x2f;publications" accesskey="N" title="Top Menu - Access Key: N" ><span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Aquavalens Publications</span></a>
+							
+			
+				
+
+				<!--					<ul class="child-menu">
+																					<li>
+							
+								<a href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org&#x2f;publications&#x2f;healthy-water-project" >Related Publications from Aquavalens Partners</a>
+							</li>
+											</ul>
+				-->
+			</li>
+									<li>
+							
+									<a href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org&#x2f;media" accesskey="N" title="Top Menu - Access Key: N" ><span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Media</span></a>
+							
+			
+				
+
+				<!--					<ul class="child-menu">
+																					<li>
+							
+								<a href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org&#x2f;media&#x2f;press-releases" >Press releases</a>
+							</li>
+																					<li>
+							
+								<a href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org&#x2f;media&#x2f;partner-media-contacts" >Partner media contacts</a>
+							</li>
+																					<li>
+							
+								<a href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org&#x2f;media&#x2f;videos" >Videos</a>
+							</li>
+											</ul>
+				-->
+			</li>
+									<li>
+							
+									<a href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;org&#x2f;contact-us" accesskey="N" title="Top Menu - Access Key: N" ><span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Contact Us</span></a>
+							
+			
+				
+
+				<!--					<ul class="child-menu">
+																					<li>
+							
+								<a href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;orgurl" >Follow Aquavalens on Twitter</a>
+							</li>
+																					<li>
+							
+								<a href="http&#x3a;&#x2f;&#x2f;aquavalens&#x2e;orgurl" >Join Aquavalens on Facebook</a>
+							</li>
+											</ul>
+				-->
+			</li>
+			</ul>
+</nav>					
+	</header>
+	
+	<div class="container-fluid" id="wrapper">
+		<div id="content">
+			
+				
+				<nav class="site-breadcrumbs" id="breadcrumbs">
+								 	<div></div>
+								</nav>
+
+				
+								
+					<h1 class="page-title">
+													<span>Home</span>
+											</h1>
+					
+							
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="columns-1-2-1" id="main-content" role="main">
+	<div class="portlet-layout row-fluid">
+		<div class="portlet-column portlet-column-only span12" id="column-1">
+			<div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_56_  portlet-static portlet-static-end portlet-borderless portlet-journal-content " id="p_p_id_56_INSTANCE_m2xK5YGPMtG9_" >
+		<span id="p_56_INSTANCE_m2xK5YGPMtG9"></span>
+
+
+
+	
+	
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				
+					
+
+						
+
+						
+
+						<div class="journal-content-article">
+							
+<div id="p-interactive-feature">
+	<ul class="panels">
+	    	
+    		    			<li value="1" class="active" style="background-image:url(/documents/2715705/0/banner-hands/0308c0a0-9070-4abe-ab54-0d5a9b7e959b?t=1365077483236);">
+        	        
+        	<div class="quote">
+            	<blockquote>
+                	Protecting the health of Europeans against contaminated drinking water through increased understanding and accurate testing for waterborne pathogens
+                </blockquote>
+            	<cite>
+                	
+                </cite>
+            </div>
+         <p><a href="/web/2715705/13">Overview</a></p>
+        
+        </li>
+            	
+    		        		<li value="2" style="background-image:url(/documents/2715705/0/banner-pipette/63fd3ab8-5b93-4583-ae21-2321291b0a7d?t=1365077529811);">
+        	        
+        	<div class="quote">
+            	<blockquote>
+                	Generating new knowledge on the molecular genetics of viral, bacterial and parasitic waterborne pathogens
+                </blockquote>
+            	<cite>
+                	
+                </cite>
+            </div>
+         <p><a href="http://aquavalens.org/research">Research</a></p>
+        
+        </li>
+            	
+    		        		<li value="3" style="background-image:url(/documents/2715705/0/banner-lemon/b07eb703-8915-4bf8-89f0-273a43485590?t=1365077504073);">
+        	        
+        	<div class="quote">
+            	<blockquote>
+                	Evaluating technologies and their impact in the field with water providers and food producers.
+                </blockquote>
+            	<cite>
+                	
+                </cite>
+            </div>
+         <p><a href="/web/2715705/10">Commercial partners</a></p>
+        
+        </li>
+            	
+    		        		<li value="4" style="background-image:url(/documents/2715705/0/banner-glasses/f0d87dc2-c93f-4674-8a1e-c936900db615?t=1365077582229);">
+        	        
+        	<div class="quote">
+            	<blockquote>
+                	Developing new technologies to prevent and control the spread of waterborne disease
+                </blockquote>
+            	<cite>
+                	
+                </cite>
+            </div>
+         <p><a href="http://aquavalens.org/research/background">Background</a></p>
+        
+        </li>
+            </ul>
+    <ul class="pager">
+    	
+    	    		    			<li><a href="#feature" rel="1"class="selected">1</a></li>
+    			    		    			<li class="jsOnly"><a href="#feature" rel="2">2</a></li>
+    			    		    			<li class="jsOnly"><a href="#feature" rel="3">3</a></li>
+    			    		    			<li class="jsOnly"><a href="#feature" rel="4">4</a></li>
+    			    </ul>
+   
+</div>
+						</div>
+
+						
+					
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+
+
+
+	
+		<div class="entry-links">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	
+
+	
+
+	
+
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_56_  portlet-static portlet-static-end portlet-borderless portlet-journal-content " id="p_p_id_56_INSTANCE_PIxH8tsZCLm7_" >
+		<span id="p_56_INSTANCE_PIxH8tsZCLm7"></span>
+
+
+
+	
+	
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				
+					
+
+						
+
+						
+
+						<div class="journal-content-article">
+							<div><span style="font-size:16px;">The <strong><span style="color:#3333cc;">AQUAVALENS</span></strong> consortium has brought together SMEs, Industries, Universities and Research Institutes with</span></div>
+
+<div><span style="font-size:16px;">the mission of protecting the health of European Citizens from contaminated drinking water and water used in</span></div>
+
+<div><span style="font-size:16px;">food processing. We will achieve this by developing sustainable technologies to enable water system managers</span></div>
+
+<div><span style="font-size:16px;">whether in large or small water systems or within food growers or manufacturers to better control the safety of</span></div>
+
+<div><span style="font-size:16px;">their water supplies. &nbsp;Read More:&nbsp;<a href="http://commnet.eu/05_News/Quick_ID_For_Water_Pathogens.kl">http://commnet.eu/05_News/Quick_ID_For_Water_Pathogens.kl</a></span></div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+						</div>
+
+						
+					
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+
+
+
+	
+		<div class="entry-links">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	
+
+	
+
+	
+
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_56_  portlet-static portlet-static-end portlet-borderless portlet-journal-content " id="p_p_id_56_INSTANCE_WPQifjTMgcII_" >
+		<span id="p_56_INSTANCE_WPQifjTMgcII"></span>
+
+
+
+	
+	
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				
+					
+
+						
+
+						
+
+						<div class="journal-content-article">
+							<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><object align="right" height="250" hspace="10" vspace="10" width="400"><param name="quality" value="high" /><param name="allowScriptAccess" value="always" /><param name="scale" value="showall" /><param name="movie" value="//www.youtube.com/v/2ds4Ii9XNOs?version=3&amp;hl=en_US&amp;rel=0" /><param name="allowscriptaccess" value="always" /><embed allowscriptaccess="always" height="250" hspace="10" quality="high" scale="showall" src="//www.youtube.com/v/2ds4Ii9XNOs?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" vspace="10" width="400"></embed></object></p>
+
+<div>&nbsp;</div>
+
+<p style="text-align: center;"><img alt="" src="/documents/2715705/2871575/fp7+eu+logo.png/d0b5830d-e73e-4641-a614-87c001d32075?t=1411728050054" style="width: 300px; height: 100px; border-width: 1px; border-style: solid; margin: 20px; float: left;" /></p>
+
+<h3 style="text-align: right;"><span style="color:#0066ff;">&nbsp;</span></h3>
+
+<h3 style="text-align: right;">&nbsp;</h3>
+
+<h3 style="text-align: right;">&nbsp;</h3>
+
+<h3 style="text-align: right;">&nbsp;</h3>
+
+<h3 style="text-align: right;">&nbsp;</h3>
+
+<h3 style="text-align: right;">&nbsp;</h3>
+
+<h3 style="text-align: right;"><span style="color:#3366cc;">Please visit the Media Tab for more&nbsp;videos &nbsp; &nbsp; &nbsp;&nbsp;</span></h3>
+						</div>
+
+						
+					
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+
+
+
+	
+		<div class="entry-links">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	
+
+	
+
+	
+
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+</div>
+		</div>
+	</div>
+
+	<div class="portlet-layout row-fluid">
+		<div class="portlet-column portlet-column-first span6" id="column-2">
+			<div class="portlet-dropzone empty portlet-column-content portlet-column-content-first" id="layout-column_column-2"></div>
+		</div>
+
+		<div class="portlet-column portlet-column-last span6" id="column-3">
+			<div class="portlet-dropzone empty portlet-column-content portlet-column-content-last" id="layout-column_column-3"></div>
+		</div>
+	</div>
+
+	<div class="portlet-layout row-fluid">
+		<div class="portlet-column portlet-column-only span12" id="column-4">
+			<div class="portlet-dropzone empty portlet-column-content portlet-column-content-only" id="layout-column_column-4"></div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+	
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_1_WAR_kaleodesignerportlet_  portlet-static portlet-static-end portlet-borderless kaleo-designer-portlet " id="p_p_id_1_WAR_kaleodesignerportlet_" >
+		<span id="p_1_WAR_kaleodesignerportlet"></span>
+
+
+
+	
+	
+	
+
+		
+
+			
+				
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+			
+
+		
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+
+
+	
+
+
+
+
+
+<form action="#" id="hrefFm" method="post" name="hrefFm">
+	<span></span>
+</form>
+						
+		</div>
+	</div>
+
+  <footer id="footer" role="contentinfo">
+	<div id="footer"> <div id="branding"> <div id="brandingLimit"> &nbsp;</div> </div> <div id="supporting-info"> <div id="base-content"> &nbsp;</div> </div> <div id="credits"> <ul> <li> <a href="http://europa.eu/index_en.htm" target="_blank"><img align="left" alt="EU emblem" height="85" src="/documents/2715705/2999682/EU-emblem.gif/e3a3fad3-d686-4284-8309-5d48fb2010e0?t=1366892347471" width="125" /></a></li> <li> <a href="//www.uea.ac.uk" target="_blank"><img alt="UEA logo" height="85" src="/documents/2715705/2999682/UEA_Horizontal_RGB.gif/8c8bf5a2-6fba-47f5-a770-8a71bb736af9?t=1366892426078" width="255" /></a></li> <li> <a href="//www.uea.ac.uk/about/legalstatements" title="Legal Statements">Legal Statements</a></li> </ul> </div> <p> &nbsp;</p> <style type="text/css"> #credits { clear: both; font-size: .9em; color: #535455; margin: 0 auto; text-align: left; width: 960px; } #credits li { float: left; margin-right: 15px; } #credits li a { color: #6F6F6F; text-decoration: none; } #credits li a:hover { color: #005480; } </style> </div>
+
+</footer>
+
+<!-- www.ServiceTick.com Client Integration v1.0 -->
+<div id="stElement"></div>
+<script type="text/javascript">
+	var SWFfilename = 'http://aquavalens.org/UEALR04-theme/js/st-transport.swf';
+	var AccountCode = 'UEA-1';
+</script>
+
+<script type="text/javascript" src="http://aquavalens.org/UEALR04-theme/js/servicetickbase.js"></script>
+<!-- ServiceTick -->
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+				<script src="http://aquavalens.org/html/portlet/document_library/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_GB&amp;b=6210&amp;t=1454661811000" type="text/javascript"></script>
+
+	
+
+				<script src="http://aquavalens.org/html/portlet/document_library/js/upload.js?browserId=other&amp;minifierType=js&amp;languageId=en_GB&amp;b=6210&amp;t=1454661811000" type="text/javascript"></script>
+
+	
+
+				<script src="http://aquavalens.org/notifications-portlet/notifications/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_GB&amp;b=6210&amp;t=1454661811000" type="text/javascript"></script>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+// <![CDATA[
+
+	Liferay.Util.addInputFocus();
+
+	
+
+	
+		
+		
+
+			
+
+			
+		
+	
+
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+		
+
+		
+	
+
+
+<script type="text/javascript">
+// <![CDATA[
+
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 0,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_56_INSTANCE_m2xK5YGPMtG9_',
+					portletId: '56_INSTANCE_m2xK5YGPMtG9',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d2715710\x26p_p_id\x3d56_INSTANCE_m2xK5YGPMtG9\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F'
+				}
+			);
+		
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 2,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_56_INSTANCE_WPQifjTMgcII_',
+					portletId: '56_INSTANCE_WPQifjTMgcII',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d2715710\x26p_p_id\x3d56_INSTANCE_WPQifjTMgcII\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d2\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F'
+				}
+			);
+		
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 1,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_56_INSTANCE_PIxH8tsZCLm7_',
+					portletId: '56_INSTANCE_PIxH8tsZCLm7',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d2715710\x26p_p_id\x3d56_INSTANCE_PIxH8tsZCLm7\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F'
+				}
+			);
+		
+	Liferay.provide(
+		Liferay.Util,
+		'openKaleoDesignerPortlet',
+		function(config) {
+			var A = AUI();
+
+			var kaleoURL = Liferay.PortletURL.createURL('http://aquavalens.org/healthy-water?p_p_id=2_WAR_kaleodesignerportlet&p_p_lifecycle=0');
+
+			kaleoURL.setParameter('mvcPath', '/designer/edit_kaleo_draft_definition.jsp');
+			kaleoURL.setParameter('availableFields', config.availableFields);
+			kaleoURL.setParameter('availablePropertyModels', config.availablePropertyModels);
+			kaleoURL.setParameter('ddmStructureId', config.ddmStructureId);
+			kaleoURL.setParameter('draftVersion', config.draftVersion);
+			kaleoURL.setParameter('kaleoProcessId', config.kaleoProcessId);
+			kaleoURL.setParameter('name', config.name);
+			kaleoURL.setParameter('openerWindowName', config.openerWindowName);
+			kaleoURL.setParameter('portletResourceNamespace', config.portletResourceNamespace);
+			kaleoURL.setParameter('propertiesSaveCallback', config.propertiesSaveCallback);
+			kaleoURL.setParameter('refreshOpenerOnClose', config.refreshOpenerOnClose);
+			kaleoURL.setParameter('saveCallback', config.saveCallback);
+			kaleoURL.setParameter('version', config.version);
+			kaleoURL.setWindowState('pop_up');
+
+			config.uri = kaleoURL.toString();
+
+			var dialogConfig = config.dialog;
+
+			if (!dialogConfig) {
+				var region = A.one(Liferay.Util.getOpener()).get('region');
+
+				dialogConfig = {
+					destroyOnHide: true
+				};
+
+				config.dialog = dialogConfig;
+			}
+
+			if (!('align' in dialogConfig)) {
+				dialogConfig.align = Liferay.Util.Window.ALIGN_CENTER;
+			}
+
+			var dialogIframeConfig = config.dialogIframe;
+
+			if (!dialogIframeConfig) {
+				dialogIframeConfig = {
+					closeOnEscape: false
+				};
+
+				config.dialogIframe = dialogIframeConfig;
+			}
+
+			Liferay.Util.openWindow(config);
+		},
+		['liferay-portlet-url']
+	);
+
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 0,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_1_WAR_kaleodesignerportlet_',
+					portletId: '1_WAR_kaleodesignerportlet',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d2715710\x26p_p_id\x3d1_WAR_kaleodesignerportlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F'
+				}
+			);
+		AUI().use('aui-base', 'liferay-menu', 'liferay-notice', 'liferay-poller', 'liferay-session', function(A) {(function() {
+	Liferay.Util.addInputType();
+
+	Liferay.Portlet.ready(
+		function(portletId, node) {
+			Liferay.Util.addInputType(node);
+		}
+	);
+
+	if (A.UA.mobile) {
+		Liferay.Util.addInputCancel();
+	}
+})();(function() {
+	new Liferay.Menu();
+
+	var liferayNotices = Liferay.Data.notices;
+
+	for (var i = 1; i < liferayNotices.length; i++) {
+		new Liferay.Notice(liferayNotices[i]);
+	}
+
+	
+})();(function() {
+			Liferay.Session = new Liferay.SessionBase(
+				{
+					autoExtend: true,
+					sessionLength: 30,
+					redirectOnExpire: false,
+					redirectUrl: 'http\x3a\x2f\x2faquavalens\x2eorg\x2fweb\x2fguest',
+					warningLength: 1
+				}
+			);
+
+			
+		})();});
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+<script src="http://aquavalens.org/UEALR04-theme/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_GB&amp;b=6210&amp;t=1454661761000" type="text/javascript"></script>
+
+
+
+	
+
+	
+
+	<script type="text/javascript">
+		// <![CDATA[
+			
+
+			
+		// ]]>
+	</script>
+
+
+
+
+
+
+</body>
+
+
+</html>
+
