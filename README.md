@@ -23,3 +23,7 @@ Datasets:
 Bing Experiments:
 - [Bing heuristics testing and experiments](https://github.com/arquivo/Research-Websites-Preservation/tree/master/Bing%20experiments)
 
+R&D Projects Classifier:
+- [Prototype FP7 Classifier](https://github.com/arquivo/Research-Websites-Preservation/blob/master/classifier/bernoulliNB%20tuning.ipynb)
+ 
+
