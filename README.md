@@ -14,3 +14,12 @@ Important Notebooks:
 - [FP6 TimeMaps Analysis](https://github.com/arquivo/Research-Websites-Preservation/blob/master/FP6/FP6TimeMapsAnalysis.ipynb)
 - [FP5 TimeMaps Analysis](https://github.com/arquivo/Research-Websites-Preservation/blob/master/FP5/FP5TimeMapsAnalysis.ipynb)
 - [FP4 TimeMaps Analysis](https://github.com/arquivo/Research-Websites-Preservation/blob/master/FP4/FP4TimeMapsAnalysis.ipynb)
+- 
+Datasets:
+- [FP7 Golden Dataset](https://github.com/arquivo/Research-Websites-Preservation/blob/master/datasets/fp7-dataset-golden-all.csv)
+- [FP7 Golden Dataset (300 Samples)](https://github.com/arquivo/Research-Websites-Preservation/blob/master/datasets/fp7-golden-dataset-300.csv)
+- [FP7 Dataset with no URLs](https://raw.githubusercontent.com/arquivo/Research-Websites-Preservation/master/datasets/fp7projects-full.csv)
+
+Bing Experiments:
+- [Bing heuristics testing and experiments](https://github.com/arquivo/Research-Websites-Preservation/tree/master/Bing%20experiments)
+
