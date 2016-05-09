@@ -4,9 +4,10 @@ Here is published the outputs from our study about the preservation of Research 
 
 List of available outputs:
 - Exploratory notebooks and graphs generators
-- Scripts used on the research
+- [Scripts used on the research](https://github.com/arquivo/Research-Websites-Preservation/tree/master/scripts)
 
 Important Notebooks:
+- [Cleaning FP7 Golden Dataset](https://github.com/arquivo/Research-Websites-Preservation/blob/master/Cleaning%20golden%20dataset/cleaning-fp7-golden-dataset.ipynb)
 - [Experiments Analyzer](https://github.com/arquivo/Research-Websites-Preservation/blob/master/experiments_analyzer.ipynb)
 - [Study Crawl .EU Overlap](https://github.com/arquivo/Research-Websites-Preservation/blob/master/crawleu_overlap_measure/CrawlEU%20Overlap.ipynb)
 - [Fuzzy Hashing measurements](https://github.com/arquivo/Research-Websites-Preservation/blob/master/Fuzzy%20hashing%20Acceptance%20Study/Fuzzy%20Hashing%20Score%20Analysis.ipynb)
@@ -25,5 +26,6 @@ Bing Experiments:
 
 R&D Projects Classifier:
 - [Prototype FP7 Classifier](https://github.com/arquivo/Research-Websites-Preservation/blob/master/classifier/bernoulliNB%20tuning.ipynb)
+- [Classifier Program](https://github.com/arquivo/Research-Websites-Preservation/blob/master/classifier/bernoulliNB%20tuning.py)
  
 
