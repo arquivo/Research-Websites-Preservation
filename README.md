@@ -27,5 +27,5 @@ Bing Experiments:
 R&D Projects Classifier:
 - [Prototype FP7 Classifier](https://github.com/arquivo/Research-Websites-Preservation/blob/master/classifier/bernoulliNB%20tuning.ipynb)
 - [Classifier Program](https://github.com/arquivo/Research-Websites-Preservation/blob/master/classifier/bernoulliNB%20tuning.py)
- 
+ - [FP7 List of projects URLs filtered with the Classifier](https://github.com/arquivo/Research-Websites-Preservation/blob/master/classifier/filtered_projects_classification.csv)
 
