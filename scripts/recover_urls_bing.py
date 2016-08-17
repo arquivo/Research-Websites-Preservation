@@ -129,7 +129,11 @@ def main():
 
     input_csv_file = args.csv_file
     output_csv_file = args.output_file
-    advanced_operators = args.custom
+
+    if not args.custom:
+        advanced_operators = ''
+    else:
+        advanced_operators = args.custom
 
     recover(input_csv_file, output_csv_file, advanced_operators)
 
