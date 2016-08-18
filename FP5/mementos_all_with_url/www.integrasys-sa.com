@@ -1,0 +1,59 @@
+{"original_uri":"http://www.integrasys-sa.com/Sodetel.html",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.integrasys-sa.com/Sodetel.html",
+"mementos": {
+"list": [
+{"datetime":"2002-07-08T04:20:40Z",
+"uri":"http://web.archive.org/web/20020708042040/http://www.integrasys-sa.com/Sodetel.html"
+},
+{"datetime":"2002-08-10T23:30:18Z",
+"uri":"http://web.archive.org/web/20020810233018/http://www.integrasys-sa.com/Sodetel.html"
+},
+{"datetime":"2003-01-09T16:37:34Z",
+"uri":"http://web.archive.org/web/20030109163734/http://integrasys-sa.com/Sodetel.html"
+},
+{"datetime":"2003-03-12T20:37:54Z",
+"uri":"http://web.archive.org/web/20030312203754/http://www.integrasys-sa.com/Sodetel.html"
+},
+{"datetime":"2003-05-04T05:01:34Z",
+"uri":"http://web.archive.org/web/20030504050134/http://www.integrasys-sa.com/Sodetel.html"
+},
+{"datetime":"2003-06-25T04:36:54Z",
+"uri":"http://web.archive.org/web/20030625043654/http://www.integrasys-sa.com/Sodetel.html"
+},
+{"datetime":"2003-08-26T05:40:56Z",
+"uri":"http://web.archive.org/web/20030826054056/http://www.integrasys-sa.com/Sodetel.html"
+},
+{"datetime":"2004-01-16T18:18:27Z",
+"uri":"http://web.archive.org/web/20040116181827/http://www.integrasys-sa.com/Sodetel.html"
+},
+{"datetime":"2004-02-04T00:25:22Z",
+"uri":"http://web.archive.org/web/20040204002522/http://www.integrasys-sa.com/Sodetel.html"
+},
+{"datetime":"2004-06-06T18:43:40Z",
+"uri":"http://web.archive.org/web/20040606184340/http://www.integrasys-sa.com/Sodetel.html"
+},
+{"datetime":"2004-08-07T17:55:52Z",
+"uri":"http://web.archive.org/web/20040807175552/http://www.integrasys-sa.com/Sodetel.html"
+},
+{"datetime":"2004-10-15T03:45:03Z",
+"uri":"http://web.archive.org/web/20041015034503/http://www.integrasys-sa.com/Sodetel.html"
+},
+{"datetime":"2004-12-23T07:38:52Z",
+"uri":"http://web.archive.org/web/20041223073852/http://www.integrasys-sa.com/Sodetel.html"
+},
+{"datetime":"2005-02-18T08:25:05Z",
+"uri":"http://web.archive.org/web/20050218082505/http://www.integrasys-sa.com/Sodetel.html"
+},
+{"datetime":"2005-04-03T23:11:02Z",
+"uri":"http://web.archive.org/web/20050403231102/http://www.integrasys-sa.com/Sodetel.html"
+},
+{"datetime":"2005-10-16T17:36:36Z",
+"uri":"http://web.archive.org/web/20051016173636/http://www.integrasys-sa.com/Sodetel.html"
+},
+{"datetime":"2006-02-26T11:33:12Z",
+"uri":"http://web.archive.org/web/20060226113312/http://www.integrasys-sa.com/Sodetel.html"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.integrasys-sa.com/Sodetel.html"}
+ }

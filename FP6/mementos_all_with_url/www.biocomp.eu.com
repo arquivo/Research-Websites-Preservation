@@ -1,0 +1,62 @@
+{"original_uri":"http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15",
+"mementos": {
+"list": [
+{"datetime":"2007-07-15T15:52:50Z",
+"uri":"http://web.archive.org/web/20070715155250/http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15"
+},
+{"datetime":"2007-07-16T21:49:37Z",
+"uri":"http://web.archive.org/web/20070716214937/http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15"
+},
+{"datetime":"2007-09-14T03:22:33Z",
+"uri":"http://web.archive.org/web/20070914032233/http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15"
+},
+{"datetime":"2007-11-28T04:19:39Z",
+"uri":"http://web.archive.org/web/20071128041939/http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15"
+},
+{"datetime":"2008-12-08T01:13:53Z",
+"uri":"http://web.archive.org/web/20081208011353/http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15"
+},
+{"datetime":"2009-02-20T12:25:19Z",
+"uri":"http://web.archive.org/web/20090220122519/http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15"
+},
+{"datetime":"2009-07-05T18:12:41Z",
+"uri":"http://web.archive.org/web/20090705181241/http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15"
+},
+{"datetime":"2009-10-20T21:47:02Z",
+"uri":"http://web.archive.org/web/20091020214702/http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15"
+},
+{"datetime":"2010-07-10T16:04:28Z",
+"uri":"http://web.archive.org/web/20100710160428/http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15"
+},
+{"datetime":"2010-09-09T21:43:36Z",
+"uri":"http://web.archive.org/web/20100909214336/http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15"
+},
+{"datetime":"2012-03-25T19:53:50Z",
+"uri":"http://web.archive.org/web/20120325195350/http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15"
+},
+{"datetime":"2012-07-07T21:34:09Z",
+"uri":"http://web.archive.org/web/20120707213409/http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15"
+},
+{"datetime":"2012-10-13T14:56:55Z",
+"uri":"http://web.archive.org/web/20121013145655/http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15"
+},
+{"datetime":"2012-10-15T03:12:59Z",
+"uri":"http://web.archive.org/web/20121015031259/http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15"
+},
+{"datetime":"2013-03-22T23:54:39Z",
+"uri":"http://web.archive.org/web/20130322235439/http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15"
+},
+{"datetime":"2013-12-17T01:48:16Z",
+"uri":"http://web.archive.org/web/20131217014816/http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15"
+},
+{"datetime":"2014-12-22T22:58:42Z",
+"uri":"http://web.archive.org/web/20141222225842/http://biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15"
+},
+{"datetime":"2015-02-22T23:12:25Z",
+"uri":"http://web.archive.org/web/20150222231225/http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.biocomp.eu.com/DesktopDefault.aspx?tabindex=0&tabid=15"}
+ }

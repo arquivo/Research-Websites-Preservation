@@ -1,0 +1,59 @@
+{"original_uri":"http://vipbob.gi-de.com",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://vipbob.gi-de.com",
+"mementos": {
+"list": [
+{"datetime":"2002-12-13T10:05:47Z",
+"uri":"http://web.archive.org/web/20021213100547/http://vipbob.gi-de.com/"
+},
+{"datetime":"2003-04-23T09:57:05Z",
+"uri":"http://web.archive.org/web/20030423095705/http://vipbob.gi-de.com/"
+},
+{"datetime":"2003-05-24T23:21:16Z",
+"uri":"http://web.archive.org/web/20030524232116/http://vipbob.gi-de.com/"
+},
+{"datetime":"2003-06-23T20:28:45Z",
+"uri":"http://web.archive.org/web/20030623202845/http://vipbob.gi-de.com/"
+},
+{"datetime":"2003-08-11T17:24:24Z",
+"uri":"http://web.archive.org/web/20030811172424/http://vipbob.gi-de.com/"
+},
+{"datetime":"2003-10-25T19:00:28Z",
+"uri":"http://web.archive.org/web/20031025190028/http://vipbob.gi-de.com/"
+},
+{"datetime":"2003-11-19T12:23:12Z",
+"uri":"http://web.archive.org/web/20031119122312/http://vipbob.gi-de.com/"
+},
+{"datetime":"2003-12-23T10:49:10Z",
+"uri":"http://web.archive.org/web/20031223104910/http://vipbob.gi-de.com/"
+},
+{"datetime":"2004-01-21T09:24:54Z",
+"uri":"http://web.archive.org/web/20040121092454/http://vipbob.gi-de.com/"
+},
+{"datetime":"2004-05-07T10:48:22Z",
+"uri":"http://web.archive.org/web/20040507104822/http://vipbob.gi-de.com/"
+},
+{"datetime":"2004-06-08T00:40:44Z",
+"uri":"http://web.archive.org/web/20040608004044/http://vipbob.gi-de.com/"
+},
+{"datetime":"2004-09-03T15:48:23Z",
+"uri":"http://web.archive.org/web/20040903154823/http://vipbob.gi-de.com/"
+},
+{"datetime":"2004-09-22T21:11:32Z",
+"uri":"http://web.archive.org/web/20040922211132/http://vipbob.gi-de.com/"
+},
+{"datetime":"2004-12-16T01:58:00Z",
+"uri":"http://web.archive.org/web/20041216015800/http://vipbob.gi-de.com/"
+},
+{"datetime":"2005-02-01T09:41:42Z",
+"uri":"http://web.archive.org/web/20050201094142/http://vipbob.gi-de.com/"
+},
+{"datetime":"2005-03-13T00:58:17Z",
+"uri":"http://web.archive.org/web/20050313005817/http://vipbob.gi-de.com/"
+},
+{"datetime":"2005-04-11T23:15:04Z",
+"uri":"http://web.archive.org/web/20050411231504/http://vipbob.gi-de.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://vipbob.gi-de.com"}
+ }

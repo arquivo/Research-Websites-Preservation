@@ -1,0 +1,53 @@
+{"original_uri":"http://www.prideh.custodix.com",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.prideh.custodix.com",
+"mementos": {
+"list": [
+{"datetime":"2003-03-07T05:44:10Z",
+"uri":"http://web.archive.org/web/20030307054410/http://www.prideh.custodix.com/"
+},
+{"datetime":"2003-04-24T20:59:16Z",
+"uri":"http://web.archive.org/web/20030424205916/http://www.prideh.custodix.com/"
+},
+{"datetime":"2003-06-12T10:00:41Z",
+"uri":"http://web.archive.org/web/20030612100041/http://www.prideh.custodix.com/"
+},
+{"datetime":"2003-06-20T00:53:31Z",
+"uri":"http://web.archive.org/web/20030620005331/http://www.prideh.custodix.com/"
+},
+{"datetime":"2003-08-03T15:31:09Z",
+"uri":"http://web.archive.org/web/20030803153109/http://www.prideh.custodix.com/"
+},
+{"datetime":"2003-10-12T01:56:30Z",
+"uri":"http://web.archive.org/web/20031012015630/http://www.prideh.custodix.com/"
+},
+{"datetime":"2003-11-24T01:25:54Z",
+"uri":"http://web.archive.org/web/20031124012554/http://www.prideh.custodix.com/"
+},
+{"datetime":"2003-12-29T23:51:30Z",
+"uri":"http://web.archive.org/web/20031229235130/http://www.prideh.custodix.com/"
+},
+{"datetime":"2004-02-06T23:21:28Z",
+"uri":"http://web.archive.org/web/20040206232128/http://www.prideh.custodix.com/"
+},
+{"datetime":"2004-03-28T23:14:44Z",
+"uri":"http://web.archive.org/web/20040328231444/http://www.prideh.custodix.com/"
+},
+{"datetime":"2004-05-18T04:50:36Z",
+"uri":"http://web.archive.org/web/20040518045036/http://www.prideh.custodix.com/"
+},
+{"datetime":"2004-08-26T15:19:21Z",
+"uri":"http://web.archive.org/web/20040826151921/http://www.prideh.custodix.com/"
+},
+{"datetime":"2004-09-23T10:52:07Z",
+"uri":"http://web.archive.org/web/20040923105207/http://www.prideh.custodix.com/"
+},
+{"datetime":"2004-12-14T18:10:09Z",
+"uri":"http://web.archive.org/web/20041214181009/http://www.prideh.custodix.com/"
+},
+{"datetime":"2005-02-05T03:11:56Z",
+"uri":"http://web.archive.org/web/20050205031156/http://www.prideh.custodix.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.prideh.custodix.com"}
+ }

@@ -1,0 +1,65 @@
+{"original_uri":"http://www.xs4all.nl/~savenyer/immunity.html",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.xs4all.nl/~savenyer/immunity.html",
+"mementos": {
+"list": [
+{"datetime":"2000-11-21T07:02:00Z",
+"uri":"http://web.archive.org/web/20001121070200/http://www.xs4all.nl/~savenyer/immunity.html"
+},
+{"datetime":"2001-03-03T19:41:31Z",
+"uri":"http://web.archive.org/web/20010303194131/http://www.xs4all.nl/~savenyer/immunity.html"
+},
+{"datetime":"2001-04-18T09:36:47Z",
+"uri":"http://web.archive.org/web/20010418093647/http://www.xs4all.nl/~savenyer/immunity.html"
+},
+{"datetime":"2001-11-20T03:18:26Z",
+"uri":"http://web.archive.org/web/20011120031826/http://www.xs4all.nl/~savenyer/immunity.html"
+},
+{"datetime":"2001-12-21T11:28:23Z",
+"uri":"http://web.archive.org/web/20011221112823/http://www.xs4all.nl/~savenyer/immunity.html"
+},
+{"datetime":"2002-03-24T22:48:21Z",
+"uri":"http://web.archive.org/web/20020324224821/http://www.xs4all.nl/~savenyer/immunity.html"
+},
+{"datetime":"2002-06-06T20:28:28Z",
+"uri":"http://web.archive.org/web/20020606202828/http://www.xs4all.nl/~savenyer/immunity.html"
+},
+{"datetime":"2002-12-10T14:30:58Z",
+"uri":"http://web.archive.org/web/20021210143058/http://www.xs4all.nl/~savenyer/immunity.html"
+},
+{"datetime":"2003-02-10T07:57:25Z",
+"uri":"http://web.archive.org/web/20030210075725/http://www.xs4all.nl/~savenyer/immunity.html"
+},
+{"datetime":"2003-08-12T07:43:49Z",
+"uri":"http://web.archive.org/web/20030812074349/http://www.xs4all.nl/~savenyer/immunity.html"
+},
+{"datetime":"2003-10-01T13:18:20Z",
+"uri":"http://web.archive.org/web/20031001131820/http://www.xs4all.nl/~savenyer/immunity.html"
+},
+{"datetime":"2003-12-03T02:43:59Z",
+"uri":"http://web.archive.org/web/20031203024359/http://www.xs4all.nl/~savenyer/immunity.html"
+},
+{"datetime":"2004-04-04T11:30:15Z",
+"uri":"http://web.archive.org/web/20040404113015/http://www.xs4all.nl/~savenyer/immunity.html"
+},
+{"datetime":"2004-06-07T13:18:37Z",
+"uri":"http://web.archive.org/web/20040607131837/http://www.xs4all.nl/~savenyer/immunity.html"
+},
+{"datetime":"2004-08-13T09:44:26Z",
+"uri":"http://web.archive.org/web/20040813094426/http://www.xs4all.nl/~savenyer/immunity.html"
+},
+{"datetime":"2004-11-29T04:21:40Z",
+"uri":"http://web.archive.org/web/20041129042140/http://www.xs4all.nl/~savenyer/immunity.html"
+},
+{"datetime":"2004-12-30T03:51:18Z",
+"uri":"http://web.archive.org/web/20041230035118/http://www.xs4all.nl/~savenyer/immunity.html"
+},
+{"datetime":"2005-04-07T02:35:16Z",
+"uri":"http://web.archive.org/web/20050407023516/http://www.xs4all.nl/~savenyer/immunity.html"
+},
+{"datetime":"2014-03-28T02:14:21Z",
+"uri":"http://web.archive.org/web/20140328021421/http://www.xs4all.nl/~savenyer/immunity.html"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.xs4all.nl/~savenyer/immunity.html"}
+ }

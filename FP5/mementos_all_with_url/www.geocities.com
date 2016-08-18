@@ -1,0 +1,65 @@
+{"original_uri":"http://www.geocities.com/PicketFence/Garden/9151/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.geocities.com/PicketFence/Garden/9151/",
+"mementos": {
+"list": [
+{"datetime":"2001-05-10T23:06:37Z",
+"uri":"http://web.archive.org/web/20010510230637/http://www.geocities.com/PicketFence/Garden/9151"
+},
+{"datetime":"2001-05-10T23:06:37Z",
+"uri":"http://web.archive.org/web/20010510230637/http://www.geocities.com/PicketFence/Garden/9151/"
+},
+{"datetime":"2001-12-08T22:54:10Z",
+"uri":"http://web.archive.org/web/20011208225410/http://www.geocities.com/PicketFence/Garden/9151"
+},
+{"datetime":"2002-02-05T10:30:41Z",
+"uri":"http://web.archive.org/web/20020205103041/http://www.geocities.com/PicketFence/Garden/9151/"
+},
+{"datetime":"2002-10-15T07:55:19Z",
+"uri":"http://web.archive.org/web/20021015075519/http://www.geocities.com/PicketFence/Garden/9151"
+},
+{"datetime":"2002-11-27T12:50:02Z",
+"uri":"http://web.archive.org/web/20021127125002/http://www.geocities.com/PicketFence/Garden/9151"
+},
+{"datetime":"2002-11-27T19:33:17Z",
+"uri":"http://web.archive.org/web/20021127193317/http://www.geocities.com/PicketFence/Garden/9151/"
+},
+{"datetime":"2003-04-15T23:26:10Z",
+"uri":"http://web.archive.org/web/20030415232610/http://www.geocities.com/picketFence/Garden/9151"
+},
+{"datetime":"2004-06-27T09:02:00Z",
+"uri":"http://web.archive.org/web/20040627090200/http://www.geocities.com/PicketFence/Garden/9151/"
+},
+{"datetime":"2004-11-28T08:50:29Z",
+"uri":"http://web.archive.org/web/20041128085029/http://www.geocities.com/PicketFence/Garden/9151/"
+},
+{"datetime":"2005-04-25T11:41:34Z",
+"uri":"http://web.archive.org/web/20050425114134/http://www.geocities.com/picketfence/garden/9151/"
+},
+{"datetime":"2005-04-25T11:41:34Z",
+"uri":"http://web.archive.bibalex.org:80/web/20050425114134/http://www.geocities.com/picketfence/garden/9151/"
+},
+{"datetime":"2007-08-21T04:59:55Z",
+"uri":"http://web.archive.org/web/20070821045955/http://www.geocities.com/PicketFence/Garden/9151/"
+},
+{"datetime":"2009-07-24T14:58:56Z",
+"uri":"http://web.archive.org/web/20090724145856/http://geocities.com/PicketFence/Garden/9151/"
+},
+{"datetime":"2009-08-30T11:41:51Z",
+"uri":"http://web.archive.org/web/20090830114151/http://geocities.com/PicketFence/Garden/9151"
+},
+{"datetime":"2009-10-19T00:32:38Z",
+"uri":"http://web.archive.org/web/20091019003238/http://geocities.com/PicketFence/Garden/9151/"
+},
+{"datetime":"2009-10-23T09:17:34Z",
+"uri":"http://web.archive.org/web/20091023091734/http://geocities.com/PicketFence/Garden/9151"
+},
+{"datetime":"2009-10-27T03:33:56Z",
+"uri":"http://web.archive.org/web/20091027033356/http://geocities.com/PicketFence/Garden/9151/"
+},
+{"datetime":"2012-11-06T20:16:37Z",
+"uri":"http://web.archive.org/web/20121106201637/http://www.geocities.com/PicketFence/Garden/9151/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.geocities.com/PicketFence/Garden/9151/"}
+ }

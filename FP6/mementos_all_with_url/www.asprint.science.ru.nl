@@ -1,0 +1,65 @@
+{"original_uri":"http://www.asprint.science.ru.nl",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.asprint.science.ru.nl",
+"mementos": {
+"list": [
+{"datetime":"2004-10-14T23:46:58Z",
+"uri":"http://web.archive.org/web/20041014234658/http://www.asprint.science.ru.nl/"
+},
+{"datetime":"2004-11-28T23:30:17Z",
+"uri":"http://web.archive.org/web/20041128233017/http://www.asprint.science.ru.nl/"
+},
+{"datetime":"2005-02-06T17:12:03Z",
+"uri":"http://web.archive.org/web/20050206171203/http://www.asprint.science.ru.nl/"
+},
+{"datetime":"2005-05-06T17:49:08Z",
+"uri":"http://web.archive.org/web/20050506174908/http://www.asprint.science.ru.nl/"
+},
+{"datetime":"2006-01-04T16:17:56Z",
+"uri":"http://web.archive.org/web/20060104161756/http://www.asprint.science.ru.nl/"
+},
+{"datetime":"2006-01-07T12:39:47Z",
+"uri":"http://web.archive.org/web/20060107123947/http://www.asprint.science.ru.nl/"
+},
+{"datetime":"2006-01-10T00:29:10Z",
+"uri":"http://web.archive.org/web/20060110002910/http://www.asprint.science.ru.nl/"
+},
+{"datetime":"2006-08-22T02:37:34Z",
+"uri":"http://web.archive.org/web/20060822023734/http://www.asprint.science.ru.nl/"
+},
+{"datetime":"2006-08-27T12:55:45Z",
+"uri":"http://web.archive.org/web/20060827125545/http://www.asprint.science.ru.nl/"
+},
+{"datetime":"2006-08-30T18:02:14Z",
+"uri":"http://web.archive.org/web/20060830180214/http://www.asprint.science.ru.nl/"
+},
+{"datetime":"2006-09-05T09:47:24Z",
+"uri":"http://web.archive.org/web/20060905094724/http://www.asprint.science.ru.nl/"
+},
+{"datetime":"2006-09-12T12:44:06Z",
+"uri":"http://web.archive.org/web/20060912124406/http://www.asprint.science.ru.nl/"
+},
+{"datetime":"2007-05-06T12:41:08Z",
+"uri":"http://web.archive.org/web/20070506124108/http://www.asprint.science.ru.nl/"
+},
+{"datetime":"2007-12-26T14:59:59Z",
+"uri":"http://web.archive.org/web/20071226145959/http://www.asprint.science.ru.nl/"
+},
+{"datetime":"2008-02-28T01:24:20Z",
+"uri":"http://web.archive.org/web/20080228012420/http://www.asprint.science.ru.nl/"
+},
+{"datetime":"2008-04-30T14:48:47Z",
+"uri":"http://web.archive.org/web/20080430144847/http://www.asprint.science.ru.nl/"
+},
+{"datetime":"2009-08-09T07:25:45Z",
+"uri":"http://web.archive.org/web/20090809072545/http://www.asprint.science.ru.nl/"
+},
+{"datetime":"2015-06-16T15:07:13Z",
+"uri":"http://web.archive.org/web/20150616150713/http://www.asprint.science.ru.nl/"
+},
+{"datetime":"2015-09-09T20:07:47Z",
+"uri":"http://web.archive.org/web/20150909200747/http://www.asprint.science.ru.nl/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.asprint.science.ru.nl"}
+ }

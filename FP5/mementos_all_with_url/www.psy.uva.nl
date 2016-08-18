@@ -1,0 +1,56 @@
+{"original_uri":"http://www.psy.uva.nl/emotions/home.html",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.psy.uva.nl/emotions/home.html",
+"mementos": {
+"list": [
+{"datetime":"2001-08-27T16:53:51Z",
+"uri":"http://web.archive.org/web/20010827165351/http://www.psy.uva.nl/emotions/home.html"
+},
+{"datetime":"2002-02-15T01:29:12Z",
+"uri":"http://web.archive.org/web/20020215012912/http://www.psy.uva.nl/emotions/home.html"
+},
+{"datetime":"2002-04-18T10:30:16Z",
+"uri":"http://web.archive.org/web/20020418103016/http://www.psy.uva.nl/emotions/home.html"
+},
+{"datetime":"2002-12-21T21:07:00Z",
+"uri":"http://web.archive.org/web/20021221210700/http://www.psy.uva.nl/emotions/home.html"
+},
+{"datetime":"2003-02-02T23:02:07Z",
+"uri":"http://web.archive.org/web/20030202230207/http://www.psy.uva.nl/emotions/home.html"
+},
+{"datetime":"2003-08-02T12:10:44Z",
+"uri":"http://web.archive.org/web/20030802121044/http://www.psy.uva.nl/emotions/home.html"
+},
+{"datetime":"2003-10-14T16:33:59Z",
+"uri":"http://web.archive.org/web/20031014163359/http://www.psy.uva.nl/emotions/home.html"
+},
+{"datetime":"2004-04-05T23:06:19Z",
+"uri":"http://web.archive.org/web/20040405230619/http://www.psy.uva.nl/emotions/home.html"
+},
+{"datetime":"2004-07-03T20:41:46Z",
+"uri":"http://web.archive.org/web/20040703204146/http://www.psy.uva.nl/emotions/home.html"
+},
+{"datetime":"2004-08-03T13:51:56Z",
+"uri":"http://web.archive.org/web/20040803135156/http://www.psy.uva.nl/emotions/home.html"
+},
+{"datetime":"2004-10-21T00:17:38Z",
+"uri":"http://web.archive.org/web/20041021001738/http://www.psy.uva.nl/emotions/home.html"
+},
+{"datetime":"2005-01-23T00:50:50Z",
+"uri":"http://web.archive.org/web/20050123005050/http://www.psy.uva.nl/emotions/home.html"
+},
+{"datetime":"2005-03-06T00:30:12Z",
+"uri":"http://web.archive.org/web/20050306003012/http://www.psy.uva.nl/emotions/home.html"
+},
+{"datetime":"2005-04-03T23:47:24Z",
+"uri":"http://web.archive.org/web/20050403234724/http://www.psy.uva.nl/emotions/home.html"
+},
+{"datetime":"2006-02-08T21:48:46Z",
+"uri":"http://web.archive.org/web/20060208214846/http://www.psy.uva.nl/emotions/home.html"
+},
+{"datetime":"2006-02-13T07:18:21Z",
+"uri":"http://web.archive.org/web/20060213071821/http://www.psy.uva.nl/emotions/home.html"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.psy.uva.nl/emotions/home.html"}
+ }

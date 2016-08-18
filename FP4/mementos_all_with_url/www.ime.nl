@@ -1,0 +1,56 @@
+{"original_uri":"http://www.ime.nl/create",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.ime.nl/create",
+"mementos": {
+"list": [
+{"datetime":"2000-09-01T06:32:30Z",
+"uri":"http://web.archive.org/web/20000901063230/http://www.ime.nl/create"
+},
+{"datetime":"2001-04-07T12:55:22Z",
+"uri":"http://web.archive.org/web/20010407125522/http://www.ime.nl/create"
+},
+{"datetime":"2001-11-16T13:09:32Z",
+"uri":"http://web.archive.org/web/20011116130932/http://www.ime.nl/create"
+},
+{"datetime":"2002-02-16T18:46:35Z",
+"uri":"http://web.archive.org/web/20020216184635/http://www.ime.nl/create"
+},
+{"datetime":"2002-04-15T01:22:32Z",
+"uri":"http://web.archive.org/web/20020415012232/http://www.ime.nl/create"
+},
+{"datetime":"2002-06-02T21:19:42Z",
+"uri":"http://web.archive.org/web/20020602211942/http://www.ime.nl/create"
+},
+{"datetime":"2002-08-14T03:20:45Z",
+"uri":"http://web.archive.org/web/20020814032045/http://www.ime.nl/create"
+},
+{"datetime":"2002-12-13T13:01:53Z",
+"uri":"http://web.archive.org/web/20021213130153/http://www.ime.nl/create"
+},
+{"datetime":"2003-02-21T11:52:14Z",
+"uri":"http://web.archive.org/web/20030221115214/http://www.ime.nl/create"
+},
+{"datetime":"2003-06-27T23:50:31Z",
+"uri":"http://web.archive.org/web/20030627235031/http://www.ime.nl/create"
+},
+{"datetime":"2003-08-04T08:04:26Z",
+"uri":"http://web.archive.org/web/20030804080426/http://www.ime.nl/create"
+},
+{"datetime":"2003-12-25T21:49:25Z",
+"uri":"http://web.archive.org/web/20031225214925/http://www.ime.nl/create"
+},
+{"datetime":"2004-08-10T02:00:01Z",
+"uri":"http://web.archive.org/web/20040810020001/http://www.ime.nl/create"
+},
+{"datetime":"2004-10-16T13:32:54Z",
+"uri":"http://web.archive.org/web/20041016133254/http://www.ime.nl/create"
+},
+{"datetime":"2004-12-11T05:13:03Z",
+"uri":"http://web.archive.org/web/20041211051303/http://www.ime.nl/create"
+},
+{"datetime":"2005-03-07T23:26:39Z",
+"uri":"http://web.archive.org/web/20050307232639/http://www.ime.nl/create"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.ime.nl/create"}
+ }

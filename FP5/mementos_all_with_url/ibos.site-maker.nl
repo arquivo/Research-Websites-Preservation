@@ -1,0 +1,65 @@
+{"original_uri":"http://ibos.site-maker.nl/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://ibos.site-maker.nl/",
+"mementos": {
+"list": [
+{"datetime":"2003-02-03T20:16:42Z",
+"uri":"http://web.archive.org/web/20030203201642/http://ibos.site-maker.nl/"
+},
+{"datetime":"2003-05-01T02:08:56Z",
+"uri":"http://web.archive.org/web/20030501020856/http://ibos.site-maker.nl/"
+},
+{"datetime":"2003-06-11T20:07:52Z",
+"uri":"http://web.archive.org/web/20030611200752/http://ibos.site-maker.nl/"
+},
+{"datetime":"2003-12-26T19:45:00Z",
+"uri":"http://web.archive.org/web/20031226194500/http://ibos.site-maker.nl/"
+},
+{"datetime":"2004-01-23T10:04:31Z",
+"uri":"http://web.archive.org/web/20040123100431/http://ibos.site-maker.nl/"
+},
+{"datetime":"2004-07-16T14:29:52Z",
+"uri":"http://web.archive.org/web/20040716142952/http://ibos.site-maker.nl/"
+},
+{"datetime":"2004-09-01T14:15:02Z",
+"uri":"http://web.archive.org/web/20040901141502/http://ibos.site-maker.nl/"
+},
+{"datetime":"2004-09-30T12:41:31Z",
+"uri":"http://web.archive.org/web/20040930124131/http://ibos.site-maker.nl/"
+},
+{"datetime":"2004-12-16T22:45:42Z",
+"uri":"http://web.archive.org/web/20041216224542/http://ibos.site-maker.nl/"
+},
+{"datetime":"2005-01-04T08:38:41Z",
+"uri":"http://web.archive.org/web/20050104083841/http://ibos.site-maker.nl/"
+},
+{"datetime":"2005-02-04T04:09:07Z",
+"uri":"http://web.archive.org/web/20050204040907/http://ibos.site-maker.nl/"
+},
+{"datetime":"2005-02-05T06:11:36Z",
+"uri":"http://web.archive.org/web/20050205061136/http://ibos.site-maker.nl/"
+},
+{"datetime":"2005-02-11T02:41:09Z",
+"uri":"http://web.archive.org/web/20050211024109/http://ibos.site-maker.nl/"
+},
+{"datetime":"2005-03-26T13:56:31Z",
+"uri":"http://web.archive.org/web/20050326135631/http://ibos.site-maker.nl/"
+},
+{"datetime":"2006-03-22T00:34:35Z",
+"uri":"http://web.archive.org/web/20060322003435/http://ibos.site-maker.nl/"
+},
+{"datetime":"2006-08-11T15:42:43Z",
+"uri":"http://web.archive.org/web/20060811154243/http://ibos.site-maker.nl/"
+},
+{"datetime":"2006-08-27T18:37:38Z",
+"uri":"http://web.archive.org/web/20060827183738/http://ibos.site-maker.nl/"
+},
+{"datetime":"2006-09-05T08:51:30Z",
+"uri":"http://web.archive.org/web/20060905085130/http://ibos.site-maker.nl/"
+},
+{"datetime":"2006-10-07T07:19:11Z",
+"uri":"http://web.archive.org/web/20061007071911/http://ibos.site-maker.nl/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://ibos.site-maker.nl/"}
+ }

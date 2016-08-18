@@ -1,0 +1,56 @@
+{"original_uri":"http://www.tid.es/offssoho/index.html",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.tid.es/offssoho/index.html",
+"mementos": {
+"list": [
+{"datetime":"2002-12-13T10:38:43Z",
+"uri":"http://web.archive.org/web/20021213103843/http://www.tid.es/offssoho/index.html"
+},
+{"datetime":"2002-12-13T10:38:43Z",
+"uri":"http://web.archive.bibalex.org:80/web/20021213103843/http://www.tid.es/offssoho/index.html"
+},
+{"datetime":"2003-07-26T03:54:21Z",
+"uri":"http://web.archive.org/web/20030726035421/http://www.tid.es/offssoho/index.html"
+},
+{"datetime":"2003-07-26T03:54:21Z",
+"uri":"http://web.archive.bibalex.org:80/web/20030726035421/http://www.tid.es/offssoho/index.html"
+},
+{"datetime":"2003-08-29T13:28:48Z",
+"uri":"http://web.archive.org/web/20030829132848/http://www.tid.es/offssoho/index.html"
+},
+{"datetime":"2003-08-29T13:28:48Z",
+"uri":"http://web.archive.bibalex.org:80/web/20030829132848/http://www.tid.es/offssoho/index.html"
+},
+{"datetime":"2004-01-02T02:53:24Z",
+"uri":"http://web.archive.org/web/20040102025324/http://www.tid.es/offssoho/index.html"
+},
+{"datetime":"2004-01-02T02:53:24Z",
+"uri":"http://web.archive.bibalex.org:80/web/20040102025324/http://www.tid.es/offssoho/index.html"
+},
+{"datetime":"2004-03-13T08:44:38Z",
+"uri":"http://web.archive.org/web/20040313084438/http://www.tid.es/offssoho/index.html"
+},
+{"datetime":"2004-03-13T08:44:38Z",
+"uri":"http://web.archive.bibalex.org:80/web/20040313084438/http://www.tid.es/offssoho/index.html"
+},
+{"datetime":"2004-09-17T01:18:28Z",
+"uri":"http://web.archive.org/web/20040917011828/http://www.tid.es/offssoho/index.html"
+},
+{"datetime":"2004-09-17T01:18:28Z",
+"uri":"http://web.archive.bibalex.org:80/web/20040917011828/http://www.tid.es/offssoho/index.html"
+},
+{"datetime":"2004-12-23T10:52:07Z",
+"uri":"http://web.archive.org/web/20041223105207/http://www.tid.es/offssoho/index.html"
+},
+{"datetime":"2004-12-23T10:52:07Z",
+"uri":"http://web.archive.bibalex.org:80/web/20041223105207/http://www.tid.es/offssoho/index.html"
+},
+{"datetime":"2005-03-26T21:54:59Z",
+"uri":"http://web.archive.org/web/20050326215459/http://www.tid.es/offssoho/index.html"
+},
+{"datetime":"2005-03-26T21:54:59Z",
+"uri":"http://web.archive.bibalex.org:80/web/20050326215459/http://www.tid.es/offssoho/index.html"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.tid.es/offssoho/index.html"}
+ }

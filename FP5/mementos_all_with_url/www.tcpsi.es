@@ -1,0 +1,65 @@
+{"original_uri":"http://www.tcpsi.es/remedy/Default.htm",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.tcpsi.es/remedy/Default.htm",
+"mementos": {
+"list": [
+{"datetime":"2002-03-08T13:01:42Z",
+"uri":"http://web.archive.org/web/20020308130142/http://www.tcpsi.es/remedy/Default.htm"
+},
+{"datetime":"2002-04-15T04:26:20Z",
+"uri":"http://web.archive.org/web/20020415042620/http://www.tcpsi.es/remedy/Default.htm"
+},
+{"datetime":"2002-06-11T20:47:49Z",
+"uri":"http://web.archive.org/web/20020611204749/http://www.tcpsi.es/remedy/Default.htm"
+},
+{"datetime":"2002-08-11T19:08:34Z",
+"uri":"http://web.archive.org/web/20020811190834/http://www.tcpsi.es/remedy/Default.htm"
+},
+{"datetime":"2002-10-01T15:06:50Z",
+"uri":"http://web.archive.org/web/20021001150650/http://www.tcpsi.es/remedy/Default.htm"
+},
+{"datetime":"2003-01-22T06:43:57Z",
+"uri":"http://web.archive.org/web/20030122064357/http://www.tcpsi.es/remedy/Default.htm"
+},
+{"datetime":"2003-05-08T02:45:49Z",
+"uri":"http://web.archive.org/web/20030508024549/http://www.tcpsi.es/remedy/Default.htm"
+},
+{"datetime":"2003-07-03T21:10:58Z",
+"uri":"http://web.archive.org/web/20030703211058/http://www.tcpsi.es/remedy/Default.htm"
+},
+{"datetime":"2003-08-21T12:13:49Z",
+"uri":"http://web.archive.org/web/20030821121349/http://www.tcpsi.es/remedy/Default.htm"
+},
+{"datetime":"2003-10-14T00:10:38Z",
+"uri":"http://web.archive.org/web/20031014001038/http://www.tcpsi.es/remedy/Default.htm"
+},
+{"datetime":"2004-01-17T03:52:53Z",
+"uri":"http://web.archive.org/web/20040117035253/http://www.tcpsi.es/remedy/Default.htm"
+},
+{"datetime":"2004-03-31T03:50:51Z",
+"uri":"http://web.archive.org/web/20040331035051/http://www.tcpsi.es/remedy/Default.htm"
+},
+{"datetime":"2004-04-06T21:01:42Z",
+"uri":"http://web.archive.org/web/20040406210142/http://www.tcpsi.es/remedy/Default.htm"
+},
+{"datetime":"2004-11-30T21:18:48Z",
+"uri":"http://web.archive.org/web/20041130211848/http://www.tcpsi.es/remedy/Default.htm"
+},
+{"datetime":"2005-04-24T03:25:31Z",
+"uri":"http://web.archive.org/web/20050424032531/http://www.tcpsi.es/remedy/Default.htm"
+},
+{"datetime":"2005-09-19T10:14:22Z",
+"uri":"http://web.archive.org/web/20050919101422/http://www.tcpsi.es/remedy/Default.htm"
+},
+{"datetime":"2005-09-30T15:10:36Z",
+"uri":"http://web.archive.org/web/20050930151036/http://www.tcpsi.es/remedy/Default.htm"
+},
+{"datetime":"2005-10-24T05:12:28Z",
+"uri":"http://web.archive.org/web/20051024051228/http://www.tcpsi.es/remedy/Default.htm"
+},
+{"datetime":"2006-05-27T01:50:51Z",
+"uri":"http://web.archive.org/web/20060527015051/http://www.tcpsi.es/remedy/Default.htm"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.tcpsi.es/remedy/Default.htm"}
+ }

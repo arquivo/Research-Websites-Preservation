@@ -1,0 +1,50 @@
+{"original_uri":"http://mariecurie.ifps.org.pl/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://mariecurie.ifps.org.pl/",
+"mementos": {
+"list": [
+{"datetime":"2007-07-08T11:09:15Z",
+"uri":"http://web.archive.org/web/20070708110915/http://mariecurie.ifps.org.pl/"
+},
+{"datetime":"2007-09-03T20:35:59Z",
+"uri":"http://web.archive.org/web/20070903203559/http://mariecurie.ifps.org.pl/"
+},
+{"datetime":"2007-09-03T20:35:59Z",
+"uri":"http://web.archive.bibalex.org:80/web/20070903203559/http://mariecurie.ifps.org.pl/"
+},
+{"datetime":"2007-10-11T11:52:17Z",
+"uri":"http://web.archive.org/web/20071011115217/http://mariecurie.ifps.org.pl/"
+},
+{"datetime":"2007-10-11T11:52:17Z",
+"uri":"http://web.archive.bibalex.org:80/web/20071011115217/http://mariecurie.ifps.org.pl/"
+},
+{"datetime":"2008-12-09T05:07:38Z",
+"uri":"http://web.archive.org/web/20081209050738/http://mariecurie.ifps.org.pl/"
+},
+{"datetime":"2008-12-18T18:27:49Z",
+"uri":"http://web.archive.org/web/20081218182749/http://mariecurie.ifps.org.pl/"
+},
+{"datetime":"2009-02-17T22:08:20Z",
+"uri":"http://web.archive.org/web/20090217220820/http://mariecurie.ifps.org.pl/"
+},
+{"datetime":"2009-04-19T11:21:08Z",
+"uri":"http://web.archive.org/web/20090419112108/http://mariecurie.ifps.org.pl/"
+},
+{"datetime":"2010-01-14T06:44:19Z",
+"uri":"http://web.archive.org/web/20100114064419/http://mariecurie.ifps.org.pl/"
+},
+{"datetime":"2010-02-14T06:38:20Z",
+"uri":"http://web.archive.org/web/20100214063820/http://mariecurie.ifps.org.pl/"
+},
+{"datetime":"2010-03-17T03:08:53Z",
+"uri":"http://web.archive.org/web/20100317030853/http://mariecurie.ifps.org.pl/"
+},
+{"datetime":"2011-02-03T01:45:14Z",
+"uri":"http://web.archive.org/web/20110203014514/http://mariecurie.ifps.org.pl/"
+},
+{"datetime":"2011-09-07T03:20:20Z",
+"uri":"http://web.archive.org/web/20110907032020/http://mariecurie.ifps.org.pl/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://mariecurie.ifps.org.pl/"}
+ }

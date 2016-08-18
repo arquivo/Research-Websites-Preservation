@@ -1,0 +1,59 @@
+{"original_uri":"http://campanilla.uib.es/Omega/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://campanilla.uib.es/Omega/",
+"mementos": {
+"list": [
+{"datetime":"1998-12-02T01:33:32Z",
+"uri":"http://web.archive.org/web/19981202013332/http://campanilla.uib.es/Omega/"
+},
+{"datetime":"1999-02-21T05:48:04Z",
+"uri":"http://web.archive.org/web/19990221054804/http://campanilla.uib.es/Omega"
+},
+{"datetime":"1999-02-21T06:55:16Z",
+"uri":"http://web.archive.org/web/19990221065516/http://campanilla.uib.es/Omega/"
+},
+{"datetime":"1999-04-18T01:21:46Z",
+"uri":"http://web.archive.org/web/19990418012146/http://campanilla.uib.es/Omega"
+},
+{"datetime":"1999-04-28T09:01:06Z",
+"uri":"http://web.archive.org/web/19990428090106/http://campanilla.uib.es/Omega"
+},
+{"datetime":"2000-04-17T06:52:00Z",
+"uri":"http://web.archive.org/web/20000417065200/http://campanilla.uib.es/Omega"
+},
+{"datetime":"2000-04-25T16:03:36Z",
+"uri":"http://web.archive.org/web/20000425160336/http://campanilla.uib.es/Omega"
+},
+{"datetime":"2000-05-20T08:01:12Z",
+"uri":"http://web.archive.org/web/20000520080112/http://campanilla.uib.es/Omega"
+},
+{"datetime":"2000-08-30T12:21:04Z",
+"uri":"http://web.archive.org/web/20000830122104/http://campanilla.uib.es/Omega/"
+},
+{"datetime":"2000-10-25T13:15:48Z",
+"uri":"http://web.archive.org/web/20001025131548/http://campanilla.uib.es/Omega"
+},
+{"datetime":"2000-11-15T07:55:00Z",
+"uri":"http://web.archive.org/web/20001115075500/http://campanilla.uib.es/Omega"
+},
+{"datetime":"2000-12-17T07:32:00Z",
+"uri":"http://web.archive.org/web/20001217073200/http://campanilla.uib.es/Omega/"
+},
+{"datetime":"2001-04-12T04:00:32Z",
+"uri":"http://web.archive.org/web/20010412040032/http://campanilla.uib.es/Omega"
+},
+{"datetime":"2001-04-24T18:36:11Z",
+"uri":"http://web.archive.org/web/20010424183611/http://campanilla.uib.es/Omega/"
+},
+{"datetime":"2001-07-02T10:38:55Z",
+"uri":"http://web.archive.org/web/20010702103855/http://campanilla.uib.es/Omega/"
+},
+{"datetime":"2001-10-05T09:35:20Z",
+"uri":"http://web.archive.org/web/20011005093520/http://campanilla.uib.es/Omega/"
+},
+{"datetime":"2001-10-05T09:35:21Z",
+"uri":"http://web.archive.org/web/20011005093521/http://campanilla.uib.es/Omega/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://campanilla.uib.es/Omega/"}
+ }

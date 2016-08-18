@@ -1,0 +1,56 @@
+{"original_uri":"http://nanogold.epfl.ch",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://nanogold.epfl.ch",
+"mementos": {
+"list": [
+{"datetime":"2011-09-13T04:47:30Z",
+"uri":"http://web.archive.org/web/20110913044730/http://nanogold.epfl.ch/"
+},
+{"datetime":"2011-10-10T18:02:32Z",
+"uri":"http://web.archive.org/web/20111010180232/http://nanogold.epfl.ch/"
+},
+{"datetime":"2011-11-10T10:27:50Z",
+"uri":"http://web.archive.org/web/20111110102750/http://nanogold.epfl.ch/"
+},
+{"datetime":"2011-12-11T04:18:42Z",
+"uri":"http://web.archive.org/web/20111211041842/http://nanogold.epfl.ch/"
+},
+{"datetime":"2012-01-15T17:18:08Z",
+"uri":"http://web.archive.org/web/20120115171808/http://nanogold.epfl.ch/"
+},
+{"datetime":"2012-02-24T06:33:49Z",
+"uri":"http://web.archive.org/web/20120224063349/http://nanogold.epfl.ch/"
+},
+{"datetime":"2012-03-26T09:38:21Z",
+"uri":"http://web.archive.org/web/20120326093821/http://nanogold.epfl.ch/"
+},
+{"datetime":"2012-04-26T07:09:33Z",
+"uri":"http://web.archive.org/web/20120426070933/http://nanogold.epfl.ch/"
+},
+{"datetime":"2012-10-21T20:41:23Z",
+"uri":"http://web.archive.org/web/20121021204123/http://nanogold.epfl.ch/"
+},
+{"datetime":"2012-11-23T06:27:01Z",
+"uri":"http://web.archive.org/web/20121123062701/http://nanogold.epfl.ch/"
+},
+{"datetime":"2013-07-10T03:09:44Z",
+"uri":"http://web.archive.org/web/20130710030944/http://nanogold.epfl.ch/"
+},
+{"datetime":"2013-10-09T06:05:23Z",
+"uri":"http://web.archive.org/web/20131009060523/http://nanogold.epfl.ch/"
+},
+{"datetime":"2013-10-14T15:40:37Z",
+"uri":"http://web.archive.org/web/20131014154037/http://nanogold.epfl.ch/"
+},
+{"datetime":"2015-02-15T08:27:05Z",
+"uri":"http://web.archive.org/web/20150215082705/http://nanogold.epfl.ch/"
+},
+{"datetime":"2015-10-08T18:47:58Z",
+"uri":"http://web.archive.org/web/20151008184758/http://nanogold.epfl.ch/"
+},
+{"datetime":"2016-02-13T07:32:12Z",
+"uri":"http://web.archive.org/web/20160213073212/http://nanogold.epfl.ch/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://nanogold.epfl.ch"}
+ }

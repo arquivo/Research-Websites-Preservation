@@ -1,0 +1,50 @@
+{"original_uri":"http://genica.unige.ch/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://genica.unige.ch/",
+"mementos": {
+"list": [
+{"datetime":"2008-03-25T16:59:03Z",
+"uri":"http://web.archive.org/web/20080325165903/http://genica.unige.ch/"
+},
+{"datetime":"2008-05-24T19:49:57Z",
+"uri":"http://web.archive.org/web/20080524194957/http://genica.unige.ch/"
+},
+{"datetime":"2008-10-13T16:48:01Z",
+"uri":"http://web.archive.org/web/20081013164801/http://genica.unige.ch/"
+},
+{"datetime":"2011-04-11T14:17:52Z",
+"uri":"http://web.archive.org/web/20110411141752/http://genica.unige.ch/"
+},
+{"datetime":"2012-11-09T05:30:21Z",
+"uri":"http://web.archive.org/web/20121109053021/http://genica.unige.ch/"
+},
+{"datetime":"2012-11-17T08:29:26Z",
+"uri":"http://web.archive.org/web/20121117082926/http://genica.unige.ch/"
+},
+{"datetime":"2012-12-15T09:29:39Z",
+"uri":"http://web.archive.org/web/20121215092939/http://genica.unige.ch/"
+},
+{"datetime":"2013-02-04T23:07:03Z",
+"uri":"http://web.archive.org/web/20130204230703/http://genica.unige.ch/"
+},
+{"datetime":"2013-06-20T08:01:59Z",
+"uri":"http://web.archive.org/web/20130620080159/http://genica.unige.ch/"
+},
+{"datetime":"2013-09-17T16:21:00Z",
+"uri":"http://web.archive.org/web/20130917162100/http://genica.unige.ch/"
+},
+{"datetime":"2014-04-03T16:10:16Z",
+"uri":"http://web.archive.org/web/20140403161016/http://genica.unige.ch/"
+},
+{"datetime":"2015-05-17T15:58:13Z",
+"uri":"http://web.archive.org/web/20150517155813/http://genica.unige.ch/"
+},
+{"datetime":"2015-06-19T05:33:48Z",
+"uri":"http://web.archive.org/web/20150619053348/http://genica.unige.ch/"
+},
+{"datetime":"2015-09-19T19:25:02Z",
+"uri":"http://web.archive.org/web/20150919192502/http://genica.unige.ch/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://genica.unige.ch/"}
+ }

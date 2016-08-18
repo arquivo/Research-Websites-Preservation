@@ -1,0 +1,62 @@
+{"original_uri":"http://www.ctit.utwente.nl/projects/mumis.html",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.ctit.utwente.nl/projects/mumis.html",
+"mementos": {
+"list": [
+{"datetime":"2000-07-09T00:28:16Z",
+"uri":"http://web.archive.bibalex.org:80/web/20000709002816/http://www.ctit.utwente.nl/projects/mumis.html"
+},
+{"datetime":"2000-07-09T00:28:16Z",
+"uri":"http://web.archive.org/web/20000709002816/http://www.ctit.utwente.nl/projects/mumis.html"
+},
+{"datetime":"2000-09-02T21:08:52Z",
+"uri":"http://web.archive.bibalex.org:80/web/20000902210852/http://www.ctit.utwente.nl/projects/mumis.html"
+},
+{"datetime":"2000-09-02T21:08:52Z",
+"uri":"http://web.archive.org/web/20000902210852/http://www.ctit.utwente.nl/projects/mumis.html"
+},
+{"datetime":"2000-10-14T18:48:54Z",
+"uri":"http://web.archive.org/web/20001014184854/http://www.ctit.utwente.nl/projects/mumis.html"
+},
+{"datetime":"2001-07-29T06:17:00Z",
+"uri":"http://web.archive.org/web/20010729061700/http://www.ctit.utwente.nl/projects/mumis.html"
+},
+{"datetime":"2002-07-03T17:13:12Z",
+"uri":"http://web.archive.org/web/20020703171312/http://www.ctit.utwente.nl/projects/mumis.html"
+},
+{"datetime":"2003-05-16T02:40:21Z",
+"uri":"http://web.archive.org/web/20030516024021/http://www.ctit.utwente.nl/projects/mumis.html"
+},
+{"datetime":"2003-07-09T00:17:03Z",
+"uri":"http://web.archive.org/web/20030709001703/http://www.ctit.utwente.nl/projects/mumis.html"
+},
+{"datetime":"2004-01-16T18:14:51Z",
+"uri":"http://web.archive.bibalex.org:80/web/20040116181451/http://www.ctit.utwente.nl/projects/mumis.html"
+},
+{"datetime":"2004-01-16T18:14:51Z",
+"uri":"http://web.archive.org/web/20040116181451/http://www.ctit.utwente.nl/projects/mumis.html"
+},
+{"datetime":"2005-03-20T06:56:51Z",
+"uri":"http://web.archive.bibalex.org:80/web/20050320065651/http://www.ctit.utwente.nl/projects/mumis.html"
+},
+{"datetime":"2005-03-20T06:56:51Z",
+"uri":"http://web.archive.org/web/20050320065651/http://www.ctit.utwente.nl/projects/mumis.html"
+},
+{"datetime":"2005-04-29T21:06:32Z",
+"uri":"http://web.archive.bibalex.org:80/web/20050429210632/http://www.ctit.utwente.nl/projects/mumis.html"
+},
+{"datetime":"2005-04-29T21:06:32Z",
+"uri":"http://web.archive.org/web/20050429210632/http://www.ctit.utwente.nl/projects/mumis.html"
+},
+{"datetime":"2008-08-09T00:36:07Z",
+"uri":"http://web.archive.org/web/20080809003607/http://www.ctit.utwente.nl/projects/mumis.html"
+},
+{"datetime":"2008-09-27T21:13:13Z",
+"uri":"http://web.archive.org/web/20080927211313/http://www.ctit.utwente.nl/projects/mumis.html"
+},
+{"datetime":"2008-11-03T10:10:39Z",
+"uri":"http://web.archive.org/web/20081103101039/http://www.ctit.utwente.nl/projects/mumis.html"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.ctit.utwente.nl/projects/mumis.html"}
+ }

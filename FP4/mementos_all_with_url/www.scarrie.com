@@ -1,0 +1,62 @@
+{"original_uri":"http://www.scarrie.com",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.scarrie.com",
+"mementos": {
+"list": [
+{"datetime":"1999-10-09T12:34:11Z",
+"uri":"http://web.archive.org/web/19991009123411/http://www.scarrie.com/"
+},
+{"datetime":"1999-10-09T12:34:11Z",
+"uri":"http://web.archive.bibalex.org:80/web/19991009123411/http://www.scarrie.com/"
+},
+{"datetime":"2000-03-08T17:46:34Z",
+"uri":"http://web.archive.org/web/20000308174634/http://www.scarrie.com/"
+},
+{"datetime":"2000-03-08T17:46:34Z",
+"uri":"http://web.archive.bibalex.org:80/web/20000308174634/http://www.scarrie.com/"
+},
+{"datetime":"2000-05-20T01:05:54Z",
+"uri":"http://web.archive.org/web/20000520010554/http://www.scarrie.com/"
+},
+{"datetime":"2000-05-20T01:05:54Z",
+"uri":"http://web.archive.bibalex.org:80/web/20000520010554/http://www.scarrie.com/"
+},
+{"datetime":"2000-06-17T05:26:33Z",
+"uri":"http://web.archive.org/web/20000617052633/http://www.scarrie.com/"
+},
+{"datetime":"2000-06-17T05:26:33Z",
+"uri":"http://web.archive.bibalex.org:80/web/20000617052633/http://www.scarrie.com/"
+},
+{"datetime":"2000-07-11T08:04:00Z",
+"uri":"http://web.archive.org/web/20000711080400/http://www.scarrie.com/"
+},
+{"datetime":"2000-07-11T08:04:00Z",
+"uri":"http://web.archive.bibalex.org:80/web/20000711080400/http://www.scarrie.com/"
+},
+{"datetime":"2000-10-10T12:46:20Z",
+"uri":"http://web.archive.org/web/20001010124620/http://www.scarrie.com/"
+},
+{"datetime":"2013-06-15T23:12:59Z",
+"uri":"http://web.archive.org/web/20130615231259/http://scarrie.com/"
+},
+{"datetime":"2013-12-26T18:28:07Z",
+"uri":"http://web.archive.org/web/20131226182807/http://scarrie.com/"
+},
+{"datetime":"2014-12-18T05:19:34Z",
+"uri":"http://web.archive.org/web/20141218051934/http://scarrie.com/"
+},
+{"datetime":"2016-01-10T16:13:45Z",
+"uri":"http://web.archive.org/web/20160110161345/http://scarrie.com/"
+},
+{"datetime":"2016-02-06T18:24:51Z",
+"uri":"http://web.archive.org/web/20160206182451/http://www.scarrie.com/"
+},
+{"datetime":"2016-03-06T10:09:55Z",
+"uri":"http://web.archive.org/web/20160306100955/http://scarrie.com/"
+},
+{"datetime":"2016-03-26T06:20:00Z",
+"uri":"http://web.archive.org/web/20160326062000/http://www.scarrie.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.scarrie.com"}
+ }

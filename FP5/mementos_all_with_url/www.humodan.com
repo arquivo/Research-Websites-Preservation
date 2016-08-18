@@ -1,0 +1,56 @@
+{"original_uri":"http://www.humodan.com/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.humodan.com/",
+"mementos": {
+"list": [
+{"datetime":"2003-12-16T04:12:07Z",
+"uri":"http://web.archive.org/web/20031216041207/http://www.humodan.com/"
+},
+{"datetime":"2004-07-24T22:08:11Z",
+"uri":"http://web.archive.org/web/20040724220811/http://www.humodan.com/"
+},
+{"datetime":"2004-09-25T05:44:01Z",
+"uri":"http://web.archive.org/web/20040925054401/http://www.humodan.com/"
+},
+{"datetime":"2004-12-13T12:59:35Z",
+"uri":"http://web.archive.org/web/20041213125935/http://www.humodan.com/"
+},
+{"datetime":"2005-02-11T19:11:24Z",
+"uri":"http://web.archive.org/web/20050211191124/http://www.humodan.com/"
+},
+{"datetime":"2005-04-20T01:37:02Z",
+"uri":"http://web.archive.org/web/20050420013702/http://www.humodan.com/"
+},
+{"datetime":"2005-11-25T16:40:58Z",
+"uri":"http://web.archive.org/web/20051125164058/http://www.humodan.com/"
+},
+{"datetime":"2007-02-23T01:19:32Z",
+"uri":"http://web.archive.org/web/20070223011932/http://www.humodan.com/"
+},
+{"datetime":"2007-06-29T10:02:41Z",
+"uri":"http://web.archive.org/web/20070629100241/http://www.humodan.com/"
+},
+{"datetime":"2011-01-28T09:14:37Z",
+"uri":"http://web.archive.org/web/20110128091437/http://humodan.com/"
+},
+{"datetime":"2013-04-27T01:51:18Z",
+"uri":"http://web.archive.org/web/20130427015118/http://www.humodan.com/"
+},
+{"datetime":"2013-06-12T19:29:20Z",
+"uri":"http://web.archive.org/web/20130612192920/http://humodan.com/"
+},
+{"datetime":"2013-11-26T03:25:43Z",
+"uri":"http://web.archive.org/web/20131126032543/http://www.humodan.com/"
+},
+{"datetime":"2014-01-07T21:19:40Z",
+"uri":"http://web.archive.org/web/20140107211940/http://humodan.com/"
+},
+{"datetime":"2014-02-08T14:02:39Z",
+"uri":"http://web.archive.org/web/20140208140239/http://www.humodan.com/"
+},
+{"datetime":"2014-05-17T08:50:16Z",
+"uri":"http://web.archive.org/web/20140517085016/http://humodan.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.humodan.com/"}
+ }

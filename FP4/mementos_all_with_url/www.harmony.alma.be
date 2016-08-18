@@ -1,0 +1,53 @@
+{"original_uri":"http://www.harmony.alma.be",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.harmony.alma.be",
+"mementos": {
+"list": [
+{"datetime":"1998-02-01T18:37:36Z",
+"uri":"http://web.archive.org/web/19980201183736/http://www.harmony.alma.be/"
+},
+{"datetime":"1998-11-11T19:04:02Z",
+"uri":"http://web.archive.org/web/19981111190402/http://www.harmony.alma.be/"
+},
+{"datetime":"1998-12-05T14:10:27Z",
+"uri":"http://web.archive.org/web/19981205141027/http://www.harmony.alma.be/"
+},
+{"datetime":"1998-12-12T02:54:57Z",
+"uri":"http://web.archive.org/web/19981212025457/http://www.harmony.alma.be/"
+},
+{"datetime":"1999-01-25T09:58:25Z",
+"uri":"http://web.archive.org/web/19990125095825/http://www.harmony.alma.be/"
+},
+{"datetime":"1999-02-08T01:36:10Z",
+"uri":"http://web.archive.org/web/19990208013610/http://www.harmony.alma.be/"
+},
+{"datetime":"2000-05-20T03:18:26Z",
+"uri":"http://web.archive.org/web/20000520031826/http://www.harmony.alma.be/"
+},
+{"datetime":"2000-05-30T16:42:07Z",
+"uri":"http://web.archive.org/web/20000530164207/http://www.harmony.alma.be/"
+},
+{"datetime":"2000-10-17T12:29:28Z",
+"uri":"http://web.archive.org/web/20001017122928/http://www.harmony.alma.be/"
+},
+{"datetime":"2000-12-04T18:39:00Z",
+"uri":"http://web.archive.org/web/20001204183900/http://www.harmony.alma.be/"
+},
+{"datetime":"2001-02-01T05:06:00Z",
+"uri":"http://web.archive.org/web/20010201050600/http://www.harmony.alma.be/"
+},
+{"datetime":"2001-02-11T02:07:45Z",
+"uri":"http://web.archive.org/web/20010211020745/http://www.harmony.alma.be/"
+},
+{"datetime":"2001-04-01T12:06:47Z",
+"uri":"http://web.archive.org/web/20010401120647/http://www.harmony.alma.be/"
+},
+{"datetime":"2001-04-23T02:25:38Z",
+"uri":"http://web.archive.org/web/20010423022538/http://www.harmony.alma.be/"
+},
+{"datetime":"2001-05-18T00:56:08Z",
+"uri":"http://web.archive.org/web/20010518005608/http://www.harmony.alma.be/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.harmony.alma.be"}
+ }

@@ -1,0 +1,50 @@
+{"original_uri":"http://projects.nei.nl/profit/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://projects.nei.nl/profit/",
+"mementos": {
+"list": [
+{"datetime":"2001-03-03T00:49:32Z",
+"uri":"http://web.archive.org/web/20010303004932/http://projects.nei.nl/profit"
+},
+{"datetime":"2001-09-05T10:57:53Z",
+"uri":"http://web.archive.org/web/20010905105753/http://projects.nei.nl/profit/"
+},
+{"datetime":"2002-01-06T10:29:42Z",
+"uri":"http://web.archive.org/web/20020106102942/http://projects.nei.nl/profit/"
+},
+{"datetime":"2002-06-04T21:52:30Z",
+"uri":"http://web.archive.org/web/20020604215230/http://projects.nei.nl/profit/"
+},
+{"datetime":"2002-08-04T17:43:59Z",
+"uri":"http://web.archive.org/web/20020804174359/http://projects.nei.nl/profit/"
+},
+{"datetime":"2003-07-17T05:16:53Z",
+"uri":"http://web.archive.org/web/20030717051653/http://projects.nei.nl/profit/"
+},
+{"datetime":"2003-09-25T03:26:11Z",
+"uri":"http://web.archive.org/web/20030925032611/http://projects.nei.nl/profit/"
+},
+{"datetime":"2003-11-06T07:24:36Z",
+"uri":"http://web.archive.org/web/20031106072436/http://projects.nei.nl/profit/"
+},
+{"datetime":"2004-06-08T13:20:20Z",
+"uri":"http://web.archive.org/web/20040608132020/http://projects.nei.nl/profit/"
+},
+{"datetime":"2004-08-07T09:55:40Z",
+"uri":"http://web.archive.org/web/20040807095540/http://projects.nei.nl/profit/"
+},
+{"datetime":"2004-10-23T13:13:40Z",
+"uri":"http://web.archive.org/web/20041023131340/http://projects.nei.nl/profit/"
+},
+{"datetime":"2005-04-09T05:02:49Z",
+"uri":"http://web.archive.org/web/20050409050249/http://projects.nei.nl/profit/"
+},
+{"datetime":"2005-09-18T05:21:00Z",
+"uri":"http://web.archive.org/web/20050918052100/http://projects.nei.nl/profit/"
+},
+{"datetime":"2005-09-29T18:21:59Z",
+"uri":"http://web.archive.org/web/20050929182159/http://projects.nei.nl/profit/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://projects.nei.nl/profit/"}
+ }

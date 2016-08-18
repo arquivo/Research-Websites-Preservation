@@ -1,0 +1,50 @@
+{"original_uri":"http://www.optosat.com/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.optosat.com/",
+"mementos": {
+"list": [
+{"datetime":"2013-03-30T19:26:10Z",
+"uri":"http://web.archive.org/web/20130330192610/http://optosat.com"
+},
+{"datetime":"2013-03-31T00:36:24Z",
+"uri":"http://web.archive.org/web/20130331003624/http://optosat.com"
+},
+{"datetime":"2013-04-01T00:59:58Z",
+"uri":"http://web.archive.org/web/20130401005958/http://optosat.com"
+},
+{"datetime":"2013-04-01T06:37:23Z",
+"uri":"http://web.archive.org/web/20130401063723/http://optosat.com"
+},
+{"datetime":"2013-04-01T20:06:09Z",
+"uri":"http://web.archive.org/web/20130401200609/http://optosat.com"
+},
+{"datetime":"2013-04-01T23:38:09Z",
+"uri":"http://web.archive.org/web/20130401233809/http://optosat.com"
+},
+{"datetime":"2013-04-02T04:38:48Z",
+"uri":"http://web.archive.org/web/20130402043848/http://optosat.com/"
+},
+{"datetime":"2013-04-03T19:19:15Z",
+"uri":"http://web.archive.org/web/20130403191915/http://optosat.com"
+},
+{"datetime":"2013-04-04T19:46:54Z",
+"uri":"http://web.archive.org/web/20130404194654/http://optosat.com/"
+},
+{"datetime":"2013-04-07T01:22:40Z",
+"uri":"http://web.archive.org/web/20130407012240/http://optosat.com"
+},
+{"datetime":"2013-04-07T01:22:41Z",
+"uri":"http://web.archive.org/web/20130407012241/http://www.optosat.com"
+},
+{"datetime":"2013-07-16T02:39:33Z",
+"uri":"http://web.archive.org/web/20130716023933/http://optosat.com/"
+},
+{"datetime":"2016-01-11T20:24:17Z",
+"uri":"http://web.archive.org/web/20160111202417/http://optosat.com/"
+},
+{"datetime":"2016-03-14T05:52:52Z",
+"uri":"http://web.archive.org/web/20160314055252/http://optosat.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.optosat.com/"}
+ }

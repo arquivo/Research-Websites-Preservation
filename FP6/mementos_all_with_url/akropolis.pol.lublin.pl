@@ -1,0 +1,50 @@
+{"original_uri":"http://akropolis.pol.lublin.pl/users/ksi/mcmacm/index.htm",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://akropolis.pol.lublin.pl/users/ksi/mcmacm/index.htm",
+"mementos": {
+"list": [
+{"datetime":"2006-05-21T02:36:13Z",
+"uri":"http://web.archive.org/web/20060521023613/http://akropolis.pol.lublin.pl/users/ksi/MCMACM/index.htm"
+},
+{"datetime":"2006-08-23T08:08:52Z",
+"uri":"http://web.archive.org/web/20060823080852/http://akropolis.pol.lublin.pl/users/ksi/MCMACM/index.htm"
+},
+{"datetime":"2006-08-29T05:46:47Z",
+"uri":"http://web.archive.org/web/20060829054647/http://akropolis.pol.lublin.pl/users/ksi/MCMACM/index.htm"
+},
+{"datetime":"2006-08-31T05:43:29Z",
+"uri":"http://web.archive.org/web/20060831054329/http://akropolis.pol.lublin.pl/users/ksi/MCMACM/index.htm"
+},
+{"datetime":"2006-09-19T18:54:14Z",
+"uri":"http://web.archive.org/web/20060919185414/http://akropolis.pol.lublin.pl/users/ksi/MCMACM/index.htm"
+},
+{"datetime":"2006-10-19T04:46:21Z",
+"uri":"http://web.archive.org/web/20061019044621/http://akropolis.pol.lublin.pl/users/ksi/MCMACM/index.htm"
+},
+{"datetime":"2006-12-16T19:12:20Z",
+"uri":"http://web.archive.org/web/20061216191220/http://akropolis.pol.lublin.pl/users/ksi/MCMACM/index.htm"
+},
+{"datetime":"2007-06-21T13:32:12Z",
+"uri":"http://web.archive.org/web/20070621133212/http://akropolis.pol.lublin.pl/users/ksi/MCMACM/index.htm"
+},
+{"datetime":"2007-08-08T19:08:30Z",
+"uri":"http://web.archive.org/web/20070808190830/http://akropolis.pol.lublin.pl/users/ksi/MCMACM/index.htm"
+},
+{"datetime":"2007-10-07T09:27:32Z",
+"uri":"http://web.archive.org/web/20071007092732/http://akropolis.pol.lublin.pl/users/ksi/MCMACM/index.htm"
+},
+{"datetime":"2007-10-08T15:30:32Z",
+"uri":"http://web.archive.org/web/20071008153032/http://akropolis.pol.lublin.pl/users/ksi/MCMACM/index.htm"
+},
+{"datetime":"2007-10-09T19:19:05Z",
+"uri":"http://web.archive.org/web/20071009191905/http://akropolis.pol.lublin.pl/users/ksi/MCMACM/index.htm"
+},
+{"datetime":"2008-02-19T20:36:38Z",
+"uri":"http://web.archive.org/web/20080219203638/http://akropolis.pol.lublin.pl/users/ksi/MCMACM/index.htm"
+},
+{"datetime":"2008-04-20T16:01:01Z",
+"uri":"http://web.archive.org/web/20080420160101/http://akropolis.pol.lublin.pl/users/ksi/MCMACM/index.htm"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://akropolis.pol.lublin.pl/users/ksi/mcmacm/index.htm"}
+ }

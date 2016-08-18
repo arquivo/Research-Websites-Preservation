@@ -1,0 +1,53 @@
+{"original_uri":"http://www.scicons.com/conferences.htm",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.scicons.com/conferences.htm",
+"mementos": {
+"list": [
+{"datetime":"1999-08-24T20:42:22Z",
+"uri":"http://web.archive.org/web/19990824204222/http://www.scicons.com/conferences.htm"
+},
+{"datetime":"1999-11-15T15:01:33Z",
+"uri":"http://web.archive.org/web/19991115150133/http://www.scicons.com/conferences.htm"
+},
+{"datetime":"2000-04-20T05:42:22Z",
+"uri":"http://web.archive.org/web/20000420054222/http://www.scicons.com/conferences.htm"
+},
+{"datetime":"2000-04-24T21:48:45Z",
+"uri":"http://web.archive.org/web/20000424214845/http://www.scicons.com/conferences.htm"
+},
+{"datetime":"2000-06-12T10:12:19Z",
+"uri":"http://web.archive.org/web/20000612101219/http://www.scicons.com/conferences.htm"
+},
+{"datetime":"2000-10-02T00:09:30Z",
+"uri":"http://web.archive.org/web/20001002000930/http://www.scicons.com/conferences.htm"
+},
+{"datetime":"2001-01-09T01:24:00Z",
+"uri":"http://web.archive.org/web/20010109012400/http://www.scicons.com/conferences.htm"
+},
+{"datetime":"2001-02-01T07:42:00Z",
+"uri":"http://web.archive.org/web/20010201074200/http://www.scicons.com/conferences.htm"
+},
+{"datetime":"2001-02-08T14:38:48Z",
+"uri":"http://web.archive.org/web/20010208143848/http://www.scicons.com/conferences.htm"
+},
+{"datetime":"2001-04-10T06:28:32Z",
+"uri":"http://web.archive.org/web/20010410062832/http://www.scicons.com/conferences.htm"
+},
+{"datetime":"2001-08-08T14:00:33Z",
+"uri":"http://web.archive.org/web/20010808140033/http://www.scicons.com/conferences.htm"
+},
+{"datetime":"2001-10-28T14:35:02Z",
+"uri":"http://web.archive.org/web/20011028143502/http://www.scicons.com/conferences.htm"
+},
+{"datetime":"2001-12-05T01:53:09Z",
+"uri":"http://web.archive.org/web/20011205015309/http://www.scicons.com/conferences.htm"
+},
+{"datetime":"2002-06-06T02:43:23Z",
+"uri":"http://web.archive.org/web/20020606024323/http://www.scicons.com/conferences.htm"
+},
+{"datetime":"2002-08-07T21:10:02Z",
+"uri":"http://web.archive.org/web/20020807211002/http://www.scicons.com/conferences.htm"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.scicons.com/conferences.htm"}
+ }

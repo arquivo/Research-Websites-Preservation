@@ -1,0 +1,50 @@
+{"original_uri":"http://www.hostserver150.com/usabilit/home.htm",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.hostserver150.com/usabilit/home.htm",
+"mementos": {
+"list": [
+{"datetime":"2002-10-18T08:29:08Z",
+"uri":"http://web.archive.org/web/20021018082908/http://www.hostserver150.com/usabilit/home.htm"
+},
+{"datetime":"2002-10-18T08:29:08Z",
+"uri":"http://web.archive.bibalex.org:80/web/20021018082908/http://www.hostserver150.com/usabilit/home.htm"
+},
+{"datetime":"2002-12-16T01:38:08Z",
+"uri":"http://web.archive.org/web/20021216013808/http://www.hostserver150.com/usabilit/home.htm"
+},
+{"datetime":"2002-12-16T01:38:08Z",
+"uri":"http://web.archive.bibalex.org:80/web/20021216013808/http://www.hostserver150.com/usabilit/home.htm"
+},
+{"datetime":"2003-01-24T01:34:30Z",
+"uri":"http://web.archive.org/web/20030124013430/http://www.hostserver150.com/usabilit/home.htm"
+},
+{"datetime":"2003-01-24T01:34:30Z",
+"uri":"http://web.archive.bibalex.org:80/web/20030124013430/http://www.hostserver150.com/usabilit/home.htm"
+},
+{"datetime":"2004-12-04T20:31:51Z",
+"uri":"http://web.archive.org/web/20041204203151/http://www.hostserver150.com/usabilit/home.htm"
+},
+{"datetime":"2004-12-04T20:31:51Z",
+"uri":"http://web.archive.bibalex.org:80/web/20041204203151/http://www.hostserver150.com/usabilit/home.htm"
+},
+{"datetime":"2005-02-07T09:03:53Z",
+"uri":"http://web.archive.org/web/20050207090353/http://www.hostserver150.com/usabilit/home.htm"
+},
+{"datetime":"2005-02-07T09:03:53Z",
+"uri":"http://web.archive.bibalex.org:80/web/20050207090353/http://www.hostserver150.com/usabilit/home.htm"
+},
+{"datetime":"2005-03-05T07:07:54Z",
+"uri":"http://web.archive.org/web/20050305070754/http://www.hostserver150.com/usabilit/home.htm"
+},
+{"datetime":"2005-03-05T07:07:54Z",
+"uri":"http://web.archive.bibalex.org:80/web/20050305070754/http://www.hostserver150.com/usabilit/home.htm"
+},
+{"datetime":"2007-07-22T18:06:45Z",
+"uri":"http://web.archive.org/web/20070722180645/http://www.hostserver150.com/usabilit/home.htm"
+},
+{"datetime":"2016-03-14T10:55:38Z",
+"uri":"http://web.archive.org/web/20160314105538/http://hostserver150.com/usabilit/home.htm"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.hostserver150.com/usabilit/home.htm"}
+ }

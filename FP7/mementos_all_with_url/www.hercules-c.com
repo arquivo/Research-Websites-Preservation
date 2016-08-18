@@ -1,0 +1,56 @@
+{"original_uri":"http://www.hercules-c.com",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.hercules-c.com",
+"mementos": {
+"list": [
+{"datetime":"2012-02-13T06:25:45Z",
+"uri":"http://web.archive.org/web/20120213062545/http://www.hercules-c.com/"
+},
+{"datetime":"2012-03-15T20:29:47Z",
+"uri":"http://web.archive.org/web/20120315202947/http://www.hercules-c.com/"
+},
+{"datetime":"2012-10-18T21:01:01Z",
+"uri":"http://web.archive.org/web/20121018210101/http://www.hercules-c.com/"
+},
+{"datetime":"2013-06-07T00:59:22Z",
+"uri":"http://web.archive.org/web/20130607005922/http://hercules-c.com/"
+},
+{"datetime":"2013-10-29T02:43:36Z",
+"uri":"http://web.archive.org/web/20131029024336/http://www.hercules-c.com/"
+},
+{"datetime":"2013-11-29T07:42:42Z",
+"uri":"http://web.archive.org/web/20131129074242/http://www.hercules-c.com/"
+},
+{"datetime":"2014-01-11T08:55:28Z",
+"uri":"http://web.archive.org/web/20140111085528/http://hercules-c.com/"
+},
+{"datetime":"2014-01-17T13:31:19Z",
+"uri":"http://web.archive.org/web/20140117133119/http://www.hercules-c.com/"
+},
+{"datetime":"2014-02-20T07:02:20Z",
+"uri":"http://web.archive.org/web/20140220070220/http://www.hercules-c.com/"
+},
+{"datetime":"2014-05-17T11:32:34Z",
+"uri":"http://web.archive.org/web/20140517113234/http://hercules-c.com/"
+},
+{"datetime":"2014-12-17T04:09:22Z",
+"uri":"http://web.archive.org/web/20141217040922/http://hercules-c.com/"
+},
+{"datetime":"2015-08-01T12:28:56Z",
+"uri":"http://web.archive.org/web/20150801122856/http://hercules-c.com/"
+},
+{"datetime":"2015-10-11T12:20:50Z",
+"uri":"http://web.archive.org/web/20151011122050/http://hercules-c.com/"
+},
+{"datetime":"2016-01-09T16:01:01Z",
+"uri":"http://web.archive.org/web/20160109160101/http://hercules-c.com/"
+},
+{"datetime":"2016-03-13T06:52:58Z",
+"uri":"http://web.archive.org/web/20160313065258/http://hercules-c.com/"
+},
+{"datetime":"2016-05-05T22:47:46Z",
+"uri":"http://web.archive.org/web/20160505224746/http://www.hercules-c.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.hercules-c.com"}
+ }

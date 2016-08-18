@@ -1,0 +1,59 @@
+{"original_uri":"http://www.labein.es/metses/SV02_CEA.htm",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.labein.es/metses/SV02_CEA.htm",
+"mementos": {
+"list": [
+{"datetime":"2002-12-13T17:00:31Z",
+"uri":"http://web.archive.org/web/20021213170031/http://www.labein.es/metses/SV02_CEA.htm"
+},
+{"datetime":"2003-04-14T08:39:45Z",
+"uri":"http://web.archive.org/web/20030414083945/http://www.labein.es/metses/SV02_CEA.htm"
+},
+{"datetime":"2003-08-12T10:32:42Z",
+"uri":"http://web.archive.org/web/20030812103242/http://www.labein.es/metses/SV02_CEA.htm"
+},
+{"datetime":"2003-10-05T05:41:30Z",
+"uri":"http://web.archive.org/web/20031005054130/http://www.labein.es/metses/SV02_CEA.htm"
+},
+{"datetime":"2004-04-10T23:28:03Z",
+"uri":"http://web.archive.org/web/20040410232803/http://www.labein.es/metses/SV02_CEA.htm"
+},
+{"datetime":"2004-06-06T20:48:04Z",
+"uri":"http://web.archive.org/web/20040606204804/http://www.labein.es/metses/SV02_CEA.htm"
+},
+{"datetime":"2004-08-07T18:41:49Z",
+"uri":"http://web.archive.org/web/20040807184149/http://www.labein.es/metses/SV02_CEA.htm"
+},
+{"datetime":"2004-10-10T10:36:38Z",
+"uri":"http://web.archive.org/web/20041010103638/http://www.labein.es/metses/SV02_CEA.htm"
+},
+{"datetime":"2005-02-18T11:40:32Z",
+"uri":"http://web.archive.org/web/20050218114032/http://www.labein.es/metses/SV02_CEA.htm"
+},
+{"datetime":"2005-04-12T01:13:11Z",
+"uri":"http://web.archive.org/web/20050412011311/http://www.labein.es/metses/SV02_CEA.htm"
+},
+{"datetime":"2005-09-13T06:00:55Z",
+"uri":"http://web.archive.org/web/20050913060055/http://www.labein.es/metses/SV02_CEA.htm"
+},
+{"datetime":"2005-10-18T12:50:10Z",
+"uri":"http://web.archive.org/web/20051018125010/http://www.labein.es/metses/SV02_CEA.htm"
+},
+{"datetime":"2005-12-17T07:50:58Z",
+"uri":"http://web.archive.org/web/20051217075058/http://www.labein.es/metses/SV02_CEA.htm"
+},
+{"datetime":"2009-12-13T00:27:03Z",
+"uri":"http://web.archive.org/web/20091213002703/http://www.labein.es/metses/SV02_CEA.htm"
+},
+{"datetime":"2010-07-01T12:18:01Z",
+"uri":"http://web.archive.org/web/20100701121801/http://www.labein.es/metses/SV02_CEA.htm"
+},
+{"datetime":"2011-09-02T16:46:23Z",
+"uri":"http://web.archive.org/web/20110902164623/http://www.labein.es/metses/SV02_CEA.htm"
+},
+{"datetime":"2013-06-11T15:32:31Z",
+"uri":"http://web.archive.org/web/20130611153231/http://www.labein.es/metses/SV02_CEA.htm"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.labein.es/metses/SV02_CEA.htm"}
+ }

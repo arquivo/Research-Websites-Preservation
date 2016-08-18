@@ -1,0 +1,50 @@
+{"original_uri":"http://www.surfnet.nl/surfnet/projects/desire/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.surfnet.nl/surfnet/projects/desire/",
+"mementos": {
+"list": [
+{"datetime":"1997-04-04T16:19:13Z",
+"uri":"http://web.archive.org/web/19970404161913/http://www.surfnet.nl/surfnet/projects/desire/"
+},
+{"datetime":"1997-04-04T16:19:13Z",
+"uri":"http://web.archive.bibalex.org:80/web/19970404161913/http://www.surfnet.nl/surfnet/projects/desire/"
+},
+{"datetime":"1997-07-24T03:24:18Z",
+"uri":"http://web.archive.org/web/19970724032418/http://www.surfnet.nl/surfnet/projects/desire/"
+},
+{"datetime":"1997-07-24T03:24:18Z",
+"uri":"http://web.archive.bibalex.org:80/web/19970724032418/http://www.surfnet.nl/surfnet/projects/desire/"
+},
+{"datetime":"1998-02-18T10:45:37Z",
+"uri":"http://web.archive.org/web/19980218104537/http://www.surfnet.nl/surfnet/projects/desire/"
+},
+{"datetime":"1998-02-18T10:45:37Z",
+"uri":"http://web.archive.bibalex.org:80/web/19980218104537/http://www.surfnet.nl/surfnet/projects/desire/"
+},
+{"datetime":"1999-01-16T23:10:44Z",
+"uri":"http://web.archive.org/web/19990116231044/http://www.surfnet.nl/surfnet/projects/desire"
+},
+{"datetime":"1999-01-17T06:06:21Z",
+"uri":"http://web.archive.org/web/19990117060621/http://www.surfnet.nl/surfnet/projects/desire"
+},
+{"datetime":"1999-04-23T06:00:18Z",
+"uri":"http://web.archive.org/web/19990423060018/http://www.surfnet.nl/surfnet/projects/desire"
+},
+{"datetime":"1999-04-30T06:05:35Z",
+"uri":"http://web.archive.org/web/19990430060535/http://www.surfnet.nl/surfnet/projects/desire"
+},
+{"datetime":"2001-12-01T23:49:35Z",
+"uri":"http://web.archive.org/web/20011201234935/http://www.surfnet.nl/surfnet/projects/desire"
+},
+{"datetime":"2002-06-17T22:54:50Z",
+"uri":"http://web.archive.org/web/20020617225450/http://www.surfnet.nl/surfnet/projects/desire"
+},
+{"datetime":"2002-08-26T23:39:37Z",
+"uri":"http://web.archive.org/web/20020826233937/http://www.surfnet.nl/surfnet/projects/desire"
+},
+{"datetime":"2009-01-06T10:06:58Z",
+"uri":"http://web.archive.org/web/20090106100658/http://www.surfnet.nl/surfnet/projects/desire/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.surfnet.nl/surfnet/projects/desire/"}
+ }

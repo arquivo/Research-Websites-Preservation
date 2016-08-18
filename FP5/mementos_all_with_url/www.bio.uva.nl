@@ -1,0 +1,50 @@
+{"original_uri":"http://www.bio.uva.nl/onderzoek/aot/eu/biofilms/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.bio.uva.nl/onderzoek/aot/eu/biofilms/",
+"mementos": {
+"list": [
+{"datetime":"2002-07-06T07:11:31Z",
+"uri":"http://web.archive.org/web/20020706071131/http://www.bio.uva.nl/onderzoek/aot/eu/biofilms/"
+},
+{"datetime":"2003-01-31T08:13:00Z",
+"uri":"http://web.archive.org/web/20030131081300/http://www.bio.uva.nl/onderzoek/aot/eu/biofilms/"
+},
+{"datetime":"2003-03-12T16:52:27Z",
+"uri":"http://web.archive.org/web/20030312165227/http://www.bio.uva.nl/onderzoek/aot/eu/biofilms/"
+},
+{"datetime":"2003-07-07T01:17:04Z",
+"uri":"http://web.archive.org/web/20030707011704/http://www.bio.uva.nl/onderzoek/aot/eu/biofilms/"
+},
+{"datetime":"2003-09-05T07:08:31Z",
+"uri":"http://web.archive.org/web/20030905070831/http://www.bio.uva.nl/onderzoek/aot/eu/biofilms/"
+},
+{"datetime":"2003-10-20T05:34:11Z",
+"uri":"http://web.archive.org/web/20031020053411/http://www.bio.uva.nl/onderzoek/aot/eu/biofilms/"
+},
+{"datetime":"2004-01-15T23:47:53Z",
+"uri":"http://web.archive.org/web/20040115234753/http://www.bio.uva.nl/onderzoek/aot/eu/biofilms/"
+},
+{"datetime":"2004-05-14T16:08:22Z",
+"uri":"http://web.archive.org/web/20040514160822/http://www.bio.uva.nl/onderzoek/aot/eu/biofilms/"
+},
+{"datetime":"2004-07-02T15:42:15Z",
+"uri":"http://web.archive.org/web/20040702154215/http://www.bio.uva.nl/onderzoek/aot/eu/biofilms/"
+},
+{"datetime":"2004-09-21T21:08:15Z",
+"uri":"http://web.archive.org/web/20040921210815/http://www.bio.uva.nl/onderzoek/aot/eu/biofilms/"
+},
+{"datetime":"2004-11-03T05:53:16Z",
+"uri":"http://web.archive.org/web/20041103055316/http://www.bio.uva.nl/onderzoek/aot/eu/biofilms/"
+},
+{"datetime":"2005-04-24T11:57:27Z",
+"uri":"http://web.archive.org/web/20050424115727/http://www.bio.uva.nl/onderzoek/aot/eu/biofilms/"
+},
+{"datetime":"2005-11-11T09:42:12Z",
+"uri":"http://web.archive.org/web/20051111094212/http://www.bio.uva.nl/onderzoek/aot/eu/biofilms/"
+},
+{"datetime":"2005-11-26T18:34:20Z",
+"uri":"http://web.archive.org/web/20051126183420/http://www.bio.uva.nl/onderzoek/aot/eu/biofilms/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.bio.uva.nl/onderzoek/aot/eu/biofilms/"}
+ }

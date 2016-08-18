@@ -1,0 +1,65 @@
+{"original_uri":"http://www.extra.research.philips.com/euprojects/fabric/index.htm",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.extra.research.philips.com/euprojects/fabric/index.htm",
+"mementos": {
+"list": [
+{"datetime":"2003-02-26T14:36:57Z",
+"uri":"http://web.archive.org/web/20030226143657/http://www.extra.research.philips.com/euprojects/fabric/index.htm"
+},
+{"datetime":"2003-02-26T14:36:57Z",
+"uri":"http://web.archive.bibalex.org:80/web/20030226143657/http://www.extra.research.philips.com/euprojects/fabric/index.htm"
+},
+{"datetime":"2003-06-26T10:22:53Z",
+"uri":"http://web.archive.org/web/20030626102253/http://www.extra.research.philips.com/euprojects/fabric/index.htm"
+},
+{"datetime":"2003-06-26T10:22:53Z",
+"uri":"http://web.archive.bibalex.org:80/web/20030626102253/http://www.extra.research.philips.com/euprojects/fabric/index.htm"
+},
+{"datetime":"2003-08-03T03:21:21Z",
+"uri":"http://web.archive.org/web/20030803032121/http://www.extra.research.philips.com/euprojects/fabric/index.htm"
+},
+{"datetime":"2003-08-03T03:21:21Z",
+"uri":"http://web.archive.bibalex.org:80/web/20030803032121/http://www.extra.research.philips.com/euprojects/fabric/index.htm"
+},
+{"datetime":"2003-12-06T23:52:54Z",
+"uri":"http://web.archive.org/web/20031206235254/http://www.extra.research.philips.com/euprojects/fabric/index.htm"
+},
+{"datetime":"2003-12-06T23:52:54Z",
+"uri":"http://web.archive.bibalex.org:80/web/20031206235254/http://www.extra.research.philips.com/euprojects/fabric/index.htm"
+},
+{"datetime":"2004-02-13T07:25:43Z",
+"uri":"http://web.archive.org/web/20040213072543/http://www.extra.research.philips.com/euprojects/fabric/index.htm"
+},
+{"datetime":"2004-02-13T07:25:43Z",
+"uri":"http://web.archive.bibalex.org:80/web/20040213072543/http://www.extra.research.philips.com/euprojects/fabric/index.htm"
+},
+{"datetime":"2004-06-04T15:07:41Z",
+"uri":"http://web.archive.bibalex.org:80/web/20040604150741/http://www.extra.research.philips.com/euprojects/fabric/index.htm"
+},
+{"datetime":"2004-08-09T22:09:19Z",
+"uri":"http://web.archive.org/web/20040809220919/http://www.extra.research.philips.com/euprojects/fabric/index.htm"
+},
+{"datetime":"2004-08-09T22:09:19Z",
+"uri":"http://web.archive.bibalex.org:80/web/20040809220919/http://www.extra.research.philips.com/euprojects/fabric/index.htm"
+},
+{"datetime":"2005-01-23T21:21:45Z",
+"uri":"http://web.archive.org/web/20050123212145/http://www.extra.research.philips.com/euprojects/fabric/index.htm"
+},
+{"datetime":"2005-01-23T21:21:45Z",
+"uri":"http://web.archive.bibalex.org:80/web/20050123212145/http://www.extra.research.philips.com/euprojects/fabric/index.htm"
+},
+{"datetime":"2005-03-26T19:41:19Z",
+"uri":"http://web.archive.org/web/20050326194119/http://www.extra.research.philips.com/euprojects/fabric/index.htm"
+},
+{"datetime":"2005-03-26T19:41:19Z",
+"uri":"http://web.archive.bibalex.org:80/web/20050326194119/http://www.extra.research.philips.com/euprojects/fabric/index.htm"
+},
+{"datetime":"2005-04-06T08:23:52Z",
+"uri":"http://web.archive.org/web/20050406082352/http://www.extra.research.philips.com/euprojects/fabric/index.htm"
+},
+{"datetime":"2005-04-06T08:23:52Z",
+"uri":"http://web.archive.bibalex.org:80/web/20050406082352/http://www.extra.research.philips.com/euprojects/fabric/index.htm"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.extra.research.philips.com/euprojects/fabric/index.htm"}
+ }

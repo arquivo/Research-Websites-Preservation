@@ -1,0 +1,50 @@
+{"original_uri":"http://www.examine.ree.es/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.examine.ree.es/",
+"mementos": {
+"list": [
+{"datetime":"2003-04-21T13:45:53Z",
+"uri":"http://web.archive.org/web/20030421134553/http://www.examine.ree.es/"
+},
+{"datetime":"2003-06-23T13:17:23Z",
+"uri":"http://web.archive.org/web/20030623131723/http://www.examine.ree.es/"
+},
+{"datetime":"2003-08-02T15:10:43Z",
+"uri":"http://web.archive.org/web/20030802151043/http://www.examine.ree.es/"
+},
+{"datetime":"2003-10-21T15:21:01Z",
+"uri":"http://web.archive.org/web/20031021152101/http://www.examine.ree.es/"
+},
+{"datetime":"2003-10-24T11:52:48Z",
+"uri":"http://web.archive.org/web/20031024115248/http://www.examine.ree.es/"
+},
+{"datetime":"2004-02-24T20:39:58Z",
+"uri":"http://web.archive.org/web/20040224203958/http://www.examine.ree.es/"
+},
+{"datetime":"2004-06-10T01:25:31Z",
+"uri":"http://web.archive.org/web/20040610012531/http://www.examine.ree.es/"
+},
+{"datetime":"2004-09-01T22:18:18Z",
+"uri":"http://web.archive.org/web/20040901221818/http://www.examine.ree.es/"
+},
+{"datetime":"2004-09-21T21:02:54Z",
+"uri":"http://web.archive.org/web/20040921210254/http://www.examine.ree.es/"
+},
+{"datetime":"2004-11-29T19:24:10Z",
+"uri":"http://web.archive.org/web/20041129192410/http://www.examine.ree.es/"
+},
+{"datetime":"2005-02-02T22:51:49Z",
+"uri":"http://web.archive.org/web/20050202225149/http://www.examine.ree.es/"
+},
+{"datetime":"2005-02-07T09:17:35Z",
+"uri":"http://web.archive.org/web/20050207091735/http://www.examine.ree.es/"
+},
+{"datetime":"2005-02-07T17:18:24Z",
+"uri":"http://web.archive.org/web/20050207171824/http://www.examine.ree.es/"
+},
+{"datetime":"2005-04-13T21:18:33Z",
+"uri":"http://web.archive.org/web/20050413211833/http://www.examine.ree.es/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.examine.ree.es/"}
+ }

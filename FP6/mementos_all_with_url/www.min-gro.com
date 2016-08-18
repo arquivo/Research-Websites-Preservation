@@ -1,0 +1,65 @@
+{"original_uri":"http://www.min-gro.com",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.min-gro.com",
+"mementos": {
+"list": [
+{"datetime":"2007-11-11T13:05:57Z",
+"uri":"http://web.archive.org/web/20071111130557/http://www.min-gro.com/"
+},
+{"datetime":"2007-11-11T13:05:57Z",
+"uri":"http://web.archive.bibalex.org:80/web/20071111130557/http://www.min-gro.com/"
+},
+{"datetime":"2007-12-11T23:01:55Z",
+"uri":"http://web.archive.org/web/20071211230155/http://www.min-gro.com/"
+},
+{"datetime":"2007-12-11T23:01:55Z",
+"uri":"http://web.archive.bibalex.org:80/web/20071211230155/http://www.min-gro.com/"
+},
+{"datetime":"2008-01-11T10:06:49Z",
+"uri":"http://web.archive.org/web/20080111100649/http://www.min-gro.com/"
+},
+{"datetime":"2008-02-11T09:48:29Z",
+"uri":"http://web.archive.org/web/20080211094829/http://www.min-gro.com/"
+},
+{"datetime":"2008-03-13T04:02:39Z",
+"uri":"http://web.archive.org/web/20080313040239/http://www.min-gro.com/"
+},
+{"datetime":"2008-10-05T03:05:00Z",
+"uri":"http://web.archive.org/web/20081005030500/http://www.min-gro.com/"
+},
+{"datetime":"2009-07-26T08:59:32Z",
+"uri":"http://web.archive.org/web/20090726085932/http://www.min-gro.com/"
+},
+{"datetime":"2010-05-17T13:37:48Z",
+"uri":"http://web.archive.org/web/20100517133748/http://min-gro.com/"
+},
+{"datetime":"2011-02-01T20:48:32Z",
+"uri":"http://web.archive.org/web/20110201204832/http://min-gro.com/"
+},
+{"datetime":"2012-04-23T14:40:59Z",
+"uri":"http://web.archive.org/web/20120423144059/http://www.min-gro.com/"
+},
+{"datetime":"2013-06-14T04:05:02Z",
+"uri":"http://web.archive.org/web/20130614040502/http://min-gro.com/"
+},
+{"datetime":"2014-01-10T00:43:55Z",
+"uri":"http://web.archive.org/web/20140110004355/http://min-gro.com/"
+},
+{"datetime":"2014-05-17T21:54:13Z",
+"uri":"http://web.archive.org/web/20140517215413/http://min-gro.com/"
+},
+{"datetime":"2014-12-17T13:48:16Z",
+"uri":"http://web.archive.org/web/20141217134816/http://min-gro.com/"
+},
+{"datetime":"2015-08-01T20:08:19Z",
+"uri":"http://web.archive.org/web/20150801200819/http://min-gro.com/"
+},
+{"datetime":"2016-01-10T20:35:37Z",
+"uri":"http://web.archive.org/web/20160110203537/http://min-gro.com/"
+},
+{"datetime":"2016-03-05T07:02:11Z",
+"uri":"http://web.archive.org/web/20160305070211/http://min-gro.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.min-gro.com"}
+ }

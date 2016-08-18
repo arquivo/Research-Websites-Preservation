@@ -1,0 +1,65 @@
+{"original_uri":"http://www.dow.wau.nl/whh/daufin/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.dow.wau.nl/whh/daufin/",
+"mementos": {
+"list": [
+{"datetime":"2001-03-02T08:54:11Z",
+"uri":"http://web.archive.org/web/20010302085411/http://www.dow.wau.nl/whh/daufin"
+},
+{"datetime":"2001-04-13T07:20:15Z",
+"uri":"http://web.archive.org/web/20010413072015/http://www.dow.wau.nl/whh/daufin"
+},
+{"datetime":"2001-06-17T07:24:44Z",
+"uri":"http://web.archive.org/web/20010617072444/http://www.dow.wau.nl/whh/daufin/"
+},
+{"datetime":"2001-08-21T00:28:46Z",
+"uri":"http://web.archive.org/web/20010821002846/http://www.dow.wau.nl/whh/daufin/"
+},
+{"datetime":"2001-11-13T04:40:51Z",
+"uri":"http://web.archive.org/web/20011113044051/http://www.dow.wau.nl/whh/daufin/"
+},
+{"datetime":"2002-04-28T02:57:56Z",
+"uri":"http://web.archive.org/web/20020428025756/http://www.dow.wau.nl/whh/daufin/"
+},
+{"datetime":"2002-06-02T15:55:08Z",
+"uri":"http://web.archive.org/web/20020602155508/http://www.dow.wau.nl/whh/daufin/"
+},
+{"datetime":"2002-10-26T08:54:33Z",
+"uri":"http://web.archive.org/web/20021026085433/http://www.dow.wau.nl/whh/daufin/"
+},
+{"datetime":"2002-12-19T00:24:47Z",
+"uri":"http://web.archive.org/web/20021219002447/http://www.dow.wau.nl/whh/daufin/"
+},
+{"datetime":"2003-06-27T14:19:41Z",
+"uri":"http://web.archive.org/web/20030627141941/http://www.dow.wau.nl/whh/daufin/"
+},
+{"datetime":"2003-08-31T03:11:20Z",
+"uri":"http://web.archive.org/web/20030831031120/http://www.dow.wau.nl/whh/daufin/"
+},
+{"datetime":"2003-10-19T23:02:54Z",
+"uri":"http://web.archive.org/web/20031019230254/http://www.dow.wau.nl/whh/daufin/"
+},
+{"datetime":"2003-12-24T23:48:56Z",
+"uri":"http://web.archive.org/web/20031224234856/http://www.dow.wau.nl/whh/daufin/"
+},
+{"datetime":"2004-04-17T12:13:15Z",
+"uri":"http://web.archive.org/web/20040417121315/http://www.dow.wau.nl/whh/daufin/"
+},
+{"datetime":"2004-09-05T18:58:50Z",
+"uri":"http://web.archive.org/web/20040905185850/http://www.dow.wau.nl/whh/daufin/"
+},
+{"datetime":"2005-01-02T06:44:40Z",
+"uri":"http://web.archive.org/web/20050102064440/http://www.dow.wau.nl/whh/daufin/"
+},
+{"datetime":"2005-02-25T19:44:57Z",
+"uri":"http://web.archive.org/web/20050225194457/http://www.dow.wau.nl/whh/daufin/"
+},
+{"datetime":"2005-04-16T00:37:11Z",
+"uri":"http://web.archive.org/web/20050416003711/http://www.dow.wau.nl/whh/daufin/"
+},
+{"datetime":"2008-02-02T03:48:29Z",
+"uri":"http://web.archive.org/web/20080202034829/http://www.dow.wau.nl/whh/daufin/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.dow.wau.nl/whh/daufin/"}
+ }

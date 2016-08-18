@@ -1,0 +1,53 @@
+{"original_uri":"http://www.telin.nl/cscw/coconet/enindex.htm",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.telin.nl/cscw/coconet/enindex.htm",
+"mementos": {
+"list": [
+{"datetime":"2002-08-17T16:28:17Z",
+"uri":"http://web.archive.org/web/20020817162817/http://www.telin.nl/CSCW/coconet/ENindex.htm"
+},
+{"datetime":"2002-10-01T10:01:43Z",
+"uri":"http://web.archive.org/web/20021001100143/http://www.telin.nl/CSCW/coconet/ENindex.htm"
+},
+{"datetime":"2003-02-17T05:49:33Z",
+"uri":"http://web.archive.org/web/20030217054933/http://www.telin.nl/CSCW/coconet/ENindex.htm"
+},
+{"datetime":"2003-04-01T09:04:00Z",
+"uri":"http://web.archive.org/web/20030401090400/http://www.telin.nl/CSCW/coconet/ENindex.htm"
+},
+{"datetime":"2003-06-22T05:33:22Z",
+"uri":"http://web.archive.org/web/20030622053322/http://www.telin.nl/CSCW/coconet/ENindex.htm"
+},
+{"datetime":"2003-08-06T18:27:43Z",
+"uri":"http://web.archive.org/web/20030806182743/http://www.telin.nl/CSCW/coconet/ENindex.htm"
+},
+{"datetime":"2003-10-02T13:25:35Z",
+"uri":"http://web.archive.org/web/20031002132535/http://www.telin.nl/CSCW/coconet/ENindex.htm"
+},
+{"datetime":"2003-12-07T15:20:25Z",
+"uri":"http://web.archive.org/web/20031207152025/http://www.telin.nl/CSCW/coconet/ENindex.htm"
+},
+{"datetime":"2004-04-26T23:59:39Z",
+"uri":"http://web.archive.org/web/20040426235939/http://www.telin.nl/CSCW/coconet/ENindex.htm"
+},
+{"datetime":"2004-06-07T05:57:55Z",
+"uri":"http://web.archive.org/web/20040607055755/http://www.telin.nl/CSCW/coconet/ENindex.htm"
+},
+{"datetime":"2004-08-20T14:04:52Z",
+"uri":"http://web.archive.org/web/20040820140452/http://www.telin.nl/CSCW/coconet/ENindex.htm"
+},
+{"datetime":"2004-12-17T16:11:34Z",
+"uri":"http://web.archive.org/web/20041217161134/http://www.telin.nl/CSCW/coconet/ENindex.htm"
+},
+{"datetime":"2005-02-06T04:26:01Z",
+"uri":"http://web.archive.org/web/20050206042601/http://www.telin.nl/CSCW/coconet/ENindex.htm"
+},
+{"datetime":"2005-04-10T00:41:59Z",
+"uri":"http://web.archive.org/web/20050410004159/http://www.telin.nl/CSCW/coconet/ENindex.htm"
+},
+{"datetime":"2008-03-21T04:15:11Z",
+"uri":"http://web.archive.org/web/20080321041511/http://www.telin.nl/CSCW/coconet/ENindex.htm"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.telin.nl/cscw/coconet/enindex.htm"}
+ }

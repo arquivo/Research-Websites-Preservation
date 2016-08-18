@@ -1,0 +1,50 @@
+{"original_uri":"http://www.btinternet.com/~web.key/impro/IMPRO.html",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.btinternet.com/~web.key/impro/IMPRO.html",
+"mementos": {
+"list": [
+{"datetime":"2000-09-01T06:32:28Z",
+"uri":"http://web.archive.org/web/20000901063228/http://www.btinternet.com/~web.key/impro/IMPRO.html"
+},
+{"datetime":"2001-03-08T21:11:17Z",
+"uri":"http://web.archive.org/web/20010308211117/http://www.btinternet.com/~web.key/impro/IMPRO.html"
+},
+{"datetime":"2001-04-07T13:12:44Z",
+"uri":"http://web.archive.org/web/20010407131244/http://www.btinternet.com/~web.key/impro/IMPRO.html"
+},
+{"datetime":"2001-11-22T07:50:33Z",
+"uri":"http://web.archive.org/web/20011122075033/http://www.btinternet.com/~web.key/impro/IMPRO.html"
+},
+{"datetime":"2002-03-07T02:58:08Z",
+"uri":"http://web.archive.org/web/20020307025808/http://www.btinternet.com/~web.key/impro/IMPRO.html"
+},
+{"datetime":"2002-06-02T19:01:37Z",
+"uri":"http://web.archive.org/web/20020602190137/http://www.btinternet.com/~web.key/impro/IMPRO.html"
+},
+{"datetime":"2003-02-21T21:03:16Z",
+"uri":"http://web.archive.org/web/20030221210316/http://www.btinternet.com/~web.key/impro/IMPRO.html"
+},
+{"datetime":"2003-05-29T21:00:48Z",
+"uri":"http://web.archive.org/web/20030529210048/http://www.btinternet.com/~web.key/impro/IMPRO.html"
+},
+{"datetime":"2003-10-25T14:12:44Z",
+"uri":"http://web.archive.org/web/20031025141244/http://www.btinternet.com/~web.key/impro/IMPRO.html"
+},
+{"datetime":"2003-12-25T22:45:02Z",
+"uri":"http://web.archive.org/web/20031225224502/http://www.btinternet.com/~web.key/impro/IMPRO.html"
+},
+{"datetime":"2004-08-08T02:39:01Z",
+"uri":"http://web.archive.org/web/20040808023901/http://www.btinternet.com/~web.key/impro/IMPRO.html"
+},
+{"datetime":"2004-12-11T07:29:17Z",
+"uri":"http://web.archive.org/web/20041211072917/http://www.btinternet.com/~web.key/impro/IMPRO.html"
+},
+{"datetime":"2005-02-10T16:42:52Z",
+"uri":"http://web.archive.org/web/20050210164252/http://www.btinternet.com/~web.key/impro/IMPRO.html"
+},
+{"datetime":"2005-03-10T22:37:01Z",
+"uri":"http://web.archive.org/web/20050310223701/http://www.btinternet.com/~web.key/impro/IMPRO.html"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.btinternet.com/~web.key/impro/IMPRO.html"}
+ }

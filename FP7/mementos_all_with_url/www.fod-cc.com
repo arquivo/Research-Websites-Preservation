@@ -1,0 +1,56 @@
+{"original_uri":"http://www.fod-cc.com/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.fod-cc.com/",
+"mementos": {
+"list": [
+{"datetime":"2011-11-13T01:41:34Z",
+"uri":"http://web.archive.org/web/20111113014134/http://www.fod-cc.com/"
+},
+{"datetime":"2011-12-13T17:49:27Z",
+"uri":"http://web.archive.org/web/20111213174927/http://www.fod-cc.com/"
+},
+{"datetime":"2012-01-18T03:30:03Z",
+"uri":"http://web.archive.org/web/20120118033003/http://www.fod-cc.com/"
+},
+{"datetime":"2012-06-21T03:18:43Z",
+"uri":"http://web.archive.org/web/20120621031843/http://fod-cc.com/"
+},
+{"datetime":"2012-07-26T04:55:21Z",
+"uri":"http://web.archive.org/web/20120726045521/http://fod-cc.com/"
+},
+{"datetime":"2012-08-26T04:56:51Z",
+"uri":"http://web.archive.org/web/20120826045651/http://fod-cc.com/"
+},
+{"datetime":"2013-05-09T07:00:27Z",
+"uri":"http://web.archive.org/web/20130509070027/http://fod-cc.com/"
+},
+{"datetime":"2013-06-01T07:21:43Z",
+"uri":"http://web.archive.org/web/20130601072143/http://fod-cc.com/"
+},
+{"datetime":"2013-12-31T14:58:25Z",
+"uri":"http://web.archive.org/web/20131231145825/http://fod-cc.com/"
+},
+{"datetime":"2014-05-17T14:55:26Z",
+"uri":"http://web.archive.org/web/20140517145526/http://fod-cc.com/"
+},
+{"datetime":"2014-12-17T10:31:34Z",
+"uri":"http://web.archive.org/web/20141217103134/http://fod-cc.com/"
+},
+{"datetime":"2015-08-01T17:50:39Z",
+"uri":"http://web.archive.org/web/20150801175039/http://fod-cc.com/"
+},
+{"datetime":"2016-01-13T03:52:24Z",
+"uri":"http://web.archive.org/web/20160113035224/http://fod-cc.com/"
+},
+{"datetime":"2016-03-06T17:20:02Z",
+"uri":"http://web.archive.org/web/20160306172002/http://fod-cc.com/"
+},
+{"datetime":"2016-04-03T23:01:25Z",
+"uri":"http://web.archive.org/web/20160403230125/http://fod-cc.com/"
+},
+{"datetime":"2016-04-30T17:36:25Z",
+"uri":"http://web.archive.org/web/20160430173625/http://fod-cc.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.fod-cc.com/"}
+ }

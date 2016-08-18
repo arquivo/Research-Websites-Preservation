@@ -1,0 +1,59 @@
+{"original_uri":"http://isis.rd.francetelecom.com/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://isis.rd.francetelecom.com/",
+"mementos": {
+"list": [
+{"datetime":"2004-01-04T01:19:46Z",
+"uri":"http://web.archive.org/web/20040104011946/http://isis.rd.francetelecom.com/"
+},
+{"datetime":"2004-02-26T20:49:10Z",
+"uri":"http://web.archive.org/web/20040226204910/http://isis.rd.francetelecom.com/"
+},
+{"datetime":"2004-06-03T13:20:33Z",
+"uri":"http://web.archive.org/web/20040603132033/http://isis.rd.francetelecom.com/"
+},
+{"datetime":"2004-06-17T06:28:34Z",
+"uri":"http://web.archive.org/web/20040617062834/http://isis.rd.francetelecom.com/"
+},
+{"datetime":"2004-08-31T11:54:33Z",
+"uri":"http://web.archive.org/web/20040831115433/http://isis.rd.francetelecom.com/"
+},
+{"datetime":"2004-09-01T00:13:39Z",
+"uri":"http://web.archive.org/web/20040901001339/http://isis.rd.francetelecom.com/"
+},
+{"datetime":"2004-09-26T21:59:07Z",
+"uri":"http://web.archive.org/web/20040926215907/http://isis.rd.francetelecom.com/"
+},
+{"datetime":"2004-12-13T13:42:30Z",
+"uri":"http://web.archive.org/web/20041213134230/http://isis.rd.francetelecom.com/"
+},
+{"datetime":"2005-01-22T18:48:36Z",
+"uri":"http://web.archive.org/web/20050122184836/http://isis.rd.francetelecom.com/"
+},
+{"datetime":"2005-03-12T22:35:04Z",
+"uri":"http://web.archive.org/web/20050312223504/http://isis.rd.francetelecom.com/"
+},
+{"datetime":"2005-04-13T03:03:46Z",
+"uri":"http://web.archive.org/web/20050413030346/http://isis.rd.francetelecom.com/"
+},
+{"datetime":"2005-09-06T04:26:20Z",
+"uri":"http://web.archive.org/web/20050906042620/http://isis.rd.francetelecom.com/"
+},
+{"datetime":"2005-09-13T17:43:54Z",
+"uri":"http://web.archive.org/web/20050913174354/http://isis.rd.francetelecom.com/"
+},
+{"datetime":"2005-12-25T12:05:37Z",
+"uri":"http://web.archive.org/web/20051225120537/http://isis.rd.francetelecom.com/"
+},
+{"datetime":"2006-04-10T03:09:42Z",
+"uri":"http://web.archive.org/web/20060410030942/http://isis.rd.francetelecom.com/"
+},
+{"datetime":"2007-01-07T03:49:13Z",
+"uri":"http://web.archive.org/web/20070107034913/http://isis.rd.francetelecom.com/"
+},
+{"datetime":"2014-02-03T00:44:21Z",
+"uri":"http://web.archive.org/web/20140203004421/http://isis.rd.francetelecom.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://isis.rd.francetelecom.com/"}
+ }

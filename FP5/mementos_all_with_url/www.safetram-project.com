@@ -1,0 +1,62 @@
+{"original_uri":"http://www.safetram-project.com",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.safetram-project.com",
+"mementos": {
+"list": [
+{"datetime":"2003-08-03T05:16:24Z",
+"uri":"http://web.archive.org/web/20030803051624/http://www.safetram-project.com/"
+},
+{"datetime":"2003-11-24T02:49:12Z",
+"uri":"http://web.archive.org/web/20031124024912/http://www.safetram-project.com/"
+},
+{"datetime":"2004-03-30T08:41:33Z",
+"uri":"http://web.archive.org/web/20040330084133/http://safetram-project.com/"
+},
+{"datetime":"2004-05-19T03:14:42Z",
+"uri":"http://web.archive.org/web/20040519031442/http://safetram-project.com/"
+},
+{"datetime":"2004-08-25T19:19:43Z",
+"uri":"http://web.archive.org/web/20040825191943/http://safetram-project.com/"
+},
+{"datetime":"2004-09-02T03:24:05Z",
+"uri":"http://web.archive.org/web/20040902032405/http://safetram-project.com/"
+},
+{"datetime":"2004-09-18T13:06:45Z",
+"uri":"http://web.archive.org/web/20040918130645/http://safetram-project.com/"
+},
+{"datetime":"2004-12-14T15:17:42Z",
+"uri":"http://web.archive.org/web/20041214151742/http://safetram-project.com/"
+},
+{"datetime":"2005-02-04T14:49:17Z",
+"uri":"http://web.archive.org/web/20050204144917/http://safetram-project.com/"
+},
+{"datetime":"2005-03-11T11:58:48Z",
+"uri":"http://web.archive.org/web/20050311115848/http://www.safetram-project.com/"
+},
+{"datetime":"2005-04-20T07:09:07Z",
+"uri":"http://web.archive.org/web/20050420070907/http://www.safetram-project.com/"
+},
+{"datetime":"2005-09-15T15:58:03Z",
+"uri":"http://web.archive.org/web/20050915155803/http://www.safetram-project.com/"
+},
+{"datetime":"2005-09-20T18:19:47Z",
+"uri":"http://web.archive.org/web/20050920181947/http://www.safetram-project.com/"
+},
+{"datetime":"2005-10-23T08:08:07Z",
+"uri":"http://web.archive.org/web/20051023080807/http://www.safetram-project.com/"
+},
+{"datetime":"2005-10-25T14:13:57Z",
+"uri":"http://web.archive.org/web/20051025141357/http://www.safetram-project.com/"
+},
+{"datetime":"2005-12-14T20:24:23Z",
+"uri":"http://web.archive.org/web/20051214202423/http://www.safetram-project.com/"
+},
+{"datetime":"2007-07-06T10:07:48Z",
+"uri":"http://web.archive.org/web/20070706100748/http://www.safetram-project.com/"
+},
+{"datetime":"2008-08-28T22:04:00Z",
+"uri":"http://web.archive.org/web/20080828220400/http://www.safetram-project.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.safetram-project.com"}
+ }

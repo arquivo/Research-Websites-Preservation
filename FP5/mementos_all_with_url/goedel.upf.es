@@ -1,0 +1,59 @@
+{"original_uri":"http://goedel.upf.es/EFA/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://goedel.upf.es/EFA/",
+"mementos": {
+"list": [
+{"datetime":"2001-03-05T19:16:00Z",
+"uri":"http://web.archive.org/web/20010305191600/http://www.goedel.upf.es/EFA"
+},
+{"datetime":"2001-04-07T01:53:53Z",
+"uri":"http://web.archive.org/web/20010407015353/http://www.goedel.upf.es/EFA"
+},
+{"datetime":"2001-08-03T12:19:50Z",
+"uri":"http://web.archive.org/web/20010803121950/http://www.goedel.upf.es/EFA"
+},
+{"datetime":"2002-02-06T16:03:30Z",
+"uri":"http://web.archive.org/web/20020206160330/http://www.goedel.upf.es/EFA"
+},
+{"datetime":"2002-04-05T03:23:55Z",
+"uri":"http://web.archive.org/web/20020405032355/http://goedel.upf.es/EFA"
+},
+{"datetime":"2002-08-02T20:38:36Z",
+"uri":"http://web.archive.org/web/20020802203836/http://www.goedel.upf.es/EFA"
+},
+{"datetime":"2002-10-16T21:00:10Z",
+"uri":"http://web.archive.org/web/20021016210010/http://www.goedel.upf.es/EFA"
+},
+{"datetime":"2002-12-12T10:03:28Z",
+"uri":"http://web.archive.org/web/20021212100328/http://www.goedel.upf.es/EFA"
+},
+{"datetime":"2003-01-15T20:59:15Z",
+"uri":"http://web.archive.org/web/20030115205915/http://goedel.upf.es/efa/"
+},
+{"datetime":"2003-04-13T21:58:09Z",
+"uri":"http://web.archive.org/web/20030413215809/http://goedel.upf.es/EFA"
+},
+{"datetime":"2003-06-27T02:11:58Z",
+"uri":"http://web.archive.org/web/20030627021158/http://goedel.upf.es/EFA"
+},
+{"datetime":"2003-07-07T05:08:09Z",
+"uri":"http://web.archive.org/web/20030707050809/http://www.goedel.upf.es/EFA/"
+},
+{"datetime":"2003-07-13T15:19:23Z",
+"uri":"http://web.archive.org/web/20030713151923/http://www.goedel.upf.es/EFA"
+},
+{"datetime":"2004-09-05T00:13:08Z",
+"uri":"http://web.archive.org/web/20040905001308/http://goedel.upf.es/efa/"
+},
+{"datetime":"2004-10-11T01:17:05Z",
+"uri":"http://web.archive.org/web/20041011011705/http://goedel.upf.es/EFA"
+},
+{"datetime":"2004-11-12T11:30:08Z",
+"uri":"http://web.archive.org/web/20041112113008/http://goedel.upf.es/efa/"
+},
+{"datetime":"2005-10-18T14:09:32Z",
+"uri":"http://web.archive.org/web/20051018140932/http://goedel.upf.es/EFA"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://goedel.upf.es/EFA/"}
+ }

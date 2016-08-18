@@ -1,0 +1,65 @@
+{"original_uri":"http://value.teleatlas.com",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://value.teleatlas.com",
+"mementos": {
+"list": [
+{"datetime":"2002-12-26T18:47:51Z",
+"uri":"http://web.archive.org/web/20021226184751/http://value.teleatlas.com/"
+},
+{"datetime":"2003-02-11T20:32:17Z",
+"uri":"http://web.archive.org/web/20030211203217/http://value.teleatlas.com/"
+},
+{"datetime":"2003-04-08T04:00:56Z",
+"uri":"http://web.archive.org/web/20030408040056/http://value.teleatlas.com/"
+},
+{"datetime":"2003-05-24T00:21:05Z",
+"uri":"http://web.archive.org/web/20030524002105/http://value.teleatlas.com/"
+},
+{"datetime":"2003-06-23T08:27:08Z",
+"uri":"http://web.archive.org/web/20030623082708/http://value.teleatlas.com/"
+},
+{"datetime":"2003-08-02T22:05:57Z",
+"uri":"http://web.archive.org/web/20030802220557/http://value.teleatlas.com/"
+},
+{"datetime":"2003-10-14T22:57:14Z",
+"uri":"http://web.archive.org/web/20031014225714/http://value.teleatlas.com/"
+},
+{"datetime":"2003-11-27T04:53:26Z",
+"uri":"http://web.archive.org/web/20031127045326/http://value.teleatlas.com/"
+},
+{"datetime":"2004-01-24T14:21:25Z",
+"uri":"http://web.archive.org/web/20040124142125/http://value.teleatlas.com/"
+},
+{"datetime":"2004-06-05T05:29:18Z",
+"uri":"http://web.archive.org/web/20040605052918/http://value.teleatlas.com/"
+},
+{"datetime":"2004-06-08T18:02:04Z",
+"uri":"http://web.archive.org/web/20040608180204/http://value.teleatlas.com/"
+},
+{"datetime":"2004-08-01T22:05:06Z",
+"uri":"http://web.archive.org/web/20040801220506/http://value.teleatlas.com/"
+},
+{"datetime":"2004-09-04T16:40:05Z",
+"uri":"http://web.archive.org/web/20040904164005/http://value.teleatlas.com/"
+},
+{"datetime":"2004-09-24T22:41:27Z",
+"uri":"http://web.archive.org/web/20040924224127/http://value.teleatlas.com/"
+},
+{"datetime":"2004-10-28T08:11:14Z",
+"uri":"http://web.archive.org/web/20041028081114/http://value.teleatlas.com/"
+},
+{"datetime":"2004-11-30T00:56:45Z",
+"uri":"http://web.archive.org/web/20041130005645/http://value.teleatlas.com/"
+},
+{"datetime":"2005-01-30T04:23:38Z",
+"uri":"http://web.archive.org/web/20050130042338/http://value.teleatlas.com/"
+},
+{"datetime":"2005-02-05T17:59:17Z",
+"uri":"http://web.archive.org/web/20050205175917/http://value.teleatlas.com/"
+},
+{"datetime":"2005-02-12T02:51:49Z",
+"uri":"http://web.archive.org/web/20050212025149/http://value.teleatlas.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://value.teleatlas.com"}
+ }

@@ -1,0 +1,65 @@
+{"original_uri":"http://www.biosys-project.com/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.biosys-project.com/",
+"mementos": {
+"list": [
+{"datetime":"2007-02-11T18:23:40Z",
+"uri":"http://web.archive.org/web/20070211182340/http://www.biosys-project.com/"
+},
+{"datetime":"2007-02-14T10:01:18Z",
+"uri":"http://web.archive.org/web/20070214100118/http://www.biosys-project.com/"
+},
+{"datetime":"2007-04-02T23:49:12Z",
+"uri":"http://web.archive.org/web/20070402234912/http://www.biosys-project.com/"
+},
+{"datetime":"2007-12-08T13:19:17Z",
+"uri":"http://web.archive.org/web/20071208131917/http://www.biosys-project.com/"
+},
+{"datetime":"2007-12-08T13:19:17Z",
+"uri":"http://web.archive.bibalex.org:80/web/20071208131917/http://www.biosys-project.com/"
+},
+{"datetime":"2008-01-08T08:00:09Z",
+"uri":"http://web.archive.org/web/20080108080009/http://www.biosys-project.com/"
+},
+{"datetime":"2008-02-08T05:35:15Z",
+"uri":"http://web.archive.org/web/20080208053515/http://www.biosys-project.com/"
+},
+{"datetime":"2008-03-10T22:33:17Z",
+"uri":"http://web.archive.org/web/20080310223317/http://www.biosys-project.com/"
+},
+{"datetime":"2008-04-10T15:42:07Z",
+"uri":"http://web.archive.org/web/20080410154207/http://www.biosys-project.com/"
+},
+{"datetime":"2008-06-18T18:19:18Z",
+"uri":"http://web.archive.org/web/20080618181918/http://www.biosys-project.com/"
+},
+{"datetime":"2008-10-11T11:47:16Z",
+"uri":"http://web.archive.org/web/20081011114716/http://www.biosys-project.com/"
+},
+{"datetime":"2013-05-20T22:41:50Z",
+"uri":"http://web.archive.org/web/20130520224150/http://biosys-project.com/"
+},
+{"datetime":"2014-05-16T23:14:27Z",
+"uri":"http://web.archive.org/web/20140516231427/http://biosys-project.com/"
+},
+{"datetime":"2014-12-16T22:39:09Z",
+"uri":"http://web.archive.org/web/20141216223909/http://biosys-project.com/"
+},
+{"datetime":"2015-08-01T01:30:16Z",
+"uri":"http://web.archive.org/web/20150801013016/http://biosys-project.com/"
+},
+{"datetime":"2016-01-09T12:16:52Z",
+"uri":"http://web.archive.org/web/20160109121652/http://biosys-project.com/"
+},
+{"datetime":"2016-03-05T06:36:54Z",
+"uri":"http://web.archive.org/web/20160305063654/http://biosys-project.com/"
+},
+{"datetime":"2016-03-12T08:55:39Z",
+"uri":"http://web.archive.org/web/20160312085539/http://www.biosys-project.com/"
+},
+{"datetime":"2016-03-19T06:52:47Z",
+"uri":"http://web.archive.org/web/20160319065247/http://www.biosys-project.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.biosys-project.com/"}
+ }

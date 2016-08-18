@@ -1,0 +1,50 @@
+{"original_uri":"http://www.lllightineurope.com/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.lllightineurope.com/",
+"mementos": {
+"list": [
+{"datetime":"2012-10-26T06:44:19Z",
+"uri":"http://web.archive.org/web/20121026064419/http://www.lllightineurope.com/"
+},
+{"datetime":"2013-04-19T07:44:50Z",
+"uri":"http://web.archive.org/web/20130419074450/http://www.lllightineurope.com"
+},
+{"datetime":"2013-06-09T13:27:31Z",
+"uri":"http://web.archive.org/web/20130609132731/http://lllightineurope.com/"
+},
+{"datetime":"2013-10-07T13:37:41Z",
+"uri":"http://web.archive.org/web/20131007133741/http://www.lllightineurope.com/"
+},
+{"datetime":"2014-01-03T21:49:08Z",
+"uri":"http://web.archive.org/web/20140103214908/http://lllightineurope.com/"
+},
+{"datetime":"2014-02-08T00:22:46Z",
+"uri":"http://web.archive.org/web/20140208002246/http://www.lllightineurope.com/"
+},
+{"datetime":"2014-05-17T17:57:14Z",
+"uri":"http://web.archive.org/web/20140517175714/http://lllightineurope.com/"
+},
+{"datetime":"2014-12-17T14:34:26Z",
+"uri":"http://web.archive.org/web/20141217143426/http://lllightineurope.com/"
+},
+{"datetime":"2014-12-20T09:51:41Z",
+"uri":"http://web.archive.org/web/20141220095141/http://www.lllightineurope.com/"
+},
+{"datetime":"2015-08-01T20:40:58Z",
+"uri":"http://web.archive.org/web/20150801204058/http://lllightineurope.com/"
+},
+{"datetime":"2016-01-26T19:04:05Z",
+"uri":"http://web.archive.org/web/20160126190405/http://www.lllightineurope.com/"
+},
+{"datetime":"2016-02-02T21:38:05Z",
+"uri":"http://web.archive.org/web/20160202213805/http://www.lllightineurope.com/"
+},
+{"datetime":"2016-03-13T21:07:29Z",
+"uri":"http://web.archive.org/web/20160313210729/http://lllightineurope.com/"
+},
+{"datetime":"2016-04-04T16:45:24Z",
+"uri":"http://web.archive.org/web/20160404164524/http://www.lllightineurope.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.lllightineurope.com/"}
+ }

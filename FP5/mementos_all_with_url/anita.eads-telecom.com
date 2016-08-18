@@ -1,0 +1,65 @@
+{"original_uri":"http://anita.eads-telecom.com/anita/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://anita.eads-telecom.com/anita/",
+"mementos": {
+"list": [
+{"datetime":"2003-02-21T23:16:42Z",
+"uri":"http://web.archive.org/web/20030221231642/http://anita.eads-telecom.com/anita/"
+},
+{"datetime":"2003-04-28T17:05:28Z",
+"uri":"http://web.archive.org/web/20030428170528/http://anita.eads-telecom.com/anita/"
+},
+{"datetime":"2003-07-07T05:12:31Z",
+"uri":"http://web.archive.org/web/20030707051231/http://anita.eads-telecom.com/anita/"
+},
+{"datetime":"2003-08-10T20:47:25Z",
+"uri":"http://web.archive.org/web/20030810204725/http://anita.eads-telecom.com/anita/"
+},
+{"datetime":"2003-10-16T04:55:07Z",
+"uri":"http://web.archive.org/web/20031016045507/http://anita.eads-telecom.com/anita/"
+},
+{"datetime":"2003-12-15T12:26:06Z",
+"uri":"http://web.archive.org/web/20031215122606/http://anita.eads-telecom.com/anita/"
+},
+{"datetime":"2004-02-13T21:05:21Z",
+"uri":"http://web.archive.org/web/20040213210521/http://anita.eads-telecom.com/anita/"
+},
+{"datetime":"2004-04-15T14:37:15Z",
+"uri":"http://web.archive.org/web/20040415143715/http://anita.eads-telecom.com/anita/"
+},
+{"datetime":"2004-04-15T14:38:46Z",
+"uri":"http://web.archive.org/web/20040415143846/http://anita.eads-telecom.com/anita"
+},
+{"datetime":"2004-06-09T15:36:27Z",
+"uri":"http://web.archive.org/web/20040609153627/http://anita.eads-telecom.com/anita/"
+},
+{"datetime":"2004-07-17T05:30:38Z",
+"uri":"http://web.archive.org/web/20040717053038/http://anita.eads-telecom.com/anita"
+},
+{"datetime":"2004-08-14T08:32:16Z",
+"uri":"http://web.archive.org/web/20040814083216/http://anita.eads-telecom.com/anita/"
+},
+{"datetime":"2004-10-10T04:23:44Z",
+"uri":"http://web.archive.org/web/20041010042344/http://anita.eads-telecom.com/anita/"
+},
+{"datetime":"2004-10-25T07:24:58Z",
+"uri":"http://web.archive.org/web/20041025072458/http://anita.eads-telecom.com/anita"
+},
+{"datetime":"2005-04-14T02:15:58Z",
+"uri":"http://web.archive.org/web/20050414021558/http://anita.eads-telecom.com/anita/"
+},
+{"datetime":"2005-05-05T18:01:43Z",
+"uri":"http://web.archive.org/web/20050505180143/http://anita.eads-telecom.com/anita"
+},
+{"datetime":"2005-09-09T22:36:03Z",
+"uri":"http://web.archive.org/web/20050909223603/http://anita.eads-telecom.com/anita/"
+},
+{"datetime":"2006-01-05T20:24:42Z",
+"uri":"http://web.archive.org/web/20060105202442/http://anita.eads-telecom.com/anita/"
+},
+{"datetime":"2008-03-21T02:41:41Z",
+"uri":"http://web.archive.org/web/20080321024141/http://anita.eads-telecom.com/anita/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://anita.eads-telecom.com/anita/"}
+ }

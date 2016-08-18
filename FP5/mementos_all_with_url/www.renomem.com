@@ -1,0 +1,59 @@
+{"original_uri":"http://www.renomem.com",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.renomem.com",
+"mementos": {
+"list": [
+{"datetime":"2002-05-29T15:09:28Z",
+"uri":"http://web.archive.org/web/20020529150928/http://www.renomem.com/"
+},
+{"datetime":"2002-08-08T14:31:28Z",
+"uri":"http://web.archive.org/web/20020808143128/http://www.renomem.com/"
+},
+{"datetime":"2002-09-30T00:29:49Z",
+"uri":"http://web.archive.org/web/20020930002949/http://www.renomem.com/"
+},
+{"datetime":"2002-12-01T01:29:48Z",
+"uri":"http://web.archive.org/web/20021201012948/http://www.renomem.com/"
+},
+{"datetime":"2004-05-24T18:53:26Z",
+"uri":"http://web.archive.org/web/20040524185326/http://renomem.com/"
+},
+{"datetime":"2004-05-26T22:27:58Z",
+"uri":"http://web.archive.org/web/20040526222758/http://www.renomem.com/"
+},
+{"datetime":"2004-08-28T08:01:54Z",
+"uri":"http://web.archive.org/web/20040828080154/http://www.renomem.com/"
+},
+{"datetime":"2004-08-29T15:20:51Z",
+"uri":"http://web.archive.org/web/20040829152051/http://renomem.com/"
+},
+{"datetime":"2004-09-26T06:00:02Z",
+"uri":"http://web.archive.org/web/20040926060002/http://renomem.com/"
+},
+{"datetime":"2004-09-26T06:09:59Z",
+"uri":"http://web.archive.org/web/20040926060959/http://www.renomem.com/"
+},
+{"datetime":"2004-12-03T09:21:01Z",
+"uri":"http://web.archive.org/web/20041203092101/http://www.renomem.com/"
+},
+{"datetime":"2004-12-16T07:27:52Z",
+"uri":"http://web.archive.org/web/20041216072752/http://renomem.com/"
+},
+{"datetime":"2005-01-28T22:42:37Z",
+"uri":"http://web.archive.org/web/20050128224237/http://renomem.com/"
+},
+{"datetime":"2005-02-09T18:08:16Z",
+"uri":"http://web.archive.org/web/20050209180816/http://www.renomem.com/"
+},
+{"datetime":"2014-12-18T05:30:18Z",
+"uri":"http://web.archive.org/web/20141218053018/http://renomem.com/"
+},
+{"datetime":"2016-01-10T17:18:39Z",
+"uri":"http://web.archive.org/web/20160110171839/http://renomem.com/"
+},
+{"datetime":"2016-03-06T11:02:09Z",
+"uri":"http://web.archive.org/web/20160306110209/http://renomem.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.renomem.com"}
+ }

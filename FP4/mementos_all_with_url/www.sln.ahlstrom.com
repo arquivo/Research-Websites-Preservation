@@ -1,0 +1,50 @@
+{"original_uri":"http://www.sln.ahlstrom.com/infopaso.htm",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.sln.ahlstrom.com/infopaso.htm",
+"mementos": {
+"list": [
+{"datetime":"1997-02-04T14:29:55Z",
+"uri":"http://web.archive.org/web/19970204142955/http://www.sln.ahlstrom.com/infopaso.htm"
+},
+{"datetime":"1997-04-12T14:51:28Z",
+"uri":"http://web.archive.org/web/19970412145128/http://www.sln.ahlstrom.com/infopaso.htm"
+},
+{"datetime":"1998-02-07T15:56:12Z",
+"uri":"http://web.archive.org/web/19980207155612/http://www.sln.ahlstrom.com/infopaso.htm"
+},
+{"datetime":"1998-05-22T23:02:38Z",
+"uri":"http://web.archive.org/web/19980522230238/http://www.sln.ahlstrom.com/infopaso.htm"
+},
+{"datetime":"1998-12-06T12:41:41Z",
+"uri":"http://web.archive.org/web/19981206124141/http://www.sln.ahlstrom.com/infopaso.htm"
+},
+{"datetime":"1999-02-18T09:04:20Z",
+"uri":"http://web.archive.org/web/19990218090420/http://www.sln.ahlstrom.com/infopaso.htm"
+},
+{"datetime":"1999-10-12T08:50:00Z",
+"uri":"http://web.archive.org/web/19991012085000/http://www.sln.ahlstrom.com/infopaso.htm"
+},
+{"datetime":"1999-11-12T17:32:34Z",
+"uri":"http://web.archive.org/web/19991112173234/http://www.sln.ahlstrom.com/infopaso.htm"
+},
+{"datetime":"2000-03-10T22:11:21Z",
+"uri":"http://web.archive.org/web/20000310221121/http://www.sln.ahlstrom.com/infopaso.htm"
+},
+{"datetime":"2000-06-11T13:28:20Z",
+"uri":"http://web.archive.org/web/20000611132820/http://www.sln.ahlstrom.com/infopaso.htm"
+},
+{"datetime":"2000-09-01T06:32:30Z",
+"uri":"http://web.archive.org/web/20000901063230/http://www.sln.ahlstrom.com/infopaso.htm"
+},
+{"datetime":"2000-10-15T13:47:56Z",
+"uri":"http://web.archive.org/web/20001015134756/http://www.sln.ahlstrom.com/infopaso.htm"
+},
+{"datetime":"2001-03-06T21:36:34Z",
+"uri":"http://web.archive.org/web/20010306213634/http://www.sln.ahlstrom.com/infopaso.htm"
+},
+{"datetime":"2001-04-07T19:55:56Z",
+"uri":"http://web.archive.org/web/20010407195556/http://www.sln.ahlstrom.com/infopaso.htm"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.sln.ahlstrom.com/infopaso.htm"}
+ }

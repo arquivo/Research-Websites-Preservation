@@ -1,0 +1,65 @@
+{"original_uri":"http://www.pssb.amu.edu.pl",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.pssb.amu.edu.pl",
+"mementos": {
+"list": [
+{"datetime":"2006-10-16T19:34:32Z",
+"uri":"http://web.archive.org/web/20061016193432/http://pssb.amu.edu.pl/"
+},
+{"datetime":"2006-12-20T01:19:31Z",
+"uri":"http://web.archive.org/web/20061220011931/http://pssb.amu.edu.pl/"
+},
+{"datetime":"2007-05-18T06:34:40Z",
+"uri":"http://web.archive.org/web/20070518063440/http://pssb.amu.edu.pl/"
+},
+{"datetime":"2007-05-18T06:59:03Z",
+"uri":"http://web.archive.org/web/20070518065903/http://pssb.amu.edu.pl/"
+},
+{"datetime":"2007-06-18T08:27:07Z",
+"uri":"http://web.archive.org/web/20070618082707/http://pssb.amu.edu.pl/"
+},
+{"datetime":"2007-07-10T17:04:15Z",
+"uri":"http://web.archive.org/web/20070710170415/http://pssb.amu.edu.pl/"
+},
+{"datetime":"2007-09-22T23:33:00Z",
+"uri":"http://web.archive.org/web/20070922233300/http://pssb.amu.edu.pl/"
+},
+{"datetime":"2007-09-22T23:33:00Z",
+"uri":"http://web.archive.bibalex.org:80/web/20070922233300/http://pssb.amu.edu.pl/"
+},
+{"datetime":"2007-10-28T10:19:13Z",
+"uri":"http://web.archive.org/web/20071028101913/http://pssb.amu.edu.pl/"
+},
+{"datetime":"2007-10-28T10:19:13Z",
+"uri":"http://web.archive.bibalex.org:80/web/20071028101913/http://pssb.amu.edu.pl/"
+},
+{"datetime":"2007-11-28T11:01:52Z",
+"uri":"http://web.archive.org/web/20071128110152/http://pssb.amu.edu.pl/"
+},
+{"datetime":"2007-11-28T11:01:52Z",
+"uri":"http://web.archive.bibalex.org:80/web/20071128110152/http://pssb.amu.edu.pl/"
+},
+{"datetime":"2007-12-29T09:53:37Z",
+"uri":"http://web.archive.org/web/20071229095337/http://pssb.amu.edu.pl/"
+},
+{"datetime":"2007-12-29T09:53:37Z",
+"uri":"http://web.archive.bibalex.org:80/web/20071229095337/http://pssb.amu.edu.pl/"
+},
+{"datetime":"2008-12-11T00:10:30Z",
+"uri":"http://web.archive.org/web/20081211001030/http://pssb.amu.edu.pl/"
+},
+{"datetime":"2009-06-05T07:03:03Z",
+"uri":"http://web.archive.org/web/20090605070303/http://pssb.amu.edu.pl/"
+},
+{"datetime":"2010-03-01T07:43:29Z",
+"uri":"http://web.archive.org/web/20100301074329/http://pssb.amu.edu.pl/"
+},
+{"datetime":"2010-04-14T06:27:46Z",
+"uri":"http://web.archive.org/web/20100414062746/http://pssb.amu.edu.pl/"
+},
+{"datetime":"2011-09-12T16:38:26Z",
+"uri":"http://web.archive.org/web/20110912163826/http://pssb.amu.edu.pl/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.pssb.amu.edu.pl"}
+ }

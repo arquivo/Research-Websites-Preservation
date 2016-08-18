@@ -1,0 +1,65 @@
+{"original_uri":"http://www.ecoadm.ccs.es/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.ecoadm.ccs.es/",
+"mementos": {
+"list": [
+{"datetime":"2001-04-05T13:51:23Z",
+"uri":"http://web.archive.org/web/20010405135123/http://ecoadm.ccs.es/"
+},
+{"datetime":"2001-05-19T08:44:19Z",
+"uri":"http://web.archive.org/web/20010519084419/http://ecoadm.ccs.es/"
+},
+{"datetime":"2001-12-03T08:06:31Z",
+"uri":"http://web.archive.org/web/20011203080631/http://ecoadm.ccs.es/"
+},
+{"datetime":"2002-08-11T09:21:24Z",
+"uri":"http://web.archive.org/web/20020811092124/http://ecoadm.ccs.es/"
+},
+{"datetime":"2002-10-16T17:42:11Z",
+"uri":"http://web.archive.org/web/20021016174211/http://ecoadm.ccs.es/"
+},
+{"datetime":"2002-12-01T00:57:58Z",
+"uri":"http://web.archive.org/web/20021201005758/http://ecoadm.ccs.es/"
+},
+{"datetime":"2003-02-11T13:02:49Z",
+"uri":"http://web.archive.org/web/20030211130249/http://ecoadm.ccs.es/"
+},
+{"datetime":"2003-04-21T20:42:43Z",
+"uri":"http://web.archive.org/web/20030421204243/http://ecoadm.ccs.es/"
+},
+{"datetime":"2003-06-20T17:05:12Z",
+"uri":"http://web.archive.org/web/20030620170512/http://ecoadm.ccs.es/"
+},
+{"datetime":"2003-08-11T01:54:35Z",
+"uri":"http://web.archive.org/web/20030811015435/http://ecoadm.ccs.es/"
+},
+{"datetime":"2003-10-13T23:19:39Z",
+"uri":"http://web.archive.org/web/20031013231939/http://ecoadm.ccs.es/"
+},
+{"datetime":"2003-12-23T03:02:09Z",
+"uri":"http://web.archive.org/web/20031223030209/http://ecoadm.ccs.es/"
+},
+{"datetime":"2003-12-24T04:09:42Z",
+"uri":"http://web.archive.org/web/20031224040942/http://ecoadm.ccs.es/"
+},
+{"datetime":"2004-06-08T13:51:46Z",
+"uri":"http://web.archive.org/web/20040608135146/http://ecoadm.ccs.es/"
+},
+{"datetime":"2004-10-14T01:43:01Z",
+"uri":"http://web.archive.org/web/20041014014301/http://ecoadm.ccs.es/"
+},
+{"datetime":"2004-11-27T03:14:42Z",
+"uri":"http://web.archive.org/web/20041127031442/http://ecoadm.ccs.es/"
+},
+{"datetime":"2005-01-31T13:26:14Z",
+"uri":"http://web.archive.org/web/20050131132614/http://ecoadm.ccs.es/"
+},
+{"datetime":"2005-03-18T00:23:21Z",
+"uri":"http://web.archive.org/web/20050318002321/http://ecoadm.ccs.es/"
+},
+{"datetime":"2005-04-03T20:03:47Z",
+"uri":"http://web.archive.org/web/20050403200347/http://ecoadm.ccs.es/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.ecoadm.ccs.es/"}
+ }

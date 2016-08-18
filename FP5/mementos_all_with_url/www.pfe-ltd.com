@@ -1,0 +1,53 @@
+{"original_uri":"http://www.pfe-ltd.com/prindis.html",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.pfe-ltd.com/prindis.html",
+"mementos": {
+"list": [
+{"datetime":"2001-10-25T22:37:53Z",
+"uri":"http://web.archive.org/web/20011025223753/http://www.pfe-ltd.com/prindis.html"
+},
+{"datetime":"2001-12-23T06:11:47Z",
+"uri":"http://web.archive.org/web/20011223061147/http://www.pfe-ltd.com/prindis.html"
+},
+{"datetime":"2002-06-10T10:23:07Z",
+"uri":"http://web.archive.org/web/20020610102307/http://www.pfe-ltd.com/prindis.html"
+},
+{"datetime":"2002-10-05T02:21:50Z",
+"uri":"http://web.archive.org/web/20021005022150/http://www.pfe-ltd.com/prindis.html"
+},
+{"datetime":"2002-12-27T10:58:57Z",
+"uri":"http://web.archive.org/web/20021227105857/http://www.pfe-ltd.com/prindis.html"
+},
+{"datetime":"2003-03-27T01:39:42Z",
+"uri":"http://web.archive.org/web/20030327013942/http://www.pfe-ltd.com/prindis.html"
+},
+{"datetime":"2003-04-07T21:57:43Z",
+"uri":"http://web.archive.org/web/20030407215743/http://www.pfe-ltd.com/prindis.html"
+},
+{"datetime":"2003-10-13T01:07:01Z",
+"uri":"http://web.archive.org/web/20031013010701/http://www.pfe-ltd.com/prindis.html"
+},
+{"datetime":"2004-01-09T23:36:10Z",
+"uri":"http://web.archive.org/web/20040109233610/http://www.pfe-ltd.com/prindis.html"
+},
+{"datetime":"2004-02-24T22:59:21Z",
+"uri":"http://web.archive.org/web/20040224225921/http://www.pfe-ltd.com/prindis.html"
+},
+{"datetime":"2004-05-02T20:18:41Z",
+"uri":"http://web.archive.org/web/20040502201841/http://www.pfe-ltd.com/prindis.html"
+},
+{"datetime":"2004-06-16T13:41:12Z",
+"uri":"http://web.archive.org/web/20040616134112/http://www.pfe-ltd.com/prindis.html"
+},
+{"datetime":"2004-08-18T05:32:38Z",
+"uri":"http://web.archive.org/web/20040818053238/http://www.pfe-ltd.com/prindis.html"
+},
+{"datetime":"2004-10-16T14:45:29Z",
+"uri":"http://web.archive.org/web/20041016144529/http://www.pfe-ltd.com/prindis.html"
+},
+{"datetime":"2005-02-08T09:23:44Z",
+"uri":"http://web.archive.org/web/20050208092344/http://www.pfe-ltd.com/prindis.html"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.pfe-ltd.com/prindis.html"}
+ }

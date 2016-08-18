@@ -1,0 +1,50 @@
+{"original_uri":"http://www.biorefinery.nl/biopol/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.biorefinery.nl/biopol/",
+"mementos": {
+"list": [
+{"datetime":"2008-05-17T23:00:31Z",
+"uri":"http://web.archive.org/web/20080517230031/http://www.biorefinery.nl/biopol/"
+},
+{"datetime":"2010-01-11T18:36:30Z",
+"uri":"http://web.archive.org/web/20100111183630/http://www.biorefinery.nl/biopol/"
+},
+{"datetime":"2010-04-05T22:25:13Z",
+"uri":"http://web.archive.org/web/20100405222513/http://www.biorefinery.nl/biopol"
+},
+{"datetime":"2011-06-05T02:33:11Z",
+"uri":"http://web.archive.org/web/20110605023311/http://www.biorefinery.nl/biopol/"
+},
+{"datetime":"2011-08-26T03:20:27Z",
+"uri":"http://web.archive.org/web/20110826032027/http://www.biorefinery.nl/biopol"
+},
+{"datetime":"2011-08-27T10:16:34Z",
+"uri":"http://web.archive.org/web/20110827101634/http://www.biorefinery.nl/biopol"
+},
+{"datetime":"2012-02-20T01:04:31Z",
+"uri":"http://web.archive.org/web/20120220010431/http://www.biorefinery.nl/biopol/"
+},
+{"datetime":"2013-10-24T22:31:04Z",
+"uri":"http://web.archive.org/web/20131024223104/http://www.biorefinery.nl/biopol/"
+},
+{"datetime":"2014-02-21T17:03:06Z",
+"uri":"http://web.archive.org/web/20140221170306/http://www.biorefinery.nl/biopol"
+},
+{"datetime":"2014-03-02T20:51:50Z",
+"uri":"http://web.archive.org/web/20140302205150/http://www.biorefinery.nl/biopol/"
+},
+{"datetime":"2014-07-29T19:32:35Z",
+"uri":"http://web.archive.org/web/20140729193235/http://www.biorefinery.nl/biopol/"
+},
+{"datetime":"2014-08-23T09:22:17Z",
+"uri":"http://web.archive.org/web/20140823092217/http://www.biorefinery.nl/biopol/"
+},
+{"datetime":"2015-04-16T07:19:21Z",
+"uri":"http://web.archive.org/web/20150416071921/http://www.biorefinery.nl/biopol/"
+},
+{"datetime":"2016-03-29T12:22:52Z",
+"uri":"http://web.archive.org/web/20160329122252/http://www.biorefinery.nl/biopol/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.biorefinery.nl/biopol/"}
+ }

@@ -1,0 +1,56 @@
+{"original_uri":"http://www.wintur-project.com",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.wintur-project.com",
+"mementos": {
+"list": [
+{"datetime":"2009-12-17T08:42:17Z",
+"uri":"http://web.archive.org/web/20091217084217/http://www.wintur-project.com/"
+},
+{"datetime":"2010-01-17T21:42:54Z",
+"uri":"http://web.archive.org/web/20100117214254/http://www.wintur-project.com/"
+},
+{"datetime":"2010-02-25T10:14:56Z",
+"uri":"http://web.archive.org/web/20100225101456/http://www.wintur-project.com/"
+},
+{"datetime":"2010-03-28T19:46:47Z",
+"uri":"http://web.archive.org/web/20100328194647/http://www.wintur-project.com/"
+},
+{"datetime":"2010-05-05T00:17:17Z",
+"uri":"http://web.archive.org/web/20100505001717/http://www.wintur-project.com/"
+},
+{"datetime":"2010-06-12T09:36:56Z",
+"uri":"http://web.archive.org/web/20100612093656/http://www.wintur-project.com/"
+},
+{"datetime":"2010-07-22T03:03:45Z",
+"uri":"http://web.archive.org/web/20100722030345/http://www.wintur-project.com/"
+},
+{"datetime":"2010-08-26T09:06:41Z",
+"uri":"http://web.archive.org/web/20100826090641/http://www.wintur-project.com/"
+},
+{"datetime":"2011-02-08T18:29:34Z",
+"uri":"http://web.archive.org/web/20110208182934/http://wintur-project.com/"
+},
+{"datetime":"2012-03-18T00:03:46Z",
+"uri":"http://web.archive.org/web/20120318000346/http://www.wintur-project.com/"
+},
+{"datetime":"2014-01-05T08:47:17Z",
+"uri":"http://web.archive.org/web/20140105084717/http://wintur-project.com/"
+},
+{"datetime":"2014-03-29T04:03:47Z",
+"uri":"http://web.archive.org/web/20140329040347/http://www.wintur-project.com/"
+},
+{"datetime":"2014-09-06T11:28:49Z",
+"uri":"http://web.archive.org/web/20140906112849/http://www.wintur-project.com/"
+},
+{"datetime":"2014-12-18T15:44:12Z",
+"uri":"http://web.archive.org/web/20141218154412/http://wintur-project.com/"
+},
+{"datetime":"2015-10-11T05:17:54Z",
+"uri":"http://web.archive.org/web/20151011051754/http://wintur-project.com/"
+},
+{"datetime":"2016-03-06T03:34:18Z",
+"uri":"http://web.archive.org/web/20160306033418/http://wintur-project.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.wintur-project.com"}
+ }

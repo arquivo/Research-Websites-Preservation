@@ -1,0 +1,53 @@
+{"original_uri":"http://in.umh.es/grupos-detalle.aspx?grupo=7",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://in.umh.es/grupos-detalle.aspx?grupo=7",
+"mementos": {
+"list": [
+{"datetime":"2009-03-07T16:20:20Z",
+"uri":"http://web.archive.org/web/20090307162020/http://in.umh.es/grupos-detalle.aspx?grupo=7"
+},
+{"datetime":"2009-05-30T05:07:10Z",
+"uri":"http://web.archive.org/web/20090530050710/http://in.umh.es/grupos-detalle.aspx?grupo=7"
+},
+{"datetime":"2009-12-19T07:59:52Z",
+"uri":"http://web.archive.org/web/20091219075952/http://in.umh.es/grupos-detalle.aspx?grupo=7"
+},
+{"datetime":"2010-04-04T05:23:12Z",
+"uri":"http://web.archive.org/web/20100404052312/http://in.umh.es/grupos-detalle.aspx?grupo=7"
+},
+{"datetime":"2010-06-23T13:01:36Z",
+"uri":"http://web.archive.org/web/20100623130136/http://in.umh.es/grupos-detalle.aspx?grupo=7"
+},
+{"datetime":"2010-09-22T00:14:54Z",
+"uri":"http://web.archive.org/web/20100922001454/http://in.umh.es/grupos-detalle.aspx?grupo=7"
+},
+{"datetime":"2011-07-22T13:35:21Z",
+"uri":"http://web.archive.org/web/20110722133521/http://in.umh.es/grupos-detalle.aspx?grupo=7"
+},
+{"datetime":"2011-07-24T03:24:57Z",
+"uri":"http://web.archive.org/web/20110724032457/http://in.umh.es/grupos-detalle.aspx?grupo=7"
+},
+{"datetime":"2011-09-03T08:31:02Z",
+"uri":"http://web.archive.org/web/20110903083102/http://in.umh.es/grupos-detalle.aspx?grupo=7"
+},
+{"datetime":"2012-06-21T04:47:15Z",
+"uri":"http://web.archive.org/web/20120621044715/http://in.umh.es/grupos-detalle.aspx?grupo=7"
+},
+{"datetime":"2012-06-28T03:51:00Z",
+"uri":"http://web.archive.org/web/20120628035100/http://in.umh.es/grupos-detalle.aspx?grupo=7"
+},
+{"datetime":"2013-05-31T03:18:53Z",
+"uri":"http://web.archive.org/web/20130531031853/http://in.umh.es/grupos-detalle.aspx?grupo=7"
+},
+{"datetime":"2013-06-21T01:55:12Z",
+"uri":"http://web.archive.org/web/20130621015512/http://in.umh.es/grupos-detalle.aspx?grupo=7"
+},
+{"datetime":"2013-06-24T11:15:53Z",
+"uri":"http://web.archive.org/web/20130624111553/http://in.umh.es/grupos-detalle.aspx?grupo=7"
+},
+{"datetime":"2013-07-04T06:02:15Z",
+"uri":"http://web.archive.org/web/20130704060215/http://in.umh.es/grupos-detalle.aspx?grupo=7"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://in.umh.es/grupos-detalle.aspx?grupo=7"}
+ }

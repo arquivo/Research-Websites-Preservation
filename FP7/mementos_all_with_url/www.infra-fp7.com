@@ -1,0 +1,50 @@
+{"original_uri":"http://www.infra-fp7.com/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.infra-fp7.com/",
+"mementos": {
+"list": [
+{"datetime":"2011-02-02T02:10:11Z",
+"uri":"http://web.archive.org/web/20110202021011/http://www.infra-fp7.com/"
+},
+{"datetime":"2011-02-05T20:13:19Z",
+"uri":"http://web.archive.org/web/20110205201319/http://www.infra-fp7.com/"
+},
+{"datetime":"2011-08-02T12:53:38Z",
+"uri":"http://web.archive.org/web/20110802125338/http://www.infra-fp7.com/"
+},
+{"datetime":"2011-08-02T12:55:36Z",
+"uri":"http://web.archive.org/web/20110802125536/http://www.infra-fp7.com/"
+},
+{"datetime":"2013-12-10T06:53:43Z",
+"uri":"http://web.archive.org/web/20131210065343/http://www.infra-fp7.com/"
+},
+{"datetime":"2014-12-17T15:47:14Z",
+"uri":"http://web.archive.org/web/20141217154714/http://infra-fp7.com/"
+},
+{"datetime":"2014-12-20T13:59:52Z",
+"uri":"http://web.archive.org/web/20141220135952/http://www.infra-fp7.com/"
+},
+{"datetime":"2015-08-01T16:44:26Z",
+"uri":"http://web.archive.org/web/20150801164426/http://infra-fp7.com/"
+},
+{"datetime":"2016-01-10T01:53:58Z",
+"uri":"http://web.archive.org/web/20160110015358/http://infra-fp7.com/"
+},
+{"datetime":"2016-01-21T01:35:52Z",
+"uri":"http://web.archive.org/web/20160121013552/http://www.infra-fp7.com/"
+},
+{"datetime":"2016-02-05T03:14:21Z",
+"uri":"http://web.archive.org/web/20160205031421/http://infra-fp7.com/"
+},
+{"datetime":"2016-02-05T04:35:00Z",
+"uri":"http://web.archive.org/web/20160205043500/http://www.infra-fp7.com/"
+},
+{"datetime":"2016-03-05T22:12:26Z",
+"uri":"http://web.archive.org/web/20160305221226/http://infra-fp7.com/"
+},
+{"datetime":"2016-03-22T14:25:52Z",
+"uri":"http://web.archive.org/web/20160322142552/http://www.infra-fp7.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.infra-fp7.com/"}
+ }

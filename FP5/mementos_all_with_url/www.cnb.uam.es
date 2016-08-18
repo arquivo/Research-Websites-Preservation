@@ -1,0 +1,56 @@
+{"original_uri":"http://www.cnb.uam.es/info/ECEAR2000",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.cnb.uam.es/info/ECEAR2000",
+"mementos": {
+"list": [
+{"datetime":"2000-03-03T17:00:35Z",
+"uri":"http://web.archive.org/web/20000303170035/http://www.cnb.uam.es/info/ECEAR2000"
+},
+{"datetime":"2001-04-17T14:43:41Z",
+"uri":"http://web.archive.org/web/20010417144341/http://www.cnb.uam.es/info/ECEAR2000"
+},
+{"datetime":"2001-06-17T12:29:41Z",
+"uri":"http://web.archive.org/web/20010617122941/http://www.cnb.uam.es/info/ECEAR2000/"
+},
+{"datetime":"2002-06-14T01:30:33Z",
+"uri":"http://web.archive.org/web/20020614013033/http://www.cnb.uam.es/info/ECEAR2000/"
+},
+{"datetime":"2002-12-03T22:10:13Z",
+"uri":"http://web.archive.org/web/20021203221013/http://www.cnb.uam.es/info/ECEAR2000/"
+},
+{"datetime":"2003-05-12T03:33:04Z",
+"uri":"http://web.archive.org/web/20030512033304/http://www.cnb.uam.es/info/ECEAR2000/"
+},
+{"datetime":"2004-05-20T09:45:04Z",
+"uri":"http://web.archive.org/web/20040520094504/http://www.cnb.uam.es/info/ECEAR2000/"
+},
+{"datetime":"2004-09-04T21:01:24Z",
+"uri":"http://web.archive.org/web/20040904210124/http://www.cnb.uam.es/info/ECEAR2000/"
+},
+{"datetime":"2004-10-21T02:42:47Z",
+"uri":"http://web.archive.org/web/20041021024247/http://www.cnb.uam.es/info/ECEAR2000/"
+},
+{"datetime":"2005-01-25T10:51:27Z",
+"uri":"http://web.archive.org/web/20050125105127/http://www.cnb.uam.es/info/ECEAR2000/"
+},
+{"datetime":"2005-02-18T22:31:16Z",
+"uri":"http://web.archive.org/web/20050218223116/http://www.cnb.uam.es/info/ECEAR2000/"
+},
+{"datetime":"2005-04-26T16:10:07Z",
+"uri":"http://web.archive.org/web/20050426161007/http://www.cnb.uam.es/info/ECEAR2000/"
+},
+{"datetime":"2007-02-12T00:30:49Z",
+"uri":"http://web.archive.org/web/20070212003049/http://www.cnb.uam.es/info/ECEAR2000/"
+},
+{"datetime":"2007-10-23T21:53:33Z",
+"uri":"http://web.archive.org/web/20071023215333/http://www.cnb.uam.es/info/ECEAR2000/"
+},
+{"datetime":"2009-12-30T04:49:53Z",
+"uri":"http://web.archive.org/web/20091230044953/http://www.cnb.uam.es/info/ECEAR2000/"
+},
+{"datetime":"2010-03-25T23:39:58Z",
+"uri":"http://web.archive.org/web/20100325233958/http://www.cnb.uam.es/info/ECEAR2000/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.cnb.uam.es/info/ECEAR2000"}
+ }

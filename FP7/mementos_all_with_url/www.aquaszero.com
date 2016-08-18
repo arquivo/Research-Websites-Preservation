@@ -1,0 +1,65 @@
+{"original_uri":"http://www.aquaszero.com",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.aquaszero.com",
+"mementos": {
+"list": [
+{"datetime":"2010-12-08T01:04:31Z",
+"uri":"http://web.archive.org/web/20101208010431/http://www.aquaszero.com/"
+},
+{"datetime":"2011-01-28T11:44:14Z",
+"uri":"http://web.archive.org/web/20110128114414/http://www.aquaszero.com/"
+},
+{"datetime":"2011-10-09T06:22:29Z",
+"uri":"http://web.archive.org/web/20111009062229/http://www.aquaszero.com/"
+},
+{"datetime":"2012-05-08T23:05:42Z",
+"uri":"http://web.archive.org/web/20120508230542/http://www.aquaszero.com/"
+},
+{"datetime":"2013-01-21T17:02:34Z",
+"uri":"http://web.archive.org/web/20130121170234/http://www.aquaszero.com/"
+},
+{"datetime":"2013-05-18T18:37:59Z",
+"uri":"http://web.archive.org/web/20130518183759/http://aquaszero.com/"
+},
+{"datetime":"2013-10-18T15:23:13Z",
+"uri":"http://web.archive.org/web/20131018152313/http://www.aquaszero.com/"
+},
+{"datetime":"2014-02-19T21:10:03Z",
+"uri":"http://web.archive.org/web/20140219211003/http://www.aquaszero.com/"
+},
+{"datetime":"2014-07-04T08:46:21Z",
+"uri":"http://web.archive.org/web/20140704084621/http://www.aquaszero.com/"
+},
+{"datetime":"2014-09-03T08:35:03Z",
+"uri":"http://web.archive.org/web/20140903083503/http://www.aquaszero.com/"
+},
+{"datetime":"2014-10-05T06:50:23Z",
+"uri":"http://web.archive.org/web/20141005065023/http://www.aquaszero.com/"
+},
+{"datetime":"2014-12-16T19:37:14Z",
+"uri":"http://web.archive.org/web/20141216193714/http://aquaszero.com/"
+},
+{"datetime":"2015-01-25T05:58:13Z",
+"uri":"http://web.archive.org/web/20150125055813/http://www.aquaszero.com/"
+},
+{"datetime":"2015-02-25T08:19:04Z",
+"uri":"http://web.archive.org/web/20150225081904/http://www.aquaszero.com/"
+},
+{"datetime":"2015-03-21T20:29:26Z",
+"uri":"http://web.archive.org/web/20150321202926/http://www.aquaszero.com/"
+},
+{"datetime":"2015-08-01T05:14:36Z",
+"uri":"http://web.archive.org/web/20150801051436/http://aquaszero.com/"
+},
+{"datetime":"2015-10-29T01:39:29Z",
+"uri":"http://web.archive.org/web/20151029013929/http://www.aquaszero.com/"
+},
+{"datetime":"2016-01-10T08:50:33Z",
+"uri":"http://web.archive.org/web/20160110085033/http://aquaszero.com/"
+},
+{"datetime":"2016-03-10T07:59:50Z",
+"uri":"http://web.archive.org/web/20160310075950/http://aquaszero.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.aquaszero.com"}
+ }

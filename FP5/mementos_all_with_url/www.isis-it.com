@@ -1,0 +1,56 @@
+{"original_uri":"http://www.isis-it.com/transplus.htm",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.isis-it.com/transplus.htm",
+"mementos": {
+"list": [
+{"datetime":"2002-06-01T00:16:37Z",
+"uri":"http://web.archive.org/web/20020601001637/http://www.isis-it.com/transplus.htm"
+},
+{"datetime":"2002-07-12T09:45:32Z",
+"uri":"http://web.archive.org/web/20020712094532/http://www.isis-it.com/transplus.htm"
+},
+{"datetime":"2002-09-08T18:42:23Z",
+"uri":"http://web.archive.org/web/20020908184223/http://www.isis-it.com/transplus.htm"
+},
+{"datetime":"2002-11-22T00:30:08Z",
+"uri":"http://web.archive.org/web/20021122003008/http://www.isis-it.com/transplus.htm"
+},
+{"datetime":"2003-05-21T22:53:29Z",
+"uri":"http://web.archive.org/web/20030521225329/http://www.isis-it.com/transplus.htm"
+},
+{"datetime":"2003-09-22T21:11:07Z",
+"uri":"http://web.archive.org/web/20030922211107/http://www.isis-it.com/transplus.htm"
+},
+{"datetime":"2004-01-21T20:17:07Z",
+"uri":"http://web.archive.org/web/20040121201707/http://www.isis-it.com/transplus.htm"
+},
+{"datetime":"2004-03-08T09:32:53Z",
+"uri":"http://web.archive.org/web/20040308093253/http://www.isis-it.com/transplus.htm"
+},
+{"datetime":"2004-07-23T13:18:09Z",
+"uri":"http://web.archive.org/web/20040723131809/http://www.isis-it.com/transplus.htm"
+},
+{"datetime":"2004-10-20T09:40:55Z",
+"uri":"http://web.archive.org/web/20041020094055/http://www.isis-it.com/transplus.htm"
+},
+{"datetime":"2005-01-09T05:49:55Z",
+"uri":"http://web.archive.org/web/20050109054955/http://www.isis-it.com/transplus.htm"
+},
+{"datetime":"2005-02-18T10:29:17Z",
+"uri":"http://web.archive.org/web/20050218102917/http://www.isis-it.com/transplus.htm"
+},
+{"datetime":"2005-05-03T15:02:04Z",
+"uri":"http://web.archive.org/web/20050503150204/http://www.isis-it.com/transplus.htm"
+},
+{"datetime":"2005-12-02T19:08:32Z",
+"uri":"http://web.archive.org/web/20051202190832/http://www.isis-it.com/transplus.htm"
+},
+{"datetime":"2007-11-23T08:33:38Z",
+"uri":"http://web.archive.org/web/20071123083338/http://www.isis-it.com/transplus.htm"
+},
+{"datetime":"2009-12-27T05:25:43Z",
+"uri":"http://web.archive.org/web/20091227052543/http://www.isis-it.com/transplus.htm"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.isis-it.com/transplus.htm"}
+ }

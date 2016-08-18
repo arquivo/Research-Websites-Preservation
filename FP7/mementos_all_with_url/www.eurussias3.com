@@ -1,0 +1,59 @@
+{"original_uri":"http://www.eurussias3.com/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.eurussias3.com/",
+"mementos": {
+"list": [
+{"datetime":"2011-02-01T20:00:10Z",
+"uri":"http://web.archive.org/web/20110201200010/http://eurussias3.com/"
+},
+{"datetime":"2011-02-02T18:56:37Z",
+"uri":"http://web.archive.org/web/20110202185637/http://www.eurussias3.com/"
+},
+{"datetime":"2011-10-31T01:37:44Z",
+"uri":"http://web.archive.org/web/20111031013744/http://www.eurussias3.com/"
+},
+{"datetime":"2011-12-31T18:12:11Z",
+"uri":"http://web.archive.org/web/20111231181211/http://www.eurussias3.com/"
+},
+{"datetime":"2013-05-30T00:59:37Z",
+"uri":"http://web.archive.org/web/20130530005937/http://eurussias3.com/"
+},
+{"datetime":"2013-08-31T11:28:45Z",
+"uri":"http://web.archive.org/web/20130831112845/http://www.eurussias3.com/"
+},
+{"datetime":"2014-01-04T03:20:20Z",
+"uri":"http://web.archive.org/web/20140104032020/http://eurussias3.com/"
+},
+{"datetime":"2014-02-09T14:41:53Z",
+"uri":"http://web.archive.org/web/20140209144153/http://www.eurussias3.com/"
+},
+{"datetime":"2014-05-17T05:33:12Z",
+"uri":"http://web.archive.org/web/20140517053312/http://eurussias3.com/"
+},
+{"datetime":"2014-12-17T07:54:04Z",
+"uri":"http://web.archive.org/web/20141217075404/http://eurussias3.com/"
+},
+{"datetime":"2014-12-19T19:42:28Z",
+"uri":"http://web.archive.org/web/20141219194228/http://www.eurussias3.com/"
+},
+{"datetime":"2015-08-01T09:41:01Z",
+"uri":"http://web.archive.org/web/20150801094101/http://eurussias3.com/"
+},
+{"datetime":"2015-12-08T18:19:32Z",
+"uri":"http://web.archive.org/web/20151208181932/http://eurussias3.com/"
+},
+{"datetime":"2016-01-11T09:41:06Z",
+"uri":"http://web.archive.org/web/20160111094106/http://eurussias3.com/"
+},
+{"datetime":"2016-02-19T18:56:53Z",
+"uri":"http://web.archive.org/web/20160219185653/http://www.eurussias3.com/"
+},
+{"datetime":"2016-03-09T22:59:24Z",
+"uri":"http://web.archive.org/web/20160309225924/http://eurussias3.com/"
+},
+{"datetime":"2016-03-30T21:39:10Z",
+"uri":"http://web.archive.org/web/20160330213910/http://www.eurussias3.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.eurussias3.com/"}
+ }

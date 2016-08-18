@@ -1,0 +1,56 @@
+{"original_uri":"http://www.marlow.dimes.tudelft.nl",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.marlow.dimes.tudelft.nl",
+"mementos": {
+"list": [
+{"datetime":"2003-01-02T06:05:33Z",
+"uri":"http://web.archive.org/web/20030102060533/http://www.marlow.dimes.tudelft.nl/"
+},
+{"datetime":"2003-02-20T09:27:17Z",
+"uri":"http://web.archive.org/web/20030220092717/http://www.marlow.dimes.tudelft.nl/"
+},
+{"datetime":"2003-04-09T11:19:32Z",
+"uri":"http://web.archive.org/web/20030409111932/http://www.marlow.dimes.tudelft.nl/"
+},
+{"datetime":"2003-06-19T15:02:56Z",
+"uri":"http://web.archive.org/web/20030619150256/http://www.marlow.dimes.tudelft.nl/"
+},
+{"datetime":"2003-10-10T10:31:24Z",
+"uri":"http://web.archive.org/web/20031010103124/http://www.marlow.dimes.tudelft.nl/"
+},
+{"datetime":"2003-10-11T07:20:29Z",
+"uri":"http://web.archive.org/web/20031011072029/http://www.marlow.dimes.tudelft.nl/"
+},
+{"datetime":"2003-11-18T22:00:50Z",
+"uri":"http://web.archive.org/web/20031118220050/http://www.marlow.dimes.tudelft.nl/"
+},
+{"datetime":"2003-12-23T11:54:58Z",
+"uri":"http://web.archive.org/web/20031223115458/http://www.marlow.dimes.tudelft.nl/"
+},
+{"datetime":"2004-05-07T08:52:03Z",
+"uri":"http://web.archive.org/web/20040507085203/http://www.marlow.dimes.tudelft.nl/"
+},
+{"datetime":"2004-05-21T05:53:09Z",
+"uri":"http://web.archive.org/web/20040521055309/http://www.marlow.dimes.tudelft.nl/"
+},
+{"datetime":"2004-08-31T03:55:13Z",
+"uri":"http://web.archive.org/web/20040831035513/http://www.marlow.dimes.tudelft.nl/"
+},
+{"datetime":"2004-09-06T05:27:32Z",
+"uri":"http://web.archive.org/web/20040906052732/http://www.marlow.dimes.tudelft.nl/"
+},
+{"datetime":"2004-09-30T10:10:15Z",
+"uri":"http://web.archive.org/web/20040930101015/http://www.marlow.dimes.tudelft.nl/"
+},
+{"datetime":"2004-12-03T13:24:11Z",
+"uri":"http://web.archive.org/web/20041203132411/http://www.marlow.dimes.tudelft.nl/"
+},
+{"datetime":"2005-02-01T15:55:18Z",
+"uri":"http://web.archive.org/web/20050201155518/http://marlow.dimes.tudelft.nl/"
+},
+{"datetime":"2005-02-07T00:00:51Z",
+"uri":"http://web.archive.org/web/20050207000051/http://www.marlow.dimes.tudelft.nl/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.marlow.dimes.tudelft.nl"}
+ }

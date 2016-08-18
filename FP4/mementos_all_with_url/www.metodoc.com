@@ -1,0 +1,65 @@
+{"original_uri":"http://www.metodoc.com/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.metodoc.com/",
+"mementos": {
+"list": [
+{"datetime":"1998-12-12T03:09:39Z",
+"uri":"http://web.archive.org/web/19981212030939/http://www.metodoc.com/"
+},
+{"datetime":"1999-01-25T10:12:13Z",
+"uri":"http://web.archive.org/web/19990125101213/http://www.metodoc.com/"
+},
+{"datetime":"1999-01-29T05:33:53Z",
+"uri":"http://web.archive.org/web/19990129053353/http://www.metodoc.com/"
+},
+{"datetime":"1999-02-08T01:48:16Z",
+"uri":"http://web.archive.org/web/19990208014816/http://www.metodoc.com/"
+},
+{"datetime":"1999-02-09T12:46:14Z",
+"uri":"http://web.archive.org/web/19990209124614/http://metodoc.com/"
+},
+{"datetime":"1999-10-04T08:33:53Z",
+"uri":"http://web.archive.org/web/19991004083353/http://metodoc.com/"
+},
+{"datetime":"1999-11-10T11:31:59Z",
+"uri":"http://web.archive.org/web/19991110113159/http://metodoc.com/"
+},
+{"datetime":"2000-02-26T14:15:07Z",
+"uri":"http://web.archive.org/web/20000226141507/http://metodoc.com/"
+},
+{"datetime":"2000-10-28T17:21:17Z",
+"uri":"http://web.archive.org/web/20001028172117/http://www.metodoc.com/"
+},
+{"datetime":"2001-07-23T00:16:28Z",
+"uri":"http://web.archive.org/web/20010723001628/http://www.metodoc.com/"
+},
+{"datetime":"2001-09-30T23:41:53Z",
+"uri":"http://web.archive.org/web/20010930234153/http://www.metodoc.com/"
+},
+{"datetime":"2002-01-26T02:46:34Z",
+"uri":"http://web.archive.org/web/20020126024634/http://www.metodoc.com/"
+},
+{"datetime":"2013-06-13T15:42:49Z",
+"uri":"http://web.archive.org/web/20130613154249/http://metodoc.com/"
+},
+{"datetime":"2014-01-04T03:31:13Z",
+"uri":"http://web.archive.org/web/20140104033113/http://metodoc.com/"
+},
+{"datetime":"2014-05-17T18:49:37Z",
+"uri":"http://web.archive.org/web/20140517184937/http://metodoc.com/"
+},
+{"datetime":"2014-12-17T15:24:55Z",
+"uri":"http://web.archive.org/web/20141217152455/http://metodoc.com/"
+},
+{"datetime":"2015-08-01T21:53:31Z",
+"uri":"http://web.archive.org/web/20150801215331/http://metodoc.com/"
+},
+{"datetime":"2016-01-11T02:10:16Z",
+"uri":"http://web.archive.org/web/20160111021016/http://metodoc.com/"
+},
+{"datetime":"2016-03-13T04:33:04Z",
+"uri":"http://web.archive.org/web/20160313043304/http://metodoc.com/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.metodoc.com/"}
+ }

@@ -1,0 +1,59 @@
+{"original_uri":"http://www.youtube.com/watch?v=SOC2fgs1_lQ",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.youtube.com/watch?v=SOC2fgs1_lQ",
+"mementos": {
+"list": [
+{"datetime":"2008-06-20T10:57:29Z",
+"uri":"http://www.webarchive.org.uk:80/wayback/archive/20080620105729/http://www.youtube.com/watch"
+},
+{"datetime":"2008-06-20T10:57:31Z",
+"uri":"http://www.webarchive.org.uk:80/wayback/archive/20080620105731/http://youtube.com/watch"
+},
+{"datetime":"2008-06-23T08:24:20Z",
+"uri":"http://www.webarchive.org.uk:80/wayback/archive/20080623082420/http://www.youtube.com/watch"
+},
+{"datetime":"2008-06-23T08:24:23Z",
+"uri":"http://www.webarchive.org.uk:80/wayback/archive/20080623082423/http://youtube.com/watch"
+},
+{"datetime":"2008-07-17T00:43:23Z",
+"uri":"http://www.webarchive.org.uk:80/wayback/archive/20080717004323/http://www.youtube.com/watch"
+},
+{"datetime":"2008-07-17T00:43:52Z",
+"uri":"http://www.webarchive.org.uk:80/wayback/archive/20080717004352/http://youtube.com/watch"
+},
+{"datetime":"2008-08-19T09:25:41Z",
+"uri":"http://www.webarchive.org.uk:80/wayback/archive/20080819092541/http://www.youtube.com/watch"
+},
+{"datetime":"2008-09-09T08:43:18Z",
+"uri":"http://www.webarchive.org.uk:80/wayback/archive/20080909084318/http://www.youtube.com/watch"
+},
+{"datetime":"2009-01-02T09:23:31Z",
+"uri":"http://www.webarchive.org.uk:80/wayback/archive/20090102092331/http://www.youtube.com/watch"
+},
+{"datetime":"2009-01-02T09:23:34Z",
+"uri":"http://www.webarchive.org.uk:80/wayback/archive/20090102092334/http://youtube.com/watch"
+},
+{"datetime":"2009-05-06T15:23:09Z",
+"uri":"http://www.webarchive.org.uk:80/wayback/archive/20090506152309/http://www.youtube.com/watch"
+},
+{"datetime":"2009-06-24T00:41:00Z",
+"uri":"http://www.webarchive.org.uk:80/wayback/archive/20090624004100/http://www.youtube.com/watch"
+},
+{"datetime":"2010-04-19T11:48:14Z",
+"uri":"http://www.webarchive.org.uk:80/wayback/archive/20100419114814/http://www.youtube.com/watch"
+},
+{"datetime":"2010-05-21T22:19:00Z",
+"uri":"http://www.webarchive.org.uk:80/wayback/archive/20100521221900/http://www.youtube.com/watch"
+},
+{"datetime":"2010-05-21T22:19:01Z",
+"uri":"http://www.webarchive.org.uk:80/wayback/archive/20100521221901/http://youtube.com/watch"
+},
+{"datetime":"2010-05-24T14:23:08Z",
+"uri":"http://www.webarchive.org.uk:80/wayback/archive/20100524142308/http://youtube.com/watch"
+},
+{"datetime":"2010-06-19T22:58:05Z",
+"uri":"http://www.webarchive.org.uk:80/wayback/archive/20100619225805/http://www.youtube.com/watch"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.youtube.com/watch?v=SOC2fgs1_lQ"}
+ }

@@ -1,0 +1,65 @@
+{"original_uri":"http://cern.ch/aida",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://cern.ch/aida",
+"mementos": {
+"list": [
+{"datetime":"2010-05-21T05:58:55Z",
+"uri":"http://web.archive.org/web/20100521055855/http://cern.ch/aida"
+},
+{"datetime":"2010-07-20T22:14:17Z",
+"uri":"http://web.archive.org/web/20100720221417/http://cern.ch/aida"
+},
+{"datetime":"2010-07-22T03:39:44Z",
+"uri":"http://web.archive.org/web/20100722033944/http://cern.ch/aida"
+},
+{"datetime":"2010-10-24T16:41:03Z",
+"uri":"http://web.archive.org/web/20101024164103/http://cern.ch/aida"
+},
+{"datetime":"2011-03-21T16:26:26Z",
+"uri":"http://web.archive.org/web/20110321162626/http://cern.ch/aida"
+},
+{"datetime":"2011-04-03T00:03:03Z",
+"uri":"http://web.archive.org/web/20110403000303/http://cern.ch/aida"
+},
+{"datetime":"2011-07-06T12:46:33Z",
+"uri":"http://web.archive.org/web/20110706124633/http://cern.ch/aida"
+},
+{"datetime":"2011-10-26T17:51:38Z",
+"uri":"http://web.archive.org/web/20111026175138/http://cern.ch/aida"
+},
+{"datetime":"2012-01-21T06:47:00Z",
+"uri":"http://web.archive.org/web/20120121064700/http://cern.ch/aida"
+},
+{"datetime":"2012-02-13T15:50:28Z",
+"uri":"http://web.archive.org/web/20120213155028/http://cern.ch/aida"
+},
+{"datetime":"2012-07-01T17:00:33Z",
+"uri":"http://web.archive.org/web/20120701170033/http://cern.ch/aida"
+},
+{"datetime":"2012-08-02T08:41:00Z",
+"uri":"http://web.archive.org/web/20120802084100/http://cern.ch/aida"
+},
+{"datetime":"2012-12-11T08:28:05Z",
+"uri":"http://web.archive.org/web/20121211082805/http://cern.ch/aida"
+},
+{"datetime":"2013-04-04T09:50:15Z",
+"uri":"http://web.archive.org/web/20130404095015/http://cern.ch/aida"
+},
+{"datetime":"2013-04-07T12:06:48Z",
+"uri":"http://web.archive.org/web/20130407120648/http://cern.ch/aida"
+},
+{"datetime":"2013-06-08T02:19:10Z",
+"uri":"http://web.archive.org/web/20130608021910/http://cern.ch/aida"
+},
+{"datetime":"2013-08-01T03:04:49Z",
+"uri":"http://web.archive.org/web/20130801030449/http://cern.ch/aida"
+},
+{"datetime":"2014-11-21T12:36:28Z",
+"uri":"http://web.archive.org/web/20141121123628/http://www.cern.ch/aida"
+},
+{"datetime":"2015-09-12T19:42:09Z",
+"uri":"http://web.archive.org/web/20150912194209/http://cern.ch/aida"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://cern.ch/aida"}
+ }

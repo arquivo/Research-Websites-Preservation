@@ -1,0 +1,53 @@
+{"original_uri":"http://www.tupaisystems.co.il/AcknownetSite/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.tupaisystems.co.il/AcknownetSite/",
+"mementos": {
+"list": [
+{"datetime":"2002-08-29T14:31:58Z",
+"uri":"http://web.archive.org/web/20020829143158/http://www.tupaisystems.co.il/AcknownetSite/"
+},
+{"datetime":"2003-06-05T07:54:45Z",
+"uri":"http://web.archive.org/web/20030605075445/http://www.tupaisystems.co.il/AcknownetSite"
+},
+{"datetime":"2003-06-09T03:09:28Z",
+"uri":"http://web.archive.org/web/20030609030928/http://www.tupaisystems.co.il/AcknownetSite/"
+},
+{"datetime":"2003-09-17T04:11:36Z",
+"uri":"http://web.archive.org/web/20030917041136/http://www.tupaisystems.co.il/AcknownetSite"
+},
+{"datetime":"2003-09-19T08:20:33Z",
+"uri":"http://web.archive.org/web/20030919082033/http://www.tupaisystems.co.il/AcknownetSite/"
+},
+{"datetime":"2004-07-13T22:25:11Z",
+"uri":"http://web.archive.org/web/20040713222511/http://www.tupaisystems.co.il/AcknownetSite/"
+},
+{"datetime":"2004-10-23T22:35:40Z",
+"uri":"http://web.archive.org/web/20041023223540/http://www.tupaisystems.co.il/AcknownetSite/"
+},
+{"datetime":"2005-01-03T02:45:59Z",
+"uri":"http://web.archive.org/web/20050103024559/http://www.tupaisystems.co.il/AcknownetSite/"
+},
+{"datetime":"2005-03-15T20:38:18Z",
+"uri":"http://web.archive.org/web/20050315203818/http://www.tupaisystems.co.il/AcknownetSite/"
+},
+{"datetime":"2005-04-16T16:51:45Z",
+"uri":"http://web.archive.org/web/20050416165145/http://www.tupaisystems.co.il/AcknownetSite/"
+},
+{"datetime":"2005-09-11T08:16:25Z",
+"uri":"http://web.archive.org/web/20050911081625/http://www.tupaisystems.co.il/AcknownetSite/"
+},
+{"datetime":"2005-11-12T18:17:44Z",
+"uri":"http://web.archive.org/web/20051112181744/http://www.tupaisystems.co.il/AcknownetSite/"
+},
+{"datetime":"2007-06-13T14:35:35Z",
+"uri":"http://web.archive.org/web/20070613143535/http://www.tupaisystems.co.il/AcknownetSite/"
+},
+{"datetime":"2007-07-14T01:11:22Z",
+"uri":"http://web.archive.org/web/20070714011122/http://www.tupaisystems.co.il/AcknownetSite/"
+},
+{"datetime":"2007-07-15T21:09:32Z",
+"uri":"http://web.archive.org/web/20070715210932/http://www.tupaisystems.co.il/AcknownetSite/"
+}
+]
+ },"timemap_uri": {
+"json_format": "http://labs.mementoweb.org/timemap/json/1/http://www.tupaisystems.co.il/AcknownetSite/"}
+ }
