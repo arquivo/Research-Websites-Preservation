@@ -29,3 +29,9 @@ R&D Projects Classifier:
 - [Classifier Program](https://github.com/arquivo/Research-Websites-Preservation/blob/master/classifier/bernoulliNB%20tuning.py)
 - [FP7 List of projects URLs filtered with the Classifier](https://github.com/arquivo/Research-Websites-Preservation/blob/master/classifier/filtered_projects_classification.csv)
 
+Datasets Completed with the methodology:
+- [FP7 Completed Datasets](https://github.com/arquivo/Research-Websites-Preservation/blob/master/Bing%20experiments/preservingR%26D/cordis-fp7projects-completed.xlsx)
+- [FP6 Completed Datasets]()
+- [FP5 Completed Datasets](https://github.com/arquivo/Research-Websites-Preservation/blob/master/FP5/cordisfp5-completed.ods)
+- [FP4 Completed Datasets](https://github.com/arquivo/Research-Websites-Preservation/blob/master/FP4/cordisfp4projectsnoobjectives-completed.xls)
+- [FCT R&D Projects Completed](https://github.com/arquivo/Research-Websites-Preservation/blob/master/FCT/FCT%20-%20Projetos%20Financiados%20%26%20UnidadesID%20Completo.xlsx)
